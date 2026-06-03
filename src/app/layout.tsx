@@ -11,14 +11,14 @@ const googleSans = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: "Captio — Live Captions & Transcription for Deaf and Hard of Hearing",
-    template: "%s | Captio",
+    default: "Captio AI — Live Captions & Transcription for Deaf and Hard of Hearing",
+    template: "%s | Captio AI",
   },
   description:
-    "Captio provides real-time live captions, live translation, audio transcription, and AI summaries for deaf and hard of hearing people. iOS app. 60+ languages.",
+    "Captio AI provides real-time live captions, live translation, audio transcription, and AI summaries for deaf and hard of hearing people. iOS app. 60+ languages.",
   metadataBase: new URL("https://captioai.app"),
   openGraph: {
-    siteName: "Captio",
+    siteName: "Captio AI",
     locale: "en_US",
     type: "website",
   },

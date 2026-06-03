@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6 py-12">
         <div className="flex flex-col md:flex-row justify-between gap-8">
           <div>
-            <span className="text-lg font-bold text-brand tracking-tight">Captio</span>
+            <span className="text-lg font-bold text-brand tracking-tight">Captio AI</span>
             <p className="mt-2 text-sm text-gray-500 max-w-xs">
               Real-time live captions for deaf and hard of hearing people. iOS app. 60+ languages.
             </p>
@@ -37,7 +37,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 pt-6 border-t border-gray-100 flex flex-col sm:flex-row justify-between items-center gap-2 text-xs text-gray-400">
-          <span>© {new Date().getFullYear()} Captio. All rights reserved.</span>
+          <span>© {new Date().getFullYear()} Captio AI. All rights reserved.</span>
           <span>iOS app · captioai.app</span>
         </div>
       </div>

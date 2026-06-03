@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Audio Transcription",
   description:
-    "Upload audio or video files and get an accurate transcript. Captio audio transcription for deaf and hard of hearing people. 60+ languages.",
+    "Upload audio or video files and get an accurate transcript. Captio AI audio transcription for deaf and hard of hearing people. 60+ languages.",
 };
 
 export default function AudioTranscriptionPage() {

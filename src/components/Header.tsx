@@ -53,14 +53,15 @@ export default function Header() {
       <header className="max-w-6xl mx-auto bg-brand rounded-2xl px-5 h-14 sm:h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2" onClick={() => setOpen(false)}>
           <Image src="/owl_profile.png" alt="" width={32} height={32} className="rounded-full" priority />
-          <Image src="/logo_text.png" alt="Captio" width={90} height={25} priority />
+          <Image src="/logo_text.png" alt="Captio AI" width={90} height={25} priority />
         </Link>
 
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-white/80">
-          <Link href="/live-captions" className="hover:text-white transition-colors">Features</Link>
+          <Link href="/#features" className="hover:text-white transition-colors">Features</Link>
+          <Link href="/#use-cases" className="hover:text-white transition-colors">Use Cases</Link>
+          <Link href="/#languages" className="hover:text-white transition-colors">Languages</Link>
           <Link href="/pricing" className="hover:text-white transition-colors">Pricing</Link>
-          <Link href="/compare/otter-ai" className="hover:text-white transition-colors">Compare</Link>
         </nav>
 
         <a href="#download" className="hidden md:block bg-white text-brand text-sm font-semibold px-5 py-2.5 rounded-[14px] hover:bg-blue-50 transition-colors">

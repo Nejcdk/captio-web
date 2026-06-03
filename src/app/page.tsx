@@ -5,9 +5,9 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Captio — Live Captions & Transcription for Deaf and Hard of Hearing",
+  title: "Captio AI — Live Captions & Transcription for Deaf and Hard of Hearing",
   description:
-    "Captio gives deaf and hard of hearing people real-time live captions, live translation, audio transcription, and AI summaries — right on their iPhone. 60+ languages.",
+    "Captio AI gives deaf and hard of hearing people real-time live captions, live translation, audio transcription, and AI summaries — right on their iPhone. 60+ languages.",
 };
 
 const features = [
@@ -100,7 +100,7 @@ const useCases = [
   {
     label: "Group Settings",
     href: "/live-captions/group-settings",
-    description: "Follow group discussions, dinners, and social gatherings with ease. Captio handles multiple speakers so you never feel left out of the conversation.",
+    description: "Follow group discussions, dinners, and social gatherings with ease. Captio AI handles multiple speakers so you never feel left out of the conversation.",
     icon: "👥",
   },
   {
@@ -124,7 +124,7 @@ const useCases = [
   {
     label: "Traveling",
     href: "/live-captions/traveling",
-    description: "Navigate airports, hotels, restaurants, and new places confidently. Captio works in 60+ languages so you're covered wherever you go.",
+    description: "Navigate airports, hotels, restaurants, and new places confidently. Captio AI works in 60+ languages so you're covered wherever you go.",
     icon: "✈️",
   },
   {
@@ -136,45 +136,104 @@ const useCases = [
 ];
 
 const languages = [
-  "Spanish", "French", "German", "Italian", "Portuguese",
-  "Dutch", "Russian", "Japanese", "Korean", "Chinese",
-  "Arabic", "Hindi", "Turkish", "Polish", "Swedish",
-  "Norwegian", "Danish", "Finnish", "Greek", "Ukrainian",
+  { name: "English", flag: "🇬🇧", slug: "english" },
+  { name: "Chinese", flag: "🇨🇳", slug: "chinese" },
+  { name: "Hindi", flag: "🇮🇳", slug: "hindi" },
+  { name: "Spanish", flag: "🇪🇸", slug: "spanish" },
+  { name: "Arabic", flag: "🇸🇦", slug: "arabic" },
+  { name: "Bengali", flag: "🇧🇩", slug: "bengali" },
+  { name: "Portuguese", flag: "🇵🇹", slug: "portuguese" },
+  { name: "Russian", flag: "🇷🇺", slug: "russian" },
+  { name: "Urdu", flag: "🇵🇰", slug: "urdu" },
+  { name: "Indonesian", flag: "🇮🇩", slug: "indonesian" },
+  { name: "German", flag: "🇩🇪", slug: "german" },
+  { name: "Japanese", flag: "🇯🇵", slug: "japanese" },
+  { name: "Swahili", flag: "🇰🇪", slug: "swahili" },
+  { name: "Marathi", flag: "🇮🇳", slug: "marathi" },
+  { name: "Telugu", flag: "🇮🇳", slug: "telugu" },
+  { name: "Turkish", flag: "🇹🇷", slug: "turkish" },
+  { name: "Vietnamese", flag: "🇻🇳", slug: "vietnamese" },
+  { name: "Korean", flag: "🇰🇷", slug: "korean" },
+  { name: "French", flag: "🇫🇷", slug: "french" },
+  { name: "Italian", flag: "🇮🇹", slug: "italian" },
+  { name: "Tamil", flag: "🇮🇳", slug: "tamil" },
+  { name: "Persian", flag: "🇮🇷", slug: "persian" },
+  { name: "Punjabi", flag: "🇮🇳", slug: "punjabi" },
+  { name: "Gujarati", flag: "🇮🇳", slug: "gujarati" },
+  { name: "Thai", flag: "🇹🇭", slug: "thai" },
+  { name: "Polish", flag: "🇵🇱", slug: "polish" },
+  { name: "Ukrainian", flag: "🇺🇦", slug: "ukrainian" },
+  { name: "Malay", flag: "🇲🇾", slug: "malay" },
+  { name: "Malayalam", flag: "🇮🇳", slug: "malayalam" },
+  { name: "Kannada", flag: "🇮🇳", slug: "kannada" },
+  { name: "Tagalog", flag: "🇵🇭", slug: "tagalog" },
+  { name: "Azerbaijani", flag: "🇦🇿", slug: "azerbaijani" },
+  { name: "Dutch", flag: "🇳🇱", slug: "dutch" },
+  { name: "Romanian", flag: "🇷🇴", slug: "romanian" },
+  { name: "Kazakh", flag: "🇰🇿", slug: "kazakh" },
+  { name: "Czech", flag: "🇨🇿", slug: "czech" },
+  { name: "Hungarian", flag: "🇭🇺", slug: "hungarian" },
+  { name: "Greek", flag: "🇬🇷", slug: "greek" },
+  { name: "Swedish", flag: "🇸🇪", slug: "swedish" },
+  { name: "Hebrew", flag: "🇮🇱", slug: "hebrew" },
+  { name: "Bulgarian", flag: "🇧🇬", slug: "bulgarian" },
+  { name: "Serbian", flag: "🇷🇸", slug: "serbian" },
+  { name: "Danish", flag: "🇩🇰", slug: "danish" },
+  { name: "Albanian", flag: "🇦🇱", slug: "albanian" },
+  { name: "Afrikaans", flag: "🇿🇦", slug: "afrikaans" },
+  { name: "Belarusian", flag: "🇧🇾", slug: "belarusian" },
+  { name: "Finnish", flag: "🇫🇮", slug: "finnish" },
+  { name: "Slovak", flag: "🇸🇰", slug: "slovak" },
+  { name: "Croatian", flag: "🇭🇷", slug: "croatian" },
+  { name: "Norwegian", flag: "🇳🇴", slug: "norwegian" },
+  { name: "Catalan", flag: "🇪🇸", slug: "catalan" },
+  { name: "Lithuanian", flag: "🇱🇹", slug: "lithuanian" },
+  { name: "Bosnian", flag: "🇧🇦", slug: "bosnian" },
+  { name: "Galician", flag: "🇪🇸", slug: "galician" },
+  { name: "Macedonian", flag: "🇲🇰", slug: "macedonian" },
+  { name: "Slovenian", flag: "🇸🇮", slug: "slovenian" },
+  { name: "Latvian", flag: "🇱🇻", slug: "latvian" },
+  { name: "Estonian", flag: "🇪🇪", slug: "estonian" },
+  { name: "Welsh", flag: "🏴󠁧󠁢󠁷󠁬󠁳󠁿", slug: "welsh" },
+  { name: "Basque", flag: "🇪🇸", slug: "basque" },
 ];
 
 const testimonials = [
   {
-    quote: "Captio changed how I navigate everyday life. I can follow conversations at work, at restaurants, everywhere — without asking people to repeat themselves.",
-    name: "Sarah M.",
+    quote: "Captio AI changed how I navigate everyday life. I can follow conversations at work, at restaurants, everywhere — without asking people to repeat themselves.",
+    name: "Sarah",
+    email: "sarah.m***@gmail.com",
     detail: "Hard of hearing since birth",
   },
   {
     quote: "I use it in every lecture. The captions are fast enough that I don't fall behind. My professors don't even need to know.",
-    name: "James L.",
+    name: "James",
+    email: "james.l***@gmail.com",
     detail: "University student, deaf",
   },
   {
-    quote: "Finally an app that works in German too. I was using English tools with poor accuracy. Captio is accurate and instant.",
-    name: "Anna K.",
+    quote: "Finally an app that works in German too. I was using English tools with poor accuracy. Captio AI is accurate and instant.",
+    name: "Anna",
+    email: "anna.k***@gmail.com",
     detail: "Hard of hearing, Germany",
   },
 ];
 
 const faqs = [
   {
-    q: "Who is Captio designed for?",
-    a: "Captio is built primarily for deaf and hard of hearing people who need to follow spoken conversations in real time. It's also used by people in noisy environments, language learners, and anyone who prefers reading over listening.",
+    q: "Who is Captio AI designed for?",
+    a: "Captio AI is built primarily for deaf and hard of hearing people who need to follow spoken conversations in real time. It's also used by people in noisy environments, language learners, and anyone who prefers reading over listening.",
   },
   {
-    q: "Which languages does Captio support?",
-    a: "Captio supports 60+ languages for live captions and translation, including Spanish, French, German, Japanese, Chinese, Arabic, Hindi, and many more. See the full list on the Languages page.",
+    q: "Which languages does Captio AI support?",
+    a: "Captio AI supports 60+ languages for live captions and translation, including Spanish, French, German, Japanese, Chinese, Arabic, Hindi, and many more. See the full list on the Languages page.",
   },
   {
     q: "Is my audio stored or shared?",
-    a: "No. Captio processes audio in real time via Soniox. Conversations are never stored on any server. Your data is never sold and never used for AI training.",
+    a: "No. Captio AI processes audio in real time via Soniox. Conversations are never stored on any server. Your data is never sold and never used for AI training.",
   },
   {
-    q: "Does Captio work without an internet connection?",
+    q: "Does Captio AI work without an internet connection?",
     a: "Live captioning requires an internet connection to process audio via Soniox. Audio Transcription for uploaded files also requires connectivity.",
   },
   {
@@ -188,7 +247,7 @@ const schemaOrg = {
   "@graph": [
     {
       "@type": "SoftwareApplication",
-      name: "Captio",
+      name: "Captio AI",
       applicationCategory: "AccessibilityApplication",
       operatingSystem: "iOS",
       description: "Real-time live captions, live translation, audio transcription, and AI summaries for deaf and hard of hearing people. 60+ languages.",
@@ -251,7 +310,7 @@ export default function HomePage() {
             <div className="mt-6 sm:mt-10">
               <Image
                 src="/mockup_app.png"
-                alt="Captio app showing live captions and translation"
+                alt="Captio AI app showing live captions and translation"
                 width={400}
                 height={340}
                 className="w-[280px] sm:w-[400px] h-auto mx-auto drop-shadow-2xl"
@@ -262,9 +321,9 @@ export default function HomePage() {
         </section>
 
         {/* ── Features ── */}
-        <section id="features" className="pt-8 pb-24 sm:pt-10 sm:pb-24 px-6 bg-white">
+        <section id="features" className="pt-8 pb-10 sm:pt-10 sm:pb-12 px-6 bg-white">
           <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-10">
+            <div className="text-center mb-7">
               <span className="text-xs font-bold text-brand uppercase tracking-widest">Features</span>
               <h2 className="text-3xl font-bold text-gray-900 tracking-tight mt-3">
                 Everything you need to follow any conversation
@@ -309,9 +368,9 @@ export default function HomePage() {
         </section>
 
         {/* ── Use Cases ── */}
-        <section id="use-cases" className="py-14 px-6 bg-gray-50">
+        <section id="use-cases" className="py-10 px-6 bg-gray-50">
           <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-10">
+            <div className="text-center mb-7">
               <span className="text-xs font-bold text-brand uppercase tracking-widest">Use Cases</span>
               <h2 className="text-3xl font-bold text-gray-900 tracking-tight mt-3">
                 Works in every situation
@@ -342,91 +401,92 @@ export default function HomePage() {
         </section>
 
         {/* ── Languages ── */}
-        <section id="languages" className="py-14 px-6 bg-white">
+        <section id="languages" className="py-10 px-6 bg-white">
           <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-10">
+            <div className="text-center mb-7">
               <span className="text-xs font-bold text-brand uppercase tracking-widest">Languages</span>
               <h2 className="text-3xl font-bold text-gray-900 tracking-tight mt-3">
-                60+ languages, every accent
+                Captio AI supports 60+ languages
               </h2>
-              <p className="text-gray-500 mt-3 max-w-xl mx-auto">
-                Captio handles regional dialects and accents — not just textbook speech.
-              </p>
             </div>
 
-            <div className="flex flex-wrap justify-center gap-2 mb-8">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
               {languages.map((lang) => (
                 <Link
-                  key={lang}
-                  href={`/live-captions/meetings/${lang.toLowerCase()}`}
-                  className="px-4 py-2 bg-gray-50 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-light hover:text-brand hover:border-brand transition-colors font-medium"
+                  key={lang.slug}
+                  href={`/live-captions/meetings/${lang.slug}`}
+                  className="flex items-center gap-2 px-4 py-3 bg-white border border-brand rounded-[14px] text-base font-bold text-gray-900 hover:bg-brand-light hover:text-brand transition-colors"
                 >
-                  {lang}
+                  <span className="text-base">{lang.flag}</span>
+                  {lang.name}
                 </Link>
               ))}
-            </div>
-
-            <div className="text-center">
-              <Link href="/live-captions" className="text-sm font-semibold text-brand hover:underline">
-                See all supported languages →
-              </Link>
             </div>
           </div>
         </section>
 
         {/* ── Trust ── */}
-        <section id="privacy" className="py-14 px-6 bg-brand">
-          <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-10">
-              <span className="text-xs font-bold text-white/60 uppercase tracking-widest">Privacy</span>
-              <h2 className="text-3xl font-bold text-white tracking-tight mt-3">
-                Your conversations stay private
-              </h2>
-              <p className="text-blue-200 mt-3 max-w-xl mx-auto">
-                Captio was built around trust. What you say never leaves your control.
-              </p>
-            </div>
+        <section id="privacy" className="py-10 px-6 bg-brand">
+          <div className="max-w-3xl mx-auto text-center">
+            <span className="text-xs font-bold text-white/60 uppercase tracking-widest">Privacy</span>
+            <h2 className="text-3xl font-bold text-white tracking-tight mt-3 mb-2">
+              Keep your conversations 100% private
+            </h2>
+            <div className="mb-8" />
 
-            <div className="grid sm:grid-cols-3 gap-5">
+            <div className="grid sm:grid-cols-3 gap-4 mb-10">
               {[
                 {
                   title: "Never stored",
-                  description: "Audio is processed in real time via Soniox and immediately discarded. No recordings are kept on any server.",
+                  description: "Audio is processed in real time and immediately discarded. No recordings kept.",
                 },
                 {
                   title: "Never sold",
-                  description: "Your data is your data. Captio does not sell, share, or monetize any information about you or your conversations.",
+                  description: "Captio AI does not sell, share, or monetize any information about you.",
                 },
                 {
                   title: "Not used for AI training",
                   description: "Your conversations are never used to train AI models — ours or anyone else's.",
                 },
               ].map((item) => (
-                <div key={item.title} className="bg-white/10 backdrop-blur rounded-2xl p-8 border border-white/20">
-                  <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center mb-5">
-                    <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5 text-white" stroke="currentColor" strokeWidth={2}>
-                      <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" strokeLinecap="round" strokeLinejoin="round" />
-                    </svg>
-                  </div>
-                  <h3 className="font-semibold text-white mb-2">{item.title}</h3>
+                <div key={item.title} className="bg-white/10 backdrop-blur rounded-2xl p-6 border border-white/20 text-left">
+                  <h3 className="font-semibold text-white mb-1">{item.title}</h3>
                   <p className="text-sm text-blue-100 leading-relaxed">{item.description}</p>
                 </div>
               ))}
+            </div>
+
+            {/* Shield SVG */}
+            <div className="flex justify-center">
+              <svg width="160" height="179" viewBox="0 0 200 224" xmlns="http://www.w3.org/2000/svg">
+                <path d="M100 14 L172 38 V100 C172 142 140 174 100 188 C60 174 28 142 28 100 V38 Z" fill="white" fillOpacity="0.15"/>
+                <path d="M100 14 L172 38 V100 C172 142 140 174 100 188 C60 174 28 142 28 100 V38 Z" fill="none" stroke="white" strokeOpacity="0.4" strokeWidth="2"/>
+                <path d="M100 28 L160 48 V100 C160 136 132 162 100 174 C68 162 40 136 40 100 V48 Z" fill="none" stroke="white" strokeOpacity="0.3" strokeWidth="1.5"/>
+                <path d="M72 100 L92 120 L132 78" fill="none" stroke="white" strokeWidth="9" strokeLinecap="round" strokeLinejoin="round"/>
+                <rect x="36" y="198" width="128" height="26" rx="13" fill="white" fillOpacity="0.2" stroke="white" strokeOpacity="0.4" strokeWidth="1.5"/>
+                <text x="100" y="216" textAnchor="middle" fontFamily="sans-serif" fontSize="11" fontWeight="700" fill="white" letterSpacing="1.6">100% PRIVATE</text>
+              </svg>
             </div>
           </div>
         </section>
 
         {/* ── Testimonials ── */}
-        <section className="py-14 px-6 bg-white">
+        <section className="py-10 px-6 bg-white">
           <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-10">
+            <div className="text-center mb-7">
               <span className="text-xs font-bold text-brand uppercase tracking-widest">Reviews</span>
-              <h2 className="text-3xl font-bold text-gray-900 tracking-tight mt-3">What users say</h2>
+              <h2 className="text-3xl font-bold text-gray-900 tracking-tight mt-3">People love Captio AI</h2>
             </div>
 
             <div className="grid sm:grid-cols-3 gap-5">
               {testimonials.map((t) => (
-                <div key={t.name} className="p-8 rounded-2xl border border-gray-200 bg-white shadow-sm flex flex-col gap-4">
+                <div key={t.name} className="p-8 rounded-2xl border border-gray-200 bg-white shadow-sm flex flex-col gap-4 relative">
+                  <div className="absolute top-6 right-6 text-gray-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5">
+                      <path d="M4 4h16s2 0 2 2v12s0 2-2 2H4s-2 0-2-2V6s0-2 2-2" strokeWidth="2" />
+                      <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" strokeWidth="2" />
+                    </svg>
+                  </div>
                   <div className="flex gap-0.5">
                     {Array.from({ length: 5 }).map((_, i) => (
                       <svg key={i} viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4 text-brand">
@@ -437,6 +497,7 @@ export default function HomePage() {
                   <p className="text-gray-700 text-sm leading-relaxed flex-1">"{t.quote}"</p>
                   <div>
                     <div className="font-semibold text-gray-900 text-sm">{t.name}</div>
+                    <div className="text-gray-400 text-xs mt-0.5">{t.email}</div>
                     <div className="text-gray-400 text-xs mt-0.5">{t.detail}</div>
                   </div>
                 </div>
@@ -446,9 +507,9 @@ export default function HomePage() {
         </section>
 
         {/* ── FAQ ── */}
-        <section className="py-14 px-6 bg-gray-50">
+        <section className="py-10 px-6 bg-gray-50">
           <div className="max-w-3xl mx-auto">
-            <div className="text-center mb-10">
+            <div className="text-center mb-7">
               <span className="text-xs font-bold text-brand uppercase tracking-widest">FAQ</span>
               <h2 className="text-3xl font-bold text-gray-900 tracking-tight mt-3">
                 Frequently asked questions
@@ -467,7 +528,7 @@ export default function HomePage() {
         </section>
 
         {/* ── CTA ── */}
-        <section className="py-14 px-6 bg-white">
+        <section className="py-10 px-6 bg-white">
           <div className="max-w-3xl mx-auto text-center flex flex-col items-center gap-6">
             <span className="text-xs font-bold text-brand uppercase tracking-widest">Get Started</span>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 tracking-tight">

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "Captio privacy policy — how we handle your data.",
+  description: "Captio AI privacy policy — how we handle your data.",
 };
 
 export default function PrivacyPage() {

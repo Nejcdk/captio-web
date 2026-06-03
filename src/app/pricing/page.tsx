@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Pricing",
-  description: "Captio pricing — free and Plus plans for live captions and transcription.",
+  description: "Captio AI pricing — free and Plus plans for live captions and transcription.",
 };
 
 export default function PricingPage() {

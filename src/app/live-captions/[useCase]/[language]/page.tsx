@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!uc || !lang) return {};
   return {
     title: `Live Captions for ${uc.label} in ${lang.language}`,
-    description: `Captio provides real-time ${lang.language} live captions for deaf and hard of hearing people during ${uc.label.toLowerCase()}. iPhone app.`,
+    description: `Captio AI provides real-time ${lang.language} live captions for deaf and hard of hearing people during ${uc.label.toLowerCase()}. iPhone app.`,
   };
 }
 

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Terms of Service",
-  description: "Captio terms of service.",
+  description: "Captio AI terms of service.",
 };
 
 export default function TermsPage() {
