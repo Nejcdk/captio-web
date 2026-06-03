@@ -17,7 +17,7 @@ export default function LanguagesPage() {
           <li key={lang.languageSlug}>
             <Link
               href={`/live-captions/meetings/${lang.languageSlug}`}
-              className="block p-3 rounded-lg border border-gray-200 hover:border-[#1C49F5] hover:text-[#1C49F5] transition-colors text-sm font-medium"
+              className="block p-3 rounded-lg border border-gray-200 hover:border-brand hover:text-brand transition-colors text-sm font-medium"
             >
               {lang.language}
             </Link>
