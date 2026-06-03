@@ -152,11 +152,12 @@ export default function HomePage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaOrg) }}
       />
-      <Header />
       <main>
+      {/* ── Gradient wrapper: header + hero share one background ── */}
+      <Header />
 
         {/* ── Hero ── */}
-        <section className="bg-gradient-to-b from-brand-light/60 to-white pt-20 pb-28 px-6">
+        <section className="pt-12 pb-28 px-6">
           <div className="max-w-3xl mx-auto flex flex-col items-center text-center gap-6">
             <span className="text-xs font-bold text-brand uppercase tracking-widest">
               Accessibility + Productivity App
@@ -175,7 +176,7 @@ export default function HomePage() {
             <div className="flex flex-col sm:flex-row gap-3 mt-2" id="download">
               <a
                 href="#"
-                className="inline-flex items-center justify-center gap-2 bg-brand text-white font-semibold px-7 py-4 rounded-full hover:bg-brand-dark transition-colors text-sm shadow-lg shadow-brand/30"
+                className="inline-flex items-center justify-center gap-2 bg-brand text-white font-semibold px-7 py-4 rounded-full hover:bg-brand-dark transition-colors text-sm shadow-lg shadow-brand/20"
               >
                 <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
                   <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98l-.09.06c-.22.14-2.2 1.28-2.18 3.81.03 3.02 2.65 4.03 2.68 4.04l-.05.17ZM13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11Z" />
@@ -193,7 +194,7 @@ export default function HomePage() {
             {/* Social proof */}
             <div className="flex items-center gap-3 mt-2">
               <div className="flex -space-x-2">
-                {["bg-blue-400", "bg-purple-400", "bg-pink-400", "bg-orange-400"].map((c, i) => (
+                {["bg-blue-400", "bg-sky-400", "bg-indigo-400", "bg-cyan-400"].map((c, i) => (
                   <div key={i} className={`w-8 h-8 rounded-full ${c} border-2 border-white`} />
                 ))}
               </div>
@@ -213,7 +214,7 @@ export default function HomePage() {
                   </div>
                 </div>
                 <div className="flex-1 bg-black px-4 py-2 flex flex-col gap-3">
-                  <div className="text-brand text-xs font-semibold text-center py-2">● LIVE</div>
+                  <div className="text-[#0ea5e9] text-xs font-semibold text-center py-2">● LIVE</div>
                   <div className="flex-1 bg-gray-900 rounded-2xl p-4 flex flex-col gap-3 justify-end">
                     <div className="bg-gray-800 rounded-xl p-3">
                       <p className="text-white text-sm leading-relaxed">"Good morning everyone, today we're going to discuss the quarterly results..."</p>
