@@ -157,10 +157,10 @@ export default function HomePage() {
       <Header />
 
         {/* ── Hero ── */}
-        <section className="pt-6 pb-10 sm:pt-16 sm:pb-24 px-5">
+        <section className="pt-6 pb-4 sm:pt-16 sm:pb-24 px-5">
           <div className="max-w-3xl mx-auto flex flex-col items-center text-center gap-4 sm:gap-6">
             <span className="text-[11px] font-bold text-brand uppercase tracking-widest mt-4 sm:mt-0">
-              Accessibility + Productivity App
+              🦻 Accessibility + 💻 Productivity App
             </span>
 
             <h1 className="text-[2.4rem] leading-[1.15] sm:text-6xl font-bold text-gray-900 tracking-tight">
@@ -216,7 +216,7 @@ export default function HomePage() {
         </section>
 
         {/* ── Features ── */}
-        <section className="py-24 px-6 bg-white">
+        <section id="features" className="pt-8 pb-24 sm:py-24 px-6 bg-white">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-14">
               <span className="text-xs font-bold text-brand uppercase tracking-widest">Features</span>
@@ -249,7 +249,7 @@ export default function HomePage() {
         </section>
 
         {/* ── Use Cases ── */}
-        <section className="py-24 px-6 bg-gray-50">
+        <section id="use-cases" className="py-24 px-6 bg-gray-50">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-14">
               <span className="text-xs font-bold text-brand uppercase tracking-widest">Use Cases</span>
@@ -276,7 +276,7 @@ export default function HomePage() {
         </section>
 
         {/* ── Languages ── */}
-        <section className="py-24 px-6 bg-white">
+        <section id="languages" className="py-24 px-6 bg-white">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-14">
               <span className="text-xs font-bold text-brand uppercase tracking-widest">Languages</span>
@@ -309,7 +309,7 @@ export default function HomePage() {
         </section>
 
         {/* ── Trust ── */}
-        <section className="py-24 px-6 bg-brand">
+        <section id="privacy" className="py-24 px-6 bg-brand">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-14">
               <span className="text-xs font-bold text-white/60 uppercase tracking-widest">Privacy</span>
