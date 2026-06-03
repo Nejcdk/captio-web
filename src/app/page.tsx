@@ -158,7 +158,7 @@ export default function HomePage() {
       <Header />
 
         {/* ── Hero ── */}
-        <section className="pt-6 pb-4 sm:pt-16 sm:pb-10 px-5">
+        <section className="pt-12 pb-4 sm:pt-20 sm:pb-10 px-5">
           <div className="max-w-3xl mx-auto flex flex-col items-center text-center gap-4 sm:gap-6">
             <span className="text-[11px] font-bold text-brand uppercase tracking-widest mt-4 sm:mt-0">
               🦻 Accessibility + 💻 Productivity App
