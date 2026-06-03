@@ -159,7 +159,7 @@ export default function HomePage() {
         {/* ── Hero ── */}
         <section className="pt-6 pb-10 sm:pt-16 sm:pb-24 px-5">
           <div className="max-w-3xl mx-auto flex flex-col items-center text-center gap-4 sm:gap-6">
-            <span className="text-[11px] font-bold text-brand uppercase tracking-widest">
+            <span className="text-[11px] font-bold text-brand uppercase tracking-widest mt-4 sm:mt-0">
               Accessibility + Productivity App
             </span>
 
@@ -185,9 +185,9 @@ export default function HomePage() {
               </a>
             </div>
 
-            {/* Phone mockup — hidden on mobile, shown on larger screens */}
-            <div className="hidden sm:block mt-10">
-              <div className="w-[260px] h-[520px] bg-gray-900 rounded-[44px] border-4 border-gray-800 shadow-2xl flex flex-col overflow-hidden mx-auto">
+            {/* Phone mockup */}
+            <div className="mt-6 sm:mt-10">
+              <div className="w-[200px] h-[400px] sm:w-[260px] sm:h-[520px] bg-gray-900 rounded-[36px] sm:rounded-[44px] border-4 border-gray-800 shadow-2xl flex flex-col overflow-hidden mx-auto">
                 <div className="flex justify-between items-center px-6 pt-4 pb-2">
                   <span className="text-white text-xs font-medium">9:41</span>
                   <div className="flex gap-1">
