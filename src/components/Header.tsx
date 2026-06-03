@@ -40,7 +40,7 @@ export default function Header() {
 
   return (
     <div className="px-4 pt-4 relative">
-      <header className="max-w-6xl mx-auto bg-brand rounded-2xl px-6 h-16 flex items-center justify-between">
+      <header className="max-w-6xl mx-auto bg-brand rounded-2xl px-5 h-14 sm:h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center" onClick={() => setOpen(false)}>
           <Image src="/logo_text.png" alt="Captio" width={100} height={28} priority />
         </Link>

@@ -157,26 +157,26 @@ export default function HomePage() {
       <Header />
 
         {/* ── Hero ── */}
-        <section className="pt-12 pb-28 px-6">
-          <div className="max-w-3xl mx-auto flex flex-col items-center text-center gap-6">
-            <span className="text-xs font-bold text-brand uppercase tracking-widest">
+        <section className="pt-6 pb-10 sm:pt-16 sm:pb-24 px-5">
+          <div className="max-w-3xl mx-auto flex flex-col items-center text-center gap-4 sm:gap-6">
+            <span className="text-[11px] font-bold text-brand uppercase tracking-widest">
               Accessibility + Productivity App
             </span>
 
-            <h1 className="text-5xl sm:text-6xl font-bold text-gray-900 leading-tight tracking-tight">
+            <h1 className="text-[2.4rem] leading-[1.15] sm:text-6xl font-bold text-gray-900 tracking-tight">
               <span className="underline decoration-brand decoration-4 underline-offset-4">Live captions</span> and{" "}
               <span className="underline decoration-brand decoration-4 underline-offset-4">productivity tool</span>{" "}
               for deaf and HoH people.
             </h1>
 
-            <p className="text-lg text-gray-500 max-w-xl leading-relaxed">
+            <p className="text-base sm:text-lg text-gray-500 max-w-xl leading-relaxed">
               Transcribe and translate any speech in real-time. Follow any conversation, meeting or lecture — in any language.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-3 mt-2" id="download">
+            <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto" id="download">
               <a
                 href="#"
-                className="inline-flex items-center justify-center gap-2 bg-brand text-white font-semibold px-7 py-4 rounded-full hover:bg-brand-dark transition-colors text-sm shadow-lg shadow-brand/20"
+                className="inline-flex items-center justify-center gap-2 bg-brand text-white font-semibold px-7 py-3.5 rounded-full hover:bg-brand-dark transition-colors text-sm shadow-lg shadow-brand/20 w-full sm:w-auto"
               >
                 <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
                   <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98l-.09.06c-.22.14-2.2 1.28-2.18 3.81.03 3.02 2.65 4.03 2.68 4.04l-.05.17ZM13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11Z" />
@@ -185,17 +185,17 @@ export default function HomePage() {
               </a>
               <a
                 href="/pricing"
-                className="inline-flex items-center justify-center gap-2 bg-white text-gray-700 font-semibold px-7 py-4 rounded-full hover:bg-gray-50 transition-colors text-sm border border-gray-200"
+                className="inline-flex items-center justify-center gap-2 bg-white text-gray-700 font-semibold px-7 py-3.5 rounded-full hover:bg-gray-50 transition-colors text-sm border border-gray-200 w-full sm:w-auto"
               >
                 See pricing
               </a>
             </div>
 
             {/* Social proof */}
-            <div className="flex items-center gap-3 mt-2">
+            <div className="flex items-center gap-3">
               <div className="flex -space-x-2">
                 {["bg-blue-400", "bg-sky-400", "bg-indigo-400", "bg-cyan-400"].map((c, i) => (
-                  <div key={i} className={`w-8 h-8 rounded-full ${c} border-2 border-white`} />
+                  <div key={i} className={`w-7 h-7 rounded-full ${c} border-2 border-white`} />
                 ))}
               </div>
               <div className="text-sm text-gray-500">
@@ -203,8 +203,8 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* Phone mockup */}
-            <div className="mt-10">
+            {/* Phone mockup — hidden on mobile, shown on larger screens */}
+            <div className="hidden sm:block mt-10">
               <div className="w-[260px] h-[520px] bg-gray-900 rounded-[44px] border-4 border-gray-800 shadow-2xl flex flex-col overflow-hidden mx-auto">
                 <div className="flex justify-between items-center px-6 pt-4 pb-2">
                   <span className="text-white text-xs font-medium">9:41</span>
@@ -214,7 +214,7 @@ export default function HomePage() {
                   </div>
                 </div>
                 <div className="flex-1 bg-black px-4 py-2 flex flex-col gap-3">
-                  <div className="text-[#0ea5e9] text-xs font-semibold text-center py-2">● LIVE</div>
+                  <div className="text-brand text-xs font-semibold text-center py-2">● LIVE</div>
                   <div className="flex-1 bg-gray-900 rounded-2xl p-4 flex flex-col gap-3 justify-end">
                     <div className="bg-gray-800 rounded-xl p-3">
                       <p className="text-white text-sm leading-relaxed">"Good morning everyone, today we're going to discuss the quarterly results..."</p>
