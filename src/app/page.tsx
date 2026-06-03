@@ -336,7 +336,7 @@ export default function HomePage() {
             </div>
 
             <div className="text-center">
-              <Link href="/language" className="text-sm font-semibold text-brand hover:underline">
+              <Link href="/live-captions" className="text-sm font-semibold text-brand hover:underline">
                 See all supported languages →
               </Link>
             </div>

@@ -24,7 +24,6 @@ export default function Footer() {
             <div className="flex flex-col gap-2">
               <span className="font-semibold text-gray-900 mb-1">Product</span>
               <Link href="/pricing" className="text-gray-500 hover:text-gray-900 transition-colors">Pricing</Link>
-              <Link href="/language" className="text-gray-500 hover:text-gray-900 transition-colors">Languages</Link>
               <Link href="/compare/otter-ai" className="text-gray-500 hover:text-gray-900 transition-colors">Compare</Link>
             </div>
 
