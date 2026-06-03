@@ -14,64 +14,125 @@ const features = [
   {
     label: "LIVE CAPTIONS",
     title: "Real-Time Speech to Text",
-    description:
-      "Point your iPhone at any speaker and read what they say instantly. No lag, no effort — captions appear as fast as people speak.",
+    bullets: [
+      "Captions appear as fast as people speak",
+      "Works in any environment — quiet or noisy",
+      "No setup, starts instantly",
+      "Supports 60+ languages",
+    ],
     href: "/live-captions",
     icon: (
-      <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6" stroke="currentColor" strokeWidth={1.8}>
-        <path d="M12 18.5a6.5 6.5 0 1 0 0-13 6.5 6.5 0 0 0 0 13Z" strokeLinecap="round" />
-        <path d="M8 12h2m4 0h2" strokeLinecap="round" />
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
+        <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z" strokeWidth="2" />
+        <path d="M19 10v2a7 7 0 0 1-14 0v-2" strokeWidth="2" />
+        <path d="m12 19 0 3" strokeWidth="2" />
       </svg>
     ),
   },
   {
     label: "LIVE TRANSLATOR",
     title: "Translate Any Language in Real Time",
-    description:
-      "Follow conversations in 60+ languages instantly. Hear Spanish, read English — or any combination you need.",
+    bullets: [
+      "Real-time speech translation",
+      "Hear one language, read another",
+      "No waiting, conversations flow naturally",
+      "Supports 60+ languages",
+    ],
     href: "/live-translator",
     icon: (
-      <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6" stroke="currentColor" strokeWidth={1.8}>
-        <path d="M5 8h6M5 12h4m9-4-4 8m0-8 4 8M3 20l3-8 3 8" strokeLinecap="round" strokeLinejoin="round" />
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
+        <path d="m5 8 6 6" strokeWidth="2" />
+        <path d="m4 14 6-6 2-3" strokeWidth="2" />
+        <path d="M2 5h12" strokeWidth="2" />
+        <path d="M7 2h1" strokeWidth="2" />
+        <path d="m22 22-5-10-5 10" strokeWidth="2" />
+        <path d="M14 18h6" strokeWidth="2" />
       </svg>
     ),
   },
   {
     label: "AUDIO TRANSCRIPTION",
     title: "Transcribe Any Audio or Video File",
-    description:
-      "Upload a recording and get a clean, accurate transcript in minutes. Lectures, meetings, podcasts — anything.",
+    bullets: [
+      "Upload any audio or video file",
+      "Get a clean, accurate transcript in minutes",
+      "Lectures, meetings, podcasts — anything",
+      "Export and share easily",
+    ],
     href: "/audio-transcription",
     icon: (
-      <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6" stroke="currentColor" strokeWidth={1.8}>
-        <path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2M9 5a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2M9 5a2 2 0 0 0 2-2h2a2 2 0 0 0 2 2" strokeLinecap="round" />
-        <path d="M9 12h6M9 16h4" strokeLinecap="round" />
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" strokeWidth="2" />
+        <path d="m17 8-5-5-5 5" strokeWidth="2" />
+        <path d="m12 3 0 12" strokeWidth="2" />
       </svg>
     ),
   },
   {
     label: "AI SUMMARY",
     title: "Turn Transcripts into Structured Summaries",
-    description:
-      "Key points, action items, and decisions — extracted automatically from any transcript.",
+    bullets: [
+      "Key points extracted automatically",
+      "Action items and decisions highlighted",
+      "Works from any transcript",
+      "Saves hours of manual note-taking",
+    ],
     href: "/ai-summary",
     icon: (
-      <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6" stroke="currentColor" strokeWidth={1.8}>
-        <path d="M9 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-4M9 3a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2M9 3h6" strokeLinecap="round" />
-        <path d="m9 13 2 2 4-4" strokeLinecap="round" strokeLinejoin="round" />
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
+        <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a0.5 0.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a0.5 0.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a0.5 0.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a0.5 0.5 0 0 1-.963 0z" strokeWidth="2" />
+        <path d="M20 3v4" strokeWidth="2" />
+        <path d="M22 5h-4" strokeWidth="2" />
+        <path d="M4 17v2" strokeWidth="2" />
+        <path d="M5 18H3" strokeWidth="2" />
       </svg>
     ),
   },
 ];
 
 const useCases = [
-  { label: "Face-to-Face", href: "/live-captions/face-to-face" },
-  { label: "Group Settings", href: "/live-captions/group-settings" },
-  { label: "Meetings", href: "/live-captions/meetings" },
-  { label: "Lectures", href: "/live-captions/lectures" },
-  { label: "Doctor Appointments", href: "/live-captions/doctor-appointments" },
-  { label: "Traveling", href: "/live-captions/traveling" },
-  { label: "TV & Media", href: "/live-captions/tv-media" },
+  {
+    label: "Face-to-Face",
+    href: "/live-captions/face-to-face",
+    description: "Have natural one-on-one conversations without missing a word. Point your iPhone at the speaker and read every word in real time — no interpreter needed.",
+    icon: "🗣️",
+  },
+  {
+    label: "Group Settings",
+    href: "/live-captions/group-settings",
+    description: "Follow group discussions, dinners, and social gatherings with ease. Captio handles multiple speakers so you never feel left out of the conversation.",
+    icon: "👥",
+  },
+  {
+    label: "Meetings",
+    href: "/live-captions/meetings",
+    description: "Never miss a decision in work meetings, standups, or video calls. Follow every agenda item and contribute with full confidence.",
+    icon: "💼",
+  },
+  {
+    label: "Lectures",
+    href: "/live-captions/lectures",
+    description: "Keep up with university lectures, classes, and seminars in real time. No more relying on note-takers — read everything as it's spoken.",
+    icon: "🎓",
+  },
+  {
+    label: "Doctor Appointments",
+    href: "/live-captions/doctor-appointments",
+    description: "Understand every word from your doctor without asking them to repeat themselves. Follow diagnoses, instructions, and questions without stress.",
+    icon: "🏥",
+  },
+  {
+    label: "Traveling",
+    href: "/live-captions/traveling",
+    description: "Navigate airports, hotels, restaurants, and new places confidently. Captio works in 60+ languages so you're covered wherever you go.",
+    icon: "✈️",
+  },
+  {
+    label: "TV & Media",
+    href: "/live-captions/tv-media",
+    description: "Follow TV, streaming, podcasts, and online videos in real time. Works on any content — no built-in subtitles required.",
+    icon: "📺",
+  },
 ];
 
 const languages = [
@@ -171,7 +232,7 @@ export default function HomePage() {
             </h1>
 
             <p className="text-base sm:text-lg text-gray-500 max-w-xl leading-relaxed">
-              Follow any conversation, meeting or lecture — in any language.
+              Follow any conversation, meeting or lecture. In any language.
             </p>
 
             <div id="download">
@@ -203,13 +264,13 @@ export default function HomePage() {
         {/* ── Features ── */}
         <section id="features" className="pt-8 pb-24 sm:pt-10 sm:pb-24 px-6 bg-white">
           <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-14">
+            <div className="text-center mb-10">
               <span className="text-xs font-bold text-brand uppercase tracking-widest">Features</span>
               <h2 className="text-3xl font-bold text-gray-900 tracking-tight mt-3">
                 Everything you need to follow any conversation
               </h2>
               <p className="text-gray-500 mt-3 max-w-xl mx-auto">
-                Four tools built specifically for deaf and hard of hearing people — all in one app.
+                Four tools built specifically for deaf and hard of hearing people.
               </p>
             </div>
 
@@ -218,15 +279,29 @@ export default function HomePage() {
                 <Link
                   key={f.title}
                   href={f.href}
-                  className="group bg-white p-8 rounded-2xl border border-gray-200 hover:border-brand hover:shadow-md transition-all"
+                  className="group bg-brand p-8 rounded-2xl hover:opacity-95 transition-all flex flex-col gap-5"
                 >
-                  <span className="inline-block text-xs font-bold text-brand bg-brand-light px-3 py-1 rounded-full mb-5 tracking-wide">
-                    {f.label}
-                  </span>
-                  <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-brand transition-colors">
-                    {f.title}
-                  </h3>
-                  <p className="text-gray-500 text-sm leading-relaxed">{f.description}</p>
+                  <div className="flex items-center gap-3">
+                    <div className="text-white/80">{f.icon}</div>
+                    <span className="text-xs font-bold text-white/70 uppercase tracking-wide">{f.label}</span>
+                  </div>
+                  <h3 className="text-xl font-bold text-white leading-snug">{f.title}</h3>
+                  <ul className="flex flex-col gap-2 flex-1">
+                    {f.bullets.map((b) => (
+                      <li key={b} className="flex items-start gap-2 text-sm text-white/80">
+                        <span className="mt-1 w-1.5 h-1.5 rounded-full bg-white/50 shrink-0" />
+                        {b}
+                      </li>
+                    ))}
+                  </ul>
+                  <div className="mt-2">
+                    <span className="inline-flex items-center gap-1 bg-white text-brand text-sm font-semibold px-5 py-2.5 rounded-[14px]">
+                      Explore
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
+                        <path d="m9 18 6-6-6-6" strokeWidth="2" />
+                      </svg>
+                    </span>
+                  </div>
                 </Link>
               ))}
             </div>
@@ -234,9 +309,9 @@ export default function HomePage() {
         </section>
 
         {/* ── Use Cases ── */}
-        <section id="use-cases" className="py-24 px-6 bg-gray-50">
+        <section id="use-cases" className="py-14 px-6 bg-gray-50">
           <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-14">
+            <div className="text-center mb-10">
               <span className="text-xs font-bold text-brand uppercase tracking-widest">Use Cases</span>
               <h2 className="text-3xl font-bold text-gray-900 tracking-tight mt-3">
                 Works in every situation
@@ -246,14 +321,20 @@ export default function HomePage() {
               </p>
             </div>
 
-            <div className="flex flex-wrap justify-center gap-3">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               {useCases.map((uc) => (
                 <Link
                   key={uc.label}
                   href={uc.href}
-                  className="px-5 py-3 rounded-full border border-gray-200 bg-white text-sm font-medium text-gray-700 hover:border-brand hover:text-brand hover:bg-brand-light transition-colors shadow-sm"
+                  className="group bg-white rounded-2xl border border-gray-200 p-5 hover:border-brand hover:shadow-md transition-all flex flex-col gap-3"
                 >
-                  {uc.label}
+                  <span className="text-2xl">{uc.icon}</span>
+                  <div>
+                    <span className="inline-block text-xs font-bold text-brand bg-brand-light px-2.5 py-1 rounded-full mb-2 tracking-wide uppercase">
+                      {uc.label}
+                    </span>
+                    <p className="text-sm text-gray-500 leading-relaxed">{uc.description}</p>
+                  </div>
                 </Link>
               ))}
             </div>
@@ -261,9 +342,9 @@ export default function HomePage() {
         </section>
 
         {/* ── Languages ── */}
-        <section id="languages" className="py-24 px-6 bg-white">
+        <section id="languages" className="py-14 px-6 bg-white">
           <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-14">
+            <div className="text-center mb-10">
               <span className="text-xs font-bold text-brand uppercase tracking-widest">Languages</span>
               <h2 className="text-3xl font-bold text-gray-900 tracking-tight mt-3">
                 60+ languages, every accent
@@ -294,9 +375,9 @@ export default function HomePage() {
         </section>
 
         {/* ── Trust ── */}
-        <section id="privacy" className="py-24 px-6 bg-brand">
+        <section id="privacy" className="py-14 px-6 bg-brand">
           <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-14">
+            <div className="text-center mb-10">
               <span className="text-xs font-bold text-white/60 uppercase tracking-widest">Privacy</span>
               <h2 className="text-3xl font-bold text-white tracking-tight mt-3">
                 Your conversations stay private
@@ -336,9 +417,9 @@ export default function HomePage() {
         </section>
 
         {/* ── Testimonials ── */}
-        <section className="py-24 px-6 bg-white">
+        <section className="py-14 px-6 bg-white">
           <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-14">
+            <div className="text-center mb-10">
               <span className="text-xs font-bold text-brand uppercase tracking-widest">Reviews</span>
               <h2 className="text-3xl font-bold text-gray-900 tracking-tight mt-3">What users say</h2>
             </div>
@@ -365,9 +446,9 @@ export default function HomePage() {
         </section>
 
         {/* ── FAQ ── */}
-        <section className="py-24 px-6 bg-gray-50">
+        <section className="py-14 px-6 bg-gray-50">
           <div className="max-w-3xl mx-auto">
-            <div className="text-center mb-14">
+            <div className="text-center mb-10">
               <span className="text-xs font-bold text-brand uppercase tracking-widest">FAQ</span>
               <h2 className="text-3xl font-bold text-gray-900 tracking-tight mt-3">
                 Frequently asked questions
@@ -386,7 +467,7 @@ export default function HomePage() {
         </section>
 
         {/* ── CTA ── */}
-        <section className="py-24 px-6 bg-white">
+        <section className="py-14 px-6 bg-white">
           <div className="max-w-3xl mx-auto text-center flex flex-col items-center gap-6">
             <span className="text-xs font-bold text-brand uppercase tracking-widest">Get Started</span>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 tracking-tight">
