@@ -170,37 +170,19 @@ export default function HomePage() {
             </h1>
 
             <p className="text-base sm:text-lg text-gray-500 max-w-xl leading-relaxed">
-              Transcribe and translate any speech in real-time. Follow any conversation, meeting or lecture — in any language.
+              Follow any conversation, meeting or lecture — in any language.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto" id="download">
+            <div id="download">
               <a
                 href="#"
-                className="inline-flex items-center justify-center gap-2 bg-brand text-white font-semibold px-7 py-3.5 rounded-full hover:bg-brand-dark transition-colors text-sm shadow-lg shadow-brand/20 w-full sm:w-auto"
+                className="inline-flex items-center gap-2 bg-brand text-white font-semibold px-6 py-3.5 rounded-[14px] text-sm shadow-lg hover:bg-brand-dark transition-colors"
               >
                 <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
                   <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98l-.09.06c-.22.14-2.2 1.28-2.18 3.81.03 3.02 2.65 4.03 2.68 4.04l-.05.17ZM13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11Z" />
                 </svg>
-                Download on App Store
+                Download
               </a>
-              <a
-                href="/pricing"
-                className="inline-flex items-center justify-center gap-2 bg-white text-gray-700 font-semibold px-7 py-3.5 rounded-full hover:bg-gray-50 transition-colors text-sm border border-gray-200 w-full sm:w-auto"
-              >
-                See pricing
-              </a>
-            </div>
-
-            {/* Social proof */}
-            <div className="flex items-center gap-3">
-              <div className="flex -space-x-2">
-                {["bg-blue-400", "bg-sky-400", "bg-indigo-400", "bg-cyan-400"].map((c, i) => (
-                  <div key={i} className={`w-7 h-7 rounded-full ${c} border-2 border-white`} />
-                ))}
-              </div>
-              <div className="text-sm text-gray-500">
-                <span className="font-semibold text-gray-900">4.8 ★</span> · Loved by deaf & HoH users worldwide
-              </div>
             </div>
 
             {/* Phone mockup — hidden on mobile, shown on larger screens */}
@@ -230,23 +212,6 @@ export default function HomePage() {
                 </div>
               </div>
             </div>
-          </div>
-        </section>
-
-        {/* ── Stats bar ── */}
-        <section className="border-y border-gray-100 bg-white py-6 px-6">
-          <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-10 text-center">
-            {[
-              ["60+", "Languages supported"],
-              ["4", "Features in one app"],
-              ["Real-time", "No delay, no storage"],
-              ["iOS", "iPhone & iPad"],
-            ].map(([value, label]) => (
-              <div key={label}>
-                <div className="text-2xl font-bold text-gray-900">{value}</div>
-                <div className="text-sm text-gray-500 mt-0.5">{label}</div>
-              </div>
-            ))}
           </div>
         </section>
 
