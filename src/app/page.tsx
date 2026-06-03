@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -157,7 +158,7 @@ export default function HomePage() {
       <Header />
 
         {/* ── Hero ── */}
-        <section className="pt-6 pb-4 sm:pt-16 sm:pb-24 px-5">
+        <section className="pt-6 pb-4 sm:pt-16 sm:pb-10 px-5">
           <div className="max-w-3xl mx-auto flex flex-col items-center text-center gap-4 sm:gap-6">
             <span className="text-[11px] font-bold text-brand uppercase tracking-widest mt-4 sm:mt-0">
               🦻 Accessibility + 💻 Productivity App
@@ -185,38 +186,22 @@ export default function HomePage() {
               </a>
             </div>
 
-            {/* Phone mockup */}
+            {/* App mockup */}
             <div className="mt-6 sm:mt-10">
-              <div className="w-[200px] h-[400px] sm:w-[260px] sm:h-[520px] bg-gray-900 rounded-[36px] sm:rounded-[44px] border-4 border-gray-800 shadow-2xl flex flex-col overflow-hidden mx-auto">
-                <div className="flex justify-between items-center px-6 pt-4 pb-2">
-                  <span className="text-white text-xs font-medium">9:41</span>
-                  <div className="flex gap-1">
-                    <div className="w-3 h-1.5 bg-white rounded-sm" />
-                    <div className="w-1 h-1.5 bg-white/50 rounded-sm" />
-                  </div>
-                </div>
-                <div className="flex-1 bg-black px-4 py-2 flex flex-col gap-3">
-                  <div className="text-brand text-xs font-semibold text-center py-2">● LIVE</div>
-                  <div className="flex-1 bg-gray-900 rounded-2xl p-4 flex flex-col gap-3 justify-end">
-                    <div className="bg-gray-800 rounded-xl p-3">
-                      <p className="text-white text-sm leading-relaxed">"Good morning everyone, today we're going to discuss the quarterly results..."</p>
-                    </div>
-                    <div className="bg-brand rounded-xl p-3">
-                      <p className="text-white text-sm leading-relaxed">"The numbers look great. Revenue is up 24% compared to last quarter."</p>
-                    </div>
-                    <div className="h-1 w-16 bg-white/20 rounded-full animate-pulse mx-auto" />
-                  </div>
-                </div>
-                <div className="flex justify-center py-2 bg-black">
-                  <div className="w-24 h-1 bg-white/30 rounded-full" />
-                </div>
-              </div>
+              <Image
+                src="/mockup_app.png"
+                alt="Captio app showing live captions and translation"
+                width={400}
+                height={340}
+                className="w-[280px] sm:w-[400px] h-auto mx-auto drop-shadow-2xl"
+                priority
+              />
             </div>
           </div>
         </section>
 
         {/* ── Features ── */}
-        <section id="features" className="pt-8 pb-24 sm:py-24 px-6 bg-white">
+        <section id="features" className="pt-8 pb-24 sm:pt-10 sm:pb-24 px-6 bg-white">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-14">
               <span className="text-xs font-bold text-brand uppercase tracking-widest">Features</span>
