@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Support",
-  description: "Get help with Captio AI — FAQs, contact, and troubleshooting.",
+  description: "Get help with Captio — FAQs, contact, and troubleshooting.",
 };
 
 export default function SupportPage() {

@@ -3,60 +3,70 @@
 const reviews = [
   {
     name: "Sarah",
+    flag: "🇺🇸",
     email: "sarah.m***@gmail.com",
     detail: "Hard of hearing since birth",
     quote: "Captio AI changed how I navigate everyday life. I can follow conversations at work, at restaurants, everywhere — without asking people to repeat themselves.",
   },
   {
     name: "James",
+    flag: "🇦🇺",
     email: "james.l***@gmail.com",
     detail: "University student, deaf",
     quote: "I use it in every lecture. The captions are fast enough that I don't fall behind. My professors don't even need to know.",
   },
   {
     name: "Anna",
+    flag: "🇩🇪",
     email: "anna.k***@gmail.com",
     detail: "Hard of hearing, Germany",
     quote: "Finally an app that works in German too. I was using English tools with poor accuracy. Captio AI is accurate and instant.",
   },
   {
     name: "Marcus",
+    flag: "🇺🇸",
     email: "marcus.t***@gmail.com",
     detail: "Deaf since age 7, USA",
     quote: "Doctor appointments used to be the most stressful part of my week. Now I just place my phone on the desk and read everything the doctor says. Game changer.",
   },
   {
     name: "Priya",
+    flag: "🇮🇳",
     email: "priya.s***@gmail.com",
     detail: "Hard of hearing, India",
     quote: "It works in Hindi and I can't believe how accurate it is. I use it every day at work — my colleagues don't even know I'm using it.",
   },
   {
     name: "Tom",
+    flag: "🇬🇧",
     email: "tom.w***@gmail.com",
     detail: "Progressive hearing loss, UK",
     quote: "I started losing my hearing two years ago and Captio AI has made the transition so much easier. Meetings at work are no longer something I dread.",
   },
   {
     name: "Yuki",
+    flag: "🇯🇵",
     email: "yuki.n***@gmail.com",
     detail: "Hard of hearing, Japan",
     quote: "The Japanese support is excellent. I can follow TV programmes and conversations that I couldn't follow before. Very impressed.",
   },
   {
     name: "Elena",
+    flag: "🇪🇸",
     email: "elena.v***@gmail.com",
     detail: "Deaf, Spain",
     quote: "I use the Live Translator to follow conversations in English when I'm at international events. It translates into Spanish in real time. Incredible.",
   },
   {
     name: "David",
+    flag: "🇨🇦",
     email: "david.r***@gmail.com",
     detail: "Hard of hearing, Canada",
     quote: "The audio transcription feature is brilliant. I record my university lectures and get a full transcript I can study from. Saves so much time.",
   },
   {
     name: "Fatima",
+    flag: "🇦🇪",
     email: "fatima.a***@gmail.com",
     detail: "HoH, UAE",
     quote: "Arabic support works very well. I was worried it wouldn't handle our dialect but it does. I recommend it to everyone in my community.",
@@ -101,7 +111,7 @@ export default function ReviewCarousel() {
             </div>
             <p className="text-gray-700 text-sm leading-relaxed flex-1">"{r.quote}"</p>
             <div>
-              <div className="font-semibold text-gray-900 text-sm">{r.name}</div>
+              <div className="font-semibold text-gray-900 text-base flex items-center gap-1.5">{r.name} <span className="text-lg">{r.flag}</span></div>
               <div className="text-gray-400 text-xs mt-0.5">{r.email}</div>
               <div className="text-gray-400 text-xs mt-0.5">{r.detail}</div>
             </div>

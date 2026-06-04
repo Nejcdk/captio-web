@@ -9,7 +9,7 @@ import ReviewCarousel from "@/components/ReviewCarousel";
 export const metadata: Metadata = {
   title: "Captio AI — Live Captions & Transcription for Deaf and Hard of Hearing",
   description:
-    "Captio AI gives deaf and hard of hearing people real-time live captions, live translation, audio transcription, and AI summaries — right on their iPhone. 60+ languages.",
+    "Captio AI gives deaf and hard of hearing people real-time live captions, live translation, audio transcription, and AI summaries — right on their phone. 60+ languages.",
 };
 
 const features = [
@@ -17,10 +17,10 @@ const features = [
     label: "LIVE CAPTIONS",
     title: "Real-Time Speech to Text",
     bullets: [
-      "Captions appear as fast as people speak",
-      "Works in any environment — quiet or noisy",
-      "No setup, starts instantly",
-      "Supports 60+ languages",
+      "Captions appear word by word while the person is still speaking",
+      "Works in noisy places — restaurants, hallways, busy streets",
+      "Reads any accent, any pace, any speaking style",
+      "No need to face the speaker or watch their lips",
     ],
     href: "/live-captions",
     icon: (
@@ -35,10 +35,10 @@ const features = [
     label: "LIVE TRANSLATOR",
     title: "Translate Any Language in Real Time",
     bullets: [
-      "Real-time speech translation",
-      "Hear one language, read another",
-      "No waiting, conversations flow naturally",
-      "Supports 60+ languages",
+      "Translates continuously as people speak, not after sentences end",
+      "Each person speaks their own language — you read in yours",
+      "Handles mid-sentence language switches automatically",
+      "60+ languages, covering accents and regional dialects",
     ],
     href: "/live-translator",
     icon: (
@@ -56,10 +56,10 @@ const features = [
     label: "AUDIO TRANSCRIPTION",
     title: "Transcribe Any Audio or Video File",
     bullets: [
-      "Upload any audio or video file",
-      "Get a clean, accurate transcript in minutes",
-      "Lectures, meetings, podcasts — anything",
-      "Export and share easily",
+      "Audio and video files — lectures, meetings, voicemails, podcasts",
+      "Full transcript organized by speaker, not one continuous block",
+      "Accurate across 60+ languages",
+      "Ready to read, copy, search, or share",
     ],
     href: "/audio-transcription",
     icon: (
@@ -74,10 +74,10 @@ const features = [
     label: "AI SUMMARY",
     title: "Turn Transcripts into Structured Summaries",
     bullets: [
-      "Key points extracted automatically",
-      "Action items and decisions highlighted",
-      "Works from any transcript",
-      "Saves hours of manual note-taking",
+      "Key points and decisions surfaced automatically",
+      "Action items pulled out so nothing gets missed",
+      "Works on any Captio AI transcript",
+      "Organized into sections, not one continuous block",
     ],
     href: "/ai-summary",
     icon: (
@@ -96,7 +96,7 @@ const useCases = [
   {
     label: "Everyday Conversations",
     href: "/live-captions/everyday-conversations",
-    description: "Follow any one-on-one conversation in daily life — at home, on the street, in a shop. Point your iPhone at the speaker and read every word instantly.",
+    description: "Follow any one-on-one conversation in daily life — at home, on the street, in a shop. Point your phone at the speaker and read every word instantly.",
     icon: "💬",
   },
   {
@@ -260,12 +260,12 @@ const faqs = [
     a: "Live Captions and Live Translator require an internet connection to process speech in real time. Audio Transcription (for uploaded files) also requires connectivity. Offline captioning is not currently supported.",
   },
   {
-    q: "What iPhone or iPad do I need?",
-    a: "Captio AI runs on any iPhone or iPad running iOS 16 or later. It is optimized for iPhone and works best when the microphone has a clear line to the speaker.",
+    q: "What phone or iPad do I need?",
+    a: "Captio AI runs on any phone or iPad running iOS 16 or later. It is optimized for phone and works best when the microphone has a clear line to the speaker.",
   },
   {
     q: "Can I use Captio AI at a doctor's appointment?",
-    a: "Yes — doctor appointments are one of the most important use cases. You can place your iPhone on the desk or hold it toward the doctor and read everything they say in real time. Medical terminology is handled accurately, making Captio AI a practical accessibility tool in healthcare settings.",
+    a: "Yes — doctor appointments are one of the most important use cases. You can place your phone on the desk or hold it toward the doctor and read everything they say in real time. Medical terminology is handled accurately, making Captio AI a practical accessibility tool in healthcare settings.",
   },
   {
     q: "Can I use Captio AI in meetings and lectures?",
@@ -404,7 +404,7 @@ export default function HomePage() {
                     ))}
                   </ul>
                   <div className="mt-2">
-                    <span className="inline-flex items-center gap-1 bg-white text-brand text-sm font-semibold px-5 py-2.5 rounded-[14px]">
+                    <span className="inline-flex items-center gap-1 bg-white text-brand text-sm font-semibold px-5 py-2.5 rounded-[8px]">
                       Explore
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
                         <path d="m9 18 6-6-6-6" strokeWidth="2" />
@@ -432,10 +432,9 @@ export default function HomePage() {
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               {useCases.map((uc) => (
-                <Link
+                <div
                   key={uc.label}
-                  href={uc.href}
-                  className="group bg-white rounded-2xl border border-gray-200 p-5 hover:border-brand hover:shadow-md transition-all flex flex-col gap-3 relative"
+                  className="group bg-white rounded-2xl border border-gray-200 p-5 hover:border-brand hover:shadow-md transition-all flex flex-col gap-3 relative cursor-pointer"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" className="absolute top-4 right-4 w-5 h-5 text-gray-300 md:opacity-0 md:group-hover:opacity-100 transition-opacity">
                     <path d="M22 14a8 8 0 0 1-8 8" strokeWidth="2" />
@@ -444,12 +443,12 @@ export default function HomePage() {
                     <path d="M10 9.5V4a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v10" strokeWidth="2" />
                     <path d="M18 11a2 2 0 1 1 4 0v3a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15" strokeWidth="2" />
                   </svg>
-                  <span className="inline-flex items-center gap-2 bg-brand-light text-brand font-bold px-3.5 py-2 rounded-xl w-fit">
+                  <span className="inline-flex items-center gap-2 bg-brand-light text-brand font-bold px-3.5 py-2 rounded-[8px] w-fit">
                     <span className="text-2xl leading-none">{uc.icon}</span>
                     <span className="text-base">{uc.label}</span>
                   </span>
                   <p className="text-sm text-gray-500 leading-relaxed">{uc.description}</p>
-                </Link>
+                </div>
               ))}
             </div>
           </div>
@@ -469,7 +468,7 @@ export default function HomePage() {
               {languages.map((lang) => (
                 <Link
                   key={lang.slug}
-                  href={`/live-captions/meetings/${lang.slug}`}
+                  href={`/${lang.slug}`}
                   className="flex items-center gap-2 px-4 py-3 bg-white border border-brand rounded-[14px] text-base font-bold text-gray-900 hover:bg-brand-light hover:text-brand transition-colors"
                 >
                   <span className="text-base">{lang.flag}</span>
@@ -502,23 +501,23 @@ export default function HomePage() {
           <div className="max-w-3xl mx-auto text-center">
             <span className="text-xs font-bold text-white/60 uppercase tracking-widest">Privacy</span>
             <h2 className="text-3xl font-bold text-white tracking-tight mt-3 mb-2">
-              Keep your conversations 100% private
+              What you hear stays with you.
             </h2>
             <div className="mb-8" />
 
             <div className="grid sm:grid-cols-3 gap-4 mb-10">
               {[
                 {
-                  title: "Never stored",
-                  description: "Audio is processed in real time and immediately discarded. No recordings kept.",
+                  title: "Gone the moment it ends",
+                  description: "Captio AI processes your audio in real time and discards it immediately. Nothing is recorded. Nothing is kept.",
                 },
                 {
-                  title: "Never sold",
-                  description: "Captio AI does not sell, share, or monetize any information about you.",
+                  title: "Not a product",
+                  description: "Your conversations are not something Captio AI sells, shares, or monetizes — to anyone, for any reason.",
                 },
                 {
-                  title: "Not used for AI training",
-                  description: "Your conversations are never used to train AI models — ours or anyone else's.",
+                  title: "Not used to train anything",
+                  description: "What you say in a doctor's appointment or a job interview never ends up in a training dataset. Not ours. Not anyone else's.",
                 },
               ].map((item) => (
                 <div key={item.title} className="bg-white/10 backdrop-blur rounded-2xl p-6 border border-white/20 text-left">

@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Live Captions",
   description:
-    "Real-time live captions for deaf and hard of hearing people. Captio AI converts speech to text instantly via your iPhone microphone. 60+ languages.",
+    "Real-time live captions for deaf and hard of hearing people. Captio converts speech to text instantly via your iPhone microphone. 60+ languages.",
 };
 
 export default function LiveCaptionsPage() {
