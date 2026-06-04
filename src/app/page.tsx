@@ -444,7 +444,7 @@ export default function HomePage() {
                     <path d="M10 9.5V4a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v10" strokeWidth="2" />
                     <path d="M18 11a2 2 0 1 1 4 0v3a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15" strokeWidth="2" />
                   </svg>
-                  <span className="inline-flex items-center gap-2 bg-brand-light text-brand font-bold px-3.5 py-2 rounded-xl self-start">
+                  <span className="inline-flex items-center gap-2 bg-brand-light text-brand font-bold px-3.5 py-2 rounded-xl w-fit">
                     <span className="text-2xl leading-none">{uc.icon}</span>
                     <span className="text-base">{uc.label}</span>
                   </span>
