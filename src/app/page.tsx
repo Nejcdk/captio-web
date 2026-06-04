@@ -3,6 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import FaqAccordion from "@/components/FaqAccordion";
+import ReviewCarousel from "@/components/ReviewCarousel";
 
 export const metadata: Metadata = {
   title: "Captio AI — Live Captions & Transcription for Deaf and Hard of Hearing",
@@ -198,47 +200,62 @@ const languages = [
   { name: "Basque", flag: "🇪🇸", slug: "basque" },
 ];
 
-const testimonials = [
-  {
-    quote: "Captio AI changed how I navigate everyday life. I can follow conversations at work, at restaurants, everywhere — without asking people to repeat themselves.",
-    name: "Sarah",
-    email: "sarah.m***@gmail.com",
-    detail: "Hard of hearing since birth",
-  },
-  {
-    quote: "I use it in every lecture. The captions are fast enough that I don't fall behind. My professors don't even need to know.",
-    name: "James",
-    email: "james.l***@gmail.com",
-    detail: "University student, deaf",
-  },
-  {
-    quote: "Finally an app that works in German too. I was using English tools with poor accuracy. Captio AI is accurate and instant.",
-    name: "Anna",
-    email: "anna.k***@gmail.com",
-    detail: "Hard of hearing, Germany",
-  },
-];
-
 const faqs = [
   {
     q: "Who is Captio AI designed for?",
-    a: "Captio AI is built primarily for deaf and hard of hearing people who need to follow spoken conversations in real time. It's also used by people in noisy environments, language learners, and anyone who prefers reading over listening.",
+    a: "Captio AI is built primarily for deaf and hard of hearing people who need to follow spoken conversations in real time. It's also widely used by people with auditory processing disorder, people in noisy environments, language learners, and anyone who finds reading faster or easier than listening.",
+  },
+  {
+    q: "How accurate are the live captions?",
+    a: "Captio AI uses advanced speech recognition built specifically for accuracy and low latency. Accuracy depends on audio clarity, accent, and background noise — but in typical conversation conditions, accuracy is very high, comparable to professional captioning services.",
   },
   {
     q: "Which languages does Captio AI support?",
-    a: "Captio AI supports 60+ languages for live captions and translation, including Spanish, French, German, Japanese, Chinese, Arabic, Hindi, and many more. See the full list on the Languages page.",
+    a: "Captio AI supports 60+ languages including English, Spanish, French, German, Mandarin, Arabic, Hindi, Japanese, Korean, Portuguese, Russian, and many more. All languages are available for Live Captions and Live Translator. See the full list on this page.",
   },
   {
-    q: "Is my audio stored or shared?",
-    a: "No. Captio AI processes audio in real time via Soniox. Conversations are never stored on any server. Your data is never sold and never used for AI training.",
+    q: "Does Captio AI work with different accents and dialects?",
+    a: "Yes. Captio AI handles a wide range of regional accents and dialects — not just standard textbook speech. It supports Australian English, Latin American Spanish, Swiss German, Brazilian Portuguese, Québécois French, and many others.",
+  },
+  {
+    q: "What is the difference between Live Captions and Live Translator?",
+    a: "Live Captions transcribes speech in the original spoken language. Live Translator takes that speech and translates it into your chosen language in real time — ideal when the speaker and the reader speak different languages, such as a foreign doctor or a business meeting in another language.",
+  },
+  {
+    q: "Does Captio AI store or share my audio?",
+    a: "No. Audio is processed in real time in real time and immediately discarded. Nothing is recorded or stored on any server. Your conversations are never sold and never used to train AI models — ours or anyone else's.",
   },
   {
     q: "Does Captio AI work without an internet connection?",
-    a: "Live captioning requires an internet connection to process audio via Soniox. Audio Transcription for uploaded files also requires connectivity.",
+    a: "Live Captions and Live Translator require an internet connection to process speech in real time. Audio Transcription (for uploaded files) also requires connectivity. Offline captioning is not currently supported.",
   },
   {
-    q: "What's the difference between Live Captions and Live Translator?",
-    a: "Live Captions transcribes speech in the original language. Live Translator takes that speech and translates it into your chosen language in real time — useful when the speaker and the listener speak different languages.",
+    q: "What iPhone or iPad do I need?",
+    a: "Captio AI runs on any iPhone or iPad running iOS 16 or later. It is optimized for iPhone and works best when the microphone has a clear line to the speaker.",
+  },
+  {
+    q: "Can I use Captio AI at a doctor's appointment?",
+    a: "Yes — doctor appointments are one of the most important use cases. You can place your iPhone on the desk or hold it toward the doctor and read everything they say in real time. Medical terminology is handled accurately, making Captio AI a practical accessibility tool in healthcare settings.",
+  },
+  {
+    q: "Can I use Captio AI in meetings and lectures?",
+    a: "Yes. Captio AI works in any setting where speech occurs — work meetings, university lectures, team standups, conferences, and video calls. Point the microphone toward the speaker and captions appear instantly.",
+  },
+  {
+    q: "What is Audio Transcription and how is it different from Live Captions?",
+    a: "Live Captions work in real time while someone is speaking. Audio Transcription is for recordings — you upload an audio or video file and get a full written transcript. It's ideal for reviewing lectures you recorded, interviews, podcasts, or any content you want to read rather than listen to.",
+  },
+  {
+    q: "What does the AI Summary feature do?",
+    a: "AI Summary takes any transcript and extracts the key information — main points, decisions made, action items, and important details — into a structured summary. It saves time when you have a long transcript from a meeting or lecture and need the highlights quickly.",
+  },
+  {
+    q: "Is Captio AI free to use?",
+    a: "Captio AI has a free tier that lets you get started without any payment. A Plus plan is available for users who need unlimited access. See the Pricing page for current plan details.",
+  },
+  {
+    q: "How is Captio AI different from Apple's built-in Live Captions?",
+    a: "Apple's Live Captions are built into iOS but support fewer languages, offer no translation, and don't include Audio Transcription or AI Summary. Captio AI supports 60+ languages, provides real-time translation, lets you transcribe uploaded files, and generates AI summaries — making it a far more complete accessibility and productivity tool.",
   },
 ];
 
@@ -297,12 +314,15 @@ export default function HomePage() {
             <div id="download">
               <a
                 href="#"
-                className="inline-flex items-center gap-2 bg-brand text-white font-semibold px-6 py-3.5 rounded-[14px] text-sm shadow-lg hover:bg-brand-dark transition-colors"
+                className="inline-flex items-center gap-3 bg-brand text-white font-semibold px-7 py-4 rounded-[14px] hover:bg-brand-dark transition-colors"
               >
-                <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
+                <svg viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 shrink-0">
                   <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98l-.09.06c-.22.14-2.2 1.28-2.18 3.81.03 3.02 2.65 4.03 2.68 4.04l-.05.17ZM13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11Z" />
                 </svg>
-                Download
+                <span>
+                  <span className="block text-xs font-normal opacity-75 leading-none mb-1">Download on the</span>
+                  <span className="block text-lg font-bold leading-none">App Store</span>
+                </span>
               </a>
             </div>
 
@@ -425,6 +445,23 @@ export default function HomePage() {
           </div>
         </section>
 
+        {/* ── Inline CTA: after languages ── */}
+        <div className="py-8 flex flex-col items-center gap-2 bg-white">
+          <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">Download for free</p>
+          <a
+            href="#"
+            className="inline-flex items-center gap-3 bg-brand text-white font-semibold px-7 py-4 rounded-[14px] hover:bg-brand-dark transition-colors"
+          >
+            <svg viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 shrink-0">
+              <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98l-.09.06c-.22.14-2.2 1.28-2.18 3.81.03 3.02 2.65 4.03 2.68 4.04l-.05.17ZM13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11Z" />
+            </svg>
+            <span>
+              <span className="block text-xs font-normal opacity-75 leading-none mb-1">Download on the</span>
+              <span className="block text-lg font-bold leading-none">App Store</span>
+            </span>
+          </a>
+        </div>
+
         {/* ── Trust ── */}
         <section id="privacy" className="py-10 px-6 bg-brand">
           <div className="max-w-3xl mx-auto text-center">
@@ -471,40 +508,32 @@ export default function HomePage() {
         </section>
 
         {/* ── Testimonials ── */}
-        <section className="py-10 px-6 bg-white">
-          <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-7">
+        <section className="py-10 bg-white overflow-hidden">
+          <div className="max-w-6xl mx-auto px-6 mb-7">
+            <div className="text-center">
               <span className="text-xs font-bold text-brand uppercase tracking-widest">Reviews</span>
               <h2 className="text-3xl font-bold text-gray-900 tracking-tight mt-3">People love Captio AI</h2>
             </div>
-
-            <div className="grid sm:grid-cols-3 gap-5">
-              {testimonials.map((t) => (
-                <div key={t.name} className="p-8 rounded-2xl border border-gray-200 bg-white shadow-sm flex flex-col gap-4 relative">
-                  <div className="absolute top-6 right-6 text-gray-300">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5">
-                      <path d="M4 4h16s2 0 2 2v12s0 2-2 2H4s-2 0-2-2V6s0-2 2-2" strokeWidth="2" />
-                      <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" strokeWidth="2" />
-                    </svg>
-                  </div>
-                  <div className="flex gap-0.5">
-                    {Array.from({ length: 5 }).map((_, i) => (
-                      <svg key={i} viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4 text-brand">
-                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                      </svg>
-                    ))}
-                  </div>
-                  <p className="text-gray-700 text-sm leading-relaxed flex-1">"{t.quote}"</p>
-                  <div>
-                    <div className="font-semibold text-gray-900 text-sm">{t.name}</div>
-                    <div className="text-gray-400 text-xs mt-0.5">{t.email}</div>
-                    <div className="text-gray-400 text-xs mt-0.5">{t.detail}</div>
-                  </div>
-                </div>
-              ))}
-            </div>
           </div>
+          <ReviewCarousel />
         </section>
+
+        {/* ── Inline CTA: after testimonials ── */}
+        <div className="py-8 flex flex-col items-center gap-2 bg-white">
+          <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">Download for free</p>
+          <a
+            href="#"
+            className="inline-flex items-center gap-3 bg-brand text-white font-semibold px-7 py-4 rounded-[14px] hover:bg-brand-dark transition-colors"
+          >
+            <svg viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 shrink-0">
+              <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98l-.09.06c-.22.14-2.2 1.28-2.18 3.81.03 3.02 2.65 4.03 2.68 4.04l-.05.17ZM13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11Z" />
+            </svg>
+            <span>
+              <span className="block text-xs font-normal opacity-75 leading-none mb-1">Download on the</span>
+              <span className="block text-lg font-bold leading-none">App Store</span>
+            </span>
+          </a>
+        </div>
 
         {/* ── FAQ ── */}
         <section className="py-10 px-6 bg-gray-50">
@@ -516,36 +545,51 @@ export default function HomePage() {
               </h2>
             </div>
 
-            <div className="flex flex-col gap-4">
-              {faqs.map((faq) => (
-                <div key={faq.q} className="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm">
-                  <h3 className="font-semibold text-gray-900 mb-2">{faq.q}</h3>
-                  <p className="text-gray-500 text-sm leading-relaxed">{faq.a}</p>
-                </div>
-              ))}
-            </div>
+            <FaqAccordion faqs={faqs} />
           </div>
         </section>
 
         {/* ── CTA ── */}
-        <section className="py-10 px-6 bg-white">
-          <div className="max-w-3xl mx-auto text-center flex flex-col items-center gap-6">
-            <span className="text-xs font-bold text-brand uppercase tracking-widest">Get Started</span>
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 tracking-tight">
-              Start following every conversation
+        <section className="pt-10 pb-20 px-6 bg-gray-50">
+          <div className="max-w-2xl mx-auto flex flex-col items-center gap-6">
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 tracking-tight text-center">
+              Get started
             </h2>
-            <p className="text-gray-500 max-w-md">
-              Free to download. No account required. Live captions start the moment you open the app.
+            <p className="text-xs font-bold text-gray-500 uppercase tracking-widest text-center">
+              Captio AI is free to start
             </p>
-            <a
-              href="#"
-              className="inline-flex items-center gap-2 bg-brand text-white font-semibold px-8 py-4 rounded-full hover:bg-brand-dark transition-colors text-sm shadow-lg shadow-brand/30"
-            >
-              <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
-                <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98l-.09.06c-.22.14-2.2 1.28-2.18 3.81.03 3.02 2.65 4.03 2.68 4.04l-.05.17ZM13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11Z" />
-              </svg>
-              Download on App Store
-            </a>
+
+            {/* Card */}
+            <div className="w-full bg-white rounded-2xl border border-gray-100 shadow-sm px-8 py-8 flex flex-col items-center gap-6">
+              <div className="flex items-center gap-8">
+                {/* QR code — replace value with App Store URL once live */}
+                <div className="hidden sm:block p-3 bg-white border border-gray-200 rounded-xl">
+                  {/* Install react-qr-code and replace this placeholder:
+                      import QRCode from "react-qr-code";
+                      <QRCode value="https://apps.apple.com/app/captio/..." size={96} /> */}
+                  <div className="w-24 h-24 bg-gray-50 rounded-lg flex items-center justify-center text-gray-300 text-[10px] text-center leading-tight">
+                    QR<br/>coming soon
+                  </div>
+                </div>
+
+                <div className="flex flex-col gap-2 items-center">
+                  <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">Download for free</p>
+                  <a
+                    href="#"
+                    className="inline-flex items-center gap-3 bg-brand text-white font-semibold px-7 py-4 rounded-[14px] hover:bg-brand-dark transition-colors"
+                  >
+                    <svg viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 shrink-0">
+                      <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98l-.09.06c-.22.14-2.2 1.28-2.18 3.81.03 3.02 2.65 4.03 2.68 4.04l-.05.17ZM13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11Z" />
+                    </svg>
+                    <span>
+                      <span className="block text-xs font-normal opacity-75 leading-none mb-1">Download on the</span>
+                      <span className="block text-lg font-bold leading-none">App Store</span>
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+            </div>
           </div>
         </section>
 

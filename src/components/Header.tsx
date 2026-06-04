@@ -52,8 +52,8 @@ export default function Header() {
     <div className="px-4 pt-4 relative">
       <header className="max-w-6xl mx-auto bg-brand rounded-2xl px-5 h-14 sm:h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2" onClick={() => setOpen(false)}>
-          <Image src="/owl_profile.png" alt="" width={32} height={32} className="rounded-full" priority />
-          <Image src="/logo_text.png" alt="Captio AI" width={90} height={25} priority />
+          <Image src="/owl_profile.png" alt="" width={40} height={40} className="rounded-full" priority />
+          <Image src="/logo_text.png" alt="Captio AI" width={110} height={30} priority />
         </Link>
 
         {/* Desktop nav */}
