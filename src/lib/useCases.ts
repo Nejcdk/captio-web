@@ -6,14 +6,14 @@ export type UseCase = {
 
 export const useCases: UseCase[] = [
   {
-    slug: "face-to-face",
-    label: "Face-to-Face Conversations",
-    description: "One-on-one conversations in real time",
+    slug: "everyday-conversations",
+    label: "Everyday Conversations",
+    description: "One-on-one conversations in daily life",
   },
   {
-    slug: "group-settings",
-    label: "Group Settings",
-    description: "Social gatherings, dinners, and group discussions",
+    slug: "deaf-hoh-communication",
+    label: "Communicating with Deaf & HoH",
+    description: "Help hearing people follow and respond to deaf or HoH individuals",
   },
   {
     slug: "meetings",
@@ -31,9 +31,34 @@ export const useCases: UseCase[] = [
     description: "Medical consultations and healthcare visits",
   },
   {
+    slug: "job-interviews",
+    label: "Job Interviews",
+    description: "In-person and remote job interviews",
+  },
+  {
+    slug: "phone-video-calls",
+    label: "Phone & Video Calls",
+    description: "Speakerphone calls, FaceTime, Zoom, and remote conversations",
+  },
+  {
+    slug: "group-settings",
+    label: "Group Settings",
+    description: "Social gatherings, dinners, and group discussions",
+  },
+  {
+    slug: "restaurants",
+    label: "Restaurants & Cafes",
+    description: "Ordering food, talking to staff, and dining conversations",
+  },
+  {
     slug: "traveling",
     label: "Traveling",
-    description: "Airports, hotels, restaurants, and tourist situations",
+    description: "Airports, hotels, transit, and tourist situations",
+  },
+  {
+    slug: "conferences",
+    label: "Conferences & Events",
+    description: "Talks, panels, keynotes, and networking events",
   },
   {
     slug: "tv-media",

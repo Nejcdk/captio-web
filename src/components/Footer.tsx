@@ -23,13 +23,8 @@ export default function Footer() {
             </div>
 
             <div className="flex flex-col gap-2">
-              <span className="font-semibold text-white/40 uppercase tracking-widest text-xs mb-1">Product</span>
+              <span className="font-semibold text-white/40 uppercase tracking-widest text-xs mb-1">Company</span>
               <Link href="/pricing" className="text-white/70 hover:text-white transition-colors">Pricing</Link>
-              <Link href="/compare/otter-ai" className="text-white/70 hover:text-white transition-colors">Compare</Link>
-            </div>
-
-            <div className="flex flex-col gap-2">
-              <span className="font-semibold text-white/40 uppercase tracking-widest text-xs mb-1">Legal</span>
               <Link href="/privacy" className="text-white/70 hover:text-white transition-colors">Privacy Policy</Link>
               <Link href="/terms" className="text-white/70 hover:text-white transition-colors">Terms of Service</Link>
               <Link href="/support" className="text-white/70 hover:text-white transition-colors">Support</Link>

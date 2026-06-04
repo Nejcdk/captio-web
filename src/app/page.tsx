@@ -94,16 +94,16 @@ const features = [
 
 const useCases = [
   {
-    label: "Face-to-Face",
-    href: "/live-captions/face-to-face",
-    description: "Have natural one-on-one conversations without missing a word. Point your iPhone at the speaker and read every word in real time — no interpreter needed.",
-    icon: "🗣️",
+    label: "Everyday Conversations",
+    href: "/live-captions/everyday-conversations",
+    description: "Follow any one-on-one conversation in daily life — at home, on the street, in a shop. Point your iPhone at the speaker and read every word instantly.",
+    icon: "💬",
   },
   {
-    label: "Group Settings",
-    href: "/live-captions/group-settings",
-    description: "Follow group discussions, dinners, and social gatherings with ease. Captio AI handles multiple speakers so you never feel left out of the conversation.",
-    icon: "👥",
+    label: "Communicating with Deaf & HoH",
+    href: "/live-captions/deaf-hoh-communication",
+    description: "You don't have to be deaf to use Captio AI. Hearing people use it too — to have natural, clear conversations with deaf or hard of hearing friends, family, and colleagues.",
+    icon: "🤟",
   },
   {
     label: "Meetings",
@@ -124,10 +124,40 @@ const useCases = [
     icon: "🏥",
   },
   {
+    label: "Job Interviews",
+    href: "/live-captions/job-interviews",
+    description: "Follow every question clearly in in-person or remote interviews. Stay focused on your answers — not on trying to hear the interviewer.",
+    icon: "🤝",
+  },
+  {
+    label: "Phone & Video Calls",
+    href: "/live-captions/phone-video-calls",
+    description: "Put your phone on speaker and read everything in real time. Works with any call — FaceTime, Zoom, phone calls, anything.",
+    icon: "📱",
+  },
+  {
+    label: "Group Settings",
+    href: "/live-captions/group-settings",
+    description: "Follow group discussions, dinners, and social gatherings with ease. Captio AI handles multiple speakers so you never feel left out.",
+    icon: "👥",
+  },
+  {
+    label: "Restaurants & Cafes",
+    href: "/live-captions/restaurants",
+    description: "Order confidently and hold conversations in noisy restaurants and cafes. No more mishearing staff or struggling over background noise.",
+    icon: "🍽️",
+  },
+  {
     label: "Traveling",
     href: "/live-captions/traveling",
-    description: "Navigate airports, hotels, restaurants, and new places confidently. Captio AI works in 60+ languages so you're covered wherever you go.",
+    description: "Navigate airports, hotels, and new places confidently. Captio AI works in 60+ languages so you're covered wherever you go.",
     icon: "✈️",
+  },
+  {
+    label: "Conferences & Events",
+    href: "/live-captions/conferences",
+    description: "Follow keynotes, panels, and talks without straining to hear. Read every word from any speaker, on any stage.",
+    icon: "🎤",
   },
   {
     label: "TV & Media",
@@ -405,15 +435,20 @@ export default function HomePage() {
                 <Link
                   key={uc.label}
                   href={uc.href}
-                  className="group bg-white rounded-2xl border border-gray-200 p-5 hover:border-brand hover:shadow-md transition-all flex flex-col gap-3"
+                  className="group bg-white rounded-2xl border border-gray-200 p-5 hover:border-brand hover:shadow-md transition-all flex flex-col gap-3 relative"
                 >
-                  <span className="text-2xl">{uc.icon}</span>
-                  <div>
-                    <span className="inline-block text-xs font-bold text-brand bg-brand-light px-2.5 py-1 rounded-full mb-2 tracking-wide uppercase">
-                      {uc.label}
-                    </span>
-                    <p className="text-sm text-gray-500 leading-relaxed">{uc.description}</p>
-                  </div>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" className="absolute top-4 right-4 w-5 h-5 text-gray-300 md:opacity-0 md:group-hover:opacity-100 transition-opacity">
+                    <path d="M22 14a8 8 0 0 1-8 8" strokeWidth="2" />
+                    <path d="M18 11v-1a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v0" strokeWidth="2" />
+                    <path d="M14 10V9a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v1" strokeWidth="2" />
+                    <path d="M10 9.5V4a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v10" strokeWidth="2" />
+                    <path d="M18 11a2 2 0 1 1 4 0v3a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15" strokeWidth="2" />
+                  </svg>
+                  <span className="inline-flex items-center gap-2 bg-brand-light text-brand font-bold px-3.5 py-2 rounded-xl self-start">
+                    <span className="text-2xl leading-none">{uc.icon}</span>
+                    <span className="text-base">{uc.label}</span>
+                  </span>
+                  <p className="text-sm text-gray-500 leading-relaxed">{uc.description}</p>
                 </Link>
               ))}
             </div>
