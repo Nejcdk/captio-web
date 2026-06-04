@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <footer className="bg-brand text-white">
-      <div className="max-w-6xl mx-auto px-6 py-12">
+      <div className="max-w-6xl mx-auto px-6 pt-12 pb-0">
         <div className="flex flex-col md:flex-row justify-between gap-10">
           <div>
             <Image src="/logo_text.png" alt="Captio AI" width={90} height={25} />
@@ -36,6 +36,16 @@ export default function Footer() {
           <span>© {new Date().getFullYear()} Captio AI. All rights reserved.</span>
           <span>iOS app · captioai.app</span>
         </div>
+      </div>
+
+      <div className="flex justify-center overflow-hidden h-72">
+        <Image
+          src="/captio_original.png"
+          alt=""
+          width={460}
+          height={460}
+          className="object-top object-cover"
+        />
       </div>
     </footer>
   );
