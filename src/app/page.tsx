@@ -96,73 +96,73 @@ const useCases = [
   {
     label: "Everyday Conversations",
     href: "/live-captions/everyday-conversations",
-    description: "Follow any one-on-one conversation in daily life — at home, on the street, in a shop. Point your phone at the speaker and read every word instantly.",
+    description: "Most conversations happen fast, at normal pace, without warning. Captio AI captions every word as it's spoken, so you can follow without asking anyone to repeat themselves.",
     icon: "💬",
   },
   {
     label: "Communicating with Deaf & HoH",
     href: "/live-captions/deaf-hoh-communication",
-    description: "You don't have to be deaf to use Captio AI. Hearing people use it too — to have natural, clear conversations with deaf or hard of hearing friends, family, and colleagues.",
+    description: "Hearing people often don't know how to adapt when talking with deaf or hard of hearing friends. Captio AI turns their speech into real-time captions, so the conversation can happen naturally on both sides.",
     icon: "🤟",
   },
   {
     label: "Meetings",
     href: "/live-captions/meetings",
-    description: "Never miss a decision in work meetings, standups, or video calls. Follow every agenda item and contribute with full confidence.",
+    description: "In meetings, decisions happen fast and people talk over each other. Captio AI captions every speaker as they talk, so you never miss a decision or a question directed at you.",
     icon: "💼",
   },
   {
     label: "Lectures",
     href: "/live-captions/lectures",
-    description: "Keep up with university lectures, classes, and seminars in real time. No more relying on note-takers — read everything as it's spoken.",
+    description: "Lecturers speak quickly, cover complex material, and rarely repeat themselves. Captio AI gives you a live transcript of everything said, so you can follow the content instead of straining to hear it.",
     icon: "🎓",
   },
   {
     label: "Doctor Appointments",
     href: "/live-captions/doctor-appointments",
-    description: "Understand every word from your doctor without asking them to repeat themselves. Follow diagnoses, instructions, and questions without stress.",
+    description: "Doctors speak quickly and use clinical language that's easy to mishear. Captio AI shows you everything they say in real time, so you can follow your diagnosis and ask the right questions.",
     icon: "🏥",
   },
   {
     label: "Job Interviews",
     href: "/live-captions/job-interviews",
-    description: "Follow every question clearly in in-person or remote interviews. Stay focused on your answers — not on trying to hear the interviewer.",
+    description: "Missing a question in an interview means answering wrong or asking for a repeat. Captio AI shows you every word the interviewer says, so you can focus entirely on your answer.",
     icon: "🤝",
   },
   {
     label: "Phone & Video Calls",
     href: "/live-captions/phone-video-calls",
-    description: "Put your phone on speaker and read everything in real time. Works with any call — FaceTime, Zoom, phone calls, anything.",
+    description: "Phone and video calls are harder to follow than in-person conversations. No lip reading, often poor audio quality. Captio AI captions whoever is speaking in real time, so you do not need to ask for repeats.",
     icon: "📱",
   },
   {
     label: "Group Settings",
     href: "/live-captions/group-settings",
-    description: "Follow group discussions, dinners, and social gatherings with ease. Captio AI handles multiple speakers so you never feel left out.",
+    description: "In groups, multiple people talk at once and the conversation moves fast. Captio AI keeps up with whoever is speaking, so you can follow without losing where the conversation is going.",
     icon: "👥",
   },
   {
     label: "Restaurants & Cafes",
     href: "/live-captions/restaurants",
-    description: "Order confidently and hold conversations in noisy restaurants and cafes. No more mishearing staff or struggling over background noise.",
+    description: "Background noise makes speech hard to follow even for people without hearing loss. Captio AI focuses on whoever is speaking to you, so you can have a real conversation through the noise.",
     icon: "🍽️",
   },
   {
     label: "Traveling",
     href: "/live-captions/traveling",
-    description: "Navigate airports, hotels, and new places confidently. Captio AI works in 60+ languages so you're covered wherever you go.",
+    description: "In airports, hotels, and unfamiliar cities there is no margin for mishearing. Captio AI captions speech in 60+ languages, so you can navigate confidently wherever you go.",
     icon: "✈️",
   },
   {
     label: "Conferences & Events",
     href: "/live-captions/conferences",
-    description: "Follow keynotes, panels, and talks without straining to hear. Read every word from any speaker, on any stage.",
+    description: "Speakers are far away, acoustics are unpredictable, and you cannot ask for a repeat. Captio AI gives you a live transcript of every speaker, so you can follow the full event from any seat.",
     icon: "🎤",
   },
   {
     label: "TV & Media",
     href: "/live-captions/tv-media",
-    description: "Follow TV, streaming, podcasts, and online videos in real time. Works on any content — no built-in subtitles required.",
+    description: "Built-in subtitles are often wrong, delayed, or missing entirely. Captio AI captions whatever is playing in real time, so you are not dependent on whether the content has subtitles.",
     icon: "📺",
   },
 ];
@@ -344,7 +344,7 @@ export default function HomePage() {
             <div id="download">
               <a
                 href="#"
-                className="inline-flex items-center gap-3 bg-brand text-white font-semibold px-7 py-4 rounded-[14px] hover:bg-brand-dark transition-colors"
+                className="inline-flex items-center gap-3 bg-cta text-white font-semibold px-7 py-4 rounded-[8px] hover:bg-cta-dark transition-colors"
               >
                 <svg viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 shrink-0">
                   <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98l-.09.06c-.22.14-2.2 1.28-2.18 3.81.03 3.02 2.65 4.03 2.68 4.04l-.05.17ZM13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11Z" />
@@ -374,7 +374,7 @@ export default function HomePage() {
         <section id="features" className="pt-8 pb-10 sm:pt-10 sm:pb-12 px-6 bg-white">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-7">
-              <span className="text-xs font-bold text-brand uppercase tracking-widest">Features</span>
+              <span className="text-xs font-bold text-cta uppercase tracking-widest">Features</span>
               <h2 className="text-3xl font-bold text-gray-900 tracking-tight mt-3">
                 Everything you need to follow any conversation
               </h2>
@@ -388,11 +388,11 @@ export default function HomePage() {
                 <Link
                   key={f.title}
                   href={f.href}
-                  className="group bg-brand p-8 rounded-2xl hover:opacity-95 transition-all flex flex-col gap-5"
+                  className="group bg-brand p-8 rounded-xl hover:opacity-95 transition-all flex flex-col gap-5"
                 >
                   <div className="flex items-center gap-3">
-                    <div className="text-white/80">{f.icon}</div>
-                    <span className="text-xs font-bold text-white/70 uppercase tracking-wide">{f.label}</span>
+                    <div className="text-cta">{f.icon}</div>
+                    <span className="text-xs font-bold text-cta uppercase tracking-wide">{f.label}</span>
                   </div>
                   <h3 className="text-xl font-bold text-white leading-snug">{f.title}</h3>
                   <ul className="flex flex-col gap-2 flex-1">
@@ -421,7 +421,7 @@ export default function HomePage() {
         <section id="use-cases" className="py-10 px-6 bg-gray-50">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-7">
-              <span className="text-xs font-bold text-brand uppercase tracking-widest">Use Cases</span>
+              <span className="text-xs font-bold text-cta uppercase tracking-widest">Use Cases</span>
               <h2 className="text-3xl font-bold text-gray-900 tracking-tight mt-3">
                 Works in every situation
               </h2>
@@ -434,9 +434,9 @@ export default function HomePage() {
               {useCases.map((uc) => (
                 <div
                   key={uc.label}
-                  className="group bg-white rounded-2xl border border-gray-200 p-5 hover:border-brand hover:shadow-md transition-all flex flex-col gap-3 relative cursor-pointer"
+                  className="group bg-white rounded-xl border border-gray-200 p-5 hover:border-brand hover:shadow-md transition-all flex flex-col gap-3 relative cursor-pointer"
                 >
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" className="absolute top-4 right-4 w-5 h-5 text-gray-300 md:opacity-0 md:group-hover:opacity-100 transition-opacity">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" className="absolute top-4 right-4 w-5 h-5 text-cta opacity-0 group-hover:opacity-100 transition-opacity">
                     <path d="M22 14a8 8 0 0 1-8 8" strokeWidth="2" />
                     <path d="M18 11v-1a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v0" strokeWidth="2" />
                     <path d="M14 10V9a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v1" strokeWidth="2" />
@@ -454,11 +454,28 @@ export default function HomePage() {
           </div>
         </section>
 
+        {/* ── Inline CTA ── */}
+        <div className="py-8 flex flex-col items-center gap-2 bg-gray-50">
+          <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">Download for free</p>
+          <a
+            href="#"
+            className="inline-flex items-center gap-3 bg-cta text-white font-semibold px-7 py-4 rounded-[8px] hover:bg-cta-dark transition-colors"
+          >
+            <svg viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 shrink-0">
+              <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98l-.09.06c-.22.14-2.2 1.28-2.18 3.81.03 3.02 2.65 4.03 2.68 4.04l-.05.17ZM13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11Z" />
+            </svg>
+            <span>
+              <span className="block text-xs font-normal opacity-75 leading-none mb-1">Download on the</span>
+              <span className="block text-lg font-bold leading-none">App Store</span>
+            </span>
+          </a>
+        </div>
+
         {/* ── Languages ── */}
         <section id="languages" className="py-10 px-6 bg-white">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-7">
-              <span className="text-xs font-bold text-brand uppercase tracking-widest">Languages</span>
+              <span className="text-xs font-bold text-cta uppercase tracking-widest">Languages</span>
               <h2 className="text-3xl font-bold text-gray-900 tracking-tight mt-3">
                 Captio AI supports 60+ languages
               </h2>
@@ -469,7 +486,7 @@ export default function HomePage() {
                 <Link
                   key={lang.slug}
                   href={`/${lang.slug}`}
-                  className="flex items-center gap-2 px-4 py-3 bg-white border border-brand rounded-[14px] text-base font-bold text-gray-900 hover:bg-brand-light hover:text-brand transition-colors"
+                  className="flex items-center gap-2 px-4 py-3 bg-white border border-brand rounded-[8px] text-base font-bold text-gray-900 hover:bg-brand-light hover:text-brand transition-colors"
                 >
                   <span className="text-base">{lang.flag}</span>
                   {lang.name}
@@ -484,7 +501,7 @@ export default function HomePage() {
           <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">Download for free</p>
           <a
             href="#"
-            className="inline-flex items-center gap-3 bg-brand text-white font-semibold px-7 py-4 rounded-[14px] hover:bg-brand-dark transition-colors"
+            className="inline-flex items-center gap-3 bg-cta text-white font-semibold px-7 py-4 rounded-[8px] hover:bg-cta-dark transition-colors"
           >
             <svg viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 shrink-0">
               <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98l-.09.06c-.22.14-2.2 1.28-2.18 3.81.03 3.02 2.65 4.03 2.68 4.04l-.05.17ZM13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11Z" />
@@ -499,7 +516,7 @@ export default function HomePage() {
         {/* ── Trust ── */}
         <section id="privacy" className="py-10 px-6 bg-brand">
           <div className="max-w-3xl mx-auto text-center">
-            <span className="text-xs font-bold text-white/60 uppercase tracking-widest">Privacy</span>
+            <span className="text-xs font-bold text-cta uppercase tracking-widest">Privacy</span>
             <h2 className="text-3xl font-bold text-white tracking-tight mt-3 mb-2">
               What you hear stays with you.
             </h2>
@@ -520,7 +537,7 @@ export default function HomePage() {
                   description: "What you say in a doctor's appointment or a job interview never ends up in a training dataset. Not ours. Not anyone else's.",
                 },
               ].map((item) => (
-                <div key={item.title} className="bg-white/10 backdrop-blur rounded-2xl p-6 border border-white/20 text-left">
+                <div key={item.title} className="bg-white/10 backdrop-blur rounded-xl p-6 border border-white/20 text-left">
                   <h3 className="font-semibold text-white mb-1">{item.title}</h3>
                   <p className="text-sm text-blue-100 leading-relaxed">{item.description}</p>
                 </div>
@@ -545,7 +562,7 @@ export default function HomePage() {
         <section className="py-10 bg-white overflow-hidden">
           <div className="max-w-6xl mx-auto px-6 mb-7">
             <div className="text-center">
-              <span className="text-xs font-bold text-brand uppercase tracking-widest">Reviews</span>
+              <span className="text-xs font-bold text-cta uppercase tracking-widest">Reviews</span>
               <h2 className="text-3xl font-bold text-gray-900 tracking-tight mt-3">People love Captio AI</h2>
             </div>
           </div>
@@ -557,7 +574,7 @@ export default function HomePage() {
           <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">Download for free</p>
           <a
             href="#"
-            className="inline-flex items-center gap-3 bg-brand text-white font-semibold px-7 py-4 rounded-[14px] hover:bg-brand-dark transition-colors"
+            className="inline-flex items-center gap-3 bg-cta text-white font-semibold px-7 py-4 rounded-[8px] hover:bg-cta-dark transition-colors"
           >
             <svg viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 shrink-0">
               <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98l-.09.06c-.22.14-2.2 1.28-2.18 3.81.03 3.02 2.65 4.03 2.68 4.04l-.05.17ZM13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11Z" />
@@ -573,7 +590,7 @@ export default function HomePage() {
         <section className="py-10 px-6 bg-gray-50">
           <div className="max-w-3xl mx-auto">
             <div className="text-center mb-7">
-              <span className="text-xs font-bold text-brand uppercase tracking-widest">FAQ</span>
+              <span className="text-xs font-bold text-cta uppercase tracking-widest">FAQ</span>
               <h2 className="text-3xl font-bold text-gray-900 tracking-tight mt-3">
                 Frequently asked questions
               </h2>
@@ -594,7 +611,7 @@ export default function HomePage() {
             </p>
 
             {/* Card */}
-            <div className="w-full bg-white rounded-2xl border border-gray-100 shadow-sm px-8 py-8 flex flex-col items-center gap-6">
+            <div className="w-full bg-white rounded-xl border border-gray-100 shadow-sm px-8 py-8 flex flex-col items-center gap-6">
               <div className="flex items-center gap-8">
                 {/* QR code — replace value with App Store URL once live */}
                 <div className="hidden sm:block p-3 bg-white border border-gray-200 rounded-xl">
@@ -610,7 +627,7 @@ export default function HomePage() {
                   <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">Download for free</p>
                   <a
                     href="#"
-                    className="inline-flex items-center gap-3 bg-brand text-white font-semibold px-7 py-4 rounded-[14px] hover:bg-brand-dark transition-colors"
+                    className="inline-flex items-center gap-3 bg-cta text-white font-semibold px-7 py-4 rounded-[8px] hover:bg-cta-dark transition-colors"
                   >
                     <svg viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 shrink-0">
                       <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98l-.09.06c-.22.14-2.2 1.28-2.18 3.81.03 3.02 2.65 4.03 2.68 4.04l-.05.17ZM13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11Z" />

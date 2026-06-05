@@ -21,67 +21,91 @@ Brand color: `#1C49F5`. Font: Plus Jakarta Sans (closest public substitute for G
 ## Site structure
 
 ```
-/                                           → Homepage
-/language                                   → All languages overview
-/privacy                                    → Privacy policy
-/terms                                      → Terms of service
-/support                                    → Support page
-/pricing                                    → Pricing page
-/compare/[competitor]                       → Compare page (dynamic, server-rendered)
-/live-captions                              → Feature page
-/live-captions/[useCase]                    → Feature for use case (static)
-/live-captions/[useCase]/[language]         → Feature for use case in language (static)
-/live-translator/...                        → Same structure
-/audio-transcription/...                    → Same structure
-/ai-summary/...                             → Same structure
+/                              → Homepage
+/[language]                    → Language page, e.g. /german, /chinese (60 pages, static)
+/pricing                       → Pricing page
+/privacy                       → Privacy policy
+/terms                         → Terms of service
+/support                       → Support page
+/live-captions                 → Feature page
+/live-translator               → Feature page
+/audio-transcription           → Feature page
+/ai-summary                    → Feature page
+/use-cases/[slug]              → Use case page (planned, not yet built)
+/use-cases/[slug]/[language]   → Use case × language page (planned, not yet built)
 ```
 
+**Next.js constraint:** All depth-2 dynamic segments must share the same param name. We use `[language]` for language routes and `[slug]` for use case routes.
+
+---
+
 ## Data files
-- `src/lib/languages.ts` — 29 languages with slug, countries, speakerCount, dialectNote, languageFAQ
-- `src/lib/useCases.ts` — 7 use case slugs: face-to-face, group-settings, meetings, lectures, doctor-appointments, traveling, tv-media
-- `src/lib/features.ts` — 4 feature slugs: live-captions, live-translator, audio-transcription, ai-summary
+
+### `src/lib/languages.ts`
+60 languages. Each entry has:
+- `language` — display name (e.g. "German")
+- `languageSlug` — URL slug (e.g. "german")
+- `flag` — emoji flag
+- `countries` — comma-separated string
+- `speakerCount` — string (e.g. "135 million")
+- `dialectNote` — one-line dialect summary, used in hero subtitle and feature bullets
+- `languageFAQ` — single FAQ question string (legacy, kept for compatibility)
+- `dialectCards?` — array of `{ name, description }` — renders as cards in the dialect section. **Add for all languages.** Without this, the page falls back to just showing `dialectNote` as a paragraph (thin content).
+- `languageFAQs?` — array of `{ q, a }` — language-specific FAQs rendered before base FAQs. **Add for all languages.**
+
+**All 60 languages now have `dialectCards` and `languageFAQs` — first pass complete.** We are now doing a second pass to fix dialect accuracy using web research. Do NOT write or rewrite dialect cards from memory — always web search first.
+
+**Dialect card writing rules (second pass):**
+- Use **WebSearch** before writing any language's dialect cards — search for "[language name] dialects" and "[language name] dialect groups" to get the real names and groupings
+- Card names use the **local name + "dialect"** format: "Gorenjska dialect", "Kansai dialect", "Québécois dialect" — not translated English names like "Upper Carniola dialect group"
+- 4–6 cards per language covering the major official dialect groups, not invented or memory-guessed varieties
+- Slovenian is the corrected reference example — it was fixed after a native speaker caught errors in the first pass
+- Work in batches of 10, web research first for all 10 before writing
+
+### `src/lib/features.ts`
+4 feature slugs: live-captions, live-translator, audio-transcription, ai-summary
+
+---
 
 ## Page templates
 
-### Feature targeted page (/live-captions/meetings and /live-captions/meetings/german)
-- header
-- hero — "Live Captions for [Use Case]" or "Live Captions for [Use Case] in [Language]"
-- how it works — 3 steps, each mentioning [Language] naturally if language page
-- capabilities — 5 static cards + 1 [Language]-specific card (language pages only)
-- use-cases — on language pages links go to /[feature]/[other-use-case]/[language]
-- languages — on language pages: highlight [Language] with countries + speakers + dialect note, rest of grid below
-- testimonials
-- faq — 3 static questions + 2-3 [Language]-specific questions (language pages only)
-- cta — "Start captioning in [Language]" on language pages
-- footer
+### Language page (`/[language]`, e.g. `/chinese`)
+Single template at `src/app/[language]/page.tsx`. Driven entirely by data from `languages.ts`.
 
-### Compare page (/compare/otter-ai)
-- header
-- hero — "Captio vs [Competitor]"
-- verdict / TL;DR — 2-3 sentences who wins and for whom
-- comparison table — feature-by-feature grid
-- where Captio wins — 3-4 points
-- where [Competitor] wins — 2-3 honest points (required for LLM trust)
-- who should choose which
-- faq
-- cta + download button
-- footer
+Section order:
+1. **Hero** — language name in brand-blue bg pill (`bg-brand text-white rounded-[10px]`), "live captions" and "productivity tool" underlined with brand color. Subtitle uses `lang.dialectNote`.
+2. **Features** — 4 brand-blue cards. Titles and bullets reference the language. `lang.dialectNote` appears as one bullet per card.
+3. **Use Cases** — 12 cards. Descriptions use `lang.language` naturally. Links go to `/use-cases/[slug]/[lang.languageSlug]` (404 until those pages are built).
+4. **Languages grid** — all 60 languages as links. Current language highlighted in brand blue.
+5. **Dialect & accent support** — renders `lang.dialectCards` as a 2-col grid of cards. Falls back to `lang.dialectNote` paragraph if no cards. **This is the unique AEO content per page.**
+6. **Inline CTA** — App Store button
+7. **Privacy** — same as homepage, two cards mention `lang.language` naturally
+8. **Reviews** — `ReviewCarousel` component, same as homepage
+9. **Inline CTA** — App Store button
+10. **FAQ** — `lang.languageFAQs` first, then `baseFaqs`. Header is just "Frequently asked questions" — do NOT add language name here.
+11. **CTA** — "Start captioning in [language]"
+12. **Footer**
+
+**Critical:** Don't add the language name where it makes the copy illogical. "Frequently asked questions about Chinese" sounds like a FAQ about the Chinese language, not about Captio AI. "Real Chinese moments" is nonsensical. Rule: the language name describes the speech/audio being processed, not the topic or subject matter.
+
+### Homepage (`/`)
+Same structure as language pages but without the dialect section or language-specific copy. Language chips in the grid are `<Link>` elements pointing to `/[slug]`.
 
 ---
 
 ## Critical content rules
 
-**Language pages:** [Language] must appear in every section's copy naturally — not just the headline. Every step description, every capability card, every use case description, the CTA. Aim for 15–20 mentions per page.
+**Language name placement:** Use `lang.language` where it naturally describes the speech or audio. Good: "Follow any Chinese conversation." Bad: "real Chinese moments", "Frequently asked questions about Chinese."
 
-**FAQ sections:** Every page needs one. FAQ answers long-tail AEO queries. Questions must be specific to that page's combination (feature + use case + language). Each FAQ needs FAQPage schema.
+**Dialect section is the unique AEO content:** This is what differentiates each language page from a simple find-replace. Every language needs `dialectCards` with genuine information about regional varieties, scripts, and code-switching patterns. This is what gets cited by LLMs.
 
-**Compare pages:** Must include honest "where competitor wins" section. LLMs trust and cite honest comparisons.
+**FAQ sections are mandatory:** Every page needs one. FAQ answers long-tail AEO queries. Language pages: language-specific `languageFAQs` come first, base FAQs after. Each FAQ needs FAQPage schema.
 
 **Positioning:** Always lead with deaf and hard of hearing users. This is an accessibility app first. Never describe it as just a "transcription tool."
 
-**Schema markup:** Every page needs SoftwareApplication schema. FAQ pages need FAQPage schema. How-it-works sections need HowTo schema.
+**Schema markup:** Every page needs SoftwareApplication schema. FAQ pages need FAQPage schema.
 
-**Trust:** Captio processes audio in real time via Soniox. Conversations never stored on servers. No data sold. No AI training on user data.
+**Privacy:** Captio AI processes audio in real time. Conversations are never stored on servers. No data sold. No AI training on user data. **Never mention the name of the speech recognition provider — this is a business secret.**
 
 ---
 
@@ -91,16 +115,19 @@ LLMs use RAG — they search, then summarize citations. To get cited:
 1. **Answer all follow-up questions** on every page, not just the headline question
 2. **FAQ sections are mandatory** — they capture the long-tail questions LLMs answer
 3. **Depth over breadth** — a thin page won't get cited even if it ranks
-4. **The programmatic route structure is the moat** — /live-captions/meetings/german answers questions with no dedicated page anywhere else on the internet
+4. **Information gain** — say something nobody else has said. The dialect cards (e.g. "Does Captio AI support Cantonese?") are on no other page anywhere on the internet.
+5. **The programmatic route structure is the moat** — `/use-cases/meetings/german` will answer questions with no dedicated page anywhere else on the internet
 
 Every page should answer: the main question, all sub-questions, dialect/accent specifics, accessibility use cases for that exact combination.
+
+**Do not index until all pages have real content.** Submit to Google Search Console only once the full site is built. Thin or stub pages indexed early create a thin-content penalty that takes months to recover from.
 
 ---
 
 ## Development notes
 
-- Build: `npm run build` — generates 853 static pages
+- Build: `npm run build`
 - Dev: `npm run dev`
 - All dynamic routes use `generateStaticParams` to pre-render at build time
-- `/compare/[competitor]` is the only server-rendered route (no static params yet)
 - Tailwind v4: config is in `globals.css` via `@theme inline`, no `tailwind.config.js`
+- No indexing has been done yet — site is live on Vercel but not submitted to Google Search Console

@@ -12,7 +12,7 @@ export default function FaqAccordion({ faqs }: { faqs: Faq[] }) {
       {faqs.map((faq, i) => (
         <div
           key={faq.q}
-          className={`bg-white rounded-2xl border transition-colors ${open === i ? "border-brand" : "border-gray-200"}`}
+          className={`bg-white rounded-[8px] border transition-colors ${open === i ? "border-brand" : "border-gray-200"}`}
         >
           <button
             className="w-full flex items-center justify-between gap-4 px-6 py-5 text-left"

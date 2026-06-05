@@ -50,7 +50,7 @@ export default function Header() {
 
   return (
     <div className="px-4 pt-4 relative">
-      <header className="max-w-6xl mx-auto bg-brand rounded-2xl px-5 h-14 sm:h-16 flex items-center justify-between">
+      <header className="max-w-6xl mx-auto bg-brand rounded-xl px-5 h-14 sm:h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2" onClick={() => setOpen(false)}>
           <Image src="/logo_image_profile.png" alt="" width={40} height={40} className="rounded-full" priority />
           <Image src="/logo_text.png" alt="Captio AI" width={110} height={30} priority />
@@ -64,7 +64,7 @@ export default function Header() {
           <Link href="/pricing" className="hover:text-white transition-colors">Pricing</Link>
         </nav>
 
-        <a href="#download" className="hidden md:block bg-white text-brand text-sm font-semibold px-5 py-2.5 rounded-[14px] hover:bg-blue-50 transition-colors">
+        <a href="#download" className="hidden md:block bg-white text-brand text-sm font-semibold px-5 py-2.5 rounded-[8px] hover:bg-white/90 transition-colors">
           Download
         </a>
 
@@ -84,7 +84,7 @@ export default function Header() {
 
       {/* Mobile menu — overlays content, does not push it down */}
       {open && (
-        <div className="md:hidden absolute left-4 right-4 mt-2 bg-white rounded-2xl shadow-xl border border-gray-100 py-4 z-40">
+        <div className="md:hidden absolute left-4 right-4 mt-2 bg-white rounded-xl shadow-xl border border-gray-100 py-4 z-40">
           <nav className="flex flex-col gap-1 px-3">
             {navItems.map((item) => (
               <Link
@@ -101,7 +101,7 @@ export default function Header() {
               <a
                 href="#download"
                 onClick={() => setOpen(false)}
-                className="block text-center bg-brand text-white font-semibold py-3.5 rounded-[14px] hover:bg-brand-dark transition-colors text-sm"
+                className="block text-center bg-cta text-white font-semibold py-3.5 rounded-[8px] hover:bg-cta-dark transition-colors text-sm"
               >
                 Download
               </a>

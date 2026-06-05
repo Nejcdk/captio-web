@@ -1,6 +1,8 @@
 "use client";
 
-const reviews = [
+import type { Review } from "@/lib/languages";
+
+const defaultReviews = [
   {
     name: "Sarah",
     flag: "🇺🇸",
@@ -86,8 +88,9 @@ const MailIcon = () => (
   </svg>
 );
 
-export default function ReviewCarousel() {
-  const doubled = [...reviews, ...reviews];
+export default function ReviewCarousel({ reviews }: { reviews?: Review[] }) {
+  const active = reviews ?? defaultReviews;
+  const doubled = [...active, ...active];
 
   return (
     <div className="overflow-hidden">
@@ -101,7 +104,7 @@ export default function ReviewCarousel() {
         {doubled.map((r, i) => (
           <div
             key={i}
-            className="w-[300px] shrink-0 p-6 rounded-2xl border border-gray-200 bg-white shadow-sm flex flex-col gap-4 relative"
+            className="w-[300px] shrink-0 p-6 rounded-xl border border-gray-200 bg-white shadow-sm flex flex-col gap-4 relative"
           >
             <div className="absolute top-5 right-5 text-gray-300">
               <MailIcon />
