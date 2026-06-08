@@ -212,9 +212,9 @@ export default async function LanguagePage({ params }: Props) {
         <Header />
 
         {/* ── Hero ── */}
-        <section className="pt-12 pb-4 sm:pt-20 sm:pb-10 px-5">
+        <section className="pt-6 pb-4 sm:pt-10 sm:pb-10 px-5">
           <div className="max-w-3xl mx-auto flex flex-col items-center text-center gap-4 sm:gap-6">
-            <span className="text-[11px] font-bold text-brand uppercase tracking-widest mt-4 sm:mt-0">
+            <span className="text-[11px] font-bold text-brand uppercase tracking-widest mt-2 sm:mt-0">
               🦻 Accessibility + 💻 Productivity App
             </span>
             <h1 className="text-[2.4rem] leading-[1.15] sm:text-6xl font-bold text-gray-900 tracking-tight">
@@ -227,8 +227,16 @@ export default async function LanguagePage({ params }: Props) {
             <p className="text-base sm:text-lg text-gray-500 max-w-xl leading-relaxed">
               Follow any {lang.language} conversation, meeting or lecture. {lang.dialectNote}.
             </p>
-            <div id="download">
-              <AppStoreButton />
+            <div id="download" className="bg-white rounded-xl border border-gray-100 shadow-sm px-8 py-6 flex items-center gap-8">
+              <div className="hidden sm:block p-3 bg-white border border-gray-200 rounded-xl">
+                <div className="w-24 h-24 bg-gray-50 rounded-lg flex items-center justify-center text-gray-300 text-[10px] text-center leading-tight">
+                  QR<br/>coming soon
+                </div>
+              </div>
+              <div className="flex flex-col gap-2 items-center">
+                <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">Download for free</p>
+                <AppStoreButton />
+              </div>
             </div>
             <div className="mt-6 sm:mt-10">
               <Image

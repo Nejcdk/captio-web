@@ -17,10 +17,10 @@ const features = [
     label: "LIVE CAPTIONS",
     title: "Real-Time Speech to Text",
     bullets: [
-      "Captions appear word by word while the person is still speaking",
-      "Works in noisy places — restaurants, hallways, busy streets",
-      "Reads any accent, any pace, any speaking style",
-      "No need to face the speaker or watch their lips",
+      "Word by word, in real time",
+      "Works in noisy places",
+      "Any accent, any pace",
+      "No lip reading needed",
     ],
     href: "/live-captions",
     icon: (
@@ -35,10 +35,10 @@ const features = [
     label: "LIVE TRANSLATOR",
     title: "Translate Any Language in Real Time",
     bullets: [
-      "Translates continuously as people speak, not after sentences end",
-      "Each person speaks their own language — you read in yours",
-      "Handles mid-sentence language switches automatically",
-      "60+ languages, covering accents and regional dialects",
+      "Translates as they speak",
+      "Each person speaks their own language",
+      "Handles mid-sentence switches",
+      "60+ languages",
     ],
     href: "/live-translator",
     icon: (
@@ -56,10 +56,10 @@ const features = [
     label: "AUDIO TRANSCRIPTION",
     title: "Transcribe Any Audio or Video File",
     bullets: [
-      "Audio and video files — lectures, meetings, voicemails, podcasts",
-      "Full transcript organized by speaker, not one continuous block",
-      "Accurate across 60+ languages",
-      "Ready to read, copy, search, or share",
+      "Any audio or video file",
+      "Organized by speaker",
+      "60+ languages",
+      "Read, copy, search, share",
     ],
     href: "/audio-transcription",
     icon: (
@@ -74,10 +74,10 @@ const features = [
     label: "AI SUMMARY",
     title: "Turn Transcripts into Structured Summaries",
     bullets: [
-      "Key points and decisions surfaced automatically",
-      "Action items pulled out so nothing gets missed",
-      "Works on any Captio AI transcript",
-      "Organized into sections, not one continuous block",
+      "Key points and decisions",
+      "Action items extracted",
+      "Works on any transcript",
+      "Organized into sections",
     ],
     href: "/ai-summary",
     icon: (
@@ -95,73 +95,73 @@ const features = [
 const useCases = [
   {
     label: "Everyday Conversations",
-    href: "/live-captions/everyday-conversations",
+    href: "/use-cases/everyday-conversations",
     description: "Most conversations happen fast, at normal pace, without warning. Captio AI captions every word as it's spoken, so you can follow without asking anyone to repeat themselves.",
     icon: "💬",
   },
   {
     label: "Communicating with Deaf & HoH",
-    href: "/live-captions/deaf-hoh-communication",
+    href: "/use-cases/deaf-hoh-communication",
     description: "Hearing people often don't know how to adapt when talking with deaf or hard of hearing friends. Captio AI turns their speech into real-time captions, so the conversation can happen naturally on both sides.",
     icon: "🤟",
   },
   {
     label: "Meetings",
-    href: "/live-captions/meetings",
+    href: "/use-cases/meetings",
     description: "In meetings, decisions happen fast and people talk over each other. Captio AI captions every speaker as they talk, so you never miss a decision or a question directed at you.",
     icon: "💼",
   },
   {
     label: "Lectures",
-    href: "/live-captions/lectures",
+    href: "/use-cases/lectures",
     description: "Lecturers speak quickly, cover complex material, and rarely repeat themselves. Captio AI gives you a live transcript of everything said, so you can follow the content instead of straining to hear it.",
     icon: "🎓",
   },
   {
     label: "Doctor Appointments",
-    href: "/live-captions/doctor-appointments",
+    href: "/use-cases/doctor-appointments",
     description: "Doctors speak quickly and use clinical language that's easy to mishear. Captio AI shows you everything they say in real time, so you can follow your diagnosis and ask the right questions.",
     icon: "🏥",
   },
   {
     label: "Job Interviews",
-    href: "/live-captions/job-interviews",
+    href: "/use-cases/job-interviews",
     description: "Missing a question in an interview means answering wrong or asking for a repeat. Captio AI shows you every word the interviewer says, so you can focus entirely on your answer.",
     icon: "🤝",
   },
   {
     label: "Phone & Video Calls",
-    href: "/live-captions/phone-video-calls",
+    href: "/use-cases/phone-video-calls",
     description: "Phone and video calls are harder to follow than in-person conversations. No lip reading, often poor audio quality. Captio AI captions whoever is speaking in real time, so you do not need to ask for repeats.",
     icon: "📱",
   },
   {
     label: "Group Settings",
-    href: "/live-captions/group-settings",
+    href: "/use-cases/group-settings",
     description: "In groups, multiple people talk at once and the conversation moves fast. Captio AI keeps up with whoever is speaking, so you can follow without losing where the conversation is going.",
     icon: "👥",
   },
   {
     label: "Restaurants & Cafes",
-    href: "/live-captions/restaurants",
+    href: "/use-cases/restaurants",
     description: "Background noise makes speech hard to follow even for people without hearing loss. Captio AI focuses on whoever is speaking to you, so you can have a real conversation through the noise.",
     icon: "🍽️",
   },
   {
     label: "Traveling",
-    href: "/live-captions/traveling",
+    href: "/use-cases/traveling",
     description: "In airports, hotels, and unfamiliar cities there is no margin for mishearing. Captio AI captions speech in 60+ languages, so you can navigate confidently wherever you go.",
     icon: "✈️",
   },
   {
     label: "Conferences & Events",
-    href: "/live-captions/conferences",
+    href: "/use-cases/conferences",
     description: "Speakers are far away, acoustics are unpredictable, and you cannot ask for a repeat. Captio AI gives you a live transcript of every speaker, so you can follow the full event from any seat.",
     icon: "🎤",
   },
   {
     label: "TV & Media",
-    href: "/live-captions/tv-media",
+    href: "/use-cases/tv-media",
     description: "Built-in subtitles are often wrong, delayed, or missing entirely. Captio AI captions whatever is playing in real time, so you are not dependent on whether the content has subtitles.",
     icon: "📺",
   },
@@ -325,9 +325,9 @@ export default function HomePage() {
       <Header />
 
         {/* ── Hero ── */}
-        <section className="pt-12 pb-4 sm:pt-20 sm:pb-10 px-5">
+        <section className="pt-6 pb-4 sm:pt-10 sm:pb-10 px-5">
           <div className="max-w-3xl mx-auto flex flex-col items-center text-center gap-4 sm:gap-6">
-            <span className="text-[11px] font-bold text-brand uppercase tracking-widest mt-4 sm:mt-0">
+            <span className="text-[11px] font-bold text-brand uppercase tracking-widest mt-2 sm:mt-0">
               🦻 Accessibility + 💻 Productivity App
             </span>
 
@@ -341,19 +341,27 @@ export default function HomePage() {
               Follow any conversation, meeting or lecture. In any language.
             </p>
 
-            <div id="download">
-              <a
-                href="#"
-                className="inline-flex items-center gap-3 bg-cta text-white font-semibold px-7 py-4 rounded-[8px] hover:bg-cta-dark transition-colors"
-              >
-                <svg viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 shrink-0">
-                  <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98l-.09.06c-.22.14-2.2 1.28-2.18 3.81.03 3.02 2.65 4.03 2.68 4.04l-.05.17ZM13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11Z" />
-                </svg>
-                <span>
-                  <span className="block text-xs font-normal opacity-75 leading-none mb-1">Download on the</span>
-                  <span className="block text-lg font-bold leading-none">App Store</span>
-                </span>
-              </a>
+            <div id="download" className="bg-white rounded-xl border border-gray-100 shadow-sm px-8 py-6 flex items-center gap-8">
+              <div className="hidden sm:block p-3 bg-white border border-gray-200 rounded-xl">
+                <div className="w-24 h-24 bg-gray-50 rounded-lg flex items-center justify-center text-gray-300 text-[10px] text-center leading-tight">
+                  QR<br/>coming soon
+                </div>
+              </div>
+              <div className="flex flex-col gap-2 items-center">
+                <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">Download for free</p>
+                <a
+                  href="#"
+                  className="inline-flex items-center gap-3 bg-cta text-white font-semibold px-7 py-4 rounded-[8px] hover:bg-cta-dark transition-colors"
+                >
+                  <svg viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 shrink-0">
+                    <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98l-.09.06c-.22.14-2.2 1.28-2.18 3.81.03 3.02 2.65 4.03 2.68 4.04l-.05.17ZM13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11Z" />
+                  </svg>
+                  <span>
+                    <span className="block text-xs font-normal opacity-75 leading-none mb-1">Download on the</span>
+                    <span className="block text-lg font-bold leading-none">App Store</span>
+                  </span>
+                </a>
+              </div>
             </div>
 
             {/* App mockup */}
@@ -432,9 +440,10 @@ export default function HomePage() {
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               {useCases.map((uc) => (
-                <div
+                <Link
                   key={uc.label}
-                  className="group bg-white rounded-xl border border-gray-200 p-5 hover:border-brand hover:shadow-md transition-all flex flex-col gap-3 relative cursor-pointer"
+                  href={uc.href}
+                  className="group bg-white rounded-xl border border-gray-200 p-5 hover:border-brand hover:shadow-md transition-all flex flex-col gap-3 relative"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" className="absolute top-4 right-4 w-5 h-5 text-cta opacity-0 group-hover:opacity-100 transition-opacity">
                     <path d="M22 14a8 8 0 0 1-8 8" strokeWidth="2" />
@@ -448,7 +457,7 @@ export default function HomePage() {
                     <span className="text-base">{uc.label}</span>
                   </span>
                   <p className="text-sm text-gray-500 leading-relaxed">{uc.description}</p>
-                </div>
+                </Link>
               ))}
             </div>
           </div>
