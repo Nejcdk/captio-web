@@ -33,16 +33,6 @@ const navItems = [
       </svg>
     ),
   },
-  {
-    label: "Pricing",
-    href: "/pricing",
-    icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5">
-        <path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" strokeWidth="2" />
-        <path fill="currentColor" d="M7 7.5a0.5 0.5 0 1 0 1 0 0.5 0.5 0 1 0-1 0" strokeWidth="2" />
-      </svg>
-    ),
-  },
 ];
 
 export default function Header() {
@@ -61,7 +51,6 @@ export default function Header() {
           <Link href="/#features" className="hover:text-white transition-colors">Features</Link>
           <Link href="/#use-cases" className="hover:text-white transition-colors">Use Cases</Link>
           <Link href="/#languages" className="hover:text-white transition-colors">Languages</Link>
-          <Link href="/pricing" className="hover:text-white transition-colors">Pricing</Link>
         </nav>
 
         <a href="#download" className="hidden md:block bg-white text-brand text-sm font-semibold px-5 py-2.5 rounded-[8px] hover:bg-white/90 transition-colors">

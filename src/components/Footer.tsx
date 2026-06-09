@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { useCases } from "@/lib/useCases";
 
 export default function Footer() {
   return (
@@ -23,13 +24,15 @@ export default function Footer() {
             </div>
 
             <div className="flex flex-col gap-2">
-              <span className="font-semibold text-white/40 uppercase tracking-widest text-xs mb-1">App</span>
-              <Link href="/pricing" className="text-white/70 hover:text-white transition-colors">Pricing</Link>
-              <Link href="/support" className="text-white/70 hover:text-white transition-colors">Support</Link>
+              <span className="font-semibold text-white/40 uppercase tracking-widest text-xs mb-1">Use Cases</span>
+              {useCases.map((uc) => (
+                <Link key={uc.slug} href={`/use-cases/${uc.slug}`} className="text-white/70 hover:text-white transition-colors">{uc.label}</Link>
+              ))}
             </div>
 
             <div className="flex flex-col gap-2">
               <span className="font-semibold text-white/40 uppercase tracking-widest text-xs mb-1">Company</span>
+              <Link href="/support" className="text-white/70 hover:text-white transition-colors">Support</Link>
               <Link href="/privacy" className="text-white/70 hover:text-white transition-colors">Privacy Policy</Link>
               <Link href="/terms" className="text-white/70 hover:text-white transition-colors">Terms of Service</Link>
             </div>

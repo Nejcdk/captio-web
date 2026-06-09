@@ -132,6 +132,12 @@ Every page should answer: the main question, all sub-questions, dialect/accent s
 - Tailwind v4: config is in `globals.css` via `@theme inline`, no `tailwind.config.js`
 - No indexing has been done yet — site is live on Vercel but not submitted to Google Search Console
 
+## Git / deployment
+
+Deploys via GitHub → Vercel auto-deploy on push to `main`.
+
+**Known past issue — slow git push (fixed 2026-06-08):** A previous session added `http.postBuffer = 524288000` to `~/.gitconfig` (a 500MB HTTP buffer, intended to fix a "connection hung up" error). This made every push take 10+ minutes. It was removed. If pushes become slow again, check `~/.gitconfig` for a `postBuffer` entry under `[http]` and remove it.
+
 ---
 
 ## Copywriting Brief

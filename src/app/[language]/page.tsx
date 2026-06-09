@@ -127,10 +127,10 @@ export default async function LanguagePage({ params }: Props) {
       label: "LIVE CAPTIONS",
       title: `Real-Time ${lang.language} Speech to Text`,
       bullets: [
-        `${lang.language} captions appear word by word while the person is still speaking`,
-        `Works in noisy places — restaurants, hallways, busy streets`,
+        `${lang.language} captions, word by word`,
+        `Works in noisy places`,
         `${lang.dialectNote}`,
-        `No need to face the speaker or watch their lips`,
+        `No lip reading needed`,
       ],
       href: "/live-captions",
       icon: (
@@ -145,9 +145,9 @@ export default async function LanguagePage({ params }: Props) {
       label: "LIVE TRANSLATOR",
       title: `Translate ${lang.language} in Real Time`,
       bullets: [
-        `Translate ${lang.language} to English or 60+ other languages continuously as people speak`,
-        `Each person speaks their own language — you read in ${lang.language}`,
-        `Handles mid-sentence language switches automatically`,
+        `Translates ${lang.language} as they speak`,
+        `Each person speaks their own language`,
+        `Handles mid-sentence switches`,
         `${lang.dialectNote}`,
       ],
       href: "/live-translator",
@@ -166,10 +166,10 @@ export default async function LanguagePage({ params }: Props) {
       label: "AUDIO TRANSCRIPTION",
       title: `Transcribe Any ${lang.language} Audio or Video`,
       bullets: [
-        `Upload ${lang.language} audio and video files — lectures, meetings, voicemails, podcasts`,
-        `Full ${lang.language} transcript organized by speaker, not one continuous block`,
-        `Accurate for ${lang.dialectNote.toLowerCase()}`,
-        `Ready to read, copy, search, or share`,
+        `Any ${lang.language} audio or video file`,
+        `Organized by speaker`,
+        `${lang.dialectNote}`,
+        `Read, copy, search, share`,
       ],
       href: "/audio-transcription",
       icon: (
@@ -184,10 +184,10 @@ export default async function LanguagePage({ params }: Props) {
       label: "AI SUMMARY",
       title: `Turn ${lang.language} Transcripts into Summaries`,
       bullets: [
-        `Key points and decisions from ${lang.language} meetings surfaced automatically`,
-        `Action items pulled out so nothing gets missed`,
-        `Works on any Captio AI ${lang.language} transcript`,
-        `Organized into sections, not one continuous block`,
+        `Key points from ${lang.language} meetings`,
+        `Action items extracted`,
+        `Works on any ${lang.language} transcript`,
+        `Organized into sections`,
       ],
       href: "/ai-summary",
       icon: (
