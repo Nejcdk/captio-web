@@ -66,13 +66,13 @@ const IDLE_PHRASES = [
 ];
 
 const SPEAKER_PALETTE = [
-  '#1C49F5', // brand blue
-  '#7C3AED', // purple
-  '#059669', // green
-  '#D97706', // amber
-  '#DC2626', // red
-  '#0891B2', // cyan
-  '#BE185D', // pink
+  '#1C49F5',
+  '#7C3AED',
+  '#059669',
+  '#D97706',
+  '#DC2626',
+  '#0891B2',
+  '#BE185D',
 ];
 
 function speakerColor(speaker: string): string {
@@ -88,7 +88,7 @@ interface Token {
   language?: string;
 }
 
-interface SonioxMessage {
+interface TranscribeMessage {
   tokens?: Token[];
   finished?: boolean;
   error_type?: string;
@@ -102,7 +102,7 @@ interface Segment {
   text: string;
 }
 
-const SONIOX_ERRORS: Record<string, string> = {
+const ERRORS: Record<string, string> = {
   unauthenticated: 'Authentication failed. The demo credentials may have expired.',
   insufficient_credits: 'Demo quota reached. Please try again later.',
   rate_limit_exceeded: 'Too many requests. Please wait a moment and try again.',
@@ -117,15 +117,15 @@ export default function DemoRecorder() {
   const [error, setError] = useState<string | null>(null);
   const [phraseIndex, setPhraseIndex] = useState(0);
 
-  const wsRef = useRef<WebSocket | null>(null);
   const audioCtxRef = useRef<AudioContext | null>(null);
   const processorRef = useRef<ScriptProcessorNode | null>(null);
   const streamRef = useRef<MediaStream | null>(null);
   const transcriptRef = useRef<HTMLDivElement>(null);
   const activeRef = useRef(false);
   const segIdRef = useRef(0);
+  const writerRef = useRef<WritableStreamDefaultWriter<Uint8Array> | null>(null);
+  const abortCtrlRef = useRef<AbortController | null>(null);
 
-  // Cycle placeholder phrases when idle
   useEffect(() => {
     if (isRecording) return;
     const id = setInterval(() => {
@@ -134,7 +134,6 @@ export default function DemoRecorder() {
     return () => clearInterval(id);
   }, [isRecording]);
 
-  // Auto-scroll transcript
   useEffect(() => {
     if (transcriptRef.current) {
       transcriptRef.current.scrollTop = transcriptRef.current.scrollHeight;
@@ -153,18 +152,9 @@ export default function DemoRecorder() {
     audioCtxRef.current?.close().catch(() => {});
     audioCtxRef.current = null;
 
-    const ws = wsRef.current;
-    if (ws) {
-      ws.onopen = null;
-      ws.onmessage = null;
-      ws.onerror = null;
-      ws.onclose = null;
-      if (ws.readyState === WebSocket.OPEN) {
-        try { ws.send(new ArrayBuffer(0)); } catch { /* ignore */ }
-      }
-      ws.close();
-      wsRef.current = null;
-    }
+    // Close writer — signals end of audio stream to the server
+    writerRef.current?.close().catch(() => {});
+    writerRef.current = null;
   }, []);
 
   const stopRecording = useCallback(() => {
@@ -175,8 +165,11 @@ export default function DemoRecorder() {
     setNonFinalLanguage(undefined);
   }, [cleanup]);
 
-  // Cleanup on unmount
-  useEffect(() => () => { cleanup(); }, [cleanup]);
+  useEffect(() => () => {
+    cleanup();
+    abortCtrlRef.current?.abort();
+    abortCtrlRef.current = null;
+  }, [cleanup]);
 
   const startRecording = useCallback(async () => {
     setError(null);
@@ -186,26 +179,11 @@ export default function DemoRecorder() {
     setNonFinalLanguage(undefined);
     segIdRef.current = 0;
 
-    // Fetch API key from server
-    let apiKey: string;
-    try {
-      const res = await fetch('/api/soniox-key');
-      if (!res.ok) throw new Error('Demo not configured. Add SONIOX_API_KEY to .env.local.');
-      const data = await res.json() as { apiKey?: string; error?: string };
-      if (!data.apiKey) throw new Error(data.error ?? 'Demo credentials missing.');
-      apiKey = data.apiKey;
-    } catch (e) {
-      setError(e instanceof Error ? e.message : 'Failed to connect. Try again.');
-      return;
-    }
-
-    // Check browser support
     if (!navigator.mediaDevices?.getUserMedia) {
       setError('Your browser does not support microphone access. Try Chrome or Safari.');
       return;
     }
 
-    // Request microphone
     let stream: MediaStream;
     try {
       stream = await navigator.mediaDevices.getUserMedia({ audio: true, video: false });
@@ -224,7 +202,6 @@ export default function DemoRecorder() {
       return;
     }
 
-    // Set up AudioContext at 16 kHz
     let audioCtx: AudioContext;
     try {
       audioCtx = new AudioContext({ sampleRate: 16000 });
@@ -241,56 +218,73 @@ export default function DemoRecorder() {
     processor.connect(silencer);
     silencer.connect(audioCtx.destination);
 
-    // Open WebSocket
-    const ws = new WebSocket('wss://stt-rt.soniox.com/transcribe-websocket');
-    wsRef.current = ws;
     streamRef.current = stream;
     audioCtxRef.current = audioCtx;
     processorRef.current = processor;
 
-    ws.onopen = () => {
-      ws.send(JSON.stringify({
-        api_key: apiKey,
-        model: 'stt-rt-v4',
-        audio_format: 'pcm_s16le',
-        sample_rate: sampleRate,
-        num_channels: 1,
-        enable_speaker_diarization: true,
-        enable_language_identification: true,
-        enable_endpoint_detection: true,
-        max_endpoint_delay_ms: 1500,
-      }));
+    // Create a transform stream — audio chunks flow in, get forwarded to the server
+    const { readable, writable } = new TransformStream<Uint8Array, Uint8Array>();
+    const writer = writable.getWriter();
+    writerRef.current = writer;
 
-      source.connect(processor);
+    const abortCtrl = new AbortController();
+    abortCtrlRef.current = abortCtrl;
 
-      processor.onaudioprocess = (e) => {
-        if (!activeRef.current || ws.readyState !== WebSocket.OPEN) return;
-        const float32 = e.inputBuffer.getChannelData(0);
-        const int16 = new Int16Array(float32.length);
-        for (let i = 0; i < float32.length; i++) {
-          const s = Math.max(-1, Math.min(1, float32[i]));
-          int16[i] = s < 0 ? s * 0x8000 : s * 0x7fff;
-        }
-        ws.send(int16.buffer);
-      };
-
-      activeRef.current = true;
-      setIsRecording(true);
+    // Connect audio processor to the writer
+    source.connect(processor);
+    processor.onaudioprocess = (e) => {
+      if (!activeRef.current) return;
+      const float32 = e.inputBuffer.getChannelData(0);
+      const int16 = new Int16Array(float32.length);
+      for (let i = 0; i < float32.length; i++) {
+        const s = Math.max(-1, Math.min(1, float32[i]));
+        int16[i] = s < 0 ? s * 0x8000 : s * 0x7fff;
+      }
+      writer.write(new Uint8Array(int16.buffer)).catch(() => {});
     };
 
-    ws.onmessage = (event) => {
-      if (!activeRef.current) return;
-      let msg: SonioxMessage;
-      try {
-        msg = JSON.parse(event.data as string) as SonioxMessage;
-      } catch {
-        return;
-      }
+    activeRef.current = true;
+    setIsRecording(true);
 
+    // Stream audio to server; receive transcription results as SSE
+    let res: Response;
+    try {
+      res = await fetch('/api/transcribe', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/octet-stream',
+          'x-sample-rate': String(sampleRate),
+        },
+        body: readable,
+        // @ts-expect-error — duplex not yet in TS lib types
+        duplex: 'half',
+        signal: abortCtrl.signal,
+      });
+    } catch (e) {
+      if ((e as Error).name !== 'AbortError') {
+        setError('Connection error. Check your internet connection and try again.');
+      }
+      cleanup();
+      setIsRecording(false);
+      return;
+    }
+
+    if (!res.ok || !res.body) {
+      setError('Demo not available right now. Please try again later.');
+      cleanup();
+      setIsRecording(false);
+      return;
+    }
+
+    // Parse the SSE response stream
+    const reader = res.body.getReader();
+    const decoder = new TextDecoder();
+    let buf = '';
+
+    const handleMessage = (msg: TranscribeMessage) => {
       if (msg.error_type) {
-        setError(SONIOX_ERRORS[msg.error_type] ?? `Transcription error: ${msg.error_type}`);
-        cleanup();
-        setIsRecording(false);
+        setError(ERRORS[msg.error_type] ?? `Transcription error: ${msg.error_type}`);
+        stopRecording();
         return;
       }
 
@@ -329,21 +323,28 @@ export default function DemoRecorder() {
       setNonFinalLanguage(nfTokens[0]?.language);
     };
 
-    ws.onerror = () => {
-      if (!activeRef.current) return;
-      setError('Connection error. Check your internet connection and try again.');
-      cleanup();
-      setIsRecording(false);
-    };
-
-    ws.onclose = (e) => {
-      if (!activeRef.current) return;
-      if (e.code !== 1000 && e.code !== 1001) {
-        setError('Connection closed unexpectedly. Please try again.');
-        cleanup();
-        setIsRecording(false);
+    try {
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        buf += decoder.decode(value, { stream: true });
+        const parts = buf.split('\n\n');
+        buf = parts.pop() ?? '';
+        for (const part of parts) {
+          const line = part.trim();
+          if (!line.startsWith('data: ')) continue;
+          try {
+            handleMessage(JSON.parse(line.slice(6)) as TranscribeMessage);
+          } catch { /* malformed JSON — skip */ }
+        }
       }
-    };
+    } catch (e) {
+      if ((e as Error).name !== 'AbortError') {
+        setError('Connection closed unexpectedly. Please try again.');
+      }
+    } finally {
+      stopRecording();
+    }
   }, [cleanup, stopRecording]);
 
   const handleToggle = () => {
@@ -356,7 +357,6 @@ export default function DemoRecorder() {
 
   return (
     <div className="bg-white border-2 border-gray-300 rounded-3xl min-h-[480px] sm:min-h-[380px] flex flex-col">
-      {/* Transcript area */}
       <div
         ref={transcriptRef}
         className="flex-1 min-h-0 overflow-y-auto px-6 pt-6 pb-3"
@@ -424,14 +424,12 @@ export default function DemoRecorder() {
         )}
       </div>
 
-      {/* Error banner */}
       {error && (
         <div className="mx-5 mb-3 px-4 py-3 bg-red-50 border border-red-100 rounded-xl">
           <p className="text-sm text-red-600 text-center">{error}</p>
         </div>
       )}
 
-      {/* Button */}
       <div className="shrink-0 pb-6 pt-2 flex flex-col items-center gap-2">
         <p className="text-[12px] text-gray-400 font-medium h-4">
           {isRecording ? 'Tap to stop' : ''}
