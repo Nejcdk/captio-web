@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import DemoRecorder from "@/components/DemoRecorder";
 
 export const metadata: Metadata = {
   title: "Try Captio AI Live — Real-Time Captions in Any Language",
@@ -42,18 +43,7 @@ export default function DemoPage() {
         {/* ── Demo card ── */}
         <section className="py-6 px-5 bg-white">
           <div className="max-w-3xl mx-auto">
-            <div className="bg-white border-2 border-gray-300 rounded-3xl min-h-[480px] sm:min-h-[380px] flex flex-col items-center justify-end pb-5">
-              <button className="w-[106px] h-[106px] rounded-[24px] border-2 border-gray-200 bg-white flex items-center justify-center">
-                <div className="w-[84px] h-[84px] rounded-[12px] bg-brand flex items-center justify-center">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-[34px] h-[34px]">
-                    <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z" />
-                    <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
-                    <path d="M12 19v4" />
-                    <path d="M8 23h8" />
-                  </svg>
-                </div>
-              </button>
-            </div>
+            <DemoRecorder />
           </div>
         </section>
 

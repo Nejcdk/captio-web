@@ -18,6 +18,7 @@ export type UseCaseLanguageVariant = {
   challenge: {
     headline: string;
     paragraphs: string[];
+    citations?: { label: string; url: string }[];
   };
   reviews: { name: string; flag: string; email: string; detail: string; quote: string }[];
   faqs: { q: string; a: string }[];
@@ -29,37 +30,32 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
     languageSlug: "chinese",
     heroDescription: "Chinese everyday conversations move at full speed — tones neutralised, syllables dropped, regional varieties shifting mid-sentence. Captio AI captions Mandarin and Cantonese in real time so nothing leaves you behind.",
     whyHardSection: {
-      headline: "Chinese everyday speech bears little resemblance to the Mandarin in a textbook",
+      headline: "Everyday Chinese conversations have no accommodation and no second chance",
       cards: [
         {
-          tag: "Tonal system",
-          title: "Tones you cannot lip-read",
-          description: "Mandarin's 4 tones distinguish thousands of homophones — but tone is purely acoustic. Lip-reading captures mouth shape, not pitch. In casual speech, those tones are further reduced and neutralised (arXiv, 2024).",
+          tag: "Counter interactions",
+          title: "The pharmacy counter does not wait",
+          description: "Shop staff, pharmacists, and service workers speak at full conversational pace and do not know you are deaf. There is no interpreter at a pharmacy counter. The person behind you is already impatient. You have one exchange to get it right.",
         },
         {
-          tag: "Casual speech",
-          title: "Syllables dropped, sounds swallowed",
-          description: "Fast conversational Mandarin bears little resemblance to textbook pronunciation. Sentence-final particles — 吧, 吗, 呢 — are often barely audible. Unstressed syllables disappear entirely.",
+          tag: "Family settings",
+          title: "Family dinners exclude through speed, not hostility",
+          description: "Multigenerational Chinese family gatherings involve fast overlapping speech, jokes, callbacks, and sudden topic shifts. The social meaning — who laughed, what was implied — matters as much as the words. Casual family Mandarin is nothing like formal speech: syllables drop, tones flatten, regional varieties mix.",
         },
         {
-          tag: "Regional varieties",
-          title: "Cantonese, Wu, Min — not one language",
-          description: "Hong Kong runs on Cantonese. Shanghai carries Wu phonology. These are not accents — they are distinct linguistic systems, each with their own tonal structure and vocabulary.",
+          tag: "Casual register",
+          title: "Daily Chinese sounds nothing like the textbook",
+          description: "Formal Mandarin has clear tones and deliberate pronunciation. Everyday speech drops syllables, neutralises tones, and runs sentence particles together. The gap between classroom Chinese and what a street vendor or neighbour actually says is immense — and widens at conversational speed.",
+        },
+        {
+          tag: "No formal support",
+          title: "Workplaces sometimes accommodate. Daily life never does.",
+          description: "Hospitals and employers occasionally provide accessibility support. Street markets, dinner tables, taxi rides, and shop queues never do. These interactions happen dozens of times a day, with no interpreter, no system, and no fallback — just the deaf person navigating alone.",
         },
         {
           tag: "Code-switching",
-          title: "Chinese-English, mid-sentence",
-          description: "In Singapore, Hong Kong, and Taiwan, sentences routinely switch between Chinese and English without warning. Neither language alone captures the full conversation.",
-        },
-        {
-          tag: "Homophones",
-          title: "Same sound, dozens of meanings",
-          description: "Mandarin has among the highest homophone density of any language. Without tones — which casual speech drops — the same syllable can mean entirely different things. Context fills the gap only if you caught what came before.",
-        },
-        {
-          tag: "Written gap",
-          title: "Characters do not bridge the conversation",
-          description: "Typing on a phone to communicate breaks the flow, requires character literacy from both sides, and marks every interaction as different from what hearing participants experience. It is a workaround, not a solution.",
+          title: "Daily conversations switch languages without warning",
+          description: "In Hong Kong, Singapore, and urban Taiwan, a single street interaction or family meal can move between Cantonese, Mandarin, and English mid-sentence. Following the meaning requires all three at once — something no single-language approach handles.",
         },
       ],
     },
@@ -96,11 +92,16 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
       },
     ],
     challenge: {
-      headline: "27.8 million. Left out.",
+      headline: "27.8 million people. Excluded from ordinary life.",
       paragraphs: [
-        "China has the largest deaf population in the world: 27.8 million people, according to China's Second National Disability Survey — navigating daily life in a country where sign language has no formal legal recognition, specialist deaf schools are concentrated in cities, and accessibility infrastructure for everyday communication is sparse. Hearing loss prevalence has risen consistently from 1990 to 2021, driven by an ageing population, and is projected to increase further (Frontiers in Public Health, 2025).",
-        "For many Chinese deaf and hard of hearing people, everyday interactions are described as uphill battles — from pharmacies to bank counters to family gatherings (Medium, 2024). Over 75% of people with disabilities in China live in rural areas, far from the urban centres where support is concentrated. In those settings, a deaf person navigating a counter conversation or a street interaction has no formal system to fall back on.",
-        "The burden is carried individually and invisibly. Without sign language recognition or interpreter availability, deaf and hard of hearing Chinese speakers navigate conversations through lip-reading tones that cannot be lip-read, typing characters on phones that breaks every conversation's rhythm, and — too often — simply not fully participating. A hearing person's casual exchange requires no effort. The same exchange, for a deaf or hard of hearing Chinese speaker, is a series of reconstructions. Captio AI captions Mandarin and Cantonese at the speed of real conversation, not textbook speech.",
+        "China has the largest deaf and hard of hearing population in the world — 27.8 million people, according to the Second National Sample Survey on Disability. They are not excluded from education or employment alone. They are excluded from the texture of daily social life: the family meal where everyone else is laughing, the neighbourhood exchange that hearing people complete without thinking, the moment of belonging that happens through casual conversation.",
+        "China has no formal recognition of sign language as a national language. Interpreter services are concentrated in cities and institutions. For the 27.8 million navigating everyday life — not workplaces or hospitals, but streets, homes, and the unstructured flow of daily existence — there is no system. There is only the individual, managing alone, every day.",
+        "Hearing loss prevalence in China has risen consistently from 1990 to 2021, driven by an ageing population, and is projected to continue increasing. The number of people navigating daily Chinese life without sound is growing. The infrastructure to support them in everyday conversation is not keeping pace.",
+      ],
+      citations: [
+        { label: "China's Second National Sample Survey on Disability — hearing disability prevalence", url: "https://pubmed.ncbi.nlm.nih.gov/19031751/" },
+        { label: "Barriers to Chinese National Sign Language acceptance — SAGE Journals, 2025", url: "https://journals.sagepub.com/doi/10.1177/21582440251332390" },
+        { label: "Temporal trends in hearing loss in China 1990–2021 — Frontiers in Public Health, 2025", url: "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1538145/full" },
       ],
     },
     reviews: [

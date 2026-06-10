@@ -9,6 +9,7 @@ import ReviewCarousel from "@/components/ReviewCarousel";
 import { useCases, getUseCaseBySlug } from "@/lib/useCases";
 import { languages, getLanguageBySlug } from "@/lib/languages";
 import { getUseCaseLanguageVariant } from "@/lib/useCaseLanguageData";
+import LanguageMetrics from "@/components/LanguageMetrics";
 
 export async function generateStaticParams() {
   const params: { slug: string; language: string }[] = [];
@@ -104,7 +105,6 @@ export default async function UseCaseLanguagePage({ params }: Props) {
   const reviews = variant?.reviews ?? uc.reviews;
   const allFaqs = [
     ...(variant?.faqs ?? []),
-    ...(lang.languageFAQs ?? []),
     ...uc.faqs,
   ];
 
@@ -268,45 +268,6 @@ export default async function UseCaseLanguagePage({ params }: Props) {
           <AppStoreButton />
         </div>
 
-        {/* ── Why [Language] is hard in [UseCase] ── */}
-        {variant?.whyHardSection && (
-          <section className="py-10 px-6 bg-white">
-            <div className="max-w-3xl mx-auto">
-              <div className="text-center mb-7">
-                <span className="text-xs font-bold text-cta uppercase tracking-widest">Why {lang.language}</span>
-                <h2 className="text-3xl font-bold text-gray-900 tracking-tight mt-3">
-                  Why {lang.language} is hard to understand
-                </h2>
-              </div>
-              <div className="bg-gray-50 rounded-2xl border border-gray-100 overflow-hidden">
-                {variant.whyHardSection.cards.map((card, i) => (
-                  <div key={card.title} className={`px-7 py-6 ${i !== 0 ? "border-t border-gray-200" : ""}`}>
-                    <h3 className="font-bold text-gray-900 text-base mb-4">{card.tag}</h3>
-                    <ul className="flex flex-col gap-3">
-                      <li className="flex items-start gap-3">
-                        <svg className="w-[18px] h-[18px] text-gray-400 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                          <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/>
-                          <path d="M3 3v5h5"/>
-                          <path d="M12 7v5l4 2"/>
-                        </svg>
-                        <span className="text-sm font-semibold text-gray-800 leading-snug">{card.title}</span>
-                      </li>
-                      <li className="flex items-start gap-3">
-                        <svg className="w-[18px] h-[18px] text-gray-400 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                          <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/>
-                          <path d="M9 18h6"/>
-                          <path d="M10 22h4"/>
-                        </svg>
-                        <span className="text-sm text-gray-500 leading-relaxed">{card.description}</span>
-                      </li>
-                    </ul>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </section>
-        )}
-
         {/* ── Mockup images ── */}
         <div className="px-6 py-4 bg-white flex justify-center gap-4">
           <Image
@@ -341,11 +302,51 @@ export default async function UseCaseLanguagePage({ params }: Props) {
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 {uc.benefits.map((b) => (
                   <div key={b.title} className="bg-gray-50 rounded-xl p-6 flex flex-col gap-3 border border-gray-100">
-                    <h3 className="font-bold text-gray-900 text-base leading-snug py-2">{b.title}</h3>
+                    <h3 className="font-bold text-gray-900 text-base leading-snug">{b.title}</h3>
                     <p className="text-sm text-gray-500 leading-relaxed">{b.description}</p>
                   </div>
                 ))}
               </div>
+            </div>
+          </section>
+        )}
+
+        {/* ── Why [Language] is hard in [UseCase] ── */}
+        {variant?.whyHardSection && (
+          <section className="py-10 px-6 bg-white">
+            <div className="max-w-3xl mx-auto">
+              <div className="text-center mb-7">
+                <span className="text-xs font-bold text-cta uppercase tracking-widest">{lang.language}</span>
+                <h2 className="text-3xl font-bold text-gray-900 tracking-tight mt-3">
+                  Why {lang.language} is hard to understand
+                </h2>
+              </div>
+              <div className="bg-gray-50 rounded-2xl border border-gray-100 overflow-hidden">
+                {variant.whyHardSection.cards.map((card, i) => (
+                  <div key={card.title} className={`px-7 py-6 ${i !== 0 ? "border-t border-gray-200" : ""}`}>
+                    <h3 className="font-bold text-gray-900 text-base mb-2">{card.tag}</h3>
+                    <ul className="flex flex-col gap-3">
+                      <li className="flex items-start gap-3">
+                        <svg className="w-[18px] h-[18px] text-gray-400 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                          <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/>
+                          <path d="M3 3v5h5"/>
+                          <path d="M12 7v5l4 2"/>
+                        </svg>
+                        <span className="text-sm font-semibold text-gray-800 leading-snug">{card.title}</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <svg className="w-[18px] h-[18px] text-gray-400 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                          <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/>
+                          <path d="M9 18h6"/>
+                          <path d="M10 22h4"/>
+                        </svg>
+                        <span className="text-sm text-gray-500 leading-relaxed">{card.description}</span>
+                      </li>
+                    </ul>
+                  </div>
+                ))}
+              </div>
+              <LanguageMetrics language={lang.language} wer={lang.wer} useCer={lang.useCer} />
             </div>
           </section>
         )}
@@ -367,12 +368,29 @@ export default async function UseCaseLanguagePage({ params }: Props) {
                 </h2>
               </div>
               <div className="flex flex-col gap-4">
-                {variant.challenge.paragraphs.map((p, i) => (
+                {variant.challenge.paragraphs.slice(0, 3).map((p, i) => (
                   <div key={i} className="bg-gray-50 rounded-[8px] px-5 py-4">
                     <p className="text-sm text-gray-500 leading-relaxed">{p}</p>
                   </div>
                 ))}
               </div>
+              {variant.challenge.citations && (
+                <div className="mt-5 flex flex-col gap-1">
+                  {variant.challenge.citations.map((c, i) => (
+                    <p key={i} className="text-[11px] text-gray-400 leading-snug">
+                      <span className="mr-1.5 font-semibold">[{i + 1}]</span>
+                      <a
+                        href={c.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="underline underline-offset-2 hover:text-gray-600 transition-colors"
+                      >
+                        {c.label}
+                      </a>
+                    </p>
+                  ))}
+                </div>
+              )}
             </div>
           </section>
         )}

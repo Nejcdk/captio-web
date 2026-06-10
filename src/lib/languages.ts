@@ -29,6 +29,8 @@ export type Language = {
   speakerCount: string;
   dialectNote: string;
   languageFAQ: string;
+  wer: number;
+  useCer?: boolean;
   dialectCards?: DialectCard[];
   languageFAQs?: LanguageFAQ[];
   communityNote?: CommunityNote;
@@ -38,6 +40,7 @@ export type Language = {
 export const languages: Language[] = [
   {
     language: "English", languageSlug: "english", flag: "🇬🇧", countries: "United States, United Kingdom, Australia, Canada", speakerCount: "1.5 billion",
+    wer: 6.5,
     dialectNote: "Supports American, British, Australian, Irish, Scottish, and Indian English accents",
     languageFAQ: "Does Captio AI work with strong regional English accents?",
     dialectCards: [
@@ -110,6 +113,8 @@ export const languages: Language[] = [
   },
   {
     language: "Chinese", languageSlug: "chinese", flag: "🇨🇳", countries: "China, Taiwan, Singapore", speakerCount: "1.1 billion",
+    wer: 6.6,
+    useCer: true,
     dialectNote: "Supports Mandarin (Simplified and Traditional characters) and Cantonese",
     languageFAQ: "Does Captio AI support Cantonese as well as Mandarin?",
     dialectCards: [
@@ -139,6 +144,10 @@ export const languages: Language[] = [
       {
         q: "Does Captio AI support Taiwanese Mandarin accent and vocabulary?",
         a: "Yes. Taiwanese Mandarin has distinct pronunciation patterns and vocabulary compared to mainland Mandarin. Captio AI handles Taiwanese Mandarin accurately and displays captions in Traditional Chinese characters as used in Taiwan.",
+      },
+      {
+        q: "Which Chinese transcription app is most accurate?",
+        a: "In an independent benchmark of 8 speech recognition providers, Captio AI achieved 93.4% accuracy on Chinese — the highest of any provider tested. Azure scored 89.9%, Speechmatics 85.8%, Google 45.9%. The benchmark measures Word Error Rate (WER): the share of words a speech engine gets wrong. Captio AI's 6.6% WER is the lowest recorded for Chinese live transcription.",
       },
     ],
     communityNote: {
@@ -196,6 +205,7 @@ export const languages: Language[] = [
   },
   {
     language: "Hindi", languageSlug: "hindi", flag: "🇮🇳", countries: "India", speakerCount: "600 million",
+    wer: 7.4,
     dialectNote: "Supports Standard Hindi, Hinglish (Hindi-English code-switching), and major regional varieties",
     languageFAQ: "Does Captio AI work with Hinglish (Hindi-English code-switching)?",
     dialectCards: [
@@ -267,6 +277,7 @@ export const languages: Language[] = [
   },
   {
     language: "Spanish", languageSlug: "spanish", flag: "🇪🇸", countries: "Spain, Mexico, Colombia, Argentina, and 17 more countries", speakerCount: "500 million",
+    wer: 5.3,
     dialectNote: "Supports Castilian Spanish, Mexican Spanish, River Plate Spanish, Caribbean Spanish, and Andean Spanish",
     languageFAQ: "Does Captio AI work with Mexican Spanish and Latin American accents?",
     dialectCards: [
@@ -339,6 +350,7 @@ export const languages: Language[] = [
   },
   {
     language: "Arabic", languageSlug: "arabic", flag: "🇸🇦", countries: "Egypt, Saudi Arabia, UAE, Morocco, and 18 more countries", speakerCount: "420 million",
+    wer: 16.2,
     dialectNote: "Supports Modern Standard Arabic, Egyptian Arabic, Gulf Arabic, and Levantine Arabic",
     languageFAQ: "Does Captio AI work with Egyptian Arabic and Gulf Arabic dialects?",
     dialectCards: [
@@ -411,6 +423,7 @@ export const languages: Language[] = [
   },
   {
     language: "Bengali", languageSlug: "bengali", flag: "🇧🇩", countries: "Bangladesh, India", speakerCount: "230 million",
+    wer: 6.3,
     dialectNote: "Supports Standard Bengali across Bangladesh and West Bengal varieties",
     languageFAQ: "Does Captio AI work for Bengali-speaking deaf and hard of hearing users?",
     dialectCards: [
@@ -480,6 +493,7 @@ export const languages: Language[] = [
   },
   {
     language: "Portuguese", languageSlug: "portuguese", flag: "🇵🇹", countries: "Brazil, Portugal, Angola, Mozambique", speakerCount: "260 million",
+    wer: 4.8,
     dialectNote: "Supports Brazilian Portuguese, European Portuguese, and African Portuguese varieties",
     languageFAQ: "Does Captio AI distinguish between Brazilian and European Portuguese?",
     dialectCards: [
@@ -551,6 +565,7 @@ export const languages: Language[] = [
   },
   {
     language: "Russian", languageSlug: "russian", flag: "🇷🇺", countries: "Russia, Belarus, Kazakhstan, Kyrgyzstan", speakerCount: "258 million",
+    wer: 6.2,
     dialectNote: "Supports Standard Russian and regional varieties across Russia, Ukraine, and Central Asia",
     languageFAQ: "Does Captio AI work with regional Russian accents?",
     dialectCards: [
@@ -620,6 +635,7 @@ export const languages: Language[] = [
   },
   {
     language: "Urdu", languageSlug: "urdu", flag: "🇵🇰", countries: "Pakistan, India", speakerCount: "170 million",
+    wer: 6.3,
     dialectNote: "Supports Standard Urdu, Pakistani Urdu, and Indian Urdu varieties",
     languageFAQ: "Does Captio AI work for Urdu-speaking deaf users in Pakistan?",
     dialectCards: [
@@ -690,6 +706,7 @@ export const languages: Language[] = [
   },
   {
     language: "Indonesian", languageSlug: "indonesian", flag: "🇮🇩", countries: "Indonesia", speakerCount: "270 million",
+    wer: 8.9,
     dialectNote: "Supports Standard Indonesian (Bahasa Indonesia), Jakartanese colloquial, and regional varieties",
     languageFAQ: "Does Captio AI work with Indonesian regional accents?",
     dialectCards: [
@@ -760,6 +777,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "German", languageSlug: "german", flag: "🇩🇪", countries: "Germany, Austria, Switzerland", speakerCount: "135 million",
+    wer: 7,
     dialectNote: "Supports Standard German, Austrian and Swiss German",
     languageFAQ: "Does Captio AI work in Swiss German dialect?",
     dialectCards: [
@@ -830,6 +848,8 @@ export const languages: Language[] = [
     ],
   },
   { language: "Japanese", languageSlug: "japanese", flag: "🇯🇵", countries: "Japan", speakerCount: "125 million",
+    wer: 8.7,
+    useCer: true,
     dialectNote: "Supports Standard Japanese (Tokyo dialect) and common regional speech",
     languageFAQ: "Does Captio AI work with Osaka dialect (Kansai-ben)?",
     dialectCards: [
@@ -900,6 +920,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Swahili", languageSlug: "swahili", flag: "🇰🇪", countries: "Kenya, Tanzania, Uganda", speakerCount: "200 million",
+    wer: 9.3,
     dialectNote: "Supports Standard Swahili across Kenya, Tanzania, and Uganda",
     languageFAQ: "Does Captio AI work for Swahili-speaking deaf users in East Africa?",
     dialectCards: [
@@ -969,6 +990,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Marathi", languageSlug: "marathi", flag: "🇮🇳", countries: "India (Maharashtra)", speakerCount: "83 million",
+    wer: 6.9,
     dialectNote: "Supports Standard Marathi and major regional varieties across Maharashtra",
     languageFAQ: "Does Captio AI work for Marathi-speaking hard of hearing users?",
     dialectCards: [
@@ -1038,6 +1060,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Telugu", languageSlug: "telugu", flag: "🇮🇳", countries: "India (Andhra Pradesh, Telangana)", speakerCount: "83 million",
+    wer: 8.2,
     dialectNote: "Supports Standard Telugu and regional varieties across Andhra Pradesh and Telangana",
     languageFAQ: "Does Captio AI work for Telugu-speaking deaf users?",
     dialectCards: [
@@ -1107,6 +1130,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Turkish", languageSlug: "turkish", flag: "🇹🇷", countries: "Turkey, Cyprus", speakerCount: "88 million",
+    wer: 8.9,
     dialectNote: "Supports Standard Turkish and regional accents across Turkey and the diaspora",
     languageFAQ: "Does Captio AI work for deaf people who use Turkish Sign Language?",
     dialectCards: [
@@ -1177,6 +1201,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Vietnamese", languageSlug: "vietnamese", flag: "🇻🇳", countries: "Vietnam", speakerCount: "95 million",
+    wer: 5.4,
     dialectNote: "Supports Northern Vietnamese (Hanoi) and Southern Vietnamese (Ho Chi Minh City) varieties",
     languageFAQ: "Does Captio AI work with both Northern and Southern Vietnamese?",
     dialectCards: [
@@ -1247,6 +1272,8 @@ export const languages: Language[] = [
     ],
   },
   { language: "Korean", languageSlug: "korean", flag: "🇰🇷", countries: "South Korea, North Korea", speakerCount: "80 million",
+    wer: 4.3,
+    useCer: true,
     dialectNote: "Supports Standard Korean (Seoul dialect) and major regional varieties",
     languageFAQ: "Does Captio AI work for Korean sign language users who also speak Korean?",
     dialectCards: [
@@ -1317,6 +1344,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "French", languageSlug: "french", flag: "🇫🇷", countries: "France, Belgium, Switzerland, Canada, and 25 more countries", speakerCount: "310 million",
+    wer: 5.7,
     dialectNote: "Supports Standard French, Québécois French, Belgian French, and African French",
     languageFAQ: "Does Captio AI work with Québécois French accent?",
     dialectCards: [
@@ -1387,6 +1415,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Italian", languageSlug: "italian", flag: "🇮🇹", countries: "Italy, Switzerland, San Marino", speakerCount: "85 million",
+    wer: 4.5,
     dialectNote: "Supports Standard Italian and regional accents from North to South",
     languageFAQ: "Does Captio AI work with Southern Italian accents?",
     dialectCards: [
@@ -1457,6 +1486,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Tamil", languageSlug: "tamil", flag: "🇮🇳", countries: "India, Sri Lanka, Singapore", speakerCount: "78 million",
+    wer: 9.6,
     dialectNote: "Supports Standard Tamil and regional varieties across India, Sri Lanka, and Singapore",
     languageFAQ: "Does Captio AI work for Tamil-speaking deaf users in Sri Lanka?",
     dialectCards: [
@@ -1526,6 +1556,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Persian", languageSlug: "persian", flag: "🇮🇷", countries: "Iran, Afghanistan, Tajikistan", speakerCount: "70 million",
+    wer: 10.9,
     dialectNote: "Supports Farsi (Iranian Persian), Afghan Dari, and Tajik Persian",
     languageFAQ: "Does Captio AI work with Afghan Dari Persian?",
     dialectCards: [
@@ -1596,6 +1627,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Punjabi", languageSlug: "punjabi", flag: "🇮🇳", countries: "India, Pakistan", speakerCount: "130 million",
+    wer: 10,
     dialectNote: "Supports Eastern Punjabi (India) and Western Punjabi (Pakistan)",
     languageFAQ: "Does Captio AI work for Punjabi-speaking deaf users?",
     dialectCards: [
@@ -1665,6 +1697,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Gujarati", languageSlug: "gujarati", flag: "🇮🇳", countries: "India (Gujarat)", speakerCount: "55 million",
+    wer: 7.8,
     dialectNote: "Supports Standard Gujarati and regional varieties across Gujarat",
     languageFAQ: "Does Captio AI work for Gujarati-speaking hard of hearing users?",
     dialectCards: [
@@ -1734,6 +1767,8 @@ export const languages: Language[] = [
     ],
   },
   { language: "Thai", languageSlug: "thai", flag: "🇹🇭", countries: "Thailand", speakerCount: "60 million",
+    wer: 9.5,
+    useCer: true,
     dialectNote: "Supports Standard Thai (Central Thai) and regional varieties across Thailand",
     languageFAQ: "Does Captio AI work with Thai regional dialects and tones?",
     dialectCards: [
@@ -1802,6 +1837,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Polish", languageSlug: "polish", flag: "🇵🇱", countries: "Poland", speakerCount: "45 million",
+    wer: 6,
     dialectNote: "Supports Standard Polish and regional accents across Poland and the diaspora",
     languageFAQ: "Does Captio AI work with Silesian or Kashubian accents in Polish?",
     dialectCards: [
@@ -1871,6 +1907,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Ukrainian", languageSlug: "ukrainian", flag: "🇺🇦", countries: "Ukraine", speakerCount: "40 million",
+    wer: 8.5,
     dialectNote: "Supports Standard Ukrainian and major regional varieties",
     languageFAQ: "Does Captio AI work for Ukrainian deaf and hard of hearing users?",
     dialectCards: [
@@ -1940,6 +1977,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Malay", languageSlug: "malay", flag: "🇲🇾", countries: "Malaysia, Singapore, Brunei", speakerCount: "33 million",
+    wer: 9.8,
     dialectNote: "Supports Standard Malay, Singaporean Malay, and Malay-English code-switching",
     languageFAQ: "Does Captio AI work with Bahasa Malaysia and Singaporean Malay?",
     dialectCards: [
@@ -2009,6 +2047,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Malayalam", languageSlug: "malayalam", flag: "🇮🇳", countries: "India (Kerala)", speakerCount: "35 million",
+    wer: 10.7,
     dialectNote: "Supports Standard Malayalam and regional varieties across Kerala",
     languageFAQ: "Does Captio AI work for Malayalam-speaking deaf users in Kerala?",
     dialectCards: [
@@ -2078,6 +2117,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Kannada", languageSlug: "kannada", flag: "🇮🇳", countries: "India (Karnataka)", speakerCount: "43 million",
+    wer: 10.9,
     dialectNote: "Supports Standard Kannada and regional varieties across Karnataka",
     languageFAQ: "Does Captio AI work for Kannada-speaking hard of hearing users?",
     dialectCards: [
@@ -2147,6 +2187,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Tagalog", languageSlug: "tagalog", flag: "🇵🇭", countries: "Philippines", speakerCount: "28 million",
+    wer: 10.8,
     dialectNote: "Supports Standard Filipino/Tagalog and Taglish code-switching",
     languageFAQ: "Does Captio AI work for Filipino deaf users?",
     dialectCards: [
@@ -2216,6 +2257,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Azerbaijani", languageSlug: "azerbaijani", flag: "🇦🇿", countries: "Azerbaijan, Iran", speakerCount: "35 million",
+    wer: 7.9,
     dialectNote: "Supports Northern Azerbaijani (Azerbaijan Republic) and Southern Azerbaijani (Iran)",
     languageFAQ: "Does Captio AI work for Azerbaijani-speaking hard of hearing users?",
     dialectCards: [
@@ -2285,6 +2327,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Dutch", languageSlug: "dutch", flag: "🇳🇱", countries: "Netherlands, Belgium", speakerCount: "25 million",
+    wer: 9.4,
     dialectNote: "Supports Standard Dutch, Flemish Belgian Dutch, and regional varieties",
     languageFAQ: "Does Captio AI work with Belgian Dutch (Flemish)?",
     dialectCards: [
@@ -2354,6 +2397,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Romanian", languageSlug: "romanian", flag: "🇷🇴", countries: "Romania, Moldova", speakerCount: "24 million",
+    wer: 4.4,
     dialectNote: "Supports Standard Romanian and Moldovan Romanian",
     languageFAQ: "Does Captio AI work for Romanian hard of hearing users?",
     dialectCards: [
@@ -2423,6 +2467,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Kazakh", languageSlug: "kazakh", flag: "🇰🇿", countries: "Kazakhstan", speakerCount: "13 million",
+    wer: 9,
     dialectNote: "Supports Standard Kazakh and major regional varieties",
     languageFAQ: "Does Captio AI work for Kazakh-speaking deaf users?",
     dialectCards: [
@@ -2492,6 +2537,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Czech", languageSlug: "czech", flag: "🇨🇿", countries: "Czech Republic", speakerCount: "11 million",
+    wer: 9.7,
     dialectNote: "Supports Standard Czech and regional varieties across Bohemia and Moravia",
     languageFAQ: "Does Captio AI work with Czech regional accents and dialects?",
     dialectCards: [
@@ -2561,6 +2607,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Hungarian", languageSlug: "hungarian", flag: "🇭🇺", countries: "Hungary, Romania, Slovakia", speakerCount: "13 million",
+    wer: 5.6,
     dialectNote: "Supports Standard Hungarian and minority Hungarian communities across Central Europe",
     languageFAQ: "Does Captio AI work for Hungarian deaf community users?",
     dialectCards: [
@@ -2630,6 +2677,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Greek", languageSlug: "greek", flag: "🇬🇷", countries: "Greece, Cyprus", speakerCount: "13 million",
+    wer: 7.4,
     dialectNote: "Supports Standard Modern Greek and Cypriot Greek",
     languageFAQ: "Does Captio AI work with Cypriot Greek accent?",
     dialectCards: [
@@ -2699,6 +2747,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Swedish", languageSlug: "swedish", flag: "🇸🇪", countries: "Sweden, Finland", speakerCount: "13 million",
+    wer: 8.2,
     dialectNote: "Supports Standard Swedish, Finland Swedish, and regional varieties",
     languageFAQ: "Does Captio AI work with Swedish regional dialects like Scanian?",
     dialectCards: [
@@ -2768,6 +2817,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Hebrew", languageSlug: "hebrew", flag: "🇮🇱", countries: "Israel", speakerCount: "9 million",
+    wer: 7.5,
     dialectNote: "Supports Modern Israeli Hebrew and major accent varieties",
     languageFAQ: "Does Captio AI work for Israeli deaf and hard of hearing users?",
     dialectCards: [
@@ -2837,6 +2887,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Bulgarian", languageSlug: "bulgarian", flag: "🇧🇬", countries: "Bulgaria", speakerCount: "8 million",
+    wer: 5.6,
     dialectNote: "Supports Standard Bulgarian and major regional varieties",
     languageFAQ: "Does Captio AI work for Bulgarian-speaking hard of hearing users?",
     dialectCards: [
@@ -2870,6 +2921,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Serbian", languageSlug: "serbian", flag: "🇷🇸", countries: "Serbia, Bosnia", speakerCount: "12 million",
+    wer: 8.1,
     dialectNote: "Supports Standard Serbian in both Cyrillic and Latin script",
     languageFAQ: "Does Captio AI work for Serbian deaf users?",
     dialectCards: [
@@ -2903,6 +2955,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Danish", languageSlug: "danish", flag: "🇩🇰", countries: "Denmark", speakerCount: "6 million",
+    wer: 7.7,
     dialectNote: "Supports Standard Danish and regional varieties",
     languageFAQ: "Does Captio AI work with Danish regional accents?",
     dialectCards: [
@@ -2936,6 +2989,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Albanian", languageSlug: "albanian", flag: "🇦🇱", countries: "Albania, Kosovo", speakerCount: "7.5 million",
+    wer: 7.7,
     dialectNote: "Supports Standard Albanian and both Tosk and Gheg dialect groups",
     languageFAQ: "Does Captio AI work with Kosovo Albanian accent?",
     dialectCards: [
@@ -2969,6 +3023,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Afrikaans", languageSlug: "afrikaans", flag: "🇿🇦", countries: "South Africa, Namibia", speakerCount: "7 million",
+    wer: 7.4,
     dialectNote: "Supports Standard Afrikaans and major South African varieties",
     languageFAQ: "Does Captio AI work for Afrikaans-speaking deaf users in South Africa?",
     dialectCards: [
@@ -3002,6 +3057,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Belarusian", languageSlug: "belarusian", flag: "🇧🇾", countries: "Belarus", speakerCount: "7 million",
+    wer: 7.1,
     dialectNote: "Supports Standard Belarusian and major regional varieties",
     languageFAQ: "Does Captio AI work for Belarusian hard of hearing users?",
     dialectCards: [
@@ -3035,6 +3091,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Finnish", languageSlug: "finnish", flag: "🇫🇮", countries: "Finland", speakerCount: "5 million",
+    wer: 10.6,
     dialectNote: "Supports Standard Finnish and major regional varieties",
     languageFAQ: "Does Captio AI work for Finnish deaf community users?",
     dialectCards: [
@@ -3068,6 +3125,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Slovak", languageSlug: "slovak", flag: "🇸🇰", countries: "Slovakia", speakerCount: "5 million",
+    wer: 8.5,
     dialectNote: "Supports Standard Slovak and regional varieties across Slovakia",
     languageFAQ: "Does Captio AI work for Slovak-speaking hard of hearing users?",
     dialectCards: [
@@ -3101,6 +3159,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Croatian", languageSlug: "croatian", flag: "🇭🇷", countries: "Croatia, Bosnia", speakerCount: "5 million",
+    wer: 9.5,
     dialectNote: "Supports Standard Croatian and major dialect groups",
     languageFAQ: "Does Captio AI work for Croatian deaf users?",
     dialectCards: [
@@ -3134,6 +3193,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Norwegian", languageSlug: "norwegian", flag: "🇳🇴", countries: "Norway", speakerCount: "5 million",
+    wer: 8.4,
     dialectNote: "Supports Norwegian Bokmål, Nynorsk, and major regional dialects",
     languageFAQ: "Does Captio AI support both Bokmål and Nynorsk Norwegian?",
     dialectCards: [
@@ -3167,6 +3227,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Catalan", languageSlug: "catalan", flag: "🇪🇸", countries: "Spain (Catalonia, Valencia, Balearic Islands), Andorra", speakerCount: "10 million",
+    wer: 10.7,
     dialectNote: "Supports Central Catalan, Valencian, and Balearic varieties",
     languageFAQ: "Does Captio AI work with Valencian dialect of Catalan?",
     dialectCards: [
@@ -3200,6 +3261,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Lithuanian", languageSlug: "lithuanian", flag: "🇱🇹", countries: "Lithuania", speakerCount: "3 million",
+    wer: 9.4,
     dialectNote: "Supports Standard Lithuanian and major dialect groups",
     languageFAQ: "Does Captio AI work for Lithuanian hard of hearing users?",
     dialectCards: [
@@ -3231,6 +3293,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Bosnian", languageSlug: "bosnian", flag: "🇧🇦", countries: "Bosnia and Herzegovina", speakerCount: "2.5 million",
+    wer: 6.6,
     dialectNote: "Supports Standard Bosnian and regional varieties across Bosnia and Herzegovina",
     languageFAQ: "Does Captio AI work for Bosnian deaf users?",
     dialectCards: [
@@ -3263,6 +3326,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Galician", languageSlug: "galician", flag: "🇪🇸", countries: "Spain (Galicia)", speakerCount: "2.4 million",
+    wer: 11.1,
     dialectNote: "Supports Standard Galician and regional varieties across Galicia",
     languageFAQ: "Does Captio AI work for Galician-speaking hard of hearing users?",
     dialectCards: [
@@ -3295,6 +3359,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Macedonian", languageSlug: "macedonian", flag: "🇲🇰", countries: "North Macedonia", speakerCount: "2 million",
+    wer: 12.4,
     dialectNote: "Supports Standard Macedonian and major regional varieties",
     languageFAQ: "Does Captio AI work for Macedonian deaf users?",
     dialectCards: [
@@ -3327,6 +3392,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Slovenian", languageSlug: "slovenian", flag: "🇸🇮", countries: "Slovenia", speakerCount: "2 million",
+    wer: 6.8,
     dialectNote: "Supports Standard Slovenian across all seven major dialect groups",
     languageFAQ: "Does Captio AI work for Slovenian hard of hearing users?",
     dialectCards: [
@@ -3360,6 +3426,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Latvian", languageSlug: "latvian", flag: "🇱🇻", countries: "Latvia", speakerCount: "1.7 million",
+    wer: 10.1,
     dialectNote: "Supports Standard Latvian and major dialect groups",
     languageFAQ: "Does Captio AI work for Latvian deaf community users?",
     dialectCards: [
@@ -3392,6 +3459,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Estonian", languageSlug: "estonian", flag: "🇪🇪", countries: "Estonia", speakerCount: "1 million",
+    wer: 9.6,
     dialectNote: "Supports Standard Estonian and major dialect groups",
     languageFAQ: "Does Captio AI work for Estonian hard of hearing users?",
     dialectCards: [
@@ -3424,6 +3492,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Welsh", languageSlug: "welsh", flag: "🏴󠁧󠁢󠁷󠁬󠁳󠁿", countries: "Wales, United Kingdom", speakerCount: "700,000",
+    wer: 14.3,
     dialectNote: "Supports Standard Welsh and Northern and Southern varieties",
     languageFAQ: "Does Captio AI work for Welsh-speaking deaf users in Wales?",
     dialectCards: [
@@ -3457,6 +3526,7 @@ export const languages: Language[] = [
     ],
   },
   { language: "Basque", languageSlug: "basque", flag: "🇪🇸", countries: "Spain (Basque Country), France", speakerCount: "750,000",
+    wer: 10.7,
     dialectNote: "Supports Standard Basque (Batua) and major dialect varieties",
     languageFAQ: "Does Captio AI work for Basque-speaking hard of hearing users?",
     dialectCards: [

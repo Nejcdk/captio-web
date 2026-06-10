@@ -288,7 +288,7 @@ export default async function UseCasePage({
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 {uc.benefits.map((b) => (
                   <div key={b.title} className="bg-gray-50 rounded-xl p-6 flex flex-col gap-3 border border-gray-100">
-                    <h3 className="font-bold text-gray-900 text-base leading-snug py-2">{b.title}</h3>
+                    <h3 className="font-bold text-gray-900 text-base leading-snug">{b.title}</h3>
                     <p className="text-sm text-gray-500 leading-relaxed">{b.description}</p>
                   </div>
                 ))}
