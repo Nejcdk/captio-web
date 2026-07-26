@@ -15,7 +15,12 @@ export default function LanguageMetrics({
   const metricLabel = useCer ? 'character accuracy' : 'word accuracy';
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
+    <div className="mt-12">
+      <div className="text-center mb-7">
+        <span className="text-xs font-bold text-orange-500 uppercase tracking-widest">Performance</span>
+        <h2 className="text-3xl font-bold text-gray-900 tracking-tight mt-3">Most accurate and fastest models</h2>
+      </div>
+    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
       {/* Accuracy */}
       <div className="relative bg-gray-50 border border-gray-100 rounded-2xl p-6 flex flex-col items-center gap-3">
         <span className="absolute top-3 left-3 bg-brand/10 text-brand text-[11px] font-semibold px-2 py-0.5 rounded-md">{language}</span>
@@ -70,6 +75,7 @@ export default function LanguageMetrics({
           <p className="text-xs text-gray-400 mt-0.5">first word appears as you speak</p>
         </div>
       </div>
+    </div>
     </div>
   );
 }

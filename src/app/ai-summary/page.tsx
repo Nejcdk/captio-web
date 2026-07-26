@@ -123,33 +123,16 @@ export default function AiSummaryPage() {
           </div>
         </div>
 
-        <section className="pt-2 pb-10 sm:pt-4 sm:pb-16 px-5 bg-white">
-          <div className="max-w-3xl mx-auto flex flex-col items-center text-center gap-4 sm:gap-6">
+        <section className="pt-2 pb-4 sm:pt-4 sm:pb-6 px-5 bg-white">
+          <div className="max-w-3xl mx-auto flex flex-col items-center text-center">
             <h1 className="text-[2.4rem] leading-[1.15] sm:text-6xl font-bold text-gray-900 tracking-tight">
               AI Summary
             </h1>
-
-            <p className="text-base sm:text-lg text-gray-500 max-w-xl leading-relaxed">
-              A long transcript distilled into what actually mattered. Key points, decisions, and action items — without reading every word.
-            </p>
-
-            <div className="bg-white rounded-xl border border-gray-100 shadow-sm px-8 py-6 flex items-center gap-8">
-              <div className="hidden sm:block p-3 bg-white border border-gray-200 rounded-xl">
-                <div className="w-24 h-24 bg-gray-50 rounded-lg flex items-center justify-center text-gray-300 text-[10px] text-center leading-tight">
-                  QR<br/>coming soon
-                </div>
-              </div>
-              <div className="flex flex-col gap-2 items-center">
-                <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">Download for free</p>
-                <AppStoreButton />
-              </div>
-            </div>
-
           </div>
         </section>
 
         {/* ── How it works ── */}
-        <section className="py-10 px-6 bg-gray-50">
+        <section className="pt-4 pb-10 px-6 bg-white">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-10">
               <span className="text-xs font-bold text-cta uppercase tracking-widest">How it works</span>
@@ -182,6 +165,12 @@ export default function AiSummaryPage() {
             </div>
           </div>
         </section>
+
+        {/* ── Inline CTA (post how-it-works) ── */}
+        <div className="py-6 flex flex-col items-center gap-2 bg-white">
+          <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">Download for free</p>
+          <AppStoreButton />
+        </div>
 
         {/* ── Subfeatures / Benefits ── */}
         <section className="py-10 px-6 bg-white">

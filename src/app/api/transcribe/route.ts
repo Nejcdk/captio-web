@@ -1,5 +1,4 @@
 import { NextRequest } from 'next/server';
-import WebSocket from 'ws';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -16,12 +15,13 @@ export async function POST(req: NextRequest) {
 
   const sampleRate = parseInt(req.headers.get('x-sample-rate') ?? '16000', 10);
 
+  // Node.js 22+ / 23 has WebSocket as a stable global — no import needed
   const ws = new WebSocket('wss://stt-rt.soniox.com/transcribe-websocket');
 
   try {
     await new Promise<void>((resolve, reject) => {
-      ws.once('open', resolve);
-      ws.once('error', reject);
+      ws.addEventListener('open', () => resolve(), { once: true });
+      ws.addEventListener('error', () => reject(new Error('WebSocket connection failed')), { once: true });
       setTimeout(() => reject(new Error('timeout')), 10000);
     });
   } catch {
@@ -47,32 +47,33 @@ export async function POST(req: NextRequest) {
 
   const responseStream = new ReadableStream({
     start(controller) {
-      ws.on('message', (data) => {
+      ws.addEventListener('message', (event) => {
         try {
-          controller.enqueue(encoder.encode(`data: ${data.toString()}\n\n`));
+          const text = typeof event.data === 'string' ? event.data : '';
+          controller.enqueue(encoder.encode(`data: ${text}\n\n`));
         } catch { /* stream already closed */ }
       });
 
-      ws.on('close', () => {
+      ws.addEventListener('close', () => {
         try { controller.close(); } catch { /* ignore */ }
       });
 
-      ws.on('error', () => {
+      ws.addEventListener('error', () => {
         try { controller.close(); } catch { /* ignore */ }
       });
 
-      // Read audio chunks from request body and forward to upstream WebSocket
+      // Pipe request audio body → upstream WebSocket
       const reader = req.body!.getReader();
       (async () => {
         try {
           while (true) {
             const { done, value } = await reader.read();
             if (done) {
-              if (ws.readyState === WebSocket.OPEN) ws.send(Buffer.alloc(0));
+              if (ws.readyState === WebSocket.OPEN) ws.send(new ArrayBuffer(0));
               break;
             }
             if (ws.readyState === WebSocket.OPEN) {
-              ws.send(Buffer.from(value));
+              ws.send(value);
             }
           }
         } catch {

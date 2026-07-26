@@ -101,7 +101,6 @@ export default async function UseCaseLanguagePage({ params }: Props) {
   if (!uc || !lang) notFound();
 
   const variant = getUseCaseLanguageVariant(slug, language);
-  const subUseCases = variant?.subUseCases ?? uc.subUseCases;
   const reviews = variant?.reviews ?? uc.reviews;
   const allFaqs = [
     ...(variant?.faqs ?? []),
@@ -228,39 +227,46 @@ export default async function UseCaseLanguagePage({ params }: Props) {
           </section>
         )}
 
-        {/* ── Inline CTA ── */}
-        <div className="py-8 flex flex-col items-center gap-2 bg-white">
-          <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">Free to start</p>
+        {/* ── Inline CTA (after features) ── */}
+        <div className="pt-8 pb-3 flex flex-col items-center gap-2 bg-white">
+          <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">Download for free</p>
           <AppStoreButton />
         </div>
 
         {/* ── Sub-use-cases ── */}
-        {subUseCases && (
+        {uc.subUseCases && (
           <section className="py-10 px-6 bg-gray-50">
             <div className="max-w-6xl mx-auto">
               <div className="text-center mb-8">
                 <span className="text-xs font-bold text-cta uppercase tracking-widest">Use Cases</span>
                 <h2 className="text-3xl font-bold text-gray-900 tracking-tight mt-3">
-                  Every {lang.language} situation covered
+                  Every situation covered
                 </h2>
                 <p className="text-gray-500 mt-3 max-w-xl mx-auto">
-                  Designed for the real moments that matter — in {lang.language}.
+                  Designed for the real moments that matter — not just quiet controlled environments.
                 </p>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                {subUseCases.map((s) => (
+                {uc.subUseCases.map((s, i) => (
                   <div key={s.title} className="bg-white rounded-xl border border-gray-200 p-5 flex flex-col gap-3">
                     <span className="inline-flex items-center gap-2 bg-brand-light text-brand font-bold px-3.5 py-2 rounded-[8px] w-fit">
                       <span className="text-2xl leading-none">{s.icon}</span>
                       <span className="text-base">{s.title}</span>
                     </span>
-                    <p className="text-sm text-gray-500 leading-relaxed">{s.description}</p>
+                    <p className="text-sm text-gray-500 leading-relaxed">{variant?.useCaseDescriptions?.[i] ?? s.description}</p>
                   </div>
                 ))}
               </div>
             </div>
           </section>
         )}
+
+        {/* ── Performance ── */}
+        <div className="bg-white px-6 pb-8">
+          <div className="max-w-3xl mx-auto">
+            <LanguageMetrics language={lang.language} wer={lang.wer} useCer={lang.useCer} />
+          </div>
+        </div>
 
         {/* ── Inline CTA ── */}
         <div className="py-8 flex flex-col items-center gap-2 bg-gray-50">
@@ -346,7 +352,6 @@ export default async function UseCaseLanguagePage({ params }: Props) {
                   </div>
                 ))}
               </div>
-              <LanguageMetrics language={lang.language} wer={lang.wer} useCer={lang.useCer} />
             </div>
           </section>
         )}
