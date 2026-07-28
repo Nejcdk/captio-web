@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Terms of Service",
@@ -25,7 +27,10 @@ function UL({ children }: { children: React.ReactNode }) {
 
 export default function TermsPage() {
   return (
-    <main className="max-w-3xl mx-auto px-6 py-16">
+    <>
+      <main>
+        <Header />
+        <div className="max-w-3xl mx-auto px-6 py-16">
       <h1 className="text-3xl font-bold mb-2">Terms of Service</h1>
       <p className="text-sm text-gray-500 mb-10">Last updated: July 2026</p>
 
@@ -202,6 +207,9 @@ export default function TermsPage() {
         Questions about these Terms? Contact{" "}
         <a href="mailto:nejcdovzank@gmail.com" className="text-brand underline">nejcdovzank@gmail.com</a>.
       </P>
-    </main>
+        </div>
+      </main>
+      <Footer />
+    </>
   );
 }
