@@ -20,11 +20,11 @@ export const metadata: Metadata = {
     "Captio AI provides real-time live captions, live translation, audio transcription, and AI summaries for deaf and hard of hearing people. iOS app. 60+ languages.",
   metadataBase: new URL("https://captioai.app"),
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
     googleBot: {
-      index: false,
-      follow: false,
+      index: true,
+      follow: true,
     },
   },
   openGraph: {

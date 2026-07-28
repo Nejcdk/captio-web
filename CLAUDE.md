@@ -1,11 +1,13 @@
 # Captio — Project Instructions for Claude Code
 
 ---
-## ⛔ CRITICAL — READ BEFORE DOING ANYTHING ELSE
+## ✅ THE SITE IS NOW LIVE AND INDEXABLE (as of 2026-07-28)
 
-**THE SITE MUST NEVER BE CRAWLABLE OR INDEXABLE UNTIL EXPLICITLY TOLD SO.**
+**Indexing was intentionally turned ON on 2026-07-28. Do NOT revert it.**
 
-`public/robots.txt` must always contain `Disallow: /`. Do not remove it, do not add noindex as a substitute — keep the robots.txt blocking all crawlers. Do not submit the site to Google Search Console. Do not enable indexing in any metadata. The site is live on Vercel and publicly reachable — without this block, Google will crawl and index thin or incomplete pages, creating a penalty that takes months to recover from. Every session must verify this file exists before doing anything else. If it is missing, recreate it immediately.
+`public/robots.txt` now **allows all crawlers** (`Allow: /` + a `Sitemap:` line), and the Next.js metadata `robots` is set to `index: true, follow: true`. This was a deliberate go-live decision by the user — the site is finished (720/720 use-case × language variants, dialect second pass, full technical AEO) and is intentionally being indexed and marinated for AEO citation while the iOS app finishes App Store review.
+
+**Do NOT re-add `Disallow: /` and do NOT set `noindex`.** Earlier versions of this file said the opposite (keep it blocked) — that guidance is obsolete. If you find robots.txt blocking or a noindex meta, that is a regression to fix, not to preserve. See [[project_golive_decisions]].
 
 ---
 
@@ -129,7 +131,7 @@ LLMs use RAG — they search, then summarize citations. To get cited:
 
 Every page should answer: the main question, all sub-questions, dialect/accent specifics, accessibility use cases for that exact combination.
 
-**Do not index until all pages have real content.** Submit to Google Search Console only once the full site is built. Thin or stub pages indexed early create a thin-content penalty that takes months to recover from.
+**Indexing is now ON (since 2026-07-28).** The full site was built first (720/720 variants, dialect pass, technical AEO), then indexing was enabled. Keep quality high on any new pages before shipping them, but the "do not index" phase is over.
 
 ---
 
@@ -139,7 +141,7 @@ Every page should answer: the main question, all sub-questions, dialect/accent s
 - Dev: `npm run dev`
 - All dynamic routes use `generateStaticParams` to pre-render at build time
 - Tailwind v4: config is in `globals.css` via `@theme inline`, no `tailwind.config.js`
-- No indexing has been done yet — site is live on Vercel but not submitted to Google Search Console
+- Site is live and indexable as of 2026-07-28; Google Search Console verified and sitemap submitted. Analytics: Vercel Web Analytics (cookieless, no consent banner) — see [[project_golive_decisions]]
 
 **Dev server setup — read this before touching the server:**
 The `dev` script in `package.json` is set to `next dev --turbopack`. **Always start the dev server with `npm run dev` and nothing else.** Never run `next dev` directly, never run `npx next start` unless serving a production build. Once running, HMR works normally — no restarts needed when editing files. If you ever see 500 errors, kill all node processes (`pkill -9 -f "next"`) and run `npm run dev` again.
@@ -335,9 +337,9 @@ Bad: "Does Captio AI work well?" / "Is it accurate?" / "What languages does it s
 ---
 
 ---
-## ⛔ CRITICAL — INDEXING IS BLOCKED. DO NOT CHANGE THIS.
+## ✅ INDEXING IS ON (since 2026-07-28)
 
-`public/robots.txt` blocks all crawlers with `Disallow: /`. This must never be removed or modified until the user explicitly says the site is ready to index. The site is live on Vercel right now. Googlebot will crawl it the moment this file is removed. Do not touch it.
+`public/robots.txt` allows all crawlers and references the sitemap. The site is intentionally live and indexable. Do not re-block it. (This section previously said indexing was blocked — that is no longer true.)
 
 ---
 
@@ -595,9 +597,9 @@ The only hard constraints are:
 6. Submit the batch and wait for user approval before starting the next batch
 
 ---
-## ⛔ CRITICAL — FINAL REMINDER: THE SITE IS NOT INDEXED AND MUST STAY THAT WAY
+## ✅ FINAL NOTE: THE SITE IS LIVE AND INDEXED (since 2026-07-28)
 
-`public/robots.txt` must always exist and always contain `Disallow: /`. Check it exists at the start of every session. If it is ever missing, recreate it before doing anything else. Do not submit to Google Search Console. Do not add sitemap submissions. Do not enable indexing in Next.js metadata. The entire point of building this site carefully — depth, AEO content, dialect cards, use-case variants — is destroyed if thin or incomplete pages get indexed early. The robots.txt is the only thing standing between this work and a multi-month Google penalty.
+`public/robots.txt` allows crawling and references `sitemap.xml`; pages are `index: true`. Google Search Console is verified and the sitemap has been submitted. Do not re-block indexing. When editing content, remember real users and crawlers now see the live site — no more "thin page" risk since content is complete, but keep quality high on any new pages before they ship.
 
 ---
 
