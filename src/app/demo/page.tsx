@@ -7,6 +7,14 @@ import DemoRecorder from "@/components/DemoRecorder";
 export const metadata: Metadata = {
   title: "Try Captio AI Live — Real-Time Captions in Any Language",
   description: "Try Captio AI in your browser. Start recording and see real-time captions in any of 60+ languages — no download needed to see how it works.",
+  alternates: { canonical: "/demo" },
+  openGraph: {
+    title: "Try Captio AI Live — Real-Time Captions in Any Language",
+    description: "Try Captio AI in your browser. Start recording and see real-time captions in any of 60+ languages — no download needed to see how it works.",
+    url: "/demo",
+    type: "website",
+    images: ["/opengraph-image"],
+  },
 };
 
 const AppStoreButton = () => (

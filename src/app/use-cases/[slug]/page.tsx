@@ -8,6 +8,7 @@ import FaqAccordion from "@/components/FaqAccordion";
 import ReviewCarousel from "@/components/ReviewCarousel";
 import { useCases, getUseCaseBySlug } from "@/lib/useCases";
 import { languages } from "@/lib/languages";
+import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbSchema } from "@/lib/schema";
 
 export async function generateStaticParams() {
   return useCases.map((uc) => ({ slug: uc.slug }));
@@ -21,9 +22,13 @@ export async function generateMetadata({
   const { slug } = await params;
   const uc = getUseCaseBySlug(slug);
   if (!uc) return {};
+  const title = `${uc.label} — Captio AI Live Captions for Deaf and Hard of Hearing`;
+  const path = `/use-cases/${uc.slug}`;
   return {
-    title: `${uc.label} — Captio AI Live Captions for Deaf and Hard of Hearing`,
+    title,
     description: uc.description,
+    alternates: { canonical: path },
+    openGraph: { title, description: uc.description, url: path, type: "website", images: ["/opengraph-image"] },
   };
 }
 
@@ -94,28 +99,17 @@ export default async function UseCasePage({
   const uc = getUseCaseBySlug(slug);
   if (!uc) notFound();
 
-  const schemaOrg = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "SoftwareApplication",
-        name: "Captio AI",
-        applicationCategory: "AccessibilityApplication",
-        operatingSystem: "iOS",
-        description: uc.description,
-        url: `https://captioai.app/use-cases/${uc.slug}`,
-        offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-      },
-      {
-        "@type": "FAQPage",
-        mainEntity: uc.faqs.map((faq) => ({
-          "@type": "Question",
-          name: faq.q,
-          acceptedAnswer: { "@type": "Answer", text: faq.a },
-        })),
-      },
-    ],
-  };
+  const schemaOrg = jsonLd(
+    softwareApplicationSchema({
+      url: `${SITE_URL}/use-cases/${uc.slug}`,
+      description: uc.description,
+    }),
+    faqPageSchema(uc.faqs),
+    breadcrumbSchema([
+      { name: "Home", path: "/" },
+      { name: uc.label, path: `/use-cases/${uc.slug}` },
+    ]),
+  );
 
   return (
     <>

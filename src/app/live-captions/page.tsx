@@ -5,10 +5,21 @@ import BackButton from "@/components/BackButton";
 import Footer from "@/components/Footer";
 import FaqAccordion from "@/components/FaqAccordion";
 
+import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbSchema } from "@/lib/schema";
+
 export const metadata: Metadata = {
   title: "Live Captions — Captio AI",
   description:
     "Real-time speech to text via your iPhone microphone. Follow any conversation, in any language, instantly. Built for deaf and hard of hearing people.",
+  alternates: { canonical: "/live-captions" },
+  openGraph: {
+    title: "Live Captions — Captio AI",
+    description:
+      "Real-time speech to text via your iPhone microphone. Follow any conversation, in any language, instantly. Built for deaf and hard of hearing people.",
+    url: "/live-captions",
+    type: "website",
+    images: ["/opengraph-image"],
+  },
 };
 
 const steps = [
@@ -106,28 +117,17 @@ const faqs = [
   },
 ];
 
-const schemaOrg = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "SoftwareApplication",
-      name: "Captio AI",
-      applicationCategory: "AccessibilityApplication",
-      operatingSystem: "iOS",
-      description: "Real-time live captions for deaf and hard of hearing people. 60+ languages, well under a second latency, works anywhere.",
-      url: "https://captioai.app/live-captions",
-      offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-    },
-    {
-      "@type": "FAQPage",
-      mainEntity: faqs.map((faq) => ({
-        "@type": "Question",
-        name: faq.q,
-        acceptedAnswer: { "@type": "Answer", text: faq.a },
-      })),
-    },
-  ],
-};
+const schemaOrg = jsonLd(
+  softwareApplicationSchema({
+    url: `${SITE_URL}/live-captions`,
+    description: "Real-time live captions for deaf and hard of hearing people. 60+ languages, well under a second latency, works anywhere.",
+  }),
+  faqPageSchema(faqs),
+  breadcrumbSchema([
+    { name: "Home", path: "/" },
+    { name: "Live Captions", path: "/live-captions" },
+  ]),
+);
 
 const AppStoreButton = () => (
   <a

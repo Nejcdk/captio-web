@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
+import { jsonLd, organizationSchema, websiteSchema } from "@/lib/schema";
+import { Analytics } from "@vercel/analytics/next";
 
 const googleSans = Plus_Jakarta_Sans({
   variable: "--font-google-sans",
@@ -42,7 +44,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${googleSans.variable} h-full`}>
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(jsonLd(organizationSchema, websiteSchema)),
+          }}
+        />
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }

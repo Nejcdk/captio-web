@@ -3,6 +3,14 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Pricing",
   description: "Captio pricing — free and Plus plans for live captions and transcription.",
+  alternates: { canonical: "/pricing" },
+  openGraph: {
+    title: "Pricing — Captio AI",
+    description: "Captio pricing — free and Plus plans for live captions and transcription.",
+    url: "/pricing",
+    type: "website",
+    images: ["/opengraph-image"],
+  },
 };
 
 export default function PricingPage() {

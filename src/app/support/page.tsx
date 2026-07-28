@@ -3,6 +3,14 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Support",
   description: "Get help with Captio — FAQs, contact, and troubleshooting.",
+  alternates: { canonical: "/support" },
+  openGraph: {
+    title: "Support — Captio AI",
+    description: "Get help with Captio — FAQs, contact, and troubleshooting.",
+    url: "/support",
+    type: "website",
+    images: ["/opengraph-image"],
+  },
 };
 
 export default function SupportPage() {

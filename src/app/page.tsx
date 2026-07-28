@@ -5,11 +5,21 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FaqAccordion from "@/components/FaqAccordion";
 import ReviewCarousel from "@/components/ReviewCarousel";
+import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Captio AI — Live Captions & Transcription for Deaf and Hard of Hearing",
   description:
     "Captio AI gives deaf and hard of hearing people real-time live captions, live translation, audio transcription, and AI summaries — right on their phone. 60+ languages.",
+  alternates: { canonical: "/" },
+  openGraph: {
+    title: "Captio AI — Live Captions & Transcription for Deaf and Hard of Hearing",
+    description:
+      "Real-time live captions, live translation, audio transcription, and AI summaries for deaf and hard of hearing people. 60+ languages. iOS.",
+    url: "/",
+    type: "website",
+    images: ["/opengraph-image"],
+  },
 };
 
 const features = [
@@ -289,29 +299,15 @@ const faqs = [
   },
 ];
 
-const schemaOrg = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "SoftwareApplication",
-      name: "Captio AI",
-      applicationCategory: "AccessibilityApplication",
-      operatingSystem: "iOS",
-      description: "Real-time live captions, live translation, audio transcription, and AI summaries for deaf and hard of hearing people. 60+ languages.",
-      url: "https://captioai.app",
-      offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-      inLanguage: "en",
-    },
-    {
-      "@type": "FAQPage",
-      mainEntity: faqs.map((faq) => ({
-        "@type": "Question",
-        name: faq.q,
-        acceptedAnswer: { "@type": "Answer", text: faq.a },
-      })),
-    },
-  ],
-};
+const schemaOrg = jsonLd(
+  softwareApplicationSchema({
+    url: SITE_URL,
+    description:
+      "Real-time live captions, live translation, audio transcription, and AI summaries for deaf and hard of hearing people. 60+ languages.",
+    inLanguage: "en",
+  }),
+  faqPageSchema(faqs),
+);
 
 export default function HomePage() {
   return (

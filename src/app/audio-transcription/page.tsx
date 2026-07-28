@@ -5,10 +5,21 @@ import BackButton from "@/components/BackButton";
 import Footer from "@/components/Footer";
 import FaqAccordion from "@/components/FaqAccordion";
 
+import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbSchema } from "@/lib/schema";
+
 export const metadata: Metadata = {
   title: "Audio Transcription — Captio AI",
   description:
     "Upload any audio or video file and get a full written transcript. 60+ languages, speaker separation, searchable. Built for deaf and hard of hearing people.",
+  alternates: { canonical: "/audio-transcription" },
+  openGraph: {
+    title: "Audio Transcription — Captio AI",
+    description:
+      "Upload any audio or video file and get a full written transcript. 60+ languages, speaker separation, searchable. Built for deaf and hard of hearing people.",
+    url: "/audio-transcription",
+    type: "website",
+    images: ["/opengraph-image"],
+  },
 };
 
 const subfeatures = [
@@ -88,28 +99,17 @@ const AppStoreButton = () => (
   </a>
 );
 
-const schemaOrg = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "SoftwareApplication",
-      name: "Captio AI",
-      applicationCategory: "AccessibilityApplication",
-      operatingSystem: "iOS",
-      description: "Upload any audio or video file and get a full written transcript. 60+ languages, speaker separation, timestamps. Built for deaf and hard of hearing people.",
-      url: "https://captioai.app/audio-transcription",
-      offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-    },
-    {
-      "@type": "FAQPage",
-      mainEntity: faqs.map((faq) => ({
-        "@type": "Question",
-        name: faq.q,
-        acceptedAnswer: { "@type": "Answer", text: faq.a },
-      })),
-    },
-  ],
-};
+const schemaOrg = jsonLd(
+  softwareApplicationSchema({
+    url: `${SITE_URL}/audio-transcription`,
+    description: "Upload any audio or video file and get a full written transcript. 60+ languages, speaker separation, timestamps. Built for deaf and hard of hearing people.",
+  }),
+  faqPageSchema(faqs),
+  breadcrumbSchema([
+    { name: "Home", path: "/" },
+    { name: "Audio Transcription", path: "/audio-transcription" },
+  ]),
+);
 
 export default function AudioTranscriptionPage() {
   return (

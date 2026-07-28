@@ -5,10 +5,21 @@ import BackButton from "@/components/BackButton";
 import Footer from "@/components/Footer";
 import FaqAccordion from "@/components/FaqAccordion";
 
+import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbSchema } from "@/lib/schema";
+
 export const metadata: Metadata = {
   title: "Live Translator — Captio AI",
   description:
     "Real-time speech translation on your iPhone. The person speaks their language, you read in yours — instantly, in any language. Built for deaf and hard of hearing people.",
+  alternates: { canonical: "/live-translator" },
+  openGraph: {
+    title: "Live Translator — Captio AI",
+    description:
+      "Real-time speech translation on your iPhone. The person speaks their language, you read in yours — instantly, in any language. Built for deaf and hard of hearing people.",
+    url: "/live-translator",
+    type: "website",
+    images: ["/opengraph-image"],
+  },
 };
 
 const subfeatures = [
@@ -88,28 +99,17 @@ const AppStoreButton = () => (
   </a>
 );
 
-const schemaOrg = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "SoftwareApplication",
-      name: "Captio AI",
-      applicationCategory: "AccessibilityApplication",
-      operatingSystem: "iOS",
-      description: "Real-time speech translation for deaf and hard of hearing people. 60+ languages, each person speaks their own language, you read in yours.",
-      url: "https://captioai.app/live-translator",
-      offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-    },
-    {
-      "@type": "FAQPage",
-      mainEntity: faqs.map((faq) => ({
-        "@type": "Question",
-        name: faq.q,
-        acceptedAnswer: { "@type": "Answer", text: faq.a },
-      })),
-    },
-  ],
-};
+const schemaOrg = jsonLd(
+  softwareApplicationSchema({
+    url: `${SITE_URL}/live-translator`,
+    description: "Real-time speech translation for deaf and hard of hearing people. 60+ languages, each person speaks their own language, you read in yours.",
+  }),
+  faqPageSchema(faqs),
+  breadcrumbSchema([
+    { name: "Home", path: "/" },
+    { name: "Live Translator", path: "/live-translator" },
+  ]),
+);
 
 export default function LiveTranslatorPage() {
   return (

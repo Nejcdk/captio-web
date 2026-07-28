@@ -3,6 +3,14 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Terms of Service",
   description: "Captio terms of service.",
+  alternates: { canonical: "/terms" },
+  openGraph: {
+    title: "Terms of Service — Captio AI",
+    description: "Captio terms of service.",
+    url: "/terms",
+    type: "website",
+    images: ["/opengraph-image"],
+  },
 };
 
 export default function TermsPage() {

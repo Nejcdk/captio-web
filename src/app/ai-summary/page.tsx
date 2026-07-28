@@ -5,10 +5,21 @@ import BackButton from "@/components/BackButton";
 import Footer from "@/components/Footer";
 import FaqAccordion from "@/components/FaqAccordion";
 
+import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbSchema } from "@/lib/schema";
+
 export const metadata: Metadata = {
   title: "AI Summary — Captio AI",
   description:
     "Turn any transcript into a structured summary. Key points, decisions, and action items extracted automatically. Built for deaf and hard of hearing people.",
+  alternates: { canonical: "/ai-summary" },
+  openGraph: {
+    title: "AI Summary — Captio AI",
+    description:
+      "Turn any transcript into a structured summary. Key points, decisions, and action items extracted automatically. Built for deaf and hard of hearing people.",
+    url: "/ai-summary",
+    type: "website",
+    images: ["/opengraph-image"],
+  },
 };
 
 const subfeatures = [
@@ -84,28 +95,17 @@ const AppStoreButton = () => (
   </a>
 );
 
-const schemaOrg = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "SoftwareApplication",
-      name: "Captio AI",
-      applicationCategory: "AccessibilityApplication",
-      operatingSystem: "iOS",
-      description: "Turn any transcript into a structured summary. Key points, decisions, action items, and speaker quotes extracted automatically.",
-      url: "https://captioai.app/ai-summary",
-      offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-    },
-    {
-      "@type": "FAQPage",
-      mainEntity: faqs.map((faq) => ({
-        "@type": "Question",
-        name: faq.q,
-        acceptedAnswer: { "@type": "Answer", text: faq.a },
-      })),
-    },
-  ],
-};
+const schemaOrg = jsonLd(
+  softwareApplicationSchema({
+    url: `${SITE_URL}/ai-summary`,
+    description: "Turn any transcript into a structured summary. Key points, decisions, action items, and speaker quotes extracted automatically.",
+  }),
+  faqPageSchema(faqs),
+  breadcrumbSchema([
+    { name: "Home", path: "/" },
+    { name: "AI Summary", path: "/ai-summary" },
+  ]),
+);
 
 export default function AiSummaryPage() {
   return (

@@ -3,6 +3,14 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description: "Captio privacy policy — how we handle your data.",
+  alternates: { canonical: "/privacy" },
+  openGraph: {
+    title: "Privacy Policy — Captio AI",
+    description: "Captio privacy policy — how we handle your data.",
+    url: "/privacy",
+    type: "website",
+    images: ["/opengraph-image"],
+  },
 };
 
 export default function PrivacyPage() {

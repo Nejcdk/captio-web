@@ -10,6 +10,7 @@ import { useCases, getUseCaseBySlug } from "@/lib/useCases";
 import { languages, getLanguageBySlug } from "@/lib/languages";
 import { getUseCaseLanguageVariant } from "@/lib/useCaseLanguageData";
 import LanguageMetrics from "@/components/LanguageMetrics";
+import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbSchema } from "@/lib/schema";
 
 export async function generateStaticParams() {
   const params: { slug: string; language: string }[] = [];
@@ -30,9 +31,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const uc = getUseCaseBySlug(slug);
   const lang = getLanguageBySlug(language);
   if (!uc || !lang) return {};
+  const title = `${uc.label} in ${lang.language} — Captio AI`;
+  const description = `Captio AI helps deaf and hard of hearing ${lang.language} speakers with ${uc.label.toLowerCase()}. Real-time live captions and translation. ${lang.dialectNote}.`;
+  const path = `/use-cases/${uc.slug}/${lang.languageSlug}`;
   return {
-    title: `${uc.label} in ${lang.language} — Captio AI`,
-    description: `Captio AI helps deaf and hard of hearing ${lang.language} speakers with ${uc.label.toLowerCase()}. Real-time live captions and translation. ${lang.dialectNote}.`,
+    title,
+    description,
+    alternates: { canonical: path },
+    openGraph: { title, description, url: path, type: "website", images: ["/opengraph-image"] },
   };
 }
 
@@ -107,28 +113,21 @@ export default async function UseCaseLanguagePage({ params }: Props) {
     ...uc.faqs,
   ];
 
-  const schemaOrg = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "SoftwareApplication",
-        name: "Captio AI",
-        applicationCategory: "AccessibilityApplication",
-        operatingSystem: "iOS",
-        description: variant?.heroDescription ?? `Real-time live captions and translation for deaf and hard of hearing ${lang.language} speakers. ${uc.label} — ${lang.dialectNote}.`,
-        url: `https://captioai.app/use-cases/${uc.slug}/${lang.languageSlug}`,
-        offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-      },
-      {
-        "@type": "FAQPage",
-        mainEntity: allFaqs.map((faq) => ({
-          "@type": "Question",
-          name: faq.q,
-          acceptedAnswer: { "@type": "Answer", text: faq.a },
-        })),
-      },
-    ],
-  };
+  const path = `/use-cases/${uc.slug}/${lang.languageSlug}`;
+  const schemaOrg = jsonLd(
+    softwareApplicationSchema({
+      url: `${SITE_URL}${path}`,
+      description:
+        variant?.heroDescription ??
+        `Real-time live captions and translation for deaf and hard of hearing ${lang.language} speakers. ${uc.label} — ${lang.dialectNote}.`,
+    }),
+    faqPageSchema(allFaqs),
+    breadcrumbSchema([
+      { name: "Home", path: "/" },
+      { name: uc.label, path: `/use-cases/${uc.slug}` },
+      { name: lang.language, path },
+    ]),
+  );
 
   return (
     <>

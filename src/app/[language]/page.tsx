@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import FaqAccordion from "@/components/FaqAccordion";
 import ReviewCarousel from "@/components/ReviewCarousel";
 import { languages, getLanguageBySlug } from "@/lib/languages";
+import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbSchema } from "@/lib/schema";
 
 export async function generateStaticParams() {
   return languages.map((lang) => ({ language: lang.languageSlug }));
@@ -20,9 +21,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { language } = await params;
   const lang = getLanguageBySlug(language);
   if (!lang) return {};
+  const title = `${lang.language} Live Captions & Transcription — Captio AI`;
+  const description = `Captio AI gives deaf and hard of hearing ${lang.language} speakers real-time live captions, live translation, audio transcription, and AI summaries. ${lang.dialectNote}.`;
+  const path = `/${lang.languageSlug}`;
   return {
-    title: `${lang.language} Live Captions & Transcription — Captio AI`,
-    description: `Captio AI gives deaf and hard of hearing ${lang.language} speakers real-time live captions, live translation, audio transcription, and AI summaries. ${lang.dialectNote}.`,
+    title,
+    description,
+    alternates: { canonical: path },
+    openGraph: { title, description, url: path, type: "website", images: ["/opengraph-image"] },
   };
 }
 
@@ -99,28 +105,17 @@ export default async function LanguagePage({ params }: Props) {
     { label: "TV & Media", slug: "tv-media", icon: "📺", description: `Built-in subtitles on ${lang.language} TV, films, and videos are often wrong, delayed, or missing. Captio AI captions whatever is playing in real time, so you are not dependent on what the content provides.` },
   ];
 
-  const schemaOrg = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "SoftwareApplication",
-        name: "Captio AI",
-        applicationCategory: "AccessibilityApplication",
-        operatingSystem: "iOS",
-        description: `Real-time live captions, live translation, audio transcription, and AI summaries for ${lang.language} speakers. ${lang.dialectNote}.`,
-        url: `https://captioai.app/${lang.languageSlug}`,
-        offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-      },
-      {
-        "@type": "FAQPage",
-        mainEntity: allFaqs.map((faq) => ({
-          "@type": "Question",
-          name: faq.q,
-          acceptedAnswer: { "@type": "Answer", text: faq.a },
-        })),
-      },
-    ],
-  };
+  const schemaOrg = jsonLd(
+    softwareApplicationSchema({
+      url: `${SITE_URL}/${lang.languageSlug}`,
+      description: `Real-time live captions, live translation, audio transcription, and AI summaries for ${lang.language} speakers. ${lang.dialectNote}.`,
+    }),
+    faqPageSchema(allFaqs),
+    breadcrumbSchema([
+      { name: "Home", path: "/" },
+      { name: `${lang.language} Captions`, path: `/${lang.languageSlug}` },
+    ]),
+  );
 
   const features = [
     {
