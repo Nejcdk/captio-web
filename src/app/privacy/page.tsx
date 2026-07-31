@@ -32,7 +32,7 @@ export default function PrivacyPage() {
         <Header />
         <div className="max-w-3xl mx-auto px-6 py-16">
       <h1 className="text-3xl font-bold mb-2">Privacy Policy</h1>
-      <p className="text-sm text-gray-500 mb-10">Last updated: July 2026</p>
+      <p className="text-sm text-gray-500 mb-10">Last updated: July 31, 2026</p>
 
       <P>
         This Privacy Policy explains how Captio (&ldquo;Captio&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or
@@ -52,7 +52,7 @@ export default function PrivacyPage() {
       <P>In plain terms, this is how Captio treats your data:</P>
       <UL>
         <li>Your audio is processed in real time and is <strong>not stored on our servers</strong>.</li>
-        <li>Your transcripts and summaries are stored <strong>only on your device</strong> — we keep no copy.</li>
+        <li>Your transcripts and summaries are stored <strong>securely to provide the Service</strong> — including syncing them across your devices — and are never sold or used to train AI models.</li>
         <li>We <strong>never sell</strong> your data.</li>
         <li>Your content is <strong>never used to train AI models</strong>.</li>
       </UL>
@@ -71,8 +71,9 @@ export default function PrivacyPage() {
           happens to it.
         </li>
         <li>
-          <strong>Transcripts and summaries.</strong> Text generated from your audio. These are stored only on
-          your device, not on our servers.
+          <strong>Transcripts and summaries.</strong> Text generated from your audio. These are stored on your
+          device and, so they&rsquo;re available when you sign in on another device or reinstall the app, are also
+          stored securely in our cloud, linked to your account. They are never used to train AI models.
         </li>
         <li>
           <strong>Subscription information.</strong> If you subscribe to a paid plan, we and our payments
@@ -116,9 +117,11 @@ export default function PrivacyPage() {
 
       <H2>5. Where your transcripts and summaries are stored</H2>
       <P>
-        Transcripts and summaries are stored <strong>on your device only</strong>. We do not keep a copy on our
-        servers. If you delete the content, or delete the app, it is gone — we have nothing to recover because
-        we never held it.
+        Transcripts and summaries are stored on your device and are also synced to our secure cloud storage so
+        they&rsquo;re available when you sign in on another device or reinstall the app. They are linked to your
+        account and protected by access controls so that only you can access them. They are never sold or used to
+        train AI models. When you delete a transcript, it is removed from your device and from our cloud; when you
+        delete your account, all of your transcripts and summaries are permanently deleted.
       </P>
 
       <H2>6. Legal bases for processing (GDPR)</H2>
@@ -147,8 +150,8 @@ export default function PrivacyPage() {
 
       <H2>9. How long we keep data</H2>
       <UL>
-        <li><strong>Audio</strong> — not retained; deleted after processing.</li>
-        <li><strong>Transcripts and summaries</strong> — kept on your device only, for as long as you keep them.</li>
+        <li><strong>Audio</strong> — not stored on our servers; the recording is kept on your device for playback until you delete it.</li>
+        <li><strong>Transcripts and summaries</strong> — kept on your device and in our cloud (linked to your account) for as long as you keep them; deleted when you delete them or delete your account.</li>
         <li><strong>Account data</strong> — kept while your account is active; deleted when you delete your account.</li>
         <li><strong>Analytics</strong> — aggregate and non-identifying.</li>
       </UL>
@@ -166,8 +169,9 @@ export default function PrivacyPage() {
       <H2>11. Security</H2>
       <P>
         We use reasonable technical and organizational measures to protect your data, including encryption of
-        audio in transit. No method of transmission or storage is completely secure, but keeping audio out of
-        storage and transcripts on your device is a core part of how we reduce risk.
+        audio in transit. No method of transmission or storage is completely secure. We keep audio out of server
+        storage entirely, and your transcripts are held in access-controlled cloud storage that only you can
+        access — both core parts of how we reduce risk.
       </P>
 
       <H2>12. Children</H2>

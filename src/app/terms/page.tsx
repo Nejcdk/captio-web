@@ -32,7 +32,7 @@ export default function TermsPage() {
         <Header />
         <div className="max-w-3xl mx-auto px-6 py-16">
       <h1 className="text-3xl font-bold mb-2">Terms of Service</h1>
-      <p className="text-sm text-gray-500 mb-10">Last updated: July 2026</p>
+      <p className="text-sm text-gray-500 mb-10">Last updated: July 31, 2026</p>
 
       <P>
         These Terms of Service (&ldquo;Terms&rdquo;) govern your access to and use of the Captio iOS application
@@ -51,8 +51,9 @@ export default function TermsPage() {
       <P>
         Captio is an accessibility tool for deaf and hard of hearing people. It provides real-time live
         captions, live translation, transcription of audio you upload, and AI-generated summaries. Your audio
-        is processed in real time and is not stored on our servers; transcripts and summaries are stored on
-        your device. How we handle your data is described in our{" "}
+        is processed in real time and is not stored on our servers. Transcripts and summaries are stored on your
+        device and synced to our secure cloud so they&rsquo;re available across your devices; they are never used
+        to train AI models. How we handle your data is described in our{" "}
         <a href="/privacy" className="text-brand underline">Privacy Policy</a>.
       </P>
 
@@ -78,8 +79,9 @@ export default function TermsPage() {
         from it (&ldquo;Your Content&rdquo;). You grant us only the limited permission needed to process Your
         Content in order to provide the Service to you — for example, transmitting your audio to our processing
         providers to generate captions or a transcript. We do not use Your Content for any other purpose, we do
-        not sell it, and we do not use it to train AI models. Audio is deleted after processing, and transcripts
-        and summaries remain on your device.
+        not sell it, and we do not use it to train AI models. Audio is deleted after processing and is not stored
+        on our servers. Transcripts and summaries are stored on your device and synced to our cloud so you can
+        access them across your devices; they are deleted when you delete them or delete your account.
       </P>
 
       <H2>6. Recording and consent</H2>
