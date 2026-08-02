@@ -32,7 +32,7 @@ export default function PrivacyPage() {
         <Header />
         <div className="max-w-3xl mx-auto px-6 py-16">
       <h1 className="text-3xl font-bold mb-2">Privacy Policy</h1>
-      <p className="text-sm text-gray-500 mb-10">Last updated: July 31, 2026</p>
+      <p className="text-sm text-gray-500 mb-10">Last updated: August 2, 2026</p>
 
       <P>
         This Privacy Policy explains how Captio (&ldquo;Captio&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or
@@ -103,10 +103,10 @@ export default function PrivacyPage() {
           and it is not used to train any models.
         </li>
         <li>
-          When Captio generates a title or summary, the relevant text may be sent to a <strong>third-party AI
-          provider</strong>. We use a paid service under terms where your content is <strong>not used to train
-          models</strong>. That provider may retain the input briefly for security and abuse-monitoring under
-          its own terms, after which it is deleted.
+          When Captio generates a title or summary, the relevant text is sent to a <strong>third-party AI
+          provider</strong> to produce that title or summary. We use a paid service under terms where your content
+          is <strong>not used to train models</strong>. That provider may retain the input briefly for security and
+          abuse-monitoring under its own terms, after which it is deleted.
         </li>
         <li>
           We do not name these providers here, as their identity is not required for you to understand how your
@@ -121,7 +121,8 @@ export default function PrivacyPage() {
         they&rsquo;re available when you sign in on another device or reinstall the app. They are linked to your
         account and protected by access controls so that only you can access them. They are never sold or used to
         train AI models. When you delete a transcript, it is removed from your device and from our cloud; when you
-        delete your account, all of your transcripts and summaries are permanently deleted.
+        delete your account — which you can do at any time from within the app — all of your transcripts and
+        summaries are permanently deleted.
       </P>
 
       <H2>6. Legal bases for processing (GDPR)</H2>
@@ -161,7 +162,8 @@ export default function PrivacyPage() {
         Under the GDPR you have the right to access, correct, delete, restrict, or object to the processing of
         your personal data, the right to data portability, and the right to withdraw consent at any time. To
         exercise any of these, email{" "}
-        <a href="mailto:nejcdovzank@gmail.com" className="text-brand underline">nejcdovzank@gmail.com</a>. You
+        <a href="mailto:nejcdovzank@gmail.com" className="text-brand underline">nejcdovzank@gmail.com</a>. You can
+        also delete your account, and all data linked to it, at any time directly in the app. You
         also have the right to lodge a complaint with your local supervisory authority — in Slovenia, the
         Information Commissioner (Informacijski pooblaščenec).
       </P>
