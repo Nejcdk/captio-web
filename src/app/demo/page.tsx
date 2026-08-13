@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { Metadata } from "next";
 import Link from "next/link";
 import Header from "@/components/Header";
@@ -19,7 +20,9 @@ export const metadata: Metadata = {
 
 const AppStoreButton = () => (
   <a
-    href="#"
+    href="https://apps.apple.com/si/app/captio-ai/id6796617180"
+    target="_blank"
+    rel="noopener noreferrer"
     className="inline-flex items-center gap-3 bg-cta text-white font-semibold px-7 py-4 rounded-[8px] hover:bg-cta-dark transition-colors"
   >
     <svg viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 shrink-0">
@@ -102,9 +105,7 @@ export default function DemoPage() {
             <div className="w-full bg-white rounded-xl border border-gray-100 shadow-sm px-8 py-8 flex flex-col items-center gap-6">
               <div className="flex items-center gap-8">
                 <div className="hidden sm:block p-3 bg-white border border-gray-200 rounded-xl">
-                  <div className="w-24 h-24 bg-gray-50 rounded-lg flex items-center justify-center text-gray-300 text-[10px] text-center leading-tight">
-                    QR<br />coming soon
-                  </div>
+                  <Image src="/qr-appstore.png" alt="QR code to download Captio AI on the App Store" width={96} height={96} className="w-24 h-24 rounded-lg" />
                 </div>
                 <div className="flex flex-col gap-2 items-center">
                   <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">Download for free</p>

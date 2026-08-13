@@ -32,7 +32,7 @@ export default function PrivacyPage() {
         <Header />
         <div className="max-w-3xl mx-auto px-6 py-16">
       <h1 className="text-3xl font-bold mb-2">Privacy Policy</h1>
-      <p className="text-sm text-gray-500 mb-10">Last updated: August 2, 2026</p>
+      <p className="text-sm text-gray-500 mb-10">Last updated: August 3, 2026</p>
 
       <P>
         This Privacy Policy explains how Captio (&ldquo;Captio&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or
@@ -109,9 +109,9 @@ export default function PrivacyPage() {
           abuse-monitoring under its own terms, after which it is deleted.
         </li>
         <li>
-          We do not name these providers here, as their identity is not required for you to understand how your
-          data is handled. They act as our processors, are bound by their own privacy terms and by data-
-          processing agreements, and process data only to provide the Service.
+          These providers are Soniox, Inc. (speech recognition) and Google LLC (Gemini API, used for titles and
+          summaries). They act as our processors, are bound by their own privacy terms and by data-processing
+          agreements, and process your data only to provide the Service — never to train their models.
         </li>
       </UL>
 
@@ -136,7 +136,8 @@ export default function PrivacyPage() {
       <H2>7. Who we share data with</H2>
       <P>
         We do not sell your data. We share data only with the processors needed to run the Service: our
-        third-party speech-recognition and AI providers (as described above), our subscription/payments
+        speech-recognition provider (Soniox, Inc.) and AI provider (Google LLC — Gemini API), as described in
+        section 4, our subscription/payments
         provider and the Apple App Store, the authentication providers you choose to sign in with (Apple or
         Google), and our hosting and cookieless-analytics providers. We may also disclose data if required by
         law or to protect our legal rights.
