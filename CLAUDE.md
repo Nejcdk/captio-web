@@ -141,7 +141,7 @@ Every page should answer: the main question, all sub-questions, dialect/accent s
 - Dev: `npm run dev`
 - All dynamic routes use `generateStaticParams` to pre-render at build time
 - Tailwind v4: config is in `globals.css` via `@theme inline`, no `tailwind.config.js`
-- Site is live and indexable as of 2026-07-28; Google Search Console verified and sitemap submitted. Analytics: Vercel Web Analytics + PostHog (both cookieless, no consent banner; PostHog shares the iOS app's EU project, proxied via `/ingest`, init in `src/instrumentation-client.ts`, fires `app_store_click`) — see [[project_golive_decisions]]
+- Site is live and indexable as of 2026-07-28; Google Search Console verified and sitemap submitted. Analytics: Vercel Web Analytics + PostHog (both cookieless, no consent banner; PostHog shares the iOS app's EU project, proxied via `/ingest`, init in `src/instrumentation-client.ts`, fires `app_store_click` + `download_button_click` with page/location/position) — see [[project_golive_decisions]]
 
 **Dev server setup — read this before touching the server:**
 The `dev` script in `package.json` is set to `next dev --turbopack`. **Always start the dev server with `npm run dev` and nothing else.** Never run `next dev` directly, never run `npx next start` unless serving a production build. Once running, HMR works normally — no restarts needed when editing files. If you ever see 500 errors, kill all node processes (`pkill -9 -f "next"`) and run `npm run dev` again.

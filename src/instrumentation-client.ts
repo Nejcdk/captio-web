@@ -20,18 +20,57 @@ if (process.env.NODE_ENV === "production") {
 
   posthog.register({ platform: "web" });
 
-  // Conversion event: any click on an App Store link, wherever it sits on the site.
+  // Conversion events, caught site-wide so new buttons are tracked automatically:
+  //   app_store_click       — any link to the App Store (the real outbound click)
+  //   download_button_click — header "Download" buttons that jump to #download
+  // sendBeacon + send_instantly: on iPhone the App Store app takes over the page
+  // immediately, and a normally queued event would be lost.
   document.addEventListener(
     "click",
     (event) => {
-      const link = (event.target as Element | null)?.closest?.("a[href*='apps.apple.com']");
-      if (link) {
-        posthog.capture("app_store_click", {
+      const link = (event.target as Element | null)?.closest?.("a[href]");
+      if (!link) return;
+      const href = link.getAttribute("href") ?? "";
+      const event_name = href.includes("apps.apple.com")
+        ? "app_store_click"
+        : href.endsWith("#download")
+          ? "download_button_click"
+          : null;
+      if (!event_name) return;
+
+      posthog.capture(
+        event_name,
+        {
           page: window.location.pathname,
-          link_text: link.textContent?.trim().slice(0, 80) || undefined,
-        });
-      }
+          location: linkLocation(link),
+          // 1-based order among App Store links on this page (1 = first/top one)
+          position:
+            event_name === "app_store_click"
+              ? [...document.querySelectorAll("a[href*='apps.apple.com']")].indexOf(link) + 1
+              : undefined,
+          link_text: (link as HTMLElement).innerText?.replace(/\s+/g, " ").trim().slice(0, 80) || undefined,
+        },
+        { transport: "sendBeacon", send_instantly: true },
+      );
     },
     { capture: true },
   );
+}
+
+// Human-readable spot on the page: "header", "footer", the enclosing section's
+// heading, or — for inline CTAs between sections — "after: <previous heading>".
+function linkLocation(link: Element): string {
+  if (link.closest("header")) return "header";
+  if (link.closest("footer")) return "footer";
+  const heading = (section: Element | null) =>
+    section?.querySelector("h1, h2")?.textContent?.replace(/\s+/g, " ").trim().slice(0, 60);
+
+  const section = link.closest("section");
+  if (section) return heading(section) || section.id || "section";
+
+  const sections = [...document.querySelectorAll("section")];
+  const previous = sections.filter(
+    (s) => s.compareDocumentPosition(link) & Node.DOCUMENT_POSITION_FOLLOWING,
+  ).pop();
+  return previous ? `after: ${heading(previous) ?? "section"}` : "body";
 }
