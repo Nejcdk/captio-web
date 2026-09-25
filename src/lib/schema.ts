@@ -8,6 +8,9 @@ export const SITE_URL = "https://captioai.app";
 const ORG_ID = `${SITE_URL}/#organization`;
 const SITE_ID = `${SITE_URL}/#website`;
 
+/** Canonical (storefront-neutral) App Store listing for the iOS app. */
+export const APP_STORE_URL = "https://apps.apple.com/app/captio-ai/id6796617180";
+
 /** Global publisher entity. Rendered once, in the root layout. */
 export const organizationSchema = {
   "@type": "Organization",
@@ -20,7 +23,9 @@ export const organizationSchema = {
   },
   description:
     "Captio AI is an iOS live captioning, translation, and transcription app for deaf and hard of hearing people, supporting 60+ languages.",
-  // sameAs: add social + App Store URLs here once they exist.
+  // sameAs: add the organisation's own social profiles here once they exist.
+  // (The App Store listing is linked from SoftwareApplication, not here — the
+  // store lists the developer as a person, so it is not the same entity.)
 };
 
 /** Global website entity. Rendered once, in the root layout. */
@@ -50,10 +55,17 @@ export function softwareApplicationSchema(opts: {
   return {
     "@type": "SoftwareApplication",
     name: "Captio AI",
-    applicationCategory: "AccessibilityApplication",
+    alternateName: "Captio AI - Live Captions",
+    // Google only recognises its fixed category list; UtilitiesApplication is
+    // also the App Store's category. Accessibility goes in the subcategory.
+    applicationCategory: "UtilitiesApplication",
+    applicationSubCategory: "Accessibility",
     operatingSystem: "iOS",
     description: opts.description,
     url: opts.url,
+    downloadUrl: APP_STORE_URL,
+    installUrl: APP_STORE_URL,
+    sameAs: [APP_STORE_URL],
     featureList: FEATURE_LIST,
     offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
     publisher: { "@id": ORG_ID },

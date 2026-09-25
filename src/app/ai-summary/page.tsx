@@ -8,12 +8,12 @@ import FaqAccordion from "@/components/FaqAccordion";
 import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "AI Summary — Captio AI",
+  title: "AI Summary: Structured Summaries of Any Transcript",
   description:
     "Turn any transcript into a structured summary. Key points, decisions, and action items extracted automatically. Built for deaf and hard of hearing people.",
   alternates: { canonical: "/ai-summary" },
   openGraph: {
-    title: "AI Summary — Captio AI",
+    title: "AI Summary: Structured Summaries of Any Transcript | Captio AI",
     description:
       "Turn any transcript into a structured summary. Key points, decisions, and action items extracted automatically. Built for deaf and hard of hearing people.",
     url: "/ai-summary",

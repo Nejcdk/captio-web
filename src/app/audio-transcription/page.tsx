@@ -8,12 +8,12 @@ import FaqAccordion from "@/components/FaqAccordion";
 import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Audio Transcription — Captio AI",
+  title: "Audio Transcription: Audio and Video to Text on iPhone",
   description:
     "Upload any audio or video file and get a full written transcript. 60+ languages, speaker separation, searchable. Built for deaf and hard of hearing people.",
   alternates: { canonical: "/audio-transcription" },
   openGraph: {
-    title: "Audio Transcription — Captio AI",
+    title: "Audio Transcription: Audio and Video to Text on iPhone | Captio AI",
     description:
       "Upload any audio or video file and get a full written transcript. 60+ languages, speaker separation, searchable. Built for deaf and hard of hearing people.",
     url: "/audio-transcription",

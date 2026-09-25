@@ -291,7 +291,7 @@ const faqs = [
   },
   {
     q: "Is Captio AI free to use?",
-    a: "Captio AI has a free tier that lets you get started without any payment. A Plus plan is available for users who need unlimited access. See the Pricing page for current plan details.",
+    a: "Captio AI has a free tier that lets you get started without any payment. A Plus plan is available for users who need unlimited access. Current Plus pricing for your country is shown on the App Store listing.",
   },
   {
     q: "How is Captio AI different from Apple's built-in Live Captions?",

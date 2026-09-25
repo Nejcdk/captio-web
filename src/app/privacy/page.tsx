@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Captio privacy policy — how we handle your data.",
   alternates: { canonical: "/privacy" },
   openGraph: {
-    title: "Privacy Policy — Captio AI",
+    title: "Privacy Policy | Captio AI",
     description: "Captio privacy policy — how we handle your data.",
     url: "/privacy",
     type: "website",

@@ -6,9 +6,9 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FaqAccordion from "@/components/FaqAccordion";
 import ReviewCarousel from "@/components/ReviewCarousel";
-import { useCases, getUseCaseBySlug } from "@/lib/useCases";
-import { languages, getLanguageBySlug } from "@/lib/languages";
-import { getUseCaseLanguageVariant } from "@/lib/useCaseLanguageData";
+import { useCases, getUseCaseBySlug, inlineUseCaseLabel, type UseCase } from "@/lib/useCases";
+import { languages, getLanguageBySlug, type Language } from "@/lib/languages";
+import { getUseCaseLanguageVariant, type UseCaseLanguageVariant } from "@/lib/useCaseLanguageData";
 import LanguageMetrics from "@/components/LanguageMetrics";
 import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbSchema } from "@/lib/schema";
 
@@ -31,15 +31,28 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const uc = getUseCaseBySlug(slug);
   const lang = getLanguageBySlug(language);
   if (!uc || !lang) return {};
-  const title = `${uc.label} in ${lang.language} — Captio AI`;
-  const description = `Captio AI helps deaf and hard of hearing ${lang.language} speakers with ${uc.label.toLowerCase()}. Real-time live captions and translation. ${lang.dialectNote}.`;
+  // Mirrors the h1. The root layout's title template appends " | Captio AI".
+  const title = `${lang.language} Live Captions for ${uc.label}`;
+  const description = pageDescription(uc, lang, getUseCaseLanguageVariant(slug, language));
   const path = `/use-cases/${uc.slug}/${lang.languageSlug}`;
   return {
     title,
     description,
     alternates: { canonical: path },
-    openGraph: { title, description, url: path, type: "website", images: ["/opengraph-image"] },
+    openGraph: { title: `${title} | Captio AI`, description, url: path, type: "website", images: ["/opengraph-image"] },
   };
+}
+
+// Leads with the variant's hand-written heroTitle, so each of the 720 pages has
+// a unique description instead of a find-and-replace template.
+function pageDescription(
+  uc: UseCase,
+  lang: Language,
+  variant: UseCaseLanguageVariant | undefined,
+) {
+  const generic = `Real-time ${lang.language} live captions for ${inlineUseCaseLabel(uc)}, built for deaf and hard of hearing people. ${lang.dialectNote}.`;
+  if (variant?.heroDescription) return variant.heroDescription;
+  return variant?.heroTitle ? `${variant.heroTitle} ${generic}` : generic;
 }
 
 const featureIcons: Record<string, React.ReactNode> = {
@@ -119,9 +132,7 @@ export default async function UseCaseLanguagePage({ params }: Props) {
   const schemaOrg = jsonLd(
     softwareApplicationSchema({
       url: `${SITE_URL}${path}`,
-      description:
-        variant?.heroDescription ??
-        `Real-time live captions and translation for deaf and hard of hearing ${lang.language} speakers. ${uc.label} — ${lang.dialectNote}.`,
+      description: pageDescription(uc, lang, variant),
     }),
     faqPageSchema(allFaqs),
     breadcrumbSchema([
@@ -151,7 +162,7 @@ export default async function UseCaseLanguagePage({ params }: Props) {
               <span className="underline decoration-brand decoration-4 underline-offset-4">live captions</span>{" "}
               and{" "}
               <span className="underline decoration-brand decoration-4 underline-offset-4">productivity tool</span>{" "}
-              for {uc.label.toLowerCase()}
+              for {inlineUseCaseLabel(uc)}
             </h1>
             <p className="text-xl sm:text-2xl font-semibold text-gray-800 max-w-xl">
               For <span className="text-brand">deaf</span> and <span className="text-brand">hard of hearing</span> people.
@@ -185,7 +196,7 @@ export default async function UseCaseLanguagePage({ params }: Props) {
               <div className="text-center mb-7">
                 <span className="text-xs font-bold text-cta uppercase tracking-widest">Features</span>
                 <h2 className="text-3xl font-bold text-gray-900 tracking-tight mt-3">
-                  Everything you need to follow {lang.language} {uc.label.toLowerCase()}
+                  Everything you need to follow {lang.language} {inlineUseCaseLabel(uc)}
                 </h2>
                 <p className="text-gray-500 mt-3 max-w-xl mx-auto">
                   Four tools built for deaf and hard of hearing {lang.language} speakers.

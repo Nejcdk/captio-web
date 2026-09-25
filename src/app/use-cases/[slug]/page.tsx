@@ -6,7 +6,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FaqAccordion from "@/components/FaqAccordion";
 import ReviewCarousel from "@/components/ReviewCarousel";
-import { useCases, getUseCaseBySlug } from "@/lib/useCases";
+import { useCases, getUseCaseBySlug, inlineUseCaseLabel } from "@/lib/useCases";
 import { languages } from "@/lib/languages";
 import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbSchema } from "@/lib/schema";
 
@@ -22,13 +22,14 @@ export async function generateMetadata({
   const { slug } = await params;
   const uc = getUseCaseBySlug(slug);
   if (!uc) return {};
-  const title = `${uc.label} — Captio AI Live Captions for Deaf and Hard of Hearing`;
+  // The root layout's title template appends " | Captio AI".
+  const title = `${uc.label} — Live Captions for Deaf and Hard of Hearing`;
   const path = `/use-cases/${uc.slug}`;
   return {
     title,
     description: uc.description,
     alternates: { canonical: path },
-    openGraph: { title, description: uc.description, url: path, type: "website", images: ["/opengraph-image"] },
+    openGraph: { title: `${title} | Captio AI`, description: uc.description, url: path, type: "website", images: ["/opengraph-image"] },
   };
 }
 
@@ -133,7 +134,7 @@ export default async function UseCasePage({
               and{" "}
               <span className="underline decoration-brand decoration-4 underline-offset-4">productivity tool</span>{" "}
               for{" "}
-              {uc.headingLabel ?? uc.label.toLowerCase()}
+              {uc.headingLabel ?? inlineUseCaseLabel(uc)}
             </h1>
             <p className="text-xl sm:text-2xl font-semibold text-gray-800 max-w-xl">
               For <span className="text-brand">deaf</span> and <span className="text-brand">hard of hearing</span> people.
@@ -167,7 +168,7 @@ export default async function UseCasePage({
               <div className="text-center mb-7">
                 <span className="text-xs font-bold text-cta uppercase tracking-widest">Features</span>
                 <h2 className="text-3xl font-bold text-gray-900 tracking-tight mt-3">
-                  Everything you need to follow {uc.label.toLowerCase()}
+                  Everything you need to follow {inlineUseCaseLabel(uc)}
                 </h2>
                 <p className="text-gray-500 mt-3 max-w-xl mx-auto">
                   Four tools built for deaf and hard of hearing people.

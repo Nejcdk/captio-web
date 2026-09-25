@@ -1738,3 +1738,11 @@ export const useCases: UseCase[] = [
 export function getUseCaseBySlug(slug: string): UseCase | undefined {
   return useCases.find((uc) => uc.slug === slug);
 }
+
+/** Label for use mid-sentence: "TV & Media" → "TV & media", not "tv & media". Keeps acronyms (TV, HoH). */
+export function inlineUseCaseLabel(uc: UseCase): string {
+  return uc.label
+    .split(" ")
+    .map((w) => (/^[A-Z][a-z]+$/.test(w) ? w.toLowerCase() : w))
+    .join(" ");
+}

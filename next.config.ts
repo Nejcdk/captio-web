@@ -1,6 +1,15 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Removed pages that were indexed — 301 them so search engines transfer any
+  // signals instead of hitting a 404 (they would otherwise fall into /[language]).
+  async redirects() {
+    return [
+      { source: "/demo", destination: "/live-captions", permanent: true },
+      { source: "/pricing", destination: "/", permanent: true },
+      { source: "/support", destination: "/", permanent: true },
+    ];
+  },
   // PostHog reverse proxy (EU) — see src/instrumentation-client.ts
   async rewrites() {
     return [

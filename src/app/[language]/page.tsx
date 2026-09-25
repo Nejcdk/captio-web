@@ -21,14 +21,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { language } = await params;
   const lang = getLanguageBySlug(language);
   if (!lang) return {};
-  const title = `${lang.language} Live Captions & Transcription — Captio AI`;
+  // The root layout's title template appends " | Captio AI".
+  const title = `${lang.language} Live Captions & Transcription`;
   const description = `Captio AI gives deaf and hard of hearing ${lang.language} speakers real-time live captions, live translation, audio transcription, and AI summaries. ${lang.dialectNote}.`;
   const path = `/${lang.languageSlug}`;
   return {
     title,
     description,
     alternates: { canonical: path },
-    openGraph: { title, description, url: path, type: "website", images: ["/opengraph-image"] },
+    openGraph: { title: `${title} | Captio AI`, description, url: path, type: "website", images: ["/opengraph-image"] },
   };
 }
 
@@ -63,7 +64,7 @@ const baseFaqs = [
   },
   {
     q: "Is Captio AI free to use?",
-    a: "Captio AI has a free tier that lets you get started without any payment. A Plus plan is available for users who need unlimited access. See the Pricing page for current plan details.",
+    a: "Captio AI has a free tier that lets you get started without any payment. A Plus plan is available for users who need unlimited access. Current Plus pricing for your country is shown on the App Store listing.",
   },
 ];
 

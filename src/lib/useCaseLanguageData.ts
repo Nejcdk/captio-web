@@ -1,5 +1,3 @@
-import type { SubUseCase } from "./useCases";
-
 export type WhyHardCard = {
   tag: string;
   title: string;
@@ -22,7 +20,6 @@ export type UseCaseLanguageVariant = {
     headline: string;
     cards: WhyHardCard[];
   };
-  subUseCases?: SubUseCase[];
   useCaseDescriptions?: string[];
   existingSolutions?: ExistingSolution[];
   challenge: {
@@ -69,38 +66,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🏪",
-        title: "Counter conversations",
-        description: "Pharmacy staff, shop assistants, and service workers speaking at full pace in regional Mandarin or Cantonese. In Hong Kong, Cantonese is the default. In mainland cities, regional-accented Mandarin. Captio AI captions whoever is speaking so you follow the exchange before the moment passes.",
-      },
-      {
-        icon: "🍽️",
-        title: "Multigenerational family dinners",
-        description: "Chinese family meals often involve multiple generations using different varieties — grandparents in Shanghainese or Cantonese, parents in Mandarin, younger generations switching to English mid-sentence. Captio AI follows whoever is speaking without any manual switching.",
-      },
-      {
-        icon: "👋",
-        title: "Talking to strangers",
-        description: "Asking for directions, meeting neighbours, chatting with locals in unfamiliar cities. In China's major urban centres, you are likely to encounter Mandarin with strong regional accents. Captio AI captions anyone who speaks near you.",
-      },
-      {
-        icon: "☕",
-        title: "Informal work moments",
-        description: "Office chats, hallway catch-ups, quick questions in Chinese workplaces where conversations happen fast and often shift between formal and casual registers. Captio AI keeps you in the moments that happen without warning.",
-      },
-      {
-        icon: "📋",
-        title: "Appointments and admin",
-        description: "Hospitals, government offices, and banks in China move fast, use formal vocabulary, and rarely repeat. Captio AI gives you a real-time transcript of everything said so you can follow and respond accurately.",
-      },
-      {
-        icon: "🚉",
-        title: "Getting around",
-        description: "Transport staff, metro announcements, taxi drivers, asking for help at rail stations. China's transport infrastructure announces everything by sound. Captio AI captions whoever is speaking — on a platform or across a counter.",
-      },
-    ],
     challenge: {
       headline: "27.8 million people. Excluded from ordinary life.",
       paragraphs: [
@@ -235,38 +200,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "☕",
-        title: "Coffee shop orders",
-        description: "The counter at a busy café is one of the hardest everyday settings: background noise, fast accents, and staff who don't know you are deaf. Captio AI captions what the barista says as they say it, so the exchange is yours.",
-      },
-      {
-        icon: "🏢",
-        title: "Open-plan office conversations",
-        description: "Hallway catch-ups, desk-side questions, impromptu meetings — English workplace culture is built on spontaneous spoken exchange. Captio AI keeps you in every unplanned conversation.",
-      },
-      {
-        icon: "🍺",
-        title: "Pub and social gatherings",
-        description: "UK pub conversations and American social gatherings are loud, fast, and multi-person. Everyone talks at once and nobody thinks to slow down. Captio AI follows whoever is speaking so you stay part of the evening.",
-      },
-      {
-        icon: "🛒",
-        title: "Shop and checkout counters",
-        description: "Grocery stores, pharmacies, post offices — brief exchanges with staff who speak fast and move on. Captio AI gives you a real-time transcript so you follow every question and response without asking for a repeat.",
-      },
-      {
-        icon: "🚇",
-        title: "Transport and public announcements",
-        description: "Station announcements, bus drivers, platform changes, transport staff — public transit is almost entirely audio in English-speaking countries. Captio AI captions what's being said around you.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family meals and social dinners",
-        description: "English family gatherings involve fast overlapping conversation, jokes, and callbacks. Accents vary by generation. Captio AI follows whoever is speaking so you are in the conversation, not watching it happen around the table.",
-      },
-    ],
     challenge: {
       headline: "55 million people. Navigating daily English life without sound.",
       paragraphs: [
@@ -400,38 +333,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "☕",
-        title: "Street food stall",
-        description: "The neighbourhood tea or food stall is the social hub of Indian daily life — fast exchanges, familiar banter, a mix of Hindi and local dialect. Captio AI captions whoever is speaking so you follow the exchange without relying on gestures.",
-      },
-      {
-        icon: "🛺",
-        title: "Taxi and transport directions",
-        description: "Negotiating fares and giving directions to drivers happens fast, over engine noise, with strong regional accents. Captio AI transcribes the driver's questions so you know what is being asked before they drive off.",
-      },
-      {
-        icon: "🚉",
-        title: "Train station counters and announcements",
-        description: "Counter interactions, platform announcements, and staff instructions happen in fast Hindi with regional accents. Captio AI keeps you informed so you do not miss your train or platform change.",
-      },
-      {
-        icon: "🍽️",
-        title: "Joint family meals",
-        description: "Multigenerational Hindi-speaking family dinners involve overlapping speech, mixed languages, and fast-moving conversation. Captio AI follows whoever is speaking so you stay in the conversation across generations.",
-      },
-      {
-        icon: "🏪",
-        title: "Corner shop transactions",
-        description: "The neighbourhood corner shop runs on quick verbal exchanges. Captio AI transcribes what the shopkeeper says so you can complete the errand without misunderstanding.",
-      },
-      {
-        icon: "🏥",
-        title: "Government offices and hospital visits",
-        description: "Government offices and public hospitals in India move fast and use formal vocabulary. Captio AI gives you a real-time transcript so you can follow instructions and respond accurately without asking for a repeat.",
-      },
-    ],
     challenge: {
       headline: "63 million people. Excluded from the texture of Indian daily life.",
       paragraphs: [
@@ -565,38 +466,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🥩",
-        title: "Market stall interactions",
-        description: "The market stall vendor speaks fast, uses local vocabulary, and expects a quick exchange. Captio AI captions what they say so you can respond accurately and complete the transaction without repeated misunderstandings.",
-      },
-      {
-        icon: "☀️",
-        title: "Outdoor café conversation",
-        description: "Spanish and Latin American social life centres on outdoor cafés and terrazas — busy, noisy, with multiple conversations happening at once. Captio AI follows whoever is speaking near you.",
-      },
-      {
-        icon: "🍖",
-        title: "Family Sunday lunch",
-        description: "The Spanish family Sunday lunch is long, loud, and multi-generational. Different regional accents, overlapping voices, in-jokes and callbacks. Captio AI keeps you in the conversation from starter to sobremesa.",
-      },
-      {
-        icon: "🏪",
-        title: "Corner shop transactions",
-        description: "Brief verbal exchanges at neighbourhood shops, panaderías, and corner stores. Fast, local, colloquial. Captio AI transcribes what the person behind the counter says so you know what you are being asked.",
-      },
-      {
-        icon: "🚌",
-        title: "Transport — bus, metro, taxi",
-        description: "Bus drivers, metro announcements, taxi drivers navigating with commentary — public transport in Spanish-speaking cities runs on spoken communication. Captio AI captions what is said around you.",
-      },
-      {
-        icon: "💼",
-        title: "Informal workplace moments",
-        description: "Quick questions in the corridor, office banter, the informal conversations that shape your working day. Spanish workplace culture is social and verbal. Captio AI keeps you in the moments that happen without warning.",
-      },
-    ],
     challenge: {
       headline: "Tens of millions across 22 countries. No shared visual language for daily life.",
       paragraphs: [
@@ -729,38 +598,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🏪",
-        title: "Market and shop interactions",
-        description: "Market transactions are fast, verbal, and dialectal. The vendor speaks colloquial Arabic at natural pace with strong regional colour. Captio AI captions what is said so you can respond and complete the exchange without confusion.",
-      },
-      {
-        icon: "🕌",
-        title: "Post-prayer social conversation",
-        description: "After Friday prayers, the social conversation that follows in the mosque or outside is fast, overlapping, and often mixes formal and colloquial Arabic. Captio AI captions whoever is speaking near you.",
-      },
-      {
-        icon: "👨‍👩‍👧‍👦",
-        title: "Family gathering",
-        description: "The majlis — the family or community gathering — is the primary social setting across Arab cultures. Multiple generations, multiple dialects, fast overlapping speech. Captio AI follows whoever is speaking so you stay part of the gathering.",
-      },
-      {
-        icon: "🏛️",
-        title: "Government office visit",
-        description: "Government interactions in Arab countries use formal Modern Standard Arabic, often delivered quickly. Captio AI transcribes in real time so you can follow every instruction and respond accurately.",
-      },
-      {
-        icon: "🚕",
-        title: "Taxi and public transport",
-        description: "Taxi and microbus drivers in Cairo, Riyadh, and Beirut speak fast colloquial Arabic, often commenting on routes or asking questions. Captio AI captions what they say so the ride is navigable.",
-      },
-      {
-        icon: "🧴",
-        title: "Neighbourhood shop and pharmacy",
-        description: "Corner shops, bakeries, and pharmacies — brief verbal exchanges in local dialect at full speed. Captio AI gives you a real-time transcript of every question and instruction.",
-      },
-    ],
     challenge: {
       headline: "11 million people. No interpreter for the souk, the family meal, or the taxi ride.",
       paragraphs: [
@@ -893,38 +730,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🛺",
-        title: "Rickshaw and taxi directions",
-        description: "Giving directions to a rickshaw or taxi driver happens fast, over engine noise, in colloquial Bengali. Captio AI transcribes the driver's questions so you know what is being asked before the moment passes.",
-      },
-      {
-        icon: "🛍️",
-        title: "Market transactions",
-        description: "Markets are loud and fast. The vendor speaks in colloquial Bengali at natural pace. Captio AI captions what they say so you can respond accurately.",
-      },
-      {
-        icon: "🍽️",
-        title: "Joint family meals",
-        description: "Bengali family meals bring multiple generations together — grandparents speaking older formal Bengali, parents in casual Dhaka or Kolkata dialect, younger members mixing in English. Captio AI follows whoever is speaking.",
-      },
-      {
-        icon: "🏪",
-        title: "Neighbourhood shop",
-        description: "Corner stores, pharmacies, and grocery shops — brief verbal exchanges in fast colloquial Bengali. Captio AI gives you a transcript of every question so you can complete the errand without confusion.",
-      },
-      {
-        icon: "🚌",
-        title: "Bus and train conversations",
-        description: "Public transport in Bangladesh and West Bengal involves conductors, drivers, and fellow passengers speaking fast, colloquial Bengali. Captio AI captions whoever is speaking near you.",
-      },
-      {
-        icon: "🎓",
-        title: "University and college social settings",
-        description: "University campuses in Dhaka and Kolkata are intensely social, verbal, and fast-paced. Bengali, English, and slang mix constantly. Captio AI keeps you in the conversations that happen between classes and in common areas.",
-      },
-    ],
     challenge: {
       headline: "13 million people in Bangladesh alone. Excluded from the bazaar, the family table, the street.",
       paragraphs: [
@@ -1057,38 +862,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🥖",
-        title: "Bakery and café counter",
-        description: "The neighbourhood bakery is a social hub. Morning counter interactions are fast, friendly, and colloquial. Captio AI captions what the attendant says so the exchange is yours without asking for a repeat.",
-      },
-      {
-        icon: "🚌",
-        title: "Bus and metro",
-        description: "Bus drivers, ticket sellers, and transport announcements run on spoken Portuguese with strong regional variation. Captio AI captions whoever is speaking so you follow the journey.",
-      },
-      {
-        icon: "🔥",
-        title: "Family BBQ and gatherings",
-        description: "Weekend family gatherings are long, loud, multi-generational, and involve overlapping conversations. Captio AI follows whoever is speaking near you.",
-      },
-      {
-        icon: "🏪",
-        title: "Corner shop",
-        description: "Corner shops, pharmacies, and neighbourhood mercadinhos — brief verbal exchanges in fast informal Portuguese. Captio AI transcribes every question and instruction so you complete the errand without confusion.",
-      },
-      {
-        icon: "🏖️",
-        title: "Beach and outdoor social settings",
-        description: "Coastal Brazil's social life centres on beaches and outdoor spaces — fast, casual, loud, and full of slang. Captio AI captions conversations in these settings so you stay in the moment.",
-      },
-      {
-        icon: "🏥",
-        title: "Public health clinic",
-        description: "Brazil's public healthcare system involves fast-paced interactions with staff using formal vocabulary. Captio AI transcribes in real time so you can follow every instruction and respond accurately.",
-      },
-    ],
     challenge: {
       headline: "2.3 million Brazilians with profound hearing difficulty. No support outside institutions.",
       paragraphs: [
@@ -1221,38 +994,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🚐",
-        title: "Shared minibus and public transport",
-        description: "Transport drivers call out stops, take fares, and give directions — all in fast, informal Russian. Captio AI captions what is being said so you follow the journey.",
-      },
-      {
-        icon: "🛒",
-        title: "Supermarket and shop queue",
-        description: "Russian supermarket and corner shop interactions are brief, fast, and colloquial. Cashiers ask questions and make comments without expecting repetition. Captio AI transcribes every exchange so you can respond without confusion.",
-      },
-      {
-        icon: "🌿",
-        title: "Weekend countryside gathering",
-        description: "Weekend gatherings with family and friends in garden or countryside settings — relaxed, informal Russian for hours. Captio AI follows whoever is speaking so you stay part of the gathering.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family kitchen gathering",
-        description: "Russian family life centres on the kitchen — kuhnya — where multigenerational conversations happen over tea or dinner at fast, informal pace. Captio AI keeps you in every exchange.",
-      },
-      {
-        icon: "🏛️",
-        title: "Clinic and government office",
-        description: "Russian public institutions — polyclinics, МФЦ offices, banks — use formal vocabulary and move quickly. Captio AI transcribes in real time so you follow every instruction and respond accurately.",
-      },
-      {
-        icon: "🚇",
-        title: "Metro and railway station",
-        description: "Moscow and St Petersburg metro staff, railway station announcements, and platform information run on spoken Russian. Captio AI captions what is being said around you so you do not miss changes or instructions.",
-      },
-    ],
     challenge: {
       headline: "10.5 million people. Navigating daily Russian life with no interpreter in sight.",
       paragraphs: [
@@ -1385,38 +1126,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🛍️",
-        title: "Corner shop and market transactions",
-        description: "The neighbourhood corner shop and market are where daily life plays out. Fast, verbal, colloquial — often in mixed Urdu and Punjabi. Captio AI captions what the shopkeeper says so you complete the errand without confusion.",
-      },
-      {
-        icon: "🛺",
-        title: "Taxi and transport directions",
-        description: "Giving directions to a driver in Lahore or Karachi happens over engine noise in fast colloquial Urdu. Captio AI transcribes the driver's questions so you know what is being asked before the moment passes.",
-      },
-      {
-        icon: "👨‍👩‍👧‍👦",
-        title: "Joint family household conversations",
-        description: "Pakistani joint family households involve multiple generations, multiple regional languages, and constant overlapping conversation. Captio AI follows whoever is speaking so you stay part of the household rather than watching from the edges.",
-      },
-      {
-        icon: "🏛️",
-        title: "Bank and government office",
-        description: "Pakistani government offices and banks use formal Urdu at pace. Captio AI gives you a real-time transcript so you can follow instructions and respond accurately without asking for a repeat.",
-      },
-      {
-        icon: "🕌",
-        title: "Mosque and post-prayer conversation",
-        description: "Friday prayers and the social conversation after them are a central part of Pakistani daily life. Formal Arabic prayers and fast colloquial Urdu conversation happen in the same space. Captio AI captions the Urdu exchanges so you follow the social gathering.",
-      },
-      {
-        icon: "🏥",
-        title: "Public healthcare interactions",
-        description: "Pakistan's public health system involves fast interactions with formal vocabulary in often crowded settings. Captio AI transcribes in real time so you understand what the doctor or nurse says and can respond accurately.",
-      },
-    ],
     challenge: {
       headline: "10 million people. Pakistan's deaf community with almost no daily-life infrastructure.",
       paragraphs: [
@@ -1549,38 +1258,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🍜",
-        title: "Street food stall",
-        description: "The neighbourhood food stall is the social centre of Indonesian daily life. Ordering, chatting with the owner, following what is being said — all verbal, all fast, all in colloquial Indonesian or local dialect. Captio AI captions what is being said so you are part of it.",
-      },
-      {
-        icon: "🛍️",
-        title: "Market transaction",
-        description: "Markets are loud, busy, and transacted entirely in fast colloquial speech — often in the local language of the region rather than Bahasa Indonesia. Captio AI captions whoever you point the phone toward.",
-      },
-      {
-        icon: "🛵",
-        title: "Motorbike taxi and transport",
-        description: "Giving directions to a motorbike taxi or shared minibus driver happens fast, over engine noise, in colloquial Indonesian. Captio AI transcribes what the driver asks so you know what is being asked before the journey starts.",
-      },
-      {
-        icon: "🕌",
-        title: "Mosque and post-prayer socialising",
-        description: "Religious observance and the social conversation that surrounds it are a central part of Indonesian daily life. Arabic prayers and fast Bahasa Indonesia conversation happen in the same space. Captio AI captions the Indonesian so you follow the social gathering.",
-      },
-      {
-        icon: "👨‍👩‍👧‍👦",
-        title: "Multi-generational family gathering",
-        description: "Indonesian family gatherings bring multiple generations together, often across language boundaries — grandparents in Javanese, parents in Bahasa Indonesia, younger members mixing in English. Captio AI follows whoever is speaking.",
-      },
-      {
-        icon: "🏪",
-        title: "Shop and retail counter",
-        description: "Modern retail — minimarkets, pharmacies, mall shops — involves brief, fast counter interactions in colloquial Bahasa Indonesia. Captio AI transcribes every exchange so you complete the transaction without confusion.",
-      },
-    ],
     challenge: {
       headline: "18.5 million people. Navigating 270 million people speaking hundreds of languages.",
       paragraphs: [
@@ -1713,38 +1390,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🥐",
-        title: "Bakery counter",
-        description: "The morning bakery run is a German daily ritual. Staff speak fast in regional dialect, queue up quickly, and move on. Captio AI captions every exchange so you order and leave without confusion.",
-      },
-      {
-        icon: "🛒",
-        title: "Supermarket queue",
-        description: "German supermarket cashiers are fast, ask questions about loyalty cards and bags, and do not repeat. Captio AI transcribes the exchange in real time so you always know what is being asked.",
-      },
-      {
-        icon: "🍺",
-        title: "Beer garden and social gathering",
-        description: "The Biergarten is the centre of German outdoor social life — loud, convivial, and full of fast overlapping dialect. Captio AI follows whoever is speaking near you so you stay part of the gathering.",
-      },
-      {
-        icon: "🚇",
-        title: "Public transport",
-        description: "U-Bahn and S-Bahn announcements, bus drivers, ticket machines with spoken prompts — German public transport is almost entirely audio-driven. Captio AI captions what is said around you.",
-      },
-      {
-        icon: "🏛️",
-        title: "Government office",
-        description: "German Ämter (government offices) use dense Behördendeutsch delivered at pace. Captio AI transcribes in real time so you can follow every instruction and respond without asking for a repeat.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family gathering",
-        description: "German family gatherings bring multiple generations together, often mixing Hochdeutsch with regional dialect. Captio AI follows whoever is speaking so you stay in the conversation.",
-      },
-    ],
     useCaseDescriptions: [
       "Apotheke counter, Supermarkt checkout, Postamt window, Bürgeramt desk. Staff speak at their own pace and expect you to follow. Captio AI shows what they said before the moment passes.",
       "Sunday family lunch, Stammtisch at a local Kneipe, birthday dinner. Fast overlapping German, dialects varying by region and generation. Captio AI captions whoever is speaking.",
@@ -1819,38 +1464,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🏪",
-        title: "Convenience store counter",
-        description: "The konbini is a fixture of Japanese daily life. Staff greet, confirm, and offer services in scripted but fast Japanese. Captio AI captions every word so you complete the interaction without nodding to things you did not hear.",
-      },
-      {
-        icon: "🍶",
-        title: "Izakaya evening gathering",
-        description: "Japanese after-work izakaya gatherings are loud, fast, and socially essential. Multiple speakers, casual Japanese, overlapping conversation. Captio AI follows whoever is speaking near you so you stay part of the evening.",
-      },
-      {
-        icon: "🚉",
-        title: "Train station and transport",
-        description: "Platform announcements, station staff, and transport interactions in Japan are fast and formal. Captio AI captions what is said so you never miss a platform change or service alteration.",
-      },
-      {
-        icon: "🍱",
-        title: "Family meal",
-        description: "Japanese family meals involve multiple generations using different registers — grandparents in formal speech, parents in polite forms, younger members in casual Japanese. Captio AI follows whoever is speaking across all registers.",
-      },
-      {
-        icon: "💼",
-        title: "Workplace informal conversation",
-        description: "Hallway conversations, quick questions at the desk, after-meeting chat — Japanese workplace culture is built on informal verbal exchange that happens constantly and quickly. Captio AI keeps you in every unplanned conversation.",
-      },
-      {
-        icon: "🏥",
-        title: "Clinic and pharmacy",
-        description: "Medical and pharmacy interactions in Japan use formal keigo delivered at pace. Captio AI transcribes in real time so you can follow every instruction, question, and explanation accurately.",
-      },
-    ],
     useCaseDescriptions: [
       "Convenience store counter, pharmacy cashier, post office window, city hall service desk. Staff speak formally and quickly. Captio AI shows what they said before the moment passes.",
       "Family dinner, izakaya evening with friends, hanami gathering. Multiple people, fast casual Japanese, keigo mixing with informal speech. Captio AI captions whoever is speaking.",
@@ -1925,38 +1538,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🥬",
-        title: "Market stall",
-        description: "The open-air market is the commercial centre of East African daily life. Vendors speak fast Swahili mixed with local language. Captio AI captions what they say so you can negotiate and complete the purchase.",
-      },
-      {
-        icon: "🚐",
-        title: "Matatu and shared transport",
-        description: "The matatu (shared minibus) is how most East Africans get around. Conductors call out routes, take fares, and shout instructions in fast Swahili. Captio AI captions what is said so you follow the journey.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family gathering",
-        description: "East African family gatherings bring multiple generations together, mixing Swahili with ethnic languages. Captio AI follows whoever is speaking near you so you stay part of the gathering.",
-      },
-      {
-        icon: "⛪",
-        title: "Church and mosque social conversation",
-        description: "Religious services and the social conversation that follows are central to East African community life. Fast Swahili, often mixed with local language. Captio AI captions the conversations around you.",
-      },
-      {
-        icon: "🍖",
-        title: "Street food vendor",
-        description: "Roadside food stalls — nyama choma, pilau, samosa vendors — are social as much as commercial. Brief verbal exchanges in fast Swahili. Captio AI transcribes every question so you order and engage confidently.",
-      },
-      {
-        icon: "🏥",
-        title: "Clinic and government office",
-        description: "Public health clinics and government offices in East Africa use formal Swahili. Captio AI transcribes in real time so you follow every instruction and respond accurately.",
-      },
-    ],
     useCaseDescriptions: [
       "Pharmacy counter, supermarket checkout, government office window, bank teller. Staff speak fast in Swahili and move on quickly. Captio AI shows what they said before the moment passes.",
       "Family dinner, harambee gathering, Sunday meal with extended family. Multiple generations, fast overlapping conversation, occasional English mixing in. Captio AI captions whoever is speaking.",
@@ -2031,38 +1612,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🥘",
-        title: "Street food stall",
-        description: "Vada pav stalls, misal vendors, and bhel puri sellers are the social fabric of Maharashtra street life. Fast, colloquial Marathi mixed with Hindi. Captio AI captions what the vendor says so you order and engage confidently.",
-      },
-      {
-        icon: "🛍️",
-        title: "Market transaction",
-        description: "Maharashtra's markets are loud and fast, with vendors speaking colloquial Marathi at full speed. Captio AI captions every exchange so you complete transactions without confusion.",
-      },
-      {
-        icon: "🍽️",
-        title: "Joint family gathering",
-        description: "Marathi family gatherings bring multiple generations together, mixing formal Marathi with Mumbai street speech and Hindi. Captio AI follows whoever is speaking so you stay in the conversation.",
-      },
-      {
-        icon: "🚂",
-        title: "Local train and transport",
-        description: "Mumbai's local train network is one of the world's busiest. Station announcements, fellow passengers, and transport staff all communicate in fast Marathi. Captio AI captions what is said around you.",
-      },
-      {
-        icon: "🏪",
-        title: "Corner shop",
-        description: "Neighbourhood shops in Maharashtra run on quick verbal exchanges in colloquial Marathi mixed with Hindi. Captio AI transcribes every question so you complete the errand without misunderstanding.",
-      },
-      {
-        icon: "🏛️",
-        title: "Government office and clinic",
-        description: "Maharashtra's government offices and public hospitals use formal Marathi delivered at pace. Captio AI transcribes in real time so you follow every instruction and respond accurately.",
-      },
-    ],
     useCaseDescriptions: [
       "Local medical shop, ration office counter, bank branch window, post office. Staff speak fast in Marathi and move on. Captio AI shows what they said before the exchange ends.",
       "Family dinner, Ganesh Chaturthi gathering, wedding function with extended family. Multiple generations, fast Marathi mixing with Hindi or English. Captio AI captions whoever is speaking.",
@@ -2136,38 +1685,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🍛",
-        title: "Street food vendor",
-        description: "Idli-vada stalls, pesarattu vendors, and gongura rice sellers are part of Telugu daily street life. Fast colloquial Telugu mixed with English. Captio AI captions what the vendor says so you order and engage without confusion.",
-      },
-      {
-        icon: "🛍️",
-        title: "Market transaction",
-        description: "Telugu markets are fast and vocal, with vendors speaking colloquial Telugu at full speed. Captio AI captions every exchange so you complete transactions without misunderstanding.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family gathering",
-        description: "Telugu family gatherings bring multiple generations together, mixing formal and colloquial Telugu with Hindi and English. Captio AI follows whoever is speaking so you stay in the conversation.",
-      },
-      {
-        icon: "🛺",
-        title: "Rickshaw and taxi directions",
-        description: "Giving directions to auto-rickshaw drivers in Hyderabad or Visakhapatnam happens fast, over engine noise, in colloquial Telugu. Captio AI transcribes what the driver asks so you know what is being asked.",
-      },
-      {
-        icon: "🏪",
-        title: "Corner shop",
-        description: "Neighbourhood shops in Andhra Pradesh and Telangana run on quick verbal exchanges in colloquial Telugu. Captio AI transcribes every question so you complete the errand without confusion.",
-      },
-      {
-        icon: "🏥",
-        title: "Government office and clinic",
-        description: "Government offices and hospitals in Telugu-speaking states use formal Telugu delivered at pace. Captio AI transcribes in real time so you follow every instruction accurately.",
-      },
-    ],
     useCaseDescriptions: [
       "Medical shop counter, ration office window, bank branch, post office. Staff speak fast in Telugu and serve queues quickly. Captio AI shows what they said before the moment passes.",
       "Family dinner, Sankranti gathering, wedding function with extended family. Multiple generations, fast Telugu mixing with English or Hindi. Captio AI captions whoever is speaking.",
@@ -2241,38 +1758,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🍵",
-        title: "Tea house",
-        description: "The çay evi (tea house) is the social hub of Turkish daily life — conversations over tea that run for hours in fast colloquial Turkish. Captio AI captions whoever is speaking so you follow the discussion.",
-      },
-      {
-        icon: "🛍️",
-        title: "Bazaar and market",
-        description: "Turkish bazaars and covered markets are loud, fast, and entirely verbal. Vendors speak colloquial Turkish at full speed. Captio AI captions what is said so you can engage and complete transactions.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family gathering",
-        description: "Turkish family gatherings bring multiple generations together — formal speech from elders, fast casual speech from younger members. Captio AI follows whoever is speaking so you stay in the conversation.",
-      },
-      {
-        icon: "🚌",
-        title: "Public transport",
-        description: "Bus drivers, dolmuş (shared taxi) drivers, and transport staff speak fast colloquial Turkish. Captio AI captions what is said around you so you follow the journey and don't miss stops.",
-      },
-      {
-        icon: "🏪",
-        title: "Corner shop",
-        description: "Neighbourhood bakkal shops run on quick verbal exchanges in colloquial Turkish. Captio AI transcribes every question so you complete the errand without confusion.",
-      },
-      {
-        icon: "🏛️",
-        title: "Government office and pharmacy",
-        description: "Turkish government offices and pharmacies use formal vocabulary delivered quickly. Captio AI transcribes in real time so you follow every instruction and respond accurately.",
-      },
-    ],
     useCaseDescriptions: [
       "Eczane counter, market checkout, PTT window, bank branch teller. Staff speak fast and move to the next customer. Captio AI shows what they said before the moment passes.",
       "Family dinner, Eid gathering, weekend tea at a neighbour's house. Multiple generations, fast overlapping conversation, regional accents mixing. Captio AI captions whoever is speaking.",
@@ -2346,38 +1831,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🍜",
-        title: "Street food stall",
-        description: "Phở stalls, bánh mì vendors, and bún bò Huế shops are where Vietnamese daily social life starts. Orders, banter, and fast exchanges in colloquial Vietnamese. Captio AI captions what is said so you order and engage confidently.",
-      },
-      {
-        icon: "🛍️",
-        title: "Wet market transaction",
-        description: "Vietnam's wet markets are loud, fast, and entirely verbal. Vendors speak colloquial Vietnamese at full speed. Captio AI captions every exchange so you complete transactions without confusion.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family gathering",
-        description: "Vietnamese family meals bring multiple generations together — elders using formal speech, younger members using casual Vietnamese mixed with English. Captio AI follows whoever is speaking.",
-      },
-      {
-        icon: "🛵",
-        title: "Motorbike taxi directions",
-        description: "Giving directions to a xe ôm (motorbike taxi) driver happens fast, over engine noise. Captio AI transcribes what the driver asks so you know what is being asked before the journey starts.",
-      },
-      {
-        icon: "☕",
-        title: "Café conversation",
-        description: "Vietnamese café culture is central to daily social life, especially in Ho Chi Minh City. Long conversations over cà phê sữa đá in colloquial Vietnamese. Captio AI captions whoever is speaking so you follow the exchange.",
-      },
-      {
-        icon: "🏥",
-        title: "Clinic and government office",
-        description: "Vietnamese public healthcare and government offices use formal Vietnamese delivered at pace. Captio AI transcribes in real time so you follow every instruction and respond accurately.",
-      },
-    ],
     useCaseDescriptions: [
       "Pharmacy counter, convenience store checkout, post office window, bank teller. Staff speak fast in regional Vietnamese and move on quickly. Captio AI shows what they said before the moment passes.",
       "Family dinner, Tết gathering, birthday meal with extended family. Multiple generations, fast overlapping conversation, northern and southern tones in the same room. Captio AI captions whoever is speaking.",
@@ -2452,38 +1905,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "☕",
-        title: "Café conversation",
-        description: "Korea's café culture is one of the densest in the world. Ordering, table conversation, and social exchanges happen in fast Korean. Captio AI captions what is said so you follow every exchange.",
-      },
-      {
-        icon: "🍢",
-        title: "Street food stall",
-        description: "Pojangmacha (street food tents) and tteokbokki stalls are where Korean casual social life happens. Fast colloquial Korean, brief exchanges, busy settings. Captio AI captions what the vendor and table companions say.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family gathering",
-        description: "Korean family gatherings involve multiple speech levels — formal speech to elders, casual speech among peers. Captio AI follows whoever is speaking so you stay in the conversation across generations.",
-      },
-      {
-        icon: "🚇",
-        title: "Subway and transport",
-        description: "Seoul's metro announcements, bus drivers, and transport staff communicate in fast Korean. Captio AI captions what is said around you so you follow the journey.",
-      },
-      {
-        icon: "🏪",
-        title: "Convenience store counter",
-        description: "Korean convenience store staff speak quickly in scripted polite Korean. Brief exchanges over purchases. Captio AI captions every question so you know what is being asked.",
-      },
-      {
-        icon: "🏥",
-        title: "Clinic and government office",
-        description: "Korean hospitals and government offices use formal vocabulary delivered at pace. Captio AI transcribes in real time so you follow every instruction and respond accurately.",
-      },
-    ],
     useCaseDescriptions: [
       "Pharmacy counter, convenience store checkout, bank teller, community centre service desk. Staff speak fast in Korean and move on. Captio AI shows what they said before the moment passes.",
       "Family dinner, Chuseok gathering, after-work hoesik meal. Multiple people, fast Korean, honorifics shifting between generations. Captio AI captions whoever is speaking.",
@@ -2557,38 +1978,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🥖",
-        title: "Bakery counter",
-        description: "The morning boulangerie run is a French daily ritual. Staff speak fast in colloquial Parisian French, queue moves quickly. Captio AI captions what is said so you order without confusion.",
-      },
-      {
-        icon: "☕",
-        title: "Café terrace conversation",
-        description: "French café terraces are the centre of social life. Long conversations at pace in fast French, often with overlapping voices and background noise. Captio AI follows whoever is speaking near you.",
-      },
-      {
-        icon: "🍖",
-        title: "Family Sunday lunch",
-        description: "The French family Sunday lunch runs for hours, mixing formal speech with casual verlan-inflected chat from younger generations. Captio AI captions whoever is speaking so you stay part of the gathering.",
-      },
-      {
-        icon: "🚇",
-        title: "Metro and transport",
-        description: "Paris metro announcements, bus drivers, and transport staff speak fast French. Captio AI captions what is said around you so you never miss a change or instruction.",
-      },
-      {
-        icon: "🏪",
-        title: "Corner shop and pharmacy",
-        description: "French pharmacies, boulangeries, and corner shops involve brief fast exchanges in colloquial French. Captio AI transcribes every question so you complete the errand without confusion.",
-      },
-      {
-        icon: "💼",
-        title: "Workplace informal conversation",
-        description: "French workplace culture is social and verbal — hallway chats, café machine conversations, lunch discussions. Captio AI keeps you in every unplanned exchange.",
-      },
-    ],
     useCaseDescriptions: [
       "Pharmacie counter, La Poste window, supermarket checkout, mairie desk. Staff speak at full French pace and move on quickly. Captio AI shows what they said before the moment passes.",
       "Sunday family lunch, birthday dinner, apéro with friends. Fast overlapping conversation, accents varying between regions and generations. Captio AI captions whoever is speaking.",
@@ -2662,38 +2051,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "☕",
-        title: "Bar counter",
-        description: "The Italian espresso bar is a daily ritual — fast exchanges at the counter in colloquial Italian, queue pressure, brief but socially loaded conversations. Captio AI captions what the barista says so you order and engage confidently.",
-      },
-      {
-        icon: "🛍️",
-        title: "Market transaction",
-        description: "Italian markets — from covered mercati to street vendors — are loud, fast, and run entirely on verbal exchange. Captio AI captions what vendors say so you complete transactions without confusion.",
-      },
-      {
-        icon: "🍝",
-        title: "Family Sunday lunch",
-        description: "The Italian family Sunday lunch runs for hours, mixing standard Italian with regional dialect across generations. Captio AI follows whoever is speaking so you stay in the conversation from antipasto to dolce.",
-      },
-      {
-        icon: "🚌",
-        title: "Public transport",
-        description: "Bus drivers, tram announcements, and transport staff across Italian cities communicate in fast Italian. Captio AI captions what is said around you.",
-      },
-      {
-        icon: "🏛️",
-        title: "Government office",
-        description: "Italian bureaucratic settings use formal Italian at pace. Captio AI transcribes in real time so you follow every instruction and respond accurately.",
-      },
-      {
-        icon: "🌳",
-        title: "Piazza social gathering",
-        description: "The piazza is the centre of Italian community life — outdoor gatherings where conversations overlap and voices carry. Captio AI captions whoever is speaking near you so you participate rather than observe.",
-      },
-    ],
     useCaseDescriptions: [
       "Farmacia counter, tabaccheria, posta window, supermarket checkout. Staff speak at full Italian pace and move on quickly. Captio AI shows what they said before the moment passes.",
       "Sunday family lunch, birthday dinner, aperitivo with friends. Fast overlapping conversation, accents and dialects varying by region. Captio AI captions whoever is speaking.",
@@ -2767,38 +2124,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🍛",
-        title: "Street food stall",
-        description: "Idli, dosa, and filter coffee vendors are the social anchors of Tamil daily life. Fast colloquial Tamil, brief exchanges, busy settings. Captio AI captions what the vendor says so you order and engage confidently.",
-      },
-      {
-        icon: "🛍️",
-        title: "Market transaction",
-        description: "Tamil markets are loud and fast, with vendors speaking colloquial Tamil at full speed. Captio AI captions every exchange so you complete transactions without confusion.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family gathering",
-        description: "Tamil family gatherings bring multiple generations together, mixing formal and colloquial Tamil with English. Captio AI follows whoever is speaking so you stay part of the conversation.",
-      },
-      {
-        icon: "🚌",
-        title: "Bus and transport",
-        description: "Tamil Nadu's bus network and Chennai's metro involve conductors, drivers, and staff speaking fast Tamil. Captio AI captions what is said around you so you follow the journey.",
-      },
-      {
-        icon: "🏪",
-        title: "Corner shop",
-        description: "Neighbourhood shops run on quick verbal exchanges in colloquial Tamil. Captio AI transcribes every question so you complete the errand without misunderstanding.",
-      },
-      {
-        icon: "🏥",
-        title: "Government office and clinic",
-        description: "Government offices and hospitals in Tamil Nadu use formal Tamil delivered at pace. Captio AI transcribes in real time so you follow every instruction and respond accurately.",
-      },
-    ],
     useCaseDescriptions: [
       "Medical shop counter, ration office window, bank branch, post office. Staff speak fast in Tamil and move on. Captio AI shows what they said before the exchange ends.",
       "Family dinner, Pongal gathering, wedding function with extended family. Multiple generations, fast Tamil mixing with English in Chennai and urban centres. Captio AI captions whoever is speaking.",
@@ -2873,38 +2198,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🫖",
-        title: "Tea house and café",
-        description: "Tea houses and cafés are the social fabric of Iranian daily life. Long conversations in fast colloquial Persian. Captio AI captions whoever is speaking so you follow the discussion.",
-      },
-      {
-        icon: "🛍️",
-        title: "Bazaar and market",
-        description: "Iranian bazaars are historic, loud, and entirely verbal. Vendors speak colloquial Persian at full speed. Captio AI captions every exchange so you complete transactions without confusion.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family gathering",
-        description: "Persian family gatherings are long, warm, and multi-generational — mixing formal speech with fast everyday Persian. Captio AI follows whoever is speaking so you stay part of the meal.",
-      },
-      {
-        icon: "🚌",
-        title: "Public transport",
-        description: "Bus and metro staff, taxi drivers, and fellow passengers speak fast colloquial Persian. Captio AI captions what is said around you so you follow the journey.",
-      },
-      {
-        icon: "🏪",
-        title: "Corner shop",
-        description: "Neighbourhood shops and pharmacies run on quick verbal exchanges in colloquial Persian. Captio AI transcribes every question so you complete the errand without confusion.",
-      },
-      {
-        icon: "🏛️",
-        title: "Government office",
-        description: "Iranian government offices use formal Persian delivered at pace, often with little patience. Captio AI transcribes in real time so you follow every instruction and respond accurately.",
-      },
-    ],
     useCaseDescriptions: [
       "Pharmacy counter, supermarket checkout, bank branch window, post office. Staff speak fast in Persian and move on. Captio AI shows what they said before the moment passes.",
       "Family dinner, Nowruz gathering, birthday celebration with extended family. Multiple generations, fast overlapping conversation, regional accents mixing. Captio AI captions whoever is speaking.",
@@ -2978,38 +2271,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🌾",
-        title: "Market and bazaar",
-        description: "Punjab's markets — whether in Amritsar or Lahore — are loud, fast, and entirely verbal. Vendors speak colloquial Punjabi at full speed. Captio AI captions every exchange so you complete transactions without confusion.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family gathering",
-        description: "Punjabi family gatherings are exuberant, multi-generational, and loud — mixing Punjabi with Hindi or Urdu across generations. Captio AI follows whoever is speaking so you stay part of the meal.",
-      },
-      {
-        icon: "🛺",
-        title: "Rickshaw and taxi directions",
-        description: "Giving directions to drivers happens fast, over engine noise, in colloquial Punjabi mixed with Hindi or Urdu. Captio AI transcribes what is asked so you respond without confusion.",
-      },
-      {
-        icon: "🏪",
-        title: "Corner shop",
-        description: "Neighbourhood shops across Punjab run on quick verbal exchanges in colloquial Punjabi. Captio AI transcribes every question so you complete the errand without misunderstanding.",
-      },
-      {
-        icon: "🕌",
-        title: "Religious gathering and social conversation",
-        description: "Gurdwara, mosque, and temple social conversations after services are a central part of Punjabi community life. Fast speech, warm and overlapping. Captio AI captions whoever is speaking near you.",
-      },
-      {
-        icon: "🚂",
-        title: "Train station and transport",
-        description: "Punjab's transport hubs — Amritsar Junction, Lahore station — are loud and fast. Announcements and staff interactions happen in quick Punjabi. Captio AI captions what is said so you follow.",
-      },
-    ],
     useCaseDescriptions: [
       "Local chemist, ration shop counter, bank branch window, post office. Staff speak fast in Punjabi and move on. Captio AI shows what they said before the exchange ends.",
       "Family dinner, Vaisakhi celebration, wedding function with extended family. Multiple generations, fast Punjabi mixing with Hindi or English. Captio AI captions whoever is speaking.",
@@ -3083,38 +2344,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🫖",
-        title: "Chai and snack shop",
-        description: "Gujarat's chai and fafda-jalebi snack stalls are social hubs. Fast colloquial Gujarati, brief exchanges. Captio AI captions what is said so you order and engage confidently.",
-      },
-      {
-        icon: "🛍️",
-        title: "Market transaction",
-        description: "Gujarat's textile markets, vegetable markets, and bazaars are loud and fast. Captio AI captions every exchange so you complete transactions without confusion.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family gathering",
-        description: "Gujarati family gatherings are warm, multi-generational, and mix Gujarati with Hindi and English. Captio AI follows whoever is speaking so you stay part of the meal.",
-      },
-      {
-        icon: "🚌",
-        title: "Bus and rickshaw",
-        description: "Auto-rickshaw and bus interactions in Ahmedabad and Surat happen fast in colloquial Gujarati. Captio AI transcribes what is said so you navigate without confusion.",
-      },
-      {
-        icon: "🏪",
-        title: "Corner shop",
-        description: "Neighbourhood shops run on quick verbal exchanges in colloquial Gujarati. Captio AI transcribes every question so you complete the errand without misunderstanding.",
-      },
-      {
-        icon: "🕌",
-        title: "Community and religious gathering",
-        description: "Temple and community social gatherings are central to Gujarati life. Fast group conversation in Gujarati. Captio AI captions whoever is speaking near you.",
-      },
-    ],
     useCaseDescriptions: [
       "Medical shop counter, ration office window, bank branch, post office. Staff speak fast in Gujarati and move on quickly. Captio AI shows what they said before the moment passes.",
       "Family dinner, Diwali gathering, wedding function with extended family. Multiple generations, fast Gujarati mixing with Hindi or English. Captio AI captions whoever is speaking.",
@@ -3187,38 +2416,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🍜",
-        title: "Street food stall",
-        description: "Thailand's street food culture is world-famous — and entirely verbal. Ordering at a pad thai or boat noodle stall happens in fast colloquial Thai. Captio AI captions what the vendor says so you order and engage confidently.",
-      },
-      {
-        icon: "🛍️",
-        title: "Market transaction",
-        description: "Thai markets — from floating markets to wet markets — are loud, fast, and run entirely on verbal exchange. Captio AI captions what vendors say so you complete transactions without confusion.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family gathering",
-        description: "Thai family meals bring multiple generations together — formal speech to elders, fast casual Thai between peers. Captio AI follows whoever is speaking so you stay part of the gathering.",
-      },
-      {
-        icon: "🛺",
-        title: "Tuk-tuk and taxi",
-        description: "Tuk-tuk drivers and taxi drivers speak fast colloquial Thai, often over engine noise. Captio AI transcribes what is asked so you follow the exchange before the journey starts.",
-      },
-      {
-        icon: "🏪",
-        title: "Corner shop and pharmacy",
-        description: "Neighbourhood shops and pharmacies run on quick verbal exchanges in Thai. Captio AI transcribes every question so you complete the errand without confusion.",
-      },
-      {
-        icon: "🛕",
-        title: "Temple and community gathering",
-        description: "Temple merit-making and the social conversation that surrounds it are central to Thai community life. Captio AI captions whoever is speaking near you so you participate rather than observe.",
-      },
-    ],
     useCaseDescriptions: [
       "Pharmacy counter, convenience store checkout, government service window, bank teller. Staff speak fast in Thai and move on quickly. Captio AI shows what they said before the moment passes.",
       "Family dinner, Songkran gathering, birthday meal with extended family. Multiple generations, fast overlapping conversation, central and regional tones in the same room. Captio AI captions whoever is speaking.",
@@ -3292,38 +2489,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🥖",
-        title: "Bakery counter",
-        description: "The piekarnia (bakery) is a daily Polish routine — fast exchanges in colloquial Polish. Captio AI captions what is said so you order without confusion.",
-      },
-      {
-        icon: "🛒",
-        title: "Supermarket queue",
-        description: "Polish supermarket cashiers ask quick questions about loyalty cards, bags, and change. Captio AI transcribes every exchange so you know what is being asked.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family gathering",
-        description: "Polish family gatherings are long, warm, and vocal — mixing formal speech with fast regional Polish across generations. Captio AI follows whoever is speaking.",
-      },
-      {
-        icon: "🚌",
-        title: "Bus and tram",
-        description: "Polish bus and tram drivers, ticket inspectors, and passengers speak fast colloquial Polish. Captio AI captions what is said around you.",
-      },
-      {
-        icon: "🏪",
-        title: "Corner shop",
-        description: "Neighbourhood osiedlowy shops run on quick verbal exchanges in Polish. Captio AI transcribes every question so you complete the errand without misunderstanding.",
-      },
-      {
-        icon: "🏥",
-        title: "Clinic and government office",
-        description: "Polish public healthcare and government offices use formal Polish at pace. Captio AI transcribes in real time so you follow every instruction accurately.",
-      },
-    ],
     useCaseDescriptions: [
       "Apteka counter, poczta window, supermarket checkout, urząd counter. Staff speak fast and move to the next person. Captio AI shows what they said before the moment passes.",
       "Family Sunday dinner, birthday celebration, neighbourhood gathering. Multiple generations, fast overlapping Polish, regional accents mixing. Captio AI captions whoever is speaking.",
@@ -3397,38 +2562,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🥖",
-        title: "Bakery and food shop",
-        description: "Daily errands in Ukrainian cities happen in fast colloquial Ukrainian. Captio AI captions what is said at the counter so you complete the purchase without confusion.",
-      },
-      {
-        icon: "🚌",
-        title: "Bus and marshrutka",
-        description: "Ukrainian bus and marshrutka drivers speak fast colloquial Ukrainian, often mixed with Russian. Captio AI captions what is said around you so you follow the journey.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family gathering",
-        description: "Ukrainian family gatherings mix Ukrainian and Russian across generations. Captio AI follows whoever is speaking so you stay part of the meal.",
-      },
-      {
-        icon: "🏥",
-        title: "Clinic and hospital",
-        description: "Medical interactions in Ukraine — already challenging before the war — now happen in overcrowded, under-resourced settings. Captio AI transcribes in real time so you follow every instruction accurately.",
-      },
-      {
-        icon: "🏛️",
-        title: "Government and aid office",
-        description: "Displaced Ukrainians navigating displacement services, government offices, and aid organisations face fast bureaucratic language. Captio AI transcribes what is said so you respond accurately.",
-      },
-      {
-        icon: "🏪",
-        title: "Corner shop",
-        description: "Neighbourhood shops run on quick verbal exchanges. Captio AI transcribes every question so you complete the errand without misunderstanding.",
-      },
-    ],
     useCaseDescriptions: [
       "Pharmacy counter, supermarket checkout, poshta window, bank teller. Staff speak fast in Ukrainian and move on. Captio AI shows what they said before the moment passes.",
       "Family dinner, Easter gathering, birthday celebration with extended family. Multiple generations, fast overlapping Ukrainian, regional accents mixing. Captio AI captions whoever is speaking.",
@@ -3502,38 +2635,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🍜",
-        title: "Hawker centre",
-        description: "Malaysia's hawker centres are the social and culinary heart of daily life — loud, multilingual, fast exchanges in Malay and Manglish. Captio AI captions what is said so you order and engage confidently.",
-      },
-      {
-        icon: "🛍️",
-        title: "Market transaction",
-        description: "Malaysian wet markets and pasar malam (night markets) are loud and entirely verbal. Captio AI captions what vendors say so you complete transactions without confusion.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family gathering",
-        description: "Malaysian family gatherings mix Malay, English, and sometimes Mandarin or Tamil depending on the family. Captio AI follows whoever is speaking so you stay part of the meal.",
-      },
-      {
-        icon: "🚌",
-        title: "Bus and transport",
-        description: "Bus drivers, RapidKL staff, and Grab drivers speak fast colloquial Malay or English. Captio AI captions what is said around you so you follow the journey.",
-      },
-      {
-        icon: "🏪",
-        title: "Shop and convenience store",
-        description: "Malaysian shops and convenience stores run on quick exchanges in colloquial Malay or Manglish. Captio AI transcribes every question so you complete the errand without confusion.",
-      },
-      {
-        icon: "🏥",
-        title: "Clinic and hospital",
-        description: "Malaysian healthcare settings have documented BIM interpreter shortages. Captio AI transcribes what doctors and nurses say in real time so you follow every instruction accurately.",
-      },
-    ],
     useCaseDescriptions: [
       "Pharmacy counter, minimarket checkout, pos laju window, bank teller. Staff speak fast in Bahasa Melayu and move on quickly. Captio AI shows what they said before the moment passes.",
       "Family dinner, Hari Raya gathering, kenduri with extended family. Multiple generations, overlapping conversation, Malay mixing with English or Chinese dialect. Captio AI captions whoever is speaking.",
@@ -3607,38 +2708,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "☕",
-        title: "Tea shop conversation",
-        description: "Kerala's chai shops are social institutions — long conversations over tea in fast colloquial Malayalam. Captio AI captions whoever is speaking so you follow the discussion.",
-      },
-      {
-        icon: "🛍️",
-        title: "Market transaction",
-        description: "Kerala's markets are loud and fast. Vendors speak colloquial Malayalam at full speed. Captio AI captions every exchange so you complete transactions without confusion.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family gathering",
-        description: "Malayali family gatherings mix standard Malayalam with Gulf-returned speech, English, and regional varieties across generations. Captio AI follows whoever is speaking.",
-      },
-      {
-        icon: "🛺",
-        title: "Auto-rickshaw and transport",
-        description: "Auto-rickshaw drivers in Kerala speak fast colloquial Malayalam. Captio AI transcribes what is asked so you follow the exchange before the journey starts.",
-      },
-      {
-        icon: "🏪",
-        title: "Corner shop",
-        description: "Neighbourhood shops run on quick verbal exchanges in colloquial Malayalam. Captio AI transcribes every question so you complete the errand without confusion.",
-      },
-      {
-        icon: "⛪",
-        title: "Church, mosque, and temple social gathering",
-        description: "Religious community life is central to Kerala society across all faith communities. Post-service social conversations happen fast in colloquial Malayalam. Captio AI captions whoever is speaking near you.",
-      },
-    ],
     useCaseDescriptions: [
       "Medical shop counter, ration office window, bank branch, post office. Staff speak fast in Malayalam and move on. Captio AI shows what they said before the exchange ends.",
       "Family dinner, Onam sadya gathering, wedding function with extended family. Multiple generations, fast Malayalam mixing with English in Kochi and urban centres. Captio AI captions whoever is speaking.",
@@ -3712,38 +2781,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "☕",
-        title: "Coffee shop and tea stall",
-        description: "Karnataka's filter coffee culture means daily interactions at coffee stalls and cafés. Fast, colloquial Kannada mixed with English. Captio AI captions what is said so you order and engage confidently.",
-      },
-      {
-        icon: "🛍️",
-        title: "Market transaction",
-        description: "Karnataka's markets are loud and fast, with vendors speaking colloquial Kannada at full speed. Captio AI captions every exchange so you complete transactions without confusion.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family gathering",
-        description: "Kannada family gatherings mix regional Kannada varieties across generations, often with Hindi and English. Captio AI follows whoever is speaking so you stay part of the meal.",
-      },
-      {
-        icon: "🛺",
-        title: "Auto-rickshaw and transport",
-        description: "Auto-rickshaw drivers across Karnataka speak fast colloquial Kannada. Captio AI transcribes what is asked so you respond before the moment passes.",
-      },
-      {
-        icon: "💻",
-        title: "Tech office informal conversation",
-        description: "Bengaluru's tech corridors run on fast English-Kannada mixing. Hallway catch-ups, desk conversations, and informal chats. Captio AI keeps you in every unplanned exchange.",
-      },
-      {
-        icon: "🏥",
-        title: "Government office and clinic",
-        description: "Karnataka government offices and public hospitals use formal Kannada delivered at pace. Captio AI transcribes in real time so you follow every instruction accurately.",
-      },
-    ],
     useCaseDescriptions: [
       "Medical shop counter, ration office window, bank branch, post office. Staff speak fast in Kannada and move on. Captio AI shows what they said before the moment passes.",
       "Family dinner, Dasara gathering, wedding function with extended family. Multiple generations, fast Kannada mixing with English in Bengaluru. Captio AI captions whoever is speaking.",
@@ -3817,38 +2854,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🏪",
-        title: "Corner store",
-        description: "The neighbourhood sari-sari store is the centre of daily errand life. Captio AI captions the vendor's rapid Tagalog so you complete every transaction without confusion.",
-      },
-      {
-        icon: "🚌",
-        title: "Public transport",
-        description: "Jeepney and bus conversations happen fast in colloquial Filipino. Captio AI transcribes directions, announcements, and co-passenger exchanges in real time.",
-      },
-      {
-        icon: "🐟",
-        title: "Wet market",
-        description: "Vendors at Philippine markets speak fast and expect immediate responses. Captio AI captions what they say so you shop confidently without needing to hear.",
-      },
-      {
-        icon: "🏥",
-        title: "Community health center",
-        description: "Barangay clinics handle most everyday health consultations in the Philippines. Captio AI transcribes what health workers say so you follow every question and instruction.",
-      },
-      {
-        icon: "🎉",
-        title: "Fiesta and outdoor gathering",
-        description: "Community fiestas and outdoor barangay gatherings are loud and multilingual. Captio AI follows whoever is speaking near you so you are part of the event.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family celebration meal",
-        description: "Filipino family celebration meals involve many voices across generations in fast Tagalog and Taglish. Captio AI captions whoever is speaking so you follow the conversation.",
-      },
-    ],
     useCaseDescriptions: [
       "Pharmacy counter, sari-sari store, post office window, bank teller. Staff speak fast in Filipino and move on. Captio AI shows what they said before the moment passes.",
       "Family handaan, fiesta gathering, birthday celebration with extended family. Multiple generations, fast Tagalog mixing with English in Metro Manila. Captio AI captions whoever is speaking.",
@@ -3923,38 +2928,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🛒",
-        title: "Open-air market",
-        description: "Azerbaijan's bazaars run on rapid verbal haggling in colloquial Azerbaijani. Captio AI captions vendor speech in real time so you follow prices and instructions without confusion.",
-      },
-      {
-        icon: "☕",
-        title: "Traditional teahouse",
-        description: "The teahouse is the social heartbeat of Azerbaijani daily life. Captio AI captions fast teahouse conversation so you follow whoever is speaking near you.",
-      },
-      {
-        icon: "🚌",
-        title: "Shared minibus and public transport",
-        description: "Marshrutka conversations in Azerbaijani happen quickly with mixed Azerbaijani-Russian. Captio AI transcribes exchanges in real time so you follow directions and discussions.",
-      },
-      {
-        icon: "🏛️",
-        title: "Government office",
-        description: "Azerbaijani government offices expect verbal exchanges at counters. Captio AI transcribes what officials say so you understand every instruction without needing a hearing companion.",
-      },
-      {
-        icon: "🏠",
-        title: "Family gathering",
-        description: "Azerbaijani hospitality culture centres on extended family gatherings with many voices. Captio AI follows whoever is speaking so you participate fully in family conversations.",
-      },
-      {
-        icon: "👥",
-        title: "Neighbourhood conversation",
-        description: "Neighbourhood courtyard (həyət) conversations are a daily fixture in Azerbaijani social life. Captio AI captions outdoor group conversation so you follow what neighbours are saying.",
-      },
-    ],
     useCaseDescriptions: [
       "Pharmacy counter, supermarket checkout, poçt şöbəsi window, bank teller. Staff speak fast in Azerbaijani and move on. Captio AI shows what they said before the moment passes.",
       "Family dinner, Novruz gathering, wedding celebration with extended family. Multiple generations, fast overlapping Azerbaijani, Russian sometimes mixing in. Captio AI captions whoever is speaking.",
@@ -4029,38 +3002,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🍺",
-        title: "Social drinks gathering",
-        description: "The Dutch borrel — informal drinks with colleagues or friends — is one of the most important social rituals. Captio AI captions fast conversation in the noise so you follow the group.",
-      },
-      {
-        icon: "🛒",
-        title: "Supermarket checkout",
-        description: "Dutch supermarket staff speak quickly. Captio AI transcribes checkout exchanges instantly so you follow questions and never have to ask for a repeat.",
-      },
-      {
-        icon: "🌿",
-        title: "Outdoor market",
-        description: "Dutch weekly outdoor markets are loud with many vendors speaking simultaneously. Captio AI captions whoever you're buying from so the transaction is clear.",
-      },
-      {
-        icon: "🚋",
-        title: "Tram and metro conversation",
-        description: "Public transport conversations in Dutch are fast and brief. Captio AI transcribes announcements and exchanges in real time so you never miss directions or stops.",
-      },
-      {
-        icon: "👥",
-        title: "Neighbourhood conversation",
-        description: "Dutch neighbourhood conversations at the front door or in the street happen in fast informal Dutch. Captio AI captions your neighbour so you follow every exchange.",
-      },
-      {
-        icon: "☕",
-        title: "Café gathering",
-        description: "Dutch café culture is loud and fast-paced. Captio AI captions whoever is speaking near you in noisy café settings so you participate rather than observe.",
-      },
-    ],
     useCaseDescriptions: [
       "Apotheek counter, supermarket checkout, postkantoor window, gemeentehuis desk. Staff speak fast in Dutch and move on. Captio AI shows what they said before the moment passes.",
       "Sunday family dinner, birthday borrel, Friday drinks with colleagues. Fast overlapping Dutch, regional accents varying by province. Captio AI captions whoever is speaking.",
@@ -4135,38 +3076,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🌿",
-        title: "Outdoor market",
-        description: "Romanian outdoor markets are loud and transactional. Captio AI captions vendor speech in real time so you follow prices and exchanges at every stall.",
-      },
-      {
-        icon: "💊",
-        title: "Pharmacy counter",
-        description: "Romanian pharmacies handle complex verbal exchanges about medication. Captio AI transcribes what the pharmacist says so you follow every instruction accurately.",
-      },
-      {
-        icon: "🚌",
-        title: "Public transport",
-        description: "Public transport conversations in Romanian are fast and brief. Captio AI captions driver and co-passenger speech so you follow directions and stops.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family Sunday lunch",
-        description: "Romanian family meals are multigenerational and long, with overlapping conversations in regional varieties. Captio AI follows whoever is speaking so you participate fully.",
-      },
-      {
-        icon: "👥",
-        title: "Apartment courtyard",
-        description: "Romanian urban life centres on the bloc de apartamente courtyard. Neighbour conversations happen quickly at close quarters. Captio AI captions whoever is speaking.",
-      },
-      {
-        icon: "⛪",
-        title: "Church and village community social",
-        description: "Romanian Orthodox church communities organise central social life in villages and towns. Post-service conversations in fast regional Romanian are fully captioned by Captio AI.",
-      },
-    ],
     useCaseDescriptions: [
       "Farmacie counter, poștă window, supermarket checkout, bancă teller. Staff speak fast in Romanian and move to the next person. Captio AI shows what they said before the moment passes.",
       "Sunday family lunch, birthday dinner, neighbours gathering in the curte. Multiple generations, fast overlapping Romanian, regional accents mixing. Captio AI captions whoever is speaking.",
@@ -4241,38 +3150,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🛒",
-        title: "Open-air market",
-        description: "Kazakhstan's bazaars operate through rapid verbal exchange in Kazakh and Russian. Captio AI captions vendor speech in real time so you complete transactions without confusion.",
-      },
-      {
-        icon: "🚌",
-        title: "Shared minibus",
-        description: "Marshrutka minibuses are how most Kazakhstanis move around cities. Captio AI transcribes driver and co-passenger exchanges in both Kazakh and Russian.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family meal gathering",
-        description: "The dastarkhan is Kazakhstan's central hospitality ritual — extended family conversations over food. Captio AI follows whoever is speaking so you participate fully.",
-      },
-      {
-        icon: "🏛️",
-        title: "Government office",
-        description: "Government counters in Kazakhstan expect verbal exchanges in Kazakh or Russian. Captio AI transcribes what officials say so you follow every instruction.",
-      },
-      {
-        icon: "🏡",
-        title: "Village neighbourhood",
-        description: "Rural Kazakh village life is built on neighbourly oral culture. Captio AI captions outdoor and indoor conversations in colloquial Kazakh so you follow what is said.",
-      },
-      {
-        icon: "👥",
-        title: "Apartment building social",
-        description: "Almaty and Astana apartment building corridor and lobby conversations happen in fast Kazakh-Russian code-switching. Captio AI follows both languages in real time.",
-      },
-    ],
     useCaseDescriptions: [
       "Pharmacy counter, supermarket checkout, pochta window, bank teller. Staff speak in Kazakh or Russian and move on quickly. Captio AI shows what they said before the moment passes.",
       "Family dastarkhan dinner, Nauryz gathering, wedding celebration with extended family. Multiple generations, Kazakh mixing with Russian mid-conversation. Captio AI captions whoever is speaking.",
@@ -4347,38 +3224,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🍺",
-        title: "Pub conversation",
-        description: "The Czech pub is central to social life but built for loud group conversation. Captio AI captions whoever is speaking near you so you follow the hospoda table.",
-      },
-      {
-        icon: "🏪",
-        title: "Corner shop",
-        description: "Czech corner shop exchanges are brief and fast. Captio AI transcribes what the shopkeeper says so you complete errands without confusion.",
-      },
-      {
-        icon: "🚃",
-        title: "Tram and metro",
-        description: "Prague's trams and metro generate background noise during transit conversations. Captio AI captions exchanges in real time so you never miss directions or stops.",
-      },
-      {
-        icon: "☕",
-        title: "Café",
-        description: "Czech café culture is where friends and colleagues meet. Captio AI captions fast conversational Czech in café settings so you participate fully.",
-      },
-      {
-        icon: "🌿",
-        title: "Farmer's market",
-        description: "Czech outdoor farmers' markets involve many simultaneous conversations. Captio AI captions whoever you are buying from so the transaction is clear.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family Sunday dinner",
-        description: "Czech family Sunday meals often span multiple generations speaking Bohemian and Moravian varieties. Captio AI follows whoever is speaking so you participate fully.",
-      },
-    ],
     useCaseDescriptions: [
       "Lékárna counter, pošta window, supermarket checkout, úřad desk. Staff speak fast in Czech and move to the next person. Captio AI shows what they said before the moment passes.",
       "Sunday family oběd, birthday celebration, neighbours gathering. Multiple generations, fast overlapping Czech, Moravian or Silesian accents mixing in. Captio AI captions whoever is speaking.",
@@ -4453,38 +3298,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🌿",
-        title: "Open-air market",
-        description: "Hungarian outdoor markets run on fast spoken exchanges. Captio AI captions vendor speech in real time so you follow prices and complete transactions confidently.",
-      },
-      {
-        icon: "🍰",
-        title: "Café and patisserie",
-        description: "The cukrászda is a Hungarian institution — afternoon café and patisserie culture. Captio AI captions fast table conversation so you follow the group.",
-      },
-      {
-        icon: "🚌",
-        title: "Public transport",
-        description: "Public transport conversations in Budapest move fast. Captio AI captions driver and co-passenger speech so you follow directions and announcements.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family Sunday lunch",
-        description: "Hungarian family Sunday meals are multigenerational and long. Captio AI follows whoever is speaking so you participate fully in the family conversation.",
-      },
-      {
-        icon: "👥",
-        title: "Neighbourhood conversation",
-        description: "Hungarian apartment building corridor and street conversations happen quickly in colloquial Budapest speech. Captio AI captions neighbours so you follow every exchange.",
-      },
-      {
-        icon: "💊",
-        title: "Pharmacy",
-        description: "Hungarian pharmacy exchanges involve specific medical vocabulary. Captio AI transcribes what the pharmacist says so you follow every instruction accurately.",
-      },
-    ],
     useCaseDescriptions: [
       "Gyógyszertár counter, posta window, supermarket checkout, hivatal desk. Staff speak fast in Hungarian and move to the next person. Captio AI shows what they said before the moment passes.",
       "Sunday family ebéd, birthday celebration, neighbourhood gathering. Multiple generations, fast overlapping Hungarian, regional accents mixing. Captio AI captions whoever is speaking.",
@@ -4559,38 +3372,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "☕",
-        title: "Traditional coffee house",
-        description: "The kafeneio is the social centre of Greek life. Captio AI captions fast overlapping Greek conversation so you follow whoever is speaking near you.",
-      },
-      {
-        icon: "🛒",
-        title: "Street market",
-        description: "Greek street markets are loud and transactional. Captio AI captions vendor speech in real time so you follow prices and complete every purchase.",
-      },
-      {
-        icon: "🍽️",
-        title: "Taverna meal gathering",
-        description: "Greek family and friend meals at the taverna involve many voices and fast conversation. Captio AI follows whoever is speaking so you participate fully.",
-      },
-      {
-        icon: "💊",
-        title: "Pharmacy counter",
-        description: "Greek pharmacies handle complex medication exchanges quickly. Captio AI transcribes what the pharmacist says so you follow every instruction.",
-      },
-      {
-        icon: "👥",
-        title: "Neighbourhood conversation",
-        description: "Greek neighbourhood conversations are a daily fixture. Captio AI captions outdoor and doorstep exchanges in real time so you follow neighbours.",
-      },
-      {
-        icon: "⛪",
-        title: "Church and community social",
-        description: "Greek Orthodox community life organises major social events. Post-service conversations in fast Greek are fully captioned by Captio AI.",
-      },
-    ],
     useCaseDescriptions: [
       "Φαρμακείο counter, ΕΛ.ΤΑ. window, supermarket checkout, ΚΕΠ desk. Staff speak fast in Greek and move to the next person. Captio AI shows what they said before the moment passes.",
       "Sunday family lunch, name day celebration, neighbourhood gathering at the taverna. Multiple generations, fast overlapping Greek, regional accents mixing. Captio AI captions whoever is speaking.",
@@ -4665,38 +3446,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "☕",
-        title: "Coffee break gathering",
-        description: "Swedish fika is the central social ritual — fast group conversation over coffee. Captio AI captions whoever is speaking so you follow the fika table and belong to it.",
-      },
-      {
-        icon: "🛒",
-        title: "Supermarket checkout",
-        description: "Swedish supermarket checkout exchanges are brief and fast. Captio AI transcribes what the cashier says so you never have to ask for a repeat.",
-      },
-      {
-        icon: "🌿",
-        title: "Outdoor market",
-        description: "Swedish outdoor torg markets involve many vendors speaking simultaneously. Captio AI captions whoever you are buying from so the transaction is clear.",
-      },
-      {
-        icon: "🚇",
-        title: "Public transport",
-        description: "Stockholm commuter rail and metro involve daily conversations and announcements. Captio AI captions exchanges in real time so you never miss directions or stops.",
-      },
-      {
-        icon: "🍽️",
-        title: "Dinner party",
-        description: "Swedish dinner parties are social events where relationships deepen. Captio AI captions fast table conversation so you follow the group and contribute fully.",
-      },
-      {
-        icon: "👥",
-        title: "Neighbourhood social",
-        description: "Swedish neighbourhood social structures (grannsamverkan) involve regular conversations. Captio AI captions outdoor and corridor exchanges so you follow every neighbour.",
-      },
-    ],
     useCaseDescriptions: [
       "Apotek counter, Posten window, supermarket checkout, kommunkontor desk. Staff speak fast in Swedish and move on. Captio AI shows what they said before the moment passes.",
       "Sunday family middag, birthday celebration, fika with neighbours. Multiple generations, fast overlapping Swedish, regional accents varying by landskap. Captio AI captions whoever is speaking.",
@@ -4771,38 +3520,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🛒",
-        title: "Outdoor market",
-        description: "Israeli shuk markets like Mahane Yehuda and the Carmel market are loud, fast, and central to daily life. Captio AI captions vendor speech so you follow every exchange.",
-      },
-      {
-        icon: "🍽️",
-        title: "Shabbat dinner",
-        description: "The Shabbat table is the centre of Israeli family life — fast, loud, multigenerational. Captio AI captions whoever is speaking so you follow every conversation.",
-      },
-      {
-        icon: "🏪",
-        title: "Corner store",
-        description: "The neighbourhood makolet is a daily errand anchor. Captio AI transcribes the fast Hebrew of the shopkeeper so you complete every transaction without confusion.",
-      },
-      {
-        icon: "🚌",
-        title: "Public transport",
-        description: "Israeli public transport conversations happen in fast Hebrew. Captio AI captions driver and co-passenger speech so you follow directions and announcements.",
-      },
-      {
-        icon: "☕",
-        title: "Café",
-        description: "Tel Aviv café culture is intense and conversational. Captio AI captions fast Israeli Hebrew in café settings so you follow the table and participate fully.",
-      },
-      {
-        icon: "👥",
-        title: "Neighbourhood conversation",
-        description: "Israeli neighbourhood culture involves close, frequent conversations with neighbours. Captio AI captions outdoor and stairwell exchanges so you follow every neighbour.",
-      },
-    ],
     useCaseDescriptions: [
       "Pharmacy counter, supermarket checkout, bank teller, misrad counter. Staff speak fast in Hebrew and move on. Captio AI shows what they said before the moment passes.",
       "Shabbat family dinner, holiday gathering, birthday celebration with extended family. Multiple generations, fast Hebrew mixing with English or Russian. Captio AI captions whoever is speaking.",
@@ -4877,38 +3594,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🛒",
-        title: "Outdoor market",
-        description: "Bulgarian outdoor markets are loud and transactional. Captio AI captions vendor speech in real time so you follow prices and complete every purchase confidently.",
-      },
-      {
-        icon: "☕",
-        title: "Café",
-        description: "Bulgarian café conversations run fast and colloquially. Captio AI captions whoever is speaking near you so you follow the table without missing anything.",
-      },
-      {
-        icon: "🚌",
-        title: "Bus and tram",
-        description: "Public transport conversations in Bulgarian are quick. Captio AI transcribes driver and co-passenger speech so you follow directions and announcements.",
-      },
-      {
-        icon: "💊",
-        title: "Pharmacy counter",
-        description: "Bulgarian pharmacies handle complex verbal exchanges about medication. Captio AI transcribes what the pharmacist says so you follow every instruction accurately.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family meal",
-        description: "Bulgarian family meals and mehana gatherings are multigenerational and loud. Captio AI follows whoever is speaking so you participate fully in the conversation.",
-      },
-      {
-        icon: "👥",
-        title: "Neighbourhood conversation",
-        description: "Bulgarian neighbourhood exchanges at doorsteps and in courtyards happen fast. Captio AI captions your neighbours in real time so you follow every exchange.",
-      },
-    ],
     useCaseDescriptions: [
       "Аптека counter, пощенска станция window, supermarket checkout, общинска служба desk. Staff speak fast in Bulgarian and move on. Captio AI shows what they said before the moment passes.",
       "Sunday family lunch, name day gathering, neighbours round the table. Multiple generations, fast Bulgarian, Sofia versus regional accents. Captio AI captions whoever is speaking.",
@@ -4983,38 +3668,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🍺",
-        title: "Traditional pub gathering",
-        description: "The Serbian kafana is the social centre — loud, live music, overlapping conversations. Captio AI captions whoever is speaking near you so you follow the table.",
-      },
-      {
-        icon: "🌿",
-        title: "Outdoor market",
-        description: "Serbian outdoor markets run on fast verbal exchanges. Captio AI captions vendor speech in real time so you follow every transaction clearly.",
-      },
-      {
-        icon: "🚌",
-        title: "Bus and trolleybus",
-        description: "Belgrade and Serbian city public transport conversations move fast. Captio AI transcribes exchanges in real time so you follow directions and announcements.",
-      },
-      {
-        icon: "💊",
-        title: "Pharmacy counter",
-        description: "Serbian pharmacies handle medication exchanges in fast colloquial Serbian. Captio AI transcribes what the pharmacist says so you follow every instruction.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family celebration",
-        description: "The Serbian slava — the family saint's day feast — is the most important family gathering of the year, with many voices in fast Serbian. Captio AI follows whoever is speaking so you participate fully.",
-      },
-      {
-        icon: "👥",
-        title: "Neighbourhood conversation",
-        description: "Serbian neighbourhood culture involves close daily contact with komšije (neighbours). Captio AI captions doorstep and courtyard conversations in real time.",
-      },
-    ],
     useCaseDescriptions: [
       "Apoteka counter, pošta window, supermarket checkout, opštinska služba desk. Staff speak fast in Serbian and move on. Captio AI shows what they said before the moment passes.",
       "Sunday family ručak, slava gathering, birthday dinner with extended family. Multiple generations, fast overlapping Serbian, Ekavian and Ijekavian mixing. Captio AI captions whoever is speaking.",
@@ -5089,38 +3742,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "☕",
-        title: "Hygge gathering",
-        description: "Danish hygge is built around long intimate group conversation. Captio AI captions whoever is speaking so you follow the gathering and belong to it fully.",
-      },
-      {
-        icon: "🥐",
-        title: "Bakery and café counter",
-        description: "Danish bakery and café exchanges are brief and fast. Captio AI transcribes what the server says so you complete every order without confusion.",
-      },
-      {
-        icon: "🛒",
-        title: "Supermarket and outdoor market",
-        description: "Danish supermarket and outdoor market conversations move quickly. Captio AI captions vendor and staff speech so you follow every transaction.",
-      },
-      {
-        icon: "🚇",
-        title: "Public transport",
-        description: "Copenhagen S-tog and metro involve daily conversations and announcements. Captio AI captions exchanges in real time so you follow directions and stops.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family dinner",
-        description: "Danish family dinners are multigenerational and long. Captio AI follows whoever is speaking so you participate fully rather than observing.",
-      },
-      {
-        icon: "👥",
-        title: "Neighbourhood conversation",
-        description: "Danish neighbourhood exchanges at the front door or in the gård (courtyard) happen in fast informal Danish. Captio AI captions your neighbours in real time.",
-      },
-    ],
     useCaseDescriptions: [
       "Apotek counter, posthus window, supermarket checkout, borgerservice desk. Staff speak fast in Danish and move on. Captio AI shows what they said before the moment passes.",
       "Sunday family middag, birthday hygge, colleagues around a table. Multiple generations, fast overlapping Danish, regional accents varying. Captio AI captions whoever is speaking.",
@@ -5195,38 +3816,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "☕",
-        title: "Coffee shop conversation",
-        description: "Albanian kafe culture is the centre of daily social life. Captio AI captions fast Albanian conversation at the kafe table so you follow whoever is speaking.",
-      },
-      {
-        icon: "🛒",
-        title: "Outdoor market",
-        description: "Albanian outdoor markets are loud and transactional. Captio AI captions vendor speech in real time so you complete every purchase without confusion.",
-      },
-      {
-        icon: "🚌",
-        title: "Bus and shared minibus",
-        description: "Albanian furgon and bus conversations are fast and informal. Captio AI transcribes exchanges in real time so you follow directions and fellow passengers.",
-      },
-      {
-        icon: "🏛️",
-        title: "Government office",
-        description: "Albanian government offices use fast formal Albanian at counters. Captio AI transcribes what officials say so you follow every instruction.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family gathering",
-        description: "Albanian family gatherings are extended and multigenerational with many voices speaking at once. Captio AI follows whoever is speaking so you participate fully.",
-      },
-      {
-        icon: "👥",
-        title: "Neighbourhood conversation",
-        description: "Albanian mahalle (neighbourhood) culture involves close daily contact with neighbours. Captio AI captions outdoor and doorstep conversations in real time.",
-      },
-    ],
     useCaseDescriptions: [
       "Pharmacy counter, posta window, supermarket checkout, bashki office desk. Staff speak fast in Albanian and move on. Captio AI shows what they said before the moment passes.",
       "Family Sunday lunch, bajram gathering, birthday celebration with extended family. Multiple generations, fast Albanian, Gheg and Tosk accents mixing. Captio AI captions whoever is speaking.",
@@ -5301,38 +3890,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🔥",
-        title: "Barbecue gathering",
-        description: "The braai is where Afrikaans social life happens — outdoors, loud, multigenerational. Captio AI captions whoever is speaking so you follow the gathering fully.",
-      },
-      {
-        icon: "🏪",
-        title: "Corner store",
-        description: "Corner store and spaza shop transactions in Afrikaans are fast and brief. Captio AI transcribes what the shopkeeper says so you complete every errand without confusion.",
-      },
-      {
-        icon: "🚐",
-        title: "Shared transport",
-        description: "South African shared taxi conversations in Afrikaans are fast and colloquial. Captio AI captions driver and passenger exchanges so you follow directions and conversation.",
-      },
-      {
-        icon: "🌿",
-        title: "Outdoor market",
-        description: "Afrikaans outdoor farmers markets (boeremark) are busy and transactional. Captio AI captions vendor speech so you follow prices and complete every purchase.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family Sunday lunch",
-        description: "Afrikaans family Sunday lunches are long, multigenerational, and loud. Captio AI follows whoever is speaking so you participate fully in the family conversation.",
-      },
-      {
-        icon: "⛪",
-        title: "Church community social",
-        description: "Afrikaans church communities organise significant social life. Post-service conversations in fast informal Afrikaans are fully captioned by Captio AI.",
-      },
-    ],
     useCaseDescriptions: [
       "Apteek counter, poskantoor window, supermarket checkout, munisipaliteit desk. Staff speak fast in Afrikaans and move on. Captio AI shows what they said before the moment passes.",
       "Sunday family braai, birthday lunch, neighbours around the table. Multiple generations, fast Afrikaans, Cape and inland varieties mixing. Captio AI captions whoever is speaking.",
@@ -5407,38 +3964,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🛒",
-        title: "Outdoor market",
-        description: "Belarusian outdoor markets run in fast trasianka-mixed speech. Captio AI captions vendor exchanges in real time so you complete every transaction without confusion.",
-      },
-      {
-        icon: "🚌",
-        title: "Shared minibus and public transport",
-        description: "Marshrutka and public transport conversations in Belarus move quickly in mixed Belarusian-Russian. Captio AI captions exchanges so you follow directions and co-passengers.",
-      },
-      {
-        icon: "🏛️",
-        title: "Government office",
-        description: "Belarusian government offices use formal language at counters. Captio AI transcribes what officials say so you follow every instruction without confusion.",
-      },
-      {
-        icon: "🌿",
-        title: "Outdoor social gathering",
-        description: "Belarusian dacha culture involves extended family conversations in outdoor settings. Captio AI follows whoever is speaking so you participate fully.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family gathering",
-        description: "Belarusian family meals are multigenerational with overlapping conversations in mixed Belarusian-Russian. Captio AI captions whoever is speaking.",
-      },
-      {
-        icon: "👥",
-        title: "Neighbourhood conversation",
-        description: "Minsk and Belarusian city neighbourhood conversations happen fast in trasianka. Captio AI captions your neighbours so you follow every exchange.",
-      },
-    ],
     useCaseDescriptions: [
       "Apteka counter, poshta window, supermarket checkout, administration desk. Staff speak fast in Belarusian or Russian and move on. Captio AI shows what they said before the moment passes.",
       "Family dinner, Kupalle gathering, birthday celebration with extended family. Multiple generations, Belarusian mixing with Russian in everyday speech. Captio AI captions whoever is speaking.",
@@ -5513,38 +4038,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "☕",
-        title: "Café and coffee break",
-        description: "Finnish café culture involves important social conversation. Captio AI captions whoever is speaking so you follow the kahvila table fully.",
-      },
-      {
-        icon: "🛒",
-        title: "Grocery store",
-        description: "Finnish supermarket exchanges are brief and direct. Captio AI transcribes what the cashier says so you complete every errand without confusion.",
-      },
-      {
-        icon: "🌿",
-        title: "Market square",
-        description: "Finnish outdoor tori markets involve fast transactional Finnish. Captio AI captions vendor speech so you follow every purchase.",
-      },
-      {
-        icon: "🚇",
-        title: "Public transport",
-        description: "Helsinki metro and Finnish public transport involve daily exchanges. Captio AI captions conversations and announcements in real time.",
-      },
-      {
-        icon: "🧖",
-        title: "Sauna social gathering",
-        description: "Sauna is where Finnish social life happens. Captio AI captions conversation in the löylyhuone so you follow whoever is speaking — without needing to lip-read in steam.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family dinner",
-        description: "Finnish family dinners span generations with strong regional dialect variation. Captio AI follows whoever is speaking so you participate fully.",
-      },
-    ],
     useCaseDescriptions: [
       "Apteekki counter, posti window, supermarket checkout, kuntapalvelu desk. Staff speak fast in Finnish and move on. Captio AI shows what they said before the moment passes.",
       "Sunday family ruoka, birthday celebration, mökki gathering with neighbours. Multiple generations, fast Finnish, regional accents varying by maakunta. Captio AI captions whoever is speaking.",
@@ -5619,38 +4112,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🍺",
-        title: "Pub conversation",
-        description: "Slovak pub culture is central to social life. Captio AI captions fast pub conversation so you follow the table and belong to it.",
-      },
-      {
-        icon: "🛒",
-        title: "Outdoor market",
-        description: "Slovak outdoor markets run on fast exchanges. Captio AI captions vendor speech in real time so you follow every transaction clearly.",
-      },
-      {
-        icon: "🚌",
-        title: "Bus and public transport",
-        description: "Slovak public transport conversations move quickly. Captio AI transcribes exchanges and announcements so you follow directions and stops.",
-      },
-      {
-        icon: "☕",
-        title: "Café gathering",
-        description: "Slovak café culture is where friends meet. Captio AI captions fast conversational Slovak in café settings so you participate fully.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family Sunday lunch",
-        description: "Slovak family Sunday meals are multigenerational and long. Captio AI follows whoever is speaking so you participate fully in the family conversation.",
-      },
-      {
-        icon: "💊",
-        title: "Pharmacy",
-        description: "Slovak pharmacy exchanges involve specific medical vocabulary. Captio AI transcribes what the pharmacist says so you follow every instruction accurately.",
-      },
-    ],
     useCaseDescriptions: [
       "Lekáreň counter, pošta window, supermarket checkout, úrad desk. Staff speak fast in Slovak and move on. Captio AI shows what they said before the moment passes.",
       "Sunday family obed, birthday celebration, neighbours gathering. Multiple generations, fast Slovak, Bratislava versus eastern regional accents mixing. Captio AI captions whoever is speaking.",
@@ -5725,38 +4186,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "☕",
-        title: "Café conversation",
-        description: "The kafić is the centre of Croatian daily social life. Captio AI captions fast conversational Croatian so you follow whoever is speaking at the table.",
-      },
-      {
-        icon: "🌿",
-        title: "Outdoor market",
-        description: "Croatian outdoor markets are loud and transactional. Captio AI captions vendor speech in real time so you follow prices and complete every purchase.",
-      },
-      {
-        icon: "🚌",
-        title: "Public transport",
-        description: "Zagreb and Croatian city public transport conversations move fast. Captio AI captions exchanges and announcements so you follow directions.",
-      },
-      {
-        icon: "🐟",
-        title: "Waterfront promenade",
-        description: "Coastal Croatian riva (waterfront promenade) conversations in Dalmatian are a daily social ritual. Captio AI captions fast Dalmatian Croatian so you follow the waterfront.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family Sunday meal",
-        description: "Croatian family Sunday meals at the konoba or at home are multigenerational. Captio AI follows whoever is speaking so you participate fully.",
-      },
-      {
-        icon: "👥",
-        title: "Neighbourhood conversation",
-        description: "Croatian neighbourhood culture involves close daily contact. Captio AI captions doorstep and hallway exchanges so you follow every neighbour.",
-      },
-    ],
     useCaseDescriptions: [
       "Ljekarna counter, pošta window, supermarket checkout, gradski ured desk. Staff speak fast in Croatian and move on. Captio AI shows what they said before the moment passes.",
       "Sunday family ručak, birthday celebration, komšiluk gathering. Multiple generations, fast Croatian, Zagreb versus Dalmatian accents mixing. Captio AI captions whoever is speaking.",
@@ -5831,38 +4260,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "☕",
-        title: "Café gathering",
-        description: "Norwegian café culture involves fast conversational exchanges. Captio AI captions whoever is speaking so you follow the table and participate fully.",
-      },
-      {
-        icon: "🛒",
-        title: "Grocery store",
-        description: "Norwegian supermarket exchanges are brief and direct. Captio AI transcribes what the cashier says so you complete every errand without confusion.",
-      },
-      {
-        icon: "🌿",
-        title: "Market square",
-        description: "Norwegian outdoor torg markets involve fast transactional speech. Captio AI captions vendor exchanges so you follow every purchase.",
-      },
-      {
-        icon: "🚇",
-        title: "Public transport",
-        description: "Oslo T-bane and Norwegian public transport involve daily exchanges. Captio AI captions conversations and announcements in real time.",
-      },
-      {
-        icon: "🏔️",
-        title: "Cabin weekend gathering",
-        description: "The Norwegian hytte weekend is the defining social ritual. Captio AI captions long cabin conversations so you follow whoever is speaking — wherever the hytte is.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family dinner",
-        description: "Norwegian family dinners span generations with strong regional dialect variation. Captio AI follows whoever is speaking so you participate fully.",
-      },
-    ],
     useCaseDescriptions: [
       "Apotek counter, post window, supermarket checkout, kommunekontor desk. Staff speak fast in Norwegian and move on. Captio AI shows what they said before the moment passes.",
       "Sunday family middag, birthday celebration, hytteweekend with friends. Multiple generations, fast Norwegian, Bokmål and Nynorsk accents varying by region. Captio AI captions whoever is speaking.",
@@ -5937,38 +4334,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🏪",
-        title: "Neighbourhood market",
-        description: "The mercat de barri is the centre of daily Catalan provisioning — fresh produce, fish, cheese. Vendor exchanges are fast, in local Catalan, often across a noisy hall. Captio AI captions whoever is speaking so you follow the transaction before the queue moves on.",
-      },
-      {
-        icon: "☕",
-        title: "Café terrace",
-        description: "The terrassa is where Catalan social life happens — after work, on weekend mornings, during the passeig. Background noise, multiple speakers, faces turned away from you. Captio AI follows whoever is talking to you.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family Sunday lunch",
-        description: "The dinar de diumenge is a Catalan institution — multigenerational, long, and loud. Grandparents in local dialect, cousins switching to Spanish, teenagers code-mixing. Captio AI captions the table without any manual switching.",
-      },
-      {
-        icon: "💊",
-        title: "Pharmacy counter",
-        description: "The farmàcia is often the first point of contact for health questions. Staff speak fast, often behind a screen, and give instructions verbally. Captio AI gives you the words in real time so nothing is missed.",
-      },
-      {
-        icon: "🚇",
-        title: "Public transport",
-        description: "Metro, bus, and Rodalies trains use verbal announcements for delays and route changes. Screens are inconsistent on older rolling stock. Captio AI captions what transport staff and passengers say around you.",
-      },
-      {
-        icon: "🏘️",
-        title: "Community gathering",
-        description: "Residents' meetings, local festas planning, neighbourhood association events — Catalan community life is built on spoken participation. Captio AI keeps you in conversations that happen without notice.",
-      },
-    ],
     useCaseDescriptions: [
       "Farmàcia counter, oficina de correus window, supermarket checkout, ajuntament desk. Staff speak fast in Catalan and move on. Captio AI shows what they said before the moment passes.",
       "Sunday family dinar, birthday celebration, veïns gathering. Multiple generations, fast Catalan, Barcelona versus Valencian or Mallorcan accents mixing. Captio AI captions whoever is speaking.",
@@ -6044,38 +4409,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🛒",
-        title: "Outdoor market",
-        description: "Lithuanian turgus markets are weekly social events as much as shopping trips — vendors call out prices, banter with regular customers, and transact in fast colloquial Lithuanian. Captio AI captions what the vendor says so you follow the exchange.",
-      },
-      {
-        icon: "⛪",
-        title: "Church and parish gathering",
-        description: "Parish life is central to community belonging in Lithuania. Services, post-Mass conversations, seasonal events — all spoken-only. Captio AI captions whoever is speaking so you are part of the gathering.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family holiday meal",
-        description: "Kūčios (Christmas Eve), Velykos (Easter), name days — multigenerational family gatherings with fast overlapping Lithuanian. Grandparents in regional speech, parents and children code-mixing. Captio AI follows whoever is talking.",
-      },
-      {
-        icon: "🏛️",
-        title: "Municipal office counter",
-        description: "Local government services — seniūnija offices, social services, the post — are delivered verbally at counters. Staff rarely have written communication options. Captio AI gives you a real-time transcript of what's being said.",
-      },
-      {
-        icon: "🏪",
-        title: "Corner shop and kiosk",
-        description: "The quick exchange at a neighbourhood shop or kiosk — asking for something, paying, being told the price — happens in fast informal Lithuanian with no accommodation. Captio AI captures it.",
-      },
-      {
-        icon: "🚌",
-        title: "Bus and regional transport",
-        description: "Regional buses announce stops verbally. Drivers speak to passengers without looking back. In rural areas, missing a stop means a long walk. Captio AI captions what the driver says so you know where you are.",
-      },
-    ],
     useCaseDescriptions: [
       "Vaistinė counter, paštas window, supermarket checkout, savivaldybė desk. Staff speak fast in Lithuanian and move on. Captio AI shows what they said before the moment passes.",
       "Sunday family pietūs, birthday celebration, kaimynų gathering. Multiple generations, fast Lithuanian, Aukštaitian and Samogitian accents mixing. Captio AI captions whoever is speaking.",
@@ -6150,38 +4483,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🏪",
-        title: "Outdoor market",
-        description: "The pijaca is central to daily shopping in Bosnia — fresh produce, household goods, fast vendor transactions in loud open-air settings. Captio AI captions whoever is speaking so you follow the exchange.",
-      },
-      {
-        icon: "☕",
-        title: "Coffee house",
-        description: "Extended kafana sessions are the primary social ritual of Bosnian daily life. Group conversation, multiple speakers, loud ambient noise. Captio AI follows whoever is talking so you stay part of the table.",
-      },
-      {
-        icon: "🎉",
-        title: "Family and community gathering",
-        description: "Bajram celebrations, weddings, slava gatherings — large, loud, multigenerational events where conversations overlap across the room. Captio AI captions whoever you point your phone toward.",
-      },
-      {
-        icon: "🕌",
-        title: "Religious service",
-        description: "Mosque prayers, church services, and the community conversation that follows are spoken-only. Captio AI captions whoever is near you so the social moment after the service is also accessible.",
-      },
-      {
-        icon: "🛒",
-        title: "Corner store",
-        description: "Quick transactions at local shops — brief, fast, in informal Bosnian. Staff do not know you are deaf. Captio AI gives you the exchange in real time.",
-      },
-      {
-        icon: "🚌",
-        title: "Bus and regional transport",
-        description: "Intercity buses and regional routes announce stops and information verbally. No visual screens on most vehicles. Captio AI captions what the driver says.",
-      },
-    ],
     useCaseDescriptions: [
       "Apoteka counter, pošta window, supermarket checkout, opštinska služba desk. Staff speak fast in Bosnian and move on. Captio AI shows what they said before the moment passes.",
       "Sunday family ručak, bajram gathering, birthday dinner with extended family. Multiple generations, fast Bosnian, urban Sarajevo versus regional accents mixing. Captio AI captions whoever is speaking.",
@@ -6256,38 +4557,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🐟",
-        title: "Covered food market",
-        description: "The mercado de abastos is the heart of daily Galician provisioning — fish, vegetables, meat, cheese. Transactions are fast, in local Galician, across noisy covered halls. Captio AI captions the vendor so you follow the exchange.",
-      },
-      {
-        icon: "☕",
-        title: "Café bar conversation",
-        description: "The bar tertulia — informal discussion over coffee at the bar counter — is a Galician cultural institution. Background noise, multiple speakers, faces turned away. Captio AI follows whoever is talking to you.",
-      },
-      {
-        icon: "🏡",
-        title: "Rural village errand",
-        description: "Post office, village pharmacy, local council office in a small aldea — quick interactions in fast local Galician with no written backup. Captio AI gives you a real-time transcript so nothing is missed.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family Sunday lunch",
-        description: "Large extended family Sunday meals with several generations, fast Galician, occasional code-switching to Spanish. Conversations run long and overlap. Captio AI captions whoever is speaking.",
-      },
-      {
-        icon: "⚓",
-        title: "Fishing port",
-        description: "In coastal Galician towns, the dock, the fish market, and the port bar are social centres. Transactions and conversations happen fast in strong local accent. Captio AI captions what's said so you are part of the exchange.",
-      },
-      {
-        icon: "🚌",
-        title: "Regional transport",
-        description: "RENFE regional trains and Monbus intercity routes serve Galicia with verbal-only announcements on older rolling stock. Captio AI captions what transport staff say around you.",
-      },
-    ],
     useCaseDescriptions: [
       "Farmacia counter, oficina de correos window, supermarket checkout, concello desk. Staff speak fast in Galician and move on. Captio AI shows what they said before the moment passes.",
       "Sunday family xantar, birthday celebration, veciños gathering. Multiple generations, fast Galician, urban Vigo versus rural varieties mixing. Captio AI captions whoever is speaking.",
@@ -6362,38 +4631,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🏺",
-        title: "Old bazaar market",
-        description: "The čaršija in Skopje and regional Macedonian towns is a daily commercial and social hub. Vendor exchanges are fast, in informal Macedonian. Captio AI captions whoever is speaking so you follow the transaction.",
-      },
-      {
-        icon: "☕",
-        title: "Café and coffee house",
-        description: "Extended kafana sessions are a daily social ritual. Multi-speaker, loud, with conversations running for hours. Captio AI follows whoever is talking to you.",
-      },
-      {
-        icon: "🎊",
-        title: "Family celebration",
-        description: "Slava, wedding receptions, and family Bajram gatherings — large, loud, and multigenerational. Captio AI captions whoever you point your phone toward so you are part of the table.",
-      },
-      {
-        icon: "🕌",
-        title: "Religious gathering",
-        description: "Orthodox church services and mosque prayers — and the community conversations that follow — are spoken-only. Captio AI captions whoever is near you so the social moments are accessible.",
-      },
-      {
-        icon: "🚌",
-        title: "Bus and regional transport",
-        description: "Intercity buses and local routes announce stops verbally with no visual screens on most vehicles. Captio AI captions what the driver or fellow passengers say.",
-      },
-      {
-        icon: "🏛️",
-        title: "Municipal office",
-        description: "Counter interactions at local government offices — administration, social services, documentation — delivered verbally with no written communication standard. Captio AI gives you a real-time transcript.",
-      },
-    ],
     useCaseDescriptions: [
       "Аптека counter, пошта window, supermarket checkout, општина desk. Staff speak fast in Macedonian and move on. Captio AI shows what they said before the moment passes.",
       "Sunday family ручек, birthday celebration, маала gathering. Multiple generations, fast Macedonian, Skopje versus regional accents mixing. Captio AI captions whoever is speaking.",
@@ -6468,38 +4705,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🥬",
-        title: "Open-air market",
-        description: "Ljubljana's Plečnik market and regional tržnice across Slovenia are morning social rituals. Vendor exchanges in local dialect, background noise, transactions that happen fast. Captio AI captions whoever is speaking so you follow.",
-      },
-      {
-        icon: "🍷",
-        title: "Village tavern",
-        description: "The gostilna is the social anchor of Slovenian village life. Group meals, coffee conversations, local news — all in regional dialect, all spoken. Captio AI follows whoever is talking so you stay part of the table.",
-      },
-      {
-        icon: "🎉",
-        title: "Traditional family gathering",
-        description: "Martinovanje, Silvestrovo, name days — multigenerational, fast, in local Slovenian dialect. Captio AI captions whoever is speaking so you are in the conversation.",
-      },
-      {
-        icon: "🏡",
-        title: "Rural village errand",
-        description: "Pharmacy, post office, local shop in a small Slovenian village — quick counter interactions in fast local speech with no written alternative. Captio AI gives you the exchange in real time.",
-      },
-      {
-        icon: "🚌",
-        title: "Regional transport",
-        description: "LPP buses in Ljubljana have improving visual information. Regional and intercity buses across Slovenia are verbal-announcement-only. Captio AI captions transport staff and fellow passengers.",
-      },
-      {
-        icon: "🏘️",
-        title: "Community event",
-        description: "Local events in the občina — cultural evenings, sports days, neighbourhood meetings — are spoken-only, held in village dialect. Captio AI keeps you in the conversation.",
-      },
-    ],
     useCaseDescriptions: [
       "Lekarna counter, pošta window, supermarket checkout, upravna enota desk. Staff speak fast in Slovenian and move on. Captio AI shows what they said before the moment passes.",
       "Sunday family kosilo, birthday celebration, sosedje gathering. Multiple generations, fast Slovenian, Ljubljana versus regional dialect accents mixing. Captio AI captions whoever is speaking.",
@@ -6575,38 +4780,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🏪",
-        title: "Central market",
-        description: "Rīgas Centrāltirgus — one of Europe's largest covered markets — and regional town markets are daily social hubs. Fast vendor exchanges in informal Latvian, background noise. Captio AI captions whoever is speaking.",
-      },
-      {
-        icon: "🪟",
-        title: "Neighbourhood shop and kiosk",
-        description: "Quick counter interactions at neighbourhood shops and kiosks — often through glass or a partition. Captio AI captions what the shop assistant says so you follow the exchange without a written note.",
-      },
-      {
-        icon: "🎶",
-        title: "Community and cultural event",
-        description: "Song festival gatherings, local choir events, and cultural evenings — central to Latvian community life. Captio AI captions whoever is speaking near you so you are part of the social moments around these events.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family gathering",
-        description: "Jāņi, Ziemassvētki, name days — multigenerational Latvian family gatherings with fast overlapping conversation. Captio AI follows whoever is speaking.",
-      },
-      {
-        icon: "🚌",
-        title: "Regional bus route",
-        description: "Intercity and rural buses in Latvia announce stops verbally with no visual screens. Captio AI captions the driver so you know where you are and when to get off.",
-      },
-      {
-        icon: "🏛️",
-        title: "Municipal office",
-        description: "Pašvaldība counter interactions — social services, documentation, local administration — delivered verbally with no written communication standard. Captio AI gives you a real-time transcript.",
-      },
-    ],
     useCaseDescriptions: [
       "Aptieka counter, pasts window, supermarket checkout, pašvaldība desk. Staff speak fast in Latvian and move on. Captio AI shows what they said before the moment passes.",
       "Sunday family pusdienas, birthday celebration, kaimiņi gathering. Multiple generations, fast Latvian, Riga versus regional accents. Captio AI captions whoever is speaking.",
@@ -6681,38 +4854,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🛒",
-        title: "Town market",
-        description: "Weekly and permanent turgs in Estonian towns involve vendor exchanges in fast informal Estonian. Captio AI captions whoever is speaking so you follow the transaction.",
-      },
-      {
-        icon: "☕",
-        title: "Café",
-        description: "Estonian kohvik (café) culture is a core part of daily social life — kohvikute nädal (café week) is a national event. Group conversations in a noisy café. Captio AI follows whoever is talking to you.",
-      },
-      {
-        icon: "📮",
-        title: "Post office and pharmacy",
-        description: "Omniva counter interactions and pharmacy consultations — quick, verbal, often with the staff member looking away. Captio AI gives you the words in real time so the transaction is yours.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family gathering",
-        description: "Jõulud, Jaanipäev, Vastlapäev — multigenerational family meals in Estonian. Fast conversation, overlapping speech, regional family accents. Captio AI captions whoever is speaking.",
-      },
-      {
-        icon: "🚌",
-        title: "Regional transport",
-        description: "Buses between Estonian towns and villages announce stops verbally. Outside Tallinn's urban network there are no visual screens. Captio AI captions the driver and fellow passengers.",
-      },
-      {
-        icon: "🏪",
-        title: "Corner shop",
-        description: "Quick counter interactions at neighbourhood kauplused (shops) — everyday Estonian spoken fast, no accommodation. Captio AI gives you the exchange as it happens.",
-      },
-    ],
     useCaseDescriptions: [
       "Apteek counter, post window, supermarket checkout, vallavalitsus desk. Staff speak fast in Estonian and move on. Captio AI shows what they said before the moment passes.",
       "Sunday family lõuna, birthday celebration, naabrid gathering. Multiple generations, fast Estonian, Tallinn versus regional accents. Captio AI captions whoever is speaking.",
@@ -6787,38 +4928,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🏪",
-        title: "High street counter",
-        description: "Pharmacy, post office, bank — brief spoken exchanges in Welsh or English with no written backup. Staff do not know you are deaf. Captio AI captions what is said in real time so you follow the exchange.",
-      },
-      {
-        icon: "⛪",
-        title: "Chapel and community gathering",
-        description: "Welsh chapel services, eisteddfod events, and village hall meetings — Welsh-medium, spoken-only, central to community life in Wales. Captio AI captions whoever is speaking so you are part of the gathering.",
-      },
-      {
-        icon: "🍺",
-        title: "Pub conversation",
-        description: "Welsh pub culture — fast group conversations in a noisy setting, often switching between Welsh and English. Captio AI follows whoever is talking to you.",
-      },
-      {
-        icon: "🏬",
-        title: "Indoor market",
-        description: "Cardiff Central Market, Swansea Market, and covered markets across Wales — vendor exchanges in Welsh, English, or both. Captio AI captions whoever is at the stall you are visiting.",
-      },
-      {
-        icon: "🏥",
-        title: "GP and community health",
-        description: "Doctor's surgery, pharmacy consultation, community health appointment — conversations that matter and where missing something has consequences. Captio AI gives you a real-time transcript of what is said.",
-      },
-      {
-        icon: "🚌",
-        title: "Rural bus route",
-        description: "Traws Cymru and local rural bus services use verbal-only announcements on many routes. Captio AI captions the driver so you know where you are.",
-      },
-    ],
     useCaseDescriptions: [
       "Fferyllfa counter, swyddfa'r post window, supermarket checkout, cyngor desk. Staff speak fast in Welsh and move on. Captio AI shows what they said before the moment passes.",
       "Sunday family cinio, birthday celebration, cymdogion gathering. Multiple generations, fast Welsh, north versus south Welsh accents mixing. Captio AI captions whoever is speaking.",
@@ -6894,38 +5003,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "🥂",
-        title: "Pintxos bar",
-        description: "The defining Basque social institution. Standing at a bar, fast verbal ordering, high ambient noise, multiple conversations at once. Captio AI captions what the bartender and those around you say so you are part of the ritual.",
-      },
-      {
-        icon: "🏪",
-        title: "Weekly outdoor market",
-        description: "Town azokak in Tolosa, Ordizia, Gernika and across the Basque Country — vendor exchanges in fast Basque, outdoor noise, transactions across busy stalls. Captio AI captions whoever is speaking.",
-      },
-      {
-        icon: "🍎",
-        title: "Cider house gathering",
-        description: "The sagardotegi tradition involves communal meals around long tables, cider service, and group toasting in Basque. Social ritual built entirely around verbal cues. Captio AI captions whoever is near you.",
-      },
-      {
-        icon: "🎉",
-        title: "Traditional community event",
-        description: "Herri kirolak (traditional Basque sports), local festas, Carnaval — announcements and social exchanges entirely in Basque. Captio AI captions whoever is speaking around you.",
-      },
-      {
-        icon: "🏡",
-        title: "Rural village shop",
-        description: "Corner shops in Basque-speaking villages where Euskara is the only language used. Quick exchanges across a counter, no written backup. Captio AI gives you the transaction in real time.",
-      },
-      {
-        icon: "🍽️",
-        title: "Family meal in Basque",
-        description: "Multigenerational family meals in a Basque-speaking household — grandparents in regional variety, younger generations code-switching with Spanish. Captio AI follows whoever is speaking.",
-      },
-    ],
     useCaseDescriptions: [
       "Farmazia counter, posta window, supermarket checkout, udaletxe desk. Staff speak fast in Basque and move on. Captio AI shows what they said before the moment passes.",
       "Sunday family bazkaria, birthday celebration, auzokoak gathering. Multiple generations, fast Basque, Bilbao versus Donostia varieties mixing. Captio AI captions whoever is speaking.",
@@ -7001,38 +5078,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "💼",
-        title: "Team meeting",
-        description: "Regular briefings and standups where tasks get assigned and decisions get made. Everyone speaks fast, ideas overlap, and the key point often gets buried mid-sentence. Captio AI captions each speaker so you follow every update.",
-      },
-      {
-        icon: "🎤",
-        title: "Client presentation",
-        description: "Presenting to or sitting in on a client meeting in Chinese. Questions come quickly, reactions matter, and every point the room makes has consequences. Captio AI captions what the room says as it is being said.",
-      },
-      {
-        icon: "💻",
-        title: "Video conference",
-        description: "Remote meetings over DingTalk, WeChat Work, or Zoom. Audio compression and connection lag compound what is already hard to follow. Captio AI captions the call in real time so you read what was said, not a delayed guess.",
-      },
-      {
-        icon: "🤝",
-        title: "One-on-one with manager",
-        description: "Direct conversations with a manager or senior colleague. These matter too much to miss — a task reassigned, feedback given, a concern raised. Captio AI gives you a real-time transcript of every word.",
-      },
-      {
-        icon: "🏢",
-        title: "Job interview",
-        description: "Every question matters and every answer needs to be heard. Captio AI captions the interviewer's questions in real time so you respond to what was actually asked, not what you guessed.",
-      },
-      {
-        icon: "🍽️",
-        title: "Work dinner",
-        description: "The conversations that continue after the meeting — over dinner or drinks — where the real decisions often happen. Fast, casual Chinese with no structure and no pacing. Captio AI keeps you in every exchange.",
-      },
-    ],
     useCaseDescriptions: [
       "Morning stand-ups and team syncs in Chinese offices where updates come quickly in Mandarin. Captio AI captions each speaker so you follow every item without asking for a repeat.",
       "DingTalk, WeChat Work, or Tencent Meeting video calls with colleagues across offices and cities. Put the call on speaker and read captions in real time.",
@@ -7109,38 +5154,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "💼",
-        title: "Team standup",
-        description: "The daily or weekly update where tasks change hands and blockers get flagged. Fast, sequential, over in minutes. Captio AI captions each speaker as they contribute so you follow every update.",
-      },
-      {
-        icon: "💻",
-        title: "Video conference",
-        description: "Teams, Zoom, Google Meet. Audio compression and camera angles that cut off lip movements. Put the call on speaker and let Captio AI caption what is being said in real time.",
-      },
-      {
-        icon: "🎤",
-        title: "All-hands or town hall",
-        description: "Large company-wide meetings where the speaker is far away and asking for a repeat is not an option. Point the phone toward the nearest audio output and read captions from any seat in the room.",
-      },
-      {
-        icon: "🤝",
-        title: "One-on-one",
-        description: "Direct conversations with a manager, direct report, or HR. These carry the highest stakes of any meeting and often happen with no formal support. Captio AI gives you a real-time transcript of every word.",
-      },
-      {
-        icon: "🏢",
-        title: "Job interview",
-        description: "The question you mishear in an interview can end the application. Captio AI captions in real time so you respond to what was actually asked, not what you guessed.",
-      },
-      {
-        icon: "☕",
-        title: "Pre-meeting conversation",
-        description: "The minutes before the meeting officially starts where half the real discussion happens. Captio AI covers the unofficial moments as well as the formal ones.",
-      },
-    ],
     useCaseDescriptions: [
       "Fast-moving daily team meetings in UK offices where colleagues speak in quick succession. Captio AI captions each person so you follow every update without asking for a repeat.",
       "Teams and Zoom calls with colleagues across the UK and internationally. Put the call on speaker, point Captio AI toward the audio, and read captions in real time.",
@@ -7216,38 +5229,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "💼",
-        title: "Team meeting",
-        description: "Hindi-language team briefings where tasks get assigned in a mix of formal Hindi and English. Captio AI captions whoever is speaking so you follow every update and action item.",
-      },
-      {
-        icon: "💻",
-        title: "Video conference",
-        description: "Remote meetings on Teams or Google Meet with colleagues from different Indian cities. Regional accents and audio compression combine. Captio AI captions the call from your speaker in real time.",
-      },
-      {
-        icon: "🎤",
-        title: "Client presentation",
-        description: "Formal business presentations in Hindi, often mixing in English slides and vocabulary. High stakes and fast-paced. Captio AI gives you a real-time transcript of everything said in the room.",
-      },
-      {
-        icon: "🤝",
-        title: "One-on-one with manager",
-        description: "Direct conversations with a manager or senior colleague — feedback, task assignments, career discussions. These happen in informal Hindi and matter too much to miss.",
-      },
-      {
-        icon: "🏢",
-        title: "Job interview",
-        description: "Interviews in Hindi-speaking corporate environments are high-stakes and often fast. Captio AI captions the interviewer's questions so you respond accurately to what was asked.",
-      },
-      {
-        icon: "🍽️",
-        title: "Work dinner or corporate event",
-        description: "Post-meeting dinners and team events where fast casual Hindi and Hinglish flow freely. Captio AI keeps you in the conversations that happen outside the meeting room.",
-      },
-    ],
     useCaseDescriptions: [
       "Fast morning stand-ups in Indian offices where updates come in quick-fire Hindi mixed with English. Captio AI captions each speaker so you follow every item.",
       "Google Meet, Zoom, or Teams calls with colleagues across India or globally. Put the call on speaker and read captions in real time.",
@@ -7322,38 +5303,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "💼",
-        title: "Team meeting",
-        description: "Regular team briefings in Spanish where tasks get assigned and decisions get made at speed. Multiple speakers, different accents, overlapping points. Captio AI captions each speaker in real time.",
-      },
-      {
-        icon: "💻",
-        title: "Video conference",
-        description: "Calls with colleagues and clients across 22 Spanish-speaking countries. Audio compression on top of fast Caribbean or Southern Cone speech. Captio AI captions the call so you follow every contribution.",
-      },
-      {
-        icon: "🎤",
-        title: "Client presentation",
-        description: "Formal presentations to clients or stakeholders in Spanish, often followed by a Q&A in fast colloquial speech. Captio AI keeps you in the formal presentation and the informal discussion that follows.",
-      },
-      {
-        icon: "🤝",
-        title: "One-on-one with manager",
-        description: "Direct conversations with a manager or HR — feedback, tasks, career discussions. Often in casual Spanish with regional features. Captio AI captions in real time so nothing is missed.",
-      },
-      {
-        icon: "🏢",
-        title: "Job interview",
-        description: "Interviews in Spanish are often fast and conversationally informal. Captio AI captions the interviewer's questions so you respond to what was actually asked, not what you guessed.",
-      },
-      {
-        icon: "🍽️",
-        title: "Work dinner or team event",
-        description: "Post-meeting dinners and team events where Spanish conversation flows freely at high speed. Captio AI keeps you in the room during the conversations that continue outside the office.",
-      },
-    ],
     useCaseDescriptions: [
       "Reuniones de equipo and daily stand-ups in Spanish offices where everyone gives updates in fast succession. Captio AI captions each speaker so you follow every point.",
       "Google Meet, Teams, or Zoom calls with colleagues across Spain or Latin America. Put the call on speaker and read captions in real time.",
@@ -7428,38 +5377,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "💼",
-        title: "Team meeting",
-        description: "Arabic-language team briefings where formal and colloquial Arabic mix freely. Tasks get assigned in MSA; discussions shift to dialect. Captio AI captions both registers in real time.",
-      },
-      {
-        icon: "💻",
-        title: "Video conference",
-        description: "Calls with colleagues and clients across the Arab world. Different dialects, audio compression, and switching between Arabic and English or French. Captio AI captions the call in real time.",
-      },
-      {
-        icon: "🎤",
-        title: "Client meeting",
-        description: "Formal meetings with clients that begin in MSA and shift into colloquial during discussion. Captio AI follows both registers so you track the formal agenda and the informal negotiation.",
-      },
-      {
-        icon: "🤝",
-        title: "One-on-one with manager",
-        description: "Direct conversations with a senior colleague — feedback, task assignment, performance discussion. Fast, colloquial Arabic with no formal support. Captio AI transcribes every word in real time.",
-      },
-      {
-        icon: "🏢",
-        title: "Job interview",
-        description: "Interviews in Arabic corporate environments — often a mix of formal MSA and regional colloquial. Captio AI captions the interviewer's questions so you respond to what was actually asked.",
-      },
-      {
-        icon: "🕌",
-        title: "Work social gathering",
-        description: "Post-meeting lunches and work social events where fast colloquial Arabic is the default. Captio AI keeps you in the conversations that happen outside the formal meeting room.",
-      },
-    ],
     useCaseDescriptions: [
       "Daily team stand-ups and sync meetings in Arabic professional environments where updates come quickly in Gulf Arabic or MSA. Captio AI captions each speaker.",
       "Microsoft Teams or Zoom calls with colleagues across the GCC or internationally. Put the call on speaker and read captions in real time.",
@@ -7534,38 +5451,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "💼",
-        title: "Team meeting",
-        description: "Bengali-language team meetings where tasks get assigned in a mix of formal Bengali and English. Captio AI captions each speaker so you follow every update and decision.",
-      },
-      {
-        icon: "💻",
-        title: "Video conference",
-        description: "Remote calls with colleagues in Dhaka, Kolkata, and diaspora teams in the UK or US. Audio compression on top of accent variation. Captio AI captions the call in real time.",
-      },
-      {
-        icon: "🎤",
-        title: "Client presentation",
-        description: "Formal presentations in Bengali to clients or stakeholders. Captio AI transcribes the formal register so you follow every claim, question, and response.",
-      },
-      {
-        icon: "🤝",
-        title: "One-on-one with manager",
-        description: "Direct conversations with a manager — tasks, feedback, performance. Fast Bengali with no formal support. Captio AI gives you a real-time transcript of every word.",
-      },
-      {
-        icon: "🏢",
-        title: "Job interview",
-        description: "Interviews in Bengali-speaking organisations are often fast and conversational. Captio AI captions the interviewer's questions so you respond to what was actually asked.",
-      },
-      {
-        icon: "🍽️",
-        title: "Work lunch or team gathering",
-        description: "Post-meeting lunches and team events where fast casual Bengali flows freely. Captio AI keeps you in the conversations that continue outside the meeting room.",
-      },
-    ],
     useCaseDescriptions: [
       "Team meetings and stand-ups in Bangladeshi offices where updates come in Bengali or English. Captio AI captions each speaker so you follow every point.",
       "Zoom or Google Meet calls with colleagues locally or with international partners. Put the call on speaker and read captions in real time.",
@@ -7640,38 +5525,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "💼",
-        title: "Team standup",
-        description: "The daily or weekly meeting where tasks move and blockers get flagged. Fast, informal Brazilian Portuguese with English vocabulary mixed in. Captio AI captions each speaker in real time.",
-      },
-      {
-        icon: "💻",
-        title: "Video conference",
-        description: "Remote calls on Teams or Google Meet with colleagues across Brazil or with Lisbon. Audio compression on top of nasal vowels and regional variation. Captio AI captions the call so you follow every contribution.",
-      },
-      {
-        icon: "🎤",
-        title: "Client presentation",
-        description: "Formal presentations to clients in Portuguese, followed by a Q&A in fast casual speech. Captio AI follows both the formal deck delivery and the informal discussion.",
-      },
-      {
-        icon: "🤝",
-        title: "One-on-one with manager",
-        description: "Direct conversations in Brazilian Portuguese — feedback, tasks, performance. Warm and informal but consequential. Captio AI transcribes every word in real time.",
-      },
-      {
-        icon: "🏢",
-        title: "Job interview",
-        description: "Interviews in Brazilian Portuguese corporate environments — often warm and conversational in register. Captio AI captions the interviewer's questions so you respond accurately.",
-      },
-      {
-        icon: "🍽️",
-        title: "Work lunch or team event",
-        description: "Post-meeting lunches and team gatherings where fast Brazilian Portuguese flows without structure. Captio AI keeps you in the conversations that continue outside the meeting room.",
-      },
-    ],
     useCaseDescriptions: [
       "Daily stand-ups and reuniões de equipe in Brazilian offices where everyone gives updates in fast carioca or paulistano Portuguese. Captio AI captions each person.",
       "Google Meet, Teams, or Zoom calls with colleagues across Brazil or internationally. Put the call on speaker and read captions in real time.",
@@ -7746,38 +5599,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "💼",
-        title: "Team meeting",
-        description: "Russian-language briefings where projects get reviewed and tasks get assigned. Formal agenda, fast informal discussion. Captio AI captions throughout so you follow every decision.",
-      },
-      {
-        icon: "💻",
-        title: "Video conference",
-        description: "Remote calls with colleagues across Russia's distributed corporate landscape. Regional accents and audio compression on top of vowel reduction. Captio AI captions in real time.",
-      },
-      {
-        icon: "🎤",
-        title: "Client or stakeholder meeting",
-        description: "Formal meetings in Russian where presentations give way to fast Q&A and negotiation. Captio AI follows both registers so you track the formal proposal and the informal discussion.",
-      },
-      {
-        icon: "🤝",
-        title: "One-on-one with manager",
-        description: "Direct conversations with a manager or senior colleague — feedback, assignments, career discussion. Fast, informal Russian. Captio AI gives you a real-time transcript of every word.",
-      },
-      {
-        icon: "🏢",
-        title: "Job interview",
-        description: "Interviews in Russian corporate environments are often formal and fast. Captio AI captions the interviewer's questions so you respond to what was actually asked.",
-      },
-      {
-        icon: "🍽️",
-        title: "Work lunch or corporate event",
-        description: "Post-meeting lunches and team gatherings in Russian. Fast, informal, and often loud. Captio AI keeps you in the conversations that happen outside the formal meeting.",
-      },
-    ],
     useCaseDescriptions: [
       "Оперативки and team stand-ups in Russian offices where updates come quickly in formal or colloquial Russian. Captio AI captions each speaker so you follow every point.",
       "Zoom, Teams, or VK Calls with colleagues across Russia or internationally. Put the call on speaker and read captions in real time.",
@@ -7852,38 +5673,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "💼",
-        title: "Team meeting",
-        description: "Urdu-language team briefings where tasks get assigned in a mix of Urdu, Punjabi, and English. Captio AI captions each speaker so you follow every decision and action item.",
-      },
-      {
-        icon: "💻",
-        title: "Video conference",
-        description: "Remote calls with colleagues across Pakistan's distributed corporate sector. Regional accents and audio compression on top of pharyngeal consonants. Captio AI captions in real time.",
-      },
-      {
-        icon: "🎤",
-        title: "Client meeting",
-        description: "Formal meetings with clients or stakeholders in Urdu — often formal in register, followed by fast informal Q&A. Captio AI follows both so you track the proposal and the response.",
-      },
-      {
-        icon: "🤝",
-        title: "One-on-one with manager",
-        description: "Direct conversations with a manager in Urdu — tasks, feedback, performance. Fast and informal. Captio AI transcribes in real time so nothing is missed.",
-      },
-      {
-        icon: "🏢",
-        title: "Job interview",
-        description: "Interviews in Pakistan's corporate environments — often in a mix of formal Urdu and English. Captio AI captions the interviewer's questions so you respond accurately.",
-      },
-      {
-        icon: "🍽️",
-        title: "Work dinner or corporate event",
-        description: "Post-meeting dinners and work events where fast casual Urdu flows freely. These are where informal decisions happen. Captio AI keeps you in every conversation.",
-      },
-    ],
     useCaseDescriptions: [
       "Team meetings and morning stand-ups in Pakistani offices where updates come in Urdu or English. Captio AI captions each speaker so you follow every item.",
       "Zoom or Google Meet calls with colleagues locally or with international partners. Put the call on speaker and read captions in real time.",
@@ -7958,38 +5747,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "💼",
-        title: "Team meeting",
-        description: "Indonesian-language team briefings where Bahasa Indonesia and English mix freely. Tasks get assigned and decisions get made at speed. Captio AI captions each speaker in real time.",
-      },
-      {
-        icon: "💻",
-        title: "Video conference",
-        description: "Remote calls with colleagues across Indonesia's archipelago. Regional accents and audio compression on top of code-switching. Captio AI captions the call so you follow every contribution.",
-      },
-      {
-        icon: "🎤",
-        title: "Client presentation",
-        description: "Formal presentations in Bahasa Indonesia followed by fast Q&A in informal speech. Captio AI follows both registers so you track the proposal and the discussion.",
-      },
-      {
-        icon: "🤝",
-        title: "One-on-one with manager",
-        description: "Direct conversations with a manager in Indonesian — feedback, task assignment, career discussion. Fast and informal. Captio AI transcribes every word in real time.",
-      },
-      {
-        icon: "🏢",
-        title: "Job interview",
-        description: "Interviews in Indonesian corporate environments — often in formal Bahasa Indonesia with English sections. Captio AI captions the interviewer's questions so you respond accurately.",
-      },
-      {
-        icon: "🍜",
-        title: "Work lunch or team gathering",
-        description: "Post-meeting meals and team gatherings where fast Indonesian flows freely — often mixing Bahasa, gaul, and regional language. Captio AI keeps you in the conversations that continue outside the meeting room.",
-      },
-    ],
     useCaseDescriptions: [
       "Daily rapat tim and stand-ups in Indonesian offices where updates come quickly in Bahasa Indonesia. Captio AI captions each speaker so you follow every item.",
       "Zoom or Google Meet calls with colleagues across Indonesia or internationally. Put the call on speaker and read captions in real time.",
@@ -8064,38 +5821,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "💼",
-        title: "Team meeting",
-        description: "Weekly team meetings in German where decisions are made fast and tasks assigned before the screen refreshes. Captio AI captions every speaker so you follow who owns what.",
-      },
-      {
-        icon: "💻",
-        title: "Video conference",
-        description: "Remote calls with colleagues from Germany, Austria, and Switzerland — three different accents on the same call. Captio AI captions each voice accurately regardless of regional variation.",
-      },
-      {
-        icon: "🎤",
-        title: "Client presentation",
-        description: "Formal German business presentations followed by fast Q&A. The register shifts completely between the prepared slides and the discussion. Captio AI follows both.",
-      },
-      {
-        icon: "🤝",
-        title: "One-on-one with manager",
-        description: "Direct conversations in German — feedback, performance review, task reassignment. Often fast, informal, and heavy with idiom. Captio AI transcribes every word in real time.",
-      },
-      {
-        icon: "🏢",
-        title: "Job interview",
-        description: "Interviews in formal German corporate language — often standard Hochdeutsch with regional overlay. Captio AI captions each question so you respond to what was actually asked.",
-      },
-      {
-        icon: "☕",
-        title: "Work lunch or coffee chat",
-        description: "Post-meeting conversations in the kitchen or over lunch where the real decisions sometimes continue — in casual German that is harder to follow than the formal meeting. Captio AI keeps you in both.",
-      },
-    ],
     useCaseDescriptions: [
       "Daily stand-ups and Abstimmungen in German offices where colleagues give structured updates in quick succession. Captio AI captions each person so you follow every point.",
       "Teams or Zoom calls with colleagues across Germany or internationally. Put the call on speaker and read captions in real time.",
@@ -8170,38 +5895,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "💼",
-        title: "Team meeting",
-        description: "Japanese-language team meetings with formal keigo throughout and fast turn-taking. Decisions and task assignments arrive in rapid succession. Captio AI captions every speaker so you keep up.",
-      },
-      {
-        icon: "💻",
-        title: "Video conference",
-        description: "Remote calls with colleagues from Tokyo, Osaka, and regional offices — pitch accent and dialect variation across the same call. Captio AI captions every voice in real time.",
-      },
-      {
-        icon: "🎤",
-        title: "Client presentation",
-        description: "Formal Japanese business presentations in polished keigo, followed by Q&A where speech informality rises sharply. Captio AI follows both registers.",
-      },
-      {
-        icon: "🤝",
-        title: "One-on-one with manager",
-        description: "Direct meetings in Japanese with a manager — performance feedback, career guidance, task reassignment — in a mix of formal and informal registers. Captio AI transcribes every word in real time.",
-      },
-      {
-        icon: "🏢",
-        title: "Job interview",
-        description: "Interviews in formal Japanese corporate speech — often highly polished keigo at speed. Captio AI captions the interviewer's questions so you respond accurately to what was asked.",
-      },
-      {
-        icon: "🍱",
-        title: "Work lunch or after-work gathering",
-        description: "Post-meeting conversations over lunch or nomikai (after-work drinks) where informal Japanese flows at speed and professional relationships are built. Captio AI keeps you in these conversations too.",
-      },
-    ],
     useCaseDescriptions: [
       "Morning ミーティング and ホウレンソウ team syncs where updates come in rapid, formal Japanese. Captio AI captions each person so you follow every agenda item.",
       "Zoom or Teams calls with colleagues domestically or with overseas partners. Put the call on speaker and read captions in real time.",
@@ -8276,38 +5969,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "💼",
-        title: "Team meeting",
-        description: "Swahili-language team meetings where tasks are assigned and decisions made quickly — often switching into English for technical terms. Captio AI captions every speaker in real time.",
-      },
-      {
-        icon: "💻",
-        title: "Video conference",
-        description: "Remote calls with colleagues from Kenya, Tanzania, and Uganda — different regional accents and dialects on the same call. Captio AI captions each voice accurately.",
-      },
-      {
-        icon: "🎤",
-        title: "Client presentation",
-        description: "Formal Swahili business presentations followed by Q&A in a mix of Swahili and English. Captio AI follows both languages and both registers.",
-      },
-      {
-        icon: "🤝",
-        title: "One-on-one with manager",
-        description: "Direct conversations in Swahili — feedback, task assignment, performance review — often in informal speech that bears little resemblance to the formal business Swahili of prepared communication. Captio AI transcribes every word.",
-      },
-      {
-        icon: "🏢",
-        title: "Job interview",
-        description: "Interviews conducted in Swahili or in Swahili-English — standard in East African corporate environments. Captio AI captions each question so you respond accurately.",
-      },
-      {
-        icon: "🍽️",
-        title: "Work lunch or team gathering",
-        description: "Post-meeting meals where fast, informal Swahili and Sheng flow freely. Professional relationships built here matter as much as what happened in the room. Captio AI keeps you in these conversations too.",
-      },
-    ],
     useCaseDescriptions: [
       "Daily team meetings and stand-ups in East African offices where updates come in Swahili or English. Captio AI captions each speaker so you follow every item.",
       "Zoom or Google Meet calls with colleagues locally or internationally. Put the call on speaker and read captions in real time.",
@@ -8382,38 +6043,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "💼",
-        title: "Team meeting",
-        description: "Marathi-language team meetings in Pune or Mumbai where tasks are assigned fast and discussions move between languages mid-sentence. Captio AI captions every speaker in real time.",
-      },
-      {
-        icon: "💻",
-        title: "Video conference",
-        description: "Remote calls with colleagues across Maharashtra — Pune, Mumbai, Nashik, Aurangabad — each bringing distinct accents to the same call. Captio AI handles the regional variation.",
-      },
-      {
-        icon: "🎤",
-        title: "Client presentation",
-        description: "Formal Marathi presentations followed by Q&A where the register shifts to informal. Captio AI captions both the prepared speech and the fast discussion that follows.",
-      },
-      {
-        icon: "🤝",
-        title: "One-on-one with manager",
-        description: "Direct conversations in Marathi — feedback, task assignment, performance review — often in a mix of Marathi, Hindi, and English. Captio AI transcribes every word accurately.",
-      },
-      {
-        icon: "🏢",
-        title: "Job interview",
-        description: "Interviews conducted in Marathi or in a Marathi-English mix — common in Pune and Mumbai corporate environments. Captio AI captions the interviewer's questions so you respond accurately.",
-      },
-      {
-        icon: "🍵",
-        title: "Work chai break or team gathering",
-        description: "Post-meeting conversations over chai where fast informal Marathi continues the discussion that started in the meeting room. Captio AI keeps you in the full conversation.",
-      },
-    ],
     useCaseDescriptions: [
       "Team meetings and stand-ups in Pune and Mumbai offices where updates come in Marathi or English. Captio AI captions each speaker so you follow every point.",
       "Google Meet or Teams calls with colleagues across Maharashtra or nationally. Put the call on speaker and read captions in real time.",
@@ -8488,38 +6117,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "💼",
-        title: "Team meeting",
-        description: "Telugu-language team meetings in Hyderabad where tasks are assigned fast and discussions move between Telugu and English. Captio AI captions every speaker in real time.",
-      },
-      {
-        icon: "💻",
-        title: "Video conference",
-        description: "Remote calls with colleagues from Hyderabad, Vijayawada, and Visakhapatnam — different regional accents and dialects on the same call. Captio AI handles the variation.",
-      },
-      {
-        icon: "🎤",
-        title: "Client presentation",
-        description: "Formal Telugu business presentations followed by Q&A in informal speech. Captio AI follows both the prepared register and the fast discussion that follows.",
-      },
-      {
-        icon: "🤝",
-        title: "One-on-one with manager",
-        description: "Direct conversations in Telugu or Telugu-English — feedback, career guidance, task assignment. Captio AI transcribes every word in real time.",
-      },
-      {
-        icon: "🏢",
-        title: "Job interview",
-        description: "Interviews conducted in Telugu or Telugu-English in Hyderabad's corporate and tech environments. Captio AI captions the interviewer's questions so you respond accurately.",
-      },
-      {
-        icon: "🍛",
-        title: "Work lunch or team gathering",
-        description: "Post-meeting conversations over lunch where informal Telugu flows fast. Professional relationships and informal decisions continue outside the meeting room. Captio AI keeps you in the conversation.",
-      },
-    ],
     useCaseDescriptions: [
       "Team meetings and stand-ups in Hyderabad and Vizag offices where updates come in Telugu or English. Captio AI captions each speaker so you follow every item.",
       "Google Meet, Teams, or Zoom calls with colleagues across Telangana or nationally. Put the call on speaker and read captions in real time.",
@@ -8593,38 +6190,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "💼",
-        title: "Team meeting",
-        description: "Turkish-language team meetings where tasks are assigned fast and discussions switch between Turkish and English. Captio AI captions every speaker in real time.",
-      },
-      {
-        icon: "💻",
-        title: "Video conference",
-        description: "Remote calls with colleagues from Istanbul, Ankara, Izmir, and other cities — different regional accents on the same call. Captio AI handles the variation accurately.",
-      },
-      {
-        icon: "🎤",
-        title: "Client presentation",
-        description: "Formal Turkish business presentations followed by Q&A in informal speech. The register shifts completely between the prepared slides and the discussion. Captio AI follows both.",
-      },
-      {
-        icon: "🤝",
-        title: "One-on-one with manager",
-        description: "Direct meetings in Turkish — performance review, task assignment, feedback — often in a mix of formal Turkish and informal speech. Captio AI transcribes every word accurately.",
-      },
-      {
-        icon: "🏢",
-        title: "Job interview",
-        description: "Interviews in Istanbul or Ankara corporate environments in formal Turkish. Captio AI captions the interviewer's questions so you respond to what was actually asked.",
-      },
-      {
-        icon: "☕",
-        title: "Work tea break or team gathering",
-        description: "Post-meeting çay conversations where fast informal Turkish continues discussions that started in the meeting room. Captio AI keeps you in the full conversation.",
-      },
-    ],
     useCaseDescriptions: [
       "Daily stand-ups and team toplantıları in Turkish offices where updates come quickly in Turkish. Captio AI captions each speaker so you follow every item.",
       "Teams or Zoom calls with colleagues across Turkey or internationally. Put the call on speaker and read captions in real time.",
@@ -8699,38 +6264,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "💼",
-        title: "Team meeting",
-        description: "Vietnamese-language team meetings where tasks are assigned fast and discussions move between Vietnamese and English. Captio AI captions every speaker in real time.",
-      },
-      {
-        icon: "💻",
-        title: "Video conference",
-        description: "Remote calls with colleagues from Hà Nội and Hồ Chí Minh City — different tonal systems on the same call. Captio AI handles both regional varieties accurately.",
-      },
-      {
-        icon: "🎤",
-        title: "Client presentation",
-        description: "Formal Vietnamese business presentations followed by Q&A in informal speech. Captio AI follows both the prepared register and the fast discussion that follows.",
-      },
-      {
-        icon: "🤝",
-        title: "One-on-one with manager",
-        description: "Direct conversations in Vietnamese — feedback, task assignment, performance review. Captio AI transcribes every word in real time, including the tonal distinctions that carry meaning.",
-      },
-      {
-        icon: "🏢",
-        title: "Job interview",
-        description: "Interviews in Vietnamese or Vietnamese-English at a Hồ Chí Minh City or Hà Nội company. Captio AI captions the interviewer's questions so you respond accurately to what was asked.",
-      },
-      {
-        icon: "🍜",
-        title: "Work lunch or team gathering",
-        description: "Post-meeting meals where fast informal Vietnamese flows freely. Professional conversations continue outside the meeting room and Captio AI keeps you in them.",
-      },
-    ],
     useCaseDescriptions: [
       "Daily stand-ups and họp nhóm in Vietnamese offices where updates come quickly in Vietnamese. Captio AI captions each speaker so you follow every item.",
       "Zoom or Google Meet calls with colleagues across Vietnam or internationally. Put the call on speaker and read captions in real time.",
@@ -8804,38 +6337,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "💼",
-        title: "Team meeting",
-        description: "Korean-language team meetings with formal honorific speech throughout and fast task assignment. Decisions arrive in rapid succession. Captio AI captions every speaker so you keep up.",
-      },
-      {
-        icon: "💻",
-        title: "Video conference",
-        description: "Remote calls with colleagues from Seoul, Busan, and regional offices — phonological variation across the same call. Captio AI captions every voice accurately.",
-      },
-      {
-        icon: "🎤",
-        title: "Client presentation",
-        description: "Formal Korean business presentations in polished honorific speech, followed by Q&A where the register drops to informal. Captio AI follows both.",
-      },
-      {
-        icon: "🤝",
-        title: "One-on-one with manager",
-        description: "Direct meetings in Korean — performance feedback, task reassignment, career guidance — in a mix of formal and informal registers. Captio AI transcribes every word in real time.",
-      },
-      {
-        icon: "🏢",
-        title: "Job interview",
-        description: "Interviews in formal Korean at a Seoul or Busan company. Captio AI captions the interviewer's questions so you respond accurately to what was asked.",
-      },
-      {
-        icon: "🍱",
-        title: "Work lunch or team dinner",
-        description: "Post-meeting meals or hweshik (team dinner) where informal Korean flows freely and professional relationships are built. Captio AI keeps you in these conversations too.",
-      },
-    ],
     useCaseDescriptions: [
       "Daily stand-ups and 팀 회의 in Korean offices where updates come quickly in formal Korean. Captio AI captions each speaker so you follow every item on the agenda.",
       "Zoom or Teams calls with colleagues domestically or with overseas partners. Put the call on speaker and read captions in real time.",
@@ -8910,38 +6411,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "💼",
-        title: "Team meeting",
-        description: "French-language team meetings where decisions and task assignments arrive fast and the register shifts from formal to informal mid-session. Captio AI captions every speaker in real time.",
-      },
-      {
-        icon: "💻",
-        title: "Video conference",
-        description: "Remote calls with colleagues from Paris, Lyon, Brussels, Geneva, and Montreal — different accents and two different phonological systems. Captio AI handles the full range of French regional variation.",
-      },
-      {
-        icon: "🎤",
-        title: "Client presentation",
-        description: "Formal French business presentations followed by fast Q&A where the register drops sharply. Captio AI follows both the prepared speech and the informal discussion.",
-      },
-      {
-        icon: "🤝",
-        title: "One-on-one with manager",
-        description: "Direct conversations in French — performance feedback, task assignment, career guidance — often in contracted informal speech. Captio AI transcribes every word accurately.",
-      },
-      {
-        icon: "🏢",
-        title: "Job interview",
-        description: "Interviews in formal or semi-formal French. Captio AI captions the interviewer's questions in real time so you respond to what was actually asked.",
-      },
-      {
-        icon: "☕",
-        title: "Work coffee break or team gathering",
-        description: "Post-meeting conversations over café where fast informal French continues the discussion from the meeting room. Captio AI keeps you in the full conversation.",
-      },
-    ],
     useCaseDescriptions: [
       "Daily stand-ups and réunions d'équipe in French offices where colleagues speak in rapid succession. Captio AI captions each person so you follow every point.",
       "Teams or Zoom calls with colleagues across France or internationally. Put the call on speaker and read captions in real time.",
@@ -9016,38 +6485,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "💼",
-        title: "Team meeting",
-        description: "Italian-language team meetings where decisions and task assignments come fast, often mixing Italian and English. Captio AI captions every speaker in real time.",
-      },
-      {
-        icon: "💻",
-        title: "Video conference",
-        description: "Remote calls with colleagues from Milan, Rome, Naples, and Palermo — different regional accents on the same call. Captio AI handles the phonological variation accurately.",
-      },
-      {
-        icon: "🎤",
-        title: "Client presentation",
-        description: "Formal Italian business presentations followed by Q&A in informal speech. Captio AI follows both the prepared formal register and the fast discussion that follows.",
-      },
-      {
-        icon: "🤝",
-        title: "One-on-one with manager",
-        description: "Direct conversations in Italian — performance feedback, task assignment, career discussion — often in informal speech. Captio AI transcribes every word accurately.",
-      },
-      {
-        icon: "🏢",
-        title: "Job interview",
-        description: "Interviews at a Milan or Rome company in standard Italian. Captio AI captions the interviewer's questions so you respond accurately to what was asked.",
-      },
-      {
-        icon: "☕",
-        title: "Work coffee or team aperitivo",
-        description: "Post-meeting conversations over caffè or aperitivo where fast informal Italian continues discussions from the meeting. Captio AI keeps you in the full conversation.",
-      },
-    ],
     useCaseDescriptions: [
       "Daily stand-ups and riunioni di team in Italian offices where updates come quickly in Italian. Captio AI captions each speaker so you follow every item.",
       "Teams or Zoom calls with colleagues across Italy or internationally. Put the call on speaker and read captions in real time.",
@@ -9122,38 +6559,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "💼",
-        title: "Team meeting",
-        description: "Tamil-language team meetings where tasks are assigned fast and the register shifts from formal Tamil to colloquial speech mid-session. Captio AI captions every speaker in real time.",
-      },
-      {
-        icon: "💻",
-        title: "Video conference",
-        description: "Remote calls with Tamil-speaking colleagues from Chennai, Coimbatore, Colombo, and Singapore — different regional accents and phonological systems on the same call. Captio AI handles the variation.",
-      },
-      {
-        icon: "🎤",
-        title: "Client presentation",
-        description: "Formal Tamil presentations followed by Q&A in colloquial speech. The register shifts completely between prepared slides and working discussion. Captio AI follows both.",
-      },
-      {
-        icon: "🤝",
-        title: "One-on-one with manager",
-        description: "Direct conversations in Tamil — performance feedback, task assignment, career guidance — in colloquial register. Captio AI transcribes every word accurately in real time.",
-      },
-      {
-        icon: "🏢",
-        title: "Job interview",
-        description: "Interviews in Tamil or Tamil-English at a Chennai or Coimbatore company. Captio AI captions the interviewer's questions so you respond accurately.",
-      },
-      {
-        icon: "☕",
-        title: "Work tea break or team gathering",
-        description: "Post-meeting conversations over tea where fast colloquial Tamil flows freely. Professional decisions and relationships continue outside the meeting room. Captio AI keeps you in both.",
-      },
-    ],
     useCaseDescriptions: [
       "Team meetings and stand-ups in Chennai and Coimbatore offices where updates come in Tamil or English. Captio AI captions each speaker so you follow every item.",
       "Google Meet or Teams calls with colleagues across Tamil Nadu or nationally. Put the call on speaker and read captions in real time.",
@@ -9228,38 +6633,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "💼",
-        title: "Team meeting",
-        description: "Persian-language team meetings where decisions are made fast and the register shifts from formal to colloquial. Captio AI captions every speaker in real time.",
-      },
-      {
-        icon: "💻",
-        title: "Video conference",
-        description: "Remote calls with Persian-speaking colleagues from Tehran, Mashhad, Kabul, and Dushanbe — different accents and phonological systems. Captio AI handles the full range of Persian regional variation.",
-      },
-      {
-        icon: "🎤",
-        title: "Client presentation",
-        description: "Formal Persian business presentations in standard register followed by Q&A in colloquial speech. Captio AI follows both the prepared speech and the informal discussion.",
-      },
-      {
-        icon: "🤝",
-        title: "One-on-one with manager",
-        description: "Direct meetings in Persian — performance review, task assignment, career guidance — often in fast colloquial speech. Captio AI transcribes every word accurately.",
-      },
-      {
-        icon: "🏢",
-        title: "Job interview",
-        description: "Interviews in formal or semi-formal Persian. Captio AI captions the interviewer's questions in real time so you respond to what was actually asked.",
-      },
-      {
-        icon: "☕",
-        title: "Work tea break or team gathering",
-        description: "Post-meeting conversations over chai where fast colloquial Persian flows freely. Professional relationships continue outside the room and Captio AI keeps you in the full conversation.",
-      },
-    ],
     useCaseDescriptions: [
       "Team meetings and stand-ups in Iranian offices where updates come in Persian. Captio AI captions each speaker so you follow every item.",
       "Skype or video calls with colleagues domestically or internationally. Put the call on speaker and read captions in real time.",
@@ -9333,38 +6706,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "💼",
-        title: "Team meeting",
-        description: "Punjabi-language team meetings where tasks are assigned fast and the language switches between Punjabi, Hindi, and English. Captio AI captions every speaker in real time.",
-      },
-      {
-        icon: "💻",
-        title: "Video conference",
-        description: "Remote calls with Punjabi-speaking colleagues from Chandigarh, Amritsar, Lahore, and London — different accents and phonological systems on the same call. Captio AI handles the variation.",
-      },
-      {
-        icon: "🎤",
-        title: "Client presentation",
-        description: "Business presentations in Punjabi or Punjabi-English followed by fast Q&A. Captio AI follows both registers and both languages accurately.",
-      },
-      {
-        icon: "🤝",
-        title: "One-on-one with manager",
-        description: "Direct meetings in Punjabi — feedback, task assignment, performance review — often in a fast mix of Punjabi, Hindi, and English. Captio AI transcribes every word accurately.",
-      },
-      {
-        icon: "🏢",
-        title: "Job interview",
-        description: "Interviews in Punjabi or Punjabi-English at a Chandigarh or Ludhiana company. Captio AI captions the interviewer's questions so you respond accurately to what was asked.",
-      },
-      {
-        icon: "🍵",
-        title: "Work chai break or team gathering",
-        description: "Post-meeting conversations over chai where fast informal Punjabi flows freely. Professional decisions continue outside the room and Captio AI keeps you in the conversation.",
-      },
-    ],
     useCaseDescriptions: [
       "Team meetings and stand-ups in Punjab offices where updates come in Punjabi, Hindi, or English. Captio AI captions each speaker so you follow every item.",
       "Google Meet or Teams calls with colleagues locally or nationally. Put the call on speaker and read captions in real time.",
@@ -9438,38 +6779,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "💼",
-        title: "Team meeting",
-        description: "Gujarati-language team meetings in Ahmedabad or Surat where decisions are made fast and discussions mix Gujarati and English. Captio AI captions every speaker in real time.",
-      },
-      {
-        icon: "💻",
-        title: "Video conference",
-        description: "Remote calls with Gujarati-speaking colleagues from Gujarat, the UK, Kenya, and Canada — different accents and code-switching patterns on the same call. Captio AI handles the variation.",
-      },
-      {
-        icon: "🎤",
-        title: "Client presentation",
-        description: "Formal Gujarati business presentations followed by Q&A in informal speech. The register shifts between the prepared deck and working discussion. Captio AI follows both.",
-      },
-      {
-        icon: "🤝",
-        title: "One-on-one with manager",
-        description: "Direct conversations in Gujarati — feedback, task assignment, career guidance — often in fast informal speech. Captio AI transcribes every word accurately.",
-      },
-      {
-        icon: "🏢",
-        title: "Job interview",
-        description: "Interviews at a Gujarat-based company or diaspora business in Gujarati or Gujarati-English. Captio AI captions the interviewer's questions so you respond accurately.",
-      },
-      {
-        icon: "☕",
-        title: "Work chai break or team gathering",
-        description: "Post-meeting conversations where informal Gujarati flows freely and professional decisions continue outside the meeting room. Captio AI keeps you in both.",
-      },
-    ],
     useCaseDescriptions: [
       "Team meetings and stand-ups in Ahmedabad and Surat offices where updates come in Gujarati or English. Captio AI captions each speaker so you follow every point.",
       "Google Meet or Teams calls with colleagues across Gujarat or nationally. Put the call on speaker and read captions in real time.",
@@ -9543,38 +6852,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "💼",
-        title: "Team meeting",
-        description: "Thai-language team meetings where decisions are made fast and discussions mix Thai and English. Captio AI captions every speaker in real time.",
-      },
-      {
-        icon: "💻",
-        title: "Video conference",
-        description: "Remote calls with colleagues from Bangkok, Chiang Mai, and regional offices — different tonal systems and accents on the same call. Captio AI handles the variation accurately.",
-      },
-      {
-        icon: "🎤",
-        title: "Client presentation",
-        description: "Formal Thai business presentations followed by Q&A in informal speech. The tone and register shift between prepared content and working discussion. Captio AI follows both.",
-      },
-      {
-        icon: "🤝",
-        title: "One-on-one with manager",
-        description: "Direct conversations in Thai — performance review, task assignment, career guidance — often in fast informal speech. Captio AI transcribes every word accurately.",
-      },
-      {
-        icon: "🏢",
-        title: "Job interview",
-        description: "Interviews in standard Thai at a Bangkok or Chiang Mai company. Captio AI captions the interviewer's questions so you respond accurately to what was asked.",
-      },
-      {
-        icon: "🍜",
-        title: "Work lunch or team gathering",
-        description: "Post-meeting meals where fast informal Thai flows freely. Professional conversations continue over food and Captio AI keeps you in the full conversation.",
-      },
-    ],
     useCaseDescriptions: [
       "Daily stand-ups and ประชุมทีม in Thai offices where updates come quickly in Thai. Captio AI captions each speaker so you follow every item.",
       "Zoom or Teams calls with colleagues across Thailand or internationally. Put the call on speaker and read captions in real time.",
@@ -9648,38 +6925,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "💼",
-        title: "Team meeting",
-        description: "Polish-language team meetings where tasks are assigned fast and the language is morphologically dense. Captio AI captions every speaker in real time.",
-      },
-      {
-        icon: "💻",
-        title: "Video conference",
-        description: "Remote calls with colleagues from Warsaw, Kraków, Gdańsk, and Katowice — regional accents and dialect variation on the same call. Captio AI handles the full range.",
-      },
-      {
-        icon: "🎤",
-        title: "Client presentation",
-        description: "Formal Polish business presentations followed by Q&A in informal speech. The morphological density of formal Polish drops in the working discussion. Captio AI follows both registers.",
-      },
-      {
-        icon: "🤝",
-        title: "One-on-one with manager",
-        description: "Direct conversations in Polish — feedback, task assignment, performance review — in formal or informal register. Captio AI transcribes every word accurately.",
-      },
-      {
-        icon: "🏢",
-        title: "Job interview",
-        description: "Interviews in formal Polish at a Warsaw or Kraków company. Captio AI captions the interviewer's questions so you respond accurately to what was asked.",
-      },
-      {
-        icon: "☕",
-        title: "Work coffee break or team gathering",
-        description: "Post-meeting conversations over kawa where fast informal Polish flows freely and professional decisions continue. Captio AI keeps you in both the meeting and what follows.",
-      },
-    ],
     useCaseDescriptions: [
       "Daily stand-ups and spotkania zespołu in Polish offices where updates come quickly in Polish. Captio AI captions each speaker so you follow every item.",
       "Teams or Zoom calls with colleagues across Poland or internationally. Put the call on speaker and read captions in real time.",
@@ -9753,38 +6998,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "💼",
-        title: "Team meeting",
-        description: "Ukrainian-language team meetings where tasks are assigned fast and the language switches between formal Ukrainian and colloquial speech. Captio AI captions every speaker in real time.",
-      },
-      {
-        icon: "💻",
-        title: "Video conference",
-        description: "Remote calls with colleagues from Kyiv, Lviv, Kharkiv, and diaspora offices in Warsaw, Berlin, and London — different regional accents on the same call. Captio AI handles the variation.",
-      },
-      {
-        icon: "🎤",
-        title: "Client presentation",
-        description: "Formal Ukrainian business presentations followed by Q&A in colloquial speech. The register shift between prepared content and working discussion is large. Captio AI follows both.",
-      },
-      {
-        icon: "🤝",
-        title: "One-on-one with manager",
-        description: "Direct conversations in Ukrainian — feedback, task assignment, career guidance — in formal or informal register. Captio AI transcribes every word accurately.",
-      },
-      {
-        icon: "🏢",
-        title: "Job interview",
-        description: "Interviews in Ukrainian at a Kyiv or Lviv company or a diaspora employer. Captio AI captions the interviewer's questions so you respond accurately.",
-      },
-      {
-        icon: "☕",
-        title: "Work coffee break or team gathering",
-        description: "Post-meeting conversations where fast informal Ukrainian continues discussions from the meeting room. Captio AI keeps you in the full conversation.",
-      },
-    ],
     useCaseDescriptions: [
       "Daily stand-ups and командні зустрічі in Ukrainian offices where updates come in Ukrainian or English. Captio AI captions each speaker so you follow every item.",
       "Zoom or Teams calls with colleagues in Ukraine or internationally. Put the call on speaker and read captions in real time.",
@@ -9858,38 +7071,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "💼",
-        title: "Team meeting",
-        description: "Malaysian Malay team meetings where tasks are assigned fast and the language mixes Bahasa Malaysia, English, and Manglish throughout. Captio AI captions every speaker in real time.",
-      },
-      {
-        icon: "💻",
-        title: "Video conference",
-        description: "Remote calls with colleagues across Malaysia, Singapore, and Brunei — different regional varieties and phonological systems on the same call. Captio AI handles the variation accurately.",
-      },
-      {
-        icon: "🎤",
-        title: "Client presentation",
-        description: "Formal Bahasa Malaysia presentations followed by Q&A in informal Manglish speech. The register shifts sharply between prepared content and working discussion. Captio AI follows both.",
-      },
-      {
-        icon: "🤝",
-        title: "One-on-one with manager",
-        description: "Direct conversations in Bahasa Malaysia — performance review, task assignment, career guidance — often in fast informal speech. Captio AI transcribes every word accurately.",
-      },
-      {
-        icon: "🏢",
-        title: "Job interview",
-        description: "Interviews in Bahasa Malaysia or Bahasa Malaysia-English at a Kuala Lumpur or Penang company. Captio AI captions the interviewer's questions so you respond accurately.",
-      },
-      {
-        icon: "🍜",
-        title: "Work lunch or team gathering",
-        description: "Post-meeting meals at the mamak or team lunch where fast Manglish flows freely. Professional conversations continue over food and Captio AI keeps you in the conversation.",
-      },
-    ],
     useCaseDescriptions: [
       "Daily mesyuarat pasukan and stand-ups in Malaysian offices where updates come in Bahasa Melayu or English. Captio AI captions each speaker so you follow every item.",
       "Teams or Zoom calls with colleagues across Malaysia or internationally. Put the call on speaker and read captions in real time.",
@@ -9963,38 +7144,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "💼",
-        title: "Team meeting",
-        description: "Malayalam-language team meetings where tasks are assigned fast and the language shifts between formal and colloquial speech. Captio AI captions every speaker in real time.",
-      },
-      {
-        icon: "💻",
-        title: "Video conference",
-        description: "Remote calls with colleagues from Kochi, Thiruvananthapuram, Kozhikode, and Thrissur — regional accents and dialect variation on the same call. Captio AI handles the full range.",
-      },
-      {
-        icon: "🎤",
-        title: "Client presentation",
-        description: "Formal Malayalam business presentations followed by Q&A in colloquial speech. The register shifts sharply between prepared content and working discussion. Captio AI follows both.",
-      },
-      {
-        icon: "🤝",
-        title: "One-on-one with manager",
-        description: "Direct conversations in Malayalam — feedback, task assignment, career guidance — in colloquial or formal register. Captio AI transcribes every word accurately.",
-      },
-      {
-        icon: "🏢",
-        title: "Job interview",
-        description: "Interviews in Malayalam or Malayalam-English at a Kochi or Thiruvananthapuram company. Captio AI captions the interviewer's questions so you respond accurately.",
-      },
-      {
-        icon: "☕",
-        title: "Work chai break or team gathering",
-        description: "Post-meeting conversations over chai where fast colloquial Malayalam flows freely. Professional decisions continue outside the meeting room and Captio AI keeps you in both.",
-      },
-    ],
     useCaseDescriptions: [
       "Team meetings and stand-ups in Kochi and Thiruvananthapuram offices where updates come in Malayalam or English. Captio AI captions each speaker so you follow every point.",
       "Google Meet or Teams calls with colleagues across Kerala or nationally. Put the call on speaker and read captions in real time.",
@@ -10068,38 +7217,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      {
-        icon: "💼",
-        title: "Team meeting",
-        description: "Kannada-language team meetings in Bangalore where tasks are assigned fast and the language mixes Kannada and English continuously. Captio AI captions every speaker in real time.",
-      },
-      {
-        icon: "💻",
-        title: "Video conference",
-        description: "Remote calls with colleagues from Bangalore, Mysore, Dharwad, and Hubli — different regional accents on the same call. Captio AI handles the dialect variation accurately.",
-      },
-      {
-        icon: "🎤",
-        title: "Client presentation",
-        description: "Formal Kannada presentations followed by Q&A in fast colloquial speech. The register and English density shift sharply between prepared content and working discussion. Captio AI follows both.",
-      },
-      {
-        icon: "🤝",
-        title: "One-on-one with manager",
-        description: "Direct conversations in Kannada — performance feedback, task assignment, career guidance — in informal Kannada or Kannada-English. Captio AI transcribes every word accurately.",
-      },
-      {
-        icon: "🏢",
-        title: "Job interview",
-        description: "Interviews in Kannada or Kannada-English at a Bangalore tech or manufacturing company. Captio AI captions the interviewer's questions so you respond accurately.",
-      },
-      {
-        icon: "☕",
-        title: "Work filter coffee break or team gathering",
-        description: "Post-meeting conversations over filter coffee where fast informal Kannada and Kannada-English flows freely. Professional decisions continue outside the room and Captio AI keeps you in them.",
-      },
-    ],
     useCaseDescriptions: [
       "Team meetings and stand-ups in Bengaluru and Mysuru offices where updates come in Kannada or English. Captio AI captions each speaker so you follow every item.",
       "Google Meet or Teams calls with colleagues across Karnataka or nationally. Put the call on speaker and read captions in real time.",
@@ -10171,14 +7288,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      { icon: "🏢", title: "Office team briefing", description: "A fast-paced morning rundown where the manager covers targets and deadlines in a mix of Tagalog and English." },
-      { icon: "📞", title: "Video call with remote colleagues", description: "A team meeting on video where participants join from different Philippine cities, each bringing their own regional accent." },
-      { icon: "📋", title: "Client presentation", description: "A formal presentation delivered in English where questions come back from clients in Filipino." },
-      { icon: "☕", title: "Post-meeting debrief", description: "An informal corridor conversation after a meeting where action items are confirmed in casual Taglish." },
-      { icon: "🎓", title: "Training session", description: "A workplace training delivered partly in English for materials and partly in Tagalog for explanation." },
-      { icon: "📊", title: "Performance review", description: "A one-on-one covering feedback and expectations in a mix of Tagalog and English." },
-    ],
     useCaseDescriptions: [
       "Daily stand-ups and pulong ng team in Filipino offices where updates come in Filipino or English. Captio AI captions each speaker so you follow every item.",
       "Zoom or Teams calls with colleagues locally or with international BPO clients. Put the call on speaker and read captions in real time.",
@@ -10251,14 +7360,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      { icon: "🏢", title: "Business meeting", description: "A formal boardroom session in Baku covering contracts, targets, and client updates in Azerbaijani." },
-      { icon: "📞", title: "Cross-border video call", description: "A video meeting with colleagues in both Azerbaijan and Iran where North and South Azerbaijani varieties are both spoken." },
-      { icon: "🤝", title: "Client negotiation", description: "A negotiation session where formal Azerbaijani is used for the official exchange and Russian terms appear in technical discussion." },
-      { icon: "📊", title: "Team briefing", description: "A weekly team update where the manager presents targets in Azerbaijani and fields questions from the team." },
-      { icon: "🎓", title: "Training workshop", description: "An in-company training delivered in Azerbaijani with technical vocabulary drawn on Russian-origin terms." },
-      { icon: "☕", title: "Corridor debrief", description: "An informal post-meeting conversation where the real decisions are made in fast casual Azerbaijani." },
-    ],
     useCaseDescriptions: [
       "Daily stand-ups and komanda iclasları in Azerbaijani offices where updates come in Azerbaijani or Russian. Captio AI captions each speaker so you follow every item.",
       "Zoom or Teams calls with colleagues locally or internationally. Put the call on speaker and read captions in real time.",
@@ -10331,14 +7432,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      { icon: "🏢", title: "Team standup", description: "A daily Dutch-language standup covering sprint progress and blockers at a fast-paced tech or logistics company." },
-      { icon: "📞", title: "Video call with remote colleagues", description: "A cross-border meeting with Belgian colleagues where Netherlands Dutch and Flemish are both spoken in the same session." },
-      { icon: "🤝", title: "Client meeting", description: "A formal client-facing meeting where the team presents in standard Dutch and fields questions." },
-      { icon: "📊", title: "Performance review", description: "A one-on-one between manager and employee covering targets and feedback in Dutch." },
-      { icon: "🎓", title: "Training session", description: "An in-company training delivered in Dutch with technical vocabulary from the host industry." },
-      { icon: "☕", title: "Post-meeting corridor chat", description: "An informal debrief where action items are finalised in fast casual Dutch after the formal meeting ends." },
-    ],
     useCaseDescriptions: [
       "Daily stand-ups and teamoverleg in Dutch offices where colleagues give updates in rapid Dutch. Captio AI captions each speaker so you follow every point.",
       "Teams or Zoom calls with colleagues across the Netherlands or internationally. Put the call on speaker and read captions in real time.",
@@ -10411,14 +7504,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      { icon: "🏢", title: "Corporate team meeting", description: "A Bucharest office meeting covering targets, project updates, and client status in Romanian." },
-      { icon: "📞", title: "Video call with remote colleagues", description: "A meeting on video where participants from different regions bring different accents — Bucharest standard and Transylvanian varieties in the same call." },
-      { icon: "🤝", title: "Client presentation", description: "A formal client meeting where the pitch is in Romanian and questions may come in both Romanian and English." },
-      { icon: "📊", title: "Performance review", description: "A one-on-one covering feedback and targets in Romanian, mixing standard corporate and formal registers." },
-      { icon: "🎓", title: "Training session", description: "An in-company training delivered in Romanian with technical vocabulary drawn partly from English." },
-      { icon: "☕", title: "Post-meeting debrief", description: "An informal corridor conversation in fast casual Romanian where final decisions are often actually made." },
-    ],
     useCaseDescriptions: [
       "Daily ședințe de echipă and stand-ups in Romanian offices where updates come quickly in Romanian. Captio AI captions each speaker so you follow every item.",
       "Teams or Zoom calls with colleagues across Romania or internationally. Put the call on speaker and read captions in real time.",
@@ -10491,14 +7576,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      { icon: "🏢", title: "Office team meeting", description: "A weekly team meeting in Nur-Sultan covering project progress in Kazakh and Russian." },
-      { icon: "📞", title: "Video call with remote colleagues", description: "A meeting on video where participants from different cities bring Northern and Southern Kazakh phonological varieties into the same call." },
-      { icon: "🤝", title: "Client negotiation", description: "A formal business negotiation mixing Kazakh and Russian depending on client preference and formality level." },
-      { icon: "📊", title: "Management briefing", description: "A briefing from senior management delivered in Kazakh with Russian-origin technical vocabulary." },
-      { icon: "🎓", title: "Training workshop", description: "An in-company training session delivered in Kazakh with bilingual materials in both Cyrillic and Latin scripts." },
-      { icon: "☕", title: "Post-meeting debrief", description: "An informal hallway conversation where the final decisions switch freely between Kazakh and Russian." },
-    ],
     useCaseDescriptions: [
       "Daily командалық жиналыстар and stand-ups in Kazakhstani offices where updates come in Kazakh or Russian. Captio AI captions each speaker so you follow every item.",
       "Zoom or Teams calls with colleagues locally or internationally. Put the call on speaker and read captions in real time.",
@@ -10571,14 +7648,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      { icon: "🏢", title: "Team standup", description: "A daily Agile standup in Czech covering sprint tasks, blockers, and deliverables at full pace." },
-      { icon: "📞", title: "Video call with remote colleagues", description: "A cross-office call where Bohemian Czech and Moravian-accented colleagues are in the same meeting." },
-      { icon: "🤝", title: "Client presentation", description: "A formal client meeting delivered in Czech where questions may come in regional accents." },
-      { icon: "📊", title: "Performance review", description: "A one-on-one between manager and employee conducted in Czech covering feedback and targets." },
-      { icon: "🎓", title: "Training session", description: "An in-company training delivered in Czech with English technical vocabulary integrated throughout." },
-      { icon: "☕", title: "Post-meeting corridor chat", description: "An informal debrief after a meeting in fast casual Czech where action items are confirmed." },
-    ],
     useCaseDescriptions: [
       "Daily stand-upy and týmové porady in Czech offices where updates come quickly in Czech. Captio AI captions each speaker so you follow every item.",
       "Teams or Zoom calls with colleagues across the Czech Republic or internationally. Put the call on speaker and read captions in real time.",
@@ -10651,14 +7720,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      { icon: "🏢", title: "Team meeting", description: "A weekly Budapest office meeting covering projects, targets, and client updates in Hungarian." },
-      { icon: "📞", title: "Video call", description: "A meeting on video with colleagues across Hungary where different regional accents are present." },
-      { icon: "🤝", title: "Client presentation", description: "A formal business presentation in Hungarian where the speaker reads from complex written Hungarian and fields questions." },
-      { icon: "📊", title: "Performance review", description: "A one-on-one in Hungarian covering feedback and targets for the quarter." },
-      { icon: "🎓", title: "Training workshop", description: "An in-company training delivered in Hungarian mixing standard language with English-origin technical vocabulary." },
-      { icon: "☕", title: "Post-meeting debrief", description: "A corridor conversation after a meeting in fast casual Hungarian where actual decisions are often confirmed." },
-    ],
     useCaseDescriptions: [
       "Daily csapatmegbeszélések and stand-ups in Hungarian offices where updates come in Hungarian. Captio AI captions each speaker so you follow every item.",
       "Teams or Zoom calls with colleagues across Hungary or internationally. Put the call on speaker and read captions in real time.",
@@ -10731,14 +7792,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      { icon: "🏢", title: "Office team meeting", description: "A weekly Athens team meeting covering targets, projects, and client updates in Greek." },
-      { icon: "📞", title: "Video call with remote colleagues", description: "A meeting on video where participants from different parts of Greece bring regional accents into the same call." },
-      { icon: "🤝", title: "Client presentation", description: "A formal presentation in Greek where the client may include speakers from Cyprus or different regional accents." },
-      { icon: "📊", title: "Performance review", description: "A one-on-one in Greek covering targets and feedback with the manager." },
-      { icon: "🎓", title: "Training workshop", description: "An in-company training delivered in Greek with English technical vocabulary integrated throughout." },
-      { icon: "☕", title: "Post-meeting coffee chat", description: "An informal debrief over coffee after a meeting in fast casual Greek where decisions are often finalised." },
-    ],
     useCaseDescriptions: [
       "Daily συναντήσεις ομάδας and stand-ups in Greek offices where updates come quickly in Greek. Captio AI captions each speaker so you follow every item.",
       "Teams or Zoom calls with colleagues across Greece or internationally. Put the call on speaker and read captions in real time.",
@@ -10811,14 +7864,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      { icon: "🏢", title: "Team standup", description: "A daily Agile standup in Swedish at a Stockholm tech company covering sprint progress and blockers." },
-      { icon: "📞", title: "Video call with remote colleagues", description: "A meeting on video where Stockholm standard Swedish and Skåne-accented colleagues are in the same call." },
-      { icon: "🤝", title: "Client meeting", description: "A formal client-facing meeting in Swedish where the presentation and questions mix standard Swedish and English terms." },
-      { icon: "📊", title: "Performance review", description: "A one-on-one in Swedish covering feedback and targets with the manager." },
-      { icon: "🎓", title: "Training session", description: "An in-company training delivered in Swedish with English vocabulary throughout." },
-      { icon: "☕", title: "Fika debrief", description: "An informal post-meeting fika conversation where the real decisions are often finalised in fast casual Swedish." },
-    ],
     useCaseDescriptions: [
       "Daily stand-ups and teammöten in Swedish offices where colleagues give structured updates in quick succession. Captio AI captions each person so you follow every point.",
       "Teams or Zoom calls with colleagues across Sweden or internationally. Put the call on speaker and read captions in real time.",
@@ -10891,14 +7936,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      { icon: "🚀", title: "Startup standup", description: "A fast daily standup at a Tel Aviv tech startup covering sprint progress in fast casual Israeli Hebrew." },
-      { icon: "🏢", title: "Corporate boardroom meeting", description: "A formal Tel Aviv or Jerusalem board meeting in standard Hebrew with management presentations." },
-      { icon: "📞", title: "Video call with international team", description: "A meeting connecting Israeli Hebrew speakers with diaspora colleagues whose Hebrew carries Ashkenazi or Mizrahi phonological influence." },
-      { icon: "📊", title: "Performance review", description: "A one-on-one in Hebrew covering targets, feedback, and expectations for the year." },
-      { icon: "🎓", title: "Training workshop", description: "An in-company training delivered in Hebrew with English technical vocabulary mixed throughout." },
-      { icon: "☕", title: "Post-meeting debrief", description: "An informal conversation after a meeting in fast casual Israeli Hebrew where practical decisions are confirmed." },
-    ],
     useCaseDescriptions: [
       "Daily stand-ups and פגישות צוות in Israeli offices where updates come quickly in Hebrew. Captio AI captions each speaker so you follow every item.",
       "Zoom or Teams calls with colleagues locally or internationally. Put the call on speaker and read captions in real time.",
@@ -10972,14 +8009,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      { icon: "🏢", title: "Team standup", description: "A daily meeting in a Sofia tech company covering sprint tasks and deliverables in fast Bulgarian." },
-      { icon: "📞", title: "Video call with remote colleagues", description: "A meeting on video where participants from different regions bring Eastern and Western Bulgarian phonological varieties into the same call." },
-      { icon: "🤝", title: "Client presentation", description: "A formal client meeting in Bulgarian where questions may come from speakers with different regional accents." },
-      { icon: "📊", title: "Performance review", description: "A one-on-one in Bulgarian covering feedback and targets for the quarter." },
-      { icon: "🎓", title: "Training workshop", description: "An in-company training delivered in Bulgarian with English technical vocabulary integrated throughout." },
-      { icon: "☕", title: "Post-meeting debrief", description: "An informal conversation after a meeting in fast casual Bulgarian where final decisions are often confirmed." },
-    ],
     useCaseDescriptions: [
       "Daily екипни срещи and stand-ups in Bulgarian offices where updates come in Bulgarian or English. Captio AI captions each speaker so you follow every item.",
       "Teams or Zoom calls with colleagues locally or internationally. Put the call on speaker and read captions in real time.",
@@ -11052,14 +8081,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      { icon: "🏢", title: "Office team meeting", description: "A weekly Belgrade office meeting covering project status and targets in Serbian." },
-      { icon: "📞", title: "Cross-border video call", description: "A meeting with colleagues from Bosnia-Herzegovina or Montenegro where Ijekavian and Ekavian Serbian are both spoken." },
-      { icon: "🤝", title: "Client presentation", description: "A formal business presentation in Serbian where clients may speak regional varieties." },
-      { icon: "📊", title: "Performance review", description: "A one-on-one in Serbian covering feedback and targets with the manager." },
-      { icon: "🎓", title: "Training session", description: "An in-company training delivered in Serbian with English technical vocabulary integrated throughout." },
-      { icon: "☕", title: "Post-meeting corridor chat", description: "An informal debrief in fast colloquial Belgrade Serbian where action items are confirmed." },
-    ],
     useCaseDescriptions: [
       "Daily тимски стендапови and sastanci in Serbian offices where updates come in Serbian. Captio AI captions each speaker so you follow every item.",
       "Teams or Zoom calls with colleagues locally or internationally. Put the call on speaker and read captions in real time.",
@@ -11132,14 +8153,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      { icon: "🏢", title: "Team standup", description: "A daily standup in a Copenhagen company covering sprint tasks and blockers in fast Danish." },
-      { icon: "📞", title: "Video call with remote colleagues", description: "A meeting on video where Copenhagen standard Danish speakers and Jutlandic-accented colleagues are in the same call." },
-      { icon: "🤝", title: "Client meeting", description: "A formal client presentation in Danish where the team presents and fields questions from regional speakers." },
-      { icon: "📊", title: "Performance review", description: "A one-on-one in Danish covering feedback and targets with the manager." },
-      { icon: "🎓", title: "Training session", description: "An in-company training delivered in Danish with English technical vocabulary throughout." },
-      { icon: "☕", title: "Post-meeting chat", description: "An informal conversation after a meeting in fast casual Copenhagen Danish where decisions are finalised." },
-    ],
     useCaseDescriptions: [
       "Daily stand-ups and teammøder in Danish offices where colleagues give updates in fast succession. Captio AI captions each person so you follow every point.",
       "Teams or Zoom calls with colleagues across Denmark or internationally. Put the call on speaker and read captions in real time.",
@@ -11212,14 +8225,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      { icon: "🏢", title: "Office team meeting", description: "A weekly Tirana team meeting covering project targets and client updates in Albanian." },
-      { icon: "📞", title: "Video call with remote colleagues", description: "A meeting on video with colleagues from different regions where Gheg and Tosk Albanian varieties are both present." },
-      { icon: "🤝", title: "Client presentation", description: "A formal business presentation in Albanian with clients from different regions of Albania or Kosovo." },
-      { icon: "📊", title: "Performance review", description: "A one-on-one in Albanian covering feedback and targets with the manager." },
-      { icon: "🎓", title: "Training session", description: "An in-company training delivered in Albanian with English technical vocabulary integrated throughout." },
-      { icon: "☕", title: "Post-meeting debrief", description: "An informal conversation after a meeting in fast casual Albanian where final decisions are confirmed." },
-    ],
     useCaseDescriptions: [
       "Daily takime ekipi and stand-ups in Albanian offices where updates come in Albanian. Captio AI captions each speaker so you follow every item.",
       "Zoom or Teams calls with colleagues locally or internationally. Put the call on speaker and read captions in real time.",
@@ -11292,14 +8297,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      { icon: "🏢", title: "Office team meeting", description: "A weekly meeting at a Cape Town or Johannesburg company covering targets and updates in Afrikaans." },
-      { icon: "📞", title: "Video call between Cape Town and Johannesburg", description: "A cross-city meeting where Cape Afrikaans and Gauteng Afrikaans varieties are both spoken." },
-      { icon: "🤝", title: "Client presentation", description: "A formal presentation in Afrikaans where clients or colleagues may switch to English mid-meeting." },
-      { icon: "📊", title: "Performance review", description: "A one-on-one in Afrikaans covering feedback and targets for the quarter." },
-      { icon: "🎓", title: "Training workshop", description: "An in-company training delivered in Afrikaans with English technical vocabulary throughout." },
-      { icon: "☕", title: "Post-meeting debrief", description: "An informal discussion after a meeting in fast casual Afrikaans where action items are confirmed." },
-    ],
     useCaseDescriptions: [
       "Daily spanvergaderings and stand-ups in South African offices where updates come in Afrikaans or English. Captio AI captions each speaker so you follow every item.",
       "Teams or Zoom calls with colleagues across South Africa or internationally. Put the call on speaker and read captions in real time.",
@@ -11372,14 +8369,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      { icon: "🏢", title: "Office team meeting", description: "A weekly Minsk team meeting covering project targets in Belarusian or a mix of Belarusian and Russian." },
-      { icon: "📞", title: "Video call with regional colleagues", description: "A meeting connecting Minsk speakers with colleagues from Vitebsk, Grodno, or Brest where regional dialects are present." },
-      { icon: "🤝", title: "Client negotiation", description: "A formal business negotiation in Belarusian or Russian depending on participant preference and context." },
-      { icon: "📊", title: "Management briefing", description: "A briefing from senior management delivered in the Trasianka mixed register common in Belarusian professional settings." },
-      { icon: "🎓", title: "Training session", description: "An in-company training delivered in a mix of Belarusian and Russian with formal and technical vocabulary." },
-      { icon: "☕", title: "Post-meeting corridor chat", description: "An informal conversation after a meeting in fast casual mixed Belarusian-Russian where practical decisions are confirmed." },
-    ],
     useCaseDescriptions: [
       "Daily камандныя нарады and stand-ups in Belarusian offices where updates come in Belarusian or Russian. Captio AI captions each speaker so you follow every item.",
       "Zoom or Teams calls with colleagues locally or internationally. Put the call on speaker and read captions in real time.",
@@ -11452,14 +8441,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      { icon: "🏢", title: "Team standup", description: "A daily standup in a Helsinki tech company covering sprint progress and blockers in Finnish." },
-      { icon: "📞", title: "Video call with remote colleagues", description: "A meeting on video where Helsinki standard Finnish and regional varieties from other parts of Finland are both present." },
-      { icon: "🤝", title: "Client presentation", description: "A formal client meeting in Finnish where the presentation is delivered in standard Finnish and questions may come in regional accents." },
-      { icon: "📊", title: "Performance review", description: "A one-on-one in Finnish covering feedback and targets with the manager." },
-      { icon: "🎓", title: "Training session", description: "An in-company training delivered in Finnish with English technical vocabulary throughout." },
-      { icon: "☕", title: "Coffee break debrief", description: "An informal conversation over coffee after a meeting in fast casual Finnish where final decisions are confirmed." },
-    ],
     useCaseDescriptions: [
       "Daily tiimipalaverit and stand-ups in Finnish offices where colleagues give concise updates. Captio AI captions each person so you follow every point.",
       "Teams or Zoom calls with colleagues across Finland or internationally. Put the call on speaker and read captions in real time.",
@@ -11532,14 +8513,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      { icon: "🏢", title: "Team standup", description: "A daily standup in a Bratislava tech company covering sprint tasks and blockers in Slovak." },
-      { icon: "📞", title: "Video call with remote colleagues", description: "A meeting on video where Western Slovak standard speech and Eastern Slovak-accented colleagues are in the same call." },
-      { icon: "🤝", title: "Client presentation", description: "A formal client meeting delivered in Slovak where clients may speak Czech or Eastern Slovak varieties." },
-      { icon: "📊", title: "Performance review", description: "A one-on-one in Slovak covering feedback and targets for the quarter." },
-      { icon: "🎓", title: "Training session", description: "An in-company training delivered in Slovak with Czech and English vocabulary integrated throughout." },
-      { icon: "☕", title: "Post-meeting corridor chat", description: "An informal debrief in fast casual Slovak where action items are confirmed." },
-    ],
     useCaseDescriptions: [
       "Daily tímové stand-upy and porady in Slovak offices where updates come quickly in Slovak. Captio AI captions each speaker so you follow every item.",
       "Teams or Zoom calls with colleagues across Slovakia or internationally. Put the call on speaker and read captions in real time.",
@@ -11612,14 +8585,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      { icon: "🏢", title: "Office team meeting", description: "A weekly Zagreb team meeting covering project status, targets, and updates in Croatian." },
-      { icon: "📞", title: "Video call with remote colleagues", description: "A meeting on video where inland standard Croatian and coastal Čakavian-influenced varieties are both spoken." },
-      { icon: "🤝", title: "Client presentation", description: "A formal business meeting in Croatian where clients may speak regional varieties from different parts of Croatia." },
-      { icon: "📊", title: "Performance review", description: "A one-on-one in Croatian covering feedback and targets for the quarter." },
-      { icon: "🎓", title: "Training session", description: "An in-company training delivered in Croatian with English technical vocabulary throughout." },
-      { icon: "☕", title: "Post-meeting debrief", description: "An informal corridor conversation after a meeting in fast casual Zagreb Croatian where decisions are confirmed." },
-    ],
     useCaseDescriptions: [
       "Daily tимски sastanci and stand-ups in Croatian offices where updates come in Croatian. Captio AI captions each speaker so you follow every item.",
       "Teams or Zoom calls with colleagues across Croatia or internationally. Put the call on speaker and read captions in real time.",
@@ -11692,14 +8657,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      { icon: "🏢", title: "Team standup", description: "A daily standup at an Oslo tech company covering sprint tasks and blockers in Norwegian." },
-      { icon: "📞", title: "Video call with remote colleagues", description: "A meeting on video where Eastern Norwegian and Western or Northern Norwegian dialects are both spoken in the same call." },
-      { icon: "🤝", title: "Client meeting", description: "A formal client-facing meeting in Norwegian where the presentation and questions mix Norwegian and English." },
-      { icon: "📊", title: "Performance review", description: "A one-on-one in Norwegian covering feedback and targets with the manager." },
-      { icon: "🎓", title: "Training session", description: "An in-company training delivered in Norwegian with English technical vocabulary throughout." },
-      { icon: "☕", title: "Post-meeting debrief", description: "An informal conversation after a meeting in fast casual Norwegian where action items are confirmed." },
-    ],
     useCaseDescriptions: [
       "Daily stand-ups and teammøter in Norwegian offices where colleagues give concise updates in Norwegian. Captio AI captions each person so you follow every point.",
       "Teams or Zoom calls with colleagues across Norway or internationally. Put the call on speaker and read captions in real time.",
@@ -11772,14 +8729,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      { icon: "🏢", title: "Team meeting", description: "A weekly team meeting in Catalan, switching to Spanish when external colleagues dial in." },
-      { icon: "💻", title: "Video call with remote colleagues", description: "A Teams or Zoom call with colleagues from Barcelona, Valencia, and the Balearic Islands — each with a distinct regional accent." },
-      { icon: "📋", title: "Project briefing", description: "A project kick-off where the brief is delivered in Catalan and slides are in Spanish." },
-      { icon: "🤝", title: "Client presentation", description: "A formal presentation to a Catalan client where formality shifts the register away from casual office speech." },
-      { icon: "☕", title: "Post-meeting debrief", description: "An informal conversation after the meeting in fast casual Catalan where action items are confirmed." },
-      { icon: "📞", title: "One-on-one call", description: "A performance review or one-to-one conversation conducted entirely in Catalan." },
-    ],
     useCaseDescriptions: [
       "Daily stand-ups and reunions d'equip in Catalan offices where colleagues give updates in Catalan or Spanish. Captio AI captions each person so you follow every point.",
       "Teams or Zoom calls with colleagues across Catalonia or internationally. Put the call on speaker and read captions in real time.",
@@ -11852,14 +8801,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      { icon: "🏢", title: "Team meeting", description: "A weekly team meeting at a Vilnius company where the agenda is in English but the discussion is in Lithuanian." },
-      { icon: "💻", title: "Video call with remote colleagues", description: "A video call with colleagues across Lithuania — some from Vilnius, some from the Samogitian-speaking northwest." },
-      { icon: "📋", title: "Project briefing", description: "A project kick-off delivered in Lithuanian with English slides and technical terms throughout." },
-      { icon: "🤝", title: "Client call", description: "A client call with a Lithuanian business contact where formal Lithuanian register is used throughout." },
-      { icon: "☕", title: "Post-meeting debrief", description: "An informal exchange after a meeting in fast casual Lithuanian where key decisions are confirmed." },
-      { icon: "📞", title: "One-on-one review", description: "A performance review or salary discussion conducted entirely in Lithuanian." },
-    ],
     useCaseDescriptions: [
       "Daily komandos susitikimai and stand-ups in Lithuanian offices where updates come in Lithuanian. Captio AI captions each speaker so you follow every item.",
       "Teams or Zoom calls with colleagues across Lithuania or internationally. Put the call on speaker and read captions in real time.",
@@ -11932,14 +8873,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      { icon: "🏢", title: "Team meeting", description: "A weekly team meeting in Bosnian at a Sarajevo firm, sometimes joined by colleagues from Belgrade or Zagreb who shift the dialect mid-meeting." },
-      { icon: "💻", title: "Video call with remote colleagues", description: "A video call with colleagues across Bosnia and Herzegovina, each speaking a different regional variety of Bosnian-Croatian-Serbian." },
-      { icon: "📋", title: "Project briefing", description: "A project brief delivered in Bosnian with terminology drawn from English, Turkish, and German loanwords." },
-      { icon: "🤝", title: "Client presentation", description: "A formal presentation to a Bosnian client where formal register replaces the casual Sarajevo speech of the hallway." },
-      { icon: "☕", title: "Post-meeting debrief", description: "An informal conversation after a meeting in fast casual Bosnian where key decisions and next steps are confirmed." },
-      { icon: "📞", title: "One-on-one call", description: "A performance review or bilateral discussion conducted entirely in Bosnian." },
-    ],
     useCaseDescriptions: [
       "Daily tимски sastanci and stand-ups in Bosnian offices where updates come in Bosnian. Captio AI captions each speaker so you follow every item.",
       "Zoom or Teams calls with colleagues locally or internationally. Put the call on speaker and read captions in real time.",
@@ -12012,14 +8945,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      { icon: "🏢", title: "Team meeting", description: "A weekly team meeting in Galician at a Santiago de Compostela company, switching to Spanish when non-Galician colleagues join." },
-      { icon: "💻", title: "Video call with remote colleagues", description: "A video call with colleagues across Galicia and occasionally from elsewhere in Spain or Portugal." },
-      { icon: "📋", title: "Public sector briefing", description: "A briefing at a Galician regional government office where formal Galician is used throughout." },
-      { icon: "🤝", title: "Client presentation", description: "A presentation to a Galician client in Vigo or A Coruña where the formal register suppresses casual gheada variants." },
-      { icon: "☕", title: "Post-meeting debrief", description: "An informal exchange after a meeting in fast casual Galician where action items are confirmed." },
-      { icon: "📞", title: "One-on-one review", description: "A performance review or bilateral discussion conducted entirely in Galician." },
-    ],
     useCaseDescriptions: [
       "Daily reunións de equipo and stand-ups in Galician offices where updates come in Galician or Spanish. Captio AI captions each speaker so you follow every item.",
       "Teams or Zoom calls with colleagues across Galicia or nationally. Put the call on speaker and read captions in real time.",
@@ -12092,14 +9017,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      { icon: "🏢", title: "Team meeting", description: "A weekly team meeting at a Skopje company where the discussion is in Macedonian and slides are in English." },
-      { icon: "💻", title: "Video call with remote colleagues", description: "A video call with colleagues across North Macedonia — from Skopje, Bitola, and the northwestern bilingual regions." },
-      { icon: "📋", title: "Project briefing", description: "A project kick-off where the brief is delivered in Macedonian with English technical terminology throughout." },
-      { icon: "🤝", title: "Client presentation", description: "A formal presentation to a Macedonian client where formal standard Macedonian differs from the office speech a deaf attendee normally hears." },
-      { icon: "☕", title: "Post-meeting debrief", description: "An informal exchange after a meeting in fast casual Macedonian where action items and next steps are confirmed." },
-      { icon: "📞", title: "One-on-one call", description: "A performance review or bilateral discussion conducted entirely in Macedonian." },
-    ],
     useCaseDescriptions: [
       "Daily тимски состаноци and stand-ups in Macedonian offices where updates come in Macedonian. Captio AI captions each speaker so you follow every item.",
       "Zoom or Teams calls with colleagues locally or internationally. Put the call on speaker and read captions in real time.",
@@ -12172,14 +9089,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      { icon: "🏢", title: "Team meeting", description: "A weekly team meeting at a Ljubljana company where the discussion is in Slovenian and slides are in English." },
-      { icon: "💻", title: "Video call with remote colleagues", description: "A video call with colleagues from different Slovenian regions — each speaking a distinct dialect." },
-      { icon: "📋", title: "Project briefing", description: "A project kick-off in Slovenian with German and English technical terminology throughout." },
-      { icon: "🤝", title: "Client presentation", description: "A formal presentation to a Slovenian client where formal standard Slovenian differs from casual regional office speech." },
-      { icon: "☕", title: "Post-meeting debrief", description: "An informal conversation after a meeting in fast casual Slovenian where action items are confirmed." },
-      { icon: "📞", title: "One-on-one review", description: "A performance review or bilateral discussion conducted entirely in Slovenian." },
-    ],
     useCaseDescriptions: [
       "Daily ekipni sestanki and stand-ups in Slovenian offices where updates come in Slovenian or English. Captio AI captions each speaker so you follow every item.",
       "Teams or Zoom calls with colleagues across Slovenia or internationally. Put the call on speaker and read captions in real time.",
@@ -12252,14 +9161,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      { icon: "🏢", title: "Team meeting", description: "A weekly team meeting at a Riga company where the discussion is in Latvian and slides are in English." },
-      { icon: "💻", title: "Video call with remote colleagues", description: "A video call with colleagues from Riga, Liepāja, and Daugavpils — each with a distinct dialect." },
-      { icon: "📋", title: "Project briefing", description: "A project kick-off in Latvian with Russian and English terminology entering throughout." },
-      { icon: "🤝", title: "Client presentation", description: "A formal presentation to a Latvian client in Riga where formal standard Latvian differs from fast casual office speech." },
-      { icon: "☕", title: "Post-meeting debrief", description: "An informal exchange after a meeting in fast casual Latvian where action items and priorities are confirmed." },
-      { icon: "📞", title: "One-on-one review", description: "A performance review or bilateral discussion conducted entirely in Latvian." },
-    ],
     useCaseDescriptions: [
       "Daily komandas sanāksmes and stand-ups in Latvian offices where updates come in Latvian. Captio AI captions each speaker so you follow every item.",
       "Teams or Zoom calls with colleagues across Latvia or internationally. Put the call on speaker and read captions in real time.",
@@ -12332,14 +9233,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      { icon: "🏢", title: "Team meeting", description: "A weekly team standup at a Tallinn startup where the discussion alternates between Estonian and English." },
-      { icon: "💻", title: "Video call with remote colleagues", description: "A video call with colleagues from Tallinn, Tartu, and occasionally Southern Estonia where regional varieties appear." },
-      { icon: "📋", title: "Project briefing", description: "A project kick-off in Estonian with English technical terminology throughout." },
-      { icon: "🤝", title: "Client presentation", description: "A formal presentation to an Estonian client where formal register differs from the fast casual office speech." },
-      { icon: "☕", title: "Post-meeting debrief", description: "An informal exchange after a meeting in fast casual Estonian where next steps and priorities are confirmed." },
-      { icon: "📞", title: "One-on-one review", description: "A performance review or bilateral discussion conducted entirely in Estonian." },
-    ],
     useCaseDescriptions: [
       "Daily meeskonna koosolekud and stand-ups in Estonian offices where updates come in Estonian or English. Captio AI captions each speaker so you follow every item.",
       "Teams or Zoom calls with colleagues across Estonia or internationally. Put the call on speaker and read captions in real time.",
@@ -12412,14 +9305,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      { icon: "🏢", title: "Team meeting", description: "A weekly team meeting at a Welsh government body or public institution conducted entirely in Welsh." },
-      { icon: "💻", title: "Video call with remote colleagues", description: "A video call with Welsh-speaking colleagues from Cardiff, Swansea, and Gwynedd — each with a different regional variety." },
-      { icon: "📋", title: "Project briefing", description: "A project kick-off in Welsh with English technical and legal terminology throughout." },
-      { icon: "🤝", title: "Client presentation", description: "A formal presentation to a Welsh-speaking client where formal written-register Welsh differs from casual meeting speech." },
-      { icon: "☕", title: "Post-meeting debrief", description: "An informal exchange after a meeting in fast casual Welsh where decisions and next steps are confirmed." },
-      { icon: "📞", title: "One-on-one review", description: "A performance review or bilateral discussion conducted entirely in Welsh." },
-    ],
     useCaseDescriptions: [
       "Daily cyfarfodydd tîm and stand-ups in Welsh offices where updates come in Welsh or English. Captio AI captions each speaker so you follow every item.",
       "Teams or Zoom calls with colleagues across Wales or the UK. Put the call on speaker and read captions in real time.",
@@ -12492,14 +9377,6 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
         },
       ],
     },
-    subUseCases: [
-      { icon: "🏢", title: "Team meeting", description: "A weekly team meeting at a Bilbao or San Sebastián company conducted in Basque, with Spanish entering when non-Basque colleagues join." },
-      { icon: "💻", title: "Video call with remote colleagues", description: "A video call with colleagues from the Spanish and French Basque Country, each speaking a different Basque dialect variety." },
-      { icon: "📋", title: "Public sector briefing", description: "A briefing at a Basque government institution where formal Batua is used throughout." },
-      { icon: "🤝", title: "Client presentation", description: "A formal presentation to a Basque client where formal register suppresses dialectal features present in the hallway conversation." },
-      { icon: "☕", title: "Post-meeting debrief", description: "An informal exchange after a meeting in fast regional Basque where action items and agreements are confirmed." },
-      { icon: "📞", title: "One-on-one review", description: "A performance review or bilateral discussion conducted entirely in Basque." },
-    ],
     useCaseDescriptions: [
       "Daily talde bilerak and stand-ups in Basque offices where updates come in Basque or Spanish. Captio AI captions each speaker so you follow every item.",
       "Teams or Zoom calls with colleagues across the Basque Country or internationally. Put the call on speaker and read captions in real time.",

@@ -34,17 +34,23 @@ Brand color: `#1C49F5`. Font: Plus Jakarta Sans (closest public substitute for G
 ```
 /                              → Homepage
 /[language]                    → Language page, e.g. /german, /chinese (60 pages, static)
-/pricing                       → Pricing page
 /privacy                       → Privacy policy
 /terms                         → Terms of service
-/support                       → Support page
 /live-captions                 → Feature page
 /live-translator               → Feature page
 /audio-transcription           → Feature page
 /ai-summary                    → Feature page
-/use-cases/[slug]              → Use case page (planned, not yet built)
-/use-cases/[slug]/[language]   → Use case × language page (planned, not yet built)
+/use-cases/[slug]              → Use case page (12 pages)
+/use-cases/[slug]/[language]   → Use case × language page (720 pages)
 ```
+
+`/demo`, `/pricing` and `/support` were removed on 2026-09-25 (demo had no API key in production; pricing/support were "coming soon" stubs). They permanently redirect (308, treated like a 301 by search engines) via `redirects()` in `next.config.ts` — keep those redirects, the URLs were indexed. The App Store listing's support URL is the homepage, not `/support`.
+
+**SEO metadata conventions:**
+- The root layout's title template appends ` | Captio AI`. Page-level `title` strings must NOT include the brand themselves (that caused "… — Captio AI | Captio AI" on ~790 pages). `openGraph.title` is not templated, so append ` | Captio AI` there explicitly.
+- Use-case × language titles mirror the h1: `[Language] Live Captions for [Use Case]`. Their meta description (and SoftwareApplication JSON-LD description) leads with the variant's hand-written `heroTitle`.
+- `src/app/sitemap.ts` uses fixed `lastModified` dates per page group, never the build time. Bump a group's date when its content meaningfully changes.
+- SoftwareApplication schema links the App Store listing via `sameAs`/`downloadUrl`/`installUrl` (`APP_STORE_URL` in `src/lib/schema.ts`). Do not add `aggregateRating` unless the rating is real and shown on the page.
 
 **Next.js constraint:** All depth-2 dynamic segments must share the same param name. We use `[language]` for language routes and `[slug]` for use case routes.
 
@@ -116,7 +122,7 @@ Same structure as language pages but without the dialect section or language-spe
 
 **Schema markup:** Every page needs SoftwareApplication schema. FAQ pages need FAQPage schema.
 
-**Privacy:** Captio AI processes audio in real time. Conversations are never stored on servers. No data sold. No AI training on user data. **Never mention the name of the speech recognition provider — this is a business secret.**
+**Privacy:** Captio AI processes audio in real time. Conversations are never stored on servers. No data sold. No AI training on user data. **Never mention the name of the speech recognition provider in marketing copy, docs, or code comments — this is a business secret.** The one deliberate exception is the Privacy Policy (`/privacy`), which names its data processors because GDPR and App Store guideline 5.1.2 require disclosing who receives user data. Do not remove it from there.
 
 ---
 
@@ -215,9 +221,9 @@ Every variant is a `UseCaseLanguageVariant` object. Fields and rules per section
   useCaseSlug: "[use-case-slug]",
   languageSlug: "xxx",
   heroTitle: "...",               // use-case + language specific — see below
-  // heroDescription: omit — let the meta description fall back to default
+  // heroDescription: omit — the meta description is built from heroTitle
   whyHardSection: { ... },        // see below
-  subUseCases: SubUseCase[],      // 6 entries — see below
+  useCaseDescriptions: string[],  // 6 entries, same order as uc.subUseCases
   challenge: { ... },             // see below — most important section
   reviews: Review[],              // 4 quotes — see below
   faqs: { q: string; a: string }[], // 8–10 questions — see below
@@ -230,8 +236,8 @@ The hero title names the use case and the language together. It must follow the 
 - Bad: "Powerful transcription for German." / "AI captions for everyday conversations in Spanish."
 The title changes completely between use cases — a doctor-appointments title sounds nothing like a lectures title.
 
-### heroDescription — do not write, ever
-`heroDescription` is optional and only used for the SEO meta description. The site is not yet submitted to Google Search Console and we do not want it crawled. Do not write `heroDescription` in any variant. Meta tags will be handled as a separate task when the site is ready to index.
+### heroDescription — not needed
+`heroDescription` is an optional override. If set, it replaces the page's meta description, OG description, and SoftwareApplication JSON-LD description. Without it, those are built from `heroTitle` + a standard sentence + `dialectNote`, which is already unique per page. Only write it if a specific page needs a hand-tuned description.
 
 ### Feature cards — do not change
 The `featureHighlights` array lives on the use case object in `useCases.ts`, not in the variant. It is use-case specific already. Do not modify it.
@@ -467,7 +473,7 @@ This is the authoritative reference for writing `UseCaseLanguageVariant` objects
 - Bad: `"AI captions for everyday conversations in Spanish."` / `"Powerful transcription for German."`
 - The title must sound completely different from the same language's title on a different use case page.
 
-**Do not write `heroDescription` — ever.** It will be handled separately when the site is ready to index.
+`heroTitle` is not rendered visibly, but it leads the page's meta description and SoftwareApplication JSON-LD description, so it is what search results and LLM crawlers see first. Do not write `heroDescription` (see above).
 
 ---
 
@@ -611,9 +617,9 @@ This is the definitive reference for every use-case × language page. Follow thi
 
 ### Hero
 
-- **Heading:** the h1 is **hardcoded** in the page template as `[Language] live captions and productivity tool for [use case]`. You do not write a custom hero heading. There is no `heroTitle` field rendered on screen — the field exists in the type and is stored, but the template never reads it.
+- **Heading:** the h1 is **hardcoded** in the page template as `[Language] live captions and productivity tool for [use case]`. You do not write a custom hero heading. `heroTitle` is not rendered on screen, but it is the first sentence of the page's `<meta name="description">`, OG description, and SoftwareApplication JSON-LD description — write it well.
 - **Subheading:** identical on every page — "For deaf and hard of hearing people." Hardcoded. Do not change it.
-- **`heroDescription` (optional):** if written, it replaces the fallback text inside the `SoftwareApplication` schema.org JSON-LD block (`<script type="application/ld+json">`). It does **not** go into the HTML `<meta name="description">` tag — that is hardcoded separately. LLM crawlers (GPTBot, PerplexityBot) parse structured data, so this field is AEO-relevant. Do not write it yet — it will be handled as a separate pass when the site is ready to index.
+- **`heroDescription` (optional override):** if written, it replaces the meta description, OG description, and SoftwareApplication JSON-LD description (otherwise built from `heroTitle`). Not needed for new variants.
 
 ---
 
@@ -633,7 +639,7 @@ This is the definitive reference for every use-case × language page. Follow thi
 - No web search needed. Use general knowledge of the country and the use case.
 - Keep approximately the same length as the original descriptions on the use case page.
 - These are stored as `useCaseDescriptions: string[]` on the variant — 6 strings in the same order as `uc.subUseCases`.
-- **Do NOT write `subUseCases` on the variant.** The `subUseCases` field exists in the type but the page template never reads it from the variant — it always uses `uc.subUseCases` (from the use case object) for icons and titles. The Chinese reference example incorrectly has `subUseCases` on the variant; those objects are silently ignored. Only `useCaseDescriptions` is rendered.
+- **There is no `subUseCases` field on the variant** (removed 2026-09-25 — it was never rendered). The page always uses `uc.subUseCases` (from the use case object) for icons and titles; only `useCaseDescriptions` comes from the variant.
 
 ---
 
@@ -675,7 +681,7 @@ This is the definitive reference for every use-case × language page. Follow thi
 - Research separately from the Why Hard section: `"deaf [country] population statistics"`, `"[country] hearing loss prevalence"`, `"[country] sign language recognition policy"`, `"deaf [country] social exclusion report"`, WHO Global Hearing Report data.
 - Structure: exactly 3 paragraphs + 1 closing sentence that mentions Captio AI in a specific everyday setting for this language.
 - Every number must have a real source behind it.
-- **Citations are mandatory** — real URLs at the bottom of the section. Minimum 3. Sources: government disability surveys, WHO, PubMed/PMC academic papers, NGO disability reports. Never Wikipedia. Prefer 2020–2025.
+- **Citations are mandatory** — real URLs at the bottom of the section. Minimum 3. Sources: government disability surveys, WHO, PubMed/PMC academic papers, NGO disability reports. Never Wikipedia. Prefer 2020–2025. (About 61 older citations in `useCaseLanguageData.ts` point to Wikipedia. They were kept on purpose: they are harmless for SEO/AEO, and swapping them without re-verifying each claim risks wrong sources. Don't add new ones; replace them only as a researched, claim-by-claim pass.)
 - Do not duplicate content from the Why Hard section. If Why Hard describes tonal collapse at the market stall, Challenge cites how many people in that country navigate daily life without hearing — not why the language is hard to lip-read.
 
 ---
@@ -721,10 +727,9 @@ Use this table before writing any variant. Fields marked "stored only" exist in 
 
 | Field | Rendered? | Where |
 |---|---|---|
-| `heroTitle` | **Stored only** | Type exists, page template never reads it — h1 is hardcoded |
-| `heroDescription` | Yes (schema.org) | Goes into `SoftwareApplication` JSON-LD, not `<meta>` tag |
+| `heroTitle` | Yes (metadata) | First sentence of meta description, OG description, and SoftwareApplication JSON-LD. Not visible on the page — h1 is hardcoded |
+| `heroDescription` | Optional override | Replaces the whole meta/OG/JSON-LD description if set — not needed |
 | `useCaseDescriptions` | Yes | Description text inside each Use Cases card |
-| `subUseCases` (on variant) | **Stored only** | Page always uses `uc.subUseCases` for icons/titles — do not write |
 | `whyHardSection.cards` | Yes | Why Hard section |
 | `whyHardSection.headline` | **Stored only** | Page hardcodes "Why [Language] is hard to understand" |
 | `existingSolutions` | **Not implemented** | Defined in type, never rendered — do not write |
