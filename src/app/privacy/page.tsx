@@ -4,11 +4,11 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "Captio privacy policy — how we handle your data.",
+  description: "Captio AI privacy policy — how we handle your data.",
   alternates: { canonical: "/privacy" },
   openGraph: {
     title: "Privacy Policy | Captio AI",
-    description: "Captio privacy policy — how we handle your data.",
+    description: "Captio AI privacy policy — how we handle your data.",
     url: "/privacy",
     type: "website",
     images: ["/opengraph-image"],
@@ -32,12 +32,12 @@ export default function PrivacyPage() {
         <Header />
         <div className="max-w-3xl mx-auto px-6 py-16">
       <h1 className="text-3xl font-bold mb-2">Privacy Policy</h1>
-      <p className="text-sm text-gray-500 mb-10">Last updated: August 3, 2026</p>
+      <p className="text-sm text-gray-500 mb-10">Last updated: October 7, 2026</p>
 
       <P>
-        This Privacy Policy explains how Captio (&ldquo;Captio&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or
-        &ldquo;our&rdquo;) collects, uses, and protects your personal data when you use the Captio iOS
-        application and the captioai.app website (together, the &ldquo;Service&rdquo;). Captio is built as an
+        This Privacy Policy explains how Captio AI (&ldquo;Captio AI&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or
+        &ldquo;our&rdquo;) collects, uses, and protects your personal data when you use the Captio AI iOS
+        application and the captioai.app website (together, the &ldquo;Service&rdquo;). Captio AI is built as an
         accessibility tool for deaf and hard of hearing people, and privacy is central to how it works.
       </P>
 
@@ -49,21 +49,21 @@ export default function PrivacyPage() {
       </P>
 
       <H2>2. Our privacy principles</H2>
-      <P>In plain terms, this is how Captio treats your data:</P>
+      <P>In plain terms, this is how Captio AI treats your data:</P>
       <UL>
         <li>Your audio is processed in real time and is <strong>not stored on our servers</strong>.</li>
         <li>Your transcripts and summaries are stored <strong>securely to provide the Service</strong> — including syncing them across your devices — and are never sold or used to train AI models.</li>
         <li>We <strong>never sell</strong> your data.</li>
-        <li>Your content is <strong>never used to train AI models</strong>.</li>
+        <li>Your content is <strong>never used to train AI models</strong>, and it is never shared for advertising.</li>
+        <li>We measure our advertising with Meta <strong>only if you allow tracking</strong> when the app asks. If you don&rsquo;t, nothing is sent to Meta.</li>
       </UL>
 
       <H2>3. Data we collect</H2>
       <UL>
         <li>
-          <strong>Account information.</strong> When you create an account — using Sign in with Apple, Google,
-          or by registering manually — we process your name and email address, and a password if you register
-          manually. If you use Sign in with Apple, Apple may provide a private relay email instead of your real
-          one.
+          <strong>Account information.</strong> When you create an account with Sign in with Apple or Google, we
+          process your name, your email address, and an account identifier. If you use Sign in with Apple, Apple
+          may provide a private relay email instead of your real one.
         </li>
         <li>
           <strong>Audio you capture or upload.</strong> When you use live captions, translation, or upload a
@@ -76,34 +76,80 @@ export default function PrivacyPage() {
           stored securely in our cloud, linked to your account. They are never used to train AI models.
         </li>
         <li>
-          <strong>Subscription information.</strong> If you subscribe to a paid plan, we and our payments
-          provider process your subscription status. Payment is handled by the Apple App Store — we never
-          receive or store your card details.
+          <strong>Subscription information.</strong> If you start a free trial or subscribe, we and our
+          subscription provider, RevenueCat, process your subscription status and purchase history (plan, trial,
+          renewals). To connect purchases to your account, RevenueCat also receives your account identifier, a
+          device identifier provided by Apple, and your IP address. Payment is handled by the Apple App Store — we
+          never receive or store your card details.
+        </li>
+        <li>
+          <strong>App usage and diagnostics.</strong> Which features and screens you use, the app version, your
+          device model and iOS version, your approximate location (city and country, derived from your IP
+          address), and a random identifier created by the app, together with crash reports and error codes. We
+          use this to keep the app reliable and to improve it. It is processed by PostHog on servers in the EU and
+          never includes the content of your audio, transcripts, or summaries.
+        </li>
+        <li>
+          <strong>Advertising measurement.</strong> We use three tools to learn which of our ads lead to installs
+          and subscriptions:
+          <UL>
+            <li>
+              Apple&rsquo;s SKAdNetwork, which tells an ad network anonymously, at campaign level, that an install
+              came from one of its ads. No identifier leaves your device.
+            </li>
+            <li>
+              An Apple Ads attribution token, which tells us whether the install came from one of our Apple Ads
+              campaigns.
+            </li>
+            <li>
+              <strong>Only if you allow tracking</strong> when the app asks: the Meta SDK in the app sends app
+              events (for example completing onboarding, creating an account, or opening the subscription screen)
+              together with your device&rsquo;s advertising identifier (IDFA), and RevenueCat sends trial and
+              purchase events to Meta with the same identifier and Meta&rsquo;s anonymous app identifier. You can
+              change your choice at any time in iOS Settings → Privacy &amp; Security → Tracking.
+            </li>
+          </UL>
+        </li>
+        <li>
+          <strong>Feedback you send us.</strong> Bug reports, feature requests, problem reports (with the error
+          code shown in the app), transcript ratings and comments, and the optional in-app feedback form. The
+          form can include whether you have hearing difficulties. Every question is optional.
+        </li>
+        <li>
+          <strong>Emails.</strong> If you have an account, we use your email address, name, app language, and time
+          zone to send you a welcome email, one follow-up email a week later, and a confirmation if you delete
+          your account. Every email has an unsubscribe link.
+        </li>
+        <li>
+          <strong>Invites.</strong> If you use the invite program, we process your invite code, who redeemed
+          it, and a random identifier stored on your device, so that each device can redeem only one invite.
         </li>
         <li>
           <strong>Website analytics.</strong> Our website uses privacy-friendly, cookieless analytics that
-          count visits and page views in aggregate. It does not use cookies, does not track you across sites,
-          and does not build a profile of you.
-        </li>
-        <li>
-          <strong>Technical and diagnostic data.</strong> Basic device and technical information needed to run
-          the Service reliably and securely.
+          count visits, page views, and clicks on download buttons in aggregate. It does not use cookies, does not
+          track you across sites, and does not build a profile of you.
         </li>
       </UL>
+      <P>
+        Reminder notifications are scheduled on your device by the app itself; we do not run a push-notification
+        server. Photos and videos never leave your device: when you upload a video, the app extracts its sound
+        on your device and only the audio is sent for transcription.
+      </P>
 
       <H2>4. How your audio is processed</H2>
       <P>
-        This is the most important part of how Captio works, so we want to be precise:
+        This is the most important part of how Captio AI works, so we want to be precise:
       </P>
       <UL>
         <li>
           When you use live captions, translation, or upload audio for transcription, your audio is transmitted
           securely to a <strong>third-party speech-recognition provider</strong> that converts it to text. The
-          audio is processed transiently and then <strong>deleted</strong> — it is not stored on our servers,
-          and it is not used to train any models.
+          audio is processed transiently and then <strong>deleted</strong> — an uploaded file is deleted from the
+          provider as soon as its transcript is ready. It is not stored on our servers, and it is not used to
+          train any models.
         </li>
         <li>
-          When Captio generates a title or summary, the relevant text is sent to a <strong>third-party AI
+          When Captio AI generates a title or summary, the relevant text is sent to a <strong>third-party AI
           provider</strong> to produce that title or summary. We use a paid service under terms where your content
           is <strong>not used to train models</strong>. That provider may retain the input briefly for security and
           abuse-monitoring under its own terms, after which it is deleted.
@@ -127,21 +173,42 @@ export default function PrivacyPage() {
 
       <H2>6. Legal bases for processing (GDPR)</H2>
       <UL>
-        <li><strong>Performance of a contract</strong> — to provide the Service you request.</li>
-        <li><strong>Consent</strong> — where we ask for it (for example, microphone access).</li>
-        <li><strong>Legitimate interests</strong> — to keep the Service secure and to improve it using aggregate, non-identifying information.</li>
+        <li><strong>Performance of a contract</strong> — to provide the Service you request, including your account, syncing, and your subscription.</li>
+        <li>
+          <strong>Consent</strong> — for microphone access; for advertising measurement with Meta (your choice
+          when the app asks to track, which you can change at any time in iOS Settings); and for the optional
+          question about hearing difficulties in the feedback form (explicit consent under Article 9(2)(a) GDPR,
+          which you can withdraw by contacting us).
+        </li>
+        <li>
+          <strong>Legitimate interests</strong> — to keep the Service secure and reliable and to improve it (app
+          analytics, crash and error reports), to measure our advertising with Apple&rsquo;s privacy-preserving
+          tools (SKAdNetwork and Apple Ads attribution), and to send the welcome and follow-up emails (you can
+          unsubscribe at any time).
+        </li>
         <li><strong>Legal obligations</strong> — where the law requires us to process data.</li>
       </UL>
 
       <H2>7. Who we share data with</H2>
       <P>
-        We do not sell your data. We share data only with the processors needed to run the Service: our
-        speech-recognition provider (Soniox, Inc.) and AI provider (Google LLC — Gemini API), as described in
-        section 4, our subscription/payments
-        provider and the Apple App Store, the authentication providers you choose to sign in with (Apple or
-        Google), and our hosting and cookieless-analytics providers. We may also disclose data if required by
-        law or to protect our legal rights.
+        We do not sell your data. We share data only with the providers needed to run the Service, each for the
+        purpose described in this policy:
       </P>
+      <UL>
+        <li><strong>Soniox, Inc.</strong> — speech recognition (section 4).</li>
+        <li><strong>Google LLC</strong> — Gemini API for titles and summaries (section 4), and Google Sign-In if you choose it.</li>
+        <li><strong>Apple</strong> — App Store purchases, Sign in with Apple, and Apple&rsquo;s advertising attribution (SKAdNetwork and Apple Ads).</li>
+        <li><strong>Supabase</strong> — our database, accounts, and sync.</li>
+        <li><strong>RevenueCat, Inc.</strong> — subscriptions and free trials.</li>
+        <li><strong>PostHog</strong> — app and website analytics, on servers in the EU.</li>
+        <li><strong>Resend</strong> — email delivery.</li>
+        <li><strong>Vercel</strong> — website hosting and cookieless website analytics.</li>
+        <li>
+          <strong>Meta Platforms Ireland Ltd.</strong> — advertising measurement, <strong>only if you allow
+          tracking</strong>. Meta processes this data under its own privacy policy.
+        </li>
+      </UL>
+      <P>We may also disclose data if required by law or to protect our legal rights.</P>
 
       <H2>8. International transfers</H2>
       <P>
@@ -155,7 +222,10 @@ export default function PrivacyPage() {
         <li><strong>Audio</strong> — not stored on our servers; the recording is kept on your device for playback until you delete it.</li>
         <li><strong>Transcripts and summaries</strong> — kept on your device and in our cloud (linked to your account) for as long as you keep them; deleted when you delete them or delete your account.</li>
         <li><strong>Account data</strong> — kept while your account is active; deleted when you delete your account.</li>
-        <li><strong>Analytics</strong> — aggregate and non-identifying.</li>
+        <li><strong>Subscription records</strong> — kept as long as needed to provide your subscription and to meet legal obligations.</li>
+        <li><strong>Usage and diagnostic data</strong> — pseudonymous, and kept only as long as needed to run and improve the app.</li>
+        <li><strong>Feedback</strong> — kept until it has been handled; deleted sooner on request.</li>
+        <li><strong>Advertising data sent to Meta</strong> — kept by Meta under its own retention policy.</li>
       </UL>
 
       <H2>10. Your rights</H2>
@@ -164,9 +234,10 @@ export default function PrivacyPage() {
         your personal data, the right to data portability, and the right to withdraw consent at any time. To
         exercise any of these, email{" "}
         <a href="mailto:nejcdovzank@gmail.com" className="text-brand underline">nejcdovzank@gmail.com</a>. You can
-        also delete your account, and all data linked to it, at any time directly in the app. You
-        also have the right to lodge a complaint with your local supervisory authority — in Slovenia, the
-        Information Commissioner (Informacijski pooblaščenec).
+        also delete your account, and all data linked to it, at any time directly in the app; turn tracking off
+        in iOS Settings → Privacy &amp; Security → Tracking; and unsubscribe from emails with the link in any
+        email. You also have the right to lodge a complaint with your local supervisory authority — in Slovenia,
+        the Information Commissioner (Informacijski pooblaščenec).
       </P>
 
       <H2>11. Security</H2>
@@ -179,17 +250,18 @@ export default function PrivacyPage() {
 
       <H2>12. Children</H2>
       <P>
-        Captio is an accessibility tool intended for a general audience. If you are under the age of digital
-        consent in your country (16 in some parts of the EU; 15 in Slovenia), you may use Captio only with the
+        Captio AI is an accessibility tool intended for a general audience. If you are under the age of digital
+        consent in your country (16 in some parts of the EU; 15 in Slovenia), you may use Captio AI only with the
         consent and involvement of a parent or guardian. We do not knowingly collect personal data from
         children without such consent; if you believe a child has provided us data without it, contact us and
         we will delete it.
       </P>
 
-      <H2>13. Cookies</H2>
+      <H2>13. Cookies and tracking</H2>
       <P>
         Our website does not use tracking or advertising cookies. The analytics we use are cookieless, which is
-        why you will not see a cookie-consent banner. The app does not use advertising cookies or trackers.
+        why you will not see a cookie-consent banner. The app does not use cookies. It tracks you for advertising
+        measurement only if you allow it when iOS asks, and declining changes nothing about how the app works.
       </P>
 
       <H2>14. Changes to this policy</H2>
