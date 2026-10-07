@@ -14,8 +14,8 @@ const UPDATED = {
   core: "2026-09-25", // homepage, feature pages
   languages: "2026-09-25", // /[language]
   useCases: "2026-09-25", // /use-cases/[slug] and /use-cases/[slug]/[language]
-  privacy: "2026-08-13",
-  terms: "2026-07-31",
+  privacy: "2026-10-07",
+  terms: "2026-10-07",
 };
 
 export default function sitemap(): MetadataRoute.Sitemap {

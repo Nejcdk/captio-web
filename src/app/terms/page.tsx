@@ -1,14 +1,15 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Terms of Service",
-  description: "Captio terms of service.",
+  description: "Captio AI terms of service.",
   alternates: { canonical: "/terms" },
   openGraph: {
     title: "Terms of Service | Captio AI",
-    description: "Captio terms of service.",
+    description: "Captio AI terms of service.",
     url: "/terms",
     type: "website",
     images: ["/opengraph-image"],
@@ -32,10 +33,10 @@ export default function TermsPage() {
         <Header />
         <div className="max-w-3xl mx-auto px-6 py-16">
       <h1 className="text-3xl font-bold mb-2">Terms of Service</h1>
-      <p className="text-sm text-gray-500 mb-10">Last updated: July 31, 2026</p>
+      <p className="text-sm text-gray-500 mb-10">Last updated: October 7, 2026</p>
 
       <P>
-        These Terms of Service (&ldquo;Terms&rdquo;) govern your access to and use of the Captio iOS application
+        These Terms of Service (&ldquo;Terms&rdquo;) govern your access to and use of the Captio AI iOS application
         and the captioai.app website (together, the &ldquo;Service&rdquo;). By using the Service, you agree to
         these Terms. If you do not agree, please do not use the Service.
       </P>
@@ -43,32 +44,31 @@ export default function TermsPage() {
       <H2>1. Who we are</H2>
       <P>
         The Service is provided by <strong>Nejc Dovžan Kukič</strong>, a sole proprietor established in Slovenia
-        (&ldquo;Captio&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;). You can contact us at{" "}
+        (&ldquo;Captio AI&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;). You can contact us at{" "}
         <a href="mailto:nejcdovzank@gmail.com" className="text-brand underline">nejcdovzank@gmail.com</a>.
       </P>
 
       <H2>2. The Service</H2>
       <P>
-        Captio is an accessibility tool for deaf and hard of hearing people. It provides real-time live
+        Captio AI is an accessibility tool for deaf and hard of hearing people. It provides real-time live
         captions, live translation, transcription of audio you upload, and AI-generated summaries. Your audio
         is processed in real time and is not stored on our servers. Transcripts and summaries are stored on your
         device and synced to our secure cloud so they&rsquo;re available across your devices; they are never used
         to train AI models. How we handle your data is described in our{" "}
-        <a href="/privacy" className="text-brand underline">Privacy Policy</a>.
+        <Link href="/privacy" className="text-brand underline">Privacy Policy</Link>.
       </P>
 
       <H2>3. Eligibility</H2>
       <P>
-        You may use Captio if you can form a binding contract with us under the law of your country. If you are
+        You may use Captio AI if you can form a binding contract with us under the law of your country. If you are
         under the age of digital consent in your country (16 in some parts of the EU; 15 in Slovenia), you may
-        use Captio only with the consent and involvement of a parent or guardian, who accepts these Terms on
+        use Captio AI only with the consent and involvement of a parent or guardian, who accepts these Terms on
         your behalf.
       </P>
 
       <H2>4. Your account</H2>
       <P>
-        Some features require an account, which you can create using Sign in with Apple, Google, or by
-        registering manually. You are responsible for the accuracy of the information you provide and for
+        Some features require an account, which you can create using Sign in with Apple or Google. You are responsible for the accuracy of the information you provide and for
         keeping your login credentials confidential. You are responsible for activity that occurs under your
         account. If you believe your account has been compromised, contact us promptly.
       </P>
@@ -89,12 +89,12 @@ export default function TermsPage() {
         Laws about recording and captioning conversations differ from place to place. <strong>You are solely
         responsible for knowing and complying with the laws that apply to you</strong>, including giving any
         required notice to, and obtaining any required consent from, the people whose speech you caption,
-        record, or upload. Captio is a tool; how you use it is your responsibility.
+        record, or upload. Captio AI is a tool; how you use it is your responsibility.
       </P>
 
       <H2>7. Accuracy &mdash; important</H2>
       <P>
-        <strong>Captio uses automated speech recognition and AI, which are not perfect and can produce errors,
+        <strong>Captio AI uses automated speech recognition and AI, which are not perfect and can produce errors,
         omissions, or mistranslations.</strong> Captions, transcripts, translations, and summaries are provided
         for convenience and accessibility support only. <strong>Do not rely on them for emergency, medical,
         legal, financial, safety-critical, or other important decisions.</strong> Always confirm critical
@@ -113,11 +113,17 @@ export default function TermsPage() {
 
       <H2>9. Plans and payment</H2>
       <P>
-        Captio offers a free plan and a paid subscription (&ldquo;Plus&rdquo;). Paid subscriptions purchased in
-        the iOS app are billed through the <strong>Apple App Store</strong>, and Apple is responsible for the
-        payment. Prices are shown before you subscribe.
+        Captio AI offers a free plan with daily limits and a paid subscription (&ldquo;Plus&rdquo;). Paid
+        subscriptions purchased in the iOS app are billed through the <strong>Apple App Store</strong>, and Apple
+        is responsible for the payment. Prices are shown before you subscribe.
       </P>
       <UL>
+        <li>
+          <strong>Free trial.</strong> New subscribers may be offered a free trial; its length is shown in the app
+          before you start it. Unless you cancel at least 24 hours before the trial ends, it automatically becomes
+          a paid subscription and your Apple account is charged when the paid period starts. Apple decides who is
+          eligible for a free trial (generally one per Apple ID).
+        </li>
         <li>
           <strong>Auto-renewal.</strong> Subscriptions renew automatically for the same period (monthly or
           yearly) until you cancel. Your Apple account is charged at the start of each period.
@@ -136,28 +142,38 @@ export default function TermsPage() {
         </li>
       </UL>
 
-      <H2>10. Third-party services</H2>
+      <H2>10. Invite rewards</H2>
+      <P>
+        You can invite friends with your personal invite code (Settings → Invite friends). When a friend redeems
+        your code and saves their first recording, you both get free Plus access for the period shown in the app.
+        Each account and each device can redeem only one invite, and you can&rsquo;t redeem your own code.
+        Rewards have no cash value and can&rsquo;t be transferred or exchanged. We may withhold or remove rewards
+        obtained through abuse (for example, fake accounts), and we may change or end the invite program at any
+        time; rewards already granted stay valid for their period.
+      </P>
+
+      <H2>11. Third-party services</H2>
       <P>
         The Service relies on third-party providers (for example, speech-recognition and AI processing,
         authentication, payments, and hosting). Their availability and performance are outside our control, and
         your use of them may be subject to their own terms. We are not responsible for third-party services.
       </P>
 
-      <H2>11. Intellectual property</H2>
+      <H2>12. Intellectual property</H2>
       <P>
-        The Service, including the Captio app, website, software, branding, and content we provide, is owned by
+        The Service, including the Captio AI app, website, software, branding, and content we provide, is owned by
         us or our licensors and is protected by law. We grant you a personal, non-exclusive, non-transferable,
         revocable license to use the Service for its intended purpose under these Terms. You may not copy, sell,
         rent, sublicense, or create derivative works from the Service except as the law allows.
       </P>
 
-      <H2>12. Feedback</H2>
+      <H2>13. Feedback</H2>
       <P>
         If you send us suggestions or feedback about the Service, we may use them freely, without any obligation
         or compensation to you.
       </P>
 
-      <H2>13. Disclaimer</H2>
+      <H2>14. Disclaimer</H2>
       <P>
         The Service is provided <strong>&ldquo;as is&rdquo; and &ldquo;as available&rdquo;</strong>, without
         warranties of any kind, whether express or implied, including implied warranties of merchantability,
@@ -166,7 +182,7 @@ export default function TermsPage() {
         affect any rights you have under mandatory consumer-protection law that cannot be waived.
       </P>
 
-      <H2>14. Limitation of liability</H2>
+      <H2>15. Limitation of liability</H2>
       <P>
         To the fullest extent permitted by law, we will not be liable for any indirect, incidental, special,
         consequential, or punitive damages, or for any loss of data, arising out of or relating to your use of
@@ -176,35 +192,35 @@ export default function TermsPage() {
         personal injury caused by negligence, or for fraud.
       </P>
 
-      <H2>15. Indemnification</H2>
+      <H2>16. Indemnification</H2>
       <P>
         You agree to indemnify and hold us harmless from claims, losses, and expenses arising from your misuse
         of the Service, your violation of these Terms, or your violation of any law or the rights of a third
         party (including recording or captioning people without required consent).
       </P>
 
-      <H2>16. Suspension and termination</H2>
+      <H2>17. Suspension and termination</H2>
       <P>
         You may stop using the Service and delete your account at any time. We may suspend or terminate your
         access if you breach these Terms or use the Service unlawfully. You can delete your account from within
         the app or by contacting us.
       </P>
 
-      <H2>17. Changes to these Terms</H2>
+      <H2>18. Changes to these Terms</H2>
       <P>
         We may update these Terms from time to time. The date at the top shows when they were last changed. If
         we make material changes, we will notify you where required, and your continued use of the Service after
         the changes take effect means you accept the updated Terms.
       </P>
 
-      <H2>18. Governing law and jurisdiction</H2>
+      <H2>19. Governing law and jurisdiction</H2>
       <P>
         These Terms are governed by the laws of Slovenia, without regard to conflict-of-law rules. The courts of
         Slovenia have jurisdiction over any dispute arising from these Terms or the Service, except where
         mandatory consumer-protection law gives you the right to bring proceedings in your country of residence.
       </P>
 
-      <H2>19. Contact</H2>
+      <H2>20. Contact</H2>
       <P>
         Questions about these Terms? Contact{" "}
         <a href="mailto:nejcdovzank@gmail.com" className="text-brand underline">nejcdovzank@gmail.com</a>.
