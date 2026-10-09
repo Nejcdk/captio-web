@@ -5,7 +5,8 @@ import { after } from "next/server";
 // with that ad language's campaign tag (ct=cg_<lang>), so App Store Connect
 // counts installs per ad language. Nothing is shown to the visitor.
 //
-// Each click is logged after the redirect is sent: OpenAI's click id (oppref)
+// Each click is logged after the redirect is sent: OpenAI's click id (oppref,
+// which OpenAI appends itself; the ads also pass it as click_id)
 // and the campaign/ad ids that the ads add to the link, plus an HMAC of the IP
 // (never the IP itself), so the app repo's `revenuecat-openai` edge function
 // can match a later trial to the click (see supabase/ad_clicks.sql in the app
@@ -35,7 +36,7 @@ export async function GET(request: Request, { params }: { params: Promise<{ lang
       logClick({
         lang,
         ip,
-        oppref: query.get("oppref"),
+        oppref: query.get("oppref") ?? query.get("click_id"),
         campaignId: query.get("cmp"),
         adId: query.get("ad"),
       }),
