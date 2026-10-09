@@ -32,7 +32,7 @@ export default function PrivacyPage() {
         <Header />
         <div className="max-w-3xl mx-auto px-6 py-16">
       <h1 className="text-3xl font-bold mb-2">Privacy Policy</h1>
-      <p className="text-sm text-gray-500 mb-10">Last updated: October 7, 2026</p>
+      <p className="text-sm text-gray-500 mb-10">Last updated: October 9, 2026</p>
 
       <P>
         This Privacy Policy explains how Captio AI (&ldquo;Captio AI&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or
@@ -55,7 +55,7 @@ export default function PrivacyPage() {
         <li>Your transcripts and summaries are stored <strong>securely to provide the Service</strong> — including syncing them across your devices — and are never sold or used to train AI models.</li>
         <li>We <strong>never sell</strong> your data.</li>
         <li>Your content is <strong>never used to train AI models</strong>, and it is never shared for advertising.</li>
-        <li>We measure our advertising with Meta <strong>only if you allow tracking</strong> when the app asks. If you don&rsquo;t, nothing is sent to Meta.</li>
+        <li>We measure our advertising with Meta and OpenAI <strong>only if you allow tracking</strong> when the app asks. If you don&rsquo;t, nothing is sent to them.</li>
       </UL>
 
       <H2>3. Data we collect</H2>
@@ -90,7 +90,7 @@ export default function PrivacyPage() {
           never includes the content of your audio, transcripts, or summaries.
         </li>
         <li>
-          <strong>Advertising measurement.</strong> We use three tools to learn which of our ads lead to installs
+          <strong>Advertising measurement.</strong> We use these tools to learn which of our ads lead to installs
           and subscriptions:
           <UL>
             <li>
@@ -107,6 +107,12 @@ export default function PrivacyPage() {
               together with your device&rsquo;s advertising identifier (IDFA), and RevenueCat sends trial and
               purchase events to Meta with the same identifier and Meta&rsquo;s anonymous app identifier. You can
               change your choice at any time in iOS Settings → Privacy &amp; Security → Tracking.
+            </li>
+            <li>
+              <strong>Only if you allow tracking</strong> when the app asks, and only if you came to us from one
+              of our ads in ChatGPT: when you start a free trial or a subscription, we send that event (its type,
+              plan, price, and country) to OpenAI together with your IP address and the click identifier from the
+              ad, so OpenAI can count it as a result of that ad.
             </li>
           </UL>
         </li>
@@ -127,7 +133,11 @@ export default function PrivacyPage() {
         <li>
           <strong>Website analytics.</strong> Our website uses privacy-friendly, cookieless analytics that
           count visits, page views, and clicks on download buttons in aggregate. It does not use cookies, does not
-          track you across sites, and does not build a profile of you.
+          track you across sites, and does not build a profile of you. When you tap one of our ads in ChatGPT, the
+          link opens our website, which sends you straight on to the App Store. On the way it notes which ad you
+          tapped, OpenAI&rsquo;s click identifier, and a one-way hash of your IP address (never the address
+          itself), so that a trial you start later can be matched to the ad if you allow tracking in the app.
+          This record is deleted after 8 days.
         </li>
       </UL>
       <P>
@@ -175,7 +185,7 @@ export default function PrivacyPage() {
       <UL>
         <li><strong>Performance of a contract</strong> — to provide the Service you request, including your account, syncing, and your subscription.</li>
         <li>
-          <strong>Consent</strong> — for microphone access; for advertising measurement with Meta (your choice
+          <strong>Consent</strong> — for microphone access; for advertising measurement with Meta and OpenAI (your choice
           when the app asks to track, which you can change at any time in iOS Settings); and for the optional
           question about hearing difficulties in the feedback form (explicit consent under Article 9(2)(a) GDPR,
           which you can withdraw by contacting us).
@@ -183,8 +193,8 @@ export default function PrivacyPage() {
         <li>
           <strong>Legitimate interests</strong> — to keep the Service secure and reliable and to improve it (app
           analytics, crash and error reports), to measure our advertising with Apple&rsquo;s privacy-preserving
-          tools (SKAdNetwork and Apple Ads attribution), and to send the welcome and follow-up emails (you can
-          unsubscribe at any time).
+          tools (SKAdNetwork and Apple Ads attribution) and by noting which of our ChatGPT ads brought you to our
+          website (kept for 8 days), and to send the welcome and follow-up emails (you can unsubscribe at any time).
         </li>
         <li><strong>Legal obligations</strong> — where the law requires us to process data.</li>
       </UL>
@@ -207,6 +217,10 @@ export default function PrivacyPage() {
           <strong>Meta Platforms Ireland Ltd.</strong> — advertising measurement, <strong>only if you allow
           tracking</strong>. Meta processes this data under its own privacy policy.
         </li>
+        <li>
+          <strong>OpenAI</strong> — advertising measurement for our ads in ChatGPT, <strong>only if you allow
+          tracking</strong>. OpenAI processes this data under its own privacy policy.
+        </li>
       </UL>
       <P>We may also disclose data if required by law or to protect our legal rights.</P>
 
@@ -225,7 +239,8 @@ export default function PrivacyPage() {
         <li><strong>Subscription records</strong> — kept as long as needed to provide your subscription and to meet legal obligations.</li>
         <li><strong>Usage and diagnostic data</strong> — pseudonymous, and kept only as long as needed to run and improve the app.</li>
         <li><strong>Feedback</strong> — kept until it has been handled; deleted sooner on request.</li>
-        <li><strong>Advertising data sent to Meta</strong> — kept by Meta under its own retention policy.</li>
+        <li><strong>ChatGPT ad clicks</strong> — the ad you tapped and a one-way hash of your IP address, deleted after 8 days.</li>
+        <li><strong>Advertising data sent to Meta or OpenAI</strong> — kept by them under their own retention policies.</li>
       </UL>
 
       <H2>10. Your rights</H2>
