@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ExportMenu from "./ExportMenu";
 import { notFound } from "next/navigation";
 import {
   getSharedExport, previewText, STORE_LINK,
@@ -125,9 +126,9 @@ export default async function SharedPage({ params }: Props) {
   const { labels } = shared;
 
   return (
-    <main dir={labels.dir} lang={shared.lang} className="min-h-screen bg-[#F2F4F8]">
+    <main dir={labels.dir} lang={shared.lang} className="min-h-screen bg-[#F2F4F8] print:bg-white">
       {/* Sticky: the logo and the one way to the app stay in view. */}
-      <header className="sticky top-0 z-10 border-b border-black/5 bg-[#F2F4F8]/85 backdrop-blur-md">
+      <header className="sticky top-0 z-10 border-b border-black/5 bg-[#F2F4F8]/85 backdrop-blur-md print:hidden">
         <div className="mx-auto flex max-w-2xl items-center justify-between gap-4 px-4 py-3">
           <Link href="/" className="flex items-center gap-2.5" dir="ltr">
             {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -139,7 +140,7 @@ export default async function SharedPage({ params }: Props) {
       </header>
 
       <div className="mx-auto max-w-2xl px-4 py-5 sm:py-8">
-        <article className="overflow-hidden rounded-3xl bg-white shadow-sm ring-1 ring-black/5">
+        <article className="overflow-hidden rounded-3xl bg-white shadow-sm ring-1 ring-black/5 print:shadow-none print:ring-0">
           <div className="border-b border-gray-100 px-6 pb-6 pt-8 sm:px-10">
             <div className="text-[11px] font-bold tracking-[0.12em] text-brand">{labels.kind}</div>
             <h1 dir="auto" className="mt-2 text-2xl font-bold leading-tight text-gray-900 sm:text-3xl">
@@ -164,6 +165,8 @@ export default async function SharedPage({ params }: Props) {
               : <Captions blocks={shared.content.blocks as CaptionBlock[]} />}
           </div>
         </article>
+        {/* The app's Export button, for readers: Text, PDF, Email, Chat. */}
+        {shared.content.exports && <ExportMenu shared={shared} exports={shared.content.exports} />}
       </div>
     </main>
   );
