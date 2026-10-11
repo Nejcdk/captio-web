@@ -83,22 +83,27 @@ export default function ExportMenu({ shared, exports }: { shared: SharedExport; 
 
   return (
     <>
-      <button
-        type="button"
-        onClick={() => setOpen(true)}
-        className="mt-5 flex h-16 w-full items-center justify-center gap-2.5 rounded-[18px] bg-brand text-[19px] font-semibold text-white shadow-[0_4px_12px_rgba(28,73,245,0.3)] transition-colors hover:bg-brand-dark print:hidden"
-      >
-        <svg width={24} height={24} viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-          <path d="M21 15v4a2 2 0 0 1 -2 2H5a2 2 0 0 1 -2 -2v-4" stroke="white" strokeWidth={2} />
-          <path d="m17 8 -5 -5 -5 5" stroke="white" strokeWidth={2} />
-          <path d="m12 3 0 12" stroke="white" strokeWidth={2} />
-        </svg>
-        {labels.exportButton ?? "Export"}
-      </button>
+      {/* Fixed footer: the Export button is always one tap away. */}
+      <div className="fixed inset-x-0 bottom-0 z-10 border-t border-black/5 bg-[#F2F4F8]/85 backdrop-blur-md print:hidden">
+        <div className="mx-auto max-w-3xl px-3 pt-3 pb-[max(12px,env(safe-area-inset-bottom))] sm:px-4 sm:pb-4">
+          <button
+            type="button"
+            onClick={() => setOpen(true)}
+            className="flex h-14 w-full items-center justify-center gap-2.5 rounded-2xl bg-brand text-lg font-semibold text-white shadow-[0_4px_12px_rgba(28,73,245,0.3)] transition-colors hover:bg-brand-dark sm:h-16 sm:text-[19px]"
+          >
+            <svg width={24} height={24} viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+              <path d="M21 15v4a2 2 0 0 1 -2 2H5a2 2 0 0 1 -2 -2v-4" stroke="white" strokeWidth={2} />
+              <path d="m17 8 -5 -5 -5 5" stroke="white" strokeWidth={2} />
+              <path d="m12 3 0 12" stroke="white" strokeWidth={2} />
+            </svg>
+            {labels.exportButton ?? "Export"}
+          </button>
+        </div>
+      </div>
 
       {open && (
         <div
-          className="fixed inset-0 z-20 flex items-end justify-center bg-black/40 sm:items-center print:hidden"
+          className="fixed inset-0 z-30 flex items-end justify-center bg-black/40 sm:items-center print:hidden"
           onClick={() => setOpen(false)}
         >
           <div
@@ -132,7 +137,7 @@ export default function ExportMenu({ shared, exports }: { shared: SharedExport; 
       )}
 
       {copied && (
-        <div className="fixed bottom-6 left-1/2 z-30 -translate-x-1/2 rounded-xl bg-gray-900 px-4 py-2.5 text-sm font-medium text-white print:hidden">
+        <div className="fixed bottom-24 left-1/2 z-40 -translate-x-1/2 rounded-xl bg-gray-900 px-4 py-2.5 text-sm font-medium text-white print:hidden">
           {labels.copied ?? "Copied"}
         </div>
       )}
