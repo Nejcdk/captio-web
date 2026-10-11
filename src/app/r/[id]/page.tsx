@@ -8,8 +8,9 @@ import {
 
 // captioai.app/r/<id>: a recording's captions or summary, shared from the app
 // (export sheet → Link). Same look as the app's export email: brand header,
-// a card with what this is, the content, and a way to get the app. Never
-// indexed; works until the recording or the account is deleted.
+// a card with what this is and the content, under a sticky header with the
+// one way to get the app. Never indexed; works until the recording or the
+// account is deleted.
 
 export const dynamic = "force-dynamic";
 
@@ -111,7 +112,7 @@ function GetApp({ shared, className = "" }: { shared: SharedExport; className?: 
   return (
     <a
       href={STORE_LINK}
-      className={`inline-flex items-center justify-center rounded-2xl bg-brand font-semibold text-white transition-colors hover:bg-brand-dark ${className}`}
+      className={`inline-flex items-center justify-center rounded-[10px] bg-brand font-semibold text-white transition-colors hover:bg-brand-dark ${className}`}
     >
       {shared.labels.getApp}
     </a>
@@ -124,17 +125,20 @@ export default async function SharedPage({ params }: Props) {
   const { labels } = shared;
 
   return (
-    <main dir={labels.dir} lang={shared.lang} className="min-h-screen bg-[#F2F4F8] px-4 py-5 sm:py-10">
-      <div className="mx-auto max-w-2xl">
-        <header className="mb-5 flex items-center justify-between gap-4">
+    <main dir={labels.dir} lang={shared.lang} className="min-h-screen bg-[#F2F4F8]">
+      {/* Sticky: the logo and the one way to the app stay in view. */}
+      <header className="sticky top-0 z-10 border-b border-black/5 bg-[#F2F4F8]/85 backdrop-blur-md">
+        <div className="mx-auto flex max-w-2xl items-center justify-between gap-4 px-4 py-3">
           <Link href="/" className="flex items-center gap-2.5" dir="ltr">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src="/icon.png" alt="" width={36} height={36} className="h-9 w-9 rounded-[10px]" />
             <span className="text-lg font-bold text-gray-900">Captio AI</span>
           </Link>
           <GetApp shared={shared} className="px-4 py-2.5 text-sm" />
-        </header>
+        </div>
+      </header>
 
+      <div className="mx-auto max-w-2xl px-4 py-5 sm:py-8">
         <article className="overflow-hidden rounded-3xl bg-white shadow-sm ring-1 ring-black/5">
           <div className="border-b border-gray-100 px-6 pb-6 pt-8 sm:px-10">
             <div className="text-[11px] font-bold tracking-[0.12em] text-brand">{labels.kind}</div>
@@ -160,17 +164,6 @@ export default async function SharedPage({ params }: Props) {
               : <Captions blocks={shared.content.blocks as CaptionBlock[]} />}
           </div>
         </article>
-
-        {/* Get the app: a QR code to scan from a computer, the button on a phone. */}
-        <section className="mt-5 flex items-center gap-6 rounded-3xl bg-white p-6 ring-1 ring-black/5 sm:p-8">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/qr-appstore.png" alt="" width={112} height={112} className="hidden h-28 w-28 flex-none sm:block" />
-          <div className="flex-1">
-            <div className="text-lg font-bold text-gray-900">{labels.madeWith}</div>
-            <div className="mt-1 hidden text-sm text-gray-500 sm:block">{labels.scan}</div>
-            <GetApp shared={shared} className="mt-4 w-full px-6 py-3.5 text-base sm:w-auto" />
-          </div>
-        </section>
       </div>
     </main>
   );
