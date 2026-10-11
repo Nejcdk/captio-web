@@ -32,7 +32,7 @@ export default function PrivacyPage() {
         <Header />
         <div className="max-w-3xl mx-auto px-6 py-16">
       <h1 className="text-3xl font-bold mb-2">Privacy Policy</h1>
-      <p className="text-sm text-gray-500 mb-10">Last updated: October 9, 2026</p>
+      <p className="text-sm text-gray-500 mb-10">Last updated: October 11, 2026</p>
 
       <P>
         This Privacy Policy explains how Captio AI (&ldquo;Captio AI&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or
@@ -180,6 +180,13 @@ export default function PrivacyPage() {
         delete your account — which you can do at any time from within the app — all of your transcripts and
         summaries are permanently deleted.
       </P>
+      <P>
+        <strong>Share links.</strong> If you choose Link when exporting a recording, we store a copy of its captions or
+        summary (with its title, date, length and speaker names) and create a page at captioai.app that anyone with
+        the link can open. Links use a long random code, so they can&rsquo;t be guessed, and the pages are hidden from
+        search engines. Nothing is shared unless you tap Link. The page stops working, and the copy is deleted, when you
+        delete that recording or your account.
+      </P>
 
       <H2>6. Legal bases for processing (GDPR)</H2>
       <UL>
@@ -235,6 +242,7 @@ export default function PrivacyPage() {
       <UL>
         <li><strong>Audio</strong> — not stored on our servers; the recording is kept on your device for playback until you delete it.</li>
         <li><strong>Transcripts and summaries</strong> — kept on your device and in our cloud (linked to your account) for as long as you keep them; deleted when you delete them or delete your account.</li>
+        <li><strong>Share links</strong> — the shared copy of a recording&rsquo;s captions or summary, kept until you delete that recording or your account.</li>
         <li><strong>Account data</strong> — kept while your account is active; deleted when you delete your account.</li>
         <li><strong>Subscription records</strong> — kept as long as needed to provide your subscription and to meet legal obligations.</li>
         <li><strong>Usage and diagnostic data</strong> — pseudonymous, and kept only as long as needed to run and improve the app.</li>
