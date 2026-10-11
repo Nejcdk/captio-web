@@ -12,14 +12,22 @@ export type SummaryBlock =
   | { type: "todo"; text: string; done: boolean }
   | { type: "quote"; text: string; speaker?: string };
 
+export type ReaderExports = { text: string; emailSubject: string; emailBody: string; chat: string };
+
 export type SharedExport = {
   id: string;
   what: "captions" | "summary";
   lang: string;
   title: string;
   emoji: string;
-  content: { blocks: CaptionBlock[] | SummaryBlock[] };
-  labels: { kind: string; chips: string[]; getApp: string; madeWith: string; scan: string; dir: "ltr" | "rtl" };
+  // exports: the app's Text, Email and Chat versions, ready-made in the
+  // sharer's language, for the page's Export button (links shared before it
+  // existed have none, and get no button).
+  content: { blocks: CaptionBlock[] | SummaryBlock[]; exports?: ReaderExports };
+  labels: {
+    kind: string; chips: string[]; getApp: string; madeWith: string; scan: string; dir: "ltr" | "rtl";
+    exportButton?: string; text?: string; pdf?: string; email?: string; chat?: string; copied?: string;
+  };
   updated_at: string;
 };
 
