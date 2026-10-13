@@ -11,6 +11,14 @@
 
 ---
 
+## 🚫 NO FAKE REVIEWS, TESTIMONIALS OR SOCIAL PROOF — EVER (since 2026-10-13)
+
+All invented reviews were deleted from the site on 2026-10-13 (792 review sets plus the homepage carousel, and the `ReviewCarousel` component). **Never write, generate, or "draft as a placeholder" a review, testimonial, user quote, star rating, user count, or `aggregateRating`/`Review` schema.** That includes named personas with flags and masked emails, "what users say" blocks, and made-up case studies. It is deceptive to readers, against FTC/EU consumer law and App Store rules, and a known trust signal that LLMs and Google penalise.
+
+Social proof may only come from real, verifiable sources the user hands you: actual App Store reviews (quoted verbatim, attributed as they appear on the store), real ratings shown on the store, or named people who gave written permission. If a section needs trust signals and none exist, use verifiable facts instead (privacy guarantees, language count, cited statistics) or leave the section out.
+
+---
+
 ## What this project is
 Marketing website for **Captio**, an iOS live captioning app for deaf and hard of hearing people.
 - Domain: captioai.app
@@ -97,11 +105,10 @@ Section order:
 5. **Dialect & accent support** — renders `lang.dialectCards` as a 2-col grid of cards. Falls back to `lang.dialectNote` paragraph if no cards. **This is the unique AEO content per page.**
 6. **Inline CTA** — App Store button
 7. **Privacy** — same as homepage, two cards mention `lang.language` naturally
-8. **Reviews** — `ReviewCarousel` component, same as homepage
-9. **Inline CTA** — App Store button
-10. **FAQ** — `lang.languageFAQs` first, then `baseFaqs`. Header is just "Frequently asked questions" — do NOT add language name here.
-11. **CTA** — "Start captioning in [language]"
-12. **Footer**
+8. **Inline CTA** — App Store button
+9. **FAQ** — `lang.languageFAQs` first, then `baseFaqs`. Header is just "Frequently asked questions" — do NOT add language name here.
+10. **CTA** — "Start captioning in [language]"
+11. **Footer**
 
 **Critical:** Don't add the language name where it makes the copy illogical. "Frequently asked questions about Chinese" sounds like a FAQ about the Chinese language, not about Captio AI. "Real Chinese moments" is nonsensical. Rule: the language name describes the speech/audio being processed, not the topic or subject matter.
 
@@ -174,10 +181,9 @@ The `dev` script in `package.json` is set to `next dev --turbopack`. **Always st
 12. Privacy
 13. Inline CTA
 14. Languages grid
-15. Reviews (`variant.reviews`)
-16. Inline CTA
-17. FAQ (`variant.faqs` + `uc.faqs`)
-18. Final CTA
+15. Inline CTA
+16. FAQ (`variant.faqs` + `uc.faqs`)
+17. Final CTA
 
 **Status as of 2026-07-26 — ALL USE-CASE × LANGUAGE VARIANTS COMPLETE (720/720).**
 All 12 use cases now have variants for all 60 languages. `getUseCaseLanguageVariant` returns a real variant for every use-case × language pair; nothing falls back to generic content.
@@ -214,7 +220,7 @@ English, Chinese, Hindi, Spanish, Arabic, Bengali, Portuguese, Russian, Urdu, In
 ### What each variant must contain
 Every variant is a `UseCaseLanguageVariant` object. Fields and rules per section:
 
-**Every field is specific to BOTH the use case AND the language.** Nothing carries over from a different use case. A German × doctor-appointments variant shares zero content with a German × everyday-conversations variant — different settings, different barriers, different challenge framing, different reviews, different FAQs, different hero title.
+**Every field is specific to BOTH the use case AND the language.** Nothing carries over from a different use case. A German × doctor-appointments variant shares zero content with a German × everyday-conversations variant — different settings, different barriers, different challenge framing, different FAQs, different hero title.
 
 ```typescript
 {
@@ -225,7 +231,6 @@ Every variant is a `UseCaseLanguageVariant` object. Fields and rules per section
   whyHardSection: { ... },        // see below
   useCaseDescriptions: string[],  // 6 entries, same order as uc.subUseCases
   challenge: { ... },             // see below — most important section
-  reviews: Review[],              // 4 quotes — see below
   faqs: { q: string; a: string }[], // 8–10 questions — see below
 }
 ```
@@ -320,14 +325,6 @@ Generic and correct for all pages.
 ### Languages section — adapt language only
 The section structure is the same. The language referenced in copy adapts to the current language.
 
-### reviews rules
-4 reviews per variant. Must be specific to **both the use case AND the language**:
-- A plausible local name from a country where this language is spoken
-- Country flag emoji for that country
-- A realistic email (name.x***@gmail.com format)
-- A specific detail: city, hearing condition, context relevant to the use case
-- A quote that names a real setting in that language's culture relevant to the use case AND a specific communication barrier — not generic praise
-
 ### faqs rules
 8–10 questions. Must be specific to **both the language AND the use case**. Avoid any question that could appear unchanged on a different language page.
 Good pattern (from Chinese, everyday-conversations): "Does Captio AI handle the tones in fast casual Mandarin speech?" / "Does it work for multigenerational conversations where different family members speak different varieties?"
@@ -337,7 +334,6 @@ Bad: "Does Captio AI work well?" / "Is it accurate?" / "What languages does it s
 - **subUseCases:** Are the titles plain English that anyone would recognise? Could a reader who knows nothing about this language's culture still picture the setting? → if not, broaden the title and simplify the description.
 - **whyHardSection:** Is each card rooted in a real linguistic/phonological/dialectal barrier specific to this language? Does it have a light use-case tint — enough that these cards would read differently on a doctor-appointments page for the same language? → if cards could appear unchanged on any language page, rewrite.
 - **challenge:** Is the data different from what's in whyHardSection — population stats and policy gaps, not phonology? Does every cited URL actually exist and point to the right source? Does the section end with a Captio AI sentence? → fix any of these that are missing.
-- Are the reviews from the right countries for this language, with plausible local names? → check.
 - Do the FAQs answer what a deaf person in that country would actually search for this use case? → rewrite if generic.
 
 ---
@@ -556,19 +552,7 @@ The only hard constraints are:
 
 ---
 
-### Section 5 — `reviews` (4 entries)
-
-**Purpose:** social proof that is specific enough to feel real.
-
-**Rules:**
-- 4 reviews
-- Each review: plausible local name from a country where this language is spoken, correct country flag emoji, realistic email (`name.x***@gmail.com`), specific detail (city, hearing condition), quote
-- The quote must name a real setting relevant to this use case in this language's culture AND describe a specific communication barrier that Captio AI resolved — not generic praise
-- Reviews must differ from each other — different cities, different settings, different barriers
-
----
-
-### Section 6 — `faqs` (8–10 entries)
+### Section 5 — `faqs` (8–10 entries)
 
 **Purpose:** capture long-tail search queries. Answer what a deaf or HoH person in this language's country would actually search.
 
@@ -701,16 +685,6 @@ This is the definitive reference for every use-case × language page. Follow thi
 
 ---
 
-### Reviews
-
-- 4 reviews per variant.
-- Must be specific to **both the use case AND the language**.
-- Each review: plausible local name from a country where this language is spoken, correct country flag emoji, realistic email (`name.x***@gmail.com`), specific detail (city, hearing condition).
-- The quote must name a real setting relevant to this use case in this language's culture AND describe a specific communication barrier that Captio AI resolved. Not generic praise.
-- Reviews must differ from each other — different cities, different settings, different barriers.
-
----
-
 ### FAQ
 
 - 8–10 questions per variant.
@@ -736,7 +710,6 @@ Use this table before writing any variant. Fields marked "stored only" exist in 
 | `challenge.headline` | Yes | Challenge section heading |
 | `challenge.paragraphs` | Yes | Challenge section body (first 3 only) |
 | `challenge.citations` | Yes | Challenge section footnotes |
-| `reviews` | Yes | Reviews carousel |
 | `faqs` | Yes | FAQ accordion |
 
 ---

@@ -11,9 +11,9 @@ import { useCases } from "@/lib/useCases";
 // URL with the deploy date teaches them to ignore it. When you meaningfully edit
 // a group's content, bump its date here.
 const UPDATED = {
-  core: "2026-09-25", // homepage, feature pages
-  languages: "2026-09-25", // /[language]
-  useCases: "2026-09-25", // /use-cases/[slug] and /use-cases/[slug]/[language]
+  core: "2026-10-13", // homepage, feature pages
+  languages: "2026-10-13", // /[language]
+  useCases: "2026-10-13", // /use-cases/[slug] and /use-cases/[slug]/[language]
   privacy: "2026-08-13",
   terms: "2026-07-31",
 };

@@ -22,6 +22,7 @@ SEO + AEO (Answer Engine Optimization): the site is the app's main acquisition c
 4. **No thin pages** — pages that don't answer follow-up questions won't get cited. Don't ship placeholder pages.
 5. **Titles** — the root layout appends ` | Captio AI`; don't include the brand in page-level titles.
 6. **Never name the speech-recognition provider** outside the Privacy Policy.
+7. **No fake reviews, ever.** Never invent reviews, testimonials, user quotes, ratings, user counts, or Review/aggregateRating schema. Only real, verifiable ones the user supplies (see CLAUDE.md).
 
 ## Data sources
 - Languages: `src/lib/languages.ts`

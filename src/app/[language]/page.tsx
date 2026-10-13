@@ -5,7 +5,6 @@ import { notFound } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FaqAccordion from "@/components/FaqAccordion";
-import ReviewCarousel from "@/components/ReviewCarousel";
 import { languages, getLanguageBySlug } from "@/lib/languages";
 import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbSchema } from "@/lib/schema";
 
@@ -459,25 +458,7 @@ export default async function LanguagePage({ params }: Props) {
           </section>
         )}
 
-        {lang.communityNote && (
-          <div className="py-8 flex flex-col items-center gap-2 bg-white">
-            <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">Download for free</p>
-            <AppStoreButton />
-          </div>
-        )}
-
-        {/* ── Testimonials ── */}
-        <section className="py-10 bg-white overflow-hidden">
-          <div className="max-w-6xl mx-auto px-6 mb-7">
-            <div className="text-center">
-              <span className="text-xs font-bold text-cta uppercase tracking-widest">Reviews</span>
-              <h2 className="text-3xl font-bold text-gray-900 tracking-tight mt-3">People love Captio AI</h2>
-            </div>
-          </div>
-          <ReviewCarousel reviews={lang.reviews} />
-        </section>
-
-        {/* ── Inline CTA after testimonials ── */}
+        {/* ── Inline CTA ── */}
         <div className="py-8 flex flex-col items-center gap-2 bg-white">
           <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">Download for free</p>
           <AppStoreButton />

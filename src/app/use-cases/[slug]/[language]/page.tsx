@@ -5,7 +5,6 @@ import { notFound } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FaqAccordion from "@/components/FaqAccordion";
-import ReviewCarousel from "@/components/ReviewCarousel";
 import { useCases, getUseCaseBySlug, inlineUseCaseLabel, type UseCase } from "@/lib/useCases";
 import { languages, getLanguageBySlug, type Language } from "@/lib/languages";
 import { getUseCaseLanguageVariant, type UseCaseLanguageVariant } from "@/lib/useCaseLanguageData";
@@ -122,7 +121,6 @@ export default async function UseCaseLanguagePage({ params }: Props) {
   if (!uc || !lang) notFound();
 
   const variant = getUseCaseLanguageVariant(slug, language);
-  const reviews = variant?.reviews ?? uc.reviews;
   const allFaqs = [
     ...(variant?.faqs ?? []),
     ...uc.faqs,
@@ -480,19 +478,6 @@ export default async function UseCaseLanguagePage({ params }: Props) {
               ))}
             </div>
           </div>
-        </section>
-
-        {/* ── Testimonials ── */}
-        <section className="py-10 bg-white overflow-hidden">
-          <div className="max-w-6xl mx-auto px-6 mb-7">
-            <div className="text-center">
-              <span className="text-xs font-bold text-cta uppercase tracking-widest">Reviews</span>
-              <h2 className="text-3xl font-bold text-gray-900 tracking-tight mt-3">
-                People love Captio AI
-              </h2>
-            </div>
-          </div>
-          <ReviewCarousel reviews={reviews} />
         </section>
 
         {/* ── Inline CTA ── */}

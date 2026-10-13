@@ -35,7 +35,6 @@ export type UseCase = {
   benefits?: Benefit[];
   featureHighlights?: FeatureHighlight[];
   faqs: { q: string; a: string }[];
-  reviews: { name: string; flag: string; email: string; detail: string; quote: string; languageSlug?: string }[];
 };
 
 export const useCases: UseCase[] = [
@@ -173,12 +172,6 @@ export const useCases: UseCase[] = [
       { q: "Is using Captio AI a reasonable workplace accommodation?", a: "Yes. Captio AI is an accessibility tool equivalent to any other hearing accommodation. In most jurisdictions, employers are legally required to make reasonable accommodations for deaf and hard of hearing employees. Using a captioning app at work is a recognised accommodation." },
       { q: "What if the meeting room has poor acoustics or echo?", a: "Position the phone as close as possible to the nearest speaker — either the person talking or a PA output. Closer proximity reduces the impact of room acoustics. In very echoey rooms, accuracy may be slightly reduced but captions remain useful." },
     ],
-    reviews: [
-      { name: "Sarah K.", flag: "🇬🇧", email: "sarah.k***@gmail.com", detail: "Hard of hearing, London", quote: "I put Captio AI on the table at the start of every meeting. I have not missed a decision in months." },
-      { name: "Florian B.", flag: "🇩🇪", email: "florian.b***@gmail.com", detail: "Deaf, Berlin", quote: "My team speaks fast German and switches to English mid-sentence. Captio AI keeps up with every speaker. It changed how I participate." },
-      { name: "Yuki T.", flag: "🇯🇵", email: "yuki.t***@gmail.com", detail: "Hard of hearing, Tokyo", quote: "Japanese meetings move at a pace that was exhausting to follow. Captio AI gives me everything, word by word, as it happens." },
-      { name: "Lena F.", flag: "🇸🇪", email: "lena.f***@gmail.com", detail: "Hard of hearing, Stockholm", quote: "Our team meetings mix English and Swedish. Captio AI handles both in the same session without any setup. I finally contribute in real time." },
-    ],
   },
   {
     slug: "doctor-appointments",
@@ -313,12 +306,6 @@ export const useCases: UseCase[] = [
       { q: "Does it work in A&E or urgent care?", a: "Yes. In high-pressure environments like A&E, hold the phone toward whoever is speaking. Captions appear in real time for triage, examination, and discharge instructions — the moments when accurate understanding matters most." },
       { q: "Should I tell the doctor I am using it?", a: "You do not have to. Many people place the phone on the desk without mentioning it. If you do mention it, most doctors respond positively and face the microphone when speaking — which improves accuracy. Both approaches are valid." },
       { q: "Does using Captio AI count as a disability accommodation?", a: "Yes. Using a captioning app at a medical appointment is a recognised accessibility accommodation. Under disability equality legislation in most countries, healthcare providers are required to make reasonable adjustments for deaf and hard of hearing patients." },
-    ],
-    reviews: [
-      { name: "Miriam L.", flag: "🇺🇸", email: "miriam.l***@gmail.com", detail: "Hard of hearing since birth, New York", quote: "I used to bring a family member to every appointment to catch what the doctor said. Now I go alone. Captio AI gives me everything in real time." },
-      { name: "Takeshi N.", flag: "🇯🇵", email: "takeshi.n***@gmail.com", detail: "Progressive hearing loss, Osaka", quote: "Japanese doctors speak fast and do not repeat. Captio AI gives me a full transcript of every consultation so I leave knowing exactly what was said." },
-      { name: "Amara D.", flag: "🇸🇪", email: "amara.d***@gmail.com", detail: "Hard of hearing, Stockholm", quote: "I moved from Senegal and my Swedish is not perfect. Live Translator captions the doctor in Swedish and I read in French. No more misunderstandings." },
-      { name: "Reza K.", flag: "🇮🇷", email: "reza.k***@gmail.com", detail: "Hard of hearing, Tehran", quote: "I used to avoid appointments because they were too stressful. Captio AI changed that. I go to every one now and I understand everything." },
     ],
   },
   {
@@ -455,12 +442,6 @@ export const useCases: UseCase[] = [
       { q: "Is using Captio AI in a lecture allowed?", a: "Yes. Captio AI is an accessibility tool. Using a captioning app in class is a standard reasonable accommodation. For assessed settings, check with your institution's disability services office — policies vary on what is permitted in exams." },
       { q: "Does it work for study groups and peer revision sessions?", a: "Yes. Place the phone on the table between participants and point it toward the most active speaker. Captio AI captions whoever is talking so you follow every contribution without asking for repeats." },
     ],
-    reviews: [
-      { name: "Priya S.", flag: "🇮🇳", email: "priya.s***@gmail.com", detail: "Hard of hearing student, Delhi", quote: "I was trying to lip-read and take notes at the same time. It was exhausting. Captio AI handles the following — I just focus on understanding." },
-      { name: "Lucas M.", flag: "🇧🇷", email: "lucas.m***@gmail.com", detail: "Deaf, São Paulo", quote: "My university has no official captioning. Captio AI covers every lecture, every seminar, every guest speaker. I stopped missing things." },
-      { name: "Emma J.", flag: "🇬🇧", email: "emma.j***@gmail.com", detail: "Hard of hearing, Manchester", quote: "Official captioning only covers some lectures. Captio AI covers everything else — and it is faster and more accurate anyway." },
-      { name: "Giulia R.", flag: "🇮🇹", email: "giulia.r***@gmail.com", detail: "Hard of hearing student, Milan", quote: "Italian lectures move fast and professors do not repeat. Captio AI gives me every word, in real time, so I keep up with the same content as everyone else." },
-    ],
   },
   {
     slug: "everyday-conversations",
@@ -595,12 +576,6 @@ export const useCases: UseCase[] = [
       { q: "Does it work when people are speaking quietly?", a: "Quiet speech is captured as long as the phone is close enough to the speaker — within a metre typically works well. Very low whispers at distance may reduce accuracy, but normal quiet speech in a one-to-one conversation is handled accurately." },
       { q: "Can I use Captio AI for informal work moments — hallway chats, quick questions?", a: "Yes. These spontaneous conversations are exactly what Captio AI is designed for. Open the app and point it toward whoever is speaking. There is no setup required between conversations." },
       { q: "Does Captio AI need an internet connection?", a: "Yes. Captio AI requires an active internet connection — Wi-Fi or mobile data — to process speech. For outdoor conversations, a mobile data connection keeps it working wherever you are." },
-    ],
-    reviews: [
-      { name: "James R.", flag: "🇦🇺", email: "james.r***@gmail.com", detail: "Progressive hearing loss, Sydney", quote: "My hearing started going last year. Captio AI means I can still have normal conversations without making it awkward." },
-      { name: "Fatima A.", flag: "🇸🇦", email: "fatima.a***@gmail.com", detail: "Hard of hearing, Riyadh", quote: "Arabic conversations move fast. Captio AI keeps up. I use it for everything now." },
-      { name: "Nina P.", flag: "🇸🇮", email: "nina.p***@gmail.com", detail: "Hard of hearing since childhood, Ljubljana", quote: "I always had to ask people to repeat themselves. Now I just read. It is so much less exhausting." },
-      { name: "Daniel O.", flag: "🇳🇬", email: "daniel.o***@gmail.com", detail: "Hard of hearing, Lagos", quote: "Captio AI handles fast conversational English and local accents accurately. I use it every day." },
     ],
   },
   {
@@ -737,12 +712,6 @@ export const useCases: UseCase[] = [
       { q: "What if the interviewer speaks quickly or has a strong accent?", a: "Captio AI handles natural speech rates and regional accents. You do not need to ask the interviewer to slow down or enunciate for accurate captions." },
       { q: "Does it work for assessment centre group activities?", a: "Yes. In group exercises, place the phone on the table facing the most active participants. For evaluator briefings and feedback sessions, point it toward the evaluator. Captio AI captions whoever is speaking at any moment." },
     ],
-    reviews: [
-      { name: "David C.", flag: "🇬🇧", email: "david.c***@gmail.com", detail: "Hard of hearing, Birmingham", quote: "I used to dread phone interviews. With Captio AI I can read every word in real time. I got the job." },
-      { name: "Hana K.", flag: "🇨🇿", email: "hana.k***@gmail.com", detail: "Hard of hearing, Prague", quote: "I told the interviewer I would be using a captioning app. She was completely fine with it. I followed every question and the interview went perfectly." },
-      { name: "Marco B.", flag: "🇮🇹", email: "marco.b***@gmail.com", detail: "Progressive hearing loss, Milan", quote: "Fast formal Italian in an interview is hard to follow. Captio AI gave me every question clearly. I answered well because I actually heard what was asked." },
-      { name: "Aoi S.", flag: "🇯🇵", email: "aoi.s***@gmail.com", detail: "Hard of hearing, Tokyo", quote: "Japanese panel interviews are structured but fast. Captio AI made sure I caught every question from every panel member. I went in prepared and came out confident." },
-    ],
   },
   {
     slug: "phone-video-calls",
@@ -877,12 +846,6 @@ export const useCases: UseCase[] = [
       { q: "Does it work for customer service calls?", a: "Yes. Banks, insurance companies, utility providers, government offices. Put the call on speaker and point Captio AI toward the audio. It captions fast-speaking agents and automated systems accurately." },
       { q: "What if I am making the call, not receiving it?", a: "The setup is the same — put the call on speaker, open Captio AI, and point the microphone toward the speaker output. You speak normally into the phone; Captio AI captions what the other person says back to you." },
       { q: "Does it work on video calls where I can also lip-read?", a: "Yes. You can use both simultaneously. Many people find captions useful even on video calls because the lip-reading demand is reduced — you read the caption rather than working to follow the video feed." },
-    ],
-    reviews: [
-      { name: "Ruth T.", flag: "🇺🇸", email: "ruth.t***@gmail.com", detail: "Hard of hearing, Chicago", quote: "I avoided phone calls for years. Every call was exhausting and I always missed something important. Captio AI changed that. I can call anyone now." },
-      { name: "Anders L.", flag: "🇸🇪", email: "anders.l***@gmail.com", detail: "Deaf, Gothenburg", quote: "Video calls with my family used to be the hardest part of my week. Captio AI gives me everything they say in real time. Now I look forward to them." },
-      { name: "Sofia R.", flag: "🇵🇹", email: "sofia.r***@gmail.com", detail: "Hard of hearing, Lisbon", quote: "I used to ask my sister to make calls for me. Portuguese phone calls are fast and I missed too much. Now I make them myself." },
-      { name: "Nour M.", flag: "🇱🇧", email: "nour.m***@gmail.com", detail: "Hard of hearing, Beirut", quote: "Calls in Arabic were always the worst — fast speech, no visual cues, nothing to fall back on. Captio AI made them manageable for the first time." },
     ],
   },
   {
@@ -1019,12 +982,6 @@ export const useCases: UseCase[] = [
       { q: "Can Captio AI tell me who is speaking?", a: "Captio AI captions the voice it is picking up — it does not identify individuals by name. In a seated group, placing the phone centrally and watching who is speaking alongside the captions makes it easy to follow speaker attribution." },
       { q: "Does it work for multilingual families where people mix languages?", a: "Yes. Use Live Translator mode, which detects and translates from multiple source languages in a single session. For a family where some members speak one language and others speak another, Captio AI translates in real time without any manual switching." },
     ],
-    reviews: [
-      { name: "Chloe B.", flag: "🇫🇷", email: "chloe.b***@gmail.com", detail: "Hard of hearing, Paris", quote: "French family dinners used to be two hours of nodding. I put Captio AI in the middle of the table now and follow everything." },
-      { name: "Ivan S.", flag: "🇷🇺", email: "ivan.s***@gmail.com", detail: "Progressive hearing loss, Moscow", quote: "Russian family gatherings are loud and chaotic. Captio AI follows whoever is speaking so I stop losing the thread." },
-      { name: "Ingrid H.", flag: "🇳🇴", email: "ingrid.h***@gmail.com", detail: "Hard of hearing, Oslo", quote: "Group settings used to be where I zoned out and waited to go home. Now I actually participate. It is a completely different experience." },
-      { name: "Youssef A.", flag: "🇲🇦", email: "youssef.a***@gmail.com", detail: "Hard of hearing, Casablanca", quote: "Family gatherings in Moroccan Arabic move fast. Captio AI keeps up with everyone around the table. I stopped dreading them." },
-    ],
   },
   {
     slug: "restaurants",
@@ -1159,12 +1116,6 @@ export const useCases: UseCase[] = [
       { q: "Does it work for outdoor dining?", a: "Yes. Outdoor patios and terraces are handled well. Wind noise at high levels may reduce accuracy, but typical outdoor dining settings work accurately — often better than loud indoor restaurants." },
       { q: "Does it affect the dining experience for the other person?", a: "Minimally. A phone on the table is unremarkable. Most companions adapt naturally once they see what Captio AI does — many find it interesting. It does not require the other person to change how they speak." },
       { q: "What about cafe settings with background music?", a: "Background music at typical cafe volumes is handled well. Very loud music close to the speaker may reduce accuracy slightly, but standard cafe ambient noise — espresso machines, other conversations, moderate music — does not prevent accurate captions." },
-    ],
-    reviews: [
-      { name: "Elena V.", flag: "🇮🇹", email: "elena.v***@gmail.com", detail: "Hard of hearing, Rome", quote: "Italian restaurants are loud and the conversations move fast. I put Captio AI between me and my friend and have a real conversation for the first time in years." },
-      { name: "Thomas K.", flag: "🇩🇪", email: "thomas.k***@gmail.com", detail: "Deaf, Hamburg", quote: "Going out used to mean nodding along and pretending I had caught everything. Now I actually follow what is being said. Going out is enjoyable again." },
-      { name: "Mei L.", flag: "🇨🇳", email: "mei.l***@gmail.com", detail: "Hard of hearing, Shanghai", quote: "Background noise used to cut me off from conversations completely. Captio AI focuses on whoever I am talking to. The restaurant noise is just background." },
-      { name: "Pablo G.", flag: "🇲🇽", email: "pablo.g***@gmail.com", detail: "Hard of hearing, Mexico City", quote: "Fast Mexican Spanish at a loud table — Captio AI handles it. I finally enjoy going out again rather than finding reasons to stay home." },
     ],
   },
   {
@@ -1301,12 +1252,6 @@ export const useCases: UseCase[] = [
       { q: "Does it work during guided tours?", a: "Yes. Hold the phone toward the tour guide and read the captions as they speak. For recorded audio guides, point the phone toward the audio output. For longer tours, use the recording and transcription features to get a full written record of the tour." },
       { q: "What about hotel check-in conversations?", a: "Yes. Place the phone on the counter pointed toward the receptionist. Captio AI captions every word — room assignments, key instructions, local recommendations — so you follow the full check-in without asking for repeats." },
     ],
-    reviews: [
-      { name: "Kenji M.", flag: "🇯🇵", email: "kenji.m***@gmail.com", detail: "Hard of hearing, traveling in Europe", quote: "I travel solo with hearing loss. Live Translator lets me navigate any country without a language barrier. I have not missed a single gate or announcement." },
-      { name: "Sophie D.", flag: "🇫🇷", email: "sophie.d***@gmail.com", detail: "Deaf, traveling in Japan", quote: "Japan was the trip I had been putting off because of the language. Captio AI handled every airport announcement, hotel check-in, and restaurant order. It made the trip possible." },
-      { name: "Carlos M.", flag: "🇧🇷", email: "carlos.m***@gmail.com", detail: "Hard of hearing, São Paulo", quote: "I used to panic at airports — gate changes announced by PA with nothing visual. Captio AI covers every announcement. I travel without the anxiety now." },
-      { name: "Fatou S.", flag: "🇸🇳", email: "fatou.s***@gmail.com", detail: "Hard of hearing, Dakar", quote: "I traveled through four European countries without speaking any of the local languages. Live Translator was my guide for the whole trip." },
-    ],
   },
   {
     slug: "conferences",
@@ -1442,12 +1387,6 @@ export const useCases: UseCase[] = [
       { q: "Does it work for outdoor events and stages?", a: "Yes. For outdoor events with PA systems, point the phone toward the nearest speaker output. For smaller outdoor settings, hold it toward the presenter. Wind noise at high levels may reduce accuracy but typical outdoor event conditions are handled well." },
       { q: "What about workshops where participants contribute from around the room?", a: "Place the phone on the table in front of you, facing the most active participants. Captio AI follows whoever is loudest in the microphone's direction. For facilitated discussions with a clear leader, point it toward the facilitator." },
     ],
-    reviews: [
-      { name: "Rachel F.", flag: "🇬🇧", email: "rachel.f***@gmail.com", detail: "Hard of hearing, London", quote: "I go to industry conferences regularly. Captio AI gives me better captions than most official captioning I have seen — and it covers the networking and breakouts that official captioning never does." },
-      { name: "Henrik J.", flag: "🇩🇰", email: "henrik.j***@gmail.com", detail: "Deaf, Copenhagen", quote: "International conferences in English are now fully accessible to me. Captio AI captions every speaker, every panel, every Q&A — from any seat." },
-      { name: "Aisha B.", flag: "🇿🇦", email: "aisha.b***@gmail.com", detail: "Hard of hearing, Cape Town", quote: "South African conferences sometimes provide SASL interpreters for the main stage. Captio AI covers everything else — and everything else is most of the conference." },
-      { name: "Vera N.", flag: "🇷🇴", email: "vera.n***@gmail.com", detail: "Hard of hearing, Bucharest", quote: "I attended a multilingual conference last year with speakers in three languages. Live Translator followed every one of them. I followed every session." },
-    ],
   },
   {
     slug: "tv-media",
@@ -1582,12 +1521,6 @@ export const useCases: UseCase[] = [
       { q: "Does the TV volume affect accuracy?", a: "A moderate volume level gives the cleanest signal. Very low volume may reduce accuracy. Turning the volume up slightly when using Captio AI gives the best results — you do not need the sound for yourself, just a clean signal for the microphone." },
       { q: "Does it work on a laptop or tablet?", a: "Yes. The same approach works on any device. Point the phone's microphone toward the laptop or tablet speaker. Captio AI captions whatever is playing in real time." },
       { q: "How is Captio AI better than the built-in subtitles on my TV or streaming service?", a: "Built-in subtitles lag behind live content, are often inaccurate, and are absent for many content types. Captio AI captions in real time from the audio directly — no lag for live content, no dependence on platform subtitle quality, and available for any content regardless of whether subtitles exist." },
-    ],
-    reviews: [
-      { name: "Jonathan W.", flag: "🇺🇸", email: "jonathan.w***@gmail.com", detail: "Hard of hearing since childhood, Boston", quote: "Netflix subtitles are often wrong or lag by several seconds. Captio AI gives me captions that match what is actually being said, in real time." },
-      { name: "Emilie C.", flag: "🇫🇷", email: "emilie.c***@gmail.com", detail: "Hard of hearing, Lyon", quote: "French live news with Captio AI. The built-in subtitles were always several seconds behind. Captio AI is right there with what is being said." },
-      { name: "Björn A.", flag: "🇸🇪", email: "bjorn.a***@gmail.com", detail: "Deaf, Stockholm", quote: "I use Captio AI for any content that does not have reliable subtitles. That covers most of what I watch — news, YouTube, anything live." },
-      { name: "Hyun J.", flag: "🇰🇷", email: "hyun.j***@gmail.com", detail: "Hard of hearing, Seoul", quote: "Korean streaming has reasonable subtitles. For live news, YouTube, and foreign shows, Captio AI fills the gap completely." },
     ],
   },
   {
@@ -1725,12 +1658,6 @@ export const useCases: UseCase[] = [
       { q: "Can I use it on a phone or video call with a deaf or hard of hearing person?", a: "For calls, the deaf or hard of hearing person should use Captio AI on their end — they put the call on speaker and Captio AI captions your voice in real time. You do not need to do anything differently on your side." },
       { q: "Is it appropriate to use without telling the other person?", a: "Yes. Captio AI runs quietly on your phone and can be used discreetly. Audio is processed in real time and discarded immediately — nothing is recorded. Many people choose to mention it; others do not. Both are valid." },
       { q: "Does the conversation need to happen in a quiet room?", a: "No. Captio AI is designed for real environments — living rooms with background TV, busy workplaces, noisy social settings. Moderate background noise does not prevent accurate captioning." },
-    ],
-    reviews: [
-      { name: "Tom A.", flag: "🇬🇧", email: "tom.a***@gmail.com", detail: "Hearing, partner is deaf, Manchester", quote: "My partner is deaf. Captio AI means I can just talk normally and she reads everything. No more typing on phones between us." },
-      { name: "Claire D.", flag: "🇫🇷", email: "claire.d***@gmail.com", detail: "Hearing, mother of deaf son, Lyon", quote: "My son has been deaf since birth. Captio AI is the first thing that lets me just speak to him without both of us working around it." },
-      { name: "Marcus R.", flag: "🇩🇪", email: "marcus.r***@gmail.com", detail: "Hearing, works with deaf colleague, Hamburg", quote: "My colleague is hard of hearing. I used to slow down and over-enunciate which felt patronising. Now I just talk normally and he reads along." },
-      { name: "Sara J.", flag: "🇸🇪", email: "sara.j***@gmail.com", detail: "Hearing, best friend is hard of hearing, Stockholm", quote: "I set up Captio AI before we meet and forget it is even there. My friend gets everything. We finally just have normal conversations." },
     ],
   },
 ];
