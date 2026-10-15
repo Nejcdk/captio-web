@@ -32,7 +32,7 @@ export default function PrivacyPage() {
         <Header />
         <div className="max-w-3xl mx-auto px-6 py-16">
       <h1 className="text-3xl font-bold mb-2">Privacy Policy</h1>
-      <p className="text-sm text-gray-500 mb-10">Last updated: October 11, 2026</p>
+      <p className="text-sm text-gray-500 mb-10">Last updated: October 15, 2026</p>
 
       <P>
         This Privacy Policy explains how Captio AI (&ldquo;Captio AI&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or
@@ -152,21 +152,28 @@ export default function PrivacyPage() {
       </P>
       <UL>
         <li>
+          <strong>Before anything is sent, the app asks you.</strong> The first time you use live captions (including
+          the demo during setup), translation, an upload, or an AI action, the app tells you who receives your data
+          (Soniox for audio, Google Gemini for transcript text) and asks for your permission. If you say no, nothing
+          is sent.
+        </li>
+        <li>
           When you use live captions, translation, or upload audio for transcription, your audio is transmitted
-          securely to a <strong>third-party speech-recognition provider</strong> that converts it to text. The
+          securely to <strong>Soniox, our third-party speech-recognition provider</strong>, which converts it to text. The
           audio is processed transiently and then <strong>deleted</strong> — an uploaded file is deleted from the
           provider as soon as its transcript is ready. It is not stored on our servers, and it is not used to
           train any models.
         </li>
         <li>
-          When Captio AI generates a title or summary, the relevant text is sent to a <strong>third-party AI
-          provider</strong> to produce that title or summary. We use a paid service under terms where your content
+          When Captio AI generates a title, a summary, or another AI action (key points, detailed notes, to-dos,
+          questions and answers, a follow-up message), the transcript text is sent to <strong>Google&rsquo;s Gemini
+          API, our third-party AI provider</strong>, to produce it. We use a paid service under terms where your content
           is <strong>not used to train models</strong>. That provider may retain the input briefly for security and
           abuse-monitoring under its own terms, after which it is deleted.
         </li>
         <li>
-          These providers are Soniox, Inc. (speech recognition) and Google LLC (Gemini API, used for titles and
-          summaries). They act as our processors, are bound by their own privacy terms and by data-processing
+          These providers are Soniox, Inc. (speech recognition) and Google LLC (Gemini API, used for titles,
+          summaries and the other AI actions). They act as our processors, are bound by their own privacy terms and by data-processing
           agreements, and process your data only to provide the Service — never to train their models.
         </li>
       </UL>
@@ -192,7 +199,8 @@ export default function PrivacyPage() {
       <UL>
         <li><strong>Performance of a contract</strong> — to provide the Service you request, including your account, syncing, and your subscription.</li>
         <li>
-          <strong>Consent</strong> — for microphone access; for advertising measurement with Meta and OpenAI (your choice
+          <strong>Consent</strong> — for microphone access; for sending your audio to Soniox and your transcript text to
+          Google (Gemini API), which the app asks before anything is sent; for advertising measurement with Meta and OpenAI (your choice
           when the app asks to track, which you can change at any time in iOS Settings); and for the optional
           question about hearing difficulties in the feedback form (explicit consent under Article 9(2)(a) GDPR,
           which you can withdraw by contacting us).
@@ -213,7 +221,7 @@ export default function PrivacyPage() {
       </P>
       <UL>
         <li><strong>Soniox, Inc.</strong> — speech recognition (section 4).</li>
-        <li><strong>Google LLC</strong> — Gemini API for titles and summaries (section 4), and Google Sign-In if you choose it.</li>
+        <li><strong>Google LLC</strong> — Gemini API for titles, summaries and the other AI actions (section 4), and Google Sign-In if you choose it.</li>
         <li><strong>Apple</strong> — App Store purchases, Sign in with Apple, and Apple&rsquo;s advertising attribution (SKAdNetwork and Apple Ads).</li>
         <li><strong>Supabase</strong> — our database, accounts, and sync.</li>
         <li><strong>RevenueCat, Inc.</strong> — subscriptions and free trials.</li>
