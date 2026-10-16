@@ -153,9 +153,9 @@ export default function PrivacyPage() {
       <UL>
         <li>
           <strong>Before anything is sent, the app asks you.</strong> The first time you use live captions (including
-          the demo during setup), translation, an upload, or an AI action, the app tells you who receives your data
-          (Soniox for audio, Google Gemini for transcript text) and asks for your permission. If you say no, nothing
-          is sent.
+          the demo during setup), translation, an upload, or an AI action, the app tells you what is sent to a
+          third-party speech-recognition provider and a third-party AI provider (both named below) and asks for your
+          permission. If you say no, nothing is sent.
         </li>
         <li>
           When you use live captions, translation, or upload audio for transcription, your audio is transmitted
