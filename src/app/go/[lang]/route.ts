@@ -3,7 +3,9 @@ import { after } from "next/server";
 
 // ChatGPT ad links: captioai.app/go/<lang> forwards straight to the App Store
 // with that ad language's campaign tag (ct=cg_<lang>), so App Store Connect
-// counts installs per ad language. Nothing is shown to the visitor.
+// counts installs per ad language. Nothing is shown to the visitor. An ad group
+// can add `g=<group>` (lowercase letters, up to 8) to get its own tag,
+// ct=cg_<lang>_<group> (e.g. cg_de_hoh), so installs split per audience.
 //
 // Each click is logged after the redirect is sent: OpenAI's click id (oppref,
 // which OpenAI appends itself; the ads also pass it as click_id)
@@ -26,9 +28,10 @@ export async function GET(request: Request, { params }: { params: Promise<{ lang
   const lang = (await params).lang.toLowerCase();
   const known = LANGS.has(lang);
   const target = new URL(APP_STORE);
-  if (known) target.searchParams.set("ct", `cg_${lang}`);
-
   const query = new URL(request.url).searchParams;
+  const group = query.get("g")?.toLowerCase() ?? "";
+  if (known) target.searchParams.set("ct", /^[a-z]{1,8}$/.test(group) ? `cg_${lang}_${group}` : `cg_${lang}`);
+
   const ip = (request.headers.get("x-forwarded-for") ?? "").split(",")[0].trim() || request.headers.get("x-real-ip");
   const ua = request.headers.get("user-agent") ?? "";
   if (known && ip && !BOT.test(ua)) {
