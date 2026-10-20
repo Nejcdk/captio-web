@@ -3,13 +3,16 @@ import Image from "next/image";
 import Link from "next/link";
 import { getFolderInvite, type FolderInvite } from "@/lib/folderInvite";
 import { GetAppHeader, InviteViewed, OpenInApp } from "./InviteActions";
+import { JoinWithAccount } from "./JoinWithAccount";
 
 // captioai.app/f/<code>: an invite to a shared folder in the app. With the app
 // installed the link opens the app instead (universal link, see
 // .well-known/apple-app-site-association), and in Safari Apple's banner offers
 // "Open" with the invite. Without the app, this page: who invited you to which
-// folder, "Open in Captio AI" (the app if it's there, else the App Store) and
-// the code. Both buttons put the invite on the clipboard first, so the app can
+// folder, "Open in Captio AI" (the app if it's there, else the App Store),
+// "Continue with Google/Apple" to join now and find the folder waiting in the
+// app after signing in with the same account (JoinWithAccount.tsx), and the
+// code. Both buttons put the invite on the clipboard first, so the app can
 // join the folder by itself after it's installed (InviteActions.tsx).
 // Never indexed.
 
@@ -104,6 +107,13 @@ function Invite({ invite, code }: { invite: FolderInvite; code: string }) {
       <div className="mx-auto mt-8 max-w-sm">
         <OpenInApp code={code} />
       </div>
+
+      {/* No app yet: join with the account they'll use in the app. */}
+      {process.env.SUPABASE_URL && process.env.SUPABASE_ANON_KEY && (
+        <div className="mx-auto mt-7 max-w-sm border-t border-gray-100 pt-6">
+          <JoinWithAccount code={code} folderName={invite.name} supabaseUrl={process.env.SUPABASE_URL} anonKey={process.env.SUPABASE_ANON_KEY} />
+        </div>
+      )}
 
       <div className="mx-auto mt-6 max-w-sm rounded-2xl bg-gray-50 px-5 py-4 text-center">
         <p className="text-[13px] font-semibold tracking-[0.12em] text-gray-400">INVITE CODE</p>
