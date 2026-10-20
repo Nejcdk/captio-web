@@ -123,15 +123,19 @@ export function JoinWithAccount({ code, folderName, supabaseUrl, anonKey }: {
 
   if (state.step === "joined") {
     return (
-      <div className="rounded-2xl bg-green-50 px-5 py-5 text-center ring-1 ring-green-100">
-        <p className="text-lg font-bold text-gray-900">✅ You&rsquo;re in {folderName}</p>
-        <p className="mt-2 text-[15px] leading-relaxed text-gray-700">
-          Get Captio AI and sign in with the same {PROVIDER_NAME[state.provider]} account. The folder and its recordings will be waiting.
+      <div>
+        <svg width="44" height="44" viewBox="0 0 44 44" aria-hidden className="mx-auto">
+          <rect width="44" height="44" rx="12" fill="#1C49F5" />
+          <path d="M13.5 22.5l5.5 5.5L30.5 16.5" fill="none" stroke="#fff" strokeWidth="3.2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+        <p className="mt-3 text-xl font-bold text-gray-900">You&rsquo;re in</p>
+        <p className="mt-1 text-[15px] leading-relaxed text-gray-600">
+          Get Captio AI and sign in with the same {PROVIDER_NAME[state.provider]} account. {folderName} will be waiting.
         </p>
         <a
           href={INVITE_STORE_LINK}
           onClick={() => capture("folder_invite_store_redirect", { from: "joined", copied: false, reason: "joined_on_web" })}
-          className="mt-4 block rounded-lg bg-[#F97316] px-5 py-4 text-[17px] font-bold text-white"
+          className="mt-6 block rounded-lg bg-brand px-5 py-4 text-[17px] font-bold text-white transition-colors hover:bg-brand/90"
         >
           Get Captio AI
         </a>
@@ -142,14 +146,13 @@ export function JoinWithAccount({ code, folderName, supabaseUrl, anonKey }: {
   const busy = state.step === "working";
   return (
     <div>
-      <p className="text-[14px] font-semibold text-gray-500">New to Captio AI? Join now</p>
-      <div className="mt-3 flex flex-col gap-3">
+      <div className="flex flex-col gap-3">
         {APPLE_WEB_SIGNIN && (
           <button
             type="button"
             disabled={busy}
             onClick={() => start("apple")}
-            className="flex items-center justify-center gap-2 rounded-lg bg-black px-5 py-3.5 text-[16px] font-semibold text-white disabled:opacity-60"
+            className="flex items-center justify-center gap-2.5 rounded-lg bg-black px-5 py-4 text-[17px] font-semibold text-white disabled:opacity-60"
           >
             <svg width="17" height="20" viewBox="0 0 17 20" aria-hidden fill="currentColor">
               <path d="M14.1 10.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9-1.7 0-3.3 1-4.2 2.6-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.6 1.3-.1 1.8-.8 3.3-.8 1.6 0 2 .8 3.4.8 1.4 0 2.3-1.3 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9 0 0-2.7-1-2.7-4.1zM11.5 3c.7-.9 1.2-2 1-3.2-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.1 1.1.1 2.3-.6 3.1-1.5z" />
@@ -161,7 +164,7 @@ export function JoinWithAccount({ code, folderName, supabaseUrl, anonKey }: {
           type="button"
           disabled={busy}
           onClick={() => start("google")}
-          className="flex items-center justify-center gap-2 rounded-lg bg-white px-5 py-3.5 text-[16px] font-semibold text-gray-900 ring-1 ring-gray-300 disabled:opacity-60"
+          className="flex items-center justify-center gap-2.5 rounded-lg bg-white px-5 py-4 text-[17px] font-semibold text-gray-900 ring-1 ring-gray-300 transition-colors hover:bg-gray-50 disabled:opacity-60"
         >
           <svg width="18" height="18" viewBox="0 0 48 48" aria-hidden>
             <path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z" />
@@ -172,8 +175,8 @@ export function JoinWithAccount({ code, folderName, supabaseUrl, anonKey }: {
           {busy && state.step === "working" && state.provider === "google" ? "Signing in…" : "Continue with Google"}
         </button>
       </div>
-      <p className="mt-3 text-[13px] leading-relaxed text-gray-500">
-        Then sign in to the app with the same account. {folderName} will be waiting.
+      <p className="mt-4 text-[14px] leading-relaxed text-gray-500">
+        Then sign in to Captio AI with the same account.
       </p>
       {state.step === "error" && <p className="mt-3 text-[14px] font-medium text-red-600">{state.message}</p>}
     </div>

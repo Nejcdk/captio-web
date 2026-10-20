@@ -98,7 +98,15 @@ function open(code: string, from: From) {
   }, OPEN_TIMEOUT_MS);
 }
 
-export function OpenInApp({ code }: { code: string }) {
+// variant "link": the quiet "Have Captio AI? Open it" under the card.
+export function OpenInApp({ code, variant }: { code: string; variant: "button" | "link" }) {
+  if (variant === "link") {
+    return (
+      <button type="button" onClick={() => open(code, "card")} className="font-semibold text-brand hover:underline">
+        Have Captio AI? Open it
+      </button>
+    );
+  }
   return (
     <button
       type="button"
