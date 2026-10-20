@@ -137,7 +137,9 @@ export default function PrivacyPage() {
           link opens our website, which sends you straight on to the App Store. On the way it notes which ad you
           tapped, OpenAI&rsquo;s click identifier, and a one-way hash of your IP address (never the address
           itself), so that a trial you start later can be matched to the ad if you allow tracking in the app.
-          This record is deleted after 8 days.
+          This record is deleted after 8 days. If you accept a shared-folder invite on our website by signing in
+          with Apple or Google, the sign-in uses your browser&rsquo;s temporary session storage only while you join;
+          you are signed out of the website right after, and nothing is kept in your browser.
         </li>
       </UL>
       <P>
@@ -182,7 +184,9 @@ export default function PrivacyPage() {
       <P>
         Transcripts and summaries are stored on your device and are also synced to our secure cloud storage so
         they&rsquo;re available when you sign in on another device or reinstall the app. They are linked to your
-        account and protected by access controls so that only you can access them. They are never sold or used to
+        account and protected by access controls so that only you can access them. If you put a recording in a
+        shared folder, everyone in that folder can see its transcript and summary; leaving the folder, or removing
+        someone from yours, takes that person&rsquo;s recordings out of it. They are never sold or used to
         train AI models. When you delete a transcript, it is removed from your device and from our cloud; when you
         delete your account — which you can do at any time from within the app — all of your transcripts and
         summaries are permanently deleted.
