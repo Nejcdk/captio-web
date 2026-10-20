@@ -1,13 +1,17 @@
 import type { Metadata, Viewport } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { getFolderInvite, INVITE_STORE_LINK, type FolderInvite } from "@/lib/folderInvite";
+import { getFolderInvite, type FolderInvite } from "@/lib/folderInvite";
+import { GetAppHeader, InviteViewed, OpenInApp } from "./InviteActions";
 
 // captioai.app/f/<code>: an invite to a shared folder in the app. With the app
 // installed the link opens the app instead (universal link, see
-// .well-known/apple-app-site-association). Without it, this page: who invited
-// you to which folder, Get Captio AI, and the invite code to type in the app
-// (Folders → "Got an invite code?"). Never indexed.
+// .well-known/apple-app-site-association), and in Safari Apple's banner offers
+// "Open" with the invite. Without the app, this page: who invited you to which
+// folder, "Open in Captio AI" (the app if it's there, else the App Store) and
+// the code. Both buttons put the invite on the clipboard first, so the app can
+// join the folder by itself after it's installed (InviteActions.tsx).
+// Never indexed.
 
 export const dynamic = "force-dynamic";
 export const viewport: Viewport = { themeColor: "#F2F4F8" };
@@ -17,16 +21,20 @@ type Props = { params: Promise<{ code: string }> };
 const normalize = (code: string) => code.toUpperCase().replace(/[^A-Z0-9]/g, "");
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const invite = await getFolderInvite(normalize((await params).code));
-  const title = invite ? `Join “${invite.name}” on Captio AI` : "Captio AI";
-  const description = invite
-    ? `${invite.inviter ?? "A friend"} invited you to a shared folder of live-caption recordings.`
+  const code = normalize((await params).code);
+  const invite = await getFolderInvite(code);
+  const ok = invite && invite !== "error" ? invite : null;
+  const title = ok ? `Join “${ok.name}” on Captio AI` : "Captio AI";
+  const description = ok
+    ? `${ok.inviter ?? "A friend"} invited you to a shared folder of live-caption recordings.`
     : "Live captions for every conversation.";
   return {
     title: { absolute: title },
     description,
     robots: { index: false, follow: false },
     openGraph: { title, description, type: "website" },
+    // Safari's Smart App Banner: "Open" hands the app this link, "Get" the App Store.
+    itunes: { appId: "6796617180", appArgument: `captio://join/${code}` },
   };
 }
 
@@ -62,14 +70,16 @@ function Folder({ color }: { color: string }) {
   );
 }
 
-function Header() {
+// Sticky like the shared-recording page: the logo and the one way to the app.
+function Header({ code }: { code: string | null }) {
   return (
-    <div className="px-3 pt-3 sm:px-4 sm:pt-4">
+    <div className="sticky top-0 z-10 px-3 pt-3 sm:px-4 sm:pt-4">
       <header className="mx-auto flex h-14 max-w-xl items-center justify-between gap-3 rounded-xl bg-brand px-4 shadow-[0_6px_20px_rgba(28,73,245,0.25)] sm:h-16 sm:px-5">
         <Link href="/" className="flex items-center gap-2">
-          <Image src="/logo_image_profile.png" alt="" width={36} height={36} className="rounded-full" priority />
-          <Image src="/logo_text.png" alt="Captio AI" width={100} height={23} priority />
+          <Image src="/logo_image_profile.png" alt="" width={36} height={36} className="rounded-full sm:h-10 sm:w-10" priority />
+          <Image src="/logo_text.png" alt="Captio AI" width={100} height={23} className="sm:w-[110px]" priority />
         </Link>
+        <GetAppHeader code={code} />
       </header>
     </div>
   );
@@ -91,16 +101,11 @@ function Invite({ invite, code }: { invite: FolderInvite; code: string }) {
         A shared folder in Captio AI, the app that turns conversations into live captions. Everyone in it sees every recording, and what you record there shows up for them too.
       </p>
 
-      <div className="mx-auto mt-8 flex max-w-sm flex-col gap-3">
-        <a href={`captio://join/${code}`} className="rounded-lg bg-brand px-5 py-4 text-[17px] font-bold text-white">
-          Open in Captio AI
-        </a>
-        <a href={INVITE_STORE_LINK} className="rounded-lg bg-[#F97316] px-5 py-4 text-[17px] font-bold text-white">
-          Get Captio AI
-        </a>
+      <div className="mx-auto mt-8 max-w-sm">
+        <OpenInApp code={code} />
       </div>
 
-      <div className="mx-auto mt-8 max-w-sm rounded-2xl bg-gray-50 px-5 py-4 text-center">
+      <div className="mx-auto mt-6 max-w-sm rounded-2xl bg-gray-50 px-5 py-4 text-center">
         <p className="text-[13px] font-semibold tracking-[0.12em] text-gray-400">INVITE CODE</p>
         <p className="font-mono text-2xl font-bold tracking-[0.2em] text-gray-900">{code}</p>
       </div>
@@ -108,23 +113,30 @@ function Invite({ invite, code }: { invite: FolderInvite; code: string }) {
   );
 }
 
+function Message({ title, body }: { title: string; body: string }) {
+  return (
+    <article className="rounded-3xl bg-white px-6 py-12 text-center shadow-sm ring-1 ring-black/5">
+      <h1 className="text-2xl font-bold text-gray-900">{title}</h1>
+      <p className="mt-3 text-[16px] text-gray-600">{body}</p>
+    </article>
+  );
+}
+
 export default async function FolderInvitePage({ params }: Props) {
   const code = normalize((await params).code);
   const invite = await getFolderInvite(code);
+  const ok = invite && invite !== "error" ? invite : null;
   return (
     <main className="min-h-screen bg-[#F2F4F8]">
-      <Header />
+      <Header code={ok ? code : null} />
+      <InviteViewed valid={!!ok} error={invite === "error"} members={ok?.members} recordings={ok?.recordings} hasInviter={!!ok?.inviter} />
       <div className="mx-auto max-w-xl px-3 pb-16 pt-5 sm:px-4 sm:pt-8">
-        {invite ? (
-          <Invite invite={invite} code={code} />
+        {ok ? (
+          <Invite invite={ok} code={code} />
+        ) : invite === "error" ? (
+          <Message title="Couldn’t load this invite" body="Please try again in a moment." />
         ) : (
-          <article className="rounded-3xl bg-white px-6 py-12 text-center shadow-sm ring-1 ring-black/5">
-            <h1 className="text-2xl font-bold text-gray-900">This invite doesn’t work anymore</h1>
-            <p className="mt-3 text-[16px] text-gray-600">It may have been removed. Ask your friend for a new one.</p>
-            <a href={INVITE_STORE_LINK} className="mt-8 inline-block rounded-lg bg-[#F97316] px-6 py-4 text-[17px] font-bold text-white">
-              Get Captio AI
-            </a>
-          </article>
+          <Message title="This invite doesn’t work anymore" body="It may have been removed. Ask your friend for a new one." />
         )}
       </div>
     </main>
