@@ -15,9 +15,10 @@ import { INVITE_STORE_LINK } from "@/lib/folderInvite";
 // site keeps nothing) → "You're in" with the App Store button.
 // The sign-in's own short-lived data lives in sessionStorage only.
 //
-// Apple on the web needs a Services ID and a key in Supabase's Apple provider;
-// until that's set up the Apple button stays hidden.
-const APPLE_WEB_SIGNIN = false;
+// Apple on the web: Services ID com.captio.nejcdovzan.web, key 3XBDAZ5Q88; its
+// client secret in Supabase's Apple provider expires every 6 months (next:
+// 2027-04-18 — renew with credentials/apple/README.txt in the app repo).
+const APPLE_WEB_SIGNIN = true;
 
 type Provider = "google" | "apple";
 type State =
