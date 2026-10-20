@@ -100,24 +100,16 @@ function Invite({ invite, code }: { invite: FolderInvite; code: string }) {
       <p className="mt-5 text-[15px] text-gray-500">{who} invited you to</p>
       <h1 dir="auto" className="mt-1 text-3xl font-bold leading-tight text-gray-900">{invite.name}</h1>
       <p className="mt-2 text-[15px] text-gray-500">{people}, {recordings}</p>
-      <p className="mx-auto mt-6 max-w-sm text-[16px] leading-relaxed text-gray-700">
-        A shared folder in Captio AI, the app that turns conversations into live captions. Everyone in it sees every recording, and what you record there shows up for them too.
-      </p>
 
+      {/* One way in: join with the account they'll use in the app. People who
+          already have the app mostly never see this page (the link opens the
+          app), so opening it is only a quiet link. */}
       <div className="mx-auto mt-8 max-w-sm">
-        <OpenInApp code={code} />
-      </div>
-
-      {/* No app yet: join with the account they'll use in the app. */}
-      {process.env.SUPABASE_URL && process.env.SUPABASE_ANON_KEY && (
-        <div className="mx-auto mt-7 max-w-sm border-t border-gray-100 pt-6">
+        {process.env.SUPABASE_URL && process.env.SUPABASE_ANON_KEY ? (
           <JoinWithAccount code={code} folderName={invite.name} supabaseUrl={process.env.SUPABASE_URL} anonKey={process.env.SUPABASE_ANON_KEY} />
-        </div>
-      )}
-
-      <div className="mx-auto mt-6 max-w-sm rounded-2xl bg-gray-50 px-5 py-4 text-center">
-        <p className="text-[13px] font-semibold tracking-[0.12em] text-gray-400">INVITE CODE</p>
-        <p className="font-mono text-2xl font-bold tracking-[0.2em] text-gray-900">{code}</p>
+        ) : (
+          <OpenInApp code={code} variant="button" />
+        )}
       </div>
     </article>
   );
@@ -142,7 +134,15 @@ export default async function FolderInvitePage({ params }: Props) {
       <InviteViewed valid={!!ok} error={invite === "error"} members={ok?.members} recordings={ok?.recordings} hasInviter={!!ok?.inviter} />
       <div className="mx-auto max-w-xl px-3 pb-16 pt-5 sm:px-4 sm:pt-8">
         {ok ? (
-          <Invite invite={ok} code={code} />
+          <>
+            <Invite invite={ok} code={code} />
+            <div className="mt-5 flex flex-col items-center gap-2 text-[14px] text-gray-500">
+              <OpenInApp code={code} variant="link" />
+              <p>
+                Invite code <span className="font-mono font-semibold tracking-wider text-gray-700">{code}</span>
+              </p>
+            </div>
+          </>
         ) : invite === "error" ? (
           <Message title="Couldn’t load this invite" body="Please try again in a moment." />
         ) : (
