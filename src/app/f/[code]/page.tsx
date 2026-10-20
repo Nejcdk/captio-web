@@ -101,14 +101,19 @@ function Invite({ invite, code }: { invite: FolderInvite; code: string }) {
       <h1 dir="auto" className="mt-1 text-3xl font-bold leading-tight text-gray-900">{invite.name}</h1>
       <p className="mt-2 text-[15px] text-gray-500">{people}, {recordings}</p>
 
-      {/* One way in: join with the account they'll use in the app. People who
-          already have the app mostly never see this page (the link opens the
-          app), so opening it is only a quiet link. */}
+      {/* Two equal ways in: open the app (many already have it), or join with
+          the account they'll use in the app and get it. */}
       <div className="mx-auto mt-8 max-w-sm">
-        {process.env.SUPABASE_URL && process.env.SUPABASE_ANON_KEY ? (
-          <JoinWithAccount code={code} folderName={invite.name} supabaseUrl={process.env.SUPABASE_URL} anonKey={process.env.SUPABASE_ANON_KEY} />
-        ) : (
-          <OpenInApp code={code} variant="button" />
+        <OpenInApp code={code} variant="button" />
+        {process.env.SUPABASE_URL && process.env.SUPABASE_ANON_KEY && (
+          <>
+            <div className="my-5 flex items-center gap-3 text-[13px] font-medium text-gray-400">
+              <span className="h-px flex-1 bg-gray-200" />
+              New to Captio AI?
+              <span className="h-px flex-1 bg-gray-200" />
+            </div>
+            <JoinWithAccount code={code} folderName={invite.name} supabaseUrl={process.env.SUPABASE_URL} anonKey={process.env.SUPABASE_ANON_KEY} />
+          </>
         )}
       </div>
     </article>
@@ -137,7 +142,6 @@ export default async function FolderInvitePage({ params }: Props) {
           <>
             <Invite invite={ok} code={code} />
             <div className="mt-5 flex flex-col items-center gap-2 text-[14px] text-gray-500">
-              <OpenInApp code={code} variant="link" />
               <p>
                 Invite code <span className="font-mono font-semibold tracking-wider text-gray-700">{code}</span>
               </p>
