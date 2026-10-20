@@ -6,8 +6,8 @@ import { getFolderInvite, INVITE_STORE_LINK, type FolderInvite } from "@/lib/fol
 // captioai.app/f/<code>: an invite to a shared folder in the app. With the app
 // installed the link opens the app instead (universal link, see
 // .well-known/apple-app-site-association). Without it, this page: who invited
-// you to which folder, then Get Captio AI, and "open this link again" (or the
-// code) once it's installed. Never indexed.
+// you to which folder, Get Captio AI, and the invite code to type in the app
+// (Folders → "Got an invite code?"). Never indexed.
 
 export const dynamic = "force-dynamic";
 export const viewport: Viewport = { themeColor: "#F2F4F8" };
@@ -100,11 +100,9 @@ function Invite({ invite, code }: { invite: FolderInvite; code: string }) {
         </a>
       </div>
 
-      <div className="mx-auto mt-8 max-w-sm rounded-2xl bg-gray-50 px-5 py-4 text-left text-[15px] leading-relaxed text-gray-700">
-        <p>✅ Get Captio AI and sign in</p>
-        <p>✅ Open this link again, or go to Folders and tap “Got an invite code?”</p>
-        <p className="mt-3 text-center text-[13px] font-semibold tracking-[0.12em] text-gray-400">INVITE CODE</p>
-        <p className="text-center font-mono text-2xl font-bold tracking-[0.2em] text-gray-900">{code}</p>
+      <div className="mx-auto mt-8 max-w-sm rounded-2xl bg-gray-50 px-5 py-4 text-center">
+        <p className="text-[13px] font-semibold tracking-[0.12em] text-gray-400">INVITE CODE</p>
+        <p className="font-mono text-2xl font-bold tracking-[0.2em] text-gray-900">{code}</p>
       </div>
     </article>
   );
