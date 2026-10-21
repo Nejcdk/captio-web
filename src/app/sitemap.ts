@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/schema";
 import { languages } from "@/lib/languages";
 import { useCases } from "@/lib/useCases";
+import { AUTHORS, CATEGORIES, getAllPosts, getPostsByAuthor, getPostsByCategory, type AuthorKey, type CategorySlug } from "@/lib/blog";
 
 // Generated from the same data that generates the pages, so it stays in sync
 // automatically. Next serves this at /sitemap.xml.
@@ -46,6 +47,34 @@ export default function sitemap(): MetadataRoute.Sitemap {
         url: `${SITE_URL}/use-cases/${uc.slug}/${lang.languageSlug}`,
         lastModified: UPDATED.useCases,
       });
+    }
+  }
+
+  // Blog: each article carries its own updated date from its frontmatter, so
+  // <lastmod> moves only when that article changes. Empty categories are left
+  // out (they are noindex until they have articles).
+  const posts = getAllPosts();
+  if (posts.length > 0) {
+    const newest = posts.map((p) => p.updated).sort().pop()!;
+    entries.push({ url: `${SITE_URL}/blog`, lastModified: newest });
+    for (const slug of Object.keys(CATEGORIES) as CategorySlug[]) {
+      const inCategory = getPostsByCategory(slug);
+      if (inCategory.length === 0) continue;
+      entries.push({
+        url: `${SITE_URL}/blog/category/${slug}`,
+        lastModified: inCategory.map((p) => p.updated).sort().pop()!,
+      });
+    }
+    for (const author of Object.keys(AUTHORS) as AuthorKey[]) {
+      const byAuthor = getPostsByAuthor(author);
+      if (byAuthor.length === 0) continue;
+      entries.push({
+        url: `${SITE_URL}/blog/author/${author}`,
+        lastModified: byAuthor.map((p) => p.updated).sort().pop()!,
+      });
+    }
+    for (const post of posts) {
+      entries.push({ url: `${SITE_URL}/blog/${post.slug}`, lastModified: post.updated });
     }
   }
 

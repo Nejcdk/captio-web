@@ -15,3 +15,114 @@ body {
   font-family: var(--font-sans), "Plus Jakarta Sans", system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
+
+/* ── Blog article body (rendered Markdown, src/lib/blog.ts) ───────────────── */
+.blog-prose {
+  color: #374151;
+  font-size: 17px;
+  line-height: 1.75;
+}
+.blog-prose > :first-child { margin-top: 0; }
+.blog-prose p { margin: 0 0 1.25rem; }
+.blog-prose h2 {
+  margin: 3rem 0 1rem;
+  color: #111827;
+  font-size: 1.55rem;
+  line-height: 1.25;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  scroll-margin-top: 6rem;
+}
+.blog-prose h3 {
+  margin: 2.25rem 0 0.75rem;
+  color: #111827;
+  font-size: 1.2rem;
+  line-height: 1.35;
+  font-weight: 700;
+  scroll-margin-top: 6rem;
+}
+@media (min-width: 640px) {
+  .blog-prose h2 { font-size: 1.7rem; }
+}
+.blog-prose strong { color: #111827; font-weight: 600; }
+.blog-prose a {
+  color: var(--color-brand);
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--color-brand) 35%, transparent);
+  text-underline-offset: 3px;
+}
+.blog-prose a:hover { text-decoration-color: var(--color-brand); }
+
+/* Lists: a short brand-blue bar instead of a dot bullet. */
+.blog-prose ul, .blog-prose ol { margin: 0 0 1.5rem; padding: 0; }
+.blog-prose ul { list-style: none; }
+.blog-prose ul > li { position: relative; padding-left: 1.5rem; margin-bottom: 0.6rem; }
+.blog-prose ul > li::before {
+  content: "";
+  position: absolute;
+  left: 0.15rem;
+  top: 0.82em;
+  width: 0.65rem;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--color-brand);
+}
+.blog-prose ol { list-style: decimal; padding-left: 1.5rem; }
+.blog-prose ol > li { padding-left: 0.35rem; margin-bottom: 0.6rem; }
+.blog-prose ol > li::marker { color: var(--color-brand); font-weight: 700; }
+
+.blog-prose blockquote {
+  margin: 1.75rem 0;
+  padding: 1rem 1.25rem;
+  border-left: 3px solid var(--color-brand);
+  background: #f9fafb;
+  border-radius: 0 12px 12px 0;
+  color: #1f2937;
+}
+.blog-prose blockquote p:last-child { margin-bottom: 0; }
+
+.blog-prose hr { margin: 2.5rem 0; border: 0; border-top: 1px solid #e5e7eb; }
+.blog-prose code {
+  font-size: 0.9em;
+  background: #f3f4f6;
+  border-radius: 6px;
+  padding: 0.1em 0.35em;
+}
+
+/* Tables: comparisons and data. Scroll sideways on small screens. */
+.blog-prose .table-wrap {
+  margin: 1.75rem 0 2rem;
+  overflow-x: auto;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+.blog-prose table { width: 100%; border-collapse: collapse; font-size: 15px; line-height: 1.5; }
+.blog-prose thead th {
+  background: #f9fafb;
+  color: #111827;
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+}
+.blog-prose th, .blog-prose td { padding: 0.75rem 1rem; border-bottom: 1px solid #e5e7eb; vertical-align: top; }
+.blog-prose tbody tr:last-child td { border-bottom: 0; }
+.blog-prose tbody td:first-child { color: #111827; font-weight: 600; }
+
+/* Citation markers: [2] in Markdown, small blue tag linking to the source. */
+sup.cite { line-height: 0; margin-left: 1px; }
+sup.cite a {
+  display: inline-block;
+  min-width: 1.25em;
+  padding: 0.15em 0.3em;
+  border-radius: 4px;
+  background: var(--color-brand-light);
+  color: var(--color-brand);
+  font-size: 0.68rem;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: 0.35em;
+}
+sup.cite a:hover { background: var(--color-brand); color: #fff; }
