@@ -33,11 +33,11 @@ export default function TermsPage() {
         <Header />
         <div className="max-w-3xl mx-auto px-6 py-16">
       <h1 className="text-3xl font-bold mb-2">Terms of Service</h1>
-      <p className="text-sm text-gray-500 mb-10">Last updated: October 7, 2026</p>
+      <p className="text-sm text-gray-500 mb-10">Last updated: October 21, 2026</p>
 
       <P>
-        These Terms of Service (&ldquo;Terms&rdquo;) govern your access to and use of the Captio AI iOS application
-        and the captioai.app website (together, the &ldquo;Service&rdquo;). By using the Service, you agree to
+        These Terms of Service (&ldquo;Terms&rdquo;) govern your access to and use of the Captio AI apps for iPhone
+        and Android and the captioai.app website (together, the &ldquo;Service&rdquo;). By using the Service, you agree to
         these Terms. If you do not agree, please do not use the Service.
       </P>
 
@@ -68,7 +68,7 @@ export default function TermsPage() {
 
       <H2>4. Your account</H2>
       <P>
-        Some features require an account, which you can create using Sign in with Apple or Google. You are responsible for the accuracy of the information you provide and for
+        Some features require an account, which you can create using Sign in with Apple (on iPhone) or Google. You are responsible for the accuracy of the information you provide and for
         keeping your login credentials confidential. You are responsible for activity that occurs under your
         account. If you believe your account has been compromised, contact us promptly.
       </P>
@@ -114,27 +114,30 @@ export default function TermsPage() {
       <H2>9. Plans and payment</H2>
       <P>
         Captio AI offers a free plan with daily limits and a paid subscription (&ldquo;Plus&rdquo;). Paid
-        subscriptions purchased in the iOS app are billed through the <strong>Apple App Store</strong>, and Apple
-        is responsible for the payment. Prices are shown before you subscribe.
+        subscriptions are billed by the store you bought them from: the <strong>Apple App Store</strong> in the
+        iPhone app and <strong>Google Play</strong> in the Android app. That store is responsible for the payment
+        (&ldquo;your store account&rdquo; below means your Apple account or your Google account). Prices are shown
+        before you subscribe.
       </P>
       <UL>
         <li>
           <strong>Free trial.</strong> New subscribers may be offered a free trial; its length is shown in the app
           before you start it. Unless you cancel at least 24 hours before the trial ends, it automatically becomes
-          a paid subscription and your Apple account is charged when the paid period starts. Apple decides who is
-          eligible for a free trial (generally one per Apple ID).
+          a paid subscription and your store account is charged when the paid period starts. Apple or Google
+          decides who is eligible for a free trial (generally one per Apple ID or Google account).
         </li>
         <li>
           <strong>Auto-renewal.</strong> Subscriptions renew automatically for the same period (monthly or
-          yearly) until you cancel. Your Apple account is charged at the start of each period.
+          yearly) until you cancel. Your store account is charged at the start of each period.
         </li>
         <li>
-          <strong>Cancellation.</strong> You can cancel at any time in your Apple App Store account settings.
-          Cancellation takes effect at the end of the current billing period.
+          <strong>Cancellation.</strong> You can cancel at any time in your Apple App Store account settings
+          (iPhone) or in Google Play under Payments &amp; subscriptions (Android). Uninstalling the app does not
+          cancel a subscription. Cancellation takes effect at the end of the current billing period.
         </li>
         <li>
-          <strong>Refunds.</strong> Refunds for App Store purchases are handled by Apple in accordance with the
-          App Store&rsquo;s policies. Except where the law requires otherwise, fees are non-refundable.
+          <strong>Refunds.</strong> Refunds are handled by the store you paid through, under its own
+          policies: Apple for App Store purchases, Google for Google Play purchases. Except where the law requires otherwise, fees are non-refundable.
         </li>
         <li>
           <strong>Price changes.</strong> We may change subscription prices; changes apply to future billing

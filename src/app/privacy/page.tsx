@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
@@ -32,12 +33,12 @@ export default function PrivacyPage() {
         <Header />
         <div className="max-w-3xl mx-auto px-6 py-16">
       <h1 className="text-3xl font-bold mb-2">Privacy Policy</h1>
-      <p className="text-sm text-gray-500 mb-10">Last updated: October 15, 2026</p>
+      <p className="text-sm text-gray-500 mb-10">Last updated: October 21, 2026</p>
 
       <P>
         This Privacy Policy explains how Captio AI (&ldquo;Captio AI&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or
-        &ldquo;our&rdquo;) collects, uses, and protects your personal data when you use the Captio AI iOS
-        application and the captioai.app website (together, the &ldquo;Service&rdquo;). Captio AI is built as an
+        &ldquo;our&rdquo;) collects, uses, and protects your personal data when you use the Captio AI apps for
+        iPhone and Android and the captioai.app website (together, the &ldquo;Service&rdquo;). Captio AI is built as an
         accessibility tool for deaf and hard of hearing people, and privacy is central to how it works.
       </P>
 
@@ -55,14 +56,14 @@ export default function PrivacyPage() {
         <li>Your transcripts and summaries are stored <strong>securely to provide the Service</strong> — including syncing them across your devices — and are never sold or used to train AI models.</li>
         <li>We <strong>never sell</strong> your data.</li>
         <li>Your content is <strong>never used to train AI models</strong>, and it is never shared for advertising.</li>
-        <li>We measure our advertising with Meta and OpenAI <strong>only if you allow tracking</strong> when the app asks. If you don&rsquo;t, nothing is sent to them.</li>
+        <li>On iPhone, we measure our advertising with Meta and OpenAI <strong>only if you allow tracking</strong> when the app asks. If you don&rsquo;t, nothing is sent to them. The Android app does no advertising measurement at all.</li>
       </UL>
 
       <H2>3. Data we collect</H2>
       <UL>
         <li>
-          <strong>Account information.</strong> When you create an account with Sign in with Apple or Google, we
-          process your name, your email address, and an account identifier. If you use Sign in with Apple, Apple
+          <strong>Account information.</strong> When you create an account with Sign in with Apple (on iPhone) or
+          Google, we process your name, your email address, and an account identifier. If you use Sign in with Apple, Apple
           may provide a private relay email instead of your real one.
         </li>
         <li>
@@ -78,20 +79,21 @@ export default function PrivacyPage() {
         <li>
           <strong>Subscription information.</strong> If you start a free trial or subscribe, we and our
           subscription provider, RevenueCat, process your subscription status and purchase history (plan, trial,
-          renewals). To connect purchases to your account, RevenueCat also receives your account identifier, a
-          device identifier provided by Apple, and your IP address. Payment is handled by the Apple App Store — we
-          never receive or store your card details.
+          renewals). To connect purchases to your account, RevenueCat also receives your account identifier, your
+          IP address and, on iPhone, a device identifier provided by Apple. Payment is handled by the Apple App
+          Store on iPhone and by Google Play on Android — we never receive or store your card details.
         </li>
         <li>
           <strong>App usage and diagnostics.</strong> Which features and screens you use, the app version, your
-          device model and iOS version, your approximate location (city and country, derived from your IP
+          device model and operating system version (iOS or Android), your approximate location (city and country, derived from your IP
           address), and a random identifier created by the app, together with crash reports and error codes. We
           use this to keep the app reliable and to improve it. It is processed by PostHog on servers in the EU and
           never includes the content of your audio, transcripts, or summaries.
         </li>
         <li>
-          <strong>Advertising measurement.</strong> We use these tools to learn which of our ads lead to installs
-          and subscriptions:
+          <strong>Advertising measurement (iPhone only).</strong> In the iPhone app we use these tools to
+          learn which of our ads lead to installs and subscriptions (the Android app uses none of them: it never
+          reads your device&rsquo;s advertising ID and sends nothing to Meta or OpenAI):
           <UL>
             <li>
               Apple&rsquo;s SKAdNetwork, which tells an ad network anonymously, at campaign level, that an install
@@ -143,9 +145,17 @@ export default function PrivacyPage() {
         </li>
       </UL>
       <P>
-        Reminder notifications are scheduled on your device by the app itself; we do not run a push-notification
-        server. Photos and videos never leave your device: when you upload a video, the app extracts its sound
-        on your device and only the audio is sent for transcription.
+        Reminder notifications are scheduled on your device by the app itself. On iPhone, if you allow
+        notifications, the app also registers a push token with our server so we can tell you when a new version
+        is out or when someone adds a recording to a shared folder you are in; these are delivered through
+        Expo&rsquo;s push service and Apple. On Android, every notification comes from the app itself and no push
+        token is registered.
+      </P>
+      <P>
+        Photos never leave your device. When you upload a video on iPhone, the app extracts its sound on your
+        device and only the audio is sent for transcription. On Android, the video file you choose is sent to our
+        speech-recognition provider, which uses only its sound and deletes the file as soon as the transcript is
+        ready (section 4).
       </P>
 
       <H2>4. How your audio is processed</H2>
@@ -204,8 +214,8 @@ export default function PrivacyPage() {
         <li><strong>Performance of a contract</strong> — to provide the Service you request, including your account, syncing, and your subscription.</li>
         <li>
           <strong>Consent</strong> — for microphone access; for sending your audio to Soniox and your transcript text to
-          Google (Gemini API), which the app asks before anything is sent; for advertising measurement with Meta and OpenAI (your choice
-          when the app asks to track, which you can change at any time in iOS Settings); and for the optional
+          Google (Gemini API), which the app asks before anything is sent; for advertising measurement with Meta and OpenAI on iPhone (your
+          choice when the app asks to track, which you can change at any time in iOS Settings); and for the optional
           question about hearing difficulties in the feedback form (explicit consent under Article 9(2)(a) GDPR,
           which you can withdraw by contacting us).
         </li>
@@ -225,20 +235,21 @@ export default function PrivacyPage() {
       </P>
       <UL>
         <li><strong>Soniox, Inc.</strong> — speech recognition (section 4).</li>
-        <li><strong>Google LLC</strong> — Gemini API for titles, summaries and the other AI actions (section 4), and Google Sign-In if you choose it.</li>
-        <li><strong>Apple</strong> — App Store purchases, Sign in with Apple, and Apple&rsquo;s advertising attribution (SKAdNetwork and Apple Ads).</li>
+        <li><strong>Google LLC</strong> — Gemini API for titles, summaries and the other AI actions (section 4), Google Sign-In if you choose it, and Google Play purchases on Android.</li>
+        <li><strong>Apple</strong> — on iPhone: App Store purchases, Sign in with Apple, push notifications, and Apple&rsquo;s advertising attribution (SKAdNetwork and Apple Ads).</li>
         <li><strong>Supabase</strong> — our database, accounts, and sync.</li>
         <li><strong>RevenueCat, Inc.</strong> — subscriptions and free trials.</li>
         <li><strong>PostHog</strong> — app and website analytics, on servers in the EU.</li>
         <li><strong>Resend</strong> — email delivery.</li>
+        <li><strong>Expo (650 Industries, Inc.)</strong> — delivery of push notifications on iPhone.</li>
         <li><strong>Vercel</strong> — website hosting and cookieless website analytics.</li>
         <li>
-          <strong>Meta Platforms Ireland Ltd.</strong> — advertising measurement, <strong>only if you allow
-          tracking</strong>. Meta processes this data under its own privacy policy.
+          <strong>Meta Platforms Ireland Ltd.</strong> — advertising measurement on iPhone, <strong>only if you
+          allow tracking</strong>. Meta processes this data under its own privacy policy.
         </li>
         <li>
-          <strong>OpenAI</strong> — advertising measurement for our ads in ChatGPT, <strong>only if you allow
-          tracking</strong>. OpenAI processes this data under its own privacy policy.
+          <strong>OpenAI</strong> — advertising measurement for our ads in ChatGPT, on iPhone, <strong>only if you
+          allow tracking</strong>. OpenAI processes this data under its own privacy policy.
         </li>
       </UL>
       <P>We may also disclose data if required by law or to protect our legal rights.</P>
@@ -269,9 +280,10 @@ export default function PrivacyPage() {
         your personal data, the right to data portability, and the right to withdraw consent at any time. To
         exercise any of these, email{" "}
         <a href="mailto:nejcdovzank@gmail.com" className="text-brand underline">nejcdovzank@gmail.com</a>. You can
-        also delete your account, and all data linked to it, at any time directly in the app; turn tracking off
-        in iOS Settings → Privacy &amp; Security → Tracking; and unsubscribe from emails with the link in any
-        email. You also have the right to lodge a complaint with your local supervisory authority — in Slovenia,
+        also delete your account, and all data linked to it, at any time directly in the app or on{" "}
+        <Link href="/delete-account" className="text-brand underline">captioai.app/delete-account</Link>; turn tracking
+        off on iPhone in iOS Settings → Privacy &amp; Security → Tracking; and unsubscribe from emails with the link
+        in any email. You also have the right to lodge a complaint with your local supervisory authority — in Slovenia,
         the Information Commissioner (Informacijski pooblaščenec).
       </P>
 
@@ -295,8 +307,9 @@ export default function PrivacyPage() {
       <H2>13. Cookies and tracking</H2>
       <P>
         Our website does not use tracking or advertising cookies. The analytics we use are cookieless, which is
-        why you will not see a cookie-consent banner. The app does not use cookies. It tracks you for advertising
-        measurement only if you allow it when iOS asks, and declining changes nothing about how the app works.
+        why you will not see a cookie-consent banner. The app does not use cookies. The iPhone app tracks you for
+        advertising measurement only if you allow it when iOS asks, and declining changes nothing about how the
+        app works. The Android app does not track you for advertising.
       </P>
 
       <H2>14. Changes to this policy</H2>
