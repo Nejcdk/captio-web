@@ -115,7 +115,13 @@ export function blogPostingSchema(opts: {
   const author =
     opts.author.type === "Organization" && opts.author.url === SITE_URL
       ? { "@id": ORG_ID }
-      : { "@type": opts.author.type, name: opts.author.name, url: opts.author.url };
+      : {
+          "@type": opts.author.type,
+          "@id": `${opts.author.url}#person`,
+          name: opts.author.name,
+          url: opts.author.url,
+          ...(opts.author.type === "Person" ? { worksFor: { "@id": ORG_ID } } : {}),
+        };
   return {
     "@type": "BlogPosting",
     "@id": `${opts.url}#article`,

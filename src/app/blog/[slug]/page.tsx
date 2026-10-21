@@ -110,10 +110,10 @@ export default async function BlogPostPage({ params }: Props) {
                 </h1>
                 <p className="mt-4 text-lg text-gray-500 leading-relaxed">{post.description}</p>
                 <div className="mt-6 flex flex-wrap items-center gap-x-3 gap-y-2 text-sm text-gray-500">
-                  <span className="flex items-center gap-2">
+                  <Link href={`/blog/author/${post.author}`} className="flex items-center gap-2 group">
                     <Image src="/logo_image_profile.png" alt="" width={24} height={24} className="rounded-full" />
-                    <span className="font-semibold text-gray-700">{author.name}</span>
-                  </span>
+                    <span className="font-semibold text-gray-700 group-hover:text-brand transition-colors">{author.byline}</span>
+                  </Link>
                   <MetaDivider />
                   <span>
                     {post.updated !== post.published ? "Updated " : ""}
@@ -219,6 +219,8 @@ export default async function BlogPostPage({ params }: Props) {
 
               {/* ── About this article ── */}
               <p className="mt-10 text-sm text-gray-400 leading-relaxed border-t border-gray-100 pt-6">
+                Written by{" "}
+                <Link href={`/blog/author/${post.author}`} className="text-gray-600 font-semibold hover:text-brand">{author.byline}</Link>.
                 Published {formatDay(post.published)}
                 {post.updated !== post.published ? `, last updated ${formatDay(post.updated)}` : ""}. Every figure on this page links to its source. Spotted a mistake?{" "}
                 <a href="mailto:hello@captioai.app" className="text-brand font-semibold hover:underline">hello@captioai.app</a>

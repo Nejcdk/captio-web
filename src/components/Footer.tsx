@@ -1,8 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useCases } from "@/lib/useCases";
+import { getAllPosts } from "@/lib/blog";
 
 export default function Footer() {
+  // Newest articles on every page: readers find them, and crawlers reach a new
+  // article from ~800 pages the day it is published.
+  const latestPosts = getAllPosts().slice(0, 4);
   return (
     <footer className="bg-brand text-white">
       <div className="max-w-6xl mx-auto px-6 pt-12 pb-0">
@@ -30,9 +34,14 @@ export default function Footer() {
               ))}
             </div>
 
-            <div className="flex flex-col gap-2">
-              <span className="font-semibold text-white/40 uppercase tracking-widest text-xs mb-1">Company</span>
-              <Link href="/blog" className="text-white/70 hover:text-white transition-colors">Blog</Link>
+            <div className="flex flex-col gap-2 max-w-[15rem]">
+              <Link href="/blog" className="font-semibold text-white/40 hover:text-white uppercase tracking-widest text-xs mb-1 transition-colors">Blog</Link>
+              {latestPosts.map((post) => (
+                <Link key={post.slug} href={`/blog/${post.slug}`} className="text-white/70 hover:text-white transition-colors leading-snug">{post.title}</Link>
+              ))}
+              <Link href="/blog" className="text-white font-semibold hover:underline">All articles</Link>
+
+              <span className="font-semibold text-white/40 uppercase tracking-widest text-xs mt-6 mb-1">Company</span>
               <Link href="/privacy" className="text-white/70 hover:text-white transition-colors">Privacy Policy</Link>
               <Link href="/terms" className="text-white/70 hover:text-white transition-colors">Terms of Service</Link>
             </div>

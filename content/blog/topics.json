@@ -1,0 +1,1026 @@
+{
+  "_rules": "Queue for the daily blog job. Work top to bottom: the first entry with status 'queued' is next. Statuses: queued, published (add slug + published date), blocked (add reason), skipped (add reason). Titles are working titles; the writer may sharpen them. When fewer than 14 are queued, add 20 new topics following content/blog/PLAYBOOK.md, section Topics.",
+  "topics": [
+    {
+      "id": "how-many-people-are-deaf-or-hard-of-hearing-the-2026-numbers",
+      "category": "data",
+      "title": "How many people are deaf or hard of hearing? The 2026 numbers",
+      "query": "how many people are deaf",
+      "angle": "Global, US and UK figures from WHO, The Lancet and national surveys in one sourced table.",
+      "links": [
+        "/live-captions"
+      ],
+      "status": "published",
+      "slug": "how-many-people-are-deaf-or-hard-of-hearing",
+      "published": "2026-10-21"
+    },
+    {
+      "id": "best-live-caption-apps-for-deaf-and-hard-of-hearing-people-in-2026",
+      "category": "comparisons",
+      "title": "Best live caption apps for deaf and hard of hearing people in 2026",
+      "query": "best live caption app for deaf people",
+      "angle": "Roundup of the apps people actually use for in-person captions (built-in iPhone Live Captions, Google Live Transcribe, Ava, Otter, Captio AI and others): one big table with platforms, languages, price, speaker labels, translation, offline, saved transcripts; who each one is best for, including where others beat Captio AI.",
+      "links": [
+        "/live-captions",
+        "/use-cases/everyday-conversations"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "how-to-get-live-captions-on-your-iphone",
+      "category": "guides",
+      "title": "How to get live captions on your iPhone",
+      "query": "how to get live captions on iPhone",
+      "angle": "Step by step: Apple's built-in Live Captions (where to find it, which models and languages) and when an app is the better choice for conversations in a room.",
+      "links": [
+        "/live-captions",
+        "/use-cases/everyday-conversations"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "what-is-cart-captioning-how-it-works-and-what-it-costs",
+      "category": "explainers",
+      "title": "What is CART captioning? How it works and what it costs",
+      "query": "what is CART captioning",
+      "angle": "Human real-time captioning explained: who provides it, where it's used, typical cost, how it differs from automatic captions, and when each makes sense.",
+      "links": [
+        "/use-cases/lectures",
+        "/use-cases/conferences"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "captio-ai-vs-google-live-transcribe",
+      "category": "comparisons",
+      "title": "Captio AI vs Google Live Transcribe",
+      "query": "captio ai vs live transcribe",
+      "angle": "Platforms (Live Transcribe is Android only), languages, translation, saved transcripts, speaker labels, price. Fair verdict: free and built into Android vs what Captio AI adds.",
+      "links": [
+        "/live-captions",
+        "/live-translator"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "hearing-loss-statistics-in-the-united-states-2026",
+      "category": "data",
+      "title": "Hearing loss statistics in the United States (2026)",
+      "query": "how many people in the US have hearing loss",
+      "angle": "NIDCD, CDC, NHANES figures: adults, children, by age, hearing aid use, deaf ASL users; one sourced table.",
+      "links": [
+        "/use-cases/doctor-appointments",
+        "/english"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "how-to-follow-a-doctor-s-appointment-when-you-are-hard-of-hearing",
+      "category": "guides",
+      "title": "How to follow a doctor's appointment when you are hard of hearing",
+      "query": "how to understand my doctor with hearing loss",
+      "angle": "Before, during and after the appointment: asking for an interpreter or captions, rights to accessible communication (US ADA, UK Accessible Information Standard), using captions on your phone, getting a written summary.",
+      "links": [
+        "/use-cases/doctor-appointments",
+        "/ai-summary"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "captio-ai-vs-apple-live-captions-on-iphone",
+      "category": "comparisons",
+      "title": "Captio AI vs Apple Live Captions on iPhone",
+      "query": "apple live captions vs app",
+      "angle": "Built-in Live Captions vs a dedicated app: languages, saving, translation, speaker labels, uploads, summaries, price. Where the built-in one is enough.",
+      "links": [
+        "/live-captions"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "captions-vs-subtitles-what-s-the-difference",
+      "category": "explainers",
+      "title": "Captions vs subtitles: what's the difference?",
+      "query": "difference between captions and subtitles",
+      "angle": "Captions (for people who can't hear the audio, include sounds and speakers) vs subtitles (translation for people who can hear), SDH, open vs closed, live vs pre-recorded.",
+      "links": [
+        "/live-captions",
+        "/live-translator"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "hearing-loss-statistics-in-the-uk-2026",
+      "category": "data",
+      "title": "Hearing loss statistics in the UK (2026)",
+      "query": "how many people in the UK have hearing loss",
+      "angle": "RNID, NHS, ONS figures: 18 million, BSL users, hearing aid use, employment gap; one sourced table.",
+      "links": [
+        "/use-cases/doctor-appointments",
+        "/english"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "how-to-keep-up-in-university-lectures-with-hearing-loss",
+      "category": "guides",
+      "title": "How to keep up in university lectures with hearing loss",
+      "query": "hearing loss university lectures tips",
+      "angle": "Accommodations to ask for (note-takers, CART, captioned recordings), US Section 504/ADA and UK DSA in brief, seating, recording and captioning lectures on your phone, revising from transcripts.",
+      "links": [
+        "/use-cases/lectures",
+        "/audio-transcription"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "captio-ai-vs-ava",
+      "category": "comparisons",
+      "title": "Captio AI vs Ava",
+      "query": "captio ai vs ava",
+      "angle": "Two apps built for deaf and hard of hearing people: in-person captions, group features, human captioner add-on, languages, platforms, price. Verify Ava's current plans on its own site.",
+      "links": [
+        "/live-captions",
+        "/use-cases/group-settings"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "how-accurate-are-automatic-captions-what-the-research-shows",
+      "category": "data",
+      "title": "How accurate are automatic captions? What the research shows",
+      "query": "how accurate are automatic captions",
+      "angle": "Word error rate studies on automatic speech recognition (accents, noise, medical terms, non-native speakers), FCC/Ofcom caption quality rules, what accuracy level is usable for following speech.",
+      "links": [
+        "/live-captions"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "how-to-follow-work-meetings-when-you-are-hard-of-hearing",
+      "category": "guides",
+      "title": "How to follow work meetings when you are hard of hearing",
+      "query": "hard of hearing meetings at work tips",
+      "angle": "Meeting habits that help (one speaker at a time, agendas), seating and microphones, captions in the room, asking for accommodations (US ADA, UK Access to Work), turning the meeting into notes and to-dos.",
+      "links": [
+        "/use-cases/meetings",
+        "/ai-summary"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "captio-ai-vs-otter-ai-for-people-with-hearing-loss",
+      "category": "comparisons",
+      "title": "Captio AI vs Otter.ai for people with hearing loss",
+      "query": "otter ai for hard of hearing",
+      "angle": "Otter is built for online meetings and English notes; Captio AI for in-person captions in many languages. Languages, live captions, in-person use, summaries, price.",
+      "links": [
+        "/use-cases/meetings",
+        "/ai-summary"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "deaf-deaf-or-hard-of-hearing-what-the-words-mean",
+      "category": "explainers",
+      "title": "Deaf, deaf or hard of hearing: what the words mean",
+      "query": "difference between deaf and hard of hearing",
+      "angle": "WHO definitions, capital-D Deaf culture and sign language, hard of hearing, late-deafened, how to refer to people respectfully.",
+      "links": [
+        "/use-cases/deaf-hoh-communication"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "how-many-people-use-sign-language-numbers-by-country",
+      "category": "data",
+      "title": "How many people use sign language? Numbers by country",
+      "query": "how many people use sign language",
+      "angle": "WFD 70 million+ and 300+ sign languages, national counts (ASL, BSL, DGS, LSF, Auslan...), legal recognition by country, interpreter numbers.",
+      "links": [
+        "/use-cases/deaf-hoh-communication"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "how-to-talk-with-someone-who-is-deaf-or-hard-of-hearing-12-practical-t",
+      "category": "guides",
+      "title": "How to talk with someone who is deaf or hard of hearing: 12 practical tips",
+      "query": "how to talk to someone who is hard of hearing",
+      "angle": "For hearing people: face them, don't shout, rephrase, light, background noise, using a captions app between you, writing things down. Sourced from deaf organisations.",
+      "links": [
+        "/use-cases/everyday-conversations",
+        "/use-cases/deaf-hoh-communication"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "best-live-translation-apps-for-face-to-face-conversations",
+      "category": "comparisons",
+      "title": "Best live translation apps for face-to-face conversations",
+      "query": "best app to translate a conversation in person",
+      "angle": "Google Translate conversation mode, Microsoft Translator, Apple Translate, Samsung Interpreter, Captio AI: languages, two-way vs one-way, captions of the original, saving, price.",
+      "links": [
+        "/live-translator",
+        "/use-cases/traveling"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "what-is-dinner-table-syndrome",
+      "category": "explainers",
+      "title": "What is dinner table syndrome?",
+      "query": "what is dinner table syndrome",
+      "angle": "The term from deaf communities for being left out of group conversations: what it is, research on social isolation, what helps (seating, captions, rules for the group).",
+      "links": [
+        "/use-cases/group-settings"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "hearing-aid-use-by-country-how-many-people-who-need-hearing-aids-have",
+      "category": "data",
+      "title": "Hearing aid use by country: how many people who need hearing aids have them",
+      "query": "hearing aid adoption rate by country",
+      "angle": "EuroTrak, US and WHO data on hearing aid adoption by country, reasons people don't use them, cost barriers.",
+      "links": [
+        "/use-cases/everyday-conversations"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "how-to-get-live-captions-on-android",
+      "category": "guides",
+      "title": "How to get live captions on Android",
+      "query": "how to turn on live captions on android",
+      "angle": "Android Live Caption (media audio) vs Live Transcribe (conversations), which phones and languages, and when an app is better.",
+      "links": [
+        "/live-captions"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "caption-glasses-vs-caption-apps-on-your-phone",
+      "category": "comparisons",
+      "title": "Caption glasses vs caption apps on your phone",
+      "query": "caption glasses for deaf people",
+      "angle": "Smart glasses that show captions (verify current models, prices and availability) vs phone apps: comfort, cost, battery, languages, where each works.",
+      "links": [
+        "/live-captions",
+        "/use-cases/group-settings"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "what-is-speaker-diarization-how-caption-apps-tell-speakers-apart",
+      "category": "explainers",
+      "title": "What is speaker diarization? How caption apps tell speakers apart",
+      "query": "how do transcription apps identify speakers",
+      "angle": "Speaker separation in plain words, where it fails (overlap, similar voices), why it matters for following group talk.",
+      "links": [
+        "/use-cases/meetings",
+        "/use-cases/group-settings"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "hearing-loss-in-germany-the-numbers-2026",
+      "category": "data",
+      "title": "Hearing loss in Germany: the numbers (2026)",
+      "query": "wie viele Menschen in Deutschland sind schwerhörig",
+      "angle": "German statistics (Deutscher Schwerhörigenbund, Robert Koch Institut, EuroTrak Germany, DGS users), written in English for people researching Germany.",
+      "links": [
+        "/german",
+        "/use-cases/doctor-appointments/german"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "how-to-ask-your-employer-for-hearing-loss-accommodations",
+      "category": "guides",
+      "title": "How to ask your employer for hearing loss accommodations",
+      "query": "reasonable accommodations hearing loss work",
+      "angle": "US ADA (EEOC, JAN), UK Equality Act and Access to Work, EU directive in brief: what you can ask for, how to ask, examples (captions, CART, loops, quiet rooms).",
+      "links": [
+        "/use-cases/meetings",
+        "/use-cases/job-interviews"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "free-vs-paid-live-caption-apps-what-you-actually-get",
+      "category": "comparisons",
+      "title": "Free vs paid live caption apps: what you actually get",
+      "query": "free live caption app",
+      "angle": "What free tools cover (built-in OS captions, free tiers) vs what paid plans add; real limits and prices of the main apps, checked on their sites.",
+      "links": [
+        "/live-captions"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "open-captions-vs-closed-captions",
+      "category": "explainers",
+      "title": "Open captions vs closed captions",
+      "query": "open vs closed captions",
+      "angle": "Definitions, where each is used (cinema, TV, online video, live events), accessibility rules, and live captions on a phone.",
+      "links": [
+        "/live-captions"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "hearing-loss-and-employment-the-income-and-job-gap",
+      "category": "data",
+      "title": "Hearing loss and employment: the income and job gap",
+      "query": "hearing loss unemployment rate",
+      "angle": "Employment and income gaps for deaf and hard of hearing people in the US, UK and EU, with sources; what workplace access changes.",
+      "links": [
+        "/use-cases/meetings",
+        "/use-cases/job-interviews"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "how-to-follow-group-conversations-at-dinners-and-parties",
+      "category": "guides",
+      "title": "How to follow group conversations at dinners and parties",
+      "query": "how to follow group conversation hard of hearing",
+      "angle": "Seating, lighting, noise, asking for one-at-a-time, phone in the middle of the table with captions, taking breaks from listening fatigue.",
+      "links": [
+        "/use-cases/group-settings",
+        "/use-cases/restaurants"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "best-apps-for-captioning-university-lectures",
+      "category": "comparisons",
+      "title": "Best apps for captioning university lectures",
+      "query": "best app for lectures hard of hearing",
+      "angle": "Live captions, recording and transcripts, summaries, language support, price: Captio AI, Otter, built-in captions, CART services. Who each suits.",
+      "links": [
+        "/use-cases/lectures",
+        "/audio-transcription"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "what-is-a-hearing-loop-and-how-does-it-compare-with-captions",
+      "category": "explainers",
+      "title": "What is a hearing loop and how does it compare with captions?",
+      "query": "what is a hearing loop",
+      "angle": "Induction loops and telecoils, where they are found, who they help, what they don't help with, how they combine with captions.",
+      "links": [
+        "/use-cases/conferences",
+        "/use-cases/deaf-hoh-communication"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "hearing-loss-in-children-global-and-us-statistics",
+      "category": "data",
+      "title": "Hearing loss in children: global and US statistics",
+      "query": "how many children have hearing loss",
+      "angle": "WHO 34 million with disabling loss, 95 million aged 5-19, newborn screening rates, causes that are preventable.",
+      "links": [
+        "/use-cases/lectures"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "how-to-make-an-in-person-event-accessible-for-deaf-and-hard-of-hearing",
+      "category": "guides",
+      "title": "How to make an in-person event accessible for deaf and hard of hearing guests",
+      "query": "how to make an event accessible for deaf people",
+      "angle": "Before (ask needs), during (interpreters, CART, loops, captions on screen, seating, lighting), after (transcripts), costs.",
+      "links": [
+        "/use-cases/conferences"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "captio-ai-vs-microsoft-translator-for-in-person-conversations",
+      "category": "comparisons",
+      "title": "Captio AI vs Microsoft Translator for in-person conversations",
+      "query": "microsoft translator conversation mode alternative",
+      "angle": "Conversation mode, languages, captions of the original speech, saving, price, platform.",
+      "links": [
+        "/live-translator",
+        "/use-cases/traveling"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "what-is-word-error-rate-wer-what-caption-accuracy-numbers-mean",
+      "category": "explainers",
+      "title": "What is word error rate (WER)? What caption accuracy numbers mean",
+      "query": "what is word error rate",
+      "angle": "How WER is calculated, what 5% vs 15% feels like when you read captions, why it varies by language and noise, other measures.",
+      "links": [
+        "/live-captions"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "age-related-hearing-loss-how-common-it-is-at-each-age",
+      "category": "data",
+      "title": "Age-related hearing loss: how common it is at each age",
+      "query": "what age does hearing loss start",
+      "angle": "Prevalence by age band from GBD, NHANES and RNID; what changes in speech understanding with age.",
+      "links": [
+        "/use-cases/everyday-conversations"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "how-to-transcribe-a-recorded-lecture-meeting-or-voice-memo-on-your-pho",
+      "category": "guides",
+      "title": "How to transcribe a recorded lecture, meeting or voice memo on your phone",
+      "query": "how to transcribe a recording on iPhone",
+      "angle": "Ways to do it (built-in tools, apps), file formats, accuracy tips, speaker names, turning it into notes.",
+      "links": [
+        "/audio-transcription",
+        "/ai-summary"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "best-apps-for-following-a-doctor-s-appointment-with-hearing-loss",
+      "category": "comparisons",
+      "title": "Best apps for following a doctor's appointment with hearing loss",
+      "query": "app to understand doctor hearing loss",
+      "angle": "Captions, written summaries, interpreters on demand, what hospitals offer. Verify each service's current offer.",
+      "links": [
+        "/use-cases/doctor-appointments"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "what-is-a-relay-service-phone-access-for-deaf-people-explained",
+      "category": "explainers",
+      "title": "What is a relay service? Phone access for deaf people explained",
+      "query": "what is a relay service for deaf",
+      "angle": "TRS, IP captioned telephone, video relay, Relay UK and others: how they work and who pays. (Phone calls are not a Captio AI use case; say so.)",
+      "links": [
+        "/use-cases/deaf-hoh-communication"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "tinnitus-statistics-how-many-people-have-it",
+      "category": "data",
+      "title": "Tinnitus statistics: how many people have it",
+      "query": "how many people have tinnitus",
+      "angle": "Global, US and UK prevalence, severity, link with hearing loss; sourced.",
+      "links": [
+        "/use-cases/everyday-conversations"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "how-to-use-a-caption-app-in-noisy-places-like-restaurants-and-stations",
+      "category": "guides",
+      "title": "How to use a caption app in noisy places like restaurants and stations",
+      "query": "live captions noisy restaurant",
+      "angle": "Microphone placement, distance, pointing at the speaker, quieter seats, what noise does to accuracy, when to switch to writing.",
+      "links": [
+        "/use-cases/restaurants",
+        "/use-cases/traveling"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "sign-language-interpreter-or-live-captions-what-works-where",
+      "category": "comparisons",
+      "title": "Sign language interpreter or live captions: what works where",
+      "query": "sign language interpreter vs captions",
+      "angle": "Not a competition: who uses which, availability and cost, situations for each, combining both.",
+      "links": [
+        "/use-cases/deaf-hoh-communication"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "how-does-speech-recognition-work-a-plain-language-guide",
+      "category": "explainers",
+      "title": "How does speech recognition work? A plain-language guide",
+      "query": "how does speech to text work",
+      "angle": "From sound to words in simple steps, why accents and noise matter, real-time vs file transcription, privacy questions to ask.",
+      "links": [
+        "/live-captions",
+        "/audio-transcription"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "hearing-loss-in-europe-numbers-by-country",
+      "category": "data",
+      "title": "Hearing loss in Europe: numbers by country",
+      "query": "hearing loss statistics Europe",
+      "angle": "EuroTrak, EFHOH, WHO Europe figures per country, hearing aid coverage, sign language recognition.",
+      "links": [
+        "/german",
+        "/french",
+        "/spanish"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "your-rights-to-captions-and-interpreters-at-university-us-and-uk",
+      "category": "guides",
+      "title": "Your rights to captions and interpreters at university (US and UK)",
+      "query": "rights for deaf students university",
+      "angle": "US ADA and Section 504, UK Equality Act and Disabled Students' Allowance: what universities must provide and how to ask.",
+      "links": [
+        "/use-cases/lectures"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "best-apps-for-travelling-abroad-when-you-are-hard-of-hearing",
+      "category": "comparisons",
+      "title": "Best apps for travelling abroad when you are hard of hearing",
+      "query": "travel apps for deaf travelers",
+      "angle": "Live translation, captions at counters and on tours, offline options; tools compared with what each does well.",
+      "links": [
+        "/use-cases/traveling",
+        "/live-translator"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "what-is-auditory-processing-disorder-and-can-captions-help",
+      "category": "explainers",
+      "title": "What is auditory processing disorder, and can captions help?",
+      "query": "auditory processing disorder captions",
+      "angle": "APD explained with sources, how it differs from hearing loss, what accommodations studies support, where captions fit. No medical advice.",
+      "links": [
+        "/use-cases/lectures",
+        "/use-cases/meetings"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "hearing-loss-and-dementia-what-the-research-says",
+      "category": "data",
+      "title": "Hearing loss and dementia: what the research says",
+      "query": "hearing loss dementia risk",
+      "angle": "Lancet Commission 2020/2024 findings, ACHIEVE trial, what is known and unknown, careful plain wording. No medical advice.",
+      "links": [
+        "/use-cases/everyday-conversations"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "how-to-help-a-parent-or-grandparent-with-hearing-loss",
+      "category": "guides",
+      "title": "How to help a parent or grandparent with hearing loss",
+      "query": "how to help elderly parent with hearing loss",
+      "angle": "Spotting it, talking about hearing tests, communication habits at home, captions for family calls in person, appointments together.",
+      "links": [
+        "/use-cases/everyday-conversations",
+        "/use-cases/doctor-appointments"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "captio-ai-vs-google-translate-conversation-mode",
+      "category": "comparisons",
+      "title": "Captio AI vs Google Translate conversation mode",
+      "query": "google translate conversation mode alternative",
+      "angle": "Two-way translation vs live captions with translation: languages, how each handles long talks, saving, price.",
+      "links": [
+        "/live-translator",
+        "/use-cases/traveling"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "what-is-single-sided-deafness",
+      "category": "explainers",
+      "title": "What is single-sided deafness?",
+      "query": "what is single sided deafness",
+      "angle": "Definition, prevalence, everyday effects (direction, noise), options, how captions help in groups. Sourced, no medical advice.",
+      "links": [
+        "/use-cases/group-settings"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "hearing-loss-statistics-in-canada-2026",
+      "category": "data",
+      "title": "Hearing loss statistics in Canada (2026)",
+      "query": "how many Canadians have hearing loss",
+      "angle": "Statistics Canada, CHHA figures, ASL/LSQ users.",
+      "links": [
+        "/english",
+        "/french"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "how-to-take-part-in-a-job-interview-when-you-are-hard-of-hearing",
+      "category": "guides",
+      "title": "How to take part in a job interview when you are hard of hearing",
+      "query": "job interview hard of hearing tips",
+      "angle": "Whether and how to disclose, asking for accommodations, in-person interview setup, panel interviews, captions on the table. Sourced rights for US/UK.",
+      "links": [
+        "/use-cases/job-interviews"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "best-ai-meeting-note-apps-for-in-person-meetings",
+      "category": "comparisons",
+      "title": "Best AI meeting note apps for in-person meetings",
+      "query": "ai note taker for in person meetings",
+      "angle": "Many note-takers only join online calls; compare which work for a meeting in a room: recording, live captions, summaries, languages, price.",
+      "links": [
+        "/use-cases/meetings",
+        "/ai-summary"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "lip-reading-how-much-can-people-really-understand",
+      "category": "explainers",
+      "title": "Lip reading: how much can people really understand?",
+      "query": "how much of speech can you lip read",
+      "angle": "Research on lip-reading accuracy, why many sounds look the same, what helps, why captions complement it.",
+      "links": [
+        "/use-cases/everyday-conversations"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "hearing-loss-statistics-in-australia-2026",
+      "category": "data",
+      "title": "Hearing loss statistics in Australia (2026)",
+      "query": "how many Australians have hearing loss",
+      "angle": "Hearing Australia, Deloitte Access Economics, Auslan users.",
+      "links": [
+        "/english"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "how-to-follow-a-church-service-or-sermon-with-hearing-loss",
+      "category": "guides",
+      "title": "How to follow a church service or sermon with hearing loss",
+      "query": "church service hard of hearing",
+      "angle": "Loops, seating, printed sermons, captions on the phone, asking the church for a microphone feed.",
+      "links": [
+        "/use-cases/conferences",
+        "/use-cases/group-settings"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "best-apps-to-transcribe-audio-and-video-files-in-many-languages",
+      "category": "comparisons",
+      "title": "Best apps to transcribe audio and video files in many languages",
+      "query": "transcribe audio file many languages app",
+      "angle": "Upload transcription compared: languages, speaker labels, accuracy claims, file limits, price, privacy. Verify every limit on the provider's site.",
+      "links": [
+        "/audio-transcription"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "real-time-translation-apps-how-live-translation-works",
+      "category": "explainers",
+      "title": "Real-time translation apps: how live translation works",
+      "query": "how does live translation work",
+      "angle": "Speech recognition plus translation, latency, one-way vs two-way, where it fails (names, idioms), privacy.",
+      "links": [
+        "/live-translator"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "hearing-loss-in-india-the-numbers",
+      "category": "data",
+      "title": "Hearing loss in India: the numbers",
+      "query": "how many people in India have hearing loss",
+      "angle": "NSSO/NFHS data, WHO SEARO estimates, ISL users, access to hearing care.",
+      "links": [
+        "/hindi",
+        "/use-cases/everyday-conversations/hindi"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "how-to-choose-a-live-caption-app-a-checklist",
+      "category": "guides",
+      "title": "How to choose a live caption app: a checklist",
+      "query": "how to choose a caption app",
+      "angle": "Questions to ask: languages, speed, accuracy in noise, speaker labels, saving, privacy, price, platform; a printable checklist table.",
+      "links": [
+        "/live-captions"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "captio-ai-vs-samsung-live-translate-and-interpreter",
+      "category": "comparisons",
+      "title": "Captio AI vs Samsung Live Translate and Interpreter",
+      "query": "samsung interpreter mode alternative",
+      "angle": "Galaxy AI interpreter vs a captions app: phones, languages, offline, saving, price.",
+      "links": [
+        "/live-translator"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "what-is-listening-fatigue",
+      "category": "explainers",
+      "title": "What is listening fatigue?",
+      "query": "what is listening fatigue",
+      "angle": "Why following speech with hearing loss is tiring, research, ways to reduce it (breaks, captions, quiet spaces).",
+      "links": [
+        "/use-cases/meetings",
+        "/use-cases/group-settings"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "noise-and-young-people-unsafe-listening-statistics",
+      "category": "data",
+      "title": "Noise and young people: unsafe listening statistics",
+      "query": "how many young people risk hearing loss from headphones",
+      "angle": "WHO Make Listening Safe data, studies on headphone and venue noise levels.",
+      "links": [
+        "/use-cases/everyday-conversations"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "how-to-communicate-at-a-pharmacy-or-hospital-counter",
+      "category": "guides",
+      "title": "How to communicate at a pharmacy or hospital counter",
+      "query": "hard of hearing pharmacy counter tips",
+      "angle": "Asking for written instructions, quiet spots, captions on the phone, repeating back, accessible information rules.",
+      "links": [
+        "/use-cases/doctor-appointments"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "best-apps-for-deaf-and-hard-of-hearing-students",
+      "category": "comparisons",
+      "title": "Best apps for deaf and hard of hearing students",
+      "query": "apps for deaf students",
+      "angle": "Captions, transcripts, note tools, study apps; what schools provide; tool table.",
+      "links": [
+        "/use-cases/lectures"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "late-deafened-and-adult-onset-hearing-loss-what-changes",
+      "category": "explainers",
+      "title": "Late-deafened and adult-onset hearing loss: what changes",
+      "query": "late deafened adults",
+      "angle": "Definitions, how common, communication changes, community resources.",
+      "links": [
+        "/use-cases/deaf-hoh-communication"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "how-many-people-watch-with-subtitles-or-captions",
+      "category": "data",
+      "title": "How many people watch with subtitles or captions?",
+      "query": "how many people use subtitles",
+      "angle": "Surveys (YouGov, Preply, Stagetext, Ofcom) on subtitle use by age and reason.",
+      "links": [
+        "/use-cases/tv-media"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "how-to-follow-a-conference-or-talk-with-hearing-loss",
+      "category": "guides",
+      "title": "How to follow a conference or talk with hearing loss",
+      "query": "conference accessibility hard of hearing",
+      "angle": "Requesting CART or loops, seating, slides, captions on your phone, recordings afterwards.",
+      "links": [
+        "/use-cases/conferences"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "captio-ai-vs-pixel-recorder",
+      "category": "comparisons",
+      "title": "Captio AI vs Pixel Recorder",
+      "query": "pixel recorder alternative",
+      "angle": "Google's Recorder app vs Captio AI: phones, languages, live captions, speaker labels, summaries, sharing.",
+      "links": [
+        "/audio-transcription",
+        "/live-captions"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "the-european-accessibility-act-what-it-means-for-deaf-people",
+      "category": "explainers",
+      "title": "The European Accessibility Act: what it means for deaf people",
+      "query": "european accessibility act deaf",
+      "angle": "What took effect in June 2025, which products and services, what it requires for captions and relay, what it doesn't cover.",
+      "links": [
+        "/use-cases/deaf-hoh-communication"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "hearing-loss-statistics-in-spain",
+      "category": "data",
+      "title": "Hearing loss statistics in Spain",
+      "query": "cuántas personas sordas hay en España",
+      "angle": "INE disability survey, CNSE, LSE users, hearing aid use.",
+      "links": [
+        "/spanish"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "how-to-follow-parent-teacher-meetings-when-you-are-hard-of-hearing",
+      "category": "guides",
+      "title": "How to follow parent-teacher meetings when you are hard of hearing",
+      "query": "parent teacher meeting hard of hearing",
+      "angle": "Before, during and after, asking the school for access, captions and notes.",
+      "links": [
+        "/use-cases/meetings"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "hearing-aid-apps-with-transcription-vs-standalone-caption-apps",
+      "category": "comparisons",
+      "title": "Hearing aid apps with transcription vs standalone caption apps",
+      "query": "hearing aid app transcription",
+      "angle": "What hearing aid makers' apps offer (verify each), what they need, vs standalone apps.",
+      "links": [
+        "/live-captions"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "what-is-the-ada-s-effective-communication-rule",
+      "category": "explainers",
+      "title": "What is the ADA's effective communication rule?",
+      "query": "ada effective communication deaf",
+      "angle": "What US businesses, hospitals and governments must provide, auxiliary aids, who decides, how to complain. Legal information, not advice.",
+      "links": [
+        "/use-cases/doctor-appointments"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "hearing-loss-statistics-in-france",
+      "category": "data",
+      "title": "Hearing loss statistics in France",
+      "query": "combien de personnes sourdes en France",
+      "angle": "DREES, INSEE, UNISDA, LSF users.",
+      "links": [
+        "/french"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "how-to-use-live-captions-when-you-travel",
+      "category": "guides",
+      "title": "How to use live captions when you travel",
+      "query": "captions when travelling hard of hearing",
+      "angle": "Airports, stations, hotels, tours, taxis: tips and tools, including translation.",
+      "links": [
+        "/use-cases/traveling",
+        "/live-translator"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "best-apps-for-group-conversations-when-you-are-hard-of-hearing",
+      "category": "comparisons",
+      "title": "Best apps for group conversations when you are hard of hearing",
+      "query": "app for group conversations hearing loss",
+      "angle": "Speaker labels, phone placement, multi-device options; tools compared.",
+      "links": [
+        "/use-cases/group-settings"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "access-to-work-for-deaf-people-in-the-uk-what-you-can-get",
+      "category": "explainers",
+      "title": "Access to Work for deaf people in the UK: what you can get",
+      "query": "access to work deaf",
+      "angle": "What the scheme pays for (interpreters, captioning, equipment), how to apply, timings. Sourced from gov.uk.",
+      "links": [
+        "/use-cases/meetings",
+        "/use-cases/job-interviews"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "hearing-loss-statistics-in-japan",
+      "category": "data",
+      "title": "Hearing loss statistics in Japan",
+      "query": "日本 難聴者 人数",
+      "angle": "JapanTrak, MHLW, JSL users, hearing aid use.",
+      "links": [
+        "/japanese"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "how-to-read-live-captions-comfortably-display-settings-that-help",
+      "category": "guides",
+      "title": "How to read live captions comfortably: display settings that help",
+      "query": "caption display settings low vision",
+      "angle": "Text size, contrast, colours, line length, position; tips for low vision plus hearing loss.",
+      "links": [
+        "/live-captions"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "captio-ai-vs-notta-and-rev-for-transcribing-recordings",
+      "category": "comparisons",
+      "title": "Captio AI vs Notta and Rev for transcribing recordings",
+      "query": "notta vs rev alternative",
+      "angle": "Upload transcription compared: languages, speakers, price per hour, in-person live captions.",
+      "links": [
+        "/audio-transcription"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "what-is-deaf-culture",
+      "category": "explainers",
+      "title": "What is Deaf culture?",
+      "query": "what is deaf culture",
+      "angle": "Community, sign language, history, etiquette; sourced from deaf organisations.",
+      "links": [
+        "/use-cases/deaf-hoh-communication"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "hearing-loss-statistics-in-italy",
+      "category": "data",
+      "title": "Hearing loss statistics in Italy",
+      "query": "quanti sordi ci sono in Italia",
+      "angle": "ISTAT, ENS, LIS users.",
+      "links": [
+        "/italian"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "how-to-prepare-for-a-hearing-test-and-understand-your-audiogram",
+      "category": "guides",
+      "title": "How to prepare for a hearing test and understand your audiogram",
+      "query": "how to read an audiogram",
+      "angle": "What happens, what the chart means (dB, frequencies, degrees of loss), questions to ask. Sourced, no medical advice.",
+      "links": [
+        "/use-cases/doctor-appointments"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "hearing-loss-statistics-in-brazil",
+      "category": "data",
+      "title": "Hearing loss statistics in Brazil",
+      "query": "quantas pessoas surdas no Brasil",
+      "angle": "IBGE census and PNS, Libras users, access to care.",
+      "links": [
+        "/portuguese"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "hearing-loss-statistics-in-poland",
+      "category": "data",
+      "title": "Hearing loss statistics in Poland",
+      "query": "ile osób w Polsce ma niedosłuch",
+      "angle": "GUS, Polish hearing institute, PJM users.",
+      "links": [
+        "/polish"
+      ],
+      "status": "queued"
+    },
+    {
+      "id": "hearing-loss-statistics-in-the-netherlands",
+      "category": "data",
+      "title": "Hearing loss statistics in the Netherlands",
+      "query": "hoeveel mensen zijn slechthorend in Nederland",
+      "angle": "CBS, NVVS, NGT users.",
+      "links": [
+        "/dutch"
+      ],
+      "status": "queued"
+    }
+  ]
+}

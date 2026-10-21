@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "blog:check": "node scripts/blog-check.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.118.0",

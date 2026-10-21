@@ -4,7 +4,7 @@ description: "1.57 billion people live with some hearing loss and 430 million ne
 category: data
 published: 2026-10-21
 updated: 2026-10-21
-author: captio-ai
+author: nate
 tags: [hearing loss statistics, deaf population, hard of hearing, WHO]
 answer: "About 1.57 billion people, one in five worldwide, live with some degree of hearing loss. Around 430 million of them have disabling hearing loss that needs care, including 34 million children, and more than 70 million people are deaf. Because populations are getting older, nearly 2.5 billion people, one in four, are expected to have hearing loss by 2050."
 keyFacts:

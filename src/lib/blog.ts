@@ -35,11 +35,13 @@ export const CATEGORIES = {
 export type CategorySlug = keyof typeof CATEGORIES;
 
 export const AUTHORS = {
-  "captio-ai": {
-    name: "Captio AI",
-    role: "Editorial team",
-    url: SITE_URL,
-    type: "Organization" as const,
+  nate: {
+    name: "Nate",
+    byline: "Nate from Captio AI",
+    role: "Captio AI",
+    url: `${SITE_URL}/blog/author/nate`,
+    type: "Person" as const,
+    bio: "Nate writes the Captio AI blog: data, comparisons and guides about hearing loss, captions and access for deaf and hard of hearing people.",
   },
 } as const;
 
@@ -186,7 +188,7 @@ function parsePost(file: string): BlogPost {
   const category = requireString(data, "category", slug);
   if (!(category in CATEGORIES)) fail(slug, `unknown category "${category}" (use ${Object.keys(CATEGORIES).join(", ")})`);
 
-  const author = (data.author ?? "captio-ai") as string;
+  const author = (data.author ?? "nate") as string;
   if (!(author in AUTHORS)) fail(slug, `unknown author "${author}"`);
 
   const sources: Source[] = Array.isArray(data.sources) ? data.sources : [];
@@ -255,6 +257,10 @@ export function getAllPosts(): BlogPost[] {
 
 export function getPost(slug: string): BlogPost | undefined {
   return getAllPosts().find((p) => p.slug === slug);
+}
+
+export function getPostsByAuthor(author: AuthorKey): BlogPost[] {
+  return getAllPosts().filter((p) => p.author === author);
 }
 
 export function getPostsByCategory(category: CategorySlug): BlogPost[] {

@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/schema";
 import { languages } from "@/lib/languages";
 import { useCases } from "@/lib/useCases";
-import { CATEGORIES, getAllPosts, getPostsByCategory, type CategorySlug } from "@/lib/blog";
+import { AUTHORS, CATEGORIES, getAllPosts, getPostsByAuthor, getPostsByCategory, type AuthorKey, type CategorySlug } from "@/lib/blog";
 
 // Generated from the same data that generates the pages, so it stays in sync
 // automatically. Next serves this at /sitemap.xml.
@@ -63,6 +63,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       entries.push({
         url: `${SITE_URL}/blog/category/${slug}`,
         lastModified: inCategory.map((p) => p.updated).sort().pop()!,
+      });
+    }
+    for (const author of Object.keys(AUTHORS) as AuthorKey[]) {
+      const byAuthor = getPostsByAuthor(author);
+      if (byAuthor.length === 0) continue;
+      entries.push({
+        url: `${SITE_URL}/blog/author/${author}`,
+        lastModified: byAuthor.map((p) => p.updated).sort().pop()!,
       });
     }
     for (const post of posts) {
