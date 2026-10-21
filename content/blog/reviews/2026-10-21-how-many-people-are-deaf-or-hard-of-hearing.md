@@ -120,3 +120,77 @@ Risk to the site: low once fixed. The article is not thin or duplicate and is on
 - R5. Last paragraph: use the standard description and a link text that says where it goes, for example "Captio AI, a live captioning app for deaf and hard of hearing people, shows what people say as text on your phone while they are still talking, in more than 60 languages ([Live Captions](/live-captions))". Consider adding `[deaf and hard of hearing communication](/use-cases/deaf-hoh-communication)` as a fifth internal link.
 - R6. Answer box: say the year once. "About 1.57 billion people, one in five worldwide, lived with some degree of hearing loss in 2019, the latest global estimate."
 - R7. Source [3]: add `year: 2026` (the UN page is current for the WFD's 75th anniversary year, 2026).
+
+---
+
+# Round 2
+Verdict: FAIL (round 2)
+Date: 2026-10-21
+
+Reviewed: the article as committed in ab4fab0, plus the citation parser change in `src/lib/blog.ts` and `scripts/blog-check.mjs` (the lookahead `(?![(:[])` became `(?![(:])`). Every new or changed sentence was checked against its source again. All other lines are unchanged from round 1 (checked with `git show ab4fab0`), so their round 1 verdicts stand.
+
+## A. Truth (new and changed claims)
+
+| # | Claim (where) | Source | Evidence (quote) | Verdict |
+|---|---|---|---|---|
+| R2-1 | "had some degree of hearing loss in 2019" (answer) | [1] | "An estimated 1.57 billion ... people globally had hearing loss in 2019" | SUPPORTED |
+| R2-2 | "... in 2019, the latest global estimate" (answer) | none | No source says this. Newer Global Burden of Disease rounds exist: GBD 2021 results are used in peer-reviewed papers, for example "The global prevalence of complete hearing loss in 204 countries and territories from 1992 to 2021" (Frontiers in Public Health, April 2025) and "Global burden of hearing loss in people aged 60 years and older, 1990–2021" (Frontiers in Public Health, November 2025). What is true: 2019 is the newest all-ages, all-severity total in a dedicated paper, and it is the one the WHO uses. This was the wording of my own round 1 suggestion R6; it was wrong. | NOT FOUND |
+| R2-3 | "As the world's population grows and ages, nearly 2.5 billion ..." (answer); "mainly because the world's population is growing and getting older" (FAQ 6); "The number grows because the world's population is growing and getting older [1]" (body) | [1] | "increases in prevalent cases are driven by population growth and ageing" | SUPPORTED |
+| R2-4 | US: "reported some trouble hearing in the 2012 National Health Interview Survey" (FAQ 3, US table) | [4] | "Approximately 15% of American adults (37.5 million) ages 18 and over report some trouble hearing." Reference 3: "Summary health statistics for U.S. adults: National Health Interview Survey, 2012" | SUPPORTED |
+| R2-5 | "about three in four, 1.17 billion people, have mild hearing loss [1]" (intro) | [1] full text | "Of these, 1.17 billion ... people (74.3% ...) had mild hearing loss." | SUPPORTED |
+| R2-6 | Table label "Moderate or worse hearing loss, after accounting for hearing aid use: 403 million" | [1] | "403.3 million ... people had hearing loss that was moderate or higher in severity after adjusting for hearing aid use" | SUPPORTED |
+| R2-7 | 2050 row "nearly 2.5 billion, one in four, WHO [2][6]" | [2], [6] | [2]: "By 2050, nearly 2.5 billion people are projected to have some degree of hearing loss"; [6]: "Nearly 2.5 billion people worldwide ─ or 1 in 4 people ─ will be living with some degree of hearing loss by 2050" | SUPPORTED |
+| R2-8 | "The WHO's 430 million comes from the same Global Burden of Disease estimate: 430.4 million people had moderate or worse hearing loss in the better ear in 2019, and 403.3 million still did after accounting for the hearing aids some of them use [1]." | [1] | "Without adjustment for hearing aid use, 430.4 million ... people globally had moderate-to-complete hearing loss in the better-hearing ear." "This study accompanies the 2021 WHO World Hearing Report, which describes the burden of hearing loss using the GBD 2019 results" | SUPPORTED |
+| R2-9 | "For many deaf people, sign language is an important way to communicate [6]." | [6] | "The report notes that the use of sign language and other means of sensory substitution such as speech reading are important options for many deaf people" | SUPPORTED |
+| R2-10 | "Hearing loss becomes more common with age [2]." | [2] | "The prevalence of hearing loss increases with age" | SUPPORTED |
+| R2-11 | "Low-income countries also have the fewest specialists." | [6] | [6] gives figures for low-income countries only: "Among low-income countries, about 78% have fewer than one ear, nose and throat (ENT) specialist per million population; 93% have fewer than one audiologist per million". It never compares them with other income groups, so "the fewest" is a comparison the source doesn't make. (This was also my round 1 wording.) | NOT FOUND (the comparison) |
+| R2-12 | "and RNID counts hearing levels of 25 dB or worse, a lower threshold than the WHO's 35 dB for disabling hearing loss [5]. That is why the UK's one in three is higher than the global one in five." | [5], [1], [2] | RNID [5]: "average hearing levels of 25dB or worse in one or both ears". The global one in five does not use 35 dB. [1]: "All hearing loss is defined as any hearing loss above 20 dB" and "GBD defines hearing loss as the quietest sound an individual can hear in their better ear". The 35 dB threshold belongs to the 430 million (over 5%), not to the one in five. RNID's threshold is higher than the global one (25 dB vs 20 dB), not lower. The real differences are that RNID counts one or both ears and includes tinnitus. | CONTRADICTED |
+| R2-13 | "unsafe listening practices [2]" | [2] | "Over 1 billion young adults are at risk of permanent, avoidable hearing loss due to unsafe listening practices." | SUPPORTED |
+| R2-14 | "The number of people with hearing loss will keep growing." | [1] | "By 2050, a projected 2.45 billion ... people will have hearing loss, a 56.1% ... increase from 2019" | SUPPORTED |
+| R2-15 | "Captio AI, a live captioning app for deaf and hard of hearing people, ... its Live Captions show what people say as text on your phone while they are still talking, in more than 60 languages" | CAPTIO_FACTS | "A live captioning app for deaf and hard of hearing people." "Live Captions: speech appears as text word by word while the person is still talking". "60+ languages for captions and translation" | SUPPORTED |
+| R2-16 | "More ways to make conversations work between deaf and hearing people are on our page about communicating with deaf and hard of hearing people." | site page `/use-cases/deaf-hoh-communication` | The page (HTTP 200) is about using Live Captions, Live Translator, Audio Transcription and AI Summary in conversations between deaf and hearing people (family, colleagues and so on) | SUPPORTED (accurate description of the linked page) |
+
+Other A checks are unchanged from round 1: no competitors, no social proof, no medical or legal advice, sources primary, "Captio AI" always in full, no providers named. Source [3] still has no `year` (R7, not blocking).
+
+## B. Works
+- blog:check: pass ("1255 words, 7 sections, 6 sources, 6 FAQs, 5 internal links", no errors, no warnings).
+- build: fresh build from 12:27 used, as the coordinator said. The served HTML contains every changed sentence, so it matches the committed article.
+- page checks (`npx next start -p 3199`, stopped afterwards):
+  - Article HTTP 200. One `<h1>` = the title. The Short answer with the new 2019 wording is present. All 6 FAQ answers are present, including the new FAQ 3 and FAQ 6 text. All 6 source URLs are present.
+  - JSON-LD: 2 blocks, both parse, with `BlogPosting`, `FAQPage` (6 questions) and `BreadcrumbList`.
+  - `/blog`, `/blog/rss.xml`, `/llms.txt` and `/sitemap.xml`: all 200 and all list the article.
+  - `opengraph-image`: 200, image/png, 1200 x 630.
+  - Internal links all 200: `/live-captions`, `/use-cases/doctor-appointments`, `/use-cases/lectures`, `/use-cases/group-settings`, `/use-cases/deaf-hoh-communication`.
+  - "[2][6]" in the 2050 row renders as 2 citation links: `WHO<sup class="cite"><a href="#source-2" ...>2</a></sup><sup class="cite"><a href="#source-6" ...>6</a></sup>`. In the browser they show as 2 separate chips, "2" and "6", with a 1 px margin and their own backgrounds, so they don't read as "26". No unrendered `[n]` is left in the HTML.
+  - Browser: at 375 px, scrollWidth 375 and both tables fit inside their `overflow-x: auto` boxes. At 1280 px, scrollWidth 1280 and nothing overflows.
+
+## C. Value (rescored)
+
+| Criterion | Score | Evidence |
+|---|---|---|
+| Answers the question | 5 | The Short answer gives 1.57 billion (now dated 2019), 430 million disabling, more than 70 million deaf and the 2050 projection. It works quoted alone. |
+| Information gain | 4 | Still the only top result with global, US and UK figures side by side and sourced. New this round: the 1.17 billion with mild loss, and what the 403 vs 430 million difference means. Still no US count of deaf people, which competitors and AI answers give (Census, about 11 million). |
+| Trust | 4 | Primary sources throughout and every number now dated. The new UK threshold comparison is wrong and "the latest global estimate" is unsupported; both are one-sentence fixes. |
+| Specificity | 5 | Decibel thresholds, the survey year, regions, age bands, severity split and the effect of hearing aid adjustment, all with numbers. |
+| Quotable structure | 4 | Question headings, and the openers now name their subject ("Hearing loss becomes more common with age", "The number of people with hearing loss will keep growing"). The US and UK section still opens straight into a table with no answer sentence. |
+| Fit with the site | 5 | One query, 5 relevant internal links, the standard Captio AI description, "Live Captions" as link text. The Captio AI mention is tied to real situations at the end. |
+| Reader value | 4 | Clear, sourced and now explains why the figures differ. Still no next step for a reader who suspects hearing loss, such as a hearing check. |
+
+Average: 31 / 7 = 4.4. No score below 3, and Information gain is 4. Section C passes. Section A doesn't.
+
+Information gain: unchanged from round 1, plus the mild-loss share and the hearing aid adjustment explained.
+
+Risk to the site: low after the fixes. As it stands, the UK sentence explains the gap between the UK and global figures with the wrong threshold. An answer engine could quote that as fact.
+
+## Required fixes (round 2)
+
+1. "How many people in the US and UK..." section, the paragraph under the table. Replace "The UK figure counts people who are deaf, people with hearing loss and people with tinnitus together, and RNID counts hearing levels of 25 dB or worse, a lower threshold than the WHO's 35 dB for disabling hearing loss [5]. That is why the UK's one in three is higher than the global one in five." with: "The UK figure counts people who are deaf, people with hearing loss and people with tinnitus together, and it counts hearing levels of 25 dB or worse in one or both ears [5]. The global one in five counts only hearing loss of more than 20 dB in the better ear [1], so the two figures are measured differently and shouldn't be compared directly." Support: RNID [5] "average hearing levels of 25dB or worse in one or both ears"; Lancet [1] "All hearing loss is defined as any hearing loss above 20 dB" and "GBD defines hearing loss as the quietest sound an individual can hear in their better ear". The 35 dB threshold applies to the 430 million, not to the one in five.
+
+2. Answer box. Replace "had some degree of hearing loss in 2019, the latest global estimate." with "had some degree of hearing loss in 2019, according to the Global Burden of Disease study that the WHO's figures use." The answer goes from 66 to about 74 words, inside 40 to 80. Support: [1] "This study accompanies the 2021 WHO World Hearing Report, which describes the burden of hearing loss using the GBD 2019 results". "Latest" isn't supported, because GBD 2021 hearing loss results are already published in peer-reviewed papers. This corrects my own round 1 suggestion R6.
+
+3. "Where do people with hearing loss live?" section. Replace "Low-income countries also have the fewest specialists." with "Low-income countries are also short of specialists." Support: [6] gives low-income figures only ("Among low-income countries, about 78% have fewer than one ear, nose and throat (ENT) specialist per million population; 93% have fewer than one audiologist per million") and makes no comparison with other countries. This corrects my own round 1 wording.
+
+### Recommended, not blocking
+- Open the "How many people in the US and UK have hearing loss?" section with one answer sentence before the table, for example: "In the US, about 15% of adults reported some trouble hearing in the 2012 National Health Interview Survey [4]; in the UK, more than 18 million people, one in three, are deaf, have hearing loss or tinnitus [5]."
+- Source [3]: add `year: 2026` (R7 from round 1).
+- A US count of people who are deaf or have serious difficulty hearing (American Community Survey, table S1810) would raise Information gain to 5, once confirmed on data.census.gov.

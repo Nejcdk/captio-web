@@ -6,7 +6,7 @@ published: 2026-10-21
 updated: 2026-10-21
 author: nate
 tags: [hearing loss statistics, deaf population, hard of hearing, WHO]
-answer: "About 1.57 billion people, one in five worldwide, had some degree of hearing loss in 2019, the latest global estimate. Around 430 million of them have disabling hearing loss that needs care, including 34 million children, and more than 70 million people are deaf. As the world's population grows and ages, nearly 2.5 billion people, one in four, are expected to have hearing loss by 2050."
+answer: "About 1.57 billion people, one in five worldwide, had some degree of hearing loss in 2019, according to the Global Burden of Disease study that the WHO's figures use. Around 430 million of them have disabling hearing loss that needs care, including 34 million children, and more than 70 million people are deaf. As the world's population grows and ages, nearly 2.5 billion people, one in four, are expected to have hearing loss by 2050."
 keyFacts:
   - value: "1.57 billion"
     label: "people had some hearing loss in 2019, one in five worldwide"
@@ -101,9 +101,11 @@ Hearing loss also starts young for many people. About 95.1 million children and 
 
 Nearly 80% of people with disabling hearing loss live in low- and middle-income countries [2]. The largest number of people with moderate to complete hearing loss live in the WHO's Western Pacific region, which includes China, Japan, South Korea and Australia: 127.1 million people [1].
 
-Low-income countries also have the fewest specialists. Among low-income countries, about 78% have fewer than one ear, nose and throat specialist per million people, and 93% have fewer than one audiologist per million [6].
+Low-income countries are also short of specialists. Among low-income countries, about 78% have fewer than one ear, nose and throat specialist per million people, and 93% have fewer than one audiologist per million [6].
 
 ## How many people in the US and UK have hearing loss?
+
+In the US, about 37.5 million adults reported some trouble hearing in the 2012 National Health Interview Survey [4]. In the UK, more than 18 million people are deaf, have hearing loss or have tinnitus [5].
 
 | Country | Figure | Source |
 |---|---|---|
@@ -113,7 +115,7 @@ Low-income countries also have the fewest specialists. Among low-income countrie
 | United Kingdom | More than 18 million people, 1 in 3, are deaf, have hearing loss or tinnitus | RNID [5] |
 | United Kingdom | 2.4 million would struggle to hear most conversational speech | RNID [5] |
 
-The UK figure counts people who are deaf, people with hearing loss and people with tinnitus together, and RNID counts hearing levels of 25 dB or worse, a lower threshold than the WHO's 35 dB for disabling hearing loss [5]. That is why the UK's one in three is higher than the global one in five.
+The UK figure counts people who are deaf, people with hearing loss and people with tinnitus together, and it counts hearing levels of 25 dB or worse in one or both ears [5]. The global one in five counts only hearing loss of more than 20 dB in the better ear [1], so the two figures are measured differently and shouldn't be compared directly.
 
 ## Will the number of people with hearing loss keep growing?
 
