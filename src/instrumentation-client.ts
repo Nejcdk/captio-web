@@ -22,8 +22,9 @@ if (process.env.NODE_ENV === "production") {
 
   // Conversion events, caught site-wide so new buttons are tracked automatically:
   //   app_store_click       — any link to the App Store (the real outbound click)
+  //   google_play_click     — any link to Google Play (same, for Android)
   //   download_button_click — header "Download" buttons that jump to #download
-  // sendBeacon + send_instantly: on iPhone the App Store app takes over the page
+  // sendBeacon + send_instantly: on a phone the store app takes over the page
   // immediately, and a normally queued event would be lost.
   document.addEventListener(
     "click",
@@ -31,11 +32,15 @@ if (process.env.NODE_ENV === "production") {
       const link = (event.target as Element | null)?.closest?.("a[href]");
       if (!link) return;
       const href = link.getAttribute("href") ?? "";
-      const event_name = href.includes("apps.apple.com")
-        ? "app_store_click"
-        : href.endsWith("#download")
-          ? "download_button_click"
-          : null;
+      const store = ["apps.apple.com", "play.google.com"].find((host) => href.includes(host));
+      const event_name =
+        store === "apps.apple.com"
+          ? "app_store_click"
+          : store
+            ? "google_play_click"
+            : href.endsWith("#download")
+              ? "download_button_click"
+              : null;
       if (!event_name) return;
 
       posthog.capture(
@@ -43,11 +48,8 @@ if (process.env.NODE_ENV === "production") {
         {
           page: window.location.pathname,
           location: linkLocation(link),
-          // 1-based order among App Store links on this page (1 = first/top one)
-          position:
-            event_name === "app_store_click"
-              ? [...document.querySelectorAll("a[href*='apps.apple.com']")].indexOf(link) + 1
-              : undefined,
+          // 1-based order among this store's links on the page (1 = first/top one)
+          position: store ? [...document.querySelectorAll(`a[href*='${store}']`)].indexOf(link) + 1 : undefined,
           link_text: (link as HTMLElement).innerText?.replace(/\s+/g, " ").trim().slice(0, 80) || undefined,
         },
         { transport: "sendBeacon", send_instantly: true },

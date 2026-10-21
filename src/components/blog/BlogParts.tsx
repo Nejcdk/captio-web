@@ -1,8 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { CATEGORIES, formatDay, type BlogPost, type CategorySlug } from "@/lib/blog";
-
-const STORE_URL = "https://apps.apple.com/si/app/captio-ai/id6796617180";
+import { StoreButtons, StoreQrButtons } from "@/components/StoreButtons";
 
 /** Thin vertical rule between meta items (never a dot separator). */
 export function MetaDivider() {
@@ -96,28 +95,7 @@ export function CategoryNav({ active }: { active?: CategorySlug }) {
   );
 }
 
-export function AppStoreButton({ compact = false }: { compact?: boolean }) {
-  return (
-    <a
-      href={STORE_URL}
-      target="_blank"
-      rel="noopener noreferrer"
-      className={`inline-flex items-center gap-3 bg-cta text-white font-semibold rounded-[8px] hover:bg-cta-dark transition-colors ${
-        compact ? "px-5 py-3" : "px-7 py-4"
-      }`}
-    >
-      <svg viewBox="0 0 24 24" fill="currentColor" className={compact ? "w-5 h-5 shrink-0" : "w-6 h-6 shrink-0"}>
-        <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98l-.09.06c-.22.14-2.2 1.28-2.18 3.81.03 3.02 2.65 4.03 2.68 4.04l-.05.17ZM13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11Z" />
-      </svg>
-      <span>
-        <span className="block text-xs font-normal opacity-75 leading-none mb-1">Download on the</span>
-        <span className={`block font-bold leading-none ${compact ? "text-base" : "text-lg"}`}>App Store</span>
-      </span>
-    </a>
-  );
-}
-
-/** The app pitch inside an article: one calm paragraph, the store button, a risk-reducer. */
+/** The app pitch inside an article: one calm paragraph, the store buttons, a risk-reducer. */
 export function InArticleCta() {
   return (
     <section id="download" className="my-12 bg-gray-50 border border-gray-100 rounded-xl p-6 sm:p-8 flex flex-col sm:flex-row gap-6 sm:items-center">
@@ -129,7 +107,7 @@ export function InArticleCta() {
         </p>
       </div>
       <div className="shrink-0">
-        <AppStoreButton compact />
+        <StoreButtons size="sm" stacked />
       </div>
     </section>
   );
@@ -147,12 +125,7 @@ export function BlogDownloadBlock() {
             Live captions on your phone for the doctor, the classroom and the dinner table. Built for deaf and hard of hearing people. Free to start.
           </p>
         </div>
-        <div className="flex items-center gap-6">
-          <div className="hidden sm:block p-3 bg-white border border-gray-200 rounded-xl">
-            <Image src="/qr-appstore.png" alt="QR code to download Captio AI on the App Store" width={96} height={96} className="w-24 h-24 rounded-lg" />
-          </div>
-          <AppStoreButton />
-        </div>
+        <StoreQrButtons />
       </div>
     </section>
   );

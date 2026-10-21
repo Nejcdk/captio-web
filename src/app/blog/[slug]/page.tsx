@@ -5,12 +5,12 @@ import { notFound } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import {
-  AppStoreButton,
   CategoryChip,
   InArticleCta,
   MetaDivider,
   PostCard,
 } from "@/components/blog/BlogParts";
+import { StoreButton, StoreQrPair } from "@/components/StoreButtons";
 import { AUTHORS, CATEGORIES, formatDay, getAllPosts, getPost, getRelatedPosts } from "@/lib/blog";
 import { SITE_URL, blogPostingSchema, breadcrumbSchema, faqPageSchema, jsonLd } from "@/lib/schema";
 
@@ -249,11 +249,12 @@ export default async function BlogPostPage({ params }: Props) {
                   <p className="mt-4 text-sm text-blue-100 leading-relaxed">
                     Live captions on your phone for deaf and hard of hearing people. 60+ languages. Free to start.
                   </p>
-                  <div className="mt-5 p-3 bg-white rounded-xl w-fit">
-                    <Image src="/qr-appstore.png" alt="QR code to download Captio AI on the App Store" width={88} height={88} className="w-[88px] h-[88px] rounded-lg" />
+                  <div className="mt-5">
+                    <StoreQrPair onDark />
                   </div>
-                  <div className="mt-4">
-                    <AppStoreButton compact />
+                  <div className="mt-4 flex flex-col gap-2">
+                    <StoreButton store="apple" size="sm" fill />
+                    <StoreButton store="google" size="sm" fill />
                   </div>
                 </div>
               </div>
