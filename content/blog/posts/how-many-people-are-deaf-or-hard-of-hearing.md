@@ -117,6 +117,8 @@ In the US, about 37.5 million adults reported some trouble hearing in the 2012 N
 
 The UK figure counts people who are deaf, people with hearing loss and people with tinnitus together, and it counts hearing levels of 25 dB or worse in one or both ears [5]. The global one in five counts only hearing loss of more than 20 dB in the better ear [1], so the two figures are measured differently and shouldn't be compared directly.
 
+For the main US figures side by side, including children, hearing aids and work, see [hearing loss statistics in the United States](/blog/hearing-loss-statistics-us).
+
 ## Will the number of people with hearing loss keep growing?
 
 The number of people with hearing loss will keep growing. The Lancet study projects 2.45 billion people with hearing loss by 2050, a 56.1% increase from 2019 [1]. The rate of hearing loss at any given age is expected to stay about the same. The number grows because the world's population is growing and getting older [1].

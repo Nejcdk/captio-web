@@ -774,7 +774,9 @@
           "english"
         ]
       },
-      "status": "queued"
+      "status": "published",
+      "slug": "hearing-loss-statistics-us",
+      "published": "2026-10-21"
     },
     {
       "id": "hearing-loss-statistics-in-the-uk-2026",
