@@ -1,6 +1,6 @@
 # Captio AI blog playbook
 
-This is the brief for whoever writes an article for captioai.app/blog, human or model. Read it in full before every run, together with `CAPTIO_FACTS.md` (what is true about Captio AI), `REVIEW.md` (the check every article must pass) and `DAILY.md` (the steps of a daily run). The site-wide rules in the repo's `CLAUDE.md` apply too, especially the Copywriting Brief and the ban on fake reviews.
+This is the brief for whoever writes an article for captioai.app/blog, human or model. Read it in full before every run, together with `CAPTIO_FACTS.md` (what is true about Captio AI, including the Feature map), `REVIEW.md` (the check every article must pass), `DAILY.md` (the steps of a daily run) and `PLAN.md` (what the blog covers and why). The site-wide rules in the repo's `CLAUDE.md` apply too, especially the Copywriting Brief and the ban on fake reviews.
 
 ## 1. What the blog is for
 
@@ -142,14 +142,20 @@ Follow the Copywriting Brief in the repo's `CLAUDE.md`: concrete before abstract
 
 ## 10. Topics
 
-`topics.json` is the queue. Take the first `queued` entry. Mark it `published` (with `slug` and `published`) after it goes live, `blocked` (with `reason`) if it fails review twice, or `skipped` (with `reason`) if it duplicates an existing article.
+The plan is in `PLAN.md` and `plan.json`; the queue is `topics.json`. `scripts/blog-next-topic.mjs` picks each day's topic (priority topics first, then today's weekday slot). Mark a topic `published` (with `slug` and `published`) after it goes live, `blocked` (with `reason`) if it fails review three times, or `skipped` (with `reason`) if it duplicates an existing article.
 
-When fewer than 14 topics are queued, add 20 new ones at the end. A good topic:
-- is a question deaf or hard of hearing people (or the people around them) ask, found in search suggestions, "People also ask", Reddit (r/deaf, r/HardOfHearing, r/audiology), deaf organisations' FAQs, or the follow-up questions in our own FAQs;
-- can be answered with primary sources;
-- leads naturally to one of the site's use cases or features;
-- isn't already covered by an article (check slugs and titles).
-Keep the mix about one third comparisons and guides each, the rest data and explainers, and alternate categories so no two days in a row share one. Country data topics follow the languages the site covers (`src/lib/languages.ts`).
+Every topic has:
+- `category`: the format (comparisons, data, guides, explainers).
+- `pillar`: what it's about. `use-case` (one of the website's use cases in `plan.json` `blogUseCases`), `feature` (a row of the Feature map in `CAPTIO_FACTS.md`), `language` (a country or language from `src/lib/languages.ts`), or `basics` (hearing loss facts, rights, terms).
+- `covers`: the feature ids, use-case slugs and language slugs it serves. `npm run blog:coverage` counts these.
+
+When fewer than 14 topics are queued, run `npm run blog:coverage` and add 20 new topics at the end:
+- gaps first (anything below its target in `plan.json`), then keep each weekday slot stocked for at least 3 more weeks;
+- each topic is a question deaf or hard of hearing people (or the people around them) ask, found in search suggestions, "People also ask", Reddit (r/deaf, r/HardOfHearing, r/audiology), deaf organisations' FAQs, or the follow-up questions in our own FAQs;
+- it can be answered with primary sources, leads naturally to a use case or feature page, and isn't already covered (check slugs and titles);
+- it doesn't duplicate the website's landing pages: "live captions in German" is `/german`, "live captions for meetings" is `/use-cases/meetings`. Blog topics answer the questions around those pages (how to, rights, numbers, comparisons) and link into them.
+
+New app features enter through the new-version check (DAILY.md step 1) as `priority` topics. Never queue a topic about a feature in "Not live yet".
 
 ## 11. Updating articles
 

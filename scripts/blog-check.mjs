@@ -312,10 +312,18 @@ const globalErrors = [];
 try {
   const topics = JSON.parse(read("content/blog/topics.json")).topics;
   const ok = new Set(["queued", "published", "blocked", "skipped"]);
+  const facts = read("content/blog/CAPTIO_FACTS.md");
+  const mapAt = facts.indexOf("## Feature map");
+  const FEATURE_IDS = new Set([...facts.slice(mapAt, facts.indexOf("\n## ", mapAt + 5)).matchAll(/^\| ([a-z0-9-]+) \|/gm)].map((m) => m[1]).filter((id) => id !== "id"));
+  const PILLARS = new Set(["use-case", "feature", "language", "basics"]);
   const ids = new Set();
   for (const t of topics) {
     if (!t.id || !t.title || !CATEGORIES.includes(t.category) || !ok.has(t.status)) globalErrors.push(`topics.json: bad entry ${JSON.stringify(t).slice(0, 80)}`);
     if (ids.has(t.id)) globalErrors.push(`topics.json: duplicate id ${t.id}`);
+    if (!PILLARS.has(t.pillar)) globalErrors.push(`topics.json: ${t.id} has no valid pillar`);
+    for (const f of t.covers?.features ?? []) if (!FEATURE_IDS.has(f)) globalErrors.push(`topics.json: ${t.id} covers unknown feature "${f}" (not in the Feature map)`);
+    for (const u of t.covers?.useCases ?? []) if (!USE_CASES.includes(u)) globalErrors.push(`topics.json: ${t.id} covers unknown use case "${u}"`);
+    for (const l of t.covers?.languages ?? []) if (!LANGS.includes(l)) globalErrors.push(`topics.json: ${t.id} covers unknown language "${l}"`);
     ids.add(t.id);
     if (t.status === "published" && (!t.slug || !allSlugs.includes(t.slug))) globalErrors.push(`topics.json: ${t.id} is published but its slug has no article`);
   }

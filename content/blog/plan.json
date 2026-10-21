@@ -1,0 +1,21 @@
+{
+  "_about": "The blog plan as data. scripts/blog-next-topic.mjs picks each day's topic from the weekday slot; scripts/blog-coverage.mjs checks the targets. Pillars come from the website: use cases (src/lib/useCases.ts), features (Feature map in CAPTIO_FACTS.md), languages (src/lib/languages.ts), plus hearing loss basics.",
+  "pillars": ["use-case", "feature", "language", "basics"],
+  "weeklyRhythm": {
+    "monday":    { "category": "comparisons", "pillar": null,       "note": "Captio AI vs X, or a tool comparison" },
+    "tuesday":   { "category": "guides",      "pillar": "use-case", "note": "how to get through a situation from the use cases" },
+    "wednesday": { "category": "data",        "pillar": "language", "note": "country or language numbers" },
+    "thursday":  { "category": "guides",      "pillar": "feature",  "note": "how to do something with a feature; new features jump here first" },
+    "friday":    { "category": "explainers",  "pillar": null,       "note": "a term, a right, a technology" },
+    "saturday":  { "category": "comparisons", "pillar": "use-case", "note": "best apps or options for one use case" },
+    "sunday":    { "category": "data",        "pillar": "basics",   "note": "hearing loss numbers; also refresh one older article" }
+  },
+  "targets": {
+    "perUseCase": 3,
+    "perFeature": 1,
+    "perTopLanguage": 1
+  },
+  "blogUseCases": ["everyday-conversations", "meetings", "restaurants", "traveling", "conferences", "tv-media", "deaf-hoh-communication", "doctor-appointments", "group-settings", "job-interviews", "lectures"],
+  "excludedUseCases": { "phone-video-calls": "Captio AI is for in-person speech; the blog never presents it as a call captioning tool" },
+  "topLanguages": ["english", "spanish", "german", "french", "portuguese", "italian", "dutch", "polish", "japanese", "korean", "chinese", "hindi", "arabic", "turkish", "russian", "ukrainian", "swedish", "danish", "norwegian", "finnish", "czech", "greek", "hebrew", "indonesian", "vietnamese"]
+}
