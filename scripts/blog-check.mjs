@@ -121,6 +121,15 @@ async function checkUrl(url) {
   }
 }
 
+let onlineCache;
+async function online() {
+  if (onlineCache === undefined) {
+    const s = await checkUrl("https://www.who.int/");
+    onlineCache = typeof s === "number";
+  }
+  return onlineCache;
+}
+
 async function pool(items, size, fn) {
   const out = [];
   let i = 0;
@@ -285,8 +294,11 @@ async function checkPost(slug) {
     else if (sim >= 0.45) warnings.push(`title overlaps with /blog/${other} ("${otherTitle}"): make sure they answer different questions`);
   }
 
-  // External links
-  if (!offline) {
+  // External links (skipped when this machine has no internet, e.g. the cloud
+  // sandbox: then the reviewer opens every source with WebFetch)
+  if (!offline && !(await online())) {
+    warnings.push("external links not checked: no internet from this machine; the reviewer must open every source and link");
+  } else if (!offline) {
     const external = [...new Set([
       ...sources.map((s) => s?.url).filter(Boolean),
       ...[...content.matchAll(/\]\((https?:\/\/[^)\s]+)\)/g)].map((m) => m[1]),
