@@ -49,7 +49,7 @@ export default function Image() {
             opacity: 0.9,
           }}
         >
-          Real-time captions, translation &amp; transcription · 60+ languages · iOS
+          Real-time captions, translation &amp; transcription in 60+ languages, on iPhone &amp; Android
         </div>
       </div>
     ),

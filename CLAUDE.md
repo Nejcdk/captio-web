@@ -20,7 +20,7 @@ Social proof may only come from real, verifiable sources the user hands you: act
 ---
 
 ## What this project is
-Marketing website for **Captio**, an iOS live captioning app for deaf and hard of hearing people.
+Marketing website for **Captio**, an iPhone and Android live captioning app for deaf and hard of hearing people.
 - Domain: captioai.app
 - Goal: AEO (Answer Engine Optimization) — get cited by ChatGPT, Gemini, Perplexity, Claude
 - Stack: Next.js 16 (App Router) + Tailwind CSS v4 + Vercel
@@ -32,7 +32,7 @@ Four features:
 - **Audio Transcription** — upload audio/video files, get transcript
 - **AI Summary** — structured summary from any transcript
 
-Primary users: deaf and hard of hearing people. iOS only. 60+ languages.
+Primary users: deaf and hard of hearing people. iPhone (App Store) and Android (Google Play, since October 2026). 60+ languages.
 Brand color: `#1C49F5`. Font: Plus Jakarta Sans (closest public substitute for Google Sans).
 
 ---
@@ -61,7 +61,8 @@ Brand color: `#1C49F5`. Font: Plus Jakarta Sans (closest public substitute for G
 - The root layout's title template appends ` | Captio AI`. Page-level `title` strings must NOT include the brand themselves (that caused "… — Captio AI | Captio AI" on ~790 pages). `openGraph.title` is not templated, so append ` | Captio AI` there explicitly.
 - Use-case × language titles mirror the h1: `[Language] Live Captions for [Use Case]`. Their meta description (and SoftwareApplication JSON-LD description) leads with the variant's hand-written `heroTitle`.
 - `src/app/sitemap.ts` uses fixed `lastModified` dates per page group, never the build time. Bump a group's date when its content meaningfully changes.
-- SoftwareApplication schema links the App Store listing via `sameAs`/`downloadUrl`/`installUrl` (`APP_STORE_URL` in `src/lib/schema.ts`). Do not add `aggregateRating` unless the rating is real and shown on the page.
+- SoftwareApplication schema links both store listings via `sameAs`/`downloadUrl`/`installUrl` (`APP_STORE_URL` + `GOOGLE_PLAY_URL` in `src/lib/schema.ts`).
+- **Download buttons and QR codes:** always the shared components in `src/components/StoreButtons.tsx` — `StoreButtons` (App Store + Google Play side by side, inline CTAs), `DownloadCard` (heroes and final CTAs: a QR code above each button on computers, just the buttons on phones), `StoreQrButtons`, `StoreQrPair` (blog sidebar). Never hand-write a store button or a single-store QR again. QR images: `public/qr-appstore.png`, `public/qr-googleplay.png` (brand blue, 33×33 modules). Do not add `aggregateRating` unless the rating is real and shown on the page.
 
 **Next.js constraint:** All depth-2 dynamic segments must share the same param name. We use `[language]` for language routes and `[slug]` for use case routes.
 
@@ -106,7 +107,7 @@ Section order:
 3. **Use Cases** — 12 cards. Descriptions use `lang.language` naturally. Links go to `/use-cases/[slug]/[lang.languageSlug]` (404 until those pages are built).
 4. **Languages grid** — all 60 languages as links. Current language highlighted in brand blue.
 5. **Dialect & accent support** — renders `lang.dialectCards` as a 2-col grid of cards. Falls back to `lang.dialectNote` paragraph if no cards. **This is the unique AEO content per page.**
-6. **Inline CTA** — App Store button
+6. **Inline CTA** — App Store + Google Play buttons
 7. **Privacy** — same as homepage, two cards mention `lang.language` naturally
 8. **Inline CTA** — App Store button
 9. **FAQ** — `lang.languageFAQs` first, then `baseFaqs`. Header is just "Frequently asked questions" — do NOT add language name here.
@@ -157,7 +158,7 @@ Every page should answer: the main question, all sub-questions, dialect/accent s
 - Dev: `npm run dev`
 - All dynamic routes use `generateStaticParams` to pre-render at build time
 - Tailwind v4: config is in `globals.css` via `@theme inline`, no `tailwind.config.js`
-- Site is live and indexable as of 2026-07-28; Google Search Console verified and sitemap submitted. Analytics: Vercel Web Analytics + PostHog (both cookieless, no consent banner; PostHog shares the iOS app's EU project, proxied via `/ingest`, init in `src/instrumentation-client.ts`, fires `app_store_click` + `download_button_click` with page/location/position) — see [[project_golive_decisions]]
+- Site is live and indexable as of 2026-07-28; Google Search Console verified and sitemap submitted. Analytics: Vercel Web Analytics + PostHog (both cookieless, no consent banner; PostHog shares the iOS app's EU project, proxied via `/ingest`, init in `src/instrumentation-client.ts`, fires `app_store_click`, `google_play_click` + `download_button_click` with page/location/position) — see [[project_golive_decisions]]
 
 **Dev server setup — read this before touching the server:**
 The `dev` script in `package.json` is set to `next dev --turbopack`. **Always start the dev server with `npm run dev` and nothing else.** Never run `next dev` directly, never run `npx next start` unless serving a production build. Once running, HMR works normally — no restarts needed when editing files. If you ever see 500 errors, kill all node processes (`pkill -9 -f "next"`) and run `npm run dev` again.

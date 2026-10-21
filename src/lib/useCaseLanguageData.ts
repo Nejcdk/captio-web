@@ -32681,7 +32681,7 @@ export const useCaseLanguageVariants: UseCaseLanguageVariant[] = [
       },
       {
         q: "Does it work for Belarusian diaspora communities in Poland, Germany, or Lithuania?",
-        a: "Yes — Captio AI works anywhere via the iOS device microphone, regardless of location. For Belarusian diaspora communities abroad, the app captions Belarusian speech in real time wherever you are.",
+        a: "Yes — Captio AI works anywhere via your phone's microphone, regardless of location. For Belarusian diaspora communities abroad, the app captions Belarusian speech in real time wherever you are.",
       },
     ],
   },

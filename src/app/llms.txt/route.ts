@@ -2,14 +2,12 @@ import { features } from "@/lib/features";
 import { languages } from "@/lib/languages";
 import { useCases } from "@/lib/useCases";
 import { getAllPosts } from "@/lib/blog";
-import { APP_STORE_URL, SITE_URL } from "@/lib/schema";
+import { APP_STORE_URL, GOOGLE_PLAY_URL, SITE_URL } from "@/lib/schema";
 
 // /llms.txt: a plain-text map of the site for AI assistants and their crawlers
 // (format: https://llmstxt.org). Built from the same data as the pages, so new
 // blog articles appear here the day they are published.
 export const dynamic = "force-static";
-
-const PLAY_URL = "https://play.google.com/store/apps/details?id=com.captio.app";
 
 export function GET() {
   const posts = getAllPosts();
@@ -24,7 +22,7 @@ export function GET() {
     "- Free plan with 10 minutes of captions a day; Captio AI Plus removes the limit.",
     "- Audio is processed in real time and not stored on Captio AI's servers; content is never sold or used to train AI models.",
     `- iPhone: ${APP_STORE_URL}`,
-    `- Android: ${PLAY_URL}`,
+    `- Android: ${GOOGLE_PLAY_URL}`,
     "",
     "## Features",
     ...features.map((f) => `- [${f.label}](${SITE_URL}/${f.slug}): ${f.description}`),
