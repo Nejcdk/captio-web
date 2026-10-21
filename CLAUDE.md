@@ -50,7 +50,10 @@ Brand color: `#1C49F5`. Font: Plus Jakarta Sans (closest public substitute for G
 /ai-summary                    → Feature page
 /use-cases/[slug]              → Use case page (12 pages)
 /use-cases/[slug]/[language]   → Use case × language page (720 pages)
+/blog, /blog/[slug], /blog/category/[category], /blog/rss.xml → Blog (content/blog/posts/*.md)
 ```
+
+**Blog (`/blog`, since 2026-10-21):** `/blog` index, `/blog/[slug]` articles, `/blog/category/[category]` (comparisons, data, guides, explainers), `/blog/rss.xml`. Articles are Markdown files in `content/blog/posts/<slug>.md`; the YAML frontmatter holds title, description, category, published/updated dates, `answer` (the "Short answer" box answer engines quote), `keyFacts`, `faqs` (rendered as visible HTML, not an accordion) and `sources`; `[n]` in the body becomes a citation link to source n. Loader + validation: `src/lib/blog.ts` (a malformed post fails the build on purpose); design: `src/components/blog/BlogParts.tsx` + `.blog-prose` in `globals.css` (lists use a blue bar, never dot bullets). Schema: BlogPosting with `citation`s + FAQPage + BreadcrumbList. `draft: true` posts only show on the dev server. Sitemap takes each article's own `updated` date. Same rules as the rest of the site: no fake reviews or quotes, no speech-provider name, every number sourced.
 
 `/demo`, `/pricing` and `/support` were removed on 2026-09-25 (demo had no API key in production; pricing/support were "coming soon" stubs). They permanently redirect (308, treated like a 301 by search engines) via `redirects()` in `next.config.ts` — keep those redirects, the URLs were indexed. The App Store listing's support URL is the homepage, not `/support`.
 

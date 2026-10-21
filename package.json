@@ -11,6 +11,8 @@
   "dependencies": {
     "@supabase/supabase-js": "^2.118.0",
     "@vercel/analytics": "^2.0.1",
+    "gray-matter": "^4.0.3",
+    "marked": "^18.1.1",
     "next": "16.2.7",
     "posthog-js": "^1.434.12",
     "react": "19.2.4",

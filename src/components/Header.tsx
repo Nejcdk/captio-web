@@ -33,6 +33,15 @@ const navItems = [
       </svg>
     ),
   },
+  {
+    label: "Blog",
+    href: "/blog",
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} className="w-5 h-5">
+        <path d="M4 19.5V5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v14.5a1.5 1.5 0 0 1-1.5 1.5H6a2 2 0 0 1-2-1.5ZM8 7h8M8 11h8M8 15h5" strokeLinecap="round" strokeLinejoin="round" />
+      </svg>
+    ),
+  },
 ];
 
 export default function Header() {
@@ -51,6 +60,7 @@ export default function Header() {
           <Link href="/#features" className="hover:text-white transition-colors">Features</Link>
           <Link href="/#use-cases" className="hover:text-white transition-colors">Use Cases</Link>
           <Link href="/#languages" className="hover:text-white transition-colors">Languages</Link>
+          <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
         </nav>
 
         <a href="#download" className="hidden md:block bg-white text-brand text-sm font-semibold px-5 py-2.5 rounded-[8px] hover:bg-white/90 transition-colors">

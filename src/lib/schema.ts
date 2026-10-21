@@ -98,6 +98,50 @@ export function breadcrumbSchema(items: { name: string; path: string }[]) {
   };
 }
 
+/** Build a BlogPosting node for a blog post. Sources become `citation`s. */
+export function blogPostingSchema(opts: {
+  url: string;
+  headline: string;
+  description: string;
+  datePublished: string;
+  dateModified: string;
+  author: { name: string; url: string; type: "Organization" | "Person" };
+  section: string;
+  keywords: string[];
+  wordCount: number;
+  image: string;
+  citations: { title: string; url: string; publisher: string }[];
+}) {
+  const author =
+    opts.author.type === "Organization" && opts.author.url === SITE_URL
+      ? { "@id": ORG_ID }
+      : { "@type": opts.author.type, name: opts.author.name, url: opts.author.url };
+  return {
+    "@type": "BlogPosting",
+    "@id": `${opts.url}#article`,
+    headline: opts.headline,
+    description: opts.description,
+    url: opts.url,
+    mainEntityOfPage: opts.url,
+    datePublished: opts.datePublished,
+    dateModified: opts.dateModified,
+    author,
+    publisher: { "@id": ORG_ID },
+    isPartOf: { "@id": SITE_ID },
+    inLanguage: "en",
+    articleSection: opts.section,
+    keywords: opts.keywords.join(", "),
+    wordCount: opts.wordCount,
+    image: opts.image,
+    citation: opts.citations.map((c) => ({
+      "@type": "CreativeWork",
+      name: c.title,
+      url: c.url,
+      publisher: { "@type": "Organization", name: c.publisher },
+    })),
+  };
+}
+
 /** Wrap one or more nodes into a single @graph document for a <script> tag. */
 export function jsonLd(...nodes: object[]) {
   return {
