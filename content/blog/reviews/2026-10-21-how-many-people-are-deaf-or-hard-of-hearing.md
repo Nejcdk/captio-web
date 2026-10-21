@@ -194,3 +194,62 @@ Risk to the site: low after the fixes. As it stands, the UK sentence explains th
 - Open the "How many people in the US and UK have hearing loss?" section with one answer sentence before the table, for example: "In the US, about 15% of adults reported some trouble hearing in the 2012 National Health Interview Survey [4]; in the UK, more than 18 million people, one in three, are deaf, have hearing loss or tinnitus [5]."
 - Source [3]: add `year: 2026` (R7 from round 1).
 - A US count of people who are deaf or have serious difficulty hearing (American Community Survey, table S1810) would raise Information gain to 5, once confirmed on data.census.gov.
+
+---
+
+# Round 3
+Verdict: PASS (round 3)
+Date: 2026-10-21
+
+Reviewed: the article as committed in c3222ed. `git diff HEAD~1 -- content/blog/posts` shows exactly 4 changes: the 3 required fixes from round 2, applied word for word, and 1 new opening sentence pair in the US and UK section. Nothing else in the article changed, so every earlier SUPPORTED verdict stands. RNID, NIDCD and the Lancet full text (Europe PMC) were fetched again for this round.
+
+## A. Truth (changed sentences)
+
+| # | Claim | Source | Evidence (quote) | Verdict |
+|---|---|---|---|---|
+| R3-1 | Answer: "had some degree of hearing loss in 2019, according to the Global Burden of Disease study that the WHO's figures use" | [1] | "This study accompanies the 2021 WHO World Hearing Report, which describes the burden of hearing loss using the GBD 2019 results and standards for ear and hearing care" | SUPPORTED |
+| R3-2 | "Low-income countries are also short of specialists." | [6] | "Among low-income countries, about 78% have fewer than one ear, nose and throat (ENT) specialist per million population; 93% have fewer than one audiologist per million" | SUPPORTED |
+| R3-3 | "In the US, about 37.5 million adults reported some trouble hearing in the 2012 National Health Interview Survey [4]." | [4] (last updated 20 September 2024) | "Approximately 15% of American adults (37.5 million) ages 18 and over report some trouble hearing." Its reference: "Blackwell, DL; Lucas, JW; Clarke, TC (2014): Summary health statistics for U.S. adults: National Health Interview Survey, 2012" | SUPPORTED |
+| R3-4 | "In the UK, more than 18 million people are deaf, have hearing loss or have tinnitus [5]." | [5] (page last updated 18 August 2026) | "Over 18 million people in the UK are deaf, have hearing loss or tinnitus." | SUPPORTED |
+| R3-5 | "it counts hearing levels of 25 dB or worse in one or both ears [5]" | [5] | "(average hearing levels of 25dB or worse in one or both ears)" | SUPPORTED |
+| R3-6 | "The global one in five counts only hearing loss of more than 20 dB in the better ear [1], so the two figures are measured differently and shouldn't be compared directly." | [1] | "All hearing loss is defined as any hearing loss above 20 dB, ranging from mild to complete in severity." "GBD defines hearing loss as the quietest sound an individual can hear in their better ear". The one in five is "accounting for one in five people (20.3% ...)" of that same all-hearing-loss count. The conclusion follows from the two definitions. | SUPPORTED |
+
+The round 2 problems are gone from the served HTML: "the latest global estimate", "have the fewest specialists" and "a lower threshold than the WHO" no longer appear. Other A checks are unchanged: no competitors, no social proof, no medical or legal advice, primary sources, "Captio AI" always in full, no providers named, no middle-dot separators in the article.
+
+## B. Works
+- blog:check: pass ("1299 words, 7 sections, 6 sources, 6 FAQs, 5 internal links"). The answer is 75 words, inside 40 to 80.
+- build: fresh. `.next/BUILD_ID` is from 12:32:37, the commit from 12:32:43, and the served HTML contains every changed sentence.
+- page checks (`npx next start -p 3199`, stopped afterwards):
+  - Article HTTP 200. One `<h1>` = the title. Short answer present with the new wording. 6 of 6 FAQ answers and 6 of 6 source URLs present.
+  - JSON-LD: 2 blocks, both parse, with `BlogPosting`, `FAQPage` (6 questions) and `BreadcrumbList`.
+  - `/blog`, `/blog/rss.xml`, `/llms.txt` and `/sitemap.xml`: all 200 and all list the article.
+  - `opengraph-image`: 200, image/png, 1200 x 630.
+  - Internal links all 200: `/live-captions`, `/use-cases/doctor-appointments`, `/use-cases/lectures`, `/use-cases/group-settings`, `/use-cases/deaf-hoh-communication`.
+  - New citations render as links: `#source-4` and `#source-5` in the new US and UK sentences, `#source-5` and `#source-1` in the UK threshold paragraph. No unrendered `[n]` left.
+  - The layout was checked at 375 px and 1280 px in round 2; this round only changed text inside paragraphs, with no new tables.
+
+## C. Value (rescored)
+
+| Criterion | Score | Evidence |
+|---|---|---|
+| Answers the question | 5 | The Short answer gives 1.57 billion in 2019 with its study, 430 million disabling, more than 70 million deaf and the 2050 projection. It works quoted alone. |
+| Information gain | 4 | It is the only top result that puts global (Lancet, WHO, WFD), US (NIDCD) and UK (RNID) figures side by side with sources, and explains why they differ (thresholds, better ear vs one or both ears, the hearing aid adjustment). Still missing: a US count of deaf people. |
+| Trust | 5 | Every claim now checks out against a primary source, every number carries its year or survey, and differences between sources are explained. No hype. |
+| Specificity | 5 | Exact thresholds (20, 25, 35 dB), survey years, regions, age bands and the severity split, all with numbers. |
+| Quotable structure | 5 | Question headings, and every section now opens with a sentence that answers it and names its subject. The US and UK section now has its lead sentence. 2 tables and 6 standalone FAQ answers. |
+| Fit with the site | 5 | One clear query with no other article covering it, 5 relevant internal links, the standard Captio AI description, and a Captio AI mention tied to real in-person situations. |
+| Reader value | 4 | A deaf or hard of hearing reader or a family member gets clear, sourced numbers and what they mean. It still gives no next step such as a hearing check. |
+
+Average: 33 / 7 = 4.7. No score below 3, Information gain 4, and A and B all pass.
+
+Information gain: a single sourced comparison of global, US and UK figures, with the definitions and measurement differences explained. None of the top 5 results has it.
+
+Risk to the site: none found. It is not thin, not a duplicate, and not misleading.
+
+## Required fixes
+None.
+
+### Optional, for a later update
+- Source [3]: add `year: 2026`.
+- Add a US count of people who are deaf or have serious difficulty hearing (American Community Survey, table S1810) once it is confirmed on data.census.gov.
+- In the last section, add a pointer to professionals for readers who notice changes in their hearing.
