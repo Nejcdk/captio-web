@@ -1,0 +1,53 @@
+# After a push to main that adds or changes blog articles: wait until each
+# article is live on captioai.app (Vercel deploys main), then tell Bing and the
+# other IndexNow engines. Runs here because the daily blog job's cloud sandbox
+# can't reach the internet from its shell. A failure (page never went live)
+# shows as a failed run and GitHub emails the repo owner.
+name: Blog IndexNow
+
+on:
+  push:
+    branches: [main]
+    paths: ["content/blog/posts/**"]
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Changed articles
+        id: changed
+        run: |
+          before="${{ github.event.before }}"
+          if ! git cat-file -e "$before" 2>/dev/null; then before="HEAD~1"; fi
+          files=$(git diff --name-only --diff-filter=AM "$before" HEAD -- 'content/blog/posts/*.md')
+          echo "Changed: $files"
+          urls=""
+          for f in $files; do
+            slug=$(basename "$f" .md)
+            category=$(grep -m1 '^category:' "$f" | awk '{print $2}')
+            urls="$urls https://captioai.app/blog/$slug"
+            [ -n "$category" ] && urls="$urls https://captioai.app/blog/category/$category"
+          done
+          echo "urls=$(echo $urls | tr ' ' '\n' | sort -u | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
+
+      - name: Wait until the articles are live
+        if: steps.changed.outputs.urls != ''
+        run: |
+          for url in ${{ steps.changed.outputs.urls }}; do
+            case "$url" in */blog/category/*) continue;; esac
+            for i in $(seq 1 40); do
+              code=$(curl -s -o /dev/null -w "%{http_code}" "$url")
+              if [ "$code" = "200" ]; then echo "live: $url"; break; fi
+              if [ "$i" = "40" ]; then echo "::error::$url still answers $code after 20 minutes"; exit 1; fi
+              sleep 30
+            done
+          done
+
+      - name: Ping IndexNow
+        if: steps.changed.outputs.urls != ''
+        run: node scripts/indexnow.mjs ${{ steps.changed.outputs.urls }} https://captioai.app/blog https://captioai.app/llms.txt

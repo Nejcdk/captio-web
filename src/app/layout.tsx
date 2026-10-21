@@ -1,13 +1,16 @@
 import type { Metadata } from "next";
-import { Plus_Jakarta_Sans } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import { jsonLd, organizationSchema, websiteSchema } from "@/lib/schema";
 import { Analytics } from "@vercel/analytics/next";
 
-const googleSans = Plus_Jakarta_Sans({
+// Plus Jakarta Sans, served from the repo (variable font, latin, OFL licence in
+// ./fonts). Self-hosted so the build never downloads anything: the daily blog
+// job builds the site in a sandbox without access to Google Fonts.
+const googleSans = localFont({
+  src: "./fonts/PlusJakartaSans-latin-variable.woff2",
   variable: "--font-google-sans",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  weight: "200 800",
   display: "swap",
 });
 
