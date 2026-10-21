@@ -145,7 +145,7 @@ function blogRenderer(nextId: (text: string) => string) {
 // the bottom (the space before the marker is dropped). Markdown links
 // ("[text](url)") and footnote-like "[2]:" are left alone.
 function linkCitations(markdown: string, sourceCount: number, slug: string): string {
-  return markdown.replace(/[ \t]?\[(\d{1,2})\](?![(:[])/g, (_, n: string) => {
+  return markdown.replace(/[ \t]?\[(\d{1,2})\](?![(:])/g, (_, n: string) => {
     const i = Number(n);
     if (i < 1 || i > sourceCount) fail(slug, `body cites [${i}] but there are ${sourceCount} sources`);
     return `<sup class="cite"><a href="#source-${i}" aria-label="Source ${i}">${i}</a></sup>`;

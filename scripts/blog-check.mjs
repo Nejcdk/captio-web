@@ -215,7 +215,7 @@ async function checkPost(slug) {
   if (NEEDS_TABLE.has(cat) && !hasTable) errors.push(`${cat} articles need at least one table`);
 
   // Citations
-  const cited = new Set([...body.matchAll(/\[(\d{1,2})\](?![(:[])/g)].map((m) => Number(m[1])));
+  const cited = new Set([...body.matchAll(/\[(\d{1,2})\](?![(:])/g)].map((m) => Number(m[1])));
   keyFacts.forEach((k) => k?.source && cited.add(Number(k.source)));
   for (const n of cited) if (n < 1 || n > sources.length) errors.push(`[${n}] cited but there are ${sources.length} sources`);
   sources.forEach((_, i) => {
