@@ -1,5 +1,6 @@
 # After a push to main that adds or changes blog articles: wait until each
-# article is live on captioai.app (Vercel deploys main), then tell Bing and the
+# article is live on captioai.app (Vercel deploys main, sometimes after a
+# queue of 10+ minutes; we wait up to 40), then tell Bing and the
 # other IndexNow engines. Runs here because the daily blog job's cloud sandbox
 # can't reach the internet from its shell. A failure (page never went live)
 # shows as a failed run and GitHub emails the repo owner.
@@ -13,7 +14,7 @@ on:
 jobs:
   ping:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
         with:
@@ -40,10 +41,10 @@ jobs:
         run: |
           for url in ${{ steps.changed.outputs.urls }}; do
             case "$url" in */blog/category/*) continue;; esac
-            for i in $(seq 1 40); do
+            for i in $(seq 1 80); do
               code=$(curl -s -o /dev/null -w "%{http_code}" "$url")
               if [ "$code" = "200" ]; then echo "live: $url"; break; fi
-              if [ "$i" = "40" ]; then echo "::error::$url still answers $code after 20 minutes"; exit 1; fi
+              if [ "$i" = "80" ]; then echo "::error::$url still answers $code after 40 minutes"; exit 1; fi
               sleep 30
             done
           done
