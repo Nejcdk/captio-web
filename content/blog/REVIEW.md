@@ -44,6 +44,7 @@ Search the topic's `query` (and one natural variant) now. Open the top 5 results
 | Trust | Primary sources, dated numbers, the competitor's own pages, fair to competitors, no hype. |
 | Specificity | Concrete numbers, places, laws, situations. No paragraph that could be on any site. |
 | Quotable structure | Question headings, each section opens with a complete answer naming its subject, at least one useful table where the template asks for it, FAQ covers the real follow-up questions. |
+| Use cases and languages named | Every key sentence names the use case, country or language it answers for; each use case the article touches has its own section or table row; at least half of the FAQs name one (PLAYBOOK 6.10). |
 | Fit with the site | One clear query, not already answered by another article (no cannibalisation), 3–8 relevant internal links, leads naturally to a Captio AI use case without forcing it. |
 | Reader value | A deaf or hard of hearing reader, or their family, would be glad they found it and could act on it. |
 

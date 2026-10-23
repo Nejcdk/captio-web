@@ -116,6 +116,14 @@ Answer engines search, read a few pages, and quote the passages that answer the 
 
 **6.9 Fairness.** Assistants prefer balanced sources. An article that admits where Captio AI is not the best choice is more likely to be cited, and more likely to be cited when Captio AI is the right choice.
 
+**6.10 Name the use case and the language in the sentence (Nejc, 2026-10-23).** The point of GEO is that for every question someone can ask, one sentence on the site answers it directly. The website does this: `/use-cases/meetings/german` answers "captions for German meetings" in its own sentences. Blog articles must do the same. The most important words in a sentence are the use case, the language or country, and the person ("a deaf student in a lecture", "a Spanish speaker at a doctor's appointment"), not "it" or "this".
+- Before writing, list the questions a reader could ask about the topic crossed with the site's use cases (`plan.json` `blogUseCases`) and languages or countries (`src/lib/languages.ts`). For each one that the sources can support, write one sentence that answers it on its own, naming both. Example: "CART is used in lectures and conferences in the US, where ADA.gov lists real-time captioning among the auxiliary aids" is quotable; "It is used in many settings" is not.
+- Give every use case the article touches its own `##` section or a table row (lectures, conferences, doctor's appointments, meetings, job interviews, restaurants, travelling, group settings, TV and media, everyday conversations), with the answer first and the use case in the first words. A "Which use cases and countries does this apply to?" table is often the best passage in the article.
+- For data, rights and price topics, name the country in every sentence that has a number (US, UK, EU, Slovenia, Germany...) and add a row per country the sources cover. For tool comparisons, name the language: "Does Live Transcribe caption German?" gets a sentence naming German.
+- Link each such sentence to the matching use case page or language page (`/use-cases/lectures`, `/use-cases/lectures/german`, `/german`).
+- Never pad with facts the sources do not support. If a use case or language cannot be supported by an opened source, leave it out. Naming them is for precision, not for keyword stuffing.
+- FAQs: at least half of the questions name a use case or a language or country ("Is CART available for doctor's appointments in the UK?").
+
 ## 7. SEO basics
 
 - One main question per article (the `query` in `topics.json`). Don't write a second article for the same question; update the first one instead. Search `content/blog/posts` before starting.
