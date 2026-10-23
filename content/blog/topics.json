@@ -1684,7 +1684,9 @@
         ],
         "languages": []
       },
-      "status": "queued"
+      "status": "published",
+      "slug": "what-is-cart-captioning",
+      "published": "2026-10-23"
     },
     {
       "id": "captions-vs-subtitles-what-s-the-difference",
