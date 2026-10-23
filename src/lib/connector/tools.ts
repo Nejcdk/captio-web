@@ -3,7 +3,8 @@
 // month of all-day recordings can be searched without reading it whole.
 
 import { z } from "zod";
-import { rpc, type FolderRow, type Line, type Me, type RecordingDetail, type RecordingRow, type SearchRow } from "./data";
+import { rpc, type ChunkHit, type FolderRow, type Line, type Me, type RecordingDetail, type RecordingRow, type SearchRow } from "./data";
+import { embedQuery } from "./embed";
 import {
   clockToOffset, formatClock, formatDay, formatLength, formatSpan, parseUntil, parseWhen, startedAt, validZone,
 } from "./time";
@@ -19,12 +20,14 @@ export type Tool = {
 };
 
 // Shown to the chat app when it connects.
-export const INSTRUCTIONS = `Captio AI records conversations (meetings, lectures, a whole office day) and transcribes them, with who said what and when. People share recordings with their team in shared folders.
-- To find what was said about something, or what someone said: use search_transcripts first, then get_transcript around the hits for context.
-- To see what happened on a day or in a folder: list_recordings with from/to, then get_transcript (each recording has a summary when one was made).
+export const INSTRUCTIONS = `Captio AI records conversations (meetings, lectures, a whole office day, often hours long and in several languages) and transcribes them, with who said what and when. People share recordings with their team in shared folders.
+- To find where something was talked about, even without knowing which recording, who said it or the exact words: search_transcripts with the question in plain words (it searches by meaning across languages, so an English question finds a Slovenian discussion) plus the distinctive words people would have said (names, product terms, in the language spoken) as keywords, and from/to when the user mentions a day. It returns the best passages (about a minute each) with who said what and when.
+- Then read around the best passage with get_transcript (recording_id, from_line a few lines before the passage, max_lines 40-80) and answer from what was actually said. Run several searches with different wording when the first doesn't settle it.
+- For an exact name, number or quote, every time it was said: find_words.
+- To see what happened on a day or in a folder: list_recordings with from/to; a recording's summary comes first in get_transcript.
 - Speaker names come from the phone recognising voices or from names typed in the app. "Speaker 2" means nobody was named. Names can occasionally be wrong.
 - Times are in the user's time zone and approximate to the minute.
-- Always say which recording (title and date) an answer comes from.`;
+- Always say which recording (title and date) and who said it, when you know.`;
 
 const TRANSCRIPT_CHAR_BUDGET = 60_000;
 const CONTEXT_CHARS = 220;
@@ -154,16 +157,68 @@ const listRecordings: Tool = {
   },
 };
 
-// ── search_transcripts ────────────────────────────────────────────────────────
+// ── search_transcripts (by meaning and words) ─────────────────────────────────
+
+function lineOut(createdAt: number, duration: number, l: Line, tz: string): string {
+  return `${lineTime(createdAt, duration, l.start_ms, tz)}${who(l.speaker)}${l.text.trim()}${l.translation ? `\n  (translation) ${l.translation.trim()}` : ""}  [line ${l.idx}]`;
+}
 
 const searchTranscripts: Tool = {
   name: "search_transcripts",
-  title: "Search transcripts",
+  title: "Search recordings",
   description:
-    "Search every line of every transcript the user can see for words, and get the matching lines with who said them, when, in which recording, and the line before and after. Each word matches the start of words (\"price\" finds \"prices\"). By default a line must contain all words; set match_any for any. Try other word forms, synonyms or the language of the conversation when nothing comes back. Filter by speaker name, folder and dates.",
+    "Find where something was talked about in any recording the user can see (their own and those in shared folders), even in a recording hours long, without knowing which recording, who said it or the exact words. Searches by meaning across languages (an English question finds a Slovenian discussion) and by keywords at once. Returns the best passages, about a minute each, with who said what, when and in which recording, plus their line numbers for get_transcript. Narrow with from/to (dates), speaker, folder_id or recording_id.",
   inputSchema: z.object({
-    query: z.string().describe("Words to look for (in the language that was spoken)."),
-    match_any: z.boolean().optional().describe("Match lines with any of the words instead of all of them."),
+    query: z.string().describe("What you're looking for, in plain words, e.g. \"the discussion about recording without internet\"."),
+    keywords: z.string().optional().describe("Distinctive words people would have said (names, product terms, numbers), in the language spoken, space-separated. Not common words."),
+    speaker: z.string().optional().describe("Only passages where this person speaks (part of the name is enough)."),
+    folder_id: z.string().optional().describe("Only this folder (id from list_folders). \"none\" = not in a folder."),
+    recording_id: z.string().optional().describe("Only inside this recording (e.g. to find a part of a long one)."),
+    from: z.string().optional().describe("Start date or time, e.g. \"2026-10-22\" (user's time zone)."),
+    to: z.string().optional().describe("End date or time; a plain date includes that whole day."),
+    limit: z.number().int().min(1).max(20).optional().describe("How many passages (default 8)."),
+  }),
+  async run(args, ctx) {
+    const query = str(args.query);
+    if (!query) return "Say what to look for.";
+    const [{ tz }, embedding] = await Promise.all([me(ctx), embedQuery(query)]);
+    // Without a meaning vector the question's own words have to do.
+    const keywords = str(args.keywords) ?? (embedding ? null : query);
+    const hits = await rpc<ChunkHit[]>(ctx.token, "connector_search_chunks", {
+      p_keywords: keywords,
+      p_embedding: embedding,
+      p_folder: str(args.folder_id),
+      p_speaker: str(args.speaker),
+      p_recording: str(args.recording_id),
+      p_from: parseWhen(args.from, tz),
+      p_to: parseUntil(args.to, tz),
+      p_limit: int(args.limit, 8, 1, 20),
+    });
+    if (!hits.length) return `Nothing found for "${query}". Try other wording, other keywords, a wider date range, or find_words for an exact word.`;
+    const out: string[] = [`${plural(hits.length, "passage", "passages")}, best first (times in ${tz}${embedding ? "" : "; searched by words only"}):`];
+    hits.forEach((h, i) => {
+      const where = `${recordingHeading({ title: h.title, emoji: h.emoji, id: h.recording_id })}, ${formatSpan(h.created_at, h.duration_seconds, tz)}${h.folder_name ? `, folder ${h.folder_name}` : ""}, recorded by ${h.recorded_by}`;
+      out.push(`\n### ${i + 1}. ${where}\nLines ${h.from_idx}-${h.to_idx}${h.speakers.length ? `, speaking: ${h.speakers.join(", ")}` : ""} (found by ${h.found_by})`);
+      for (const l of h.lines) {
+        const inside = l.idx >= h.from_idx && l.idx <= h.to_idx;
+        out.push(inside ? lineOut(h.created_at, h.duration_seconds, l, tz) : `  (${l.idx < h.from_idx ? "before" : "after"}) ${who(l.speaker)}${clip(l.text.trim(), CONTEXT_CHARS)}`);
+      }
+    });
+    out.push("\nRead more around a passage with get_transcript (recording_id, from_line, max_lines).");
+    return out.join("\n");
+  },
+};
+
+// ── find_words (exact words, every time they were said) ───────────────────────
+
+const findWords: Tool = {
+  name: "find_words",
+  title: "Find exact words",
+  description:
+    "Find every line where certain words were said (a name, a number, a product term, a quote), in every transcript the user can see, with who said it, when and where. Each word matches the start of words (\"price\" finds \"prices\"); by default a line must contain all words, match_any for any. Use the language that was spoken. For questions about a topic, use search_transcripts instead.",
+  inputSchema: z.object({
+    words: z.string().describe("The words, in the language that was spoken."),
+    match_any: z.boolean().optional().describe("Lines with any of the words instead of all of them."),
     speaker: z.string().optional().describe("Only lines said by this person (part of the name is enough)."),
     folder_id: z.string().optional().describe("Only this folder (id from list_folders). \"none\" = not in a folder."),
     from: z.string().optional().describe("Start date or time, e.g. \"2026-10-20\" (user's time zone)."),
@@ -171,8 +226,8 @@ const searchTranscripts: Tool = {
     limit: z.number().int().min(1).max(100).optional().describe("How many lines (default 30)."),
   }),
   async run(args, ctx) {
-    const query = str(args.query);
-    if (!query) return "Give some words to search for.";
+    const query = str(args.words);
+    if (!query) return "Give the words to find.";
     const { tz } = await me(ctx);
     const rows = await rpc<SearchRow[]>(ctx.token, "connector_search", {
       p_query: query,
@@ -183,7 +238,7 @@ const searchTranscripts: Tool = {
       p_to: parseUntil(args.to, tz),
       p_limit: int(args.limit, 30, 1, 100),
     });
-    if (!rows.length) return `Nothing found for "${query}". Try other words, word forms, or match_any.`;
+    if (!rows.length) return `"${query}" wasn't said anywhere you can see. Try other word forms, match_any, or search_transcripts.`;
     // Grouped by recording, in the order of their best match.
     const groups = new Map<string, SearchRow[]>();
     for (const r of rows) groups.set(r.recording_id, [...(groups.get(r.recording_id) ?? []), r]);
@@ -194,12 +249,12 @@ const searchTranscripts: Tool = {
         `\n## ${recordingHeading({ title: r.title, id: r.recording_id })}\n${formatSpan(r.created_at, r.duration_seconds, tz)}${r.folder_name ? `, folder ${r.folder_name}` : ""}, recorded by ${r.recorded_by}`,
       );
       for (const h of hits.sort((a, b) => a.idx - b.idx)) {
-        if (h.before_text) out.push(`  (before) ${who(h.before_speaker)}${clip(h.before_text, CONTEXT_CHARS)}`);
-        out.push(`${lineTime(h.created_at, h.duration_seconds, h.start_ms, tz)}${who(h.speaker)}${h.text}${h.translation ? `\n  (translation) ${h.translation}` : ""}  [line ${h.idx}]`);
-        if (h.after_text) out.push(`  (after) ${who(h.after_speaker)}${clip(h.after_text, CONTEXT_CHARS)}`);
+        if (h.before_text) out.push(`  (before) ${who(h.before_speaker)}${clip(h.before_text.trim(), CONTEXT_CHARS)}`);
+        out.push(lineOut(h.created_at, h.duration_seconds, { idx: h.idx, speaker: h.speaker, start_ms: h.start_ms, text: h.text, translation: h.translation }, tz));
+        if (h.after_text) out.push(`  (after) ${who(h.after_speaker)}${clip(h.after_text.trim(), CONTEXT_CHARS)}`);
       }
     }
-    out.push("\nRead more around a line with get_transcript (recording id + from_line).");
+    out.push("\nRead more around a line with get_transcript (recording_id, from_line, max_lines).");
     return out.join("\n");
   },
 };
@@ -210,12 +265,13 @@ const getTranscript: Tool = {
   name: "get_transcript",
   title: "Read a recording",
   description:
-    "Read one recording: when it was, its folder, who recorded it, its summary, and its transcript line by line with who said what and when. Long recordings come in pages: start at from_line (a line number from search_transcripts) or at a clock time (from_time \"14:30\").",
+    "Read one recording: when it was, its folder, who recorded it, its summary, and its transcript line by line with who said what and when. Long recordings come in pages: start at from_line (a line number from search_transcripts or find_words) or at a clock time (from_time \"14:30\"), and read just a stretch with max_lines.",
   inputSchema: z.object({
     recording_id: z.string().describe("The recording's id (from list_recordings or search_transcripts)."),
     from_line: z.number().int().min(0).optional().describe("Start at this line number."),
     from_time: z.string().optional().describe("Start at this clock time on the recording's day, e.g. \"14:30\"."),
     context_before: z.number().int().min(0).max(200).optional().describe("Also include this many lines before from_line."),
+    max_lines: z.number().int().min(1).max(600).optional().describe("Read at most this many lines (default: as many as fit, up to 600)."),
   }),
   async run(args, ctx) {
     const id = str(args.recording_id);
@@ -233,7 +289,7 @@ const getTranscript: Tool = {
       fromLine = 0;
     }
     const rec = await rpc<RecordingDetail>(ctx.token, "connector_recording", {
-      p_id: id, p_from_idx: fromLine, p_from_ms: fromMs, p_limit: 600,
+      p_id: id, p_from_idx: fromLine, p_from_ms: fromMs, p_limit: int(args.max_lines, 600, 1, 600),
     });
     if (!rec.ok) return "No recording with that id that you can see.";
 
@@ -249,7 +305,7 @@ const getTranscript: Tool = {
     let used = out.join("\n").length;
     const shown: Line[] = [];
     for (const l of rec.lines) {
-      const text = `${lineTime(rec.created_at, rec.duration_seconds, l.start_ms, tz)}${who(l.speaker)}${l.text}${l.translation ? `\n  (translation) ${l.translation}` : ""}`;
+      const text = `${lineTime(rec.created_at, rec.duration_seconds, l.start_ms, tz)}${who(l.speaker)}${l.text.trim()}${l.translation ? `\n  (translation) ${l.translation.trim()}` : ""}`;
       if (used + text.length > TRANSCRIPT_CHAR_BUDGET && shown.length > 0) break;
       used += text.length + 1;
       shown.push(l);
@@ -264,4 +320,4 @@ const getTranscript: Tool = {
   },
 };
 
-export const TOOLS: Tool[] = [searchTranscripts, listRecordings, getTranscript, listFolders];
+export const TOOLS: Tool[] = [searchTranscripts, findWords, getTranscript, listRecordings, listFolders];

@@ -98,6 +98,25 @@ export type SearchRow = {
 
 export type Line = { idx: number; speaker: string; start_ms: number | null; text: string; translation: string | null };
 
+// A passage (about a minute) found by connector_search_chunks, with its lines
+// plus one before and one after.
+export type ChunkHit = {
+  recording_id: string;
+  title: string;
+  emoji: string;
+  created_at: number;
+  duration_seconds: number;
+  folder_name: string | null;
+  recorded_by: string;
+  chunk_idx: number;
+  from_idx: number;
+  to_idx: number;
+  speakers: string[];
+  found_by: string;
+  score: number;
+  lines: Line[];
+};
+
 export type RecordingDetail =
   | { ok: false; error: string }
   | {
