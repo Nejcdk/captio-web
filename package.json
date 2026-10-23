@@ -11,14 +11,17 @@
     "blog:coverage": "node scripts/blog-coverage.mjs"
   },
   "dependencies": {
+    "@modelcontextprotocol/server": "^2.3.1",
     "@supabase/supabase-js": "^2.118.0",
     "@vercel/analytics": "^2.0.1",
     "gray-matter": "^4.0.3",
     "marked": "^18.1.1",
+    "mcp-handler": "^2.3.0",
     "next": "16.2.7",
     "posthog-js": "^1.434.12",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
