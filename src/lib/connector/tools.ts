@@ -9,7 +9,8 @@ import {
   clockToOffset, formatClock, formatDay, formatLength, formatSpan, parseUntil, parseWhen, startedAt, validZone,
 } from "./time";
 
-export type ToolContext = { token: string };
+// meta: what the tool call's analytics event carries (counts, never content).
+export type ToolContext = { token: string; meta?: Record<string, unknown> };
 
 export type Tool = {
   name: string;
@@ -184,6 +185,7 @@ const searchTranscripts: Tool = {
     const [{ tz }, embedding] = await Promise.all([me(ctx), embedQuery(query)]);
     // Without a meaning vector the question's own words have to do.
     const keywords = str(args.keywords) ?? (embedding ? null : query);
+    if (ctx.meta) Object.assign(ctx.meta, { meaning: !!embedding, keywords: !!str(args.keywords), dated: !!(args.from || args.to), in_recording: !!args.recording_id });
     const hits = await rpc<ChunkHit[]>(ctx.token, "connector_search_chunks", {
       p_keywords: keywords,
       p_embedding: embedding,
@@ -194,6 +196,7 @@ const searchTranscripts: Tool = {
       p_to: parseUntil(args.to, tz),
       p_limit: int(args.limit, 8, 1, 20),
     });
+    if (ctx.meta) Object.assign(ctx.meta, { results: hits.length, by_meaning: hits.filter(h => h.found_by.includes("meaning")).length });
     if (!hits.length) return `Nothing found for "${query}". Try other wording, other keywords, a wider date range, or find_words for an exact word.`;
     const out: string[] = [`${plural(hits.length, "passage", "passages")}, best first (times in ${tz}${embedding ? "" : "; searched by words only"}):`];
     hits.forEach((h, i) => {
@@ -238,6 +241,7 @@ const findWords: Tool = {
       p_to: parseUntil(args.to, tz),
       p_limit: int(args.limit, 30, 1, 100),
     });
+    if (ctx.meta) ctx.meta.results = rows.length;
     if (!rows.length) return `"${query}" wasn't said anywhere you can see. Try other word forms, match_any, or search_transcripts.`;
     // Grouped by recording, in the order of their best match.
     const groups = new Map<string, SearchRow[]>();

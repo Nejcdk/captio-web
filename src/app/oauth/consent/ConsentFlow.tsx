@@ -21,7 +21,12 @@ type State =
 
 function capture(event: string, props: Record<string, unknown> = {}) {
   try {
-    posthog.capture(event, { ...props, page: "connector_consent" }, { transport: "sendBeacon", send_instantly: true });
+    posthog.capture(event, { ...props, page: "connector_consent", source: "connector" }, { transport: "sendBeacon", send_instantly: true });
+    // Every failure here is also an app_error, for the error dashboard.
+    if (event === "connector_error") {
+      posthog.capture("app_error", { where: `connector_consent_${props.where ?? "unknown"}`, message: props.message, source: "connector", platform: "web" },
+        { transport: "sendBeacon", send_instantly: true });
+    }
   } catch {
     // Analytics must never block connecting.
   }
