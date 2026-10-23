@@ -16,7 +16,8 @@ import { createMcpHandler, withMcpAuth } from "mcp-handler";
 import type { AuthInfo } from "@modelcontextprotocol/server";
 import { ConnectorError, userForToken } from "@/lib/connector/data";
 import { INSTRUCTIONS, TOOLS } from "@/lib/connector/tools";
-import { captureConnectorEvent } from "@/lib/connector/analytics";
+import { captureError, captureToolCall, errorCode, personId } from "@/lib/connector/analytics";
+import { runEmbedWorker } from "@/lib/connector/embedWorker";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 60;
@@ -65,16 +66,26 @@ const handler = createMcpHandler(
           if (!auth) {
             return { content: [{ type: "text", text: "Not signed in to Captio AI." }], isError: true };
           }
+          const meta: Record<string, unknown> = {};
           try {
-            const text = await tool.run(args ?? {}, { token: auth.token });
-            after(() => captureConnectorEvent(auth, tool.name, { ok: true, ms: Date.now() - started, chars: text.length }));
+            const text = await tool.run(args ?? {}, { token: auth.token, meta });
+            after(() => captureToolCall(auth, tool.name, { ok: true, ms: Date.now() - started, chars: text.length, ...meta }));
+            // Searches also keep the meaning vectors going, in case the
+            // database's every-minute ping isn't getting through.
+            if (tool.name === "search_transcripts") after(() => kickEmbedding());
             return { content: [{ type: "text", text }] };
           } catch (e) {
             const message = e instanceof ConnectorError ? e.message : String((e as Error)?.message ?? e);
-            console.error(`[mcp] ${tool.name}:`, message);
-            after(() => captureConnectorEvent(auth, tool.name, { ok: false, ms: Date.now() - started, error: message.slice(0, 200) }));
+            const code = errorCode();
+            console.error(`[mcp] ${tool.name} ${code}:`, message);
+            after(() => Promise.all([
+              captureToolCall(auth, tool.name, { ok: false, ms: Date.now() - started, error_code: code, ...meta }),
+              captureError(tool.name, message, personId(auth), {
+                error_code: code, client_id: auth.clientId, status: e instanceof ConnectorError ? e.status : undefined,
+              }),
+            ]));
             return {
-              content: [{ type: "text", text: "Captio AI couldn't answer that just now. Please try again in a moment." }],
+              content: [{ type: "text", text: `Captio AI couldn't answer that just now. Please try again in a moment. (Error code ${code})` }],
               isError: true,
             };
           }
@@ -87,6 +98,14 @@ const handler = createMcpHandler(
     instructions: INSTRUCTIONS,
   },
 );
+
+// At most one nudge a minute per server instance, 20 seconds of work.
+let lastKick = 0;
+async function kickEmbedding() {
+  if (Date.now() - lastKick < 60_000) return;
+  lastKick = Date.now();
+  await runEmbedWorker(20_000).catch(() => {});
+}
 
 const authed = withMcpAuth(handler, verifyToken, {
   required: true,
