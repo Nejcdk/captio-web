@@ -1,5 +1,5 @@
 # Review: How to see who is talking in live captions
-Verdict: PASS (round 2; round 1 was FAIL, see below)
+Verdict: FAIL (round 3; rounds 1 and 3 FAIL, round 2 PASS, see below)
 Date: 2026-10-26
 
 ## A. Truth
@@ -97,3 +97,52 @@ Risk to the site: none.
 - Sources 1 and 2 show no publication date; `year: 2026` is an access year.
 
 Verdict: PASS
+
+---
+
+# Round 3 (matrix and "which fits" tables)
+Date: 2026-10-26
+The article was already live; the cells below must be corrected in the published version.
+
+## A. Truth: every new cell
+| Cell | Source evidence | Verdict |
+|---|---|---|
+| Captio: iPhone, iOS 15.1 or later [5] | App Store: "Requires iOS 15.1 or later" | SUPPORTED |
+| Captio: in-person Yes / labels Yes / rename in saved recording / saved voices 1.1.3 / 60 languages / records offline, transcribes later / free 10 min a day, Plus US$14.99 / US$79.99 | CAPTIO_FACTS (speaker-labels, voice-recognition, languages, offline-recording, Price) and App Store IAP list | SUPPORTED |
+| Pixel: Pixel 6 and later [3] | "Pixel 6 & later, including Fold" | SUPPORTED |
+| Pixel: in-person Not stated | Page does not say | SUPPORTED |
+| Pixel: labels Yes, rename one paragraph at a time, voice models deleted minutes after labeling, US English only | [3] | SUPPORTED |
+| Pixel: offline "Not stated" | Page says analysis happens on the device but never says "offline" | OK (could say "analysis runs on the device [3]") |
+| Live Transcribe: Android; "Several languages for offline use; total not stated"; works offline in offline languages | [4]: "download multiple languages ... for offline use" | SUPPORTED |
+| Live Transcribe: "Captions in-person speech through the microphone: Yes [4]" | Page says "capture speech and sound and see them as text" and "Hold your device microphone near the person"; it never says "in-person" | OVERCLAIM (FAIL) |
+| Live Transcribe: labels speakers Not stated | Page only mentions labels for non-speech sounds (laughing, doorbell) | SUPPORTED |
+| Apple: iPhone, iPad, Mac, Apple Watch, Apple Vision Pro [6] | Page's Live Captions setup list names all five (first 100k of 144k characters read) | SUPPORTED |
+| Apple: in-person Yes, on-device, regions/languages vary, speaker names not stated | "live, in-person speech through the microphone"; "on-device-generated"; "may not be available in all regions or all languages"; no speaker names | SUPPORTED |
+| Apple: "Works without internet: Captions generated on the device" | Page never says "offline"; on-device is an inference | WEAK (reword) |
+| Teams: "Captions in-person speech through the microphone: No, captions meetings in Teams [7]" | Page does not address in-room speech; it covers "a meeting or group call", town halls and live events | OVERCLAIM (FAIL) |
+| Teams: "Labels speakers: Identifies speakers; people can opt out [7]" | Page only says "People can choose not to be identified in captions"; how names appear is not stated | OVERCLAIM (FAIL) |
+| Teams: "Long list of spoken-language variants" | Page lists 57 spoken languages | SUPPORTED but vague; use the number |
+| Teams: platform "Teams meetings" | Page also covers group calls, town halls, live events | INCOMPLETE |
+| Teams: rename / offline / saved voices Not stated | Absent from page | SUPPORTED |
+| Price row: "Not checked" for four tools | Honest, but a competitor row of "Not checked" has no value; none of the pages [3][4][6][7] state a price | WEAK |
+| "Which fits" rows: Teams "no second app [7]"; Live Transcribe "Offline languages are available [4]"; Apple "Generated on the device [6]"; Pixel "labels you can edit [3]" | Offline, on-device, editable labels supported; "no second app" not on page (obvious for a built-in feature) | OK except as noted |
+No fake social proof; fair to competitors; no medical/legal advice.
+
+## B. Works
+- blog:check and build pass per coordinator; not rerun here. Page and internal link checks passed in round 2 and were not affected by a table swap, but the coordinator should confirm the live page still returns 200 with JSON-LD.
+
+## C. Value
+Information gain 4 (matrix is a real addition), trust drops to 3 until the overclaims are fixed. Average 3.9 with trust at 3: below the PASS bar.
+Risk to the site: Teams and Live Transcribe overclaims are statements a competitor's lawyer could call inaccurate.
+
+## Required fixes
+1. Live Transcribe, in-person row: change "Yes [4]" to "Captures speech through the microphone; the page does not say in-person [4]".
+2. Teams, in-person row: change to "Not stated; the page covers meetings and group calls [7]" (not "No").
+3. Teams, labels row: change to "Not stated directly; the page says people can choose not to be identified in captions [7]". Remove "Identifies speakers".
+4. Teams platform: "Teams meetings and group calls [7]". Teams languages: "57 spoken languages [7]".
+5. Apple, internet row: "Captions are generated on the device; offline use not stated [6]".
+6. Price row: either delete it or state "Not stated on the page" for the four tools; do not write "Not checked". The Captio AI cell may stay with "as of October 2026, US App Store".
+7. Optional: Pixel offline row "Analysis runs on the device; offline not stated [3]"; drop "no second app" from the Teams "Why".
+Re-submit for round 4 (final check of the changed cells).
+
+Verdict: FAIL (round 3)

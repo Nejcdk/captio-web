@@ -82,22 +82,37 @@ The Captioning Key, a standard for caption quality, sets the rules for professio
 
 A live captioning app on a phone cannot place captions under people at a table, so the name or label does that job.
 
-## How do different tools show who is speaking?
+## Captio AI vs Pixel Recorder, Live Transcribe, Apple Live Captions and Teams: which shows who is speaking?
 
-Tools differ a lot on this, so the table puts the facts side by side, as seen in October 2026.
+Captio AI, Google Pixel Recorder, Google Live Transcribe, Apple Live Captions and Microsoft Teams live captions all turn speech into text, but they differ on speaker names, platforms and languages. The matrix below compares them on the same rows, as seen in October 2026. "Not stated" means the maker's page we opened does not say, which is not the same as "No".
 
-| Tool | Names or labels speakers | Where it works | Notes |
-|---|---|---|---|
-| Captio AI | Speaker labels, plus saved voices that show names (1.1.3) | iPhone, via the App Store [5] | Free plan saves your voice plus 1 other person |
-| Google Pixel Recorder | Speaker labels you can edit | Pixel phones, US English only [3] | Edits apply to one paragraph at a time [3] |
-| Google Live Transcribe | Not described on its help page [4] | Android [4] | Help page advises holding the microphone near the speaker [4] |
-| Apple Live Captions | Not stated on Apple's page [6] | iPhone, including in-person speech through the microphone [6] | On-device captions; the page does not say whether it names speakers [6] |
-| Microsoft Teams live captions | Captions in meetings; Microsoft's page says people can choose not to be identified in captions [7] | Teams meetings [7] | Accuracy drops as distance from the mic grows [7] |
-| Captioning Key (professional standard) | Names, or "speaker #1" when unknown [1] | Captioning of media [1] | Describes how speakers should be identified [1] |
+### Speaker names matrix
 
-The Pixel Recorder help page says speaker labels are available only in US English, are turned on in Recorder settings, and use voice models stored temporarily on the device [3]. Captio AI captions 60 languages, including speech that switches languages mid-sentence, so a Spanish and English family dinner can be captioned in one session. The 1.1.3 release notes do not say which languages saved voices cover, so test with the people you talk to. Apple says some features may not be available in all regions or languages [6].
+| Feature | Captio AI | Google Pixel Recorder | Google Live Transcribe | Apple Live Captions | Microsoft Teams captions |
+|---|---|---|---|---|---|
+| Platform | iPhone, App Store (iOS 15.1 or later) [5] | Pixel phones (Pixel 6 and later) [3] | Android [4] | iPhone, iPad, Mac, Apple Watch, Apple Vision Pro [6] | Teams meetings and group calls [7] |
+| Captions in-person speech through the microphone | Yes | Not stated | Yes, hold the microphone near the person [4] | Yes [6] | Not stated; the page covers meetings, group calls and live events [7] |
+| Labels speakers (Speaker 1, Speaker 2) | Yes | Yes [3] | Not stated [4] | Not stated [6] | Not stated; people can choose not to be identified in captions [7] |
+| Rename a speaker | Yes, tap the tag in a saved recording | Yes, one paragraph at a time [3] | Not stated | Not stated | Not stated |
+| Saved voices shown by name | Yes (version 1.1.3) | No, voice models are deleted a few minutes after labeling [3] | Not stated | Not stated | Not stated |
+| Languages | 60, including speech that switches languages mid-sentence | Speaker labels in US English only [3] | Several languages for offline use; total not stated [4] | Varies by region and language [6] | Long list of spoken-language variants [7] |
+| Works without internet | Records offline, transcribes when back online | Not stated | Yes, in offline languages [4] | Captions are generated on the device; offline use not stated [6] | Not stated |
+| Price | Free plan 10 minutes a day; Plus US$14.99 a month or US$79.99 a year on the US App Store [5] | Not stated on the page | Not stated on the page | Not stated on the page | Not stated on the page |
 
-Apple Live Captions is the better choice if you want captions built into the phone with nothing to install, and it generates them on the device [6]. Pixel Recorder is better if you record with a Pixel phone in US English and want labels you edit paragraph by paragraph [3].
+The Captio AI cells come from the app's release notes and App Store listing [5]. Every other cell comes from the maker's own page, linked in the source list.
+
+### Which one fits which situation?
+
+| Situation | Better pick | Why |
+|---|---|---|
+| Group dinner with the same few people, on iPhone | Captio AI | Saved voices show names live; free plan holds your voice plus 1 other person [5] |
+| Team meeting held inside Teams | Microsoft Teams captions | Built in to the meeting controls [7] |
+| Recording a conversation on a Pixel phone in US English | Google Pixel Recorder | Speaker labels you can edit in the app [3] |
+| Quick conversation on an Android phone | Google Live Transcribe | Offline languages are available [4] |
+| Captions built into the phone, nothing to install | Apple Live Captions | Generated on the device [6] |
+| Booked class or conference | A human captioner | See [What is CART captioning?](/blog/what-is-cart-captioning) |
+
+A Spanish and English family dinner is a case where language matters: Captio AI captions 60 languages, including speech that switches languages mid-sentence. The 1.1.3 release notes do not say which languages saved voices cover, so test with the people you talk to. Apple says some features may not be available in all regions or languages [6].
 
 ## How do I get names on captions with Captio AI?
 
@@ -131,4 +146,4 @@ Speaker names are easier to follow when people take turns, because everyone has 
 
 ## Where is Captio AI not the best choice?
 
-Captio AI is not a replacement for a booked captioner when you are entitled to one, such as CART at a class or conference, which is covered in [What is CART captioning?](/blog/what-is-cart-captioning). Saved voices are on iPhone with version 1.1.3, and Android availability of this feature has not been confirmed. Live captions also need an internet connection. For Android users, Google's Live Transcribe is a free option, though its help page does not describe speaker names [4].
+Captio AI is not a replacement for a booked captioner when you are entitled to one, such as CART at a class or conference, which is covered in [What is CART captioning?](/blog/what-is-cart-captioning). Saved voices are on iPhone with version 1.1.3, and Android availability of this feature has not been confirmed. Live captions also need an internet connection. On Android, Google's Live Transcribe is a different option, though its help page does not describe speaker names [4].
