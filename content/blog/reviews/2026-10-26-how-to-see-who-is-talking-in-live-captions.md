@@ -1,5 +1,5 @@
 # Review: How to see who is talking in live captions
-Verdict: FAIL (round 3; rounds 1 and 3 FAIL, round 2 PASS, see below)
+Verdict: PASS (round 4; earlier rounds: 1 FAIL, 2 PASS, 3 FAIL)
 Date: 2026-10-26
 
 ## A. Truth
@@ -146,3 +146,30 @@ Risk to the site: Teams and Live Transcribe overclaims are statements a competit
 Re-submit for round 4 (final check of the changed cells).
 
 Verdict: FAIL (round 3)
+
+---
+
+# Round 4
+Date: 2026-10-26
+
+## A. Truth (changed cells)
+| Cell | Evidence | Verdict |
+|---|---|---|
+| Live Transcribe in-person: "Yes, hold the microphone near the person [4]" | [4]: "capture speech and sound ... Hold your device microphone near the person or sound that you want to capture." | SUPPORTED (page never says the word "in-person"; wording stays with what the page says) |
+| Teams in-person: "Not stated; the page covers meetings, group calls and live events [7]" | Page does not address in-room speech; covers "a meeting or group call", town halls, live events | SUPPORTED |
+| Teams labels: "Not stated; people can choose not to be identified in captions [7]" | Exact page sentence | SUPPORTED |
+| Teams platform "meetings and group calls"; languages "Long list of spoken-language variants" (page lists 57) | True, though a number would be more useful | SUPPORTED (optional: add "57") |
+| Apple offline: "generated on the device; offline use not stated [6]" | Matches page | SUPPORTED |
+| Price row: "Not stated on the page" for four tools; Captio AI US$14.99 / US$79.99 US App Store | None of [3][4][6][7] gives a price; App Store IAP list matches | SUPPORTED |
+| Teams "Built in to the meeting controls [7]" | Page describes turning on live captions in a meeting | SUPPORTED |
+Round 3 SUPPORTED cells still hold. Fair to all competitors; no fake social proof.
+
+## B. Works
+- blog:check: pass (1466 words, 7 sources, 8 FAQs, 7 internal links)
+- build: pass (BUILD_ID newer than the article file); a fresh `next start` on 3199 was used. An earlier curl hit a stale server still serving the round-1 text; discarded.
+- /blog/<slug> 200; BlogPosting, FAQPage, BreadcrumbList present; 2 tables render (matrix and "Which one fits which situation?", including the "A human captioner" row); no "Not checked" or "Identifies speakers" left; listed in /blog, rss.xml, llms.txt, sitemap.xml; opengraph-image 200; all internal links (/live-captions, group-settings, meetings, everyday-conversations, doctor-appointments, /blog/what-is-cart-captioning) 200. No browser, so no width check.
+
+## C. Value
+All eight criteria score 4 (information gain 4: compiled 5-tool matrix with honest "Not stated" cells plus situation picks). Average 4.0, no score below 3. Risk to the site: none.
+
+Verdict: PASS
