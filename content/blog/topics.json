@@ -2954,6 +2954,125 @@
         ]
       },
       "status": "queued"
+    },
+    {
+      "id": "how-to-see-who-is-talking-in-live-captions",
+      "category": "guides",
+      "pillar": "feature",
+      "title": "How to see who is talking in live captions",
+      "query": "who is speaking live captions speaker names",
+      "angle": "How speaker labels work in live caption apps, what Captio AI 1.1.3 adds (saved voices with names on the phone), with sourced captioning guidance on speaker identification, for group dinners and meetings.",
+      "links": [
+        "/live-captions",
+        "/use-cases/group-settings",
+        "/use-cases/meetings"
+      ],
+      "covers": {
+        "features": [
+          "voice-recognition",
+          "speaker-labels",
+          "live-captions"
+        ],
+        "useCases": [
+          "group-settings",
+          "meetings",
+          "everyday-conversations"
+        ],
+        "languages": [
+          "english"
+        ]
+      },
+      "status": "published",
+      "slug": "how-to-see-who-is-talking-in-live-captions",
+      "published": "2026-10-26"
+    },
+    {
+      "id": "what-is-speaker-diarization-in-captions",
+      "category": "explainers",
+      "pillar": "feature",
+      "title": "What is speaker identification in captions, and how accurate is it?",
+      "query": "speaker diarization explained captions",
+      "angle": "Plain explainer of speaker diarization vs recognising a known voice, with research sources on error rates and why identifying people by voice is harder in overlap.",
+      "links": [
+        "/live-captions",
+        "/blog/how-to-see-who-is-talking-in-live-captions"
+      ],
+      "covers": {
+        "features": [
+          "voice-recognition",
+          "speaker-labels"
+        ],
+        "useCases": [
+          "meetings",
+          "group-settings"
+        ],
+        "languages": [
+          "english"
+        ]
+      },
+      "status": "queued",
+      "priority": true
+    },
+    {
+      "id": "how-to-organize-and-share-meeting-transcripts-in-folders",
+      "category": "guides",
+      "pillar": "feature",
+      "title": "How to organize and share recordings and transcripts in folders",
+      "query": "share meeting transcript folder with team",
+      "angle": "Using Folders and shared folders in Captio AI 1.1.3 for classes, appointments and team meetings, with the privacy and access rules stated plainly.",
+      "links": [
+        "/audio-transcription",
+        "/use-cases/meetings",
+        "/use-cases/lectures"
+      ],
+      "covers": {
+        "features": [
+          "folders",
+          "shared-folders",
+          "library"
+        ],
+        "useCases": [
+          "meetings",
+          "lectures",
+          "conferences"
+        ],
+        "languages": [
+          "english"
+        ]
+      },
+      "status": "queued",
+      "priority": true
+    },
+    {
+      "id": "how-to-caption-a-conversation-in-two-languages",
+      "category": "guides",
+      "pillar": "feature",
+      "title": "How to follow a conversation that switches between languages",
+      "query": "live captions two languages mixed conversation",
+      "angle": "Using language flags and Language hint in Captio AI 1.1.3 and what fixing the language of a recording does, for multilingual families and travel.",
+      "links": [
+        "/live-translator",
+        "/live-captions",
+        "/use-cases/traveling"
+      ],
+      "covers": {
+        "features": [
+          "language-flags",
+          "language-hint",
+          "languages"
+        ],
+        "useCases": [
+          "traveling",
+          "group-settings",
+          "everyday-conversations"
+        ],
+        "languages": [
+          "english",
+          "spanish"
+        ]
+      },
+      "status": "queued",
+      "priority": true
     }
   ]
 }

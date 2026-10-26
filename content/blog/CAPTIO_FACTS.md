@@ -2,7 +2,7 @@
 
 Every sentence a blog article says about Captio AI must be backed by a line in this file. If a claim isn't here, don't make it. If something here looks out of date, don't guess: flag it in the run log so Nejc can update this file.
 
-Last checked: 2026-10-21 (App Store listing, Google Play listing, app source at version 1.1.2, which is commit d67edc9 of Nejcdk/captio).
+Last checked: 2026-10-26 (App Store listing and release notes of 1.1.3, app source at the 1.1.3 release commit b163718 of Nejcdk/captio; Google Play listing last checked 2026-10-21).
 
 ## What it is
 - Name: always **Captio AI** (never "Captio" alone). Plan name: **Captio AI Plus**.
@@ -17,7 +17,7 @@ Last checked: 2026-10-21 (App Store listing, Google Play listing, app source at 
 - Needs an internet connection for live captions and translation. Without internet it can still **record**, and the recording is transcribed automatically when the phone reconnects.
 
 ## Live version
-- App Store: **1.1.2** (live 2026-10-21). The daily run's new-version check (`scripts/blog-release-watch.mjs`) updates this line and the feature map when a new version goes live.
+- App Store: **1.1.3** (live 2026-10-23). The daily run's new-version check (`scripts/blog-release-watch.mjs`) updates this line and the feature map when a new version goes live.
 - Only features in a live store version may be written about. Merged but unreleased work (see "Not live yet") never appears in an article.
 
 ## Feature map
@@ -42,12 +42,15 @@ Each row is one thing the app does for the reader. `id` is used in `topics.json`
 | offline-recording | Record without internet | Without a connection the app still records, and the recording is transcribed automatically when the phone reconnects. | iPhone, Android | ≤1.1.2 | traveling, lectures, conferences | /audio-transcription |
 | export | Export and share | Share a transcript or summary as plain text, a link, a PDF, an email, or a ready prompt to paste into an AI chat. | iPhone, Android | ≤1.1.2 | meetings, lectures, doctor-appointments | /ai-summary |
 | library | Saved recordings and search | Recordings are saved with their audio in a searchable library, synced to your account. | iPhone, Android | ≤1.1.2 | lectures, meetings | /audio-transcription |
+| voice-recognition | Recognize voices | Save the voices of people you talk to often (record about 20 seconds of their talking, or choose a file); captions then show their names instead of "Speaker 2", live and in saved recordings. Voices are made and kept on the phone. The app can also ask who an unknown speaker is, and every answer improves recognition. Free plan: your own voice plus 1 other person; Plus: more people. Found in Settings under Captions, Recognize voices; it works with Separate Speakers turned on. Saving a voice needs about 20 seconds of actual speech; the voice engine downloads once on first use. Tap a speaker's tag in a saved recording to say who it is. Names also show in exports and AI actions. | iPhone | 1.1.3 | group-settings, meetings, everyday-conversations, doctor-appointments | /live-captions |
+| language-flags | Language flags on speaker tags | Every speaker tag shows the flag of the language being spoken, live and in recordings. Tap the flag in a saved recording to set the right language and write it again. | iPhone | 1.1.3 | traveling, group-settings, conferences | /live-captions |
+| folders | Folders | Sort saved recordings into folders (a grid on the Folders tab). When a recording is saved the app can suggest a folder and asks first; nothing moves without your yes. A folder can record, translate or upload straight into itself. | iPhone | 1.1.3 | lectures, meetings, conferences | /audio-transcription |
+| shared-folders | Shared folders | Invite people to a folder with a link or code; everyone in it sees every recording in it and can add their own. Only the person who made a recording can change it. Leaving a folder takes your recordings out of it. | iPhone | 1.1.3 | meetings, group-settings, conferences, lectures | /audio-transcription |
 
 "Since" is the first live version known to have the feature; everything already in 1.1.2 is marked ≤1.1.2. New rows get the exact version from the release that brought them. Never write "new in version X" unless the release notes say so.
 
 ## Not live yet (never write about these until a live version has them)
-- Folders, AI sorting into folders, and shared folders with other people (merged 2026-10-20, expected in the next update).
-- Recognising speakers by voice and showing their names.
+- Anything in the app's code that the 1.1.3 release notes do not mention (for example the speaker direction waves). Android availability of the 1.1.3 features is not confirmed: write "iPhone" only.
 
 ## Price (state "as of October 2026" and the store when you mention it)
 - Free to download. Free plan: 10 minutes of live captions or transcription a day (shown in the app as 100 credits), and 3 free AI summaries in total.
