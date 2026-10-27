@@ -1734,7 +1734,7 @@
       "id": "what-is-dinner-table-syndrome",
       "category": "explainers",
       "pillar": "basics",
-      "title": "What is dinner table syndrome?",
+      "title": "What is dinner table syndrome, and what helps?",
       "query": "what is dinner table syndrome",
       "angle": "The term from deaf communities for being left out of group conversations: what it is, research on social isolation, what helps (seating, captions, rules for the group).",
       "links": [
@@ -1749,7 +1749,9 @@
         ],
         "languages": []
       },
-      "status": "queued"
+      "status": "published",
+      "slug": "what-is-dinner-table-syndrome",
+      "published": "2026-10-27"
     },
     {
       "id": "what-is-speaker-diarization-how-caption-apps-tell-speakers-apart",
