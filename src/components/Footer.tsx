@@ -61,6 +61,7 @@ export default function Footer() {
               <Link href="/blog" className="text-white font-semibold hover:underline">All articles</Link>
 
               <span className="font-semibold text-white/40 uppercase tracking-widest text-xs mt-6 mb-1">Company</span>
+              <Link href="/organizations" className="text-white/70 hover:text-white transition-colors">For organizations</Link>
               <Link href="/privacy" className="text-white/70 hover:text-white transition-colors">Privacy Policy</Link>
               <Link href="/terms" className="text-white/70 hover:text-white transition-colors">Terms of Service</Link>
             </div>

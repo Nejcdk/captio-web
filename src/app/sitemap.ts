@@ -17,6 +17,7 @@ const UPDATED = {
   useCases: "2026-10-13", // /use-cases/[slug] and /use-cases/[slug]/[language]
   privacy: "2026-10-07",
   terms: "2026-10-07",
+  organizations: "2026-10-27",
 };
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -26,6 +27,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/live-translator`, lastModified: UPDATED.core },
     { url: `${SITE_URL}/audio-transcription`, lastModified: UPDATED.core },
     { url: `${SITE_URL}/ai-summary`, lastModified: UPDATED.core },
+    { url: `${SITE_URL}/organizations`, lastModified: UPDATED.organizations },
     { url: `${SITE_URL}/privacy`, lastModified: UPDATED.privacy },
     { url: `${SITE_URL}/terms`, lastModified: UPDATED.terms },
   ];
