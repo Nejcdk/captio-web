@@ -7,8 +7,9 @@ import FaqAccordion from "@/components/FaqAccordion";
 
 import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbSchema } from "@/lib/schema";
 
-// Captio AI for Organizations: yearly per-person licences, paid by invoice, for
-// universities and employers that pay for captioning on someone's behalf.
+// Captio AI for Organizations: yearly per-person licenses, paid by invoice, for
+// any organization that pays for captioning on someone's behalf. Nejc
+// 2026-10-27: meant for any organization, never "students" or "staff".
 // Prices and the pilot are decided in the app repo: tools/organizations/PLAN.md.
 // Never name the speech provider here (business secret); /privacy lists them.
 
@@ -16,14 +17,14 @@ const PILOT_MAILTO = "mailto:hello@captioai.app?subject=Captio%20AI%20pilot";
 const QUOTE_MAILTO = "mailto:hello@captioai.app?subject=Captio%20AI%20quote";
 
 const DESCRIPTION =
-  "Yearly Captio AI licences for deaf and hard of hearing students and staff, paid by invoice. Live captions on their own phone, in 60+ languages. Free 30-day pilot.";
+  "Yearly Captio AI licenses for the deaf and hard of hearing people in your organization, paid by invoice. Live captions on their own phone, in 60+ languages. Free 30-day pilot.";
 
 export const metadata: Metadata = {
-  title: "Live Captions for Universities and Employers",
+  title: "Live Captions for Organizations",
   description: DESCRIPTION,
   alternates: { canonical: "/organizations" },
   openGraph: {
-    title: "Live Captions for Universities and Employers | Captio AI",
+    title: "Live Captions for Organizations | Captio AI",
     description: DESCRIPTION,
     url: "/organizations",
     type: "website",
@@ -47,7 +48,7 @@ const included = [
 
 const personGets = [
   { title: "Unlimited live captions", description: "Speech turns into text on their own phone while the person is still speaking, in person, wherever they need captions." },
-  { title: "Live translation", description: "Captions in their own language while someone speaks another, for students and staff working in a second language." },
+  { title: "Live translation", description: "Captions in their own language while someone speaks another, for people working in a second language." },
   { title: "60+ languages", description: "Including people who switch languages mid-sentence, with regional accents and dialects." },
   { title: "Knows who is talking", description: "Each speaker gets their own label, and people they name once are recognised by voice." },
   { title: "Saved, searchable transcripts", description: "Keep a session, find a word in it later, and get an AI summary of it." },
@@ -55,9 +56,9 @@ const personGets = [
 ];
 
 const pilotSteps = [
-  { number: "1", title: "Tell us you'd like a pilot", description: "Email hello@captioai.app with your organisation's name. Up to 5 people, for 30 days, free." },
+  { number: "1", title: "Tell us you'd like a pilot", description: "Email hello@captioai.app with your organization's name. Up to 5 people, for 30 days, free." },
   { number: "2", title: "They download Captio AI and sign in", description: "On iPhone or Android. Each person then emails us from the address shown at the top of the app's Settings." },
-  { number: "3", title: "We unlock the full version", description: "Usually the same day. Your organisation shares no personal data with us, so a pilot needs no paperwork." },
+  { number: "3", title: "We unlock the full version", description: "Usually the same day. Your organization shares no personal data with us, so a pilot needs no paperwork." },
 ];
 
 const dataFacts = [
@@ -65,14 +66,14 @@ const dataFacts = [
   { title: "Audio is not kept on our servers", description: "Speech is processed in real time to make the captions. The audio of recordings people save stays on their own phone." },
   { title: "Never used to train AI", description: "No content is sold, shared for advertising, or used to train AI models, by us or by any provider we use." },
   { title: "Every processor is listed", description: "Our privacy policy names every company that processes data and what for. Transfers outside the UK and EEA are covered by Standard Contractual Clauses." },
-  { title: "A data processing agreement", description: "We sign one with your organisation for paid licences, when you send us the names or emails of the people to unlock." },
+  { title: "A data processing agreement", description: "We sign one with your organization for paid licenses, when you send us the names or emails of the people to unlock." },
   { title: "Deletion", description: "Anyone can delete their account and recordings in the app, at any time." },
 ];
 
 const faqs = [
   {
     q: "Who is Captio AI for Organizations for?",
-    a: "Universities, colleges, schools and employers that pay for captioning on behalf of deaf and hard of hearing students or staff. Each person gets Captio AI Plus on their own phone for a year, and the organisation pays one invoice.",
+    a: "Any organization that pays for captioning on behalf of deaf and hard of hearing people. Each person gets Captio AI Plus on their own phone for a year, and the organization pays one invoice.",
   },
   {
     q: "How much does it cost?",
@@ -87,12 +88,12 @@ const faqs = [
     a: "Yes. A free 30-day pilot for up to 5 people. Nothing to pay and nothing to sign. Email hello@captioai.app to start.",
   },
   {
-    q: "Do the students or staff need to pay or set anything up?",
+    q: "Do the people using it need to pay or set anything up?",
     a: "No. They download Captio AI for free on iPhone or Android, sign in, and we unlock the full version for them. Your IT team doesn't need to install anything.",
   },
   {
     q: "What happens after 12 months?",
-    a: "We send a renewal quote a month before the licences end. Nothing renews or charges automatically.",
+    a: "We send a renewal quote a month before the licenses end. Nothing renews or charges automatically.",
   },
   {
     q: "Does it replace a human captioner or note-taker?",
@@ -104,7 +105,7 @@ const faqs = [
   },
   {
     q: "Can one person buy Captio AI Plus themselves?",
-    a: "Yes, inside the app. Organisation licences are for when someone else pays: a university, a college, a school or an employer.",
+    a: "Yes, inside the app. Organization licenses are for when an organization pays on someone's behalf.",
   },
 ];
 
@@ -177,14 +178,14 @@ export default function OrganizationsPage() {
         {/* ── Hero ── */}
         <section className="pt-2 pb-12 sm:pt-4 sm:pb-16 px-5 bg-white">
           <div className="max-w-3xl mx-auto flex flex-col items-center text-center gap-4 sm:gap-6">
-            <span className="text-[11px] font-bold text-brand uppercase tracking-widest">🎓 For universities and employers</span>
+            <span className="text-[11px] font-bold text-brand uppercase tracking-widest">🏢 For organizations</span>
             <h1 className="text-[2.2rem] leading-[1.15] sm:text-[3.4rem] font-bold text-gray-900 tracking-tight">
-              Live captions for your{" "}
+              Live captions for the{" "}
               <span className="underline decoration-brand decoration-4 underline-offset-4">deaf and hard of hearing</span>{" "}
-              students and staff
+              people in your organization
             </h1>
             <p className="text-base sm:text-lg text-gray-500 max-w-xl leading-relaxed">
-              Captio AI on their own phone, in person, wherever they need captions. One yearly licence per person, paid by invoice.
+              Captio AI on their own phone, in person, wherever they need captions. One yearly license per person, paid by invoice.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
               <MailButton href={PILOT_MAILTO}>Start a free pilot</MailButton>
@@ -305,9 +306,9 @@ export default function OrganizationsPage() {
         <section className="pt-4 pb-20 px-6 bg-white">
           <div className="max-w-4xl mx-auto bg-brand rounded-xl px-6 py-10 sm:px-12 sm:py-12 flex flex-col items-center text-center gap-4">
             <span className="text-xs font-bold text-cta uppercase tracking-widest">Free pilot</span>
-            <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight">Try it with your students or staff</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight">Try it free for 30 days</h2>
             <p className="text-blue-100 max-w-lg">
-              30 days, up to 5 people, nothing to pay. Questions first? Write to hello@captioai.app.
+              Up to 5 people, nothing to pay. Questions first? Write to hello@captioai.app.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 mt-2 w-full sm:w-auto">
               <MailButton href={PILOT_MAILTO}>Start a free pilot</MailButton>
