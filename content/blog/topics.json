@@ -3010,8 +3010,9 @@
           "english"
         ]
       },
-      "status": "queued",
-      "priority": true
+      "status": "published",
+      "slug": "what-is-speaker-diarization-in-captions",
+      "published": "2026-10-27"
     },
     {
       "id": "how-to-organize-and-share-meeting-transcripts-in-folders",
