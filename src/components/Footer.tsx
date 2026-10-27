@@ -16,6 +16,25 @@ export default function Footer() {
             <p className="mt-3 text-sm text-white/60 max-w-xs leading-relaxed">
               Live captions and productivity tool for deaf and HoH people.
             </p>
+
+            {/* Product Hunt's embed card, rebuilt in Tailwind with the app icon served from here. */}
+            <div className="mt-6 max-w-xs rounded-xl bg-white p-4 shadow-sm">
+              <div className="flex items-center gap-3">
+                <Image src="/app_icon.png" alt="Captio AI" width={48} height={48} className="rounded-lg shrink-0" />
+                <div className="min-w-0">
+                  <p className="font-semibold text-[#1a1a1a] leading-tight">Captio AI</p>
+                  <p className="mt-1 text-xs text-[#666] leading-snug line-clamp-2">Live Captions &amp; Transcription for Deaf and Hard of Hearing</p>
+                </div>
+              </div>
+              <a
+                href="https://www.producthunt.com/products/captio-ai?embed=true&utm_source=embed&utm_medium=post_embed"
+                target="_blank"
+                rel="noopener"
+                className="mt-3 inline-flex items-center rounded-full bg-[#FF6154] px-4 py-2 text-sm font-semibold text-white hover:bg-[#e8564a] transition-colors"
+              >
+                Check it out on Product Hunt →
+              </a>
+            </div>
           </div>
 
           <div className="flex flex-wrap gap-12 text-sm">
