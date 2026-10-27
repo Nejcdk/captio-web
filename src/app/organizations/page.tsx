@@ -40,8 +40,9 @@ const included = [
   "Captio AI Plus for each person, for 12 months",
   "A setup call, if you'd like one",
   "Email support straight from the founder",
-  "A quote, a purchase order process and an invoice (bank transfer)",
-  "A data processing agreement for your data protection team",
+  "A quote, your purchase order, an invoice",
+  "A data processing agreement",
+  "No minimum, no setup fee, no auto-renewal",
 ];
 
 const personGets = [
@@ -119,18 +120,42 @@ const schemaOrg = jsonLd(
   ]),
 );
 
-function MailButton({ href, children, light = false }: { href: string; children: React.ReactNode; light?: boolean }) {
+type ButtonKind = "primary" | "outline" | "white" | "outlineWhite";
+
+const BUTTON: Record<ButtonKind, string> = {
+  primary: "bg-cta text-white hover:bg-cta-dark",
+  outline: "bg-white text-brand border border-brand hover:bg-brand-light",
+  white: "bg-white text-brand hover:bg-white/90",
+  outlineWhite: "text-white border border-white/50 hover:bg-white/10",
+};
+
+// Same shape as every other button on the site: 8px corners, semibold.
+function MailButton({ href, children, kind = "primary" }: { href: string; children: React.ReactNode; kind?: ButtonKind }) {
   return (
     <a
       href={href}
-      className={
-        light
-          ? "inline-flex items-center justify-center rounded-2xl bg-white px-6 py-3.5 text-base font-semibold text-brand hover:bg-brand-light transition-colors"
-          : "inline-flex items-center justify-center rounded-2xl bg-brand px-6 py-3.5 text-base font-semibold text-white hover:bg-brand-dark transition-colors"
-      }
+      className={`inline-flex items-center justify-center gap-2 rounded-[8px] px-6 py-3.5 text-base font-semibold transition-colors ${BUTTON[kind]}`}
     >
       {children}
     </a>
+  );
+}
+
+function Check({ className = "text-brand" }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" aria-hidden className={`w-4 h-4 shrink-0 mt-0.5 ${className}`}>
+      <path d="M20 6 9 17l-5-5" />
+    </svg>
+  );
+}
+
+function SectionTitle({ eyebrow, title, subtitle, onBlue = false }: { eyebrow: string; title: string; subtitle?: string; onBlue?: boolean }) {
+  return (
+    <div className="text-center mb-8">
+      <span className="text-xs font-bold text-cta uppercase tracking-widest">{eyebrow}</span>
+      <h2 className={`text-3xl font-bold tracking-tight mt-3 ${onBlue ? "text-white" : "text-gray-900"}`}>{title}</h2>
+      {subtitle && <p className={`mt-3 max-w-xl mx-auto ${onBlue ? "text-blue-100" : "text-gray-500"}`}>{subtitle}</p>}
+    </div>
   );
 }
 
@@ -150,75 +175,66 @@ export default function OrganizationsPage() {
         </div>
 
         {/* ── Hero ── */}
-        <section className="pt-2 pb-10 sm:pt-4 px-5 bg-white">
-          <div className="max-w-3xl mx-auto flex flex-col items-center text-center gap-5">
-            <h1 className="text-[2.2rem] leading-[1.15] sm:text-5xl font-bold text-gray-900 tracking-tight">
-              Live captions for your deaf and hard of hearing students and staff
+        <section className="pt-2 pb-12 sm:pt-4 sm:pb-16 px-5 bg-white">
+          <div className="max-w-3xl mx-auto flex flex-col items-center text-center gap-4 sm:gap-6">
+            <span className="text-[11px] font-bold text-brand uppercase tracking-widest">🎓 For universities and employers</span>
+            <h1 className="text-[2.2rem] leading-[1.15] sm:text-[3.4rem] font-bold text-gray-900 tracking-tight">
+              Live captions for your{" "}
+              <span className="underline decoration-brand decoration-4 underline-offset-4">deaf and hard of hearing</span>{" "}
+              students and staff
             </h1>
-            <p className="text-base sm:text-lg text-gray-500 leading-relaxed max-w-2xl">
-              Captio AI on their own phone, in person, wherever they need captions. One yearly licence per person,
-              paid by invoice. Try it free for 30 days.
+            <p className="text-base sm:text-lg text-gray-500 max-w-xl leading-relaxed">
+              Captio AI on their own phone, in person, wherever they need captions. One yearly licence per person, paid by invoice.
             </p>
-            <div className="flex flex-col sm:flex-row gap-3 mt-2">
+            <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
               <MailButton href={PILOT_MAILTO}>Start a free pilot</MailButton>
-              <a
-                href={QUOTE_MAILTO}
-                className="inline-flex items-center justify-center rounded-2xl border border-gray-200 px-6 py-3.5 text-base font-semibold text-gray-900 hover:bg-gray-50 transition-colors"
-              >
-                Ask for a quote
-              </a>
+              <MailButton href={QUOTE_MAILTO} kind="outline">Ask for a quote</MailButton>
             </div>
+            <p className="text-xs text-gray-400">Free for 30 days, up to 5 people. Nothing to pay, nothing to sign.</p>
           </div>
         </section>
 
         {/* ── Pricing ── */}
-        <section className="py-10 px-6 bg-gray-50">
+        <section className="py-12 px-6 bg-gray-50">
           <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-8">
-              <span className="text-xs font-bold text-cta uppercase tracking-widest">Pricing</span>
-              <h2 className="text-3xl font-bold text-gray-900 tracking-tight mt-3">Per person, per year</h2>
+            <SectionTitle eyebrow="Pricing" title="One price per person, per year" subtitle="Paid by invoice and bank transfer. Prices exclude VAT where it applies." />
+            <div className="grid sm:grid-cols-2 gap-5">
+              <div className="bg-brand rounded-xl p-8 flex flex-col gap-1">
+                <span className="text-xs font-bold text-cta uppercase tracking-wide">{plans[0].people}</span>
+                <span className="text-5xl font-bold text-white tracking-tight mt-3">{plans[0].gbp}</span>
+                <span className="text-sm text-white/80 mt-1">per person per year</span>
+                <span className="text-sm text-white/60">{plans[0].eur} or {plans[0].usd}</span>
+              </div>
+              <div className="bg-white rounded-xl p-8 flex flex-col gap-1 border-2 border-brand">
+                <span className="text-xs font-bold text-brand uppercase tracking-wide">{plans[1].people}</span>
+                <span className="text-5xl font-bold text-gray-900 tracking-tight mt-3">{plans[1].gbp}</span>
+                <span className="text-sm text-gray-600 mt-1">per person per year</span>
+                <span className="text-sm text-gray-400">{plans[1].eur} or {plans[1].usd}</span>
+              </div>
             </div>
-            <div className="grid sm:grid-cols-2 gap-4">
-              {plans.map((p) => (
-                <div key={p.people} className="bg-white rounded-2xl p-6 border border-gray-100 flex flex-col gap-2">
-                  <span className="text-sm font-semibold text-gray-500">{p.people}</span>
-                  <span className="text-4xl font-bold text-gray-900 tracking-tight">{p.gbp}</span>
-                  <span className="text-sm text-gray-500">
-                    {p.eur} or {p.usd}, per person per year
-                  </span>
-                </div>
-              ))}
-            </div>
-            <div className="bg-white rounded-2xl p-6 border border-gray-100 mt-4">
-              <h3 className="font-bold text-gray-900 mb-3">Included</h3>
-              <ul className="flex flex-col gap-2">
+            <div className="bg-white rounded-xl border border-gray-200 p-6 sm:p-8 mt-5">
+              <h3 className="font-bold text-gray-900 mb-4">Included</h3>
+              <ul className="grid sm:grid-cols-2 gap-x-8 gap-y-3">
                 {included.map((item) => (
-                  <li key={item} className="text-sm text-gray-600 leading-relaxed">
-                    ✅ {item}
+                  <li key={item} className="flex items-start gap-2.5 text-sm text-gray-600 leading-relaxed">
+                    <Check />
+                    {item}
                   </li>
                 ))}
               </ul>
             </div>
-            <p className="text-xs text-gray-400 text-center mt-4">
-              No minimum, no setup fee, nothing renews automatically. Prices exclude VAT where it applies.
-            </p>
           </div>
         </section>
 
         {/* ── Pilot ── */}
-        <section className="py-10 px-6 bg-white">
-          <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-10">
-              <span className="text-xs font-bold text-cta uppercase tracking-widest">Free pilot</span>
-              <h2 className="text-3xl font-bold text-gray-900 tracking-tight mt-3">30 days, up to 5 people</h2>
-            </div>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+        <section className="py-12 px-6 bg-white">
+          <div className="max-w-5xl mx-auto">
+            <SectionTitle eyebrow="Free pilot" title="Try it for 30 days with up to 5 people" />
+            <div className="grid sm:grid-cols-3 gap-5">
               {pilotSteps.map((s) => (
-                <div key={s.number} className="bg-gray-50 rounded-2xl p-5 border border-gray-100 flex flex-col gap-2">
-                  <div className="flex items-center gap-2">
-                    <span className="text-sm font-bold text-brand">{s.number}.</span>
-                    <h3 className="font-bold text-gray-900 text-base leading-snug">{s.title}</h3>
-                  </div>
+                <div key={s.number} className="bg-white rounded-xl border border-gray-200 p-6 flex flex-col gap-3">
+                  <span className="w-9 h-9 rounded-[8px] bg-brand-light text-brand font-bold flex items-center justify-center">{s.number}</span>
+                  <h3 className="font-bold text-gray-900 leading-snug">{s.title}</h3>
                   <p className="text-sm text-gray-500 leading-relaxed">{s.description}</p>
                 </div>
               ))}
@@ -230,16 +246,16 @@ export default function OrganizationsPage() {
         </section>
 
         {/* ── What each person gets ── */}
-        <section className="py-10 px-6 bg-white">
+        <section className="py-12 px-6 bg-gray-50">
           <div className="max-w-5xl mx-auto">
-            <div className="text-center mb-8">
-              <span className="text-xs font-bold text-cta uppercase tracking-widest">What each person gets</span>
-              <h2 className="text-3xl font-bold text-gray-900 tracking-tight mt-3">Everything in Captio AI Plus</h2>
-            </div>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <SectionTitle eyebrow="What each person gets" title="Everything in Captio AI Plus" />
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
               {personGets.map((f) => (
-                <div key={f.title} className="bg-gray-50 rounded-2xl p-5 flex flex-col gap-2 border border-gray-100">
-                  <h3 className="font-bold text-gray-900 text-base leading-snug">{f.title}</h3>
+                <div key={f.title} className="bg-white rounded-xl border border-gray-200 p-6 flex flex-col gap-2">
+                  <h3 className="font-bold text-gray-900 leading-snug flex items-start gap-2.5">
+                    <Check />
+                    {f.title}
+                  </h3>
                   <p className="text-sm text-gray-500 leading-relaxed">{f.description}</p>
                 </div>
               ))}
@@ -252,54 +268,51 @@ export default function OrganizationsPage() {
         </section>
 
         {/* ── Data protection ── */}
-        <section id="data" className="py-10 px-6 bg-brand">
+        <section id="data" className="py-12 px-6 bg-brand">
           <div className="max-w-5xl mx-auto">
-            <div className="text-center mb-8">
-              <span className="text-xs font-bold text-cta uppercase tracking-widest">For your data protection team</span>
-              <h2 className="text-3xl font-bold text-white tracking-tight mt-3">How data is handled</h2>
-            </div>
+            <SectionTitle eyebrow="For your data protection team" title="How data is handled" onBlue />
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {dataFacts.map((d) => (
-                <div key={d.title} className="bg-white/10 rounded-2xl p-5 border border-white/20">
+                <div key={d.title} className="bg-white/10 rounded-xl p-6 border border-white/20">
                   <h3 className="font-semibold text-white mb-1">{d.title}</h3>
                   <p className="text-sm text-blue-100 leading-relaxed">{d.description}</p>
                 </div>
               ))}
             </div>
             <div className="flex flex-col sm:flex-row gap-3 justify-center mt-8">
+              <MailButton href="mailto:hello@captioai.app?subject=Captio%20AI%20data%20processing%20agreement" kind="white">
+                Ask for the data processing agreement
+              </MailButton>
               <Link
                 href="/privacy"
-                className="inline-flex items-center justify-center rounded-2xl border border-white/40 px-6 py-3.5 text-base font-semibold text-white hover:bg-white/10 transition-colors"
+                className="inline-flex items-center justify-center rounded-[8px] px-6 py-3.5 text-base font-semibold text-white border border-white/50 hover:bg-white/10 transition-colors"
               >
                 Read the privacy policy
               </Link>
-              <MailButton href="mailto:hello@captioai.app?subject=Captio%20AI%20data%20processing%20agreement" light>
-                Ask for the data processing agreement
-              </MailButton>
             </div>
           </div>
         </section>
 
         {/* ── FAQ ── */}
-        <section className="py-10 px-6 bg-gray-50">
+        <section className="py-12 px-6 bg-white">
           <div className="max-w-3xl mx-auto">
-            <div className="text-center mb-7">
-              <span className="text-xs font-bold text-cta uppercase tracking-widest">FAQ</span>
-              <h2 className="text-3xl font-bold text-gray-900 tracking-tight mt-3">Frequently asked questions</h2>
-            </div>
+            <SectionTitle eyebrow="FAQ" title="Frequently asked questions" />
             <FaqAccordion faqs={faqs} />
           </div>
         </section>
 
         {/* ── CTA ── */}
-        <section className="pt-10 pb-20 px-6 bg-gray-50">
-          <div className="max-w-2xl mx-auto flex flex-col items-center gap-5 text-center">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 tracking-tight">Try it with your people</h2>
-            <p className="text-base text-gray-500 leading-relaxed">
-              Free for 30 days, up to 5 people. Questions first? Write to{" "}
-              <a href="mailto:hello@captioai.app" className="text-brand font-semibold hover:underline">hello@captioai.app</a>.
+        <section className="pt-4 pb-20 px-6 bg-white">
+          <div className="max-w-4xl mx-auto bg-brand rounded-xl px-6 py-10 sm:px-12 sm:py-12 flex flex-col items-center text-center gap-4">
+            <span className="text-xs font-bold text-cta uppercase tracking-widest">Free pilot</span>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight">Try it with your students or staff</h2>
+            <p className="text-blue-100 max-w-lg">
+              30 days, up to 5 people, nothing to pay. Questions first? Write to hello@captioai.app.
             </p>
-            <MailButton href={PILOT_MAILTO}>Start a free pilot</MailButton>
+            <div className="flex flex-col sm:flex-row gap-3 mt-2 w-full sm:w-auto">
+              <MailButton href={PILOT_MAILTO}>Start a free pilot</MailButton>
+              <MailButton href={QUOTE_MAILTO} kind="outlineWhite">Ask for a quote</MailButton>
+            </div>
           </div>
         </section>
       </main>
