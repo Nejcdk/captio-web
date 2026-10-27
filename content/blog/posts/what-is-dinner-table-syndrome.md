@@ -15,7 +15,7 @@ keyFacts:
     label: "of deaf children in the US are born to hearing parents"
     source: 4
   - value: "54%"
-    label: "of people who are deaf or have hearing loss have been told 'it doesn't matter' after asking for a repeat, RNID reported in 2025, after its 2024 survey of 5,383 people"
+    label: "of people who are deaf or have hearing loss have been told 'it doesn't matter' after asking for a repeat, RNID reported in 2025"
     source: 11
 faqs:
   - q: "Is dinner table syndrome a medical condition?"
@@ -113,7 +113,7 @@ The experience is familiar enough to have its own book. I'll Tell You Later: Dea
 
 Dinner table syndrome grew out of the experience of deaf children in hearing families [1] [2], and adults with hearing loss describe the same problem in groups [8] [9].
 
-Deaf children in hearing families are the group the term grew out of. In the US, "more than 90% of deaf children are born to hearing parents," according to the National Institute on Deafness and Other Communication Disorders (NIDCD) [4]. Many of those families do not sign at home: a 2022 study in Applied Linguistics Review cites a Gallaudet Research Institute report for 2013 to 2014 in which only 22.9% of families with deaf children regularly signed at home [5].
+In the US, "more than 90% of deaf children are born to hearing parents," according to the National Institute on Deafness and Other Communication Disorders (NIDCD) [4]. Many of those families do not sign at home: a 2022 study in Applied Linguistics Review cites a Gallaudet Research Institute report for 2013 to 2014 in which only 22.9% of families with deaf children regularly signed at home [5].
 
 Adults with hearing loss meet the same problem at the table, at work and with friends. In the US, about 15% of adults, 37.5 million people, report some trouble hearing, according to the NIDCD [4]. In the UK, RNID estimates that more than 18 million people are deaf, have hearing loss or have tinnitus, one in three people [6]. Worldwide, the World Health Organization (WHO) estimates that 430 million people, over 5% of the world's population, need rehabilitation for disabling hearing loss [7]. The NIDCD's own checklist for older adults asks: "Does a hearing problem cause you to feel left out when you are with a group of people?" [8]
 

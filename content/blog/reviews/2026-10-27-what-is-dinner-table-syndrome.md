@@ -67,3 +67,53 @@ Risk to the site: low once fixed; as written it misuses a video-call tip as in-p
 7. KeyFact 54%: the research behind it is RNID's 2024 "It Does Matter" survey of 5,383 people who are deaf or have hearing loss in the UK; the 2025 page reports it. Change "(UK, 2025)" to e.g. "in an RNID survey of 5,383 people in the UK (2024)" and cite the report or keep [11] with "reported 2025".
 8. WHO [7]: change "over 430 million people" to "430 million people (over 5% of the world's population)".
 9. Minor wording (fix in the same pass): "no tall centerpieces" to "no large centerpieces that block faces"; FAQ 2 "HLAA's tips for family gatherings cover seating, lighting and noise for exactly these settings" to "for gatherings like these" (the HLAA page does not cover restaurants).
+
+---
+
+# Round 2
+Verdict: PASS (round 2)
+Date: 2026-10-27
+
+## A. Truth (changed and affected claims, sources opened again)
+| # | Claim | Source | Evidence (quote) | Verdict |
+|---|---|---|---|---|
+| 28 | Help table "Any group conversation: take turns to talk; keep faces out of shadow and strong light out of the person's eyes"; FAQs 4 and 5 (Hearing Dogs, a UK charity, advises taking turns when more than one person is in the conversation) | [14] Hearing Dogs for Deaf People, "7 top tips for communicating with deaf people" (undated page, read 2026-10-27) | "Take turns. If there is more than one person in the conversation, take turns to talk."; "Make sure your face is not in shadow and that there are no strong lights or sunshine in their eyes." The tips are for in-person talk ("Stand a metre or two away from the person"); no phone or video-call context | SUPPORTED (round 1 fix 1 done; the caption-accuracy claim is gone) |
+| 29 | Hearing Dogs says many deaf people hear "it doesn't matter" as "you don't matter" | [14] | "So many deaf people have told us that when someone says 'Oh, don't worry. It doesn't matter' it feels like they mean 'You don't matter.'" | SUPPORTED |
+| 30 | RNID surveyed 5,383 people who are deaf or have hearing loss in 2024; over half said people tell them "it doesn't matter" and change the topic when they struggle to follow | [16] RNID, Harriet Oppenheimer, 6 May 2024 | "we surveyed 5,383 people who are deaf or have hearing loss and 2,768 members of the general public"; "over half report that people tell them 'It doesn't matter' and change the topic when they're struggling to understand what is being said" | SUPPORTED |
+| 31 | "In September 2025 RNID put the figure at 54%"; keyFact "54% ... RNID reported in 2025, after its 2024 survey of 5,383 people" | [11] (and [16]) | [11], 17 Sep 2025: "Over half (54%) of people who are deaf or have hearing loss have been told 'it doesn't matter…' by someone when they asked them to repeat something they missed." The 2024 report already gave 54% for the same survey, so "put the figure at" is accurate | SUPPORTED. Non-blocking: the keyFact cites only [11], which does not state 5,383 (that is in [16]) |
+| 32 | Overlapping speech is a known weak point for software that separates speakers | link to `/blog/what-is-speaker-diarization-in-captions` | that article: "overlap remains a known weak point", overlapped-speech error 10.76% [2 there] | SUPPORTED (via the reviewed sibling article) |
+| 33 | Holman table row and body: fatigue described most often in work and social situations; group conversations, participants would stop engaging in listening; one participant's quote now labelled as one participant | [9] | "Descriptions of fatigue were most common in work and social situations."; "In conversational situations, particularly group conversations, participants would stop engaging in listening." | SUPPORTED (round 1 fix 3 done) |
+| 34 | ASDC: first suggestion is to involve the child; interpreter or qualified speech-to-text service; phone app when professional services are not feasible; new help-table row with link to CART article | [13] | first tip "Involve them"; "Hire a professional: Hire an interpreter or use a qualified speech-to-text service"; "If professional services are not feasible, look for other options, such as downloading a phone app that transcribes speech" | SUPPORTED (round 1 fix 4 done) |
+| 35 | "grew out of the experience of deaf children in hearing families [1] [2], and adults with hearing loss describe the same problem in groups [8] [9]" | [1] [2] [8] [9] | [1] parental hearing status and DTS; [2] deaf children in hearing non-signing homes; [8] "feel left out when you are with a group of people"; [9] fatigue in group conversations | SUPPORTED (round 1 fix 5 done) |
+| 36 | "a 2022 study in Applied Linguistics Review cites a Gallaudet Research Institute report for 2013 to 2014 in which only 22.9% of families with deaf children regularly signed at home"; FAQ 3 the same; source year 2022 | [5] | "Appl Linguist Rev. 2022 May 23"; "the Gallaudet Research Institute report from 2013 to 2014 ... states that only 22.9% of families with deaf children regularly sign at home" | SUPPORTED (round 1 fix 6 done) |
+| 37 | WHO: "430 million people, over 5% of the world's population, need rehabilitation for disabling hearing loss" | [7] | "Over 5% of the world's population, or 430 million people, require rehabilitation to address their disabling hearing loss" | SUPPORTED (round 1 fix 8 done) |
+| 38 | "no large centerpieces that block faces"; FAQ 2 "for gatherings like these" | [12] | "Skip large centerpieces that block faces and visual clues" | SUPPORTED (round 1 fix 9 done) |
+| 39 | Captio AI sentences (unchanged) | CAPTIO_FACTS | live-captions, speaker-labels, voice-recognition (iPhone, 1.1.3), internet needed | SUPPORTED |
+
+Sources: [14] (a UK deaf charity's own advice page) and [16] (RNID's own page on its survey) are primary for what they are cited for. Years correct ([5] now 2022; [14] undated page, 2026 = read date, same as HLAA). No social proof, no medical or legal advice, no competitor claims.
+
+## B. Works
+- blog:check: pass (1796 words, 8 sections, 16 sources, 6 FAQs, 8 internal links, no warnings)
+- build: pass (coordinator ran it after the round 1 fixes)
+- page checks, on the live site https://captioai.app (the round 2 text is already deployed): article 200; `<h1>` = title; round 2 text present (Hearing Dogs, 5,383, "Involve the child", "a 2022 study", the WHO wording, the speech-to-text service row); JSON-LD parses with BlogPosting, FAQPage (6 questions), BreadcrumbList; listed in `/blog`, `/blog/rss.xml`, `/llms.txt`, `/sitemap.xml`; opengraph-image 200 image/png; all 7 internal link targets 200, including the new `/blog/what-is-cart-captioning` and `/blog/what-is-speaker-diarization-in-captions`; source [14] URL 200.
+- browser: round 1 result stands (only text changed and one 3-column table row was added; that table scrolls in its own box).
+
+## C. Value
+| Criterion | Score | Evidence |
+|---|---|---|
+| Answers the question | 5 | Unchanged: the Short answer defines the term with the 80.6% US figure and what helps. |
+| Information gain | 5 | The research table (80.6% vs 19.0%, 17.6x, fatigue study, isolation review, RNID's 5,383-person survey) is still on none of the top 5 results (ASDC, Miracle-Ear, ASL Deafined, Lipspeaker UK, Glasgow 404). |
+| Trust | 5 | Every tip now comes from advice for in-person talk, one participant's quote is labelled as one participant, and ASDC's order (professional services before apps) is reported fairly. |
+| Specificity | 4 | Dated numbers, US and UK named, sample sizes now given; one or two editorial lines ("What helps most is...") remain general. |
+| Quotable structure | 5 | Question headings, answer-first sections, two tables, FAQ on the real follow-ups. |
+| Use cases and languages named | 4 | Family dinner, restaurant, holiday gathering, family event and group settings each named and in table rows; 4 of 6 FAQs name a use case or country; no languages (none in the topic). |
+| Fit with the site | 5 | 8 relevant internal links, including CART and the diarization explainer, and a natural route to group settings and Live Captions without forcing it. |
+| Reader value | 5 | A family or a hard of hearing adult can act on the situation table today, and it now names interpreters and CART as well as apps. |
+Average 4.75.
+Information gain: compiled research table with sample sizes and a by-situation "what helps" table, neither found in the top 5 results.
+Risk to the site: none.
+
+## Required fixes
+None. Optional polish, not required to pass:
+- KeyFact "54%": its source is [11], which does not state 5,383. Either drop "after its 2024 survey of 5,383 people" from the label (the body already says it with [16]) or leave as is.
+- "Who experiences dinner table syndrome?": the first two paragraphs both say the term "grew out of" deaf children in hearing families; one could go.
