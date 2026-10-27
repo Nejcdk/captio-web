@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
 import BackButton from "@/components/BackButton";
@@ -192,6 +193,14 @@ export default function OrganizationsPage() {
               <MailButton href={QUOTE_MAILTO} kind="outline">Ask for a quote</MailButton>
             </div>
             <p className="text-xs text-gray-400">Free for 30 days, up to 5 people. Nothing to pay, nothing to sign.</p>
+            <Image
+              src="/mockup_app.png"
+              alt="Captio AI showing live captions and a saved transcript with its summary"
+              width={895}
+              height={1024}
+              className="w-[260px] sm:w-[340px] h-auto mx-auto mt-4 sm:mt-6 drop-shadow-2xl"
+              priority
+            />
           </div>
         </section>
 
@@ -248,18 +257,27 @@ export default function OrganizationsPage() {
 
         {/* ── What each person gets ── */}
         <section className="py-12 px-6 bg-gray-50">
-          <div className="max-w-5xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <SectionTitle eyebrow="What each person gets" title="Everything in Captio AI Plus" />
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
-              {personGets.map((f) => (
-                <div key={f.title} className="bg-white rounded-xl border border-gray-200 p-6 flex flex-col gap-2">
-                  <h3 className="font-bold text-gray-900 leading-snug flex items-start gap-2.5">
-                    <Check />
-                    {f.title}
-                  </h3>
-                  <p className="text-sm text-gray-500 leading-relaxed">{f.description}</p>
-                </div>
-              ))}
+            <div className="grid lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] gap-5 items-center">
+              <Image
+                src="/work_mockup.png"
+                alt="Captio AI live captions on a phone, held in one hand"
+                width={1024}
+                height={1024}
+                className="w-full max-w-md lg:max-w-none mx-auto h-auto rounded-xl object-cover"
+              />
+              <div className="grid sm:grid-cols-2 gap-4">
+                {personGets.map((f) => (
+                  <div key={f.title} className="bg-white rounded-xl border border-gray-200 p-5 flex flex-col gap-2">
+                    <h3 className="font-bold text-gray-900 leading-snug flex items-start gap-2.5">
+                      <Check />
+                      {f.title}
+                    </h3>
+                    <p className="text-sm text-gray-500 leading-relaxed">{f.description}</p>
+                  </div>
+                ))}
+              </div>
             </div>
             <p className="text-sm text-gray-500 text-center mt-6">
               More about <Link href="/live-captions" className="text-brand font-semibold hover:underline">live captions</Link> and{" "}
