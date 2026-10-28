@@ -253,17 +253,14 @@ export default function OrganizationsPage() {
                 ))}
               </ul>
             </div>
-            <div className="order-3 lg:order-none relative mx-auto w-full max-w-[210px] sm:max-w-[250px] lg:max-w-[270px] my-2 lg:my-0">
-              <div aria-hidden className="absolute inset-x-[-12%] top-[10%] bottom-[6%] rounded-[32px] bg-brand-light" />
-              <div className="relative">
-                <PhoneVideo name="captions" label="Captio AI showing live captions of two people talking, with a label for each speaker" priority />
-              </div>
+            <div className="order-3 lg:order-none mx-auto w-full max-w-[210px] sm:max-w-[250px] lg:max-w-[270px] my-2 lg:my-0">
+              <PhoneVideo name="captions" label="Captio AI showing live captions of two people talking, with a label for each speaker" priority />
             </div>
           </div>
         </section>
 
         {/* ── What it does ── */}
-        <section id="how" className="py-12 px-6 bg-gray-50 scroll-mt-4">
+        <section id="how" className="pt-4 pb-14 px-6 bg-white scroll-mt-4">
           <div className="max-w-6xl mx-auto">
             <SectionTitle
               eyebrow="How it works"

@@ -6,7 +6,9 @@ import { useEffect, useRef, useSyncExternalStore } from "react";
 // onboarding feature videos, assets/features, re-encoded to 600 px wide in
 // public/organizations). Nothing downloads until it scrolls into view, it
 // pauses when it leaves, and people who asked their device for less motion
-// get the still picture with controls instead of autoplay.
+// get the still picture with controls instead of autoplay. The frames have a
+// white background baked in, so they sit on white: no shadow, no tint behind
+// (Nejc 2026-10-28).
 
 const REDUCED = "(prefers-reduced-motion: reduce)";
 const subscribe = (onChange: () => void) => {
@@ -52,7 +54,7 @@ export function PhoneVideo({ name, label, priority = false }: { name: string; la
       aria-label={label}
       width={600}
       height={1258}
-      className="h-auto w-full select-none drop-shadow-2xl"
+      className="h-auto w-full select-none"
     />
   );
 }
