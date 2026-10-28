@@ -26,6 +26,7 @@ Every app has every row in `ROWS` (`src/lib/compare.ts`). Each fact:
 - `strengths` and `limits`: 2–4 each, one sentence, sourced. Limits are facts ("Android only"), not opinions.
 - `sources[]`: `title`, `publisher`, `url`, `type` (official, help, pricing, privacy, store, press), `opened` (did we read it ourselves), `checked` (date we read it), `quotes` (the exact supporting sentence, kept so anyone can re-check; not shown on the page).
 - `captio-ai.json` is written from `content/blog/CAPTIO_FACTS.md`, with the same rules and its limits included. Update both together.
+- `icon`: the app's own icon from its store listing (App Store, or Google Play for Android-only apps), saved as a 192px PNG in `public/compare/icons/<slug>.png` by `node scripts/compare-icons.mjs` (new apps only; `--all` fetches every icon again, e.g. after an app changes its icon). Features built into the phone have no listing and keep a letter tile. The icon shows on the hero cards, both tables, the comparison cards and the share image.
 
 ### A page (`pages/<slug>.md`)
 Frontmatter only, no Markdown body: the page is a landing page built from these blocks, in this order (hero with the verdict and one card per app, the side-by-side table, key differences, where each one wins, situations, how we compare, FAQ, download, more comparisons, sources). Reference: `pages/captio-ai-vs-live-transcribe.md`.
@@ -85,7 +86,7 @@ Situation icons: doctor, dinner, meeting, lecture, travel, home, phone, offline,
 10. Always "Captio AI", never "Captio". Feature names capitalised: Live Captions, Live Translator, Audio Transcription, AI Summary.
 
 ## Adding a page
-1. Make sure every app on it has a file in `apps/` checked within 90 days (or re-check it).
+1. Make sure every app on it has a file in `apps/` checked within 90 days (or re-check it). For a new app, run `node scripts/compare-icons.mjs` to add its icon.
 2. Write `pages/<slug>.md` as above. `npm run compare:check -- <slug>`; the dev server shows the page at /compare/<slug>.
 3. `npm run build` (the loader validates every citation).
 4. After it's live: `node scripts/indexnow.mjs https://captioai.app/compare/<slug>`.
