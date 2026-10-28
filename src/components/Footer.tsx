@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useCases } from "@/lib/useCases";
 import { getAllPosts } from "@/lib/blog";
+import { FeaturedOnCard } from "@/components/FeaturedOn";
 
 export default function Footer() {
   // Newest articles on every page: readers find them, and crawlers reach a new
@@ -35,6 +36,8 @@ export default function Footer() {
                 Check it out on Product Hunt →
               </a>
             </div>
+
+            <FeaturedOnCard />
           </div>
 
           <div className="flex flex-wrap gap-12 text-sm">

@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { DownloadCard, StoreButtons } from "@/components/StoreButtons";
 import FaqAccordion from "@/components/FaqAccordion";
+import { FeaturedOnLine } from "@/components/FeaturedOn";
 import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
@@ -338,6 +339,7 @@ export default function HomePage() {
             </p>
 
             <DownloadCard id="download" />
+            <FeaturedOnLine />
 
             {/* App mockup */}
             <div className="mt-6 sm:mt-10">
