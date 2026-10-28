@@ -1,0 +1,676 @@
+{
+  "header": {
+    "features": "Mga Feature",
+    "useCases": "Saan Magagamit",
+    "languages": "Mga Wika",
+    "compare": "Ikumpara",
+    "blog": "Blog",
+    "download": "I-download",
+    "toggleMenu": "Buksan o isara ang menu",
+    "chooseLanguage": "Pumili ng wika"
+  },
+  "footer": {
+    "tagline": "Live na caption at productivity tool para sa mga Bingi at mahina ang pandinig.",
+    "productHuntTagline": "Live na Caption at Transcription para sa mga Bingi at Mahina ang Pandinig",
+    "productHunt": "Tingnan ito sa Product Hunt →",
+    "featuredOn": "Itinampok sa",
+    "features": "Mga Feature",
+    "useCases": "Saan Magagamit",
+    "blog": "Blog",
+    "allArticles": "Lahat ng artikulo",
+    "compare": "Ikumpara",
+    "compareApps": "Ikumpara ang mga caption app",
+    "company": "Kumpanya",
+    "organizations": "Para sa mga organisasyon",
+    "privacy": "Patakaran sa Privacy",
+    "terms": "Mga Tuntunin ng Serbisyo"
+  },
+  "store": {
+    "appleOverline": "I-download sa",
+    "googleOverline": "Kunin ito sa",
+    "appleQrAlt": "QR code para i-download ang Captio AI sa App Store para sa iPhone",
+    "googleQrAlt": "QR code para i-download ang Captio AI sa Google Play para sa Android",
+    "downloadForFree": "I-download nang libre"
+  },
+  "common": {
+    "home": "Simula",
+    "back": "Bumalik",
+    "goBack": "Bumalik sa nakaraang pahina",
+    "explore": "Tuklasin",
+    "featuresLabel": "Mga Feature",
+    "howItWorks": "Paano ito gumagana",
+    "privacyLabel": "Pagkapribado",
+    "privacyTitle": "Ang naririnig mo, sa iyo lang.",
+    "privacyImageAlt": "Pribado bilang default — hindi kailanman itinatago ang audio mo sa mga server namin, hindi kailanman ibinebenta, hindi kailanman ginagamit sa training",
+    "faqLabel": "FAQ",
+    "faqTitle": "Mga madalas itanong",
+    "getStarted": "Magsimula",
+    "freeToStart": "Libreng simulan ang Captio AI",
+    "allFeatures": "Kasama sa Captio AI ang Live na Caption, Live na Tagasalin, Pag-transcribe ng Audio, at Buod gamit ang AI.",
+    "featureNames": {
+      "live-captions": "Live na Caption",
+      "live-translator": "Live na Tagasalin",
+      "audio-transcription": "Pag-transcribe ng Audio",
+      "ai-summary": "Buod gamit ang AI"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Captio AI — Live na Caption at Transcription para sa mga Bingi",
+      "description": "Captio AI: live na caption, live na pagsasalin, pag-transcribe ng audio at buod gamit ang AI para sa mga Bingi at mahina ang pandinig, sa phone mo. 60+ wika.",
+      "ogDescription": "Live na caption nang real time, live na pagsasalin, pag-transcribe ng audio, at buod gamit ang AI para sa mga Bingi at mahina ang pandinig. 60+ wika. iPhone at Android.",
+      "schemaDescription": "Live na caption nang real time, live na pagsasalin, pag-transcribe ng audio, at buod gamit ang AI para sa mga Bingi at mahina ang pandinig. 60+ wika."
+    },
+    "eyebrow": "🦻 Aksesibilidad + 💻 Productivity App",
+    "heroTitle": "[Live na caption] at [productivity tool] para sa mga Bingi at mahina ang pandinig.",
+    "heroSubtitle": "Sundan ang kahit anong usapan, meeting, o lecture. Sa kahit anong wika.",
+    "mockupAlt": "Captio AI app na nagpapakita ng live na caption at pagsasalin",
+    "featuresTitle": "Lahat ng kailangan mo para masundan ang kahit anong usapan",
+    "featuresSubtitle": "Apat na tool na ginawa talaga para sa mga Bingi at mahina ang pandinig.",
+    "features": {
+      "live-captions": {
+        "title": "Speech to Text nang Real Time",
+        "bullets": [
+          "Salita por salita, real time",
+          "Gumagana kahit maingay",
+          "Kahit anong accent, kahit gaano kabilis",
+          "Hindi na kailangang magbasa ng labi"
+        ]
+      },
+      "live-translator": {
+        "title": "Isalin ang Kahit Anong Wika nang Real Time",
+        "bullets": [
+          "Nagsasalin habang nagsasalita sila",
+          "Kanya-kanyang wika ang bawat isa",
+          "Kaya kahit magpalit ng wika sa gitna ng pangungusap",
+          "60+ wika"
+        ]
+      },
+      "audio-transcription": {
+        "title": "I-transcribe ang Kahit Anong Audio o Video File",
+        "bullets": [
+          "Kahit anong audio o video file",
+          "Nakaayos ayon sa nagsasalita",
+          "60+ wika",
+          "Basahin, kopyahin, hanapin, i-share"
+        ]
+      },
+      "ai-summary": {
+        "title": "Gawing Maayos na Buod ang mga Transcript",
+        "bullets": [
+          "Mahahalagang punto at desisyon",
+          "Nakalista ang mga dapat gawin",
+          "Gumagana sa kahit anong transcript",
+          "Nakaayos ayon sa seksyon"
+        ]
+      }
+    },
+    "moreFeaturesTitle": "Iba pang feature",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "Mga AI Action",
+        "title": "Mga to-do, notes, at follow-up",
+        "description": "Gawing key points, detalyadong notes, mga to-do, Q&A, o follow-up na mensahe ang kahit anong recording."
+      },
+      "export": {
+        "label": "Pag-export",
+        "title": "Ibahagi sa paraang gusto mo",
+        "description": "Ipadala ang mga caption o buod bilang text, link, PDF, email, o prompt sa AI chat."
+      },
+      "folders": {
+        "label": "Mga Folder",
+        "title": "Mga folder at shared na folder",
+        "description": "Ayusin ang mga recording sa mga folder at ibahagi ang isa sa pamilya, kaklase, o team mo."
+      },
+      "recognize-voices": {
+        "label": "Pagkilala sa Boses",
+        "title": "Mga pangalan, hindi “Speaker 2”",
+        "description": "I-save ang boses ng mga madalas mong kausap at makita ang mga pangalan nila sa mga caption mo."
+      },
+      "speaker-direction": {
+        "label": "Direksyon ng Speaker",
+        "title": "Tingnan kung saan galing ang boses",
+        "description": "Itinuturo ng mga alon sa gilid ng mga caption kung sino ang nagsasalita. Para sa iPhone 16 at mas bago."
+      },
+      "connectors": {
+        "label": "Mga Connector",
+        "title": "Magtanong sa chat app mo",
+        "description": "Magtanong kay Claude, ChatGPT, Gemini, o Perplexity tungkol sa kahit anong recording mo."
+      },
+      "widgets": {
+        "label": "Mga Widget",
+        "title": "Mga caption sa isang tap",
+        "description": "Simulan ang Live na Caption mula sa Home Screen o Lock Screen ng iPhone mo."
+      }
+    },
+    "useCasesLabel": "Saan Magagamit",
+    "useCasesTitle": "Gumagana sa bawat sitwasyon",
+    "useCasesSubtitle": "Ginawa para sa mga totoong sandaling mahalaga — hindi lang sa tahimik at kontroladong lugar.",
+    "useCases": {
+      "everyday-conversations": {
+        "label": "Araw-araw na Usapan",
+        "description": "Karamihan sa usapan ay mabilis, sa karaniwang bilis ng pagsasalita, at walang pasabi. Kina-caption ng Captio AI ang bawat salita habang sinasabi ito, kaya nakakasunod ka nang hindi na kailangang magpaulit kaninuman."
+      },
+      "deaf-hoh-communication": {
+        "label": "Pakikipag-usap sa mga Bingi at Mahina ang Pandinig",
+        "description": "Madalas hindi alam ng mga nakakarinig kung paano mag-adjust kapag kausap ang mga kaibigang Bingi o mahina ang pandinig. Ginagawang real-time na caption ng Captio AI ang sinasabi nila, kaya natural ang usapan para sa magkabilang panig."
+      },
+      "meetings": {
+        "label": "Mga Meeting",
+        "description": "Sa meeting, mabilis ang mga desisyon at nagsasabay-sabay magsalita ang mga tao. Kina-caption ng Captio AI ang bawat nagsasalita habang nagsasalita sila, kaya hindi ka makakaligtaan ng desisyon o tanong na para sa iyo."
+      },
+      "lectures": {
+        "label": "Mga Lecture",
+        "description": "Mabilis magsalita ang mga lecturer, komplikado ang itinuturo, at bihira silang umulit. Binibigyan ka ng Captio AI ng live na transcript ng lahat ng sinabi, kaya nasusundan mo ang aralin sa halip na pilitin mong marinig ito."
+      },
+      "doctor-appointments": {
+        "label": "Pagpapatingin sa Doktor",
+        "description": "Mabilis magsalita ang mga doktor at gumagamit sila ng mga terminong medikal na madaling mamali ng dinig. Ipinapakita ng Captio AI ang lahat ng sinasabi nila nang real time, kaya naiintindihan mo ang diagnosis mo at naitatanong mo ang mga tamang tanong."
+      },
+      "job-interviews": {
+        "label": "Job Interview",
+        "description": "Kapag may na-miss kang tanong sa interview, mali ang masasagot mo o kailangan mong ipaulit ito. Ipinapakita ng Captio AI ang bawat salita ng interviewer, kaya buong-buo kang makakapag-focus sa sagot mo."
+      },
+      "phone-video-calls": {
+        "label": "Tawag sa Phone at Video Call",
+        "description": "Mas mahirap sundan ang tawag sa phone at video call kaysa sa harapang usapan. Walang labing mababasa, at madalas pangit ang audio. Kina-caption ng Captio AI kung sino man ang nagsasalita nang real time, kaya hindi mo na kailangang magpaulit."
+      },
+      "group-settings": {
+        "label": "Usapan sa Grupo",
+        "description": "Sa grupo, sabay-sabay magsalita ang ilang tao at mabilis ang takbo ng usapan. Nakakasabay ang Captio AI kung sino man ang nagsasalita, kaya nakakasunod ka nang hindi nawawala kung saan papunta ang usapan."
+      },
+      "restaurants": {
+        "label": "Restaurant at Café",
+        "description": "Kahit ang mga walang problema sa pandinig ay nahihirapang sumunod sa usapan kapag maingay ang paligid. Nakatuon ang Captio AI sa kung sino ang kumakausap sa iyo, kaya nakakapag-usap kayo nang totoo kahit maingay."
+      },
+      "traveling": {
+        "label": "Pagbibiyahe",
+        "description": "Sa airport, hotel, at mga lungsod na hindi mo kabisado, walang puwang para sa maling dinig. Kina-caption ng Captio AI ang pananalita sa 60+ wika, kaya kumpiyansa kang makakaikot saan ka man pumunta."
+      },
+      "conferences": {
+        "label": "Conference at Event",
+        "description": "Malayo ang mga speaker, hindi mahulaan ang acoustics, at hindi ka makakapagpaulit. Binibigyan ka ng Captio AI ng live na transcript ng bawat speaker, kaya nasusundan mo ang buong event kahit saan ka nakaupo."
+      },
+      "tv-media": {
+        "label": "TV at Media",
+        "description": "Madalas mali, huli, o wala talaga ang built-in na subtitle. Kina-caption ng Captio AI ang kahit anong pinapanood nang real time, kaya hindi ka na umaasa kung may subtitle ba o wala ang palabas."
+      }
+    },
+    "languagesLabel": "Mga Wika",
+    "languagesTitle": "Sinusuportahan ng Captio AI ang 60+ wika",
+    "privacyCards": [
+      {
+        "title": "Hindi napupunta sa mga server namin ang audio",
+        "description": "Ginagawang text ang audio mo nang real time at hindi kailanman itinatago sa mga server namin. Ang mga recording na sine-save mo ay nananatili sa phone mo, at ang mga transcript nila ay nagsi-sync lang sa sarili mong account."
+      },
+      {
+        "title": "Hindi produkto",
+        "description": "Hindi ibinebenta, ibinabahagi, o pinagkakakitaan ng Captio AI ang mga usapan mo — kahit kanino, kahit sa anong dahilan."
+      },
+      {
+        "title": "Hindi ginagamit sa pag-train ng kahit ano",
+        "description": "Ang sinasabi mo sa pagpapatingin sa doktor o sa job interview ay hindi kailanman mapupunta sa training dataset. Hindi sa amin. Hindi sa iba."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Para kanino ang Captio AI?",
+        "a": "Ginawa ang Captio AI pangunahin para sa mga Bingi at mahina ang pandinig na kailangang sumunod sa mga usapan nang real time. Malawak din itong ginagamit ng mga may auditory processing disorder, ng mga nasa maingay na lugar, ng mga nag-aaral ng bagong wika, at ng kahit sinong mas mabilis o mas madaling magbasa kaysa makinig."
+      },
+      {
+        "q": "Gaano katumpak ang live na caption?",
+        "a": "Gumagamit ang Captio AI ng advanced na speech recognition na ginawa para sa katumpakan at mababang latency. Nakadepende ang katumpakan sa linaw ng audio, accent, at ingay sa paligid — pero sa karaniwang usapan, napakataas ng katumpakan, kapantay ng mga propesyonal na captioning service."
+      },
+      {
+        "q": "Anong mga wika ang sinusuportahan ng Captio AI?",
+        "a": "Sinusuportahan ng Captio AI ang 60+ wika kasama ang Ingles, Espanyol, Pranses, Aleman, Mandarin, Arabe, Hindi, Hapones, Koreano, Portuges, Ruso, at marami pang iba. Lahat ng wika ay magagamit sa Live na Caption at Live na Tagasalin. Tingnan ang buong listahan sa pahinang ito."
+      },
+      {
+        "q": "Gumagana ba ang Captio AI sa iba't ibang accent at dialect?",
+        "a": "Oo. Kaya ng Captio AI ang napakaraming accent at dialect mula sa iba't ibang rehiyon — hindi lang ang pormal na pananalitang pang-textbook. Sinusuportahan nito ang Ingles ng Australia, Espanyol ng Latin America, Aleman ng Switzerland, Portuges ng Brazil, Pranses ng Québec, at marami pang iba."
+      },
+      {
+        "q": "Ano ang pagkakaiba ng Live na Caption at Live na Tagasalin?",
+        "a": "Ginagawang text ng Live na Caption ang pananalita sa orihinal na wikang ginamit. Kinukuha naman ng Live na Tagasalin ang pananalitang iyon at isinasalin ito sa wikang pinili mo nang real time — mainam kapag magkaiba ang wika ng nagsasalita at ng nagbabasa, gaya ng doktor na taga-ibang bansa o business meeting sa ibang wika."
+      },
+      {
+        "q": "Itinatago o ibinabahagi ba ng Captio AI ang audio ko?",
+        "a": "Hindi kailanman itinatago ang audio mo sa mga server ng Captio AI, at hindi kailanman ibinebenta o ibinabahagi para sa advertising. Ligtas itong ipinapadala sa isang speech-recognition service para lang gawing text, tapos tinatapon doon. Ang mga recording na pinili mong i-save ay nananatili sa phone mo; ang mga transcript at buod nila ay itinatago rin sa sarili mong account para mabuksan mo sila sa ibang device, at kapag binura mo ang recording, mawawala ito saanman. Hindi kailanman ginagamit ang mga usapan mo para mag-train ng AI model — sa amin man o sa iba."
+      },
+      {
+        "q": "Gumagana ba ang Captio AI kahit walang internet?",
+        "a": "Kailangan ng Live na Caption at Live na Tagasalin ng internet connection para maproseso ang pananalita nang real time. Kailangan din ng koneksyon ang Pag-transcribe ng Audio (para sa mga in-upload na file). Hindi pa sinusuportahan ang offline na captioning sa ngayon."
+      },
+      {
+        "q": "Anong phone o iPad ang kailangan ko?",
+        "a": "Tumatakbo ang Captio AI sa iPhone at iPad na may iOS 16 o mas bago, at sa mga Android phone. Ginawa ito para sa phone at pinakamahusay itong gumagana kapag walang harang sa pagitan ng mikropono at ng nagsasalita."
+      },
+      {
+        "q": "Puwede ko bang gamitin ang Captio AI sa pagpapatingin sa doktor?",
+        "a": "Oo — isa ang pagpapatingin sa doktor sa pinakamahahalagang gamit nito. Puwede mong ilapag ang phone mo sa mesa o itapat ito sa doktor at basahin ang lahat ng sinasabi niya nang real time. Tumpak ang pagkilala sa mga terminong medikal, kaya praktikal na accessibility tool ang Captio AI sa ospital at klinika."
+      },
+      {
+        "q": "Puwede ko bang gamitin ang Captio AI sa mga meeting at lecture?",
+        "a": "Oo. Gumagana ang Captio AI kahit saan may nagsasalita — meeting sa trabaho, lecture sa unibersidad, team standup, conference, at video call. Itapat ang mikropono sa nagsasalita at agad lalabas ang caption."
+      },
+      {
+        "q": "Ano ang Pag-transcribe ng Audio at paano ito naiiba sa Live na Caption?",
+        "a": "Gumagana nang real time ang Live na Caption habang may nagsasalita. Ang Pag-transcribe ng Audio naman ay para sa mga recording — mag-upload ka ng audio o video file at makakakuha ka ng buong nakasulat na transcript. Mainam ito sa pagre-review ng mga lecture na ni-record mo, interview, podcast, o kahit anong content na mas gusto mong basahin kaysa pakinggan."
+      },
+      {
+        "q": "Ano ang ginagawa ng Buod gamit ang AI?",
+        "a": "Kinukuha ng Buod gamit ang AI ang kahit anong transcript at hinahango ang mahahalagang impormasyon — mga pangunahing punto, mga desisyon, mga dapat gawin, at mahahalagang detalye — para gawing maayos na buod. Nakakatipid ito ng oras kapag may mahaba kang transcript mula sa meeting o lecture at kailangan mo agad ang mga highlight."
+      },
+      {
+        "q": "Libre ba ang Captio AI?",
+        "a": "May libreng plan ang Captio AI para makapagsimula ka nang walang bayad. May Plus plan para sa mga kailangan ng unlimited na access. Makikita ang kasalukuyang presyo ng Plus para sa bansa mo sa App Store listing."
+      },
+      {
+        "q": "Paano naiiba ang Captio AI sa built-in na Live Captions ng Apple?",
+        "a": "Built-in sa iOS ang Live Captions ng Apple pero mas kaunti ang sinusuportahang wika, walang pagsasalin, at walang Pag-transcribe ng Audio o Buod gamit ang AI. Sinusuportahan ng Captio AI ang 60+ wika, may pagsasalin nang real time, puwede kang mag-transcribe ng mga in-upload na file, at gumagawa ito ng buod gamit ang AI — kaya mas kumpletong accessibility at productivity tool ito."
+      }
+    ]
+  },
+  "featurePages": {
+    "live-captions": {
+      "meta": {
+        "title": "Live na Caption sa iPhone para sa Bingi at Mahina ang Pandinig",
+        "description": "Speech to text nang real time gamit ang mic ng iPhone mo. Sundan agad ang kahit anong usapan sa kahit anong wika. Para sa mga Bingi at mahina ang pandinig.",
+        "schemaDescription": "Live na caption nang real time para sa mga Bingi at mahina ang pandinig. 60+ wika, latency na mas mababa sa isang segundo, gumagana kahit saan."
+      },
+      "howTitle": "Tatlong tap. Buong usapan.",
+      "steps": [
+        {
+          "title": "Simulan ang pag-record",
+          "desc": "Pindutin ang record button. Agad na nakikinig ang Captio AI."
+        },
+        {
+          "title": "Panoorin ang paglabas ng mga salita",
+          "desc": "Lumalabas ang caption salita por salita habang nagsasalita pa ang tao."
+        },
+        {
+          "title": "I-save ito",
+          "desc": "Itago ang transcription at audio recording para sa susunod."
+        }
+      ],
+      "featuresTitle": "Ginawa para sa totoong usapan",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Mga salitang tugma sa sinabi",
+          "description": "Kinukuha ng Captio AI ang eksaktong sinabi ng tao, hindi isang tantiyang paraphrase. Kaya mapagkakatiwalaan mo ang transcript kapag mahalaga ito — sa doktor, sa interview, sa meeting."
+        },
+        {
+          "title": "Walang delay",
+          "description": "Mas mababa sa isang segundo ang latency. Lumalabas ang caption salita por salita habang nagsasalita pa ang tao, kaya nababasa mo ang sinasabi nila sa mismong sandaling naririnig ito ng iba."
+        },
+        {
+          "title": "Alam mo kung sino ang nagsasalita",
+          "description": "Sa grupo at meeting, hiwalay na nilalagyan ng label ng Captio AI ang bawat nagsasalita kaya lagi mong alam kung sino ang nagsabi ng ano, nang hindi na kailangang tumingin sa mukha o magbasa ng labi."
+        },
+        {
+          "title": "60+ wika",
+          "description": "Sundan ang usapan sa Pranses, Hapones, o Arabe sa parehong paraan ng pagsunod mo sa usapan sa Ingles. Walang mode na kailangang palitan. Hindi na kailangang maging hadlang din ang wika kapag mahina ang pandinig mo."
+        },
+        {
+          "title": "Kaya ang paghahalo ng wika sa gitna ng pangungusap",
+          "description": "Kapag nagpapalit ng wika ang mga tao sa gitna ng usapan, nakakasabay ang Captio AI. Walang puwang sa caption, walang mode na kailangang palitan."
+        },
+        {
+          "title": "Turuan ito ng sarili mong bokabularyo",
+          "description": "Idagdag ang mga pangalan, terminong medikal, o espesyal na salitang madalas mong marinig. Ginagamit ng Captio AI ang listahan mo ng mga salita para mas tumpak na ma-caption ang mga totoong usapan mo."
+        },
+        {
+          "title": "Magdagdag ng hint sa wika",
+          "description": "Sabihin sa Captio AI kung anong wika ang aasahan at handa na ito mula sa unang salita — kapaki-pakinabang kapag hindi halata sa konteksto kung anong wika ang ginagamit."
+        },
+        {
+          "title": "I-transcribe ulit mamaya para mas tumpak",
+          "description": "Patakbuhin ulit ang kahit anong recording pagkatapos para sa mas malinis na transcript. Kapaki-pakinabang sa mga lecture, appointment, at kahit anong usapang sulit balikan."
+        },
+        {
+          "title": "Basahin sa paraang gusto mo",
+          "description": "I-adjust ang laki ng text, kulay ng background, at contrast hanggang madali nang basahin ang caption sa isang sulyap — hawak mo man ang phone, nakalapag sa mesa, o nakasandal sa desk."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Hindi napupunta sa mga server namin ang audio",
+          "description": "Ginagawang text ang audio mo nang real time at hindi kailanman itinatago sa mga server namin. Ang mga recording na sine-save mo ay nananatili sa phone mo, at ang mga transcript nila ay nagsi-sync lang sa sarili mong account."
+        },
+        {
+          "title": "Hindi produkto",
+          "description": "Hindi ibinebenta, ibinabahagi, o pinagkakakitaan ng Captio AI ang mga usapan mo — kahit kanino, kahit sa anong dahilan."
+        },
+        {
+          "title": "Hindi ginagamit sa pag-train ng kahit ano",
+          "description": "Ang sinasabi mo sa pagpapatingin sa doktor o sa job interview ay hindi kailanman mapupunta sa training dataset. Hindi sa amin. Hindi sa iba."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Paano naiiba ang Captio AI sa built-in na Live Captions ng Apple?",
+          "a": "Mas kaunti ang sinusuportahang wika ng Live Captions ng Apple, walang pagsasalin, at walang Pag-transcribe ng Audio o Buod gamit ang AI. Sinusuportahan ng Captio AI ang 60+ wika, may pagsasalin nang real time, puwede kang mag-transcribe ng mga in-upload na file, at gumagawa ito ng buod gamit ang AI. Puwede mo ring i-customize ang laki ng text, mga kulay, at contrast ayon sa kung paano ka pinakakomportableng magbasa."
+        },
+        {
+          "q": "Gaano katumpak ang live na caption?",
+          "a": "Mataas ang katumpakan sa karaniwang usapan. Ginawa ang Captio AI para sa totoong pananalita — hindi lang sa malinis na audio mula sa studio — kaya nakakayanan nito ang mabibilis magsalita, mga accent mula sa iba't ibang rehiyon, ingay sa paligid, at mga pangungusap na halo-halo ang wika. Puwede ka ring magdagdag ng sariling bokabularyo (mga pangalan, terminong medikal, espesyal na salita) para mas tumpak ito sa mga usapan mo."
+        },
+        {
+          "q": "Gaano kabilis lumalabas ang caption?",
+          "a": "Salita por salita, habang nagsasalita pa ang tao. Mas mababa sa isang segundo ang latency — halos real time. Nababasa mo ang sinasabi ng tao sa mismong sandaling naririnig ito ng iba, hindi pagkatapos niyang tapusin ang pangungusap."
+        },
+        {
+          "q": "Gumagana ba ang Live na Caption sa maingay na lugar?",
+          "a": "Oo. Ginawa ang Captio AI para sa totoong kapaligiran — restaurant, kalye, waiting room, pampublikong sasakyan. Itapat ang mikropono sa nagsasalita at lalabas ang caption kahit maingay ang paligid."
+        },
+        {
+          "q": "Anong mga wika ang sinusuportahan ng Live na Caption?",
+          "a": "60+ wika kasama ang Ingles, Espanyol, Pranses, Aleman, Mandarin, Arabe, Hindi, Hapones, Koreano, Portuges, Ruso, at marami pang iba. Sinusuportahan ang mga accent at dialect mula sa iba't ibang rehiyon sa lahat ng pangunahing wika."
+        },
+        {
+          "q": "Gumagana ba ito sa mga accent at dialect?",
+          "a": "Oo. Kaya ng Captio AI ang napakaraming accent mula sa iba't ibang rehiyon — hindi lang ang pormal na pananalitang pang-textbook. Sinusuportahan ang Ingles ng Australia, Espanyol ng Latin America, Aleman ng Switzerland, Pranses ng Québec, at marami pang iba."
+        },
+        {
+          "q": "Puwede ko bang i-save ang mga caption ko?",
+          "a": "Oo. Puwede mong i-save ang mga transcription at audio recording pagkatapos ng session at balikan ang mga ito mamaya. Puwede mo ring i-transcribe ulit ang naka-save na recording para sa mas malinis at mas tumpak na transcript."
+        },
+        {
+          "q": "Kailangan ko ba ng internet connection?",
+          "a": "Oo. Kailangan ng Live na Caption ng internet connection para maproseso ang pananalita nang real time. Hindi pa sinusuportahan ang offline na captioning sa ngayon."
+        }
+      ]
+    },
+    "live-translator": {
+      "meta": {
+        "title": "Live na Tagasalin: Real-Time na Voice Translator sa iPhone",
+        "description": "Real-time na pagsasalin ng pananalita sa iPhone. Nagsasalita sila sa wika nila, nagbabasa ka sa wika mo, agad. Para sa mga Bingi at mahina ang pandinig.",
+        "schemaDescription": "Pagsasalin ng pananalita nang real time para sa mga Bingi at mahina ang pandinig. 60+ wika, kanya-kanyang wika ang bawat nagsasalita, sa wika mo ka nagbabasa."
+      },
+      "howTitle": "Tatlong tap. Kahit anong wika.",
+      "steps": [
+        {
+          "title": "Piliin ang translator mode",
+          "desc": "Buksan ang Captio AI at piliin ang Live na Tagasalin."
+        },
+        {
+          "title": "Piliin ang gusto mong wika",
+          "desc": "Piliin ang wikang gusto mong basahin."
+        },
+        {
+          "title": "Makita ang salin nang real time",
+          "desc": "Nagsasalin ang Captio AI salita por salita."
+        }
+      ],
+      "featuresTitle": "Ginawa para sa totoong usapan",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Kahit anong wika",
+          "description": "Pranses, Hapones, Arabe, Espanyol, Aleman, Mandarin — 60+ wika, kahit anong direksyon. Hindi na kailangang maging hadlang din ang wika kapag mahina ang pandinig mo."
+        },
+        {
+          "title": "Kusang nalalaman ang wikang ginagamit",
+          "description": "Iwan sa auto ang source language at aalamin ito ng Captio AI mula sa mga unang salita. Hindi mo na kailangang pumili bago ang bawat usapan."
+        },
+        {
+          "title": "Walang delay",
+          "description": "Mas mababa sa isang segundo ang latency ng pagsasalin. Nababasa mo ang sinasabi ng tao sa mismong sandaling naririnig ito ng iba, hindi pagkatapos niyang tapusin ang pangungusap."
+        },
+        {
+          "title": "Magdagdag ng mga hint sa wika",
+          "description": "Sabihin sa Captio AI kung anong wika ang aasahan at handa na ito mula sa unang salita — kapaki-pakinabang kapag hindi halata sa konteksto kung anong wika ang ginagamit."
+        },
+        {
+          "title": "Ilang wika nang sabay-sabay",
+          "description": "Kapag nagpapalit ng wika ang mga tao sa gitna ng usapan, nakakasabay ang Captio AI — isinasalin ang bawat isa sa wika mo nang hindi mo na kailangang galawin ang kahit ano."
+        },
+        {
+          "title": "Basahin sa paraang gusto mo",
+          "description": "I-adjust ang kulay ng background, kulay ng text, at laki ng font para madaling basahin ang salin sa isang sulyap, hawak mo man ang phone o nakalapag ito sa mesa."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Hindi napupunta sa mga server namin ang audio",
+          "description": "Ginagawang text ang audio mo nang real time at hindi kailanman itinatago sa mga server namin. Ang mga recording na sine-save mo ay nananatili sa phone mo, at ang mga transcript nila ay nagsi-sync lang sa sarili mong account."
+        },
+        {
+          "title": "Hindi produkto",
+          "description": "Hindi ibinebenta, ibinabahagi, o pinagkakakitaan ng Captio AI ang mga usapan mo — kahit kanino, kahit sa anong dahilan."
+        },
+        {
+          "title": "Hindi ginagamit sa pag-train ng kahit ano",
+          "description": "Ang sinasabi mo sa pagpapatingin sa doktor o sa job interview ay hindi kailanman mapupunta sa training dataset. Hindi sa amin. Hindi sa iba."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Paano naiiba ang Live na Tagasalin sa Live na Caption?",
+          "a": "Ginagawang text ng Live na Caption ang pananalita sa orihinal na wikang ginamit. Kinukuha naman ng Live na Tagasalin ang pananalitang iyon at isinasalin ito sa wikang pinili mo nang real time. Kung Pranses ang salita ng kausap mo at Ingles ang binabasa mo, Live na Tagasalin ang gagamitin mo."
+        },
+        {
+          "q": "Gaano katumpak ang pagsasalin?",
+          "a": "Mataas ang katumpakan ng pagsasalin para sa mga karaniwang pares ng wika sa araw-araw na usapan. Kaya ng Captio AI ang natural na pananalita — mabibilis magsalita, mga accent, ingay sa paligid — hindi lang ang malinis na audio mula sa studio. Para sa mga bihirang pares ng wika o napakateknikal na content, puwedeng mag-iba ang katumpakan."
+        },
+        {
+          "q": "Anong mga wika ang sinusuportahan?",
+          "a": "60+ wika kasama ang Ingles, Espanyol, Pranses, Aleman, Mandarin, Arabe, Hindi, Hapones, Koreano, Portuges, Ruso, at marami pang iba. Puwedeng kahit alin sa mga sinusuportahang wika ang source at target language."
+        },
+        {
+          "q": "Gaano kabilis lumalabas ang salin?",
+          "a": "Mas mababa sa isang segundo ang latency. Nababasa mo ang salin salita por salita habang nagsasalita pa ang tao — halos real time, hindi pagkatapos niyang tapusin ang pangungusap."
+        },
+        {
+          "q": "Gumagana ba ito sa pagpapatingin sa doktor na ibang wika ang salita?",
+          "a": "Oo. Isa ito sa pinakamahahalagang gamit nito. Ilapag ang phone mo sa mesa, itakda ang source language sa wika ng doktor, at basahin ang lahat ng sinasabi niya sa wika mo nang real time. Puwede mo ring i-save ang isinaling transcript para mabalikan ang mga bilin niya pagkatapos."
+        },
+        {
+          "q": "Gumagana ba ito sa maingay na lugar?",
+          "a": "Oo. Ginawa ang Captio AI para sa totoong kapaligiran — waiting room, restaurant, airport. Itapat ang mikropono sa nagsasalita at lalabas ang salin kahit maingay ang paligid."
+        },
+        {
+          "q": "Puwede ko bang i-save ang isinaling transcript?",
+          "a": "Oo. Pagkatapos ng session, puwede mong i-save ang isinaling text at balikan ito mamaya. Kapaki-pakinabang sa pagpapatingin sa doktor, meeting, at kahit anong usapang gusto mong may record."
+        },
+        {
+          "q": "Kailangan ko ba ng internet connection?",
+          "a": "Oo. Kailangan ng Live na Tagasalin ng internet connection para maproseso at maisalin ang pananalita nang real time. Hindi pa sinusuportahan ang offline na pagsasalin sa ngayon."
+        }
+      ]
+    },
+    "audio-transcription": {
+      "meta": {
+        "title": "Pag-transcribe ng Audio: Audio at Video to Text sa iPhone",
+        "description": "Mag-upload ng audio o video file at makuha ang buong transcript. 60+ wika, hiwalay ang bawat speaker, may search. Para sa mga Bingi at mahina ang pandinig.",
+        "schemaDescription": "Mag-upload ng kahit anong audio o video file at makakuha ng buong nakasulat na transcript. 60+ wika, hiwalay ang bawat nagsasalita, may timestamp. Para sa mga Bingi at mahina ang pandinig."
+      },
+      "howTitle": "I-upload. Basahin. Tapos.",
+      "steps": [
+        {
+          "title": "Piliin ang uri ng upload",
+          "desc": "Piliin kung audio file o video file ang ia-upload mo."
+        },
+        {
+          "title": "Pumili ng file",
+          "desc": "Piliin ang file mula sa phone mo. Agad na magsisimulang mag-transcribe ang Captio AI."
+        },
+        {
+          "title": "Tingnan ang transcription",
+          "desc": "Basahin ang buong transcript, nakaayos ayon sa nagsasalita, may timestamp."
+        }
+      ],
+      "featuresTitle": "Ginawa para sa totoong recording",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Kahit anong format",
+          "description": "MP3, MP4, M4A, WAV, at iba pa. Lecture, meeting, voicemail, podcast, interview, recording ng tawag — basta may nagsasalita, kayang i-transcribe ito ng Captio AI."
+        },
+        {
+          "title": "Pinakamataas na katumpakan",
+          "description": "Ginawa ang Captio AI para sa totoong audio, hindi lang sa malinis na file mula sa studio. Audio ng tawag sa phone, recording sa lecture hall, maingay na lugar — kaya nito lahat."
+        },
+        {
+          "title": "Kahit anong wika",
+          "description": "Mag-upload ng recording sa Pranses, Hapones, Arabe, o 57 pang ibang wika. Nalalaman ng Captio AI ang wika at tumpak itong tina-transcribe."
+        },
+        {
+          "title": "Maraming wika",
+          "description": "Kapag nagpapalit ng wika ang mga nagsasalita sa gitna ng recording, nakakasabay ang Captio AI. Nasa transcript ang bawat wikang ginamit, walang puwang."
+        },
+        {
+          "title": "Mga timestamp",
+          "description": "May timestamp ang bawat linya ng transcript kaya puwede kang tumalon sa kahit anong bahagi ng recording at makita kung ano mismo ang sinabi at kailan."
+        },
+        {
+          "title": "I-export at i-share",
+          "description": "Kopyahin ang buong transcript, i-share ito, o i-save. Nandiyan lang ang mga recording at transcript mo kapag kailangan mo."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Hindi napupunta sa mga server namin ang file",
+          "description": "Ipinapadala lang ang file mo para ma-transcribe, tapos tinatapon doon, at hindi kailanman itinatago sa mga server namin. Nananatili sa phone mo ang recording, at ang transcript nito ay nagsi-sync lang sa sarili mong account."
+        },
+        {
+          "title": "Hindi produkto",
+          "description": "Hindi ibinebenta, ibinabahagi, o pinagkakakitaan ng Captio AI ang mga recording mo — kahit kanino, kahit sa anong dahilan."
+        },
+        {
+          "title": "Hindi ginagamit sa pag-train ng kahit ano",
+          "description": "Ang ina-upload mo — pagpapatingin sa doktor, meeting, interview — ay hindi kailanman mapupunta sa training dataset. Hindi sa amin. Hindi sa iba."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Paano naiiba ang Pag-transcribe ng Audio sa Live na Caption?",
+          "a": "Gumagana nang real time ang Live na Caption habang may nagsasalita. Ang Pag-transcribe ng Audio naman ay para sa mga recording — mag-upload ka ng audio o video file at makakakuha ka ng buong nakasulat na transcript. Mainam ito sa pagre-review ng mga lecture na ni-record mo, pagpapatingin sa doktor, interview, o kahit anong content na mas gusto mong basahin kaysa pakinggan."
+        },
+        {
+          "q": "Anong mga file format ang sinusuportahan ng Pag-transcribe ng Audio?",
+          "a": "Tumatanggap ang Captio AI ng mga karaniwang audio at video format kasama ang MP3, MP4, M4A, WAV, at iba pa. Kung ni-record mo ito sa phone mo o na-download mula sa isang video platform, gagana ito."
+        },
+        {
+          "q": "Gaano katumpak ang transcription?",
+          "a": "Mataas ang katumpakan para sa malilinaw na recording sa mga sinusuportahang wika. Kaya ng Captio AI ang totoong audio — tawag sa phone, recording sa lecture hall, maingay na lugar — hindi lang ang mga file na pang-studio ang kalidad. Puwede mo ring i-transcribe ulit ang file para sa pangalawang pagdaan kung kailangan."
+        },
+        {
+          "q": "Anong mga wika ang sinusuportahan?",
+          "a": "60+ wika kasama ang Ingles, Espanyol, Pranses, Aleman, Mandarin, Arabe, Hindi, Hapones, Koreano, Portuges, Ruso, at marami pang iba. Kusang nalalaman ng Captio AI ang wikang ginamit sa file."
+        },
+        {
+          "q": "Pinaghihiwalay ba nito ang mga nagsasalita?",
+          "a": "Oo. Hiwalay na nilalagyan ng label ng Captio AI ang bawat nagsasalita sa transcript para masundan mo kung sino ang nagsabi ng ano — kapaki-pakinabang sa meeting, interview, pagpapatingin sa doktor, at kahit anong recording na maraming tao."
+        },
+        {
+          "q": "Gaano katagal ang transcription?",
+          "a": "Mabilis ang transcription. Karaniwang ilang minuto lang ang isang oras na recording. Nakadepende ang tagal sa haba ng file at kalidad ng audio."
+        },
+        {
+          "q": "Itinatago ba ang audio ko pagkatapos ng transcription?",
+          "a": "Hindi sa mga server ng Captio AI. Ligtas na ipinapadala ang file sa isang speech-recognition service para lang ma-transcribe, at tinatapon ito doon sa sandaling handa na ang transcript. Nananatili sa phone mo ang recording, at itinatago rin ang transcript nito sa sarili mong account para mabuksan mo ito sa ibang device. Hindi kailanman ibinebenta ang mga recording mo o ginagamit para mag-train ng AI model."
+        },
+        {
+          "q": "Puwede ba akong mag-transcribe ng video file?",
+          "a": "Oo. I-upload mismo ang video file at kukunin ng Captio AI ang audio nito at ita-transcribe. Hindi mo na kailangang i-convert muna ang file."
+        }
+      ]
+    },
+    "ai-summary": {
+      "meta": {
+        "title": "Buod gamit ang AI: Maayos na Buod ng Kahit Anong Transcript",
+        "description": "Gawing maayos na buod ang anumang transcript. Kusang hinahango ang mahahalagang punto, desisyon, at mga dapat gawin. Para sa mga Bingi at mahina ang pandinig.",
+        "schemaDescription": "Gawing maayos na buod ang kahit anong transcript. Kusang hinahango ang mahahalagang punto, desisyon, mga dapat gawin, at mga quote ng mga nagsasalita."
+      },
+      "howTitle": "Transcript ang pasok. Buod ang labas.",
+      "steps": [
+        {
+          "title": "Buksan ang kahit anong transcript",
+          "desc": "Pumili ng kahit anong transcript mula sa Live na Caption o Pag-transcribe ng Audio."
+        },
+        {
+          "title": "Gumawa ng buod",
+          "desc": "I-tap ang Buod gamit ang AI. Kusang ipoproseso ng Captio AI ang transcript."
+        },
+        {
+          "title": "Basahin ang buod",
+          "desc": "Handa na ang buod mo — nakaayos ayon sa seksyon, handang basahin o i-share."
+        }
+      ],
+      "featuresTitle": "Ginawa para sa mahahabang transcript",
+      "featuresSubtitle": "Makakuha ng buod, to-do, mga quote ng nagsasalita, notes, at iba pa.",
+      "subfeatures": [
+        {
+          "title": "Kusang hinahango ang mahahalagang punto",
+          "description": "Binabasa ng Captio AI ang buong transcript at hinahango ang talagang mahalaga — ang mga pangunahing punto, mga desisyong ginawa, at mga konklusyong naabot."
+        },
+        {
+          "title": "Nakalista ang mga dapat gawin",
+          "description": "Natutukoy ang mga gawain at follow-up at hiwalay na inililista para walang makaligtaan pagkatapos ng meeting, appointment, o lecture."
+        },
+        {
+          "title": "Nakaayos ayon sa seksyon",
+          "description": "May istruktura ang buod, hindi isang tuloy-tuloy na bloke ng text. May sariling seksyon ang bawat paksa para madali mong ma-scan at mahanap ang kailangan mo."
+        },
+        {
+          "title": "Gumagana sa kahit anong transcript ng Captio AI",
+          "description": "Patakbuhin ang Buod gamit ang AI sa kahit anong transcript na ginawa mo sa Live na Caption o Pag-transcribe ng Audio. Walang dagdag na hakbang, walang copy-paste."
+        },
+        {
+          "title": "Kahit anong wika",
+          "description": "Gumawa ng buod ng mga transcript sa 60+ wika. Binabasa ng Captio AI ang transcript sa orihinal nitong wika at gumagawa ng buod na mababasa mo."
+        },
+        {
+          "title": "I-save at i-share",
+          "description": "Itabi ang buod kasama ng transcript, kopyahin ito, o i-share. Kapaki-pakinabang pagkatapos ng pagpapatingin sa doktor, meeting, at lecture."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Sa account mo lang itinatago",
+          "description": "Sine-save ang buod mo kasama ng recording nito, sa phone mo at sa sarili mong account, kaya makikita ito sa kahit anong device kung saan ka naka-sign in. Kapag binura mo ito, mawawala ito saanman."
+        },
+        {
+          "title": "Hindi produkto",
+          "description": "Hindi ibinebenta, ibinabahagi, o pinagkakakitaan ng Captio AI ang mga usapan mo — kahit kanino, kahit sa anong dahilan."
+        },
+        {
+          "title": "Hindi ginagamit sa pag-train ng kahit ano",
+          "description": "Ang ginagawan mo ng buod — pagpapatingin sa doktor, meeting, interview — ay hindi kailanman mapupunta sa training dataset. Hindi sa amin. Hindi sa iba."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Ano ang ginagawa ng Buod gamit ang AI?",
+          "a": "Kinukuha ng Buod gamit ang AI ang kahit anong transcript at hinahango ang mahahalagang impormasyon — mga pangunahing punto, mga desisyon, mga dapat gawin, at mahahalagang detalye — para gawing maayos na buod. Nakakatipid ito ng oras kapag may mahaba kang transcript at kailangan mo agad ang mga highlight."
+        },
+        {
+          "q": "Aling mga transcript ang puwede kong gawan ng buod?",
+          "a": "Kahit anong transcript na ginawa sa Captio AI — mula sa Live na Caption o Pag-transcribe ng Audio. Direkta mong pinapatakbo ang Buod gamit ang AI sa transcript, walang dagdag na hakbang."
+        },
+        {
+          "q": "Paano naiiba ang Buod gamit ang AI sa pagbabasa lang ng transcript?",
+          "a": "Puwedeng umabot sa libu-libong salita ang buong transcript ng isang oras na meeting. Ibinibigay ng Buod gamit ang AI ang mahahalagang punto, desisyon, at mga dapat gawin sa maliit na bahagi lang ng oras ng pagbabasa — nakaayos ayon sa paksa, hindi ayon sa pagkakasunod-sunod ng pagkakasabi."
+        },
+        {
+          "q": "Gumagana ba ito sa pagpapatingin sa doktor?",
+          "a": "Oo. Maraming impormasyon ang dumarating nang mabilis kapag nagpapatingin sa doktor. Hinahango ng Buod gamit ang AI ang diagnosis, mga bilin, at mga susunod na hakbang sa isang malinaw na listahang mababalikan mo."
+        },
+        {
+          "q": "Anong mga wika ang sinusuportahan?",
+          "a": "Gumagana ang Buod gamit ang AI sa mga transcript sa 60+ wika. Ginagawa ang buod sa parehong wika ng transcript."
+        },
+        {
+          "q": "Puwede ko bang i-save o i-share ang buod?",
+          "a": "Oo. Puwede mong i-save ang buod kasama ng orihinal na transcript, kopyahin ito, o i-share. Kapaki-pakinabang sa pagpapadala ng recap ng meeting o sa pagtatabi ng record ng pagpapatingin sa doktor."
+        },
+        {
+          "q": "Itinatago ba ng Buod gamit ang AI ang transcript o audio ko?",
+          "a": "Ligtas na ipinapadala ang transcript mo sa isang AI service para lang isulat ang buod, at hindi kailanman ginagamit para mag-train ng AI model. Sine-save ang buod kasama ng recording, sa phone mo at sa sarili mong account, hanggang burahin mo ito. Hindi kailanman itinatago ang audio sa mga server ng Captio AI, at hindi kailanman ibinebenta ang mga usapan mo."
+        }
+      ]
+    }
+  }
+}

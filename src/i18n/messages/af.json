@@ -1,0 +1,676 @@
+{
+  "header": {
+    "features": "Funksies",
+    "useCases": "Gebruike",
+    "languages": "Tale",
+    "compare": "Vergelyk",
+    "blog": "Blog",
+    "download": "Laai af",
+    "toggleMenu": "Maak die kieslys oop of toe",
+    "chooseLanguage": "Kies ’n taal"
+  },
+  "footer": {
+    "tagline": "Regstreekse onderskrifte en produktiwiteitshulpmiddel vir dowe en hardhorende mense.",
+    "productHuntTagline": "Regstreekse onderskrifte en transkripsie vir dowes en hardhorendes",
+    "productHunt": "Kyk daarna op Product Hunt →",
+    "featuredOn": "Uitgelig op",
+    "features": "Funksies",
+    "useCases": "Gebruike",
+    "blog": "Blog",
+    "allArticles": "Alle artikels",
+    "compare": "Vergelyk",
+    "compareApps": "Vergelyk onderskrif-apps",
+    "company": "Maatskappy",
+    "organizations": "Vir organisasies",
+    "privacy": "Privaatheidsbeleid",
+    "terms": "Diensbepalings"
+  },
+  "store": {
+    "appleOverline": "Laai af in die",
+    "googleOverline": "Kry dit op",
+    "appleQrAlt": "QR-kode om Captio AI vir iPhone van die App Store af te laai",
+    "googleQrAlt": "QR-kode om Captio AI vir Android van Google Play af te laai",
+    "downloadForFree": "Laai gratis af"
+  },
+  "common": {
+    "home": "Tuis",
+    "back": "Terug",
+    "goBack": "Gaan terug",
+    "explore": "Verken",
+    "featuresLabel": "Funksies",
+    "howItWorks": "Hoe dit werk",
+    "privacyLabel": "Privaatheid",
+    "privacyTitle": "Wat jy hoor, bly by jou.",
+    "privacyImageAlt": "Privaat van die begin af: jou klank word nooit op ons bedieners gestoor nie, nooit verkoop nie en nooit vir opleiding gebruik nie",
+    "faqLabel": "FAQ",
+    "faqTitle": "Algemene vrae",
+    "getStarted": "Begin nou",
+    "freeToStart": "Dit is gratis om met Captio AI te begin",
+    "allFeatures": "Captio AI sluit Regstreekse onderskrifte, Regstreekse vertaler, Oudiotranskripsie en KI-opsomming in.",
+    "featureNames": {
+      "live-captions": "Regstreekse onderskrifte",
+      "live-translator": "Regstreekse vertaler",
+      "audio-transcription": "Oudiotranskripsie",
+      "ai-summary": "KI-opsomming"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Captio AI — Regstreekse onderskrifte vir dowes en hardhorendes",
+      "description": "Captio AI gee dowe en hardhorende mense intydse onderskrifte, regstreekse vertaling, oudiotranskripsie en KI-opsommings, reg op hul foon. 60+ tale.",
+      "ogDescription": "Intydse regstreekse onderskrifte, regstreekse vertaling, oudiotranskripsie en KI-opsommings vir dowe en hardhorende mense. 60+ tale. iPhone en Android.",
+      "schemaDescription": "Intydse regstreekse onderskrifte, regstreekse vertaling, oudiotranskripsie en KI-opsommings vir dowe en hardhorende mense. 60+ tale."
+    },
+    "eyebrow": "🦻 Toeganklikheid + 💻 Produktiwiteitsapp",
+    "heroTitle": "[Regstreekse onderskrifte] en [produktiwiteitshulpmiddel] vir dowe en hardhorende mense.",
+    "heroSubtitle": "Volg enige gesprek, vergadering of lesing. In enige taal.",
+    "mockupAlt": "Die app Captio AI met regstreekse onderskrifte en vertaling",
+    "featuresTitle": "Alles wat jy nodig het om enige gesprek te volg",
+    "featuresSubtitle": "Vier hulpmiddels wat spesifiek vir dowe en hardhorende mense gebou is.",
+    "features": {
+      "live-captions": {
+        "title": "Spraak na teks, intyds",
+        "bullets": [
+          "Woord vir woord, intyds",
+          "Werk op raserige plekke",
+          "Enige aksent, enige tempo",
+          "Geen liplees nodig nie"
+        ]
+      },
+      "live-translator": {
+        "title": "Vertaal enige taal intyds",
+        "bullets": [
+          "Vertaal terwyl hulle praat",
+          "Elkeen praat hul eie taal",
+          "Hanteer taalwisselings middel in ’n sin",
+          "60+ tale"
+        ]
+      },
+      "audio-transcription": {
+        "title": "Transkribeer enige oudio- of videolêer",
+        "bullets": [
+          "Enige oudio- of videolêer",
+          "Volgens spreker georden",
+          "60+ tale",
+          "Lees, kopieer, soek, deel"
+        ]
+      },
+      "ai-summary": {
+        "title": "Verander transkripsies in gestruktureerde opsommings",
+        "bullets": [
+          "Hoofpunte en besluite",
+          "Aksiepunte uitgehaal",
+          "Werk met enige transkripsie",
+          "In afdelings georden"
+        ]
+      }
+    },
+    "moreFeaturesTitle": "Meer kenmerke",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "KI-aksies",
+        "title": "Taaklyste, notas en ’n opvolgboodskap",
+        "description": "Verander enige opname in hoofpunte, gedetailleerde notas, taaklyste, vrae en antwoorde of ’n opvolgboodskap."
+      },
+      "export": {
+        "label": "Uitvoer",
+        "title": "Deel dit op jou manier",
+        "description": "Stuur onderskrifte of ’n opsomming as teks, ’n skakel, ’n PDF, ’n e-pos of ’n KI-klets-opdrag."
+      },
+      "folders": {
+        "label": "Vouers",
+        "title": "Vouers en gedeelde vouers",
+        "description": "Sorteer opnames in vouers en deel een met familie, klasmaats of jou span."
+      },
+      "recognize-voices": {
+        "label": "Herken stemme",
+        "title": "Name, nie Spreker 2 nie",
+        "description": "Stoor die stemme van mense met wie jy gereeld praat en sien hul name in jou onderskrifte."
+      },
+      "speaker-direction": {
+        "label": "Sprekerrigting",
+        "title": "Sien waarvandaan ’n stem kom",
+        "description": "Golwe aan die rand van die onderskrifte wys na wie praat. iPhone 16 en nuuer."
+      },
+      "connectors": {
+        "label": "Connectors",
+        "title": "Vra jou klets-toepassing",
+        "description": "Vra Claude, ChatGPT, Gemini of Perplexity oor enige van jou opnames."
+      },
+      "widgets": {
+        "label": "Widgets",
+        "title": "Onderskrifte met een tik",
+        "description": "Begin regstreekse onderskrifte vanaf jou iPhone se Tuisskerm of Sluitskerm."
+      }
+    },
+    "useCasesLabel": "Gebruike",
+    "useCasesTitle": "Werk in elke situasie",
+    "useCasesSubtitle": "Ontwerp vir die werklike oomblikke wat saak maak, nie net vir stil, beheerde omgewings nie.",
+    "useCases": {
+      "everyday-conversations": {
+        "label": "Alledaagse gesprekke",
+        "description": "Die meeste gesprekke gebeur vinnig, teen ’n gewone pas en sonder waarskuwing. Captio AI gee onderskrifte vir elke woord soos dit gesê word, sodat jy kan volg sonder om iemand te vra om hulself te herhaal."
+      },
+      "deaf-hoh-communication": {
+        "label": "Kommunikeer met dowes en hardhorendes",
+        "description": "Horende mense weet dikwels nie hoe om aan te pas wanneer hulle met dowe of hardhorende vriende praat nie. Captio AI verander hul spraak in intydse onderskrifte, sodat die gesprek aan albei kante natuurlik kan verloop."
+      },
+      "meetings": {
+        "label": "Vergaderings",
+        "description": "In vergaderings word besluite vinnig geneem en praat mense oor mekaar. Captio AI gee onderskrifte vir elke spreker terwyl hulle praat, sodat jy nooit ’n besluit of ’n vraag aan jou mis nie."
+      },
+      "lectures": {
+        "label": "Lesings",
+        "description": "Dosente praat vinnig, behandel ingewikkelde stof en herhaal hulself selde. Captio AI gee jou ’n regstreekse transkripsie van alles wat gesê word, sodat jy die inhoud kan volg in plaas daarvan om jou in te span om dit te hoor."
+      },
+      "doctor-appointments": {
+        "label": "Doktersafsprake",
+        "description": "Dokters praat vinnig en gebruik kliniese taal wat maklik is om verkeerd te hoor. Captio AI wys jou intyds alles wat hulle sê, sodat jy jou diagnose kan volg en die regte vrae kan vra."
+      },
+      "job-interviews": {
+        "label": "Werksonderhoude",
+        "description": "As jy ’n vraag in ’n onderhoud mis, antwoord jy verkeerd of moet jy vra dat dit herhaal word. Captio AI wys jou elke woord wat die onderhoudvoerder sê, sodat jy heeltemal op jou antwoord kan fokus."
+      },
+      "phone-video-calls": {
+        "label": "Foon- en video-oproepe",
+        "description": "Foon- en video-oproepe is moeiliker om te volg as gesprekke van aangesig tot aangesig. Geen liplees nie, dikwels swak klankgehalte. Captio AI gee intyds onderskrifte vir wie ook al praat, sodat jy nie hoef te vra dat dinge herhaal word nie."
+      },
+      "group-settings": {
+        "label": "In groepe",
+        "description": "In groepe praat verskeie mense gelyk en beweeg die gesprek vinnig. Captio AI hou by met wie ook al praat, sodat jy kan volg sonder om die draad te verloor."
+      },
+      "restaurants": {
+        "label": "Restaurante en kafees",
+        "description": "Agtergrondgeraas maak spraak moeilik om te volg, selfs vir mense sonder gehoorverlies. Captio AI fokus op wie ook al met jou praat, sodat jy deur die geraas ’n regte gesprek kan voer."
+      },
+      "traveling": {
+        "label": "Op reis",
+        "description": "Op lughawens, in hotelle en in onbekende stede is daar geen ruimte om iets verkeerd te hoor nie. Captio AI gee onderskrifte vir spraak in 60+ tale, sodat jy met selfvertroue jou weg kan vind, waar jy ook al gaan."
+      },
+      "conferences": {
+        "label": "Konferensies en geleenthede",
+        "description": "Sprekers is ver weg, die akoestiek is onvoorspelbaar en jy kan nie vra dat iets herhaal word nie. Captio AI gee jou ’n regstreekse transkripsie van elke spreker, sodat jy die hele geleentheid van enige sitplek af kan volg."
+      },
+      "tv-media": {
+        "label": "TV en media",
+        "description": "Ingeboude onderskrifte is dikwels verkeerd, vertraag of ontbreek heeltemal. Captio AI gee intyds onderskrifte vir wat ook al speel, sodat jy nie afhanklik is van of die inhoud onderskrifte het nie."
+      }
+    },
+    "languagesLabel": "Tale",
+    "languagesTitle": "Captio AI ondersteun 60+ tale",
+    "privacyCards": [
+      {
+        "title": "Klank bly van ons bedieners af",
+        "description": "Jou klank word intyds in teks omgesit en word nooit op ons bedieners gestoor nie. Opnames wat jy stoor, bly op jou foon, en hul transkripsies word net met jou eie rekening gesinchroniseer."
+      },
+      {
+        "title": "Nie te koop nie",
+        "description": "Captio AI verkoop, deel of verdien nooit geld uit jou gesprekke nie, aan niemand en om geen enkele rede nie."
+      },
+      {
+        "title": "Word vir geen opleiding gebruik nie",
+        "description": "Wat jy by ’n doktersafspraak of in ’n werksonderhoud sê, beland nooit in ’n opleidingsdatastel nie. Nie ons s’n nie. Ook nie iemand anders s’n nie."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Vir wie is Captio AI ontwerp?",
+        "a": "Captio AI is in die eerste plek gebou vir dowe en hardhorende mense wat gesproke gesprekke intyds moet volg. Dit word ook baie gebruik deur mense met ’n ouditiewe verwerkingsversteuring, mense in raserige omgewings, taalleerders en enigiemand vir wie lees vinniger of makliker is as luister."
+      },
+      {
+        "q": "Hoe akkuraat is die regstreekse onderskrifte?",
+        "a": "Captio AI gebruik gevorderde spraakherkenning wat spesifiek vir akkuraatheid en min vertraging gebou is. Die akkuraatheid hang af van hoe helder die klank is, die aksent en die agtergrondgeraas, maar in gewone gesprekke is dit baie hoog en vergelykbaar met professionele onderskrifdienste."
+      },
+      {
+        "q": "Watter tale ondersteun Captio AI?",
+        "a": "Captio AI ondersteun 60+ tale, insluitend Engels, Spaans, Frans, Duits, Mandaryns, Arabies, Hindi, Japannees, Koreaans, Portugees, Russies en baie meer. Alle tale is beskikbaar vir Regstreekse onderskrifte en Regstreekse vertaler. Sien die volledige lys op hierdie bladsy."
+      },
+      {
+        "q": "Werk Captio AI met verskillende aksente en dialekte?",
+        "a": "Ja. Captio AI hanteer ’n wye reeks streeksaksente en dialekte, nie net handboektaal nie. Dit ondersteun Australiese Engels, Latyns-Amerikaanse Spaans, Switserse Duits, Brasiliaanse Portugees, Québecse Frans en baie ander."
+      },
+      {
+        "q": "Wat is die verskil tussen Regstreekse onderskrifte en Regstreekse vertaler?",
+        "a": "Regstreekse onderskrifte skryf spraak uit in die taal wat gepraat word. Regstreekse vertaler neem daardie spraak en vertaal dit intyds in die taal wat jy kies. Ideaal wanneer die spreker en die leser verskillende tale praat, soos by ’n buitelandse dokter of ’n sakevergadering in ’n ander taal."
+      },
+      {
+        "q": "Stoor of deel Captio AI my klank?",
+        "a": "Captio AI stoor nooit jou klank op sy bedieners nie, en dit word nooit verkoop of vir advertensies gedeel nie. Die klank word veilig na ’n spraakherkenningsdiens gestuur, net om dit in teks om te sit, en word dan daar uitgevee. Opnames wat jy kies om te stoor, bly op jou foon; hul transkripsies en opsommings word ook in jou eie rekening gehou, sodat jy dit op ’n ander toestel kan oopmaak, en as jy ’n opname uitvee, is dit oral weg. Jou gesprekke word nooit gebruik om KI-modelle op te lei nie, nie ons s’n nie en ook nie iemand anders s’n nie."
+      },
+      {
+        "q": "Werk Captio AI sonder ’n internetverbinding?",
+        "a": "Regstreekse onderskrifte en Regstreekse vertaler het ’n internetverbinding nodig om spraak intyds te verwerk. Oudiotranskripsie (vir opgelaaide lêers) het ook ’n verbinding nodig. Vanlyn onderskrifte word tans nie ondersteun nie."
+      },
+      {
+        "q": "Watter foon of iPad het ek nodig?",
+        "a": "Captio AI werk op iPhone en iPad met iOS 16 of nuwer, en op Android-fone. Dit is vir die foon geoptimaliseer en werk die beste wanneer die mikrofoon ’n duidelike pad na die spreker het."
+      },
+      {
+        "q": "Kan ek Captio AI by ’n doktersafspraak gebruik?",
+        "a": "Ja, doktersafsprake is een van die belangrikste gebruike. Sit jou foon op die lessenaar of hou dit na die dokter toe en lees intyds alles wat hulle sê. Mediese terme word akkuraat hanteer, wat Captio AI ’n praktiese toeganklikheidshulpmiddel in gesondheidsorg maak."
+      },
+      {
+        "q": "Kan ek Captio AI in vergaderings en lesings gebruik?",
+        "a": "Ja. Captio AI werk oral waar gepraat word: werksvergaderings, universiteitslesings, span-standups, konferensies en video-oproepe. Rig die mikrofoon na die spreker en die onderskrifte verskyn dadelik."
+      },
+      {
+        "q": "Wat is Oudiotranskripsie en hoe verskil dit van Regstreekse onderskrifte?",
+        "a": "Regstreekse onderskrifte werk intyds terwyl iemand praat. Oudiotranskripsie is vir opnames: jy laai ’n oudio- of videolêer op en kry ’n volledige geskrewe transkripsie. Dit is ideaal om lesings wat jy opgeneem het, onderhoude, podsendings of enige inhoud wat jy eerder wil lees as luister, weer deur te gaan."
+      },
+      {
+        "q": "Wat doen die KI-opsomming?",
+        "a": "KI-opsomming neem enige transkripsie en haal die belangrikste inligting uit, soos hoofpunte, besluite wat geneem is, aksiepunte en belangrike besonderhede, in ’n gestruktureerde opsomming. Dit spaar tyd wanneer jy ’n lang transkripsie van ’n vergadering of lesing het en vinnig die hoogtepunte nodig het."
+      },
+      {
+        "q": "Is Captio AI gratis?",
+        "a": "Captio AI het ’n gratis vlak waarmee jy kan begin sonder om iets te betaal. Vir gebruikers wat onbeperkte toegang nodig het, is daar Plus. Die huidige prys van Plus in jou land word in die App Store gewys."
+      },
+      {
+        "q": "Hoe verskil Captio AI van Apple se ingeboude regstreekse onderskrifte?",
+        "a": "Apple se regstreekse onderskrifte is in iOS ingebou, maar ondersteun minder tale, bied geen vertaling nie en sluit nie Oudiotranskripsie of KI-opsomming in nie. Captio AI ondersteun 60+ tale, vertaal intyds, laat jou opgelaaide lêers transkribeer en skep KI-opsommings, wat dit ’n baie meer volledige hulpmiddel vir toeganklikheid en produktiwiteit maak."
+      }
+    ]
+  },
+  "featurePages": {
+    "live-captions": {
+      "meta": {
+        "title": "Regstreekse onderskrifte vir dowes en hardhorendes op iPhone",
+        "description": "Intydse spraak na teks via jou iPhone se mikrofoon. Volg dadelik enige gesprek, in enige taal. Gebou vir dowe en hardhorende mense.",
+        "schemaDescription": "Intydse regstreekse onderskrifte vir dowe en hardhorende mense. 60+ tale, ver onder ’n sekonde vertraging, werk oral."
+      },
+      "howTitle": "Drie tikke. Die hele gesprek.",
+      "steps": [
+        {
+          "title": "Begin opneem",
+          "desc": "Druk die opneemknoppie. Captio AI begin dadelik luister."
+        },
+        {
+          "title": "Sien die woorde verskyn",
+          "desc": "Onderskrifte verskyn woord vir woord terwyl die persoon nog praat."
+        },
+        {
+          "title": "Stoor dit",
+          "desc": "Hou die transkripsie en klankopname vir later."
+        }
+      ],
+      "featuresTitle": "Gebou vir regte gesprekke",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Woorde wat ooreenstem met wat gesê is",
+          "description": "Captio AI vang wat iemand werklik gesê het, nie ’n rowwe parafrase nie. Jy kan dus op die transkripsie staatmaak wanneer dit saak maak: by die dokter, in ’n onderhoud, in ’n vergadering."
+        },
+        {
+          "title": "Geen vertraging nie",
+          "description": "Die vertraging is ver onder ’n sekonde. Onderskrifte verskyn woord vir woord terwyl die persoon nog praat, sodat jy lees wat hulle sê op dieselfde oomblik wat almal anders dit hoor."
+        },
+        {
+          "title": "Weet wie praat",
+          "description": "In groepe en vergaderings merk Captio AI elke spreker apart, sodat jy altyd weet wie wat gesê het, sonder om gesigte dop te hou of lipbewegings te volg."
+        },
+        {
+          "title": "60+ tale",
+          "description": "Volg ’n gesprek in Frans, Japannees of Arabies net so maklik as een in Afrikaans. Geen modus om te verander nie. Gehoorverlies is nooit ook ’n taalhindernis nie."
+        },
+        {
+          "title": "Hanteer tale wat middel in ’n sin meng",
+          "description": "Wanneer mense middel in ’n gesprek van taal wissel, hou Captio AI by. Geen gaping in die onderskrifte nie, geen modus om te verander nie."
+        },
+        {
+          "title": "Leer dit jou woordeskat",
+          "description": "Voeg name, mediese terme of vakwoorde by wat jy gereeld hoor. Captio AI gebruik jou woordelys om jou werklike gesprekke akkurater te onderskryf."
+        },
+        {
+          "title": "Voeg ’n taalwenk by",
+          "description": "Sê vir Captio AI watter taal om te verwag, en die app is van die eerste woord af daarop ingestel. Nuttig wanneer die gesproke taal nie uit die konteks duidelik is nie."
+        },
+        {
+          "title": "Transkribeer later weer vir groter akkuraatheid",
+          "description": "Stuur enige opname agterna weer deur vir ’n skoner transkripsie. Nuttig vir lesings, afsprake en enige gesprek wat die moeite werd is om weer deur te gaan."
+        },
+        {
+          "title": "Lees dit op jou manier",
+          "description": "Pas teksgrootte, agtergrondkleur en kontras aan totdat die onderskrifte met een oogopslag maklik leesbaar is, met die foon in jou hand, plat op ’n tafel of regop op ’n lessenaar."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Klank bly van ons bedieners af",
+          "description": "Jou klank word intyds in teks omgesit en word nooit op ons bedieners gestoor nie. Opnames wat jy stoor, bly op jou foon, en hul transkripsies word net met jou eie rekening gesinchroniseer."
+        },
+        {
+          "title": "Nie te koop nie",
+          "description": "Captio AI verkoop, deel of verdien nooit geld uit jou gesprekke nie, aan niemand en om geen enkele rede nie."
+        },
+        {
+          "title": "Word vir geen opleiding gebruik nie",
+          "description": "Wat jy by ’n doktersafspraak of in ’n werksonderhoud sê, beland nooit in ’n opleidingsdatastel nie. Nie ons s’n nie. Ook nie iemand anders s’n nie."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Hoe verskil Captio AI van Apple se ingeboude regstreekse onderskrifte?",
+          "a": "Apple se regstreekse onderskrifte ondersteun minder tale, bied geen vertaling nie en sluit nie Oudiotranskripsie of KI-opsomming in nie. Captio AI ondersteun 60+ tale, vertaal intyds, laat jou opgelaaide lêers transkribeer en skep KI-opsommings. Jy kan ook teksgrootte, kleure en kontras aanpas sodat dit pas by hoe jy die beste lees."
+        },
+        {
+          "q": "Hoe akkuraat is die regstreekse onderskrifte?",
+          "a": "In gewone gesprekke is die akkuraatheid hoog. Captio AI is gebou vir regte spraak, nie net vir skoon ateljeeklank nie, en hanteer dus vinnige praters, streeksaksente, agtergrondgeraas en sinne met gemengde tale. Jy kan ook jou eie woordeskat byvoeg (name, mediese terme, vakwoorde) om jou spesifieke gesprekke nog akkurater te maak."
+        },
+        {
+          "q": "Hoe vinnig verskyn die onderskrifte?",
+          "a": "Woord vir woord, terwyl die persoon nog praat. Die vertraging is ver onder ’n sekonde, byna intyds. Jy lees wat iemand sê op dieselfde oomblik wat almal anders dit hoor, nie eers nadat hulle die sin klaargemaak het nie."
+        },
+        {
+          "q": "Werk Regstreekse onderskrifte op raserige plekke?",
+          "a": "Ja. Captio AI is ontwerp vir regte omgewings: restaurante, strate, wagkamers, openbare vervoer. Rig die mikrofoon na die spreker en die onderskrifte verskyn, ongeag die agtergrondgeraas."
+        },
+        {
+          "q": "Watter tale ondersteun Regstreekse onderskrifte?",
+          "a": "60+ tale, insluitend Engels, Spaans, Frans, Duits, Mandaryns, Arabies, Hindi, Japannees, Koreaans, Portugees, Russies en baie meer. Streeksaksente en dialekte word in alle groot tale ondersteun."
+        },
+        {
+          "q": "Werk dit met aksente en dialekte?",
+          "a": "Ja. Captio AI hanteer ’n wye reeks streeksaksente, nie net handboektaal nie. Australiese Engels, Latyns-Amerikaanse Spaans, Switserse Duits, Québecse Frans en baie ander word ondersteun."
+        },
+        {
+          "q": "Kan ek my onderskrifte stoor?",
+          "a": "Ja. Ná ’n sessie kan jy transkripsies en klankopnames stoor en later weer deurgaan. Jy kan ook ’n gestoorde opname weer transkribeer vir ’n skoner, akkurater transkripsie."
+        },
+        {
+          "q": "Het ek ’n internetverbinding nodig?",
+          "a": "Ja. Regstreekse onderskrifte het ’n internetverbinding nodig om spraak intyds te verwerk. Vanlyn onderskrifte word tans nie ondersteun nie."
+        }
+      ]
+    },
+    "live-translator": {
+      "meta": {
+        "title": "Regstreekse vertaler: intydse spraakvertaling op iPhone",
+        "description": "Intydse spraakvertaling op jou iPhone. Die ander persoon praat hul taal, jy lees in joune, dadelik en in enige taal. Gebou vir dowe en hardhorende mense.",
+        "schemaDescription": "Intydse spraakvertaling vir dowe en hardhorende mense. 60+ tale, elkeen praat hul eie taal, jy lees in joune."
+      },
+      "howTitle": "Drie tikke. Enige taal.",
+      "steps": [
+        {
+          "title": "Kies vertalermodus",
+          "desc": "Maak Captio AI oop en kies Regstreekse vertaler."
+        },
+        {
+          "title": "Kies jou taal",
+          "desc": "Kies die taal waarin jy wil lees."
+        },
+        {
+          "title": "Sien die vertaling intyds",
+          "desc": "Captio AI vertaal woord vir woord."
+        }
+      ],
+      "featuresTitle": "Gebou vir regte gesprekke",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Enige taal",
+          "description": "Frans, Japannees, Arabies, Spaans, Duits, Mandaryns: 60+ tale, in enige rigting. Gehoorverlies is nooit ook ’n taalhindernis nie."
+        },
+        {
+          "title": "Herken die gesproke taal outomaties",
+          "description": "Laat die brontaal op “Outomaties” en Captio AI werk dit uit die eerste woorde uit. Jy hoef nie voor elke gesprek self ’n taal te kies nie."
+        },
+        {
+          "title": "Geen vertraging nie",
+          "description": "Die vertraging van die vertaling is ver onder ’n sekonde. Jy lees wat iemand sê op dieselfde oomblik wat almal anders dit hoor, nie eers nadat hulle die sin klaargemaak het nie."
+        },
+        {
+          "title": "Voeg taalwenke by",
+          "description": "Sê vir Captio AI watter taal om te verwag, en die app is van die eerste woord af daarop ingestel. Nuttig wanneer die gesproke taal nie uit die konteks duidelik is nie."
+        },
+        {
+          "title": "Verskeie tale gelyktydig",
+          "description": "Wanneer mense middel in ’n gesprek van taal wissel, hou Captio AI by en vertaal alles in jou taal, sonder dat jy iets hoef te doen."
+        },
+        {
+          "title": "Lees dit op jou manier",
+          "description": "Pas agtergrondkleur, tekskleur en lettergrootte aan sodat die vertaling met een oogopslag maklik leesbaar is, of die foon nou in jou hand is of plat op ’n tafel lê."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Klank bly van ons bedieners af",
+          "description": "Jou klank word intyds in teks omgesit en word nooit op ons bedieners gestoor nie. Opnames wat jy stoor, bly op jou foon, en hul transkripsies word net met jou eie rekening gesinchroniseer."
+        },
+        {
+          "title": "Nie te koop nie",
+          "description": "Captio AI verkoop, deel of verdien nooit geld uit jou gesprekke nie, aan niemand en om geen enkele rede nie."
+        },
+        {
+          "title": "Word vir geen opleiding gebruik nie",
+          "description": "Wat jy by ’n doktersafspraak of in ’n werksonderhoud sê, beland nooit in ’n opleidingsdatastel nie. Nie ons s’n nie. Ook nie iemand anders s’n nie."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Hoe verskil Regstreekse vertaler van Regstreekse onderskrifte?",
+          "a": "Regstreekse onderskrifte skryf spraak uit in die taal wat gepraat word. Regstreekse vertaler neem daardie spraak en vertaal dit intyds in die taal wat jy kies. As die ander persoon Frans praat en jy in Afrikaans wil lees, gebruik jy Regstreekse vertaler."
+        },
+        {
+          "q": "Hoe akkuraat is die vertaling?",
+          "a": "Vir algemene taalpare is die vertaling in alledaagse gesprekke baie akkuraat. Captio AI hanteer natuurlike spraak, met vinnige praters, aksente en agtergrondgeraas, nie net skoon ateljeeklank nie. Vir skaars taalpare of hoogs tegniese inhoud kan die akkuraatheid wissel."
+        },
+        {
+          "q": "Watter tale word ondersteun?",
+          "a": "60+ tale, insluitend Engels, Spaans, Frans, Duits, Mandaryns, Arabies, Hindi, Japannees, Koreaans, Portugees, Russies en baie meer. Die brontaal en die teikentaal kan enige van die ondersteunde tale wees."
+        },
+        {
+          "q": "Hoe vinnig verskyn die vertaling?",
+          "a": "Die vertraging is ver onder ’n sekonde. Jy lees die vertaling woord vir woord terwyl die persoon nog praat, byna intyds en nie eers nadat hulle die sin klaargemaak het nie."
+        },
+        {
+          "q": "Werk dit by ’n doktersafspraak met ’n dokter wat ’n ander taal praat?",
+          "a": "Ja. Dit is een van die belangrikste gebruike. Sit jou foon op die lessenaar, stel die brontaal op die dokter se taal en lees intyds alles wat hulle sê in jou eie taal. Jy kan ook die vertaalde transkripsie stoor om hul instruksies later weer deur te gaan."
+        },
+        {
+          "q": "Werk dit op raserige plekke?",
+          "a": "Ja. Captio AI is gebou vir regte omgewings: wagkamers, restaurante, lughawens. Rig die mikrofoon na die spreker en die vertaling verskyn, ongeag die omgewingsgeraas."
+        },
+        {
+          "q": "Kan ek die vertaalde transkripsie stoor?",
+          "a": "Ja. Ná ’n sessie kan jy die vertaalde teks stoor en later weer lees. Nuttig vir mediese afsprake, vergaderings en enige gesprek waarvan jy ’n rekord wil hê."
+        },
+        {
+          "q": "Het ek ’n internetverbinding nodig?",
+          "a": "Ja. Regstreekse vertaler het ’n internetverbinding nodig om spraak intyds te verwerk en te vertaal. Vanlyn vertaling word tans nie ondersteun nie."
+        }
+      ]
+    },
+    "audio-transcription": {
+      "meta": {
+        "title": "Oudiotranskripsie: oudio en video na teks op iPhone",
+        "description": "Laai enige oudio- of videolêer op en kry ’n volledige geskrewe transkripsie. 60+ tale, sprekers apart, deursoekbaar. Gebou vir dowe en hardhorende mense.",
+        "schemaDescription": "Laai enige oudio- of videolêer op en kry ’n volledige geskrewe transkripsie. 60+ tale, sprekers apart, tydstempels. Gebou vir dowe en hardhorende mense."
+      },
+      "howTitle": "Laai op. Lees. Klaar.",
+      "steps": [
+        {
+          "title": "Kies wat jy oplaai",
+          "desc": "Kies of jy ’n oudiolêer of ’n videolêer oplaai."
+        },
+        {
+          "title": "Kies ’n lêer",
+          "desc": "Kies die lêer op jou foon. Captio AI begin dadelik transkribeer."
+        },
+        {
+          "title": "Sien die transkripsie",
+          "desc": "Lees die volledige transkripsie, volgens spreker georden en met tydstempels."
+        }
+      ],
+      "featuresTitle": "Gebou vir regte opnames",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Enige formaat",
+          "description": "MP3, MP4, M4A, WAV en meer. Lesings, vergaderings, stemboodskappe, podsendings, onderhoude, foonopnames: as daar spraak in is, kan Captio AI dit transkribeer."
+        },
+        {
+          "title": "Hoogste akkuraatheid",
+          "description": "Captio AI is gebou vir klank uit die regte wêreld, nie net vir skoon ateljeelêers nie. Klank van foonoproepe, opnames in lesingsale, raserige omgewings: Captio AI hanteer dit alles."
+        },
+        {
+          "title": "Enige taal",
+          "description": "Laai ’n opname in Frans, Japannees, Arabies of 57 ander tale op. Captio AI herken die taal en transkribeer dit akkuraat."
+        },
+        {
+          "title": "Verskeie tale",
+          "description": "Wanneer sprekers middel in ’n opname van taal wissel, hou Captio AI by. Die transkripsie wys elke taal wat gepraat is, sonder gapings."
+        },
+        {
+          "title": "Tydstempels",
+          "description": "Elke reël in die transkripsie het ’n tydstempel, sodat jy na enige oomblik in die opname kan spring en presies kan vind wat gesê is en wanneer."
+        },
+        {
+          "title": "Voer uit en deel",
+          "description": "Kopieer die volledige transkripsie, deel dit of stoor dit. Jou opnames en transkripsies is altyd beskikbaar wanneer jy hulle nodig het."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Lêers bly van ons bedieners af",
+          "description": "Jou lêer word net gestuur om getranskribeer te word, word dan daar uitgevee en word nooit op ons bedieners gestoor nie. Die opname bly op jou foon, en die transkripsie word net met jou eie rekening gesinchroniseer."
+        },
+        {
+          "title": "Nie te koop nie",
+          "description": "Captio AI verkoop, deel of verdien nooit geld uit jou opnames nie, aan niemand en om geen enkele rede nie."
+        },
+        {
+          "title": "Word vir geen opleiding gebruik nie",
+          "description": "Wat jy oplaai, of dit nou ’n doktersafspraak, ’n vergadering of ’n onderhoud is, beland nooit in ’n opleidingsdatastel nie. Nie ons s’n nie. Ook nie iemand anders s’n nie."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Hoe verskil Oudiotranskripsie van Regstreekse onderskrifte?",
+          "a": "Regstreekse onderskrifte werk intyds terwyl iemand praat. Oudiotranskripsie is vir opnames: jy laai ’n oudio- of videolêer op en kry ’n volledige geskrewe transkripsie. Dit is ideaal om lesings wat jy opgeneem het, doktersafsprake, onderhoude of enige inhoud wat jy eerder wil lees as luister, weer deur te gaan."
+        },
+        {
+          "q": "Watter lêerformate ondersteun Oudiotranskripsie?",
+          "a": "Captio AI aanvaar algemene oudio- en videoformate, insluitend MP3, MP4, M4A, WAV en meer. As jy dit op jou foon opgeneem het of van ’n videoplatform afgelaai het, sal dit werk."
+        },
+        {
+          "q": "Hoe akkuraat is die transkripsie?",
+          "a": "Vir helder opnames in ondersteunde tale is die akkuraatheid hoog. Captio AI hanteer klank uit die regte wêreld, soos foonoproepe, opnames in lesingsale en raserige omgewings, nie net lêers van ateljeegehalte nie. Jy kan ’n lêer ook ’n tweede keer transkribeer as dit nodig is."
+        },
+        {
+          "q": "Watter tale word ondersteun?",
+          "a": "60+ tale, insluitend Engels, Spaans, Frans, Duits, Mandaryns, Arabies, Hindi, Japannees, Koreaans, Portugees, Russies en baie meer. Captio AI herken outomaties die gesproke taal in die lêer."
+        },
+        {
+          "q": "Skei dit sprekers?",
+          "a": "Ja. Captio AI merk elke spreker apart in die transkripsie, sodat jy kan volg wie wat gesê het. Nuttig vir vergaderings, onderhoude, doktersafsprake en enige opname met meer as een persoon."
+        },
+        {
+          "q": "Hoe lank neem transkripsie?",
+          "a": "Transkripsie is vinnig. ’n Opname van een uur neem gewoonlik ’n paar minute. Die tyd hang af van die lêer se lengte en die klankgehalte."
+        },
+        {
+          "q": "Word my klank ná transkripsie gestoor?",
+          "a": "Nie op die bedieners van Captio AI nie. Die lêer word veilig na ’n spraakherkenningsdiens gestuur, net om getranskribeer te word, en dit word daar uitgevee sodra die transkripsie gereed is. Die opname bly op jou foon, en die transkripsie word ook in jou eie rekening gehou, sodat jy dit op ’n ander toestel kan oopmaak. Jou opnames word nooit verkoop of gebruik om KI-modelle op te lei nie."
+        },
+        {
+          "q": "Kan ek ’n videolêer transkribeer?",
+          "a": "Ja. Laai die videolêer direk op en Captio AI haal die klank uit en transkribeer dit. Jy hoef nie die lêer eers om te skakel nie."
+        }
+      ]
+    },
+    "ai-summary": {
+      "meta": {
+        "title": "KI-opsomming: gestruktureerde opsommings van enige transkripsie",
+        "description": "Verander enige transkripsie in ’n gestruktureerde opsomming. Hoofpunte, besluite en aksiepunte word outomaties uitgehaal. Gebou vir dowe en hardhorende mense.",
+        "schemaDescription": "Verander enige transkripsie in ’n gestruktureerde opsomming. Hoofpunte, besluite, aksiepunte en aanhalings van sprekers word outomaties uitgehaal."
+      },
+      "howTitle": "Transkripsie in. Opsomming uit.",
+      "steps": [
+        {
+          "title": "Maak enige transkripsie oop",
+          "desc": "Kies enige transkripsie uit Regstreekse onderskrifte of Oudiotranskripsie."
+        },
+        {
+          "title": "Skep ’n opsomming",
+          "desc": "Tik op KI-opsomming. Captio AI verwerk die transkripsie outomaties."
+        },
+        {
+          "title": "Lees die opsomming",
+          "desc": "Jou opsomming is gereed, in afdelings georden en klaar om gelees of gedeel te word."
+        }
+      ],
+      "featuresTitle": "Gebou vir lang transkripsies",
+      "featuresSubtitle": "Kry ’n opsomming, doenlyste, aanhalings van sprekers, notas en meer.",
+      "subfeatures": [
+        {
+          "title": "Hoofpunte outomaties uitgehaal",
+          "description": "Captio AI lees die volledige transkripsie en haal uit wat regtig saak gemaak het: die hoofpunte, die besluite wat geneem is en die gevolgtrekkings waartoe gekom is."
+        },
+        {
+          "title": "Aksiepunte uitgelig",
+          "description": "Take en opvolgstappe word uitgeken en apart gelys, sodat niks ná ’n vergadering, afspraak of lesing deur die mat val nie."
+        },
+        {
+          "title": "In afdelings georden",
+          "description": "Die opsomming is gestruktureer, nie een aaneenlopende blok teks nie. Elke onderwerp kry sy eie afdeling, sodat jy vinnig kan deurblaai en kry wat jy nodig het."
+        },
+        {
+          "title": "Werk met enige transkripsie in Captio AI",
+          "description": "Gebruik KI-opsomming op enige transkripsie wat jy met Regstreekse onderskrifte of Oudiotranskripsie geskep het. Geen ekstra stappe nie, geen kopieer en plak nie."
+        },
+        {
+          "title": "Enige taal",
+          "description": "Som transkripsies in 60+ tale op. Captio AI lees die transkripsie in die oorspronklike taal en skep ’n opsomming wat jy kan lees."
+        },
+        {
+          "title": "Stoor en deel",
+          "description": "Hou die opsomming saam met die transkripsie, kopieer dit of deel dit. Nuttig ná doktersafsprake, vergaderings en lesings."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Net in jou rekening gehou",
+          "description": "Jou opsomming word saam met sy opname gestoor, op jou foon en in jou eie rekening, so dit is beskikbaar op enige toestel waarop jy aanmeld. Vee dit uit en dit is oral weg."
+        },
+        {
+          "title": "Nie te koop nie",
+          "description": "Captio AI verkoop, deel of verdien nooit geld uit jou gesprekke nie, aan niemand en om geen enkele rede nie."
+        },
+        {
+          "title": "Word vir geen opleiding gebruik nie",
+          "description": "Wat jy opsom, of dit nou ’n doktersafspraak, ’n vergadering of ’n onderhoud is, beland nooit in ’n opleidingsdatastel nie. Nie ons s’n nie. Ook nie iemand anders s’n nie."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Wat doen KI-opsomming?",
+          "a": "KI-opsomming neem enige transkripsie en haal die belangrikste inligting uit, soos hoofpunte, besluite, aksiepunte en belangrike besonderhede, in ’n gestruktureerde opsomming. Dit spaar tyd wanneer jy ’n lang transkripsie het en vinnig die hoogtepunte nodig het."
+        },
+        {
+          "q": "Watter transkripsies kan ek opsom?",
+          "a": "Enige transkripsie wat in Captio AI geskep is, met Regstreekse onderskrifte of Oudiotranskripsie. Jy gebruik KI-opsomming direk op die transkripsie, sonder ekstra stappe."
+        },
+        {
+          "q": "Hoe verskil KI-opsomming daarvan om net die transkripsie te lees?",
+          "a": "’n Volledige transkripsie van ’n vergadering van een uur kan duisende woorde lank wees. KI-opsomming gee jou die hoofpunte, besluite en aksiepunte in ’n breukdeel van die leestyd, volgens onderwerp georden en nie in die volgorde waarin dinge gesê is nie."
+        },
+        {
+          "q": "Werk dit vir mediese afsprake?",
+          "a": "Ja. ’n Doktersafspraak lewer baie inligting in ’n kort tyd. KI-opsomming haal die diagnose, instruksies en opvolgstappe uit in ’n duidelike lys wat jy kan deurgaan en later weer kan raadpleeg."
+        },
+        {
+          "q": "Watter tale word ondersteun?",
+          "a": "KI-opsomming werk met transkripsies in 60+ tale. Die opsomming word in dieselfde taal as die transkripsie geskep."
+        },
+        {
+          "q": "Kan ek die opsomming stoor of deel?",
+          "a": "Ja. Jy kan die opsomming saam met die oorspronklike transkripsie stoor, dit kopieer of dit deel. Nuttig om ’n opsomming van ’n vergadering te stuur of ’n rekord van ’n mediese afspraak te hou."
+        },
+        {
+          "q": "Stoor KI-opsomming my transkripsie of klank?",
+          "a": "Jou transkripsie word veilig na ’n KI-diens gestuur, net om die opsomming te skryf, en word nooit gebruik om KI-modelle op te lei nie. Die opsomming word saam met die opname gestoor, op jou foon en in jou eie rekening, totdat jy dit uitvee. Klank word nooit op die bedieners van Captio AI gestoor nie, en jou gesprekke word nooit verkoop nie."
+        }
+      ]
+    }
+  }
+}

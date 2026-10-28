@@ -1,0 +1,676 @@
+{
+  "header": {
+    "features": "Tính năng",
+    "useCases": "Tình huống sử dụng",
+    "languages": "Ngôn ngữ",
+    "compare": "So sánh",
+    "blog": "Blog",
+    "download": "Tải về",
+    "toggleMenu": "Mở hoặc đóng menu",
+    "chooseLanguage": "Chọn ngôn ngữ"
+  },
+  "footer": {
+    "tagline": "Phụ đề trực tiếp và công cụ năng suất cho người Điếc và người nghe kém.",
+    "productHuntTagline": "Phụ đề trực tiếp và chép lời cho người Điếc và người nghe kém",
+    "productHunt": "Xem trên Product Hunt →",
+    "featuredOn": "Đã xuất hiện trên",
+    "features": "Tính năng",
+    "useCases": "Tình huống sử dụng",
+    "blog": "Blog",
+    "allArticles": "Tất cả bài viết",
+    "compare": "So sánh",
+    "compareApps": "So sánh ứng dụng phụ đề",
+    "company": "Công ty",
+    "organizations": "Dành cho tổ chức",
+    "privacy": "Chính sách quyền riêng tư",
+    "terms": "Điều khoản dịch vụ"
+  },
+  "store": {
+    "appleOverline": "Tải về trên",
+    "googleOverline": "Tải nội dung trên",
+    "appleQrAlt": "Mã QR để tải Captio AI trên App Store cho iPhone",
+    "googleQrAlt": "Mã QR để tải Captio AI trên Google Play cho Android",
+    "downloadForFree": "Tải miễn phí"
+  },
+  "common": {
+    "home": "Trang chủ",
+    "back": "Quay lại",
+    "goBack": "Quay lại trang trước",
+    "explore": "Khám phá",
+    "featuresLabel": "Tính năng",
+    "howItWorks": "Cách hoạt động",
+    "privacyLabel": "Quyền riêng tư",
+    "privacyTitle": "Những gì bạn nghe, chỉ mình bạn biết.",
+    "privacyImageAlt": "Riêng tư theo mặc định: âm thanh của bạn không được lưu trên máy chủ của chúng tôi, không bao giờ bị bán, không bao giờ dùng để huấn luyện",
+    "faqLabel": "FAQ",
+    "faqTitle": "Câu hỏi thường gặp",
+    "getStarted": "Bắt đầu",
+    "freeToStart": "Bắt đầu dùng Captio AI miễn phí",
+    "allFeatures": "Captio AI có Phụ đề trực tiếp, Dịch trực tiếp, Chép lời âm thanh và Tóm tắt AI.",
+    "featureNames": {
+      "live-captions": "Phụ đề trực tiếp",
+      "live-translator": "Dịch trực tiếp",
+      "audio-transcription": "Chép lời âm thanh",
+      "ai-summary": "Tóm tắt AI"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Captio AI: Phụ đề trực tiếp cho người Điếc và nghe kém",
+      "description": "Captio AI: phụ đề trực tiếp, dịch trực tiếp, chép lời âm thanh và tóm tắt AI cho người Điếc và người nghe kém, ngay trên điện thoại. Hơn 60 ngôn ngữ.",
+      "ogDescription": "Phụ đề trực tiếp theo thời gian thực, dịch trực tiếp, chép lời âm thanh và tóm tắt AI cho người Điếc và người nghe kém. Hơn 60 ngôn ngữ. iPhone và Android.",
+      "schemaDescription": "Phụ đề trực tiếp theo thời gian thực, dịch trực tiếp, chép lời âm thanh và tóm tắt AI cho người Điếc và người nghe kém. Hơn 60 ngôn ngữ."
+    },
+    "eyebrow": "🦻 Trợ năng + 💻 Ứng dụng năng suất",
+    "heroTitle": "[Phụ đề trực tiếp] và [công cụ năng suất] cho người Điếc và người nghe kém.",
+    "heroSubtitle": "Theo kịp mọi cuộc trò chuyện, cuộc họp hay bài giảng. Bằng bất kỳ ngôn ngữ nào.",
+    "mockupAlt": "Ứng dụng Captio AI hiển thị phụ đề trực tiếp và bản dịch",
+    "featuresTitle": "Mọi thứ bạn cần để theo kịp mọi cuộc trò chuyện",
+    "featuresSubtitle": "Bốn công cụ được tạo riêng cho người Điếc và người nghe kém.",
+    "features": {
+      "live-captions": {
+        "title": "Chuyển giọng nói thành văn bản theo thời gian thực",
+        "bullets": [
+          "Từng từ một, theo thời gian thực",
+          "Dùng được ở nơi ồn ào",
+          "Mọi giọng, mọi tốc độ nói",
+          "Không cần đọc khẩu hình"
+        ]
+      },
+      "live-translator": {
+        "title": "Dịch mọi ngôn ngữ theo thời gian thực",
+        "bullets": [
+          "Dịch ngay khi họ nói",
+          "Mỗi người nói ngôn ngữ của mình",
+          "Theo kịp khi đổi ngôn ngữ giữa câu",
+          "Hơn 60 ngôn ngữ"
+        ]
+      },
+      "audio-transcription": {
+        "title": "Chép lời mọi tệp âm thanh hoặc video",
+        "bullets": [
+          "Mọi tệp âm thanh hoặc video",
+          "Sắp xếp theo người nói",
+          "Hơn 60 ngôn ngữ",
+          "Đọc, sao chép, tìm kiếm, chia sẻ"
+        ]
+      },
+      "ai-summary": {
+        "title": "Biến bản chép lời thành bản tóm tắt có cấu trúc",
+        "bullets": [
+          "Ý chính và các quyết định",
+          "Tự rút ra việc cần làm",
+          "Dùng được với mọi bản chép lời",
+          "Chia thành từng phần"
+        ]
+      }
+    },
+    "moreFeaturesTitle": "Thêm tính năng",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "Tác vụ AI",
+        "title": "Việc cần làm, ghi chú và tin nhắn theo dõi",
+        "description": "Biến mọi bản ghi âm thành ý chính, ghi chú chi tiết, việc cần làm, hỏi đáp hoặc tin nhắn theo dõi."
+      },
+      "export": {
+        "label": "Xuất",
+        "title": "Chia sẻ theo cách của bạn",
+        "description": "Gửi phụ đề hoặc bản tóm tắt dưới dạng văn bản, liên kết, PDF, email hoặc câu lệnh cho chat AI."
+      },
+      "folders": {
+        "label": "Thư mục",
+        "title": "Thư mục và thư mục chia sẻ",
+        "description": "Sắp xếp bản ghi âm vào các thư mục và chia sẻ một thư mục với gia đình, bạn học hoặc nhóm của bạn."
+      },
+      "recognize-voices": {
+        "label": "Nhận diện giọng nói",
+        "title": "Hiện tên, không phải “Người nói 2”",
+        "description": "Lưu giọng nói của những người bạn hay trò chuyện để thấy tên họ ngay trong phụ đề."
+      },
+      "speaker-direction": {
+        "label": "Hướng người nói",
+        "title": "Thấy giọng nói đến từ đâu",
+        "description": "Những làn sóng ở mép phụ đề chỉ ra ai đang nói. Từ iPhone 16 trở lên."
+      },
+      "connectors": {
+        "label": "Connectors",
+        "title": "Hỏi ứng dụng chat của bạn",
+        "description": "Hỏi Claude, ChatGPT, Gemini hoặc Perplexity về bất kỳ bản ghi âm nào của bạn."
+      },
+      "widgets": {
+        "label": "Widget",
+        "title": "Phụ đề chỉ với một chạm",
+        "description": "Bật Phụ đề trực tiếp từ Màn hình chính hoặc Màn hình khóa trên iPhone của bạn."
+      }
+    },
+    "useCasesLabel": "Tình huống sử dụng",
+    "useCasesTitle": "Dùng được trong mọi tình huống",
+    "useCasesSubtitle": "Được thiết kế cho những khoảnh khắc thật sự quan trọng, không chỉ ở nơi yên tĩnh, được kiểm soát.",
+    "useCases": {
+      "everyday-conversations": {
+        "label": "Trò chuyện hằng ngày",
+        "description": "Phần lớn cuộc trò chuyện diễn ra nhanh, với tốc độ bình thường, không báo trước. Captio AI hiển thị phụ đề cho từng từ ngay khi được nói, nên bạn theo kịp mà không cần nhờ ai nhắc lại."
+      },
+      "deaf-hoh-communication": {
+        "label": "Giao tiếp với người Điếc và người nghe kém",
+        "description": "Người nghe được thường không biết điều chỉnh thế nào khi nói chuyện với bạn bè Điếc hoặc nghe kém. Captio AI biến lời nói của họ thành phụ đề theo thời gian thực, để cuộc trò chuyện diễn ra tự nhiên ở cả hai phía."
+      },
+      "meetings": {
+        "label": "Cuộc họp",
+        "description": "Trong cuộc họp, quyết định được đưa ra nhanh và mọi người hay nói chen nhau. Captio AI hiển thị phụ đề cho từng người ngay khi họ nói, nên bạn không bao giờ bỏ lỡ một quyết định hay câu hỏi dành cho mình."
+      },
+      "lectures": {
+        "label": "Bài giảng",
+        "description": "Giảng viên nói nhanh, nội dung phức tạp và hiếm khi nhắc lại. Captio AI cho bạn bản chép lời trực tiếp mọi điều được nói, nên bạn tập trung vào nội dung thay vì căng tai để nghe."
+      },
+      "doctor-appointments": {
+        "label": "Khám bệnh",
+        "description": "Bác sĩ nói nhanh và dùng thuật ngữ y khoa dễ nghe nhầm. Captio AI hiển thị mọi điều họ nói theo thời gian thực, nên bạn hiểu được chẩn đoán của mình và đặt đúng câu hỏi."
+      },
+      "job-interviews": {
+        "label": "Phỏng vấn xin việc",
+        "description": "Bỏ lỡ một câu hỏi khi phỏng vấn nghĩa là trả lời sai hoặc phải xin nhắc lại. Captio AI hiển thị từng lời người phỏng vấn nói, nên bạn tập trung hoàn toàn vào câu trả lời."
+      },
+      "phone-video-calls": {
+        "label": "Gọi điện và gọi video",
+        "description": "Gọi điện và gọi video khó theo dõi hơn trò chuyện trực tiếp. Không đọc được khẩu hình, chất lượng âm thanh thường kém. Captio AI hiển thị phụ đề cho bất kỳ ai đang nói theo thời gian thực, nên bạn không cần xin nhắc lại."
+      },
+      "group-settings": {
+        "label": "Khi ở trong nhóm",
+        "description": "Trong nhóm, nhiều người nói cùng lúc và câu chuyện chuyển rất nhanh. Captio AI theo kịp bất kỳ ai đang nói, nên bạn theo dõi được mà không bị lạc mạch câu chuyện."
+      },
+      "restaurants": {
+        "label": "Nhà hàng và quán cà phê",
+        "description": "Tiếng ồn xung quanh khiến lời nói khó nghe, ngay cả với người không bị suy giảm thính lực. Captio AI tập trung vào người đang nói với bạn, nên bạn có thể trò chuyện thật sự giữa ồn ào."
+      },
+      "traveling": {
+        "label": "Du lịch",
+        "description": "Ở sân bay, khách sạn và những thành phố lạ, không có chỗ cho việc nghe nhầm. Captio AI hiển thị phụ đề lời nói bằng hơn 60 ngôn ngữ, nên bạn tự tin đi lại ở bất cứ đâu."
+      },
+      "conferences": {
+        "label": "Hội nghị và sự kiện",
+        "description": "Diễn giả ở xa, âm thanh khó lường và bạn không thể xin nhắc lại. Captio AI cho bạn bản chép lời trực tiếp của mọi diễn giả, nên bạn theo dõi trọn sự kiện từ bất kỳ chỗ ngồi nào."
+      },
+      "tv-media": {
+        "label": "TV và truyền thông",
+        "description": "Phụ đề có sẵn thường sai, chậm hoặc không có. Captio AI hiển thị phụ đề cho bất cứ thứ gì đang phát theo thời gian thực, nên bạn không phụ thuộc vào việc nội dung có phụ đề hay không."
+      }
+    },
+    "languagesLabel": "Ngôn ngữ",
+    "languagesTitle": "Captio AI hỗ trợ hơn 60 ngôn ngữ",
+    "privacyCards": [
+      {
+        "title": "Âm thanh không nằm trên máy chủ của chúng tôi",
+        "description": "Âm thanh của bạn được chuyển thành văn bản theo thời gian thực và không bao giờ được lưu trên máy chủ của chúng tôi. Bản ghi âm bạn lưu vẫn nằm trên điện thoại, còn bản chép lời chỉ được đồng bộ với tài khoản của chính bạn."
+      },
+      {
+        "title": "Không phải món hàng",
+        "description": "Captio AI không bán, chia sẻ hay kiếm tiền từ cuộc trò chuyện của bạn, với bất kỳ ai, vì bất kỳ lý do gì."
+      },
+      {
+        "title": "Không dùng để huấn luyện bất cứ thứ gì",
+        "description": "Những gì bạn nói khi khám bệnh hay phỏng vấn xin việc không bao giờ nằm trong một bộ dữ liệu huấn luyện. Không phải của chúng tôi. Không phải của bất kỳ ai."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Captio AI dành cho ai?",
+        "a": "Captio AI được tạo ra chủ yếu cho người Điếc và người nghe kém cần theo dõi các cuộc trò chuyện bằng lời theo thời gian thực. Ứng dụng cũng được nhiều người khác sử dụng: người bị rối loạn xử lý thính giác, người ở môi trường ồn ào, người học ngoại ngữ và bất kỳ ai thấy đọc nhanh hơn hoặc dễ hơn nghe."
+      },
+      {
+        "q": "Phụ đề trực tiếp chính xác đến mức nào?",
+        "a": "Captio AI dùng công nghệ nhận dạng giọng nói tiên tiến, được xây dựng riêng để chính xác và có độ trễ thấp. Độ chính xác phụ thuộc vào độ rõ của âm thanh, giọng nói và tiếng ồn xung quanh, nhưng trong điều kiện trò chuyện thông thường, độ chính xác rất cao, tương đương các dịch vụ phụ đề chuyên nghiệp."
+      },
+      {
+        "q": "Captio AI hỗ trợ những ngôn ngữ nào?",
+        "a": "Captio AI hỗ trợ hơn 60 ngôn ngữ, gồm tiếng Anh, tiếng Tây Ban Nha, tiếng Pháp, tiếng Đức, tiếng Trung phổ thông, tiếng Ả Rập, tiếng Hindi, tiếng Nhật, tiếng Hàn, tiếng Bồ Đào Nha, tiếng Nga và nhiều ngôn ngữ khác. Mọi ngôn ngữ đều dùng được cho Phụ đề trực tiếp và Dịch trực tiếp. Xem danh sách đầy đủ trên trang này."
+      },
+      {
+        "q": "Captio AI có hiểu các giọng vùng miền và phương ngữ khác nhau không?",
+        "a": "Có. Captio AI xử lý được nhiều giọng vùng miền và phương ngữ, không chỉ cách nói chuẩn trong sách giáo khoa. Ứng dụng hỗ trợ tiếng Anh Úc, tiếng Tây Ban Nha Mỹ Latinh, tiếng Đức Thụy Sĩ, tiếng Bồ Đào Nha Brazil, tiếng Pháp Québec và nhiều biến thể khác."
+      },
+      {
+        "q": "Phụ đề trực tiếp và Dịch trực tiếp khác nhau thế nào?",
+        "a": "Phụ đề trực tiếp chép lại lời nói bằng chính ngôn ngữ gốc. Dịch trực tiếp lấy lời nói đó và dịch sang ngôn ngữ bạn chọn theo thời gian thực, lý tưởng khi người nói và người đọc dùng ngôn ngữ khác nhau, ví dụ một bác sĩ nước ngoài hay một cuộc họp công việc bằng ngôn ngữ khác."
+      },
+      {
+        "q": "Captio AI có lưu hoặc chia sẻ âm thanh của tôi không?",
+        "a": "Âm thanh của bạn không bao giờ được lưu trên máy chủ của Captio AI và không bao giờ bị bán hay chia sẻ cho quảng cáo. Âm thanh chỉ được gửi an toàn đến một dịch vụ nhận dạng giọng nói để chuyển thành văn bản, rồi bị xóa ở đó. Bản ghi âm bạn chọn lưu vẫn nằm trên điện thoại; bản chép lời và bản tóm tắt của chúng cũng được giữ trong tài khoản của chính bạn để bạn mở trên thiết bị khác, và khi bạn xóa một bản ghi âm, nó biến mất ở mọi nơi. Cuộc trò chuyện của bạn không bao giờ được dùng để huấn luyện mô hình AI, dù là của chúng tôi hay của bất kỳ ai."
+      },
+      {
+        "q": "Captio AI có dùng được khi không có internet không?",
+        "a": "Phụ đề trực tiếp và Dịch trực tiếp cần kết nối internet để xử lý lời nói theo thời gian thực. Chép lời âm thanh (cho tệp tải lên) cũng cần kết nối. Hiện chưa hỗ trợ phụ đề ngoại tuyến."
+      },
+      {
+        "q": "Tôi cần điện thoại hay iPad nào?",
+        "a": "Captio AI chạy trên iPhone và iPad với iOS 16 trở lên, và trên điện thoại Android. Ứng dụng được tối ưu cho điện thoại và hoạt động tốt nhất khi không có gì chắn giữa micrô và người nói."
+      },
+      {
+        "q": "Tôi có thể dùng Captio AI khi đi khám bệnh không?",
+        "a": "Có. Khám bệnh là một trong những tình huống sử dụng quan trọng nhất. Bạn có thể đặt điện thoại lên bàn hoặc cầm hướng về phía bác sĩ và đọc mọi điều họ nói theo thời gian thực. Thuật ngữ y khoa được xử lý chính xác, khiến Captio AI trở thành công cụ trợ năng thiết thực trong môi trường y tế."
+      },
+      {
+        "q": "Tôi có thể dùng Captio AI trong cuộc họp và bài giảng không?",
+        "a": "Có. Captio AI hoạt động ở bất kỳ đâu có lời nói: họp công việc, bài giảng đại học, họp nhanh của nhóm, hội nghị và gọi video. Hướng micrô về phía người nói và phụ đề hiện ra ngay lập tức."
+      },
+      {
+        "q": "Chép lời âm thanh là gì và khác Phụ đề trực tiếp thế nào?",
+        "a": "Phụ đề trực tiếp hoạt động theo thời gian thực khi ai đó đang nói. Chép lời âm thanh dành cho bản ghi âm: bạn tải lên một tệp âm thanh hoặc video và nhận bản chép lời đầy đủ. Lý tưởng để xem lại bài giảng bạn đã ghi âm, phỏng vấn, podcast hay bất kỳ nội dung nào bạn muốn đọc thay vì nghe."
+      },
+      {
+        "q": "Tính năng Tóm tắt AI làm được gì?",
+        "a": "Tóm tắt AI lấy bất kỳ bản chép lời nào và rút ra thông tin quan trọng, gồm ý chính, quyết định đã đưa ra, việc cần làm và các chi tiết đáng chú ý, thành một bản tóm tắt có cấu trúc. Tính năng này giúp bạn tiết kiệm thời gian khi có bản chép lời dài từ một cuộc họp hay bài giảng và cần nắm nhanh điểm chính."
+      },
+      {
+        "q": "Captio AI có miễn phí không?",
+        "a": "Captio AI có gói miễn phí để bạn bắt đầu mà không cần trả tiền. Gói Plus dành cho người cần dùng không giới hạn. Giá Plus hiện tại ở quốc gia của bạn được hiển thị trên trang App Store."
+      },
+      {
+        "q": "Captio AI khác gì Phụ đề trực tiếp có sẵn của Apple?",
+        "a": "Phụ đề trực tiếp của Apple có sẵn trong iOS nhưng hỗ trợ ít ngôn ngữ hơn, không có tính năng dịch và không có Chép lời âm thanh hay Tóm tắt AI. Captio AI hỗ trợ hơn 60 ngôn ngữ, dịch theo thời gian thực, cho phép chép lời tệp tải lên và tạo bản tóm tắt AI, nên là một công cụ trợ năng và năng suất đầy đủ hơn nhiều."
+      }
+    ]
+  },
+  "featurePages": {
+    "live-captions": {
+      "meta": {
+        "title": "Phụ đề trực tiếp cho người Điếc và nghe kém trên iPhone",
+        "description": "Chuyển giọng nói thành văn bản tức thì qua micrô iPhone. Theo kịp mọi cuộc trò chuyện, bằng mọi ngôn ngữ. Dành cho người Điếc và người nghe kém.",
+        "schemaDescription": "Phụ đề trực tiếp theo thời gian thực cho người Điếc và người nghe kém. Hơn 60 ngôn ngữ, độ trễ chưa tới một giây, dùng được ở mọi nơi."
+      },
+      "howTitle": "Ba lần chạm. Trọn cuộc trò chuyện.",
+      "steps": [
+        {
+          "title": "Bắt đầu ghi âm",
+          "desc": "Nhấn nút ghi âm. Captio AI bắt đầu nghe ngay lập tức."
+        },
+        {
+          "title": "Xem chữ hiện ra",
+          "desc": "Phụ đề hiện từng từ một trong lúc người đó vẫn đang nói."
+        },
+        {
+          "title": "Lưu lại",
+          "desc": "Giữ bản chép lời và bản ghi âm để xem sau."
+        }
+      ],
+      "featuresTitle": "Được tạo cho những cuộc trò chuyện thật",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Đúng từng lời đã nói",
+          "description": "Captio AI ghi lại đúng những gì một người đã nói, không phải một bản diễn đạt đại khái. Nhờ vậy bạn có thể tin bản chép lời vào lúc quan trọng: khi khám bệnh, khi phỏng vấn, trong cuộc họp."
+        },
+        {
+          "title": "Không độ trễ",
+          "description": "Độ trễ chưa tới một giây. Phụ đề hiện từng từ trong lúc người đó vẫn đang nói, nên bạn đọc được lời họ đúng lúc mọi người khác nghe thấy."
+        },
+        {
+          "title": "Biết ai đang nói",
+          "description": "Trong nhóm và cuộc họp, Captio AI gắn nhãn riêng cho từng người nói, nên bạn luôn biết ai nói gì mà không cần nhìn mặt hay theo dõi khẩu hình."
+        },
+        {
+          "title": "Hơn 60 ngôn ngữ",
+          "description": "Theo dõi một cuộc trò chuyện bằng tiếng Pháp, tiếng Nhật hay tiếng Ả Rập giống như bằng tiếng Anh. Không cần chuyển chế độ. Mất thính lực không bao giờ thành thêm rào cản ngôn ngữ."
+        },
+        {
+          "title": "Xử lý được ngôn ngữ trộn lẫn giữa câu",
+          "description": "Khi mọi người đổi ngôn ngữ giữa cuộc trò chuyện, Captio AI vẫn theo kịp. Phụ đề không bị ngắt quãng, không có chế độ nào phải chuyển."
+        },
+        {
+          "title": "Dạy ứng dụng từ vựng của bạn",
+          "description": "Thêm tên người, thuật ngữ y khoa hay từ chuyên ngành bạn hay nghe. Captio AI dùng danh sách từ vựng của bạn để tạo phụ đề chính xác hơn cho những cuộc trò chuyện thật của bạn."
+        },
+        {
+          "title": "Thêm gợi ý ngôn ngữ",
+          "description": "Cho Captio AI biết ngôn ngữ sắp được nói và ứng dụng bắt nhịp ngay từ từ đầu tiên, hữu ích khi khó đoán ngôn ngữ từ ngữ cảnh."
+        },
+        {
+          "title": "Chép lời lại sau để chính xác hơn",
+          "description": "Chạy lại bất kỳ bản ghi âm nào sau đó để có bản chép lời gọn gàng hơn. Hữu ích cho bài giảng, buổi khám và mọi cuộc trò chuyện đáng xem lại."
+        },
+        {
+          "title": "Đọc theo cách của bạn",
+          "description": "Chỉnh cỡ chữ, màu nền và độ tương phản cho tới khi phụ đề dễ đọc chỉ trong một cái liếc, dù điện thoại cầm trên tay, đặt phẳng trên bàn hay dựng trên bàn làm việc."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Âm thanh không nằm trên máy chủ của chúng tôi",
+          "description": "Âm thanh của bạn được chuyển thành văn bản theo thời gian thực và không bao giờ được lưu trên máy chủ của chúng tôi. Bản ghi âm bạn lưu vẫn nằm trên điện thoại, còn bản chép lời chỉ được đồng bộ với tài khoản của chính bạn."
+        },
+        {
+          "title": "Không phải món hàng",
+          "description": "Captio AI không bán, chia sẻ hay kiếm tiền từ cuộc trò chuyện của bạn, với bất kỳ ai, vì bất kỳ lý do gì."
+        },
+        {
+          "title": "Không dùng để huấn luyện bất cứ thứ gì",
+          "description": "Những gì bạn nói khi khám bệnh hay phỏng vấn xin việc không bao giờ nằm trong một bộ dữ liệu huấn luyện. Không phải của chúng tôi. Không phải của bất kỳ ai."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Captio AI khác gì Phụ đề trực tiếp có sẵn của Apple?",
+          "a": "Phụ đề trực tiếp của Apple hỗ trợ ít ngôn ngữ hơn, không có tính năng dịch và không có Chép lời âm thanh hay Tóm tắt AI. Captio AI hỗ trợ hơn 60 ngôn ngữ, dịch theo thời gian thực, cho phép chép lời tệp tải lên và tạo bản tóm tắt AI. Bạn cũng có thể tùy chỉnh cỡ chữ, màu sắc và độ tương phản sao cho dễ đọc nhất với mình."
+        },
+        {
+          "q": "Phụ đề trực tiếp chính xác đến mức nào?",
+          "a": "Độ chính xác cao trong điều kiện trò chuyện thông thường. Captio AI được tạo cho lời nói thật, không chỉ âm thanh phòng thu sạch, nên xử lý được người nói nhanh, giọng vùng miền, tiếng ồn xung quanh và câu trộn nhiều ngôn ngữ. Bạn cũng có thể thêm từ vựng riêng (tên người, thuật ngữ y khoa, từ chuyên ngành) để tăng độ chính xác cho các cuộc trò chuyện của mình."
+        },
+        {
+          "q": "Phụ đề hiện ra nhanh đến mức nào?",
+          "a": "Từng từ một, trong lúc người đó vẫn đang nói. Độ trễ chưa tới một giây, gần như theo thời gian thực. Bạn đọc lời một người đúng lúc mọi người khác nghe thấy, không phải sau khi họ nói hết câu."
+        },
+        {
+          "q": "Phụ đề trực tiếp có dùng được ở nơi ồn ào không?",
+          "a": "Có. Captio AI được thiết kế cho môi trường thật: nhà hàng, đường phố, phòng chờ, phương tiện công cộng. Hướng micrô về phía người nói và phụ đề sẽ hiện ra bất kể tiếng ồn xung quanh."
+        },
+        {
+          "q": "Phụ đề trực tiếp hỗ trợ những ngôn ngữ nào?",
+          "a": "Hơn 60 ngôn ngữ, gồm tiếng Anh, tiếng Tây Ban Nha, tiếng Pháp, tiếng Đức, tiếng Trung phổ thông, tiếng Ả Rập, tiếng Hindi, tiếng Nhật, tiếng Hàn, tiếng Bồ Đào Nha, tiếng Nga và nhiều ngôn ngữ khác. Giọng vùng miền và phương ngữ được hỗ trợ ở mọi ngôn ngữ chính."
+        },
+        {
+          "q": "Ứng dụng có hiểu giọng vùng miền và phương ngữ không?",
+          "a": "Có. Captio AI xử lý được nhiều giọng vùng miền, không chỉ cách nói chuẩn trong sách giáo khoa. Tiếng Anh Úc, tiếng Tây Ban Nha Mỹ Latinh, tiếng Đức Thụy Sĩ, tiếng Pháp Québec và nhiều biến thể khác đều được hỗ trợ."
+        },
+        {
+          "q": "Tôi có thể lưu phụ đề không?",
+          "a": "Có. Bạn có thể lưu bản chép lời và bản ghi âm sau mỗi phiên và xem lại sau. Bạn cũng có thể chép lời lại một bản ghi âm đã lưu để có bản chép lời gọn gàng, chính xác hơn."
+        },
+        {
+          "q": "Tôi có cần kết nối internet không?",
+          "a": "Có. Phụ đề trực tiếp cần kết nối internet để xử lý lời nói theo thời gian thực. Hiện chưa hỗ trợ phụ đề ngoại tuyến."
+        }
+      ]
+    },
+    "live-translator": {
+      "meta": {
+        "title": "Dịch trực tiếp: Dịch giọng nói tức thì trên iPhone",
+        "description": "Dịch giọng nói theo thời gian thực trên iPhone. Người kia nói ngôn ngữ của họ, bạn đọc bằng ngôn ngữ của bạn. Dành cho người Điếc và người nghe kém.",
+        "schemaDescription": "Dịch giọng nói theo thời gian thực cho người Điếc và người nghe kém. Hơn 60 ngôn ngữ, mỗi người nói ngôn ngữ của mình, bạn đọc bằng ngôn ngữ của bạn."
+      },
+      "howTitle": "Ba lần chạm. Mọi ngôn ngữ.",
+      "steps": [
+        {
+          "title": "Chọn chế độ dịch",
+          "desc": "Mở Captio AI và chọn Dịch trực tiếp."
+        },
+        {
+          "title": "Chọn ngôn ngữ mong muốn",
+          "desc": "Chọn ngôn ngữ bạn muốn đọc."
+        },
+        {
+          "title": "Xem bản dịch theo thời gian thực",
+          "desc": "Captio AI dịch từng từ một."
+        }
+      ],
+      "featuresTitle": "Được tạo cho những cuộc trò chuyện thật",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Mọi ngôn ngữ",
+          "description": "Tiếng Pháp, tiếng Nhật, tiếng Ả Rập, tiếng Tây Ban Nha, tiếng Đức, tiếng Trung phổ thông: hơn 60 ngôn ngữ, theo mọi chiều. Mất thính lực không bao giờ thành thêm rào cản ngôn ngữ."
+        },
+        {
+          "title": "Tự nhận diện ngôn ngữ đang nói",
+          "description": "Để ngôn ngữ nguồn ở chế độ tự động và Captio AI sẽ nhận ra ngay từ những từ đầu tiên. Không cần chọn thủ công trước mỗi cuộc trò chuyện."
+        },
+        {
+          "title": "Không chậm trễ",
+          "description": "Độ trễ của bản dịch chưa tới một giây. Bạn đọc lời một người đúng lúc mọi người khác nghe thấy, không phải sau khi họ nói hết câu."
+        },
+        {
+          "title": "Thêm gợi ý ngôn ngữ",
+          "description": "Cho Captio AI biết ngôn ngữ sắp được nói và ứng dụng bắt nhịp ngay từ từ đầu tiên, hữu ích khi khó đoán ngôn ngữ từ ngữ cảnh."
+        },
+        {
+          "title": "Nhiều ngôn ngữ cùng lúc",
+          "description": "Khi mọi người đổi ngôn ngữ giữa cuộc trò chuyện, Captio AI vẫn theo kịp, dịch từng ngôn ngữ sang ngôn ngữ của bạn mà không cần thao tác thủ công."
+        },
+        {
+          "title": "Đọc theo cách của bạn",
+          "description": "Chỉnh màu nền, màu chữ và cỡ chữ để bản dịch dễ đọc chỉ trong một cái liếc, dù điện thoại trên tay bạn hay đặt phẳng trên bàn."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Âm thanh không nằm trên máy chủ của chúng tôi",
+          "description": "Âm thanh của bạn được chuyển thành văn bản theo thời gian thực và không bao giờ được lưu trên máy chủ của chúng tôi. Bản ghi âm bạn lưu vẫn nằm trên điện thoại, còn bản chép lời chỉ được đồng bộ với tài khoản của chính bạn."
+        },
+        {
+          "title": "Không phải món hàng",
+          "description": "Captio AI không bán, chia sẻ hay kiếm tiền từ cuộc trò chuyện của bạn, với bất kỳ ai, vì bất kỳ lý do gì."
+        },
+        {
+          "title": "Không dùng để huấn luyện bất cứ thứ gì",
+          "description": "Những gì bạn nói khi khám bệnh hay phỏng vấn xin việc không bao giờ nằm trong một bộ dữ liệu huấn luyện. Không phải của chúng tôi. Không phải của bất kỳ ai."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Dịch trực tiếp khác Phụ đề trực tiếp thế nào?",
+          "a": "Phụ đề trực tiếp chép lại lời nói bằng chính ngôn ngữ gốc. Dịch trực tiếp lấy lời nói đó và dịch sang ngôn ngữ bạn chọn theo thời gian thực. Nếu người kia nói tiếng Pháp và bạn đọc tiếng Anh, bạn sẽ dùng Dịch trực tiếp."
+        },
+        {
+          "q": "Bản dịch chính xác đến mức nào?",
+          "a": "Độ chính xác của bản dịch cao với các cặp ngôn ngữ phổ biến trong trò chuyện hằng ngày. Captio AI xử lý lời nói tự nhiên như người nói nhanh, giọng vùng miền, tiếng ồn xung quanh, chứ không chỉ âm thanh phòng thu sạch. Với các cặp ngôn ngữ hiếm hoặc nội dung chuyên môn sâu, độ chính xác có thể khác nhau."
+        },
+        {
+          "q": "Ứng dụng hỗ trợ những ngôn ngữ nào?",
+          "a": "Hơn 60 ngôn ngữ, gồm tiếng Anh, tiếng Tây Ban Nha, tiếng Pháp, tiếng Đức, tiếng Trung phổ thông, tiếng Ả Rập, tiếng Hindi, tiếng Nhật, tiếng Hàn, tiếng Bồ Đào Nha, tiếng Nga và nhiều ngôn ngữ khác. Cả ngôn ngữ nguồn và ngôn ngữ đích đều có thể là bất kỳ ngôn ngữ nào được hỗ trợ."
+        },
+        {
+          "q": "Bản dịch hiện ra nhanh đến mức nào?",
+          "a": "Độ trễ chưa tới một giây. Bạn đọc bản dịch từng từ một trong lúc người đó vẫn đang nói, gần như theo thời gian thực, không phải sau khi họ nói hết câu."
+        },
+        {
+          "q": "Có dùng được khi khám với bác sĩ nói tiếng nước ngoài không?",
+          "a": "Có. Đây là một trong những tình huống sử dụng quan trọng nhất. Đặt điện thoại lên bàn, chọn ngôn ngữ nguồn là ngôn ngữ của bác sĩ và đọc mọi điều họ nói bằng ngôn ngữ của bạn theo thời gian thực. Bạn cũng có thể lưu bản chép lời đã dịch để xem lại hướng dẫn của bác sĩ sau đó."
+        },
+        {
+          "q": "Có dùng được ở nơi ồn ào không?",
+          "a": "Có. Captio AI được tạo cho môi trường thật: phòng chờ, nhà hàng, sân bay. Hướng micrô về phía người nói và bản dịch sẽ hiện ra bất kể tiếng ồn xung quanh."
+        },
+        {
+          "q": "Tôi có thể lưu bản chép lời đã dịch không?",
+          "a": "Có. Sau mỗi phiên, bạn có thể lưu văn bản đã dịch và xem lại sau. Hữu ích cho buổi khám bệnh, cuộc họp và mọi cuộc trò chuyện bạn muốn lưu lại."
+        },
+        {
+          "q": "Tôi có cần kết nối internet không?",
+          "a": "Có. Dịch trực tiếp cần kết nối internet để xử lý và dịch lời nói theo thời gian thực. Hiện chưa hỗ trợ dịch ngoại tuyến."
+        }
+      ]
+    },
+    "audio-transcription": {
+      "meta": {
+        "title": "Chép lời âm thanh: Âm thanh, video thành văn bản trên iPhone",
+        "description": "Tải tệp âm thanh hoặc video lên và nhận bản chép lời đầy đủ. Hơn 60 ngôn ngữ, tách người nói, tìm kiếm được. Dành cho người Điếc và người nghe kém.",
+        "schemaDescription": "Tải lên bất kỳ tệp âm thanh hoặc video nào và nhận bản chép lời đầy đủ. Hơn 60 ngôn ngữ, tách người nói, mốc thời gian. Dành cho người Điếc và người nghe kém."
+      },
+      "howTitle": "Tải lên. Đọc. Xong.",
+      "steps": [
+        {
+          "title": "Chọn định dạng tải lên",
+          "desc": "Chọn bạn đang tải lên tệp âm thanh hay tệp video."
+        },
+        {
+          "title": "Chọn tệp",
+          "desc": "Chọn tệp từ điện thoại. Captio AI bắt đầu chép lời ngay lập tức."
+        },
+        {
+          "title": "Xem bản chép lời",
+          "desc": "Đọc toàn bộ bản chép lời, sắp xếp theo người nói, có mốc thời gian."
+        }
+      ],
+      "featuresTitle": "Được tạo cho những bản ghi âm thật",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Mọi định dạng",
+          "description": "MP3, MP4, M4A, WAV và nhiều định dạng khác. Bài giảng, cuộc họp, thư thoại, podcast, phỏng vấn, ghi âm cuộc gọi: chỉ cần có lời nói, Captio AI đều chép lời được."
+        },
+        {
+          "title": "Độ chính xác cao nhất",
+          "description": "Captio AI được tạo cho âm thanh ngoài đời thực, không chỉ tệp phòng thu sạch. Âm thanh cuộc gọi, ghi âm trong giảng đường, môi trường ồn ào: ứng dụng đều xử lý được."
+        },
+        {
+          "title": "Mọi ngôn ngữ",
+          "description": "Tải lên bản ghi âm bằng tiếng Pháp, tiếng Nhật, tiếng Ả Rập hoặc 57 ngôn ngữ khác. Captio AI nhận diện ngôn ngữ và chép lời chính xác."
+        },
+        {
+          "title": "Nhiều ngôn ngữ",
+          "description": "Khi người nói đổi ngôn ngữ giữa bản ghi âm, Captio AI vẫn theo kịp. Bản chép lời thể hiện mọi ngôn ngữ đã được nói, không bỏ sót."
+        },
+        {
+          "title": "Mốc thời gian",
+          "description": "Mỗi dòng trong bản chép lời đều có mốc thời gian, nên bạn có thể chuyển tới bất kỳ khoảnh khắc nào trong bản ghi âm và tìm chính xác điều gì đã được nói, vào lúc nào."
+        },
+        {
+          "title": "Xuất và chia sẻ",
+          "description": "Sao chép toàn bộ bản chép lời, chia sẻ hoặc lưu lại. Bản ghi âm và bản chép lời của bạn luôn sẵn sàng bất cứ khi nào bạn cần."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Tệp không nằm trên máy chủ của chúng tôi",
+          "description": "Tệp của bạn chỉ được gửi đi để chép lời, rồi bị xóa ở đó và không bao giờ được lưu trên máy chủ của chúng tôi. Bản ghi âm vẫn nằm trên điện thoại, còn bản chép lời chỉ được đồng bộ với tài khoản của chính bạn."
+        },
+        {
+          "title": "Không phải món hàng",
+          "description": "Captio AI không bán, chia sẻ hay kiếm tiền từ bản ghi âm của bạn, với bất kỳ ai, vì bất kỳ lý do gì."
+        },
+        {
+          "title": "Không dùng để huấn luyện bất cứ thứ gì",
+          "description": "Những gì bạn tải lên, dù là buổi khám bệnh, cuộc họp hay buổi phỏng vấn, không bao giờ nằm trong một bộ dữ liệu huấn luyện. Không phải của chúng tôi. Không phải của bất kỳ ai."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Chép lời âm thanh khác Phụ đề trực tiếp thế nào?",
+          "a": "Phụ đề trực tiếp hoạt động theo thời gian thực khi ai đó đang nói. Chép lời âm thanh dành cho bản ghi âm: bạn tải lên một tệp âm thanh hoặc video và nhận bản chép lời đầy đủ. Lý tưởng để xem lại bài giảng bạn đã ghi âm, buổi khám bệnh, phỏng vấn hay bất kỳ nội dung nào bạn muốn đọc thay vì nghe."
+        },
+        {
+          "q": "Chép lời âm thanh hỗ trợ những định dạng tệp nào?",
+          "a": "Captio AI nhận các định dạng âm thanh và video phổ biến, gồm MP3, MP4, M4A, WAV và nhiều định dạng khác. Dù bạn ghi bằng điện thoại hay tải về từ một nền tảng video, tệp đều dùng được."
+        },
+        {
+          "q": "Bản chép lời chính xác đến mức nào?",
+          "a": "Độ chính xác cao với bản ghi âm rõ ràng bằng các ngôn ngữ được hỗ trợ. Captio AI xử lý âm thanh ngoài đời thực như cuộc gọi, ghi âm trong giảng đường, môi trường ồn ào, chứ không chỉ tệp chất lượng phòng thu. Bạn cũng có thể chép lời lại một tệp để xử lý lần thứ hai nếu cần."
+        },
+        {
+          "q": "Ứng dụng hỗ trợ những ngôn ngữ nào?",
+          "a": "Hơn 60 ngôn ngữ, gồm tiếng Anh, tiếng Tây Ban Nha, tiếng Pháp, tiếng Đức, tiếng Trung phổ thông, tiếng Ả Rập, tiếng Hindi, tiếng Nhật, tiếng Hàn, tiếng Bồ Đào Nha, tiếng Nga và nhiều ngôn ngữ khác. Captio AI tự nhận diện ngôn ngữ được nói trong tệp."
+        },
+        {
+          "q": "Ứng dụng có tách người nói không?",
+          "a": "Có. Captio AI gắn nhãn riêng cho từng người nói trong bản chép lời, nên bạn theo dõi được ai đã nói gì. Hữu ích cho cuộc họp, phỏng vấn, buổi khám bệnh và mọi bản ghi âm có nhiều người."
+        },
+        {
+          "q": "Chép lời mất bao lâu?",
+          "a": "Chép lời rất nhanh. Bản ghi âm một giờ thường chỉ mất vài phút. Thời gian phụ thuộc vào độ dài tệp và chất lượng âm thanh."
+        },
+        {
+          "q": "Âm thanh của tôi có được lưu sau khi chép lời không?",
+          "a": "Không lưu trên máy chủ của Captio AI. Tệp chỉ được gửi an toàn đến một dịch vụ nhận dạng giọng nói để chép lời và bị xóa ở đó ngay khi bản chép lời sẵn sàng. Bản ghi âm vẫn nằm trên điện thoại, và bản chép lời của nó cũng được giữ trong tài khoản của chính bạn để bạn mở trên thiết bị khác. Bản ghi âm của bạn không bao giờ bị bán hay dùng để huấn luyện mô hình AI."
+        },
+        {
+          "q": "Tôi có thể chép lời tệp video không?",
+          "a": "Có. Tải thẳng tệp video lên và Captio AI sẽ tách âm thanh rồi chép lời. Không cần chuyển đổi tệp trước."
+        }
+      ]
+    },
+    "ai-summary": {
+      "meta": {
+        "title": "Tóm tắt AI: Tóm tắt có cấu trúc cho mọi bản chép lời",
+        "description": "Biến mọi bản chép lời thành bản tóm tắt có cấu trúc. Tự động rút ra ý chính, quyết định và việc cần làm. Dành cho người Điếc và người nghe kém.",
+        "schemaDescription": "Biến mọi bản chép lời thành bản tóm tắt có cấu trúc. Tự động rút ra ý chính, quyết định, việc cần làm và trích dẫn của người nói."
+      },
+      "howTitle": "Đưa bản chép lời vào. Nhận bản tóm tắt.",
+      "steps": [
+        {
+          "title": "Mở một bản chép lời",
+          "desc": "Chọn bất kỳ bản chép lời nào từ Phụ đề trực tiếp hoặc Chép lời âm thanh."
+        },
+        {
+          "title": "Tạo bản tóm tắt",
+          "desc": "Chạm vào Tóm tắt AI. Captio AI tự động xử lý bản chép lời."
+        },
+        {
+          "title": "Đọc bản tóm tắt",
+          "desc": "Bản tóm tắt đã sẵn sàng, chia thành từng phần, để bạn đọc hoặc chia sẻ."
+        }
+      ],
+      "featuresTitle": "Được tạo cho những bản chép lời dài",
+      "featuresSubtitle": "Nhận bản tóm tắt, việc cần làm, trích dẫn của người nói, ghi chú và nhiều hơn nữa.",
+      "subfeatures": [
+        {
+          "title": "Tự động rút ra ý chính",
+          "description": "Captio AI đọc toàn bộ bản chép lời và rút ra những gì thật sự quan trọng: các ý chính, quyết định đã đưa ra và kết luận đạt được."
+        },
+        {
+          "title": "Làm nổi bật việc cần làm",
+          "description": "Các nhiệm vụ và việc cần theo dõi được nhận diện và liệt kê riêng, nên không gì bị bỏ sót sau cuộc họp, buổi khám hay bài giảng."
+        },
+        {
+          "title": "Chia thành từng phần",
+          "description": "Bản tóm tắt có cấu trúc, không phải một khối chữ liền mạch. Mỗi chủ đề có phần riêng, nên bạn lướt qua và tìm thấy điều mình cần."
+        },
+        {
+          "title": "Dùng được với mọi bản chép lời của Captio AI",
+          "description": "Chạy Tóm tắt AI trên bất kỳ bản chép lời nào bạn đã tạo bằng Phụ đề trực tiếp hoặc Chép lời âm thanh. Không thêm bước nào, không cần sao chép dán."
+        },
+        {
+          "title": "Mọi ngôn ngữ",
+          "description": "Tóm tắt bản chép lời bằng hơn 60 ngôn ngữ. Captio AI đọc bản chép lời bằng ngôn ngữ gốc và tạo bản tóm tắt bạn đọc được."
+        },
+        {
+          "title": "Lưu và chia sẻ",
+          "description": "Giữ bản tóm tắt cùng bản chép lời, sao chép hoặc chia sẻ. Hữu ích sau buổi khám bệnh, cuộc họp và bài giảng."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Chỉ giữ trong tài khoản của bạn",
+          "description": "Bản tóm tắt được lưu cùng bản ghi âm của nó, trên điện thoại và trong tài khoản của chính bạn, nên bạn mở được trên mọi thiết bị đã đăng nhập. Xóa đi là nó biến mất ở mọi nơi."
+        },
+        {
+          "title": "Không phải món hàng",
+          "description": "Captio AI không bán, chia sẻ hay kiếm tiền từ cuộc trò chuyện của bạn, với bất kỳ ai, vì bất kỳ lý do gì."
+        },
+        {
+          "title": "Không dùng để huấn luyện bất cứ thứ gì",
+          "description": "Những gì bạn tóm tắt, dù là buổi khám bệnh, cuộc họp hay buổi phỏng vấn, không bao giờ nằm trong một bộ dữ liệu huấn luyện. Không phải của chúng tôi. Không phải của bất kỳ ai."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Tóm tắt AI làm được gì?",
+          "a": "Tóm tắt AI lấy bất kỳ bản chép lời nào và rút ra thông tin quan trọng, gồm ý chính, quyết định, việc cần làm và các chi tiết đáng chú ý, thành một bản tóm tắt có cấu trúc. Tính năng này giúp bạn tiết kiệm thời gian khi có bản chép lời dài và cần nắm nhanh điểm chính."
+        },
+        {
+          "q": "Tôi có thể tóm tắt những bản chép lời nào?",
+          "a": "Bất kỳ bản chép lời nào được tạo trong Captio AI, từ Phụ đề trực tiếp hoặc Chép lời âm thanh. Bạn chạy Tóm tắt AI trực tiếp trên bản chép lời, không thêm bước nào."
+        },
+        {
+          "q": "Tóm tắt AI khác gì so với chỉ đọc bản chép lời?",
+          "a": "Bản chép lời đầy đủ của một cuộc họp một giờ có thể dài hàng nghìn từ. Tóm tắt AI cho bạn ý chính, quyết định và việc cần làm chỉ trong một phần nhỏ thời gian đọc, sắp xếp theo chủ đề chứ không theo thứ tự mọi người đã nói."
+        },
+        {
+          "q": "Có dùng được cho buổi khám bệnh không?",
+          "a": "Có. Một buổi khám bệnh mang lại rất nhiều thông tin trong thời gian ngắn. Tóm tắt AI rút ra chẩn đoán, hướng dẫn và các bước tiếp theo thành một danh sách rõ ràng để bạn xem lại và tra cứu sau."
+        },
+        {
+          "q": "Ứng dụng hỗ trợ những ngôn ngữ nào?",
+          "a": "Tóm tắt AI hoạt động với bản chép lời bằng hơn 60 ngôn ngữ. Bản tóm tắt được tạo bằng cùng ngôn ngữ với bản chép lời."
+        },
+        {
+          "q": "Tôi có thể lưu hoặc chia sẻ bản tóm tắt không?",
+          "a": "Có. Bạn có thể lưu bản tóm tắt cùng bản chép lời gốc, sao chép hoặc chia sẻ. Hữu ích để gửi tóm tắt cuộc họp hoặc lưu lại hồ sơ buổi khám bệnh."
+        },
+        {
+          "q": "Tóm tắt AI có lưu bản chép lời hay âm thanh của tôi không?",
+          "a": "Bản chép lời của bạn chỉ được gửi an toàn đến một dịch vụ AI để viết bản tóm tắt và không bao giờ được dùng để huấn luyện mô hình AI. Bản tóm tắt được lưu cùng bản ghi âm, trên điện thoại và trong tài khoản của chính bạn, cho đến khi bạn xóa. Âm thanh không bao giờ được lưu trên máy chủ của Captio AI, và cuộc trò chuyện của bạn không bao giờ bị bán."
+        }
+      ]
+    }
+  }
+}

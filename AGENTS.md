@@ -12,6 +12,7 @@ SEO + AEO (Answer Engine Optimization): the site is the app's main acquisition c
 ## Routes (all statically generated from data files)
 - `/` homepage, `/[language]` (60), `/use-cases/[slug]` (12), `/use-cases/[slug]/[language]` (720)
 - Feature pages: `/live-captions`, `/live-translator`, `/audio-transcription`, `/ai-summary`
+- The home page and the feature pages in 59 more languages: `/de`, `/de/live-captions`… (words in `src/i18n/messages/`, see CLAUDE.md "Translated pages")
 - `/privacy`, `/terms`
 - Blog: `/blog`, `/blog/[slug]` and friends, written daily from `content/blog/` (read `content/blog/PLAYBOOK.md` first)
 - `/demo`, `/pricing`, `/support` no longer exist; they redirect (see `next.config.ts`).

@@ -1,0 +1,676 @@
+{
+  "header": {
+    "features": "Funtzioak",
+    "useCases": "Erabilerak",
+    "languages": "Hizkuntzak",
+    "compare": "Konparatu",
+    "blog": "Bloga",
+    "download": "Deskargatu",
+    "toggleMenu": "Ireki edo itxi menua",
+    "chooseLanguage": "Aukeratu hizkuntza"
+  },
+  "footer": {
+    "tagline": "Zuzeneko azpitituluak eta produktibitate-tresna pertsona gorrentzat eta entzumen-galera dutenentzat.",
+    "productHuntTagline": "Zuzeneko azpitituluak eta transkripzioa pertsona gorrentzat eta entzumen-galera dutenentzat",
+    "productHunt": "Ikusi Product Hunt webgunean →",
+    "featuredOn": "Nabarmendua hemen:",
+    "features": "Funtzioak",
+    "useCases": "Erabilerak",
+    "blog": "Bloga",
+    "allArticles": "Artikulu guztiak",
+    "compare": "Konparatu",
+    "compareApps": "Konparatu azpititulu-aplikazioak",
+    "company": "Enpresa",
+    "organizations": "Erakundeentzat",
+    "privacy": "Pribatutasun-politika",
+    "terms": "Zerbitzu-baldintzak"
+  },
+  "store": {
+    "appleOverline": "Deskargatu hemen:",
+    "googleOverline": "Eskuratu hemen:",
+    "appleQrAlt": "Captio AI App Store-tik iPhone gailuetarako deskargatzeko QR kodea",
+    "googleQrAlt": "Captio AI Google Play-tik Android gailuetarako deskargatzeko QR kodea",
+    "downloadForFree": "Deskargatu doan"
+  },
+  "common": {
+    "home": "Hasiera",
+    "back": "Atzera",
+    "goBack": "Itzuli atzera",
+    "explore": "Arakatu",
+    "featuresLabel": "Funtzioak",
+    "howItWorks": "Nola funtzionatzen du",
+    "privacyLabel": "Pribatutasuna",
+    "privacyTitle": "Entzuten duzuna zurekin geratzen da.",
+    "privacyImageAlt": "Pribatua berez: zure audioa ez da inoiz gordetzen gure zerbitzarietan, ez da inoiz saltzen eta ez da inoiz entrenatzeko erabiltzen",
+    "faqLabel": "FAQ",
+    "faqTitle": "Ohiko galderak",
+    "getStarted": "Hasi",
+    "freeToStart": "Captio AI erabiltzen doan has zaitezke",
+    "allFeatures": "Captio AI aplikazioan daude Zuzeneko azpitituluak, Zuzeneko itzultzailea, Audio-transkripzioa eta AA bidezko laburpena.",
+    "featureNames": {
+      "live-captions": "Zuzeneko azpitituluak",
+      "live-translator": "Zuzeneko itzultzailea",
+      "audio-transcription": "Audio-transkripzioa",
+      "ai-summary": "AA bidezko laburpena"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Captio AI — Zuzeneko azpitituluak pertsona gorrentzat",
+      "description": "Captio AI: zuzeneko azpitituluak, itzulpena, transkripzioa eta AA bidezko laburpenak pertsona gorrentzat eta entzumen-galera dutenentzat. 60+ hizkuntza.",
+      "ogDescription": "Zuzeneko azpitituluak, itzulpena, audio-transkripzioa eta AA bidezko laburpenak gorrentzat eta entzumen-galera dutenentzat. 60+ hizkuntza. iPhone eta Android.",
+      "schemaDescription": "Zuzeneko azpitituluak, itzulpena denbora errealean, audio-transkripzioa eta AA bidezko laburpenak gorrentzat eta entzumen-galera dutenentzat. 60+ hizkuntza."
+    },
+    "eyebrow": "🦻 Irisgarritasuna + 💻 Produktibitate-aplikazioa",
+    "heroTitle": "[Zuzeneko azpitituluak] eta [produktibitate-tresna] pertsona gorrentzat eta entzumen-galera dutenentzat.",
+    "heroSubtitle": "Jarraitu edozein elkarrizketari, bilerari edo eskolari. Edozein hizkuntzatan.",
+    "mockupAlt": "Captio AI aplikazioa zuzeneko azpitituluak eta itzulpena erakusten",
+    "featuresTitle": "Edozein elkarrizketari jarraitzeko behar duzun guztia",
+    "featuresSubtitle": "Lau tresna, berariaz pertsona gorrentzat eta entzumen-galera dutenentzat sortuak.",
+    "features": {
+      "live-captions": {
+        "title": "Ahotsetik testura, denbora errealean",
+        "bullets": [
+          "Hitzez hitz, denbora errealean",
+          "Leku zaratatsuetan ere bai",
+          "Edozein azentu, edozein erritmo",
+          "Ezpainak irakurri beharrik gabe"
+        ]
+      },
+      "live-translator": {
+        "title": "Itzuli edozein hizkuntza denbora errealean",
+        "bullets": [
+          "Hitz egin ahala itzultzen du",
+          "Bakoitzak bere hizkuntzan hitz egiten du",
+          "Esaldi erdiko hizkuntza-aldaketak ere ulertzen ditu",
+          "60+ hizkuntza"
+        ]
+      },
+      "audio-transcription": {
+        "title": "Transkribatu edozein audio- edo bideo-fitxategi",
+        "bullets": [
+          "Edozein audio- edo bideo-fitxategi",
+          "Hizlarien arabera antolatuta",
+          "60+ hizkuntza",
+          "Irakurri, kopiatu, bilatu, partekatu"
+        ]
+      },
+      "ai-summary": {
+        "title": "Bihurtu transkripzioak laburpen egituratu",
+        "bullets": [
+          "Gako-ideiak eta erabakiak",
+          "Egitekoak aparte ateratzen ditu",
+          "Edozein transkripziotan dabil",
+          "Ataletan antolatuta"
+        ]
+      }
+    },
+    "moreFeaturesTitle": "Funtzio gehiago",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "AA ekintzak",
+        "title": "Egitekoak, oharrak eta jarraipen-mezua",
+        "description": "Bihurtu edozein grabazio gako-ideia, ohar xehatu, egiteko, galdera-erantzun edo jarraipen-mezu."
+      },
+      "export": {
+        "label": "Esportatu",
+        "title": "Partekatu zure erara",
+        "description": "Bidali azpitituluak edo laburpena testu, esteka, PDF edo mezu elektroniko gisa, baita AA txaterako prompt gisa ere."
+      },
+      "folders": {
+        "label": "Karpetak",
+        "title": "Karpetak eta partekatutako karpetak",
+        "description": "Antolatu grabazioak karpetetan eta partekatu bat familiarekin, ikaskideekin edo zure taldearekin."
+      },
+      "recognize-voices": {
+        "label": "Ahotsak ezagutzea",
+        "title": "Izenak, ez «Hizlari 2»",
+        "description": "Gorde maiz hitz egiten duzun jendearen ahotsak eta ikusi haien izenak azpitituluetan."
+      },
+      "speaker-direction": {
+        "label": "Hizlariaren norabidea",
+        "title": "Ikusi nondik datorren ahotsa",
+        "description": "Azpitituluen ertzeko uhinek nork hitz egiten duen adierazten dute. iPhone 16 eta ondorengoetarako."
+      },
+      "connectors": {
+        "label": "Konektoreak",
+        "title": "Galdetu zure txat-aplikazioari",
+        "description": "Egin galderak zure grabazioei buruz Claude, ChatGPT, Gemini edo Perplexity erabilita."
+      },
+      "widgets": {
+        "label": "Widgetak",
+        "title": "Azpitituluak ukitu batean",
+        "description": "Hasi zuzeneko azpitituluak zure iPhone-aren hasierako pantailatik edo blokeo-pantailatik."
+      }
+    },
+    "useCasesLabel": "Erabilerak",
+    "useCasesTitle": "Egoera guztietan dabil",
+    "useCasesSubtitle": "Benetan garrantzia duten uneetarako pentsatua, ez bakarrik ingurune lasai eta kontrolatuetarako.",
+    "useCases": {
+      "everyday-conversations": {
+        "label": "Eguneroko elkarrizketak",
+        "description": "Elkarrizketa gehienak azkar gertatzen dira, ohiko erritmoan eta abisatu gabe. Captio AI aplikazioak hitz bakoitza azpititulatzen du esan ahala, inori errepikatzeko eskatu gabe jarraitu ahal izateko."
+      },
+      "deaf-hoh-communication": {
+        "label": "Pertsona gorrekin komunikatzea",
+        "description": "Pertsona entzuleek askotan ez dakite nola egokitu lagun gorrekin edo entzumen-galera dutenekin hitz egitean. Captio AI aplikazioak haien hizketa denbora errealeko azpititulu bihurtzen du, elkarrizketa bi aldeetatik naturaltasunez gerta dadin."
+      },
+      "meetings": {
+        "label": "Bilerak",
+        "description": "Bileretan erabakiak azkar hartzen dira eta jendeak batera hitz egiten du. Captio AI aplikazioak hizlari bakoitza azpititulatzen du hitz egin ahala, erabakirik edo zuri egindako galderarik inoiz gal ez dezazun."
+      },
+      "lectures": {
+        "label": "Klaseak",
+        "description": "Irakasleek azkar hitz egiten dute, gai konplexuak lantzen dituzte eta gutxitan errepikatzen dute. Captio AI aplikazioak esaten den guztiaren zuzeneko transkripzioa ematen dizu, edukiari jarraitu ahal izateko, entzuteko ahaleginean aritu beharrean."
+      },
+      "doctor-appointments": {
+        "label": "Mediku-kontsultak",
+        "description": "Medikuek azkar hitz egiten dute eta gaizki ulertzeko moduko hizkera klinikoa erabiltzen dute. Captio AI aplikazioak esaten duten guztia erakusten dizu denbora errealean, zure diagnostikoari jarraitu eta galdera egokiak egin ahal izateko."
+      },
+      "job-interviews": {
+        "label": "Lan-elkarrizketak",
+        "description": "Elkarrizketa batean galdera bat galtzeak gaizki erantzutea edo errepikatzeko eskatzea dakar. Captio AI aplikazioak elkarrizketatzaileak esaten duen hitz bakoitza erakusten dizu, zure erantzunean erabat kontzentratu ahal izateko."
+      },
+      "phone-video-calls": {
+        "label": "Telefono- eta bideo-deiak",
+        "description": "Telefono- eta bideo-deiak aurrez aurreko elkarrizketak baino zailagoak dira jarraitzeko. Ezin dira ezpainak irakurri, eta audioaren kalitatea askotan txarra izaten da. Captio AI aplikazioak hitz egiten ari dena azpititulatzen du denbora errealean, errepikatzeko eskatu beharrik izan ez dezazun."
+      },
+      "group-settings": {
+        "label": "Taldean",
+        "description": "Taldean, hainbat lagunek batera hitz egiten dute eta elkarrizketa azkar doa. Captio AI aplikazioak hitz egiten ari denaren erritmoa jarraitzen du, elkarrizketaren haria galdu gabe jarraitu ahal izateko."
+      },
+      "restaurants": {
+        "label": "Jatetxeak eta kafetegiak",
+        "description": "Atzeko zaratak zaila egiten du hizketari jarraitzea, baita entzumen-galerarik ez dutenentzat ere. Captio AI zurekin hitz egiten ari denarengan zentratzen da, zarata artean ere benetako elkarrizketa izan dezazun."
+      },
+      "traveling": {
+        "label": "Bidaiak",
+        "description": "Aireportuetan, hoteletan eta hiri ezezagunetan ez dago gaizki entzuteko tarterik. Captio AI aplikazioak 60 hizkuntza baino gehiagotan azpititulatzen du hizketa, noranahi zoazela ere konfiantzaz mugi zaitezen."
+      },
+      "conferences": {
+        "label": "Biltzarrak eta ekitaldiak",
+        "description": "Hizlariak urrun daude, akustika ezustekoa da eta ezin duzu errepikatzeko eskatu. Captio AI aplikazioak hizlari guztien zuzeneko transkripzioa ematen dizu, ekitaldi osoari edozein eserlekutatik jarraitu ahal izateko."
+      },
+      "tv-media": {
+        "label": "Telebista eta hedabideak",
+        "description": "Edukiekin datozen azpitituluak askotan okerrak dira, berandu agertzen dira edo ez daude batere. Captio AI aplikazioak denbora errealean azpititulatzen du erreproduzitzen ari dena, edukiak azpititulurik ote duen kezkatu beharrik gabe."
+      }
+    },
+    "languagesLabel": "Hizkuntzak",
+    "languagesTitle": "Captio AI aplikazioak 60 hizkuntza baino gehiago onartzen ditu",
+    "privacyCards": [
+      {
+        "title": "Audioa ez da gure zerbitzarietan gelditzen",
+        "description": "Zure audioa denbora errealean testu bihurtzen da eta ez da inoiz gordetzen gure zerbitzarietan. Gordetzen dituzun grabazioak zure telefonoan geratzen dira, eta haien transkripzioak zure kontuarekin soilik sinkronizatzen dira."
+      },
+      {
+        "title": "Ez da produktu bat",
+        "description": "Captio AI aplikazioak ez ditu zure elkarrizketak saltzen, partekatzen edo haiekin dirua irabazten, ez inorekin ez inolako arrazoirengatik."
+      },
+      {
+        "title": "Ez da ezer entrenatzeko erabiltzen",
+        "description": "Mediku-kontsulta batean edo lan-elkarrizketa batean esaten duzuna ez da inoiz entrenamendurako datu-multzo batean amaitzen. Ez gurean. Ez beste inorenean."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Norentzat dago pentsatuta Captio AI?",
+        "a": "Captio AI batez ere pertsona gorrentzat eta entzumen-galera dutenentzat sortu da, ahozko elkarrizketei denbora errealean jarraitu behar dietenentzat. Asko erabiltzen dute, halaber, entzumen-prozesamenduaren nahasmendua duten pertsonek, ingurune zaratatsuetan daudenek, hizkuntzak ikasten ari direnek eta entzutea baino irakurtzea azkarragoa edo errazagoa iruditzen zaien edonork."
+      },
+      {
+        "q": "Zenbaterainoko zehaztasuna dute zuzeneko azpitituluek?",
+        "a": "Captio AI aplikazioak ahots-ezagutza aurreratua erabiltzen du, zehaztasunerako eta latentzia txikirako berariaz egina. Zehaztasuna audioaren argitasunaren, azentuaren eta atzeko zarataren araberakoa da, baina ohiko elkarrizketa-baldintzetan oso handia da, azpititulazio-zerbitzu profesionalen parekoa."
+      },
+      {
+        "q": "Zer hizkuntza onartzen ditu Captio AI aplikazioak?",
+        "a": "Captio AI aplikazioak 60 hizkuntza baino gehiago onartzen ditu, tartean ingelesa, gaztelania, frantsesa, alemana, txinera mandarina, arabiera, hindia, japoniera, koreera, portugesa, errusiera eta beste asko. Hizkuntza guztiak daude erabilgarri Zuzeneko azpitituluak eta Zuzeneko itzultzailea funtzioetan. Ikusi zerrenda osoa orrialde honetan."
+      },
+      {
+        "q": "Azentu eta dialekto desberdinekin dabil Captio AI?",
+        "a": "Bai. Captio AI aplikazioak askotariko eskualde-azentuak eta dialektoak ulertzen ditu, ez bakarrik testu-liburuetako hizkera estandarra. Australiako ingelesa, Latinoamerikako gaztelania, Suitzako alemana, Brasilgo portugesa, Quebeceko frantsesa eta beste asko onartzen ditu."
+      },
+      {
+        "q": "Zer desberdintasun dago Zuzeneko azpitituluak eta Zuzeneko itzultzailea funtzioen artean?",
+        "a": "Zuzeneko azpitituluak funtzioak hizketa jatorrizko hizkuntzan transkribatzen du. Zuzeneko itzultzaileak hizketa hori hartu eta zuk aukeratutako hizkuntzara itzultzen du denbora errealean. Ezin hobea da hizlariak eta irakurleak hizkuntza desberdinak hitz egiten dituztenean, adibidez atzerriko mediku batekin edo beste hizkuntza bateko negozio-bilera batean."
+      },
+      {
+        "q": "Gordetzen edo partekatzen al du Captio AI aplikazioak nire audioa?",
+        "a": "Zure audioa ez da inoiz gordetzen Captio AI aplikazioaren zerbitzarietan, eta ez da inoiz saltzen edo partekatzen publizitaterako. Modu seguruan bidaltzen zaio hizketa-ezagutzako zerbitzu bati, testu bihurtzeko soilik, eta han ezabatzen da. Gordetzea erabakitzen dituzun grabazioak zure telefonoan geratzen dira; haien transkripzioak eta laburpenak zure kontuan ere gordetzen dira, beste gailu batean ireki ahal izateko, eta grabazio bat ezabatzean toki guztietatik desagertzen da. Zure elkarrizketak ez dira inoiz AA ereduak entrenatzeko erabiltzen, ez gureak ez beste inorenak."
+      },
+      {
+        "q": "Interneteko konexiorik gabe dabil Captio AI?",
+        "a": "Zuzeneko azpitituluak eta Zuzeneko itzultzailea funtzioek Interneteko konexioa behar dute hizketa denbora errealean prozesatzeko. Audio-transkripzioak ere (igotako fitxategietarako) konexioa behar du. Gaur egun ezin da konexiorik gabe azpititulatu."
+      },
+      {
+        "q": "Zer telefono edo iPad behar dut?",
+        "a": "Captio AI iOS 16 edo berriagoa duten iPhone eta iPad gailuetan dabil, baita Android telefonoetan ere. Telefonorako optimizatuta dago, eta mikrofonoaren eta hizlariaren artean ezer ez dagoenean funtzionatzen du hobekien."
+      },
+      {
+        "q": "Mediku-kontsulta batean erabil dezaket Captio AI?",
+        "a": "Bai. Mediku-kontsultak erabilera garrantzitsuenetako bat dira. Telefonoa mahai gainean jar dezakezu edo medikuarengana zuzendu, eta esaten duen guztia irakurri denbora errealean. Termino medikoak zehaztasunez ulertzen ditu, eta horri esker Captio AI irisgarritasun-tresna praktikoa da osasun-arloan."
+      },
+      {
+        "q": "Bileretan eta klaseetan erabil dezaket Captio AI?",
+        "a": "Bai. Captio AI hizketa dagoen edozein egoeratan dabil: lan-bileretan, unibertsitateko klaseetan, taldeko eguneroko bileretan, biltzarretan eta bideo-deietan. Zuzendu mikrofonoa hizlariarengana eta azpitituluak berehala agertuko dira."
+      },
+      {
+        "q": "Zer da Audio-transkripzioa, eta zertan bereizten da Zuzeneko azpitituluak funtziotik?",
+        "a": "Zuzeneko azpitituluak funtzioak denbora errealean funtzionatzen du, norbait hitz egiten ari den bitartean. Audio-transkripzioa grabazioetarako da: audio- edo bideo-fitxategi bat igotzen duzu eta idatzizko transkripzio osoa jasotzen duzu. Ezin hobea da grabatu dituzun klaseak, elkarrizketak, podcastak edo entzun beharrean irakurri nahiago duzun edozein eduki berrikusteko."
+      },
+      {
+        "q": "Zer egiten du AA bidezko laburpena funtzioak?",
+        "a": "AA bidezko laburpenak edozein transkripzio hartu eta funtsezko informazioa ateratzen du (ideia nagusiak, hartutako erabakiak, egitekoak eta xehetasun garrantzitsuak) laburpen egituratu batean. Denbora aurrezten du bilera edo klase bateko transkripzio luzea duzunean eta gakoak azkar behar dituzunean."
+      },
+      {
+        "q": "Doakoa da Captio AI?",
+        "a": "Captio AI aplikazioak doako plan bat du, ezer ordaindu gabe hasteko. Sarbide mugagabea behar dutenentzat Plus plana dago. Zure herrialdeko Plus planaren egungo prezioa App Store-ko fitxan ageri da."
+      },
+      {
+        "q": "Zertan bereizten da Captio AI Appleren zuzeneko azpitituluetatik?",
+        "a": "Appleren zuzeneko azpitituluak iOS sisteman integratuta daude, baina hizkuntza gutxiago onartzen dituzte, ez dute itzulpenik eskaintzen eta ez dute audio-transkripziorik ez AA bidezko laburpenik. Captio AI aplikazioak 60 hizkuntza baino gehiago onartzen ditu, denbora errealean itzultzen du, igotako fitxategiak transkribatzeko aukera ematen dizu eta AA bidezko laburpenak sortzen ditu; hori dela eta, irisgarritasun- eta produktibitate-tresna askoz osoagoa da."
+      }
+    ]
+  },
+  "featurePages": {
+    "live-captions": {
+      "meta": {
+        "title": "Zuzeneko azpitituluak iPhone telefonoan, pertsona gorrentzat",
+        "description": "Ahotsetik testura denbora errealean, zure iPhone telefonoaren mikrofonoarekin. Jarraitu edozein elkarrizketari, edozein hizkuntzatan. Pertsona gorrentzat.",
+        "schemaDescription": "Zuzeneko azpitituluak denbora errealean gorrentzat eta entzumen-galera dutenentzat. 60+ hizkuntza, segundo bat baino askoz gutxiagoko latentzia, edonon dabil."
+      },
+      "howTitle": "Hiru ukitu. Elkarrizketa osoa.",
+      "steps": [
+        {
+          "title": "Hasi grabatzen",
+          "desc": "Sakatu grabatzeko botoia. Captio AI berehala hasten da entzuten."
+        },
+        {
+          "title": "Ikusi hitzak agertzen",
+          "desc": "Azpitituluak hitzez hitz agertzen dira, pertsona oraindik hitz egiten ari den bitartean."
+        },
+        {
+          "title": "Gorde",
+          "desc": "Gorde transkripzioa eta audio-grabazioa geroago erabiltzeko."
+        }
+      ],
+      "featuresTitle": "Benetako elkarrizketetarako egina",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Esandakoarekin bat datozen hitzak",
+          "description": "Captio AI aplikazioak norbaitek benetan esan duena jasotzen du, ez gutxi gorabeherako parafrasi bat. Hala, transkripzioaz fida zaitezke garrantzitsua denean: medikuarenean, elkarrizketa batean, bilera batean."
+        },
+        {
+          "title": "Latentziarik ez",
+          "description": "Latentzia segundo bat baino askoz txikiagoa da. Azpitituluak hitzez hitz agertzen dira pertsona oraindik hitz egiten ari den bitartean, eta, beraz, esaten duena besteek entzuten duten une berean irakurtzen duzu."
+        },
+        {
+          "title": "Jakin nor ari den hitz egiten",
+          "description": "Taldeetan eta bileretan, Captio AI aplikazioak hizlari bakoitza bereizita etiketatzen du, nork zer esan duen beti jakin dezazun, aurpegiei begira egon edo ezpainen mugimenduari jarraitu gabe."
+        },
+        {
+          "title": "60+ hizkuntza",
+          "description": "Jarraitu frantsesezko, japonierazko edo arabierazko elkarrizketa bati euskarazko bati bezala. Modurik aldatu gabe. Entzumen-galera ez da inoiz hizkuntza-oztopo ere bihurtzen."
+        },
+        {
+          "title": "Esaldi erdian nahasten diren hizkuntzak ere bai",
+          "description": "Jendeak elkarrizketa erdian hizkuntzaz aldatzen duenean, Captio AI ez da atzean geratzen. Azpitituluetan hutsunerik gabe, modurik aldatu beharrik gabe."
+        },
+        {
+          "title": "Irakatsi zure hiztegia",
+          "description": "Gehitu maiz entzuten dituzun izenak, termino medikoak edo hitz teknikoak. Captio AI aplikazioak zure hiztegi-zerrenda erabiltzen du zure benetako elkarrizketak zehaztasun handiagoz azpititulatzeko."
+        },
+        {
+          "title": "Gehitu hizkuntza-iradokizun bat",
+          "description": "Esaiozu Captio AI aplikazioari zer hizkuntza espero behar duen, eta lehen hitzetik egongo da prest. Erabilgarria hitz egiten den hizkuntza testuingurutik argi ez dagoenean."
+        },
+        {
+          "title": "Transkribatu berriro geroago, zehaztasun handiagoz",
+          "description": "Pasatu berriro edozein grabazio geroago, transkripzio garbiagoa lortzeko. Erabilgarria klaseetarako, kontsultetarako eta berrikustea merezi duen edozein elkarrizketatarako."
+        },
+        {
+          "title": "Irakurri zure erara",
+          "description": "Doitu testuaren tamaina, atzeko planoaren kolorea eta kontrastea, azpitituluak begirada batean irakurtzeko errazak izan arte: telefonoa eskuan, mahai gainean etzanda edo idazmahaian bermatuta."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Audioa ez da gure zerbitzarietan gelditzen",
+          "description": "Zure audioa denbora errealean testu bihurtzen da eta ez da inoiz gordetzen gure zerbitzarietan. Gordetzen dituzun grabazioak zure telefonoan geratzen dira, eta haien transkripzioak zure kontuarekin soilik sinkronizatzen dira."
+        },
+        {
+          "title": "Ez da produktu bat",
+          "description": "Captio AI aplikazioak ez ditu zure elkarrizketak saltzen, partekatzen edo haiekin dirua irabazten, ez inorekin ez inolako arrazoirengatik."
+        },
+        {
+          "title": "Ez da ezer entrenatzeko erabiltzen",
+          "description": "Mediku-kontsulta batean edo lan-elkarrizketa batean esaten duzuna ez da inoiz entrenamendurako datu-multzo batean amaitzen. Ez gurean. Ez beste inorenean."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Zertan bereizten da Captio AI Appleren zuzeneko azpitituluetatik?",
+          "a": "Appleren zuzeneko azpitituluek hizkuntza gutxiago onartzen dituzte, ez dute itzulpenik eskaintzen eta ez dute audio-transkripziorik ez AA bidezko laburpenik. Captio AI aplikazioak 60 hizkuntza baino gehiago onartzen ditu, denbora errealean itzultzen du, igotako fitxategiak transkribatzeko aukera ematen dizu eta AA bidezko laburpenak sortzen ditu. Gainera, testuaren tamaina, koloreak eta kontrastea pertsonaliza ditzakezu, zuretzat ondoen irakurtzeko moduan."
+        },
+        {
+          "q": "Zenbaterainoko zehaztasuna dute zuzeneko azpitituluek?",
+          "a": "Ohiko elkarrizketa-baldintzetan zehaztasuna handia da. Captio AI benetako hizketarako egina dago, ez bakarrik estudioko audio garbirako; beraz, ulertzen ditu azkar hitz egiten dutenak, eskualde-azentuak, atzeko zarata eta hizkuntzak nahasten dituzten esaldiak. Hiztegi pertsonalizatua ere gehi dezakezu (izenak, termino medikoak, hitz teknikoak) zure elkarrizketetan zehaztasuna hobetzeko."
+        },
+        {
+          "q": "Zein azkar agertzen dira azpitituluak?",
+          "a": "Hitzez hitz, pertsona oraindik hitz egiten ari den bitartean. Latentzia segundo bat baino askoz txikiagoa da, ia denbora errealean. Norbaitek esaten duena besteek entzuten duten une berean irakurtzen duzu, ez esaldia amaitu ondoren."
+        },
+        {
+          "q": "Zuzeneko azpitituluak funtzioa leku zaratatsuetan dabil?",
+          "a": "Bai. Captio AI benetako inguruneetarako pentsatuta dago: jatetxeak, kaleak, itxarongelak, garraio publikoa. Zuzendu mikrofonoa hizlariarengana eta azpitituluak agertuko dira, atzeko zarata gorabehera."
+        },
+        {
+          "q": "Zer hizkuntza onartzen ditu Zuzeneko azpitituluak funtzioak?",
+          "a": "60 hizkuntza baino gehiago, tartean ingelesa, gaztelania, frantsesa, alemana, txinera mandarina, arabiera, hindia, japoniera, koreera, portugesa, errusiera eta beste asko. Hizkuntza nagusi guztietan onartzen dira eskualde-azentuak eta dialektoak."
+        },
+        {
+          "q": "Azentu eta dialektoekin dabil?",
+          "a": "Bai. Captio AI aplikazioak askotariko eskualde-azentuak ulertzen ditu, ez bakarrik testu-liburuetako hizkera estandarra. Australiako ingelesa, Latinoamerikako gaztelania, Suitzako alemana, Quebeceko frantsesa eta beste asko onartzen ditu."
+        },
+        {
+          "q": "Gorde ditzaket azpitituluak?",
+          "a": "Bai. Saio baten ondoren transkripzioak eta audio-grabazioak gorde ditzakezu eta geroago berrikusi. Gainera, gordetako grabazio bat berriro transkriba dezakezu, transkripzio garbiagoa eta zehatzagoa lortzeko."
+        },
+        {
+          "q": "Interneteko konexioa behar dut?",
+          "a": "Bai. Zuzeneko azpitituluak funtzioak Interneteko konexioa behar du hizketa denbora errealean prozesatzeko. Gaur egun ezin da konexiorik gabe azpititulatu."
+        }
+      ]
+    },
+    "live-translator": {
+      "meta": {
+        "title": "Zuzeneko itzultzailea: ahots-itzulpena iPhone telefonoan",
+        "description": "Ahots-itzulpena denbora errealean zure iPhone telefonoan. Besteak bere hizkuntzan hitz egiten du, eta zuk zurean irakurtzen duzu. Pertsona gorrentzat.",
+        "schemaDescription": "Ahots-itzulpena denbora errealean gorrentzat eta entzumen-galera dutenentzat. 60+ hizkuntza: bakoitzak bere hizkuntzan hitz egiten du, eta zuk zurean irakurtzen duzu."
+      },
+      "howTitle": "Hiru ukitu. Edozein hizkuntza.",
+      "steps": [
+        {
+          "title": "Aukeratu itzultzaile modua",
+          "desc": "Ireki Captio AI eta hautatu Zuzeneko itzultzailea."
+        },
+        {
+          "title": "Hautatu nahiago duzun hizkuntza",
+          "desc": "Aukeratu zer hizkuntzatan irakurri nahi duzun."
+        },
+        {
+          "title": "Ikusi itzulpena denbora errealean",
+          "desc": "Captio AI aplikazioak hitzez hitz itzultzen du."
+        }
+      ],
+      "featuresTitle": "Benetako elkarrizketetarako egina",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Edozein hizkuntza",
+          "description": "Frantsesa, japoniera, arabiera, gaztelania, alemana, txinera mandarina: 60 hizkuntza baino gehiago, edozein norabidetan. Entzumen-galera ez da inoiz hizkuntza-oztopo ere bihurtzen."
+        },
+        {
+          "title": "Hitz egiten den hizkuntza automatikoki hautematen du",
+          "description": "Utzi jatorrizko hizkuntza automatikoan, eta Captio AI aplikazioak lehen hitzetatik asmatuko du zein den. Ez duzu eskuz hautatu behar elkarrizketa bakoitzaren aurretik."
+        },
+        {
+          "title": "Atzerapenik ez",
+          "description": "Itzulpenaren latentzia segundo bat baino askoz txikiagoa da. Norbaitek esaten duena besteek entzuten duten une berean irakurtzen duzu, ez esaldia amaitu ondoren."
+        },
+        {
+          "title": "Gehitu hizkuntza-iradokizunak",
+          "description": "Esaiozu Captio AI aplikazioari zer hizkuntza espero behar duen, eta lehen hitzetik egongo da prest. Erabilgarria hitz egiten den hizkuntza testuingurutik argi ez dagoenean."
+        },
+        {
+          "title": "Hainbat hizkuntza aldi berean",
+          "description": "Jendeak elkarrizketa erdian hizkuntzaz aldatzen duenean, Captio AI ez da atzean geratzen: hizkuntza bakoitza zure hizkuntzara itzultzen du, zuk ezer egin beharrik gabe."
+        },
+        {
+          "title": "Irakurri zure erara",
+          "description": "Doitu atzeko planoaren kolorea, testuaren kolorea eta letra-tamaina, itzulpena begirada batean irakurtzeko erraza izan dadin, telefonoa eskuan izan edo mahai gainean etzanda egon."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Audioa ez da gure zerbitzarietan gelditzen",
+          "description": "Zure audioa denbora errealean testu bihurtzen da eta ez da inoiz gordetzen gure zerbitzarietan. Gordetzen dituzun grabazioak zure telefonoan geratzen dira, eta haien transkripzioak zure kontuarekin soilik sinkronizatzen dira."
+        },
+        {
+          "title": "Ez da produktu bat",
+          "description": "Captio AI aplikazioak ez ditu zure elkarrizketak saltzen, partekatzen edo haiekin dirua irabazten, ez inorekin ez inolako arrazoirengatik."
+        },
+        {
+          "title": "Ez da ezer entrenatzeko erabiltzen",
+          "description": "Mediku-kontsulta batean edo lan-elkarrizketa batean esaten duzuna ez da inoiz entrenamendurako datu-multzo batean amaitzen. Ez gurean. Ez beste inorenean."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Zertan bereizten da Zuzeneko itzultzailea Zuzeneko azpitituluak funtziotik?",
+          "a": "Zuzeneko azpitituluak funtzioak hizketa jatorrizko hizkuntzan transkribatzen du. Zuzeneko itzultzaileak hizketa hori hartu eta zuk aukeratutako hizkuntzara itzultzen du denbora errealean. Besteak frantsesez hitz egiten badu eta zuk euskaraz irakurtzen baduzu, Zuzeneko itzultzailea behar duzu."
+        },
+        {
+          "q": "Zenbaterainoko zehaztasuna du itzulpenak?",
+          "a": "Itzulpenaren zehaztasuna handia da hizkuntza-bikote ohikoetan eta eguneroko elkarrizketetan. Captio AI aplikazioak hizketa naturala ulertzen du (azkar hitz egiten dutenak, azentuak, atzeko zarata), ez bakarrik estudioko audio garbia. Hizkuntza-bikote arraroetan edo eduki oso teknikoetan, zehaztasuna alda daiteke."
+        },
+        {
+          "q": "Zer hizkuntza onartzen dira?",
+          "a": "60 hizkuntza baino gehiago, tartean ingelesa, gaztelania, frantsesa, alemana, txinera mandarina, arabiera, hindia, japoniera, koreera, portugesa, errusiera eta beste asko. Jatorrizko hizkuntza zein helburu-hizkuntza onartutako edozein izan daiteke."
+        },
+        {
+          "q": "Zein azkar agertzen da itzulpena?",
+          "a": "Latentzia segundo bat baino askoz txikiagoa da. Itzulpena hitzez hitz irakurtzen duzu pertsona oraindik hitz egiten ari den bitartean: ia denbora errealean, ez esaldia amaitu ondoren."
+        },
+        {
+          "q": "Beste hizkuntza bat hitz egiten duen mediku batekin balio du?",
+          "a": "Bai. Hori da erabilera garrantzitsuenetako bat. Jarri telefonoa mahai gainean, ezarri medikuaren hizkuntza jatorrizko hizkuntza gisa, eta irakurri esaten duen guztia zure hizkuntzan, denbora errealean. Itzulitako transkripzioa ere gorde dezakezu, geroago haren jarraibideak berrikusteko."
+        },
+        {
+          "q": "Leku zaratatsuetan dabil?",
+          "a": "Bai. Captio AI benetako inguruneetarako egina dago: itxarongelak, jatetxeak, aireportuak. Zuzendu mikrofonoa hizlariarengana eta itzulpena agertuko da, inguruko zarata gorabehera."
+        },
+        {
+          "q": "Gorde dezaket itzulitako transkripzioa?",
+          "a": "Bai. Saio baten ondoren itzulitako testua gorde eta geroago berrikus dezakezu. Erabilgarria mediku-kontsultetarako, bileretarako eta erregistroa gorde nahi duzun edozein elkarrizketatarako."
+        },
+        {
+          "q": "Interneteko konexioa behar dut?",
+          "a": "Bai. Zuzeneko itzultzaileak Interneteko konexioa behar du hizketa denbora errealean prozesatu eta itzultzeko. Gaur egun ezin da konexiorik gabe itzuli."
+        }
+      ]
+    },
+    "audio-transcription": {
+      "meta": {
+        "title": "Audio-transkripzioa: audioa eta bideoa testu bihurtu",
+        "description": "Igo edozein audio- edo bideo-fitxategi eta jaso transkripzio osoa. 60+ hizkuntza, hizlariak bereizita eta bilaketa testuan. Pertsona gorrentzat eginda.",
+        "schemaDescription": "Igo edozein audio- edo bideo-fitxategi eta jaso transkripzio osoa. 60+ hizkuntza, hizlarien bereizketa eta denbora-markak. Gorrentzat eta entzumen-galera dutenentzat."
+      },
+      "howTitle": "Igo. Irakurri. Kito.",
+      "steps": [
+        {
+          "title": "Aukeratu fitxategi mota",
+          "desc": "Hautatu audio-fitxategia ala bideo-fitxategia igoko duzun."
+        },
+        {
+          "title": "Hautatu fitxategi bat",
+          "desc": "Aukeratu fitxategia zure telefonotik. Captio AI berehala hasten da transkribatzen."
+        },
+        {
+          "title": "Ikusi transkripzioa",
+          "desc": "Irakurri transkripzio osoa, hizlarien arabera antolatuta eta denbora-markekin."
+        }
+      ],
+      "featuresTitle": "Benetako grabazioetarako egina",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Edozein formatu",
+          "description": "MP3, MP4, M4A, WAV eta gehiago. Klaseak, bilerak, ahots-mezuak, podcastak, elkarrizketak, telefono-grabazioak: hizketa badu, Captio AI aplikazioak transkriba dezake."
+        },
+        {
+          "title": "Zehaztasun handiena",
+          "description": "Captio AI mundu errealeko audiorako egina dago, ez bakarrik estudioko fitxategi garbietarako. Telefono-deien audioa, ikasgeletako grabazioak, ingurune zaratatsuak: denak ulertzen ditu."
+        },
+        {
+          "title": "Edozein hizkuntza",
+          "description": "Igo grabazio bat frantsesez, japonieraz, arabieraz edo beste 57 hizkuntzatan. Captio AI aplikazioak hizkuntza identifikatu eta zehaztasunez transkribatzen du."
+        },
+        {
+          "title": "Hainbat hizkuntza",
+          "description": "Hizlariak grabazio erdian hizkuntzaz aldatzen direnean, Captio AI ez da atzean geratzen. Transkripzioak hitz egin diren hizkuntza guztiak jasotzen ditu, hutsunerik gabe."
+        },
+        {
+          "title": "Denbora-markak",
+          "description": "Transkripzioko lerro bakoitzak bere denbora-marka du; hala, grabazioko edozein unetara salto egin dezakezu eta zer esan zen eta noiz aurkitu."
+        },
+        {
+          "title": "Esportatu eta partekatu",
+          "description": "Kopiatu transkripzio osoa, partekatu edo gorde. Zure grabazioak eta transkripzioak eskura izango dituzu behar dituzun guztietan."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Fitxategiak ez dira gure zerbitzarietan gelditzen",
+          "description": "Zure fitxategia transkribatzeko soilik bidaltzen da, eta han ezabatzen da. Gure zerbitzarietan ez da inoiz gordetzen. Grabazioa zure telefonoan geratzen da, eta bere transkripzioa zure kontuarekin soilik sinkronizatzen da."
+        },
+        {
+          "title": "Ez da produktu bat",
+          "description": "Captio AI aplikazioak ez ditu zure grabazioak saltzen, partekatzen edo haiekin dirua irabazten, ez inorekin ez inolako arrazoirengatik."
+        },
+        {
+          "title": "Ez da ezer entrenatzeko erabiltzen",
+          "description": "Igotzen duzuna (mediku-kontsulta bat, bilera bat, elkarrizketa bat) ez da inoiz entrenamendurako datu-multzo batean amaitzen. Ez gurean. Ez beste inorenean."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Zertan bereizten da Audio-transkripzioa Zuzeneko azpitituluak funtziotik?",
+          "a": "Zuzeneko azpitituluak funtzioak denbora errealean funtzionatzen du, norbait hitz egiten ari den bitartean. Audio-transkripzioa grabazioetarako da: audio- edo bideo-fitxategi bat igotzen duzu eta idatzizko transkripzio osoa jasotzen duzu. Ezin hobea da grabatu dituzun klaseak, mediku-kontsultak, elkarrizketak edo entzun beharrean irakurri nahiago duzun edozein eduki berrikusteko."
+        },
+        {
+          "q": "Zer fitxategi-formatu onartzen ditu Audio-transkripzioak?",
+          "a": "Captio AI aplikazioak audio- eta bideo-formatu ohikoak onartzen ditu, tartean MP3, MP4, M4A, WAV eta gehiago. Telefonoarekin grabatu baduzu edo bideo-plataforma batetik deskargatu baduzu, funtzionatuko du."
+        },
+        {
+          "q": "Zenbaterainoko zehaztasuna du transkripzioak?",
+          "a": "Zehaztasuna handia da grabazio argietan eta onartutako hizkuntzetan. Captio AI aplikazioak mundu errealeko audioa ulertzen du (telefono-deiak, ikasgeletako grabazioak, ingurune zaratatsuak), ez bakarrik estudio-kalitateko fitxategiak. Behar izanez gero, fitxategi bat berriro transkriba dezakezu."
+        },
+        {
+          "q": "Zer hizkuntza onartzen dira?",
+          "a": "60 hizkuntza baino gehiago, tartean ingelesa, gaztelania, frantsesa, alemana, txinera mandarina, arabiera, hindia, japoniera, koreera, portugesa, errusiera eta beste asko. Captio AI aplikazioak fitxategian hitz egiten den hizkuntza automatikoki hautematen du."
+        },
+        {
+          "q": "Hizlariak bereizten ditu?",
+          "a": "Bai. Captio AI aplikazioak hizlari bakoitza bereizita etiketatzen du transkripzioan, nork zer esan duen jarraitu ahal izateko. Erabilgarria bileretarako, elkarrizketetarako, mediku-kontsultetarako eta hainbat pertsonaren edozein grabaziotarako."
+        },
+        {
+          "q": "Zenbat denbora behar du transkripzioak?",
+          "a": "Transkripzioa azkarra da. Ordubeteko grabazio batek minutu batzuk behar izaten ditu. Denbora fitxategiaren iraupenaren eta audioaren kalitatearen araberakoa da."
+        },
+        {
+          "q": "Transkripzioaren ondoren gordetzen al da nire audioa?",
+          "a": "Ez Captio AI aplikazioaren zerbitzarietan. Fitxategia modu seguruan bidaltzen zaio hizketa-ezagutzako zerbitzu bati, transkribatzeko soilik, eta han ezabatzen da transkripzioa prest egon bezain laster. Grabazioa zure telefonoan geratzen da, eta bere transkripzioa zure kontuan ere gordetzen da, beste gailu batean ireki ahal izateko. Zure grabazioak ez dira inoiz saltzen, ezta AA ereduak entrenatzeko erabiltzen ere."
+        },
+        {
+          "q": "Bideo-fitxategi bat transkriba dezaket?",
+          "a": "Bai. Igo bideo-fitxategia zuzenean, eta Captio AI aplikazioak audioa atera eta transkribatu egingo du. Ez duzu fitxategia aurretik bihurtu beharrik."
+        }
+      ]
+    },
+    "ai-summary": {
+      "meta": {
+        "title": "AA bidezko laburpena: transkripzioen laburpen egituratuak",
+        "description": "Bihurtu edozein transkripzio laburpen egituratu: gako-ideiak, erabakiak eta egitekoak, automatikoki. Pertsona gorrentzat eta entzumen-galera dutenentzat.",
+        "schemaDescription": "Bihurtu edozein transkripzio laburpen egituratu: gako-ideiak, erabakiak, egitekoak eta hizlarien aipuak, automatikoki aterata."
+      },
+      "howTitle": "Transkripzioa sartu. Laburpena atera.",
+      "steps": [
+        {
+          "title": "Ireki edozein transkripzio",
+          "desc": "Hautatu Zuzeneko azpitituluak edo Audio-transkripzioa funtzioetako edozein transkripzio."
+        },
+        {
+          "title": "Sortu laburpena",
+          "desc": "Sakatu AA bidezko laburpena. Captio AI aplikazioak automatikoki prozesatzen du transkripzioa."
+        },
+        {
+          "title": "Irakurri laburpena",
+          "desc": "Zure laburpena prest dago, ataletan antolatuta, irakurtzeko edo partekatzeko."
+        }
+      ],
+      "featuresTitle": "Transkripzio luzeetarako egina",
+      "featuresSubtitle": "Lortu laburpena, egitekoak, hizlarien aipuak, oharrak eta gehiago.",
+      "subfeatures": [
+        {
+          "title": "Gako-ideiak automatikoki aterata",
+          "description": "Captio AI aplikazioak transkripzio osoa irakurri eta benetan garrantzitsua izan dena ateratzen du: ideia nagusiak, hartutako erabakiak eta lortutako ondorioak."
+        },
+        {
+          "title": "Egitekoak agerian",
+          "description": "Zereginak eta jarraipenak identifikatu eta bereiz zerrendatzen dira, bilera, kontsulta edo klase baten ondoren ezer ahaztu ez dadin."
+        },
+        {
+          "title": "Ataletan antolatuta",
+          "description": "Laburpena egituratuta dago, ez da testu-bloke jarraitu bat. Gai bakoitzak bere atala du, begiratu azkar bat eman eta behar duzuna aurki dezazun."
+        },
+        {
+          "title": "Captio AI aplikazioko edozein transkripziotan dabil",
+          "description": "Erabili AA bidezko laburpena Zuzeneko azpitituluak edo Audio-transkripzioa funtzioekin sortutako edozein transkripziotan. Urrats gehigarririk gabe, kopiatu eta itsatsi gabe."
+        },
+        {
+          "title": "Edozein hizkuntza",
+          "description": "Laburtu transkripzioak 60 hizkuntza baino gehiagotan. Captio AI aplikazioak transkripzioa jatorrizko hizkuntzan irakurtzen du eta irakur dezakezun laburpen bat sortzen du."
+        },
+        {
+          "title": "Gorde eta partekatu",
+          "description": "Gorde laburpena transkripzioarekin batera, kopiatu edo partekatu. Erabilgarria mediku-kontsulten, bileren eta klaseen ondoren."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Zure kontuan bakarrik gordetzen da",
+          "description": "Zure laburpena grabazioarekin batera gordetzen da, zure telefonoan eta zure kontuan, beraz saioa hasten duzun edozein gailutan dago eskuragarri. Ezabatuz gero, toki guztietatik desagertzen da."
+        },
+        {
+          "title": "Ez da produktu bat",
+          "description": "Captio AI aplikazioak ez ditu zure elkarrizketak saltzen, partekatzen edo haiekin dirua irabazten, ez inorekin ez inolako arrazoirengatik."
+        },
+        {
+          "title": "Ez da ezer entrenatzeko erabiltzen",
+          "description": "Laburtzen duzuna (mediku-kontsulta bat, bilera bat, elkarrizketa bat) ez da inoiz entrenamendurako datu-multzo batean amaitzen. Ez gurean. Ez beste inorenean."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Zer egiten du AA bidezko laburpenak?",
+          "a": "AA bidezko laburpenak edozein transkripzio hartu eta funtsezko informazioa ateratzen du (ideia nagusiak, erabakiak, egitekoak eta xehetasun garrantzitsuak) laburpen egituratu batean. Denbora aurrezten du transkripzio luzea duzunean eta gakoak azkar behar dituzunean."
+        },
+        {
+          "q": "Zer transkripzio labur ditzaket?",
+          "a": "Captio AI aplikazioan sortutako edozein transkripzio, Zuzeneko azpitituluak zein Audio-transkripzioa funtzioekin egina. AA bidezko laburpena zuzenean erabiltzen duzu transkripzioaren gainean, urrats gehigarririk gabe."
+        },
+        {
+          "q": "Zer abantaila du AA bidezko laburpenak transkripzioa irakurtzearen aldean?",
+          "a": "Ordubeteko bilera baten transkripzio osoak milaka hitz izan ditzake. AA bidezko laburpenak gako-ideiak, erabakiak eta egitekoak ematen dizkizu irakurketa-denboraren zati txiki batean, gaika antolatuta, eta ez gauzak esan ziren ordenaren arabera."
+        },
+        {
+          "q": "Mediku-kontsultetarako balio du?",
+          "a": "Bai. Mediku-kontsulta batean informazio asko jasotzen da denbora gutxian. AA bidezko laburpenak diagnostikoa, jarraibideak eta hurrengo urratsak zerrenda argi batean ateratzen ditu, nahi duzunean berrikusi eta kontsultatu ahal izateko."
+        },
+        {
+          "q": "Zer hizkuntza onartzen dira?",
+          "a": "AA bidezko laburpenak 60 hizkuntza baino gehiagotako transkripzioekin funtzionatzen du. Laburpena transkripzioaren hizkuntza berean sortzen da."
+        },
+        {
+          "q": "Gorde edo partekatu dezaket laburpena?",
+          "a": "Bai. Laburpena jatorrizko transkripzioarekin batera gorde dezakezu, kopiatu edo partekatu. Erabilgarria bilera baten laburpena bidaltzeko edo mediku-kontsulta baten erregistroa gordetzeko."
+        },
+        {
+          "q": "AA bidezko laburpenak gordetzen al du nire transkripzioa edo audioa?",
+          "a": "Zure transkripzioa modu seguruan bidaltzen zaio AA zerbitzu bati laburpena idazteko soilik, eta ez da inoiz AA ereduak entrenatzeko erabiltzen. Laburpena grabazioarekin batera gordetzen da, zure telefonoan eta zure kontuan, ezabatu arte. Audioa ez da inoiz gordetzen Captio AI aplikazioaren zerbitzarietan, eta zure elkarrizketak ez dira inoiz saltzen."
+        }
+      ]
+    }
+  }
+}

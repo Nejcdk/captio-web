@@ -1,0 +1,676 @@
+{
+  "header": {
+    "features": "Funkcije",
+    "useCases": "Primeri uporabe",
+    "languages": "Jeziki",
+    "compare": "Primerjava",
+    "blog": "Blog",
+    "download": "Prenesi",
+    "toggleMenu": "Odpri ali zapri meni",
+    "chooseLanguage": "Izberi jezik"
+  },
+  "footer": {
+    "tagline": "Podnapisi v živo in orodje za produktivnost za gluhe in naglušne.",
+    "productHuntTagline": "Podnapisi v živo in prepis govora za gluhe in naglušne",
+    "productHunt": "Oglej si nas na Product Hunt →",
+    "featuredOn": "Predstavljeno na",
+    "features": "Funkcije",
+    "useCases": "Primeri uporabe",
+    "blog": "Blog",
+    "allArticles": "Vsi članki",
+    "compare": "Primerjava",
+    "compareApps": "Primerjava aplikacij za podnapise",
+    "company": "Podjetje",
+    "organizations": "Za organizacije",
+    "privacy": "Pravilnik o zasebnosti",
+    "terms": "Pogoji uporabe"
+  },
+  "store": {
+    "appleOverline": "Prenesi v trgovini",
+    "googleOverline": "Na voljo v",
+    "appleQrAlt": "Koda QR za prenos aplikacije Captio AI za iPhone iz trgovine App Store",
+    "googleQrAlt": "Koda QR za prenos aplikacije Captio AI za Android iz trgovine Google Play",
+    "downloadForFree": "Prenesi brezplačno"
+  },
+  "common": {
+    "home": "Domov",
+    "back": "Nazaj",
+    "goBack": "Pojdi nazaj",
+    "explore": "Razišči",
+    "featuresLabel": "Funkcije",
+    "howItWorks": "Kako deluje",
+    "privacyLabel": "Zasebnost",
+    "privacyTitle": "Kar slišiš, ostane pri tebi.",
+    "privacyImageAlt": "Zasebno že v osnovi: tvoj zvok se nikoli ne shranjuje na naših strežnikih, nikoli ne prodaja in nikoli ne uporablja za učenje",
+    "faqLabel": "Vprašanja",
+    "faqTitle": "Pogosta vprašanja",
+    "getStarted": "Začni",
+    "freeToStart": "Captio AI lahko začneš uporabljati brezplačno",
+    "allFeatures": "Captio AI vključuje podnapise v živo, prevajalnik v živo, prepis zvoka in povzetek z UI.",
+    "featureNames": {
+      "live-captions": "Podnapisi v živo",
+      "live-translator": "Prevajalnik v živo",
+      "audio-transcription": "Prepis zvoka",
+      "ai-summary": "Povzetek z UI"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Captio AI – podnapisi v živo in prepis za gluhe in naglušne",
+      "description": "Captio AI gluhim in naglušnim prinaša podnapise v živo, prevod v živo, prepis zvoka in povzetke z UI, kar na telefonu. Več kot 60 jezikov.",
+      "ogDescription": "Podnapisi v živo, prevod v živo, prepis zvoka in povzetki z UI za gluhe in naglušne. Več kot 60 jezikov. Za iPhone in Android.",
+      "schemaDescription": "Podnapisi v živo, prevod v živo, prepis zvoka in povzetki z UI za gluhe in naglušne. Več kot 60 jezikov."
+    },
+    "eyebrow": "🦻 Dostopnost + 💻 Aplikacija za produktivnost",
+    "heroTitle": "[Podnapisi v živo] in [orodje za produktivnost] za gluhe in naglušne.",
+    "heroSubtitle": "Sledi vsakemu pogovoru, sestanku ali predavanju. V katerem koli jeziku.",
+    "mockupAlt": "Aplikacija Captio AI s podnapisi v živo in prevodom",
+    "featuresTitle": "Vse, kar potrebuješ, da slediš vsakemu pogovoru",
+    "featuresSubtitle": "Štiri orodja, narejena posebej za gluhe in naglušne.",
+    "features": {
+      "live-captions": {
+        "title": "Govor v besedilo v realnem času",
+        "bullets": [
+          "Beseda za besedo, v realnem času",
+          "Deluje tudi v hrupu",
+          "Kateri koli naglas, kateri koli tempo",
+          "Branje z ustnic ni potrebno"
+        ]
+      },
+      "live-translator": {
+        "title": "Prevajaj iz katerega koli jezika v realnem času",
+        "bullets": [
+          "Prevaja sproti, med govorom",
+          "Vsak govori svoj jezik",
+          "Zmore menjavo jezika sredi stavka",
+          "60+ jezikov"
+        ]
+      },
+      "audio-transcription": {
+        "title": "Prepiši katero koli zvočno ali video datoteko",
+        "bullets": [
+          "Katera koli zvočna ali video datoteka",
+          "Razvrščeno po govorcih",
+          "60+ jezikov",
+          "Beri, kopiraj, išči, deli"
+        ]
+      },
+      "ai-summary": {
+        "title": "Prepise spremeni v pregledne povzetke",
+        "bullets": [
+          "Ključne točke in odločitve",
+          "Izluščene naloge",
+          "Deluje na vsakem prepisu",
+          "Razdeljeno na razdelke"
+        ]
+      }
+    },
+    "moreFeaturesTitle": "Več funkcij",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "Dejanja z UI",
+        "title": "Opravila, zapiski in sporočilo za nadaljevanje",
+        "description": "Vsak posnetek spremeni v ključne točke, podrobne zapiske, opravila, vprašanja in odgovore ali sporočilo za nadaljevanje."
+      },
+      "export": {
+        "label": "Izvoz",
+        "title": "Deli po svoje",
+        "description": "Podnapise ali povzetek pošlji kot besedilo, povezavo, PDF, e-pošto ali poziv za klepetalnik UI."
+      },
+      "folders": {
+        "label": "Mape",
+        "title": "Mape in skupne mape",
+        "description": "Posnetke razvrsti v mape, eno pa deli z družino, sošolci ali ekipo."
+      },
+      "recognize-voices": {
+        "label": "Prepoznaj glasove",
+        "title": "Imena namesto »Govorec 2«",
+        "description": "Shrani glasove ljudi, s katerimi se pogosto pogovarjaš, in njihova imena se prikažejo v podnapisih."
+      },
+      "speaker-direction": {
+        "label": "Smer govorca",
+        "title": "Vidiš, od kod prihaja glas",
+        "description": "Valovi na robu podnapisov pokažejo, kdo govori. Za iPhone 16 in novejše."
+      },
+      "connectors": {
+        "label": "Povezovalniki",
+        "title": "Vprašaj svoj klepetalnik",
+        "description": "Vprašaj Claude, ChatGPT, Gemini ali Perplexity o katerem koli svojem posnetku."
+      },
+      "widgets": {
+        "label": "Pripomočki",
+        "title": "Podnapisi z enim dotikom",
+        "description": "Podnapise v živo zaženi z začetnega ali zaklenjenega zaslona telefona iPhone."
+      }
+    },
+    "useCasesLabel": "Primeri uporabe",
+    "useCasesTitle": "Deluje v vsaki situaciji",
+    "useCasesSubtitle": "Narejeno za resnične trenutke, ki štejejo, ne le za tiha in nadzorovana okolja.",
+    "useCases": {
+      "everyday-conversations": {
+        "label": "Vsakdanji pogovori",
+        "description": "Večina pogovorov steče hitro, v običajnem tempu in brez napovedi. Captio AI zapiše vsako besedo, takoj ko je izrečena, zato lahko slediš, ne da bi moral kdo kar koli ponavljati."
+      },
+      "deaf-hoh-communication": {
+        "label": "Pogovor z gluhimi in naglušnimi",
+        "description": "Slišeči pogosto ne vedo, kako naj se prilagodijo, ko se pogovarjajo z gluhimi ali naglušnimi prijatelji. Captio AI njihov govor sproti spremeni v podnapise, zato pogovor naravno steče na obeh straneh."
+      },
+      "meetings": {
+        "label": "Sestanki",
+        "description": "Na sestankih se odloča hitro, ljudje pa si segajo v besedo. Captio AI sproti zapiše vsakega govorca, zato ti ne uide nobena odločitev in nobeno vprašanje, ki je namenjeno tebi."
+      },
+      "lectures": {
+        "label": "Predavanja",
+        "description": "Predavatelji govorijo hitro, razlagajo zahtevno snov in redko kaj ponovijo. Captio AI ti sproti zapiše vse povedano, zato se lahko posvetiš vsebini, namesto da napenjaš ušesa."
+      },
+      "doctor-appointments": {
+        "label": "Obiski pri zdravniku",
+        "description": "Zdravniki govorijo hitro in uporabljajo strokovne izraze, ki jih zlahka narobe slišiš. Captio AI ti sproti pokaže vse, kar povedo, zato lahko slediš diagnozi in postaviš prava vprašanja."
+      },
+      "job-interviews": {
+        "label": "Zaposlitveni razgovori",
+        "description": "Če na razgovoru ne ujameš vprašanja, odgovoriš mimo ali pa moraš prositi, naj ga ponovijo. Captio AI ti pokaže vsako besedo osebe, ki vodi razgovor, zato se lahko povsem posvetiš svojemu odgovoru."
+      },
+      "phone-video-calls": {
+        "label": "Telefonski in video klici",
+        "description": "Telefonskim in video klicem je težje slediti kot pogovorom iz oči v oči. Branja z ustnic ni, zvok pa je pogosto slab. Captio AI sproti zapiše vsakogar, ki govori, zato ti ni treba prositi, naj ponovijo."
+      },
+      "group-settings": {
+        "label": "Pogovori v skupini",
+        "description": "V skupini govori več ljudi hkrati in pogovor hitro teče naprej. Captio AI sledi vsakomur, ki govori, zato ne izgubiš niti pogovora."
+      },
+      "restaurants": {
+        "label": "Restavracije in kavarne",
+        "description": "Hrup v ozadju otežuje razumevanje govora celo ljudem brez izgube sluha. Captio AI se osredotoči na tistega, ki govori s tabo, zato se lahko kljub hrupu zares pogovarjaš."
+      },
+      "traveling": {
+        "label": "Potovanja",
+        "description": "Na letališčih, v hotelih in neznanih mestih ni prostora za nesporazume. Captio AI zapisuje govor v več kot 60 jezikih, zato se samozavestno znajdeš, kamor koli greš."
+      },
+      "conferences": {
+        "label": "Konference in dogodki",
+        "description": "Govorniki so daleč, akustika je nepredvidljiva, za ponovitev pa ne moreš prositi. Captio AI ti sproti zapiše vsakega govornika, zato lahko celotnemu dogodku slediš s katerega koli sedeža."
+      },
+      "tv-media": {
+        "label": "Televizija in mediji",
+        "description": "Vgrajeni podnapisi so pogosto napačni, zamujajo ali pa jih sploh ni. Captio AI sproti zapiše vse, kar se predvaja, zato ti ni treba upati, da ima vsebina podnapise."
+      }
+    },
+    "languagesLabel": "Jeziki",
+    "languagesTitle": "Captio AI podpira več kot 60 jezikov",
+    "privacyCards": [
+      {
+        "title": "Zvok ne konča na naših strežnikih",
+        "description": "Tvoj zvok se v realnem času pretvarja v besedilo in se nikoli ne shranjuje na naših strežnikih. Posnetki, ki jih shraniš, ostanejo v tvojem telefonu, njihovi prepisi pa se sinhronizirajo samo s tvojim računom."
+      },
+      {
+        "title": "Ni naprodaj",
+        "description": "Captio AI tvojih pogovorov ne prodaja, ne deli in z njimi ne služi. Nikomur in iz nobenega razloga."
+      },
+      {
+        "title": "Ne uporablja se za učenje",
+        "description": "Kar poveš pri zdravniku ali na zaposlitvenem razgovoru, nikoli ne konča med podatki za učenje. Ne med našimi. Ne med tujimi."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Komu je namenjena aplikacija Captio AI?",
+        "a": "Aplikacija Captio AI je narejena predvsem za gluhe in naglušne, ki morajo govorjenim pogovorom slediti v realnem času. Pogosto jo uporabljajo tudi ljudje z motnjo slušnega procesiranja, ljudje v hrupnem okolju, tisti, ki se učijo jezika, in vsi, ki jim je branje hitrejše ali lažje od poslušanja."
+      },
+      {
+        "q": "Kako natančni so podnapisi v živo?",
+        "a": "Captio AI uporablja napredno razpoznavanje govora, razvito posebej za natančnost in majhno zakasnitev. Natančnost je odvisna od jasnosti zvoka, naglasa in hrupa v ozadju, v običajnih pogovorih pa je zelo visoka, primerljiva s profesionalnimi storitvami podnaslavljanja."
+      },
+      {
+        "q": "Katere jezike podpira Captio AI?",
+        "a": "Captio AI podpira več kot 60 jezikov, med njimi angleščino, španščino, francoščino, nemščino, mandarinščino, arabščino, hindijščino, japonščino, korejščino, portugalščino, ruščino in številne druge. Vsi jeziki so na voljo za podnapise v živo in prevajalnik v živo. Celoten seznam najdeš na tej strani."
+      },
+      {
+        "q": "Ali Captio AI razume različne naglase in narečja?",
+        "a": "Da. Captio AI razume širok nabor regionalnih naglasov in narečij, ne le knjižnega govora iz učbenikov. Podpira avstralsko angleščino, latinskoameriško španščino, švicarsko nemščino, brazilsko portugalščino, quebeško francoščino in številne druge."
+      },
+      {
+        "q": "Kakšna je razlika med podnapisi v živo in prevajalnikom v živo?",
+        "a": "Podnapisi v živo zapišejo govor v jeziku, v katerem je izrečen. Prevajalnik v živo ta govor sproti prevede v jezik, ki ga izbereš. To je idealno, ko govorec in bralec govorita različna jezika, na primer pri zdravniku, ki govori tuj jezik, ali na poslovnem sestanku v drugem jeziku."
+      },
+      {
+        "q": "Ali Captio AI shranjuje ali deli moj zvok?",
+        "a": "Tvoj zvok se nikoli ne shranjuje na strežnikih Captio AI in se nikoli ne prodaja ali deli za oglaševanje. Varno se pošlje storitvi za prepoznavanje govora samo zato, da se pretvori v besedilo, nato pa se tam izbriše. Posnetki, ki jih shraniš, ostanejo v tvojem telefonu; njihovi prepisi in povzetki se hranijo tudi v tvojem računu, da jih lahko odpreš na drugi napravi, ko posnetek izbrišeš, pa izgine povsod. Tvoji pogovori se nikoli ne uporabljajo za učenje modelov UI, ne naših ne tujih."
+      },
+      {
+        "q": "Ali Captio AI deluje brez internetne povezave?",
+        "a": "Podnapisi v živo in prevajalnik v živo za sprotno obdelavo govora potrebujejo internetno povezavo. Tudi prepis zvoka (za naložene datoteke) deluje le s povezavo. Podnapisi brez povezave trenutno niso podprti."
+      },
+      {
+        "q": "Kakšen telefon ali iPad potrebujem?",
+        "a": "Captio AI deluje na napravah iPhone in iPad z iOS 16 ali novejšim ter na telefonih Android. Aplikacija je prilagojena telefonu in najbolje deluje, ko med mikrofonom in govorcem ni ovir."
+      },
+      {
+        "q": "Ali lahko Captio AI uporabljam pri zdravniku?",
+        "a": "Da, obisk pri zdravniku je eden najpomembnejših primerov uporabe. Telefon lahko položiš na mizo ali ga obrneš proti zdravniku in sproti bereš vse, kar pove. Tudi medicinski izrazi so zapisani natančno, zato je Captio AI praktičen pripomoček za dostopnost v zdravstvu."
+      },
+      {
+        "q": "Ali lahko Captio AI uporabljam na sestankih in predavanjih?",
+        "a": "Da. Captio AI deluje povsod, kjer se govori: na delovnih sestankih, predavanjih na fakulteti, dnevnih sestankih ekipe, konferencah in video klicih. Mikrofon usmeri proti govorcu in podnapisi se prikažejo takoj."
+      },
+      {
+        "q": "Kaj je prepis zvoka in v čem se razlikuje od podnapisov v živo?",
+        "a": "Podnapisi v živo delujejo sproti, medtem ko nekdo govori. Prepis zvoka je namenjen posnetkom: naložiš zvočno ali video datoteko in dobiš celoten pisni prepis. Idealen je za pregled posnetih predavanj, intervjujev, podkastov ali katere koli vsebine, ki jo raje prebereš kot poslušaš."
+      },
+      {
+        "q": "Kaj naredi povzetek z UI?",
+        "a": "Povzetek z UI iz katerega koli prepisa izlušči ključne informacije (glavne točke, sprejete odločitve, naloge in pomembne podrobnosti) in jih uredi v pregleden povzetek. Prihrani ti čas, ko imaš dolg prepis sestanka ali predavanja in hitro potrebuješ bistvo."
+      },
+      {
+        "q": "Je uporaba aplikacije Captio AI brezplačna?",
+        "a": "Captio AI ima brezplačni paket, s katerim lahko začneš brez plačila. Za neomejeno uporabo je na voljo paket Plus. Trenutno ceno paketa Plus za tvojo državo najdeš v trgovini App Store."
+      },
+      {
+        "q": "V čem se Captio AI razlikuje od podnapisov v živo, ki jih ima Apple vgrajene v iOS?",
+        "a": "Podnapisi v živo, vgrajeni v iOS, podpirajo manj jezikov, ne prevajajo ter ne vključujejo prepisa zvoka in povzetkov z UI. Captio AI podpira več kot 60 jezikov, prevaja v realnem času, prepiše naložene datoteke in ustvari povzetke z UI, zato je veliko celovitejše orodje za dostopnost in produktivnost."
+      }
+    ]
+  },
+  "featurePages": {
+    "live-captions": {
+      "meta": {
+        "title": "Podnapisi v živo za gluhe in naglušne: aplikacija za iPhone",
+        "description": "Pretvorba govora v besedilo v realnem času prek mikrofona v telefonu iPhone. Takoj slediš vsakemu pogovoru, v katerem koli jeziku. Za gluhe in naglušne.",
+        "schemaDescription": "Podnapisi v živo za gluhe in naglušne v realnem času. Več kot 60 jezikov, zakasnitev precej pod sekundo, deluje povsod."
+      },
+      "howTitle": "Trije dotiki. Celoten pogovor.",
+      "steps": [
+        {
+          "title": "Začni snemati",
+          "desc": "Pritisni gumb za snemanje. Captio AI takoj začne poslušati."
+        },
+        {
+          "title": "Glej, kako se pojavljajo besede",
+          "desc": "Podnapisi se prikazujejo beseda za besedo, medtem ko oseba še govori."
+        },
+        {
+          "title": "Shrani",
+          "desc": "Prepis in zvočni posnetek obdrži za pozneje."
+        }
+      ],
+      "featuresTitle": "Narejeno za resnične pogovore",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Besede, kot so bile izrečene",
+          "description": "Captio AI zapiše, kar je nekdo res povedal, ne pa približne obnove. Zato se lahko na prepis zaneseš takrat, ko je pomembno: pri zdravniku, na razgovoru, na sestanku."
+        },
+        {
+          "title": "Brez zakasnitve",
+          "description": "Zakasnitev je precej pod sekundo. Podnapisi se prikazujejo beseda za besedo, medtem ko oseba še govori, zato prebereš, kar pove, v istem trenutku, ko jo drugi slišijo."
+        },
+        {
+          "title": "Veš, kdo govori",
+          "description": "V skupinah in na sestankih Captio AI vsakega govorca označi posebej, zato vedno veš, kdo je kaj rekel, ne da bi ti bilo treba opazovati obraze ali brati z ustnic."
+        },
+        {
+          "title": "60+ jezikov",
+          "description": "Pogovoru v francoščini, japonščini ali arabščini slediš enako kot pogovoru v angleščini. Brez preklapljanja načinov. Izguba sluha tako nikoli ne postane še jezikovna ovira."
+        },
+        {
+          "title": "Zmore jezike, ki se mešajo sredi stavka",
+          "description": "Ko ljudje sredi pogovora zamenjajo jezik, Captio AI sledi. Brez vrzeli v podnapisih, brez preklapljanja načinov."
+        },
+        {
+          "title": "Nauči aplikacijo svojih besed",
+          "description": "Dodaj imena, medicinske izraze ali strokovne besede, ki jih pogosto slišiš. Captio AI s tvojim seznamom besed natančneje zapiše tvoje resnične pogovore."
+        },
+        {
+          "title": "Dodaj jezikovni namig",
+          "description": "Aplikaciji Captio AI povej, kateri jezik naj pričakuje, in pravilno zapisuje že od prve besede. To pride prav, ko iz okoliščin ni jasno, kateri jezik se govori."
+        },
+        {
+          "title": "Pozneje znova prepiši za večjo natančnost",
+          "description": "Kateri koli posnetek lahko pozneje znova prepišeš in dobiš čistejši prepis. Uporabno za predavanja, obiske pri zdravniku in vsak pogovor, ki ga je vredno znova pregledati."
+        },
+        {
+          "title": "Beri po svoje",
+          "description": "Prilagodi velikost besedila, barvo ozadja in kontrast, da so podnapisi berljivi na prvi pogled: ko držiš telefon v roki, ko leži na mizi ali ko je naslonjen na pisalni mizi."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Zvok ne konča na naših strežnikih",
+          "description": "Tvoj zvok se v realnem času pretvarja v besedilo in se nikoli ne shranjuje na naših strežnikih. Posnetki, ki jih shraniš, ostanejo v tvojem telefonu, njihovi prepisi pa se sinhronizirajo samo s tvojim računom."
+        },
+        {
+          "title": "Ni naprodaj",
+          "description": "Captio AI tvojih pogovorov ne prodaja, ne deli in z njimi ne služi. Nikomur in iz nobenega razloga."
+        },
+        {
+          "title": "Ne uporablja se za učenje",
+          "description": "Kar poveš pri zdravniku ali na zaposlitvenem razgovoru, nikoli ne konča med podatki za učenje. Ne med našimi. Ne med tujimi."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "V čem se Captio AI razlikuje od podnapisov v živo, ki jih ima Apple vgrajene v iOS?",
+          "a": "Podnapisi v živo, vgrajeni v iOS, podpirajo manj jezikov, ne prevajajo ter ne vključujejo prepisa zvoka in povzetkov z UI. Captio AI podpira več kot 60 jezikov, prevaja v realnem času, prepiše naložene datoteke in ustvari povzetke z UI. Prilagodiš lahko tudi velikost besedila, barve in kontrast, da bereš tako, kot ti najbolj ustreza."
+        },
+        {
+          "q": "Kako natančni so podnapisi v živo?",
+          "a": "V običajnih pogovorih je natančnost visoka. Aplikacija Captio AI je narejena za resničen govor, ne le za čist studijski zvok, zato obvlada hitre govorce, regionalne naglase, hrup v ozadju in stavke v več jezikih. Dodaš lahko tudi svoje besede (imena, medicinske izraze, strokovne izraze), da so tvoji pogovori zapisani še natančneje."
+        },
+        {
+          "q": "Kako hitro se prikažejo podnapisi?",
+          "a": "Beseda za besedo, medtem ko oseba še govori. Zakasnitev je precej pod sekundo, skoraj v realnem času. Kar nekdo pove, prebereš v istem trenutku, ko ga drugi slišijo, in ne šele, ko konča stavek."
+        },
+        {
+          "q": "Ali podnapisi v živo delujejo tudi v hrupnem okolju?",
+          "a": "Da. Aplikacija Captio AI je zasnovana za resnična okolja: restavracije, ulice, čakalnice, javni prevoz. Mikrofon usmeri proti govorcu in podnapisi se prikažejo ne glede na hrup v ozadju."
+        },
+        {
+          "q": "Katere jezike podpirajo podnapisi v živo?",
+          "a": "Več kot 60 jezikov, med njimi angleščino, španščino, francoščino, nemščino, mandarinščino, arabščino, hindijščino, japonščino, korejščino, portugalščino, ruščino in številne druge. Regionalni naglasi in narečja so podprti v vseh večjih jezikih."
+        },
+        {
+          "q": "Ali razume naglase in narečja?",
+          "a": "Da. Captio AI razume širok nabor regionalnih naglasov, ne le knjižnega govora iz učbenikov. Podprte so avstralska angleščina, latinskoameriška španščina, švicarska nemščina, quebeška francoščina in številne druge različice."
+        },
+        {
+          "q": "Ali lahko podnapise shranim?",
+          "a": "Da. Po seji lahko shraniš prepise in zvočne posnetke ter jih pozneje pregledaš. Shranjeni posnetek lahko tudi znova prepišeš in dobiš čistejši, natančnejši prepis."
+        },
+        {
+          "q": "Ali potrebujem internetno povezavo?",
+          "a": "Da. Podnapisi v živo za sprotno obdelavo govora potrebujejo internetno povezavo. Podnapisi brez povezave trenutno niso podprti."
+        }
+      ]
+    },
+    "live-translator": {
+      "meta": {
+        "title": "Prevajalnik v živo: prevod govora v realnem času za iPhone",
+        "description": "Prevod govora v realnem času na telefonu iPhone. Sogovornik govori svoj jezik, ti bereš v svojem, takoj in v katerem koli jeziku. Za gluhe in naglušne.",
+        "schemaDescription": "Prevod govora v realnem času za gluhe in naglušne. Več kot 60 jezikov, vsak govori svoj jezik, ti pa bereš v svojem."
+      },
+      "howTitle": "Trije dotiki. Kateri koli jezik.",
+      "steps": [
+        {
+          "title": "Izberi način prevajanja",
+          "desc": "Odpri Captio AI in izberi »Prevajalnik v živo«."
+        },
+        {
+          "title": "Izberi želeni jezik",
+          "desc": "Izberi jezik, v katerem želiš brati."
+        },
+        {
+          "title": "Glej prevod v realnem času",
+          "desc": "Captio AI prevaja beseda za besedo."
+        }
+      ],
+      "featuresTitle": "Narejeno za resnične pogovore",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Kateri koli jezik",
+          "description": "Francoščina, japonščina, arabščina, španščina, nemščina, mandarinščina: več kot 60 jezikov, v katero koli smer. Izguba sluha tako nikoli ne postane še jezikovna ovira."
+        },
+        {
+          "title": "Sproti prepozna govorjeni jezik",
+          "description": "Izvorni jezik pusti na samodejnem zaznavanju in Captio AI ga prepozna že iz prvih besed. Pred vsakim pogovorom ti ga ni treba izbirati ročno."
+        },
+        {
+          "title": "Brez zamika",
+          "description": "Zakasnitev prevoda je precej pod sekundo. Kar nekdo pove, prebereš v istem trenutku, ko ga drugi slišijo, in ne šele, ko konča stavek."
+        },
+        {
+          "title": "Dodaj jezikovne namige",
+          "description": "Aplikaciji Captio AI povej, kateri jezik naj pričakuje, in pravilno prevaja že od prve besede. To pride prav, ko iz okoliščin ni jasno, kateri jezik se govori."
+        },
+        {
+          "title": "Več jezikov hkrati",
+          "description": "Ko ljudje sredi pogovora zamenjajo jezik, Captio AI sledi in vsakega sproti prevede v tvoj jezik, brez kakršnega koli ročnega posega."
+        },
+        {
+          "title": "Beri po svoje",
+          "description": "Prilagodi barvo ozadja, barvo besedila in velikost pisave, da je prevod berljiv na prvi pogled, ne glede na to, ali držiš telefon v roki ali leži na mizi."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Zvok ne konča na naših strežnikih",
+          "description": "Tvoj zvok se v realnem času pretvarja v besedilo in se nikoli ne shranjuje na naših strežnikih. Posnetki, ki jih shraniš, ostanejo v tvojem telefonu, njihovi prepisi pa se sinhronizirajo samo s tvojim računom."
+        },
+        {
+          "title": "Ni naprodaj",
+          "description": "Captio AI tvojih pogovorov ne prodaja, ne deli in z njimi ne služi. Nikomur in iz nobenega razloga."
+        },
+        {
+          "title": "Ne uporablja se za učenje",
+          "description": "Kar poveš pri zdravniku ali na zaposlitvenem razgovoru, nikoli ne konča med podatki za učenje. Ne med našimi. Ne med tujimi."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "V čem se prevajalnik v živo razlikuje od podnapisov v živo?",
+          "a": "Podnapisi v živo zapišejo govor v izvirnem jeziku. Prevajalnik v živo ta govor sproti prevede v jezik, ki ga izbereš. Če sogovornik govori francosko, ti pa bereš v angleščini, uporabiš prevajalnik v živo."
+        },
+        {
+          "q": "Kako natančen je prevod?",
+          "a": "Pri pogostih jezikovnih parih in vsakdanjih pogovorih je prevod zelo natančen. Captio AI obvlada naraven govor (hitre govorce, naglase, hrup v ozadju), ne le čistega studijskega zvoka. Pri redkih jezikovnih parih ali zelo strokovni vsebini je natančnost lahko različna."
+        },
+        {
+          "q": "Kateri jeziki so podprti?",
+          "a": "Več kot 60 jezikov, med njimi angleščina, španščina, francoščina, nemščina, mandarinščina, arabščina, hindijščina, japonščina, korejščina, portugalščina, ruščina in številni drugi. Izvorni in ciljni jezik sta lahko kateri koli od podprtih jezikov."
+        },
+        {
+          "q": "Kako hitro se prikaže prevod?",
+          "a": "Zakasnitev je precej pod sekundo. Prevod bereš beseda za besedo, medtem ko oseba še govori: skoraj v realnem času, ne šele, ko konča stavek."
+        },
+        {
+          "q": "Ali deluje pri zdravniku, ki govori tuj jezik?",
+          "a": "Da. To je eden najpomembnejših primerov uporabe. Telefon položi na mizo, za izvorni jezik nastavi zdravnikov jezik in sproti beri vse, kar pove, v svojem jeziku. Preveden prepis lahko tudi shraniš in njegova navodila pozneje znova prebereš."
+        },
+        {
+          "q": "Ali deluje v hrupnem okolju?",
+          "a": "Da. Aplikacija Captio AI je narejena za resnična okolja: čakalnice, restavracije, letališča. Mikrofon usmeri proti govorcu in prevod se prikaže ne glede na hrup v okolici."
+        },
+        {
+          "q": "Ali lahko preveden prepis shranim?",
+          "a": "Da. Po seji lahko preveden prepis shraniš in ga pregledaš pozneje. Uporabno pri zdravniku, na sestankih in pri vsakem pogovoru, o katerem želiš imeti zapis."
+        },
+        {
+          "q": "Ali potrebujem internetno povezavo?",
+          "a": "Da. Prevajalnik v živo za sprotno obdelavo in prevajanje govora potrebuje internetno povezavo. Prevajanje brez povezave trenutno ni podprto."
+        }
+      ]
+    },
+    "audio-transcription": {
+      "meta": {
+        "title": "Prepis zvoka: zvočni in video posnetki v besedilo za iPhone",
+        "description": "Naloži katero koli zvočno ali video datoteko in dobi celoten pisni prepis. Več kot 60 jezikov, ločevanje govorcev, iskanje. Za gluhe in naglušne.",
+        "schemaDescription": "Naloži katero koli zvočno ali video datoteko in dobi celoten pisni prepis. Več kot 60 jezikov, ločevanje govorcev, časovne oznake. Za gluhe in naglušne."
+      },
+      "howTitle": "Naloži. Preberi. Končano.",
+      "steps": [
+        {
+          "title": "Izberi vrsto datoteke",
+          "desc": "Izberi, ali nalagaš zvočno ali video datoteko."
+        },
+        {
+          "title": "Izberi datoteko",
+          "desc": "Izberi datoteko v telefonu. Captio AI jo takoj začne prepisovati."
+        },
+        {
+          "title": "Oglej si prepis",
+          "desc": "Preberi celoten prepis, razvrščen po govorcih in s časovnimi oznakami."
+        }
+      ],
+      "featuresTitle": "Narejeno za resnične posnetke",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Kateri koli format",
+          "description": "MP3, MP4, M4A, WAV in drugi. Predavanja, sestanki, glasovna sporočila, podkasti, intervjuji, posnetki klicev: če je v posnetku govor, ga Captio AI lahko prepiše."
+        },
+        {
+          "title": "Najvišja natančnost",
+          "description": "Aplikacija Captio AI je narejena za resnične posnetke, ne le za čiste studijske datoteke. Zvok telefonskih klicev, posnetki iz predavalnic, hrupna okolja: kos je vsemu."
+        },
+        {
+          "title": "Kateri koli jezik",
+          "description": "Naloži posnetek v francoščini, japonščini, arabščini ali katerem od 57 drugih jezikov. Captio AI prepozna jezik in ga natančno prepiše."
+        },
+        {
+          "title": "Več jezikov",
+          "description": "Ko govorci sredi posnetka zamenjajo jezik, Captio AI sledi. Prepis brez vrzeli zajame vsak jezik, ki je bil izgovorjen."
+        },
+        {
+          "title": "Časovne oznake",
+          "description": "Vsaka vrstica prepisa ima časovno oznako, zato lahko skočiš na kateri koli trenutek posnetka in natančno najdeš, kaj je bilo rečeno in kdaj."
+        },
+        {
+          "title": "Izvozi in deli",
+          "description": "Kopiraj celoten prepis, ga deli ali shrani. Tvoji posnetki in prepisi so ti na voljo, kadar koli jih potrebuješ."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Datoteke ne končajo na naših strežnikih",
+          "description": "Tvoja datoteka se pošlje samo zato, da se prepiše, in se tam izbriše. Na naših strežnikih se nikoli ne shrani. Posnetek ostane v tvojem telefonu, njegov prepis pa se sinhronizira samo s tvojim računom."
+        },
+        {
+          "title": "Ni naprodaj",
+          "description": "Captio AI tvojih posnetkov ne prodaja, ne deli in z njimi ne služi. Nikomur in iz nobenega razloga."
+        },
+        {
+          "title": "Ne uporablja se za učenje",
+          "description": "Kar naložiš, naj bo obisk pri zdravniku, sestanek ali intervju, nikoli ne konča med podatki za učenje. Ne med našimi. Ne med tujimi."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "V čem se prepis zvoka razlikuje od podnapisov v živo?",
+          "a": "Podnapisi v živo delujejo sproti, medtem ko nekdo govori. Prepis zvoka je namenjen posnetkom: naložiš zvočno ali video datoteko in dobiš celoten pisni prepis. Idealen je za pregled posnetih predavanj, obiskov pri zdravniku, intervjujev ali katere koli vsebine, ki jo raje prebereš kot poslušaš."
+        },
+        {
+          "q": "Katere formate datotek podpira prepis zvoka?",
+          "a": "Captio AI sprejme pogoste zvočne in video formate, med njimi MP3, MP4, M4A, WAV in druge. Če je posnetek s tvojega telefona ali prenesen z video platforme, bo deloval."
+        },
+        {
+          "q": "Kako natančen je prepis?",
+          "a": "Pri jasnih posnetkih v podprtih jezikih je natančnost visoka. Captio AI obvlada resničen zvok (telefonske klice, posnetke iz predavalnic, hrupna okolja), ne le datotek studijske kakovosti. Po potrebi lahko datoteko tudi znova prepišeš."
+        },
+        {
+          "q": "Kateri jeziki so podprti?",
+          "a": "Več kot 60 jezikov, med njimi angleščina, španščina, francoščina, nemščina, mandarinščina, arabščina, hindijščina, japonščina, korejščina, portugalščina, ruščina in številni drugi. Captio AI samodejno prepozna jezik, ki se govori v datoteki."
+        },
+        {
+          "q": "Ali loči govorce?",
+          "a": "Da. Captio AI v prepisu vsakega govorca označi posebej, zato lahko slediš, kdo je kaj rekel. Uporabno za sestanke, intervjuje, obiske pri zdravniku in vse posnetke, na katerih govori več ljudi."
+        },
+        {
+          "q": "Koliko časa traja prepis?",
+          "a": "Prepis je hiter. Enourni posnetek je običajno prepisan v nekaj minutah. Čas je odvisen od dolžine datoteke in kakovosti zvoka."
+        },
+        {
+          "q": "Ali se moj zvok po prepisu shrani?",
+          "a": "Ne na strežnikih Captio AI. Datoteka se varno pošlje storitvi za prepoznavanje govora samo zato, da se prepiše, in se tam izbriše takoj, ko je prepis pripravljen. Posnetek ostane v tvojem telefonu, njegov prepis pa se hrani tudi v tvojem računu, da ga lahko odpreš na drugi napravi. Tvoji posnetki se nikoli ne prodajajo in se ne uporabljajo za učenje modelov UI."
+        },
+        {
+          "q": "Ali lahko prepišem video datoteko?",
+          "a": "Da. Video datoteko naloži neposredno in Captio AI iz nje izlušči zvok ter ga prepiše. Datoteke ti ni treba prej pretvarjati."
+        }
+      ]
+    },
+    "ai-summary": {
+      "meta": {
+        "title": "Povzetek z UI: pregledni povzetki katerega koli prepisa",
+        "description": "Vsak prepis spremeni v pregleden povzetek. Ključne točke, odločitve in naloge se izluščijo samodejno. Narejeno za gluhe in naglušne.",
+        "schemaDescription": "Vsak prepis spremeni v pregleden povzetek. Ključne točke, odločitve, naloge in izjave govorcev se izluščijo samodejno."
+      },
+      "howTitle": "Prepis noter. Povzetek ven.",
+      "steps": [
+        {
+          "title": "Odpri prepis",
+          "desc": "Izberi kateri koli prepis iz podnapisov v živo ali prepisa zvoka."
+        },
+        {
+          "title": "Ustvari povzetek",
+          "desc": "Tapni »Povzetek z UI«. Captio AI prepis samodejno obdela."
+        },
+        {
+          "title": "Preberi povzetek",
+          "desc": "Tvoj povzetek je gotov: razdeljen na razdelke, pripravljen za branje ali deljenje."
+        }
+      ],
+      "featuresTitle": "Narejeno za dolge prepise",
+      "featuresSubtitle": "Dobi povzetek, opravila, izjave govorcev, zapiske in še več.",
+      "subfeatures": [
+        {
+          "title": "Ključne točke, izluščene samodejno",
+          "description": "Captio AI prebere celoten prepis in izlušči tisto, kar je bilo res pomembno: glavne točke, sprejete odločitve in sklepe."
+        },
+        {
+          "title": "Naloge na dlani",
+          "description": "Naloge in nadaljnji koraki so prepoznani in navedeni posebej, da po sestanku, obisku pri zdravniku ali predavanju nič ne uide."
+        },
+        {
+          "title": "Razdeljeno na razdelke",
+          "description": "Povzetek je urejen in ni en sam neprekinjen blok besedila. Vsaka tema ima svoj razdelek, zato ga hitro preletiš in najdeš, kar potrebuješ."
+        },
+        {
+          "title": "Deluje na vsakem prepisu v aplikaciji Captio AI",
+          "description": "Povzetek z UI zaženi na katerem koli prepisu iz podnapisov v živo ali prepisa zvoka. Brez dodatnih korakov, brez kopiranja in lepljenja."
+        },
+        {
+          "title": "Kateri koli jezik",
+          "description": "Povzemi prepise v več kot 60 jezikih. Captio AI prebere prepis v izvirnem jeziku in pripravi povzetek, ki ga lahko prebereš."
+        },
+        {
+          "title": "Shrani in deli",
+          "description": "Povzetek obdrži ob prepisu, ga kopiraj ali deli. Uporabno po obisku pri zdravniku, sestankih in predavanjih."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Shranjeno samo v tvojem računu",
+          "description": "Povzetek se shrani skupaj s posnetkom, v tvojem telefonu in v tvojem računu, zato je na voljo na vsaki napravi, na kateri se prijaviš. Izbriši ga in izgine povsod."
+        },
+        {
+          "title": "Ni naprodaj",
+          "description": "Captio AI tvojih pogovorov ne prodaja, ne deli in z njimi ne služi. Nikomur in iz nobenega razloga."
+        },
+        {
+          "title": "Ne uporablja se za učenje",
+          "description": "Kar povzameš, naj bo obisk pri zdravniku, sestanek ali intervju, nikoli ne konča med podatki za učenje. Ne med našimi. Ne med tujimi."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Kaj naredi povzetek z UI?",
+          "a": "Povzetek z UI iz katerega koli prepisa izlušči ključne informacije (glavne točke, odločitve, naloge in pomembne podrobnosti) in jih uredi v pregleden povzetek. Prihrani ti čas, ko imaš dolg prepis in hitro potrebuješ bistvo."
+        },
+        {
+          "q": "Katere prepise lahko povzamem?",
+          "a": "Vsak prepis, ustvarjen v aplikaciji Captio AI, iz podnapisov v živo ali prepisa zvoka. Povzetek z UI zaženeš neposredno na prepisu, brez dodatnih korakov."
+        },
+        {
+          "q": "V čem je povzetek z UI boljši od branja prepisa?",
+          "a": "Celoten prepis enournega sestanka ima lahko več tisoč besed. Povzetek z UI ti ključne točke, odločitve in naloge predstavi v delčku časa, ki bi ga sicer vzelo branje, in jih uredi po temah, ne po vrstnem redu, v katerem je bilo kaj povedano."
+        },
+        {
+          "q": "Ali deluje tudi za obiske pri zdravniku?",
+          "a": "Da. Pri zdravniku v kratkem času dobiš veliko informacij. Povzetek z UI diagnozo, navodila in nadaljnje korake zbere v jasen seznam, ki ga lahko pregledaš in se k njemu vračaš."
+        },
+        {
+          "q": "Kateri jeziki so podprti?",
+          "a": "Povzetek z UI deluje na prepisih v več kot 60 jezikih. Povzetek je v istem jeziku kot prepis."
+        },
+        {
+          "q": "Ali lahko povzetek shranim ali delim?",
+          "a": "Da. Povzetek lahko shraniš ob izvirnem prepisu, ga kopiraš ali deliš. Uporabno, ko pošiljaš povzetek sestanka ali želiš ohraniti zapis obiska pri zdravniku."
+        },
+        {
+          "q": "Ali povzetek z UI shranjuje moj prepis ali zvok?",
+          "a": "Tvoj prepis se varno pošlje storitvi umetne inteligence samo zato, da napiše povzetek, in se nikoli ne uporablja za učenje modelov UI. Povzetek se shrani skupaj s posnetkom, v tvojem telefonu in v tvojem računu, dokler ga ne izbrišeš. Zvok se nikoli ne shranjuje na strežnikih Captio AI, tvoji pogovori pa se nikoli ne prodajajo."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,676 @@
+{
+  "header": {
+    "features": "Funkcijas",
+    "useCases": "Lietojuma gadījumi",
+    "languages": "Valodas",
+    "compare": "Salīdzināt",
+    "blog": "Blogs",
+    "download": "Lejupielādēt",
+    "toggleMenu": "Atvērt vai aizvērt izvēlni",
+    "chooseLanguage": "Izvēlies valodu"
+  },
+  "footer": {
+    "tagline": "Tiešraides subtitri un produktivitātes rīks nedzirdīgajiem un vājdzirdīgajiem.",
+    "productHuntTagline": "Tiešraides subtitri un transkripcija nedzirdīgajiem un vājdzirdīgajiem",
+    "productHunt": "Apskati to vietnē Product Hunt →",
+    "featuredOn": "Izcelts vietnē",
+    "features": "Funkcijas",
+    "useCases": "Lietojuma gadījumi",
+    "blog": "Blogs",
+    "allArticles": "Visi raksti",
+    "compare": "Salīdzināt",
+    "compareApps": "Salīdzini subtitru lietotnes",
+    "company": "Uzņēmums",
+    "organizations": "Organizācijām",
+    "privacy": "Privātuma politika",
+    "terms": "Lietošanas noteikumi"
+  },
+  "store": {
+    "appleOverline": "Lejupielādē no",
+    "googleOverline": "Iegūsti no",
+    "appleQrAlt": "QR kods, lai lejupielādētu Captio AI no App Store iPhone tālrunim",
+    "googleQrAlt": "QR kods, lai lejupielādētu Captio AI no Google Play Android ierīcei",
+    "downloadForFree": "Lejupielādē bez maksas"
+  },
+  "common": {
+    "home": "Sākums",
+    "back": "Atpakaļ",
+    "goBack": "Doties atpakaļ",
+    "explore": "Izpēti",
+    "featuresLabel": "Funkcijas",
+    "howItWorks": "Kā tas darbojas",
+    "privacyLabel": "Privātums",
+    "privacyTitle": "Tas, ko dzirdi, paliek pie tevis.",
+    "privacyImageAlt": "Privāts pēc noklusējuma: tavs audio nekad netiek glabāts mūsu serveros, nekad netiek pārdots un nekad netiek izmantots apmācībai",
+    "faqLabel": "BUJ",
+    "faqTitle": "Biežāk uzdotie jautājumi",
+    "getStarted": "Sāc",
+    "freeToStart": "Captio AI var sākt lietot bez maksas",
+    "allFeatures": "Captio AI funkcijas: Tiešraides subtitri, Tiešraides tulkotājs, Audio transkripcija un MI kopsavilkums.",
+    "featureNames": {
+      "live-captions": "Tiešraides subtitri",
+      "live-translator": "Tiešraides tulkotājs",
+      "audio-transcription": "Audio transkripcija",
+      "ai-summary": "MI kopsavilkums"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Captio AI — subtitri nedzirdīgajiem un vājdzirdīgajiem",
+      "description": "Captio AI nedzirdīgajiem un vājdzirdīgajiem: subtitri reāllaikā, tiešraides tulkošana, audio transkripcija un MI kopsavilkumi tālrunī. 60+ valodas.",
+      "ogDescription": "Subtitri reāllaikā, tiešraides tulkošana, audio transkripcija un MI kopsavilkumi nedzirdīgajiem un vājdzirdīgajiem. 60+ valodas. iPhone un Android.",
+      "schemaDescription": "Subtitri reāllaikā, tiešraides tulkošana, audio transkripcija un MI kopsavilkumi nedzirdīgajiem un vājdzirdīgajiem. 60+ valodas."
+    },
+    "eyebrow": "🦻 Piekļūstamība + 💻 Produktivitātes lietotne",
+    "heroTitle": "[Tiešraides subtitri] un [produktivitātes rīks] nedzirdīgajiem un vājdzirdīgajiem.",
+    "heroSubtitle": "Seko jebkurai sarunai, sapulcei vai lekcijai. Jebkurā valodā.",
+    "mockupAlt": "Captio AI lietotne ar tiešraides subtitriem un tulkojumu",
+    "featuresTitle": "Viss, kas vajadzīgs, lai sekotu jebkurai sarunai",
+    "featuresSubtitle": "Četri rīki, kas radīti tieši nedzirdīgajiem un vājdzirdīgajiem.",
+    "features": {
+      "live-captions": {
+        "title": "Runa tekstā reāllaikā",
+        "bullets": [
+          "Vārds pa vārdam, reāllaikā",
+          "Darbojas trokšņainās vietās",
+          "Jebkurš akcents, jebkurš temps",
+          "Nav jālasa no lūpām"
+        ]
+      },
+      "live-translator": {
+        "title": "Tulko jebkuru valodu reāllaikā",
+        "bullets": [
+          "Tulko, kamēr runā",
+          "Katrs runā savā valodā",
+          "Tiek galā ar valodas maiņu teikuma vidū",
+          "60+ valodas"
+        ]
+      },
+      "audio-transcription": {
+        "title": "Transkribē jebkuru audio vai video failu",
+        "bullets": [
+          "Jebkurš audio vai video fails",
+          "Sakārtots pēc runātājiem",
+          "60+ valodas",
+          "Lasi, kopē, meklē, kopīgo"
+        ]
+      },
+      "ai-summary": {
+        "title": "Pārvērt transkripcijas strukturētos kopsavilkumos",
+        "bullets": [
+          "Galvenās domas un lēmumi",
+          "Uzdevumi izcelti atsevišķi",
+          "Der jebkurai transkripcijai",
+          "Sakārtots sadaļās"
+        ]
+      }
+    },
+    "moreFeaturesTitle": "Vairāk iespēju",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "MI darbības",
+        "title": "Uzdevumi, piezīmes un turpinājuma ziņa",
+        "description": "Pārvērt jebkuru ierakstu galvenajās domās, detalizētās piezīmēs, uzdevumos, jautājumos un atbildēs vai turpinājuma ziņā."
+      },
+      "export": {
+        "label": "Eksports",
+        "title": "Dalies savā veidā",
+        "description": "Nosūti subtitrus vai kopsavilkumu kā tekstu, saiti, PDF, e-pastu vai MI tērzēšanas uzvedni."
+      },
+      "folders": {
+        "label": "Mapes",
+        "title": "Mapes un kopīgotās mapes",
+        "description": "Sakārto ierakstus mapēs un vienu no tām kopīgo ar ģimeni, klasesbiedriem vai komandu."
+      },
+      "recognize-voices": {
+        "label": "Balsu atpazīšana",
+        "title": "Vārdi, nevis „Runātājs 2”",
+        "description": "Saglabā to cilvēku balsis, ar kuriem bieži runā, un redzi viņu vārdus subtitros."
+      },
+      "speaker-direction": {
+        "label": "Runātāja virziens",
+        "title": "Redzi, no kurienes nāk balss",
+        "description": "Viļņi subtitru malā rāda, kurš runā. Ar iPhone 16 un jaunākiem."
+      },
+      "connectors": {
+        "label": "Savienotāji",
+        "title": "Pajautā savai tērzēšanas lietotnei",
+        "description": "Pajautā Claude, ChatGPT, Gemini vai Perplexity par jebkuru savu ierakstu."
+      },
+      "widgets": {
+        "label": "Logrīki",
+        "title": "Subtitri ar vienu pieskārienu",
+        "description": "Sāc tiešraides subtitrus tieši no sava iPhone sākuma vai bloķēšanas ekrāna."
+      }
+    },
+    "useCasesLabel": "Lietojuma gadījumi",
+    "useCasesTitle": "Darbojas jebkurā situācijā",
+    "useCasesSubtitle": "Radīts īstiem, svarīgiem brīžiem, ne tikai klusai un kontrolētai videi.",
+    "useCases": {
+      "everyday-conversations": {
+        "label": "Ikdienas sarunas",
+        "description": "Lielākā daļa sarunu notiek ātri, parastā tempā un bez brīdinājuma. Captio AI subtitrē katru vārdu, tiklīdz tas izskan, tāpēc vari sekot sarunai, nevienam neprasot atkārtot."
+      },
+      "deaf-hoh-communication": {
+        "label": "Saziņa ar nedzirdīgajiem un vājdzirdīgajiem",
+        "description": "Dzirdīgie bieži nezina, kā pielāgoties, runājot ar nedzirdīgiem vai vājdzirdīgiem draugiem. Captio AI pārvērš viņu runu subtitros reāllaikā, tāpēc saruna var noritēt dabiski abām pusēm."
+      },
+      "meetings": {
+        "label": "Sapulces",
+        "description": "Sapulcēs lēmumi tiek pieņemti ātri, un cilvēki runā cits citam pāri. Captio AI subtitrē katru runātāju, tiklīdz viņš runā, tāpēc tev nepaslīdēs garām neviens lēmums vai tev uzdots jautājums."
+      },
+      "lectures": {
+        "label": "Lekcijas",
+        "description": "Pasniedzēji runā ātri, skaidro sarežģītu vielu un reti atkārto. Captio AI reāllaikā sniedz visa sacītā tekstu, tāpēc vari sekot saturam, nevis sasprindzināti klausīties."
+      },
+      "doctor-appointments": {
+        "label": "Ārsta vizītes",
+        "description": "Ārsti runā ātri un lieto medicīniskus terminus, kurus viegli pārklausīt. Captio AI reāllaikā parāda visu, ko viņi saka, tāpēc vari saprast savu diagnozi un uzdot pareizos jautājumus."
+      },
+      "job-interviews": {
+        "label": "Darba intervijas",
+        "description": "Ja intervijā palaid garām jautājumu, nākas atbildēt nepareizi vai lūgt atkārtot. Captio AI parāda katru intervētāja vārdu, tāpēc vari pilnībā koncentrēties uz savu atbildi."
+      },
+      "phone-video-calls": {
+        "label": "Telefona un video zvani",
+        "description": "Telefona un video zvanus ir grūtāk izsekot nekā sarunas klātienē. Nevar lasīt no lūpām, un skaņas kvalitāte bieži ir slikta. Captio AI reāllaikā subtitrē to, kurš runā, tāpēc nav jālūdz atkārtot."
+      },
+      "group-settings": {
+        "label": "Sarunas grupā",
+        "description": "Grupā vairāki cilvēki runā vienlaikus, un saruna rit ātri. Captio AI neatpaliek no runātāja, tāpēc vari sekot sarunai un nepazaudēt pavedienu."
+      },
+      "restaurants": {
+        "label": "Restorāni un kafejnīcas",
+        "description": "Fona troksnis apgrūtina runas uztveršanu pat cilvēkiem bez dzirdes zuduma. Captio AI koncentrējas uz to, kurš runā ar tevi, tāpēc vari īsti parunāties arī troksnī."
+      },
+      "traveling": {
+        "label": "Ceļošana",
+        "description": "Lidostās, viesnīcās un nepazīstamās pilsētās nav vietas pārklausīšanās kļūdām. Captio AI subtitrē runu vairāk nekā 60 valodās, tāpēc vari droši orientēties, lai kurp dotos."
+      },
+      "conferences": {
+        "label": "Konferences un pasākumi",
+        "description": "Runātāji ir tālu, akustika neparedzama, un palūgt atkārtot nav iespējams. Captio AI reāllaikā sniedz katra runātāja teiktā tekstu, tāpēc vari sekot visam pasākumam no jebkuras vietas zālē."
+      },
+      "tv-media": {
+        "label": "Televīzija un mediji",
+        "description": "Iebūvētie subtitri bieži ir kļūdaini, kavējas vai to nav vispār. Captio AI reāllaikā subtitrē visu, kas skan, tāpēc tev nav jāpaļaujas uz to, vai saturam ir subtitri."
+      }
+    },
+    "languagesLabel": "Valodas",
+    "languagesTitle": "Captio AI atbalsta vairāk nekā 60 valodas",
+    "privacyCards": [
+      {
+        "title": "Audio neglabājas mūsu serveros",
+        "description": "Tavs audio reāllaikā tiek pārvērsts tekstā un nekad netiek glabāts mūsu serveros. Ieraksti, ko saglabā, paliek tavā tālrunī, bet to transkripcijas tiek sinhronizētas tikai ar tavu kontu."
+      },
+      {
+        "title": "Nav prece",
+        "description": "Captio AI tavas sarunas nepārdod, nekopīgo un ar tām nepelna – nevienam un nekādu iemeslu dēļ."
+      },
+      {
+        "title": "Netiek izmantots nekādai apmācībai",
+        "description": "Tas, ko saki pie ārsta vai darba intervijā, nekad nenonāk apmācības datu kopā. Ne mūsējā. Ne kāda cita."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Kam paredzēta lietotne Captio AI?",
+        "a": "Lietotne Captio AI galvenokārt radīta nedzirdīgajiem un vājdzirdīgajiem, kuriem jāseko sarunām reāllaikā. To plaši izmanto arī cilvēki ar dzirdes apstrādes traucējumiem, cilvēki trokšņainā vidē, valodu apguvēji un ikviens, kam lasīt ir ātrāk vai vieglāk nekā klausīties."
+      },
+      {
+        "q": "Cik precīzi ir tiešraides subtitri?",
+        "a": "Captio AI izmanto progresīvu runas atpazīšanu, kas radīta precizitātei un mazai aizkavei. Precizitāte atkarīga no skaņas skaidrības, akcenta un fona trokšņa, taču parastos sarunas apstākļos tā ir ļoti augsta un salīdzināma ar profesionāliem subtitrēšanas pakalpojumiem."
+      },
+      {
+        "q": "Kuras valodas atbalsta Captio AI?",
+        "a": "Captio AI atbalsta vairāk nekā 60 valodas, tostarp angļu, spāņu, franču, vācu, ķīniešu (mandarīnu), arābu, hindi, japāņu, korejiešu, portugāļu, krievu un daudzas citas. Visas valodas ir pieejamas gan Tiešraides subtitros, gan Tiešraides tulkotājā. Pilnu sarakstu atradīsi šajā lapā."
+      },
+      {
+        "q": "Vai Captio AI saprot dažādus akcentus un dialektus?",
+        "a": "Jā. Captio AI tiek galā ar daudziem reģionālajiem akcentiem un dialektiem, ne tikai ar mācību grāmatu valodu. Tiek atbalstīta Austrālijas angļu, Latīņamerikas spāņu, Šveices vācu, Brazīlijas portugāļu, Kvebekas franču valoda un daudzas citas."
+      },
+      {
+        "q": "Kāda ir atšķirība starp Tiešraides subtitriem un Tiešraides tulkotāju?",
+        "a": "Tiešraides subtitri pārvērš runu tekstā oriģinālvalodā. Tiešraides tulkotājs šo pašu runu reāllaikā pārtulko tevis izvēlētajā valodā – ideāli, ja runātājs un lasītājs runā dažādās valodās, piemēram, pie ārzemju ārsta vai darījumu sapulcē citā valodā."
+      },
+      {
+        "q": "Vai Captio AI glabā vai kopīgo manu audio?",
+        "a": "Tavs audio nekad netiek glabāts Captio AI serveros un nekad netiek pārdots vai kopīgots reklāmai. Tas tiek droši nosūtīts runas atpazīšanas pakalpojumam tikai tāpēc, lai to pārvērstu tekstā, un pēc tam tur tiek izdzēsts. Ieraksti, ko izvēlies saglabāt, paliek tavā tālrunī; to transkripcijas un kopsavilkumi tiek glabāti arī tavā kontā, lai tos varētu atvērt citā ierīcē, un, izdzēšot ierakstu, tas pazūd visur. Tavas sarunas nekad netiek izmantotas MI modeļu apmācībai – ne mūsu, ne kāda cita."
+      },
+      {
+        "q": "Vai Captio AI darbojas bez interneta savienojuma?",
+        "a": "Tiešraides subtitriem un Tiešraides tulkotājam ir nepieciešams interneta savienojums, lai runu apstrādātu reāllaikā. Arī Audio transkripcijai (augšupielādētiem failiem) vajadzīgs savienojums. Subtitrēšana bezsaistē pašlaik netiek atbalstīta."
+      },
+      {
+        "q": "Kāds tālrunis vai iPad man vajadzīgs?",
+        "a": "Captio AI darbojas iPhone un iPad ierīcēs ar iOS 16 vai jaunāku versiju, kā arī Android tālruņos. Lietotne ir optimizēta tālrunim un vislabāk darbojas, ja starp mikrofonu un runātāju nav šķēršļu."
+      },
+      {
+        "q": "Vai varu izmantot Captio AI ārsta vizītē?",
+        "a": "Jā – ārsta vizītes ir viens no svarīgākajiem lietojuma gadījumiem. Vari nolikt tālruni uz galda vai pavērst to pret ārstu un reāllaikā lasīt visu, ko ārsts saka. Medicīniskie termini tiek atpazīti precīzi, tāpēc Captio AI ir praktisks piekļūstamības rīks veselības aprūpē."
+      },
+      {
+        "q": "Vai varu izmantot Captio AI sapulcēs un lekcijās?",
+        "a": "Jā. Captio AI darbojas jebkur, kur tiek runāts – darba sapulcēs, universitātes lekcijās, komandas rīta sanāksmēs, konferencēs un video zvanos. Pavērs mikrofonu pret runātāju, un subtitri parādīsies uzreiz."
+      },
+      {
+        "q": "Kas ir Audio transkripcija un ar ko tā atšķiras no Tiešraides subtitriem?",
+        "a": "Tiešraides subtitri darbojas reāllaikā, kamēr kāds runā. Audio transkripcija ir paredzēta ierakstiem – augšupielādē audio vai video failu un saņem pilnu rakstisku transkripciju. Tā ir ideāla, lai pārskatītu ierakstītas lekcijas, intervijas, podkāstus vai jebkuru saturu, ko labprātāk lasītu, nevis klausītos."
+      },
+      {
+        "q": "Ko dara MI kopsavilkums?",
+        "a": "MI kopsavilkums no jebkuras transkripcijas izceļ svarīgāko informāciju – galvenās domas, pieņemtos lēmumus, uzdevumus un būtiskas detaļas – un apkopo to strukturētā kopsavilkumā. Tas ietaupa laiku, ja tev ir gara sapulces vai lekcijas transkripcija un ātri vajag būtiskāko."
+      },
+      {
+        "q": "Vai Captio AI var lietot bez maksas?",
+        "a": "Captio AI piedāvā bezmaksas plānu, ar kuru vari sākt, neko nemaksājot. Plus plāns ir pieejams tiem, kam vajadzīga neierobežota piekļuve. Pašreizējā Plus cena tavā valstī ir redzama App Store lapā."
+      },
+      {
+        "q": "Ar ko Captio AI atšķiras no Apple iebūvētajiem tiešraides subtitriem?",
+        "a": "Apple tiešraides subtitri ir iebūvēti iOS, taču atbalsta mazāk valodu, netulko un neietver Audio transkripciju vai MI kopsavilkumu. Captio AI atbalsta vairāk nekā 60 valodas, tulko reāllaikā, ļauj transkribēt augšupielādētus failus un veido MI kopsavilkumus, tāpēc Captio AI ir daudz pilnīgāks piekļūstamības un produktivitātes rīks."
+      }
+    ]
+  },
+  "featurePages": {
+    "live-captions": {
+      "meta": {
+        "title": "Tiešraides subtitri nedzirdīgajiem un vājdzirdīgajiem",
+        "description": "Runa tekstā reāllaikā ar iPhone mikrofonu. Seko jebkurai sarunai jebkurā valodā uzreiz. Radīts nedzirdīgajiem un vājdzirdīgajiem.",
+        "schemaDescription": "Tiešraides subtitri nedzirdīgajiem un vājdzirdīgajiem. Vairāk nekā 60 valodas, aizkave krietni zem sekundes, darbojas jebkur."
+      },
+      "howTitle": "Trīs pieskārieni. Visa saruna.",
+      "steps": [
+        {
+          "title": "Sāc ierakstu",
+          "desc": "Nospied ieraksta pogu. Captio AI uzreiz sāk klausīties."
+        },
+        {
+          "title": "Vēro, kā parādās vārdi",
+          "desc": "Subtitri parādās vārds pa vārdam, kamēr cilvēks vēl runā."
+        },
+        {
+          "title": "Saglabā",
+          "desc": "Paturi transkripciju un audio ierakstu vēlākam laikam."
+        }
+      ],
+      "featuresTitle": "Radīts īstām sarunām",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Vārdi, kas atbilst teiktajam",
+          "description": "Captio AI pieraksta to, ko cilvēks patiešām pateica, nevis aptuvenu atstāstu. Tāpēc vari uzticēties tekstam, kad tas ir svarīgi – pie ārsta, intervijā, sapulcē."
+        },
+        {
+          "title": "Bez aizkaves",
+          "description": "Aizkave ir krietni zem sekundes. Subtitri parādās vārds pa vārdam, kamēr cilvēks vēl runā, tāpēc tu lasi teikto tajā pašā brīdī, kad citi to dzird."
+        },
+        {
+          "title": "Zini, kurš runā",
+          "description": "Grupās un sapulcēs Captio AI atzīmē katru runātāju atsevišķi, tāpēc vienmēr zini, kurš ko teica, un nav jāvēro sejas vai jāseko lūpu kustībām."
+        },
+        {
+          "title": "60+ valodas",
+          "description": "Seko sarunai franču, japāņu vai arābu valodā tāpat kā angļu valodā. Nav jāpārslēdz režīmi. Dzirdes zudums nekad nekļūst arī par valodas barjeru."
+        },
+        {
+          "title": "Tiek galā ar valodām, kas jaucas teikuma vidū",
+          "description": "Kad cilvēki sarunas vidū pāriet uz citu valodu, Captio AI neatpaliek. Nekādu robu subtitros, nekāda režīma, ko pārslēgt."
+        },
+        {
+          "title": "Papildini vārdu krājumu",
+          "description": "Pievieno personvārdus, medicīniskus terminus vai speciālus vārdus, ko bieži dzirdi. Captio AI izmanto tavu vārdu sarakstu, lai precīzāk subtitrētu tavas īstās sarunas."
+        },
+        {
+          "title": "Pievieno valodas norādi",
+          "description": "Norādi, kādu valodu gaidīt, un Captio AI to atpazīs jau no pirmā vārda – noderīgi, ja runātā valoda nav skaidra no konteksta."
+        },
+        {
+          "title": "Transkribē vēlreiz precīzāk",
+          "description": "Vēlāk palaid jebkuru ierakstu vēlreiz, lai iegūtu tīrāku transkripciju. Noderīgi lekcijām, vizītēm un jebkurai sarunai, ko vērts pārskatīt."
+        },
+        {
+          "title": "Lasi sev ērtā veidā",
+          "description": "Pielāgo teksta izmēru, fona krāsu un kontrastu, līdz subtitrus viegli izlasīt ar vienu skatienu – tālrunis rokā, uz galda vai atbalstīts pret kaut ko."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Audio neglabājas mūsu serveros",
+          "description": "Tavs audio reāllaikā tiek pārvērsts tekstā un nekad netiek glabāts mūsu serveros. Ieraksti, ko saglabā, paliek tavā tālrunī, bet to transkripcijas tiek sinhronizētas tikai ar tavu kontu."
+        },
+        {
+          "title": "Nav prece",
+          "description": "Captio AI tavas sarunas nepārdod, nekopīgo un ar tām nepelna – nevienam un nekādu iemeslu dēļ."
+        },
+        {
+          "title": "Netiek izmantots nekādai apmācībai",
+          "description": "Tas, ko saki pie ārsta vai darba intervijā, nekad nenonāk apmācības datu kopā. Ne mūsējā. Ne kāda cita."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Ar ko Captio AI atšķiras no Apple iebūvētajiem tiešraides subtitriem?",
+          "a": "Apple tiešraides subtitri atbalsta mazāk valodu, netulko un neietver Audio transkripciju vai MI kopsavilkumu. Captio AI atbalsta vairāk nekā 60 valodas, tulko reāllaikā, ļauj transkribēt augšupielādētus failus un veido MI kopsavilkumus. Turklāt vari pielāgot teksta izmēru, krāsas un kontrastu tā, kā tev ir visērtāk lasīt."
+        },
+        {
+          "q": "Cik precīzi ir tiešraides subtitri?",
+          "a": "Parastos sarunas apstākļos precizitāte ir augsta. Captio AI atpazīst īstu runu, ne tikai tīru studijas skaņu, tāpēc tiek galā ar ātru runu, reģionāliem akcentiem, fona troksni un teikumiem, kuros jaucas valodas. Vari arī pievienot savu vārdu krājumu (personvārdus, medicīniskus terminus, speciālus vārdus), lai uzlabotu precizitāti savās sarunās."
+        },
+        {
+          "q": "Cik ātri parādās subtitri?",
+          "a": "Vārds pa vārdam, kamēr cilvēks vēl runā. Aizkave ir krietni zem sekundes – gandrīz reāllaikā. Tu lasi teikto tajā pašā brīdī, kad citi to dzird, nevis tikai pēc teikuma beigām."
+        },
+        {
+          "q": "Vai Tiešraides subtitri darbojas trokšņainās vietās?",
+          "a": "Jā. Captio AI darbojas īstā vidē – restorānos, uz ielām, uzgaidāmajās telpās, sabiedriskajā transportā. Pavērs mikrofonu pret runātāju, un subtitri parādīsies neatkarīgi no fona trokšņa."
+        },
+        {
+          "q": "Kuras valodas atbalsta Tiešraides subtitri?",
+          "a": "Vairāk nekā 60 valodas, tostarp angļu, spāņu, franču, vācu, ķīniešu (mandarīnu), arābu, hindi, japāņu, korejiešu, portugāļu, krievu un daudzas citas. Reģionālie akcenti un dialekti tiek atbalstīti visās lielākajās valodās."
+        },
+        {
+          "q": "Vai tas tiek galā ar akcentiem un dialektiem?",
+          "a": "Jā. Captio AI tiek galā ar daudziem reģionālajiem akcentiem, ne tikai ar mācību grāmatu valodu. Tiek atbalstīta Austrālijas angļu, Latīņamerikas spāņu, Šveices vācu, Kvebekas franču valoda un daudzas citas."
+        },
+        {
+          "q": "Vai varu saglabāt subtitrus?",
+          "a": "Jā. Pēc sesijas vari saglabāt transkripcijas un audio ierakstus un pārskatīt tos vēlāk. Saglabātu ierakstu vari arī transkribēt vēlreiz, lai iegūtu tīrāku, precīzāku tekstu."
+        },
+        {
+          "q": "Vai man vajag interneta savienojumu?",
+          "a": "Jā. Tiešraides subtitriem ir nepieciešams interneta savienojums, lai runu apstrādātu reāllaikā. Subtitrēšana bezsaistē pašlaik netiek atbalstīta."
+        }
+      ]
+    },
+    "live-translator": {
+      "meta": {
+        "title": "Tiešraides tulkotājs: runas tulkošana reāllaikā iPhone tālrunī",
+        "description": "Runas tulkošana reāllaikā tavā iPhone. Otrs runā savā valodā, tu lasi savējā – uzreiz, jebkurā valodā. Radīts nedzirdīgajiem un vājdzirdīgajiem.",
+        "schemaDescription": "Runas tulkošana reāllaikā nedzirdīgajiem un vājdzirdīgajiem. Vairāk nekā 60 valodas, katrs runā savā valodā, tu lasi savējā."
+      },
+      "howTitle": "Trīs pieskārieni. Jebkura valoda.",
+      "steps": [
+        {
+          "title": "Izvēlies tulkotāja režīmu",
+          "desc": "Atver Captio AI un izvēlies Tiešraides tulkotāju."
+        },
+        {
+          "title": "Izvēlies vēlamo valodu",
+          "desc": "Izvēlies valodu, kurā vēlies lasīt."
+        },
+        {
+          "title": "Skaties tulkojumu reāllaikā",
+          "desc": "Captio AI tulko vārdu pa vārdam."
+        }
+      ],
+      "featuresTitle": "Radīts īstām sarunām",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Jebkura valoda",
+          "description": "Franču, japāņu, arābu, spāņu, vācu, ķīniešu (mandarīnu) – vairāk nekā 60 valodas jebkurā virzienā. Dzirdes zudums nekad nekļūst arī par valodas barjeru."
+        },
+        {
+          "title": "Automātiski nosaka runāto valodu",
+          "description": "Atstāj avota valodu automātiskajā režīmā, un Captio AI to noteiks pēc pirmajiem vārdiem. Nav jāizvēlas valoda manuāli pirms katras sarunas."
+        },
+        {
+          "title": "Bez aizkaves",
+          "description": "Tulkojuma aizkave ir krietni zem sekundes. Tu lasi teikto tajā pašā brīdī, kad citi to dzird, nevis tikai pēc teikuma beigām."
+        },
+        {
+          "title": "Pievieno valodu norādes",
+          "description": "Norādi, kādu valodu gaidīt, un Captio AI to atpazīs jau no pirmā vārda – noderīgi, ja runātā valoda nav skaidra no konteksta."
+        },
+        {
+          "title": "Vairākas valodas vienlaikus",
+          "description": "Kad cilvēki sarunas vidū maina valodu, Captio AI neatpaliek un tulko katru no tām tavā valodā bez jebkādas manuālas iejaukšanās."
+        },
+        {
+          "title": "Lasi sev ērtā veidā",
+          "description": "Pielāgo fona krāsu, teksta krāsu un fonta izmēru, lai tulkojumu būtu viegli izlasīt ar vienu skatienu, vienalga, vai tālrunis ir rokā vai uz galda."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Audio neglabājas mūsu serveros",
+          "description": "Tavs audio reāllaikā tiek pārvērsts tekstā un nekad netiek glabāts mūsu serveros. Ieraksti, ko saglabā, paliek tavā tālrunī, bet to transkripcijas tiek sinhronizētas tikai ar tavu kontu."
+        },
+        {
+          "title": "Nav prece",
+          "description": "Captio AI tavas sarunas nepārdod, nekopīgo un ar tām nepelna – nevienam un nekādu iemeslu dēļ."
+        },
+        {
+          "title": "Netiek izmantots nekādai apmācībai",
+          "description": "Tas, ko saki pie ārsta vai darba intervijā, nekad nenonāk apmācības datu kopā. Ne mūsējā. Ne kāda cita."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Ar ko Tiešraides tulkotājs atšķiras no Tiešraides subtitriem?",
+          "a": "Tiešraides subtitri pārvērš runu tekstā oriģinālvalodā. Tiešraides tulkotājs šo pašu runu reāllaikā pārtulko tevis izvēlētajā valodā. Ja otrs cilvēks runā franciski, bet tu lasi angliski, izmanto Tiešraides tulkotāju."
+        },
+        {
+          "q": "Cik precīzs ir tulkojums?",
+          "a": "Izplatītiem valodu pāriem ikdienas sarunās tulkojums ir precīzs. Captio AI tiek galā ar dabisku runu – ātru runu, akcentiem, fona troksni –, ne tikai ar tīru studijas skaņu. Retiem valodu pāriem vai ļoti tehniskam saturam precizitāte var atšķirties."
+        },
+        {
+          "q": "Kuras valodas tiek atbalstītas?",
+          "a": "Vairāk nekā 60 valodas, tostarp angļu, spāņu, franču, vācu, ķīniešu (mandarīnu), arābu, hindi, japāņu, korejiešu, portugāļu, krievu un daudzas citas. Gan avota, gan mērķa valoda var būt jebkura no atbalstītajām."
+        },
+        {
+          "q": "Cik ātri parādās tulkojums?",
+          "a": "Aizkave ir krietni zem sekundes. Tu lasi tulkojumu vārdu pa vārdam, kamēr cilvēks vēl runā – gandrīz reāllaikā, nevis tikai pēc teikuma beigām."
+        },
+        {
+          "q": "Vai tas der ārsta vizītei, ja ārsts runā citā valodā?",
+          "a": "Jā. Tas ir viens no svarīgākajiem lietojuma gadījumiem. Noliec tālruni uz galda, iestati ārsta valodu kā avota valodu un reāllaikā lasi savā valodā visu, ko ārsts saka. Vari arī saglabāt tulkoto tekstu, lai vēlāk pārskatītu ārsta norādījumus."
+        },
+        {
+          "q": "Vai tas darbojas trokšņainās vietās?",
+          "a": "Jā. Captio AI darbojas īstā vidē – uzgaidāmajās telpās, restorānos, lidostās. Pavērs mikrofonu pret runātāju, un tulkojums parādīsies neatkarīgi no apkārtējā trokšņa."
+        },
+        {
+          "q": "Vai varu saglabāt tulkoto tekstu?",
+          "a": "Jā. Pēc sesijas vari saglabāt tulkoto tekstu un pārskatīt to vēlāk. Noderīgi ārsta vizītēm, sapulcēm un jebkurai sarunai, par kuru vēlies pierakstu."
+        },
+        {
+          "q": "Vai man vajag interneta savienojumu?",
+          "a": "Jā. Tiešraides tulkotājam ir nepieciešams interneta savienojums, lai runu apstrādātu un tulkotu reāllaikā. Tulkošana bezsaistē pašlaik netiek atbalstīta."
+        }
+      ]
+    },
+    "audio-transcription": {
+      "meta": {
+        "title": "Audio transkripcija: audio un video tekstā iPhone tālrunī",
+        "description": "Augšupielādē audio vai video failu un saņem pilnu tekstu. 60+ valodas, runātāju atdalīšana, meklēšana. Radīts nedzirdīgajiem un vājdzirdīgajiem.",
+        "schemaDescription": "Augšupielādē jebkuru audio vai video failu un saņem pilnu rakstisku transkripciju. Vairāk nekā 60 valodas, runātāju atdalīšana, laika zīmogi. Radīts nedzirdīgajiem un vājdzirdīgajiem."
+      },
+      "howTitle": "Augšupielādē. Lasi. Gatavs.",
+      "steps": [
+        {
+          "title": "Izvēlies faila veidu",
+          "desc": "Izvēlies, vai augšupielādē audio vai video failu."
+        },
+        {
+          "title": "Izvēlies failu",
+          "desc": "Izvēlies failu savā tālrunī. Captio AI uzreiz sāk transkribēt."
+        },
+        {
+          "title": "Skaties transkripciju",
+          "desc": "Lasi pilnu transkripciju, sakārtotu pēc runātājiem, ar laika zīmogiem."
+        }
+      ],
+      "featuresTitle": "Radīts īstiem ierakstiem",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Jebkurš formāts",
+          "description": "MP3, MP4, M4A, WAV un citi. Lekcijas, sapulces, balss pasta ziņas, podkāsti, intervijas, zvanu ieraksti – ja tajā ir runa, Captio AI to var transkribēt."
+        },
+        {
+          "title": "Augstākā precizitāte",
+          "description": "Captio AI tiek galā ar īstu skaņu, ne tikai ar tīriem studijas failiem. Telefona zvani, lekciju zāļu ieraksti, trokšņaina vide – nekas no tā nav problēma."
+        },
+        {
+          "title": "Jebkura valoda",
+          "description": "Augšupielādē ierakstu franču, japāņu, arābu vai vēl 57 citās valodās. Captio AI nosaka valodu un precīzi to transkribē."
+        },
+        {
+          "title": "Vairākas valodas",
+          "description": "Kad runātāji ieraksta vidū maina valodu, Captio AI neatpaliek. Transkripcijā atspoguļojas katra runātā valoda, bez robiem."
+        },
+        {
+          "title": "Laika zīmogi",
+          "description": "Katrai transkripcijas rindai ir laika zīmogs, tāpēc vari pāriet uz jebkuru ieraksta brīdi un atrast, kas tieši un kad tika teikts."
+        },
+        {
+          "title": "Eksportē un kopīgo",
+          "description": "Kopē visu transkripciju, kopīgo vai saglabā to. Tavi ieraksti un transkripcijas vienmēr ir pieejami, kad tie vajadzīgi."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Faili neglabājas mūsu serveros",
+          "description": "Tavs fails tiek nosūtīts tikai transkribēšanai un tur tiek izdzēsts. Mūsu serveros tas nekad netiek glabāts. Ieraksts paliek tavā tālrunī, bet tā transkripcija tiek sinhronizēta tikai ar tavu kontu."
+        },
+        {
+          "title": "Nav prece",
+          "description": "Captio AI tavus ierakstus nepārdod, nekopīgo un ar tiem nepelna – nevienam un nekādu iemeslu dēļ."
+        },
+        {
+          "title": "Netiek izmantots nekādai apmācībai",
+          "description": "Tas, ko augšupielādē – ārsta vizīte, sapulce, intervija –, nekad nenonāk apmācības datu kopā. Ne mūsējā. Ne kāda cita."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Ar ko Audio transkripcija atšķiras no Tiešraides subtitriem?",
+          "a": "Tiešraides subtitri darbojas reāllaikā, kamēr kāds runā. Audio transkripcija ir paredzēta ierakstiem – augšupielādē audio vai video failu un saņem pilnu rakstisku transkripciju. Tā ir ideāla, lai pārskatītu ierakstītas lekcijas, ārsta vizītes, intervijas vai jebkuru saturu, ko labprātāk lasītu, nevis klausītos."
+        },
+        {
+          "q": "Kādus failu formātus atbalsta Audio transkripcija?",
+          "a": "Captio AI pieņem izplatītus audio un video formātus, tostarp MP3, MP4, M4A, WAV un citus. Ja ierakstīji failu ar tālruni vai lejupielādēji to no video platformas, tas derēs."
+        },
+        {
+          "q": "Cik precīza ir transkripcija?",
+          "a": "Skaidriem ierakstiem atbalstītajās valodās precizitāte ir augsta. Captio AI tiek galā ar īstu skaņu – telefona zvaniem, lekciju zāļu ierakstiem, trokšņainu vidi –, ne tikai ar studijas kvalitātes failiem. Ja vajag, failu vari transkribēt vēlreiz."
+        },
+        {
+          "q": "Kuras valodas tiek atbalstītas?",
+          "a": "Vairāk nekā 60 valodas, tostarp angļu, spāņu, franču, vācu, ķīniešu (mandarīnu), arābu, hindi, japāņu, korejiešu, portugāļu, krievu un daudzas citas. Captio AI automātiski nosaka failā runāto valodu."
+        },
+        {
+          "q": "Vai tas atdala runātājus?",
+          "a": "Jā. Captio AI transkripcijā atzīmē katru runātāju atsevišķi, tāpēc vari sekot, kurš ko teica – noderīgi sapulcēm, intervijām, ārsta vizītēm un jebkuram ierakstam ar vairākiem cilvēkiem."
+        },
+        {
+          "q": "Cik ilgi notiek transkripcija?",
+          "a": "Transkripcija ir ātra. Stundu garš ieraksts parasti aizņem dažas minūtes. Laiks atkarīgs no faila garuma un skaņas kvalitātes."
+        },
+        {
+          "q": "Vai mans audio tiek glabāts pēc transkripcijas?",
+          "a": "Ne Captio AI serveros. Fails tiek droši nosūtīts runas atpazīšanas pakalpojumam tikai transkribēšanai un tur tiek izdzēsts, tiklīdz transkripcija ir gatava. Ieraksts paliek tavā tālrunī, un tā transkripcija tiek glabāta arī tavā kontā, lai to varētu atvērt citā ierīcē. Tavi ieraksti nekad netiek pārdoti vai izmantoti MI modeļu apmācībai."
+        },
+        {
+          "q": "Vai varu transkribēt video failu?",
+          "a": "Jā. Augšupielādē video failu tieši, un Captio AI izgūs no tā audio un to transkribēs. Fails iepriekš nav jākonvertē."
+        }
+      ]
+    },
+    "ai-summary": {
+      "meta": {
+        "title": "MI kopsavilkums: strukturēts transkripcijas kopsavilkums",
+        "description": "Pārvērt transkripciju strukturētā kopsavilkumā. Galvenās domas, lēmumi un uzdevumi tiek izcelti automātiski. Radīts nedzirdīgajiem un vājdzirdīgajiem.",
+        "schemaDescription": "Pārvērt jebkuru transkripciju strukturētā kopsavilkumā. Galvenās domas, lēmumi, uzdevumi un runātāju citāti tiek izcelti automātiski."
+      },
+      "howTitle": "Ieliec transkripciju. Saņem kopsavilkumu.",
+      "steps": [
+        {
+          "title": "Atver jebkuru transkripciju",
+          "desc": "Izvēlies jebkuru transkripciju no Tiešraides subtitriem vai Audio transkripcijas."
+        },
+        {
+          "title": "Izveido kopsavilkumu",
+          "desc": "Pieskaries „MI kopsavilkums”. Captio AI automātiski apstrādā transkripciju."
+        },
+        {
+          "title": "Lasi kopsavilkumu",
+          "desc": "Tavs kopsavilkums ir gatavs – sakārtots sadaļās, gatavs lasīšanai vai kopīgošanai."
+        }
+      ],
+      "featuresTitle": "Radīts garām transkripcijām",
+      "featuresSubtitle": "Saņem kopsavilkumu, uzdevumu sarakstu, runātāju citātus, piezīmes un vēl daudz ko citu.",
+      "subfeatures": [
+        {
+          "title": "Galvenās domas tiek izceltas automātiski",
+          "description": "Captio AI izlasa visu transkripciju un izceļ to, kas patiešām bija svarīgs – galvenās domas, pieņemtos lēmumus un izdarītos secinājumus."
+        },
+        {
+          "title": "Uzdevumi izcelti atsevišķi",
+          "description": "Uzdevumi un turpmākās darbības tiek atpazītas un uzskaitītas atsevišķi, tāpēc pēc sapulces, vizītes vai lekcijas nekas nepaslīd garām."
+        },
+        {
+          "title": "Sakārtots sadaļās",
+          "description": "Kopsavilkums ir strukturēts, nevis viens nepārtraukts teksta bloks. Katrai tēmai ir sava sadaļa, tāpēc vari ātri pārskatīt un atrast vajadzīgo."
+        },
+        {
+          "title": "Der jebkurai Captio AI transkripcijai",
+          "description": "Izmanto MI kopsavilkumu jebkurai transkripcijai, ko izveidoji ar Tiešraides subtitriem vai Audio transkripciju. Nekādu papildu soļu, nekādas kopēšanas un ielīmēšanas."
+        },
+        {
+          "title": "Jebkura valoda",
+          "description": "Veido kopsavilkumus no transkripcijām vairāk nekā 60 valodās. Captio AI lasa transkripciju oriģinālvalodā un sagatavo kopsavilkumu, ko vari izlasīt."
+        },
+        {
+          "title": "Saglabā un kopīgo",
+          "description": "Glabā kopsavilkumu blakus transkripcijai, kopē vai kopīgo to. Noderīgi pēc ārsta vizītēm, sapulcēm un lekcijām."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Glabājas tikai tavā kontā",
+          "description": "Tavs kopsavilkums tiek saglabāts kopā ar ierakstu – tavā tālrunī un tavā kontā, tāpēc tas ir pieejams jebkurā ierīcē, kurā piesakies. Izdzēs to, un tas pazudīs visur."
+        },
+        {
+          "title": "Nav prece",
+          "description": "Captio AI tavas sarunas nepārdod, nekopīgo un ar tām nepelna – nevienam un nekādu iemeslu dēļ."
+        },
+        {
+          "title": "Netiek izmantots nekādai apmācībai",
+          "description": "Tas, ko apkopo – ārsta vizīte, sapulce, intervija –, nekad nenonāk apmācības datu kopā. Ne mūsējā. Ne kāda cita."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Ko dara MI kopsavilkums?",
+          "a": "MI kopsavilkums no jebkuras transkripcijas izceļ svarīgāko informāciju – galvenās domas, lēmumus, uzdevumus un būtiskas detaļas – un apkopo to strukturētā kopsavilkumā. Tas ietaupa laiku, ja tev ir gara transkripcija un ātri vajag būtiskāko."
+        },
+        {
+          "q": "Kurām transkripcijām varu izveidot kopsavilkumu?",
+          "a": "Jebkurai transkripcijai, kas izveidota ar Captio AI – ar Tiešraides subtitriem vai Audio transkripciju. MI kopsavilkumu palaid tieši transkripcijā, bez papildu soļiem."
+        },
+        {
+          "q": "Ar ko MI kopsavilkums atšķiras no transkripcijas lasīšanas?",
+          "a": "Pilna stundu ilgas sapulces transkripcija var būt tūkstošiem vārdu gara. MI kopsavilkums sniedz galvenās domas, lēmumus un uzdevumus nelielā daļā lasīšanas laika – sakārtotus pēc tēmām, nevis secībā, kādā lietas tika teiktas."
+        },
+        {
+          "q": "Vai tas der ārsta vizītēm?",
+          "a": "Jā. Ārsta vizītē īsā laikā tiek sniegts daudz informācijas. MI kopsavilkums izceļ diagnozi, norādījumus un turpmākos soļus skaidrā sarakstā, ko vari pārskatīt un pie kā atgriezties."
+        },
+        {
+          "q": "Kuras valodas tiek atbalstītas?",
+          "a": "MI kopsavilkums darbojas ar transkripcijām vairāk nekā 60 valodās. Kopsavilkums tiek sagatavots tajā pašā valodā, kurā ir transkripcija."
+        },
+        {
+          "q": "Vai varu saglabāt vai kopīgot kopsavilkumu?",
+          "a": "Jā. Kopsavilkumu vari saglabāt blakus oriģinālajai transkripcijai, kopēt vai kopīgot. Noderīgi, lai nosūtītu sapulces kopsavilkumu vai saglabātu pierakstu par ārsta vizīti."
+        },
+        {
+          "q": "Vai MI kopsavilkums glabā manu transkripciju vai audio?",
+          "a": "Tava transkripcija tiek droši nosūtīta MI pakalpojumam tikai tāpēc, lai uzrakstītu kopsavilkumu, un nekad netiek izmantota MI modeļu apmācībai. Kopsavilkums tiek saglabāts kopā ar ierakstu tavā tālrunī un tavā kontā, līdz tu to izdzēsīsi. Audio nekad netiek glabāts Captio AI serveros, un tavas sarunas nekad netiek pārdotas."
+        }
+      ]
+    }
+  }
+}

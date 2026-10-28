@@ -1,0 +1,676 @@
+{
+  "header": {
+    "features": "Funksiyalar",
+    "useCases": "İstifadə sahələri",
+    "languages": "Dillər",
+    "compare": "Müqayisə",
+    "blog": "Bloq",
+    "download": "Yüklə",
+    "toggleMenu": "Menyunu aç və ya bağla",
+    "chooseLanguage": "Dil seç"
+  },
+  "footer": {
+    "tagline": "Kar və zəif eşidən insanlar üçün canlı subtitr və məhsuldarlıq aləti.",
+    "productHuntTagline": "Kar və Zəif Eşidənlər üçün Canlı Subtitr və Transkripsiya",
+    "productHunt": "Product Hunt saytında bax →",
+    "featuredOn": "Seçildiyimiz yer",
+    "features": "Funksiyalar",
+    "useCases": "İstifadə sahələri",
+    "blog": "Bloq",
+    "allArticles": "Bütün məqalələr",
+    "compare": "Müqayisə",
+    "compareApps": "Subtitr tətbiqlərini müqayisə et",
+    "company": "Şirkət",
+    "organizations": "Təşkilatlar üçün",
+    "privacy": "Məxfilik siyasəti",
+    "terms": "İstifadə şərtləri"
+  },
+  "store": {
+    "appleOverline": "İndi yüklə",
+    "googleOverline": "İndi əldə et",
+    "appleQrAlt": "iPhone üçün Captio AI tətbiqini App Store-dan yükləmək üçün QR kod",
+    "googleQrAlt": "Android üçün Captio AI tətbiqini Google Play-dən yükləmək üçün QR kod",
+    "downloadForFree": "Pulsuz yüklə"
+  },
+  "common": {
+    "home": "Ana səhifə",
+    "back": "Geri",
+    "goBack": "Geri qayıt",
+    "explore": "Kəşf et",
+    "featuresLabel": "Funksiyalar",
+    "howItWorks": "Necə işləyir",
+    "privacyLabel": "Məxfilik",
+    "privacyTitle": "Eşitdiklərin səndə qalır.",
+    "privacyImageAlt": "Standart olaraq məxfi — səsin heç vaxt serverlərimizdə saxlanılmır, heç vaxt satılmır, heç vaxt təlim üçün istifadə olunmur",
+    "faqLabel": "Suallar",
+    "faqTitle": "Tez-tez verilən suallar",
+    "getStarted": "Başla",
+    "freeToStart": "Captio AI ilə pulsuz başla",
+    "allFeatures": "Captio AI tətbiqində Canlı Subtitr, Canlı Tərcüməçi, Audio Transkripsiya və Süni İntellekt Xülasəsi var.",
+    "featureNames": {
+      "live-captions": "Canlı Subtitr",
+      "live-translator": "Canlı Tərcüməçi",
+      "audio-transcription": "Audio Transkripsiya",
+      "ai-summary": "Süni İntellekt Xülasəsi"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Captio AI — Kar və Zəif Eşidənlər üçün Canlı Subtitr",
+      "description": "Captio AI kar və zəif eşidən insanlara telefonda real vaxtda canlı subtitr, canlı tərcümə, audio transkripsiya və süni intellekt xülasələri verir. 60+ dil.",
+      "ogDescription": "Kar və zəif eşidən insanlar üçün real vaxtda canlı subtitr, canlı tərcümə, audio transkripsiya və süni intellekt xülasələri. 60+ dil. iPhone və Android.",
+      "schemaDescription": "Kar və zəif eşidən insanlar üçün real vaxtda canlı subtitr, canlı tərcümə, audio transkripsiya və süni intellekt xülasələri. 60+ dil."
+    },
+    "eyebrow": "🦻 Əlçatanlıq + 💻 Məhsuldarlıq Tətbiqi",
+    "heroTitle": "Kar və zəif eşidən insanlar üçün [canlı subtitr] və [məhsuldarlıq aləti].",
+    "heroSubtitle": "İstənilən söhbəti, iclası və ya mühazirəni izlə. İstənilən dildə.",
+    "mockupAlt": "Canlı subtitr və tərcüməni göstərən Captio AI tətbiqi",
+    "featuresTitle": "İstənilən söhbəti izləmək üçün lazım olan hər şey",
+    "featuresSubtitle": "Xüsusi olaraq kar və zəif eşidən insanlar üçün hazırlanmış dörd alət.",
+    "features": {
+      "live-captions": {
+        "title": "Real Vaxtda Nitqi Mətnə Çevirmə",
+        "bullets": [
+          "Söz-söz, real vaxtda",
+          "Səs-küylü yerlərdə də işləyir",
+          "İstənilən ləhcə, istənilən temp",
+          "Dodaq oxumağa ehtiyac yoxdur"
+        ]
+      },
+      "live-translator": {
+        "title": "İstənilən Dili Real Vaxtda Tərcümə Et",
+        "bullets": [
+          "Danışdıqca tərcümə edir",
+          "Hər kəs öz dilində danışır",
+          "Cümlənin ortasında dil dəyişsə də anlayır",
+          "60+ dil"
+        ]
+      },
+      "audio-transcription": {
+        "title": "İstənilən Audio və ya Video Faylı Mətnə Çevir",
+        "bullets": [
+          "İstənilən audio və ya video fayl",
+          "Danışanlara görə ayrılır",
+          "60+ dil",
+          "Oxu, kopyala, axtar, paylaş"
+        ]
+      },
+      "ai-summary": {
+        "title": "Transkriptləri Strukturlu Xülasələrə Çevir",
+        "bullets": [
+          "Əsas məqamlar və qərarlar",
+          "Görüləcək işlər ayrıca çıxarılır",
+          "İstənilən transkriptlə işləyir",
+          "Bölmələrə ayrılır"
+        ]
+      }
+    },
+    "moreFeaturesTitle": "Daha çox imkan",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "Süni intellekt əməliyyatları",
+        "title": "Görüləcək işlər, qeydlər və təqib mesajı",
+        "description": "İstənilən yazını əsas məqamlara, ətraflı qeydlərə, görüləcək işlərə, sual-cavablara və ya təqib mesajına çevir."
+      },
+      "export": {
+        "label": "İxrac",
+        "title": "İstədiyin kimi paylaş",
+        "description": "Subtitrləri və ya xülasəni mətn, link, PDF, e-poçt və ya süni intellekt çatı üçün sorğu kimi göndər."
+      },
+      "folders": {
+        "label": "Qovluqlar",
+        "title": "Qovluqlar və paylaşılan qovluqlar",
+        "description": "Yazıları qovluqlara ayır və birini ailənlə, sinif yoldaşlarınla və ya komandanla paylaş."
+      },
+      "recognize-voices": {
+        "label": "Səslərin tanınması",
+        "title": "Adlar, “Danışan 2” yox",
+        "description": "Tez-tez danışdığın insanların səsini yadda saxla və subtitrlərdə onların adlarını gör."
+      },
+      "speaker-direction": {
+        "label": "Danışanın istiqaməti",
+        "title": "Səsin haradan gəldiyini gör",
+        "description": "Subtitrlərin kənarındakı dalğalar kimin danışdığını göstərir. iPhone 16 və daha yeni modellərdə."
+      },
+      "connectors": {
+        "label": "Konnektorlar",
+        "title": "Çat tətbiqindən soruş",
+        "description": "Claude, ChatGPT, Gemini və ya Perplexity-dən istənilən yazın barədə soruş."
+      },
+      "widgets": {
+        "label": "Vidcetlər",
+        "title": "Bir toxunuşla subtitrlər",
+        "description": "iPhone-un Ana ekranından və ya Kilid ekranından Canlı Subtitri işə sal."
+      }
+    },
+    "useCasesLabel": "İstifadə sahələri",
+    "useCasesTitle": "Hər vəziyyətdə işləyir",
+    "useCasesSubtitle": "Sakit və nəzarətli mühitlər üçün yox — həyatın vacib, real anları üçün hazırlanıb.",
+    "useCases": {
+      "everyday-conversations": {
+        "label": "Gündəlik söhbətlər",
+        "description": "Söhbətlərin çoxu sürətlə, adi tempdə və xəbərdarlıqsız baş verir. Captio AI hər sözü deyildiyi anda subtitrə çevirir, beləliklə heç kimdən təkrar etməsini xahiş etmədən söhbəti izləyə bilirsən."
+      },
+      "deaf-hoh-communication": {
+        "label": "Kar və zəif eşidənlərlə ünsiyyət",
+        "description": "Eşidən insanlar kar və ya zəif eşidən dostları ilə danışanda çox vaxt necə uyğunlaşacaqlarını bilmirlər. Captio AI onların nitqini real vaxtda subtitrə çevirir, beləliklə söhbət hər iki tərəf üçün təbii alınır."
+      },
+      "meetings": {
+        "label": "İclaslar",
+        "description": "İclaslarda qərarlar tez verilir, insanlar bir-birinin sözünü kəsir. Captio AI hər danışanı danışdığı anda subtitrə çevirir, beləliklə heç bir qərarı və sənə ünvanlanmış heç bir sualı qaçırmırsan."
+      },
+      "lectures": {
+        "label": "Mühazirələr",
+        "description": "Müəllimlər tez danışır, mürəkkəb mövzuları keçir və nadir hallarda təkrarlayırlar. Captio AI deyilən hər şeyin canlı transkriptini sənə verir, beləliklə eşitmək üçün gərginləşmək əvəzinə mövzunu izləyə bilirsən."
+      },
+      "doctor-appointments": {
+        "label": "Həkim qəbulu",
+        "description": "Həkimlər tez danışır və asanlıqla səhv eşidilən tibbi terminlərdən istifadə edirlər. Captio AI onların dediyi hər şeyi real vaxtda göstərir, beləliklə diaqnozunu başa düşür və düzgün suallar verə bilirsən."
+      },
+      "job-interviews": {
+        "label": "İş müsahibələri",
+        "description": "Müsahibədə bir sualı qaçırmaq ya səhv cavab vermək, ya da təkrar soruşmaq deməkdir. Captio AI müsahibə aparanın dediyi hər sözü göstərir, beləliklə bütün diqqətini cavabına yönəldə bilirsən."
+      },
+      "phone-video-calls": {
+        "label": "Telefon və video zənglər",
+        "description": "Telefon və video zəngləri üz-üzə söhbətlərdən daha çətin izlənilir. Dodaq oxumaq mümkün deyil, səs keyfiyyəti də çox vaxt zəif olur. Captio AI kim danışırsa, onun nitqini real vaxtda subtitrə çevirir, beləliklə təkrar xahiş etməyə ehtiyac qalmır."
+      },
+      "group-settings": {
+        "label": "Qrup söhbətləri",
+        "description": "Qrupda bir neçə nəfər eyni anda danışır və söhbət sürətlə irəliləyir. Captio AI kim danışırsa, ona çatır, beləliklə söhbətin hara getdiyini itirmədən izləyə bilirsən."
+      },
+      "restaurants": {
+        "label": "Restoran və kafelər",
+        "description": "Fon səs-küyü eşitmə problemi olmayan insanlar üçün belə nitqi izləməyi çətinləşdirir. Captio AI səninlə danışan şəxsə fokuslanır, beləliklə səs-küyün içində də əsl söhbət edə bilirsən."
+      },
+      "traveling": {
+        "label": "Səyahət",
+        "description": "Hava limanlarında, otellərdə və tanımadığın şəhərlərdə səhv eşitməyə yer yoxdur. Captio AI nitqi 60+ dildə subtitrə çevirir, beləliklə hara getsən, özünə əmin şəkildə yolunu tapa bilirsən."
+      },
+      "conferences": {
+        "label": "Konfrans və tədbirlər",
+        "description": "Spikerlər uzaqdadır, akustika gözlənilməzdir və təkrar xahiş edə bilmirsən. Captio AI hər spikerin canlı transkriptini sənə verir, beləliklə istənilən yerdən bütün tədbiri izləyə bilirsən."
+      },
+      "tv-media": {
+        "label": "TV və media",
+        "description": "Daxili subtitrlər çox vaxt səhv olur, gecikir və ya ümumiyyətlə olmur. Captio AI nə oynayırsa, onu real vaxtda subtitrə çevirir, beləliklə məzmunun subtitri olub-olmamasından asılı qalmırsan."
+      }
+    },
+    "languagesLabel": "Dillər",
+    "languagesTitle": "Captio AI 60+ dili dəstəkləyir",
+    "privacyCards": [
+      {
+        "title": "Səsin serverlərimizdə qalmır",
+        "description": "Səsin real vaxtda mətnə çevrilir və heç vaxt serverlərimizdə saxlanılmır. Saxladığın yazılar telefonunda qalır, transkriptləri isə yalnız öz hesabınla sinxronlaşır."
+      },
+      {
+        "title": "Satış məhsulu deyil",
+        "description": "Söhbətlərini Captio AI heç kimə, heç bir səbəbə satmır, paylaşmır və onlardan pul qazanmır."
+      },
+      {
+        "title": "Heç nəyi öyrətmək üçün istifadə olunmur",
+        "description": "Həkim qəbulunda və ya iş müsahibəsində dediklərin heç vaxt təlim məlumatlarına düşmür. Nə bizimkinə, nə də başqasınınkına."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Captio AI kimlər üçün hazırlanıb?",
+        "a": "Captio AI ilk növbədə danışıq söhbətlərini real vaxtda izləməli olan kar və zəif eşidən insanlar üçün yaradılıb. Onu eşitmə emalı pozuntusu olanlar, səs-küylü mühitdə olanlar, dil öyrənənlər və oxumağı dinləməkdən daha sürətli və ya asan hesab edən hər kəs də geniş istifadə edir."
+      },
+      {
+        "q": "Canlı subtitrlər nə qədər dəqiqdir?",
+        "a": "Captio AI dəqiqlik və aşağı gecikmə üçün xüsusi hazırlanmış qabaqcıl nitq tanıma texnologiyasından istifadə edir. Dəqiqlik səsin aydınlığından, ləhcədən və fon səs-küyündən asılıdır, amma adi söhbət şəraitində dəqiqlik çox yüksəkdir və peşəkar subtitr xidmətləri ilə müqayisə oluna bilər."
+      },
+      {
+        "q": "Captio AI hansı dilləri dəstəkləyir?",
+        "a": "Captio AI ingilis, ispan, fransız, alman, Çin (mandarin), ərəb, hind, yapon, koreya, portuqal, rus və bir çox başqa dil daxil olmaqla 60+ dili dəstəkləyir. Bütün dillər Canlı Subtitr və Canlı Tərcüməçi üçün əlçatandır. Tam siyahıya bu səhifədə bax."
+      },
+      {
+        "q": "Captio AI müxtəlif ləhcə və dialektlərlə işləyirmi?",
+        "a": "Bəli. Captio AI yalnız dərslikdəki standart nitqi deyil, geniş çeşiddə regional ləhcə və dialektləri anlayır. Avstraliya ingiliscəsini, Latın Amerikası ispancasını, İsveçrə almancasını, Braziliya portuqalcasını, Kvebek fransızcasını və bir çox başqalarını dəstəkləyir."
+      },
+      {
+        "q": "Canlı Subtitr ilə Canlı Tərcüməçi arasında fərq nədir?",
+        "a": "Canlı Subtitr nitqi danışıldığı orijinal dildə mətnə çevirir. Canlı Tərcüməçi isə həmin nitqi götürüb real vaxtda seçdiyin dilə tərcümə edir — danışan və oxuyan fərqli dillərdə danışanda idealdır, məsələn, xarici həkimlə görüşdə və ya başqa dildə keçən işgüzar iclasda."
+      },
+      {
+        "q": "Captio AI səsimi saxlayır və ya paylaşır?",
+        "a": "Səsin Captio AI serverlərində heç vaxt saxlanılmır, reklam üçün də heç vaxt satılmır və ya paylaşılmır. O, yalnız mətnə çevirmək üçün təhlükəsiz şəkildə nitq tanıma xidmətinə göndərilir, sonra orada silinir. Saxlamağı seçdiyin yazılar telefonunda qalır; onların transkriptləri və xülasələri başqa cihazda aça biləsən deyə öz hesabında da saxlanılır, yazını sildikdə isə hər yerdən silinir. Söhbətlərin heç vaxt süni intellekt modellərini öyrətmək üçün istifadə olunmur — nə bizim modelləri, nə də başqalarının modellərini."
+      },
+      {
+        "q": "Captio AI internetsiz işləyirmi?",
+        "a": "Canlı Subtitr və Canlı Tərcüməçi nitqi real vaxtda emal etmək üçün internet bağlantısı tələb edir. Audio Transkripsiya (yüklənmiş fayllar üçün) da internet tələb edir. Oflayn subtitr hazırda dəstəklənmir."
+      },
+      {
+        "q": "Hansı telefon və ya iPad lazımdır?",
+        "a": "Captio AI iOS 16 və ya daha yeni versiyalı iPhone və iPad cihazlarında, həmçinin Android telefonlarda işləyir. Telefon üçün optimallaşdırılıb və mikrofonla danışan arasında maneə olmayanda ən yaxşı işləyir."
+      },
+      {
+        "q": "Captio AI tətbiqindən həkim qəbulunda istifadə edə bilərəm?",
+        "a": "Bəli — həkim qəbulu ən vacib istifadə sahələrindən biridir. Telefonu masanın üstünə qoya və ya həkimə tərəf tuta və onun dediyi hər şeyi real vaxtda oxuya bilərsən. Tibbi terminlər dəqiq tanınır, bu da Captio AI tətbiqini xəstəxana və klinikalarda praktik əlçatanlıq alətinə çevirir."
+      },
+      {
+        "q": "Captio AI tətbiqindən iclaslarda və mühazirələrdə istifadə edə bilərəm?",
+        "a": "Bəli. Captio AI nitq olan istənilən mühitdə işləyir — iş iclasları, universitet mühazirələri, komanda görüşləri, konfranslar və video zənglər. Mikrofonu danışana tərəf yönəlt, subtitrlər dərhal görünəcək."
+      },
+      {
+        "q": "Audio Transkripsiya nədir və Canlı Subtitrdən nə ilə fərqlənir?",
+        "a": "Canlı Subtitr kimsə danışarkən real vaxtda işləyir. Audio Transkripsiya isə səs yazıları üçündür — audio və ya video fayl yükləyirsən və tam yazılı transkript alırsan. Yazdığın mühazirələrə, müsahibələrə, podkastlara və ya dinləmək əvəzinə oxumaq istədiyin istənilən məzmuna yenidən baxmaq üçün idealdır."
+      },
+      {
+        "q": "Süni İntellekt Xülasəsi nə edir?",
+        "a": "Süni İntellekt Xülasəsi istənilən transkripti götürür və əsas məlumatı — əsas məqamları, verilən qərarları, görüləcək işləri və vacib detalları — strukturlu xülasəyə çevirir. İclas və ya mühazirədən uzun transkriptin olanda və əsas məqamlar tez lazım olanda vaxtına qənaət edir."
+      },
+      {
+        "q": "Captio AI pulsuzdur?",
+        "a": "Captio AI tətbiqinin heç bir ödəniş etmədən başlamağa imkan verən pulsuz planı var. Limitsiz giriş istəyənlər üçün Plus planı mövcuddur. Ölkən üçün cari Plus qiyməti App Store səhifəsində göstərilir."
+      },
+      {
+        "q": "Captio AI Apple-ın daxili Live Captions funksiyasından nə ilə fərqlənir?",
+        "a": "Apple-ın Live Captions funksiyası iOS-a daxildir, amma daha az dili dəstəkləyir, tərcümə təklif etmir, Audio Transkripsiya və Süni İntellekt Xülasəsi də yoxdur. Captio AI 60+ dili dəstəkləyir, real vaxtda tərcümə edir, yüklənmiş faylları mətnə çevirməyə imkan verir və süni intellekt xülasələri yaradır — bu da onu daha tam əlçatanlıq və məhsuldarlıq alətinə çevirir."
+      }
+    ]
+  },
+  "featurePages": {
+    "live-captions": {
+      "meta": {
+        "title": "iPhone-da Kar və Zəif Eşidənlər üçün Canlı Subtitr",
+        "description": "iPhone mikrofonu ilə real vaxtda nitqi mətnə çevir. İstənilən söhbəti istənilən dildə dərhal izlə. Kar və zəif eşidən insanlar üçün hazırlanıb.",
+        "schemaDescription": "Kar və zəif eşidən insanlar üçün real vaxtda canlı subtitr. 60+ dil, bir saniyədən xeyli az gecikmə, hər yerdə işləyir."
+      },
+      "howTitle": "Üç toxunuş. Tam söhbət.",
+      "steps": [
+        {
+          "title": "Yazmağa başla",
+          "desc": "Yazma düyməsinə bas. Captio AI dərhal dinləməyə başlayır."
+        },
+        {
+          "title": "Sözlərin görünməsini izlə",
+          "desc": "Subtitrlər insan hələ danışarkən söz-söz görünür."
+        },
+        {
+          "title": "Yadda saxla",
+          "desc": "Transkripsiyanı və səs yazısını sonra üçün saxla."
+        }
+      ],
+      "featuresTitle": "Real söhbətlər üçün hazırlanıb",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Deyilənə uyğun sözlər",
+          "description": "Captio AI təxmini mənanı yox, insanın həqiqətən dediyini tutur. Buna görə vacib anlarda transkriptə güvənə bilərsən — həkimdə, müsahibədə, iclasda."
+        },
+        {
+          "title": "Sıfır gecikmə",
+          "description": "Gecikmə bir saniyədən xeyli azdır. Subtitrlər insan hələ danışarkən söz-söz görünür, beləliklə dediklərini hamının eşitdiyi anda oxuyursan."
+        },
+        {
+          "title": "Kimin danışdığını bil",
+          "description": "Qruplarda və iclaslarda Captio AI hər danışanı ayrıca qeyd edir, beləliklə üzlərə baxmadan və dodaq hərəkətlərini izləmədən kimin nə dediyini həmişə bilirsən."
+        },
+        {
+          "title": "60+ dil",
+          "description": "Fransız, yapon və ya ərəb dilindəki söhbəti ingilis dilindəki söhbət kimi izlə. Rejim dəyişməyə ehtiyac yoxdur. Eşitmə itkisi heç vaxt dil maneəsinə də çevrilmir."
+        },
+        {
+          "title": "Cümlənin ortasında dəyişən dilləri anlayır",
+          "description": "İnsanlar söhbətin ortasında dil dəyişəndə Captio AI geri qalmır. Subtitrlərdə boşluq yoxdur, dəyişəcək rejim yoxdur."
+        },
+        {
+          "title": "Öz lüğətini öyrət",
+          "description": "Tez-tez eşitdiyin adları, tibbi terminləri və ya peşə sözlərini əlavə et. Captio AI sənin söz siyahından istifadə edərək real söhbətlərini daha dəqiq subtitrə çevirir."
+        },
+        {
+          "title": "Dil ipucu əlavə et",
+          "description": "Hansı dili gözləməli olduğunu Captio AI tətbiqinə bildir, o da ilk sözdən hazır olsun — danışılan dil kontekstdən aydın olmayanda faydalıdır."
+        },
+        {
+          "title": "Daha dəqiqlik üçün sonra yenidən transkripsiya et",
+          "description": "Daha təmiz transkript üçün istənilən yazını sonradan yenidən emal et. Mühazirələr, qəbullar və yenidən baxmağa dəyən istənilən söhbət üçün faydalıdır."
+        },
+        {
+          "title": "Öz istədiyin kimi oxu",
+          "description": "Mətn ölçüsünü, fon rəngini və kontrastı subtitrlər bir baxışda asan oxunana qədər tənzimlə — telefon əlində olsun, masanın üstündə uzansın və ya stola söykənsin."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Səsin serverlərimizdə qalmır",
+          "description": "Səsin real vaxtda mətnə çevrilir və heç vaxt serverlərimizdə saxlanılmır. Saxladığın yazılar telefonunda qalır, transkriptləri isə yalnız öz hesabınla sinxronlaşır."
+        },
+        {
+          "title": "Satış məhsulu deyil",
+          "description": "Söhbətlərini Captio AI heç kimə, heç bir səbəbə satmır, paylaşmır və onlardan pul qazanmır."
+        },
+        {
+          "title": "Heç nəyi öyrətmək üçün istifadə olunmur",
+          "description": "Həkim qəbulunda və ya iş müsahibəsində dediklərin heç vaxt təlim məlumatlarına düşmür. Nə bizimkinə, nə də başqasınınkına."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Captio AI Apple-ın daxili Live Captions funksiyasından nə ilə fərqlənir?",
+          "a": "Apple-ın Live Captions funksiyası daha az dili dəstəkləyir, tərcümə təklif etmir, Audio Transkripsiya və Süni İntellekt Xülasəsi də yoxdur. Captio AI 60+ dili dəstəkləyir, real vaxtda tərcümə edir, yüklənmiş faylları mətnə çevirməyə imkan verir və süni intellekt xülasələri yaradır. Həmçinin mətn ölçüsünü, rəngləri və kontrastı necə rahat oxuyursansa, elə tənzimləməyə imkan verir."
+        },
+        {
+          "q": "Canlı subtitrlər nə qədər dəqiqdir?",
+          "a": "Adi söhbət şəraitində dəqiqlik yüksəkdir. Captio AI yalnız təmiz studiya səsi üçün deyil, real nitq üçün hazırlanıb — buna görə tez danışanları, regional ləhcələri, fon səs-küyünü və qarışıq dilli cümlələri anlayır. Konkret söhbətlərində dəqiqliyi artırmaq üçün öz lüğətini (adlar, tibbi terminlər, peşə sözləri) də əlavə edə bilərsən."
+        },
+        {
+          "q": "Subtitrlər nə qədər tez görünür?",
+          "a": "Söz-söz, insan hələ danışarkən. Gecikmə bir saniyədən xeyli azdır — demək olar ki, real vaxtdır. Kiminsə dediyini hamının eşitdiyi anda oxuyursan, cümləni bitirəndən sonra yox."
+        },
+        {
+          "q": "Canlı Subtitr səs-küylü yerlərdə işləyirmi?",
+          "a": "Bəli. Captio AI real mühitlər üçün hazırlanıb — restoranlar, küçələr, gözləmə zalları, ictimai nəqliyyat. Mikrofonu danışana tərəf yönəlt, fon səs-küyündən asılı olmayaraq subtitrlər görünəcək."
+        },
+        {
+          "q": "Canlı Subtitr hansı dilləri dəstəkləyir?",
+          "a": "İngilis, ispan, fransız, alman, Çin (mandarin), ərəb, hind, yapon, koreya, portuqal, rus və bir çox başqa dil daxil olmaqla 60+ dil. Bütün əsas dillərdə regional ləhcə və dialektlər dəstəklənir."
+        },
+        {
+          "q": "Ləhcə və dialektlərlə işləyirmi?",
+          "a": "Bəli. Captio AI yalnız dərslikdəki standart nitqi deyil, geniş çeşiddə regional ləhcələri anlayır. Avstraliya ingiliscəsi, Latın Amerikası ispancası, İsveçrə almancası, Kvebek fransızcası və bir çox başqaları dəstəklənir."
+        },
+        {
+          "q": "Subtitrlərimi yadda saxlaya bilərəm?",
+          "a": "Bəli. Seansdan sonra transkripsiyaları və səs yazılarını saxlayıb sonra baxa bilərsən. Daha təmiz və dəqiq transkript üçün saxlanmış yazını yenidən transkripsiya da edə bilərsən."
+        },
+        {
+          "q": "İnternet bağlantısı lazımdır?",
+          "a": "Bəli. Canlı Subtitr nitqi real vaxtda emal etmək üçün internet bağlantısı tələb edir. Oflayn subtitr hazırda dəstəklənmir."
+        }
+      ]
+    },
+    "live-translator": {
+      "meta": {
+        "title": "Canlı Tərcüməçi: iPhone-da Real Vaxtda Nitq Tərcüməsi",
+        "description": "iPhone-da real vaxtda nitq tərcüməsi. Qarşındakı öz dilində danışır, sən öz dilində oxuyursan — dərhal, istənilən dildə. Kar və zəif eşidənlər üçün.",
+        "schemaDescription": "Kar və zəif eşidən insanlar üçün real vaxtda nitq tərcüməsi. 60+ dil, hər kəs öz dilində danışır, sən öz dilində oxuyursan."
+      },
+      "howTitle": "Üç toxunuş. İstənilən dil.",
+      "steps": [
+        {
+          "title": "Tərcüməçi rejimini seç",
+          "desc": "Captio AI tətbiqini aç və Canlı Tərcüməçini seç."
+        },
+        {
+          "title": "İstədiyin dili seç",
+          "desc": "Oxumaq istədiyin dili seç."
+        },
+        {
+          "title": "Tərcüməni real vaxtda gör",
+          "desc": "Captio AI söz-söz tərcümə edir."
+        }
+      ],
+      "featuresTitle": "Real söhbətlər üçün hazırlanıb",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "İstənilən dil",
+          "description": "Fransız, yapon, ərəb, ispan, alman, Çin (mandarin) — 60+ dil, istənilən istiqamətdə. Eşitmə itkisi heç vaxt dil maneəsinə də çevrilmir."
+        },
+        {
+          "title": "Danışılan dili avtomatik tanıyır",
+          "description": "Mənbə dilini avtomatik rejimdə burax, Captio AI onu ilk sözlərdən müəyyən edəcək. Hər söhbətdən əvvəl əl ilə seçməyə ehtiyac yoxdur."
+        },
+        {
+          "title": "Gecikmə yoxdur",
+          "description": "Tərcümə gecikməsi bir saniyədən xeyli azdır. Kiminsə dediyini hamının eşitdiyi anda oxuyursan, cümləni bitirəndən sonra yox."
+        },
+        {
+          "title": "Dil ipucları əlavə et",
+          "description": "Hansı dili gözləməli olduğunu Captio AI tətbiqinə bildir, o da ilk sözdən hazır olsun — danışılan dil kontekstdən aydın olmayanda faydalıdır."
+        },
+        {
+          "title": "Eyni anda bir neçə dil",
+          "description": "İnsanlar söhbətin ortasında dil dəyişəndə Captio AI geri qalmır — heç bir əl müdaxiləsi olmadan hər birini sənin dilinə tərcümə edir."
+        },
+        {
+          "title": "Öz istədiyin kimi oxu",
+          "description": "Fon rəngini, mətn rəngini və şrift ölçüsünü tənzimlə ki, telefon əlində olsun və ya masanın üstündə, tərcümə bir baxışda asan oxunsun."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Səsin serverlərimizdə qalmır",
+          "description": "Səsin real vaxtda mətnə çevrilir və heç vaxt serverlərimizdə saxlanılmır. Saxladığın yazılar telefonunda qalır, transkriptləri isə yalnız öz hesabınla sinxronlaşır."
+        },
+        {
+          "title": "Satış məhsulu deyil",
+          "description": "Söhbətlərini Captio AI heç kimə, heç bir səbəbə satmır, paylaşmır və onlardan pul qazanmır."
+        },
+        {
+          "title": "Heç nəyi öyrətmək üçün istifadə olunmur",
+          "description": "Həkim qəbulunda və ya iş müsahibəsində dediklərin heç vaxt təlim məlumatlarına düşmür. Nə bizimkinə, nə də başqasınınkına."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Canlı Tərcüməçi Canlı Subtitrdən nə ilə fərqlənir?",
+          "a": "Canlı Subtitr nitqi danışıldığı orijinal dildə mətnə çevirir. Canlı Tərcüməçi isə həmin nitqi götürüb real vaxtda seçdiyin dilə tərcümə edir. Qarşındakı fransızca danışırsa, sən isə ingiliscə oxuyursansa, Canlı Tərcüməçidən istifadə edirsən."
+        },
+        {
+          "q": "Tərcümə nə qədər dəqiqdir?",
+          "a": "Gündəlik söhbətdə geniş yayılmış dil cütləri üçün tərcümə dəqiqliyi yüksəkdir. Captio AI yalnız təmiz studiya səsini deyil, təbii nitqi də — tez danışanları, ləhcələri, fon səs-küyünü — anlayır. Nadir dil cütləri və ya çox texniki məzmun üçün dəqiqlik fərqli ola bilər."
+        },
+        {
+          "q": "Hansı dillər dəstəklənir?",
+          "a": "İngilis, ispan, fransız, alman, Çin (mandarin), ərəb, hind, yapon, koreya, portuqal, rus və bir çox başqa dil daxil olmaqla 60+ dil. Həm mənbə, həm də hədəf dil dəstəklənən dillərdən istənilən biri ola bilər."
+        },
+        {
+          "q": "Tərcümə nə qədər tez görünür?",
+          "a": "Gecikmə bir saniyədən xeyli azdır. Tərcüməni insan hələ danışarkən söz-söz oxuyursan — demək olar ki, real vaxtda, cümləni bitirəndən sonra yox."
+        },
+        {
+          "q": "Xarici dildə danışan həkimin qəbulunda işləyirmi?",
+          "a": "Bəli. Bu, ən vacib istifadə sahələrindən biridir. Telefonu masanın üstünə qoy, mənbə dilini həkimin dili kimi təyin et və onun dediyi hər şeyi real vaxtda öz dilində oxu. Tövsiyələrinə sonra yenidən baxmaq üçün tərcümə olunmuş transkripti də saxlaya bilərsən."
+        },
+        {
+          "q": "Səs-küylü yerlərdə işləyirmi?",
+          "a": "Bəli. Captio AI real mühitlər üçün hazırlanıb — gözləmə zalları, restoranlar, hava limanları. Mikrofonu danışana tərəf yönəlt, ətrafdakı səs-küydən asılı olmayaraq tərcümə görünəcək."
+        },
+        {
+          "q": "Tərcümə olunmuş transkripti saxlaya bilərəm?",
+          "a": "Bəli. Seansdan sonra tərcümə olunmuş mətni saxlayıb sonra baxa bilərsən. Həkim qəbulları, iclaslar və qeydini saxlamaq istədiyin istənilən söhbət üçün faydalıdır."
+        },
+        {
+          "q": "İnternet bağlantısı lazımdır?",
+          "a": "Bəli. Canlı Tərcüməçi nitqi real vaxtda emal etmək və tərcümə etmək üçün internet bağlantısı tələb edir. Oflayn tərcümə hazırda dəstəklənmir."
+        }
+      ]
+    },
+    "audio-transcription": {
+      "meta": {
+        "title": "Audio Transkripsiya: iPhone-da Audio və Videonu Mətnə Çevir",
+        "description": "İstənilən audio və ya video faylı yüklə və tam yazılı transkript al. 60+ dil, danışanlara görə bölgü, axtarış imkanı. Kar və zəif eşidən insanlar üçün.",
+        "schemaDescription": "İstənilən audio və ya video faylı yüklə və tam yazılı transkript al. 60+ dil, danışanlara görə bölgü, zaman damğaları. Kar və zəif eşidən insanlar üçün hazırlanıb."
+      },
+      "howTitle": "Yüklə. Oxu. Hazırdır.",
+      "steps": [
+        {
+          "title": "Yükləmə formatını seç",
+          "desc": "Audio fayl, yoxsa video fayl yüklədiyini seç."
+        },
+        {
+          "title": "Fayl seç",
+          "desc": "Faylı telefonundan seç. Captio AI dərhal mətnə çevirməyə başlayır."
+        },
+        {
+          "title": "Transkripsiyaya bax",
+          "desc": "Danışanlara görə ayrılmış, zaman damğalı tam transkripti oxu."
+        }
+      ],
+      "featuresTitle": "Real səs yazıları üçün hazırlanıb",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "İstənilən format",
+          "description": "MP3, MP4, M4A, WAV və s. Mühazirələr, iclaslar, səsli mesajlar, podkastlar, müsahibələr, telefon yazıları — içində nitq varsa, Captio AI onu mətnə çevirə bilər."
+        },
+        {
+          "title": "Ən yüksək dəqiqlik",
+          "description": "Captio AI yalnız təmiz studiya faylları üçün deyil, real həyatdakı səs üçün hazırlanıb. Telefon zəngi səsi, mühazirə zalı yazıları, səs-küylü mühitlər — hamısının öhdəsindən gəlir."
+        },
+        {
+          "title": "İstənilən dil",
+          "description": "Fransız, yapon, ərəb və ya digər 57 dildə yazı yüklə. Captio AI dili müəyyən edir və dəqiq şəkildə mətnə çevirir."
+        },
+        {
+          "title": "Bir neçə dil",
+          "description": "Danışanlar yazının ortasında dil dəyişəndə Captio AI geri qalmır. Transkript danışılan hər dili boşluqsuz əks etdirir."
+        },
+        {
+          "title": "Zaman damğaları",
+          "description": "Transkriptdəki hər sətirin zaman damğası var, beləliklə yazının istənilən anına keçib nəyin, nə vaxt deyildiyini dəqiq tapa bilərsən."
+        },
+        {
+          "title": "İxrac et və paylaş",
+          "description": "Tam transkripti kopyala, paylaş və ya saxla. Səs yazıların və transkriptlərin lazım olanda həmişə əlçatandır."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Fayllar serverlərimizdə qalmır",
+          "description": "Faylın yalnız transkripsiya üçün göndərilir, sonra orada silinir və serverlərimizdə heç vaxt saxlanılmır. Yazı telefonunda qalır, transkripti isə yalnız öz hesabınla sinxronlaşır."
+        },
+        {
+          "title": "Satış məhsulu deyil",
+          "description": "Səs yazılarını Captio AI heç kimə, heç bir səbəbə satmır, paylaşmır və onlardan pul qazanmır."
+        },
+        {
+          "title": "Heç nəyi öyrətmək üçün istifadə olunmur",
+          "description": "Yüklədiyin hər şey — həkim qəbulu, iclas, müsahibə — heç vaxt təlim məlumatlarına düşmür. Nə bizimkinə, nə də başqasınınkına."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Audio Transkripsiya Canlı Subtitrdən nə ilə fərqlənir?",
+          "a": "Canlı Subtitr kimsə danışarkən real vaxtda işləyir. Audio Transkripsiya isə səs yazıları üçündür — audio və ya video fayl yükləyirsən və tam yazılı transkript alırsan. Yazdığın mühazirələrə, həkim qəbullarına, müsahibələrə və ya dinləmək əvəzinə oxumaq istədiyin istənilən məzmuna yenidən baxmaq üçün idealdır."
+        },
+        {
+          "q": "Audio Transkripsiya hansı fayl formatlarını dəstəkləyir?",
+          "a": "Captio AI MP3, MP4, M4A, WAV və s. daxil olmaqla geniş yayılmış audio və video formatlarını qəbul edir. Telefonunda yazmısansa və ya video platformasından yükləmisənsə, işləyəcək."
+        },
+        {
+          "q": "Transkripsiya nə qədər dəqiqdir?",
+          "a": "Dəstəklənən dillərdə aydın yazılar üçün dəqiqlik yüksəkdir. Captio AI yalnız studiya keyfiyyətli faylları deyil, real həyatdakı səsi də — telefon zənglərini, mühazirə zalı yazılarını, səs-küylü mühitləri — anlayır. Lazım olsa, faylı ikinci dəfə yenidən transkripsiya da edə bilərsən."
+        },
+        {
+          "q": "Hansı dillər dəstəklənir?",
+          "a": "İngilis, ispan, fransız, alman, Çin (mandarin), ərəb, hind, yapon, koreya, portuqal, rus və bir çox başqa dil daxil olmaqla 60+ dil. Captio AI fayldakı danışıq dilini avtomatik müəyyən edir."
+        },
+        {
+          "q": "Danışanları ayırırmı?",
+          "a": "Bəli. Captio AI transkriptdə hər danışanı ayrıca qeyd edir ki, kimin nə dediyini izləyə biləsən — iclaslar, müsahibələr, həkim qəbulları və bir neçə nəfərin danışdığı istənilən yazı üçün faydalıdır."
+        },
+        {
+          "q": "Transkripsiya nə qədər vaxt aparır?",
+          "a": "Transkripsiya sürətlidir. Bir saatlıq yazı adətən bir neçə dəqiqə çəkir. Vaxt faylın uzunluğundan və səs keyfiyyətindən asılıdır."
+        },
+        {
+          "q": "Transkripsiyadan sonra səsim saxlanılır?",
+          "a": "Captio AI serverlərində yox. Fayl yalnız transkripsiya üçün təhlükəsiz şəkildə nitq tanıma xidmətinə göndərilir və transkript hazır olan kimi orada silinir. Yazı telefonunda qalır, transkripti isə başqa cihazda aça biləsən deyə öz hesabında da saxlanılır. Səs yazıların heç vaxt satılmır və süni intellekt modellərini öyrətmək üçün istifadə olunmur."
+        },
+        {
+          "q": "Video faylı mətnə çevirə bilərəm?",
+          "a": "Bəli. Video faylı birbaşa yüklə, Captio AI səsini ayırıb mətnə çevirəcək. Əvvəlcə faylı konvertasiya etməyə ehtiyac yoxdur."
+        }
+      ]
+    },
+    "ai-summary": {
+      "meta": {
+        "title": "Süni İntellekt Xülasəsi: İstənilən Transkriptin Xülasəsi",
+        "description": "İstənilən transkripti strukturlu xülasəyə çevir. Əsas məqamlar, qərarlar və görüləcək işlər avtomatik çıxarılır. Kar və zəif eşidən insanlar üçün hazırlanıb.",
+        "schemaDescription": "İstənilən transkripti strukturlu xülasəyə çevir. Əsas məqamlar, qərarlar, görüləcək işlər və danışanlardan sitatlar avtomatik çıxarılır."
+      },
+      "howTitle": "Transkript daxil. Xülasə hazır.",
+      "steps": [
+        {
+          "title": "İstənilən transkripti aç",
+          "desc": "Canlı Subtitr və ya Audio Transkripsiya ilə yaradılmış istənilən transkripti seç."
+        },
+        {
+          "title": "Xülasə yarat",
+          "desc": "Süni İntellekt Xülasəsi düyməsinə toxun. Captio AI transkripti avtomatik emal edir."
+        },
+        {
+          "title": "Xülasəni oxu",
+          "desc": "Xülasən hazırdır — bölmələrə ayrılıb, oxumağa və ya paylaşmağa hazırdır."
+        }
+      ],
+      "featuresTitle": "Uzun transkriptlər üçün hazırlanıb",
+      "featuresSubtitle": "Xülasə, görüləcək işlər, danışanlardan sitatlar, qeydlər və daha çoxunu al.",
+      "subfeatures": [
+        {
+          "title": "Əsas məqamlar avtomatik çıxarılır",
+          "description": "Captio AI bütün transkripti oxuyur və həqiqətən vacib olanları çıxarır — əsas məqamları, verilən qərarları və gəlinən nəticələri."
+        },
+        {
+          "title": "Görüləcək işlər üzə çıxarılır",
+          "description": "Tapşırıqlar və növbəti addımlar müəyyən edilir və ayrıca siyahıya alınır ki, iclasdan, qəbuldan və ya mühazirədən sonra heç nə yaddan çıxmasın."
+        },
+        {
+          "title": "Bölmələrə ayrılır",
+          "description": "Xülasə strukturludur, bir böyük mətn parçası deyil. Hər mövzunun öz bölməsi var, beləliklə nəzər salıb lazım olanı tapa bilərsən."
+        },
+        {
+          "title": "İstənilən Captio AI transkripti ilə işləyir",
+          "description": "Süni İntellekt Xülasəsini Canlı Subtitr və ya Audio Transkripsiya ilə yaratdığın istənilən transkriptdə işə sal. Əlavə addım yoxdur, kopyala-yapışdır yoxdur."
+        },
+        {
+          "title": "İstənilən dil",
+          "description": "60+ dildə transkriptlərin xülasəsini çıxar. Captio AI transkripti orijinal dildə oxuyur və oxuya biləcəyin xülasə hazırlayır."
+        },
+        {
+          "title": "Saxla və paylaş",
+          "description": "Xülasəni transkriptlə birlikdə saxla, kopyala və ya paylaş. Həkim qəbullarından, iclaslardan və mühazirələrdən sonra faydalıdır."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Yalnız hesabında saxlanılır",
+          "description": "Xülasən yazı ilə birlikdə telefonunda və öz hesabında saxlanılır, beləcə daxil olduğun hər cihazda olur. Onu sil, hər yerdən silinər."
+        },
+        {
+          "title": "Satış məhsulu deyil",
+          "description": "Söhbətlərini Captio AI heç kimə, heç bir səbəbə satmır, paylaşmır və onlardan pul qazanmır."
+        },
+        {
+          "title": "Heç nəyi öyrətmək üçün istifadə olunmur",
+          "description": "Xülasəsini çıxardığın hər şey — həkim qəbulu, iclas, müsahibə — heç vaxt təlim məlumatlarına düşmür. Nə bizimkinə, nə də başqasınınkına."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Süni İntellekt Xülasəsi nə edir?",
+          "a": "Süni İntellekt Xülasəsi istənilən transkripti götürür və əsas məlumatı — əsas məqamları, qərarları, görüləcək işləri və vacib detalları — strukturlu xülasəyə çevirir. Uzun transkriptin olanda və əsas məqamlar tez lazım olanda vaxtına qənaət edir."
+        },
+        {
+          "q": "Hansı transkriptlərin xülasəsini çıxara bilərəm?",
+          "a": "Captio AI tətbiqində Canlı Subtitr və ya Audio Transkripsiya ilə yaradılmış istənilən transkriptin. Süni İntellekt Xülasəsini əlavə addım olmadan birbaşa transkriptdə işə salırsan."
+        },
+        {
+          "q": "Süni İntellekt Xülasəsi sadəcə transkripti oxumaqdan nə ilə fərqlənir?",
+          "a": "Bir saatlıq iclasın tam transkripti minlərlə söz ola bilər. Süni İntellekt Xülasəsi sənə əsas məqamları, qərarları və görüləcək işləri oxuma vaxtının kiçik bir hissəsində verir — deyilmə ardıcıllığına görə yox, mövzulara görə qruplaşdırılmış şəkildə."
+        },
+        {
+          "q": "Həkim qəbulları üçün işləyirmi?",
+          "a": "Bəli. Həkim qəbulunda qısa vaxtda çoxlu məlumat verilir. Süni İntellekt Xülasəsi diaqnozu, tövsiyələri və növbəti addımları yenidən baxa və qayıda biləcəyin aydın siyahıya çıxarır."
+        },
+        {
+          "q": "Hansı dillər dəstəklənir?",
+          "a": "Süni İntellekt Xülasəsi 60+ dildə transkriptlərlə işləyir. Xülasə transkriptlə eyni dildə hazırlanır."
+        },
+        {
+          "q": "Xülasəni saxlaya və ya paylaşa bilərəm?",
+          "a": "Bəli. Xülasəni orijinal transkriptlə birlikdə saxlaya, kopyalaya və ya paylaşa bilərsən. İclasın qısa icmalını göndərmək və ya həkim qəbulunun qeydini saxlamaq üçün faydalıdır."
+        },
+        {
+          "q": "Süni İntellekt Xülasəsi transkriptimi və ya səsimi saxlayır?",
+          "a": "Transkriptin yalnız xülasəni yazmaq üçün təhlükəsiz şəkildə süni intellekt xidmətinə göndərilir və süni intellekt modellərini öyrətmək üçün heç vaxt istifadə olunmur. Xülasə sən silənə qədər yazı ilə birlikdə telefonunda və öz hesabında saxlanılır. Səs Captio AI serverlərində heç vaxt saxlanılmır, söhbətlərin də heç vaxt satılmır."
+        }
+      ]
+    }
+  }
+}

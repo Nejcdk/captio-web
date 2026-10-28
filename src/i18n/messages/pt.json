@@ -1,0 +1,676 @@
+{
+  "header": {
+    "features": "Recursos",
+    "useCases": "Casos de uso",
+    "languages": "Idiomas",
+    "compare": "Comparar",
+    "blog": "Blog",
+    "download": "Baixar",
+    "toggleMenu": "Abrir ou fechar o menu",
+    "chooseLanguage": "Escolha um idioma"
+  },
+  "footer": {
+    "tagline": "Legendas ao vivo e ferramenta de produtividade para pessoas surdas e com perda auditiva.",
+    "productHuntTagline": "Legendas ao vivo e transcrição para pessoas surdas e com perda auditiva",
+    "productHunt": "Confira no Product Hunt →",
+    "featuredOn": "Em destaque no",
+    "features": "Recursos",
+    "useCases": "Casos de uso",
+    "blog": "Blog",
+    "allArticles": "Todos os artigos",
+    "compare": "Comparar",
+    "compareApps": "Compare apps de legendas",
+    "company": "Empresa",
+    "organizations": "Para organizações",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço"
+  },
+  "store": {
+    "appleOverline": "Baixar na",
+    "googleOverline": "Disponível no",
+    "appleQrAlt": "QR code para baixar o Captio AI na App Store para iPhone",
+    "googleQrAlt": "QR code para baixar o Captio AI no Google Play para Android",
+    "downloadForFree": "Baixe grátis"
+  },
+  "common": {
+    "home": "Início",
+    "back": "Voltar",
+    "goBack": "Voltar",
+    "explore": "Explorar",
+    "featuresLabel": "Recursos",
+    "howItWorks": "Como funciona",
+    "privacyLabel": "Privacidade",
+    "privacyTitle": "O que você ouve fica com você.",
+    "privacyImageAlt": "Privado por padrão: seu áudio nunca é armazenado em nossos servidores, nunca é vendido e nunca é usado para treinamento",
+    "faqLabel": "FAQ",
+    "faqTitle": "Perguntas frequentes",
+    "getStarted": "Comece agora",
+    "freeToStart": "Começar a usar o Captio AI é grátis",
+    "allFeatures": "O Captio AI inclui Legendas ao vivo, Tradutor ao vivo, Transcrição de áudio e Resumo com IA.",
+    "featureNames": {
+      "live-captions": "Legendas ao vivo",
+      "live-translator": "Tradutor ao vivo",
+      "audio-transcription": "Transcrição de áudio",
+      "ai-summary": "Resumo com IA"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Captio AI — Legendas ao vivo e transcrição para pessoas surdas",
+      "description": "O Captio AI oferece a pessoas surdas e com perda auditiva legendas em tempo real, tradução ao vivo, transcrição de áudio e resumos com IA no celular. Mais de 60 idiomas.",
+      "ogDescription": "Legendas em tempo real, tradução ao vivo, transcrição de áudio e resumos com IA para pessoas surdas e com perda auditiva. Mais de 60 idiomas. iPhone e Android.",
+      "schemaDescription": "Legendas em tempo real, tradução ao vivo, transcrição de áudio e resumos com IA para pessoas surdas e com perda auditiva. Mais de 60 idiomas."
+    },
+    "eyebrow": "🦻 Acessibilidade + 💻 App de produtividade",
+    "heroTitle": "[Legendas ao vivo] e [ferramenta de produtividade] para pessoas surdas e com perda auditiva.",
+    "heroSubtitle": "Acompanhe qualquer conversa, reunião ou aula. Em qualquer idioma.",
+    "mockupAlt": "App Captio AI mostrando legendas ao vivo e tradução",
+    "featuresTitle": "Tudo o que você precisa para acompanhar qualquer conversa",
+    "featuresSubtitle": "Quatro ferramentas criadas especialmente para pessoas surdas e com perda auditiva.",
+    "features": {
+      "live-captions": {
+        "title": "Fala para texto em tempo real",
+        "bullets": [
+          "Palavra por palavra, em tempo real",
+          "Funciona em lugares barulhentos",
+          "Qualquer sotaque, qualquer ritmo",
+          "Sem precisar de leitura labial"
+        ]
+      },
+      "live-translator": {
+        "title": "Traduza qualquer idioma em tempo real",
+        "bullets": [
+          "Traduz enquanto a pessoa fala",
+          "Cada pessoa fala no próprio idioma",
+          "Entende trocas de idioma no meio da frase",
+          "Mais de 60 idiomas"
+        ]
+      },
+      "audio-transcription": {
+        "title": "Transcreva qualquer arquivo de áudio ou vídeo",
+        "bullets": [
+          "Qualquer arquivo de áudio ou vídeo",
+          "Organizado por falante",
+          "Mais de 60 idiomas",
+          "Leia, copie, pesquise e compartilhe"
+        ]
+      },
+      "ai-summary": {
+        "title": "Transforme transcrições em resumos estruturados",
+        "bullets": [
+          "Pontos principais e decisões",
+          "Tarefas identificadas",
+          "Funciona com qualquer transcrição",
+          "Organizado em seções"
+        ]
+      }
+    },
+    "moreFeaturesTitle": "Mais recursos",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "Ações com IA",
+        "title": "Tarefas, anotações e um acompanhamento",
+        "description": "Transforme qualquer gravação em pontos principais, anotações detalhadas, tarefas, perguntas e respostas ou uma mensagem de acompanhamento."
+      },
+      "export": {
+        "label": "Exportar",
+        "title": "Compartilhe do seu jeito",
+        "description": "Envie as legendas ou um resumo como texto, link, PDF, e-mail ou prompt para um chat de IA."
+      },
+      "folders": {
+        "label": "Pastas",
+        "title": "Pastas e pastas compartilhadas",
+        "description": "Organize as gravações em pastas e compartilhe uma com a família, os colegas de turma ou a equipe."
+      },
+      "recognize-voices": {
+        "label": "Reconhecer vozes",
+        "title": "Nomes, não “Falante 2”",
+        "description": "Salve a voz das pessoas com quem você mais conversa e veja o nome delas nas legendas."
+      },
+      "speaker-direction": {
+        "label": "Direção do falante",
+        "title": "Veja de onde vem uma voz",
+        "description": "Ondas na borda das legendas apontam quem está falando. No iPhone 16 e posteriores."
+      },
+      "connectors": {
+        "label": "Conectores",
+        "title": "Pergunte ao seu app de chat",
+        "description": "Pergunte ao Claude, ChatGPT, Gemini ou Perplexity sobre qualquer uma das suas gravações."
+      },
+      "widgets": {
+        "label": "Widgets",
+        "title": "Legendas com um toque",
+        "description": "Inicie as Legendas ao vivo pela Tela de Início ou pela Tela Bloqueada do iPhone."
+      }
+    },
+    "useCasesLabel": "Casos de uso",
+    "useCasesTitle": "Funciona em qualquer situação",
+    "useCasesSubtitle": "Feito para os momentos reais que importam, não só para ambientes silenciosos e controlados.",
+    "useCases": {
+      "everyday-conversations": {
+        "label": "Conversas do dia a dia",
+        "description": "A maioria das conversas acontece rápido, em ritmo normal e sem aviso. O Captio AI legenda cada palavra assim que ela é dita, para você acompanhar sem pedir que ninguém repita."
+      },
+      "deaf-hoh-communication": {
+        "label": "Conversar com pessoas surdas ou com perda auditiva",
+        "description": "Muitas vezes, quem ouve não sabe como se adaptar ao conversar com amigos surdos ou com perda auditiva. O Captio AI transforma a fala em legendas em tempo real, para que a conversa flua com naturalidade dos dois lados."
+      },
+      "meetings": {
+        "label": "Reuniões",
+        "description": "Nas reuniões, as decisões acontecem rápido e as pessoas falam umas por cima das outras. O Captio AI legenda cada pessoa enquanto ela fala, para você nunca perder uma decisão ou uma pergunta feita a você."
+      },
+      "lectures": {
+        "label": "Aulas",
+        "description": "Professores falam rápido, explicam conteúdos complexos e raramente repetem. O Captio AI mostra uma transcrição ao vivo de tudo o que é dito, para você acompanhar o conteúdo em vez de se esforçar para ouvir."
+      },
+      "doctor-appointments": {
+        "label": "Consultas médicas",
+        "description": "Médicos falam rápido e usam termos clínicos fáceis de entender errado. O Captio AI mostra tudo o que eles dizem em tempo real, para você acompanhar o seu diagnóstico e fazer as perguntas certas."
+      },
+      "job-interviews": {
+        "label": "Entrevistas de emprego",
+        "description": "Perder uma pergunta numa entrevista significa responder errado ou pedir para repetir. O Captio AI mostra cada palavra do entrevistador, para você se concentrar totalmente na sua resposta."
+      },
+      "phone-video-calls": {
+        "label": "Ligações e videochamadas",
+        "description": "Ligações e videochamadas são mais difíceis de acompanhar do que conversas presenciais. Não dá para fazer leitura labial, e o áudio costuma ser ruim. O Captio AI legenda em tempo real quem estiver falando, para você não precisar pedir que repitam."
+      },
+      "group-settings": {
+        "label": "Em grupo",
+        "description": "Em grupo, várias pessoas falam ao mesmo tempo e a conversa anda rápido. O Captio AI acompanha quem estiver falando, para você seguir a conversa sem perder o fio da meada."
+      },
+      "restaurants": {
+        "label": "Restaurantes e cafés",
+        "description": "O barulho de fundo dificulta entender a fala até para quem não tem perda auditiva. O Captio AI foca em quem está falando com você, para você ter uma conversa de verdade mesmo com barulho."
+      },
+      "traveling": {
+        "label": "Viagens",
+        "description": "Em aeroportos, hotéis e cidades desconhecidas, não há espaço para entender errado. O Captio AI legenda a fala em mais de 60 idiomas, para você se virar com confiança aonde quer que vá."
+      },
+      "conferences": {
+        "label": "Congressos e eventos",
+        "description": "Os palestrantes estão longe, a acústica é imprevisível e não dá para pedir que repitam. O Captio AI mostra uma transcrição ao vivo de cada palestrante, para você acompanhar o evento inteiro de qualquer lugar da plateia."
+      },
+      "tv-media": {
+        "label": "TV e mídia",
+        "description": "As legendas embutidas costumam estar erradas, atrasadas ou simplesmente não existem. O Captio AI legenda em tempo real o que estiver passando, para você não depender de o conteúdo ter legendas ou não."
+      }
+    },
+    "languagesLabel": "Idiomas",
+    "languagesTitle": "O Captio AI funciona em mais de 60 idiomas",
+    "privacyCards": [
+      {
+        "title": "O áudio não fica em nossos servidores",
+        "description": "Seu áudio é transformado em texto em tempo real e nunca é armazenado em nossos servidores. As gravações que você salva ficam no seu celular, e as transcrições delas só são sincronizadas com a sua própria conta."
+      },
+      {
+        "title": "Não é um produto",
+        "description": "Suas conversas não são algo que o Captio AI vende, compartilha ou monetiza, para ninguém e por nenhum motivo."
+      },
+      {
+        "title": "Não é usado para treinar nada",
+        "description": "O que você diz numa consulta médica ou numa entrevista de emprego nunca vai parar num conjunto de dados de treinamento. Nem no nosso, nem no de ninguém."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Para quem o Captio AI foi feito?",
+        "a": "O Captio AI foi feito principalmente para pessoas surdas e com perda auditiva que precisam acompanhar conversas faladas em tempo real. Ele também é muito usado por pessoas com transtorno do processamento auditivo, por quem está em ambientes barulhentos, por estudantes de idiomas e por qualquer pessoa que ache mais rápido ou fácil ler do que ouvir."
+      },
+      {
+        "q": "As legendas ao vivo são precisas?",
+        "a": "O Captio AI usa um reconhecimento de fala avançado, criado especificamente para ter precisão e baixa latência. A precisão depende da clareza do áudio, do sotaque e do barulho de fundo, mas em condições normais de conversa ela é muito alta, comparável à de serviços profissionais de legendagem."
+      },
+      {
+        "q": "Quais idiomas o Captio AI suporta?",
+        "a": "O Captio AI suporta mais de 60 idiomas, incluindo inglês, espanhol, francês, alemão, mandarim, árabe, hindi, japonês, coreano, português, russo e muitos outros. Todos os idiomas estão disponíveis em Legendas ao vivo e Tradutor ao vivo. Veja a lista completa nesta página."
+      },
+      {
+        "q": "O Captio AI funciona com diferentes sotaques e dialetos?",
+        "a": "Sim. O Captio AI entende uma grande variedade de sotaques e dialetos regionais, não só a fala padrão dos livros didáticos. Ele suporta inglês australiano, espanhol latino-americano, alemão suíço, português brasileiro, francês quebequense e muitos outros."
+      },
+      {
+        "q": "Qual é a diferença entre Legendas ao vivo e Tradutor ao vivo?",
+        "a": "Legendas ao vivo transcreve a fala no idioma original em que ela é dita. Tradutor ao vivo pega essa fala e a traduz para o idioma que você escolher, em tempo real. É ideal quando quem fala e quem lê usam idiomas diferentes, como com um médico estrangeiro ou numa reunião de trabalho em outro idioma."
+      },
+      {
+        "q": "O Captio AI guarda ou compartilha meu áudio?",
+        "a": "Seu áudio nunca é armazenado nos servidores do Captio AI e nunca é vendido nem compartilhado para publicidade. Ele é enviado com segurança a um serviço de reconhecimento de fala apenas para virar texto e é apagado lá. As gravações que você escolhe salvar ficam no seu celular; as transcrições e os resumos delas também ficam na sua própria conta, para você abri-los em outro dispositivo, e apagar uma gravação a remove de todos os lugares. Suas conversas nunca são usadas para treinar modelos de IA, nem os nossos, nem os de ninguém."
+      },
+      {
+        "q": "O Captio AI funciona sem internet?",
+        "a": "Legendas ao vivo e Tradutor ao vivo precisam de conexão com a internet para processar a fala em tempo real. A Transcrição de áudio (para arquivos enviados) também precisa de conexão. No momento, não é possível usar as legendas offline."
+      },
+      {
+        "q": "De qual celular ou iPad eu preciso?",
+        "a": "O Captio AI funciona em iPhone e iPad com iOS 16 ou mais recente, e em celulares Android. Ele foi otimizado para celular e funciona melhor quando o microfone tem um caminho livre até quem está falando."
+      },
+      {
+        "q": "Posso usar o Captio AI numa consulta médica?",
+        "a": "Sim. As consultas médicas são um dos casos de uso mais importantes. Você pode deixar o celular sobre a mesa ou segurá-lo na direção do médico e ler tudo o que ele diz em tempo real. Os termos médicos são reconhecidos com precisão, o que faz do Captio AI uma ferramenta de acessibilidade prática na área da saúde."
+      },
+      {
+        "q": "Posso usar o Captio AI em reuniões e aulas?",
+        "a": "Sim. O Captio AI funciona em qualquer situação em que alguém fale: reuniões de trabalho, aulas na faculdade, reuniões diárias da equipe, congressos e videochamadas. Aponte o microfone para quem está falando e as legendas aparecem na hora."
+      },
+      {
+        "q": "O que é a Transcrição de áudio e qual a diferença para as Legendas ao vivo?",
+        "a": "Legendas ao vivo funciona em tempo real, enquanto alguém fala. Transcrição de áudio é para gravações: você envia um arquivo de áudio ou vídeo e recebe a transcrição completa por escrito. É ideal para revisar aulas gravadas, entrevistas, podcasts ou qualquer conteúdo que você prefira ler a ouvir."
+      },
+      {
+        "q": "O que o Resumo com IA faz?",
+        "a": "O Resumo com IA pega qualquer transcrição e extrai as informações principais (pontos principais, decisões tomadas, tarefas e detalhes importantes) num resumo estruturado. Ele economiza tempo quando você tem uma transcrição longa de uma reunião ou aula e precisa dos destaques rapidamente."
+      },
+      {
+        "q": "O Captio AI é grátis?",
+        "a": "O Captio AI tem um plano gratuito para você começar sem pagar nada. Para quem precisa de acesso ilimitado, existe o plano Plus. O preço atual do Plus no seu país aparece na página do app na App Store."
+      },
+      {
+        "q": "Qual a diferença entre o Captio AI e as Legendas ao Vivo da Apple?",
+        "a": "As Legendas ao Vivo da Apple já vêm no iOS, mas suportam menos idiomas, não traduzem e não incluem Transcrição de áudio nem Resumo com IA. O Captio AI suporta mais de 60 idiomas, traduz em tempo real, transcreve arquivos enviados e gera resumos com IA, o que faz dele uma ferramenta de acessibilidade e produtividade muito mais completa."
+      }
+    ]
+  },
+  "featurePages": {
+    "live-captions": {
+      "meta": {
+        "title": "Legendas ao vivo no iPhone para pessoas surdas",
+        "description": "Fala para texto em tempo real pelo microfone do seu iPhone. Acompanhe qualquer conversa, em qualquer idioma, na hora. Feito para pessoas surdas e com perda auditiva.",
+        "schemaDescription": "Legendas em tempo real para pessoas surdas e com perda auditiva. Mais de 60 idiomas, latência bem abaixo de um segundo e funciona em qualquer lugar."
+      },
+      "howTitle": "Três toques. A conversa inteira.",
+      "steps": [
+        {
+          "title": "Comece a gravar",
+          "desc": "Toque no botão de gravar. O Captio AI começa a ouvir na hora."
+        },
+        {
+          "title": "Veja as palavras aparecerem",
+          "desc": "As legendas aparecem palavra por palavra enquanto a pessoa ainda está falando."
+        },
+        {
+          "title": "Salve",
+          "desc": "Guarde a transcrição e a gravação de áudio para depois."
+        }
+      ],
+      "featuresTitle": "Feito para conversas reais",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "As palavras que foram ditas de verdade",
+          "description": "O Captio AI registra o que a pessoa realmente disse, não uma paráfrase aproximada. Assim você pode confiar na transcrição quando importa: no médico, numa entrevista, numa reunião."
+        },
+        {
+          "title": "Latência zero",
+          "description": "A latência fica bem abaixo de um segundo. As legendas aparecem palavra por palavra enquanto a pessoa ainda está falando, então você lê o que ela diz no mesmo momento em que todo mundo ouve."
+        },
+        {
+          "title": "Saiba quem está falando",
+          "description": "Em grupos e reuniões, o Captio AI identifica cada falante separadamente para você sempre saber quem disse o quê, sem precisar observar rostos ou acompanhar o movimento dos lábios."
+        },
+        {
+          "title": "Mais de 60 idiomas",
+          "description": "Acompanhe uma conversa em francês, japonês ou árabe do mesmo jeito que você acompanha uma em português. Sem trocar de modo. A perda auditiva nunca vira também uma barreira de idioma."
+        },
+        {
+          "title": "Entende idiomas misturados na mesma frase",
+          "description": "Quando as pessoas trocam de idioma no meio da conversa, o Captio AI acompanha. Sem falhas nas legendas, sem modo para trocar."
+        },
+        {
+          "title": "Ensine o seu vocabulário",
+          "description": "Adicione nomes, termos médicos ou palavras técnicas que você ouve com frequência. O Captio AI usa a sua lista de vocabulário para legendar as suas conversas reais com mais precisão."
+        },
+        {
+          "title": "Adicione um idioma sugerido",
+          "description": "Diga ao Captio AI qual idioma esperar e ele já começa afinado desde a primeira palavra. Útil quando o idioma falado não fica claro pelo contexto."
+        },
+        {
+          "title": "Transcreva de novo para mais precisão",
+          "description": "Passe qualquer gravação de novo depois para ter uma transcrição mais limpa. Útil para aulas, consultas e qualquer conversa que valha a pena revisar."
+        },
+        {
+          "title": "Leia do seu jeito",
+          "description": "Ajuste o tamanho do texto, a cor de fundo e o contraste até as legendas ficarem fáceis de ler num relance: com o celular na mão, deitado na mesa ou apoiado na escrivaninha."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "O áudio não fica em nossos servidores",
+          "description": "Seu áudio é transformado em texto em tempo real e nunca é armazenado em nossos servidores. As gravações que você salva ficam no seu celular, e as transcrições delas só são sincronizadas com a sua própria conta."
+        },
+        {
+          "title": "Não é um produto",
+          "description": "Suas conversas não são algo que o Captio AI vende, compartilha ou monetiza, para ninguém e por nenhum motivo."
+        },
+        {
+          "title": "Não é usado para treinar nada",
+          "description": "O que você diz numa consulta médica ou numa entrevista de emprego nunca vai parar num conjunto de dados de treinamento. Nem no nosso, nem no de ninguém."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Qual a diferença entre o Captio AI e as Legendas ao Vivo da Apple?",
+          "a": "As Legendas ao Vivo da Apple suportam menos idiomas, não traduzem e não incluem Transcrição de áudio nem Resumo com IA. O Captio AI suporta mais de 60 idiomas, traduz em tempo real, transcreve arquivos enviados e gera resumos com IA. Ele também permite personalizar o tamanho do texto, as cores e o contraste do jeito que você lê melhor."
+        },
+        {
+          "q": "As legendas ao vivo são precisas?",
+          "a": "A precisão é alta em condições normais de conversa. O Captio AI foi feito para a fala real, não só para áudio limpo de estúdio, então ele entende quem fala rápido, sotaques regionais, barulho de fundo e frases com idiomas misturados. Você também pode adicionar um vocabulário personalizado (nomes, termos médicos, palavras técnicas) para melhorar a precisão nas suas conversas."
+        },
+        {
+          "q": "Com que rapidez as legendas aparecem?",
+          "a": "Palavra por palavra, enquanto a pessoa ainda está falando. A latência fica bem abaixo de um segundo, quase em tempo real. Você lê o que a pessoa diz no mesmo momento em que todo mundo ouve, e não depois que ela termina a frase."
+        },
+        {
+          "q": "As Legendas ao vivo funcionam em lugares barulhentos?",
+          "a": "Sim. O Captio AI foi pensado para ambientes reais: restaurantes, ruas, salas de espera, transporte público. Aponte o microfone para quem está falando e as legendas aparecem, mesmo com barulho de fundo."
+        },
+        {
+          "q": "Quais idiomas as Legendas ao vivo suportam?",
+          "a": "Mais de 60 idiomas, incluindo inglês, espanhol, francês, alemão, mandarim, árabe, hindi, japonês, coreano, português, russo e muitos outros. Sotaques e dialetos regionais são suportados em todos os principais idiomas."
+        },
+        {
+          "q": "Funciona com sotaques e dialetos?",
+          "a": "Sim. O Captio AI entende uma grande variedade de sotaques regionais, não só a fala padrão dos livros didáticos. Inglês australiano, espanhol latino-americano, alemão suíço, francês quebequense e muitos outros são suportados."
+        },
+        {
+          "q": "Posso salvar as minhas legendas?",
+          "a": "Sim. Você pode salvar as transcrições e as gravações de áudio depois de uma sessão e revisá-las mais tarde. Também dá para transcrever de novo uma gravação salva e ter uma transcrição mais limpa e precisa."
+        },
+        {
+          "q": "Preciso de conexão com a internet?",
+          "a": "Sim. As Legendas ao vivo precisam de conexão com a internet para processar a fala em tempo real. No momento, não é possível usar as legendas offline."
+        }
+      ]
+    },
+    "live-translator": {
+      "meta": {
+        "title": "Tradutor ao vivo: tradução de voz em tempo real no iPhone",
+        "description": "Tradução de voz em tempo real no seu iPhone. A pessoa fala no idioma dela, você lê no seu, na hora e em qualquer idioma. Feito para pessoas surdas e com perda auditiva.",
+        "schemaDescription": "Tradução de voz em tempo real para pessoas surdas e com perda auditiva. Mais de 60 idiomas: cada pessoa fala no próprio idioma e você lê no seu."
+      },
+      "howTitle": "Três toques. Qualquer idioma.",
+      "steps": [
+        {
+          "title": "Escolha o modo tradutor",
+          "desc": "Abra o Captio AI e selecione Tradutor ao vivo."
+        },
+        {
+          "title": "Selecione o seu idioma",
+          "desc": "Escolha o idioma em que você quer ler."
+        },
+        {
+          "title": "Veja a tradução em tempo real",
+          "desc": "O Captio AI traduz palavra por palavra."
+        }
+      ],
+      "featuresTitle": "Feito para conversas reais",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Qualquer idioma",
+          "description": "Francês, japonês, árabe, espanhol, alemão, mandarim: mais de 60 idiomas, em qualquer direção. A perda auditiva nunca vira também uma barreira de idioma."
+        },
+        {
+          "title": "Detecta sozinho o idioma falado",
+          "description": "Deixe o idioma de origem no automático e o Captio AI descobre qual é pelas primeiras palavras. Nada de escolher manualmente antes de cada conversa."
+        },
+        {
+          "title": "Sem atraso",
+          "description": "A latência da tradução fica bem abaixo de um segundo. Você lê o que a pessoa diz no mesmo momento em que todo mundo ouve, e não depois que ela termina a frase."
+        },
+        {
+          "title": "Adicione idiomas sugeridos",
+          "description": "Diga ao Captio AI qual idioma esperar e ele já começa afinado desde a primeira palavra. Útil quando o idioma falado não fica claro pelo contexto."
+        },
+        {
+          "title": "Vários idiomas ao mesmo tempo",
+          "description": "Quando as pessoas trocam de idioma no meio da conversa, o Captio AI acompanha e traduz cada um para o seu idioma, sem você precisar fazer nada."
+        },
+        {
+          "title": "Leia do seu jeito",
+          "description": "Ajuste a cor de fundo, a cor do texto e o tamanho da fonte para a tradução ficar fácil de ler num relance, com o celular na mão ou deitado na mesa."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "O áudio não fica em nossos servidores",
+          "description": "Seu áudio é transformado em texto em tempo real e nunca é armazenado em nossos servidores. As gravações que você salva ficam no seu celular, e as transcrições delas só são sincronizadas com a sua própria conta."
+        },
+        {
+          "title": "Não é um produto",
+          "description": "Suas conversas não são algo que o Captio AI vende, compartilha ou monetiza, para ninguém e por nenhum motivo."
+        },
+        {
+          "title": "Não é usado para treinar nada",
+          "description": "O que você diz numa consulta médica ou numa entrevista de emprego nunca vai parar num conjunto de dados de treinamento. Nem no nosso, nem no de ninguém."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Qual a diferença entre o Tradutor ao vivo e as Legendas ao vivo?",
+          "a": "Legendas ao vivo transcreve a fala no idioma original em que ela é dita. Tradutor ao vivo pega essa fala e a traduz para o idioma que você escolher, em tempo real. Se a outra pessoa fala francês e você lê em português, é o Tradutor ao vivo que você usa."
+        },
+        {
+          "q": "A tradução é precisa?",
+          "a": "A precisão da tradução é alta para os pares de idiomas mais comuns em conversas do dia a dia. O Captio AI entende a fala natural (gente que fala rápido, sotaques, barulho de fundo), não só áudio limpo de estúdio. Em pares de idiomas raros ou em conteúdos muito técnicos, a precisão pode variar."
+        },
+        {
+          "q": "Quais idiomas são suportados?",
+          "a": "Mais de 60 idiomas, incluindo inglês, espanhol, francês, alemão, mandarim, árabe, hindi, japonês, coreano, português, russo e muitos outros. Tanto o idioma de origem quanto o de destino podem ser qualquer um dos idiomas suportados."
+        },
+        {
+          "q": "Com que rapidez a tradução aparece?",
+          "a": "A latência fica bem abaixo de um segundo. Você lê a tradução palavra por palavra enquanto a pessoa ainda está falando, quase em tempo real, e não depois que ela termina a frase."
+        },
+        {
+          "q": "Funciona em consultas com um médico que fala outro idioma?",
+          "a": "Sim. Esse é um dos casos de uso mais importantes. Deixe o celular sobre a mesa, defina o idioma do médico como idioma de origem e leia tudo o que ele diz no seu idioma, em tempo real. Você também pode salvar a transcrição traduzida para revisar as orientações depois."
+        },
+        {
+          "q": "Funciona em lugares barulhentos?",
+          "a": "Sim. O Captio AI foi feito para ambientes reais: salas de espera, restaurantes, aeroportos. Aponte o microfone para quem está falando e a tradução aparece, mesmo com barulho ao redor."
+        },
+        {
+          "q": "Posso salvar a transcrição traduzida?",
+          "a": "Sim. Depois de uma sessão, você pode salvar o texto traduzido e revisá-lo mais tarde. Útil para consultas médicas, reuniões e qualquer conversa da qual você queira ter um registro."
+        },
+        {
+          "q": "Preciso de conexão com a internet?",
+          "a": "Sim. O Tradutor ao vivo precisa de conexão com a internet para processar e traduzir a fala em tempo real. No momento, não é possível traduzir offline."
+        }
+      ]
+    },
+    "audio-transcription": {
+      "meta": {
+        "title": "Transcrição de áudio: áudio e vídeo em texto no iPhone",
+        "description": "Envie qualquer arquivo de áudio ou vídeo e receba a transcrição completa por escrito. Mais de 60 idiomas, falantes separados e busca. Para pessoas surdas e com perda auditiva.",
+        "schemaDescription": "Envie qualquer arquivo de áudio ou vídeo e receba a transcrição completa por escrito. Mais de 60 idiomas, falantes separados e marcação de tempo. Para pessoas surdas e com perda auditiva."
+      },
+      "howTitle": "Envie. Leia. Pronto.",
+      "steps": [
+        {
+          "title": "Escolha o tipo de arquivo",
+          "desc": "Selecione se você vai enviar um arquivo de áudio ou de vídeo."
+        },
+        {
+          "title": "Selecione um arquivo",
+          "desc": "Escolha o arquivo no seu celular. O Captio AI começa a transcrever na hora."
+        },
+        {
+          "title": "Veja a transcrição",
+          "desc": "Leia a transcrição completa, organizada por falante e com marcação de tempo."
+        }
+      ],
+      "featuresTitle": "Feito para gravações reais",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Qualquer formato",
+          "description": "MP3, MP4, M4A, WAV e outros. Aulas, reuniões, mensagens de voz, podcasts, entrevistas, gravações de ligações: se tem fala, o Captio AI consegue transcrever."
+        },
+        {
+          "title": "Máxima precisão",
+          "description": "O Captio AI foi feito para o áudio do mundo real, não só para arquivos limpos de estúdio. Áudio de ligação, gravações em sala de aula, ambientes barulhentos: ele dá conta de tudo."
+        },
+        {
+          "title": "Qualquer idioma",
+          "description": "Envie uma gravação em francês, japonês, árabe ou outros 57 idiomas. O Captio AI identifica o idioma e o transcreve com precisão."
+        },
+        {
+          "title": "Vários idiomas",
+          "description": "Quando os falantes trocam de idioma no meio da gravação, o Captio AI acompanha. A transcrição mostra todos os idiomas que foram falados, sem lacunas."
+        },
+        {
+          "title": "Marcação de tempo",
+          "description": "Cada linha da transcrição tem a marcação de tempo, para você pular para qualquer momento da gravação e encontrar exatamente o que foi dito e quando."
+        },
+        {
+          "title": "Exporte e compartilhe",
+          "description": "Copie a transcrição completa, compartilhe ou salve. Suas gravações e transcrições ficam disponíveis sempre que você precisar."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Os arquivos não ficam em nossos servidores",
+          "description": "Seu arquivo é enviado apenas para ser transcrito e é apagado lá, e nunca é armazenado em nossos servidores. A gravação fica no seu celular, e a transcrição dela só é sincronizada com a sua própria conta."
+        },
+        {
+          "title": "Não é um produto",
+          "description": "Suas gravações não são algo que o Captio AI vende, compartilha ou monetiza, para ninguém e por nenhum motivo."
+        },
+        {
+          "title": "Não é usado para treinar nada",
+          "description": "O que você envia (uma consulta médica, uma reunião, uma entrevista) nunca vai parar num conjunto de dados de treinamento. Nem no nosso, nem no de ninguém."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Qual a diferença entre a Transcrição de áudio e as Legendas ao vivo?",
+          "a": "Legendas ao vivo funciona em tempo real, enquanto alguém fala. Transcrição de áudio é para gravações: você envia um arquivo de áudio ou vídeo e recebe a transcrição completa por escrito. É ideal para revisar aulas gravadas, consultas médicas, entrevistas ou qualquer conteúdo que você prefira ler a ouvir."
+        },
+        {
+          "q": "Quais formatos de arquivo a Transcrição de áudio aceita?",
+          "a": "O Captio AI aceita os formatos de áudio e vídeo mais comuns, incluindo MP3, MP4, M4A, WAV e outros. Se você gravou no celular ou baixou de uma plataforma de vídeo, vai funcionar."
+        },
+        {
+          "q": "A transcrição é precisa?",
+          "a": "A precisão é alta em gravações nítidas nos idiomas suportados. O Captio AI entende o áudio do mundo real (ligações, gravações em sala de aula, ambientes barulhentos), não só arquivos com qualidade de estúdio. Se precisar, você também pode transcrever o arquivo de novo para uma segunda passada."
+        },
+        {
+          "q": "Quais idiomas são suportados?",
+          "a": "Mais de 60 idiomas, incluindo inglês, espanhol, francês, alemão, mandarim, árabe, hindi, japonês, coreano, português, russo e muitos outros. O Captio AI detecta automaticamente o idioma falado no arquivo."
+        },
+        {
+          "q": "Ele separa os falantes?",
+          "a": "Sim. O Captio AI identifica cada falante separadamente na transcrição para você saber quem disse o quê. Útil em reuniões, entrevistas, consultas médicas e qualquer gravação com várias pessoas."
+        },
+        {
+          "q": "Quanto tempo leva a transcrição?",
+          "a": "A transcrição é rápida. Uma gravação de uma hora costuma levar poucos minutos. O tempo depende da duração do arquivo e da qualidade do áudio."
+        },
+        {
+          "q": "Meu áudio fica armazenado depois da transcrição?",
+          "a": "Não nos servidores do Captio AI. O arquivo é enviado com segurança a um serviço de reconhecimento de fala apenas para ser transcrito e é apagado lá assim que a transcrição fica pronta. A gravação fica no seu celular, e a transcrição dela também fica na sua própria conta, para você abri-la em outro dispositivo. Suas gravações nunca são vendidas nem usadas para treinar modelos de IA."
+        },
+        {
+          "q": "Posso transcrever um arquivo de vídeo?",
+          "a": "Sim. Envie o arquivo de vídeo direto e o Captio AI extrai o áudio e faz a transcrição. Não precisa converter o arquivo antes."
+        }
+      ]
+    },
+    "ai-summary": {
+      "meta": {
+        "title": "Resumo com IA: resumos estruturados das suas transcrições",
+        "description": "Transforme qualquer transcrição num resumo estruturado. Pontos principais, decisões e tarefas extraídos automaticamente. Feito para pessoas surdas e com perda auditiva.",
+        "schemaDescription": "Transforme qualquer transcrição num resumo estruturado. Pontos principais, decisões, tarefas e citações dos falantes extraídos automaticamente."
+      },
+      "howTitle": "Entra a transcrição. Sai o resumo.",
+      "steps": [
+        {
+          "title": "Abra uma transcrição",
+          "desc": "Selecione qualquer transcrição das Legendas ao vivo ou da Transcrição de áudio."
+        },
+        {
+          "title": "Gere o resumo",
+          "desc": "Toque em Resumo com IA. O Captio AI processa a transcrição automaticamente."
+        },
+        {
+          "title": "Leia o resumo",
+          "desc": "Seu resumo está pronto, organizado em seções, para ler ou compartilhar."
+        }
+      ],
+      "featuresTitle": "Feito para transcrições longas",
+      "featuresSubtitle": "Receba resumo, tarefas, citações dos falantes, anotações e muito mais.",
+      "subfeatures": [
+        {
+          "title": "Pontos principais extraídos automaticamente",
+          "description": "O Captio AI lê a transcrição inteira e destaca o que realmente importou: os pontos principais, as decisões tomadas e as conclusões."
+        },
+        {
+          "title": "Tarefas em destaque",
+          "description": "Tarefas e próximos passos são identificados e listados à parte, para nada passar batido depois de uma reunião, consulta ou aula."
+        },
+        {
+          "title": "Organizado em seções",
+          "description": "O resumo é estruturado, não um bloco único de texto. Cada assunto ganha a sua própria seção, para você passar os olhos e achar o que precisa."
+        },
+        {
+          "title": "Funciona com qualquer transcrição do Captio AI",
+          "description": "Use o Resumo com IA em qualquer transcrição que você criou com as Legendas ao vivo ou a Transcrição de áudio. Sem passos extras, sem copiar e colar."
+        },
+        {
+          "title": "Qualquer idioma",
+          "description": "Resuma transcrições em mais de 60 idiomas. O Captio AI lê a transcrição no idioma original e gera um resumo que você consegue ler."
+        },
+        {
+          "title": "Salve e compartilhe",
+          "description": "Guarde o resumo junto com a transcrição, copie ou compartilhe. Útil depois de consultas médicas, reuniões e aulas."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Guardado só na sua conta",
+          "description": "Seu resumo é salvo junto com a gravação, no seu celular e na sua própria conta, então ele está em qualquer dispositivo em que você entrar. Apague-o e ele some de todos os lugares."
+        },
+        {
+          "title": "Não é um produto",
+          "description": "Suas conversas não são algo que o Captio AI vende, compartilha ou monetiza, para ninguém e por nenhum motivo."
+        },
+        {
+          "title": "Não é usado para treinar nada",
+          "description": "O que você resume (uma consulta médica, uma reunião, uma entrevista) nunca vai parar num conjunto de dados de treinamento. Nem no nosso, nem no de ninguém."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "O que o Resumo com IA faz?",
+          "a": "O Resumo com IA pega qualquer transcrição e extrai as informações principais (pontos principais, decisões, tarefas e detalhes importantes) num resumo estruturado. Ele economiza tempo quando você tem uma transcrição longa e precisa dos destaques rapidamente."
+        },
+        {
+          "q": "Quais transcrições posso resumir?",
+          "a": "Qualquer transcrição criada no Captio AI, seja pelas Legendas ao vivo ou pela Transcrição de áudio. Você usa o Resumo com IA direto na transcrição, sem passos extras."
+        },
+        {
+          "q": "Qual a diferença entre o Resumo com IA e simplesmente ler a transcrição?",
+          "a": "A transcrição completa de uma reunião de uma hora pode ter milhares de palavras. O Resumo com IA mostra os pontos principais, as decisões e as tarefas numa fração do tempo de leitura, organizados por assunto, e não pela ordem em que as coisas foram ditas."
+        },
+        {
+          "q": "Funciona para consultas médicas?",
+          "a": "Sim. Uma consulta médica traz muita informação em pouco tempo. O Resumo com IA extrai o diagnóstico, as orientações e os próximos passos numa lista clara que você pode revisar e consultar depois."
+        },
+        {
+          "q": "Quais idiomas são suportados?",
+          "a": "O Resumo com IA funciona com transcrições em mais de 60 idiomas. O resumo é gerado no mesmo idioma da transcrição."
+        },
+        {
+          "q": "Posso salvar ou compartilhar o resumo?",
+          "a": "Sim. Você pode salvar o resumo junto com a transcrição original, copiar ou compartilhar. Útil para mandar um resumo da reunião ou guardar um registro de uma consulta médica."
+        },
+        {
+          "q": "O Resumo com IA armazena a minha transcrição ou o meu áudio?",
+          "a": "Sua transcrição é enviada com segurança a um serviço de IA apenas para escrever o resumo e nunca é usada para treinar modelos de IA. O resumo é salvo com a gravação, no seu celular e na sua própria conta, até você apagá-lo. O áudio nunca é armazenado nos servidores do Captio AI, e suas conversas nunca são vendidas."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,676 @@
+{
+  "header": {
+    "features": "Fitur",
+    "useCases": "Kegunaan",
+    "languages": "Bahasa",
+    "compare": "Bandingkan",
+    "blog": "Blog",
+    "download": "Unduh",
+    "toggleMenu": "Buka atau tutup menu",
+    "chooseLanguage": "Pilih bahasa"
+  },
+  "footer": {
+    "tagline": "Teks langsung dan alat produktivitas untuk orang Tuli dan kurang dengar.",
+    "productHuntTagline": "Teks Langsung & Transkripsi untuk Tuli dan Kurang Dengar",
+    "productHunt": "Lihat di Product Hunt →",
+    "featuredOn": "Tampil di",
+    "features": "Fitur",
+    "useCases": "Kegunaan",
+    "blog": "Blog",
+    "allArticles": "Semua artikel",
+    "compare": "Bandingkan",
+    "compareApps": "Bandingkan aplikasi teks",
+    "company": "Perusahaan",
+    "organizations": "Untuk organisasi",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Ketentuan Layanan"
+  },
+  "store": {
+    "appleOverline": "Unduh di",
+    "googleOverline": "Temukan di",
+    "appleQrAlt": "Kode QR untuk mengunduh Captio AI di App Store untuk iPhone",
+    "googleQrAlt": "Kode QR untuk mengunduh Captio AI di Google Play untuk Android",
+    "downloadForFree": "Unduh gratis"
+  },
+  "common": {
+    "home": "Beranda",
+    "back": "Kembali",
+    "goBack": "Kembali ke halaman sebelumnya",
+    "explore": "Jelajahi",
+    "featuresLabel": "Fitur",
+    "howItWorks": "Cara kerjanya",
+    "privacyLabel": "Privasi",
+    "privacyTitle": "Apa yang kamu dengar, tetap milikmu.",
+    "privacyImageAlt": "Privat sejak awal: audiomu tidak pernah disimpan di server kami, tidak pernah dijual, tidak pernah dipakai untuk pelatihan",
+    "faqLabel": "FAQ",
+    "faqTitle": "Pertanyaan yang sering diajukan",
+    "getStarted": "Mulai sekarang",
+    "freeToStart": "Mulai pakai Captio AI gratis",
+    "allFeatures": "Captio AI punya Teks Langsung, Penerjemah Langsung, Transkripsi Audio, dan Ringkasan AI.",
+    "featureNames": {
+      "live-captions": "Teks Langsung",
+      "live-translator": "Penerjemah Langsung",
+      "audio-transcription": "Transkripsi Audio",
+      "ai-summary": "Ringkasan AI"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Captio AI: Teks Langsung untuk Tuli dan Kurang Dengar",
+      "description": "Captio AI: teks langsung, terjemahan real-time, transkripsi audio, dan ringkasan AI untuk orang Tuli dan kurang dengar, langsung di ponselmu. 60+ bahasa.",
+      "ogDescription": "Teks langsung real-time, terjemahan langsung, transkripsi audio, dan ringkasan AI untuk orang Tuli dan kurang dengar. 60+ bahasa. iPhone dan Android.",
+      "schemaDescription": "Teks langsung real-time, terjemahan langsung, transkripsi audio, dan ringkasan AI untuk orang Tuli dan kurang dengar. 60+ bahasa."
+    },
+    "eyebrow": "🦻 Aksesibilitas + 💻 Aplikasi Produktivitas",
+    "heroTitle": "[Teks langsung] dan [alat produktivitas] untuk orang Tuli dan kurang dengar.",
+    "heroSubtitle": "Ikuti obrolan, rapat, atau kuliah apa pun. Dalam bahasa apa pun.",
+    "mockupAlt": "Aplikasi Captio AI menampilkan teks langsung dan terjemahan",
+    "featuresTitle": "Semua yang kamu butuhkan untuk mengikuti percakapan apa pun",
+    "featuresSubtitle": "Empat alat yang dibuat khusus untuk orang Tuli dan kurang dengar.",
+    "features": {
+      "live-captions": {
+        "title": "Ubah Suara Jadi Teks secara Real-Time",
+        "bullets": [
+          "Kata demi kata, secara real-time",
+          "Bisa dipakai di tempat ramai",
+          "Logat apa pun, kecepatan apa pun",
+          "Tanpa perlu membaca bibir"
+        ]
+      },
+      "live-translator": {
+        "title": "Terjemahkan Bahasa Apa Pun secara Real-Time",
+        "bullets": [
+          "Menerjemahkan saat mereka bicara",
+          "Setiap orang bicara dalam bahasanya sendiri",
+          "Tetap jalan saat bahasa berganti di tengah kalimat",
+          "60+ bahasa"
+        ]
+      },
+      "audio-transcription": {
+        "title": "Transkripsi File Audio atau Video Apa Pun",
+        "bullets": [
+          "File audio atau video apa pun",
+          "Dikelompokkan per pembicara",
+          "60+ bahasa",
+          "Baca, salin, cari, bagikan"
+        ]
+      },
+      "ai-summary": {
+        "title": "Ubah Transkrip Jadi Ringkasan Terstruktur",
+        "bullets": [
+          "Poin penting dan keputusan",
+          "Daftar tugas diambil otomatis",
+          "Bisa untuk transkrip apa pun",
+          "Tersusun per bagian"
+        ]
+      }
+    },
+    "moreFeaturesTitle": "Fitur lainnya",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "Tindakan AI",
+        "title": "Daftar tugas, catatan, dan tindak lanjut",
+        "description": "Ubah rekaman apa pun jadi poin penting, catatan lengkap, daftar tugas, tanya jawab, atau pesan tindak lanjut."
+      },
+      "export": {
+        "label": "Ekspor",
+        "title": "Bagikan dengan caramu",
+        "description": "Kirim teks percakapan atau ringkasan dalam bentuk teks biasa, tautan, PDF, email, atau prompt chat AI."
+      },
+      "folders": {
+        "label": "Folder",
+        "title": "Folder dan folder bersama",
+        "description": "Susun rekaman ke dalam folder dan bagikan satu folder dengan keluarga, teman sekelas, atau timmu."
+      },
+      "recognize-voices": {
+        "label": "Kenali Suara",
+        "title": "Nama, bukan “Pembicara 2”",
+        "description": "Simpan suara orang yang sering kamu ajak bicara dan lihat nama mereka di teks percakapan."
+      },
+      "speaker-direction": {
+        "label": "Arah Pembicara",
+        "title": "Lihat dari mana suara berasal",
+        "description": "Gelombang di tepi teks menunjukkan siapa yang sedang bicara. Di iPhone 16 ke atas."
+      },
+      "connectors": {
+        "label": "Konektor",
+        "title": "Tanya aplikasi chat-mu",
+        "description": "Tanyakan ke Claude, ChatGPT, Gemini, atau Perplexity soal rekaman apa pun milikmu."
+      },
+      "widgets": {
+        "label": "Widget",
+        "title": "Teks langsung dengan sekali ketuk",
+        "description": "Mulai Teks Langsung dari Layar Utama atau Layar Terkunci iPhone."
+      }
+    },
+    "useCasesLabel": "Kegunaan",
+    "useCasesTitle": "Bisa dipakai di segala situasi",
+    "useCasesSubtitle": "Dirancang untuk momen nyata yang penting, bukan hanya di tempat yang tenang dan terkendali.",
+    "useCases": {
+      "everyday-conversations": {
+        "label": "Obrolan Sehari-hari",
+        "description": "Kebanyakan obrolan berlangsung cepat, dengan kecepatan biasa, tanpa aba-aba. Captio AI menampilkan setiap kata saat diucapkan, jadi kamu bisa mengikutinya tanpa meminta siapa pun mengulang."
+      },
+      "deaf-hoh-communication": {
+        "label": "Berkomunikasi dengan Orang Tuli & Kurang Dengar",
+        "description": "Orang dengar sering tidak tahu cara menyesuaikan diri saat bicara dengan teman Tuli atau kurang dengar. Captio AI mengubah ucapan mereka menjadi teks real-time, jadi percakapan bisa berjalan alami dari kedua sisi."
+      },
+      "meetings": {
+        "label": "Rapat",
+        "description": "Dalam rapat, keputusan diambil cepat dan orang saling menyela. Captio AI menampilkan teks setiap pembicara saat mereka bicara, jadi kamu tidak pernah melewatkan keputusan atau pertanyaan yang ditujukan kepadamu."
+      },
+      "lectures": {
+        "label": "Kuliah",
+        "description": "Dosen bicara cepat, membahas materi yang rumit, dan jarang mengulang. Captio AI memberimu transkrip langsung dari semua yang dikatakan, jadi kamu bisa mengikuti materinya tanpa harus susah payah mendengar."
+      },
+      "doctor-appointments": {
+        "label": "Konsultasi Dokter",
+        "description": "Dokter bicara cepat dan memakai istilah medis yang mudah salah dengar. Captio AI menampilkan semua yang mereka katakan secara real-time, jadi kamu bisa memahami diagnosismu dan mengajukan pertanyaan yang tepat."
+      },
+      "job-interviews": {
+        "label": "Wawancara Kerja",
+        "description": "Melewatkan satu pertanyaan saat wawancara berarti salah menjawab atau harus minta diulang. Captio AI menampilkan setiap kata pewawancara, jadi kamu bisa fokus sepenuhnya pada jawabanmu."
+      },
+      "phone-video-calls": {
+        "label": "Telepon & Panggilan Video",
+        "description": "Telepon dan panggilan video lebih sulit diikuti daripada obrolan tatap muka. Tidak bisa membaca bibir, dan kualitas suaranya sering buruk. Captio AI menampilkan teks siapa pun yang sedang bicara secara real-time, jadi kamu tidak perlu minta diulang."
+      },
+      "group-settings": {
+        "label": "Dalam Kelompok",
+        "description": "Dalam kelompok, beberapa orang bicara bersamaan dan percakapan bergerak cepat. Captio AI mengikuti siapa pun yang sedang bicara, jadi kamu bisa mengikuti tanpa kehilangan arah obrolan."
+      },
+      "restaurants": {
+        "label": "Restoran & Kafe",
+        "description": "Kebisingan latar membuat ucapan sulit diikuti, bahkan bagi orang tanpa gangguan pendengaran. Captio AI fokus pada orang yang sedang bicara denganmu, jadi kamu bisa benar-benar mengobrol di tengah keramaian."
+      },
+      "traveling": {
+        "label": "Bepergian",
+        "description": "Di bandara, hotel, dan kota yang asing, tidak ada ruang untuk salah dengar. Captio AI menampilkan ucapan sebagai teks dalam 60+ bahasa, jadi kamu bisa bepergian dengan percaya diri ke mana pun."
+      },
+      "conferences": {
+        "label": "Konferensi & Acara",
+        "description": "Pembicara berada jauh, akustik tidak bisa ditebak, dan kamu tidak bisa minta diulang. Captio AI memberimu transkrip langsung dari setiap pembicara, jadi kamu bisa mengikuti seluruh acara dari kursi mana pun."
+      },
+      "tv-media": {
+        "label": "TV dan Media",
+        "description": "Subtitle bawaan sering salah, terlambat, atau tidak ada sama sekali. Captio AI menampilkan teks apa pun yang sedang diputar secara real-time, jadi kamu tidak bergantung pada ada atau tidaknya subtitle."
+      }
+    },
+    "languagesLabel": "Bahasa",
+    "languagesTitle": "Captio AI mendukung 60+ bahasa",
+    "privacyCards": [
+      {
+        "title": "Audio tidak tinggal di server kami",
+        "description": "Audiomu diubah menjadi teks secara real-time dan tidak pernah disimpan di server kami. Rekaman yang kamu simpan tetap ada di ponselmu, dan transkripnya hanya disinkronkan ke akunmu sendiri."
+      },
+      {
+        "title": "Bukan barang dagangan",
+        "description": "Percakapanmu bukan sesuatu yang dijual, dibagikan, atau dimonetisasi oleh Captio AI, kepada siapa pun, untuk alasan apa pun."
+      },
+      {
+        "title": "Tidak dipakai untuk melatih apa pun",
+        "description": "Apa yang kamu katakan saat konsultasi dokter atau wawancara kerja tidak akan pernah masuk ke data pelatihan. Bukan milik kami. Bukan milik siapa pun."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Untuk siapa Captio AI dibuat?",
+        "a": "Captio AI terutama dibuat untuk orang Tuli dan kurang dengar yang perlu mengikuti percakapan lisan secara real-time. Aplikasi ini juga banyak dipakai oleh orang dengan gangguan pemrosesan pendengaran, orang di lingkungan bising, pelajar bahasa, dan siapa saja yang merasa membaca lebih cepat atau lebih mudah daripada mendengar."
+      },
+      {
+        "q": "Seberapa akurat teks langsungnya?",
+        "a": "Captio AI memakai pengenalan suara canggih yang dibuat khusus untuk akurasi tinggi dan latensi rendah. Akurasi bergantung pada kejernihan suara, logat, dan kebisingan latar, tapi dalam kondisi percakapan biasa, akurasinya sangat tinggi, setara dengan layanan teks profesional."
+      },
+      {
+        "q": "Bahasa apa saja yang didukung Captio AI?",
+        "a": "Captio AI mendukung 60+ bahasa, termasuk Inggris, Spanyol, Prancis, Jerman, Mandarin, Arab, Hindi, Jepang, Korea, Portugis, Rusia, dan banyak lagi. Semua bahasa tersedia untuk Teks Langsung dan Penerjemah Langsung. Lihat daftar lengkapnya di halaman ini."
+      },
+      {
+        "q": "Apakah Captio AI bisa memahami berbagai logat dan dialek?",
+        "a": "Ya. Captio AI menangani beragam logat dan dialek daerah, bukan hanya bahasa baku ala buku pelajaran. Aplikasi ini mendukung bahasa Inggris Australia, bahasa Spanyol Amerika Latin, bahasa Jerman Swiss, bahasa Portugis Brasil, bahasa Prancis Quebec, dan banyak lagi."
+      },
+      {
+        "q": "Apa bedanya Teks Langsung dan Penerjemah Langsung?",
+        "a": "Teks Langsung menuliskan ucapan dalam bahasa aslinya. Penerjemah Langsung mengambil ucapan itu dan menerjemahkannya ke bahasa pilihanmu secara real-time, cocok saat pembicara dan pembaca memakai bahasa yang berbeda, misalnya dokter dari negara lain atau rapat bisnis dalam bahasa asing."
+      },
+      {
+        "q": "Apakah Captio AI menyimpan atau membagikan audioku?",
+        "a": "Audiomu tidak pernah disimpan di server Captio AI, dan tidak pernah dijual atau dibagikan untuk iklan. Audio dikirim dengan aman ke layanan pengenalan suara hanya untuk diubah menjadi teks, lalu dihapus di sana. Rekaman yang kamu pilih untuk disimpan tetap ada di ponselmu; transkrip dan ringkasannya juga disimpan di akunmu sendiri supaya bisa dibuka di perangkat lain, dan menghapus rekaman akan menghapusnya dari semua tempat. Percakapanmu tidak pernah dipakai untuk melatih model AI, baik milik kami maupun milik siapa pun."
+      },
+      {
+        "q": "Apakah Captio AI bisa dipakai tanpa koneksi internet?",
+        "a": "Teks Langsung dan Penerjemah Langsung butuh koneksi internet untuk memproses ucapan secara real-time. Transkripsi Audio (untuk file yang diunggah) juga butuh koneksi. Teks offline saat ini belum didukung."
+      },
+      {
+        "q": "Ponsel atau iPad apa yang dibutuhkan?",
+        "a": "Captio AI berjalan di iPhone dan iPad dengan iOS 16 atau lebih baru, serta di ponsel Android. Aplikasi ini dioptimalkan untuk ponsel dan bekerja paling baik saat tidak ada yang menghalangi antara mikrofon dan pembicara."
+      },
+      {
+        "q": "Bisakah aku memakai Captio AI saat konsultasi dokter?",
+        "a": "Ya, konsultasi dokter adalah salah satu kegunaan terpenting. Kamu bisa meletakkan ponsel di meja atau mengarahkannya ke dokter, lalu membaca semua yang dikatakan secara real-time. Istilah medis ditangani dengan akurat, sehingga Captio AI menjadi alat aksesibilitas yang praktis di layanan kesehatan."
+      },
+      {
+        "q": "Bisakah aku memakai Captio AI saat rapat dan kuliah?",
+        "a": "Ya. Captio AI bisa dipakai di mana pun ada orang bicara: rapat kerja, kuliah di kampus, stand-up tim, konferensi, dan panggilan video. Arahkan mikrofon ke pembicara dan teks langsung muncul seketika."
+      },
+      {
+        "q": "Apa itu Transkripsi Audio dan apa bedanya dengan Teks Langsung?",
+        "a": "Teks Langsung bekerja secara real-time saat seseorang bicara. Transkripsi Audio untuk rekaman: kamu mengunggah file audio atau video dan mendapat transkrip tertulis lengkap. Cocok untuk meninjau ulang kuliah yang kamu rekam, wawancara, podcast, atau konten apa pun yang lebih ingin kamu baca daripada dengarkan."
+      },
+      {
+        "q": "Apa yang dilakukan fitur Ringkasan AI?",
+        "a": "Ringkasan AI mengambil transkrip apa pun dan menarik informasi pentingnya, seperti poin utama, keputusan yang dibuat, daftar tugas, dan detail penting, menjadi ringkasan terstruktur. Ini menghemat waktu saat kamu punya transkrip panjang dari rapat atau kuliah dan perlu intinya dengan cepat."
+      },
+      {
+        "q": "Apakah Captio AI gratis?",
+        "a": "Captio AI punya paket gratis untuk mulai tanpa membayar apa pun. Paket Plus tersedia untuk pengguna yang butuh akses tanpa batas. Harga Plus terbaru untuk negaramu ditampilkan di halaman App Store."
+      },
+      {
+        "q": "Apa bedanya Captio AI dengan Teks Langsung bawaan Apple?",
+        "a": "Teks Langsung milik Apple sudah ada di iOS, tetapi mendukung lebih sedikit bahasa, tidak punya terjemahan, dan tidak menyertakan Transkripsi Audio atau Ringkasan AI. Captio AI mendukung 60+ bahasa, memberi terjemahan real-time, bisa mentranskripsi file yang diunggah, dan membuat ringkasan AI, sehingga menjadi alat aksesibilitas dan produktivitas yang jauh lebih lengkap."
+      }
+    ]
+  },
+  "featurePages": {
+    "live-captions": {
+      "meta": {
+        "title": "Teks Langsung untuk Tuli dan Kurang Dengar di iPhone",
+        "description": "Ubah suara jadi teks secara real-time lewat mikrofon iPhone. Ikuti percakapan apa pun, dalam bahasa apa pun. Dibuat untuk orang Tuli dan kurang dengar.",
+        "schemaDescription": "Teks langsung real-time untuk orang Tuli dan kurang dengar. 60+ bahasa, latensi jauh di bawah satu detik, bisa dipakai di mana saja."
+      },
+      "howTitle": "Tiga ketukan. Seluruh percakapan.",
+      "steps": [
+        {
+          "title": "Mulai merekam",
+          "desc": "Tekan tombol rekam. Captio AI langsung mulai mendengarkan."
+        },
+        {
+          "title": "Lihat kata-katanya muncul",
+          "desc": "Teks muncul kata demi kata saat orang itu masih bicara."
+        },
+        {
+          "title": "Simpan",
+          "desc": "Simpan transkrip dan rekaman audionya untuk nanti."
+        }
+      ],
+      "featuresTitle": "Dibuat untuk percakapan nyata",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Kata yang sesuai dengan yang diucapkan",
+          "description": "Captio AI menangkap apa yang benar-benar diucapkan, bukan parafrase kasar. Jadi kamu bisa memercayai transkripnya saat itu penting: di dokter, saat wawancara, dalam rapat."
+        },
+        {
+          "title": "Tanpa jeda",
+          "description": "Latensinya jauh di bawah satu detik. Teks muncul kata demi kata saat orang itu masih bicara, jadi kamu membaca ucapannya di saat yang sama orang lain mendengarnya."
+        },
+        {
+          "title": "Tahu siapa yang bicara",
+          "description": "Dalam kelompok dan rapat, Captio AI memberi label terpisah untuk setiap pembicara, jadi kamu selalu tahu siapa mengatakan apa, tanpa harus memperhatikan wajah atau gerak bibir."
+        },
+        {
+          "title": "60+ bahasa",
+          "description": "Ikuti percakapan dalam bahasa Prancis, Jepang, atau Arab sama seperti dalam bahasa Inggris. Tanpa ganti mode. Gangguan pendengaran tidak perlu jadi hambatan bahasa juga."
+        },
+        {
+          "title": "Bisa menangani bahasa yang bercampur di tengah kalimat",
+          "description": "Saat orang berganti bahasa di tengah percakapan, Captio AI tetap mengikuti. Teks tidak terputus, tidak ada mode yang perlu diganti."
+        },
+        {
+          "title": "Ajari kosakatamu",
+          "description": "Tambahkan nama, istilah medis, atau kata khusus yang sering kamu dengar. Captio AI memakai daftar kosakatamu untuk menampilkan teks percakapanmu dengan lebih akurat."
+        },
+        {
+          "title": "Tambahkan petunjuk bahasa",
+          "description": "Beri tahu Captio AI bahasa apa yang akan dipakai, dan ia langsung siap sejak kata pertama. Berguna saat bahasa yang diucapkan tidak jelas dari konteksnya."
+        },
+        {
+          "title": "Transkripsi ulang nanti agar lebih akurat",
+          "description": "Proses ulang rekaman apa pun setelahnya untuk transkrip yang lebih rapi. Berguna untuk kuliah, konsultasi, dan percakapan apa pun yang layak ditinjau ulang."
+        },
+        {
+          "title": "Baca dengan caramu",
+          "description": "Atur ukuran teks, warna latar, dan kontras sampai teks mudah dibaca sekilas, baik ponsel di tangan, diletakkan di atas meja, atau disandarkan di meja kerja."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Audio tidak tinggal di server kami",
+          "description": "Audiomu diubah menjadi teks secara real-time dan tidak pernah disimpan di server kami. Rekaman yang kamu simpan tetap ada di ponselmu, dan transkripnya hanya disinkronkan ke akunmu sendiri."
+        },
+        {
+          "title": "Bukan barang dagangan",
+          "description": "Percakapanmu bukan sesuatu yang dijual, dibagikan, atau dimonetisasi oleh Captio AI, kepada siapa pun, untuk alasan apa pun."
+        },
+        {
+          "title": "Tidak dipakai untuk melatih apa pun",
+          "description": "Apa yang kamu katakan saat konsultasi dokter atau wawancara kerja tidak akan pernah masuk ke data pelatihan. Bukan milik kami. Bukan milik siapa pun."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Apa bedanya Captio AI dengan Teks Langsung bawaan Apple?",
+          "a": "Teks Langsung milik Apple mendukung lebih sedikit bahasa, tidak punya terjemahan, dan tidak menyertakan Transkripsi Audio atau Ringkasan AI. Captio AI mendukung 60+ bahasa, memberi terjemahan real-time, bisa mentranskripsi file yang diunggah, dan membuat ringkasan AI. Kamu juga bisa mengatur ukuran teks, warna, dan kontras sesuai cara baca yang paling nyaman buatmu."
+        },
+        {
+          "q": "Seberapa akurat teks langsungnya?",
+          "a": "Akurasinya tinggi dalam kondisi percakapan biasa. Captio AI dibuat untuk ucapan nyata, bukan hanya audio studio yang bersih, jadi bisa menangani orang yang bicara cepat, logat daerah, kebisingan latar, dan kalimat campuran bahasa. Kamu juga bisa menambahkan kosakata sendiri (nama, istilah medis, kata khusus) untuk meningkatkan akurasi percakapanmu."
+        },
+        {
+          "q": "Seberapa cepat teksnya muncul?",
+          "a": "Kata demi kata, saat orang itu masih bicara. Latensinya jauh di bawah satu detik, hampir real-time. Kamu membaca ucapan seseorang di saat yang sama orang lain mendengarnya, bukan setelah kalimatnya selesai."
+        },
+        {
+          "q": "Apakah Teks Langsung bisa dipakai di tempat ramai?",
+          "a": "Ya. Captio AI dirancang untuk lingkungan nyata: restoran, jalanan, ruang tunggu, transportasi umum. Arahkan mikrofon ke pembicara dan teks muncul, seramai apa pun di sekitarmu."
+        },
+        {
+          "q": "Bahasa apa saja yang didukung Teks Langsung?",
+          "a": "60+ bahasa, termasuk Inggris, Spanyol, Prancis, Jerman, Mandarin, Arab, Hindi, Jepang, Korea, Portugis, Rusia, dan banyak lagi. Logat dan dialek daerah didukung di semua bahasa utama."
+        },
+        {
+          "q": "Apakah bisa memahami logat dan dialek?",
+          "a": "Ya. Captio AI menangani beragam logat daerah, bukan hanya bahasa baku ala buku pelajaran. Bahasa Inggris Australia, bahasa Spanyol Amerika Latin, bahasa Jerman Swiss, bahasa Prancis Quebec, dan banyak lagi didukung."
+        },
+        {
+          "q": "Bisakah aku menyimpan teksnya?",
+          "a": "Ya. Kamu bisa menyimpan transkrip dan rekaman audio setelah sesi selesai dan meninjaunya nanti. Kamu juga bisa mentranskripsi ulang rekaman yang tersimpan untuk transkrip yang lebih rapi dan akurat."
+        },
+        {
+          "q": "Apakah perlu koneksi internet?",
+          "a": "Ya. Teks Langsung butuh koneksi internet untuk memproses ucapan secara real-time. Teks offline saat ini belum didukung."
+        }
+      ]
+    },
+    "live-translator": {
+      "meta": {
+        "title": "Penerjemah Langsung: Terjemahan Suara Real-Time di iPhone",
+        "description": "Terjemahan suara real-time di iPhone. Mereka bicara dalam bahasanya, kamu membaca dalam bahasamu, seketika. Dibuat untuk orang Tuli dan kurang dengar.",
+        "schemaDescription": "Terjemahan suara real-time untuk orang Tuli dan kurang dengar. 60+ bahasa, setiap orang bicara dalam bahasanya sendiri, kamu membaca dalam bahasamu."
+      },
+      "howTitle": "Tiga ketukan. Bahasa apa pun.",
+      "steps": [
+        {
+          "title": "Pilih mode penerjemah",
+          "desc": "Buka Captio AI dan pilih Penerjemah Langsung."
+        },
+        {
+          "title": "Pilih bahasa yang diinginkan",
+          "desc": "Pilih bahasa yang ingin kamu baca."
+        },
+        {
+          "title": "Lihat terjemahan secara real-time",
+          "desc": "Captio AI menerjemahkan kata demi kata."
+        }
+      ],
+      "featuresTitle": "Dibuat untuk percakapan nyata",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Bahasa apa pun",
+          "description": "Prancis, Jepang, Arab, Spanyol, Jerman, Mandarin: 60+ bahasa, ke arah mana pun. Gangguan pendengaran tidak perlu jadi hambatan bahasa juga."
+        },
+        {
+          "title": "Mendeteksi bahasa lisan secara otomatis",
+          "description": "Biarkan bahasa sumber di otomatis, dan Captio AI mengenalinya dari kata-kata pertama. Tidak perlu memilih manual sebelum setiap percakapan."
+        },
+        {
+          "title": "Tanpa jeda",
+          "description": "Latensi terjemahan jauh di bawah satu detik. Kamu membaca ucapan seseorang di saat yang sama orang lain mendengarnya, bukan setelah kalimatnya selesai."
+        },
+        {
+          "title": "Tambahkan petunjuk bahasa",
+          "description": "Beri tahu Captio AI bahasa apa yang akan dipakai, dan ia langsung siap sejak kata pertama. Berguna saat bahasa yang diucapkan tidak jelas dari konteksnya."
+        },
+        {
+          "title": "Beberapa bahasa sekaligus",
+          "description": "Saat orang berganti bahasa di tengah percakapan, Captio AI tetap mengikuti, menerjemahkan masing-masing ke bahasamu tanpa perlu diatur manual."
+        },
+        {
+          "title": "Baca dengan caramu",
+          "description": "Atur warna latar, warna teks, dan ukuran huruf agar terjemahan mudah dibaca sekilas, baik ponsel di tanganmu maupun di atas meja."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Audio tidak tinggal di server kami",
+          "description": "Audiomu diubah menjadi teks secara real-time dan tidak pernah disimpan di server kami. Rekaman yang kamu simpan tetap ada di ponselmu, dan transkripnya hanya disinkronkan ke akunmu sendiri."
+        },
+        {
+          "title": "Bukan barang dagangan",
+          "description": "Percakapanmu bukan sesuatu yang dijual, dibagikan, atau dimonetisasi oleh Captio AI, kepada siapa pun, untuk alasan apa pun."
+        },
+        {
+          "title": "Tidak dipakai untuk melatih apa pun",
+          "description": "Apa yang kamu katakan saat konsultasi dokter atau wawancara kerja tidak akan pernah masuk ke data pelatihan. Bukan milik kami. Bukan milik siapa pun."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Apa bedanya Penerjemah Langsung dengan Teks Langsung?",
+          "a": "Teks Langsung menuliskan ucapan dalam bahasa aslinya. Penerjemah Langsung mengambil ucapan itu dan menerjemahkannya ke bahasa pilihanmu secara real-time. Kalau lawan bicaramu berbahasa Prancis dan kamu membaca dalam bahasa Inggris, pakailah Penerjemah Langsung."
+        },
+        {
+          "q": "Seberapa akurat terjemahannya?",
+          "a": "Akurasi terjemahan tinggi untuk pasangan bahasa yang umum dalam percakapan sehari-hari. Captio AI menangani ucapan alami, seperti orang yang bicara cepat, logat, dan kebisingan latar, bukan hanya audio studio yang bersih. Untuk pasangan bahasa yang jarang atau konten yang sangat teknis, akurasinya bisa bervariasi."
+        },
+        {
+          "q": "Bahasa apa saja yang didukung?",
+          "a": "60+ bahasa, termasuk Inggris, Spanyol, Prancis, Jerman, Mandarin, Arab, Hindi, Jepang, Korea, Portugis, Rusia, dan banyak lagi. Bahasa sumber dan bahasa tujuan bisa bahasa apa pun yang didukung."
+        },
+        {
+          "q": "Seberapa cepat terjemahannya muncul?",
+          "a": "Latensinya jauh di bawah satu detik. Kamu membaca terjemahan kata demi kata saat orang itu masih bicara, hampir real-time, bukan setelah kalimatnya selesai."
+        },
+        {
+          "q": "Apakah bisa dipakai saat konsultasi dengan dokter yang berbahasa asing?",
+          "a": "Ya. Ini salah satu kegunaan terpenting. Letakkan ponsel di meja, atur bahasa sumber ke bahasa dokter, lalu baca semua yang dikatakannya dalam bahasamu secara real-time. Kamu juga bisa menyimpan transkrip terjemahannya untuk meninjau ulang petunjuk dokter setelahnya."
+        },
+        {
+          "q": "Apakah bisa dipakai di tempat ramai?",
+          "a": "Ya. Captio AI dibuat untuk lingkungan nyata: ruang tunggu, restoran, bandara. Arahkan mikrofon ke pembicara dan terjemahan muncul, seramai apa pun di sekitarmu."
+        },
+        {
+          "q": "Bisakah aku menyimpan transkrip terjemahannya?",
+          "a": "Ya. Setelah sesi selesai, kamu bisa menyimpan teks terjemahan dan meninjaunya nanti. Berguna untuk konsultasi medis, rapat, dan percakapan apa pun yang ingin kamu catat."
+        },
+        {
+          "q": "Apakah perlu koneksi internet?",
+          "a": "Ya. Penerjemah Langsung butuh koneksi internet untuk memproses dan menerjemahkan ucapan secara real-time. Terjemahan offline saat ini belum didukung."
+        }
+      ]
+    },
+    "audio-transcription": {
+      "meta": {
+        "title": "Transkripsi Audio: Ubah Audio dan Video Jadi Teks di iPhone",
+        "description": "Unggah file audio atau video apa pun dan dapatkan transkrip lengkap. 60+ bahasa, pemisahan pembicara, bisa dicari. Dibuat untuk orang Tuli dan kurang dengar.",
+        "schemaDescription": "Unggah file audio atau video apa pun dan dapatkan transkrip tertulis lengkap. 60+ bahasa, pemisahan pembicara, penanda waktu. Dibuat untuk orang Tuli dan kurang dengar."
+      },
+      "howTitle": "Unggah. Baca. Selesai.",
+      "steps": [
+        {
+          "title": "Pilih format unggahan",
+          "desc": "Pilih apakah kamu mengunggah file audio atau file video."
+        },
+        {
+          "title": "Pilih file",
+          "desc": "Pilih file dari ponselmu. Captio AI langsung mulai mentranskripsi."
+        },
+        {
+          "title": "Lihat transkripnya",
+          "desc": "Baca transkrip lengkap, dikelompokkan per pembicara, dengan penanda waktu."
+        }
+      ],
+      "featuresTitle": "Dibuat untuk rekaman nyata",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Format apa pun",
+          "description": "MP3, MP4, M4A, WAV, dan lainnya. Kuliah, rapat, pesan suara, podcast, wawancara, rekaman telepon: kalau ada ucapan di dalamnya, Captio AI bisa mentranskripsinya."
+        },
+        {
+          "title": "Akurasi tertinggi",
+          "description": "Captio AI dibuat untuk audio dunia nyata, bukan hanya file studio yang bersih. Audio telepon, rekaman di ruang kuliah, lingkungan bising: semuanya bisa ditangani."
+        },
+        {
+          "title": "Bahasa apa pun",
+          "description": "Unggah rekaman dalam bahasa Prancis, Jepang, Arab, atau 57 bahasa lainnya. Captio AI mengenali bahasanya dan mentranskripsinya dengan akurat."
+        },
+        {
+          "title": "Beberapa bahasa",
+          "description": "Saat pembicara berganti bahasa di tengah rekaman, Captio AI tetap mengikuti. Transkripnya memuat setiap bahasa yang diucapkan, tanpa celah."
+        },
+        {
+          "title": "Penanda waktu",
+          "description": "Setiap baris di transkrip punya penanda waktu, jadi kamu bisa melompat ke momen mana pun di rekaman dan menemukan persis apa yang dikatakan dan kapan."
+        },
+        {
+          "title": "Ekspor dan bagikan",
+          "description": "Salin seluruh transkrip, bagikan, atau simpan. Rekaman dan transkripmu tetap bisa dibuka kapan pun kamu butuh."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "File tidak tinggal di server kami",
+          "description": "Filemu dikirim hanya untuk ditranskripsi, lalu dihapus di sana, dan tidak pernah disimpan di server kami. Rekamannya tetap ada di ponselmu, dan transkripnya hanya disinkronkan ke akunmu sendiri."
+        },
+        {
+          "title": "Bukan barang dagangan",
+          "description": "Rekamanmu bukan sesuatu yang dijual, dibagikan, atau dimonetisasi oleh Captio AI, kepada siapa pun, untuk alasan apa pun."
+        },
+        {
+          "title": "Tidak dipakai untuk melatih apa pun",
+          "description": "Apa yang kamu unggah, entah konsultasi dokter, rapat, atau wawancara, tidak akan pernah masuk ke data pelatihan. Bukan milik kami. Bukan milik siapa pun."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Apa bedanya Transkripsi Audio dengan Teks Langsung?",
+          "a": "Teks Langsung bekerja secara real-time saat seseorang bicara. Transkripsi Audio untuk rekaman: kamu mengunggah file audio atau video dan mendapat transkrip tertulis lengkap. Cocok untuk meninjau ulang kuliah yang kamu rekam, konsultasi dokter, wawancara, atau konten apa pun yang lebih ingin kamu baca daripada dengarkan."
+        },
+        {
+          "q": "Format file apa saja yang didukung Transkripsi Audio?",
+          "a": "Captio AI menerima format audio dan video umum, termasuk MP3, MP4, M4A, WAV, dan lainnya. Kalau kamu merekamnya di ponsel atau mengunduhnya dari platform video, file itu bisa dipakai."
+        },
+        {
+          "q": "Seberapa akurat transkripsinya?",
+          "a": "Akurasinya tinggi untuk rekaman yang jelas dalam bahasa yang didukung. Captio AI menangani audio dunia nyata, seperti telepon, rekaman ruang kuliah, dan lingkungan bising, bukan hanya file berkualitas studio. Kamu juga bisa mentranskripsi ulang file untuk proses kedua bila perlu."
+        },
+        {
+          "q": "Bahasa apa saja yang didukung?",
+          "a": "60+ bahasa, termasuk Inggris, Spanyol, Prancis, Jerman, Mandarin, Arab, Hindi, Jepang, Korea, Portugis, Rusia, dan banyak lagi. Captio AI mendeteksi bahasa yang diucapkan di dalam file secara otomatis."
+        },
+        {
+          "q": "Apakah pembicaranya dipisahkan?",
+          "a": "Ya. Captio AI memberi label terpisah untuk setiap pembicara di transkrip, jadi kamu bisa mengikuti siapa mengatakan apa. Berguna untuk rapat, wawancara, konsultasi dokter, dan rekaman apa pun dengan banyak orang."
+        },
+        {
+          "q": "Berapa lama proses transkripsinya?",
+          "a": "Transkripsinya cepat. Rekaman satu jam biasanya selesai dalam beberapa menit. Waktunya tergantung panjang file dan kualitas audio."
+        },
+        {
+          "q": "Apakah audioku disimpan setelah transkripsi?",
+          "a": "Tidak di server Captio AI. File dikirim dengan aman ke layanan pengenalan suara hanya untuk ditranskripsi, lalu dihapus di sana begitu transkrip siap. Rekamannya tetap ada di ponselmu, dan transkripnya juga disimpan di akunmu sendiri supaya bisa dibuka di perangkat lain. Rekamanmu tidak pernah dijual atau dipakai untuk melatih model AI."
+        },
+        {
+          "q": "Bisakah aku mentranskripsi file video?",
+          "a": "Ya. Unggah file videonya langsung, dan Captio AI akan mengambil audionya lalu mentranskripsinya. Tidak perlu mengonversi file lebih dulu."
+        }
+      ]
+    },
+    "ai-summary": {
+      "meta": {
+        "title": "Ringkasan AI: Ringkasan Terstruktur dari Transkrip Apa Pun",
+        "description": "Ubah transkrip apa pun jadi ringkasan terstruktur. Poin penting, keputusan, dan daftar tugas diambil otomatis. Dibuat untuk orang Tuli dan kurang dengar.",
+        "schemaDescription": "Ubah transkrip apa pun jadi ringkasan terstruktur. Poin penting, keputusan, daftar tugas, dan kutipan pembicara diambil otomatis."
+      },
+      "howTitle": "Transkrip masuk. Ringkasan keluar.",
+      "steps": [
+        {
+          "title": "Buka transkrip mana pun",
+          "desc": "Pilih transkrip apa pun dari Teks Langsung atau Transkripsi Audio."
+        },
+        {
+          "title": "Buat ringkasan",
+          "desc": "Ketuk Ringkasan AI. Captio AI memproses transkripnya secara otomatis."
+        },
+        {
+          "title": "Baca ringkasannya",
+          "desc": "Ringkasanmu sudah siap, tersusun per bagian, siap dibaca atau dibagikan."
+        }
+      ],
+      "featuresTitle": "Dibuat untuk transkrip panjang",
+      "featuresSubtitle": "Dapatkan ringkasan, daftar tugas, kutipan pembicara, catatan, dan banyak lagi.",
+      "subfeatures": [
+        {
+          "title": "Poin penting diambil otomatis",
+          "description": "Captio AI membaca seluruh transkrip dan mengambil apa yang benar-benar penting: poin utama, keputusan yang dibuat, dan kesimpulan yang dicapai."
+        },
+        {
+          "title": "Daftar tugas langsung terlihat",
+          "description": "Tugas dan tindak lanjut dikenali dan dicantumkan terpisah, jadi tidak ada yang terlewat setelah rapat, konsultasi, atau kuliah."
+        },
+        {
+          "title": "Tersusun per bagian",
+          "description": "Ringkasannya terstruktur, bukan satu blok teks panjang. Setiap topik punya bagiannya sendiri, jadi kamu bisa memindai dan menemukan yang kamu butuhkan."
+        },
+        {
+          "title": "Bisa untuk transkrip Captio AI apa pun",
+          "description": "Jalankan Ringkasan AI di transkrip apa pun yang kamu buat dengan Teks Langsung atau Transkripsi Audio. Tanpa langkah tambahan, tanpa salin-tempel."
+        },
+        {
+          "title": "Bahasa apa pun",
+          "description": "Ringkas transkrip dalam 60+ bahasa. Captio AI membaca transkrip dalam bahasa aslinya dan membuat ringkasan yang bisa kamu baca."
+        },
+        {
+          "title": "Simpan dan bagikan",
+          "description": "Simpan ringkasan bersama transkripnya, salin, atau bagikan. Berguna setelah konsultasi dokter, rapat, dan kuliah."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Hanya tersimpan di akunmu",
+          "description": "Ringkasanmu disimpan bersama rekamannya, di ponselmu dan di akunmu sendiri, jadi tersedia di perangkat mana pun tempat kamu masuk. Hapus, dan ringkasan itu hilang dari semua tempat."
+        },
+        {
+          "title": "Bukan barang dagangan",
+          "description": "Percakapanmu bukan sesuatu yang dijual, dibagikan, atau dimonetisasi oleh Captio AI, kepada siapa pun, untuk alasan apa pun."
+        },
+        {
+          "title": "Tidak dipakai untuk melatih apa pun",
+          "description": "Apa yang kamu ringkas, entah konsultasi dokter, rapat, atau wawancara, tidak akan pernah masuk ke data pelatihan. Bukan milik kami. Bukan milik siapa pun."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Apa yang dilakukan Ringkasan AI?",
+          "a": "Ringkasan AI mengambil transkrip apa pun dan menarik informasi pentingnya, seperti poin utama, keputusan, daftar tugas, dan detail penting, menjadi ringkasan terstruktur. Ini menghemat waktu saat kamu punya transkrip panjang dan perlu intinya dengan cepat."
+        },
+        {
+          "q": "Transkrip mana yang bisa kuringkas?",
+          "a": "Transkrip apa pun yang dibuat di Captio AI, dari Teks Langsung atau Transkripsi Audio. Kamu menjalankan Ringkasan AI langsung di transkripnya, tanpa langkah tambahan."
+        },
+        {
+          "q": "Apa bedanya Ringkasan AI dengan sekadar membaca transkripnya?",
+          "a": "Transkrip lengkap rapat satu jam bisa berisi ribuan kata. Ringkasan AI memberimu poin penting, keputusan, dan daftar tugas dalam sebagian kecil waktu baca, tersusun per topik, bukan menurut urutan pembicaraan."
+        },
+        {
+          "q": "Apakah bisa dipakai untuk konsultasi medis?",
+          "a": "Ya. Konsultasi dokter menghasilkan banyak informasi dalam waktu singkat. Ringkasan AI mengambil diagnosis, petunjuk, dan langkah lanjutan menjadi daftar jelas yang bisa kamu tinjau dan buka lagi kapan saja."
+        },
+        {
+          "q": "Bahasa apa saja yang didukung?",
+          "a": "Ringkasan AI bisa dipakai untuk transkrip dalam 60+ bahasa. Ringkasannya dibuat dalam bahasa yang sama dengan transkripnya."
+        },
+        {
+          "q": "Bisakah aku menyimpan atau membagikan ringkasannya?",
+          "a": "Ya. Kamu bisa menyimpan ringkasan bersama transkrip aslinya, menyalinnya, atau membagikannya. Berguna untuk mengirim rangkuman rapat atau menyimpan catatan konsultasi medis."
+        },
+        {
+          "q": "Apakah Ringkasan AI menyimpan transkrip atau audioku?",
+          "a": "Transkripmu dikirim dengan aman ke layanan AI hanya untuk menulis ringkasan, dan tidak pernah dipakai untuk melatih model AI. Ringkasan disimpan bersama rekaman, di ponselmu dan di akunmu sendiri, sampai kamu menghapusnya. Audio tidak pernah disimpan di server Captio AI, dan percakapanmu tidak pernah dijual."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,676 @@
+{
+  "header": {
+    "features": "Funcții",
+    "useCases": "Situații",
+    "languages": "Limbi",
+    "compare": "Comparație",
+    "blog": "Blog",
+    "download": "Descarcă",
+    "toggleMenu": "Deschide sau închide meniul",
+    "chooseLanguage": "Alege limba"
+  },
+  "footer": {
+    "tagline": "Subtitrări live și instrument de productivitate pentru persoane surde și hipoacuzice.",
+    "productHuntTagline": "Subtitrări live și transcriere pentru persoane surde și hipoacuzice",
+    "productHunt": "Descoperă-l pe Product Hunt →",
+    "featuredOn": "Prezentat pe",
+    "features": "Funcții",
+    "useCases": "Situații",
+    "blog": "Blog",
+    "allArticles": "Toate articolele",
+    "compare": "Comparație",
+    "compareApps": "Compară aplicațiile de subtitrare",
+    "company": "Companie",
+    "organizations": "Pentru organizații",
+    "privacy": "Politica de confidențialitate",
+    "terms": "Termeni și condiții"
+  },
+  "store": {
+    "appleOverline": "Descarcă din",
+    "googleOverline": "Disponibil pe",
+    "appleQrAlt": "Cod QR pentru a descărca Captio AI din App Store pe iPhone",
+    "googleQrAlt": "Cod QR pentru a descărca Captio AI din Google Play pe Android",
+    "downloadForFree": "Descarcă gratuit"
+  },
+  "common": {
+    "home": "Acasă",
+    "back": "Înapoi",
+    "goBack": "Întoarce-te",
+    "explore": "Explorează",
+    "featuresLabel": "Funcții",
+    "howItWorks": "Cum funcționează",
+    "privacyLabel": "Confidențialitate",
+    "privacyTitle": "Ce auzi rămâne la tine.",
+    "privacyImageAlt": "Privat din start: audioul tău nu este stocat niciodată pe serverele noastre, nu este vândut și nu este folosit niciodată pentru antrenare",
+    "faqLabel": "Întrebări",
+    "faqTitle": "Întrebări frecvente",
+    "getStarted": "Începe acum",
+    "freeToStart": "Poți începe gratuit cu Captio AI",
+    "allFeatures": "Captio AI include Subtitrări live, Traducător live, Transcriere audio și Rezumat AI.",
+    "featureNames": {
+      "live-captions": "Subtitrări live",
+      "live-translator": "Traducător live",
+      "audio-transcription": "Transcriere audio",
+      "ai-summary": "Rezumat AI"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Captio AI: subtitrări live pentru persoane cu deficiențe de auz",
+      "description": "Captio AI îți aduce pe telefon subtitrări live, traducere live, transcriere audio și rezumate AI, pentru persoane surde și hipoacuzice. Peste 60 de limbi.",
+      "ogDescription": "Subtitrări live în timp real, traducere live, transcriere audio și rezumate AI pentru persoane surde și hipoacuzice. Peste 60 de limbi. iPhone și Android.",
+      "schemaDescription": "Subtitrări live în timp real, traducere live, transcriere audio și rezumate AI pentru persoane surde și hipoacuzice. Peste 60 de limbi."
+    },
+    "eyebrow": "🦻 Accesibilitate + 💻 Aplicație de productivitate",
+    "heroTitle": "[Subtitrări live] și [instrument de productivitate] pentru persoane surde și hipoacuzice.",
+    "heroSubtitle": "Urmărește orice conversație, ședință sau curs. În orice limbă.",
+    "mockupAlt": "Aplicația Captio AI afișând subtitrări live și traducere",
+    "featuresTitle": "Tot ce îți trebuie ca să urmărești orice conversație",
+    "featuresSubtitle": "Patru instrumente create special pentru persoane surde și hipoacuzice.",
+    "features": {
+      "live-captions": {
+        "title": "Din vorbire în text, în timp real",
+        "bullets": [
+          "Cuvânt cu cuvânt, în timp real",
+          "Funcționează în locuri zgomotoase",
+          "Orice accent, orice ritm",
+          "Fără să citești de pe buze"
+        ]
+      },
+      "live-translator": {
+        "title": "Traduce orice limbă în timp real",
+        "bullets": [
+          "Traduce în timp ce vorbesc",
+          "Fiecare vorbește în limba lui",
+          "Ține pasul când se schimbă limba în mijlocul frazei",
+          "Peste 60 de limbi"
+        ]
+      },
+      "audio-transcription": {
+        "title": "Transcrie orice fișier audio sau video",
+        "bullets": [
+          "Orice fișier audio sau video",
+          "Organizat pe vorbitori",
+          "Peste 60 de limbi",
+          "Citește, copiază, caută, distribuie"
+        ]
+      },
+      "ai-summary": {
+        "title": "Transformă transcrierile în rezumate structurate",
+        "bullets": [
+          "Ideile principale și deciziile",
+          "Sarcinile, extrase automat",
+          "Funcționează pe orice transcriere",
+          "Organizat pe secțiuni"
+        ]
+      }
+    },
+    "moreFeaturesTitle": "Mai multe funcții",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "Acțiuni AI",
+        "title": "Sarcini, notițe și un mesaj de urmărire",
+        "description": "Transformă orice înregistrare în puncte-cheie, notițe detaliate, sarcini, întrebări și răspunsuri sau un mesaj de urmărire."
+      },
+      "export": {
+        "label": "Export",
+        "title": "Distribuie cum vrei tu",
+        "description": "Trimite subtitrările sau un rezumat ca text, link, PDF, e-mail sau prompt pentru un chat AI."
+      },
+      "folders": {
+        "label": "Dosare",
+        "title": "Dosare și dosare partajate",
+        "description": "Sortează înregistrările în dosare și partajează unul cu familia, colegii de clasă sau echipa ta."
+      },
+      "recognize-voices": {
+        "label": "Recunoașterea vocilor",
+        "title": "Nume, nu Vorbitor 2",
+        "description": "Salvează vocile persoanelor cu care vorbești des și vezi-le numele în subtitrări."
+      },
+      "speaker-direction": {
+        "label": "Direcția vorbitorului",
+        "title": "Vezi de unde vine o voce",
+        "description": "Undele de la marginea subtitrărilor arată cine vorbește. Pe iPhone 16 și mai noi."
+      },
+      "connectors": {
+        "label": "Conectori",
+        "title": "Întreabă aplicația ta de chat",
+        "description": "Întreabă Claude, ChatGPT, Gemini sau Perplexity despre orice înregistrare a ta."
+      },
+      "widgets": {
+        "label": "Widgeturi",
+        "title": "Subtitrări dintr-o atingere",
+        "description": "Pornește Subtitrări live de pe ecranul principal sau de pe ecranul de blocare al iPhone-ului."
+      }
+    },
+    "useCasesLabel": "Situații",
+    "useCasesTitle": "Funcționează în orice situație",
+    "useCasesSubtitle": "Gândit pentru momentele reale care contează, nu doar pentru încăperi liniștite și controlate.",
+    "useCases": {
+      "everyday-conversations": {
+        "label": "Conversații de zi cu zi",
+        "description": "Cele mai multe conversații au loc repede, în ritm normal, fără niciun avertisment. Captio AI subtitrează fiecare cuvânt pe măsură ce e rostit, așa că poți urmări fără să rogi pe cineva să repete."
+      },
+      "deaf-hoh-communication": {
+        "label": "Comunicare cu persoane surde și hipoacuzice",
+        "description": "Persoanele auzitoare nu știu adesea cum să se adapteze când vorbesc cu prieteni surzi sau hipoacuzici. Captio AI le transformă vorbirea în subtitrări în timp real, ca discuția să curgă firesc pentru ambele părți."
+      },
+      "meetings": {
+        "label": "Ședințe",
+        "description": "În ședințe, deciziile se iau repede și oamenii vorbesc unii peste alții. Captio AI subtitrează fiecare vorbitor pe măsură ce vorbește, așa că nu ratezi nicio decizie și nicio întrebare adresată ție."
+      },
+      "lectures": {
+        "label": "Cursuri",
+        "description": "Profesorii vorbesc repede, predau materie complexă și rareori se repetă. Captio AI îți dă o transcriere live a tot ce se spune, ca să urmărești conținutul în loc să te chinui să auzi."
+      },
+      "doctor-appointments": {
+        "label": "Consultații medicale",
+        "description": "Medicii vorbesc repede și folosesc termeni de specialitate ușor de auzit greșit. Captio AI îți arată în timp real tot ce spun, ca să îți înțelegi diagnosticul și să pui întrebările potrivite."
+      },
+      "job-interviews": {
+        "label": "Interviuri de angajare",
+        "description": "Dacă ratezi o întrebare la interviu, răspunzi greșit sau trebuie să ceri să fie repetată. Captio AI îți arată fiecare cuvânt spus de intervievator, ca să te poți concentra complet pe răspuns."
+      },
+      "phone-video-calls": {
+        "label": "Apeluri telefonice și video",
+        "description": "Apelurile telefonice și video sunt mai greu de urmărit decât conversațiile față în față. Nu poți citi de pe buze, iar sunetul e adesea slab. Captio AI subtitrează în timp real pe oricine vorbește, ca să nu mai fie nevoie să ceri repetări."
+      },
+      "group-settings": {
+        "label": "Discuții în grup",
+        "description": "În grup, mai mulți oameni vorbesc deodată și conversația merge repede. Captio AI ține pasul cu oricine vorbește, ca să urmărești discuția fără să pierzi firul."
+      },
+      "restaurants": {
+        "label": "Restaurante și cafenele",
+        "description": "Zgomotul de fundal face vorbirea greu de urmărit chiar și pentru cei care aud bine. Captio AI se concentrează pe cine îți vorbește, ca să poți purta o conversație adevărată, în ciuda zgomotului."
+      },
+      "traveling": {
+        "label": "Călătorii",
+        "description": "În aeroporturi, hoteluri și orașe necunoscute nu e loc de neînțelegeri. Captio AI subtitrează vorbirea în peste 60 de limbi, ca să te descurci sigur pe tine oriunde mergi."
+      },
+      "conferences": {
+        "label": "Conferințe și evenimente",
+        "description": "Vorbitorii sunt departe, acustica e imprevizibilă și nu poți cere să se repete ceva. Captio AI îți dă o transcriere live a fiecărui vorbitor, ca să urmărești tot evenimentul de pe orice loc."
+      },
+      "tv-media": {
+        "label": "TV și media",
+        "description": "Subtitrările încorporate sunt adesea greșite, întârziate sau lipsesc cu totul. Captio AI subtitrează în timp real orice rulează, ca să nu mai depinzi de faptul că un conținut are sau nu subtitrare."
+      }
+    },
+    "languagesLabel": "Limbi",
+    "languagesTitle": "Captio AI funcționează în peste 60 de limbi",
+    "privacyCards": [
+      {
+        "title": "Audioul nu ajunge pe serverele noastre",
+        "description": "Audioul tău este transformat în text în timp real și nu este stocat niciodată pe serverele noastre. Înregistrările pe care le salvezi rămân pe telefonul tău, iar transcrierile lor se sincronizează doar cu propriul tău cont."
+      },
+      {
+        "title": "Nu ești un produs",
+        "description": "Conversațiile tale nu sunt ceva ce Captio AI vinde, distribuie sau monetizează — nimănui, din niciun motiv."
+      },
+      {
+        "title": "Nu e folosit pentru antrenare",
+        "description": "Ce spui la o consultație medicală sau la un interviu de angajare nu ajunge niciodată într-un set de date pentru antrenare. Nici al nostru. Nici al altcuiva."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Pentru cine este gândit Captio AI?",
+        "a": "Captio AI este creat în primul rând pentru persoanele surde și hipoacuzice care trebuie să urmărească conversații în timp real. Îl folosesc mult și persoanele cu tulburare de procesare auditivă, oamenii aflați în medii zgomotoase, cei care învață o limbă străină și oricine citește mai repede sau mai ușor decât ascultă."
+      },
+      {
+        "q": "Cât de exacte sunt subtitrările live?",
+        "a": "Captio AI folosește recunoaștere vocală avansată, construită special pentru precizie și latență mică. Precizia depinde de claritatea sunetului, de accent și de zgomotul de fundal, dar în condiții obișnuite de conversație este foarte mare, comparabilă cu cea a serviciilor profesionale de subtitrare."
+      },
+      {
+        "q": "În ce limbi funcționează Captio AI?",
+        "a": "Captio AI funcționează în peste 60 de limbi, printre care engleza, spaniola, franceza, germana, chineza mandarină, araba, hindi, japoneza, coreeana, portugheza, rusa și multe altele. Toate limbile sunt disponibile pentru Subtitrări live și Traducător live. Vezi lista completă pe această pagină."
+      },
+      {
+        "q": "Funcționează Captio AI cu accente și dialecte diferite?",
+        "a": "Da. Captio AI înțelege o gamă largă de accente și dialecte regionale, nu doar vorbirea standard din manual. Funcționează cu engleza australiană, spaniola din America Latină, germana elvețiană, portugheza braziliană, franceza din Québec și multe altele."
+      },
+      {
+        "q": "Care e diferența dintre Subtitrări live și Traducător live?",
+        "a": "Subtitrări live transcrie vorbirea în limba în care e rostită. Traducător live preia vorbirea și o traduce în timp real în limba aleasă de tine — ideal când cel care vorbește și cel care citește au limbi diferite, de exemplu la un medic străin sau la o ședință de afaceri într-o altă limbă."
+      },
+      {
+        "q": "Captio AI îmi stochează sau îmi distribuie audioul?",
+        "a": "Audioul tău nu este stocat niciodată pe serverele Captio AI și nu este vândut sau distribuit niciodată pentru publicitate. Este trimis în siguranță către un serviciu de recunoaștere vocală doar pentru a fi transformat în text, apoi este șters acolo. Înregistrările pe care alegi să le salvezi rămân pe telefonul tău; transcrierile și rezumatele lor sunt păstrate și în propriul tău cont, ca să le poți deschide pe alt dispozitiv, iar ștergerea unei înregistrări o elimină peste tot. Conversațiile tale nu sunt folosite niciodată pentru antrenarea modelelor AI — nici ale noastre, nici ale altcuiva."
+      },
+      {
+        "q": "Funcționează Captio AI fără conexiune la internet?",
+        "a": "Subtitrări live și Traducător live au nevoie de conexiune la internet ca să proceseze vorbirea în timp real. Și Transcriere audio (pentru fișierele încărcate) are nevoie de conexiune. Subtitrarea offline nu este disponibilă deocamdată."
+      },
+      {
+        "q": "Ce telefon sau iPad îmi trebuie?",
+        "a": "Captio AI funcționează pe iPhone și iPad cu iOS 16 sau mai nou și pe telefoane Android. Este optimizat pentru telefon și merge cel mai bine când microfonul are drum liber spre cel care vorbește."
+      },
+      {
+        "q": "Pot folosi Captio AI la o consultație medicală?",
+        "a": "Da — consultațiile medicale sunt una dintre cele mai importante situații în care îl poți folosi. Pune telefonul pe birou sau ține-l îndreptat spre medic și citește în timp real tot ce spune. Termenii medicali sunt recunoscuți corect, așa că Captio AI este un instrument de accesibilitate practic în mediul medical."
+      },
+      {
+        "q": "Pot folosi Captio AI în ședințe și la cursuri?",
+        "a": "Da. Captio AI funcționează oriunde se vorbește: ședințe de lucru, cursuri la facultate, întâlniri scurte de echipă, conferințe și apeluri video. Îndreaptă microfonul spre cel care vorbește și subtitrările apar imediat."
+      },
+      {
+        "q": "Ce este Transcriere audio și prin ce diferă de Subtitrări live?",
+        "a": "Subtitrări live funcționează în timp real, cât timp cineva vorbește. Transcriere audio este pentru înregistrări: încarci un fișier audio sau video și primești transcrierea completă, în scris. E ideală pentru cursurile pe care le-ai înregistrat, interviuri, podcasturi sau orice conținut pe care preferi să-l citești în loc să-l asculți."
+      },
+      {
+        "q": "Ce face funcția Rezumat AI?",
+        "a": "Rezumat AI ia orice transcriere și extrage informațiile esențiale — ideile principale, deciziile luate, sarcinile și detaliile importante — într-un rezumat structurat. Îți economisește timp când ai o transcriere lungă de la o ședință sau de la un curs și ai nevoie repede de ce contează."
+      },
+      {
+        "q": "Captio AI este gratuit?",
+        "a": "Captio AI are un plan gratuit cu care poți începe fără să plătești nimic. Pentru acces nelimitat există planul Plus. Prețul actual pentru Plus în țara ta apare în pagina aplicației din App Store."
+      },
+      {
+        "q": "Prin ce diferă Captio AI de Subtitrările live integrate de Apple?",
+        "a": "Subtitrările live de la Apple sunt integrate în iOS, dar funcționează în mai puține limbi, nu oferă traducere și nu includ transcriere audio sau rezumat AI. Captio AI funcționează în peste 60 de limbi, traduce în timp real, îți transcrie fișierele încărcate și generează rezumate AI — un instrument de accesibilitate și productivitate mult mai complet."
+      }
+    ]
+  },
+  "featurePages": {
+    "live-captions": {
+      "meta": {
+        "title": "Subtitrări live pe iPhone pentru surzi și hipoacuzici",
+        "description": "Vorbirea devine text în timp real, prin microfonul iPhone-ului. Urmărește orice conversație, în orice limbă, pe loc. Pentru persoane surde și hipoacuzice.",
+        "schemaDescription": "Subtitrări live în timp real pentru persoane surde și hipoacuzice. Peste 60 de limbi, latență mult sub o secundă, funcționează oriunde."
+      },
+      "howTitle": "Trei atingeri. Toată conversația.",
+      "steps": [
+        {
+          "title": "Pornește înregistrarea",
+          "desc": "Apasă butonul de înregistrare. Captio AI începe imediat să asculte."
+        },
+        {
+          "title": "Vezi cum apar cuvintele",
+          "desc": "Subtitrările apar cuvânt cu cuvânt, cât timp persoana încă vorbește."
+        },
+        {
+          "title": "Salvează",
+          "desc": "Păstrează transcrierea și înregistrarea audio pentru mai târziu."
+        }
+      ],
+      "featuresTitle": "Creat pentru conversații reale",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Exact ce s-a spus",
+          "description": "Captio AI surprinde ce a spus cineva cu adevărat, nu o parafrază aproximativă. Așa poți avea încredere în transcriere când contează — la medic, la un interviu, într-o ședință."
+        },
+        {
+          "title": "Fără întârziere",
+          "description": "Latența este mult sub o secundă. Subtitrările apar cuvânt cu cuvânt cât timp persoana încă vorbește, așa că citești ce spune în același moment în care ceilalți aud."
+        },
+        {
+          "title": "Știi cine vorbește",
+          "description": "În grupuri și în ședințe, Captio AI marchează separat fiecare vorbitor, ca să știi mereu cine ce a spus, fără să urmărești fețele sau mișcarea buzelor."
+        },
+        {
+          "title": "Peste 60 de limbi",
+          "description": "Urmărește o conversație în franceză, japoneză sau arabă la fel cum urmărești una în română. Fără să schimbi vreun mod. Pierderea auzului nu devine niciodată și o barieră lingvistică."
+        },
+        {
+          "title": "Ține pasul cu limbile amestecate în aceeași frază",
+          "description": "Când oamenii schimbă limba în mijlocul conversației, Captio AI ține pasul. Fără goluri în subtitrări, fără vreun mod de schimbat."
+        },
+        {
+          "title": "Învață-l vocabularul tău",
+          "description": "Adaugă nume, termeni medicali sau cuvinte de specialitate pe care le auzi des. Captio AI folosește lista ta de cuvinte ca să îți subtitreze mai exact conversațiile reale."
+        },
+        {
+          "title": "Adaugă un indiciu de limbă",
+          "description": "Spune-i lui Captio AI ce limbă să aștepte și va fi pregătit de la primul cuvânt — util când limba vorbită nu reiese din context."
+        },
+        {
+          "title": "Transcrie din nou mai târziu, mai exact",
+          "description": "Trece orice înregistrare încă o dată, ulterior, pentru o transcriere mai curată. Util pentru cursuri, consultații și orice conversație pe care vrei s-o revezi."
+        },
+        {
+          "title": "Citește cum îți place",
+          "description": "Ajustează mărimea textului, culoarea fundalului și contrastul până când subtitrările se citesc ușor dintr-o privire — cu telefonul în mână, întins pe masă sau sprijinit pe birou."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Audioul nu ajunge pe serverele noastre",
+          "description": "Audioul tău este transformat în text în timp real și nu este stocat niciodată pe serverele noastre. Înregistrările pe care le salvezi rămân pe telefonul tău, iar transcrierile lor se sincronizează doar cu propriul tău cont."
+        },
+        {
+          "title": "Nu ești un produs",
+          "description": "Conversațiile tale nu sunt ceva ce Captio AI vinde, distribuie sau monetizează — nimănui, din niciun motiv."
+        },
+        {
+          "title": "Nu e folosit pentru antrenare",
+          "description": "Ce spui la o consultație medicală sau la un interviu de angajare nu ajunge niciodată într-un set de date pentru antrenare. Nici al nostru. Nici al altcuiva."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Prin ce diferă Captio AI de Subtitrările live integrate de Apple?",
+          "a": "Subtitrările live de la Apple funcționează în mai puține limbi, nu oferă traducere și nu includ transcriere audio sau rezumat AI. Captio AI funcționează în peste 60 de limbi, traduce în timp real, îți transcrie fișierele încărcate și generează rezumate AI. În plus, poți ajusta mărimea textului, culorile și contrastul după cum citești tu cel mai bine."
+        },
+        {
+          "q": "Cât de exacte sunt subtitrările live?",
+          "a": "Precizia este mare în condiții obișnuite de conversație. Captio AI este construit pentru vorbirea reală, nu doar pentru sunet curat de studio, așa că face față celor care vorbesc repede, accentelor regionale, zgomotului de fundal și frazelor în mai multe limbi. Poți adăuga și vocabular propriu (nume, termeni medicali, cuvinte de specialitate) pentru o precizie mai bună în conversațiile tale."
+        },
+        {
+          "q": "Cât de repede apar subtitrările?",
+          "a": "Cuvânt cu cuvânt, cât timp persoana încă vorbește. Latența este mult sub o secundă, aproape în timp real. Citești ce spune cineva în același moment în care ceilalți aud, nu după ce termină propoziția."
+        },
+        {
+          "q": "Funcționează Subtitrări live în locuri zgomotoase?",
+          "a": "Da. Captio AI este gândit pentru medii reale: restaurante, stradă, săli de așteptare, transport public. Îndreaptă microfonul spre cel care vorbește și subtitrările apar indiferent de zgomotul de fundal."
+        },
+        {
+          "q": "În ce limbi funcționează Subtitrări live?",
+          "a": "Peste 60 de limbi, printre care engleza, spaniola, franceza, germana, chineza mandarină, araba, hindi, japoneza, coreeana, portugheza, rusa și multe altele. Accentele și dialectele regionale sunt recunoscute în toate limbile importante."
+        },
+        {
+          "q": "Funcționează cu accente și dialecte?",
+          "a": "Da. Captio AI înțelege o gamă largă de accente regionale, nu doar vorbirea standard din manual. Funcționează cu engleza australiană, spaniola din America Latină, germana elvețiană, franceza din Québec și multe altele."
+        },
+        {
+          "q": "Îmi pot salva subtitrările?",
+          "a": "Da. După o sesiune poți salva transcrierile și înregistrările audio și le poți revedea mai târziu. Poți și să transcrii din nou o înregistrare salvată, pentru un text mai curat și mai exact."
+        },
+        {
+          "q": "Am nevoie de conexiune la internet?",
+          "a": "Da. Subtitrări live are nevoie de conexiune la internet ca să proceseze vorbirea în timp real. Subtitrarea offline nu este disponibilă deocamdată."
+        }
+      ]
+    },
+    "live-translator": {
+      "meta": {
+        "title": "Traducător live: traducere vocală în timp real pe iPhone",
+        "description": "Traducere vocală în timp real pe iPhone. Celălalt vorbește în limba lui, tu citești în a ta — pe loc, în orice limbă. Pentru persoane surde și hipoacuzice.",
+        "schemaDescription": "Traducere vocală în timp real pentru persoane surde și hipoacuzice. Peste 60 de limbi: fiecare vorbește în limba lui, tu citești în a ta."
+      },
+      "howTitle": "Trei atingeri. Orice limbă.",
+      "steps": [
+        {
+          "title": "Alege modul traducător",
+          "desc": "Deschide Captio AI și selectează Traducător live."
+        },
+        {
+          "title": "Alege limba preferată",
+          "desc": "Alege limba în care vrei să citești."
+        },
+        {
+          "title": "Vezi traducerea în timp real",
+          "desc": "Captio AI traduce cuvânt cu cuvânt."
+        }
+      ],
+      "featuresTitle": "Creat pentru conversații reale",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Orice limbă",
+          "description": "Franceză, japoneză, arabă, spaniolă, germană, chineză mandarină — peste 60 de limbi, în orice direcție. Pierderea auzului nu devine niciodată și o barieră lingvistică."
+        },
+        {
+          "title": "Recunoaște singur limba vorbită",
+          "description": "Lasă limba sursă pe automat și Captio AI o recunoaște din primele cuvinte. Nu trebuie s-o alegi manual înainte de fiecare conversație."
+        },
+        {
+          "title": "Fără întârziere",
+          "description": "Latența traducerii este mult sub o secundă. Citești ce spune cineva în același moment în care ceilalți aud, nu după ce termină propoziția."
+        },
+        {
+          "title": "Adaugă indicii de limbă",
+          "description": "Spune-i lui Captio AI ce limbă să aștepte și va fi pregătit de la primul cuvânt — util când limba vorbită nu reiese din context."
+        },
+        {
+          "title": "Mai multe limbi în același timp",
+          "description": "Când oamenii schimbă limba în mijlocul conversației, Captio AI ține pasul și traduce totul în limba ta, fără să fie nevoie să intervii."
+        },
+        {
+          "title": "Citește cum îți place",
+          "description": "Ajustează culoarea fundalului, culoarea textului și mărimea fontului ca traducerea să se citească ușor dintr-o privire, fie că ții telefonul în mână, fie că stă pe masă."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Audioul nu ajunge pe serverele noastre",
+          "description": "Audioul tău este transformat în text în timp real și nu este stocat niciodată pe serverele noastre. Înregistrările pe care le salvezi rămân pe telefonul tău, iar transcrierile lor se sincronizează doar cu propriul tău cont."
+        },
+        {
+          "title": "Nu ești un produs",
+          "description": "Conversațiile tale nu sunt ceva ce Captio AI vinde, distribuie sau monetizează — nimănui, din niciun motiv."
+        },
+        {
+          "title": "Nu e folosit pentru antrenare",
+          "description": "Ce spui la o consultație medicală sau la un interviu de angajare nu ajunge niciodată într-un set de date pentru antrenare. Nici al nostru. Nici al altcuiva."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Prin ce diferă Traducător live de Subtitrări live?",
+          "a": "Subtitrări live transcrie vorbirea în limba în care e rostită. Traducător live preia vorbirea și o traduce în timp real în limba aleasă de tine. Dacă celălalt vorbește franceză și tu citești în română, folosești Traducător live."
+        },
+        {
+          "q": "Cât de exactă este traducerea?",
+          "a": "Precizia traducerii este mare pentru perechile de limbi uzuale, în conversațiile de zi cu zi. Captio AI face față vorbirii naturale — oameni care vorbesc repede, accente, zgomot de fundal — nu doar sunetului curat de studio. Pentru perechi de limbi rare sau conținut foarte tehnic, precizia poate varia."
+        },
+        {
+          "q": "Ce limbi sunt disponibile?",
+          "a": "Peste 60 de limbi, printre care engleza, spaniola, franceza, germana, chineza mandarină, araba, hindi, japoneza, coreeana, portugheza, rusa și multe altele. Atât limba sursă, cât și limba țintă pot fi oricare dintre limbile disponibile."
+        },
+        {
+          "q": "Cât de repede apare traducerea?",
+          "a": "Latența este mult sub o secundă. Citești traducerea cuvânt cu cuvânt cât timp persoana încă vorbește — aproape în timp real, nu după ce termină propoziția."
+        },
+        {
+          "q": "Funcționează la o consultație cu un medic care vorbește altă limbă?",
+          "a": "Da. Este una dintre cele mai importante situații în care îl poți folosi. Pune telefonul pe birou, setează limba sursă la limba medicului și citește în timp real, în limba ta, tot ce spune. Poți salva și transcrierea tradusă, ca să îi revezi instrucțiunile după aceea."
+        },
+        {
+          "q": "Funcționează în locuri zgomotoase?",
+          "a": "Da. Captio AI este gândit pentru medii reale: săli de așteptare, restaurante, aeroporturi. Îndreaptă microfonul spre cel care vorbește și traducerea apare indiferent de zgomotul din jur."
+        },
+        {
+          "q": "Pot salva transcrierea tradusă?",
+          "a": "Da. După o sesiune poți salva textul tradus și îl poți revedea mai târziu. Util pentru consultații medicale, ședințe și orice conversație din care vrei să păstrezi o evidență."
+        },
+        {
+          "q": "Am nevoie de conexiune la internet?",
+          "a": "Da. Traducător live are nevoie de conexiune la internet ca să proceseze și să traducă vorbirea în timp real. Traducerea offline nu este disponibilă deocamdată."
+        }
+      ]
+    },
+    "audio-transcription": {
+      "meta": {
+        "title": "Transcriere audio: din audio și video în text pe iPhone",
+        "description": "Încarcă orice fișier audio sau video și primește transcrierea completă. Peste 60 de limbi, vorbitori separați, text căutabil. Pentru surzi și hipoacuzici.",
+        "schemaDescription": "Încarcă orice fișier audio sau video și primește transcrierea completă. Peste 60 de limbi, vorbitori separați, marcaje de timp. Pentru persoane surde și hipoacuzice."
+      },
+      "howTitle": "Încarci. Citești. Gata.",
+      "steps": [
+        {
+          "title": "Alege tipul fișierului",
+          "desc": "Alege dacă încarci un fișier audio sau un fișier video."
+        },
+        {
+          "title": "Selectează un fișier",
+          "desc": "Alege fișierul din telefon. Captio AI începe imediat transcrierea."
+        },
+        {
+          "title": "Vezi transcrierea",
+          "desc": "Citește transcrierea completă, organizată pe vorbitori, cu marcaje de timp."
+        }
+      ],
+      "featuresTitle": "Creat pentru înregistrări reale",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Orice format",
+          "description": "MP3, MP4, M4A, WAV și altele. Cursuri, ședințe, mesaje vocale, podcasturi, interviuri, convorbiri înregistrate — dacă se vorbește în ele, Captio AI le poate transcrie."
+        },
+        {
+          "title": "Cea mai mare precizie",
+          "description": "Captio AI este construit pentru sunetul din viața reală, nu doar pentru fișiere curate de studio. Apeluri telefonice, înregistrări din amfiteatru, medii zgomotoase — se descurcă cu toate."
+        },
+        {
+          "title": "Orice limbă",
+          "description": "Încarcă o înregistrare în franceză, japoneză, arabă sau în alte 57 de limbi. Captio AI recunoaște limba și o transcrie corect."
+        },
+        {
+          "title": "Mai multe limbi",
+          "description": "Când vorbitorii schimbă limba în timpul înregistrării, Captio AI ține pasul. Transcrierea redă fiecare limbă vorbită, fără goluri."
+        },
+        {
+          "title": "Marcaje de timp",
+          "description": "Fiecare rând din transcriere are un marcaj de timp, ca să sari la orice moment din înregistrare și să găsești exact ce s-a spus și când."
+        },
+        {
+          "title": "Exportă și distribuie",
+          "description": "Copiază transcrierea completă, distribuie-o sau salveaz-o. Înregistrările și transcrierile tale rămân la îndemână oricând ai nevoie de ele."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Fișierele nu ajung pe serverele noastre",
+          "description": "Fișierul tău este trimis doar pentru a fi transcris, apoi este șters acolo și nu este stocat niciodată pe serverele noastre. Înregistrarea rămâne pe telefonul tău, iar transcrierea ei se sincronizează doar cu propriul tău cont."
+        },
+        {
+          "title": "Nu ești un produs",
+          "description": "Înregistrările tale nu sunt ceva ce Captio AI vinde, distribuie sau monetizează — nimănui, din niciun motiv."
+        },
+        {
+          "title": "Nu e folosit pentru antrenare",
+          "description": "Ce încarci — o consultație medicală, o ședință, un interviu — nu ajunge niciodată într-un set de date pentru antrenare. Nici al nostru. Nici al altcuiva."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Prin ce diferă Transcriere audio de Subtitrări live?",
+          "a": "Subtitrări live funcționează în timp real, cât timp cineva vorbește. Transcriere audio este pentru înregistrări: încarci un fișier audio sau video și primești transcrierea completă, în scris. E ideală pentru cursurile pe care le-ai înregistrat, consultații medicale, interviuri sau orice conținut pe care preferi să-l citești în loc să-l asculți."
+        },
+        {
+          "q": "Ce formate de fișiere acceptă Transcriere audio?",
+          "a": "Captio AI acceptă formatele audio și video obișnuite, printre care MP3, MP4, M4A, WAV și altele. Dacă l-ai înregistrat cu telefonul sau l-ai descărcat de pe o platformă video, va funcționa."
+        },
+        {
+          "q": "Cât de exactă este transcrierea?",
+          "a": "Precizia este mare pentru înregistrările clare în limbile disponibile. Captio AI face față sunetului din viața reală — apeluri telefonice, înregistrări din amfiteatru, medii zgomotoase — nu doar fișierelor de calitate de studio. Dacă e nevoie, poți transcrie din nou un fișier."
+        },
+        {
+          "q": "Ce limbi sunt disponibile?",
+          "a": "Peste 60 de limbi, printre care engleza, spaniola, franceza, germana, chineza mandarină, araba, hindi, japoneza, coreeana, portugheza, rusa și multe altele. Captio AI recunoaște automat limba vorbită în fișier."
+        },
+        {
+          "q": "Separă vorbitorii?",
+          "a": "Da. Captio AI marchează separat fiecare vorbitor în transcriere, ca să urmărești cine ce a spus — util pentru ședințe, interviuri, consultații medicale și orice înregistrare cu mai multe persoane."
+        },
+        {
+          "q": "Cât durează transcrierea?",
+          "a": "Transcrierea este rapidă. O înregistrare de o oră durează de obicei câteva minute. Timpul depinde de lungimea fișierului și de calitatea sunetului."
+        },
+        {
+          "q": "Audioul meu este stocat după transcriere?",
+          "a": "Nu pe serverele Captio AI. Fișierul este trimis în siguranță către un serviciu de recunoaștere vocală doar pentru a fi transcris și este șters acolo imediat ce transcrierea este gata. Înregistrarea rămâne pe telefonul tău, iar transcrierea ei este păstrată și în propriul tău cont, ca să o poți deschide pe alt dispozitiv. Înregistrările tale nu sunt vândute niciodată și nu sunt folosite pentru antrenarea modelelor AI."
+        },
+        {
+          "q": "Pot transcrie un fișier video?",
+          "a": "Da. Încarcă direct fișierul video, iar Captio AI extrage sunetul și îl transcrie. Nu trebuie să convertești fișierul înainte."
+        }
+      ]
+    },
+    "ai-summary": {
+      "meta": {
+        "title": "Rezumat AI: rezumate structurate din orice transcriere",
+        "description": "Transformă orice transcriere într-un rezumat structurat. Ideile principale, deciziile și sarcinile sunt extrase automat. Pentru persoane surde și hipoacuzice.",
+        "schemaDescription": "Transformă orice transcriere într-un rezumat structurat. Ideile principale, deciziile, sarcinile și citatele vorbitorilor sunt extrase automat."
+      },
+      "howTitle": "Intră transcrierea. Iese rezumatul.",
+      "steps": [
+        {
+          "title": "Deschide o transcriere",
+          "desc": "Alege orice transcriere din Subtitrări live sau Transcriere audio."
+        },
+        {
+          "title": "Generează rezumatul",
+          "desc": "Atinge Rezumat AI. Captio AI procesează automat transcrierea."
+        },
+        {
+          "title": "Citește rezumatul",
+          "desc": "Rezumatul tău e gata — organizat pe secțiuni, gata de citit sau de trimis."
+        }
+      ],
+      "featuresTitle": "Creat pentru transcrieri lungi",
+      "featuresSubtitle": "Primești rezumat, sarcini, citate ale vorbitorilor, notițe și multe altele.",
+      "subfeatures": [
+        {
+          "title": "Ideile principale, extrase automat",
+          "description": "Captio AI citește toată transcrierea și scoate în evidență ce a contat cu adevărat — ideile principale, deciziile luate și concluziile la care s-a ajuns."
+        },
+        {
+          "title": "Sarcinile, scoase la suprafață",
+          "description": "Sarcinile și pașii următori sunt identificați și listați separat, ca nimic să nu se piardă după o ședință, o consultație sau un curs."
+        },
+        {
+          "title": "Organizat pe secțiuni",
+          "description": "Rezumatul este structurat, nu un singur bloc de text. Fiecare subiect are secțiunea lui, ca să parcurgi rapid și să găsești ce îți trebuie."
+        },
+        {
+          "title": "Funcționează pe orice transcriere din Captio AI",
+          "description": "Folosește Rezumat AI pe orice transcriere creată cu Subtitrări live sau Transcriere audio. Fără pași în plus, fără copiere și lipire."
+        },
+        {
+          "title": "Orice limbă",
+          "description": "Rezumă transcrieri în peste 60 de limbi. Captio AI citește transcrierea în limba originală și îți face un rezumat pe care îl poți citi."
+        },
+        {
+          "title": "Salvează și distribuie",
+          "description": "Păstrează rezumatul lângă transcriere, copiază-l sau distribuie-l. Util după consultații medicale, ședințe și cursuri."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Păstrat doar în contul tău",
+          "description": "Rezumatul tău este salvat împreună cu înregistrarea, pe telefonul tău și în propriul tău cont, așa că îl găsești pe orice dispozitiv pe care te autentifici. Dacă îl ștergi, dispare peste tot."
+        },
+        {
+          "title": "Nu ești un produs",
+          "description": "Conversațiile tale nu sunt ceva ce Captio AI vinde, distribuie sau monetizează — nimănui, din niciun motiv."
+        },
+        {
+          "title": "Nu e folosit pentru antrenare",
+          "description": "Ce rezumi — o consultație medicală, o ședință, un interviu — nu ajunge niciodată într-un set de date pentru antrenare. Nici al nostru. Nici al altcuiva."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Ce face Rezumat AI?",
+          "a": "Rezumat AI ia orice transcriere și extrage informațiile esențiale — ideile principale, deciziile, sarcinile și detaliile importante — într-un rezumat structurat. Îți economisește timp când ai o transcriere lungă și ai nevoie repede de ce contează."
+        },
+        {
+          "q": "Ce transcrieri pot rezuma?",
+          "a": "Orice transcriere creată în Captio AI, din Subtitrări live sau din Transcriere audio. Folosești Rezumat AI direct pe transcriere, fără pași în plus."
+        },
+        {
+          "q": "Prin ce diferă Rezumat AI de simpla citire a transcrierii?",
+          "a": "Transcrierea completă a unei ședințe de o oră poate avea mii de cuvinte. Rezumat AI îți dă ideile principale, deciziile și sarcinile într-o fracțiune din timpul de citire — organizate pe subiecte, nu în ordinea în care s-au spus."
+        },
+        {
+          "q": "Funcționează la consultațiile medicale?",
+          "a": "Da. La o consultație medicală primești multe informații în scurt timp. Rezumat AI extrage diagnosticul, instrucțiunile și pașii următori într-o listă clară, pe care o poți revedea oricând."
+        },
+        {
+          "q": "Ce limbi sunt disponibile?",
+          "a": "Rezumat AI funcționează pe transcrieri în peste 60 de limbi. Rezumatul este generat în aceeași limbă ca transcrierea."
+        },
+        {
+          "q": "Pot salva sau distribui rezumatul?",
+          "a": "Da. Poți salva rezumatul lângă transcrierea originală, îl poți copia sau distribui. Util ca să trimiți un rezumat al ședinței sau să păstrezi o evidență a unei consultații medicale."
+        },
+        {
+          "q": "Rezumat AI îmi stochează transcrierea sau audioul?",
+          "a": "Transcrierea ta este trimisă în siguranță către un serviciu AI doar pentru a scrie rezumatul și nu este folosită niciodată pentru antrenarea modelelor AI. Rezumatul este salvat împreună cu înregistrarea, pe telefonul tău și în propriul tău cont, până îl ștergi. Audioul nu este stocat niciodată pe serverele Captio AI, iar conversațiile tale nu sunt vândute niciodată."
+        }
+      ]
+    }
+  }
+}

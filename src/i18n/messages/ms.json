@@ -1,0 +1,676 @@
+{
+  "header": {
+    "features": "Ciri-ciri",
+    "useCases": "Kegunaan",
+    "languages": "Bahasa",
+    "compare": "Bandingkan",
+    "blog": "Blog",
+    "download": "Muat turun",
+    "toggleMenu": "Buka atau tutup menu",
+    "chooseLanguage": "Pilih bahasa"
+  },
+  "footer": {
+    "tagline": "Sari kata langsung dan alat produktiviti untuk orang Pekak dan kurang pendengaran.",
+    "productHuntTagline": "Sari Kata Langsung & Transkripsi untuk Orang Pekak dan Kurang Pendengaran",
+    "productHunt": "Lihat di Product Hunt →",
+    "featuredOn": "Dipaparkan di",
+    "features": "Ciri-ciri",
+    "useCases": "Kegunaan",
+    "blog": "Blog",
+    "allArticles": "Semua artikel",
+    "compare": "Bandingkan",
+    "compareApps": "Bandingkan aplikasi sari kata",
+    "company": "Syarikat",
+    "organizations": "Untuk organisasi",
+    "privacy": "Dasar Privasi",
+    "terms": "Terma Perkhidmatan"
+  },
+  "store": {
+    "appleOverline": "Muat turun di",
+    "googleOverline": "Dapatkannya di",
+    "appleQrAlt": "Kod QR untuk memuat turun Captio AI dari App Store untuk iPhone",
+    "googleQrAlt": "Kod QR untuk memuat turun Captio AI dari Google Play untuk Android",
+    "downloadForFree": "Muat turun percuma"
+  },
+  "common": {
+    "home": "Laman utama",
+    "back": "Kembali",
+    "goBack": "Kembali ke halaman sebelumnya",
+    "explore": "Terokai",
+    "featuresLabel": "Ciri-ciri",
+    "howItWorks": "Cara ia berfungsi",
+    "privacyLabel": "Privasi",
+    "privacyTitle": "Apa yang anda dengar kekal milik anda.",
+    "privacyImageAlt": "Peribadi secara lalai — audio anda tidak pernah disimpan pada pelayan kami, tidak pernah dijual, tidak pernah digunakan untuk latihan",
+    "faqLabel": "FAQ",
+    "faqTitle": "Soalan lazim",
+    "getStarted": "Mulakan",
+    "freeToStart": "Mula guna Captio AI secara percuma",
+    "allFeatures": "Captio AI merangkumi Sari Kata Langsung, Penterjemah Langsung, Transkripsi Audio dan Ringkasan AI.",
+    "featureNames": {
+      "live-captions": "Sari Kata Langsung",
+      "live-translator": "Penterjemah Langsung",
+      "audio-transcription": "Transkripsi Audio",
+      "ai-summary": "Ringkasan AI"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Captio AI — Sari Kata Langsung & Transkripsi untuk Orang Pekak",
+      "description": "Captio AI: sari kata langsung, terjemahan langsung, transkripsi audio dan ringkasan AI untuk orang Pekak dan kurang pendengaran, terus di telefon. 60+ bahasa.",
+      "ogDescription": "Sari kata langsung masa nyata, terjemahan langsung, transkripsi audio dan ringkasan AI untuk orang Pekak dan kurang pendengaran. 60+ bahasa. iPhone dan Android.",
+      "schemaDescription": "Sari kata langsung masa nyata, terjemahan langsung, transkripsi audio dan ringkasan AI untuk orang Pekak dan kurang pendengaran. 60+ bahasa."
+    },
+    "eyebrow": "🦻 Kebolehcapaian + 💻 Aplikasi Produktiviti",
+    "heroTitle": "[Sari kata langsung] dan [alat produktiviti] untuk orang Pekak dan kurang pendengaran.",
+    "heroSubtitle": "Ikuti apa jua perbualan, mesyuarat atau kuliah. Dalam apa jua bahasa.",
+    "mockupAlt": "Aplikasi Captio AI memaparkan sari kata langsung dan terjemahan",
+    "featuresTitle": "Semua yang anda perlukan untuk mengikuti apa jua perbualan",
+    "featuresSubtitle": "Empat alat yang dibina khas untuk orang Pekak dan kurang pendengaran.",
+    "features": {
+      "live-captions": {
+        "title": "Pertuturan ke Teks Secara Masa Nyata",
+        "bullets": [
+          "Perkataan demi perkataan, secara masa nyata",
+          "Berfungsi di tempat bising",
+          "Apa jua loghat, apa jua kelajuan",
+          "Tidak perlu membaca gerak bibir"
+        ]
+      },
+      "live-translator": {
+        "title": "Terjemah Apa Jua Bahasa Secara Masa Nyata",
+        "bullets": [
+          "Menterjemah semasa mereka bercakap",
+          "Setiap orang bercakap dalam bahasa sendiri",
+          "Mampu ikut pertukaran bahasa di tengah ayat",
+          "60+ bahasa"
+        ]
+      },
+      "audio-transcription": {
+        "title": "Transkripsi Apa Jua Fail Audio atau Video",
+        "bullets": [
+          "Apa jua fail audio atau video",
+          "Disusun mengikut penutur",
+          "60+ bahasa",
+          "Baca, salin, cari, kongsi"
+        ]
+      },
+      "ai-summary": {
+        "title": "Jadikan Transkrip Ringkasan yang Tersusun",
+        "bullets": [
+          "Perkara utama dan keputusan",
+          "Tindakan susulan dikenal pasti",
+          "Berfungsi pada apa jua transkrip",
+          "Disusun mengikut bahagian"
+        ]
+      }
+    },
+    "moreFeaturesTitle": "Lebih banyak ciri",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "Tindakan AI",
+        "title": "Senarai tugasan, nota dan mesej susulan",
+        "description": "Jadikan mana-mana rakaman sebagai perkara utama, nota terperinci, senarai tugasan, soal jawab atau mesej susulan."
+      },
+      "export": {
+        "label": "Eksport",
+        "title": "Kongsi dengan cara anda",
+        "description": "Hantar sari kata atau ringkasan sebagai teks, pautan, PDF, e-mel atau gesaan sembang AI."
+      },
+      "folders": {
+        "label": "Folder",
+        "title": "Folder dan folder kongsi",
+        "description": "Susun rakaman ke dalam folder dan kongsikan satu folder dengan keluarga, rakan sekelas atau pasukan anda."
+      },
+      "recognize-voices": {
+        "label": "Kenal pasti suara",
+        "title": "Nama, bukan “Penutur 2”",
+        "description": "Simpan suara orang yang kerap anda ajak berbual dan lihat nama mereka dalam sari kata anda."
+      },
+      "speaker-direction": {
+        "label": "Arah penutur",
+        "title": "Lihat dari mana suara datang",
+        "description": "Gelombang di tepi sari kata menunjukkan siapa yang sedang bercakap. iPhone 16 dan yang lebih baharu."
+      },
+      "connectors": {
+        "label": "Penyambung",
+        "title": "Tanya aplikasi sembang anda",
+        "description": "Tanya Claude, ChatGPT, Gemini atau Perplexity tentang mana-mana rakaman anda."
+      },
+      "widgets": {
+        "label": "Widget",
+        "title": "Sari kata dengan satu ketikan",
+        "description": "Mulakan Sari Kata Langsung dari Skrin Utama atau Skrin Kunci iPhone anda."
+      }
+    },
+    "useCasesLabel": "Kegunaan",
+    "useCasesTitle": "Berfungsi dalam setiap situasi",
+    "useCasesSubtitle": "Direka untuk detik sebenar yang penting — bukan sekadar persekitaran yang senyap dan terkawal.",
+    "useCases": {
+      "everyday-conversations": {
+        "label": "Perbualan Harian",
+        "description": "Kebanyakan perbualan berlaku dengan pantas, pada kelajuan biasa, tanpa amaran. Captio AI memaparkan sari kata bagi setiap perkataan sebaik sahaja ia diucapkan, jadi anda boleh mengikutinya tanpa meminta sesiapa mengulang."
+      },
+      "deaf-hoh-communication": {
+        "label": "Berkomunikasi dengan Orang Pekak & Kurang Pendengaran",
+        "description": "Orang yang mendengar selalunya tidak tahu cara menyesuaikan diri apabila bercakap dengan rakan yang Pekak atau kurang pendengaran. Captio AI menukar pertuturan mereka kepada sari kata masa nyata, jadi perbualan boleh berlaku secara semula jadi bagi kedua-dua pihak."
+      },
+      "meetings": {
+        "label": "Mesyuarat",
+        "description": "Dalam mesyuarat, keputusan dibuat dengan pantas dan orang bercakap serentak. Captio AI memaparkan sari kata setiap penutur ketika mereka bercakap, jadi anda tidak terlepas sebarang keputusan atau soalan yang ditujukan kepada anda."
+      },
+      "lectures": {
+        "label": "Kuliah",
+        "description": "Pensyarah bercakap dengan laju, membincangkan bahan yang kompleks dan jarang mengulang. Captio AI memberi anda transkrip langsung bagi semua yang diperkatakan, jadi anda boleh mengikuti isi kandungan tanpa bersusah payah untuk mendengar."
+      },
+      "doctor-appointments": {
+        "label": "Temu Janji Doktor",
+        "description": "Doktor bercakap dengan laju dan menggunakan istilah klinikal yang mudah tersalah dengar. Captio AI memaparkan semua yang mereka katakan secara masa nyata, jadi anda boleh memahami diagnosis anda dan bertanya soalan yang tepat."
+      },
+      "job-interviews": {
+        "label": "Temu Duga Kerja",
+        "description": "Terlepas satu soalan dalam temu duga bermakna anda menjawab salah atau terpaksa meminta soalan diulang. Captio AI memaparkan setiap perkataan penemu duga, jadi anda boleh memberi tumpuan sepenuhnya pada jawapan anda."
+      },
+      "phone-video-calls": {
+        "label": "Panggilan Telefon & Video",
+        "description": "Panggilan telefon dan video lebih sukar diikuti berbanding perbualan bersemuka. Tiada bibir untuk dibaca, dan kualiti audio selalunya lemah. Captio AI memaparkan sari kata sesiapa yang sedang bercakap secara masa nyata, jadi anda tidak perlu meminta mereka mengulang."
+      },
+      "group-settings": {
+        "label": "Dalam Kumpulan",
+        "description": "Dalam kumpulan, beberapa orang bercakap serentak dan perbualan bergerak pantas. Captio AI mengikuti sesiapa yang sedang bercakap, jadi anda boleh terus mengikuti perbualan tanpa hilang arah."
+      },
+      "restaurants": {
+        "label": "Restoran & Kafe",
+        "description": "Bunyi latar menyukarkan pertuturan diikuti, malah bagi orang yang tiada masalah pendengaran. Captio AI menumpukan pada orang yang sedang bercakap dengan anda, jadi anda boleh berbual dengan sebenar-benarnya walaupun di tempat bising."
+      },
+      "traveling": {
+        "label": "Melancong",
+        "description": "Di lapangan terbang, hotel dan bandar yang asing, tiada ruang untuk tersalah dengar. Captio AI memaparkan sari kata pertuturan dalam 60+ bahasa, jadi anda boleh bergerak dengan yakin ke mana sahaja anda pergi."
+      },
+      "conferences": {
+        "label": "Persidangan & Acara",
+        "description": "Penceramah berada jauh, akustik sukar dijangka dan anda tidak boleh meminta mereka mengulang. Captio AI memberi anda transkrip langsung setiap penceramah, jadi anda boleh mengikuti keseluruhan acara dari mana-mana tempat duduk."
+      },
+      "tv-media": {
+        "label": "Televisyen & Media",
+        "description": "Sari kata terbina dalam selalunya salah, lambat atau langsung tiada. Captio AI memaparkan sari kata apa sahaja yang sedang dimainkan secara masa nyata, jadi anda tidak bergantung pada sama ada kandungan itu ada sari kata atau tidak."
+      }
+    },
+    "languagesLabel": "Bahasa",
+    "languagesTitle": "Captio AI menyokong 60+ bahasa",
+    "privacyCards": [
+      {
+        "title": "Audio tidak disimpan pada pelayan kami",
+        "description": "Audio anda ditukar kepada teks secara masa nyata dan tidak pernah disimpan pada pelayan kami. Rakaman yang anda simpan kekal pada telefon anda, dan transkripnya hanya disegerakkan ke akaun anda sendiri."
+      },
+      {
+        "title": "Bukan barang dagangan",
+        "description": "Perbualan anda bukan sesuatu yang Captio AI jual, kongsi atau jadikan sumber pendapatan — kepada sesiapa pun, atas apa jua sebab."
+      },
+      {
+        "title": "Tidak digunakan untuk melatih apa-apa",
+        "description": "Apa yang anda katakan semasa temu janji doktor atau temu duga kerja tidak akan berakhir dalam set data latihan. Bukan set data kami. Bukan milik sesiapa pun."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Untuk siapa Captio AI direka?",
+        "a": "Captio AI dibina terutamanya untuk orang Pekak dan kurang pendengaran yang perlu mengikuti perbualan lisan secara masa nyata. Ia juga digunakan secara meluas oleh orang yang mengalami gangguan pemprosesan pendengaran, orang di persekitaran bising, pelajar bahasa dan sesiapa sahaja yang mendapati membaca lebih cepat atau lebih mudah daripada mendengar."
+      },
+      {
+        "q": "Sejauh manakah ketepatan sari kata langsung?",
+        "a": "Captio AI menggunakan pengecaman pertuturan termaju yang dibina khusus untuk ketepatan dan kependaman rendah. Ketepatan bergantung pada kejelasan audio, loghat dan bunyi latar — tetapi dalam keadaan perbualan biasa, ketepatannya sangat tinggi, setanding dengan perkhidmatan sari kata profesional."
+      },
+      {
+        "q": "Bahasa apakah yang disokong oleh Captio AI?",
+        "a": "Captio AI menyokong 60+ bahasa termasuk Inggeris, Sepanyol, Perancis, Jerman, Mandarin, Arab, Hindi, Jepun, Korea, Portugis, Rusia dan banyak lagi. Semua bahasa tersedia untuk Sari Kata Langsung dan Penterjemah Langsung. Lihat senarai penuh di halaman ini."
+      },
+      {
+        "q": "Adakah Captio AI berfungsi dengan loghat dan dialek yang berbeza?",
+        "a": "Ya. Captio AI mengendalikan pelbagai loghat dan dialek serantau — bukan sekadar pertuturan baku seperti dalam buku teks. Ia menyokong bahasa Inggeris Australia, bahasa Sepanyol Amerika Latin, bahasa Jerman Switzerland, bahasa Portugis Brazil, bahasa Perancis Québec dan banyak lagi."
+      },
+      {
+        "q": "Apakah perbezaan antara Sari Kata Langsung dan Penterjemah Langsung?",
+        "a": "Sari Kata Langsung menukar pertuturan kepada teks dalam bahasa asal yang dituturkan. Penterjemah Langsung mengambil pertuturan itu dan menterjemahkannya ke dalam bahasa pilihan anda secara masa nyata — sesuai apabila penutur dan pembaca menggunakan bahasa yang berbeza, contohnya doktor dari luar negara atau mesyuarat perniagaan dalam bahasa lain."
+      },
+      {
+        "q": "Adakah Captio AI menyimpan atau berkongsi audio saya?",
+        "a": "Audio anda tidak pernah disimpan pada pelayan Captio AI, dan tidak pernah dijual atau dikongsi untuk pengiklanan. Ia dihantar dengan selamat kepada perkhidmatan pengecaman pertuturan hanya untuk ditukar kepada teks, kemudian dibuang di sana. Rakaman yang anda pilih untuk disimpan kekal pada telefon anda; transkrip dan ringkasannya juga disimpan dalam akaun anda sendiri supaya anda boleh membukanya pada peranti lain, dan memadam rakaman akan membuangnya di mana-mana. Perbualan anda tidak pernah digunakan untuk melatih model AI — sama ada model kami atau milik sesiapa pun."
+      },
+      {
+        "q": "Adakah Captio AI berfungsi tanpa sambungan internet?",
+        "a": "Sari Kata Langsung dan Penterjemah Langsung memerlukan sambungan internet untuk memproses pertuturan secara masa nyata. Transkripsi Audio (untuk fail yang dimuat naik) juga memerlukan sambungan. Sari kata luar talian belum disokong buat masa ini."
+      },
+      {
+        "q": "Telefon atau iPad apakah yang saya perlukan?",
+        "a": "Captio AI berjalan pada iPhone dan iPad dengan iOS 16 atau lebih baharu, dan pada telefon Android. Ia dioptimumkan untuk telefon dan berfungsi paling baik apabila tiada halangan antara mikrofon dengan penutur."
+      },
+      {
+        "q": "Bolehkah saya menggunakan Captio AI semasa temu janji doktor?",
+        "a": "Ya — temu janji doktor ialah salah satu kegunaan yang paling penting. Anda boleh meletakkan telefon di atas meja atau menghalakannya ke arah doktor dan membaca semua yang mereka katakan secara masa nyata. Istilah perubatan dikendalikan dengan tepat, menjadikan Captio AI alat kebolehcapaian yang praktikal di klinik dan hospital."
+      },
+      {
+        "q": "Bolehkah saya menggunakan Captio AI dalam mesyuarat dan kuliah?",
+        "a": "Ya. Captio AI berfungsi dalam apa jua situasi yang melibatkan pertuturan — mesyuarat kerja, kuliah universiti, mesyuarat ringkas pasukan, persidangan dan panggilan video. Halakan mikrofon ke arah penutur dan sari kata akan muncul serta-merta."
+      },
+      {
+        "q": "Apakah Transkripsi Audio dan apa bezanya dengan Sari Kata Langsung?",
+        "a": "Sari Kata Langsung berfungsi secara masa nyata semasa seseorang bercakap. Transkripsi Audio pula untuk rakaman — anda memuat naik fail audio atau video dan mendapat transkrip bertulis yang lengkap. Ia sesuai untuk menyemak semula kuliah yang anda rakam, temu bual, podcast atau apa jua kandungan yang anda lebih suka baca daripada dengar."
+      },
+      {
+        "q": "Apakah fungsi Ringkasan AI?",
+        "a": "Ringkasan AI mengambil apa jua transkrip dan mengekstrak maklumat penting — perkara utama, keputusan yang dibuat, tindakan susulan dan butiran penting — ke dalam ringkasan yang tersusun. Ia menjimatkan masa apabila anda ada transkrip panjang daripada mesyuarat atau kuliah dan perlukan intipatinya dengan cepat."
+      },
+      {
+        "q": "Adakah Captio AI percuma?",
+        "a": "Captio AI ada pelan percuma yang membolehkan anda bermula tanpa sebarang bayaran. Pelan Plus tersedia untuk pengguna yang memerlukan akses tanpa had. Harga Plus semasa untuk negara anda dipaparkan di halaman App Store."
+      },
+      {
+        "q": "Apakah perbezaan Captio AI dengan Kapsyen Langsung terbina dalam Apple?",
+        "a": "Kapsyen Langsung Apple terbina dalam iOS tetapi menyokong lebih sedikit bahasa, tidak menawarkan terjemahan dan tidak termasuk Transkripsi Audio atau Ringkasan AI. Captio AI menyokong 60+ bahasa, menyediakan terjemahan masa nyata, membolehkan anda mentranskripsi fail yang dimuat naik dan menjana ringkasan AI — menjadikannya alat kebolehcapaian dan produktiviti yang jauh lebih lengkap."
+      }
+    ]
+  },
+  "featurePages": {
+    "live-captions": {
+      "meta": {
+        "title": "Sari Kata Langsung untuk Pekak & Kurang Pendengaran di iPhone",
+        "description": "Pertuturan ke teks masa nyata melalui mikrofon iPhone. Ikuti apa jua perbualan dalam apa jua bahasa, serta-merta. Untuk orang Pekak dan kurang pendengaran.",
+        "schemaDescription": "Sari kata langsung masa nyata untuk orang Pekak dan kurang pendengaran. 60+ bahasa, kependaman jauh di bawah satu saat, berfungsi di mana-mana."
+      },
+      "howTitle": "Tiga ketikan. Perbualan penuh.",
+      "steps": [
+        {
+          "title": "Mula merakam",
+          "desc": "Tekan butang rakam. Captio AI terus mula mendengar."
+        },
+        {
+          "title": "Lihat perkataan muncul",
+          "desc": "Sari kata muncul perkataan demi perkataan semasa orang itu masih bercakap."
+        },
+        {
+          "title": "Simpan",
+          "desc": "Simpan transkripsi dan rakaman audio untuk dirujuk kemudian."
+        }
+      ],
+      "featuresTitle": "Dibina untuk perbualan sebenar",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Perkataan yang sama seperti yang diucapkan",
+          "description": "Captio AI menangkap apa yang sebenarnya diucapkan, bukan sekadar maksud kasar. Jadi anda boleh mempercayai transkrip apabila ia penting — di klinik, dalam temu duga, dalam mesyuarat."
+        },
+        {
+          "title": "Tanpa kelewatan",
+          "description": "Kependaman jauh di bawah satu saat. Sari kata muncul perkataan demi perkataan semasa orang itu masih bercakap, jadi anda membaca kata-kata mereka pada saat yang sama orang lain mendengarnya."
+        },
+        {
+          "title": "Tahu siapa yang bercakap",
+          "description": "Dalam kumpulan dan mesyuarat, Captio AI melabel setiap penutur secara berasingan supaya anda sentiasa tahu siapa berkata apa, tanpa perlu memerhati wajah atau membaca gerak bibir."
+        },
+        {
+          "title": "60+ bahasa",
+          "description": "Ikuti perbualan dalam bahasa Perancis, Jepun atau Arab sama seperti anda mengikuti perbualan dalam bahasa Inggeris. Tiada mod untuk ditukar. Masalah pendengaran tidak akan menjadi halangan bahasa juga."
+        },
+        {
+          "title": "Mampu ikut bahasa yang bercampur di tengah ayat",
+          "description": "Apabila orang bertukar bahasa di tengah perbualan, Captio AI tetap dapat mengikutinya. Tiada jurang dalam sari kata, tiada mod untuk ditukar."
+        },
+        {
+          "title": "Ajar perbendaharaan kata anda",
+          "description": "Tambah nama, istilah perubatan atau perkataan khusus yang kerap anda dengar. Captio AI menggunakan senarai perkataan anda untuk memaparkan sari kata perbualan sebenar anda dengan lebih tepat."
+        },
+        {
+          "title": "Tambah petunjuk bahasa",
+          "description": "Beritahu Captio AI bahasa yang dijangka dan ia sudah bersedia dari perkataan pertama — berguna apabila bahasa yang dituturkan tidak jelas daripada konteks."
+        },
+        {
+          "title": "Transkripsi semula kemudian untuk ketepatan lebih tinggi",
+          "description": "Jalankan semula mana-mana rakaman selepas itu untuk mendapat transkrip yang lebih kemas. Berguna untuk kuliah, temu janji dan apa jua perbualan yang wajar disemak semula."
+        },
+        {
+          "title": "Baca mengikut cara anda",
+          "description": "Laraskan saiz teks, warna latar dan kontras sehingga sari kata mudah dibaca sepintas lalu — sama ada telefon di tangan, diletakkan rata di atas meja atau disandarkan di meja kerja."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Audio tidak disimpan pada pelayan kami",
+          "description": "Audio anda ditukar kepada teks secara masa nyata dan tidak pernah disimpan pada pelayan kami. Rakaman yang anda simpan kekal pada telefon anda, dan transkripnya hanya disegerakkan ke akaun anda sendiri."
+        },
+        {
+          "title": "Bukan barang dagangan",
+          "description": "Perbualan anda bukan sesuatu yang Captio AI jual, kongsi atau jadikan sumber pendapatan — kepada sesiapa pun, atas apa jua sebab."
+        },
+        {
+          "title": "Tidak digunakan untuk melatih apa-apa",
+          "description": "Apa yang anda katakan semasa temu janji doktor atau temu duga kerja tidak akan berakhir dalam set data latihan. Bukan set data kami. Bukan milik sesiapa pun."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Apakah perbezaan Captio AI dengan Kapsyen Langsung terbina dalam Apple?",
+          "a": "Kapsyen Langsung Apple menyokong lebih sedikit bahasa, tidak menawarkan terjemahan dan tidak termasuk Transkripsi Audio atau Ringkasan AI. Captio AI menyokong 60+ bahasa, menyediakan terjemahan masa nyata, membolehkan anda mentranskripsi fail yang dimuat naik dan menjana ringkasan AI. Ia juga membolehkan anda menyesuaikan saiz teks, warna dan kontras mengikut cara anda paling selesa membaca."
+        },
+        {
+          "q": "Sejauh manakah ketepatan sari kata langsung?",
+          "a": "Ketepatannya tinggi dalam keadaan perbualan biasa. Captio AI dibina untuk pertuturan sebenar — bukan sekadar audio studio yang bersih — jadi ia boleh mengendalikan orang yang bercakap laju, loghat serantau, bunyi latar dan ayat yang bercampur bahasa. Anda juga boleh menambah perbendaharaan kata tersuai (nama, istilah perubatan, perkataan khusus) untuk meningkatkan ketepatan bagi perbualan anda."
+        },
+        {
+          "q": "Berapa cepat sari kata muncul?",
+          "a": "Perkataan demi perkataan, semasa orang itu masih bercakap. Kependamannya jauh di bawah satu saat — hampir masa nyata. Anda membaca kata-kata seseorang pada saat yang sama orang lain mendengarnya, bukan selepas mereka habis berkata."
+        },
+        {
+          "q": "Adakah Sari Kata Langsung berfungsi di tempat bising?",
+          "a": "Ya. Captio AI direka untuk persekitaran sebenar — restoran, jalan raya, bilik menunggu, pengangkutan awam. Halakan mikrofon ke arah penutur dan sari kata akan muncul walaupun ada bunyi latar."
+        },
+        {
+          "q": "Bahasa apakah yang disokong oleh Sari Kata Langsung?",
+          "a": "60+ bahasa termasuk Inggeris, Sepanyol, Perancis, Jerman, Mandarin, Arab, Hindi, Jepun, Korea, Portugis, Rusia dan banyak lagi. Loghat dan dialek serantau disokong bagi semua bahasa utama."
+        },
+        {
+          "q": "Adakah ia berfungsi dengan loghat dan dialek?",
+          "a": "Ya. Captio AI mengendalikan pelbagai loghat serantau — bukan sekadar pertuturan baku seperti dalam buku teks. Bahasa Inggeris Australia, bahasa Sepanyol Amerika Latin, bahasa Jerman Switzerland, bahasa Perancis Québec dan banyak lagi disokong."
+        },
+        {
+          "q": "Bolehkah saya menyimpan sari kata saya?",
+          "a": "Ya. Anda boleh menyimpan transkripsi dan rakaman audio selepas sesi dan menyemaknya kemudian. Anda juga boleh mentranskripsi semula rakaman yang disimpan untuk mendapatkan transkrip yang lebih kemas dan tepat."
+        },
+        {
+          "q": "Adakah saya memerlukan sambungan internet?",
+          "a": "Ya. Sari Kata Langsung memerlukan sambungan internet untuk memproses pertuturan secara masa nyata. Sari kata luar talian belum disokong buat masa ini."
+        }
+      ]
+    },
+    "live-translator": {
+      "meta": {
+        "title": "Penterjemah Langsung: Terjemah Suara Masa Nyata di iPhone",
+        "description": "Terjemahan pertuturan masa nyata di iPhone. Mereka bercakap bahasa mereka, anda baca dalam bahasa anda, serta-merta. Untuk orang Pekak dan kurang pendengaran.",
+        "schemaDescription": "Terjemahan pertuturan masa nyata untuk orang Pekak dan kurang pendengaran. 60+ bahasa, setiap orang bercakap dalam bahasa sendiri, anda membaca dalam bahasa anda."
+      },
+      "howTitle": "Tiga ketikan. Apa jua bahasa.",
+      "steps": [
+        {
+          "title": "Pilih mod penterjemah",
+          "desc": "Buka Captio AI dan pilih Penterjemah Langsung."
+        },
+        {
+          "title": "Pilih bahasa pilihan anda",
+          "desc": "Pilih bahasa yang anda mahu baca."
+        },
+        {
+          "title": "Lihat terjemahan secara masa nyata",
+          "desc": "Captio AI menterjemah perkataan demi perkataan."
+        }
+      ],
+      "featuresTitle": "Dibina untuk perbualan sebenar",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Apa jua bahasa",
+          "description": "Perancis, Jepun, Arab, Sepanyol, Jerman, Mandarin — 60+ bahasa, dalam apa jua arah. Masalah pendengaran tidak akan menjadi halangan bahasa juga."
+        },
+        {
+          "title": "Mengesan bahasa pertuturan secara automatik",
+          "description": "Biarkan bahasa sumber pada auto dan Captio AI akan mengenal pastinya dari perkataan pertama. Tidak perlu memilih secara manual sebelum setiap perbualan."
+        },
+        {
+          "title": "Tanpa kelewatan",
+          "description": "Kependaman terjemahan jauh di bawah satu saat. Anda membaca kata-kata seseorang pada saat yang sama orang lain mendengarnya, bukan selepas mereka habis berkata."
+        },
+        {
+          "title": "Tambah petunjuk bahasa",
+          "description": "Beritahu Captio AI bahasa yang dijangka dan ia sudah bersedia dari perkataan pertama — berguna apabila bahasa yang dituturkan tidak jelas daripada konteks."
+        },
+        {
+          "title": "Beberapa bahasa pada masa yang sama",
+          "description": "Apabila orang bertukar bahasa di tengah perbualan, Captio AI tetap dapat mengikutinya — menterjemah setiap satu ke dalam bahasa anda tanpa perlu campur tangan manual."
+        },
+        {
+          "title": "Baca mengikut cara anda",
+          "description": "Laraskan warna latar, warna teks dan saiz fon supaya terjemahan mudah dibaca sepintas lalu, sama ada telefon di tangan anda atau diletakkan rata di atas meja."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Audio tidak disimpan pada pelayan kami",
+          "description": "Audio anda ditukar kepada teks secara masa nyata dan tidak pernah disimpan pada pelayan kami. Rakaman yang anda simpan kekal pada telefon anda, dan transkripnya hanya disegerakkan ke akaun anda sendiri."
+        },
+        {
+          "title": "Bukan barang dagangan",
+          "description": "Perbualan anda bukan sesuatu yang Captio AI jual, kongsi atau jadikan sumber pendapatan — kepada sesiapa pun, atas apa jua sebab."
+        },
+        {
+          "title": "Tidak digunakan untuk melatih apa-apa",
+          "description": "Apa yang anda katakan semasa temu janji doktor atau temu duga kerja tidak akan berakhir dalam set data latihan. Bukan set data kami. Bukan milik sesiapa pun."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Apakah perbezaan Penterjemah Langsung dengan Sari Kata Langsung?",
+          "a": "Sari Kata Langsung menukar pertuturan kepada teks dalam bahasa asal yang dituturkan. Penterjemah Langsung mengambil pertuturan itu dan menterjemahkannya ke dalam bahasa pilihan anda secara masa nyata. Jika orang lain bercakap bahasa Perancis dan anda membaca dalam bahasa Inggeris, gunakan Penterjemah Langsung."
+        },
+        {
+          "q": "Sejauh manakah ketepatan terjemahan?",
+          "a": "Ketepatan terjemahan tinggi bagi pasangan bahasa yang biasa dalam perbualan harian. Captio AI mengendalikan pertuturan semula jadi — orang yang bercakap laju, loghat, bunyi latar — bukan sekadar audio studio yang bersih. Bagi pasangan bahasa yang jarang atau kandungan yang sangat teknikal, ketepatan mungkin berbeza."
+        },
+        {
+          "q": "Bahasa apakah yang disokong?",
+          "a": "60+ bahasa termasuk Inggeris, Sepanyol, Perancis, Jerman, Mandarin, Arab, Hindi, Jepun, Korea, Portugis, Rusia dan banyak lagi. Bahasa sumber dan bahasa sasaran boleh jadi mana-mana bahasa yang disokong."
+        },
+        {
+          "q": "Berapa cepat terjemahan muncul?",
+          "a": "Kependaman jauh di bawah satu saat. Anda membaca terjemahan perkataan demi perkataan semasa orang itu masih bercakap — hampir masa nyata, bukan selepas mereka habis berkata."
+        },
+        {
+          "q": "Adakah ia sesuai untuk temu janji dengan doktor yang bercakap bahasa asing?",
+          "a": "Ya. Ini salah satu kegunaan yang paling penting. Letakkan telefon di atas meja, tetapkan bahasa sumber kepada bahasa doktor dan baca semua yang mereka katakan dalam bahasa anda secara masa nyata. Anda juga boleh menyimpan transkrip terjemahan untuk menyemak semula arahan mereka selepas itu."
+        },
+        {
+          "q": "Adakah ia berfungsi di tempat bising?",
+          "a": "Ya. Captio AI dibina untuk persekitaran sebenar — bilik menunggu, restoran, lapangan terbang. Halakan mikrofon ke arah penutur dan terjemahan akan muncul walaupun ada bunyi sekeliling."
+        },
+        {
+          "q": "Bolehkah saya menyimpan transkrip terjemahan?",
+          "a": "Ya. Selepas sesi, anda boleh menyimpan teks terjemahan dan menyemaknya kemudian. Berguna untuk temu janji perubatan, mesyuarat dan apa jua perbualan yang anda mahu simpan rekodnya."
+        },
+        {
+          "q": "Adakah saya memerlukan sambungan internet?",
+          "a": "Ya. Penterjemah Langsung memerlukan sambungan internet untuk memproses dan menterjemah pertuturan secara masa nyata. Terjemahan luar talian belum disokong buat masa ini."
+        }
+      ]
+    },
+    "audio-transcription": {
+      "meta": {
+        "title": "Transkripsi Audio: Audio & Video ke Teks di iPhone",
+        "description": "Muat naik fail audio atau video dan dapatkan transkrip penuh. 60+ bahasa, penutur diasingkan, boleh dicari. Dibina untuk orang Pekak dan kurang pendengaran.",
+        "schemaDescription": "Muat naik apa jua fail audio atau video dan dapatkan transkrip bertulis yang lengkap. 60+ bahasa, pemisahan penutur, cap masa. Dibina untuk orang Pekak dan kurang pendengaran."
+      },
+      "howTitle": "Muat naik. Baca. Siap.",
+      "steps": [
+        {
+          "title": "Pilih format muat naik",
+          "desc": "Pilih sama ada anda memuat naik fail audio atau fail video."
+        },
+        {
+          "title": "Pilih fail",
+          "desc": "Pilih fail daripada telefon anda. Captio AI terus mula mentranskripsi."
+        },
+        {
+          "title": "Lihat transkripsi",
+          "desc": "Baca transkrip penuh, disusun mengikut penutur, dengan cap masa."
+        }
+      ],
+      "featuresTitle": "Dibina untuk rakaman sebenar",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Apa jua format",
+          "description": "MP3, MP4, M4A, WAV dan banyak lagi. Kuliah, mesyuarat, mel suara, podcast, temu bual, rakaman telefon — jika ada pertuturan di dalamnya, Captio AI boleh mentranskripsinya."
+        },
+        {
+          "title": "Ketepatan tertinggi",
+          "description": "Captio AI dibina untuk audio dunia sebenar, bukan sekadar fail studio yang bersih. Audio panggilan telefon, rakaman dewan kuliah, persekitaran bising — semuanya boleh dikendalikan."
+        },
+        {
+          "title": "Apa jua bahasa",
+          "description": "Muat naik rakaman dalam bahasa Perancis, Jepun, Arab atau 57 bahasa lain. Captio AI mengenal pasti bahasanya dan mentranskripsinya dengan tepat."
+        },
+        {
+          "title": "Pelbagai bahasa",
+          "description": "Apabila penutur bertukar bahasa di tengah rakaman, Captio AI tetap dapat mengikutinya. Transkrip merangkumi setiap bahasa yang dituturkan, tanpa jurang."
+        },
+        {
+          "title": "Cap masa",
+          "description": "Setiap baris dalam transkrip mempunyai cap masa supaya anda boleh melompat ke mana-mana saat dalam rakaman dan mencari dengan tepat apa yang dikatakan dan bila."
+        },
+        {
+          "title": "Eksport dan kongsi",
+          "description": "Salin transkrip penuh, kongsikannya atau simpan. Rakaman dan transkrip anda sentiasa boleh diakses bila-bila masa anda perlukan."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Fail tidak disimpan pada pelayan kami",
+          "description": "Fail anda dihantar hanya untuk ditranskripsikan, kemudian dibuang di sana, dan tidak pernah disimpan pada pelayan kami. Rakaman kekal pada telefon anda, dan transkripnya hanya disegerakkan ke akaun anda sendiri."
+        },
+        {
+          "title": "Bukan barang dagangan",
+          "description": "Rakaman anda bukan sesuatu yang Captio AI jual, kongsi atau jadikan sumber pendapatan — kepada sesiapa pun, atas apa jua sebab."
+        },
+        {
+          "title": "Tidak digunakan untuk melatih apa-apa",
+          "description": "Apa yang anda muat naik — temu janji doktor, mesyuarat, temu duga — tidak akan berakhir dalam set data latihan. Bukan set data kami. Bukan milik sesiapa pun."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Apakah perbezaan Transkripsi Audio dengan Sari Kata Langsung?",
+          "a": "Sari Kata Langsung berfungsi secara masa nyata semasa seseorang bercakap. Transkripsi Audio pula untuk rakaman — anda memuat naik fail audio atau video dan mendapat transkrip bertulis yang lengkap. Ia sesuai untuk menyemak semula kuliah yang anda rakam, temu janji doktor, temu bual atau apa jua kandungan yang anda lebih suka baca daripada dengar."
+        },
+        {
+          "q": "Format fail apakah yang disokong oleh Transkripsi Audio?",
+          "a": "Captio AI menerima format audio dan video yang biasa termasuk MP3, MP4, M4A, WAV dan banyak lagi. Jika anda merakamnya dengan telefon atau memuat turunnya dari platform video, ia akan berfungsi."
+        },
+        {
+          "q": "Sejauh manakah ketepatan transkripsi?",
+          "a": "Ketepatannya tinggi bagi rakaman yang jelas dalam bahasa yang disokong. Captio AI mengendalikan audio dunia sebenar — panggilan telefon, rakaman dewan kuliah, persekitaran bising — bukan sekadar fail berkualiti studio. Anda juga boleh mentranskripsi semula fail untuk pusingan kedua jika perlu."
+        },
+        {
+          "q": "Bahasa apakah yang disokong?",
+          "a": "60+ bahasa termasuk Inggeris, Sepanyol, Perancis, Jerman, Mandarin, Arab, Hindi, Jepun, Korea, Portugis, Rusia dan banyak lagi. Captio AI mengesan bahasa pertuturan dalam fail secara automatik."
+        },
+        {
+          "q": "Adakah ia mengasingkan penutur?",
+          "a": "Ya. Captio AI melabel setiap penutur secara berasingan dalam transkrip supaya anda boleh mengikuti siapa berkata apa — berguna untuk mesyuarat, temu bual, temu janji doktor dan apa jua rakaman yang melibatkan ramai orang."
+        },
+        {
+          "q": "Berapa lama masa yang diambil untuk transkripsi?",
+          "a": "Transkripsi adalah pantas. Rakaman satu jam biasanya mengambil masa beberapa minit. Masanya bergantung pada panjang fail dan kualiti audio."
+        },
+        {
+          "q": "Adakah audio saya disimpan selepas transkripsi?",
+          "a": "Tidak pada pelayan Captio AI. Fail dihantar dengan selamat kepada perkhidmatan pengecaman pertuturan hanya untuk ditranskripsikan, dan dibuang di sana sebaik sahaja transkrip siap. Rakaman kekal pada telefon anda, dan transkripnya juga disimpan dalam akaun anda sendiri supaya anda boleh membukanya pada peranti lain. Rakaman anda tidak pernah dijual atau digunakan untuk melatih model AI."
+        },
+        {
+          "q": "Bolehkah saya mentranskripsi fail video?",
+          "a": "Ya. Muat naik fail video secara terus dan Captio AI akan mengekstrak audionya lalu mentranskripsinya. Tidak perlu menukar format fail terlebih dahulu."
+        }
+      ]
+    },
+    "ai-summary": {
+      "meta": {
+        "title": "Ringkasan AI: Ringkasan Tersusun untuk Apa Jua Transkrip",
+        "description": "Jadikan transkrip ringkasan yang tersusun. Perkara utama, keputusan dan tindakan susulan diekstrak secara automatik. Untuk orang Pekak dan kurang pendengaran.",
+        "schemaDescription": "Jadikan apa jua transkrip ringkasan yang tersusun. Perkara utama, keputusan, tindakan susulan dan petikan penutur diekstrak secara automatik."
+      },
+      "howTitle": "Masukkan transkrip. Dapatkan ringkasan.",
+      "steps": [
+        {
+          "title": "Buka mana-mana transkrip",
+          "desc": "Pilih mana-mana transkrip daripada Sari Kata Langsung atau Transkripsi Audio."
+        },
+        {
+          "title": "Jana ringkasan",
+          "desc": "Ketik Ringkasan AI. Captio AI memproses transkrip secara automatik."
+        },
+        {
+          "title": "Baca ringkasan",
+          "desc": "Ringkasan anda sudah siap — disusun mengikut bahagian, sedia untuk dibaca atau dikongsi."
+        }
+      ],
+      "featuresTitle": "Dibina untuk transkrip yang panjang",
+      "featuresSubtitle": "Dapatkan ringkasan, senarai tugasan, petikan penutur, nota dan banyak lagi.",
+      "subfeatures": [
+        {
+          "title": "Perkara utama diekstrak secara automatik",
+          "description": "Captio AI membaca keseluruhan transkrip dan mengeluarkan apa yang benar-benar penting — perkara utama, keputusan yang dibuat dan kesimpulan yang dicapai."
+        },
+        {
+          "title": "Tindakan susulan dikenal pasti",
+          "description": "Tugasan dan tindakan susulan dikenal pasti dan disenaraikan secara berasingan supaya tiada apa yang terlepas selepas mesyuarat, temu janji atau kuliah."
+        },
+        {
+          "title": "Disusun mengikut bahagian",
+          "description": "Ringkasan disusun dengan teratur, bukan satu blok teks yang panjang. Setiap topik ada bahagiannya sendiri supaya anda boleh mengimbas dan mencari apa yang anda perlukan."
+        },
+        {
+          "title": "Berfungsi pada mana-mana transkrip Captio AI",
+          "description": "Jalankan Ringkasan AI pada mana-mana transkrip yang anda buat dengan Sari Kata Langsung atau Transkripsi Audio. Tiada langkah tambahan, tiada salin-tampal."
+        },
+        {
+          "title": "Apa jua bahasa",
+          "description": "Ringkaskan transkrip dalam 60+ bahasa. Captio AI membaca transkrip dalam bahasa asalnya dan menghasilkan ringkasan yang boleh anda baca."
+        },
+        {
+          "title": "Simpan dan kongsi",
+          "description": "Simpan ringkasan bersama transkrip, salin atau kongsikannya. Berguna selepas temu janji doktor, mesyuarat dan kuliah."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Disimpan dalam akaun anda sahaja",
+          "description": "Ringkasan anda disimpan bersama rakamannya, pada telefon anda dan dalam akaun anda sendiri, jadi ia ada pada mana-mana peranti yang anda log masuk. Padamkannya dan ia hilang di mana-mana."
+        },
+        {
+          "title": "Bukan barang dagangan",
+          "description": "Perbualan anda bukan sesuatu yang Captio AI jual, kongsi atau jadikan sumber pendapatan — kepada sesiapa pun, atas apa jua sebab."
+        },
+        {
+          "title": "Tidak digunakan untuk melatih apa-apa",
+          "description": "Apa yang anda ringkaskan — temu janji doktor, mesyuarat, temu duga — tidak akan berakhir dalam set data latihan. Bukan set data kami. Bukan milik sesiapa pun."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Apakah fungsi Ringkasan AI?",
+          "a": "Ringkasan AI mengambil apa jua transkrip dan mengekstrak maklumat penting — perkara utama, keputusan, tindakan susulan dan butiran penting — ke dalam ringkasan yang tersusun. Ia menjimatkan masa apabila anda ada transkrip yang panjang dan perlukan intipatinya dengan cepat."
+        },
+        {
+          "q": "Transkrip manakah yang boleh saya ringkaskan?",
+          "a": "Mana-mana transkrip yang dibuat dalam Captio AI — daripada Sari Kata Langsung atau Transkripsi Audio. Anda menjalankan Ringkasan AI terus pada transkrip itu, tanpa langkah tambahan."
+        },
+        {
+          "q": "Apa bezanya Ringkasan AI dengan membaca transkrip sahaja?",
+          "a": "Transkrip penuh mesyuarat satu jam boleh mencecah beribu-ribu perkataan. Ringkasan AI memberi anda perkara utama, keputusan dan tindakan susulan dalam masa membaca yang jauh lebih singkat — disusun mengikut topik, bukan mengikut urutan perkara itu diperkatakan."
+        },
+        {
+          "q": "Adakah ia sesuai untuk temu janji perubatan?",
+          "a": "Ya. Temu janji doktor menghasilkan banyak maklumat dengan cepat. Ringkasan AI mengekstrak diagnosis, arahan dan langkah susulan ke dalam senarai yang jelas untuk anda semak dan rujuk semula."
+        },
+        {
+          "q": "Bahasa apakah yang disokong?",
+          "a": "Ringkasan AI berfungsi pada transkrip dalam 60+ bahasa. Ringkasan dihasilkan dalam bahasa yang sama dengan transkrip."
+        },
+        {
+          "q": "Bolehkah saya menyimpan atau berkongsi ringkasan?",
+          "a": "Ya. Anda boleh menyimpan ringkasan bersama transkrip asal, menyalinnya atau berkongsinya. Berguna untuk menghantar rumusan mesyuarat atau menyimpan rekod temu janji perubatan."
+        },
+        {
+          "q": "Adakah Ringkasan AI menyimpan transkrip atau audio saya?",
+          "a": "Transkrip anda dihantar dengan selamat kepada perkhidmatan AI hanya untuk menulis ringkasan, dan tidak pernah digunakan untuk melatih model AI. Ringkasan disimpan bersama rakaman, pada telefon anda dan dalam akaun anda sendiri, sehingga anda memadamkannya. Audio tidak pernah disimpan pada pelayan Captio AI, dan perbualan anda tidak pernah dijual."
+        }
+      ]
+    }
+  }
+}

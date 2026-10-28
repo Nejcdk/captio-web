@@ -61,6 +61,8 @@ export function softwareApplicationSchema(opts: {
   url: string;
   description: string;
   inLanguage?: string;
+  /** The feature names in the page's language (translated pages). */
+  featureList?: string[];
 }) {
   return {
     "@type": "SoftwareApplication",
@@ -76,7 +78,7 @@ export function softwareApplicationSchema(opts: {
     downloadUrl: [APP_STORE_URL, GOOGLE_PLAY_URL],
     installUrl: [APP_STORE_URL, GOOGLE_PLAY_URL],
     sameAs: [APP_STORE_URL, GOOGLE_PLAY_URL],
-    featureList: FEATURE_LIST,
+    featureList: opts.featureList ?? FEATURE_LIST,
     offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
     publisher: { "@id": ORG_ID },
     ...(opts.inLanguage ? { inLanguage: opts.inLanguage } : {}),

@@ -392,7 +392,7 @@ export default async function UseCaseLanguagePage({ params }: Props) {
             <div className="mb-8" />
             <div className="grid sm:grid-cols-3 gap-4 mb-10">
               {[
-                { title: "Gone the moment it ends", description: "Captio AI processes your audio in real time and discards it immediately. Nothing is recorded. Nothing is kept." },
+                { title: "Audio stays off our servers", description: "Your audio is turned into text in real time and never stored on our servers. Recordings you save stay on your phone, and their transcripts sync only to your own account." },
                 { title: "Not a product", description: "Your conversations are not something Captio AI sells, shares, or monetizes — to anyone, for any reason." },
                 { title: "Not used to train anything", description: "What you say in a doctor's appointment or a job interview never ends up in a training dataset. Not ours. Not anyone else's." },
               ].map((item) => (
@@ -405,7 +405,7 @@ export default async function UseCaseLanguagePage({ params }: Props) {
             <div className="flex justify-center">
               <Image
                 src="/privacy.png"
-                alt="Private by default — your audio is discarded, never sold, never used for training"
+                alt="Private by default — your audio is never stored on our servers, never sold, never used for training"
                 width={160}
                 height={160}
                 className="drop-shadow-2xl"

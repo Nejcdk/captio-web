@@ -165,7 +165,7 @@ export const useCases: UseCase[] = [
       { q: "How do I position the phone in a conference room?", a: "Place it flat on the table in front of you, microphone facing the centre of the room or toward the most active speaker. A small phone stand keeps it stable without drawing attention. For video calls, point it toward your laptop's speaker output." },
       { q: "What if multiple people speak at once?", a: "Captio AI follows the dominant voice at any moment — whoever is speaking loudest in the microphone's direction. In a normal meeting room this tracks the active speaker. Genuine simultaneous crosstalk follows the loudest voice, which mirrors how hearing works in the same situation." },
       { q: "Does it work for stand-ups and small team meetings?", a: "Yes. Stand-ups, 1:1s, retrospectives, and larger all-hands are all handled the same way — place the phone on the table, point it toward whoever is speaking, and read along in real time." },
-      { q: "Can I use Captio AI in meetings without telling anyone?", a: "Yes. The app runs quietly on your phone. You can place it on the table or hold it without drawing attention. Audio is processed in real time and discarded immediately — nothing is recorded or stored." },
+      { q: "Can I use Captio AI in meetings without telling anyone?", a: "Yes. The app runs quietly on your phone. You can place it on the table or hold it without drawing attention. Your audio is never stored on Captio AI's servers, and a recording stays on your phone only if you save it." },
       { q: "Can I get a written transcript of the meeting afterwards?", a: "Yes. Record the meeting audio on your phone and upload it to Audio Transcription. You get a full written transcript organised by speaker — useful for reviewing decisions, confirming action items, or sharing notes with your team." },
       { q: "Does it work for all-hands meetings and large presentations?", a: "Yes. In a venue with a PA system, point the phone's microphone toward a speaker output. The PA audio gives a clean signal. In smaller rooms without PA, the phone on your desk captions the speaker at the front." },
       { q: "What about meetings in another language or with international colleagues?", a: "Use Live Translator. Your colleagues speak their language — you read the translation in real time. Works across 60+ languages with no manual setup between speakers or language switches." },
@@ -183,7 +183,7 @@ export const useCases: UseCase[] = [
       "Place your phone on the desk — captions appear as the doctor speaks",
       "Medical terminology is handled accurately",
       "Works in any language — for visiting foreign doctors or specialists",
-      "Audio is processed in real time and discarded — 100% private",
+      "Audio never stored on Captio AI's servers",
     ],
     featureHighlights: [
       {
@@ -283,7 +283,7 @@ export const useCases: UseCase[] = [
       },
       {
         title: "100% private",
-        description: "Medical conversations are among the most sensitive there are. Captio AI processes audio in real time and discards it immediately. Nothing is recorded, stored, or shared.",
+        description: "Medical conversations are among the most sensitive there are. Their audio is never stored on Captio AI's servers, never sold and never used to train AI. Recordings you save stay on your phone; their transcripts sync only to your own account.",
       },
     ],
     challenge: {
@@ -572,7 +572,7 @@ export const useCases: UseCase[] = [
       { q: "What if someone switches language mid-conversation?", a: "Switch to Live Translator mode. Live Translator detects the spoken language and translates into your chosen language in real time — so mid-conversation language switches are handled automatically without any manual adjustment." },
       { q: "How should I hold or position my phone?", a: "Point the microphone toward whoever is speaking. In a face-to-face conversation, place the phone flat on the table between you with the microphone facing the other person. In a group setting, place it in the centre of the group. You do not need to hold it — a flat surface works well." },
       { q: "Does it work for counter conversations — pharmacies, post offices, shops?", a: "Yes. Hold or place the phone near the counter, pointed toward the staff member. They speak at their normal pace; you read the captions. You do not need to explain anything to them or ask them to slow down." },
-      { q: "Is the audio from my conversations stored anywhere?", a: "No. Captio AI processes audio in real time and discards it immediately. Nothing is stored on servers, nothing is shared, and nothing is used for any purpose beyond generating captions in the moment." },
+      { q: "Is the audio from my conversations stored anywhere?", a: "Only on your phone, if you save the recording. Captio AI never stores audio on its servers: it is sent securely to a speech-recognition service only to turn it into text, then deleted there. Transcripts you save also sync to your own account, and nothing is sold or used to train AI models." },
       { q: "Does it work when people are speaking quietly?", a: "Quiet speech is captured as long as the phone is close enough to the speaker — within a metre typically works well. Very low whispers at distance may reduce accuracy, but normal quiet speech in a one-to-one conversation is handled accurately." },
       { q: "Can I use Captio AI for informal work moments — hallway chats, quick questions?", a: "Yes. These spontaneous conversations are exactly what Captio AI is designed for. Open the app and point it toward whoever is speaking. There is no setup required between conversations." },
       { q: "Does Captio AI need an internet connection?", a: "Yes. Captio AI requires an active internet connection — Wi-Fi or mobile data — to process speech. For outdoor conversations, a mobile data connection keeps it working wherever you are." },
@@ -688,7 +688,7 @@ export const useCases: UseCase[] = [
       },
       {
         title: "Private by default",
-        description: "Interview conversations are sensitive. Captio AI processes audio in real time and discards it immediately — nothing is stored, nothing is shared.",
+        description: "Interview conversations are sensitive. Their audio is never stored on Captio AI's servers and never sold; recordings you save stay on your phone.",
       },
     ],
     challenge: {
@@ -1228,7 +1228,7 @@ export const useCases: UseCase[] = [
       },
       {
         title: "Private by default",
-        description: "Travel conversations — customs declarations, hotel bookings, personal exchanges — are never stored or shared. Audio is processed in real time and discarded immediately.",
+        description: "Travel conversations — customs declarations, hotel bookings, personal exchanges — are never sold or shared for advertising. Their audio is never stored on Captio AI's servers.",
       },
     ],
     challenge: {
@@ -1635,7 +1635,7 @@ export const useCases: UseCase[] = [
       },
       {
         title: "Private by default",
-        description: "Your conversations are never recorded, stored, or shared. Audio is processed in real time and discarded immediately — nothing is kept.",
+        description: "Your conversations are never sold or shared for advertising. Their audio is never stored on Captio AI's servers, and recordings you save stay on your phone.",
       },
     ],
     challenge: {
@@ -1656,7 +1656,7 @@ export const useCases: UseCase[] = [
       { q: "Do I need to tell the deaf or hard of hearing person I am using it?", a: "It is worth mentioning — they will need to look at the screen to read the captions. Most people find it immediately natural once they understand what it does. A brief explanation takes seconds and removes any awkwardness." },
       { q: "What if I speak quickly or have a strong accent?", a: "Captio AI handles natural speech, including fast speakers and regional accents. You do not need to slow down or enunciate for it to caption you accurately." },
       { q: "Can I use it on a phone or video call with a deaf or hard of hearing person?", a: "For calls, the deaf or hard of hearing person should use Captio AI on their end — they put the call on speaker and Captio AI captions your voice in real time. You do not need to do anything differently on your side." },
-      { q: "Is it appropriate to use without telling the other person?", a: "Yes. Captio AI runs quietly on your phone and can be used discreetly. Audio is processed in real time and discarded immediately — nothing is recorded. Many people choose to mention it; others do not. Both are valid." },
+      { q: "Is it appropriate to use without telling the other person?", a: "Yes. Captio AI runs quietly on your phone and can be used discreetly. Your audio is never stored on Captio AI's servers, and a recording stays on your phone only if you save it. Many people choose to mention it; others do not. Both are valid." },
       { q: "Does the conversation need to happen in a quiet room?", a: "No. Captio AI is designed for real environments — living rooms with background TV, busy workplaces, noisy social settings. Moderate background noise does not prevent accurate captioning." },
     ],
   },

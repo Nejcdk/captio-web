@@ -6,12 +6,23 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { DownloadCard, StoreButtons } from "@/components/StoreButtons";
 import FaqAccordion from "@/components/FaqAccordion";
+import HomeContent from "@/components/HomeContent";
 import HeroDownload from "@/components/HeroDownload";
 import { languages, getLanguageBySlug } from "@/lib/languages";
 import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbSchema } from "@/lib/schema";
+import { getMessages } from "@/i18n";
+import { LOCALE_CODES, isLocale } from "@/i18n/locales";
+import { homeMetadata } from "@/i18n/metadata";
 
+// Two kinds of page share this segment: the English language pages
+// (/german, /chinese) and the home page translated into a language (/de, /zh).
+// Language slugs are full English names and locale codes two letters, so they
+// never collide.
 export async function generateStaticParams() {
-  return languages.map((lang) => ({ language: lang.languageSlug }));
+  return [
+    ...languages.map((lang) => ({ language: lang.languageSlug })),
+    ...LOCALE_CODES.map((code) => ({ language: code })),
+  ];
 }
 
 type Props = {
@@ -20,6 +31,7 @@ type Props = {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { language } = await params;
+  if (isLocale(language)) return homeMetadata(language, await getMessages(language));
   const lang = getLanguageBySlug(language);
   if (!lang) return {};
   // The root layout's title template appends " | Captio AI".
@@ -57,7 +69,7 @@ const baseFaqs = [
   },
   {
     q: "Does Captio AI store or share my audio?",
-    a: "No. Audio is processed in real time and immediately discarded. Nothing is recorded or stored on any server. Your conversations are never sold and never used to train AI models — ours or anyone else's.",
+    a: "Your audio is never stored on Captio AI's servers, and it is never sold or shared for advertising. It is sent securely to a speech-recognition service only to turn it into text, then deleted there. Recordings you choose to save stay on your phone; their transcripts and summaries are also kept in your own account so you can open them on another device, and deleting a recording removes it everywhere. Your conversations are never used to train AI models — ours or anyone else's.",
   },
   {
     q: "Does Captio AI work without an internet connection?",
@@ -73,6 +85,7 @@ const baseFaqs = [
 
 export default async function LanguagePage({ params }: Props) {
   const { language } = await params;
+  if (isLocale(language)) return <HomeContent code={language} m={await getMessages(language)} />;
   const lang = getLanguageBySlug(language);
   if (!lang) notFound();
 
@@ -368,8 +381,8 @@ export default async function LanguagePage({ params }: Props) {
             <div className="grid sm:grid-cols-3 gap-4 mb-10">
               {[
                 {
-                  title: "Gone the moment it ends",
-                  description: `Captio AI processes your ${lang.language} audio in real time and discards it immediately. Nothing is recorded. Nothing is kept.`,
+                  title: "Audio stays off our servers",
+                  description: `Your ${lang.language} audio is turned into text in real time and never stored on our servers. Recordings you save stay on your phone, and their transcripts sync only to your own account.`,
                 },
                 {
                   title: "Not a product",
@@ -389,7 +402,7 @@ export default async function LanguagePage({ params }: Props) {
             <div className="flex justify-center">
               <Image
                 src="/privacy.png"
-                alt="Private by default — your audio is discarded, never sold, never used for training"
+                alt="Private by default — your audio is never stored on our servers, never sold, never used for training"
                 width={160}
                 height={160}
                 className="drop-shadow-2xl"

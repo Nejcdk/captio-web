@@ -1,0 +1,676 @@
+{
+  "header": {
+    "features": "Funcions",
+    "useCases": "Casos d’ús",
+    "languages": "Idiomes",
+    "compare": "Compara",
+    "blog": "Blog",
+    "download": "Descarrega",
+    "toggleMenu": "Obre o tanca el menú",
+    "chooseLanguage": "Tria un idioma"
+  },
+  "footer": {
+    "tagline": "Subtítols en directe i eina de productivitat per a persones sordes i amb pèrdua auditiva.",
+    "productHuntTagline": "Subtítols en directe i transcripció per a persones sordes i amb pèrdua auditiva",
+    "productHunt": "Fes-hi un cop d’ull a Product Hunt →",
+    "featuredOn": "Destacada a",
+    "features": "Funcions",
+    "useCases": "Casos d’ús",
+    "blog": "Blog",
+    "allArticles": "Tots els articles",
+    "compare": "Compara",
+    "compareApps": "Compara apps de subtítols",
+    "company": "Empresa",
+    "organizations": "Per a organitzacions",
+    "privacy": "Política de privadesa",
+    "terms": "Condicions del servei"
+  },
+  "store": {
+    "appleOverline": "Descarrega-la a l’",
+    "googleOverline": "Disponible a",
+    "appleQrAlt": "Codi QR per descarregar Captio AI de l’App Store per a iPhone",
+    "googleQrAlt": "Codi QR per descarregar Captio AI de Google Play per a Android",
+    "downloadForFree": "Descarrega-la gratis"
+  },
+  "common": {
+    "home": "Inici",
+    "back": "Enrere",
+    "goBack": "Torna enrere",
+    "explore": "Explora",
+    "featuresLabel": "Funcions",
+    "howItWorks": "Com funciona",
+    "privacyLabel": "Privadesa",
+    "privacyTitle": "El que escoltes es queda amb tu.",
+    "privacyImageAlt": "Privada per defecte: el teu àudio no es guarda mai als nostres servidors, no es ven mai i no s’utilitza mai per entrenar models",
+    "faqLabel": "FAQ",
+    "faqTitle": "Preguntes freqüents",
+    "getStarted": "Comença",
+    "freeToStart": "Començar amb Captio AI és gratis",
+    "allFeatures": "Captio AI inclou Subtítols en directe, Traductor en directe, Transcripció d’àudio i Resum amb IA.",
+    "featureNames": {
+      "live-captions": "Subtítols en directe",
+      "live-translator": "Traductor en directe",
+      "audio-transcription": "Transcripció d’àudio",
+      "ai-summary": "Resum amb IA"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Captio AI — Subtítols en directe i transcripció per a persones sordes",
+      "description": "Captio AI ofereix a les persones sordes i amb pèrdua auditiva subtítols en temps real, traducció en directe, transcripció d’àudio i resums amb IA al mòbil. Més de 60 idiomes.",
+      "ogDescription": "Subtítols en temps real, traducció en directe, transcripció d’àudio i resums amb IA per a persones sordes i amb pèrdua auditiva. Més de 60 idiomes. iPhone i Android.",
+      "schemaDescription": "Subtítols en temps real, traducció en directe, transcripció d’àudio i resums amb IA per a persones sordes i amb pèrdua auditiva. Més de 60 idiomes."
+    },
+    "eyebrow": "🦻 Accessibilitat + 💻 App de productivitat",
+    "heroTitle": "[Subtítols en directe] i [eina de productivitat] per a persones sordes i amb pèrdua auditiva.",
+    "heroSubtitle": "Segueix qualsevol conversa, reunió o classe. En qualsevol idioma.",
+    "mockupAlt": "L’app Captio AI amb subtítols en directe i traducció",
+    "featuresTitle": "Tot el que necessites per seguir qualsevol conversa",
+    "featuresSubtitle": "Quatre eines creades específicament per a persones sordes i amb pèrdua auditiva.",
+    "features": {
+      "live-captions": {
+        "title": "De veu a text en temps real",
+        "bullets": [
+          "Paraula per paraula, en temps real",
+          "Funciona en llocs sorollosos",
+          "Qualsevol accent, qualsevol ritme",
+          "Sense haver de llegir els llavis"
+        ]
+      },
+      "live-translator": {
+        "title": "Tradueix qualsevol idioma en temps real",
+        "bullets": [
+          "Tradueix mentre parlen",
+          "Cada persona parla el seu idioma",
+          "Entén els canvis d’idioma a mitja frase",
+          "Més de 60 idiomes"
+        ]
+      },
+      "audio-transcription": {
+        "title": "Transcriu qualsevol fitxer d’àudio o de vídeo",
+        "bullets": [
+          "Qualsevol fitxer d’àudio o de vídeo",
+          "Organitzada per parlant",
+          "Més de 60 idiomes",
+          "Llegeix, copia, cerca i comparteix"
+        ]
+      },
+      "ai-summary": {
+        "title": "Converteix les transcripcions en resums estructurats",
+        "bullets": [
+          "Punts clau i decisions",
+          "Tasques pendents extretes",
+          "Funciona amb qualsevol transcripció",
+          "Organitzat en seccions"
+        ]
+      }
+    },
+    "moreFeaturesTitle": "Més funcions",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "Accions amb IA",
+        "title": "Tasques, notes i un missatge de seguiment",
+        "description": "Converteix qualsevol enregistrament en punts clau, notes detallades, tasques, preguntes i respostes o un missatge de seguiment."
+      },
+      "export": {
+        "label": "Exportació",
+        "title": "Comparteix-ho com vulguis",
+        "description": "Envia els subtítols o un resum com a text, un enllaç, un PDF, un correu o una instrucció per a un xat d’IA."
+      },
+      "folders": {
+        "label": "Carpetes",
+        "title": "Carpetes i carpetes compartides",
+        "description": "Ordena els enregistraments en carpetes i comparteix-ne una amb la família, els companys de classe o el teu equip."
+      },
+      "recognize-voices": {
+        "label": "Reconeixement de veus",
+        "title": "Noms, no Parlant 2",
+        "description": "Desa les veus de la gent amb qui parles sovint i veu-ne els noms als subtítols."
+      },
+      "speaker-direction": {
+        "label": "Direcció del parlant",
+        "title": "Mira d’on ve la veu",
+        "description": "Les ones a la vora dels subtítols assenyalen qui parla. iPhone 16 i posteriors."
+      },
+      "connectors": {
+        "label": "Connectors",
+        "title": "Pregunta al teu xat",
+        "description": "Pregunta a Claude, ChatGPT, Gemini o Perplexity sobre qualsevol dels teus enregistraments."
+      },
+      "widgets": {
+        "label": "Ginys",
+        "title": "Subtítols amb un toc",
+        "description": "Inicia els subtítols en directe des de la pantalla d’inici o la pantalla de bloqueig de l’iPhone."
+      }
+    },
+    "useCasesLabel": "Casos d’ús",
+    "useCasesTitle": "Funciona en qualsevol situació",
+    "useCasesSubtitle": "Pensada per als moments reals que importen, no només per a entorns tranquils i controlats.",
+    "useCases": {
+      "everyday-conversations": {
+        "label": "Converses del dia a dia",
+        "description": "La majoria de les converses van de pressa, a ritme normal i sense avisar. Captio AI subtitula cada paraula tan bon punt es diu, perquè puguis seguir-les sense demanar a ningú que repeteixi."
+      },
+      "deaf-hoh-communication": {
+        "label": "Parlar amb persones sordes o amb pèrdua auditiva",
+        "description": "Sovint les persones oients no saben com adaptar-se quan parlen amb amics sords o amb pèrdua auditiva. Captio AI converteix el que diuen en subtítols en temps real, perquè la conversa flueixi amb naturalitat per a totes dues bandes."
+      },
+      "meetings": {
+        "label": "Reunions",
+        "description": "A les reunions, les decisions es prenen de pressa i la gent parla alhora. Captio AI subtitula cada persona mentre parla, perquè no et perdis mai cap decisió ni cap pregunta adreçada a tu."
+      },
+      "lectures": {
+        "label": "Classes",
+        "description": "Els professors parlen de pressa, expliquen continguts complexos i gairebé mai es repeteixen. Captio AI et dona una transcripció en directe de tot el que es diu, perquè puguis seguir el contingut en lloc d’esforçar-te per sentir-lo."
+      },
+      "doctor-appointments": {
+        "label": "Visites mèdiques",
+        "description": "Els metges parlen de pressa i fan servir termes clínics que és fàcil entendre malament. Captio AI et mostra tot el que diuen en temps real, perquè puguis seguir el teu diagnòstic i fer les preguntes adequades."
+      },
+      "job-interviews": {
+        "label": "Entrevistes de feina",
+        "description": "Perdre’t una pregunta en una entrevista vol dir respondre malament o haver de demanar que te la repeteixin. Captio AI et mostra cada paraula de l’entrevistador, perquè et puguis concentrar del tot en la teva resposta."
+      },
+      "phone-video-calls": {
+        "label": "Trucades i videotrucades",
+        "description": "Les trucades i les videotrucades són més difícils de seguir que una conversa en persona. No pots llegir els llavis i sovint l’àudio és dolent. Captio AI subtitula en temps real qui estigui parlant, perquè no hagis de demanar que et repeteixin res."
+      },
+      "group-settings": {
+        "label": "En grup",
+        "description": "En grup, diverses persones parlen alhora i la conversa avança de pressa. Captio AI segueix el ritme de qui estigui parlant, perquè no perdis el fil de la conversa."
+      },
+      "restaurants": {
+        "label": "Restaurants i cafeteries",
+        "description": "El soroll de fons fa difícil seguir el que es diu, fins i tot per a qui no té pèrdua auditiva. Captio AI se centra en qui et parla, perquè puguis tenir una conversa de debò malgrat el soroll."
+      },
+      "traveling": {
+        "label": "Viatges",
+        "description": "Als aeroports, als hotels i a les ciutats que no coneixes no hi ha marge per entendre malament. Captio AI subtitula la veu en més de 60 idiomes, perquè et moguis amb confiança vagis on vagis."
+      },
+      "conferences": {
+        "label": "Conferències i esdeveniments",
+        "description": "Els ponents són lluny, l’acústica és imprevisible i no pots demanar que repeteixin. Captio AI et dona una transcripció en directe de cada ponent, perquè puguis seguir tot l’esdeveniment des de qualsevol seient."
+      },
+      "tv-media": {
+        "label": "TV i mitjans",
+        "description": "Els subtítols integrats sovint estan malament, arriben tard o directament no hi són. Captio AI subtitula en temps real el que s’estigui reproduint, perquè no depenguis de si el contingut té subtítols o no."
+      }
+    },
+    "languagesLabel": "Idiomes",
+    "languagesTitle": "Captio AI admet més de 60 idiomes",
+    "privacyCards": [
+      {
+        "title": "L’àudio no es queda als nostres servidors",
+        "description": "El teu àudio es converteix en text en temps real i no es guarda mai als nostres servidors. Les gravacions que desis es queden al teu telèfon, i les seves transcripcions només se sincronitzen amb el teu propi compte."
+      },
+      {
+        "title": "No és un producte",
+        "description": "Les teves converses no són una cosa que Captio AI vengui, comparteixi o monetitzi: amb ningú i per cap motiu."
+      },
+      {
+        "title": "No serveix per entrenar res",
+        "description": "El que dius en una visita mèdica o en una entrevista de feina mai no acaba en un conjunt de dades d’entrenament. Ni en el nostre ni en el de ningú altre."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Per a qui està pensada Captio AI?",
+        "a": "Captio AI està pensada sobretot per a persones sordes i amb pèrdua auditiva que necessiten seguir converses parlades en temps real. També la fan servir molt persones amb trastorn del processament auditiu, persones en entorns sorollosos, estudiants d’idiomes i tothom a qui li resulti més ràpid o fàcil llegir que escoltar."
+      },
+      {
+        "q": "Com de precisos són els subtítols en directe?",
+        "a": "Captio AI fa servir un reconeixement de veu avançat, creat específicament per oferir precisió i una latència baixa. La precisió depèn de la claredat de l’àudio, l’accent i el soroll de fons, però en condicions normals de conversa és molt alta, comparable a la dels serveis professionals de subtitulació."
+      },
+      {
+        "q": "Quins idiomes admet Captio AI?",
+        "a": "Captio AI admet més de 60 idiomes, entre els quals l’anglès, el castellà, el francès, l’alemany, el xinès mandarí, l’àrab, l’hindi, el japonès, el coreà, el portuguès, el rus i molts més. Tots els idiomes estan disponibles a Subtítols en directe i Traductor en directe. Consulta’n la llista completa en aquesta pàgina."
+      },
+      {
+        "q": "Captio AI funciona amb accents i dialectes diferents?",
+        "a": "Sí. Captio AI entén una gran varietat d’accents i dialectes regionals, no només la parla estàndard dels llibres de text. Admet l’anglès australià, el castellà d’Amèrica Llatina, l’alemany suís, el portuguès del Brasil, el francès del Quebec i molts altres."
+      },
+      {
+        "q": "Quina diferència hi ha entre Subtítols en directe i Traductor en directe?",
+        "a": "Subtítols en directe transcriu la veu en l’idioma original en què es parla. Traductor en directe agafa aquesta veu i la tradueix a l’idioma que triïs, en temps real: ideal quan qui parla i qui llegeix parlen idiomes diferents, com amb un metge estranger o en una reunió de feina en un altre idioma."
+      },
+      {
+        "q": "Captio AI guarda o comparteix el meu àudio?",
+        "a": "Captio AI no guarda mai el teu àudio als seus servidors, i no es ven ni es comparteix mai per a publicitat. L’àudio s’envia de manera segura a un servei de reconeixement de veu només perquè el converteixi en text i, després, s’hi elimina. Les gravacions que decideixis desar es queden al teu telèfon; les seves transcripcions i resums també es guarden al teu propi compte perquè puguis obrir-los en un altre dispositiu, i en eliminar una gravació desapareix de tot arreu. Les teves converses no s’utilitzen mai per entrenar models d’IA, ni els nostres ni els de ningú altre."
+      },
+      {
+        "q": "Captio AI funciona sense connexió a internet?",
+        "a": "Subtítols en directe i Traductor en directe necessiten connexió a internet per processar la veu en temps real. Transcripció d’àudio (per a fitxers penjats) també necessita connexió. De moment no es poden fer servir els subtítols sense connexió."
+      },
+      {
+        "q": "Quin mòbil o iPad necessito?",
+        "a": "Captio AI funciona en iPhone i iPad amb iOS 16 o posterior, i en mòbils Android. Està optimitzada per al mòbil i funciona millor quan el micròfon té via lliure fins a qui parla."
+      },
+      {
+        "q": "Puc fer servir Captio AI en una visita mèdica?",
+        "a": "Sí. Les visites mèdiques són un dels casos d’ús més importants. Pots deixar el mòbil sobre la taula o apropar-lo al metge i llegir tot el que diu en temps real. La terminologia mèdica es reconeix amb precisió, cosa que fa de Captio AI una eina d’accessibilitat pràctica en l’àmbit sanitari."
+      },
+      {
+        "q": "Puc fer servir Captio AI en reunions i classes?",
+        "a": "Sí. Captio AI funciona en qualsevol situació en què es parli: reunions de feina, classes a la universitat, reunions diàries d’equip, conferències i videotrucades. Apunta el micròfon cap a qui parla i els subtítols apareixen a l’instant."
+      },
+      {
+        "q": "Què és Transcripció d’àudio i en què es diferencia de Subtítols en directe?",
+        "a": "Subtítols en directe funciona en temps real mentre algú parla. Transcripció d’àudio és per a gravacions: penges un fitxer d’àudio o de vídeo i obtens una transcripció completa per escrit. És ideal per repassar classes gravades, entrevistes, pòdcasts o qualsevol contingut que prefereixis llegir en lloc d’escoltar."
+      },
+      {
+        "q": "Què fa la funció Resum amb IA?",
+        "a": "Resum amb IA agafa qualsevol transcripció i n’extreu la informació clau (punts principals, decisions preses, tasques pendents i detalls importants) en un resum estructurat. T’estalvia temps quan tens una transcripció llarga d’una reunió o d’una classe i necessites el més important de seguida."
+      },
+      {
+        "q": "Captio AI és gratis?",
+        "a": "Captio AI té un pla gratuït perquè comencis sense pagar res. Si necessites accés sense límits, tens el pla Plus. El preu actual de Plus al teu país apareix a la fitxa de l’App Store."
+      },
+      {
+        "q": "En què es diferencia Captio AI dels subtítols en directe integrats d’Apple?",
+        "a": "Els subtítols en directe d’Apple venen integrats a l’iOS, però admeten menys idiomes, no tradueixen i no inclouen Transcripció d’àudio ni Resum amb IA. Captio AI admet més de 60 idiomes, tradueix en temps real, et permet transcriure fitxers penjats i genera resums amb IA, cosa que la converteix en una eina d’accessibilitat i productivitat molt més completa."
+      }
+    ]
+  },
+  "featurePages": {
+    "live-captions": {
+      "meta": {
+        "title": "Subtítols en directe a l’iPhone per a persones sordes",
+        "description": "De veu a text en temps real amb el micròfon del teu iPhone. Segueix qualsevol conversa, en qualsevol idioma, a l’instant. Pensada per a persones sordes i amb pèrdua auditiva.",
+        "schemaDescription": "Subtítols en temps real per a persones sordes i amb pèrdua auditiva. Més de 60 idiomes, una latència molt inferior a un segon i funciona a tot arreu."
+      },
+      "howTitle": "Tres tocs. Tota la conversa.",
+      "steps": [
+        {
+          "title": "Comença a gravar",
+          "desc": "Toca el botó de gravar. Captio AI comença a escoltar a l’instant."
+        },
+        {
+          "title": "Mira com apareixen les paraules",
+          "desc": "Els subtítols apareixen paraula per paraula mentre la persona encara parla."
+        },
+        {
+          "title": "Desa-ho",
+          "desc": "Guarda la transcripció i la gravació d’àudio per a més endavant."
+        }
+      ],
+      "featuresTitle": "Pensada per a converses reals",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Les paraules que es van dir de debò",
+          "description": "Captio AI recull el que algú ha dit realment, no una paràfrasi aproximada. Així pots confiar en la transcripció quan importa: al metge, en una entrevista, en una reunió."
+        },
+        {
+          "title": "Latència zero",
+          "description": "La latència és molt inferior a un segon. Els subtítols apareixen paraula per paraula mentre la persona encara parla, així que llegeixes el que diu en el mateix moment en què els altres ho senten."
+        },
+        {
+          "title": "Sap qui parla",
+          "description": "En grups i reunions, Captio AI identifica cada parlant per separat perquè sàpigues sempre qui ha dit què, sense haver de mirar cares ni seguir el moviment dels llavis."
+        },
+        {
+          "title": "Més de 60 idiomes",
+          "description": "Segueix una conversa en francès, japonès o àrab igual que en segueixes una en català. Sense canviar de mode. La pèrdua auditiva no és mai també una barrera lingüística."
+        },
+        {
+          "title": "Entén idiomes barrejats en una mateixa frase",
+          "description": "Quan la gent canvia d’idioma enmig de la conversa, Captio AI segueix el ritme. Sense buits als subtítols, sense modes per canviar."
+        },
+        {
+          "title": "Ensenya-li el teu vocabulari",
+          "description": "Afegeix noms, termes mèdics o paraules especialitzades que sents sovint. Captio AI fa servir la teva llista de vocabulari per subtitular les teves converses reals amb més precisió."
+        },
+        {
+          "title": "Afegeix un idioma suggerit",
+          "description": "Digues a Captio AI quin idioma ha d’esperar i estarà a punt des de la primera paraula. Útil quan l’idioma que es parla no és evident pel context."
+        },
+        {
+          "title": "Torna a transcriure per guanyar precisió",
+          "description": "Passa de nou qualsevol gravació més tard per obtenir una transcripció més neta. Útil per a classes, visites i qualsevol conversa que valgui la pena repassar."
+        },
+        {
+          "title": "Llegeix-ho a la teva manera",
+          "description": "Ajusta la mida del text, el color de fons i el contrast fins que els subtítols es llegeixin d’un cop d’ull: amb el mòbil a la mà, estirat sobre la taula o recolzat a l’escriptori."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "L’àudio no es queda als nostres servidors",
+          "description": "El teu àudio es converteix en text en temps real i no es guarda mai als nostres servidors. Les gravacions que desis es queden al teu telèfon, i les seves transcripcions només se sincronitzen amb el teu propi compte."
+        },
+        {
+          "title": "No és un producte",
+          "description": "Les teves converses no són una cosa que Captio AI vengui, comparteixi o monetitzi: amb ningú i per cap motiu."
+        },
+        {
+          "title": "No serveix per entrenar res",
+          "description": "El que dius en una visita mèdica o en una entrevista de feina mai no acaba en un conjunt de dades d’entrenament. Ni en el nostre ni en el de ningú altre."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "En què es diferencia Captio AI dels subtítols en directe integrats d’Apple?",
+          "a": "Els subtítols en directe d’Apple admeten menys idiomes, no tradueixen i no inclouen Transcripció d’àudio ni Resum amb IA. Captio AI admet més de 60 idiomes, tradueix en temps real, et permet transcriure fitxers penjats i genera resums amb IA. A més, et deixa personalitzar la mida del text, els colors i el contrast segons com llegeixis millor."
+        },
+        {
+          "q": "Com de precisos són els subtítols en directe?",
+          "a": "La precisió és alta en condicions normals de conversa. Captio AI està feta per a la parla real, no només per a l’àudio net d’estudi, així que entén la gent que parla de pressa, els accents regionals, el soroll de fons i les frases que barregen idiomes. També pots afegir vocabulari propi (noms, termes mèdics, paraules especialitzades) per millorar la precisió en les teves converses."
+        },
+        {
+          "q": "Amb quina rapidesa apareixen els subtítols?",
+          "a": "Paraula per paraula, mentre la persona encara parla. La latència és molt inferior a un segon, gairebé en temps real. Llegeixes el que algú diu en el mateix moment en què els altres ho senten, no quan acaba la frase."
+        },
+        {
+          "q": "Subtítols en directe funciona en llocs sorollosos?",
+          "a": "Sí. Captio AI està pensada per a entorns reals: restaurants, el carrer, sales d’espera, transport públic. Apunta el micròfon cap a qui parla i els subtítols apareixeran encara que hi hagi soroll de fons."
+        },
+        {
+          "q": "Quins idiomes admet Subtítols en directe?",
+          "a": "Més de 60 idiomes, entre els quals l’anglès, el castellà, el francès, l’alemany, el xinès mandarí, l’àrab, l’hindi, el japonès, el coreà, el portuguès, el rus i molts més. Els accents i dialectes regionals són compatibles en tots els idiomes principals."
+        },
+        {
+          "q": "Funciona amb accents i dialectes?",
+          "a": "Sí. Captio AI entén una gran varietat d’accents regionals, no només la parla estàndard dels llibres de text. L’anglès australià, el castellà d’Amèrica Llatina, l’alemany suís, el francès del Quebec i molts altres són compatibles."
+        },
+        {
+          "q": "Puc desar els meus subtítols?",
+          "a": "Sí. Pots desar les transcripcions i les gravacions d’àudio quan acabes una sessió i repassar-les més tard. També pots tornar a transcriure una gravació desada per obtenir una transcripció més neta i precisa."
+        },
+        {
+          "q": "Necessito connexió a internet?",
+          "a": "Sí. Subtítols en directe necessita connexió a internet per processar la veu en temps real. De moment no es poden fer servir els subtítols sense connexió."
+        }
+      ]
+    },
+    "live-translator": {
+      "meta": {
+        "title": "Traductor en directe: traducció de veu en temps real a l’iPhone",
+        "description": "Traducció de veu en temps real al teu iPhone. L’altra persona parla el seu idioma i tu llegeixes en el teu, a l’instant i en qualsevol idioma. Per a persones sordes i amb pèrdua auditiva.",
+        "schemaDescription": "Traducció de veu en temps real per a persones sordes i amb pèrdua auditiva. Més de 60 idiomes: cada persona parla el seu idioma i tu llegeixes en el teu."
+      },
+      "howTitle": "Tres tocs. Qualsevol idioma.",
+      "steps": [
+        {
+          "title": "Tria el mode traductor",
+          "desc": "Obre Captio AI i selecciona Traductor en directe."
+        },
+        {
+          "title": "Selecciona el teu idioma",
+          "desc": "Tria l’idioma en què vols llegir."
+        },
+        {
+          "title": "Mira la traducció en temps real",
+          "desc": "Captio AI tradueix paraula per paraula."
+        }
+      ],
+      "featuresTitle": "Pensada per a converses reals",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Qualsevol idioma",
+          "description": "Francès, japonès, àrab, castellà, alemany, mandarí: més de 60 idiomes, en qualsevol direcció. La pèrdua auditiva no és mai també una barrera lingüística."
+        },
+        {
+          "title": "Detecta sol l’idioma que es parla",
+          "description": "Deixa l’idioma d’origen en automàtic i Captio AI el reconeix a partir de les primeres paraules. No cal triar-lo a mà abans de cada conversa."
+        },
+        {
+          "title": "Sense retard",
+          "description": "La latència de la traducció és molt inferior a un segon. Llegeixes el que algú diu en el mateix moment en què els altres ho senten, no quan acaba la frase."
+        },
+        {
+          "title": "Afegeix idiomes suggerits",
+          "description": "Digues a Captio AI quin idioma ha d’esperar i estarà a punt des de la primera paraula. Útil quan l’idioma que es parla no és evident pel context."
+        },
+        {
+          "title": "Diversos idiomes alhora",
+          "description": "Quan la gent canvia d’idioma enmig de la conversa, Captio AI segueix el ritme i els tradueix tots al teu idioma sense que hagis de fer res."
+        },
+        {
+          "title": "Llegeix-ho a la teva manera",
+          "description": "Ajusta el color de fons, el color del text i la mida de la lletra perquè la traducció es llegeixi d’un cop d’ull, tant si tens el mòbil a la mà com estirat sobre la taula."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "L’àudio no es queda als nostres servidors",
+          "description": "El teu àudio es converteix en text en temps real i no es guarda mai als nostres servidors. Les gravacions que desis es queden al teu telèfon, i les seves transcripcions només se sincronitzen amb el teu propi compte."
+        },
+        {
+          "title": "No és un producte",
+          "description": "Les teves converses no són una cosa que Captio AI vengui, comparteixi o monetitzi: amb ningú i per cap motiu."
+        },
+        {
+          "title": "No serveix per entrenar res",
+          "description": "El que dius en una visita mèdica o en una entrevista de feina mai no acaba en un conjunt de dades d’entrenament. Ni en el nostre ni en el de ningú altre."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "En què es diferencia Traductor en directe de Subtítols en directe?",
+          "a": "Subtítols en directe transcriu la veu en l’idioma original en què es parla. Traductor en directe agafa aquesta veu i la tradueix a l’idioma que triïs, en temps real. Si l’altra persona parla francès i tu llegeixes en català, el que necessites és Traductor en directe."
+        },
+        {
+          "q": "Com de precisa és la traducció?",
+          "a": "La precisió de la traducció és alta en les combinacions d’idiomes més habituals i en converses quotidianes. Captio AI entén la parla natural (gent que parla de pressa, accents, soroll de fons), no només l’àudio net d’estudi. En combinacions d’idiomes poc habituals o amb contingut molt tècnic, la precisió pot variar."
+        },
+        {
+          "q": "Quins idiomes són compatibles?",
+          "a": "Més de 60 idiomes, entre els quals l’anglès, el castellà, el francès, l’alemany, el xinès mandarí, l’àrab, l’hindi, el japonès, el coreà, el portuguès, el rus i molts més. Tant l’idioma d’origen com el de destinació poden ser qualsevol dels idiomes compatibles."
+        },
+        {
+          "q": "Amb quina rapidesa apareix la traducció?",
+          "a": "La latència és molt inferior a un segon. Llegeixes la traducció paraula per paraula mentre la persona encara parla, gairebé en temps real, no quan acaba la frase."
+        },
+        {
+          "q": "Funciona en visites amb un metge que parla un altre idioma?",
+          "a": "Sí. És un dels casos d’ús més importants. Deixa el mòbil sobre la taula, tria l’idioma del metge com a idioma d’origen i llegeix tot el que diu en el teu idioma, en temps real. També pots desar la transcripció traduïda per repassar les seves indicacions després."
+        },
+        {
+          "q": "Funciona en llocs sorollosos?",
+          "a": "Sí. Captio AI està feta per a entorns reals: sales d’espera, restaurants, aeroports. Apunta el micròfon cap a qui parla i la traducció apareixerà encara que hi hagi soroll ambient."
+        },
+        {
+          "q": "Puc desar la transcripció traduïda?",
+          "a": "Sí. Quan acabes una sessió, pots desar el text traduït i repassar-lo més tard. Útil per a visites mèdiques, reunions i qualsevol conversa de la qual vulguis tenir constància."
+        },
+        {
+          "q": "Necessito connexió a internet?",
+          "a": "Sí. Traductor en directe necessita connexió a internet per processar i traduir la veu en temps real. De moment no es pot traduir sense connexió."
+        }
+      ]
+    },
+    "audio-transcription": {
+      "meta": {
+        "title": "Transcripció d’àudio: d’àudio i vídeo a text a l’iPhone",
+        "description": "Penja qualsevol fitxer d’àudio o de vídeo i obtén la transcripció completa per escrit. Més de 60 idiomes, parlants separats i cerca. Per a persones sordes i amb pèrdua auditiva.",
+        "schemaDescription": "Penja qualsevol fitxer d’àudio o de vídeo i obtén la transcripció completa per escrit. Més de 60 idiomes, parlants separats i marques de temps. Per a persones sordes i amb pèrdua auditiva."
+      },
+      "howTitle": "Penja. Llegeix. Fet.",
+      "steps": [
+        {
+          "title": "Tria què vols penjar",
+          "desc": "Indica si penges un fitxer d’àudio o un fitxer de vídeo."
+        },
+        {
+          "title": "Selecciona un fitxer",
+          "desc": "Tria el fitxer del teu mòbil. Captio AI comença a transcriure a l’instant."
+        },
+        {
+          "title": "Mira la transcripció",
+          "desc": "Llegeix la transcripció completa, organitzada per parlant i amb marques de temps."
+        }
+      ],
+      "featuresTitle": "Pensada per a gravacions reals",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Qualsevol format",
+          "description": "MP3, MP4, M4A, WAV i més. Classes, reunions, missatges de veu, pòdcasts, entrevistes, gravacions de trucades: si hi parla algú, Captio AI ho pot transcriure."
+        },
+        {
+          "title": "La màxima precisió",
+          "description": "Captio AI està feta per a l’àudio del món real, no només per a fitxers nets d’estudi. Àudio de trucades, gravacions a l’aula, entorns sorollosos: se’n surt amb tot."
+        },
+        {
+          "title": "Qualsevol idioma",
+          "description": "Penja una gravació en francès, japonès, àrab o en 57 idiomes més. Captio AI identifica l’idioma i el transcriu amb precisió."
+        },
+        {
+          "title": "Diversos idiomes",
+          "description": "Quan els parlants canvien d’idioma enmig de la gravació, Captio AI segueix el ritme. La transcripció recull tots els idiomes que s’hi han parlat, sense buits."
+        },
+        {
+          "title": "Marques de temps",
+          "description": "Cada línia de la transcripció té la seva marca de temps, perquè puguis saltar a qualsevol moment de la gravació i trobar exactament què es va dir i quan."
+        },
+        {
+          "title": "Exporta i comparteix",
+          "description": "Copia la transcripció completa, comparteix-la o desa-la. Les teves gravacions i transcripcions són a l’abast sempre que les necessitis."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Els fitxers no es queden als nostres servidors",
+          "description": "El teu fitxer s’envia només perquè es transcrigui, després s’hi elimina i no es guarda mai als nostres servidors. La gravació es queda al teu telèfon, i la seva transcripció només se sincronitza amb el teu propi compte."
+        },
+        {
+          "title": "No és un producte",
+          "description": "Les teves gravacions no són una cosa que Captio AI vengui, comparteixi o monetitzi: amb ningú i per cap motiu."
+        },
+        {
+          "title": "No serveix per entrenar res",
+          "description": "El que penges (una visita mèdica, una reunió, una entrevista) mai no acaba en un conjunt de dades d’entrenament. Ni en el nostre ni en el de ningú altre."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "En què es diferencia Transcripció d’àudio de Subtítols en directe?",
+          "a": "Subtítols en directe funciona en temps real mentre algú parla. Transcripció d’àudio és per a gravacions: penges un fitxer d’àudio o de vídeo i obtens una transcripció completa per escrit. És ideal per repassar classes gravades, visites mèdiques, entrevistes o qualsevol contingut que prefereixis llegir en lloc d’escoltar."
+        },
+        {
+          "q": "Quins formats de fitxer admet Transcripció d’àudio?",
+          "a": "Captio AI accepta els formats d’àudio i de vídeo més habituals, com ara MP3, MP4, M4A, WAV i més. Si és una gravació del teu mòbil o un vídeo baixat d’una plataforma, funcionarà."
+        },
+        {
+          "q": "Com de precisa és la transcripció?",
+          "a": "La precisió és alta en gravacions clares en els idiomes compatibles. Captio AI entén l’àudio del món real (trucades, gravacions a l’aula, entorns sorollosos), no només fitxers amb qualitat d’estudi. Si cal, també pots tornar a transcriure un fitxer per fer-ne una segona passada."
+        },
+        {
+          "q": "Quins idiomes són compatibles?",
+          "a": "Més de 60 idiomes, entre els quals l’anglès, el castellà, el francès, l’alemany, el xinès mandarí, l’àrab, l’hindi, el japonès, el coreà, el portuguès, el rus i molts més. Captio AI detecta automàticament l’idioma que es parla al fitxer."
+        },
+        {
+          "q": "Separa els parlants?",
+          "a": "Sí. Captio AI identifica cada parlant per separat a la transcripció perquè puguis seguir qui ha dit què. Útil en reunions, entrevistes, visites mèdiques i qualsevol gravació amb diverses persones."
+        },
+        {
+          "q": "Quant triga la transcripció?",
+          "a": "La transcripció és ràpida. Una gravació d’una hora sol trigar uns quants minuts. El temps depèn de la durada del fitxer i de la qualitat de l’àudio."
+        },
+        {
+          "q": "Es guarda el meu àudio després de la transcripció?",
+          "a": "No als servidors de Captio AI. El fitxer s’envia de manera segura a un servei de reconeixement de veu només perquè es transcrigui, i s’hi elimina tan bon punt la transcripció és a punt. La gravació es queda al teu telèfon, i la seva transcripció també es guarda al teu propi compte perquè puguis obrir-la en un altre dispositiu. Les teves gravacions no es venen mai ni s’utilitzen per entrenar models d’IA."
+        },
+        {
+          "q": "Puc transcriure un fitxer de vídeo?",
+          "a": "Sí. Penja directament el fitxer de vídeo i Captio AI n’extreu l’àudio i el transcriu. No cal convertir el fitxer abans."
+        }
+      ]
+    },
+    "ai-summary": {
+      "meta": {
+        "title": "Resum amb IA: resums estructurats de qualsevol transcripció",
+        "description": "Converteix qualsevol transcripció en un resum estructurat. Punts clau, decisions i tasques pendents extrets automàticament. Per a persones sordes i amb pèrdua auditiva.",
+        "schemaDescription": "Converteix qualsevol transcripció en un resum estructurat. Punts clau, decisions, tasques pendents i cites dels parlants extrets automàticament."
+      },
+      "howTitle": "Entra la transcripció. Surt el resum.",
+      "steps": [
+        {
+          "title": "Obre una transcripció",
+          "desc": "Selecciona qualsevol transcripció de Subtítols en directe o de Transcripció d’àudio."
+        },
+        {
+          "title": "Genera el resum",
+          "desc": "Toca Resum amb IA. Captio AI processa la transcripció automàticament."
+        },
+        {
+          "title": "Llegeix el resum",
+          "desc": "El teu resum està a punt, organitzat en seccions, per llegir-lo o compartir-lo."
+        }
+      ],
+      "featuresTitle": "Pensada per a transcripcions llargues",
+      "featuresSubtitle": "Obtén resums, tasques pendents, cites dels parlants, notes i molt més.",
+      "subfeatures": [
+        {
+          "title": "Punts clau extrets automàticament",
+          "description": "Captio AI llegeix tota la transcripció i en treu el que realment importava: els punts principals, les decisions preses i les conclusions a què s’ha arribat."
+        },
+        {
+          "title": "Tasques pendents a la vista",
+          "description": "Les tasques i els passos següents s’identifiquen i es mostren a part, perquè no se t’escapi res després d’una reunió, una visita o una classe."
+        },
+        {
+          "title": "Organitzat en seccions",
+          "description": "El resum està estructurat, no és un bloc de text continu. Cada tema té la seva secció, perquè hi puguis fer un cop d’ull i trobar el que necessites."
+        },
+        {
+          "title": "Funciona amb qualsevol transcripció de Captio AI",
+          "description": "Fes servir Resum amb IA en qualsevol transcripció que hagis creat amb Subtítols en directe o Transcripció d’àudio. Sense passos extra, sense copiar i enganxar."
+        },
+        {
+          "title": "Qualsevol idioma",
+          "description": "Resumeix transcripcions en més de 60 idiomes. Captio AI llegeix la transcripció en l’idioma original i crea un resum que pots llegir."
+        },
+        {
+          "title": "Desa i comparteix",
+          "description": "Guarda el resum al costat de la transcripció, copia’l o comparteix-lo. Útil després de visites mèdiques, reunions i classes."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Es guarda només al teu compte",
+          "description": "El teu resum es desa amb la seva gravació, al teu telèfon i al teu propi compte, així que hi és a qualsevol dispositiu on iniciïs la sessió. Elimina’l i desapareix de tot arreu."
+        },
+        {
+          "title": "No és un producte",
+          "description": "Les teves converses no són una cosa que Captio AI vengui, comparteixi o monetitzi: amb ningú i per cap motiu."
+        },
+        {
+          "title": "No serveix per entrenar res",
+          "description": "El que resumeixes (una visita mèdica, una reunió, una entrevista) mai no acaba en un conjunt de dades d’entrenament. Ni en el nostre ni en el de ningú altre."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Què fa Resum amb IA?",
+          "a": "Resum amb IA agafa qualsevol transcripció i n’extreu la informació clau (punts principals, decisions, tasques pendents i detalls importants) en un resum estructurat. T’estalvia temps quan tens una transcripció llarga i necessites el més important de seguida."
+        },
+        {
+          "q": "Quines transcripcions puc resumir?",
+          "a": "Qualsevol transcripció creada a Captio AI, ja sigui amb Subtítols en directe o amb Transcripció d’àudio. Fas servir Resum amb IA directament a la transcripció, sense passos extra."
+        },
+        {
+          "q": "Quina diferència hi ha entre Resum amb IA i llegir la transcripció i prou?",
+          "a": "La transcripció completa d’una reunió d’una hora pot tenir milers de paraules. Resum amb IA et dona els punts clau, les decisions i les tasques pendents en una fracció del temps de lectura, organitzats per tema i no per l’ordre en què es van dir."
+        },
+        {
+          "q": "Serveix per a visites mèdiques?",
+          "a": "Sí. En una visita mèdica reps molta informació en poc temps. Resum amb IA n’extreu el diagnòstic, les indicacions i els passos següents en una llista clara que pots repassar i consultar més tard."
+        },
+        {
+          "q": "Quins idiomes són compatibles?",
+          "a": "Resum amb IA funciona amb transcripcions en més de 60 idiomes. El resum es crea en el mateix idioma que la transcripció."
+        },
+        {
+          "q": "Puc desar o compartir el resum?",
+          "a": "Sí. Pots desar el resum al costat de la transcripció original, copiar-lo o compartir-lo. Útil per enviar un resum d’una reunió o tenir constància d’una visita mèdica."
+        },
+        {
+          "q": "Resum amb IA guarda la meva transcripció o el meu àudio?",
+          "a": "La teva transcripció s’envia de manera segura a un servei d’IA només per redactar el resum, i no s’utilitza mai per entrenar models d’IA. El resum es desa amb la gravació, al teu telèfon i al teu propi compte, fins que l’eliminis. Captio AI no guarda mai l’àudio als seus servidors, i les teves converses no es venen mai."
+        }
+      ]
+    }
+  }
+}

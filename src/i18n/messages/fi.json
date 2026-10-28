@@ -1,0 +1,676 @@
+{
+  "header": {
+    "features": "Ominaisuudet",
+    "useCases": "Käyttötilanteet",
+    "languages": "Kielet",
+    "compare": "Vertaa",
+    "blog": "Blogi",
+    "download": "Lataa",
+    "toggleMenu": "Avaa tai sulje valikko",
+    "chooseLanguage": "Valitse kieli"
+  },
+  "footer": {
+    "tagline": "Livetekstitys ja tuottavuustyökalu kuuroille ja huonokuuloisille.",
+    "productHuntTagline": "Livetekstitys ja litterointi kuuroille ja huonokuuloisille",
+    "productHunt": "Tutustu Product Huntissa →",
+    "featuredOn": "Esillä palvelussa",
+    "features": "Ominaisuudet",
+    "useCases": "Käyttötilanteet",
+    "blog": "Blogi",
+    "allArticles": "Kaikki artikkelit",
+    "compare": "Vertaa",
+    "compareApps": "Vertaa tekstityssovelluksia",
+    "company": "Yritys",
+    "organizations": "Organisaatioille",
+    "privacy": "Tietosuojakäytäntö",
+    "terms": "Käyttöehdot"
+  },
+  "store": {
+    "appleOverline": "Lataa palvelusta",
+    "googleOverline": "Saatavana palvelussa",
+    "appleQrAlt": "QR-koodi, jolla lataat Captio AI:n App Storesta iPhoneen",
+    "googleQrAlt": "QR-koodi, jolla lataat Captio AI:n Google Playsta Androidille",
+    "downloadForFree": "Lataa ilmaiseksi"
+  },
+  "common": {
+    "home": "Etusivu",
+    "back": "Takaisin",
+    "goBack": "Palaa takaisin",
+    "explore": "Tutustu",
+    "featuresLabel": "Ominaisuudet",
+    "howItWorks": "Näin se toimii",
+    "privacyLabel": "Tietosuoja",
+    "privacyTitle": "Se, minkä kuulet, jää sinulle.",
+    "privacyImageAlt": "Yksityinen oletuksena: ääntäsi ei koskaan säilytetä palvelimillamme, sitä ei myydä eikä käytetä koulutukseen",
+    "faqLabel": "UKK",
+    "faqTitle": "Usein kysytyt kysymykset",
+    "getStarted": "Aloita",
+    "freeToStart": "Aloita Captio AI:n käyttö ilmaiseksi",
+    "allFeatures": "Captio AI:ssa on Livetekstitys, Livekääntäjä, Äänen litterointi ja Tekoälyyhteenveto.",
+    "featureNames": {
+      "live-captions": "Livetekstitys",
+      "live-translator": "Livekääntäjä",
+      "audio-transcription": "Äänen litterointi",
+      "ai-summary": "Tekoälyyhteenveto"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Captio AI — livetekstitys kuuroille ja huonokuuloisille",
+      "description": "Captio AI tuo kuuroille ja huonokuuloisille livetekstityksen, livekäännöksen, litteroinnin ja tekoälyyhteenvedot suoraan puhelimeen. Yli 60 kieltä.",
+      "ogDescription": "Livetekstitys, reaaliaikainen käännös, äänen litterointi ja tekoälyyhteenvedot kuuroille ja huonokuuloisille. Yli 60 kieltä. iPhone ja Android.",
+      "schemaDescription": "Livetekstitys, reaaliaikainen käännös, äänen litterointi ja tekoälyyhteenvedot kuuroille ja huonokuuloisille. Yli 60 kieltä."
+    },
+    "eyebrow": "🦻 Saavutettavuus + 💻 Tuottavuussovellus",
+    "heroTitle": "[Livetekstitys] ja [tuottavuustyökalu] kuuroille ja huonokuuloisille.",
+    "heroSubtitle": "Pysy mukana missä tahansa keskustelussa, kokouksessa tai luennolla. Millä kielellä tahansa.",
+    "mockupAlt": "Captio AI -sovellus näyttää livetekstityksen ja käännöksen",
+    "featuresTitle": "Kaikki, mitä tarvitset keskustelujen seuraamiseen",
+    "featuresSubtitle": "Neljä työkalua, jotka on tehty nimenomaan kuuroille ja huonokuuloisille.",
+    "features": {
+      "live-captions": {
+        "title": "Puhe tekstiksi reaaliajassa",
+        "bullets": [
+          "Sana sanalta, reaaliajassa",
+          "Toimii meluisissa paikoissa",
+          "Kaikki aksentit ja puhetahdit",
+          "Huulilta lukemista ei tarvita"
+        ]
+      },
+      "live-translator": {
+        "title": "Käännä mitä tahansa kieltä reaaliajassa",
+        "bullets": [
+          "Kääntää jo puhumisen aikana",
+          "Jokainen puhuu omaa kieltään",
+          "Pysyy mukana, kun kieli vaihtuu kesken lauseen",
+          "Yli 60 kieltä"
+        ]
+      },
+      "audio-transcription": {
+        "title": "Litteroi mikä tahansa ääni- tai videotiedosto",
+        "bullets": [
+          "Mikä tahansa ääni- tai videotiedosto",
+          "Jäsennelty puhujittain",
+          "Yli 60 kieltä",
+          "Lue, kopioi, hae, jaa"
+        ]
+      },
+      "ai-summary": {
+        "title": "Litteroinneista jäsennellyt yhteenvedot",
+        "bullets": [
+          "Pääkohdat ja päätökset",
+          "Tehtävät poimittuina",
+          "Toimii kaikille litteroinneille",
+          "Jäsennelty osioihin"
+        ]
+      }
+    },
+    "moreFeaturesTitle": "Lisää ominaisuuksia",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "Tekoälytoiminnot",
+        "title": "Tehtävät, muistiinpanot ja seurantaviesti",
+        "description": "Muuta mikä tahansa tallenne tärkeimmiksi kohdiksi, yksityiskohtaisiksi muistiinpanoiksi, tehtäviksi, kysymyksiksi ja vastauksiksi tai seurantaviestiksi."
+      },
+      "export": {
+        "label": "Vienti",
+        "title": "Jaa omalla tavallasi",
+        "description": "Lähetä tekstitykset tai yhteenveto tekstinä, linkkinä, PDF-tiedostona, sähköpostina tai tekoälychatin kehotteena."
+      },
+      "folders": {
+        "label": "Kansiot",
+        "title": "Kansiot ja jaetut kansiot",
+        "description": "Lajittele tallenteet kansioihin ja jaa yksi perheesi, luokkatoverien tai tiimisi kanssa."
+      },
+      "recognize-voices": {
+        "label": "Äänten tunnistus",
+        "title": "Nimet, ei Puhuja 2",
+        "description": "Tallenna niiden ihmisten äänet, joiden kanssa puhut usein, ja näe heidän nimensä tekstityksessä."
+      },
+      "speaker-direction": {
+        "label": "Puhujan suunta",
+        "title": "Näe, mistä ääni tulee",
+        "description": "Tekstityksen reunalla näkyvät aallot osoittavat, kuka puhuu. iPhone 16 ja uudemmat."
+      },
+      "connectors": {
+        "label": "Connectors",
+        "title": "Kysy chat-sovellukseltasi",
+        "description": "Kysy Claudelta, ChatGPT:ltä, Geminiltä tai Perplexityltä mitä tahansa tallenteistasi."
+      },
+      "widgets": {
+        "label": "Widgetit",
+        "title": "Tekstitys yhdellä napautuksella",
+        "description": "Käynnistä livetekstitys iPhonen Koti-valikosta tai lukitusnäytöltä."
+      }
+    },
+    "useCasesLabel": "Käyttötilanteet",
+    "useCasesTitle": "Toimii joka tilanteessa",
+    "useCasesSubtitle": "Suunniteltu niihin oikeisiin hetkiin, joilla on väliä, eikä vain hiljaisiin ja hallittuihin ympäristöihin.",
+    "useCases": {
+      "everyday-conversations": {
+        "label": "Arjen keskustelut",
+        "description": "Useimmat keskustelut käydään nopeasti, normaalilla tahdilla ja ilman ennakkovaroitusta. Captio AI tekstittää jokaisen sanan sitä mukaa kuin se sanotaan, joten pysyt mukana pyytämättä ketään toistamaan."
+      },
+      "deaf-hoh-communication": {
+        "label": "Viestintä kuurojen ja huonokuuloisten kanssa",
+        "description": "Kuulevat eivät usein tiedä, miten mukautua puhuessaan kuurojen tai huonokuuloisten ystäviensä kanssa. Captio AI muuttaa heidän puheensa reaaliaikaiseksi tekstitykseksi, joten keskustelu sujuu luontevasti molemmin puolin."
+      },
+      "meetings": {
+        "label": "Kokoukset",
+        "description": "Kokouksissa päätökset syntyvät nopeasti ja ihmiset puhuvat toistensa päälle. Captio AI tekstittää jokaisen puhujan saman tien, joten et jää koskaan paitsi päätöksestä tai sinulle esitetystä kysymyksestä."
+      },
+      "lectures": {
+        "label": "Luennot",
+        "description": "Luennoitsijat puhuvat nopeasti, käyvät läpi vaikeaa asiaa ja toistavat harvoin. Captio AI näyttää kaiken sanotun livetekstityksenä, joten voit seurata sisältöä sen sijaan, että ponnistelet kuullaksesi."
+      },
+      "doctor-appointments": {
+        "label": "Lääkärikäynnit",
+        "description": "Lääkärit puhuvat nopeasti ja käyttävät lääketieteellisiä termejä, jotka on helppo kuulla väärin. Captio AI näyttää reaaliajassa kaiken, mitä he sanovat, joten ymmärrät diagnoosisi ja osaat kysyä oikeat kysymykset."
+      },
+      "job-interviews": {
+        "label": "Työhaastattelut",
+        "description": "Jos kysymys menee haastattelussa ohi, vastaat väärin tai joudut pyytämään toistoa. Captio AI näyttää jokaisen haastattelijan sanan, joten voit keskittyä kokonaan vastaukseesi."
+      },
+      "phone-video-calls": {
+        "label": "Puhelut ja videopuhelut",
+        "description": "Puheluita ja videopuheluita on vaikeampi seurata kuin kasvokkain käytäviä keskusteluja. Huulilta ei voi lukea, ja äänenlaatu on usein heikko. Captio AI tekstittää puhujan reaaliajassa, joten sinun ei tarvitse pyytää toistamaan."
+      },
+      "group-settings": {
+        "label": "Ryhmätilanteet",
+        "description": "Ryhmissä moni puhuu yhtä aikaa ja keskustelu etenee nopeasti. Captio AI pysyy puhujan tahdissa, joten pysyt kärryillä siitä, mihin keskustelu on menossa."
+      },
+      "restaurants": {
+        "label": "Ravintolat ja kahvilat",
+        "description": "Taustamelu vaikeuttaa puheen seuraamista jopa niillä, joilla ei ole kuulonalenemaa. Captio AI keskittyy siihen, joka puhuu sinulle, joten voit käydä oikeaa keskustelua melun keskellä."
+      },
+      "traveling": {
+        "label": "Matkustaminen",
+        "description": "Lentokentillä, hotelleissa ja vieraissa kaupungeissa ei ole varaa kuulla väärin. Captio AI tekstittää puhetta yli 60 kielellä, joten liikut varmana, missä ikinä oletkin."
+      },
+      "conferences": {
+        "label": "Konferenssit ja tapahtumat",
+        "description": "Puhujat ovat kaukana, akustiikka on arvaamaton, eikä toistoa voi pyytää. Captio AI näyttää jokaisen puhujan puheen livetekstityksenä, joten voit seurata koko tapahtumaa mistä tahansa istumapaikasta."
+      },
+      "tv-media": {
+        "label": "TV ja media",
+        "description": "Valmiit tekstitykset ovat usein virheellisiä, myöhässä tai puuttuvat kokonaan. Captio AI tekstittää reaaliajassa kaiken, mitä toistetaan, joten et ole riippuvainen siitä, onko sisällössä tekstitystä."
+      }
+    },
+    "languagesLabel": "Kielet",
+    "languagesTitle": "Captio AI toimii yli 60 kielellä",
+    "privacyCards": [
+      {
+        "title": "Ääni ei jää palvelimillemme",
+        "description": "Äänesi muunnetaan tekstiksi reaaliajassa, eikä sitä koskaan säilytetä palvelimillamme. Säilyttämäsi tallenteet pysyvät puhelimessasi, ja niiden litteroinnit synkronoidaan vain omalle tilillesi."
+      },
+      {
+        "title": "Ei myyntituote",
+        "description": "Captio AI ei myy, jaa tai tee rahaa keskusteluillasi. Ei kenellekään, ei mistään syystä."
+      },
+      {
+        "title": "Ei käytetä minkään kouluttamiseen",
+        "description": "Se, mitä sanot lääkärissä tai työhaastattelussa, ei koskaan päädy koulutusaineistoon. Ei meidän eikä kenenkään muun."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Kenelle Captio AI on tehty?",
+        "a": "Captio AI on tehty ensisijaisesti kuuroille ja huonokuuloisille, joiden täytyy pystyä seuraamaan puhetta reaaliajassa. Sitä käyttävät laajasti myös ihmiset, joilla on kuulonvaraisen hahmottamisen häiriö, meluisissa ympäristöissä olevat, kielenoppijat ja kaikki, joille lukeminen on kuuntelemista nopeampaa tai helpompaa."
+      },
+      {
+        "q": "Kuinka tarkka livetekstitys on?",
+        "a": "Captio AI käyttää edistynyttä puheentunnistusta, joka on rakennettu nimenomaan tarkkuutta ja pientä viivettä varten. Tarkkuus riippuu äänen selkeydestä, aksentista ja taustamelusta, mutta tavallisissa keskustelutilanteissa se on erittäin hyvä ja vastaa ammattimaisia tekstityspalveluja."
+      },
+      {
+        "q": "Mitä kieliä Captio AI tukee?",
+        "a": "Captio AI tukee yli 60:tä kieltä, kuten englantia, espanjaa, ranskaa, saksaa, mandariinikiinaa, arabiaa, hindiä, japania, koreaa, portugalia, venäjää ja monia muita. Kaikki kielet ovat käytettävissä Livetekstityksessä ja Livekääntäjässä. Katso koko luettelo tältä sivulta."
+      },
+      {
+        "q": "Toimiiko Captio AI eri aksenteilla ja murteilla?",
+        "a": "Kyllä. Captio AI ymmärtää monenlaisia alueellisia aksentteja ja murteita, ei vain oppikirjamaista yleiskieltä. Se tukee esimerkiksi Australian englantia, Latinalaisen Amerikan espanjaa, sveitsinsaksaa, Brasilian portugalia, Québecin ranskaa ja monia muita."
+      },
+      {
+        "q": "Mitä eroa on Livetekstityksellä ja Livekääntäjällä?",
+        "a": "Livetekstitys muuttaa puheen tekstiksi alkuperäisellä kielellä. Livekääntäjä kääntää saman puheen valitsemallesi kielelle reaaliajassa. Se sopii tilanteisiin, joissa puhuja ja lukija puhuvat eri kieliä, kuten käynnille ulkomaalaisen lääkärin luona tai vieraskieliseen liikeneuvotteluun."
+      },
+      {
+        "q": "Tallentaako tai jakaako Captio AI ääntäni?",
+        "a": "Captio AI ei koskaan säilytä ääntäsi palvelimillaan, eikä sitä koskaan myydä tai jaeta mainontaan. Ääni lähetetään turvallisesti puheentunnistuspalveluun vain tekstiksi muuntamista varten, ja sieltä se poistetaan. Tallenteet, jotka päätät säilyttää, pysyvät puhelimessasi. Niiden litteroinnit ja yhteenvedot tallennetaan myös omalle tilillesi, jotta voit avata ne toisella laitteella, ja kun poistat tallenteen, se katoaa kaikkialta. Keskustelujasi ei koskaan käytetä tekoälymallien kouluttamiseen, ei meidän eikä kenenkään muun."
+      },
+      {
+        "q": "Toimiiko Captio AI ilman internetyhteyttä?",
+        "a": "Livetekstitys ja Livekääntäjä tarvitsevat internetyhteyden, jotta puhe voidaan käsitellä reaaliajassa. Myös Äänen litterointi (ladatuille tiedostoille) vaatii yhteyden. Tekstitys ilman verkkoyhteyttä ei ole tällä hetkellä mahdollista."
+      },
+      {
+        "q": "Millaisen puhelimen tai iPadin tarvitsen?",
+        "a": "Captio AI toimii iPhonessa ja iPadissa, joissa on iOS 16 tai uudempi, sekä Android-puhelimissa. Se on optimoitu puhelimelle ja toimii parhaiten, kun mikrofonin ja puhujan välillä ei ole esteitä."
+      },
+      {
+        "q": "Voinko käyttää Captio AI:ta lääkärikäynnillä?",
+        "a": "Kyllä, lääkärikäynnit ovat yksi tärkeimmistä käyttötilanteista. Voit asettaa puhelimen pöydälle tai pitää sitä lääkäriä kohti ja lukea reaaliajassa kaiken, mitä hän sanoo. Lääketieteelliset termit tunnistetaan tarkasti, mikä tekee Captio AI:sta käytännöllisen saavutettavuustyökalun terveydenhuollossa."
+      },
+      {
+        "q": "Voinko käyttää Captio AI:ta kokouksissa ja luennoilla?",
+        "a": "Kyllä. Captio AI toimii kaikissa tilanteissa, joissa puhutaan: työpalavereissa, yliopiston luennoilla, tiimin aamupalavereissa, konferensseissa ja videopuheluissa. Suuntaa mikrofoni puhujaa kohti, niin tekstitys ilmestyy heti."
+      },
+      {
+        "q": "Mitä Äänen litterointi on ja miten se eroaa Livetekstityksestä?",
+        "a": "Livetekstitys toimii reaaliajassa, kun joku puhuu. Äänen litterointi on tallenteita varten: lataat ääni- tai videotiedoston ja saat siitä täydellisen kirjoitetun litteroinnin. Se sopii nauhoittamiesi luentojen, haastattelujen, podcastien tai minkä tahansa sellaisen sisällön läpikäyntiin, jonka haluat mieluummin lukea kuin kuunnella."
+      },
+      {
+        "q": "Mitä Tekoälyyhteenveto tekee?",
+        "a": "Tekoälyyhteenveto poimii mistä tahansa litteroinnista olennaiset tiedot, kuten pääkohdat, tehdyt päätökset, tehtävät ja tärkeät yksityiskohdat, ja kokoaa ne jäsennellyksi yhteenvedoksi. Se säästää aikaa, kun sinulla on pitkä litterointi kokouksesta tai luennosta ja tarvitset tärkeimmät kohdat nopeasti."
+      },
+      {
+        "q": "Onko Captio AI ilmainen?",
+        "a": "Captio AI:ssa on ilmainen versio, jolla pääset alkuun maksamatta mitään. Plus-tilaus on tarjolla niille, jotka tarvitsevat rajattoman käytön. Plus-tilauksen nykyinen hinta omassa maassasi näkyy App Store -sivulla."
+      },
+      {
+        "q": "Miten Captio AI eroaa Applen sisäänrakennetusta livetekstityksestä?",
+        "a": "Applen livetekstitys on rakennettu iOS:ään, mutta se tukee vähemmän kieliä, ei käännä eikä sisällä Äänen litterointia tai Tekoälyyhteenvetoa. Captio AI tukee yli 60:tä kieltä, kääntää reaaliajassa, litteroi ladatut tiedostot ja tekee tekoälyyhteenvedot, joten se on paljon kattavampi saavutettavuus- ja tuottavuustyökalu."
+      }
+    ]
+  },
+  "featurePages": {
+    "live-captions": {
+      "meta": {
+        "title": "Livetekstitys iPhonelle kuuroille ja huonokuuloisille",
+        "description": "Puhe tekstiksi reaaliajassa iPhonen mikrofonin kautta. Seuraa mitä tahansa keskustelua millä tahansa kielellä heti. Tehty kuuroille ja huonokuuloisille.",
+        "schemaDescription": "Reaaliaikainen livetekstitys kuuroille ja huonokuuloisille. Yli 60 kieltä, viive selvästi alle sekunnin, toimii missä vain."
+      },
+      "howTitle": "Kolme napautusta. Koko keskustelu.",
+      "steps": [
+        {
+          "title": "Aloita tallennus",
+          "desc": "Paina tallennuspainiketta. Captio AI alkaa kuunnella heti."
+        },
+        {
+          "title": "Katso, kun sanat ilmestyvät",
+          "desc": "Tekstitys näkyy sana sanalta jo silloin, kun ihminen vielä puhuu."
+        },
+        {
+          "title": "Tallenna",
+          "desc": "Säilytä litterointi ja äänitallenne myöhempää varten."
+        }
+      ],
+      "featuresTitle": "Tehty oikeisiin keskusteluihin",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Sanat juuri niin kuin ne sanottiin",
+          "description": "Captio AI kirjoittaa ylös sen, mitä joku todella sanoi, eikä summittaista mukaelmaa. Voit luottaa tekstiin silloin, kun sillä on väliä: lääkärissä, haastattelussa, kokouksessa."
+        },
+        {
+          "title": "Ei viivettä",
+          "description": "Viive on selvästi alle sekunnin. Tekstitys ilmestyy sana sanalta puhujan vielä puhuessa, joten luet sanat samalla hetkellä, kun muut kuulevat ne."
+        },
+        {
+          "title": "Tiedä, kuka puhuu",
+          "description": "Ryhmissä ja kokouksissa Captio AI merkitsee jokaisen puhujan erikseen, joten tiedät aina, kuka sanoi mitäkin, ilman että sinun täytyy tarkkailla kasvoja tai huulten liikkeitä."
+        },
+        {
+          "title": "Yli 60 kieltä",
+          "description": "Seuraa keskustelua ranskaksi, japaniksi tai arabiaksi samalla tavalla kuin englanniksi. Tilaa ei tarvitse vaihtaa. Kuulonalenema ei koskaan ole myös kielimuuri."
+        },
+        {
+          "title": "Pysyy mukana, kun kieli vaihtuu kesken lauseen",
+          "description": "Kun ihmiset vaihtavat kieltä kesken keskustelun, Captio AI pysyy mukana. Ei katkoja tekstityksessä, ei tilaa vaihdettavana."
+        },
+        {
+          "title": "Opeta sille oma sanastosi",
+          "description": "Lisää nimiä, lääketieteellisiä termejä tai erikoissanoja, joita kuulet usein. Captio AI käyttää sanastoasi, jotta keskustelusi tekstittyvät tarkemmin."
+        },
+        {
+          "title": "Lisää kielivihje",
+          "description": "Kerro Captio AI:lle, mitä kieltä odottaa, niin se on vireessä ensimmäisestä sanasta lähtien. Hyödyllistä silloin, kun puhuttu kieli ei ole selvä asiayhteydestä."
+        },
+        {
+          "title": "Litteroi myöhemmin uudelleen tarkemmin",
+          "description": "Aja mikä tahansa tallenne jälkikäteen uudelleen läpi, niin saat siistimmän litteroinnin. Hyödyllistä luennoille, vastaanottokäynneille ja kaikille keskusteluille, jotka kannattaa käydä läpi."
+        },
+        {
+          "title": "Lue omalla tavallasi",
+          "description": "Säädä tekstin kokoa, taustaväriä ja kontrastia, kunnes tekstitys on helppo lukea yhdellä silmäyksellä: puhelin kädessä, pöydällä tai työpöytää vasten nojaten."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Ääni ei jää palvelimillemme",
+          "description": "Äänesi muunnetaan tekstiksi reaaliajassa, eikä sitä koskaan säilytetä palvelimillamme. Säilyttämäsi tallenteet pysyvät puhelimessasi, ja niiden litteroinnit synkronoidaan vain omalle tilillesi."
+        },
+        {
+          "title": "Ei myyntituote",
+          "description": "Captio AI ei myy, jaa tai tee rahaa keskusteluillasi. Ei kenellekään, ei mistään syystä."
+        },
+        {
+          "title": "Ei käytetä minkään kouluttamiseen",
+          "description": "Se, mitä sanot lääkärissä tai työhaastattelussa, ei koskaan päädy koulutusaineistoon. Ei meidän eikä kenenkään muun."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Miten Captio AI eroaa Applen sisäänrakennetusta livetekstityksestä?",
+          "a": "Applen livetekstitys tukee vähemmän kieliä, ei käännä eikä sisällä Äänen litterointia tai Tekoälyyhteenvetoa. Captio AI tukee yli 60:tä kieltä, kääntää reaaliajassa, litteroi ladatut tiedostot ja tekee tekoälyyhteenvedot. Voit myös säätää tekstin kokoa, värejä ja kontrastia niin, että lukeminen sujuu sinulta parhaiten."
+        },
+        {
+          "q": "Kuinka tarkka livetekstitys on?",
+          "a": "Tavallisissa keskustelutilanteissa tarkkuus on korkea. Captio AI on tehty oikealle puheelle eikä vain siistille studioäänelle, joten se pärjää nopeiden puhujien, alueellisten aksenttien, taustamelun ja kieliä sekoittavien lauseiden kanssa. Voit myös lisätä oman sanaston (nimiä, lääketieteellisiä termejä, erikoissanoja) ja parantaa tarkkuutta omissa keskusteluissasi."
+        },
+        {
+          "q": "Kuinka nopeasti tekstitys ilmestyy?",
+          "a": "Sana sanalta, puhujan vielä puhuessa. Viive on selvästi alle sekunnin, lähes reaaliaikainen. Luet sanat samalla hetkellä, kun muut kuulevat ne, etkä vasta lauseen loputtua."
+        },
+        {
+          "q": "Toimiiko Livetekstitys meluisissa paikoissa?",
+          "a": "Kyllä. Captio AI on suunniteltu oikeisiin ympäristöihin: ravintoloihin, kaduille, odotushuoneisiin ja julkisiin kulkuneuvoihin. Suuntaa mikrofoni puhujaa kohti, niin tekstitys ilmestyy taustamelusta huolimatta."
+        },
+        {
+          "q": "Mitä kieliä Livetekstitys tukee?",
+          "a": "Yli 60:tä kieltä, kuten englantia, espanjaa, ranskaa, saksaa, mandariinikiinaa, arabiaa, hindiä, japania, koreaa, portugalia, venäjää ja monia muita. Alueellisia aksentteja ja murteita tuetaan kaikissa suurissa kielissä."
+        },
+        {
+          "q": "Toimiiko se aksenttien ja murteiden kanssa?",
+          "a": "Kyllä. Captio AI ymmärtää monenlaisia alueellisia aksentteja, ei vain oppikirjamaista yleiskieltä. Australian englanti, Latinalaisen Amerikan espanja, sveitsinsaksa, Québecin ranska ja monet muut ovat tuettuja."
+        },
+        {
+          "q": "Voinko tallentaa tekstitykset?",
+          "a": "Kyllä. Voit tallentaa litteroinnit ja äänitallenteet istunnon jälkeen ja käydä ne läpi myöhemmin. Voit myös litteroida tallenteen uudelleen, jolloin saat siistimmän ja tarkemman tekstin."
+        },
+        {
+          "q": "Tarvitsenko internetyhteyden?",
+          "a": "Kyllä. Livetekstitys tarvitsee internetyhteyden, jotta puhe voidaan käsitellä reaaliajassa. Tekstitys ilman verkkoyhteyttä ei ole tällä hetkellä mahdollista."
+        }
+      ]
+    },
+    "live-translator": {
+      "meta": {
+        "title": "Livekääntäjä: puheen käännös reaaliajassa iPhonella",
+        "description": "Reaaliaikainen puheen käännös iPhonella. Toinen puhuu omaa kieltään, sinä luet omallasi. Heti, millä kielellä tahansa. Tehty kuuroille ja huonokuuloisille.",
+        "schemaDescription": "Reaaliaikainen puheen käännös kuuroille ja huonokuuloisille. Yli 60 kieltä, jokainen puhuu omaa kieltään ja sinä luet omallasi."
+      },
+      "howTitle": "Kolme napautusta. Mikä tahansa kieli.",
+      "steps": [
+        {
+          "title": "Valitse käännöstila",
+          "desc": "Avaa Captio AI ja valitse Livekääntäjä."
+        },
+        {
+          "title": "Valitse haluamasi kieli",
+          "desc": "Valitse kieli, jolla haluat lukea."
+        },
+        {
+          "title": "Näe käännös reaaliajassa",
+          "desc": "Captio AI kääntää sana sanalta."
+        }
+      ],
+      "featuresTitle": "Tehty oikeisiin keskusteluihin",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Mikä tahansa kieli",
+          "description": "Ranska, japani, arabia, espanja, saksa, mandariinikiina: yli 60 kieltä mihin suuntaan tahansa. Kuulonalenema ei koskaan ole myös kielimuuri."
+        },
+        {
+          "title": "Tunnistaa puhutun kielen automaattisesti",
+          "description": "Jätä lähtökieleksi automaattinen tunnistus, niin Captio AI päättelee kielen ensimmäisistä sanoista. Kieltä ei tarvitse valita käsin ennen jokaista keskustelua."
+        },
+        {
+          "title": "Ei viivettä",
+          "description": "Käännöksen viive on selvästi alle sekunnin. Luet sanat samalla hetkellä, kun muut kuulevat ne, etkä vasta lauseen loputtua."
+        },
+        {
+          "title": "Lisää kielivihjeitä",
+          "description": "Kerro Captio AI:lle, mitä kieltä odottaa, niin se on vireessä ensimmäisestä sanasta lähtien. Hyödyllistä silloin, kun puhuttu kieli ei ole selvä asiayhteydestä."
+        },
+        {
+          "title": "Monta kieltä yhtä aikaa",
+          "description": "Kun ihmiset vaihtavat kieltä kesken keskustelun, Captio AI pysyy mukana ja kääntää jokaisen niistä sinun kielellesi ilman, että sinun tarvitsee tehdä mitään."
+        },
+        {
+          "title": "Lue omalla tavallasi",
+          "description": "Säädä taustaväriä, tekstin väriä ja fonttikokoa, jotta käännös on helppo lukea yhdellä silmäyksellä, oli puhelin sitten kädessäsi tai pöydällä."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Ääni ei jää palvelimillemme",
+          "description": "Äänesi muunnetaan tekstiksi reaaliajassa, eikä sitä koskaan säilytetä palvelimillamme. Säilyttämäsi tallenteet pysyvät puhelimessasi, ja niiden litteroinnit synkronoidaan vain omalle tilillesi."
+        },
+        {
+          "title": "Ei myyntituote",
+          "description": "Captio AI ei myy, jaa tai tee rahaa keskusteluillasi. Ei kenellekään, ei mistään syystä."
+        },
+        {
+          "title": "Ei käytetä minkään kouluttamiseen",
+          "description": "Se, mitä sanot lääkärissä tai työhaastattelussa, ei koskaan päädy koulutusaineistoon. Ei meidän eikä kenenkään muun."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Miten Livekääntäjä eroaa Livetekstityksestä?",
+          "a": "Livetekstitys muuttaa puheen tekstiksi alkuperäisellä kielellä. Livekääntäjä kääntää saman puheen valitsemallesi kielelle reaaliajassa. Jos toinen puhuu ranskaa ja sinä luet englantia, käytät Livekääntäjää."
+        },
+        {
+          "q": "Kuinka tarkka käännös on?",
+          "a": "Yleisillä kielipareilla käännös on arkikeskustelussa tarkka. Captio AI ymmärtää luonnollista puhetta, kuten nopeita puhujia, aksentteja ja taustamelua, eikä vain siistiä studioääntä. Harvinaisilla kielipareilla tai hyvin teknisessä sisällössä tarkkuus voi vaihdella."
+        },
+        {
+          "q": "Mitä kieliä tuetaan?",
+          "a": "Yli 60:tä kieltä, kuten englantia, espanjaa, ranskaa, saksaa, mandariinikiinaa, arabiaa, hindiä, japania, koreaa, portugalia, venäjää ja monia muita. Sekä lähtö- että kohdekieli voi olla mikä tahansa tuetuista kielistä."
+        },
+        {
+          "q": "Kuinka nopeasti käännös ilmestyy?",
+          "a": "Viive on selvästi alle sekunnin. Luet käännöksen sana sanalta puhujan vielä puhuessa, lähes reaaliajassa, etkä vasta lauseen loputtua."
+        },
+        {
+          "q": "Toimiiko se lääkärikäynnillä, jos lääkäri puhuu eri kieltä?",
+          "a": "Kyllä. Tämä on yksi tärkeimmistä käyttötilanteista. Aseta puhelin pöydälle, valitse lähtökieleksi lääkärin kieli ja lue reaaliajassa omalla kielelläsi kaikki, mitä hän sanoo. Voit myös tallentaa käännetyn tekstin ja käydä hänen ohjeensa läpi jälkikäteen."
+        },
+        {
+          "q": "Toimiiko se meluisissa paikoissa?",
+          "a": "Kyllä. Captio AI on tehty oikeisiin ympäristöihin: odotushuoneisiin, ravintoloihin ja lentokentille. Suuntaa mikrofoni puhujaa kohti, niin käännös ilmestyy ympäröivästä melusta huolimatta."
+        },
+        {
+          "q": "Voinko tallentaa käännetyn tekstin?",
+          "a": "Kyllä. Istunnon jälkeen voit tallentaa käännetyn tekstin ja käydä sen läpi myöhemmin. Hyödyllistä lääkärikäynneillä, kokouksissa ja kaikissa keskusteluissa, joista haluat pitää kirjaa."
+        },
+        {
+          "q": "Tarvitsenko internetyhteyden?",
+          "a": "Kyllä. Livekääntäjä tarvitsee internetyhteyden, jotta puhe voidaan käsitellä ja kääntää reaaliajassa. Käännös ilman verkkoyhteyttä ei ole tällä hetkellä mahdollista."
+        }
+      ]
+    },
+    "audio-transcription": {
+      "meta": {
+        "title": "Äänen litterointi: ääni ja video tekstiksi iPhonella",
+        "description": "Litteroi mikä tahansa ääni- tai videotiedosto tekstiksi. Yli 60 kieltä, puhujien erottelu, haettava teksti. Tehty kuuroille ja huonokuuloisille.",
+        "schemaDescription": "Lataa mikä tahansa ääni- tai videotiedosto ja saat siitä täydellisen litteroinnin. Yli 60 kieltä, puhujien erottelu, aikaleimat. Tehty kuuroille ja huonokuuloisille."
+      },
+      "howTitle": "Lataa. Lue. Valmis.",
+      "steps": [
+        {
+          "title": "Valitse tiedostotyyppi",
+          "desc": "Valitse, lataatko äänitiedoston vai videotiedoston."
+        },
+        {
+          "title": "Valitse tiedosto",
+          "desc": "Valitse tiedosto puhelimestasi. Captio AI alkaa litteroida heti."
+        },
+        {
+          "title": "Katso litterointi",
+          "desc": "Lue koko litterointi puhujittain jäsenneltynä ja aikaleimoin."
+        }
+      ],
+      "featuresTitle": "Tehty oikeisiin tallenteisiin",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Mikä tahansa tiedostomuoto",
+          "description": "MP3, MP4, M4A, WAV ja muut. Luennot, kokoukset, vastaajaviestit, podcastit, haastattelut, puhelutallenteet: jos siinä on puhetta, Captio AI voi litteroida sen."
+        },
+        {
+          "title": "Paras tarkkuus",
+          "description": "Captio AI on tehty todelliseen ääneen eikä vain siisteihin studiotiedostoihin. Puheluiden ääni, luentosalitallenteet, meluisat ympäristöt: se pärjää niissä kaikissa."
+        },
+        {
+          "title": "Mikä tahansa kieli",
+          "description": "Lataa tallenne ranskaksi, japaniksi, arabiaksi tai 57 muulla kielellä. Captio AI tunnistaa kielen ja litteroi sen tarkasti."
+        },
+        {
+          "title": "Monta kieltä",
+          "description": "Kun puhujat vaihtavat kieltä kesken tallenteen, Captio AI pysyy mukana. Litteroinnissa näkyy jokainen puhuttu kieli ilman aukkoja."
+        },
+        {
+          "title": "Aikaleimat",
+          "description": "Jokaisella litteroinnin rivillä on aikaleima, joten voit hypätä mihin tahansa kohtaan tallenteessa ja löytää tarkalleen, mitä sanottiin ja milloin."
+        },
+        {
+          "title": "Vie ja jaa",
+          "description": "Kopioi koko litterointi, jaa se tai tallenna se. Tallenteesi ja litterointisi ovat saatavilla aina, kun tarvitset niitä."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Tiedostot eivät jää palvelimillemme",
+          "description": "Tiedostosi lähetetään vain litteroitavaksi ja poistetaan sen jälkeen sieltä, eikä sitä koskaan säilytetä palvelimillamme. Tallenne pysyy puhelimessasi, ja sen litterointi synkronoidaan vain omalle tilillesi."
+        },
+        {
+          "title": "Ei myyntituote",
+          "description": "Captio AI ei myy, jaa tai tee rahaa tallenteillasi. Ei kenellekään, ei mistään syystä."
+        },
+        {
+          "title": "Ei käytetä minkään kouluttamiseen",
+          "description": "Se, mitä lataat, oli se lääkärikäynti, kokous tai haastattelu, ei koskaan päädy koulutusaineistoon. Ei meidän eikä kenenkään muun."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Miten Äänen litterointi eroaa Livetekstityksestä?",
+          "a": "Livetekstitys toimii reaaliajassa, kun joku puhuu. Äänen litterointi on tallenteita varten: lataat ääni- tai videotiedoston ja saat siitä täydellisen kirjoitetun litteroinnin. Se sopii nauhoittamiesi luentojen, lääkärikäyntien, haastattelujen tai minkä tahansa sellaisen sisällön läpikäyntiin, jonka haluat mieluummin lukea kuin kuunnella."
+        },
+        {
+          "q": "Mitä tiedostomuotoja Äänen litterointi tukee?",
+          "a": "Captio AI hyväksyy yleiset ääni- ja videomuodot, kuten MP3, MP4, M4A, WAV ja muut. Jos olet tallentanut tiedoston puhelimellasi tai ladannut sen videopalvelusta, se toimii."
+        },
+        {
+          "q": "Kuinka tarkka litterointi on?",
+          "a": "Selkeillä tallenteilla tuetuilla kielillä tarkkuus on korkea. Captio AI pärjää todellisen äänen kanssa, kuten puheluiden, luentosalitallenteiden ja meluisien ympäristöjen, eikä vain studiolaatuisten tiedostojen. Voit tarvittaessa myös litteroida tiedoston uudelleen."
+        },
+        {
+          "q": "Mitä kieliä tuetaan?",
+          "a": "Yli 60:tä kieltä, kuten englantia, espanjaa, ranskaa, saksaa, mandariinikiinaa, arabiaa, hindiä, japania, koreaa, portugalia, venäjää ja monia muita. Captio AI tunnistaa tiedostossa puhutun kielen automaattisesti."
+        },
+        {
+          "q": "Erotteleeko se puhujat?",
+          "a": "Kyllä. Captio AI merkitsee jokaisen puhujan litterointiin erikseen, joten tiedät, kuka sanoi mitäkin. Hyödyllistä kokouksissa, haastatteluissa, lääkärikäynneillä ja kaikissa usean ihmisen tallenteissa."
+        },
+        {
+          "q": "Kauanko litterointi kestää?",
+          "a": "Litterointi on nopeaa. Tunnin tallenne vie yleensä muutaman minuutin. Aika riippuu tiedoston pituudesta ja äänenlaadusta."
+        },
+        {
+          "q": "Säilytetäänkö ääntäni litteroinnin jälkeen?",
+          "a": "Ei. Captio AI ei säilytä ääntäsi palvelimillaan. Tiedosto lähetetään turvallisesti puheentunnistuspalveluun vain litteroitavaksi, ja se poistetaan sieltä heti, kun litterointi on valmis. Tallenne pysyy puhelimessasi, ja sen litterointi tallennetaan myös omalle tilillesi, jotta voit avata sen toisella laitteella. Tallenteitasi ei koskaan myydä eikä käytetä tekoälymallien kouluttamiseen."
+        },
+        {
+          "q": "Voinko litteroida videotiedoston?",
+          "a": "Kyllä. Lataa videotiedosto suoraan, niin Captio AI erottaa siitä äänen ja litteroi sen. Tiedostoa ei tarvitse muuntaa ensin."
+        }
+      ]
+    },
+    "ai-summary": {
+      "meta": {
+        "title": "Tekoälyyhteenveto: jäsennelty yhteenveto litteroinnista",
+        "description": "Muuta mikä tahansa litterointi jäsennellyksi yhteenvedoksi. Pääkohdat, päätökset ja tehtävät poimitaan automaattisesti. Tehty kuuroille ja huonokuuloisille.",
+        "schemaDescription": "Muuta mikä tahansa litterointi jäsennellyksi yhteenvedoksi. Pääkohdat, päätökset, tehtävät ja puhujien lainaukset poimitaan automaattisesti."
+      },
+      "howTitle": "Litterointi sisään. Yhteenveto ulos.",
+      "steps": [
+        {
+          "title": "Avaa mikä tahansa litterointi",
+          "desc": "Valitse mikä tahansa litterointi Livetekstityksestä tai Äänen litteroinnista."
+        },
+        {
+          "title": "Luo yhteenveto",
+          "desc": "Napauta ”Tekoälyyhteenveto”. Captio AI käsittelee litteroinnin automaattisesti."
+        },
+        {
+          "title": "Lue yhteenveto",
+          "desc": "Yhteenvetosi on valmis: jäsennelty osioihin ja valmis luettavaksi tai jaettavaksi."
+        }
+      ],
+      "featuresTitle": "Tehty pitkiin litterointeihin",
+      "featuresSubtitle": "Saat yhteenvedon, tehtävälistan, puhujien lainaukset, muistiinpanot ja paljon muuta.",
+      "subfeatures": [
+        {
+          "title": "Pääkohdat poimitaan automaattisesti",
+          "description": "Captio AI lukee koko litteroinnin ja nostaa esiin sen, millä oikeasti oli merkitystä: pääkohdat, tehdyt päätökset ja johtopäätökset."
+        },
+        {
+          "title": "Tehtävät nostetaan esiin",
+          "description": "Tehtävät ja jatkotoimet tunnistetaan ja listataan erikseen, joten mikään ei unohdu kokouksen, vastaanottokäynnin tai luennon jälkeen."
+        },
+        {
+          "title": "Jäsennelty osioihin",
+          "description": "Yhteenveto on jäsennelty eikä yhtä yhtenäistä tekstimassaa. Jokainen aihe saa oman osionsa, joten voit silmäillä ja löytää tarvitsemasi."
+        },
+        {
+          "title": "Toimii kaikille Captio AI -litteroinneille",
+          "description": "Käytä Tekoälyyhteenvetoa mihin tahansa litterointiin, jonka olet tehnyt Livetekstityksellä tai Äänen litteroinnilla. Ei ylimääräisiä vaiheita, ei kopioimista ja liittämistä."
+        },
+        {
+          "title": "Mikä tahansa kieli",
+          "description": "Tee yhteenvetoja litteroinneista yli 60 kielellä. Captio AI lukee litteroinnin alkuperäisellä kielellä ja tekee yhteenvedon, jonka voit lukea."
+        },
+        {
+          "title": "Tallenna ja jaa",
+          "description": "Säilytä yhteenveto litteroinnin rinnalla, kopioi se tai jaa se. Hyödyllistä lääkärikäyntien, kokousten ja luentojen jälkeen."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Säilyy vain tililläsi",
+          "description": "Yhteenveto tallentuu tallenteen mukana puhelimeesi ja omalle tilillesi, joten se löytyy jokaiselta laitteelta, jolla kirjaudut sisään. Poista se, ja se on poissa kaikkialta."
+        },
+        {
+          "title": "Ei myyntituote",
+          "description": "Captio AI ei myy, jaa tai tee rahaa keskusteluillasi. Ei kenellekään, ei mistään syystä."
+        },
+        {
+          "title": "Ei käytetä minkään kouluttamiseen",
+          "description": "Se, mistä teet yhteenvedon, oli se lääkärikäynti, kokous tai haastattelu, ei koskaan päädy koulutusaineistoon. Ei meidän eikä kenenkään muun."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Mitä Tekoälyyhteenveto tekee?",
+          "a": "Tekoälyyhteenveto poimii mistä tahansa litteroinnista olennaiset tiedot, kuten pääkohdat, päätökset, tehtävät ja tärkeät yksityiskohdat, ja kokoaa ne jäsennellyksi yhteenvedoksi. Se säästää aikaa, kun sinulla on pitkä litterointi ja tarvitset tärkeimmät kohdat nopeasti."
+        },
+        {
+          "q": "Mistä litteroinneista voin tehdä yhteenvedon?",
+          "a": "Mistä tahansa Captio AI:lla tehdystä litteroinnista, joko Livetekstityksestä tai Äänen litteroinnista. Käytät Tekoälyyhteenvetoa suoraan litterointiin ilman ylimääräisiä vaiheita."
+        },
+        {
+          "q": "Miten Tekoälyyhteenveto eroaa pelkästä litteroinnin lukemisesta?",
+          "a": "Tunnin kokouksen koko litterointi voi olla tuhansia sanoja. Tekoälyyhteenveto antaa pääkohdat, päätökset ja tehtävät murto-osassa lukuajasta, aiheittain jäsenneltynä eikä siinä järjestyksessä, jossa asiat sanottiin."
+        },
+        {
+          "q": "Toimiiko se lääkärikäynneillä?",
+          "a": "Kyllä. Lääkärikäynnillä saat paljon tietoa nopeasti. Tekoälyyhteenveto poimii diagnoosin, ohjeet ja jatkotoimet selkeäksi listaksi, jonka voit käydä läpi ja johon voit palata myöhemmin."
+        },
+        {
+          "q": "Mitä kieliä tuetaan?",
+          "a": "Tekoälyyhteenveto toimii litteroinneille yli 60 kielellä. Yhteenveto tehdään samalla kielellä kuin litterointi."
+        },
+        {
+          "q": "Voinko tallentaa tai jakaa yhteenvedon?",
+          "a": "Kyllä. Voit tallentaa yhteenvedon alkuperäisen litteroinnin rinnalle, kopioida sen tai jakaa sen. Kätevää, kun haluat lähettää kokouksen yhteenvedon tai pitää kirjaa lääkärikäynnistä."
+        },
+        {
+          "q": "Tallentaako Tekoälyyhteenveto litterointini tai ääneni?",
+          "a": "Litterointisi lähetetään turvallisesti tekoälypalveluun vain yhteenvedon kirjoittamista varten, eikä sitä koskaan käytetä tekoälymallien kouluttamiseen. Yhteenveto tallennetaan tallenteen mukana puhelimeesi ja omalle tilillesi, kunnes poistat sen. Captio AI ei koskaan säilytä ääntä palvelimillaan, eikä keskustelujasi koskaan myydä."
+        }
+      ]
+    }
+  }
+}

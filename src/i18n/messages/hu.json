@@ -1,0 +1,676 @@
+{
+  "header": {
+    "features": "Funkciók",
+    "useCases": "Felhasználás",
+    "languages": "Nyelvek",
+    "compare": "Összehasonlítás",
+    "blog": "Blog",
+    "download": "Letöltés",
+    "toggleMenu": "Menü megnyitása vagy bezárása",
+    "chooseLanguage": "Nyelv kiválasztása"
+  },
+  "footer": {
+    "tagline": "Élő felirat és produktivitási eszköz siketeknek és nagyothallóknak.",
+    "productHuntTagline": "Élő felirat és átírás siketeknek és nagyothallóknak",
+    "productHunt": "Nézd meg a Product Hunton →",
+    "featuredOn": "Szerepel itt:",
+    "features": "Funkciók",
+    "useCases": "Felhasználás",
+    "blog": "Blog",
+    "allArticles": "Összes cikk",
+    "compare": "Összehasonlítás",
+    "compareApps": "Feliratozó appok összehasonlítása",
+    "company": "Cég",
+    "organizations": "Szervezeteknek",
+    "privacy": "Adatvédelmi irányelvek",
+    "terms": "Felhasználási feltételek"
+  },
+  "store": {
+    "appleOverline": "Letöltés:",
+    "googleOverline": "Szerezd meg:",
+    "appleQrAlt": "QR-kód a Captio AI letöltéséhez iPhone-ra az App Store-ból",
+    "googleQrAlt": "QR-kód a Captio AI letöltéséhez Androidra a Google Playről",
+    "downloadForFree": "Töltsd le ingyen"
+  },
+  "common": {
+    "home": "Kezdőlap",
+    "back": "Vissza",
+    "goBack": "Vissza az előző oldalra",
+    "explore": "Felfedezés",
+    "featuresLabel": "Funkciók",
+    "howItWorks": "Így működik",
+    "privacyLabel": "Adatvédelem",
+    "privacyTitle": "Amit hallasz, az nálad marad.",
+    "privacyImageAlt": "Alapból privát: a hangodat soha nem tároljuk a szervereinken, soha nem adjuk el, és soha nem használjuk tanításra",
+    "faqLabel": "GYIK",
+    "faqTitle": "Gyakran ismételt kérdések",
+    "getStarted": "Kezdd el",
+    "freeToStart": "A Captio AI ingyen kipróbálható",
+    "allFeatures": "A Captio AI funkciói: Élő felirat, Élő fordító, Hangátírás és MI-összefoglaló.",
+    "featureNames": {
+      "live-captions": "Élő felirat",
+      "live-translator": "Élő fordító",
+      "audio-transcription": "Hangátírás",
+      "ai-summary": "MI-összefoglaló"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Captio AI – élő felirat és átírás siketeknek, nagyothallóknak",
+      "description": "A Captio AI élő feliratot, élő fordítást, hangátírást és MI-összefoglalót ad siketeknek és nagyothallóknak, a telefonodon. Több mint 60 nyelven.",
+      "ogDescription": "Valós idejű élő felirat, élő fordítás, hangátírás és MI-összefoglaló siketeknek és nagyothallóknak. Több mint 60 nyelv. iPhone-ra és Androidra.",
+      "schemaDescription": "Valós idejű élő felirat, élő fordítás, hangátírás és MI-összefoglaló siketeknek és nagyothallóknak. Több mint 60 nyelv."
+    },
+    "eyebrow": "🦻 Akadálymentesség + 💻 Produktivitási app",
+    "heroTitle": "[Élő felirat] és [produktivitási eszköz] siketeknek és nagyothallóknak.",
+    "heroSubtitle": "Kövess bármilyen beszélgetést, megbeszélést vagy előadást. Bármilyen nyelven.",
+    "mockupAlt": "A Captio AI alkalmazás élő felirattal és fordítással",
+    "featuresTitle": "Minden, ami ahhoz kell, hogy bármilyen beszélgetést követni tudj",
+    "featuresSubtitle": "Négy eszköz, kifejezetten siketeknek és nagyothallóknak.",
+    "features": {
+      "live-captions": {
+        "title": "Beszédből szöveg, valós időben",
+        "bullets": [
+          "Szóról szóra, valós időben",
+          "Zajos helyeken is működik",
+          "Bármilyen akcentus, bármilyen tempó",
+          "Nem kell szájról olvasni"
+        ]
+      },
+      "live-translator": {
+        "title": "Fordítás bármilyen nyelvről, valós időben",
+        "bullets": [
+          "Fordít, miközben beszélnek",
+          "Mindenki a saját nyelvén beszél",
+          "Bírja a mondat közbeni nyelvváltást",
+          "Több mint 60 nyelv"
+        ]
+      },
+      "audio-transcription": {
+        "title": "Bármilyen hang- vagy videófájl átírása",
+        "bullets": [
+          "Bármilyen hang- vagy videófájl",
+          "Beszélők szerint rendezve",
+          "Több mint 60 nyelv",
+          "Olvasd, másold, keress benne, oszd meg"
+        ]
+      },
+      "ai-summary": {
+        "title": "Átiratokból áttekinthető összefoglalók",
+        "bullets": [
+          "Fő pontok és döntések",
+          "Kigyűjtött teendők",
+          "Bármilyen átiraton működik",
+          "Szakaszokra bontva"
+        ]
+      }
+    },
+    "moreFeaturesTitle": "További funkciók",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "MI-műveletek",
+        "title": "Teendők, jegyzetek és követő üzenet",
+        "description": "Készíts bármelyik felvételből fő pontokat, részletes jegyzeteket, teendőket, kérdéseket és válaszokat vagy követő üzenetet."
+      },
+      "export": {
+        "label": "Exportálás",
+        "title": "Oszd meg a magad módján",
+        "description": "Küldd el a feliratot vagy az összefoglalót szövegként, linkként, PDF-ként, e-mailben vagy MI-csevegés promptjaként."
+      },
+      "folders": {
+        "label": "Mappák",
+        "title": "Mappák és megosztott mappák",
+        "description": "Rendezd a felvételeket mappákba, és oszd meg valamelyiket a családdal, osztálytársakkal vagy a csapatoddal."
+      },
+      "recognize-voices": {
+        "label": "Hangfelismerés",
+        "title": "Nevek a „2. beszélő” helyett",
+        "description": "Mentsd el azok hangját, akikkel gyakran beszélsz, és lásd a nevüket a feliratokban."
+      },
+      "speaker-direction": {
+        "label": "A beszélő iránya",
+        "title": "Lásd, honnan jön egy hang",
+        "description": "A feliratok szélén lévő hullámok mutatják, ki beszél. iPhone 16-tól kezdve."
+      },
+      "connectors": {
+        "label": "Összekötők",
+        "title": "Kérdezd a csevegőappodat",
+        "description": "Kérdezz a felvételeidről a Claude, a ChatGPT, a Gemini vagy a Perplexity segítségével."
+      },
+      "widgets": {
+        "label": "Widgetek",
+        "title": "Feliratok egyetlen koppintással",
+        "description": "Indítsd el az Élő feliratot az iPhone főképernyőjéről vagy zárolási képernyőjéről."
+      }
+    },
+    "useCasesLabel": "Felhasználás",
+    "useCasesTitle": "Minden helyzetben működik",
+    "useCasesSubtitle": "A valódi, fontos pillanatokra tervezve, nem csak csendes, ideális körülményekre.",
+    "useCases": {
+      "everyday-conversations": {
+        "label": "Hétköznapi beszélgetések",
+        "description": "A legtöbb beszélgetés gyorsan, normál tempóban, előzetes figyelmeztetés nélkül zajlik. A Captio AI minden szót feliratoz, ahogy elhangzik, így követni tudod anélkül, hogy bárkit ismétlésre kérnél."
+      },
+      "deaf-hoh-communication": {
+        "label": "Beszélgetés siketekkel és nagyothallókkal",
+        "description": "A hallók gyakran nem tudják, hogyan alkalmazkodjanak, amikor siket vagy nagyothalló barátaikkal beszélnek. A Captio AI valós idejű felirattá alakítja a beszédüket, így a beszélgetés mindkét fél számára természetes lehet."
+      },
+      "meetings": {
+        "label": "Megbeszélések",
+        "description": "Megbeszéléseken gyorsan születnek a döntések, és az emberek egymás szavába vágnak. A Captio AI minden beszélőt feliratoz, miközben beszél, így soha nem maradsz le egy döntésről vagy egy neked szóló kérdésről."
+      },
+      "lectures": {
+        "label": "Előadások",
+        "description": "Az előadók gyorsan beszélnek, bonyolult anyagot adnak le, és ritkán ismétlik magukat. A Captio AI élő átiratot ad mindenről, ami elhangzik, így a tartalomra figyelhetsz, nem arra, hogy meghalld."
+      },
+      "doctor-appointments": {
+        "label": "Orvosi vizsgálatok",
+        "description": "Az orvosok gyorsan beszélnek, és olyan szakszavakat használnak, amelyeket könnyű félrehallani. A Captio AI valós időben megmutat mindent, amit mondanak, így érted a diagnózisodat, és a megfelelő kérdéseket teheted fel."
+      },
+      "job-interviews": {
+        "label": "Állásinterjúk",
+        "description": "Ha egy interjún lemaradsz egy kérdésről, rosszul válaszolsz, vagy meg kell kérned, hogy ismételjék meg. A Captio AI megmutatja a kérdező minden szavát, így teljesen a válaszodra koncentrálhatsz."
+      },
+      "phone-video-calls": {
+        "label": "Telefon- és videóhívások",
+        "description": "A telefon- és videóhívásokat nehezebb követni, mint a személyes beszélgetéseket. Nincs szájról olvasás, a hangminőség pedig gyakran gyenge. A Captio AI valós időben feliratozza, aki éppen beszél, így nem kell ismétlést kérned."
+      },
+      "group-settings": {
+        "label": "Társaságban",
+        "description": "Társaságban többen beszélnek egyszerre, és gyorsan halad a beszélgetés. A Captio AI lépést tart azzal, aki éppen beszél, így követni tudod, merre tart a beszélgetés."
+      },
+      "restaurants": {
+        "label": "Éttermek és kávézók",
+        "description": "A háttérzaj még ép hallással is nehezen követhetővé teszi a beszédet. A Captio AI arra figyel, aki hozzád beszél, így a zaj ellenére is valódi beszélgetést folytathatsz."
+      },
+      "traveling": {
+        "label": "Utazás",
+        "description": "Repülőtereken, szállodákban és ismeretlen városokban nincs helye a félrehallásnak. A Captio AI több mint 60 nyelven feliratozza a beszédet, így bárhol magabiztosan eligazodsz."
+      },
+      "conferences": {
+        "label": "Konferenciák és rendezvények",
+        "description": "Az előadók messze vannak, az akusztika kiszámíthatatlan, és nem kérheted, hogy ismételjenek. A Captio AI élő átiratot ad minden előadóról, így bármelyik székből követheted az egész eseményt."
+      },
+      "tv-media": {
+        "label": "TV és média",
+        "description": "A beépített feliratok gyakran hibásak, késnek, vagy egyáltalán nincsenek. A Captio AI valós időben feliratozza, ami éppen megy, így nem múlik azon, hogy van-e felirat a műsorhoz."
+      }
+    },
+    "languagesLabel": "Nyelvek",
+    "languagesTitle": "A Captio AI több mint 60 nyelvet ismer",
+    "privacyCards": [
+      {
+        "title": "A hangod nem kerül a szervereinkre",
+        "description": "A hangodat valós időben alakítjuk szöveggé, és a szervereinken soha nem tároljuk. A mentett felvételek a telefonodon maradnak, az átiratuk pedig csak a saját fiókoddal szinkronizálódik."
+      },
+      {
+        "title": "Nem árucikk",
+        "description": "A beszélgetéseidet a Captio AI nem adja el, nem osztja meg és nem teszi pénzzé — senkinek, semmilyen okból."
+      },
+      {
+        "title": "Nem használjuk tanításra",
+        "description": "Amit egy orvosi vizsgálaton vagy egy állásinterjún mondasz, soha nem kerül tanító adatkészletbe. Sem a miénkbe. Sem senki máséba."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Kinek készült a Captio AI?",
+        "a": "A Captio AI elsősorban siketeknek és nagyothallóknak készült, akiknek valós időben kell követniük a beszélgetéseket. Széles körben használják az auditív feldolgozási zavarral élők, a zajos környezetben lévők, a nyelvtanulók és mindenki, akinek az olvasás gyorsabb vagy könnyebb, mint a hallgatás."
+      },
+      {
+        "q": "Mennyire pontos az élő felirat?",
+        "a": "A Captio AI fejlett beszédfelismerést használ, amelyet kifejezetten a pontosságra és az alacsony késleltetésre terveztek. A pontosság függ a hang tisztaságától, az akcentustól és a háttérzajtól, de átlagos beszélgetési körülmények között nagyon magas, a profi feliratozó szolgáltatásokéhoz hasonló."
+      },
+      {
+        "q": "Milyen nyelveket ismer a Captio AI?",
+        "a": "A Captio AI több mint 60 nyelvet ismer, köztük az angolt, a spanyolt, a franciát, a németet, a mandarin kínait, az arabot, a hindit, a japánt, a koreait, a portugált, az oroszt és még sok mást. Minden nyelv elérhető az Élő felirat és az Élő fordító funkcióban. A teljes listát ezen az oldalon találod."
+      },
+      {
+        "q": "Működik a Captio AI különböző akcentusokkal és nyelvjárásokkal?",
+        "a": "Igen. A Captio AI a regionális akcentusok és nyelvjárások széles skáláját kezeli, nem csak a tankönyvi kiejtést. Ismeri többek között az ausztrál angolt, a latin-amerikai spanyolt, a svájci németet, a brazil portugált és a québeci franciát."
+      },
+      {
+        "q": "Mi a különbség az Élő felirat és az Élő fordító között?",
+        "a": "Az Élő felirat az eredeti nyelven írja le a beszédet. Az Élő fordító ezt a beszédet valós időben lefordítja az általad választott nyelvre — ideális, ha a beszélő és az olvasó nem ugyanazt a nyelvet beszéli, például egy külföldi orvosnál vagy egy idegen nyelvű üzleti megbeszélésen."
+      },
+      {
+        "q": "Tárolja vagy megosztja a Captio AI a hangomat?",
+        "a": "A hangodat soha nem tároljuk a Captio AI szerverein, és soha nem adjuk el vagy osztjuk meg hirdetési célra. Biztonságosan egy beszédfelismerő szolgáltatásnak küldjük el, kizárólag azért, hogy szöveggé alakítsa, majd ott törlődik. A mentésre választott felvételek a telefonodon maradnak; az átiratuk és az összefoglalójuk a saját fiókodban is megmarad, hogy egy másik eszközön is megnyithasd őket, a felvétel törlése pedig mindenhonnan eltávolítja. A beszélgetéseidet soha nem használjuk MI-modellek tanítására — sem a sajátunkéra, sem másokéra."
+      },
+      {
+        "q": "Működik a Captio AI internetkapcsolat nélkül?",
+        "a": "Az Élő felirat és az Élő fordító internetkapcsolatot igényel a beszéd valós idejű feldolgozásához. A Hangátírás (feltöltött fájlokhoz) szintén internetet igényel. Offline feliratozás jelenleg nem érhető el."
+      },
+      {
+        "q": "Milyen telefon vagy iPad kell hozzá?",
+        "a": "A Captio AI iOS 16 vagy újabb rendszerű iPhone-on és iPaden, valamint androidos telefonokon fut. Telefonra optimalizáltuk, és akkor működik a legjobban, ha a mikrofon és a beszélő között nincs akadály."
+      },
+      {
+        "q": "Használhatom a Captio AI alkalmazást orvosi vizsgálaton?",
+        "a": "Igen — az orvosi vizsgálat az egyik legfontosabb felhasználási helyzet. Tedd a telefont az asztalra, vagy tartsd az orvos felé, és valós időben olvashatod mindazt, amit mond. Az orvosi szakszavakat is pontosan felismeri, így a Captio AI hasznos akadálymentesítési eszköz az egészségügyben."
+      },
+      {
+        "q": "Használhatom a Captio AI alkalmazást megbeszéléseken és előadásokon?",
+        "a": "Igen. A Captio AI mindenhol működik, ahol beszélnek: munkahelyi megbeszéléseken, egyetemi előadásokon, napi csapatmegbeszéléseken, konferenciákon és videóhívásokban. Fordítsd a mikrofont a beszélő felé, és a felirat azonnal megjelenik."
+      },
+      {
+        "q": "Mi a Hangátírás, és miben más, mint az Élő felirat?",
+        "a": "Az Élő felirat valós időben működik, miközben valaki beszél. A Hangátírás felvételekhez való: feltöltesz egy hang- vagy videófájlt, és teljes, írott átiratot kapsz. Ideális a felvett előadások, interjúk, podcastok vagy bármilyen olyan tartalom átnézéséhez, amelyet szívesebben olvasnál, mint hallgatnál."
+      },
+      {
+        "q": "Mire jó az MI-összefoglaló?",
+        "a": "Az MI-összefoglaló bármilyen átiratból kigyűjti a lényeges információkat — a fő pontokat, a meghozott döntéseket, a teendőket és a fontos részleteket —, és áttekinthető összefoglalóba rendezi. Időt spórol, ha egy megbeszélésről vagy előadásról hosszú átiratod van, és gyorsan kell a lényeg."
+      },
+      {
+        "q": "Ingyenes a Captio AI?",
+        "a": "A Captio AI ingyenes csomagjával fizetés nélkül kezdheted el. Korlátlan hozzáféréshez a Plus csomag érhető el. A Plus aktuális árát az országodban az App Store-oldalon találod."
+      },
+      {
+        "q": "Miben más a Captio AI, mint az Apple beépített Élő feliratok funkciója?",
+        "a": "Az Apple Élő feliratok funkciója be van építve az iOS-be, de kevesebb nyelvet ismer, nem fordít, és nincs benne hangátírás vagy MI-összefoglaló. A Captio AI több mint 60 nyelvet ismer, valós időben fordít, átírja a feltöltött fájlokat, és MI-összefoglalókat készít — így sokkal teljesebb akadálymentesítési és produktivitási eszköz."
+      }
+    ]
+  },
+  "featurePages": {
+    "live-captions": {
+      "meta": {
+        "title": "Élő felirat iPhone-on siketeknek és nagyothallóknak",
+        "description": "Beszédből azonnal szöveg az iPhone mikrofonjával. Kövess bármilyen beszélgetést, bármilyen nyelven, valós időben. Siketeknek és nagyothallóknak készült.",
+        "schemaDescription": "Valós idejű élő felirat siketeknek és nagyothallóknak. Több mint 60 nyelv, jóval egy másodperc alatti késleltetés, bárhol működik."
+      },
+      "howTitle": "Három koppintás. A teljes beszélgetés.",
+      "steps": [
+        {
+          "title": "Indítsd a felvételt",
+          "desc": "Nyomd meg a felvétel gombot. A Captio AI azonnal figyelni kezd."
+        },
+        {
+          "title": "Nézd, ahogy megjelennek a szavak",
+          "desc": "A felirat szóról szóra jelenik meg, miközben a másik még beszél."
+        },
+        {
+          "title": "Mentsd el",
+          "desc": "Tartsd meg az átiratot és a hangfelvételt későbbre."
+        }
+      ],
+      "featuresTitle": "Valódi beszélgetésekre tervezve",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Pontosan az, ami elhangzott",
+          "description": "A Captio AI azt rögzíti, amit valaki valóban mondott, nem egy nagyjából hasonló átfogalmazást. Így megbízhatsz az átiratban, amikor számít — az orvosnál, egy interjún, egy megbeszélésen."
+        },
+        {
+          "title": "Nulla késés",
+          "description": "A késleltetés jóval egy másodperc alatt van. A felirat szóról szóra jelenik meg, miközben a másik még beszél, így ugyanabban a pillanatban olvasod, amikor mindenki más hallja."
+        },
+        {
+          "title": "Tudod, ki beszél",
+          "description": "Csoportokban és megbeszéléseken a Captio AI külön jelöli az egyes beszélőket, így mindig tudod, ki mit mondott, anélkül hogy az arcokat vagy a szájmozgást figyelnéd."
+        },
+        {
+          "title": "Több mint 60 nyelv",
+          "description": "Kövess egy francia, japán vagy arab beszélgetést ugyanúgy, ahogy egy magyart. Nem kell módot váltani. A halláscsökkenés soha nem lesz egyben nyelvi akadály is."
+        },
+        {
+          "title": "Bírja a mondat közbeni nyelvváltást",
+          "description": "Ha valaki beszélgetés közben nyelvet vált, a Captio AI lépést tart. Nincs kiesés a feliratban, nincs mit átkapcsolni."
+        },
+        {
+          "title": "Tanítsd meg a szókincsedre",
+          "description": "Add hozzá a gyakran hallott neveket, orvosi kifejezéseket vagy szakszavakat. A Captio AI a szólistád alapján pontosabban feliratozza a valódi beszélgetéseidet."
+        },
+        {
+          "title": "Adj meg nyelvi tippet",
+          "description": "Jelezd előre, milyen nyelvre számítson a Captio AI, és már az első szótól ráhangolódik — hasznos, ha a beszélt nyelv nem derül ki a helyzetből."
+        },
+        {
+          "title": "Írasd át később, még pontosabban",
+          "description": "Bármelyik felvételt utólag újra átírathatod, hogy tisztább átiratot kapj. Hasznos előadásoknál, vizsgálatoknál és minden beszélgetésnél, amelyet érdemes újra átnézni."
+        },
+        {
+          "title": "Olvasd úgy, ahogy neked jó",
+          "description": "Állítsd be a betűméretet, a háttérszínt és a kontrasztot, amíg a felirat egy pillantással jól olvasható — kézben tartott, asztalra fektetett vagy íróasztalnak támasztott telefonon is."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "A hangod nem kerül a szervereinkre",
+          "description": "A hangodat valós időben alakítjuk szöveggé, és a szervereinken soha nem tároljuk. A mentett felvételek a telefonodon maradnak, az átiratuk pedig csak a saját fiókoddal szinkronizálódik."
+        },
+        {
+          "title": "Nem árucikk",
+          "description": "A beszélgetéseidet a Captio AI nem adja el, nem osztja meg és nem teszi pénzzé — senkinek, semmilyen okból."
+        },
+        {
+          "title": "Nem használjuk tanításra",
+          "description": "Amit egy orvosi vizsgálaton vagy egy állásinterjún mondasz, soha nem kerül tanító adatkészletbe. Sem a miénkbe. Sem senki máséba."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Miben más a Captio AI, mint az Apple beépített Élő feliratok funkciója?",
+          "a": "Az Apple Élő feliratok funkciója kevesebb nyelvet ismer, nem fordít, és nincs benne hangátírás vagy MI-összefoglaló. A Captio AI több mint 60 nyelvet ismer, valós időben fordít, átírja a feltöltött fájlokat, és MI-összefoglalókat készít. Ráadásul a betűméretet, a színeket és a kontrasztot is beállíthatod úgy, ahogy neked a legkényelmesebb olvasni."
+        },
+        {
+          "q": "Mennyire pontos az élő felirat?",
+          "a": "Átlagos beszélgetési körülmények között nagy a pontosság. A Captio AI valódi beszédre készült, nem csak tiszta stúdióhangra, így megbirkózik a gyorsan beszélőkkel, a regionális akcentusokkal, a háttérzajjal és a vegyes nyelvű mondatokkal. Saját szókincset is megadhatsz (neveket, orvosi kifejezéseket, szakszavakat), hogy még pontosabb legyen a saját beszélgetéseidben."
+        },
+        {
+          "q": "Milyen gyorsan jelenik meg a felirat?",
+          "a": "Szóról szóra, miközben a másik még beszél. A késleltetés jóval egy másodperc alatt van, szinte valós idejű. Ugyanabban a pillanatban olvasod, amit valaki mond, amikor mindenki más hallja, nem a mondat végén."
+        },
+        {
+          "q": "Működik az Élő felirat zajos helyeken?",
+          "a": "Igen. A Captio AI valódi környezetekre készült — éttermekbe, utcára, várótermekbe, tömegközlekedésre. Fordítsd a mikrofont a beszélő felé, és a felirat a háttérzajtól függetlenül megjelenik."
+        },
+        {
+          "q": "Milyen nyelveken működik az Élő felirat?",
+          "a": "Több mint 60 nyelven, köztük angolul, spanyolul, franciául, németül, mandarin kínaiul, arabul, hindiül, japánul, koreaiul, portugálul, oroszul és még sok más nyelven. A regionális akcentusokat és nyelvjárásokat minden nagy nyelvben felismeri."
+        },
+        {
+          "q": "Működik akcentusokkal és nyelvjárásokkal?",
+          "a": "Igen. A Captio AI a regionális akcentusok széles skáláját kezeli, nem csak a tankönyvi kiejtést. Az ausztrál angol, a latin-amerikai spanyol, a svájci német, a québeci francia és még sok más is működik."
+        },
+        {
+          "q": "Elmenthetem a feliratokat?",
+          "a": "Igen. Egy munkamenet után elmentheted az átiratokat és a hangfelvételeket, és később átnézheted őket. Egy mentett felvételt újra is átírathatsz, hogy tisztább, pontosabb átiratot kapj."
+        },
+        {
+          "q": "Kell hozzá internetkapcsolat?",
+          "a": "Igen. Az Élő felirat internetkapcsolatot igényel a beszéd valós idejű feldolgozásához. Offline feliratozás jelenleg nem érhető el."
+        }
+      ]
+    },
+    "live-translator": {
+      "meta": {
+        "title": "Élő fordító: valós idejű beszédfordítás iPhone-on",
+        "description": "Valós idejű beszédfordítás az iPhone-odon. A másik a saját nyelvén beszél, te a sajátodon olvasod — azonnal, bármilyen nyelven. Siketeknek és nagyothallóknak.",
+        "schemaDescription": "Valós idejű beszédfordítás siketeknek és nagyothallóknak. Több mint 60 nyelv: mindenki a saját nyelvén beszél, te a saját nyelveden olvasod."
+      },
+      "howTitle": "Három koppintás. Bármilyen nyelv.",
+      "steps": [
+        {
+          "title": "Válaszd a fordító módot",
+          "desc": "Nyisd meg a Captio AI alkalmazást, és válaszd az Élő fordítót."
+        },
+        {
+          "title": "Válaszd ki a kívánt nyelvet",
+          "desc": "Válaszd ki, milyen nyelven szeretnél olvasni."
+        },
+        {
+          "title": "Nézd a fordítást valós időben",
+          "desc": "A Captio AI szóról szóra fordít."
+        }
+      ],
+      "featuresTitle": "Valódi beszélgetésekre tervezve",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Bármilyen nyelv",
+          "description": "Francia, japán, arab, spanyol, német, mandarin kínai — több mint 60 nyelv, bármilyen irányban. A halláscsökkenés soha nem lesz egyben nyelvi akadály is."
+        },
+        {
+          "title": "Magától felismeri a beszélt nyelvet",
+          "description": "Hagyd a forrásnyelvet automatikus módban, és a Captio AI az első szavakból kitalálja. Nem kell minden beszélgetés előtt kézzel kiválasztani."
+        },
+        {
+          "title": "Nincs késés",
+          "description": "A fordítás késleltetése jóval egy másodperc alatt van. Ugyanabban a pillanatban olvasod, amit valaki mond, amikor mindenki más hallja, nem a mondat végén."
+        },
+        {
+          "title": "Adj meg nyelvi tippeket",
+          "description": "Jelezd előre, milyen nyelvre számítson a Captio AI, és már az első szótól ráhangolódik — hasznos, ha a beszélt nyelv nem derül ki a helyzetből."
+        },
+        {
+          "title": "Több nyelv egyszerre",
+          "description": "Ha valaki beszélgetés közben nyelvet vált, a Captio AI lépést tart, és mindent a te nyelvedre fordít, anélkül hogy bármit állítanod kellene."
+        },
+        {
+          "title": "Olvasd úgy, ahogy neked jó",
+          "description": "Állítsd be a háttérszínt, a betűszínt és a betűméretet, hogy a fordítás egy pillantással jól olvasható legyen, akár a kezedben tartod a telefont, akár az asztalon fekszik."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "A hangod nem kerül a szervereinkre",
+          "description": "A hangodat valós időben alakítjuk szöveggé, és a szervereinken soha nem tároljuk. A mentett felvételek a telefonodon maradnak, az átiratuk pedig csak a saját fiókoddal szinkronizálódik."
+        },
+        {
+          "title": "Nem árucikk",
+          "description": "A beszélgetéseidet a Captio AI nem adja el, nem osztja meg és nem teszi pénzzé — senkinek, semmilyen okból."
+        },
+        {
+          "title": "Nem használjuk tanításra",
+          "description": "Amit egy orvosi vizsgálaton vagy egy állásinterjún mondasz, soha nem kerül tanító adatkészletbe. Sem a miénkbe. Sem senki máséba."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Miben más az Élő fordító, mint az Élő felirat?",
+          "a": "Az Élő felirat az eredeti nyelven írja le a beszédet. Az Élő fordító ezt a beszédet valós időben lefordítja az általad választott nyelvre. Ha a másik franciául beszél, te pedig magyarul olvasol, az Élő fordítóra van szükséged."
+        },
+        {
+          "q": "Mennyire pontos a fordítás?",
+          "a": "A gyakori nyelvpároknál a hétköznapi beszélgetésekben nagy a fordítás pontossága. A Captio AI a természetes beszédet is kezeli — a gyorsan beszélőket, az akcentusokat, a háttérzajt —, nem csak a tiszta stúdióhangot. Ritka nyelvpároknál vagy nagyon szakmai tartalomnál a pontosság változhat."
+        },
+        {
+          "q": "Milyen nyelvek érhetők el?",
+          "a": "Több mint 60 nyelv, köztük az angol, a spanyol, a francia, a német, a mandarin kínai, az arab, a hindi, a japán, a koreai, a portugál, az orosz és még sok más. A forrás- és a célnyelv is bármelyik támogatott nyelv lehet."
+        },
+        {
+          "q": "Milyen gyorsan jelenik meg a fordítás?",
+          "a": "A késleltetés jóval egy másodperc alatt van. A fordítást szóról szóra olvasod, miközben a másik még beszél — szinte valós időben, nem a mondat végén."
+        },
+        {
+          "q": "Működik idegen nyelvű orvosnál is?",
+          "a": "Igen. Ez az egyik legfontosabb felhasználási helyzet. Tedd a telefont az asztalra, állítsd a forrásnyelvet az orvos nyelvére, és valós időben, a saját nyelveden olvashatod mindazt, amit mond. A lefordított átiratot el is mentheted, hogy utána újra átnézd az utasításait."
+        },
+        {
+          "q": "Működik zajos helyeken?",
+          "a": "Igen. A Captio AI valódi környezetekre készült — várótermekbe, éttermekbe, repülőterekre. Fordítsd a mikrofont a beszélő felé, és a fordítás a környezeti zajtól függetlenül megjelenik."
+        },
+        {
+          "q": "Elmenthetem a lefordított átiratot?",
+          "a": "Igen. Egy munkamenet után elmentheted a lefordított szöveget, és később átnézheted. Hasznos orvosi vizsgálatoknál, megbeszéléseknél és minden olyan beszélgetésnél, amelyről szeretnél feljegyzést."
+        },
+        {
+          "q": "Kell hozzá internetkapcsolat?",
+          "a": "Igen. Az Élő fordító internetkapcsolatot igényel a beszéd valós idejű feldolgozásához és fordításához. Offline fordítás jelenleg nem érhető el."
+        }
+      ]
+    },
+    "audio-transcription": {
+      "meta": {
+        "title": "Hangátírás: hang és videó szöveggé alakítása iPhone-on",
+        "description": "Tölts fel bármilyen hang- vagy videófájlt, és kész a teljes átirat. Több mint 60 nyelv, külön beszélők, kereshető szöveg. Siketeknek és nagyothallóknak.",
+        "schemaDescription": "Tölts fel bármilyen hang- vagy videófájlt, és teljes, írott átiratot kapsz. Több mint 60 nyelv, beszélők szétválasztása, időbélyegek. Siketeknek és nagyothallóknak."
+      },
+      "howTitle": "Feltöltöd. Elolvasod. Kész.",
+      "steps": [
+        {
+          "title": "Válaszd ki a feltöltés típusát",
+          "desc": "Válaszd ki, hogy hangfájlt vagy videófájlt töltesz fel."
+        },
+        {
+          "title": "Válassz egy fájlt",
+          "desc": "Válaszd ki a fájlt a telefonodról. A Captio AI azonnal elkezdi az átírást."
+        },
+        {
+          "title": "Nézd meg az átiratot",
+          "desc": "Olvasd el a teljes átiratot, beszélők szerint rendezve, időbélyegekkel."
+        }
+      ],
+      "featuresTitle": "Valódi felvételekre tervezve",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Bármilyen formátum",
+          "description": "MP3, MP4, M4A, WAV és még sok más. Előadások, megbeszélések, hangüzenetek, podcastok, interjúk, telefonfelvételek — ha beszéd van benne, a Captio AI át tudja írni."
+        },
+        {
+          "title": "A legnagyobb pontosság",
+          "description": "A Captio AI valós hangfelvételekre készült, nem csak tiszta stúdiófájlokra. Telefonhívások, előadótermi felvételek, zajos környezet — mindegyikkel elbánik."
+        },
+        {
+          "title": "Bármilyen nyelv",
+          "description": "Tölts fel francia, japán, arab vagy további 57 nyelv valamelyikén készült felvételt. A Captio AI felismeri a nyelvet, és pontosan átírja."
+        },
+        {
+          "title": "Több nyelv",
+          "description": "Ha a beszélők felvétel közben nyelvet váltanak, a Captio AI lépést tart. Az átiratban minden elhangzott nyelv benne van, kiesés nélkül."
+        },
+        {
+          "title": "Időbélyegek",
+          "description": "Az átirat minden sora időbélyeget kap, így a felvétel bármelyik pontjára ugorhatsz, és megtalálod, pontosan mi hangzott el és mikor."
+        },
+        {
+          "title": "Exportálás és megosztás",
+          "description": "Másold ki a teljes átiratot, oszd meg vagy mentsd el. A felvételeid és átirataid mindig elérhetők, amikor szükséged van rájuk."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "A fájlok nem kerülnek a szervereinkre",
+          "description": "A fájlodat csak az átíráshoz küldjük el, ott utána törlődik, a szervereinken pedig soha nem tároljuk. A felvétel a telefonodon marad, az átirata pedig csak a saját fiókoddal szinkronizálódik."
+        },
+        {
+          "title": "Nem árucikk",
+          "description": "A felvételeidet a Captio AI nem adja el, nem osztja meg és nem teszi pénzzé — senkinek, semmilyen okból."
+        },
+        {
+          "title": "Nem használjuk tanításra",
+          "description": "Amit feltöltesz — egy orvosi vizsgálatot, egy megbeszélést, egy interjút —, soha nem kerül tanító adatkészletbe. Sem a miénkbe. Sem senki máséba."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Miben más a Hangátírás, mint az Élő felirat?",
+          "a": "Az Élő felirat valós időben működik, miközben valaki beszél. A Hangátírás felvételekhez való: feltöltesz egy hang- vagy videófájlt, és teljes, írott átiratot kapsz. Ideális a felvett előadások, orvosi vizsgálatok, interjúk vagy bármilyen olyan tartalom átnézéséhez, amelyet szívesebben olvasnál, mint hallgatnál."
+        },
+        {
+          "q": "Milyen fájlformátumokat támogat a Hangátírás?",
+          "a": "A Captio AI a gyakori hang- és videóformátumokat fogadja, köztük az MP3, MP4, M4A, WAV és más formátumokat. Ha a telefonoddal vetted fel, vagy egy videóplatformról töltötted le, működni fog."
+        },
+        {
+          "q": "Mennyire pontos az átírás?",
+          "a": "Tiszta felvételeknél, a támogatott nyelveken nagy a pontosság. A Captio AI valós hangfelvételekkel is elbánik — telefonhívásokkal, előadótermi felvételekkel, zajos környezettel —, nem csak stúdióminőségű fájlokkal. Szükség esetén egy fájlt újra is átírathatsz."
+        },
+        {
+          "q": "Milyen nyelvek érhetők el?",
+          "a": "Több mint 60 nyelv, köztük az angol, a spanyol, a francia, a német, a mandarin kínai, az arab, a hindi, a japán, a koreai, a portugál, az orosz és még sok más. A Captio AI automatikusan felismeri a fájlban beszélt nyelvet."
+        },
+        {
+          "q": "Szétválasztja a beszélőket?",
+          "a": "Igen. A Captio AI az átiratban külön jelöli az egyes beszélőket, így követheted, ki mit mondott — hasznos megbeszéléseknél, interjúknál, orvosi vizsgálatoknál és minden több résztvevős felvételnél."
+        },
+        {
+          "q": "Mennyi ideig tart az átírás?",
+          "a": "Az átírás gyors. Egy egyórás felvétel általában néhány percet vesz igénybe. Az idő a fájl hosszától és a hangminőségtől függ."
+        },
+        {
+          "q": "Tárolják a hangomat az átírás után?",
+          "a": "A Captio AI szerverein nem. A fájlt biztonságosan egy beszédfelismerő szolgáltatásnak küldjük el, kizárólag átírásra, és ott törlődik, amint kész az átirat. A felvétel a telefonodon marad, az átirata pedig a saját fiókodban is megmarad, hogy egy másik eszközön is megnyithasd. A felvételeidet soha nem adjuk el, és nem használjuk MI-modellek tanítására."
+        },
+        {
+          "q": "Átírhatok videófájlt is?",
+          "a": "Igen. Töltsd fel közvetlenül a videófájlt, a Captio AI kinyeri belőle a hangot, és átírja. Nem kell előtte átalakítanod a fájlt."
+        }
+      ]
+    },
+    "ai-summary": {
+      "meta": {
+        "title": "MI-összefoglaló: rendezett összefoglaló bármely átiratból",
+        "description": "Bármilyen átiratból rendezett összefoglaló. A fő pontokat, a döntéseket és a teendőket automatikusan kigyűjti. Siketeknek és nagyothallóknak készült.",
+        "schemaDescription": "Bármilyen átiratból rendezett összefoglaló. A fő pontokat, a döntéseket, a teendőket és a beszélők idézeteit automatikusan kigyűjti."
+      },
+      "howTitle": "Bemegy az átirat. Kijön az összefoglaló.",
+      "steps": [
+        {
+          "title": "Nyiss meg egy átiratot",
+          "desc": "Válassz bármelyik átiratot az Élő feliratból vagy a Hangátírásból."
+        },
+        {
+          "title": "Készíts összefoglalót",
+          "desc": "Koppints az MI-összefoglalóra. A Captio AI automatikusan feldolgozza az átiratot."
+        },
+        {
+          "title": "Olvasd el az összefoglalót",
+          "desc": "Kész az összefoglalód — szakaszokra bontva, olvasásra vagy megosztásra készen."
+        }
+      ],
+      "featuresTitle": "Hosszú átiratokra tervezve",
+      "featuresSubtitle": "Összefoglaló, teendők, idézetek a beszélőktől, jegyzetek és még sok más.",
+      "subfeatures": [
+        {
+          "title": "Automatikusan kigyűjtött fő pontok",
+          "description": "A Captio AI elolvassa a teljes átiratot, és kiemeli, ami valóban számított — a fő pontokat, a meghozott döntéseket és a levont következtetéseket."
+        },
+        {
+          "title": "Kiemelt teendők",
+          "description": "A feladatokat és a következő lépéseket külön listába gyűjti, így semmi nem sikkad el egy megbeszélés, vizsgálat vagy előadás után."
+        },
+        {
+          "title": "Szakaszokra bontva",
+          "description": "Az összefoglaló tagolt, nem egyetlen hosszú szövegtömb. Minden téma külön szakaszt kap, így gyorsan átfuthatod, és megtalálod, amire szükséged van."
+        },
+        {
+          "title": "Minden átiraton működik, amit a Captio AI készít",
+          "description": "Futtasd az MI-összefoglalót bármelyik átiraton, amelyet az Élő felirattal vagy a Hangátírással készítettél. Nincs extra lépés, nincs másolgatás."
+        },
+        {
+          "title": "Bármilyen nyelv",
+          "description": "Összefoglalhatsz átiratokat több mint 60 nyelven. A Captio AI az eredeti nyelven olvassa az átiratot, és olyan összefoglalót készít, amelyet el tudsz olvasni."
+        },
+        {
+          "title": "Mentés és megosztás",
+          "description": "Tartsd meg az összefoglalót az átirat mellett, másold ki vagy oszd meg. Hasznos orvosi vizsgálatok, megbeszélések és előadások után."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Csak a saját fiókodban marad meg",
+          "description": "Az összefoglalód a felvétellel együtt mentődik, a telefonodon és a saját fiókodban is, így bármelyik eszközön ott van, ahol bejelentkezel. Ha törlöd, mindenhonnan eltűnik."
+        },
+        {
+          "title": "Nem árucikk",
+          "description": "A beszélgetéseidet a Captio AI nem adja el, nem osztja meg és nem teszi pénzzé — senkinek, semmilyen okból."
+        },
+        {
+          "title": "Nem használjuk tanításra",
+          "description": "Amit összefoglalsz — egy orvosi vizsgálatot, egy megbeszélést, egy interjút —, soha nem kerül tanító adatkészletbe. Sem a miénkbe. Sem senki máséba."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Mit csinál az MI-összefoglaló?",
+          "a": "Az MI-összefoglaló bármilyen átiratból kigyűjti a lényeges információkat — a fő pontokat, a döntéseket, a teendőket és a fontos részleteket —, és áttekinthető összefoglalóba rendezi. Időt spórol, ha hosszú átiratod van, és gyorsan kell a lényeg."
+        },
+        {
+          "q": "Milyen átiratokat foglalhatok össze?",
+          "a": "Bármelyik átiratot, amely a Captio AI alkalmazásban készült, az Élő felirattal vagy a Hangátírással. Az MI-összefoglalót közvetlenül az átiraton futtatod, extra lépések nélkül."
+        },
+        {
+          "q": "Miben más az MI-összefoglaló, mint az átirat elolvasása?",
+          "a": "Egy egyórás megbeszélés teljes átirata több ezer szó is lehet. Az MI-összefoglaló az olvasási idő töredéke alatt adja meg a fő pontokat, a döntéseket és a teendőket — témák szerint rendezve, nem az elhangzás sorrendjében."
+        },
+        {
+          "q": "Működik orvosi vizsgálatoknál?",
+          "a": "Igen. Egy orvosi vizsgálaton rövid idő alatt sok információ hangzik el. Az MI-összefoglaló a diagnózist, az utasításokat és a következő lépéseket világos listába gyűjti, amelyet később is átnézhetsz."
+        },
+        {
+          "q": "Milyen nyelvek érhetők el?",
+          "a": "Az MI-összefoglaló több mint 60 nyelvű átiraton működik. Az összefoglaló ugyanazon a nyelven készül, mint az átirat."
+        },
+        {
+          "q": "Elmenthetem vagy megoszthatom az összefoglalót?",
+          "a": "Igen. Az összefoglalót elmentheted az eredeti átirat mellé, kimásolhatod vagy megoszthatod. Hasznos, ha összefoglalót küldenél egy megbeszélésről, vagy feljegyzést tartanál egy orvosi vizsgálatról."
+        },
+        {
+          "q": "Tárolja az MI-összefoglaló az átiratomat vagy a hangomat?",
+          "a": "Az átiratodat biztonságosan egy MI-szolgáltatásnak küldjük el, kizárólag az összefoglaló megírásához, és soha nem használjuk MI-modellek tanítására. Az összefoglaló a felvétellel együtt mentődik, a telefonodon és a saját fiókodban is, amíg nem törlöd. A hang soha nem kerül tárolásra a Captio AI szerverein, a beszélgetéseidet pedig soha nem adjuk el."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,676 @@
+{
+  "header": {
+    "features": "Funktsioonid",
+    "useCases": "Kasutusjuhud",
+    "languages": "Keeled",
+    "compare": "Võrdle",
+    "blog": "Blogi",
+    "download": "Laadi alla",
+    "toggleMenu": "Ava või sulge menüü",
+    "chooseLanguage": "Vali keel"
+  },
+  "footer": {
+    "tagline": "Otsesubtiitrid ja tootlikkuse tööriist kurtidele ja vaegkuuljatele.",
+    "productHuntTagline": "Otsesubtiitrid ja transkribeerimine kurtidele ja vaegkuuljatele",
+    "productHunt": "Vaata seda lehel Product Hunt →",
+    "featuredOn": "Esile tõstetud lehel",
+    "features": "Funktsioonid",
+    "useCases": "Kasutusjuhud",
+    "blog": "Blogi",
+    "allArticles": "Kõik artiklid",
+    "compare": "Võrdle",
+    "compareApps": "Võrdle subtiitrirakendusi",
+    "company": "Ettevõte",
+    "organizations": "Organisatsioonidele",
+    "privacy": "Privaatsuspoliitika",
+    "terms": "Kasutustingimused"
+  },
+  "store": {
+    "appleOverline": "Laadi alla poest",
+    "googleOverline": "Saadaval poes",
+    "appleQrAlt": "QR-kood Captio AI allalaadimiseks App Store'ist iPhone'i jaoks",
+    "googleQrAlt": "QR-kood Captio AI allalaadimiseks Google Playst Androidi jaoks",
+    "downloadForFree": "Laadi alla tasuta"
+  },
+  "common": {
+    "home": "Avaleht",
+    "back": "Tagasi",
+    "goBack": "Mine tagasi",
+    "explore": "Avasta",
+    "featuresLabel": "Funktsioonid",
+    "howItWorks": "Kuidas see töötab",
+    "privacyLabel": "Privaatsus",
+    "privacyTitle": "Mida sa kuuled, jääb sinu juurde.",
+    "privacyImageAlt": "Vaikimisi privaatne: sinu heli ei säilitata kunagi meie serverites, seda ei müüda kunagi ega kasutata kunagi treenimiseks",
+    "faqLabel": "KKK",
+    "faqTitle": "Korduma kippuvad küsimused",
+    "getStarted": "Alusta",
+    "freeToStart": "Captio AI kasutamist saad alustada tasuta",
+    "allFeatures": "Captio AI sisaldab funktsioone Otsesubtiitrid, Otsetõlk, Heli transkribeerimine ja AI-kokkuvõte.",
+    "featureNames": {
+      "live-captions": "Otsesubtiitrid",
+      "live-translator": "Otsetõlk",
+      "audio-transcription": "Heli transkribeerimine",
+      "ai-summary": "AI-kokkuvõte"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Captio AI — otsesubtiitrid kurtidele ja vaegkuuljatele",
+      "description": "Captio AI toob kurtidele ja vaegkuuljatele telefoni reaalajas subtiitrid, otsetõlke, heli transkribeerimise ja AI-kokkuvõtted. Üle 60 keele.",
+      "ogDescription": "Reaalajas subtiitrid, otsetõlge, heli transkribeerimine ja AI-kokkuvõtted kurtidele ja vaegkuuljatele. Üle 60 keele. iPhone ja Android.",
+      "schemaDescription": "Reaalajas subtiitrid, otsetõlge, heli transkribeerimine ja AI-kokkuvõtted kurtidele ja vaegkuuljatele. Üle 60 keele."
+    },
+    "eyebrow": "🦻 Ligipääsetavus + 💻 Tootlikkuse rakendus",
+    "heroTitle": "[Otsesubtiitrid] ja [tootlikkuse tööriist] kurtidele ja vaegkuuljatele.",
+    "heroSubtitle": "Jälgi iga vestlust, koosolekut või loengut. Ükskõik mis keeles.",
+    "mockupAlt": "Captio AI rakendus otsesubtiitrite ja tõlkega",
+    "featuresTitle": "Kõik, mida vajad, et iga vestlusega kaasas püsida",
+    "featuresSubtitle": "Neli tööriista, mis on loodud spetsiaalselt kurtidele ja vaegkuuljatele.",
+    "features": {
+      "live-captions": {
+        "title": "Kõne tekstiks reaalajas",
+        "bullets": [
+          "Sõna-sõnalt, reaalajas",
+          "Töötab mürarikastes kohtades",
+          "Iga aktsent, iga tempo",
+          "Huultelt lugemist pole vaja"
+        ]
+      },
+      "live-translator": {
+        "title": "Tõlgi mis tahes keelt reaalajas",
+        "bullets": [
+          "Tõlgib samal ajal, kui räägitakse",
+          "Igaüks räägib oma keeles",
+          "Saab hakkama keelevahetusega lause keskel",
+          "Üle 60 keele"
+        ]
+      },
+      "audio-transcription": {
+        "title": "Transkribeeri mis tahes heli- või videofail",
+        "bullets": [
+          "Mis tahes heli- või videofail",
+          "Kõnelejate kaupa",
+          "Üle 60 keele",
+          "Loe, kopeeri, otsi, jaga"
+        ]
+      },
+      "ai-summary": {
+        "title": "Muuda transkriptsioonid struktureeritud kokkuvõteteks",
+        "bullets": [
+          "Põhipunktid ja otsused",
+          "Ülesanded eraldi välja toodud",
+          "Töötab iga transkriptsiooniga",
+          "Jaotatud osadeks"
+        ]
+      }
+    },
+    "moreFeaturesTitle": "Veel funktsioone",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "AI-toimingud",
+        "title": "Ülesanded, märkmed ja järelsõnum",
+        "description": "Muuda iga salvestus põhipunktideks, üksikasjalikeks märkmeteks, ülesanneteks, küsimusteks ja vastusteks või järelsõnumiks."
+      },
+      "export": {
+        "label": "Eksport",
+        "title": "Jaga nii, nagu sulle sobib",
+        "description": "Saada subtiitrid või kokkuvõte tekstina, lingina, PDF-ina, e-kirjana või AI-vestluse käsuna."
+      },
+      "folders": {
+        "label": "Kaustad",
+        "title": "Kaustad ja jagatud kaustad",
+        "description": "Sorteeri salvestused kaustadesse ja jaga üht neist pere, klassikaaslaste või meeskonnaga."
+      },
+      "recognize-voices": {
+        "label": "Häälte tuvastamine",
+        "title": "Nimed, mitte „Kõneleja 2“",
+        "description": "Salvesta nende inimeste hääled, kellega tihti räägid, ja näe nende nimesid subtiitrites."
+      },
+      "speaker-direction": {
+        "label": "Kõneleja suund",
+        "title": "Näe, kust hääl tuleb",
+        "description": "Lained subtiitrite serval näitavad, kes räägib. iPhone 16 ja uuemate jaoks."
+      },
+      "connectors": {
+        "label": "Ühendused",
+        "title": "Küsi oma vestlusrakenduselt",
+        "description": "Esita oma salvestuste kohta küsimusi vestlusrakenduses Claude, ChatGPT, Gemini või Perplexity."
+      },
+      "widgets": {
+        "label": "Vidinad",
+        "title": "Subtiitrid ühe puudutusega",
+        "description": "Käivita otsesubtiitrid oma iPhone'i avaekraanilt või lukustusekraanilt."
+      }
+    },
+    "useCasesLabel": "Kasutusjuhud",
+    "useCasesTitle": "Töötab igas olukorras",
+    "useCasesSubtitle": "Loodud päriselu hetkedeks, mis loevad, mitte ainult vaikse ja kontrollitud keskkonna jaoks.",
+    "useCases": {
+      "everyday-conversations": {
+        "label": "Igapäevased vestlused",
+        "description": "Enamik vestlusi toimub kiiresti, tavalises tempos ja ette hoiatamata. Captio AI subtitreerib iga sõna kohe, kui see öeldakse, nii et püsid vestlusega kaasas, ilma et peaksid kedagi kordama paluma."
+      },
+      "deaf-hoh-communication": {
+        "label": "Suhtlus kurtide ja vaegkuuljatega",
+        "description": "Kuuljad ei tea sageli, kuidas kurtide või vaegkuuljate sõpradega rääkides end kohandada. Captio AI muudab nende kõne reaalajas subtiitriteks, nii et vestlus saab mõlemalt poolt loomulikult kulgeda."
+      },
+      "meetings": {
+        "label": "Koosolekud",
+        "description": "Koosolekutel sünnivad otsused kiiresti ja inimesed räägivad üksteisest üle. Captio AI subtitreerib iga kõneleja juttu kohe, nii et sul ei jää ükski otsus ega sulle suunatud küsimus kahe silma vahele."
+      },
+      "lectures": {
+        "label": "Loengud",
+        "description": "Õppejõud räägivad kiiresti, käsitlevad keerulist materjali ja kordavad harva. Captio AI annab sulle kõigest öeldust reaalajas teksti, nii et saad keskenduda sisule, selle asemel et kuulmiseks pingutada."
+      },
+      "doctor-appointments": {
+        "label": "Arsti vastuvõtud",
+        "description": "Arstid räägivad kiiresti ja kasutavad meditsiinitermineid, mida on lihtne valesti kuulda. Captio AI näitab sulle reaalajas kõike, mida nad ütlevad, nii et saad oma diagnoosist aru ja oskad küsida õigeid küsimusi."
+      },
+      "job-interviews": {
+        "label": "Tööintervjuud",
+        "description": "Kui intervjuul jääb küsimus kuulmata, vastad valesti või pead paluma kordamist. Captio AI näitab sulle iga intervjueerija sõna, nii et saad keskenduda täielikult oma vastusele."
+      },
+      "phone-video-calls": {
+        "label": "Telefoni- ja videokõned",
+        "description": "Telefoni- ja videokõnesid on raskem jälgida kui vestlusi silmast silma. Huultelt lugeda ei saa ja helikvaliteet on sageli kehv. Captio AI subtitreerib reaalajas seda, kes parasjagu räägib, nii et sa ei pea kordamist paluma."
+      },
+      "group-settings": {
+        "label": "Grupivestlused",
+        "description": "Grupis räägivad mitu inimest korraga ja vestlus liigub kiiresti. Captio AI püsib kõnelejaga sammu, nii et saad vestlust jälgida ega kaota järge, kuhu see liigub."
+      },
+      "restaurants": {
+        "label": "Restoranid ja kohvikud",
+        "description": "Taustamüra teeb kõne jälgimise raskeks isegi neile, kellel kuulmislangust pole. Captio AI keskendub sellele, kes sinuga räägib, nii et saad ka müra keskel päriselt vestelda."
+      },
+      "traveling": {
+        "label": "Reisimine",
+        "description": "Lennujaamades, hotellides ja võõrastes linnades pole valesti kuulmiseks ruumi. Captio AI subtitreerib kõnet üle 60 keeles, nii et liigud enesekindlalt, kuhu iganes lähed."
+      },
+      "conferences": {
+        "label": "Konverentsid ja üritused",
+        "description": "Esinejad on kaugel, akustika on ettearvamatu ja kordamist paluda ei saa. Captio AI annab sulle iga esineja kõnest reaalajas teksti, nii et saad kogu üritust jälgida igalt istekohalt."
+      },
+      "tv-media": {
+        "label": "Teler ja meedia",
+        "description": "Sisseehitatud subtiitrid on sageli vigased, hilinevad või puuduvad sootuks. Captio AI subtitreerib reaalajas kõike, mis mängib, nii et sa ei sõltu sellest, kas sisul on subtiitrid."
+      }
+    },
+    "languagesLabel": "Keeled",
+    "languagesTitle": "Captio AI toetab üle 60 keele",
+    "privacyCards": [
+      {
+        "title": "Heli ei jõua meie serveritesse",
+        "description": "Sinu heli muudetakse reaalajas tekstiks ja seda ei säilitata kunagi meie serverites. Salvestised, mille talletad, jäävad sinu telefoni ning nende transkriptsioonid sünkroonitakse ainult sinu enda kontoga."
+      },
+      {
+        "title": "Pole müügiks",
+        "description": "Captio AI ei müü ega jaga sinu vestlusi ega teeni neilt raha – mitte kellelegi ega mitte mingil põhjusel."
+      },
+      {
+        "title": "Ei kasutata millegi treenimiseks",
+        "description": "See, mida ütled arsti vastuvõtul või tööintervjuul, ei jõua kunagi treeningandmetesse. Mitte meie omadesse. Mitte kellegi teise omadesse."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Kellele on Captio AI mõeldud?",
+        "a": "Captio AI on loodud eelkõige kurtidele ja vaegkuuljatele, kes peavad suulist vestlust reaalajas jälgima. Seda kasutavad laialdaselt ka kuulmistöötluse häirega inimesed, mürarikkas keskkonnas viibijad, keeleõppijad ja kõik, kellele lugemine on kiirem või lihtsam kui kuulamine."
+      },
+      {
+        "q": "Kui täpsed on otsesubtiitrid?",
+        "a": "Captio AI kasutab täiustatud kõnetuvastust, mis on loodud just täpsuse ja väikese viivituse jaoks. Täpsus sõltub heli selgusest, aktsendist ja taustamürast, kuid tavalistes vestlustingimustes on see väga kõrge ja võrreldav professionaalsete subtitreerimisteenustega."
+      },
+      {
+        "q": "Milliseid keeli Captio AI toetab?",
+        "a": "Captio AI toetab üle 60 keele, sealhulgas inglise, hispaania, prantsuse, saksa, mandariini hiina, araabia, hindi, jaapani, korea, portugali, vene ja paljusid teisi keeli. Kõik keeled on saadaval nii Otsesubtiitrites kui ka Otsetõlgis. Täieliku loendi leiad sellelt lehelt."
+      },
+      {
+        "q": "Kas Captio AI saab hakkama erinevate aktsentide ja murretega?",
+        "a": "Jah. Captio AI tuleb toime paljude piirkondlike aktsentide ja murretega, mitte ainult õpikukeelega. See toetab näiteks Austraalia inglise, Ladina-Ameerika hispaania, Šveitsi saksa, Brasiilia portugali ja Québeci prantsuse keelt ning paljusid teisi."
+      },
+      {
+        "q": "Mis vahe on Otsesubtiitritel ja Otsetõlgil?",
+        "a": "Otsesubtiitrid kirjutavad kõne üles algses keeles. Otsetõlk võtab sama kõne ja tõlgib selle reaalajas sinu valitud keelde – ideaalne siis, kui kõneleja ja lugeja räägivad eri keeli, näiteks välismaa arsti juures või võõrkeelsel ärikohtumisel."
+      },
+      {
+        "q": "Kas Captio AI salvestab või jagab minu heli?",
+        "a": "Sinu heli ei säilitata kunagi Captio AI serverites ning seda ei müüda ega jagata kunagi reklaami jaoks. See saadetakse turvaliselt kõnetuvastusteenusele ainult selleks, et muuta see tekstiks, ja kustutatakse seal. Salvestised, mille otsustad talletada, jäävad sinu telefoni; nende transkriptsioonid ja kokkuvõtted säilitatakse ka sinu kontos, et saaksid need avada teises seadmes, ja salvestise kustutamine eemaldab selle igalt poolt. Sinu vestlusi ei kasutata kunagi AI-mudelite treenimiseks – ei meie ega kellegi teise mudelite."
+      },
+      {
+        "q": "Kas Captio AI töötab ilma internetiühenduseta?",
+        "a": "Otsesubtiitrid ja Otsetõlk vajavad kõne reaalajas töötlemiseks internetiühendust. Ka Heli transkribeerimine (üles laaditud failide puhul) vajab ühendust. Võrguühenduseta subtitreerimist praegu ei toetata."
+      },
+      {
+        "q": "Millist telefoni või iPadi ma vajan?",
+        "a": "Captio AI töötab iPhone'is ja iPadis, kus on iOS 16 või uuem, ning Android-telefonides. See on optimeeritud telefonile ja töötab kõige paremini siis, kui mikrofoni ja kõneleja vahel pole takistusi."
+      },
+      {
+        "q": "Kas Captio AI sobib arsti vastuvõtule?",
+        "a": "Jah, arsti vastuvõtt on üks tähtsamaid kasutusjuhte. Võid panna telefoni lauale või hoida seda arsti poole ja lugeda reaalajas kõike, mida ta ütleb. Meditsiinitermineid tuvastatakse täpselt, mistõttu on Captio AI tervishoius praktiline ligipääsetavuse tööriist."
+      },
+      {
+        "q": "Kas Captio AI sobib koosolekutele ja loengutele?",
+        "a": "Jah. Captio AI töötab igas olukorras, kus räägitakse: töökoosolekutel, ülikooli loengutel, meeskonna hommikukoosolekutel, konverentsidel ja videokõnedes. Suuna mikrofon kõneleja poole ja subtiitrid ilmuvad kohe."
+      },
+      {
+        "q": "Mis on Heli transkribeerimine ja mille poolest erineb see Otsesubtiitritest?",
+        "a": "Otsesubtiitrid töötavad reaalajas, kui keegi räägib. Heli transkribeerimine on mõeldud salvestiste jaoks: laadid üles heli- või videofaili ja saad täieliku kirjaliku transkriptsiooni. See sobib suurepäraselt salvestatud loengute, intervjuude, taskuhäälingute või mis tahes sisu läbivaatamiseks, mida eelistad pigem lugeda kui kuulata."
+      },
+      {
+        "q": "Mida teeb AI-kokkuvõte?",
+        "a": "AI-kokkuvõte võtab mis tahes transkriptsiooni ja toob sellest välja olulise – põhipunktid, tehtud otsused, ülesanded ja tähtsad üksikasjad – struktureeritud kokkuvõttena. See säästab aega, kui sul on koosolekust või loengust pikk transkriptsioon ja vajad kiiresti kõige olulisemat."
+      },
+      {
+        "q": "Kas Captio AI on tasuta?",
+        "a": "Captio AI pakub tasuta versiooni, millega saad alustada midagi maksmata. Piiramatut kasutust vajavatele on saadaval Plus-pakett. Plus-paketi praegune hind sinu riigis on näha rakenduse lehel App Store'is."
+      },
+      {
+        "q": "Mille poolest erineb Captio AI Apple'i sisseehitatud reaalajas subtiitritest?",
+        "a": "Apple'i reaalajas subtiitrid on iOS-i sisse ehitatud, kuid toetavad vähem keeli, ei tõlgi ega sisalda Heli transkribeerimist ega AI-kokkuvõtet. Captio AI toetab üle 60 keele, tõlgib reaalajas, transkribeerib üles laaditud faile ja koostab AI-kokkuvõtteid, mis teeb sellest palju terviklikuma ligipääsetavuse ja tootlikkuse tööriista."
+      }
+    ]
+  },
+  "featurePages": {
+    "live-captions": {
+      "meta": {
+        "title": "Otsesubtiitrid kurtidele ja vaegkuuljatele iPhone'is",
+        "description": "Kõne tekstiks reaalajas iPhone'i mikrofoni kaudu. Jälgi kohe iga vestlust, ükskõik mis keeles. Loodud kurtidele ja vaegkuuljatele.",
+        "schemaDescription": "Reaalajas subtiitrid kurtidele ja vaegkuuljatele. Üle 60 keele, viivitus tunduvalt alla sekundi, töötab kõikjal."
+      },
+      "howTitle": "Kolm puudutust. Terve vestlus.",
+      "steps": [
+        {
+          "title": "Alusta salvestamist",
+          "desc": "Vajuta salvestusnuppu. Captio AI hakkab kohe kuulama."
+        },
+        {
+          "title": "Vaata, kuidas sõnad ilmuvad",
+          "desc": "Subtiitrid ilmuvad sõna-sõnalt juba siis, kui inimene veel räägib."
+        },
+        {
+          "title": "Salvesta",
+          "desc": "Hoia transkriptsioon ja helisalvestis hilisemaks alles."
+        }
+      ],
+      "featuresTitle": "Loodud päris vestluste jaoks",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Sõnad, mis vastavad öeldule",
+          "description": "Captio AI paneb kirja selle, mida keegi tegelikult ütles, mitte umbkaudset ümberjutustust. Nii saad tekstile kindel olla siis, kui see loeb – arsti juures, intervjuul, koosolekul."
+        },
+        {
+          "title": "Viivituseta",
+          "description": "Viivitus on tunduvalt alla sekundi. Subtiitrid ilmuvad sõna-sõnalt juba siis, kui inimene veel räägib, nii et loed tema sõnu samal hetkel, kui teised neid kuulevad."
+        },
+        {
+          "title": "Tea, kes räägib",
+          "description": "Gruppides ja koosolekutel märgib Captio AI iga kõneleja eraldi, nii et tead alati, kes mida ütles, ilma et peaksid nägusid jälgima või huulte liikumist püüdma."
+        },
+        {
+          "title": "Üle 60 keele",
+          "description": "Jälgi vestlust prantsuse, jaapani või araabia keeles samamoodi nagu inglise keeles. Režiimi pole vaja vahetada. Kuulmislangus ei ole kunagi ka keelebarjäär."
+        },
+        {
+          "title": "Saab hakkama keelevahetusega lause keskel",
+          "description": "Kui inimesed vahetavad vestluse ajal keelt, püsib Captio AI sammu. Subtiitrites pole lünki ega režiimi, mida vahetada."
+        },
+        {
+          "title": "Õpeta rakendusele oma sõnavara",
+          "description": "Lisa nimesid, meditsiinitermineid või erialasõnu, mida sageli kuuled. Captio AI kasutab sinu sõnaloendit, et sinu vestlusi täpsemalt subtitreerida."
+        },
+        {
+          "title": "Lisa keelevihje",
+          "description": "Anna teada, mis keelt oodata, ja Captio AI on õigele keelele häälestatud juba esimesest sõnast – kasulik siis, kui räägitav keel pole kontekstist ilmne."
+        },
+        {
+          "title": "Transkribeeri hiljem uuesti suurema täpsusega",
+          "description": "Lase mis tahes salvestis hiljem uuesti läbi, et saada puhtam transkriptsioon. Kasulik loengute, vastuvõttude ja iga vestluse puhul, mida tasub üle vaadata."
+        },
+        {
+          "title": "Loe nii, nagu sulle sobib",
+          "description": "Muuda teksti suurust, taustavärvi ja kontrasti, kuni subtiitreid on ühe pilguga lihtne lugeda – telefon käes, laual pikali või püsti toetatud."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Heli ei jõua meie serveritesse",
+          "description": "Sinu heli muudetakse reaalajas tekstiks ja seda ei säilitata kunagi meie serverites. Salvestised, mille talletad, jäävad sinu telefoni ning nende transkriptsioonid sünkroonitakse ainult sinu enda kontoga."
+        },
+        {
+          "title": "Pole müügiks",
+          "description": "Captio AI ei müü ega jaga sinu vestlusi ega teeni neilt raha – mitte kellelegi ega mitte mingil põhjusel."
+        },
+        {
+          "title": "Ei kasutata millegi treenimiseks",
+          "description": "See, mida ütled arsti vastuvõtul või tööintervjuul, ei jõua kunagi treeningandmetesse. Mitte meie omadesse. Mitte kellegi teise omadesse."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Mille poolest erineb Captio AI Apple'i sisseehitatud reaalajas subtiitritest?",
+          "a": "Apple'i reaalajas subtiitrid toetavad vähem keeli, ei tõlgi ega sisalda Heli transkribeerimist ega AI-kokkuvõtet. Captio AI toetab üle 60 keele, tõlgib reaalajas, transkribeerib üles laaditud faile ja koostab AI-kokkuvõtteid. Lisaks saad kohandada teksti suurust, värve ja kontrasti nii, nagu sul on kõige parem lugeda."
+        },
+        {
+          "q": "Kui täpsed on otsesubtiitrid?",
+          "a": "Tavalistes vestlustingimustes on täpsus kõrge. Captio AI on loodud päris kõne jaoks, mitte ainult puhta stuudioheli jaoks, nii et see tuleb toime kiirete rääkijate, piirkondlike aktsentide, taustamüra ja segakeelsete lausetega. Võid lisada ka oma sõnavara (nimed, meditsiiniterminid, erialasõnad), et täpsus sinu vestlustes paraneks."
+        },
+        {
+          "q": "Kui kiiresti subtiitrid ilmuvad?",
+          "a": "Sõna-sõnalt, samal ajal kui inimene veel räägib. Viivitus on tunduvalt alla sekundi, peaaegu reaalajas. Loed seda, mida keegi ütleb, samal hetkel, kui teised seda kuulevad, mitte alles pärast lause lõppu."
+        },
+        {
+          "q": "Kas Otsesubtiitrid töötavad mürarikastes kohtades?",
+          "a": "Jah. Captio AI on loodud päris keskkondade jaoks – restoranid, tänavad, ooteruumid, ühistransport. Suuna mikrofon kõneleja poole ja subtiitrid ilmuvad taustamürast hoolimata."
+        },
+        {
+          "q": "Milliseid keeli Otsesubtiitrid toetavad?",
+          "a": "Üle 60 keele, sealhulgas inglise, hispaania, prantsuse, saksa, mandariini hiina, araabia, hindi, jaapani, korea, portugali, vene ja palju teisi. Piirkondlikke aktsente ja murdeid toetatakse kõigis suuremates keeltes."
+        },
+        {
+          "q": "Kas see saab hakkama aktsentide ja murretega?",
+          "a": "Jah. Captio AI tuleb toime paljude piirkondlike aktsentidega, mitte ainult õpikukeelega. Toetatud on näiteks Austraalia inglise, Ladina-Ameerika hispaania, Šveitsi saksa ja Québeci prantsuse keel ning paljud teised."
+        },
+        {
+          "q": "Kas saan oma subtiitrid salvestada?",
+          "a": "Jah. Pärast seanssi saad salvestada transkriptsioonid ja helisalvestised ning need hiljem üle vaadata. Salvestist saad ka uuesti transkribeerida, et saada puhtam ja täpsem tekst."
+        },
+        {
+          "q": "Kas mul on vaja internetiühendust?",
+          "a": "Jah. Otsesubtiitrid vajavad kõne reaalajas töötlemiseks internetiühendust. Võrguühenduseta subtitreerimist praegu ei toetata."
+        }
+      ]
+    },
+    "live-translator": {
+      "meta": {
+        "title": "Otsetõlk: kõne tõlkimine reaalajas iPhone'is",
+        "description": "Kõne tõlkimine reaalajas iPhone'is. Teine räägib oma keeles, sina loed enda omas – kohe, ükskõik mis keeles. Loodud kurtidele ja vaegkuuljatele.",
+        "schemaDescription": "Kõne tõlkimine reaalajas kurtidele ja vaegkuuljatele. Üle 60 keele, igaüks räägib oma keeles ja sina loed enda omas."
+      },
+      "howTitle": "Kolm puudutust. Ükskõik mis keel.",
+      "steps": [
+        {
+          "title": "Vali tõlkerežiim",
+          "desc": "Ava Captio AI ja vali Otsetõlk."
+        },
+        {
+          "title": "Vali soovitud keel",
+          "desc": "Vali keel, milles soovid lugeda."
+        },
+        {
+          "title": "Vaata tõlget reaalajas",
+          "desc": "Captio AI tõlgib sõna-sõnalt."
+        }
+      ],
+      "featuresTitle": "Loodud päris vestluste jaoks",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Ükskõik mis keel",
+          "description": "Prantsuse, jaapani, araabia, hispaania, saksa, mandariini hiina – üle 60 keele, igas suunas. Kuulmislangus ei ole kunagi ka keelebarjäär."
+        },
+        {
+          "title": "Tuvastab räägitava keele ise",
+          "description": "Jäta lähtekeeleks automaatne tuvastus ja Captio AI tunneb keele ära esimestest sõnadest. Keelt pole vaja enne iga vestlust käsitsi valida."
+        },
+        {
+          "title": "Viivituseta",
+          "description": "Tõlke viivitus on tunduvalt alla sekundi. Loed seda, mida keegi ütleb, samal hetkel, kui teised seda kuulevad, mitte alles pärast lause lõppu."
+        },
+        {
+          "title": "Lisa keelevihjeid",
+          "description": "Anna teada, mis keelt oodata, ja Captio AI on õigele keelele häälestatud juba esimesest sõnast – kasulik siis, kui räägitav keel pole kontekstist ilmne."
+        },
+        {
+          "title": "Mitu keelt korraga",
+          "description": "Kui inimesed vahetavad vestluse ajal keelt, püsib Captio AI sammu ja tõlgib igaühe jutu sinu keelde, ilma et peaksid midagi tegema."
+        },
+        {
+          "title": "Loe nii, nagu sulle sobib",
+          "description": "Muuda taustavärvi, teksti värvi ja fondi suurust, et tõlget oleks ühe pilguga lihtne lugeda, olgu telefon käes või laual."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Heli ei jõua meie serveritesse",
+          "description": "Sinu heli muudetakse reaalajas tekstiks ja seda ei säilitata kunagi meie serverites. Salvestised, mille talletad, jäävad sinu telefoni ning nende transkriptsioonid sünkroonitakse ainult sinu enda kontoga."
+        },
+        {
+          "title": "Pole müügiks",
+          "description": "Captio AI ei müü ega jaga sinu vestlusi ega teeni neilt raha – mitte kellelegi ega mitte mingil põhjusel."
+        },
+        {
+          "title": "Ei kasutata millegi treenimiseks",
+          "description": "See, mida ütled arsti vastuvõtul või tööintervjuul, ei jõua kunagi treeningandmetesse. Mitte meie omadesse. Mitte kellegi teise omadesse."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Mille poolest erineb Otsetõlk Otsesubtiitritest?",
+          "a": "Otsesubtiitrid kirjutavad kõne üles algses keeles. Otsetõlk võtab sama kõne ja tõlgib selle reaalajas sinu valitud keelde. Kui teine inimene räägib prantsuse keelt ja sina loed inglise keeles, kasuta Otsetõlki."
+        },
+        {
+          "q": "Kui täpne on tõlge?",
+          "a": "Levinud keelepaaride puhul on tõlge igapäevavestluses täpne. Captio AI tuleb toime loomuliku kõnega – kiired rääkijad, aktsendid, taustamüra –, mitte ainult puhta stuudioheliga. Haruldaste keelepaaride või väga tehnilise sisu puhul võib täpsus erineda."
+        },
+        {
+          "q": "Milliseid keeli toetatakse?",
+          "a": "Üle 60 keele, sealhulgas inglise, hispaania, prantsuse, saksa, mandariini hiina, araabia, hindi, jaapani, korea, portugali, vene ja palju teisi. Nii lähte- kui ka sihtkeel võib olla ükskõik milline toetatud keel."
+        },
+        {
+          "q": "Kui kiiresti tõlge ilmub?",
+          "a": "Viivitus on tunduvalt alla sekundi. Loed tõlget sõna-sõnalt, samal ajal kui inimene veel räägib – peaaegu reaalajas, mitte alles pärast lause lõppu."
+        },
+        {
+          "q": "Kas see sobib arsti vastuvõtule, kui arst räägib teist keelt?",
+          "a": "Jah. See on üks tähtsamaid kasutusjuhte. Pane telefon lauale, vali lähtekeeleks arsti keel ja loe reaalajas oma keeles kõike, mida ta ütleb. Tõlgitud teksti saad ka salvestada, et tema juhiseid hiljem üle vaadata."
+        },
+        {
+          "q": "Kas see töötab mürarikastes kohtades?",
+          "a": "Jah. Captio AI on loodud päris keskkondade jaoks – ooteruumid, restoranid, lennujaamad. Suuna mikrofon kõneleja poole ja tõlge ilmub ümbritsevast mürast hoolimata."
+        },
+        {
+          "q": "Kas saan tõlgitud teksti salvestada?",
+          "a": "Jah. Pärast seanssi saad tõlgitud teksti salvestada ja hiljem üle vaadata. Kasulik arsti vastuvõttudel, koosolekutel ja igas vestluses, millest tahad jäädvustust."
+        },
+        {
+          "q": "Kas mul on vaja internetiühendust?",
+          "a": "Jah. Otsetõlk vajab kõne reaalajas töötlemiseks ja tõlkimiseks internetiühendust. Võrguühenduseta tõlkimist praegu ei toetata."
+        }
+      ]
+    },
+    "audio-transcription": {
+      "meta": {
+        "title": "Heli transkribeerimine: heli ja video tekstiks iPhone'is",
+        "description": "Muuda mis tahes heli- või videofail tekstiks. Üle 60 keele, kõnelejate eristamine, otsitav tekst. Loodud kurtidele ja vaegkuuljatele.",
+        "schemaDescription": "Laadi üles mis tahes heli- või videofail ja saa täielik kirjalik transkriptsioon. Üle 60 keele, kõnelejate eristamine, ajatemplid. Loodud kurtidele ja vaegkuuljatele."
+      },
+      "howTitle": "Laadi üles. Loe. Valmis.",
+      "steps": [
+        {
+          "title": "Vali faili tüüp",
+          "desc": "Vali, kas laadid üles helifaili või videofaili."
+        },
+        {
+          "title": "Vali fail",
+          "desc": "Vali fail oma telefonist. Captio AI hakkab kohe transkribeerima."
+        },
+        {
+          "title": "Vaata transkriptsiooni",
+          "desc": "Loe kogu transkriptsiooni kõnelejate kaupa ja ajatemplitega."
+        }
+      ],
+      "featuresTitle": "Loodud päris salvestiste jaoks",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Iga vorming",
+          "description": "MP3, MP4, M4A, WAV ja muud. Loengud, koosolekud, kõnepostisõnumid, taskuhäälingud, intervjuud, kõnesalvestised – kui seal on kõnet, saab Captio AI selle transkribeerida."
+        },
+        {
+          "title": "Kõrgeim täpsus",
+          "description": "Captio AI on loodud päriselu heli jaoks, mitte ainult puhaste stuudiofailide jaoks. Telefonikõnede heli, loengusaali salvestised, mürarikas keskkond – see saab kõigega hakkama."
+        },
+        {
+          "title": "Ükskõik mis keel",
+          "description": "Laadi üles salvestis prantsuse, jaapani, araabia või 57 muus keeles. Captio AI tuvastab keele ja transkribeerib selle täpselt."
+        },
+        {
+          "title": "Mitu keelt",
+          "description": "Kui kõnelejad vahetavad salvestise ajal keelt, püsib Captio AI sammu. Transkriptsioonis on kirjas iga räägitud keel, ilma lünkadeta."
+        },
+        {
+          "title": "Ajatemplid",
+          "description": "Igal transkriptsiooni real on ajatempel, nii et saad hüpata salvestises mis tahes hetkele ja leida täpselt, mida ja millal öeldi."
+        },
+        {
+          "title": "Ekspordi ja jaga",
+          "description": "Kopeeri kogu transkriptsioon, jaga seda või salvesta. Sinu salvestised ja transkriptsioonid on alati käepärast, kui neid vajad."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Failid ei jõua meie serveritesse",
+          "description": "Sinu fail saadetakse ainult transkribeerimiseks ja kustutatakse seal. Meie serverites seda kunagi ei säilitata. Salvestis jääb sinu telefoni ning selle transkriptsioon sünkroonitakse ainult sinu enda kontoga."
+        },
+        {
+          "title": "Pole müügiks",
+          "description": "Captio AI ei müü ega jaga sinu salvestisi ega teeni neilt raha – mitte kellelegi ega mitte mingil põhjusel."
+        },
+        {
+          "title": "Ei kasutata millegi treenimiseks",
+          "description": "See, mida üles laadid – arsti vastuvõtt, koosolek, intervjuu –, ei jõua kunagi treeningandmetesse. Mitte meie omadesse. Mitte kellegi teise omadesse."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Mille poolest erineb Heli transkribeerimine Otsesubtiitritest?",
+          "a": "Otsesubtiitrid töötavad reaalajas, kui keegi räägib. Heli transkribeerimine on mõeldud salvestiste jaoks: laadid üles heli- või videofaili ja saad täieliku kirjaliku transkriptsiooni. See sobib suurepäraselt salvestatud loengute, arsti vastuvõttude, intervjuude või mis tahes sisu läbivaatamiseks, mida eelistad pigem lugeda kui kuulata."
+        },
+        {
+          "q": "Milliseid failivorminguid Heli transkribeerimine toetab?",
+          "a": "Captio AI toetab levinud heli- ja videovorminguid, sealhulgas MP3, MP4, M4A, WAV ja teisi. Kui salvestasid faili telefoniga või laadisid selle alla videoplatvormilt, see töötab."
+        },
+        {
+          "q": "Kui täpne on transkriptsioon?",
+          "a": "Selgete salvestiste puhul toetatud keeltes on täpsus kõrge. Captio AI tuleb toime päriselu heliga – telefonikõned, loengusaali salvestised, mürarikas keskkond –, mitte ainult stuudiokvaliteediga failidega. Vajaduse korral saad faili ka uuesti transkribeerida."
+        },
+        {
+          "q": "Milliseid keeli toetatakse?",
+          "a": "Üle 60 keele, sealhulgas inglise, hispaania, prantsuse, saksa, mandariini hiina, araabia, hindi, jaapani, korea, portugali, vene ja palju teisi. Captio AI tuvastab failis räägitava keele automaatselt."
+        },
+        {
+          "q": "Kas see eristab kõnelejaid?",
+          "a": "Jah. Captio AI märgib transkriptsioonis iga kõneleja eraldi, nii et saad jälgida, kes mida ütles – kasulik koosolekute, intervjuude, arsti vastuvõttude ja kõigi mitme inimesega salvestiste puhul."
+        },
+        {
+          "q": "Kui kaua transkribeerimine võtab?",
+          "a": "Transkribeerimine on kiire. Tunnine salvestis võtab tavaliselt paar minutit. Aeg sõltub faili pikkusest ja helikvaliteedist."
+        },
+        {
+          "q": "Kas mu heli säilitatakse pärast transkribeerimist?",
+          "a": "Mitte Captio AI serverites. Fail saadetakse turvaliselt kõnetuvastusteenusele ainult transkribeerimiseks ja kustutatakse seal kohe, kui transkriptsioon on valmis. Salvestis jääb sinu telefoni ning selle transkriptsioon säilitatakse ka sinu kontos, et saaksid selle avada teises seadmes. Sinu salvestisi ei müüda kunagi ega kasutata AI-mudelite treenimiseks."
+        },
+        {
+          "q": "Kas saan videofaili transkribeerida?",
+          "a": "Jah. Laadi videofail otse üles ja Captio AI eraldab sellest heli ning transkribeerib selle. Faili pole vaja enne teisendada."
+        }
+      ]
+    },
+    "ai-summary": {
+      "meta": {
+        "title": "AI-kokkuvõte: transkriptsioonist struktureeritud kokkuvõte",
+        "description": "Muuda iga transkriptsioon struktureeritud kokkuvõtteks. Põhipunktid, otsused ja ülesanded tuuakse välja automaatselt. Loodud kurtidele ja vaegkuuljatele.",
+        "schemaDescription": "Muuda iga transkriptsioon struktureeritud kokkuvõtteks. Põhipunktid, otsused, ülesanded ja kõnelejate tsitaadid tuuakse välja automaatselt."
+      },
+      "howTitle": "Sisse transkriptsioon. Välja kokkuvõte.",
+      "steps": [
+        {
+          "title": "Ava ükskõik milline transkriptsioon",
+          "desc": "Vali ükskõik milline transkriptsioon Otsesubtiitritest või Heli transkribeerimisest."
+        },
+        {
+          "title": "Loo kokkuvõte",
+          "desc": "Puuduta valikut „AI-kokkuvõte“. Captio AI töötleb transkriptsiooni automaatselt."
+        },
+        {
+          "title": "Loe kokkuvõtet",
+          "desc": "Sinu kokkuvõte on valmis – osadeks jaotatud, lugemiseks või jagamiseks valmis."
+        }
+      ],
+      "featuresTitle": "Loodud pikkade transkriptsioonide jaoks",
+      "featuresSubtitle": "Saad kokkuvõtte, ülesannete loendi, kõnelejate tsitaadid, märkmed ja palju muud.",
+      "subfeatures": [
+        {
+          "title": "Põhipunktid tuuakse välja automaatselt",
+          "description": "Captio AI loeb kogu transkriptsiooni ja toob välja selle, mis päriselt oluline oli – põhipunktid, tehtud otsused ja järeldused."
+        },
+        {
+          "title": "Ülesanded tõstetakse esile",
+          "description": "Ülesanded ja järgmised sammud tuvastatakse ja loetletakse eraldi, nii et pärast koosolekut, vastuvõttu või loengut ei jää midagi kahe silma vahele."
+        },
+        {
+          "title": "Jaotatud osadeks",
+          "description": "Kokkuvõte on struktureeritud, mitte üks pidev tekstimass. Igal teemal on oma osa, nii et saad teksti kiiresti üle vaadata ja leida vajaliku."
+        },
+        {
+          "title": "Töötab iga Captio AI transkriptsiooniga",
+          "description": "Kasuta AI-kokkuvõtet iga transkriptsiooni puhul, mille lõid Otsesubtiitrite või Heli transkribeerimisega. Pole lisasamme ega kopeerimist ja kleepimist."
+        },
+        {
+          "title": "Ükskõik mis keel",
+          "description": "Tee kokkuvõtteid transkriptsioonidest üle 60 keeles. Captio AI loeb transkriptsiooni algses keeles ja koostab kokkuvõtte, mida saad lugeda."
+        },
+        {
+          "title": "Salvesta ja jaga",
+          "description": "Hoia kokkuvõtet transkriptsiooni kõrval, kopeeri või jaga seda. Kasulik pärast arsti vastuvõtte, koosolekuid ja loenguid."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Säilib ainult sinu kontos",
+          "description": "Sinu kokkuvõte salvestatakse koos salvestisega nii sinu telefoni kui ka sinu kontosse, nii et see on olemas igas seadmes, kuhu sisse logid. Kustuta see ja see kaob igal pool."
+        },
+        {
+          "title": "Pole müügiks",
+          "description": "Captio AI ei müü ega jaga sinu vestlusi ega teeni neilt raha – mitte kellelegi ega mitte mingil põhjusel."
+        },
+        {
+          "title": "Ei kasutata millegi treenimiseks",
+          "description": "See, millest kokkuvõtte teed – arsti vastuvõtt, koosolek, intervjuu –, ei jõua kunagi treeningandmetesse. Mitte meie omadesse. Mitte kellegi teise omadesse."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Mida AI-kokkuvõte teeb?",
+          "a": "AI-kokkuvõte võtab mis tahes transkriptsiooni ja toob sellest välja olulise – põhipunktid, otsused, ülesanded ja tähtsad üksikasjad – struktureeritud kokkuvõttena. See säästab aega, kui sul on pikk transkriptsioon ja vajad kiiresti kõige olulisemat."
+        },
+        {
+          "q": "Milliseid transkriptsioone saan kokku võtta?",
+          "a": "Iga transkriptsiooni, mis on loodud rakenduses Captio AI – Otsesubtiitrite või Heli transkribeerimisega. AI-kokkuvõtte käivitad otse transkriptsioonil, ilma lisasammudeta."
+        },
+        {
+          "q": "Mille poolest erineb AI-kokkuvõte lihtsalt transkriptsiooni lugemisest?",
+          "a": "Tunnise koosoleku täielik transkriptsioon võib olla tuhandeid sõnu pikk. AI-kokkuvõte annab sulle põhipunktid, otsused ja ülesanded murdosa ajaga – teemade kaupa, mitte selles järjekorras, nagu asju räägiti."
+        },
+        {
+          "q": "Kas see sobib arsti vastuvõttude jaoks?",
+          "a": "Jah. Arsti vastuvõtul saad lühikese ajaga palju teavet. AI-kokkuvõte toob diagnoosi, juhised ja järgmised sammud välja selge loendina, mille saad üle vaadata ja mille juurde hiljem tagasi tulla."
+        },
+        {
+          "q": "Milliseid keeli toetatakse?",
+          "a": "AI-kokkuvõte töötab transkriptsioonidega üle 60 keeles. Kokkuvõte koostatakse samas keeles, milles on transkriptsioon."
+        },
+        {
+          "q": "Kas saan kokkuvõtte salvestada või jagada?",
+          "a": "Jah. Kokkuvõtte saad salvestada algse transkriptsiooni kõrvale, kopeerida või jagada. Kasulik koosoleku kokkuvõtte saatmiseks või arsti vastuvõtu kohta märkmete hoidmiseks."
+        },
+        {
+          "q": "Kas AI-kokkuvõte salvestab minu transkriptsiooni või heli?",
+          "a": "Sinu transkriptsioon saadetakse turvaliselt AI-teenusele ainult kokkuvõtte kirjutamiseks ning seda ei kasutata kunagi AI-mudelite treenimiseks. Kokkuvõte salvestatakse koos salvestisega sinu telefoni ja sinu kontosse, kuni selle kustutad. Heli ei säilitata kunagi Captio AI serverites ning sinu vestlusi ei müüda kunagi."
+        }
+      ]
+    }
+  }
+}

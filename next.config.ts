@@ -1,4 +1,8 @@
 import type { NextConfig } from "next";
+import { LOCALE_CODES } from "./src/i18n/locales";
+
+// /de, /de/live-captions… (the translated home and feature pages).
+const locale = `:locale(${LOCALE_CODES.join("|")})`;
 
 const nextConfig: NextConfig = {
   // Removed pages that were indexed — 301 them so search engines transfer any
@@ -8,6 +12,17 @@ const nextConfig: NextConfig = {
       { source: "/demo", destination: "/live-captions", permanent: true },
       { source: "/pricing", destination: "/", permanent: true },
       { source: "/support", destination: "/", permanent: true },
+      // English has no prefix.
+      { source: "/en", destination: "/", permanent: true },
+      { source: "/en/:path*", destination: "/:path*", permanent: true },
+    ];
+  },
+  // Language of the translated pages for crawlers that read the header (the
+  // root layout's <html lang="en"> is corrected by script, see DocumentLanguage).
+  async headers() {
+    return [
+      { source: `/${locale}`, headers: [{ key: "Content-Language", value: ":locale" }] },
+      { source: `/${locale}/:path*`, headers: [{ key: "Content-Language", value: ":locale" }] },
     ];
   },
   // PostHog reverse proxy (EU) — see src/instrumentation-client.ts
