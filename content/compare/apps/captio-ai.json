@@ -389,6 +389,18 @@
       "quotes": [
         "licenses for the deaf and hard of hearing people in your organization, paid by invoice."
       ]
+    },
+    {
+      "id": "s10",
+      "title": "Captio AI widgets and Live Activity",
+      "publisher": "Captio AI",
+      "url": "https://captioai.app/widgets",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Captions keep recording with the screen locked, and the Lock Screen and Dynamic Island show a red dot and a timer with pause and resume."
+      ]
     }
   ],
   "notes": "Built from content/blog/CAPTIO_FACTS.md (the only source for claims about Captio AI). Update both together."

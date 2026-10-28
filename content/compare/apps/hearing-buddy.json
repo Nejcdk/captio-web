@@ -1,0 +1,603 @@
+{
+  "slug": "hearing-buddy",
+  "name": "Hearing Buddy - Speech To Text",
+  "shortName": "Hearing Buddy",
+  "developer": "Krager Labs LLC",
+  "developerCountry": "United States (Portland, Oregon)",
+  "website": "https://hearingbuddyapp.com",
+  "appStoreUrl": "https://apps.apple.com/us/app/hearing-buddy-speech-to-text/id6747363502",
+  "googlePlayUrl": null,
+  "category": "in-person-captions",
+  "oneLine": "An iPhone and iPad captioning app made by someone with hearing loss: free, unlimited captions that run on the phone, captions shared with phones nearby, and Apple Watch name alerts with Buddy+.",
+  "facts": {
+    "platforms": {
+      "status": "yes",
+      "text": "iPhone, iPad, Apple Watch; Mac and Vision Pro with Buddy+",
+      "detail": "Apple devices only: there is no Android version and no web app. Live captions on Mac and Apple Vision Pro are part of Buddy+. A search of Google Play finds no Hearing Buddy app.",
+      "sources": [
+        "s3",
+        "s1",
+        "s4",
+        "s17"
+      ]
+    },
+    "deviceRequirements": {
+      "status": "yes",
+      "text": "iOS 26 or later",
+      "detail": "iPhone and iPad need iOS 26 or later, and Apple Watch features watchOS 10 or later. Buddy's Notes (summaries) need iOS 27 on an iPhone with Apple Intelligence. Hearing Buddy calls the iOS 26 requirement its biggest weakness.",
+      "sources": [
+        "s2",
+        "s1",
+        "s3"
+      ]
+    },
+    "roomCaptions": {
+      "status": "yes",
+      "text": "Yes, from the phone's microphone",
+      "detail": "Speech picked up by the microphone becomes text as people speak, with no minute meter and no session cap. It does not caption audio from other apps.",
+      "sources": [
+        "s4",
+        "s1"
+      ]
+    },
+    "groupConversations": {
+      "status": "yes",
+      "text": "Share Captions: nearby iPhones and iPads",
+      "detail": "One phone captions the room and others read along on their own iPhone or iPad; more people can turn on their microphone and every voice goes into one transcript. Devices connect directly, with no internet, account or server. Free, same room only, and every reader needs the app on iOS 26.",
+      "sources": [
+        "s5",
+        "s1",
+        "s8"
+      ]
+    },
+    "languages": {
+      "status": "yes",
+      "text": "8 languages (18 regional options)",
+      "detail": "English, Spanish, French, German, Japanese, Korean, Mandarin and Cantonese, in 18 language and regional options. Captions can be translated into 10 reading languages.",
+      "sources": [
+        "s1",
+        "s4",
+        "s6"
+      ]
+    },
+    "offline": {
+      "status": "yes",
+      "text": "Yes, captions run on the phone",
+      "detail": "On-device captions work with no signal. Translation works offline after a one-time download of each language. Enhanced Accuracy, an optional mode you turn on, makes captions in the cloud.",
+      "sources": [
+        "s1",
+        "s4",
+        "s6"
+      ]
+    },
+    "speakerLabels": {
+      "status": "partial",
+      "text": "By name per phone; Buddy+ colours for 4 voices",
+      "detail": "In shared sessions each person's words appear by name in their own colour. On one phone, Hearing Buddy's own comparison (July 2026) and educator pages describe Speaker Labels in Buddy+: colours for up to four voices, reset after each session. The App Store listing does not list Speaker Labels.",
+      "sources": [
+        "s10",
+        "s11",
+        "s5"
+      ]
+    },
+    "translation": {
+      "status": "yes",
+      "text": "Live, on the phone, 10 languages; Buddy+ alone",
+      "detail": "Captions are translated on the phone into English, Spanish, French, German, Italian, Portuguese, Japanese, Korean, or Simplified or Traditional Chinese, offline after a one-time download. Free for everyone in a shared session; translating your own captions alone needs Buddy+. Cantonese can't be translated.",
+      "sources": [
+        "s6",
+        "s1"
+      ]
+    },
+    "saveTranscripts": {
+      "status": "yes",
+      "text": "Yes, text on the phone, free",
+      "detail": "Every session is saved on your phone automatically. Nothing is uploaded and there is no account; a deleted transcript is gone.",
+      "sources": [
+        "s4",
+        "s3"
+      ]
+    },
+    "export": {
+      "status": "partial",
+      "text": "Copy and share; formats not stated",
+      "detail": "You can copy and share transcripts for free; the file formats are not stated. The Mac companion app saves transcripts as text files.",
+      "sources": [
+        "s1",
+        "s4",
+        "s14"
+      ]
+    },
+    "fileUpload": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Hearing Buddy's pages describe live captions from the microphone, not transcribing audio or video files.",
+      "sources": [
+        "s3",
+        "s4"
+      ]
+    },
+    "summaries": {
+      "status": "yes",
+      "text": "Buddy+ only (Buddy's Notes)",
+      "detail": "Conversation summaries are part of Buddy+. Buddy's Notes, written when you finish, need iOS 27 on an iPhone with Apple Intelligence. Apple's award page says the summaries are made with Apple's on-device frameworks.",
+      "sources": [
+        "s1",
+        "s3",
+        "s12"
+      ]
+    },
+    "customWords": {
+      "status": "partial",
+      "text": "Word list for Enhanced Accuracy (cloud)",
+      "detail": "The App Store notes mention a Cloud Enhanced dictionary for adding words, and the privacy policy says your name and word list help Enhanced Accuracy spell them right. A word list for the on-device captions is not described.",
+      "sources": [
+        "s1",
+        "s8"
+      ]
+    },
+    "display": {
+      "status": "yes",
+      "text": "Text size; dark interface",
+      "detail": "Text size is adjustable for free, and the listing says text can go to 200% or more. The app supports VoiceOver, Reduce Motion and a dark interface.",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    },
+    "soundAlerts": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Hearing Buddy alerts you when someone says your name or asks you a question (Buddy+). Its pages don't describe alerts for sounds like a doorbell or an alarm.",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    "phoneCalls": {
+      "status": "no",
+      "text": "No",
+      "detail": "It can't caption phone or FaceTime calls on iPhone, because iOS doesn't let microphone apps reach call audio. Hearing Buddy points to Apple's Live Captions and FCC-funded relay services instead.",
+      "sources": [
+        "s4",
+        "s3"
+      ]
+    },
+    "videoCalls": {
+      "status": "partial",
+      "text": "Not on iPhone; on Mac with Buddy+",
+      "detail": "On iPhone it can't caption FaceTime or other apps. The privacy policy (October 2026) says Hearing Buddy for Mac can caption speech playing on the Mac, such as calls and videos; Mac captions are part of Buddy+.",
+      "sources": [
+        "s4",
+        "s8",
+        "s1"
+      ]
+    },
+    "mediaOnDevice": {
+      "status": "no",
+      "text": "Not on iPhone or iPad",
+      "detail": "Videos, podcasts and voice notes playing on the phone can't be captioned. On a Mac, the privacy policy describes captioning Mac audio.",
+      "sources": [
+        "s4",
+        "s8"
+      ]
+    },
+    "humanCaptioners": {
+      "status": "no",
+      "text": "No",
+      "detail": "Hearing Buddy offers no human-reviewed captions and says that for ADA-grade access you want a human captioner or a certified service.",
+      "sources": [
+        "s3",
+        "s10",
+        "s16"
+      ]
+    },
+    "signLanguage": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Hearing Buddy's pages don't describe sign language features.",
+      "sources": [
+        "s3"
+      ]
+    },
+    "privacy": {
+      "status": "yes",
+      "text": "On the phone; optional cloud mode",
+      "detail": "By default speech recognition runs on the device and audio and transcripts are not collected. Enhanced Accuracy, off until you turn it on, streams audio to a cloud speech-recognition provider; the privacy policy says neither Hearing Buddy nor the provider stores the audio or captions. Shared captions go directly between nearby devices.",
+      "sources": [
+        "s8",
+        "s1",
+        "s4"
+      ]
+    },
+    "account": {
+      "status": "no",
+      "text": "No account needed",
+      "detail": "Captions work the first time you open the app, with no sign-up and no credit card.",
+      "sources": [
+        "s4",
+        "s3"
+      ]
+    },
+    "availability": {
+      "status": "yes",
+      "text": "App Store: US, UK, Germany, Japan, India and more",
+      "detail": "Opened on the App Store in the US, UK, Germany, Japan and India (October 2026); Hearing Buddy publishes no country list. The app's own menus are in 8 languages. Not on Google Play.",
+      "sources": [
+        "s1",
+        "s15",
+        "s2",
+        "s17"
+      ]
+    },
+    "freePlan": {
+      "status": "yes",
+      "text": "Unlimited captions; 30 free cloud minutes",
+      "detail": "Free with no account or card: unlimited live captions, Share Captions, translation inside shared sessions, background listening, saved transcripts, copy and share, and text size. The cloud Enhanced Accuracy mode has 30 free minutes.",
+      "sources": [
+        "s3",
+        "s1"
+      ]
+    },
+    "price": {
+      "status": "yes",
+      "text": "Buddy+ US$14.99/month or US$89.99/year",
+      "detail": "Buddy+ on the US App Store listing, October 2026, with 20 hours a month of Enhanced Accuracy (240 a year on Annual) and hour packs for more. Hearing Buddy's website lists lower prices: US$9.99 a month, US$59.99 a year or US$7.99 a week, and a 14-day free trial. The website also sells Buddy+ Lifetime (no price shown).",
+      "sources": [
+        "s1",
+        "s3",
+        "s16",
+        "s9"
+      ]
+    },
+    "accessibilityFunding": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No government programme is described; the live captions themselves are free. Educators can ask for free Buddy+ on their own device.",
+      "sources": [
+        "s11"
+      ]
+    }
+  },
+  "strengths": [
+    {
+      "text": "Live captions are free and unlimited, run on the phone, and work without internet.",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    },
+    {
+      "text": "Share Captions lets nearby iPhones and iPads read the same captions, each in their own language, free and with no internet or account.",
+      "sources": [
+        "s5",
+        "s1"
+      ]
+    },
+    {
+      "text": "With Buddy+, an Apple Watch taps your wrist when someone says your name or asks you a question.",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "text": "Apple named it a finalist in the Inclusivity category of the 2026 Apple Design Awards.",
+      "sources": [
+        "s12"
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "text": "Needs iOS 26 or later and runs only on Apple devices; there is no Android version or web app.",
+      "sources": [
+        "s3",
+        "s1"
+      ]
+    },
+    {
+      "text": "Live captions cover 8 languages, and translation 10 reading languages.",
+      "sources": [
+        "s1",
+        "s6"
+      ]
+    },
+    {
+      "text": "Shared captions only work between devices in the same room, and every reader needs the app on iOS 26.",
+      "sources": [
+        "s5"
+      ]
+    },
+    {
+      "text": "Translation on your own, summaries, name alerts, Boost Audio and Mac captions need Buddy+.",
+      "sources": [
+        "s1"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Hearing Buddy - Speech To Text (App Store, United States)",
+      "publisher": "Apple App Store",
+      "url": "https://apps.apple.com/us/app/hearing-buddy-speech-to-text/id6747363502",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Built by someone who is hard of hearing, every feature comes from lived experience.",
+        "2026 Apple Design Award Finalist (Inclusivity)",
+        "Hearing Buddy gives you unlimited live captions for free.",
+        "Captions run on your device, 24/7, at no cost. They work without internet, and your conversations stay on your phone.",
+        "Need more accuracy? Turn on Enhanced Accuracy and captions are made in the cloud: sharper text in loud rooms, names spelled right. It stays off until you turn it on. Try 30 minutes free. Buddy+ includes 20 hours a month, or 240 a year with Annual.",
+        "Share your live captions and people around you can follow from their own iPhone or iPad.",
+        "In meetings, classes, and group conversations, more people can turn on their mic, and every voice flows into one shared transcript.",
+        "Sharing works directly between devices. No internet, no account, no server. Captions stay in the room.",
+        "When someone says your name, your Apple Watch taps your wrist. The same tap tells you when someone asks a question.",
+        "When you're listening on your own, Buddy+ lets you choose the language being spoken and the language you want to read.",
+        "Copy and share transcripts",
+        "Adjustable text size",
+        "Conversation summaries",
+        "Boost Audio for any headphones",
+        "Live captions on Mac and Apple Vision Pro",
+        "Live captions support 18 language and regional options across English, Spanish, French, German, Japanese, Korean, Mandarin, and Cantonese.",
+        "Requires iOS 26.0 or later. Apple Watch features require watchOS 10.0 or later.",
+        "Buddy+ Annual: $89.99 per year",
+        "Buddy+ Monthly: $14.99 per month",
+        "Requires macOS 26.0 or later and a Mac with Apple M1 chip or later.",
+        "English, French, German, Japanese, Korean, Simplified Chinese, Spanish, Traditional Chinese",
+        "Buddy's Notes need iOS 27 on an iPhone with Apple Intelligence.",
+        "Everyone gets 30 free minutes; Buddy+ includes hours every billing period, with hour packs for more. On-device captions stay unlimited.",
+        "On iPad in landscape, adding a word to your Cloud Enhanced dictionary no longer closes the sheet.",
+        "asking Buddy for more ways to spell your name now finds new ones.",
+        "Buddy+ trials now come with a few helpful tips along the way.",
+        "Accessibility Improvements: VoiceOver, Larger Text, Reduced Motion & Dark Interface",
+        "Increase the text size in the app to 200% or more."
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Hearing Buddy - Speech To Text (App Store lookup data, US)",
+      "publisher": "Apple",
+      "url": "https://itunes.apple.com/lookup?id=6747363502&country=us",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "App Store data (US)",
+      "quotes": [
+        "\"minimumOsVersion\":\"26.0\"",
+        "\"sellerName\":\"Krager Labs LLC\"",
+        "\"formattedPrice\":\"Free\"",
+        "\"languageCodesISO2A\":[\"EN\", \"FR\", \"DE\", \"JA\", \"KO\", \"ZH\", \"ES\", \"ZH\"]"
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Features — What Hearing Buddy Does",
+      "publisher": "Hearing Buddy (Krager Labs LLC)",
+      "url": "https://hearingbuddyapp.com/features",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Speech becomes clear text as it is spoken, with no minute meter and no session cap. Processed on your phone, so it works with no signal at all.",
+        "Unlimited live captions, Share Captions, translation for everyone inside a shared session, background listening, saved transcripts, copy and share, and text size. Those are not a trial — they stay free.",
+        "Buddy+ adds Boost Audio, Watch alerts, summaries, solo translation, and Mac and Vision Pro support for $59.99 a year, $9.99 a month, or $7.99 a week.",
+        "Our biggest real weakness. If you're setting up a phone for a parent on an older iPhone, Hearing Buddy may not install at all — and other captioning apps run on much older versions.",
+        "iPhone, iPad, Apple Watch, Mac, and Apple Vision Pro. There is no Android version and no web app, so a mixed-device group will leave someone out.",
+        "Does my audio go to a cloud service? No. Speech recognition and translation run on your device, and shared sessions pass captions directly between the phones in the room rather than through a server.",
+        "No. iOS does not let microphone apps reach call audio, so no app in this category can.",
+        "For ADA-grade access at a legal proceeding or a public event, you want a human captioner or a certified service — not an app on a table."
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Real-Time Transcription — Unlimited Free Live Captions",
+      "publisher": "Hearing Buddy (Krager Labs LLC)",
+      "url": "https://hearingbuddyapp.com/features/real-time-transcription",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Speech recognition runs entirely on your device.",
+        "That also means captions work with no signal at all.",
+        "No minute meters or session caps — ever",
+        "Caption languages 18 language and regional options across English, Spanish, French, German, Japanese, Korean, Mandarin, and Cantonese",
+        "Every session is saved on your phone automatically. You can scroll back through what was said, copy any part of it, and share it",
+        "Transcripts are saved on your phone. Nothing is uploaded, and there is no account for anyone to log into. If you delete a transcript, it is gone.",
+        "No account, no sign-up, no credit card. Captions work the first time you open the app.",
+        "Apps that use the microphone are not allowed to reach call audio on iOS",
+        "Videos, podcasts, and voice notes playing on your phone go through the system, not the mic.",
+        "Devices iPhone and iPad. Mac and Apple Vision Pro captions are part of Buddy+"
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Share Captions — Group Captioning for the Room",
+      "publisher": "Hearing Buddy (Krager Labs LLC)",
+      "url": "https://hearingbuddyapp.com/features/share-captions",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Put a phone where the sound is, and the people around you can follow the same live transcript from their own iPhone or iPad — each in the language they want to read. No internet, no account, no server.",
+        "In a meeting, a class, or a family dinner, more people can turn their own microphones on. Every voice flows into the same transcript, attributed as it goes",
+        "It cannot bring in someone dialling in from another city",
+        "Every person who wants to read along needs a compatible Apple device with the app installed.",
+        "Price Free, including translation for everyone in the session"
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Live Translation — Read Conversations in Your Language",
+      "publisher": "Hearing Buddy (Krager Labs LLC)",
+      "url": "https://hearingbuddyapp.com/features/live-translation",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "It is built on Apple's on-device translation, which means the text is processed on your phone rather than sent to a translation service.",
+        "When you are captioning solo, translation is part of Buddy+.",
+        "After that, translation runs entirely offline.",
+        "English, Spanish, French, German, Italian, Portuguese, Japanese, Korean, Simplified Chinese, and Traditional Chinese.",
+        "Cantonese is supported as a caption language but not as a translation source"
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Boost Audio — Turn Your Headphones Into a Sound Amplifier",
+      "publisher": "Hearing Buddy (Krager Labs LLC)",
+      "url": "https://hearingbuddyapp.com/features/boost-audio",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Boost Audio turns AirPods, Bluetooth, or wired headphones into a real-time sound amplifier — lifting speech by up to 39 dB and shaping it to your own hearing test from Apple Health.",
+        "It is not a hearing aid"
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "Privacy Policy - Hearing Buddy",
+      "publisher": "Hearing Buddy (Krager Labs LLC)",
+      "url": "https://hearingbuddyapp.com/privacy",
+      "type": "privacy",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Last updated: October 22, 2026",
+        "Speech recognition and language processing happen on your device by default. We do not collect or store your audio or transcripts. The one exception is the optional Enhanced Accuracy feature, described below, which streams audio to a cloud caption service only while you have it turned on.",
+        "Neither we nor the provider store the audio or the captions; our server records only the number of seconds streamed so it can meter your included hours.",
+        "Hearing Buddy for Mac captions what your microphone hears and, if you choose Mac Audio, speech playing on your Mac, such as calls and videos.",
+        "Your name and word list go along to help spell them right.",
+        "Captions you choose to share go directly to devices near you over your local network. No server is involved."
+      ]
+    },
+    {
+      "id": "s9",
+      "title": "Terms of Service - Hearing Buddy",
+      "publisher": "Hearing Buddy (Krager Labs LLC)",
+      "url": "https://hearingbuddyapp.com/terms",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "The seller (merchant of record) is Krager Labs LLC, 1255 NW 9th Ave, Portland, OR 97209.",
+        "What we sell here: monthly and annual Buddy+ subscriptions, occasional introductory offers (like a discounted first week), and Buddy+ Lifetime, a one-time purchase.",
+        "Any unused portion of a free trial is forfeited when you purchase a subscription, where applicable."
+      ]
+    },
+    {
+      "id": "s10",
+      "title": "Ava vs Hearing Buddy: Honest Captioning App Comparison (2026)",
+      "publisher": "Hearing Buddy (Krager Labs LLC)",
+      "url": "https://hearingbuddyapp.com/compare/hearing-buddy-vs-ava",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Ava vs Hearing Buddy (Hearing Buddy)",
+      "quotes": [
+        "Updated July 1, 2026",
+        "For one-phone conversations, Buddy+ adds Speaker Labels: colors that tell up to four voices apart without training anyone's voice. Nothing is recorded or stored — labels reset when the session ends.",
+        "the captions merge into a single timeline with each person's words shown by name in their own color.",
+        "For legally mandated accommodations at work or school, that human layer matters, and we don't offer one."
+      ]
+    },
+    {
+      "id": "s11",
+      "title": "For educators & disability services",
+      "publisher": "Hearing Buddy (Krager Labs LLC)",
+      "url": "https://hearingbuddyapp.com/for-educators",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Educators get every Buddy+ feature — Watch alerts, summaries, Speaker Labels, translation — free, for good."
+      ]
+    },
+    {
+      "id": "s12",
+      "title": "Apple Design Awards - 2026 winners and finalists",
+      "publisher": "Apple Developer",
+      "url": "https://developer.apple.com/design/awards/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Apple Design Awards 2026",
+      "quotes": [
+        "Inclusivity",
+        "Lilly Seay, United States",
+        "Created by a solo developer with hearing loss, Hearing Buddy is shaped by experience. The thoughtful app uses the Foundation Models framework and on-device speech-to-text features to quickly generate real-time captions and summaries of spoken conversations."
+      ]
+    },
+    {
+      "id": "s13",
+      "title": "About Hearing Buddy - Our Mission to Help the Hard of Hearing Community",
+      "publisher": "Hearing Buddy (Krager Labs LLC)",
+      "url": "https://hearingbuddyapp.com/about",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Hearing Buddy was made by Lilly Seay, who lives with hearing loss, and Scott Krager — her real-life hearing buddy."
+      ]
+    },
+    {
+      "id": "s14",
+      "title": "Hearing Buddy Everywhere (Mac App Store, United States)",
+      "publisher": "Apple App Store",
+      "url": "https://apps.apple.com/us/app/hearing-buddy-everywhere/id6752637457",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Hearing Buddy Everywhere (Mac App Store)",
+      "quotes": [
+        "Requires Hearing Buddy for iPhone (with Buddy+ subscription)",
+        "Save complete conversation transcripts as text files for your records.",
+        "Requires macOS 14.6 or later."
+      ]
+    },
+    {
+      "id": "s15",
+      "title": "Hearing Buddy - Speech To Text (App Store, United Kingdom)",
+      "publisher": "Apple App Store",
+      "url": "https://apps.apple.com/gb/app/hearing-buddy-speech-to-text/id6747363502",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "App Store listing (UK)",
+      "quotes": [
+        "Hearing Buddy gives you unlimited live captions for free."
+      ]
+    },
+    {
+      "id": "s16",
+      "title": "Best live captioning & speech to text apps for iPhone (2026)",
+      "publisher": "Hearing Buddy (Krager Labs LLC)",
+      "url": "https://hearingbuddyapp.com/compare/best-live-captioning-apps-iphone",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Best live captioning apps for iPhone (Hearing Buddy)",
+      "quotes": [
+        "Updated October 6, 2026",
+        "Buddy+ (optional extras) is $59.99/year with a 14-day free trial.",
+        "there's no human-scribe tier for ADA-grade compliance"
+      ]
+    },
+    {
+      "id": "s17",
+      "title": "Google Play search for \"Hearing Buddy\" (US)",
+      "publisher": "Google Play",
+      "url": "https://play.google.com/store/search?q=%22Hearing%20Buddy%22&c=apps&hl=en_US&gl=US",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Google Play search",
+      "quotes": [
+        "No results for \"Hearing Buddy\""
+      ]
+    }
+  ],
+  "notes": "Conflicts: (1) Price: the US App Store listing (version 3.19, 28 Oct 2026) says 'Buddy+ Annual: $89.99 per year' and 'Buddy+ Monthly: $14.99 per month'; the website's features, real-time transcription and Boost Audio pages say $59.99/year, $9.99/month or $7.99/week, and its comparison and educator pages say $59.99/year. The US App Store In-App Purchases list shows Pro $89.99, $79.99, $59.99, $14.99, $6.99, $9.99, Buddy+ Annual $99.99 and $79.99, Pro $59.99 and $9.99 (periods not named). The table uses the listing's description prices. (2) Cloud: the homepage says '100% on device, private, no cloud' and the features FAQ answers 'Does my audio go to a cloud service? No.', while the App Store listing and the privacy policy (22 Oct 2026) describe the optional Enhanced Accuracy mode that streams audio to a cloud speech-recognition provider (named as Meta in the policy). (3) Speaker Labels: listed as a Buddy+ feature on Hearing Buddy's Ava comparison (1 Jul 2026), Live Transcribe comparison (6 Jul 2026) and educator page, but not in the current App Store or features-page Buddy+ lists; llms.txt says 'speaker identification'. (4) Mac: the Mac App Store app 'Hearing Buddy Everywhere' (version 2.21, May 2026, macOS 14.6+) is a companion display that needs the iPhone app with Buddy+; the privacy policy describes a Mac app that captions the microphone and Mac audio and writes notes with Apple Private Cloud Compute; the iOS app's listing also lists Mac (macOS 26, M1 or later). Which Mac app is current is unclear. (5) Trial: Hearing Buddy's roundup (6 Oct 2026) says Buddy+ has a 14-day free trial and the App Store notes (3.15, 3.08) mention Buddy+ trials; the App Store description only mentions 30 free minutes of Enhanced Accuracy. (6) Names: the US listing is 'Hearing Buddy - Speech To Text', Apple's award page links it as 'hearing-buddy-live-captions', the German listing is 'Hearing Buddy: Live-Untertitel' (same app id 6747363502). Apple's award page names the developer as Lilly Seay; the App Store seller is Krager Labs LLC (Portland, Oregon, per the terms). (7) The App Store privacy label lists Identifiers under 'Data Used to Track You' and Device ID for third-party advertising (not linked to you); the website uses a Meta Pixel on its Buddy+ quiz pages only. Not shown on the page. Awards: the 2026 Apple Design Award finalist (Inclusivity) is confirmed on developer.apple.com/design/awards (the category winner was Guitar Wiz). The App Store page also shows Editors' Choice and an 'Apps We Love' story; not used. Not found / not opened: there is no help centre (help.hearingbuddyapp.com does not resolve; /faq, /help and /pricing return 404), so FAQs come from the feature pages. Google Play search finds no Hearing Buddy app (an unrelated Android app called 'AI Caption Buddy' exists). Web search was unavailable during research, so press coverage was not checked. Availability: the app opened on the App Store in the US, UK, Germany, Japan and India, and the lookup API also returned it for Slovenia, Australia, Canada and Brazil. The website's browser speech-to-text tool (a few free cloud minutes) is not counted as a web app; Hearing Buddy itself says there is no web app. Caption accuracy was not checked. All pages opened 2026-10-28 with curl."
+}

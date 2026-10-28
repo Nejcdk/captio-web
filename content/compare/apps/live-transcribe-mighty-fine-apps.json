@@ -1,0 +1,671 @@
+{
+  "slug": "live-transcribe-mighty-fine-apps",
+  "name": "Live Transcribe by Mighty Fine Apps",
+  "shortName": "Live Transcribe by Mighty Fine Apps",
+  "developer": "Mighty Fine Apps LLC",
+  "developerCountry": "United States",
+  "website": "https://livetranscribe.app",
+  "appStoreUrl": "https://apps.apple.com/us/app/live-transcribe/id1471473738",
+  "googlePlayUrl": null,
+  "category": "in-person-captions",
+  "oneLine": "A paid iPhone and iPad app from Mighty Fine Apps, a small US company, that captions conversations in the room for deaf and hard of hearing people, with an unlimited Offline mode. Not Google's Live Transcribe.",
+  "facts": {
+    "platforms": {
+      "status": "yes",
+      "text": "iPhone and iPad (no Android)",
+      "detail": "The App Store lists it for iPhone, iPad and Apple Vision, and the company calls it \"iOS only, not affiliated with Google\". Mighty Fine Apps has no app on Google Play. It does not work with glasses or Apple Watch.",
+      "sources": [
+        "s1",
+        "s15",
+        "s22",
+        "s14"
+      ]
+    },
+    "deviceRequirements": {
+      "status": "yes",
+      "text": "iOS 15.0 or later",
+      "detail": "The App Store lists iOS 15.0 or later (visionOS 1.0 on Apple Vision). The help centre says Offline mode works best on iOS 26 or later; the terms still say iOS 13.0.",
+      "sources": [
+        "s1",
+        "s2",
+        "s4",
+        "s21"
+      ]
+    },
+    "roomCaptions": {
+      "status": "yes",
+      "text": "Yes, from the iPhone or iPad microphone",
+      "detail": "You place the iPhone or iPad near the conversation and read what each person says as they speak. It can also listen through an external microphone, or through a Bluetooth device such as a hearing aid if you turn that on.",
+      "sources": [
+        "s1",
+        "s3",
+        "s11"
+      ]
+    },
+    "groupConversations": {
+      "status": "partial",
+      "text": "One phone; colour-coded voices in Best mode",
+      "detail": "The company says it is made for noisy places and group settings, and Best mode colour-codes each voice. Each person who wants it on their own phone needs their own device and subscription; joining several phones into one conversation is not described.",
+      "sources": [
+        "s1",
+        "s4",
+        "s17"
+      ]
+    },
+    "languages": {
+      "status": "yes",
+      "text": "145+ (App Store); 50+ (website)",
+      "detail": "The App Store listing says 145+ languages, while the company's website says 50+. No full list is published, and which languages work in Offline mode is not stated. The app itself is in English.",
+      "sources": [
+        "s1",
+        "s3",
+        "s2"
+      ]
+    },
+    "offline": {
+      "status": "yes",
+      "text": "Yes, Offline mode: unlimited, close-up talk",
+      "detail": "Offline mode captions without Wi-Fi or mobile data and has no hour limit on any plan. The company says it is meant for in-person conversations within 3 ft (about 1 m) with little background noise, is less accurate than Best mode and does not colour-code voices. It works best on iOS 26 or later.",
+      "sources": [
+        "s4",
+        "s5",
+        "s1",
+        "s15"
+      ]
+    },
+    "speakerLabels": {
+      "status": "yes",
+      "text": "Colour-coded voices, in Best mode only",
+      "detail": "Best mode separates the voices by colour, so you can follow who is talking. Offline mode does not separate speakers. Showing names is not described.",
+      "sources": [
+        "s4",
+        "s1"
+      ]
+    },
+    "translation": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "The App Store listing, website and help centre describe captions only; translating between languages is not described.",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    "saveTranscripts": {
+      "status": "yes",
+      "text": "Yes, on the device only (not in the cloud)",
+      "detail": "Transcripts save automatically when you close them and are kept on the iPhone or iPad. The company does not store them in the cloud, so a deleted transcript cannot be brought back.",
+      "sources": [
+        "s7"
+      ]
+    },
+    "export": {
+      "status": "yes",
+      "text": "Share button (e.g. email); no printing in app",
+      "detail": "Each transcript has a share button. You can't print from the app; the company suggests emailing the transcript to yourself and printing it from there. The file format is not stated.",
+      "sources": [
+        "s7",
+        "s3"
+      ]
+    },
+    "fileUpload": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "The company describes live captions of speech around you; transcribing audio or video files is not described.",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    "summaries": {
+      "status": "partial",
+      "text": "Summaries mentioned, no details given",
+      "detail": "The App Store listing says you decide whether transcripts are summarized or shared, and the company's pages mention summaries of saved transcripts. No help article says how summaries work, what they contain or which plans include them.",
+      "sources": [
+        "s1",
+        "s18",
+        "s16"
+      ]
+    },
+    "customWords": {
+      "status": "yes",
+      "text": "Custom words; name alerts",
+      "detail": "You can add words so they are transcribed more accurately. The company's work guide also mentions name alerts, so you notice when someone addresses you.",
+      "sources": [
+        "s8",
+        "s16"
+      ]
+    },
+    "display": {
+      "status": "yes",
+      "text": "Large bold text, text size, dark mode, flip 180°",
+      "detail": "Large, bold text you can resize, a dark interface, and a flip button that turns the text upside down so the person across from you can read it. Colour themes are not described.",
+      "sources": [
+        "s1",
+        "s3",
+        "s15"
+      ]
+    },
+    "soundAlerts": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No alerts for non-speech sounds such as a doorbell or smoke alarm are described. Name alerts tell you when someone addresses you (see custom words).",
+      "sources": [
+        "s1",
+        "s16"
+      ]
+    },
+    "phoneCalls": {
+      "status": "no",
+      "text": "No (iOS blocks the mic during calls)",
+      "detail": "The help centre says Live Transcribe can't transcribe phone calls because iOS doesn't let other apps use the microphone during a call. For US users it recommends its partner InnoCaption.",
+      "sources": [
+        "s9"
+      ]
+    },
+    "videoCalls": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "The company says video platforms caption their own calls and that Live Transcribe captions the room. Captioning Zoom, Teams or Meet calls is not described.",
+      "sources": [
+        "s16"
+      ]
+    },
+    "mediaOnDevice": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "It listens through the microphone. Captioning videos or audio playing on the same phone is not described.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "humanCaptioners": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "The app makes the captions itself; no human captioning option is described.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "signLanguage": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No sign language features are described.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "privacy": {
+      "status": "partial",
+      "text": "Transcripts on the device; audio handling not stated",
+      "detail": "Transcripts stay on the iPhone or iPad, not in the cloud. The App Store text says subscriptions pay to run its captioning service day and night, and Offline mode works without a connection, but the privacy policy (last updated August 2021) does not say where speech is processed or whether audio is kept. The terms say the app is not made to meet HIPAA. Apple's privacy label lists purchases and contact info as data that may be used to track you.",
+      "sources": [
+        "s7",
+        "s1",
+        "s20",
+        "s21"
+      ]
+    },
+    "account": {
+      "status": "no",
+      "text": "No account needed",
+      "detail": "The company says Live Transcribe does not require an account, and its privacy policy says giving an email address is optional. A subscription works on one device.",
+      "sources": [
+        "s19",
+        "s20",
+        "s10"
+      ]
+    },
+    "availability": {
+      "status": "yes",
+      "text": "App Store in many countries; app in English",
+      "detail": "Listed on the App Store in the US, UK, Germany, France, Japan, Brazil, India, Australia, Canada and China (checked 28 October 2026). The app is in English. No Android version.",
+      "sources": [
+        "s2",
+        "s1",
+        "s22"
+      ]
+    },
+    "freePlan": {
+      "status": "partial",
+      "text": "3-day free trial; no free plan described",
+      "detail": "Free to download, with a 3-day free trial of all features. The company calls it an independent paid product, offered as a paid subscription with a free trial; no free plan after the trial is described.",
+      "sources": [
+        "s6",
+        "s1",
+        "s15"
+      ]
+    },
+    "price": {
+      "status": "yes",
+      "text": "US$9.99 to US$149.99/month, by Best hours",
+      "detail": "Four plans, each with unlimited Offline mode: Starter US$9.99/month (10 Best hours), Plus US$29.99 (20 hours), Premium US$74.99 (50 hours) and Unlimited US$149.99 (fair use; over 100 hours a month may be reviewed). Paying yearly costs less a month (Starter US$79.99/year). Extra Best hours cost US$1.49 each. Help centre, September 2026; the Starter prices match the US App Store's in-app purchases in October 2026, which also lists older options such as Live Transcribe Monthly at US$4.99.",
+      "sources": [
+        "s5",
+        "s4",
+        "s1"
+      ]
+    },
+    "accessibilityFunding": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No government or employer funding programme is described. A subscription can't be gifted; the help centre suggests an Apple Gift Card instead.",
+      "sources": [
+        "s23"
+      ]
+    }
+  },
+  "strengths": [
+    {
+      "text": "Offline mode captions without internet, with no hour limit, on every plan.",
+      "sources": [
+        "s4",
+        "s5"
+      ]
+    },
+    {
+      "text": "Made for noisy rooms and groups: Best mode works at a distance and colour-codes each voice.",
+      "sources": [
+        "s4",
+        "s1"
+      ]
+    },
+    {
+      "text": "One tap on the lock screen starts captions, and it can keep captioning while you use other apps.",
+      "sources": [
+        "s12",
+        "s13"
+      ]
+    },
+    {
+      "text": "No account needed, and transcripts stay on your iPhone or iPad.",
+      "sources": [
+        "s19",
+        "s7"
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "text": "iPhone and iPad only; there is no Android app.",
+      "sources": [
+        "s1",
+        "s22"
+      ]
+    },
+    {
+      "text": "Paid after a 3-day free trial, and Best mode hours are capped by plan (10 a month on the US$9.99 Starter plan).",
+      "sources": [
+        "s6",
+        "s5"
+      ]
+    },
+    {
+      "text": "Offline mode is meant for conversations within 3 ft with little background noise, and does not colour-code voices.",
+      "sources": [
+        "s4"
+      ]
+    },
+    {
+      "text": "Each subscription works on one device.",
+      "sources": [
+        "s10"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Live Transcribe - Deaf Voice Dictation to Text on the App Store (US)",
+      "publisher": "Apple App Store",
+      "url": "https://apps.apple.com/us/app/live-transcribe/id1471473738",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Live Transcribe by Mighty Fine Apps. Accurate live captions for d/Deaf and hard of hearing. Reliable in noisy places and group settings.",
+        "• Accuracy — Best-in-class captions in 145+ languages.",
+        "• Noisy Places — Works well in restaurants, in groups, and at distance.",
+        "• Offline Mode — Continue when Wi-Fi or cellular drops.",
+        "• Readability — Large, bold text for tired eyes and distant viewing.",
+        "• Speaker Detection — Follow group chats with color-coded words.",
+        "• Independent — Sustainable, iOS only, not affiliated with Google.",
+        "Your privacy is our top priority, and the app is designed to give you full control over whether your conversation transcripts — medical, legal, family, end-of-life, or otherwise — are summarized or shared.",
+        "• Place iPhone or iPad near the conversation.",
+        "• Read what each person is saying on-screen as they speak.",
+        "Live Transcribe is an independent paid product, and we’re confident in its value. Your subscription allows us to run our captioning service day and night, and keep the app running smoothly on Apple’s devices.",
+        "Live Transcribe is built and supported by Mighty Fine Apps, a tight-knit team based in San Francisco.",
+        "Free · In‑App Purchases",
+        "Requires iOS 15.0 or later.",
+        "Requires visionOS 1.0 or later.",
+        "Languages: English",
+        "Accessibility: Larger Text, Dark Interface",
+        "Data Used to Track You: Purchases, Contact Info",
+        "In-App Purchases: Starter $79.99; Live Transcribe Monthly $4.99; Try Real-Time Transcription $49.99; Live Transcribe Yearly $79.99; Live Transcribe Yearly $49.99; Starter $9.99; Live Transcribe Monthly $9.99"
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "iTunes Lookup API for app id 1471473738",
+      "publisher": "Apple",
+      "url": "https://itunes.apple.com/lookup?id=1471473738&country=us",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "App Store lookup",
+      "quotes": [
+        "\"minimumOsVersion\": \"15.0\"",
+        "\"sellerName\": \"Mighty Fine Apps LLC\"",
+        "\"languageCodesISO2A\": [\"EN\"]",
+        "\"formattedPrice\": \"Free\"",
+        "\"releaseDate\": \"2020-05-21T07:00:00Z\"",
+        "The same app id returns a listing for country=gb, de, fr, jp, br, in, au, ca, cn and si (28 October 2026)"
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Live Transcribe: Accurate live captions for the d/Deaf and hard of hearing",
+      "publisher": "Mighty Fine Apps",
+      "url": "https://livetranscribe.app",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Live Transcribe website",
+      "quotes": [
+        "Caption speech in real time, even in noisy places.",
+        "We give you options, so words on the screen are easy to read no matter what environment you find yourself in.",
+        "Type text in the app during real-time conversations",
+        "Capture audio input from whatever device suits your needs",
+        "Export a record of your conversations for later",
+        "Transcribe whether or not your device is online",
+        "Keep text readable no matter where you’re pointing the mic",
+        "Use with 50+ languages",
+        "Now available on iOS"
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Modes Overview - Live Transcribe Help Center",
+      "publisher": "Mighty Fine Apps",
+      "url": "https://help.livetranscribe.app/hc/en-us/articles/42117457711757-Modes-Overview",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Live Transcribe offers two transcription modes—Best and Offline—designed to fit different environments and needs.",
+        "Best provides a set number of hours per month depending on your plan and allows you to transcribe at a distance with higher accuracy.",
+        "You can buy more hours as needed within a month for $1.49 USD per Best hour.",
+        "Best also separates speaking voices by color coding them.",
+        "Offline provides unlimited hours and is meant for in-person conversations within 3 ft with minimal background noise.",
+        "Please note: For the best experience, please make sure your device is using iOS 26 or above",
+        "Speaker separation with color-coded voices: Offline ❌, Best ✅"
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Subscription plan options - Live Transcribe Help Center",
+      "publisher": "Mighty Fine Apps",
+      "url": "https://help.livetranscribe.app/hc/en-us/articles/42117309799181-Subscription-plan-options",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Live Transcribe offers a range of subscription plans to fit your needs, all of which include a set number of Best hours per month and unlimited Offline Captions.",
+        "Starter Plan $9.99 $6.67/mo 10 hours ✅ Unlimited",
+        "Plus Plan $29.99 $27.08/mo 20 hours ✅ Unlimited",
+        "Premium Plan $74.99 $67.50/mo 50 hours ✅ Unlimited",
+        "Unlimited Plan* $149.99 $133.33/mo Unlimited ✅ Unlimited",
+        "Our Unlimited Plan is subject to a fair usage policy to protect other customers. Usage exceeding 100 hours per month may be subject to review."
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Starting a trial - Live Transcribe Help Center",
+      "publisher": "Mighty Fine Apps",
+      "url": "https://help.livetranscribe.app/hc/en-us/articles/41879442642701-Starting-a-trial",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Try Live Transcribe free for 3 days. Explore all of the app's features before deciding whether you'd like to continue with a subscription."
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Managing Transcripts - Live Transcribe Help Center",
+      "publisher": "Mighty Fine Apps",
+      "url": "https://help.livetranscribe.app/hc/en-us/articles/42117460433037-Managing-Transcripts",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Transcripts will automatically save when you tap on the 'X' to close your transcript in the top right corner.",
+        "Please note, once deleted, the transcription cannot be retrieved. To uphold privacy, we do not store transcripts in the cloud — they are saved locally on your device.",
+        "While you can’t print directly from the app, many users choose to email the transcript to themselves and print it from there.",
+        "Tap on the transcription and then tap the share button (top right, looks like a box with an upward arrow)."
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "Custom Words - Live Transcribe Help Center",
+      "publisher": "Mighty Fine Apps",
+      "url": "https://help.livetranscribe.app/hc/en-us/articles/42117490549645-Custom-Words",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "You can add specific words to the app so that Live Transcribe can transcribe them more accurately."
+      ]
+    },
+    {
+      "id": "s9",
+      "title": "Can I use Live Transcribe to transcribe phone calls? - Live Transcribe Help Center",
+      "publisher": "Mighty Fine Apps",
+      "url": "https://help.livetranscribe.app/hc/en-us/articles/42117541178765-Can-I-use-Live-Transcribe-to-transcribe-phone-calls",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Phone calls (help centre)",
+      "quotes": [
+        "iOS doesn’t allow third-party apps to access the microphone during calls, so Live Transcribe can’t transcribe phone calls. If you're in the U.S., we recommend trying our partner, InnoCaption"
+      ]
+    },
+    {
+      "id": "s10",
+      "title": "Can I use the app across multiple devices? - Live Transcribe Help Center",
+      "publisher": "Mighty Fine Apps",
+      "url": "https://help.livetranscribe.app/hc/en-us/articles/42117528531085-Can-I-use-the-app-across-multiple-devices",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Multiple devices (help centre)",
+      "quotes": [
+        "At this time, Live Transcribe can only be installed and used on one device per subscription."
+      ]
+    },
+    {
+      "id": "s11",
+      "title": "Enable Bluetooth Audio Feature - Live Transcribe Help Center",
+      "publisher": "Mighty Fine Apps",
+      "url": "https://help.livetranscribe.app/hc/en-us/articles/48854886931981-Enable-Bluetooth-Audio-Feature",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Live Transcribe captures the audio around you and turns it into live captions using your device's microphone.",
+        "Enable Bluetooth Audio controls whether the app is allowed to use a connected Bluetooth device, such as a hearing aid, as its audio input.",
+        "This setting is off by default."
+      ]
+    },
+    {
+      "id": "s12",
+      "title": "Start from Lock Screen - Live Transcribe Help Center",
+      "publisher": "Mighty Fine Apps",
+      "url": "https://help.livetranscribe.app/hc/en-us/articles/48855049609613-Start-from-Lock-Screen",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "When Start from Lock Screen is enabled, a Transcribe control appears on your iPhone or iPad lock screen, so you can tap once and start capturing captions right away."
+      ]
+    },
+    {
+      "id": "s13",
+      "title": "Transcribe on Exit - Live Transcribe Help Center",
+      "publisher": "Mighty Fine Apps",
+      "url": "https://help.livetranscribe.app/hc/en-us/articles/42117474867085-Transcribe-on-Exit",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Transcribe on Exit is a feature to let you keep transcribing while using other apps."
+      ]
+    },
+    {
+      "id": "s14",
+      "title": "Is Live Transcribe compatible with glasses or Apple Watch? - Live Transcribe Help Center",
+      "publisher": "Mighty Fine Apps",
+      "url": "https://help.livetranscribe.app/hc/en-us/articles/42117530661773-Is-Live-Transcribe-compatible-with-glasses-or-Apple-Watch",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Glasses and Apple Watch (help centre)",
+      "quotes": [
+        "We’re not currently compatible with glasses or Apple Watch."
+      ]
+    },
+    {
+      "id": "s15",
+      "title": "Using Live Transcribe for Doctor’s Appointments & Medical Visits",
+      "publisher": "Mighty Fine Apps",
+      "url": "https://livetranscribe.app/guides/doctors-appointments",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Doctor's appointments guide (Mighty Fine Apps)",
+      "quotes": [
+        "Is this the Google Android app?",
+        "No. Live Transcribe by Mighty Fine Apps is an independent iOS app for iPhone and iPad, available on the Apple App Store. Google Live Transcribe is a separate Android app.",
+        "Live Transcribe is an iOS app for iPhone and iPad, offered as a paid subscription with a free trial.",
+        "While transcribing, you can tap the flip button to turn the text upside down.",
+        "No. Live Transcribe includes offline transcription, so it works in hospitals and clinics where reception is often poor."
+      ]
+    },
+    {
+      "id": "s16",
+      "title": "Using Live Transcribe for Work Meetings & Professional Settings",
+      "publisher": "Mighty Fine Apps",
+      "url": "https://livetranscribe.app/guides/work-meetings",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Work meetings guide (Mighty Fine Apps)",
+      "quotes": [
+        "Use name alerts so you notice when someone addresses you directly",
+        "Share or summarize the conversation if that’s useful for your follow-up",
+        "Video platforms caption their own calls. Live Transcribe captions the physical room",
+        "Color-coded speaker separation helps you track who said what during multi-person discussions, and large, adjustable text means you can glance at the captions without losing the thread of the meeting."
+      ]
+    },
+    {
+      "id": "s17",
+      "title": "Using Live Transcribe for Church Services & Bible Studies",
+      "publisher": "Mighty Fine Apps",
+      "url": "https://livetranscribe.app/guides/church-services",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Church services guide (Mighty Fine Apps)",
+      "quotes": [
+        "Can multiple people use Live Transcribe at the same service?",
+        "Yes, but each person needs their own device and subscription to run the app independently."
+      ]
+    },
+    {
+      "id": "s18",
+      "title": "Live Transcribe vs. Otter: Participate First, Review Later",
+      "publisher": "Mighty Fine Apps",
+      "url": "https://livetranscribe.app/compare/live-transcribe-vs-otter",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Live Transcribe vs. Otter (Mighty Fine Apps)",
+      "quotes": [
+        "People may want to review what was said later, and Live Transcribe supports that with saved transcripts, summaries, and sharing.",
+        "Quick Launch from the lock screen and Start on Launch reduce the distance between needing help and getting captions."
+      ]
+    },
+    {
+      "id": "s19",
+      "title": "Live Transcribe vs. Ava: Which App Actually Helps You Keep Up?",
+      "publisher": "Mighty Fine Apps",
+      "url": "https://livetranscribe.app/compare/live-transcribe-vs-ava",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Live Transcribe vs. Ava (Mighty Fine Apps)",
+      "quotes": [
+        "Ava requires an account. Live Transcribe does not, and that distinction matters more than it sounds."
+      ]
+    },
+    {
+      "id": "s20",
+      "title": "Privacy - Live Transcribe",
+      "publisher": "Mighty Fine Apps",
+      "url": "https://livetranscribe.app/legal/privacy",
+      "type": "privacy",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Last updated on August 1, 2021.",
+        "We may request access or permission to certain features from your mobile device, including your mobile device’s microphone, and other features.",
+        "We may ask you to share your email address. This is optional and is not required to use our Apps.",
+        "We may also use a tool offered by Facebook called Custom Audience Tool to personalize our ads on their platform."
+      ]
+    },
+    {
+      "id": "s21",
+      "title": "Terms - Live Transcribe",
+      "publisher": "Mighty Fine Apps",
+      "url": "https://livetranscribe.app/legal/terms",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Terms (Mighty Fine Apps)",
+      "quotes": [
+        "Last updated on September 18, 2026.",
+        "Live Transcribe (hereinafter: Application) is a piece of software created to facilitate communication between deaf and hard of hearing persons and hearing persons, customized for Apple mobile devices.",
+        "The Application is not tailored to comply with industry-specific regulations (Health Insurance Portability and Accountability Act (HIPAA), Federal Information Security Management Act (FISMA), etc.)",
+        "The Application requires iOS 13.0 or later."
+      ]
+    },
+    {
+      "id": "s22",
+      "title": "Google Play search results for \"Mighty Fine Apps\" (US store)",
+      "publisher": "Google Play",
+      "url": "https://play.google.com/store/search?q=Mighty%20Fine%20Apps&c=apps",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Google Play search",
+      "quotes": [
+        "No app by Mighty Fine Apps LLC in the results (28 October 2026)"
+      ]
+    },
+    {
+      "id": "s23",
+      "title": "Can I gift Live Transcribe to a friend or family member? - Live Transcribe Help Center",
+      "publisher": "Mighty Fine Apps",
+      "url": "https://help.livetranscribe.app/hc/en-us/articles/42117565319181-Can-I-gift-Live-Transcribe-to-a-friend-or-family-member",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Gifting (help centre)",
+      "quotes": [
+        "Since we’re required to use Apple’s payment system, we don’t currently have a way for you to gift a subscription to someone.",
+        "Alternatively, you could reimburse them through a service like Zelle or Venmo after they complete the purchase, or provide them with an Apple Gift Card to cover the subscription cost."
+      ]
+    }
+  ],
+  "notes": "Not Google's Live Transcribe: this is Mighty Fine Apps LLC's iPhone and iPad app (App Store id 1471473738, bundle com.robnorback.LiveTranscribe, first released May 2020); the company's own guides say Google Live Transcribe is a separate Android app. The help centre (help.livetranscribe.app, Zendesk) shows a Cloudflare check to scripts, so its articles were read through the help centre's public article API (same text, same day); the article URLs are cited. Conflicts: (1) Languages: the App Store listing says 145+, the website says 50+; no list is published and offline languages are not stated. (2) Minimum iOS: App Store 15.0, terms (updated September 2026) 13.0; the help centre says Offline mode works best on iOS 26+. (3) Plan names: the help centre (September 2026) has Best and Offline modes and Starter/Plus/Premium/Unlimited plans; the company's Ava comparison (May 2026) speaks of 'unlimited basic transcription' and 'Pro and Ultra mode hours', and its Apple comparison of a Basic tier and 'Live Transcribe Pro', so older names are still on the website. (4) The US App Store's in-app purchase list (October 2026) shows Starter US$9.99 and US$79.99, matching the help centre, plus older products (Live Transcribe Monthly US$4.99 and US$9.99, Live Transcribe Yearly US$49.99 and US$79.99, Try Real-Time Transcription US$49.99); which of these new users can buy is not stated. Plus, Premium and Unlimited prices come only from the help centre. The App Store text says current pricing is on the website, but no pricing page was found (/pricing is a 404). The terms say the app can also be bought on the website; no web checkout was found. Privacy: neither the website privacy policy (August 2021) nor the help centre copy (July 2024) says where speech is processed or whether audio is kept; Best mode being an online service is only implied (App Store: 'run our captioning service day and night'; Offline mode for when Wi-Fi or cellular drops). Summaries are mentioned (App Store, Otter comparison, work guide) but no help article describes them. Name alerts appear only in the work-meetings guide. The company's comparison pages contain its own test results about other apps; they were used only for statements about Live Transcribe itself. Not checked: the app itself, how summaries work, which languages Offline mode supports. The same developer also lists Hearing Helper - Live Captions and Sound Amplifier on the App Store (not covered here)."
+}

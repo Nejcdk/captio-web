@@ -91,7 +91,13 @@ for (const file of [...pageFiles.map((f) => path.join(PAGES_DIR, f)), path.join(
     ...(data.situations ?? []).flatMap((x) => [x.title, x.text]),
   ].join("\n");
 
-  for (const [re, what] of BANNED) {
+  // A page (or the hub) that lists the Soniox app has to name it. It still
+  // never says what Captio AI's own captions run on (README rule 9).
+  const listed = [...(data.apps ?? []), ...(data.groups ?? []).flatMap((g) => g.apps ?? [])];
+  const banned = listed.includes("soniox")
+    ? BANNED.map(([re, what]) => (what === "a Captio AI provider name" ? [/\bGemini\b/, what] : [re, what]))
+    : BANNED;
+  for (const [re, what] of banned) {
     const m = text.match(re);
     if (m) errors.push(`${slug}: ${what}: "${m[0]}"`);
   }

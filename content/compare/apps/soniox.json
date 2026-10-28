@@ -1,0 +1,642 @@
+{
+  "slug": "soniox",
+  "name": "Soniox - Speech to Text AI",
+  "shortName": "Soniox",
+  "developer": "Soniox Inc",
+  "developerCountry": "United States (Foster City, California)",
+  "website": "https://soniox.com/soniox-app",
+  "appStoreUrl": "https://apps.apple.com/us/app/soniox-speech-to-text-ai/id1560199731",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.soniox.sonioxmobileapp",
+  "category": "in-person-captions",
+  "oneLine": "The speech recognition company's own app: live transcription and translation of conversations in 60+ languages, with speaker labels and AI summaries, on phone, desktop and web.",
+  "facts": {
+    "platforms": {
+      "status": "yes",
+      "text": "iPhone, iPad, Android, Mac, Windows, web",
+      "detail": "Phone apps on the App Store and Google Play, a desktop app for Mac and Windows, and a web app to review and share recordings. The web app cannot record.",
+      "sources": [
+        "s1",
+        "s2",
+        "s3",
+        "s15"
+      ]
+    },
+    "deviceRequirements": {
+      "status": "yes",
+      "text": "iOS 16.4 or later",
+      "detail": "The App Store lists iOS 16.4 or later for iPhone and iPadOS 16.4 or later for iPad (October 2026). The Android version needed is not shown on the Google Play page we opened.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "roomCaptions": {
+      "status": "yes",
+      "text": "Yes, from the phone's microphone",
+      "detail": "Soniox says the app works through the phone's microphone and captions speech around you word by word. Live captions need internet and the app open on screen.",
+      "sources": [
+        "s5",
+        "s8",
+        "s13"
+      ]
+    },
+    "groupConversations": {
+      "status": "partial",
+      "text": "One phone, speaker labels",
+      "detail": "One phone captions the group and labels each speaker. Shared projects organise saved transcripts; Soniox describes no way to join several phones into one live conversation.",
+      "sources": [
+        "s5",
+        "s4"
+      ]
+    },
+    "languages": {
+      "status": "yes",
+      "text": "60+ languages",
+      "detail": "Soniox lists 60 languages for live captions and translation, including speech where people switch languages mid-sentence. You can set language hints for the languages you expect.",
+      "sources": [
+        "s3",
+        "s5",
+        "s10"
+      ]
+    },
+    "offline": {
+      "status": "partial",
+      "text": "Records offline, transcribes later",
+      "detail": "Live transcription works only when the app is online and open on screen. Offline or in the background it keeps recording, and the transcript is made once you are back online.",
+      "sources": [
+        "s8",
+        "s13",
+        "s3"
+      ]
+    },
+    "speakerLabels": {
+      "status": "yes",
+      "text": "Yes, Speaker 1, 2; rename after saving",
+      "detail": "Speaker diarization labels the text Speaker 1, Speaker 2 and so on, live and in saved recordings. You can rename speakers in a saved recording, and every line of that speaker updates.",
+      "sources": [
+        "s1",
+        "s10",
+        "s11",
+        "s5"
+      ]
+    },
+    "translation": {
+      "status": "yes",
+      "text": "Yes, live, one-way or two-way",
+      "detail": "Translate to shows the original and a translation into one language. Translate between shows two boxes, one per language, and the top box can be rotated for the person sitting across from you.",
+      "sources": [
+        "s9",
+        "s1"
+      ]
+    },
+    "saveTranscripts": {
+      "status": "yes",
+      "text": "Yes; audio on the phone, text synced",
+      "detail": "Saved audio stays only on your phone and is deleted if you uninstall the app. Transcripts, translations and summaries sync to your account and the web app. Playback needs the audio on the phone.",
+      "sources": [
+        "s14",
+        "s13",
+        "s11"
+      ]
+    },
+    "export": {
+      "status": "yes",
+      "text": "Link, text, audio file (.m4a)",
+      "detail": "Share a private web link to the transcript with speaker labels and AI results, share the text, or send the audio file (.m4a) through the phone's share menu.",
+      "sources": [
+        "s11"
+      ]
+    },
+    "fileUpload": {
+      "status": "partial",
+      "text": "Audio files in the Mac and Windows app",
+      "detail": "The help centre describes uploading an existing audio file in the desktop app for Mac and Windows. It describes no file import in the phone app.",
+      "sources": [
+        "s16",
+        "s7"
+      ]
+    },
+    "summaries": {
+      "status": "yes",
+      "text": "Summary, to-dos, quotes, your own prompts",
+      "detail": "Summary, key points, to-do list, speaker summary, speaker quotes and named entities, plus your own questions about a transcript (custom prompts). On the Free plan, AI actions use credits.",
+      "sources": [
+        "s12",
+        "s1"
+      ]
+    },
+    "customWords": {
+      "status": "yes",
+      "text": "Yes, context notes for names and terms",
+      "detail": "Before recording you can add short notes about names, terms or the topic, and language hints. A saved recording can be re-transcribed with new settings, which uses credits.",
+      "sources": [
+        "s10",
+        "s11"
+      ]
+    },
+    "display": {
+      "status": "yes",
+      "text": "Larger text, dark mode, rotate text",
+      "detail": "The App Store lists larger text (200% or more) and a dark interface. In two-way translation the top box can be turned to face the other person. Soniox lists no caption colour settings.",
+      "sources": [
+        "s1",
+        "s9"
+      ]
+    },
+    "soundAlerts": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Soniox's app pages and help centre describe no alerts for sounds such as a doorbell or an alarm.",
+      "sources": [
+        "s3",
+        "s5"
+      ]
+    },
+    "phoneCalls": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Soniox's pages mention recording and captioning calls, but do not say how a call on the same phone is captured.",
+      "sources": [
+        "s15",
+        "s5"
+      ]
+    },
+    "videoCalls": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "The Mac and Windows app records and transcribes meetings and calls, but Soniox does not say whether it captures a Zoom or Teams call's sound.",
+      "sources": [
+        "s19"
+      ]
+    },
+    "mediaOnDevice": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "The help centre suggests Translate to for videos in languages you don't understand, but does not say whether the app can caption sound playing on the same phone.",
+      "sources": [
+        "s9"
+      ]
+    },
+    "humanCaptioners": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No human captioning service is described on Soniox's app pages or in its help centre.",
+      "sources": [
+        "s3",
+        "s4"
+      ]
+    },
+    "signLanguage": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No sign language feature is described. Soniox's accessibility page presents the app as a way to follow speech without sign language or lip reading.",
+      "sources": [
+        "s5"
+      ]
+    },
+    "privacy": {
+      "status": "yes",
+      "text": "Cloud for live text; audio kept on the phone",
+      "detail": "While online, audio streams for live transcription and is processed immediately, not stored. Saved audio stays on the phone; audio uploaded for processing is deleted afterwards. Soniox says it never uses your audio to train AI.",
+      "sources": [
+        "s14",
+        "s13",
+        "s18",
+        "s1"
+      ]
+    },
+    "account": {
+      "status": "yes",
+      "text": "Yes, a Soniox account",
+      "detail": "You create an account in the app or on the web; the same account works in the phone and web apps. Soniox's developer Console is a separate product with separate accounts.",
+      "sources": [
+        "s13"
+      ]
+    },
+    "availability": {
+      "status": "yes",
+      "text": "App Store and Google Play; countries not listed",
+      "detail": "On the App Store and Google Play. Soniox does not list the countries. The App Store lists English as the only language of the app's own screens.",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    "freePlan": {
+      "status": "yes",
+      "text": "10 credits a week",
+      "detail": "Free credits are added every week and don't roll over; Soniox doesn't say how much audio a credit covers. When they run out, live transcription turns off but the app keeps recording. Soniox says Free and Pro use the same models.",
+      "sources": [
+        "s7",
+        "s6",
+        "s4"
+      ]
+    },
+    "price": {
+      "status": "yes",
+      "text": "Pro US$19.99/month or US$119.99/year",
+      "detail": "Soniox Pro on the US App Store, October 2026 (US$19.99 to US$119.99 on Google Play). The help centre lists US$19.99 a month, or US$120 a year at 50% off. Pro is unlimited and can't be shared with family.",
+      "sources": [
+        "s1",
+        "s2",
+        "s6",
+        "s4"
+      ]
+    },
+    "accessibilityFunding": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Soniox's pricing pages describe Free and Pro only, with no funding programme or discount for deaf and hard of hearing users.",
+      "sources": [
+        "s4",
+        "s6"
+      ]
+    }
+  },
+  "strengths": [
+    {
+      "text": "Live captions and live translation in 60+ languages, including speech that switches languages mid-sentence, with one-way and two-way modes.",
+      "sources": [
+        "s3",
+        "s9"
+      ]
+    },
+    {
+      "text": "Runs on phones, on Mac and Windows, and on the web, with one shared balance of credits.",
+      "sources": [
+        "s3",
+        "s17",
+        "s15"
+      ]
+    },
+    {
+      "text": "AI actions include summaries, to-dos, quotes per speaker and your own questions about a transcript.",
+      "sources": [
+        "s12"
+      ]
+    },
+    {
+      "text": "Saved audio stays on your phone, and Soniox says it never uses your audio to train AI.",
+      "sources": [
+        "s14"
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "text": "Live transcription works only online with the app open on screen; in the background or offline it only records.",
+      "sources": [
+        "s8",
+        "s13"
+      ]
+    },
+    {
+      "text": "The Free plan gives 10 credits a week that don't roll over; Pro costs US$19.99 a month on the US App Store.",
+      "sources": [
+        "s7",
+        "s6",
+        "s1"
+      ]
+    },
+    {
+      "text": "It needs a Soniox account, and the App Store lists the app's own screens in English only.",
+      "sources": [
+        "s13",
+        "s1"
+      ]
+    },
+    {
+      "text": "File upload is described only for the Mac and Windows app, and playback needs the audio still on the phone.",
+      "sources": [
+        "s16",
+        "s11"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Soniox - Speech to Text AI (App Store, United States)",
+      "publisher": "Apple App Store",
+      "url": "https://apps.apple.com/us/app/soniox-speech-to-text-ai/id1560199731",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Soniox – Transcribe, translate in 60+ languages at high accuracy in real-time!",
+        "Real-Time Transcription with Speaker ID: Instantly convert speech into text with world-class accuracy and automatic speaker labeling – even in multi-speaker environments and mixed languages.",
+        "Speech Translation (One-Way & Two-Way): Understand and communicate across languages. Soniox translates speech in real time, either one-way or two-way for natural conversations.",
+        "AI Summaries & Key Insights: Get instant summaries, to-do lists, quotes, and highlights from your conversations or meetings.",
+        "Privacy-First Design: Your audio recordings stay on your device.",
+        "Requires iOS 16.4 or later.",
+        "Requires iPadOS 16.4 or later.",
+        "Languages",
+        "English",
+        "In-App Purchases",
+        "Pro",
+        "$19.99",
+        "$119.99",
+        "Increase the text size in the app to 200% or more.",
+        "Apply a dark color scheme to the screens, menus, and controls to reduce eye strain."
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Soniox - Speech to Text AI (Google Play, United States)",
+      "publisher": "Google Play",
+      "url": "https://play.google.com/store/apps/details?id=com.soniox.sonioxmobileapp",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Transcribe speech in real time, convert voice to Text and audio to Text, and instantly generate a summary.",
+        "Multilingual Transcription (60+ Languages)",
+        "All audio to Text processing stays secure on your device.",
+        "$19.99 - $119.99 per item"
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Soniox App | Everything you do with voice in your language",
+      "publisher": "Soniox",
+      "url": "https://soniox.com/soniox-app",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Soniox App (soniox.com)",
+      "quotes": [
+        "Transcribe and translate conversations in real-time, generate summaries, and type with your voice.",
+        "Download on the App Store and Google Play",
+        "Download for macOS and Windows",
+        "Review, organize, and share your work",
+        "Soniox App supports 60+ languages, including live transcription, real-time translation, and mixed-language speech where speakers switch languages naturally.",
+        "Soniox App can record audio offline. You can capture conversations and speech without an internet connection. Once you’re back online, Soniox will process the recording and generate the transcription and translation.",
+        "Dictate into any app or text field",
+        "Available on: Mobile, Desktop",
+        "Yes. Soniox App can translate spoken audio from any supported language into English in real-time, including mixed-language conversations where speakers switch languages mid-sentence."
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Pricing | Soniox App",
+      "publisher": "Soniox",
+      "url": "https://soniox.com/soniox-app/pricing",
+      "type": "pricing",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Free credits added every week",
+        "Billed annually at $120",
+        "Faster results with priority processing",
+        "Organize and manage transcripts inside shared projects",
+        "Do Pro users get better transcription quality?",
+        "No. All plans use the same high-accuracy models."
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Hearing accessibility app for deaf and hard of hearing | Soniox App",
+      "publisher": "Soniox",
+      "url": "https://soniox.com/soniox-app/use-cases/hearing-accessibility",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Soniox: Hearing accessibility",
+      "quotes": [
+        "Follow any conversation, in any language, without sign language, lip reading, or asking anyone to slow down.",
+        "When multiple people are talking, Soniox App separates and captions each speaker automatically so you can follow who is saying what, even when you cannot see everyone's face.",
+        "Meetings, hallway conversations, presentations, and calls. Soniox App captions everything in real-time so you can contribute, respond, and stay informed without relying on a colleague to relay what was said.",
+        "No. Soniox App works entirely through your phone's microphone. It captures speech around you and displays captions on screen.",
+        "Captions appear in real-time as speech is detected, word by word.",
+        "Doctors speak quickly and use complex language. Soniox App gives you an accurate, real-time transcript of everything said during appointments, so you can ask the right questions and leave knowing exactly what was discussed."
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Plans | Soniox App Help Center",
+      "publisher": "Soniox",
+      "url": "https://app.soniox.com/help-center/pricing/plans",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Soniox Help Center: Plans",
+      "quotes": [
+        "You receive free credits every week. These are used to process your audio and refresh automatically.",
+        "You can always finish a recording. The app never stops you while you capture audio. Live transcription turns off when your balance hits zero.",
+        "No. Your weekly credits reset at the start of each week.",
+        "Unlimited transcription, translation, and AI actions.",
+        "Note on pricing: The base price is $19.99 USD per month. The final price may vary due to local taxes or currency conversions.",
+        "Yearly comes with a 50% discount and is billed once per year.",
+        "No. The Pro plan is for individual accounts only and does not support Family Sharing or Family Library."
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Getting started (Mobile App) | Soniox App Help Center",
+      "publisher": "Soniox",
+      "url": "https://app.soniox.com/help-center/mobile-app/usage/getting-started",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Soniox Help Center: Getting started",
+      "quotes": [
+        "The Free plan gives you 10 credits each week, enough to try the app’s features.",
+        "Welcome to Soniox! The Mobile App transcribes and translates your conversations in real-time. You can also record offline and upload later for processing."
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "How to transcribe | Soniox App Help Center",
+      "publisher": "Soniox",
+      "url": "https://app.soniox.com/help-center/mobile-app/usage/transcribe",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Soniox Help Center: How to transcribe",
+      "quotes": [
+        "If online, watch the live transcription appear on your screen.",
+        "Switch to another app or turn off the screen. Recording continues in the background.",
+        "Record without internet. Upload and refine the audio when you’re back online.",
+        "Live transcription is not available when recording in the background or offline."
+      ]
+    },
+    {
+      "id": "s9",
+      "title": "How to translate | Soniox App Help Center",
+      "publisher": "Soniox",
+      "url": "https://app.soniox.com/help-center/mobile-app/usage/translate",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Soniox Help Center: How to translate",
+      "quotes": [
+        "Translate to: translate any speech into one language.",
+        "Translate between: translate back and forth between two languages.",
+        "This works well for lectures, meetings, or videos in languages you don’t understand.",
+        "The screen shows two boxes, one for each language.",
+        "This turns the top box so the person on the other side can read it."
+      ]
+    },
+    {
+      "id": "s10",
+      "title": "Improving accuracy | Soniox App Help Center",
+      "publisher": "Soniox",
+      "url": "https://app.soniox.com/help-center/mobile-app/usage/improving-accuracy",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Soniox Help Center: Improving accuracy",
+      "quotes": [
+        "Tell the app which languages you expect to hear. Soniox supports more than 60 languages.",
+        "Add short notes about names, terms, or the topic. Use this when your conversation includes rare words or names the model may not know.",
+        "This is the feature that identifies who is speaking and labels the text with \"Speaker 1,\" \"Speaker 2,\" etc."
+      ]
+    },
+    {
+      "id": "s11",
+      "title": "Managing & sharing | Soniox App Help Center",
+      "publisher": "Soniox",
+      "url": "https://app.soniox.com/help-center/mobile-app/usage/managing",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Soniox Help Center: Managing & sharing",
+      "quotes": [
+        "Playback controls are only avaiable if the recording is present on the phone.",
+        "By default, the app labels speakers as \"Speaker 1,\" \"Speaker 2,\" etc. You can rename them:",
+        "Re-transcribing counts as a new job and uses credits from your balance.",
+        "Send the audio file (.m4a) using your phone’s sharing menu (AirDrop, Messages, Google Drive, etc.).",
+        "Generate a secure, private web link to the transcript. Others can view the transcript with speaker labels and any AI actions in their browser.",
+        "Share the transcript text directly with anyone using the Share transcript button."
+      ]
+    },
+    {
+      "id": "s12",
+      "title": "AI actions (Mobile App) | Soniox App Help Center",
+      "publisher": "Soniox",
+      "url": "https://app.soniox.com/help-center/mobile-app/usage/ai-actions",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Soniox Help Center: AI actions",
+      "quotes": [
+        "Summary: get a concise overview of the transcript.",
+        "To-do list: extract action items or next steps.",
+        "Speaker quotes: get the most important quotes from each speaker.",
+        "AI actions use credits from your balance.",
+        "Select the Custom action to enter your own prompt."
+      ]
+    },
+    {
+      "id": "s13",
+      "title": "Troubleshooting & FAQ (Mobile App) | Soniox App Help Center",
+      "publisher": "Soniox",
+      "url": "https://app.soniox.com/help-center/mobile-app/faq",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Soniox Help Center: Mobile App FAQ",
+      "quotes": [
+        "The Soniox Console (console.soniox.com) is a separate product for developers who use our API.",
+        "If you want to use the Mobile App or the Web App, create an account in the app or sign up on the web.",
+        "Live transcription works only when the app is online and in the foreground.",
+        "Your audio file is saved locally. When you go online and open the recording, the full high-quality transcript will be processed.",
+        "No. Audio files are stored only on your device.",
+        "No. We never use your audio to train AI models.",
+        "Uninstalling the app deletes all local audio files on that device permanently.",
+        "No. The Soniox keyboard is available only on iOS."
+      ]
+    },
+    {
+      "id": "s14",
+      "title": "Privacy & data | Soniox App Help Center",
+      "publisher": "Soniox",
+      "url": "https://app.soniox.com/help-center/privacy-data",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Soniox Help Center: Privacy & data",
+      "quotes": [
+        "Audio recordings stay on your device unless you choose to sync them. Soniox never uses your audio to train AI.",
+        "If the app is online and open, your audio may stream for live transcription. The stream is processed immediately and not stored.",
+        "Save: Saves the audio locally and, if you choose, uploads it temporarily for processing. Uploaded audio is deleted after processing.",
+        "Text (transcripts, translations, summaries): Stored locally and synced to the cloud for access from other devices."
+      ]
+    },
+    {
+      "id": "s15",
+      "title": "Home | Soniox App Help Center",
+      "publisher": "Soniox",
+      "url": "https://app.soniox.com/help-center",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Soniox Help Center",
+      "quotes": [
+        "Use the mobile app to record, transcribe, and translate audio. Use the web app to organize, edit, and share your recordings.",
+        "Record meetings, calls, or conversations.",
+        "You cannot record audio in the Web App.",
+        "You cannot access transcriptions or recordings in the Desktop App. It can't be used with the Mobile and Web apps."
+      ]
+    },
+    {
+      "id": "s16",
+      "title": "Getting started (Smart Scribe, Desktop App) | Soniox App Help Center",
+      "publisher": "Soniox",
+      "url": "https://app.soniox.com/help-center/desktop-app/smartscribe/getting-started",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Soniox Help Center: Smart Scribe on desktop",
+      "quotes": [
+        "Instead of recording, you can upload an existing audio file for transcription.",
+        "Your history syncs across all your devices. Sessions saved on the desktop app will also appear in the mobile app and web app, and vice versa."
+      ]
+    },
+    {
+      "id": "s17",
+      "title": "Using the Desktop App | Soniox App Help Center",
+      "publisher": "Soniox",
+      "url": "https://app.soniox.com/help-center/desktop-app/install",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Soniox Help Center: Desktop App",
+      "quotes": [
+        "Voice Typing - type with your voice in any app.",
+        "You can download the app for free for Windows and macOS.",
+        "The Free plan gives you 10 credits each week. The credits are shared between the mobile, web and desktop apps."
+      ]
+    },
+    {
+      "id": "s18",
+      "title": "Privacy Policy | Soniox",
+      "publisher": "Soniox",
+      "url": "https://soniox.com/policies/privacy-policy",
+      "type": "privacy",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Last updated: June 29, 2026",
+        "Soniox does not use Customer Content to train, fine-tune, evaluate, benchmark, or improve Soniox models or services.",
+        "Real-time API requests are processed transiently."
+      ]
+    },
+    {
+      "id": "s19",
+      "title": "Smart Scribe | Soniox App",
+      "publisher": "Soniox",
+      "url": "https://soniox.com/soniox-app/smart-scribe",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Soniox: Smart Scribe",
+      "quotes": [
+        "iOS and Android",
+        "Mac and Windows",
+        "Record and transcribe meetings, calls, and discussions in real-time",
+        "See transcription and translation as people speak, while Smart Scribe handles notes and summaries in the background."
+      ]
+    }
+  ],
+  "notes": "This file is about the Soniox consumer app (Smart Scribe, Translator, Voice Typing), not Soniox's developer API: the app is billed as a Free/Pro subscription, so API prices are left out. Conflicts: (1) Audio: the App Store says 'Your audio recordings stay on your device' and Google Play says 'All audio to Text processing stays secure on your device', but the help centre says audio streams to Soniox for live transcription (processed immediately, not stored) and saved audio may be uploaded temporarily for the final transcript. The website says 'Soniox never stores your recordings', while the help centre says a local audio file is always saved on the phone (on the device, not on Soniox's servers). (2) Desktop: the help centre home page says the Desktop App cannot access transcriptions and can't be used with the mobile and web apps; the desktop Smart Scribe and Translator pages say desktop history syncs with mobile and web. (3) Yearly price: App Store US$119.99, help centre and pricing page US$120 (shown as US$10/month billed annually). (4) Age: the App Store rates the app 4+, but Soniox's Terms of Service (https://soniox.com/policies/terms-of-service, updated June 29, 2026) say users must be 18 or older; the privacy policy and terms are written for all Soniox services (API, Console) and don't name the consumer app. (5) The help centre's Earning credits page hides the referral credit amounts behind a component, and no page says how much audio one credit covers. The Google Play page (US) did not show the minimum Android version; its In-app purchases range is US$19.99 to US$119.99 per item. Not checked: whether the phone app can import audio or video files (only desktop upload is described), whether the desktop app captures system audio from video calls, and country availability. App Store lookup (itunes.apple.com/lookup?id=1560199731&country=us): version 3.9.0 (July 30, 2026), minimum iOS 16.4, price free, seller Soniox Inc, interface language EN. All pages opened 2026-10-28 with curl (help-centre text also read from its .mdx versions)."
+}
