@@ -124,8 +124,13 @@ export function VersusTable({ apps, rows, caption }: { apps: CompareApp[]; rows:
                 scope="col"
                 className={`sticky top-0 z-10 border-b border-gray-200 px-6 py-4 align-bottom ${app.slug === "captio-ai" ? "bg-[#eef2fe]" : "bg-gray-50"} ${i === apps.length - 1 ? "rounded-tr-xl" : ""}`}
               >
-                <span className="block font-bold text-gray-900 text-base leading-tight">{app.shortName}</span>
-                <span className="block mt-0.5 text-xs font-medium text-gray-400">{shortDeveloper(app)}</span>
+                <span className="flex items-center gap-3">
+                  <AppIcon app={app} size={32} />
+                  <span className="min-w-0">
+                    <span className="block font-bold text-gray-900 text-base leading-tight">{app.shortName}</span>
+                    <span className="block mt-0.5 text-xs font-medium text-gray-400">{shortDeveloper(app)}</span>
+                  </span>
+                </span>
               </th>
             ))}
           </tr>
@@ -143,7 +148,10 @@ export function VersusTable({ apps, rows, caption }: { apps: CompareApp[]; rows:
                   role="cell"
                   className={`align-top md:table-cell md:px-6 md:py-5 md:border-t md:border-gray-100 ${r === 0 ? "md:border-t-0" : ""} ${cell.app.slug === "captio-ai" ? "md:bg-[#f7f9ff]" : ""}`}
                 >
-                  <span className="md:hidden block mb-1.5 text-[11px] font-bold uppercase tracking-widest text-gray-400">{cell.app.shortName}</span>
+                  <span className="md:hidden flex items-center gap-1.5 mb-1.5 text-[11px] font-bold uppercase tracking-widest text-gray-400">
+                    <AppIcon app={cell.app} size={16} />
+                    {cell.app.shortName}
+                  </span>
                   <FactCell cell={cell} />
                 </td>
               ))}
@@ -184,18 +192,21 @@ export function RoundupTable({ apps, rows, caption, hrefFor }: { apps: CompareAp
                 className={`flex flex-col gap-3 border rounded-xl p-5 lg:table-row lg:border-0 lg:rounded-none lg:p-0 ${mine ? "border-brand/30 bg-[#f7f9ff]" : "border-gray-200 bg-white"}`}
               >
                 <th role="rowheader" scope="row" className={`text-left align-top lg:table-cell lg:px-5 lg:py-4 ${a > 0 ? "lg:border-t lg:border-gray-100" : ""}`}>
-                  {href ? (
-                    <Link href={href} className="group inline-block">
-                      <span className="block font-bold text-gray-900 text-lg lg:text-[15px] leading-tight group-hover:text-brand">{app.shortName}</span>
-                      <span className="block mt-0.5 text-xs font-medium text-gray-400">{shortDeveloper(app)}</span>
-                      <span className="mt-1.5 inline-block text-xs font-semibold text-brand">Compare with Captio AI</span>
-                    </Link>
-                  ) : (
-                    <>
-                      <span className="block font-bold text-gray-900 text-lg lg:text-[15px] leading-tight">{app.shortName}</span>
-                      <span className="block mt-0.5 text-xs font-medium text-gray-400">{shortDeveloper(app)}</span>
-                    </>
-                  )}
+                  <div className="flex items-start gap-3">
+                    <AppIcon app={app} size={36} />
+                    {href ? (
+                      <Link href={href} className="group inline-block min-w-0">
+                        <span className="block font-bold text-gray-900 text-lg lg:text-[15px] leading-tight group-hover:text-brand">{app.shortName}</span>
+                        <span className="block mt-0.5 text-xs font-medium text-gray-400">{shortDeveloper(app)}</span>
+                        <span className="mt-1.5 inline-block text-xs font-semibold text-brand">Compare with Captio AI</span>
+                      </Link>
+                    ) : (
+                      <div className="min-w-0">
+                        <span className="block font-bold text-gray-900 text-lg lg:text-[15px] leading-tight">{app.shortName}</span>
+                        <span className="block mt-0.5 text-xs font-medium text-gray-400">{shortDeveloper(app)}</span>
+                      </div>
+                    )}
+                  </div>
                 </th>
                 {rows.map((row) => (
                   <td key={row.key} role="cell" className={`grid grid-cols-[7.5rem_1fr] gap-3 align-top lg:table-cell lg:px-4 lg:py-4 ${a > 0 ? "lg:border-t lg:border-gray-100" : ""}`}>
@@ -231,17 +242,24 @@ function StoreLinks({ app, onDark = false }: { app: CompareApp; onDark?: boolean
   );
 }
 
+/** The app's own icon from its store listing; a letter tile for features built into the phone. Decorative: the name is always next to it. */
+export function AppIcon({ app, size }: { app: CompareApp; size: number }) {
+  const src = app.slug === "captio-ai" ? "/logo_image_profile.png" : app.icon;
+  if (src) {
+    return <Image src={src} alt="" width={size} height={size} className="shrink-0 rounded-[22%] ring-1 ring-black/5" />;
+  }
+  return (
+    <span aria-hidden style={{ width: size, height: size, fontSize: Math.round(size * 0.42) }} className="shrink-0 rounded-[22%] bg-gray-100 text-gray-500 font-bold flex items-center justify-center">
+      {app.shortName.charAt(0)}
+    </span>
+  );
+}
+
 function AppIdentity({ app }: { app: CompareApp }) {
   const mine = app.slug === "captio-ai";
   return (
     <div className="h-full bg-white border border-gray-200 rounded-xl px-6 py-7 flex flex-col items-center text-center">
-      {mine ? (
-        <Image src="/logo_image_profile.png" alt="" width={48} height={48} className="rounded-xl" />
-      ) : (
-        <span aria-hidden className="w-12 h-12 rounded-xl bg-gray-100 text-gray-500 text-xl font-bold flex items-center justify-center">
-          {app.shortName.charAt(0)}
-        </span>
-      )}
+      <AppIcon app={app} size={56} />
       <p className="mt-4 text-2xl font-bold text-gray-900 tracking-tight leading-tight">{app.shortName}</p>
       <p className="mt-1 text-sm text-gray-400">{mine ? "Our app" : `by ${shortDeveloper(app)}`}</p>
       <p className="mt-3 text-sm text-gray-600 leading-snug">{app.facts.platforms.text}</p>
@@ -451,6 +469,7 @@ export function ComparisonCard({ page }: { page: ComparePage }) {
   const app = page.subject;
   return (
     <Link href={`/compare/${page.slug}`} className="group flex items-center gap-4 bg-white border border-gray-200 rounded-xl px-5 py-5 sm:px-6 hover:border-brand transition-colors">
+      <AppIcon app={app} size={48} />
       <div className="min-w-0 flex-1">
         <h3 className="text-lg font-bold text-gray-900 tracking-tight leading-snug group-hover:text-brand transition-colors">
           <span className="text-gray-400 font-semibold">Captio AI vs </span>

@@ -111,6 +111,8 @@ export type CompareApp = {
   limits: Claim[];
   sources: AppSource[];
   notes?: string;
+  /** The app's icon from its store listing, under public/ (scripts/compare-icons.mjs). */
+  icon?: string;
   /** Oldest "checked" date among its sources. */
   checked: string;
 };
@@ -220,6 +222,10 @@ function parseApp(file: string): CompareApp {
     });
   };
 
+  if (raw.icon && (typeof raw.icon !== "string" || !fs.existsSync(path.join(process.cwd(), "public", raw.icon)))) {
+    fail(file, `icon "${raw.icon}" is not a file in public/ (run node scripts/compare-icons.mjs)`);
+  }
+
   return {
     slug,
     name: str(raw.name, file, "name"),
@@ -236,6 +242,7 @@ function parseApp(file: string): CompareApp {
     limits: claims(raw.limits, "limit"),
     sources,
     notes: raw.notes || undefined,
+    icon: raw.icon || undefined,
     checked: sources.map((s) => s.checked).sort()[0],
   };
 }
