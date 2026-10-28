@@ -337,18 +337,24 @@ export default function HomePage() {
             <p className="text-base sm:text-lg text-gray-500 max-w-xl leading-relaxed">
               Follow any conversation, meeting or lecture. In any language.
             </p>
+          </div>
 
-            <DownloadCard id="download" />
-            <FeaturedOnLine />
+          {/* Download box and app mockup: stacked on phones, side by side on a computer
+              so both are on screen at once. */}
+          <div className="max-w-5xl mx-auto mt-4 sm:mt-6 flex flex-col lg:flex-row items-center justify-center gap-4 sm:gap-6 lg:gap-14">
+            <div className="flex flex-col items-center gap-4 sm:gap-6">
+              <DownloadCard id="download" />
+              <FeaturedOnLine />
+            </div>
 
             {/* App mockup */}
-            <div className="mt-6 sm:mt-10">
+            <div className="mt-6 sm:mt-10 lg:mt-0">
               <Image
                 src="/mockup_app.png"
                 alt="Captio AI app showing live captions and translation"
                 width={400}
                 height={340}
-                className="w-[280px] sm:w-[400px] h-auto mx-auto drop-shadow-2xl"
+                className="w-[280px] sm:w-[400px] lg:w-[360px] h-auto mx-auto drop-shadow-2xl"
                 priority
               />
             </div>
