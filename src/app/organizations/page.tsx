@@ -8,6 +8,8 @@ import { PhoneVideo } from "./PhoneVideo";
 import { DirectionMock, SoundsMock, VoicesMock } from "./FeatureMocks";
 
 import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbSchema } from "@/lib/schema";
+import { languages as languagePages } from "@/lib/languages";
+import { ENGLISH, LOCALES } from "@/i18n/locales";
 
 // Captio AI for Organizations: a landing page of its own for people who have
 // never heard of the app (Nejc 2026-10-28): its own header (logo + "for
@@ -42,6 +44,10 @@ export const metadata: Metadata = {
 };
 
 const facts = ["iPhone and Android", "60+ languages", "Stored in the EU"];
+
+// Every language the site (and live captions) has, with its flag: shown, not linked.
+const FLAGS = new Map(languagePages.map((l) => [l.languageSlug, l.flag]));
+const captionLanguages = [ENGLISH, ...LOCALES].map((l) => ({ name: l.name, flag: FLAGS.get(l.slug) ?? "🌐" }));
 
 // The three main features, each with a loop of the real app.
 const mainFeatures = [
@@ -309,6 +315,25 @@ export default function OrganizationsPage() {
                 </div>
               ))}
             </div>
+          </div>
+        </section>
+
+        {/* ── Languages ── */}
+        <section className="pb-14 px-6 bg-white">
+          <div className="max-w-5xl mx-auto">
+            <SectionTitle
+              eyebrow="60+ languages"
+              title="Captions in the languages your people speak"
+              subtitle="Live captions, translation and transcription in every one of them, including people who switch languages mid-sentence."
+            />
+            <ul className="flex flex-wrap justify-center gap-2">
+              {captionLanguages.map((l) => (
+                <li key={l.name} className="flex items-center gap-1.5 rounded-[8px] border border-gray-200 bg-gray-50 px-2.5 py-1.5 text-[13px] font-medium text-gray-700">
+                  <span aria-hidden>{l.flag}</span>
+                  {l.name}
+                </li>
+              ))}
+            </ul>
           </div>
         </section>
 
