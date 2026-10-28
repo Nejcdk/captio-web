@@ -9,7 +9,7 @@ export const FEATURE_SLUGS = ["live-captions", "live-translator", "audio-transcr
 export type FeatureSlug = (typeof FEATURE_SLUGS)[number];
 
 /** A page that exists in every language. */
-export type TranslatedPage = "home" | FeatureSlug;
+export type TranslatedPage = "home" | FeatureSlug | "organizations";
 
 export function isFeatureSlug(slug: string): slug is FeatureSlug {
   return (FEATURE_SLUGS as readonly string[]).includes(slug);
@@ -20,7 +20,7 @@ export async function getMessages(code: string): Promise<Messages> {
   return (await import(`./messages/${code}.json`)).default as Messages;
 }
 
-/** "/" and "/live-captions" in English, "/de" and "/de/live-captions" in German. */
+/** "/" and "/live-captions" in English, "/de" and "/de/live-captions" in German (also "/de/organizations"). */
 export function pagePath(code: string, page: TranslatedPage): string {
   const tail = page === "home" ? "" : `/${page}`;
   if (code === DEFAULT_LOCALE) return tail || "/";

@@ -19,6 +19,8 @@ export type OrgLink = {
   pilot_days: number;
   paid_until: string | null;
   status: "open" | "full" | "stopped" | "link_expired" | "ended";
+  /** The language the organization signed up in (the /organizations page it used); null = English. */
+  language?: string | null;
 };
 
 export const normalizeOrgCode = (code: string) => code.toUpperCase().replace(/[^A-Z0-9]/g, "");
@@ -63,12 +65,13 @@ export type PilotRequest = {
   timeZone: string | null;
   country: string | null;
   ipHash: string | null;
+  language: string;
 };
 
 export type PilotAnswer = { ok: true; resent: boolean } | { ok: false; error: string };
 
 export async function requestPilot(r: PilotRequest): Promise<PilotAnswer> {
-  const res = await rpc("org_pilot_request", {
+  const args = {
     p_org: r.org,
     p_name: r.name,
     p_email: r.email,
@@ -76,7 +79,10 @@ export async function requestPilot(r: PilotRequest): Promise<PilotAnswer> {
     p_country: r.country,
     p_time_zone: r.timeZone,
     p_ip_hash: r.ipHash,
-  });
+  };
+  let res = await rpc("org_pilot_request", { ...args, p_language: r.language });
+  // A database from before languages (2026-10-28) has no p_language: ask again without it.
+  if (res.status === 404) res = await rpc("org_pilot_request", args);
   if (!res.ok) throw new Error(`org_pilot_request ${res.status}: ${(await res.text()).slice(0, 200)}`);
   return (await res.json()) as PilotAnswer;
 }

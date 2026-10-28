@@ -1,6 +1,7 @@
 import { createHash } from "crypto";
 import { requestPilot } from "@/lib/orgPilot";
 import { capture, errorCode } from "@/lib/connector/analytics";
+import { isLocale } from "@/i18n/locales";
 
 // POST from the pilot form on /organizations. The database checks and limits
 // everything (org_pilot_request in the app repo's supabase/organizations.sql)
@@ -42,6 +43,7 @@ export async function POST(req: Request) {
       timeZone: text(body.timeZone, 64) || null,
       country: req.headers.get("x-vercel-ip-country"),
       ipHash,
+      language: isLocale(text(body.language, 8)) ? text(body.language, 8) : "en",
     });
     return Response.json(answer);
   } catch (e) {

@@ -3,6 +3,11 @@
 import { useEffect, useRef, useState } from "react";
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 import posthog from "posthog-js";
+import { fill } from "@/i18n/fill";
+import type { OrgMessages } from "@/i18n/organizations";
+
+// All words come from the organization's language (src/i18n/organizations/<code>.json → join).
+type T = OrgMessages["join"];
 
 // Signs the person in with Apple or Google (through the app's own Supabase,
 // so it's the same account as in the app), takes a place with org_join() and
@@ -56,64 +61,70 @@ function inAppBrowser(): string | undefined {
   return m ? m[1].replace("/", "") : undefined;
 }
 
-const longDate = (iso: string) =>
-  new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "long", year: "numeric" }).format(new Date(iso));
+const longDate = (iso: string, lang: string) => {
+  try {
+    return new Intl.DateTimeFormat(lang === "en" ? "en-GB" : lang, { day: "numeric", month: "long", year: "numeric" }).format(new Date(iso));
+  } catch {
+    return new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "long", year: "numeric" }).format(new Date(iso));
+  }
+};
 
-function failure(reason: string, orgName: string): string {
+function failure(t: T, reason: string, org: string): string {
+  const f = t.failures;
   switch (reason) {
-    case "full": return `All places from ${orgName} are taken. Ask ${orgName} about more places.`;
-    case "stopped": return `This link has been closed. Ask ${orgName} for a new one.`;
-    case "link_expired": return `This pilot link has expired. Ask ${orgName} for a new one.`;
-    case "ended": return `${orgName}'s licenses have ended.`;
-    case "other_org": return "Your account already gets Captio AI through another organization.";
-    case "had_pilot": return `This account has already had a free pilot. Ask ${orgName} about keeping Captio AI.`;
-    case "not_found": return "This link doesn't work. Ask whoever sent it for a new one.";
-    default: return "Something went wrong. Please try again.";
+    case "full": return fill(f.full, { org });
+    case "stopped": return fill(f.stopped, { org });
+    case "link_expired": return fill(f.linkExpired, { org });
+    case "ended": return fill(f.ended, { org });
+    case "other_org": return f.otherOrg;
+    case "had_pilot": return fill(f.hadPilot, { org });
+    case "not_found": return f.notFound;
+    default: return f.generic;
   }
 }
 
-export function OrgLinkViewed(props: { valid: boolean; error: boolean; status?: string; plan?: string; placesLeft?: number }) {
+export function OrgLinkViewed(props: { valid: boolean; error: boolean; status?: string; plan?: string; placesLeft?: number; language?: string }) {
   useEffect(() => {
     if (props.error) capture("app_error", { where: "org_join_load", message: "org_link_info failed", source: "organizations" });
     capture("org_link_viewed", {
       valid: props.valid, error: props.error, status: props.status, plan: props.plan,
-      places_left: props.placesLeft, device: device(), in_app_browser: inAppBrowser(),
+      places_left: props.placesLeft, language: props.language, device: device(), in_app_browser: inAppBrowser(),
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps -- once per page view
   }, []);
   return null;
 }
 
-function StoreLinks({ provider }: { provider: Provider }) {
+function StoreLinks({ provider, t }: { provider: Provider; t: T }) {
   // Only rendered after joining (in the browser), never on the server.
   const [d] = useState(device);
   const apple = (
     <a key="apple" href={APP_STORE_LINK} className="block rounded-lg bg-brand px-5 py-4 text-center text-[17px] font-bold text-white transition-colors hover:bg-brand/90">
-      Get Captio AI on the App Store
+      {t.getAppStore}
     </a>
   );
   const google = (
     <a key="google" href={GOOGLE_PLAY_LINK} className={`block rounded-lg px-5 py-4 text-center text-[17px] font-bold transition-colors ${d === "android" ? "bg-brand text-white hover:bg-brand/90" : "bg-white text-brand ring-1 ring-brand hover:bg-brand-light"}`}>
-      Get Captio AI on Google Play
+      {t.getGooglePlay}
     </a>
   );
   return (
     <div className="mt-6 flex flex-col gap-3">
       {d === "android" ? [google] : d === "ios" ? [apple] : [apple, google]}
-      {d === "desktop" && <p className="text-center text-[14px] text-gray-500">Captio AI is a phone app: get it on your iPhone or Android phone.</p>}
-      <p className="text-[14px] leading-relaxed text-gray-500 text-center">
-        Then sign in to Captio AI with the same {PROVIDER_NAME[provider]} account. Already have the app? Close it and open it again.
-      </p>
+      {d === "desktop" && <p className="text-center text-[14px] text-gray-500">{t.phoneApp}</p>}
+      <p className="text-[14px] leading-relaxed text-gray-500 text-center">{fill(t.thenSignIn, { provider: PROVIDER_NAME[provider] })}</p>
     </div>
   );
 }
 
-export function JoinOrg({ code, orgName, plan, supabaseUrl, anonKey }: {
+export function JoinOrg({ code, orgName, plan, supabaseUrl, anonKey, t, lang }: {
   code: string;
   orgName: string;
   plan: "pilot" | "paid";
   supabaseUrl: string;
   anonKey: string;
+  t: T;
+  lang: string;
 }) {
   const [state, setState] = useState<State>({ step: "idle" });
   const client = useRef<SupabaseClient | null>(null);
@@ -144,7 +155,7 @@ export function JoinOrg({ code, orgName, plan, supabaseUrl, anonKey }: {
     (async () => {
       if (providerError) {
         capture("org_join_signin_returned", { provider, ok: false, error: providerError.slice(0, 120) });
-        setState({ step: "error", message: "Signing in didn't work. Please try again." });
+        setState({ step: "error", message: t.failures.signInFailed });
         return;
       }
       setState({ step: "working", provider });
@@ -154,7 +165,7 @@ export function JoinOrg({ code, orgName, plan, supabaseUrl, anonKey }: {
         : { data: { session: null }, error: new Error("no auth code") };
       if (error || !session) {
         capture("org_join_signin_returned", { provider, ok: false, error: (error?.message ?? "no session").slice(0, 120) });
-        setState({ step: "error", message: "Signing in didn't work. Please try again." });
+        setState({ step: "error", message: t.failures.signInFailed });
         return;
       }
       capture("org_join_signin_returned", { provider, ok: true });
@@ -162,19 +173,19 @@ export function JoinOrg({ code, orgName, plan, supabaseUrl, anonKey }: {
       await sb.auth.signOut({ scope: "local" }).catch(() => {});
       if (joinError || !data) {
         capture("app_error", { where: "org_join_rpc", message: (joinError?.message ?? "no data").slice(0, 200), source: "organizations" });
-        setState({ step: "error", message: "Couldn't add you just now. Please try again." });
+        setState({ step: "error", message: t.failures.couldNotAdd });
         return;
       }
       if (!data.ok) {
         capture("org_join_failed", { provider, reason: data.error });
-        setState({ step: "error", message: failure(data.error, orgName) });
+        setState({ step: "error", message: failure(t, data.error, orgName) });
         return;
       }
       capture("org_joined", { provider, already: !!data.already, plan: data.plan, ended: !!data.ended });
       setState({ step: "joined", joined: { provider, already: !!data.already, until: data.until, ended: !!data.ended } });
     })().catch((e) => {
       capture("app_error", { where: "org_join_finish", message: String((e as Error)?.message ?? e).slice(0, 200), source: "organizations" });
-      setState({ step: "error", message: "Something went wrong. Please try again." });
+      setState({ step: "error", message: t.failures.generic });
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps -- once, on the return from the sign-in
   }, []);
@@ -188,7 +199,7 @@ export function JoinOrg({ code, orgName, plan, supabaseUrl, anonKey }: {
     });
     if (error) {
       capture("app_error", { where: "org_join_signin_start", provider, message: error.message.slice(0, 200), source: "organizations" });
-      setState({ step: "error", message: "Signing in didn't work. Please try again." });
+      setState({ step: "error", message: t.failures.signInFailed });
     }
   };
 
@@ -197,9 +208,9 @@ export function JoinOrg({ code, orgName, plan, supabaseUrl, anonKey }: {
     if (j.ended) {
       return (
         <div className="text-center">
-          <p className="text-xl font-bold text-gray-900">Your free days have ended</p>
+          <p className="text-xl font-bold text-gray-900">{t.endedTitle}</p>
           <p className="mt-1 text-[15px] leading-relaxed text-gray-600">
-            Your Captio AI from {orgName} ended on {longDate(j.until)}. Ask {orgName} about keeping it.
+            {fill(t.endedBody, { org: orgName, date: longDate(j.until, lang) })}
           </p>
         </div>
       );
@@ -210,11 +221,11 @@ export function JoinOrg({ code, orgName, plan, supabaseUrl, anonKey }: {
           <rect width="44" height="44" rx="12" fill="#1C49F5" />
           <path d="M13.5 22.5l5.5 5.5L30.5 16.5" fill="none" stroke="#fff" strokeWidth="3.2" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
-        <p className="mt-3 text-xl font-bold text-gray-900">{j.already ? "You're already in" : "You're in"}</p>
+        <p className="mt-3 text-xl font-bold text-gray-900">{j.already ? t.alreadyJoined : t.joined}</p>
         <p className="mt-1 text-[15px] leading-relaxed text-gray-600">
-          You have the full version of Captio AI until {longDate(j.until)}.
+          {fill(t.until, { date: longDate(j.until, lang) })}
         </p>
-        <StoreLinks provider={j.provider} />
+        <StoreLinks provider={j.provider} t={t} />
       </div>
     );
   }
@@ -223,9 +234,9 @@ export function JoinOrg({ code, orgName, plan, supabaseUrl, anonKey }: {
   return (
     <div>
       <ol className="mb-6 flex flex-col gap-2.5 text-[15px] text-gray-700">
-        <li className="flex gap-3"><span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-[6px] bg-brand-light text-[13px] font-bold text-brand">1</span>Continue with Apple or Google below</li>
-        <li className="flex gap-3"><span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-[6px] bg-brand-light text-[13px] font-bold text-brand">2</span>Get Captio AI from the App Store or Google Play</li>
-        <li className="flex gap-3"><span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-[6px] bg-brand-light text-[13px] font-bold text-brand">3</span>Sign in to the app with the same account</li>
+        <li className="flex gap-3"><span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-[6px] bg-brand-light text-[13px] font-bold text-brand">1</span>{t.steps[0]}</li>
+        <li className="flex gap-3"><span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-[6px] bg-brand-light text-[13px] font-bold text-brand">2</span>{t.steps[1]}</li>
+        <li className="flex gap-3"><span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-[6px] bg-brand-light text-[13px] font-bold text-brand">3</span>{t.steps[2]}</li>
       </ol>
       <div className="flex flex-col gap-3">
         <button
@@ -237,7 +248,7 @@ export function JoinOrg({ code, orgName, plan, supabaseUrl, anonKey }: {
           <svg width="17" height="20" viewBox="0 0 17 20" aria-hidden fill="currentColor">
             <path d="M14.1 10.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9-1.7 0-3.3 1-4.2 2.6-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.6 1.3-.1 1.8-.8 3.3-.8 1.6 0 2 .8 3.4.8 1.4 0 2.3-1.3 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9 0 0-2.7-1-2.7-4.1zM11.5 3c.7-.9 1.2-2 1-3.2-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.1 1.1.1 2.3-.6 3.1-1.5z" />
           </svg>
-          {busy && state.provider === "apple" ? "Signing in…" : "Continue with Apple"}
+          {busy && state.provider === "apple" ? t.signingIn : t.continueApple}
         </button>
         <button
           type="button"
@@ -251,13 +262,13 @@ export function JoinOrg({ code, orgName, plan, supabaseUrl, anonKey }: {
             <path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z" />
             <path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.4-.4-3.5z" />
           </svg>
-          {busy && state.provider === "google" ? "Signing in…" : "Continue with Google"}
+          {busy && state.provider === "google" ? t.signingIn : t.continueGoogle}
         </button>
       </div>
       <p className="mt-4 text-center text-[14px] leading-relaxed text-gray-500">
-        Already use Captio AI? Continue with the account you use in the app.
+        {t.alreadyUse}
       </p>
-      {plan === "pilot" && <p className="mt-2 text-center text-[13px] text-gray-400">Nothing to pay. It simply ends after the free days.</p>}
+      {plan === "pilot" && <p className="mt-2 text-center text-[13px] text-gray-400">{t.nothingToPay}</p>}
       {state.step === "error" && <p className="mt-3 text-center text-[14px] font-medium text-red-600" role="alert">{state.message}</p>}
     </div>
   );

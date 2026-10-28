@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { getLocale } from "./locales";
 import { languageAlternates, pagePath, type FeatureSlug, type Messages } from "./index";
+import type { OrgMessages } from "./organizations";
 
 // <head> of the home page and the feature pages in any language: canonical,
 // hreflang links to every other language, and Open Graph in that language.
@@ -34,6 +35,24 @@ export function featureMetadata(code: string, m: Messages, feature: FeatureSlug)
     openGraph: {
       // The root layout's title template appends " | Captio AI" to the page
       // title only, so Open Graph spells it out.
+      title: `${title} | Captio AI`,
+      description,
+      url: path,
+      type: "website",
+      images: ["/opengraph-image"],
+      ...(code === "en" ? {} : { locale: getLocale(code).og }),
+    },
+  };
+}
+
+export function organizationsMetadata(code: string, t: OrgMessages): Metadata {
+  const { title, description } = t.meta;
+  const path = pagePath(code, "organizations");
+  return {
+    title,
+    description,
+    alternates: { canonical: path, languages: languageAlternates("organizations") },
+    openGraph: {
       title: `${title} | Captio AI`,
       description,
       url: path,

@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "title": "Live Captions for Organizations",
+    "description": "Captio AI shows deaf and hard of hearing people live captions on their own phone, in person, in 60+ languages. Yearly licenses for your organization, paid by invoice. Free 30-day pilot."
+  },
+  "header": {
+    "forOrganizations": "for Organizations",
+    "startPilot": "Start a free pilot",
+    "chooseLanguage": "Choose language"
+  },
+  "hero": {
+    "eyebrow": "🏢 Captio AI for Organizations",
+    "title": "Live captions on their phone, the moment people [speak]",
+    "description": "Captio AI is an app for deaf and hard of hearing people. It listens and shows what's said as text, in person, in 60+ languages. Give it to the people in your organization who need it: one yearly license each, paid by invoice.",
+    "seeHow": "See how it works",
+    "pilotNote": "Free for 30 days, up to 5 people. Nothing to pay, nothing to sign.",
+    "facts": ["iPhone and Android", "60+ languages", "Stored in the EU"],
+    "videoLabel": "Captio AI showing live captions of two people talking, with a label for each speaker"
+  },
+  "features": {
+    "eyebrow": "What Captio AI does",
+    "title": "Live captions, translation and transcription",
+    "subtitle": "Three tools in one app, on their own phone, in 60+ languages.",
+    "items": [
+      { "label": "Live captions", "title": "Every word, as it's said", "description": "Open the app, tap the microphone and read along. Each speaker gets their own label, so it's clear who said what." },
+      { "label": "Live translation", "title": "Both languages side by side", "description": "When someone speaks another language, they see what was said and its translation at the same time." },
+      { "label": "Transcription", "title": "Recordings and files to text", "description": "Save any conversation, or add an audio or video file, and get the full transcript with an AI summary." }
+    ]
+  },
+  "languages": {
+    "eyebrow": "60+ languages",
+    "title": "Captions in the languages your people speak",
+    "subtitle": "Live captions, translation and transcription in every one of them, including people who switch languages mid-sentence."
+  },
+  "awareness": {
+    "eyebrow": "Made for deaf and hard of hearing people",
+    "title": "More than words on a screen",
+    "subtitle": "Who is talking, where they are and what else is going on: the things that matter when you can't hear the room.",
+    "items": [
+      { "title": "Knows who is talking", "description": "Save a person's voice once, from about 20 seconds of them talking, and captions show their name instead of \"Speaker 2\", live and in saved recordings. Voices are made and kept on the phone.", "where": "iPhone" },
+      { "title": "Shows where the voice is", "description": "Waves at the edge of the screen show which side a voice is coming from, in that speaker's colour, so they know where to look in a busy room.", "where": "iPhone 16 and later" },
+      { "title": "Hears the sounds around them", "description": "Sounds show up in the captions the way film subtitles do it. A doorbell, an alarm or a crying baby also makes the phone vibrate.", "where": "iPhone and iPad" }
+    ],
+    "drawing": {
+      "otherName": "Ana",
+      "me": "Me",
+      "voicesLine1": "Can we move the meeting to Friday?",
+      "voicesLine2": "Friday works for me.",
+      "directionLine": "I'm over here, on your left.",
+      "soundsBefore": "See you at three.",
+      "sound": "[doorbell rings]",
+      "soundsAfter": "Who's that?",
+      "vibrates": "The phone vibrates"
+    }
+  },
+  "reasons": {
+    "eyebrow": "For your organization",
+    "title": "Why organizations choose Captio AI",
+    "items": [
+      { "title": "Ready the moment it's needed", "description": "No booking a captioner in advance. Captions start with one tap, wherever the person is." },
+      { "title": "On their own phone", "description": "iPhone or Android. Nothing for your IT team to install and no hardware to hand out." },
+      { "title": "Private by design", "description": "Stored in the EU. Audio isn't kept on our servers, and nothing is ever used to train AI." },
+      { "title": "Simple to buy", "description": "One price per person per year, by invoice. No minimum, no setup fee, nothing renews by itself." }
+    ]
+  },
+  "pilot": {
+    "eyebrow": "Free pilot",
+    "title": "Try it for 30 days with up to 5 people",
+    "steps": [
+      { "title": "Get your pilot link", "description": "Fill in the form below. The link arrives in your inbox within a minute, with a message ready to forward." },
+      { "title": "Forward it to up to 5 people", "description": "Each person opens it on their phone, continues with Apple or Google, and gets Captio AI on iPhone or Android." },
+      { "title": "They have the full version for 30 days", "description": "No personal data from you, so no paperwork. Near the end you get a summary of how much it was used, and the price to keep it." }
+    ]
+  },
+  "form": {
+    "organization": "Organization",
+    "name": "Your name",
+    "email": "Your work email",
+    "emailHint": "The pilot link is sent here.",
+    "people": "About how many people might use it?",
+    "peopleOptions": ["1 to 5", "6 to 19", "20 to 50", "More than 50"],
+    "submit": "Send me the pilot link",
+    "sending": "Sending…",
+    "note": "Free for 30 days, up to 5 people. Nothing to pay, nothing to sign.",
+    "sentTitle": "Check your inbox",
+    "sentTo": "Your pilot link is on its way to {email}, with a message you can forward to the people who'll use it.",
+    "resentTo": "We've sent your pilot link again to {email}, with a message you can forward to the people who'll use it.",
+    "sentHelp": "It usually arrives within a minute. Not there? Check your spam folder, or write to {address}.",
+    "errors": {
+      "org": "Please add your organization's name.",
+      "email": "That email address doesn't look right.",
+      "tooMany": "Too many requests from here today. Please write to {address} instead.",
+      "domainLimit": "Your organization already has pilots running. Write to {address} and we'll add more.",
+      "busy": "We've had a lot of requests today. Please write to {address} and you'll have your link within a day.",
+      "server": "Something went wrong{code}. Please try again, or write to {address}.",
+      "network": "Couldn't send. Check your connection and try again."
+    }
+  },
+  "pricing": {
+    "eyebrow": "Pricing",
+    "title": "One price per person, per year",
+    "subtitle": "Paid by invoice and bank transfer. Prices exclude VAT where it applies.",
+    "plans": ["1 to 19 people", "20 or more people"],
+    "perPersonYear": "per person per year",
+    "otherCurrencies": "{a} or {b}",
+    "includedTitle": "Included",
+    "included": [
+      "Captio AI Plus for each person, for 12 months",
+      "One link to forward: people join in a minute",
+      "Usage totals, never what was said",
+      "A setup call, if you'd like one",
+      "Email support straight from the founder",
+      "A quote, your purchase order, an invoice",
+      "A data processing agreement",
+      "No minimum, no setup fee, no auto-renewal"
+    ],
+    "quote": "Ask for a quote"
+  },
+  "data": {
+    "eyebrow": "For your data protection team",
+    "title": "How data is handled",
+    "items": [
+      { "title": "Stored in the EU", "description": "Accounts and saved transcripts are stored in the European Union (Frankfurt)." },
+      { "title": "Audio is not kept on our servers", "description": "Speech is processed in real time to make the captions. The audio of recordings people save stays on their own phone." },
+      { "title": "Never used to train AI", "description": "No content is sold, shared for advertising, or used to train AI models, by us or by any provider we use." },
+      { "title": "Every processor is listed", "description": "Our privacy policy names every company that processes data and what for. Transfers outside the UK and EEA are covered by Standard Contractual Clauses." },
+      { "title": "A data processing agreement", "description": "We sign one with your organization for paid licenses, when you send us the names or emails of the people to unlock." },
+      { "title": "Deletion", "description": "Anyone can delete their account and recordings in the app, at any time." }
+    ],
+    "dpa": "Ask for the data processing agreement",
+    "privacy": "Read the privacy policy"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Frequently asked questions",
+    "items": [
+      { "q": "What is Captio AI?", "a": "An app for iPhone and Android that shows what people say as text, the moment they say it, in 60+ languages. Deaf and hard of hearing people use it in person, wherever they need captions: they open it, tap the microphone and read along. It can also translate, tell speakers apart and call people it knows by name, show where a voice is coming from (iPhone 16 and later), write sounds like a doorbell or an alarm into the captions, and save and summarise what was said." },
+      { "q": "Who is Captio AI for Organizations for?", "a": "Any organization that pays for captioning on behalf of deaf and hard of hearing people. Each person gets Captio AI Plus on their own phone for a year, and the organization pays one invoice." },
+      { "q": "How much does it cost?", "a": "£89, €99 or $109 per person per year for 1 to 19 people, and £69, €79 or $89 per person per year from 20 people. There is no minimum and no setup fee. Prices exclude VAT where it applies." },
+      { "q": "How do we pay?", "a": "By invoice and bank transfer. We send a quote first, and we're happy to work with your purchase order process." },
+      { "q": "Can we try it first?", "a": "Yes. A free 30-day pilot for up to 5 people. Fill in the form on this page and the link to forward arrives by email within a minute. Nothing to pay and nothing to sign." },
+      { "q": "Do the people using it need to pay or set anything up?", "a": "No. They open the link you forward, continue with Apple or Google, then download Captio AI for free on iPhone or Android and sign in with the same account. They have the full version straight away. Your IT team doesn't need to install anything." },
+      { "q": "What do we see about how it's used?", "a": "Totals only: how many people joined, how many opened Captio AI in the last week, and how many recordings were saved and how long they are. Never what was said, and never who said it." },
+      { "q": "How do we add people after we buy?", "a": "With the same link. Once your licenses are active, anyone you send it to can join, up to the number of licenses you have. People from the pilot keep everything they saved." },
+      { "q": "What happens after 12 months?", "a": "We send a renewal quote a month before the licenses end. Nothing renews or charges automatically." },
+      { "q": "Does it replace a human captioner or note-taker?", "a": "Not in every case. Captio AI gives instant captions wherever the person is, without booking anyone in advance. Where a perfect record is required, many services use it alongside human support." },
+      { "q": "Where is our data stored, and who processes it?", "a": "Accounts and saved transcripts are stored in the EU (Frankfurt). Audio is processed in real time and not kept on our servers. Our privacy policy lists every company that processes data. Nothing is used to train AI models." },
+      { "q": "Can one person buy Captio AI Plus themselves?", "a": "Yes, inside the app. Organization licenses are for when an organization pays on someone's behalf." }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Free pilot",
+    "title": "See it with your own people",
+    "body": "Up to 5 people, free for 30 days. The link arrives in your inbox within a minute. Questions first? Write to {address}."
+  },
+  "join": {
+    "metaTitle": "Captio AI from {org}",
+    "metaDescription": "{org} gives you Captio AI: live captions of what people say, on your own phone.",
+    "gives": "{org} gives you",
+    "title": "Live captions on your phone",
+    "pilotOffer": "The full version of Captio AI, free for {days} days.",
+    "paidOffer": "The full version of Captio AI until {date}, paid for by {org}.",
+    "about": "Captions of what people say, as they speak, in 60+ languages.",
+    "steps": ["Continue with Apple or Google below", "Get Captio AI from the App Store or Google Play", "Sign in to the app with the same account"],
+    "continueApple": "Continue with Apple",
+    "continueGoogle": "Continue with Google",
+    "signingIn": "Signing in…",
+    "alreadyUse": "Already use Captio AI? Continue with the account you use in the app.",
+    "nothingToPay": "Nothing to pay. It simply ends after the free days.",
+    "privacyNote": "{org} only sees how many people joined and how much Captio AI was used in total, never what was said.",
+    "privacyLink": "Privacy policy",
+    "joined": "You're in",
+    "alreadyJoined": "You're already in",
+    "until": "You have the full version of Captio AI until {date}.",
+    "getAppStore": "Get Captio AI on the App Store",
+    "getGooglePlay": "Get Captio AI on Google Play",
+    "phoneApp": "Captio AI is a phone app: get it on your iPhone or Android phone.",
+    "thenSignIn": "Then sign in to Captio AI with the same {provider} account. Already have the app? Close it and open it again.",
+    "endedTitle": "Your free days have ended",
+    "endedBody": "Your Captio AI from {org} ended on {date}. Ask {org} about keeping it.",
+    "closed": {
+      "fullTitle": "All places are taken",
+      "full": "All {seats} places from {org} are taken. Ask {org} about more places.",
+      "stoppedTitle": "This link has been closed",
+      "stopped": "Ask {org} for a new one.",
+      "expiredTitle": "This pilot link has expired",
+      "expired": "Ask {org} for a new one.",
+      "endedTitle": "{org}'s licenses have ended",
+      "ended": "Ask {org} whether they're renewing Captio AI."
+    },
+    "failures": {
+      "full": "All places from {org} are taken. Ask {org} about more places.",
+      "stopped": "This link has been closed. Ask {org} for a new one.",
+      "linkExpired": "This pilot link has expired. Ask {org} for a new one.",
+      "ended": "{org}'s licenses have ended.",
+      "otherOrg": "Your account already gets Captio AI through another organization.",
+      "hadPilot": "This account has already had a free pilot. Ask {org} about keeping Captio AI.",
+      "notFound": "This link doesn't work. Ask whoever sent it for a new one.",
+      "signInFailed": "Signing in didn't work. Please try again.",
+      "couldNotAdd": "Couldn't add you just now. Please try again.",
+      "generic": "Something went wrong. Please try again."
+    },
+    "invalidTitle": "This link doesn't work",
+    "invalidBody": "Check that it was copied in full, or ask whoever sent it for a new one.",
+    "errorTitle": "Couldn't load this page",
+    "errorBody": "Please try again in a moment."
+  }
+}

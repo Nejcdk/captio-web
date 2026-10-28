@@ -1,26 +1,29 @@
 // Checks the translations of the home page and the feature pages
-// (src/i18n/messages/<code>.json) against the English source (en.json).
+// (src/i18n/messages/<code>.json) and of /organizations + /o/<code>
+// (src/i18n/organizations/<code>.json) against their English sources (en.json).
 //
 //   node scripts/i18n-check.mjs          every language
 //   node scripts/i18n-check.mjs de fr    only these
 //
 // Errors (exit 1): invalid JSON, a key or list item missing or extra, an empty
 // text where English has one, "Captio AI" dropped or changed, the hero title
-// without its two [underlined] phrases, a middle dot. Warnings: text left in
-// English.
+// without its two [underlined] phrases (organizations: one), a {placeholder}
+// missing or added, a middle dot. Warnings: text left in English.
 import { readFileSync, existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 
 const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
-const dir = path.join(root, "src/i18n/messages");
+const SETS = [
+  { name: "messages", dir: path.join(root, "src/i18n/messages"), hero: (tr) => tr.home?.heroTitle, phrases: 2, heroKey: "home.heroTitle" },
+  { name: "organizations", dir: path.join(root, "src/i18n/organizations"), hero: (tr) => tr.hero?.title, phrases: 1, heroKey: "hero.title" },
+];
 const localesSrc = readFileSync(path.join(root, "src/i18n/locales.ts"), "utf8");
 const allCodes = [...localesSrc.matchAll(/\{ code: "([a-z]{2})"/g)].map((m) => m[1]).filter((c) => c !== "en");
 
 // Words that are the same in every language (brands, formats, the FAQ label).
-const SAME_OK = /^(FAQ|Blog|Captio AI|App Store|Google Play|iPhone|Android|\d+\+?.*)$/;
+const SAME_OK = /^(FAQ|Blog|Captio AI|App Store|Google Play|iPhone|Android|Ana|\d+\+?.*)$/;
 
-const en = JSON.parse(readFileSync(path.join(dir, "en.json"), "utf8"));
 const codes = process.argv.slice(2).length ? process.argv.slice(2) : allCodes;
 
 let errors = 0;
@@ -37,6 +40,8 @@ function walk(src, tr, at, report) {
     if (brand(src) > 0 && brand(tr) === 0) report.error(`${at}: "Captio AI" missing`);
     if (/\bCaptio\b(?! AI)/.test(tr)) report.error(`${at}: "Captio" without "AI"`);
     if (src !== "" && tr === src && !SAME_OK.test(src)) report.warn(`${at}: same as English`);
+    const names = (s) => [...s.matchAll(/\{(\w+)\}/g)].map((m) => m[1]).sort().join(",");
+    if (names(src) !== names(tr)) report.error(`${at}: placeholders {${names(src)}} expected, found {${names(tr)}}`);
     return;
   }
   if (Array.isArray(src)) {
@@ -53,30 +58,34 @@ function walk(src, tr, at, report) {
   for (const k of Object.keys(tr)) if (!(k in src)) report.error(`${at}.${k}: not in English`);
 }
 
-for (const code of codes) {
-  const file = path.join(dir, `${code}.json`);
-  const lines = [];
-  const report = {
-    error: (m) => { errors++; lines.push(`  ✗ ${m}`); },
-    warn: (m) => { warnings++; lines.push(`  ! ${m}`); },
-  };
-  if (!existsSync(file)) {
-    report.error("file missing");
-  } else {
-    let tr;
-    try {
-      tr = JSON.parse(readFileSync(file, "utf8"));
-    } catch (e) {
-      report.error(`invalid JSON: ${e.message}`);
+for (const set of SETS) {
+  const en = JSON.parse(readFileSync(path.join(set.dir, "en.json"), "utf8"));
+  console.log(`── ${set.name}`);
+  for (const code of codes) {
+    const file = path.join(set.dir, `${code}.json`);
+    const lines = [];
+    const report = {
+      error: (m) => { errors++; lines.push(`  ✗ ${m}`); },
+      warn: (m) => { warnings++; lines.push(`  ! ${m}`); },
+    };
+    if (!existsSync(file)) {
+      report.error("file missing");
+    } else {
+      let tr;
+      try {
+        tr = JSON.parse(readFileSync(file, "utf8"));
+      } catch (e) {
+        report.error(`invalid JSON: ${e.message}`);
+      }
+      if (tr) {
+        walk(en, tr, code, report);
+        const hero = set.hero(tr) ?? "";
+        if ((hero.match(/\[[^\[\]]+\]/g) ?? []).length !== set.phrases) report.error(`${code}.${set.heroKey}: needs exactly ${set.phrases} [phrase${set.phrases > 1 ? "s" : ""}]`);
+      }
     }
-    if (tr) {
-      walk(en, tr, code, report);
-      const hero = tr.home?.heroTitle ?? "";
-      if ((hero.match(/\[[^\[\]]+\]/g) ?? []).length !== 2) report.error(`${code}.home.heroTitle: needs exactly two [phrases]`);
-    }
+    console.log(`${lines.some((l) => l.includes("✗")) ? "✗" : "✓"} ${code}`);
+    for (const l of lines) console.log(l);
   }
-  console.log(`${lines.some((l) => l.includes("✗")) ? "✗" : "✓"} ${code}`);
-  for (const l of lines) console.log(l);
 }
 
 console.log(`\n${codes.length} languages, ${errors} errors, ${warnings} warnings`);
