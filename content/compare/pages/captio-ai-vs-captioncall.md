@@ -3,15 +3,15 @@ title: "Captio AI vs CaptionCall"
 description: "Captio AI vs CaptionCall Mobile by Sorenson: phone-call captions vs captions for people in the room, languages, offline use, US-only FCC funding and price."
 kind: versus
 apps: [captio-ai, captioncall]
-rows: [platforms, availability, phoneCalls, roomCaptions, humanCaptioners, languages, translation, offline, speakerLabels, saveTranscripts, summaries, display, privacy, account, accessibilityFunding, freePlan, price]
+rows: [platforms, availability, phoneCalls, roomCaptions, humanCaptioners, languages, translation, offline, speakerLabels, voiceNames, speakerDirection, saveTranscripts, summaries, display, privacy, account, accessibilityFunding, freePlan, price]
 published: 2026-10-28
 updated: 2026-10-28
-answer: "Use CaptionCall if you live in the US and need captions on phone calls: CaptionCall Mobile is free through the FCC for eligible users, and Sorenson also provides a captioned home phone at no cost. Use Captio AI for conversations with people in the same room, which CaptionCall doesn't caption, or if you live outside the US. In the US you may want both: one for calls, one for the room."
+answer: "Use CaptionCall if you live in the US and need captions on phone calls: CaptionCall Mobile is free through the FCC for eligible users, and Sorenson also provides a captioned home phone at no cost. Use Captio AI for conversations with people in the same room, which CaptionCall doesn't caption, or if you live outside the US. In the US you may want both: one for calls, one for the room, where on iPhone Captio AI can show who is talking by name."
 picks:
   - app: captioncall
     text: "You live in the US and need captions on phone calls, voicemail or 911, on your cell phone or on a free captioned home phone."
   - app: captio-ai
-    text: "You need captions for people in the same room, live translation or recordings you can summarise, or you live outside the US."
+    text: "You need captions for people in the same room, want to see where a voice comes from (iPhone 16 and later), need live translation or recordings you can summarise, or you live outside the US."
 differences:
   - title: "Does CaptionCall caption in-person conversations?"
     text: "No. CaptionCall says its app only captions calls that go through your CaptionCall number, and none of its pages describe captioning people in the same room. Captio AI is made for that: it captions speech around you through the phone's microphone."
@@ -42,14 +42,14 @@ better:
     - text: "It works with Bluetooth hearing aids, AirPods and other headphones, and incoming calls can show on a smartwatch."
       sources: [captioncall:s6, captioncall:s31]
   captio-ai:
-    - text: "It captions people in the same room, which CaptionCall doesn't do."
-      sources: [captio-ai:roomCaptions, captioncall:roomCaptions]
-    - text: "It labels who is talking, and on iPhone can show their names."
-      sources: [captio-ai:speakerLabels]
+    - text: "It captions people in the same room, which CaptionCall doesn't do, and keeps the recording with its audio for summaries and to-dos."
+      sources: [captio-ai:roomCaptions, captioncall:roomCaptions, captio-ai:saveTranscripts, captio-ai:summaries]
+    - text: "Recognize Voices (iPhone): save someone's voice once and their name shows on every line they say, like \"Mum\" instead of \"Speaker 2\", live and in saved recordings. Voiceprints stay on the iPhone."
+      sources: [captio-ai:voiceNames]
+    - text: "Speaker Direction (iPhone 16 and later): with the phone flat on the table, a wave at the edge of the captions shows which side the voice comes from, so you know whose face to look at."
+      sources: [captio-ai:speakerDirection]
     - text: "It captions 60+ languages and translates conversations live."
       sources: [captio-ai:languages, captio-ai:translation]
-    - text: "It keeps recordings with their audio, transcribes audio and video files, and writes summaries and to-dos."
-      sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries]
     - text: "It works outside the US, and you can use it without an account."
       sources: [captio-ai:availability, captio-ai:account]
 situations:
@@ -70,7 +70,7 @@ situations:
   - icon: dinner
     title: "A family dinner or a group"
     pick: captio-ai
-    text: "Captio AI captions the table and labels each speaker. CaptionCall is for phone calls."
+    text: "Captio AI captions the table and labels each speaker. On iPhone it names the people whose voices you saved, and on iPhone 16 and later it shows which side a voice comes from. CaptionCall is for phone calls."
     link: /use-cases/group-settings
   - icon: lecture
     title: "A class, lecture or meeting in the room"
@@ -98,7 +98,7 @@ faqs:
   - q: "Does CaptionCall work without internet?"
     a: "No. CaptionCall Mobile needs Wi-Fi or mobile data for captions, also for 911 calls. Captio AI needs internet for live captions too; offline it keeps recording and transcribes when the phone is back online."
   - q: "Do I need both CaptionCall and Captio AI?"
-    a: "If you live in the US, you may: a call-caption service like CaptionCall for phone calls, and a live caption app like Captio AI for people in the same room. They do different jobs."
+    a: "If you live in the US, you may: a call-caption service like CaptionCall for phone calls, and a live caption app like Captio AI for people in the same room. At a family dinner, Captio AI on iPhone can show who is talking by name, and on iPhone 16 and later which side the voice comes from. They do different jobs."
 tags: [captioncall, captioncall mobile, olelo, sorenson captioncall, captioncall in person, captioncall alternative, captio ai vs captioncall, call captioning app]
 related: [captio-ai-vs-innocaption, captio-ai-vs-nagish, captio-ai-vs-rogervoice]
 ---

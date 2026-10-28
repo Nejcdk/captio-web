@@ -3,22 +3,22 @@ title: "Captio AI vs Android Live Caption"
 description: "Captio AI and Android Live Caption compared: captions for people in the room or for audio on the phone, calls, offline use, languages, saving and price."
 kind: versus
 apps: [captio-ai, android-live-caption]
-rows: [platforms, deviceRequirements, roomCaptions, mediaOnDevice, phoneCalls, videoCalls, languages, offline, speakerLabels, translation, saveTranscripts, fileUpload, summaries, customWords, display, privacy, freePlan, price]
+rows: [platforms, deviceRequirements, roomCaptions, mediaOnDevice, phoneCalls, videoCalls, languages, offline, speakerLabels, voiceNames, speakerDirection, translation, saveTranscripts, fileUpload, summaries, customWords, display, privacy, freePlan, price]
 published: 2026-10-28
 updated: 2026-10-28
-answer: "They do different jobs. Android Live Caption is free, works without internet, and captions audio playing on the phone, such as videos, voice messages and calls; it doesn't caption people talking in the room. Captio AI captions the people around you through the microphone, on Android and iPhone, so you might use Live Caption for what plays on your phone and a live caption app such as Captio AI or Google's Live Transcribe for the room."
+answer: "They do different jobs. Android Live Caption is free, works without internet, and captions audio playing on the phone, such as videos, voice messages and calls; it doesn't caption people talking in the room. Captio AI captions the people around you through the microphone, on Android and iPhone (on iPhone it can also name them by their voice), so you might use Live Caption for what plays on your phone and a live caption app such as Captio AI or Google's Live Transcribe for the room."
 picks:
   - app: android-live-caption
     text: "You want captions for videos, podcasts, voice messages or one-to-one calls on your Android phone, free and without internet."
   - app: captio-ai
-    text: "You want captions of the people talking around you, with who is speaking, live translation, and recordings you can keep and summarise."
+    text: "You want captions of the people talking around you, with who is speaking (by name on iPhone), live translation, and recordings you can keep and summarise."
 differences:
   - title: "Does Android Live Caption caption people in the room?"
     text: "No. Live Caption captions speech in audio playing on the phone, such as videos, podcasts, audio messages and calls. For people talking around you, Google makes a separate app, Live Transcribe, and Captio AI does that job too, through the phone's microphone."
     sources: [android-live-caption:roomCaptions, android-live-caption:mediaOnDevice, captio-ai:roomCaptions]
-  - title: "When would you use Live Caption and a caption app together?"
-    text: "When you need captions both for what plays on your phone and for the people around you. Live Caption covers videos, voice messages and one-to-one calls; Captio AI covers the conversation at the table or in a lecture, and keeps the recording."
-    sources: [android-live-caption:mediaOnDevice, android-live-caption:phoneCalls, captio-ai:roomCaptions, captio-ai:saveTranscripts]
+  - title: "Which one shows who is talking at a busy table?"
+    text: "Not Live Caption: it doesn't caption the room, and Google's help page describes no labels for who is speaking. Captio AI captions the table and labels each speaker, on Android and iPhone. On iPhone, Recognize Voices shows the names of people whose voices you saved, and on iPhone 16 and later Speaker Direction shows which side a voice comes from."
+    sources: [android-live-caption:groupConversations, android-live-caption:speakerLabels, captio-ai:speakerLabels, captio-ai:voiceNames, captio-ai:speakerDirection]
   - title: "Which one works without internet?"
     text: "Live Caption. Google says it uses no mobile data or internet connection, after a one-time Wi-Fi download of the language pack. Captio AI needs a connection for live captions; without one it keeps recording and transcribes when the phone is back online."
     sources: [android-live-caption:offline, captio-ai:offline]
@@ -46,14 +46,14 @@ better:
   captio-ai:
     - text: "It captions the people talking around you, which Live Caption doesn't do."
       sources: [captio-ai:roomCaptions, android-live-caption:roomCaptions]
-    - text: "It labels who is talking, live and in saved recordings, and on iPhone can show their names."
-      sources: [captio-ai:speakerLabels]
-    - text: "It translates conversations live, next to the original captions, with a two-way mode."
-      sources: [captio-ai:translation]
+    - text: "It labels who is talking, live and in saved recordings. On iPhone, Recognize Voices shows names like \"Mum\" instead of \"Speaker 2\" for people whose voices you saved; the voiceprints stay on the iPhone."
+      sources: [captio-ai:speakerLabels, captio-ai:voiceNames]
+    - text: "Speaker Direction (iPhone 16 and later): with the phone flat on the table, a wave at the edge of the captions shows which side a voice comes from, in that speaker's colour."
+      sources: [captio-ai:speakerDirection]
     - text: "It keeps recordings with their audio, transcribes audio and video files, and writes summaries and to-dos."
       sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries]
-    - text: "It captions 60+ languages, and runs on iPhone as well as Android."
-      sources: [captio-ai:languages, captio-ai:platforms, android-live-caption:languages]
+    - text: "It captions 60+ languages, translates conversations live with a two-way mode, and runs on iPhone as well as Android."
+      sources: [captio-ai:languages, captio-ai:translation, captio-ai:platforms, android-live-caption:languages]
 situations:
   - icon: video
     title: "A video, podcast or voice message"
@@ -68,7 +68,7 @@ situations:
   - icon: dinner
     title: "A family dinner or a group"
     pick: captio-ai
-    text: "Live Caption doesn't caption the room. Captio AI captions the table and labels each speaker."
+    text: "Live Caption doesn't caption the room. Captio AI captions the table and labels each speaker; on iPhone it also names people it knows by voice and, on iPhone 16 and later, shows which side a voice comes from."
     link: /use-cases/group-settings
   - icon: doctor
     title: "A doctor's appointment"
@@ -95,8 +95,8 @@ faqs:
     a: "Yes, on Pixel 4 and later and selected phones. Pixel 6 and later caption 15 languages, Pixel 4 and 5 caption 7 including Spanish and Hindi, and Pixel 2 and 3 caption English only. Captio AI captions 60+ languages."
   - q: "Can Live Caption caption phone calls on a Samsung Galaxy?"
     a: "Google says call captions work on Pixel and selected Android phones, and Samsung says Live Caption only works for select devices, so it depends on your model. It isn't intended for calls with more than one other person. Captio AI doesn't caption calls."
-  - q: "Does Live Caption keep a transcript of a video or call?"
-    a: "No. Google says captions are processed on the phone and never stored. Captio AI saves each recording with its audio, and can transcribe a saved audio or video file and turn it into a summary."
+  - q: "Can Live Caption show who is talking at a family dinner?"
+    a: "No. Live Caption doesn't caption the room, and Google's help page describes no labels for who is speaking. Captio AI captions the table and labels each speaker on Android and iPhone. On iPhone, Recognize Voices shows the names of people whose voices you saved, and on iPhone 16 and later Speaker Direction shows which side of the table a voice comes from."
   - q: "Is Android Live Caption free?"
     a: "Yes, it is part of Android on Pixel and selected phones, with nothing to buy. Captio AI's free plan gives 100 free credits a day; Captio AI Plus costs US$14.99 a month or US$79.99 a year on the US App Store (October 2026), and prices differ by country."
   - q: "Should I use Live Caption and a caption app together?"

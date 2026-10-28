@@ -3,15 +3,15 @@ title: "Captio AI vs Google Translate"
 description: "Captio AI and Google Translate compared for reading and translating a conversation: captions, Live translate, offline use, who is talking and price."
 kind: versus
 apps: [captio-ai, google-translate]
-rows: [platforms, deviceRequirements, roomCaptions, translation, languages, offline, speakerLabels, groupConversations, saveTranscripts, export, fileUpload, summaries, customWords, display, privacy, account, freePlan, price]
+rows: [platforms, deviceRequirements, roomCaptions, translation, languages, offline, speakerLabels, voiceNames, speakerDirection, groupConversations, saveTranscripts, export, fileUpload, summaries, customWords, display, privacy, account, freePlan, price]
 published: 2026-10-28
 updated: 2026-10-28
-answer: "Use Google Translate if you mainly need translation: it is free, Live translate covers 73 languages, typed text up to 249, and it translates text offline, and conversations offline on a Pixel 9, 10 or 11. Use Captio AI if you want to read a conversation as live captions, see who is talking, and keep the recording; it captions and translates in 60+ languages, free with 100 free credits a day."
+answer: "Use Google Translate if you mainly need translation: it is free, Live translate covers 73 languages, typed text up to 249, and it translates text offline, and conversations offline on a Pixel 9, 10 or 11. Use Captio AI if you want to read a conversation as live captions, see who is talking, by name on iPhone with Recognize Voices, and keep the recording; it captions and translates in 60+ languages, free with 100 free credits a day."
 picks:
   - app: google-translate
     text: "You mainly need translation, want it free, also want typed text or text in photos translated, or have a Pixel 9, 10 or 11 and may lose signal."
   - app: captio-ai
-    text: "You want captions of a conversation as it happens, follow a group, want to see who is talking, or want to keep recordings and turn them into notes."
+    text: "You want captions of a conversation as it happens, follow a group and see which side a voice comes from (iPhone 16 and later), or want to keep recordings and turn them into notes."
 differences:
   - title: "Can Google Translate be used as live captions?"
     text: "Partly. Google built Transcribe and Live translate to translate: Transcribe shows a running translation of a speaker and can show the original words, and Live translate has a Text only mode, but Google doesn't describe either as captions in the same language. Captio AI shows speech in the room as text while the person is still talking, and can translate it too."
@@ -22,9 +22,9 @@ differences:
   - title: "Does Google Translate work offline?"
     text: "For text, yes, on any phone with downloaded languages; live translation works offline only on Pixel 9, 10 and 11, in 10 language pairs with English. Captio AI needs internet for live captions; without it, it keeps recording and transcribes when the phone is back online."
     sources: [google-translate:offline, captio-ai:offline]
-  - title: "Which one shows who is talking?"
-    text: "Captio AI labels each speaker, live and in saved recordings, and on iPhone can show the names of people whose voices you saved. Google doesn't describe speaker labels; Live translate's Face to face mode gives each of two people half of the screen."
-    sources: [captio-ai:speakerLabels, google-translate:speakerLabels]
+  - title: "Does Google Translate show who is talking?"
+    text: "Google's pages don't describe speaker labels, remembering people's voices or showing where a voice comes from. Live translate's Face to face mode gives each of two people half of the screen. Captio AI labels each speaker, and on iPhone, Recognize Voices shows the names of people whose voices you saved, like \"Mum\" instead of \"Speaker 2\". On iPhone 16 and later, Speaker Direction shows which side a voice comes from, in Live Captions and Live Translator, so across a table you know whose face to look at."
+    sources: [google-translate:speakerLabels, captio-ai:speakerLabels, captio-ai:voiceNames, captio-ai:speakerDirection]
   - title: "Can you keep the conversation afterwards?"
     text: "Both can save, in different ways. Google Translate's Transcribe lets you save a transcript and copy or share its text, and Google doesn't describe saving Live translate sessions. Captio AI saves recordings with their audio, synced to your account, and can turn them into a summary or to-dos."
     sources: [google-translate:saveTranscripts, google-translate:export, captio-ai:saveTranscripts, captio-ai:summaries]
@@ -46,8 +46,10 @@ better:
   captio-ai:
     - text: "It is made for captions: speech in the room appears as text while the person is still talking, with or without translation."
       sources: [captio-ai:roomCaptions, captio-ai:translation]
-    - text: "It labels who is talking, and on iPhone can show their names."
-      sources: [captio-ai:speakerLabels]
+    - text: "On iPhone, Recognize Voices shows names like \"Mum\" instead of \"Speaker 2\" on every line a saved person says, live and in saved recordings. The voiceprints stay on the iPhone."
+      sources: [captio-ai:voiceNames]
+    - text: "On iPhone 16 and later, Speaker Direction shows which side a voice comes from, also in Live Translator, so in a two-way conversation across a table you know who just spoke."
+      sources: [captio-ai:speakerDirection]
     - text: "It saves recordings with their audio, transcribes audio and video files, and writes summaries and to-dos."
       sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries]
     - text: "You can add names and specialist words so they are recognised, and change text size, colours and contrast."
@@ -65,7 +67,7 @@ situations:
   - icon: dinner
     title: "A family dinner or a group"
     pick: captio-ai
-    text: "Captio AI captions the whole table from one phone and labels each speaker."
+    text: "Captio AI captions the whole table from one phone and labels each speaker. On iPhone, Recognize Voices shows names like \"Mum\", and on iPhone 16 and later Speaker Direction shows which side a voice comes from."
     link: /use-cases/group-settings
   - icon: lecture
     title: "A lecture in your own language"
@@ -92,7 +94,7 @@ faqs:
   - q: "Can Google Translate transcribe a lecture in English?"
     a: "Google describes Transcribe as translating a lecture or speech in another language as it happens, and you can save the transcript. It doesn't describe captions in the same language, and Google's 2020 post said Transcribe works best with one person speaking at a time in a quiet room. Captio AI captions a lecture as it is spoken and keeps the recording with its audio."
   - q: "Does Google Translate show who is speaking at a dinner or in a meeting?"
-    a: "Google doesn't describe speaker labels in Google Translate; Live translate takes turns between two languages. Captio AI labels each speaker and, on iPhone, can show the names of people whose voices you saved."
+    a: "Google's pages don't describe speaker labels in Google Translate, and Live translate is a two-language conversation where people take turns. Captio AI labels each speaker. On iPhone, Recognize Voices shows the names of people whose voices you saved, and on iPhone 16 and later Speaker Direction shows which side of the table a voice comes from."
   - q: "Can I use Google Translate at a doctor's appointment in Spanish?"
     a: "Live translate can translate a two-language conversation, such as Spanish and English, out loud and on screen. Google doesn't describe adding medical words. Captio AI lets you add medical terms, translates live, and keeps the recording so you can read the appointment again."
   - q: "Does Google Translate's Live translate work in the UK and Europe?"

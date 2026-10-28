@@ -3,15 +3,15 @@ title: "Captio AI vs Google Live Transcribe"
 description: "Captio AI and Google Live Transcribe side by side: iPhone or Android, captions without internet, who is talking, translation, sound alerts and price."
 kind: versus
 apps: [captio-ai, live-transcribe]
-rows: [platforms, deviceRequirements, roomCaptions, languages, offline, speakerLabels, translation, saveTranscripts, fileUpload, summaries, customWords, display, soundAlerts, signLanguage, privacy, freePlan, price]
+rows: [platforms, deviceRequirements, roomCaptions, languages, offline, speakerLabels, voiceNames, speakerDirection, translation, saveTranscripts, fileUpload, summaries, customWords, display, soundAlerts, signLanguage, privacy, freePlan, price]
 published: 2026-10-28
 updated: 2026-10-28
-answer: "Use Google Live Transcribe if you have an Android phone and want captions that cost nothing, work without internet in downloaded languages, and come with alerts for sounds like a doorbell. Use Captio AI if you have an iPhone, where Live Transcribe isn't available, or if you need to see who is talking, live translation, and recordings you can keep and summarise."
+answer: "Use Google Live Transcribe if you have an Android phone and want captions that cost nothing, work without internet in downloaded languages, and come with alerts for sounds like a doorbell. Use Captio AI if you have an iPhone, where Live Transcribe isn't available, or if you need live translation, recordings you can keep and summarise, and captions that show who is talking, by name on iPhone with Recognize Voices."
 picks:
   - app: live-transcribe
     text: "You use Android, want free captions with no daily limit, often have no signal, or want alerts for alarms, a doorbell or a baby crying."
   - app: captio-ai
-    text: "You use an iPhone, follow group conversations, need live translation, or want to keep recordings and turn them into notes and to-dos."
+    text: "You use an iPhone, want each person's name in the captions of a group conversation (Recognize Voices on iPhone), need live translation, or want to keep recordings and turn them into notes and to-dos."
 differences:
   - title: "Does Live Transcribe work on iPhone?"
     text: "No. Google makes Live Transcribe for Android, and it needs Android 12 or later on Google Play. Captio AI runs on iPhone and Android, so it also works when someone in the family has the other kind of phone."
@@ -19,9 +19,9 @@ differences:
   - title: "Which one works without internet?"
     text: "Live Transcribe. On Pixel and select phones with Android 12 or later you can download languages and caption offline. Captio AI needs a connection for live captions; without one it keeps recording and transcribes when the phone is back online."
     sources: [live-transcribe:offline, captio-ai:offline]
-  - title: "Which one shows who is talking?"
-    text: "Captio AI labels each speaker in live captions and saved recordings, and on iPhone can show the names of people whose voices you saved. Google's help page and Play listing don't describe speaker labels for Live Transcribe."
-    sources: [captio-ai:speakerLabels, live-transcribe:speakerLabels]
+  - title: "Can Live Transcribe tell you who is talking by name?"
+    text: "Not as Google describes it: Live Transcribe's help page and Play listing don't describe showing who is talking, or remembering anyone's voice. Captio AI labels each speaker, and with Recognize Voices on iPhone it shows the name of someone whose voice you saved, like \"Mum\" instead of \"Speaker 2\", live and in saved recordings. On iPhone 16 and later, Speaker Direction adds a wave on the side of the captions the voice comes from."
+    sources: [live-transcribe:speakerLabels, captio-ai:voiceNames, captio-ai:speakerDirection]
   - title: "Can either one translate a conversation?"
     text: "Captio AI translates speech live, next to the original captions, with a two-way mode. Google doesn't describe translating speech in Live Transcribe; its translation feature turns American Sign Language into English text on a Pixel 11."
     sources: [captio-ai:translation, live-transcribe:translation, live-transcribe:signLanguage]
@@ -44,16 +44,16 @@ better:
     - text: "Google lists more languages: over 80 languages and dialects, against Captio AI's 60+."
       sources: [live-transcribe:languages, captio-ai:languages]
   captio-ai:
-    - text: "It runs on iPhone as well as Android."
-      sources: [captio-ai:platforms]
-    - text: "It labels who is talking, and on iPhone can show their names."
-      sources: [captio-ai:speakerLabels]
+    - text: "It runs on iPhone as well as Android, and on iPhone keeps captioning with the screen locked."
+      sources: [captio-ai:platforms, captio-ai:s10]
+    - text: "Recognize Voices (iPhone): save someone's voice once and their name, like \"Mum\" instead of \"Speaker 2\", shows on every line they say, live and in saved recordings. Voiceprints stay on the iPhone."
+      sources: [captio-ai:voiceNames]
+    - text: "Speaker Direction (iPhone 16 and later): with the phone flat on the table, a wave at the edge of the captions shows which side a voice comes from."
+      sources: [captio-ai:speakerDirection]
     - text: "It translates conversations live."
       sources: [captio-ai:translation]
     - text: "It keeps recordings with their audio, transcribes files, and writes summaries and to-dos."
       sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries]
-    - text: "On iPhone it keeps captioning with the screen locked."
-      sources: [captio-ai:s10]
 situations:
   - icon: doctor
     title: "A doctor's appointment with weak signal"
@@ -63,7 +63,7 @@ situations:
   - icon: dinner
     title: "A family dinner or a group"
     pick: captio-ai
-    text: "Captio AI labels each speaker, so you can see who said what at the table."
+    text: "Captio AI labels each speaker. On iPhone, Recognize Voices shows people whose voices you saved by name, and on iPhone 16 and later Speaker Direction shows which side of the table a voice comes from."
     link: /use-cases/group-settings
   - icon: meeting
     title: "A team meeting you need notes from"
@@ -89,7 +89,7 @@ faqs:
   - q: "Does Live Transcribe work offline?"
     a: "Yes, in languages you download, on Pixel and select phones with Android 12 or later. Google's help page says older phones with Android 8 to 11 can only use English offline. Captio AI needs internet for live captions; without it, it keeps recording and transcribes when the phone is back online."
   - q: "Does Live Transcribe show who is speaking at a family dinner or in a meeting?"
-    a: "Google's help page and Play listing don't describe speaker labels for Live Transcribe. Captio AI labels each speaker (Speaker 1, Speaker 2) and, on iPhone, can show the names of people whose voices you saved."
+    a: "Google's help page and Play listing don't describe speaker labels for Live Transcribe, or recognising people by their voice. Captio AI labels each speaker (Speaker 1, Speaker 2). With Recognize Voices on iPhone, people whose voices you saved show by name, live and in saved recordings, and on iPhone 16 and later Speaker Direction shows which side of the table a voice comes from."
   - q: "Can Live Transcribe translate a Spanish conversation into English?"
     a: "Google doesn't describe translating speech in Live Transcribe; you can pick a primary and a secondary language for the captions. Captio AI translates conversations live and shows the translation next to the original captions."
   - q: "How long does Live Transcribe keep transcripts?"

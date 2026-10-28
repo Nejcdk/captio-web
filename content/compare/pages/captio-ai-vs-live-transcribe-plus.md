@@ -3,15 +3,15 @@ title: "Captio AI vs Live Transcribe +"
 description: "Captio AI and Live Transcribe + (Plus) by Zerovik side by side: iPhone or Android, captions offline, who is talking, translation, free use and prices."
 kind: versus
 apps: [captio-ai, live-transcribe-plus]
-rows: [platforms, deviceRequirements, roomCaptions, languages, offline, speakerLabels, groupConversations, translation, saveTranscripts, export, fileUpload, summaries, customWords, display, privacy, freePlan, price]
+rows: [platforms, deviceRequirements, roomCaptions, languages, offline, speakerLabels, voiceNames, speakerDirection, groupConversations, translation, saveTranscripts, export, fileUpload, summaries, customWords, display, privacy, freePlan, price]
 published: 2026-10-28
 updated: 2026-10-28
-answer: "Pick Live Transcribe + if you use an iPhone or iPad and need live captions without internet, which its App Store listing says it does. Pick Captio AI if you also use Android, need to see who is talking, want live translation or AI summaries, or want a free plan you can use every day rather than 5 free transcriptions."
+answer: "Pick Live Transcribe + if you use an iPhone or iPad and need live captions without internet, which its App Store listing says it does. Pick Captio AI if you also use Android, need to see who is talking (by name on iPhone, with Recognize Voices), want live translation or AI summaries, or want a free plan you can use every day rather than 5 free transcriptions."
 picks:
   - app: live-transcribe-plus
     text: "You use an iPhone or iPad, often have no signal, and want a plain caption screen with a bigger font and light or dark mode."
   - app: captio-ai
-    text: "You use Android or iPhone, follow group conversations, need live translation, or want summaries and to-dos from your recordings."
+    text: "You use Android or iPhone, follow group conversations and want people named by their voice (iPhone), need live translation, or want summaries and to-dos from your recordings."
 differences:
   - title: "Does Live Transcribe + work on Android?"
     text: "No Android version was found. Zerovik makes Live Transcribe + for iPhone and iPad, and a Google Play search finds no app by Zerovik. Captio AI runs on iPhone, iPad and Android."
@@ -22,9 +22,9 @@ differences:
   - title: "How much can you use for free?"
     text: "Live Transcribe + is free for your first 5 transcriptions, then needs a subscription; the US App Store lists \"Full Access\" purchases from US$3.99 to US$79.99. Captio AI gives 100 free credits a day and 3 AI summaries in total. Captio AI Plus costs US$14.99 a month or US$79.99 a year on the US App Store (October 2026), with no free trial."
     sources: [live-transcribe-plus:freePlan, live-transcribe-plus:price, captio-ai:freePlan, captio-ai:price]
-  - title: "Which one shows who is talking?"
-    text: "Captio AI labels each speaker in live captions and saved recordings, and on iPhone can show the names of people whose voices you saved. Zerovik doesn't describe speaker labels for Live Transcribe +."
-    sources: [captio-ai:speakerLabels, live-transcribe-plus:speakerLabels]
+  - title: "Can Live Transcribe + tell you who is talking by name?"
+    text: "Zerovik's pages don't describe speaker labels or recognising voices for Live Transcribe +. Captio AI labels each speaker, live and in saved recordings. With Recognize Voices (iPhone), a person whose voice you saved gets their name on every line they say, and with Speaker Direction (iPhone 16 and later) a wave shows which side of the table a voice comes from."
+    sources: [live-transcribe-plus:speakerLabels, captio-ai:speakerLabels, captio-ai:voiceNames, captio-ai:speakerDirection]
   - title: "Can either one translate a conversation live?"
     text: "Captio AI translates speech live, next to the original captions, with a two-way mode. The App Store listing for Live Transcribe + doesn't mention translation; a 2024 post on Zerovik's website describes voice translation, and Zerovik sells a separate translator app."
     sources: [captio-ai:translation, live-transcribe-plus:translation]
@@ -42,12 +42,12 @@ better:
   captio-ai:
     - text: "It runs on Android as well as iPhone and iPad."
       sources: [captio-ai:platforms]
-    - text: "It labels who is talking, and on iPhone can show their names."
-      sources: [captio-ai:speakerLabels]
-    - text: "It translates conversations live, with a two-way mode."
-      sources: [captio-ai:translation]
-    - text: "It turns recordings into summaries, key points and to-dos."
-      sources: [captio-ai:summaries]
+    - text: "Recognize Voices (iPhone): save someone's voice once and their name shows on every line they say, like \"Mum\" instead of \"Speaker 2\", live and in saved recordings. The voiceprints stay on the iPhone."
+      sources: [captio-ai:voiceNames]
+    - text: "Speaker Direction (iPhone 16 and later): with the phone flat on the table, a wave at the edge of the captions shows which side a voice comes from, in that speaker's colour."
+      sources: [captio-ai:speakerDirection]
+    - text: "It translates conversations live, with a two-way mode, and turns recordings into summaries, key points and to-dos."
+      sources: [captio-ai:translation, captio-ai:summaries]
     - text: "Its free plan comes back every day: 100 free credits a day, where Live Transcribe + gives 5 free transcriptions in total."
       sources: [captio-ai:freePlan, live-transcribe-plus:freePlan]
 situations:
@@ -59,7 +59,7 @@ situations:
   - icon: dinner
     title: "A family dinner or a group"
     pick: captio-ai
-    text: "Captio AI labels each speaker, so you can see who said what at the table."
+    text: "Captio AI labels each speaker and, on iPhone, names the people whose voices you saved. On iPhone 16 and later, a wave shows which side of the table a voice comes from."
     link: /use-cases/group-settings
   - icon: travel
     title: "Travelling abroad"
@@ -90,7 +90,7 @@ faqs:
   - q: "How much does Live Transcribe + cost in the US?"
     a: "The first 5 transcriptions are free; after that it needs a monthly or yearly subscription. The US App Store lists \"Full Access\" purchases from US$3.99 to US$79.99 (October 2026) without saying which is which. Captio AI gives 100 free credits a day and 3 AI summaries in total; Captio AI Plus is US$14.99 a month or US$79.99 a year on the US App Store, with no free trial."
   - q: "Can Live Transcribe + show who is speaking in a meeting or at a family dinner?"
-    a: "Zerovik doesn't describe speaker labels for Live Transcribe +. Captio AI labels each speaker (Speaker 1, Speaker 2) and, on iPhone, can show the names of people whose voices you saved."
+    a: "Zerovik's pages don't describe speaker labels or recognising voices for Live Transcribe +. Captio AI labels each speaker (Speaker 1, Speaker 2). With Recognize Voices (iPhone) it shows the names of people whose voices you saved instead, and with Speaker Direction (iPhone 16 and later) a wave shows which side of the table a voice comes from."
   - q: "Can Live Transcribe + translate Spanish into English?"
     a: "Its App Store listing doesn't mention translation, though a 2024 post on Zerovik's website describes voice translation; Zerovik also sells a separate translator app. Captio AI translates conversations live in 60+ languages and shows the translation next to the original captions."
   - q: "Which one is better for a doctor's appointment?"

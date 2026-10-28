@@ -3,15 +3,15 @@ title: "Captio AI vs Captify"
 description: "Captio AI and Captify side by side: captions on your phone or in smart glasses, offline use, sound alerts, who is talking, saved transcripts and price."
 kind: versus
 apps: [captio-ai, captify]
-rows: [platforms, deviceRequirements, roomCaptions, groupConversations, languages, offline, speakerLabels, translation, saveTranscripts, fileUpload, summaries, customWords, display, soundAlerts, privacy, account, freePlan, price]
+rows: [platforms, deviceRequirements, roomCaptions, groupConversations, languages, offline, speakerLabels, voiceNames, speakerDirection, translation, saveTranscripts, fileUpload, summaries, customWords, display, soundAlerts, privacy, account, freePlan, price]
 published: 2026-10-28
 updated: 2026-10-28
-answer: "Pick Captify if you want captions inside your glasses, so your eyes stay on the person, with free offline captions and sound alerts, and you are ready to buy the glasses (US$499 or US$849 at regular price). Pick Captio AI if you want captions on the phone you already have, with nothing to buy, and want to keep recordings with their audio, transcribe files and get summaries."
+answer: "Pick Captify if you want captions inside your glasses, so your eyes stay on the person, with free offline captions and sound alerts, and you are ready to buy the glasses (US$499 or US$849 at regular price). Pick Captio AI if you want captions on the phone you already have, with nothing to buy, and want to keep recordings with their audio, transcribe files and get summaries; on iPhone it also names people by their voice."
 picks:
   - app: captify
     text: "You want captions in your glasses so you can keep looking at the person, need captions with no signal, or want to see sounds like the doorbell."
   - app: captio-ai
-    text: "You want captions on the phone you already have, with no glasses to buy, plus recordings with audio, file transcription and summaries."
+    text: "You want captions on the phone you already have, with no glasses to buy, want to see which side a voice comes from (iPhone 16 and later), or want recordings with audio, file transcription and summaries."
 differences:
   - title: "Where do you read the captions?"
     text: "In the glasses with Captify, on the phone screen with Captio AI. Captify shows captions in the lenses of its own glasses, in your line of sight, so you can keep looking at the person. Captio AI shows them on the screen of your iPhone, iPad or Android phone."
@@ -25,9 +25,9 @@ differences:
   - title: "Which one tells you about sounds like the doorbell?"
     text: "Captify. It shows non-speech sounds such as doorbells, sirens, laughter and applause in the glasses, on the free plan. Captio AI captions speech only and does not alert you to other sounds."
     sources: [captify:soundAlerts, captio-ai:soundAlerts]
-  - title: "Which one shows who is talking?"
-    text: "Both, with limits on Captify. Captify added speaker labelling in February 2026, but its subscription page lists it for a Premium plan marked Coming Soon, and Captify says several people talking at once is not ideal for Captify Pro. Captio AI labels each speaker in live captions and saved recordings, and on iPhone can show the names of people whose voices you saved."
-    sources: [captify:speakerLabels, captify:groupConversations, captio-ai:speakerLabels]
+  - title: "Can Captify tell you who is talking?"
+    text: "With limits. Captify added speaker labelling in February 2026, but its subscription page lists it for a Premium plan marked Coming Soon, and Captify says several people talking at once is not ideal for Captify Pro. Its pages don't describe remembering people's voices or showing where a voice comes from. Captio AI labels each speaker; on iPhone, Recognize Voices shows the names of people whose voices you saved, live and in saved recordings. In Captify's glasses the captions keep your eyes on people; on a phone, Captio AI's Speaker Direction (iPhone 16 and later) shows which side a voice comes from, so you know whose face to look at."
+    sources: [captify:speakerLabels, captify:groupConversations, captify:s2, captio-ai:speakerLabels, captio-ai:voiceNames, captio-ai:speakerDirection]
   - title: "What happens to the conversation afterwards?"
     text: "Both save it. Captify keeps transcripts in the app; cloud sync and summaries are listed for its Premium plan, marked Coming Soon. Captio AI saves each recording with its audio in a library synced to your account, transcribes files you upload, and writes summaries, key points and to-dos."
     sources: [captify:saveTranscripts, captify:summaries, captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries]
@@ -44,16 +44,16 @@ better:
     - text: "Once you own the glasses, captions have no daily limit: the app has no in-app purchases on the US App Store, and US buyers can pay for the glasses with FSA or HSA cards."
       sources: [captify:freePlan, captify:accessibilityFunding]
   captio-ai:
-    - text: "Nothing to buy to start: it runs on the iPhone, iPad or Android phone you already have, with 100 free credits a day. Captify glasses cost US$499 or US$849 at regular price."
-      sources: [captio-ai:platforms, captio-ai:freePlan, captify:price]
-    - text: "It saves every recording with its audio in a library synced to your account, and transcribes audio and video files you upload."
-      sources: [captio-ai:saveTranscripts, captio-ai:fileUpload]
-    - text: "Summaries, key points and to-dos are there today, with 3 summaries on the free plan. Captify lists summaries for a Premium plan marked Coming Soon."
-      sources: [captio-ai:summaries, captify:summaries]
+    - text: "Nothing to buy and no account needed to start: it runs on the iPhone, iPad or Android phone you already have, with 100 free credits a day. Captify glasses cost US$499 or US$849 at regular price."
+      sources: [captio-ai:platforms, captio-ai:freePlan, captio-ai:account, captify:price]
+    - text: "On iPhone, Recognize Voices shows names like \"Mum\" instead of \"Speaker 2\" on every line a saved person says, live and in saved recordings. The voiceprints stay on the iPhone."
+      sources: [captio-ai:voiceNames]
+    - text: "On iPhone 16 and later, Speaker Direction shows which side a voice comes from, so reading on a phone you still know whose face to look at."
+      sources: [captio-ai:speakerDirection]
+    - text: "It saves every recording with its audio in a library synced to your account, transcribes audio and video files, and writes summaries, key points and to-dos today. Captify lists summaries for a Premium plan marked Coming Soon."
+      sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries, captify:summaries]
     - text: "Live translation has a two-way mode, where each person reads the other in their own language."
       sources: [captio-ai:translation]
-    - text: "You can use it without an account. Captify's setup guide asks you to sign in with your phone number."
-      sources: [captio-ai:account, captify:account]
 situations:
   - icon: glasses
     title: "You want to look at the person, not a screen"
@@ -76,7 +76,7 @@ situations:
   - icon: meeting
     title: "A meeting you need notes from"
     pick: captio-ai
-    text: "Captio AI labels each speaker and turns the recording into a summary and to-dos. Captify says several people talking at once is not ideal for it."
+    text: "Captio AI labels each speaker, names people by their voice on iPhone, shows which side a voice comes from on iPhone 16 and later, and turns the recording into a summary and to-dos. Captify says several people talking at once is not ideal for it."
     link: /use-cases/meetings
   - icon: money
     title: "You don't want to buy new hardware"
@@ -92,7 +92,7 @@ faqs:
   - q: "Can Captify glasses translate Spanish to English?"
     a: "Captify lists live translation into 80+ languages, shown in the glasses, and both Spanish and English are among its languages. A two-way mode is not described. Captio AI translates live in 60+ languages, with a two-way mode where each person reads the other in their own language."
   - q: "Do Captify glasses work at a family dinner or in a meeting?"
-    a: "Captify says Captify Pro works best one-on-one, at family gatherings and in small groups, and is not ideal when several people speak at once or in very loud places. Captio AI captions the whole table from one phone and labels each speaker."
+    a: "Captify says Captify Pro works best one-on-one, at family gatherings and in small groups, and is not ideal when several people speak at once or in very loud places. Its pages don't describe remembering people's voices. Captio AI captions the whole table from one phone and labels each speaker. On iPhone, Recognize Voices shows the names of people whose voices you saved, and on iPhone 16 and later Speaker Direction shows which side of the table a voice comes from."
   - q: "Can I get Captify glasses with my prescription?"
     a: "Yes. Captify offers single vision, reading and progressive lenses, from -20.00 to +6.00 with astigmatism on Captify Pro, and new prescription lenses start at US$99. Captio AI shows captions on your phone screen, so there are no lenses to choose."
   - q: "Can I use FSA, HSA or insurance to buy Captify in the US?"

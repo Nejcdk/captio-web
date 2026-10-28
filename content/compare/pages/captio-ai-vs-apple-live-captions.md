@@ -3,22 +3,22 @@ title: "Captio AI vs Apple Live Captions"
 description: "Captio AI and Apple Live Captions on iPhone side by side: captions in the room, who is talking, languages, translation, saved transcripts, calls and price."
 kind: versus
 apps: [captio-ai, apple-live-captions]
-rows: [platforms, deviceRequirements, roomCaptions, languages, offline, speakerLabels, translation, saveTranscripts, fileUpload, summaries, customWords, display, phoneCalls, videoCalls, mediaOnDevice, privacy, freePlan, price]
+rows: [platforms, deviceRequirements, roomCaptions, languages, offline, speakerLabels, voiceNames, speakerDirection, translation, saveTranscripts, fileUpload, summaries, customWords, display, phoneCalls, videoCalls, mediaOnDevice, privacy, freePlan, price]
 published: 2026-10-28
 updated: 2026-10-28
-answer: "Use Apple Live Captions if you want free captions already built into your iPhone, made on the device, that also caption Phone calls, FaceTime and audio in any app. Use Captio AI if you need a language Apple doesn't caption, labels for who is talking in the room, live translation of a conversation, or recordings you can keep and summarise. You can also use both: Live Captions for calls and videos, Captio AI for conversations you want to keep."
+answer: "Use Apple Live Captions if you want free captions already built into your iPhone, made on the device, that also caption Phone calls, FaceTime and audio in any app. Use Captio AI if you need a language Apple doesn't caption, labels for who is talking in the room (by name on iPhone, with Recognize Voices), live translation of a conversation, or recordings you can keep and summarise. You can also use both: Live Captions for calls and videos, Captio AI for conversations you want to keep."
 picks:
   - app: apple-live-captions
     text: "You want free captions with nothing to install, captions on Phone and FaceTime calls or videos, or speech handled on the device, and your language is one of its 8."
   - app: captio-ai
-    text: "You talk in groups and need to see who is speaking, need one of 60+ languages, want live translation, or want to keep recordings and turn them into notes and to-dos."
+    text: "You talk in groups and want speakers named by their voice on iPhone, need one of 60+ languages, want live translation, or want to keep recordings and turn them into notes and to-dos."
 differences:
   - title: "Does Apple Live Captions caption people in the room?"
     text: "Yes. Turn on Live Captions in Settings, then tap Live Captions and Microphone, and your iPhone captions the conversation around you. Captio AI also captions the room through the phone's microphone, and labels each speaker as they talk."
     sources: [apple-live-captions:roomCaptions, apple-live-captions:account, captio-ai:roomCaptions, captio-ai:speakerLabels]
-  - title: "Which one shows who is talking?"
-    text: "Captio AI. It labels each speaker (Speaker 1, Speaker 2) in live captions and saved recordings, and on iPhone can show the names of people whose voices you saved. Apple Live Captions shows who's speaking in FaceTime calls; Apple doesn't describe speaker labels for conversations in the room."
-    sources: [captio-ai:speakerLabels, apple-live-captions:speakerLabels]
+  - title: "Can Apple Live Captions show who is talking at a table?"
+    text: "Only in FaceTime calls, where the captions show who's speaking. Apple's pages don't describe speaker labels, names by voice or where a voice comes from for conversations in the room. Captio AI labels each speaker in the room. With Recognize Voices (iPhone) it shows the names of people whose voices you saved, live and in saved recordings, and with Speaker Direction (iPhone 16 and later) a wave shows which side a voice comes from."
+    sources: [apple-live-captions:speakerLabels, captio-ai:speakerLabels, captio-ai:voiceNames, captio-ai:speakerDirection]
   - title: "How many languages does Apple Live Captions support?"
     text: "Eight: Cantonese, English, French, German, Japanese, Korean, Mandarin Chinese and Spanish, in 18 language and region variants. Captio AI captions and translates 60+ languages, including speech that switches languages mid-sentence."
     sources: [apple-live-captions:languages, captio-ai:languages]
@@ -44,12 +44,12 @@ better:
     - text: "It works with Apple's other hearing features: Live Listen captions can show on a paired Apple Watch, and it works with braille displays."
       sources: [apple-live-captions:s8, apple-live-captions:s10, apple-live-captions:s11]
   captio-ai:
-    - text: "It captions 60+ languages, against Apple's 8."
-      sources: [captio-ai:languages, apple-live-captions:languages]
-    - text: "It labels who is talking in the room, live and in saved recordings, and on iPhone can show their names."
-      sources: [captio-ai:speakerLabels]
-    - text: "It translates conversations live on screen, with a two-way mode."
-      sources: [captio-ai:translation]
+    - text: "It captions 60+ languages, against Apple's 8, and translates conversations live on screen, with a two-way mode."
+      sources: [captio-ai:languages, apple-live-captions:languages, captio-ai:translation]
+    - text: "It labels who is talking in the room, and with Recognize Voices (iPhone) a saved voice gets its name on every line, like \"Mum\" instead of \"Speaker 2\", live and in saved recordings. The voiceprints stay on the iPhone."
+      sources: [captio-ai:speakerLabels, captio-ai:voiceNames]
+    - text: "Speaker Direction (iPhone 16 and later): with the phone flat on the table, a wave at the edge of the captions shows which side a voice comes from, in that speaker's colour."
+      sources: [captio-ai:speakerDirection]
     - text: "It keeps recordings with their audio, transcribes files, and writes summaries and to-dos."
       sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries]
     - text: "You can add names, medical terms or specialist words so they are recognised, and it also runs on Android."
@@ -68,7 +68,7 @@ situations:
   - icon: dinner
     title: "A family dinner or a group"
     pick: captio-ai
-    text: "Captio AI labels each speaker, so you can see who said what. Apple describes speaker labels only in FaceTime calls."
+    text: "Captio AI labels each speaker, on iPhone names people whose voices you saved and, on iPhone 16 and later, shows which side a voice comes from. Apple describes speaker labels only in FaceTime calls."
     link: /use-cases/group-settings
   - icon: doctor
     title: "A doctor's appointment"
@@ -93,7 +93,7 @@ faqs:
   - q: "Does Apple Live Captions work offline, for example on a plane?"
     a: "Apple says audio is processed on the device, and its iPhone guide mentions no internet requirement. On a Mac, language data downloads the first time you turn it on, which needs internet. Captio AI needs internet for live captions; without it, it keeps recording and transcribes when the phone is back online."
   - q: "Can Apple Live Captions show who is speaking at a family dinner?"
-    a: "Apple says the captions show who's speaking in FaceTime calls, but it doesn't describe speaker labels for conversations in the room. Captio AI labels each speaker in live captions and, on iPhone, can show the names of people whose voices you saved."
+    a: "Apple says the captions show who's speaking in FaceTime calls, but its pages don't describe speaker labels, names by voice or where a voice comes from for conversations in the room. Captio AI labels each speaker. With Recognize Voices (iPhone) it shows the names of people whose voices you saved, and with Speaker Direction (iPhone 16 and later) a wave at the edge of the captions shows which side of the table a voice comes from."
   - q: "Can I save Apple Live Captions from a lecture?"
     a: "Not as a saved transcript. You can copy the captions into Notes or Messages, or take a screenshot or screen recording; there is no history. Captio AI saves each recording with its audio and can turn it into a summary or key points."
   - q: "Can Apple Live Captions translate Spanish into English?"

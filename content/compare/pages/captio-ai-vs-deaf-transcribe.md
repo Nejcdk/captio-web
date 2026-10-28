@@ -3,15 +3,15 @@ title: "Captio AI vs Deaf Transcribe"
 description: "Captio AI and Deaf Transcribe side by side: iPhone or Android, 71 or 60+ languages, who is talking, translation, privacy, saved transcripts and price."
 kind: versus
 apps: [captio-ai, deaf-transcribe]
-rows: [platforms, deviceRequirements, roomCaptions, languages, offline, speakerLabels, translation, saveTranscripts, export, fileUpload, summaries, customWords, display, privacy, account, availability, freePlan, price]
+rows: [platforms, deviceRequirements, roomCaptions, languages, offline, speakerLabels, voiceNames, speakerDirection, translation, saveTranscripts, export, fileUpload, summaries, customWords, display, privacy, account, availability, freePlan, price]
 published: 2026-10-28
 updated: 2026-10-28
-answer: "Use Deaf Transcribe if you have an iPhone, including an older one on iOS 13 or 14, and want plain live text in one of 71 languages, with a free trial of Pro. Use Captio AI if you also need Android, want to see who is talking or translate a conversation, or want recordings you keep and turn into summaries."
+answer: "Use Deaf Transcribe if you have an iPhone, including an older one on iOS 13 or 14, and want plain live text in one of 71 languages, with a free trial of Pro. Use Captio AI if you also need Android, want to see who is talking (by name on iPhone, with Recognize Voices) or translate a conversation, or want recordings you keep and turn into summaries."
 picks:
   - app: deaf-transcribe
     text: "You have an iPhone, maybe an older one on iOS 13 or 14, want plain live text in one of 71 languages, and want to try Pro free for 3 days."
   - app: captio-ai
-    text: "You also use Android, follow group conversations, need live translation, or want to keep recordings and turn them into notes and to-dos."
+    text: "You also use Android, follow group conversations and want people named by their voice (iPhone), need live translation, or want to keep recordings and turn them into notes and to-dos."
 differences:
   - title: "Does Deaf Transcribe work on Android?"
     text: "No. Apple lists Deaf Transcribe as \"Only for iPhone\", and a Google Play search finds no Android version. Captio AI runs on iPhone, iPad and Android, so it also works when someone in the family has the other kind of phone."
@@ -19,9 +19,9 @@ differences:
   - title: "How much does Deaf Transcribe cost?"
     text: "It is free to download. \"Live Transcribe Pro\" costs US$5.99 or US$49.99 on the US App Store (October 2026); Apple's listing doesn't say which period each price covers, and the description mentions a 1-week plan with a 3-day free trial. Captio AI is free with 100 free credits a day; Captio AI Plus costs US$14.99 a month or US$79.99 a year on the US App Store (October 2026), with no free trial."
     sources: [deaf-transcribe:price, deaf-transcribe:freePlan, captio-ai:freePlan, captio-ai:price]
-  - title: "Which one shows who is talking?"
-    text: "Captio AI labels each speaker in live captions and saved recordings, and on iPhone can show the names of people whose voices you saved. Deaf Transcribe's listing and website don't describe speaker labels."
-    sources: [captio-ai:speakerLabels, deaf-transcribe:speakerLabels]
+  - title: "Can Deaf Transcribe tell you who is talking at a busy table?"
+    text: "Its listing and website don't describe showing who is talking or recognising voices. Captio AI labels each speaker, live and in saved recordings. With Recognize Voices (iPhone), a person whose voice you saved gets their name on every line they say, and with Speaker Direction (iPhone 16 and later) a wave shows which side of the table a voice comes from."
+    sources: [deaf-transcribe:speakerLabels, captio-ai:speakerLabels, captio-ai:voiceNames, captio-ai:speakerDirection]
   - title: "Who makes Deaf Transcribe?"
     text: "Youdao Education Technology (Hong Kong) Limited sells it on the App Store. Youdao, Inc.'s 2024 annual report lists that company as a subsidiary and names NetEase as Youdao's controlling shareholder. The privacy policy and terms name Talent Me Technology Pte. Ltd. in Singapore, call the service \"Live Transcribe\", and follow the laws of the People's Republic of China."
     sources: [deaf-transcribe:s1, deaf-transcribe:s6, deaf-transcribe:s3, deaf-transcribe:s4]
@@ -44,12 +44,12 @@ better:
   captio-ai:
     - text: "It runs on iPhone, iPad and Android. Deaf Transcribe is iPhone only."
       sources: [captio-ai:platforms, deaf-transcribe:platforms]
-    - text: "It labels who is talking, and on iPhone can show their names."
-      sources: [captio-ai:speakerLabels]
-    - text: "It translates conversations live, with a two-way mode."
-      sources: [captio-ai:translation]
-    - text: "It keeps recordings with their audio, transcribes files, and writes summaries and to-dos."
-      sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries]
+    - text: "Recognize Voices (iPhone): save someone's voice once and their name shows on every line they say, like \"Mum\" instead of \"Speaker 2\", live and in saved recordings. The voiceprints stay on the iPhone."
+      sources: [captio-ai:voiceNames]
+    - text: "Speaker Direction (iPhone 16 and later): with the phone flat on the table, a wave at the edge of the captions shows which side a voice comes from, in that speaker's colour."
+      sources: [captio-ai:speakerDirection]
+    - text: "It translates conversations live, with a two-way mode, keeps recordings with their audio, transcribes files, and writes summaries and to-dos."
+      sources: [captio-ai:translation, captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries]
     - text: "Its privacy policy says audio is not stored on its servers and content is never sold or used to train AI models."
       sources: [captio-ai:privacy]
 situations:
@@ -64,7 +64,7 @@ situations:
   - icon: dinner
     title: "A family dinner or a group"
     pick: captio-ai
-    text: "Captio AI labels each speaker, so you can see who said what at the table."
+    text: "Captio AI labels each speaker and, on iPhone, names the people whose voices you saved. On iPhone 16 and later, a wave shows which side of the table a voice comes from."
     link: /use-cases/group-settings
   - icon: doctor
     title: "A doctor's appointment you want to read again"
@@ -94,8 +94,8 @@ faqs:
     a: "Its listing doesn't say it works without internet, and its terms describe the service as provided via the internet. Captio AI needs internet for live captions; without it, Captio AI keeps recording and transcribes when the phone is back online."
   - q: "Can Deaf Transcribe caption Spanish, Chinese or Arabic?"
     a: "Yes. Its App Store listing names 71 caption languages, including Spanish, Chinese, Arabic and Cantonese, but describes no translation between them. Captio AI captions 60+ languages and translates conversations live, next to the original captions."
-  - q: "Does Deaf Transcribe show who is speaking in a meeting?"
-    a: "Its listing and website don't describe speaker labels. Captio AI labels each speaker (Speaker 1, Speaker 2), live and in saved recordings, and on iPhone can show the names of people whose voices you saved."
+  - q: "Does Deaf Transcribe show who is speaking in a meeting, or recognize people by their voice?"
+    a: "Its listing and website don't describe speaker labels or recognising voices. Captio AI labels each speaker, live and in saved recordings. With Recognize Voices (iPhone) it shows the names of people whose voices you saved, and with Speaker Direction (iPhone 16 and later) a wave shows which side of the table a voice comes from."
   - q: "Where does Deaf Transcribe keep my conversations?"
     a: "The listing doesn't say whether speech is processed on the phone. The privacy policy says the company may collect audio recordings and the text of words spoken, and that data may be stored on servers in the United States. Captio AI processes speech in the cloud after you agree; audio is not stored on Captio AI's servers, and content is never sold or used to train AI models."
 tags: [deaf transcribe, deaf transcribe app, deaf transcribe speech to text, deaf transcribe alternative, captio ai vs deaf transcribe, caption app for deaf people]

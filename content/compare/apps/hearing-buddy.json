@@ -80,6 +80,19 @@
         "s5"
       ]
     },
+    "voiceNames": {
+      "status": "no",
+      "text": "No, labels reset after each session",
+      "detail": "Buddy+ Speaker Labels tell up to four voices apart by colour without training anyone's voice, and reset when the session ends.",
+      "sources": [
+        "s10"
+      ]
+    },
+    "speakerDirection": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "sources": []
+    },
     "translation": {
       "status": "yes",
       "text": "Live, on the phone, 10 languages; Buddy+ alone",

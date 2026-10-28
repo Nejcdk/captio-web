@@ -3,22 +3,22 @@ title: "Captio AI vs Speaksee"
 description: "Captio AI and the Speaksee microphone kit side by side: phone mic or clip-on mics, group conversations, who is talking, translation, funding and price."
 kind: versus
 apps: [captio-ai, speaksee]
-rows: [platforms, deviceRequirements, roomCaptions, groupConversations, speakerLabels, languages, offline, translation, saveTranscripts, fileUpload, summaries, customWords, display, privacy, account, freePlan, price, accessibilityFunding]
+rows: [platforms, deviceRequirements, roomCaptions, groupConversations, speakerLabels, voiceNames, speakerDirection, languages, offline, translation, saveTranscripts, fileUpload, summaries, customWords, display, privacy, account, freePlan, price, accessibilityFunding]
 published: 2026-10-28
 updated: 2026-10-28
-answer: "Use Speaksee if you follow group conversations in noisy places and the people you talk to will each wear a clip-on microphone, especially if UK or Dutch funding can pay for the kit. Use Captio AI if you want captions from the phone you already have, with a free plan, saved recordings and summaries."
+answer: "Use Speaksee if you follow group conversations in noisy places and the people you talk to will each wear a clip-on microphone, especially if UK or Dutch funding can pay for the kit. Use Captio AI if you want captions from the phone you already have, with a free plan, people named by their voice on iPhone (Recognize Voices), saved recordings and summaries."
 picks:
   - app: speaksee
     text: "You follow group conversations in noisy rooms, the people around you will wear a microphone, and the kit can be paid for through Access to Work, the DSA or a Dutch insurer."
   - app: captio-ai
-    text: "You want captions from the phone in your pocket, with no kit and a free plan, or summaries and to-dos, or captions for people who won't wear a microphone."
+    text: "You want captions from the phone in your pocket, with no kit and a free plan, or summaries and to-dos, or captions that name people by their voice (iPhone) without anyone wearing a microphone."
 differences:
   - title: "Does Speaksee work without its microphone kit?"
     text: "No. Speaksee says its app works only with the Speaksee Microphone Kit and doesn't caption with the phone's own microphone; each speaker wears a clip-on mic. Captio AI captions speech in the room from the phone's own microphone."
     sources: [speaksee:roomCaptions, speaksee:deviceRequirements, captio-ai:roomCaptions]
-  - title: "Which one is made for a noisy group?"
-    text: "Speaksee. Each speaker wears their own microphone, captions are split by colour and name per person, and Speaksee says the kit transcribes groups even with background noise. Captio AI captions the whole table from one phone and labels each speaker."
-    sources: [speaksee:groupConversations, speaksee:speakerLabels, speaksee:s3, captio-ai:groupConversations, captio-ai:speakerLabels]
+  - title: "Which one shows who is talking at a noisy table?"
+    text: "Speaksee, if everyone wears a microphone: each microphone's speech shows in its own colour with the name you give it, and Speaksee says the kit transcribes groups even with background noise. Captio AI captions the whole table from one phone, with no microphones to wear. It labels each speaker, Recognize Voices on iPhone shows the names of people whose voices you saved, and on iPhone 16 and later Speaker Direction shows which side a voice comes from."
+    sources: [speaksee:groupConversations, speaksee:speakerLabels, speaksee:s3, captio-ai:groupConversations, captio-ai:voiceNames, captio-ai:speakerDirection]
   - title: "How much does Speaksee cost?"
     text: "Speaksee publishes no prices and asks you to request a quote. Canadian reseller Special Needs Computers lists the 3-microphone kit at CA$2,029.99 plus CA$2,800.00 for a one-year subscription (October 2026). Captio AI is free with 100 free credits a day, and Captio AI Plus costs US$14.99 a month or US$79.99 a year on the US App Store."
     sources: [speaksee:price, captio-ai:freePlan, captio-ai:price]
@@ -44,21 +44,21 @@ better:
     - text: "Audio is processed within the European Economic Area, under GDPR."
       sources: [speaksee:s18]
   captio-ai:
-    - text: "It captions from the phone's own microphone, so there is no kit to buy and nobody has to wear a microphone."
-      sources: [captio-ai:roomCaptions, speaksee:roomCaptions]
-    - text: "It has a free plan: 100 free credits a day and 3 AI summaries."
-      sources: [captio-ai:freePlan]
+    - text: "It captions from the phone's own microphone, so there is no kit to buy and nobody has to wear a microphone, and it has a free plan: 100 free credits a day and 3 AI summaries."
+      sources: [captio-ai:roomCaptions, speaksee:roomCaptions, captio-ai:freePlan]
+    - text: "Recognize Voices (iPhone): save someone's voice once and their name, like \"Mum\" instead of \"Speaker 2\", shows on every line they say, live and in saved recordings, without a microphone on them. Voiceprints stay on the iPhone."
+      sources: [captio-ai:voiceNames]
+    - text: "Speaker Direction (iPhone 16 and later): with the phone flat on the table, a wave at the edge of the captions shows which side a voice comes from."
+      sources: [captio-ai:speakerDirection]
     - text: "It saves recordings with their audio, transcribes files, and writes summaries and to-dos."
       sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries]
-    - text: "You add your own words and names in the app. Speaksee asks you to send a word list through a web form."
-      sources: [captio-ai:customWords, speaksee:customWords]
-    - text: "You can start without an account. Speaksee needs an account and the kit's activation code."
-      sources: [captio-ai:account, speaksee:account]
+    - text: "You add your own words and names in the app, and can start without an account. Speaksee asks for a word list through a web form, and needs an account and the kit's activation code."
+      sources: [captio-ai:customWords, captio-ai:account, speaksee:customWords, speaksee:account]
 situations:
   - icon: dinner
     title: "A noisy family dinner or a group"
     pick: speaksee
-    text: "If everyone at the table will wear a clip-on mic, Speaksee splits the captions by person, even with background noise. If not, Captio AI captions the table from one phone."
+    text: "If everyone at the table will wear a clip-on mic, Speaksee splits the captions by person, even with background noise. If not, Captio AI captions the table from one phone, shows saved voices by name on iPhone, and on iPhone 16 and later shows which side a voice comes from."
     link: /use-cases/group-settings
   - icon: work
     title: "Every day at work, with funding"
@@ -94,8 +94,8 @@ faqs:
     a: "Speaksee says that if your health insurer has a contract with Speaksee, the full cost is usually reimbursed, though your deductible (eigen risico) still applies. The licence for private use runs five years, and work use can be paid through the UWV. Captio AI isn't paid for by a public programme, but an organisation can buy Captio AI licences for the people who need them."
   - q: "Does Speaksee work in a noisy restaurant?"
     a: "Speaksee says the kit transcribes groups in real time even with background noise, with each speaker wearing their own microphone. It needs internet, and each microphone lasts about 4 hours per charge. Captio AI captions from the phone's own microphone."
-  - q: "How many people can Speaksee caption at once?"
-    a: "One kit has 3 microphones, and another kit can be added. Speaksee's website says groups of up to 9 people; its App Store and Google Play listings say up to six speakers at the same time. Captio AI captions the whole table from one phone and labels each speaker."
+  - q: "How does Speaksee show who is talking at a family dinner?"
+    a: "Each person wears a microphone, and each microphone's speech shows in its own colour with the name you give it. One kit has 3 microphones, and another kit can be added; Speaksee's website says groups of up to 9 people, its store listings up to six speakers at the same time. Captio AI needs no microphones: one phone labels each speaker, Recognize Voices on iPhone shows the names of people whose voices you saved, and on iPhone 16 and later Speaker Direction shows which side of the table a voice comes from."
   - q: "Which languages does Speaksee support?"
     a: "Speaksee's help centre lists 11 languages tested by native speakers, including Dutch, English, French, German, Italian, Portuguese and Spanish, and 44 more entries not yet tested. Captio AI captions and translates in 60+ languages."
   - q: "Can Speaksee caption phone calls?"

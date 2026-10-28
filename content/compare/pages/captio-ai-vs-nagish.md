@@ -3,15 +3,15 @@ title: "Captio AI vs Rylo (formerly Nagish)"
 description: "Captio AI vs Rylo, formerly Nagish: phone-call captions, in-person Live Transcribe, offline use, translation, privacy, US-only FCC funding and price."
 kind: versus
 apps: [captio-ai, nagish]
-rows: [platforms, availability, phoneCalls, videoCalls, roomCaptions, languages, offline, speakerLabels, translation, saveTranscripts, summaries, humanCaptioners, privacy, account, accessibilityFunding, freePlan, price]
+rows: [platforms, availability, phoneCalls, videoCalls, roomCaptions, languages, offline, speakerLabels, voiceNames, speakerDirection, translation, saveTranscripts, summaries, humanCaptioners, privacy, account, accessibilityFunding, freePlan, price]
 published: 2026-10-28
 updated: 2026-10-28
-answer: "Use Rylo (formerly Nagish) if you live in the US and need captions on phone calls: it is free through the FCC for eligible users, and its free Live Transcribe mode also captions the room, which Rylo says works offline. Use Captio AI if you live outside the US, where Rylo isn't offered, or want speaker labels, live translation and recordings you can summarise for conversations in the room."
+answer: "Use Rylo (formerly Nagish) if you live in the US and need captions on phone calls: it is free through the FCC for eligible users, and its free Live Transcribe mode also captions the room, which Rylo says works offline. Use Captio AI if you live outside the US, where Rylo isn't offered, or want speaker labels with names by voice on iPhone, live translation and recordings you can summarise for conversations in the room."
 picks:
   - app: nagish
     text: "You live in the US and need captions on phone calls and voicemail, want everything free, or need in-person captions without internet."
   - app: captio-ai
-    text: "You live outside the US, or want speaker labels, live translation, saved audio and AI summaries for conversations in the room."
+    text: "You live outside the US, or want to see who is talking in the room and where their voice comes from (iPhone 16 and later), with live translation, saved audio and AI summaries."
 differences:
   - title: "Does Captio AI caption phone calls like Rylo?"
     text: "No. Rylo captions incoming and outgoing phone calls and voicemail, and Rylo Desktop captions video calls on Mac and Windows. Captio AI is made for speech in the room around you and does not caption phone or video calls, so the two do different jobs."
@@ -46,12 +46,12 @@ better:
   captio-ai:
     - text: "It is available outside the US, on iPhone and Android, and you can use it without an account."
       sources: [captio-ai:availability, captio-ai:platforms, captio-ai:account]
-    - text: "It labels who is talking in the room, and on iPhone can show their names."
-      sources: [captio-ai:speakerLabels]
-    - text: "It translates conversations live, next to the original captions."
-      sources: [captio-ai:translation]
-    - text: "It keeps recordings with their audio, transcribes audio and video files, and writes summaries and to-dos."
-      sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries]
+    - text: "Recognize Voices (iPhone): save someone's voice once and their name shows on every line they say, like \"Mum\" instead of \"Speaker 2\", live and in saved recordings. Voiceprints stay on the iPhone."
+      sources: [captio-ai:voiceNames]
+    - text: "Speaker Direction (iPhone 16 and later): with the phone flat on the table, a wave at the edge of the captions shows which side the voice comes from, so you know whose face to look at."
+      sources: [captio-ai:speakerDirection]
+    - text: "It translates conversations live, keeps recordings with their audio, transcribes files, and writes summaries and to-dos."
+      sources: [captio-ai:translation, captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries]
     - text: "Its privacy policy says audio isn't stored on its servers and content is never used to train AI models."
       sources: [captio-ai:privacy]
 situations:
@@ -71,7 +71,7 @@ situations:
   - icon: dinner
     title: "A family dinner or a group"
     pick: captio-ai
-    text: "Captio AI labels each speaker, so you can see who said what. Rylo doesn't describe speaker labels for Live Transcribe."
+    text: "Captio AI labels each speaker. On iPhone it names the people whose voices you saved, and on iPhone 16 and later it shows which side a voice comes from. Rylo doesn't describe speaker labels for Live Transcribe."
     link: /use-cases/group-settings
   - icon: lecture
     title: "A lecture or meeting you need notes from"
@@ -99,7 +99,7 @@ faqs:
   - q: "Does Rylo use human captioners?"
     a: "No. Rylo's terms say captions come from automated speech recognition, and its App Store listing says there is no human involvement. Captio AI's captions are automatic too."
   - q: "Do I need both Rylo and Captio AI?"
-    a: "If you live in the US, you may want a call-caption service like Rylo for phone calls and a live caption app for the room. Rylo's Live Transcribe already captions the room for free; Captio AI adds speaker labels, live translation, saved audio and AI summaries, and works outside the US."
+    a: "If you live in the US, you may want a call-caption service like Rylo for phone calls and a live caption app for the room. Rylo's Live Transcribe already captions the room for free; Captio AI adds speaker labels, live translation, saved audio and AI summaries, and works outside the US. At a family dinner, Captio AI on iPhone can show who is talking by name, and on iPhone 16 and later which side the voice comes from."
 tags: [rylo, nagish, nagish app, rylo live transcribe, nagish alternative, captio ai vs nagish, call captioning app]
 related: [captio-ai-vs-innocaption, captio-ai-vs-rogervoice, captio-ai-vs-live-transcribe]
 ---

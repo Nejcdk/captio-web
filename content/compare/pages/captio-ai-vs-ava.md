@@ -3,22 +3,22 @@ title: "Captio AI vs Ava"
 description: "Captio AI and Ava side by side: group conversations, who is talking, captions without internet, translation, human captioners, sound alerts and price."
 kind: versus
 apps: [captio-ai, ava]
-rows: [platforms, deviceRequirements, roomCaptions, groupConversations, speakerLabels, languages, offline, translation, saveTranscripts, summaries, customWords, soundAlerts, videoCalls, humanCaptioners, signLanguage, privacy, freePlan, price]
+rows: [platforms, deviceRequirements, roomCaptions, groupConversations, speakerLabels, voiceNames, speakerDirection, languages, offline, translation, saveTranscripts, summaries, customWords, soundAlerts, videoCalls, humanCaptioners, signLanguage, privacy, freePlan, price]
 published: 2026-10-28
 updated: 2026-10-28
-answer: "Use Ava if you want free basic captions with no monthly limit, an offline mode on your phone, alerts for sounds like a doorbell, or the option to add a human captioner or an ASL interpreter; its group mode lets everyone join from their own phone. Use Captio AI if you want one phone on the table to label every speaker, captions and live translation in 60+ languages, or recordings you keep with their audio and turn into summaries and to-dos."
+answer: "Use Ava if you want free basic captions with no monthly limit, an offline mode on your phone, alerts for sounds like a doorbell, or the option to add a human captioner or an ASL interpreter; its group mode lets everyone join from their own phone. Use Captio AI if you want one phone on the table to label every speaker (by name on iPhone, with Recognize Voices), captions and live translation in 60+ languages, or recordings you keep with their audio and turn into summaries and to-dos."
 picks:
   - app: ava
     text: "You want free captions with no monthly limit, need captions with no signal, want sound alerts, or need a human captioner, an ASL interpreter or captions for Zoom and Teams calls."
   - app: captio-ai
-    text: "You want one phone on the table to show who is talking, need live translation in 60+ languages, or want to keep recordings and turn them into notes and to-dos."
+    text: "You want one phone on the table to show who is talking (with names by voice on iPhone), need live translation in 60+ languages, or want to keep recordings and turn them into notes and to-dos."
 differences:
   - title: "Does Ava work without internet?"
     text: "Yes, partly. Ava's mobile apps have an offline mode for one-to-one conversations in your default language, with somewhat lower accuracy, and not on web or desktop. Captio AI needs a connection for live captions; without one it keeps recording and transcribes when the phone is back online."
     sources: [ava:offline, captio-ai:offline]
-  - title: "How does each one show who is talking?"
-    text: "Ava names people who join from their own phone: up to 25 people connect by QR code or link, with no app needed, and each appears in their own colour with their name. On a single phone, Ava's SpeakerID is a Premium-only beta. Captio AI labels each speaker from one phone, live and in saved recordings, and on iPhone can show the names of people whose voices you saved."
-    sources: [ava:groupConversations, ava:speakerLabels, captio-ai:speakerLabels]
+  - title: "Can Ava tell you who is talking by name?"
+    text: "Yes, when each person joins from their own phone: up to 25 people connect by QR code or link, with no app needed, and each appears in their own colour with their name. On a single phone, Ava's SpeakerID (up to 5 speakers) is a Premium-only beta, and Ava's pages don't say it remembers a voice from one conversation to the next. On one iPhone, Captio AI's Recognize Voices shows the names of people whose voices you saved, live and in saved recordings, and on iPhone 16 and later Speaker Direction shows which side a voice comes from."
+    sources: [ava:groupConversations, ava:speakerLabels, ava:voiceNames, captio-ai:voiceNames, captio-ai:speakerDirection]
   - title: "How many languages does Ava caption and translate?"
     text: "Ava's help centre lists 23+ languages for captions. Captioning in a language other than your phone's language, and live translation, need a paid plan with Premium captions. Captio AI captions and translates 60+ languages, with the translation next to the original captions and a two-way mode."
     sources: [ava:languages, ava:translation, captio-ai:languages, captio-ai:translation]
@@ -44,21 +44,21 @@ better:
     - text: "You can add a human captioner (Ava Scribe) or a remote ASL interpreter, and caption Zoom, Teams and Meet calls on a computer with Ava Connect."
       sources: [ava:humanCaptioners, ava:signLanguage, ava:videoCalls]
   captio-ai:
-    - text: "One phone on the table labels each speaker, live and in saved recordings, with names on iPhone. Ava's single-phone SpeakerID is a Premium-only beta."
-      sources: [captio-ai:speakerLabels, ava:speakerLabels]
+    - text: "One phone on the table labels each speaker, and Recognize Voices (iPhone) shows people by name, like \"Mum\" instead of \"Speaker 2\", live and in saved recordings. Voiceprints stay on the iPhone. Ava's single-phone SpeakerID is a Premium-only beta."
+      sources: [captio-ai:speakerLabels, captio-ai:voiceNames, ava:speakerLabels]
+    - text: "Speaker Direction (iPhone 16 and later): with the phone flat on the table, a wave at the edge of the captions shows which side a voice comes from, so you know where to look."
+      sources: [captio-ai:speakerDirection]
     - text: "It captions and translates 60+ languages live; Ava's help centre lists 23+ for captions."
       sources: [captio-ai:languages, captio-ai:translation, ava:languages]
-    - text: "It keeps recordings with their audio and turns them into summaries, key points and to-dos."
-      sources: [captio-ai:saveTranscripts, captio-ai:summaries]
-    - text: "You can transcribe your own audio and video files in the app. Ava sells file transcription as a separate human service."
-      sources: [captio-ai:fileUpload, ava:fileUpload]
+    - text: "It keeps recordings with their audio, transcribes your own audio and video files, and turns them into summaries, key points and to-dos. Ava sells file transcription as a separate human service."
+      sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries, ava:fileUpload]
     - text: "It runs on iPhones with iOS 15.1 or later; the current Ava app on the App Store needs iOS 18.6."
       sources: [captio-ai:deviceRequirements, ava:deviceRequirements]
 situations:
   - icon: dinner
     title: "A family dinner or a group"
     pick: both
-    text: "If everyone joins from their own phone, Ava shows each person in their own colour. If one phone sits in the middle of the table, Captio AI labels each speaker."
+    text: "If everyone joins from their own phone, Ava shows each person in their own colour with their name. If one phone sits in the middle of the table, Captio AI labels each speaker, shows saved voices by name on iPhone, and on iPhone 16 and later shows which side a voice comes from."
     link: /use-cases/group-settings
   - icon: offline
     title: "No signal on a plane or in a basement"
@@ -94,7 +94,7 @@ faqs:
   - q: "Can Ava caption Spanish or translate Spanish into English?"
     a: "Ava's help centre lists Spanish among its 23+ caption languages and English with Spanish as a translation pair. Captioning in a language other than your phone's language, and translation, need a paid plan with Premium captions. Captio AI captions and translates 60+ languages live."
   - q: "Does Ava show who is talking at a family dinner?"
-    a: "Yes, when each person joins from their own phone by QR code or link: up to 25 people, each in their own colour. On one phone, Ava's SpeakerID (up to 5 speakers) is a Premium-only beta you must be given access to. Captio AI labels each speaker from one phone, live and in saved recordings."
+    a: "Yes, when each person joins from their own phone by QR code or link: up to 25 people, each in their own colour. On one phone, Ava's SpeakerID (up to 5 speakers) is a Premium-only beta you must be given access to. Captio AI labels each speaker from one phone. On iPhone, Recognize Voices shows the names of people whose voices you saved, and on iPhone 16 and later Speaker Direction shows which side of the table a voice comes from."
   - q: "Is Ava available outside the US, for example in the UK or Australia?"
     a: "Ava's help centre lists 24 countries, including the UK, Canada, Australia and much of Western Europe and Latin America. Ava Connect for video calls is listed only for Canada, France and the US. Captio AI is on the App Store and Google Play worldwide."
   - q: "Can Ava caption phone calls or Zoom meetings?"

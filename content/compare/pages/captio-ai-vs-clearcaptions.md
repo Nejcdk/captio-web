@@ -3,15 +3,15 @@ title: "Captio AI vs ClearCaptions"
 description: "Captio AI vs ClearCaptions: FCC-funded phone-call captions in the US vs live captions for people in the room. Android, languages, live captioners and price."
 kind: versus
 apps: [captio-ai, clearcaptions]
-rows: [platforms, deviceRequirements, availability, phoneCalls, videoCalls, roomCaptions, humanCaptioners, languages, translation, offline, speakerLabels, saveTranscripts, summaries, privacy, account, accessibilityFunding, freePlan, price]
+rows: [platforms, deviceRequirements, availability, phoneCalls, videoCalls, roomCaptions, humanCaptioners, languages, translation, offline, speakerLabels, voiceNames, speakerDirection, saveTranscripts, summaries, privacy, account, accessibilityFunding, freePlan, price]
 published: 2026-10-28
 updated: 2026-10-28
-answer: "Use ClearCaptions if you live in the US and need captions on phone calls: it is free through the FCC for eligible users, on an iPhone, an iPad or a home caption phone. Use Captio AI for conversations with people in the same room, which ClearCaptions describes only for phone calls, or if you use Android, speak another language or live outside the US. In the US you may want both: one for calls, one for the room."
+answer: "Use ClearCaptions if you live in the US and need captions on phone calls: it is free through the FCC for eligible users, on an iPhone, an iPad or a home caption phone. Use Captio AI for conversations with people in the same room, which ClearCaptions describes only for phone calls, or if you use Android, speak another language or live outside the US. In the US you may want both: one for calls, one for the room, where on iPhone Captio AI can show who is talking by name."
 picks:
   - app: clearcaptions
     text: "You live in the US and need captions on phone calls and voicemail, on an iPhone, an iPad or a free home caption phone."
   - app: captio-ai
-    text: "You need captions for people in the same room, languages other than English, live translation or an Android app, or you live outside the US."
+    text: "You need captions for people in the same room, want to see where a voice comes from (iPhone 16 and later), need languages other than English, live translation or an Android app, or you live outside the US."
 differences:
   - title: "Can ClearCaptions caption in-person conversations?"
     text: "No. ClearCaptions describes its service for phone calls only: its terms say the app is meant for its captioned telephone service, and only the words of the person on the call are captioned. No ClearCaptions page mentions captions for people in the same room. Captio AI is made for that: it captions speech around you through the phone's microphone."
@@ -42,16 +42,16 @@ better:
     - text: "Its terms say ClearCaptions keeps neither the audio nor the captions of a call, and saved captions stay only on your device."
       sources: [clearcaptions:privacy, clearcaptions:saveTranscripts]
   captio-ai:
-    - text: "It captions people in the same room. ClearCaptions describes its service for phone calls only."
-      sources: [captio-ai:roomCaptions, clearcaptions:roomCaptions]
-    - text: "It works on Android as well as iPhone and iPad."
-      sources: [captio-ai:platforms, clearcaptions:platforms]
+    - text: "It captions people in the same room and keeps the recording with its audio for summaries and to-dos. ClearCaptions describes its service for phone calls only."
+      sources: [captio-ai:roomCaptions, captio-ai:saveTranscripts, captio-ai:summaries, clearcaptions:roomCaptions]
+    - text: "Recognize Voices (iPhone): save someone's voice once and their name shows on every line they say, like \"Mum\" instead of \"Speaker 2\", live and in saved recordings. Voiceprints stay on the iPhone."
+      sources: [captio-ai:voiceNames]
+    - text: "Speaker Direction (iPhone 16 and later): with the phone flat on the table, a wave at the edge of the captions shows which side the voice comes from, so you know whose face to look at."
+      sources: [captio-ai:speakerDirection]
     - text: "It captions 60+ languages and translates conversations live. ClearCaptions captions English only."
       sources: [captio-ai:languages, captio-ai:translation, clearcaptions:languages]
-    - text: "It labels who is talking, keeps recordings with their audio, and writes summaries and to-dos."
-      sources: [captio-ai:speakerLabels, captio-ai:saveTranscripts, captio-ai:summaries]
-    - text: "It works outside the US, and you can use it without an account or an eligibility check."
-      sources: [captio-ai:availability, captio-ai:account, clearcaptions:account]
+    - text: "It works on Android as well as iPhone and iPad, and outside the US, without an account or an eligibility check."
+      sources: [captio-ai:platforms, clearcaptions:platforms, captio-ai:availability, captio-ai:account, clearcaptions:account]
 situations:
   - icon: phone
     title: "Calling your doctor or the pharmacy"
@@ -70,7 +70,7 @@ situations:
   - icon: dinner
     title: "A family dinner or a group"
     pick: captio-ai
-    text: "Captio AI captions the table and labels each speaker. ClearCaptions captions calls only."
+    text: "Captio AI captions the table and labels each speaker. On iPhone it names the people whose voices you saved, and on iPhone 16 and later it shows which side a voice comes from. ClearCaptions captions calls only."
     link: /use-cases/group-settings
   - icon: android
     title: "You use an Android phone"
@@ -97,7 +97,7 @@ faqs:
   - q: "Does ClearCaptions caption Zoom or FaceTime calls?"
     a: "ClearCaptions doesn't describe it. Its FAQ says the ClearCaptions Phone is only for audio calls, and its terms describe the app for telephone calls. Captio AI doesn't caption FaceTime or Zoom calls either: it is made for speech in the room."
   - q: "Do I need both ClearCaptions and Captio AI?"
-    a: "If you live in the US, you may: a call-caption service like ClearCaptions for phone calls, and a live caption app like Captio AI for people in the same room, such as at a family dinner or a doctor's appointment. They do different jobs."
+    a: "If you live in the US, you may: a call-caption service like ClearCaptions for phone calls, and a live caption app like Captio AI for people in the same room, such as at a family dinner or a doctor's appointment. At a family dinner, Captio AI on iPhone can show who is talking by name, and on iPhone 16 and later which side the voice comes from. They do different jobs."
 tags: [clearcaptions, clearcaptions mobile, clearcaptions app, clearcaptions android, clearcaptions in person, clearcaptions alternative, captio ai vs clearcaptions, captioned telephone service]
 related: [captio-ai-vs-innocaption, captio-ai-vs-nagish, captio-ai-vs-rogervoice]
 draft: false

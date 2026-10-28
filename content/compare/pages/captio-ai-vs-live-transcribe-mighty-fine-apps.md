@@ -3,15 +3,15 @@ title: "Captio AI vs Live Transcribe by Mighty Fine Apps"
 description: "Captio AI vs Live Transcribe by Mighty Fine Apps, the iPhone app (not Google's): Android, offline captions, who is talking, translation and price."
 kind: versus
 apps: [captio-ai, live-transcribe-mighty-fine-apps]
-rows: [platforms, deviceRequirements, roomCaptions, groupConversations, languages, offline, speakerLabels, translation, saveTranscripts, export, fileUpload, summaries, customWords, display, privacy, account, freePlan, price]
+rows: [platforms, deviceRequirements, roomCaptions, groupConversations, languages, offline, speakerLabels, voiceNames, speakerDirection, translation, saveTranscripts, export, fileUpload, summaries, customWords, display, privacy, account, freePlan, price]
 published: 2026-10-28
 updated: 2026-10-28
-answer: "Pick Live Transcribe by Mighty Fine Apps if you use an iPhone or iPad, often have no signal, and want unlimited offline captions for close-up talk, with no account. Pick Captio AI if someone in the family uses Android, if you need live translation, or if you want recordings you keep with their audio, synced, and turned into summaries, with a free plan of 100 free credits a day."
+answer: "Pick Live Transcribe by Mighty Fine Apps if you use an iPhone or iPad, often have no signal, and want unlimited offline captions for close-up talk, with no account. Pick Captio AI if someone in the family uses Android, if you need live translation or names by voice on the captions (Recognize Voices, iPhone), or if you want recordings you keep with their audio and turned into summaries, with a free plan of 100 free credits a day."
 picks:
   - app: live-transcribe-mighty-fine-apps
     text: "You use an iPhone or iPad, often need captions without signal, want to start from the lock screen with no account, and don't mind paying after a 3-day trial."
   - app: captio-ai
-    text: "You or your family use Android, need live translation, want to transcribe audio files, or want recordings with audio, synced, and turned into summaries and to-dos."
+    text: "You or your family use Android, need live translation, want \"Mum\" on the captions instead of \"Speaker 2\" (iPhone), or want recordings with audio turned into summaries and to-dos."
 differences:
   - title: "Is Live Transcribe by Mighty Fine Apps the same as Google's Live Transcribe?"
     text: "No. It is an independent iPhone and iPad app from Mighty Fine Apps, a small US company, and it is not affiliated with Google. Google's Live Transcribe is a separate Android app. Captio AI is a third app, on iPhone and Android."
@@ -22,9 +22,9 @@ differences:
   - title: "Which one works without internet?"
     text: "Live Transcribe by Mighty Fine Apps. Its Offline mode captions with no connection and no hour limit, for close-up talk (within about 3 ft) with little background noise. Captio AI needs internet for live captions; without it, it keeps recording and transcribes when the phone is back online."
     sources: [live-transcribe-mighty-fine-apps:offline, captio-ai:offline]
-  - title: "Which one shows who is talking?"
-    text: "Both. Live Transcribe colour-codes each voice in Best mode, but not in Offline mode. Captio AI labels each speaker in live captions and saved recordings, and on iPhone can show the names of people whose voices you saved."
-    sources: [live-transcribe-mighty-fine-apps:speakerLabels, captio-ai:speakerLabels]
+  - title: "Can Live Transcribe by Mighty Fine Apps tell you who is talking by name?"
+    text: "Its pages describe colours, not names: Best mode colour-codes each voice (Offline mode doesn't), and showing names or remembering voices isn't described. Captio AI's Recognize Voices (iPhone) puts the name of each person whose voice you saved on every line they say, live and in saved recordings. On iPhone 16 and later, Speaker Direction shows which side of the table a voice comes from."
+    sources: [live-transcribe-mighty-fine-apps:speakerLabels, captio-ai:voiceNames, captio-ai:speakerDirection]
   - title: "Can either one translate a conversation?"
     text: "Captio AI translates speech live, next to the original captions, with a two-way mode. Mighty Fine Apps does not describe translation in Live Transcribe."
     sources: [captio-ai:translation, live-transcribe-mighty-fine-apps:translation]
@@ -44,16 +44,16 @@ better:
     - text: "Its Starter plan costs less a month (US$9.99) than Captio AI Plus (US$14.99), if 10 Best hours a month plus Offline mode are enough for you."
       sources: [live-transcribe-mighty-fine-apps:price, captio-ai:price]
   captio-ai:
-    - text: "It runs on Android as well as iPhone and iPad."
-      sources: [captio-ai:platforms]
-    - text: "It translates conversations live."
-      sources: [captio-ai:translation]
+    - text: "It runs on Android as well as iPhone and iPad, and it translates conversations live."
+      sources: [captio-ai:platforms, captio-ai:translation]
     - text: "It keeps recordings with their audio, synced to your account, transcribes audio and video files, and writes summaries and to-dos."
       sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries]
     - text: "It has a free plan: 100 free credits a day and 3 AI summaries."
       sources: [captio-ai:freePlan]
-    - text: "On iPhone it can show the names of people whose voices you saved."
-      sources: [captio-ai:speakerLabels]
+    - text: "Recognize Voices (iPhone): save someone's voice once and their name shows on every line they say, like \"Mum\" instead of \"Speaker 2\", live and in saved recordings. The voiceprints stay on the iPhone."
+      sources: [captio-ai:voiceNames]
+    - text: "Speaker Direction (iPhone 16 and later): with the phone flat on the table, a wave at the edge of the captions shows which side a voice comes from, in that speaker's colour."
+      sources: [captio-ai:speakerDirection]
 situations:
   - icon: doctor
     title: "A doctor's appointment in a building with no signal"
@@ -63,7 +63,7 @@ situations:
   - icon: dinner
     title: "A family dinner in a noisy restaurant"
     pick: both
-    text: "Both separate voices: Live Transcribe by colour in Best mode, Captio AI with speaker labels. Captio AI also keeps the recording to read again."
+    text: "Both separate voices: Live Transcribe by colour in Best mode, Captio AI with speaker labels. On iPhone, Captio AI also names people it knows by voice and, on iPhone 16 and later, shows which side a voice comes from."
     link: /use-cases/group-settings
   - icon: meeting
     title: "A work meeting you need notes from"
@@ -93,8 +93,8 @@ faqs:
     a: "Yes. Its Offline mode works without Wi-Fi or mobile data, with no hour limit, and is meant for close-up conversations within about 3 ft with little background noise. Captio AI needs internet for live captions; without it, it keeps recording and transcribes the appointment when the phone is back online."
   - q: "Can it caption a Spanish conversation or translate it into English?"
     a: "The App Store lists captions in 145+ languages (the company's website says 50+), but Mighty Fine Apps does not describe translation. Captio AI captions 60+ languages and can translate a Spanish conversation into English live, next to the original captions."
-  - q: "Which one is better at a noisy family dinner?"
-    a: "Both are made for groups. Live Transcribe's Best mode works at a distance and colour-codes each voice; its Offline mode is for quiet, close-up talk. Captio AI labels each speaker and, on iPhone, can show the names of people whose voices you saved."
+  - q: "Which app shows who is talking at a noisy family dinner?"
+    a: "Both separate voices. Live Transcribe's Best mode works at a distance and colour-codes each voice (its Offline mode is for quiet, close-up talk); its pages don't describe showing names. Captio AI labels each speaker. With Recognize Voices (iPhone) it shows the names of people whose voices you saved, and with Speaker Direction (iPhone 16 and later) a wave shows which side of the table a voice comes from."
   - q: "How much does Live Transcribe by Mighty Fine Apps cost in the US?"
     a: "After a 3-day free trial, plans run from US$9.99 a month (Starter, 10 Best hours) to US$149.99 a month (Unlimited), all with unlimited Offline mode; extra Best hours cost US$1.49 each (help centre, September 2026). Captio AI has a free plan with 100 free credits a day and 3 AI summaries; Captio AI Plus costs US$14.99 a month or US$79.99 a year on the US App Store (October 2026)."
   - q: "Can either app caption phone calls?"
