@@ -152,11 +152,11 @@
       ]
     },
     "soundAlerts": {
-      "status": "no",
-      "text": "No",
-      "detail": "Captio AI captions speech; it does not alert you to non-speech sounds.",
+      "status": "yes",
+      "text": "Yes, sounds in the captions; alerts vibrate",
+      "detail": "Recognize Sounds (iPhone and iPad) writes sounds into the captions where they happen, like [doorbell rings], in Live Captions, Live Translator and uploaded files. A doorbell, knocking, a smoke alarm, a siren, a phone ringing or a baby crying makes the phone vibrate, with a notification when the screen is locked during a recording. It works while Captio AI is recording, not as an always-on alarm. Recognized on the phone; free; not on Android yet.",
       "sources": [
-        "s4"
+        "s13"
       ]
     },
     "phoneCalls": {
@@ -456,6 +456,24 @@
         "If you are on AirPods or an external microphone, captions stay on that microphone and the waves simply don't show.",
         "Speaker direction is part of Live Captions, on the free plan and on Plus.",
         "The direction is calculated on your iPhone from its microphones. It is not sent anywhere."
+      ]
+    },
+    {
+      "id": "s13",
+      "title": "Recognize Sounds: Doorbells and Alarms in Your Captions",
+      "publisher": "Captio AI",
+      "url": "https://captioai.app/recognize-sounds",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Recognize sounds (Captio AI)",
+      "quotes": [
+        "On by default: doorbell, knocking, smoke or fire alarm, alarm or timer, siren, phone ringing, baby crying, dog barking, laughter, applause and music. Under More sounds you can add 17 more: car horn, cat, glass breaking, shouting, crying, door, water running, water boiling, microwave, beeping, whistling, singing, thunder, train horn, plane or helicopter, vacuum cleaner and coughing.",
+        "A doorbell shows where it rang, like [doorbell rings], in grey between the words, the way film subtitles do it.",
+        "The alert sounds: doorbell, knocking, smoke or fire alarm, alarm or timer, siren, phone ringing and a baby crying. The phone vibrates three times. If the screen is locked while you record, you also get a notification, for example \"Doorbell\".",
+        "No. Sounds are recognized while Live Captions or Live Translator are recording, including with the screen locked on iPhone, and in audio and video files you upload. It is not an always-on sound alarm.",
+        "Sounds are recognized on your iPhone or iPad. No audio is sent anywhere to do it.",
+        "Yes, free for everyone, on the free plan and on Plus. It works on iPhone and iPad. It is not on Android yet."
       ]
     }
   ],

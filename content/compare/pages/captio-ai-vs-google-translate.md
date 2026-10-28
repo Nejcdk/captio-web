@@ -3,7 +3,7 @@ title: "Captio AI vs Google Translate"
 description: "Captio AI and Google Translate compared for reading and translating a conversation: captions, Live translate, offline use, who is talking and price."
 kind: versus
 apps: [captio-ai, google-translate]
-rows: [platforms, deviceRequirements, roomCaptions, translation, languages, offline, speakerLabels, voiceNames, speakerDirection, groupConversations, saveTranscripts, export, fileUpload, summaries, customWords, display, privacy, account, freePlan, price]
+rows: [platforms, deviceRequirements, roomCaptions, translation, languages, offline, speakerLabels, voiceNames, speakerDirection, soundAlerts, groupConversations, saveTranscripts, export, fileUpload, summaries, customWords, display, privacy, freePlan, price]
 published: 2026-10-28
 updated: 2026-10-28
 answer: "Use Google Translate if you mainly need translation: it is free, Live translate covers 73 languages, typed text up to 249, and it translates text offline, and conversations offline on a Pixel 9, 10 or 11. Use Captio AI if you want to read a conversation as live captions, see who is talking, by name on iPhone with Recognize Voices, and keep the recording; it captions and translates in 60+ languages, free with 100 free credits a day."
@@ -50,10 +50,10 @@ better:
       sources: [captio-ai:voiceNames]
     - text: "On iPhone 16 and later, Speaker Direction shows which side a voice comes from, also in Live Translator, so in a two-way conversation across a table you know who just spoke."
       sources: [captio-ai:speakerDirection]
-    - text: "It saves recordings with their audio, transcribes audio and video files, and writes summaries and to-dos."
-      sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries]
-    - text: "You can add names and specialist words so they are recognised, and change text size, colours and contrast."
-      sources: [captio-ai:customWords, captio-ai:display]
+    - text: "Recognize Sounds (iPhone and iPad) writes sounds into the captions where they happen, like [doorbell rings], in Live Captions and in both panes of Live Translator, and keeps them in the recording. Alerts such as a smoke alarm or a baby crying make the phone vibrate. Google Translate's pages don't describe sound alerts."
+      sources: [captio-ai:soundAlerts, google-translate:soundAlerts]
+    - text: "It saves recordings with their audio, transcribes audio and video files and writes summaries and to-dos. You can add names and specialist words so they are recognised."
+      sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries, captio-ai:customWords]
 situations:
   - icon: travel
     title: "Travelling abroad"
@@ -82,7 +82,7 @@ situations:
   - icon: translate
     title: "Talking with someone in another language"
     pick: both
-    text: "Both translate a two-person conversation. Google Translate is free and its Face to face mode splits the screen; Captio AI shows the conversation as captions next to the translation and can save it."
+    text: "Both translate a two-person conversation. Google Translate is free and its Face to face mode splits the screen. Captio AI shows the conversation as captions next to the translation, writes sounds like [doorbell rings] into both, and can save it."
     link: /live-translator
 faqs:
   - q: "Can Google Translate be used as captions for deaf people?"

@@ -3,7 +3,7 @@ title: "Captio AI vs Rylo (formerly Nagish)"
 description: "Captio AI vs Rylo, formerly Nagish: phone-call captions, in-person Live Transcribe, offline use, translation, privacy, US-only FCC funding and price."
 kind: versus
 apps: [captio-ai, nagish]
-rows: [platforms, availability, phoneCalls, videoCalls, roomCaptions, languages, offline, speakerLabels, voiceNames, speakerDirection, translation, saveTranscripts, summaries, humanCaptioners, privacy, account, accessibilityFunding, freePlan, price]
+rows: [platforms, availability, phoneCalls, videoCalls, roomCaptions, languages, offline, speakerLabels, voiceNames, speakerDirection, soundAlerts, translation, saveTranscripts, summaries, humanCaptioners, privacy, account, accessibilityFunding, freePlan, price]
 published: 2026-10-28
 updated: 2026-10-28
 answer: "Use Rylo (formerly Nagish) if you live in the US and need captions on phone calls: it is free through the FCC for eligible users, and its free Live Transcribe mode also captions the room, which Rylo says works offline. Use Captio AI if you live outside the US, where Rylo isn't offered, or want speaker labels with names by voice on iPhone, live translation and recordings you can summarise for conversations in the room."
@@ -50,10 +50,10 @@ better:
       sources: [captio-ai:voiceNames]
     - text: "Speaker Direction (iPhone 16 and later): with the phone flat on the table, a wave at the edge of the captions shows which side the voice comes from, so you know whose face to look at."
       sources: [captio-ai:speakerDirection]
-    - text: "It translates conversations live, keeps recordings with their audio, transcribes files, and writes summaries and to-dos."
-      sources: [captio-ai:translation, captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries]
-    - text: "Its privacy policy says audio isn't stored on its servers and content is never used to train AI models."
-      sources: [captio-ai:privacy]
+    - text: "Recognize Sounds (iPhone and iPad): sounds around you are written into the captions where they happen, like \"[doorbell rings]\", and kept in the saved recording. A doorbell, a smoke alarm or a baby crying also makes the phone vibrate while Captio AI is recording."
+      sources: [captio-ai:soundAlerts]
+    - text: "It translates conversations live, keeps recordings with their audio, transcribes files, and writes summaries and to-dos. Its privacy policy says audio isn't stored on its servers and content is never used to train AI models."
+      sources: [captio-ai:translation, captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries, captio-ai:privacy]
 situations:
   - icon: phone
     title: "Calling your doctor or the pharmacy"

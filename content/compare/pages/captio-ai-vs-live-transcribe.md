@@ -6,10 +6,10 @@ apps: [captio-ai, live-transcribe]
 rows: [platforms, deviceRequirements, roomCaptions, languages, offline, speakerLabels, voiceNames, speakerDirection, translation, saveTranscripts, fileUpload, summaries, customWords, display, soundAlerts, signLanguage, privacy, freePlan, price]
 published: 2026-10-28
 updated: 2026-10-28
-answer: "Use Google Live Transcribe if you have an Android phone and want captions that cost nothing, work without internet in downloaded languages, and come with alerts for sounds like a doorbell. Use Captio AI if you have an iPhone, where Live Transcribe isn't available, or if you need live translation, recordings you can keep and summarise, and captions that show who is talking, by name on iPhone with Recognize Voices."
+answer: "Use Google Live Transcribe if you have an Android phone and want captions that cost nothing, work without internet in downloaded languages, and come with Sound Notifications, which always listens for sounds like a doorbell once it's on. Use Captio AI if you have an iPhone, where Live Transcribe isn't available, or if you need live translation, recordings you can keep and summarise, and captions that show who is talking, by name on iPhone with Recognize Voices."
 picks:
   - app: live-transcribe
-    text: "You use Android, want free captions with no daily limit, often have no signal, or want alerts for alarms, a doorbell or a baby crying."
+    text: "You use Android, want free captions with no daily limit, often have no signal, or want a phone that always listens for alarms, a doorbell or a baby crying."
   - app: captio-ai
     text: "You use an iPhone, want each person's name in the captions of a group conversation (Recognize Voices on iPhone), need live translation, or want to keep recordings and turn them into notes and to-dos."
 differences:
@@ -37,8 +37,8 @@ better:
       sources: [live-transcribe:freePlan]
     - text: "It captions without internet in downloaded languages on Android 12 or later."
       sources: [live-transcribe:offline]
-    - text: "Sound Notifications, in the same app, alerts you to smoke alarms, a doorbell, a baby crying and more. Captio AI has no sound alerts."
-      sources: [live-transcribe:soundAlerts]
+    - text: "Sound Notifications, in the same app, alerts you to smoke alarms, a doorbell, a baby crying and more. Captio AI's Recognize Sounds listens only while Captio AI is recording, on iPhone and iPad."
+      sources: [live-transcribe:soundAlerts, captio-ai:soundAlerts]
     - text: "It is already installed on Pixel and select other Android phones."
       sources: [live-transcribe:availability]
     - text: "Google lists more languages: over 80 languages and dialects, against Captio AI's 60+."
@@ -50,10 +50,10 @@ better:
       sources: [captio-ai:voiceNames]
     - text: "Speaker Direction (iPhone 16 and later): with the phone flat on the table, a wave at the edge of the captions shows which side a voice comes from."
       sources: [captio-ai:speakerDirection]
-    - text: "It translates conversations live."
-      sources: [captio-ai:translation]
-    - text: "It keeps recordings with their audio, transcribes files, and writes summaries and to-dos."
-      sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries]
+    - text: "Recognize Sounds (iPhone and iPad): during Live Captions or Live Translator, a doorbell, a smoke alarm or a baby crying makes the phone vibrate, with a notification if the screen is locked. Sounds like \"[doorbell rings]\" stay in the saved recording, and uploaded files get them too."
+      sources: [captio-ai:soundAlerts]
+    - text: "It translates conversations live, keeps recordings with their audio, transcribes files, and writes summaries and to-dos."
+      sources: [captio-ai:translation, captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries]
 situations:
   - icon: doctor
     title: "A doctor's appointment with weak signal"
@@ -78,7 +78,7 @@ situations:
   - icon: home
     title: "Hearing the doorbell or a smoke alarm"
     pick: live-transcribe
-    text: "Live Transcribe's Sound Notifications alerts you by vibration or flash. Captio AI only captions speech."
+    text: "Live Transcribe's Sound Notifications always listens once it's on, and alerts you by vibration or flash. Captio AI's Recognize Sounds hears a doorbell or a smoke alarm only while Captio AI records, on iPhone and iPad, and makes the phone vibrate."
   - icon: iphone
     title: "You have an iPhone"
     pick: captio-ai

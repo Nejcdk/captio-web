@@ -3,7 +3,7 @@ title: "Captio AI vs Relay Live Transcribe"
 description: "Captio AI and Relay Live Transcribe side by side: iPhone or Android, captions without internet, translation, privacy, saved transcripts and price."
 kind: versus
 apps: [captio-ai, relay-live-transcribe]
-rows: [platforms, deviceRequirements, roomCaptions, languages, offline, speakerLabels, voiceNames, speakerDirection, translation, saveTranscripts, export, fileUpload, summaries, display, privacy, account, phoneCalls, freePlan, price, accessibilityFunding]
+rows: [platforms, deviceRequirements, roomCaptions, languages, offline, speakerLabels, voiceNames, speakerDirection, soundAlerts, translation, saveTranscripts, export, fileUpload, summaries, privacy, account, phoneCalls, freePlan, price, accessibilityFunding]
 published: 2026-10-28
 updated: 2026-10-28
 answer: "Use Relay (Live Transcribe Deaf - Relay) if you have an iPhone with iOS 18 and want free, unlimited captions that run on the phone without internet, transcripts that never leave the phone, and a Flip mode for the person across the counter. Use Captio AI if you have an Android phone or an iPhone that can't run iOS 18, or if you need live translation, captions that know people by their voice (Recognize Voices, iPhone), and recordings with their audio that you can keep, share and summarise."
@@ -44,14 +44,14 @@ better:
   captio-ai:
     - text: "It runs on Android as well as iPhone, and on iPhones with iOS 15.1 or later; Relay needs iOS 18."
       sources: [captio-ai:platforms, captio-ai:deviceRequirements, relay-live-transcribe:deviceRequirements]
-    - text: "It translates conversations live in 60+ languages, with a two-way mode."
-      sources: [captio-ai:translation]
-    - text: "It keeps recordings with their audio, synced to your account, transcribes audio and video files, and turns a transcript into a summary, key points or to-dos."
-      sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries]
+    - text: "It translates conversations live in 60+ languages, with a two-way mode. It keeps recordings with their audio, synced to your account, transcribes audio and video files, and turns a transcript into a summary, key points or to-dos."
+      sources: [captio-ai:translation, captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries]
     - text: "Recognize Voices (iPhone): save someone's voice once and their name shows on every line they say, like \"Mum\" instead of \"Speaker 2\", in every conversation after, live and in saved recordings. The voiceprints stay on the iPhone."
       sources: [captio-ai:voiceNames]
     - text: "Speaker Direction (iPhone 16 and later): with the phone flat on the table, a wave at the edge of the captions shows which side a voice comes from, in that speaker's colour."
       sources: [captio-ai:speakerDirection]
+    - text: "Recognize Sounds (iPhone and iPad): sounds around you are written into the captions where they happen, like \"[doorbell rings]\", and kept in the saved recording. A doorbell, a smoke alarm or a baby crying also makes the phone vibrate while Captio AI is recording."
+      sources: [captio-ai:soundAlerts]
 situations:
   - icon: offline
     title: "No signal on a plane or in a basement"

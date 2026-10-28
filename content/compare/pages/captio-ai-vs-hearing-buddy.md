@@ -3,7 +3,7 @@ title: "Captio AI vs Hearing Buddy"
 description: "Captio AI and Hearing Buddy side by side: iPhone or Android, free captions, captions without internet, shared captions, languages, who is talking and price."
 kind: versus
 apps: [captio-ai, hearing-buddy]
-rows: [platforms, deviceRequirements, roomCaptions, groupConversations, languages, offline, speakerLabels, voiceNames, speakerDirection, translation, saveTranscripts, export, fileUpload, summaries, customWords, phoneCalls, privacy, account, freePlan, price]
+rows: [platforms, deviceRequirements, roomCaptions, groupConversations, languages, offline, speakerLabels, voiceNames, speakerDirection, soundAlerts, translation, saveTranscripts, export, fileUpload, summaries, customWords, privacy, account, freePlan, price]
 published: 2026-10-28
 updated: 2026-10-28
 answer: "Use Hearing Buddy if you have an iPhone or iPad on iOS 26 or later and want free, unlimited captions that run on the phone and work without internet, with the phones around you reading along in their own language. Use Captio AI if you have an Android phone or an older iPhone, need one of 60+ languages, or want one phone to show who is talking (by name on iPhone, with Recognize Voices) and recordings you keep with their audio and turn into summaries."
@@ -44,14 +44,14 @@ better:
     - text: "With Buddy+, Boost Audio turns AirPods or other headphones into a sound amplifier for quiet voices."
       sources: [hearing-buddy:s7]
   captio-ai:
-    - text: "It runs on Android and on iPhones with iOS 15.1 or later. Hearing Buddy needs iOS 26 and an Apple device."
-      sources: [captio-ai:platforms, captio-ai:deviceRequirements, hearing-buddy:platforms, hearing-buddy:deviceRequirements]
-    - text: "It captions and translates 60+ languages live. Hearing Buddy captions 8 and translates into 10."
-      sources: [captio-ai:languages, captio-ai:translation, hearing-buddy:languages, hearing-buddy:translation]
+    - text: "It runs on Android and on iPhones with iOS 15.1 or later, and captions and translates 60+ languages live. Hearing Buddy needs iOS 26 and an Apple device, captions 8 languages and translates into 10."
+      sources: [captio-ai:platforms, captio-ai:deviceRequirements, captio-ai:languages, captio-ai:translation, hearing-buddy:platforms, hearing-buddy:deviceRequirements, hearing-buddy:languages, hearing-buddy:translation]
     - text: "Recognize Voices (iPhone): save someone's voice once and their name, like \"Mum\" instead of \"Speaker 2\", shows on every line they say, live and in saved recordings. Voiceprints stay on the iPhone. Hearing Buddy's one-phone Speaker Labels are colours for up to four voices, with Buddy+, and reset after each session."
       sources: [captio-ai:voiceNames, hearing-buddy:speakerLabels, hearing-buddy:voiceNames]
     - text: "Speaker Direction (iPhone 16 and later): with the phone flat on the table, a wave at the edge of the captions shows which side a voice comes from."
       sources: [captio-ai:speakerDirection]
+    - text: "Recognize Sounds (iPhone and iPad): sounds like \"[doorbell rings]\" are written into the captions where they happen and stay in the saved recording, and a doorbell, a smoke alarm or a baby crying makes the phone vibrate. Hearing Buddy's pages don't describe alerts for sounds like a doorbell."
+      sources: [captio-ai:soundAlerts, hearing-buddy:soundAlerts]
     - text: "It keeps recordings with their audio, synced to your account, and transcribes audio and video files. Its free plan includes 3 AI summaries; Hearing Buddy's summaries need Buddy+."
       sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries, hearing-buddy:summaries]
 situations:

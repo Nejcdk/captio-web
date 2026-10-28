@@ -3,7 +3,7 @@ title: "Captio AI vs Rogervoice"
 description: "Captio AI and Rogervoice side by side: phone call captions, captions in the room, translation, sign language in France, free calls in the US and France."
 kind: versus
 apps: [captio-ai, rogervoice]
-rows: [phoneCalls, roomCaptions, platforms, deviceRequirements, languages, offline, speakerLabels, voiceNames, speakerDirection, translation, saveTranscripts, summaries, humanCaptioners, signLanguage, videoCalls, privacy, availability, accessibilityFunding, freePlan, price]
+rows: [phoneCalls, roomCaptions, platforms, deviceRequirements, languages, offline, speakerLabels, voiceNames, speakerDirection, soundAlerts, translation, saveTranscripts, humanCaptioners, signLanguage, videoCalls, privacy, availability, accessibilityFunding, freePlan, price]
 published: 2026-10-28
 updated: 2026-10-28
 answer: "Use Rogervoice if you need captions on phone calls: it captions calls to any number, is free for eligible users in the US, and in France operators pay for 5 hours of calls a month, with French Sign Language interpreters available. Use Captio AI for conversations in the room, where it labels who is talking (by name on iPhone), translates live and keeps recordings you can summarise; Rogervoice's in-person Live captions is new and needs iOS 26 on iPhone. They do different jobs, so you may want both."
@@ -50,10 +50,10 @@ better:
       sources: [captio-ai:voiceNames]
     - text: "Speaker Direction (iPhone 16 and later): with the phone flat on the table, a wave at the edge of the captions shows which side the voice comes from, so you know whose face to look at."
       sources: [captio-ai:speakerDirection]
-    - text: "It translates conversations live, which Rogervoice says it doesn't do, and keeps recordings with their audio for summaries and to-dos."
-      sources: [captio-ai:translation, rogervoice:translation, captio-ai:saveTranscripts, captio-ai:summaries]
-    - text: "No phone number needed: sign in with Apple or Google, or skip. Rogervoice signs you up with your phone number and an SMS code."
-      sources: [captio-ai:account, rogervoice:account]
+    - text: "Recognize Sounds (iPhone and iPad): sounds around you are written into the captions where they happen, like \"[doorbell rings]\", and kept in the saved recording. A doorbell, a smoke alarm or a baby crying also makes the phone vibrate while Captio AI is recording."
+      sources: [captio-ai:soundAlerts]
+    - text: "It translates conversations live, which Rogervoice says it doesn't do, and keeps recordings with their audio for summaries and to-dos. It needs no phone number: sign in with Apple or Google, or skip. Rogervoice signs you up with your phone number and an SMS code."
+      sources: [captio-ai:translation, rogervoice:translation, captio-ai:saveTranscripts, captio-ai:summaries, captio-ai:account, rogervoice:account]
 situations:
   - icon: phone
     title: "Calling your doctor, bank or a shop"

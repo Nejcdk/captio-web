@@ -3,7 +3,7 @@ title: "Captio AI vs ClearCaptions"
 description: "Captio AI vs ClearCaptions: FCC-funded phone-call captions in the US vs live captions for people in the room. Android, languages, live captioners and price."
 kind: versus
 apps: [captio-ai, clearcaptions]
-rows: [platforms, deviceRequirements, availability, phoneCalls, videoCalls, roomCaptions, humanCaptioners, languages, translation, offline, speakerLabels, voiceNames, speakerDirection, saveTranscripts, summaries, privacy, account, accessibilityFunding, freePlan, price]
+rows: [platforms, availability, phoneCalls, videoCalls, roomCaptions, humanCaptioners, languages, translation, offline, speakerLabels, voiceNames, speakerDirection, soundAlerts, saveTranscripts, summaries, privacy, account, accessibilityFunding, freePlan, price]
 published: 2026-10-28
 updated: 2026-10-28
 answer: "Use ClearCaptions if you live in the US and need captions on phone calls: it is free through the FCC for eligible users, on an iPhone, an iPad or a home caption phone. Use Captio AI for conversations with people in the same room, which ClearCaptions describes only for phone calls, or if you use Android, speak another language or live outside the US. In the US you may want both: one for calls, one for the room, where on iPhone Captio AI can show who is talking by name."
@@ -48,10 +48,10 @@ better:
       sources: [captio-ai:voiceNames]
     - text: "Speaker Direction (iPhone 16 and later): with the phone flat on the table, a wave at the edge of the captions shows which side the voice comes from, so you know whose face to look at."
       sources: [captio-ai:speakerDirection]
-    - text: "It captions 60+ languages and translates conversations live. ClearCaptions captions English only."
-      sources: [captio-ai:languages, captio-ai:translation, clearcaptions:languages]
-    - text: "It works on Android as well as iPhone and iPad, and outside the US, without an account or an eligibility check."
-      sources: [captio-ai:platforms, clearcaptions:platforms, captio-ai:availability, captio-ai:account, clearcaptions:account]
+    - text: "Recognize Sounds (iPhone and iPad): sounds around you are written into the captions where they happen, like \"[doorbell rings]\", and kept in the saved recording. A doorbell, a smoke alarm or a baby crying also makes the phone vibrate while Captio AI is recording."
+      sources: [captio-ai:soundAlerts]
+    - text: "It captions 60+ languages and translates conversations live, where ClearCaptions captions English only. It works on Android as well as iPhone and iPad, and outside the US, without an account or an eligibility check."
+      sources: [captio-ai:languages, captio-ai:translation, clearcaptions:languages, captio-ai:platforms, clearcaptions:platforms, captio-ai:availability, captio-ai:account, clearcaptions:account]
 situations:
   - icon: phone
     title: "Calling your doctor or the pharmacy"

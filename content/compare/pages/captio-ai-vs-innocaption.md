@@ -3,7 +3,7 @@ title: "Captio AI vs InnoCaption"
 description: "Captio AI vs InnoCaption: phone-call captions with live stenographers, in-person captions, languages, translation, FCC funding, US-only sign-up and price."
 kind: versus
 apps: [captio-ai, innocaption]
-rows: [platforms, availability, phoneCalls, videoCalls, roomCaptions, humanCaptioners, languages, translation, offline, speakerLabels, voiceNames, speakerDirection, saveTranscripts, summaries, customWords, privacy, account, accessibilityFunding, freePlan, price]
+rows: [platforms, availability, phoneCalls, videoCalls, roomCaptions, humanCaptioners, languages, translation, offline, speakerLabels, voiceNames, speakerDirection, soundAlerts, saveTranscripts, summaries, privacy, account, accessibilityFunding, freePlan, price]
 published: 2026-10-28
 updated: 2026-10-28
 answer: "Use InnoCaption if you live in the US and need captions on phone calls: it is free through the FCC for eligible users, and you can choose live stenographers or AI captions. Use Captio AI for conversations with people in the same room, which InnoCaption says its service can't be used for, or if you live outside the US. In the US you may want both: one for calls, one for the room, where on iPhone Captio AI can show who is talking by name."
@@ -50,10 +50,10 @@ better:
       sources: [captio-ai:voiceNames]
     - text: "Speaker Direction (iPhone 16 and later): with the phone flat on the table, a wave at the edge of the captions shows which side the voice comes from, so you know whose face to look at."
       sources: [captio-ai:speakerDirection]
-    - text: "It translates conversations live in 60+ languages, keeps recordings with their audio, and writes summaries and to-dos."
-      sources: [captio-ai:translation, captio-ai:languages, captio-ai:saveTranscripts, captio-ai:summaries]
-    - text: "It works outside the US, and you can use it without an account."
-      sources: [captio-ai:availability, captio-ai:account]
+    - text: "Recognize Sounds (iPhone and iPad): sounds around you are written into the captions where they happen, like \"[doorbell rings]\", and kept in the saved recording. A doorbell, a smoke alarm or a baby crying also makes the phone vibrate while Captio AI is recording."
+      sources: [captio-ai:soundAlerts]
+    - text: "It translates conversations live in 60+ languages, keeps recordings with their audio, and writes summaries and to-dos. It works outside the US, and you can use it without an account."
+      sources: [captio-ai:translation, captio-ai:languages, captio-ai:saveTranscripts, captio-ai:summaries, captio-ai:availability, captio-ai:account]
 situations:
   - icon: phone
     title: "Calling your doctor, bank or pharmacy"

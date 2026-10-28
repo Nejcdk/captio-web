@@ -3,7 +3,7 @@ title: "Captio AI vs Microsoft Translator"
 description: "Captio AI and Microsoft Translator compared for reading and translating a conversation: captions, speech languages, offline use, groups and price."
 kind: versus
 apps: [captio-ai, microsoft-translator]
-rows: [platforms, deviceRequirements, roomCaptions, translation, languages, offline, groupConversations, speakerLabels, voiceNames, speakerDirection, saveTranscripts, export, fileUpload, summaries, customWords, display, privacy, account, freePlan, price]
+rows: [platforms, deviceRequirements, roomCaptions, translation, languages, offline, groupConversations, speakerLabels, voiceNames, speakerDirection, soundAlerts, saveTranscripts, export, fileUpload, summaries, customWords, privacy, account, freePlan, price]
 published: 2026-10-28
 updated: 2026-10-28
 answer: "Use Microsoft Translator if you want free translation of short spoken phrases in 48 languages, typed text in 135, and offline text and photo translation, with no account. Use Captio AI if you want to read a whole conversation as live captions, see who is talking, translate it live and keep the recording; on iPhone 16 and later, Speaker Direction also shows which side a voice comes from. Both of Microsoft's store listings say its multi-device conversation feature has been retired (June 2026)."
@@ -48,10 +48,10 @@ better:
       sources: [captio-ai:groupConversations, captio-ai:voiceNames]
     - text: "On iPhone 16 and later, Speaker Direction shows which side a voice comes from, also in Live Translator, so in a two-way conversation across a table you know who just spoke."
       sources: [captio-ai:speakerDirection]
-    - text: "It saves recordings with their audio, transcribes audio and video files, and writes summaries and to-dos."
-      sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries]
-    - text: "You can add names and specialist words, and change text size, colours and contrast."
-      sources: [captio-ai:customWords, captio-ai:display]
+    - text: "Recognize Sounds (iPhone and iPad) writes sounds into the captions where they happen, like [doorbell rings], in Live Captions and in both panes of Live Translator, and keeps them in the recording. Alerts such as a smoke alarm or a baby crying make the phone vibrate. Microsoft's pages don't describe sound alerts."
+      sources: [captio-ai:soundAlerts, microsoft-translator:soundAlerts]
+    - text: "It saves recordings with their audio, transcribes audio and video files and writes summaries and to-dos. You can add names and specialist words so they are recognised."
+      sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries, captio-ai:customWords]
 situations:
   - icon: lecture
     title: "A class or a lecture"

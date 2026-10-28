@@ -6,10 +6,10 @@ apps: [captio-ai, ava]
 rows: [platforms, deviceRequirements, roomCaptions, groupConversations, speakerLabels, voiceNames, speakerDirection, languages, offline, translation, saveTranscripts, summaries, customWords, soundAlerts, videoCalls, humanCaptioners, signLanguage, privacy, freePlan, price]
 published: 2026-10-28
 updated: 2026-10-28
-answer: "Use Ava if you want free basic captions with no monthly limit, an offline mode on your phone, alerts for sounds like a doorbell, or the option to add a human captioner or an ASL interpreter; its group mode lets everyone join from their own phone. Use Captio AI if you want one phone on the table to label every speaker (by name on iPhone, with Recognize Voices), captions and live translation in 60+ languages, or recordings you keep with their audio and turn into summaries and to-dos."
+answer: "Use Ava if you want free basic captions with no monthly limit, an offline mode on your phone, or the option to add a human captioner or an ASL interpreter; its group mode lets everyone join from their own phone. Use Captio AI if you want one phone on the table to label every speaker (by name on iPhone, with Recognize Voices), captions and live translation in 60+ languages, or recordings you keep with their audio and turn into summaries and to-dos."
 picks:
   - app: ava
-    text: "You want free captions with no monthly limit, need captions with no signal, want sound alerts, or need a human captioner, an ASL interpreter or captions for Zoom and Teams calls."
+    text: "You want free captions with no monthly limit, need captions with no signal, or need a human captioner, an ASL interpreter or captions for Zoom and Teams calls."
   - app: captio-ai
     text: "You want one phone on the table to show who is talking (with names by voice on iPhone), need live translation in 60+ languages, or want to keep recordings and turn them into notes and to-dos."
 differences:
@@ -39,8 +39,8 @@ better:
       sources: [ava:groupConversations]
     - text: "Its mobile apps keep captioning without internet, one to one and in your default language."
       sources: [ava:offline]
-    - text: "Sound Detection alerts you to sounds like a doorbell, an alarm clock, a baby or a phone ringing. Captio AI has no sound alerts."
-      sources: [ava:soundAlerts, captio-ai:soundAlerts]
+    - text: "Sound Detection alerts you to sounds like a doorbell, an alarm clock, a baby or a phone ringing. Captio AI's Recognize Sounds does this on iPhone and iPad, not on Android."
+      sources: [ava:soundAlerts, ava:platforms, captio-ai:soundAlerts]
     - text: "You can add a human captioner (Ava Scribe) or a remote ASL interpreter, and caption Zoom, Teams and Meet calls on a computer with Ava Connect."
       sources: [ava:humanCaptioners, ava:signLanguage, ava:videoCalls]
   captio-ai:
@@ -48,12 +48,12 @@ better:
       sources: [captio-ai:speakerLabels, captio-ai:voiceNames, ava:speakerLabels]
     - text: "Speaker Direction (iPhone 16 and later): with the phone flat on the table, a wave at the edge of the captions shows which side a voice comes from, so you know where to look."
       sources: [captio-ai:speakerDirection]
-    - text: "It captions and translates 60+ languages live; Ava's help centre lists 23+ for captions."
-      sources: [captio-ai:languages, captio-ai:translation, ava:languages]
+    - text: "Recognize Sounds (iPhone and iPad): sounds are written into the captions where they happen, like \"[doorbell rings]\", and stay in the saved recording. A doorbell, a smoke alarm or a baby crying makes the phone vibrate, with a notification if the screen is locked during a recording. Ava's Sound Detection shows a small alert on the screen."
+      sources: [captio-ai:soundAlerts, ava:soundAlerts]
+    - text: "It captions and translates 60+ languages live; Ava's help centre lists 23+ for captions. It also runs on iPhones from iOS 15.1, while the current Ava app on the App Store needs iOS 18.6."
+      sources: [captio-ai:languages, captio-ai:translation, ava:languages, captio-ai:deviceRequirements, ava:deviceRequirements]
     - text: "It keeps recordings with their audio, transcribes your own audio and video files, and turns them into summaries, key points and to-dos. Ava sells file transcription as a separate human service."
       sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries, ava:fileUpload]
-    - text: "It runs on iPhones with iOS 15.1 or later; the current Ava app on the App Store needs iOS 18.6."
-      sources: [captio-ai:deviceRequirements, ava:deviceRequirements]
 situations:
   - icon: dinner
     title: "A family dinner or a group"
