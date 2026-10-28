@@ -33,7 +33,7 @@ export default function PrivacyPage() {
         <Header />
         <div className="max-w-3xl mx-auto px-6 py-16">
       <h1 className="text-3xl font-bold mb-2">Privacy Policy</h1>
-      <p className="text-sm text-gray-500 mb-10">Last updated: October 21, 2026</p>
+      <p className="text-sm text-gray-500 mb-10">Last updated: October 28, 2026</p>
 
       <P>
         This Privacy Policy explains how Captio AI (&ldquo;Captio AI&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or
@@ -56,7 +56,7 @@ export default function PrivacyPage() {
         <li>Your transcripts and summaries are stored <strong>securely to provide the Service</strong> — including syncing them across your devices — and are never sold or used to train AI models.</li>
         <li>We <strong>never sell</strong> your data.</li>
         <li>Your content is <strong>never used to train AI models</strong>, and it is never shared for advertising.</li>
-        <li>On iPhone, we measure our advertising with Meta and OpenAI <strong>only if you allow tracking</strong> when the app asks. If you don&rsquo;t, nothing is sent to them. The Android app does no advertising measurement at all.</li>
+        <li>The app <strong>does not track you</strong>: it sends nothing about you to advertising networks (on iPhone since version 1.1.4; section 3 explains older versions).</li>
       </UL>
 
       <H2>3. Data we collect</H2>
@@ -77,7 +77,7 @@ export default function PrivacyPage() {
           stored securely in our cloud, linked to your account. They are never used to train AI models.
         </li>
         <li>
-          <strong>Subscription information.</strong> If you start a free trial or subscribe, we and our
+          <strong>Subscription information.</strong> If you subscribe, we and our
           subscription provider, RevenueCat, process your subscription status and purchase history (plan, trial,
           renewals). To connect purchases to your account, RevenueCat also receives your account identifier, your
           IP address and, on iPhone, a device identifier provided by Apple. Payment is handled by the Apple App
@@ -91,30 +91,25 @@ export default function PrivacyPage() {
           never includes the content of your audio, transcripts, or summaries.
         </li>
         <li>
-          <strong>Advertising measurement (iPhone only).</strong> In the iPhone app we use these tools to
-          learn which of our ads lead to installs and subscriptions (the Android app uses none of them: it never
-          reads your device&rsquo;s advertising ID and sends nothing to Meta or OpenAI):
+          <strong>Advertising measurement.</strong> The app does not track you: it never reads your
+          device&rsquo;s advertising identifier and sends nothing about you to an advertising network. On iPhone,
+          an Apple Ads attribution token tells us whether an install came from one of our Apple Ads campaigns; it
+          comes from Apple&rsquo;s own privacy-preserving system and contains no advertising identifier. The
+          Android app does no advertising measurement at all.
           <UL>
             <li>
-              Apple&rsquo;s SKAdNetwork, which tells an ad network anonymously, at campaign level, that an install
-              came from one of its ads. No identifier leaves your device.
+              <strong>iPhone versions before 1.1.4</strong> also used Apple&rsquo;s SKAdNetwork (anonymous,
+              campaign-level install counts) and included Meta&rsquo;s SDK. If you allowed tracking when one of
+              those versions asked, it sends app events (for example completing onboarding, creating an account,
+              or opening the subscription screen) together with your device&rsquo;s advertising identifier (IDFA)
+              to Meta until you update the app. You can stop it at any time in iOS Settings → Privacy &amp;
+              Security → Tracking.
             </li>
             <li>
-              An Apple Ads attribution token, which tells us whether the install came from one of our Apple Ads
-              campaigns.
-            </li>
-            <li>
-              <strong>Only if you allow tracking</strong> when the app asks: the Meta SDK in the app sends app
-              events (for example completing onboarding, creating an account, or opening the subscription screen)
-              together with your device&rsquo;s advertising identifier (IDFA), and RevenueCat sends trial and
-              purchase events to Meta with the same identifier and Meta&rsquo;s anonymous app identifier. You can
-              change your choice at any time in iOS Settings → Privacy &amp; Security → Tracking.
-            </li>
-            <li>
-              <strong>Only if you allow tracking</strong> when the app asks, and only if you came to us from one
-              of our ads in ChatGPT: when you start a free trial or a subscription, we send that event (its type,
-              plan, price, and country) to OpenAI together with your IP address and the click identifier from the
-              ad, so OpenAI can count it as a result of that ad.
+              Until October 26, 2026, if you had allowed tracking and came to us from one of our ads in ChatGPT, a
+              free trial or subscription you started was reported to OpenAI (its type, plan, price and country,
+              with your IP address and the ad&rsquo;s click identifier). This has stopped: nothing is sent to
+              OpenAI anymore.
             </li>
           </UL>
         </li>
@@ -135,11 +130,10 @@ export default function PrivacyPage() {
         <li>
           <strong>Website analytics.</strong> Our website uses privacy-friendly, cookieless analytics that
           count visits, page views, and clicks on download buttons in aggregate. It does not use cookies, does not
-          track you across sites, and does not build a profile of you. When you tap one of our ads in ChatGPT, the
-          link opens our website, which sends you straight on to the App Store. On the way it notes which ad you
-          tapped, OpenAI&rsquo;s click identifier, and a one-way hash of your IP address (never the address
-          itself), so that a trial you start later can be matched to the ad if you allow tracking in the app.
-          This record is deleted after 8 days. If you accept a shared-folder invite on our website by signing in
+          track you across sites, and does not build a profile of you. Our ads in ChatGPT have ended; if you open
+          one of their old links, our website sends you straight on to the App Store and notes which ad it was,
+          OpenAI&rsquo;s click identifier, and a one-way hash of your IP address (never the address itself), only
+          to count visits from that ad. Nothing is sent to OpenAI, and this record is deleted after 8 days. If you accept a shared-folder invite on our website by signing in
           with Apple or Google, the sign-in uses your browser&rsquo;s temporary session storage only while you join;
           you are signed out of the website right after, and nothing is kept in your browser.
         </li>
@@ -214,16 +208,17 @@ export default function PrivacyPage() {
         <li><strong>Performance of a contract</strong> — to provide the Service you request, including your account, syncing, and your subscription.</li>
         <li>
           <strong>Consent</strong> — for microphone access; for sending your audio to Soniox and your transcript text to
-          Google (Gemini API), which the app asks before anything is sent; for advertising measurement with Meta and OpenAI on iPhone (your
-          choice when the app asks to track, which you can change at any time in iOS Settings); and for the optional
+          Google (Gemini API), which the app asks before anything is sent; for advertising measurement with Meta in
+          iPhone versions before 1.1.4, only if you allowed tracking (you can withdraw it at any time in iOS
+          Settings); and for the optional
           question about hearing difficulties in the feedback form (explicit consent under Article 9(2)(a) GDPR,
           which you can withdraw by contacting us).
         </li>
         <li>
           <strong>Legitimate interests</strong> — to keep the Service secure and reliable and to improve it (app
-          analytics, crash and error reports), to measure our advertising with Apple&rsquo;s privacy-preserving
-          tools (SKAdNetwork and Apple Ads attribution) and by noting which of our ChatGPT ads brought you to our
-          website (kept for 8 days), and to send the welcome and follow-up emails (you can unsubscribe at any time).
+          analytics, crash and error reports), to measure our advertising with Apple Ads attribution (and, in
+          iPhone versions before 1.1.4, Apple&rsquo;s SKAdNetwork) and by noting which old ChatGPT ad link brought
+          you to our website (kept for 8 days), and to send the welcome and follow-up emails (you can unsubscribe at any time).
         </li>
         <li><strong>Legal obligations</strong> — where the law requires us to process data.</li>
       </UL>
@@ -236,20 +231,17 @@ export default function PrivacyPage() {
       <UL>
         <li><strong>Soniox, Inc.</strong> — speech recognition (section 4).</li>
         <li><strong>Google LLC</strong> — Gemini API for titles, summaries and the other AI actions (section 4), Google Sign-In if you choose it, and Google Play purchases on Android.</li>
-        <li><strong>Apple</strong> — on iPhone: App Store purchases, Sign in with Apple, push notifications, and Apple&rsquo;s advertising attribution (SKAdNetwork and Apple Ads).</li>
+        <li><strong>Apple</strong> — on iPhone: App Store purchases, Sign in with Apple, push notifications, and Apple Ads attribution.</li>
         <li><strong>Supabase</strong> — our database, accounts, and sync.</li>
-        <li><strong>RevenueCat, Inc.</strong> — subscriptions and free trials.</li>
+        <li><strong>RevenueCat, Inc.</strong> — subscriptions.</li>
         <li><strong>PostHog</strong> — app and website analytics, on servers in the EU.</li>
         <li><strong>Resend</strong> — email delivery.</li>
         <li><strong>Expo (650 Industries, Inc.)</strong> — delivery of push notifications on iPhone.</li>
         <li><strong>Vercel</strong> — website hosting and cookieless website analytics.</li>
         <li>
-          <strong>Meta Platforms Ireland Ltd.</strong> — advertising measurement on iPhone, <strong>only if you
-          allow tracking</strong>. Meta processes this data under its own privacy policy.
-        </li>
-        <li>
-          <strong>OpenAI</strong> — advertising measurement for our ads in ChatGPT, on iPhone, <strong>only if you
-          allow tracking</strong>. OpenAI processes this data under its own privacy policy.
+          <strong>Meta Platforms Ireland Ltd.</strong> — advertising measurement in iPhone versions before
+          1.1.4, <strong>only if you allowed tracking</strong> (section 3). Meta processes this data under its own
+          privacy policy.
         </li>
       </UL>
       <P>We may also disclose data if required by law or to protect our legal rights.</P>
@@ -271,7 +263,7 @@ export default function PrivacyPage() {
         <li><strong>Usage and diagnostic data</strong> — pseudonymous, and kept only as long as needed to run and improve the app.</li>
         <li><strong>Feedback</strong> — kept until it has been handled; deleted sooner on request.</li>
         <li><strong>ChatGPT ad clicks</strong> — the ad you tapped and a one-way hash of your IP address, deleted after 8 days.</li>
-        <li><strong>Advertising data sent to Meta or OpenAI</strong> — kept by them under their own retention policies.</li>
+        <li><strong>Advertising data sent to Meta (iPhone versions before 1.1.4) or to OpenAI (until October 26, 2026)</strong> — kept by them under their own retention policies.</li>
       </UL>
 
       <H2>10. Your rights</H2>
@@ -282,7 +274,7 @@ export default function PrivacyPage() {
         <a href="mailto:nejcdovzank@gmail.com" className="text-brand underline">nejcdovzank@gmail.com</a>. You can
         also delete your account, and all data linked to it, at any time directly in the app or on{" "}
         <Link href="/delete-account" className="text-brand underline">captioai.app/delete-account</Link>; turn tracking
-        off on iPhone in iOS Settings → Privacy &amp; Security → Tracking; and unsubscribe from emails with the link
+        off for iPhone versions before 1.1.4 in iOS Settings → Privacy &amp; Security → Tracking; and unsubscribe from emails with the link
         in any email. You also have the right to lodge a complaint with your local supervisory authority — in Slovenia,
         the Information Commissioner (Informacijski pooblaščenec).
       </P>
@@ -307,9 +299,9 @@ export default function PrivacyPage() {
       <H2>13. Cookies and tracking</H2>
       <P>
         Our website does not use tracking or advertising cookies. The analytics we use are cookieless, which is
-        why you will not see a cookie-consent banner. The app does not use cookies. The iPhone app tracks you for
-        advertising measurement only if you allow it when iOS asks, and declining changes nothing about how the
-        app works. The Android app does not track you for advertising.
+        why you will not see a cookie-consent banner. The app does not use cookies and does not track you for
+        advertising: not on Android, and not on iPhone since version 1.1.4. Older iPhone versions did so only if
+        you allowed it when iOS asked (section 3), and declining never changed how the app works.
       </P>
 
       <H2>14. Changes to this policy</H2>
