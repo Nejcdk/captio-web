@@ -105,6 +105,44 @@
         ]
       }
     },
+    "moreFeaturesTitle": "더 많은 기능",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "AI 작업",
+        "title": "할 일, 노트, 후속 메시지",
+        "description": "어떤 녹음이든 핵심 요점, 상세 노트, 할 일, Q&A, 후속 메시지로 바꿔 보세요."
+      },
+      "export": {
+        "label": "내보내기",
+        "title": "원하는 방식으로 공유",
+        "description": "자막이나 요약을 텍스트, 링크, PDF, 이메일, AI 채팅 프롬프트로 보낼 수 있어요."
+      },
+      "folders": {
+        "label": "폴더",
+        "title": "폴더와 공유 폴더",
+        "description": "녹음을 폴더로 정리하고, 가족, 반 친구, 팀과 폴더를 공유하세요."
+      },
+      "recognize-voices": {
+        "label": "목소리 인식",
+        "title": "“화자 2” 대신 이름으로",
+        "description": "자주 대화하는 사람의 목소리를 저장하면 자막에 그 사람의 이름이 표시돼요."
+      },
+      "speaker-direction": {
+        "label": "화자 방향",
+        "title": "목소리가 오는 방향 보기",
+        "description": "자막 가장자리의 물결이 누가 말하는지 알려 줘요. iPhone 16 이상."
+      },
+      "connectors": {
+        "label": "커넥터",
+        "title": "채팅 앱에 물어보기",
+        "description": "Claude, ChatGPT, Gemini, Perplexity에 내 녹음에 대해 무엇이든 물어보세요."
+      },
+      "widgets": {
+        "label": "위젯",
+        "title": "한 번 탭으로 자막",
+        "description": "iPhone 홈 화면이나 잠금 화면에서 실시간 자막을 시작하세요."
+      }
+    },
     "useCasesLabel": "활용 사례",
     "useCasesTitle": "어떤 상황에서도 쓸 수 있어요",
     "useCasesSubtitle": "조용하고 정돈된 환경만이 아니라, 정말 중요한 실제 순간을 위해 만들었어요.",

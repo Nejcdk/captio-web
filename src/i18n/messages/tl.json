@@ -105,6 +105,44 @@
         ]
       }
     },
+    "moreFeaturesTitle": "Iba pang feature",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "Mga AI Action",
+        "title": "Mga to-do, notes, at follow-up",
+        "description": "Gawing key points, detalyadong notes, mga to-do, Q&A, o follow-up na mensahe ang kahit anong recording."
+      },
+      "export": {
+        "label": "Pag-export",
+        "title": "Ibahagi sa paraang gusto mo",
+        "description": "Ipadala ang mga caption o buod bilang text, link, PDF, email, o prompt sa AI chat."
+      },
+      "folders": {
+        "label": "Mga Folder",
+        "title": "Mga folder at shared na folder",
+        "description": "Ayusin ang mga recording sa mga folder at ibahagi ang isa sa pamilya, kaklase, o team mo."
+      },
+      "recognize-voices": {
+        "label": "Pagkilala sa Boses",
+        "title": "Mga pangalan, hindi “Speaker 2”",
+        "description": "I-save ang boses ng mga madalas mong kausap at makita ang mga pangalan nila sa mga caption mo."
+      },
+      "speaker-direction": {
+        "label": "Direksyon ng Speaker",
+        "title": "Tingnan kung saan galing ang boses",
+        "description": "Itinuturo ng mga alon sa gilid ng mga caption kung sino ang nagsasalita. Para sa iPhone 16 at mas bago."
+      },
+      "connectors": {
+        "label": "Mga Connector",
+        "title": "Magtanong sa chat app mo",
+        "description": "Magtanong kay Claude, ChatGPT, Gemini, o Perplexity tungkol sa kahit anong recording mo."
+      },
+      "widgets": {
+        "label": "Mga Widget",
+        "title": "Mga caption sa isang tap",
+        "description": "Simulan ang Live na Caption mula sa Home Screen o Lock Screen ng iPhone mo."
+      }
+    },
     "useCasesLabel": "Saan Magagamit",
     "useCasesTitle": "Gumagana sa bawat sitwasyon",
     "useCasesSubtitle": "Ginawa para sa mga totoong sandaling mahalaga — hindi lang sa tahimik at kontroladong lugar.",

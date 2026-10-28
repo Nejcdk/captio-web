@@ -105,6 +105,44 @@
         ]
       }
     },
+    "moreFeaturesTitle": "Fler funktioner",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "AI-åtgärder",
+        "title": "Att göra, anteckningar och ett uppföljningsmeddelande",
+        "description": "Gör vilken inspelning som helst till viktigaste punkter, utförliga anteckningar, att göra-punkter, frågor och svar eller ett uppföljningsmeddelande."
+      },
+      "export": {
+        "label": "Export",
+        "title": "Dela på ditt sätt",
+        "description": "Skicka undertexter eller en sammanfattning som text, länk, PDF, e-post eller AI-chattprompt."
+      },
+      "folders": {
+        "label": "Mappar",
+        "title": "Mappar och delade mappar",
+        "description": "Sortera inspelningar i mappar och dela en med familjen, klasskamrater eller ditt team."
+      },
+      "recognize-voices": {
+        "label": "Röstigenkänning",
+        "title": "Namn, inte Talare 2",
+        "description": "Spara rösterna hos människor du ofta pratar med och se deras namn i undertexterna."
+      },
+      "speaker-direction": {
+        "label": "Talarens riktning",
+        "title": "Se var en röst kommer ifrån",
+        "description": "Vågor i kanten av undertexterna pekar ut vem som pratar. iPhone 16 och senare."
+      },
+      "connectors": {
+        "label": "Kopplingar",
+        "title": "Fråga din chattapp",
+        "description": "Fråga Claude, ChatGPT, Gemini eller Perplexity om vilken som helst av dina inspelningar."
+      },
+      "widgets": {
+        "label": "Widgets",
+        "title": "Undertexter med ett tryck",
+        "description": "Starta Liveundertexter från iPhones hemskärm eller låsskärm."
+      }
+    },
     "useCasesLabel": "Användningsområden",
     "useCasesTitle": "Fungerar i alla situationer",
     "useCasesSubtitle": "Gjord för de verkliga ögonblicken som betyder något, inte bara för tysta, kontrollerade miljöer.",

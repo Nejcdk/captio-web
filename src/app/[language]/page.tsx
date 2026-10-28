@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import { DownloadCard, StoreButtons } from "@/components/StoreButtons";
 import FaqAccordion from "@/components/FaqAccordion";
 import HomeContent from "@/components/HomeContent";
+import HeroDownload from "@/components/HeroDownload";
 import { languages, getLanguageBySlug } from "@/lib/languages";
 import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbSchema } from "@/lib/schema";
 import { getMessages } from "@/i18n";
@@ -222,17 +223,7 @@ export default async function LanguagePage({ params }: Props) {
             <p className="text-base sm:text-lg text-gray-500 max-w-xl leading-relaxed">
               Follow any {lang.language} conversation, meeting or lecture. {lang.dialectNote}.
             </p>
-            <DownloadCard id="download" />
-            <div className="mt-6 sm:mt-10">
-              <Image
-                src="/mockup_app.png"
-                alt={`Captio AI app showing live captions in ${lang.language}`}
-                width={400}
-                height={340}
-                className="w-[280px] sm:w-[400px] h-auto mx-auto drop-shadow-2xl"
-                priority
-              />
-            </div>
+            <HeroDownload alt={`Captio AI app showing live captions in ${lang.language}`} />
           </div>
         </section>
 

@@ -105,6 +105,44 @@
         ]
       }
     },
+    "moreFeaturesTitle": "Weitere Funktionen",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "KI-Aktionen",
+        "title": "To-dos, Notizen und ein Follow-up",
+        "description": "Mach aus jeder Aufnahme Kernpunkte, ausführliche Notizen, To-dos, Fragen und Antworten oder eine Follow-up-Nachricht."
+      },
+      "export": {
+        "label": "Export",
+        "title": "Teile es, wie du willst",
+        "description": "Schick Untertitel oder eine Zusammenfassung als Text, Link, PDF, E-Mail oder Prompt für einen KI-Chat."
+      },
+      "folders": {
+        "label": "Ordner",
+        "title": "Ordner und geteilte Ordner",
+        "description": "Sortiere Aufnahmen in Ordner und teile einen davon mit Familie, Kommilitonen oder deinem Team."
+      },
+      "recognize-voices": {
+        "label": "Stimmen erkennen",
+        "title": "Namen statt „Sprecher 2“",
+        "description": "Speichere die Stimmen von Menschen, mit denen du oft sprichst, und sieh ihre Namen in deinen Untertiteln."
+      },
+      "speaker-direction": {
+        "label": "Richtung des Sprechers",
+        "title": "Sieh, woher eine Stimme kommt",
+        "description": "Wellen am Rand der Untertitel zeigen, wer gerade spricht. Ab dem iPhone 16."
+      },
+      "connectors": {
+        "label": "Konnektoren",
+        "title": "Frag deine Chat-App",
+        "description": "Frag Claude, ChatGPT, Gemini oder Perplexity zu jeder deiner Aufnahmen."
+      },
+      "widgets": {
+        "label": "Widgets",
+        "title": "Untertitel mit einem Tipp",
+        "description": "Starte Live-Untertitel vom Home-Bildschirm oder Sperrbildschirm deines iPhone."
+      }
+    },
     "useCasesLabel": "Anwendungsfälle",
     "useCasesTitle": "Funktioniert in jeder Situation",
     "useCasesSubtitle": "Gemacht für die echten Momente, auf die es ankommt, nicht nur für ruhige, kontrollierte Umgebungen.",

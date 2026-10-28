@@ -105,6 +105,44 @@
         ]
       }
     },
+    "moreFeaturesTitle": "Daha çox imkan",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "Süni intellekt əməliyyatları",
+        "title": "Görüləcək işlər, qeydlər və təqib mesajı",
+        "description": "İstənilən yazını əsas məqamlara, ətraflı qeydlərə, görüləcək işlərə, sual-cavablara və ya təqib mesajına çevir."
+      },
+      "export": {
+        "label": "İxrac",
+        "title": "İstədiyin kimi paylaş",
+        "description": "Subtitrləri və ya xülasəni mətn, link, PDF, e-poçt və ya süni intellekt çatı üçün sorğu kimi göndər."
+      },
+      "folders": {
+        "label": "Qovluqlar",
+        "title": "Qovluqlar və paylaşılan qovluqlar",
+        "description": "Yazıları qovluqlara ayır və birini ailənlə, sinif yoldaşlarınla və ya komandanla paylaş."
+      },
+      "recognize-voices": {
+        "label": "Səslərin tanınması",
+        "title": "Adlar, “Danışan 2” yox",
+        "description": "Tez-tez danışdığın insanların səsini yadda saxla və subtitrlərdə onların adlarını gör."
+      },
+      "speaker-direction": {
+        "label": "Danışanın istiqaməti",
+        "title": "Səsin haradan gəldiyini gör",
+        "description": "Subtitrlərin kənarındakı dalğalar kimin danışdığını göstərir. iPhone 16 və daha yeni modellərdə."
+      },
+      "connectors": {
+        "label": "Konnektorlar",
+        "title": "Çat tətbiqindən soruş",
+        "description": "Claude, ChatGPT, Gemini və ya Perplexity-dən istənilən yazın barədə soruş."
+      },
+      "widgets": {
+        "label": "Vidcetlər",
+        "title": "Bir toxunuşla subtitrlər",
+        "description": "iPhone-un Ana ekranından və ya Kilid ekranından Canlı Subtitri işə sal."
+      }
+    },
     "useCasesLabel": "İstifadə sahələri",
     "useCasesTitle": "Hər vəziyyətdə işləyir",
     "useCasesSubtitle": "Sakit və nəzarətli mühitlər üçün yox — həyatın vacib, real anları üçün hazırlanıb.",

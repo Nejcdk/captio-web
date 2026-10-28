@@ -105,6 +105,44 @@
         ]
       }
     },
+    "moreFeaturesTitle": "Mwy o nodweddion",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "Gweithredoedd AI",
+        "title": "Tasgau, nodiadau a neges ddilynol",
+        "description": "Troi unrhyw recordiad yn bwyntiau allweddol, nodiadau manwl, tasgau, cwestiynau ac atebion neu neges ddilynol."
+      },
+      "export": {
+        "label": "Allforio",
+        "title": "Rhannu yn dy ffordd dy hun",
+        "description": "Anfon capsiynau neu grynodeb fel testun, dolen, PDF, e-bost neu anogwr sgwrs AI."
+      },
+      "folders": {
+        "label": "Ffolderi",
+        "title": "Ffolderi a ffolderi a rennir",
+        "description": "Trefnu recordiadau’n ffolderi a rhannu un gyda dy deulu, dy gyd-ddisgyblion neu dy dîm."
+      },
+      "recognize-voices": {
+        "label": "Adnabod Lleisiau",
+        "title": "Enwau, nid “Siaradwr 2”",
+        "description": "Cadw lleisiau’r bobl rwyt ti’n siarad â nhw’n aml, a gweld eu henwau yn dy gapsiynau."
+      },
+      "speaker-direction": {
+        "label": "Cyfeiriad y Siaradwr",
+        "title": "Gweld o ble mae llais yn dod",
+        "description": "Mae tonnau ar ymyl y capsiynau’n dangos pwy sy’n siarad. Ar gyfer iPhone 16 a modelau newyddach."
+      },
+      "connectors": {
+        "label": "Cysylltwyr",
+        "title": "Gofyn i dy ap sgwrsio",
+        "description": "Gofyn i Claude, ChatGPT, Gemini neu Perplexity am unrhyw un o dy recordiadau."
+      },
+      "widgets": {
+        "label": "Teclynnau",
+        "title": "Capsiynau gydag un tap",
+        "description": "Dechrau Capsiynau Byw o Sgrin Gartref neu Sgrin Cloi dy iPhone."
+      }
+    },
     "useCasesLabel": "Defnyddiau",
     "useCasesTitle": "Yn gweithio ym mhob sefyllfa",
     "useCasesSubtitle": "Wedi’i gynllunio ar gyfer yr adegau go iawn sy’n bwysig, nid dim ond llefydd tawel a rheoledig.",

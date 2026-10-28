@@ -105,6 +105,44 @@
         ]
       }
     },
+    "moreFeaturesTitle": "Més funcions",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "Accions amb IA",
+        "title": "Tasques, notes i un missatge de seguiment",
+        "description": "Converteix qualsevol enregistrament en punts clau, notes detallades, tasques, preguntes i respostes o un missatge de seguiment."
+      },
+      "export": {
+        "label": "Exportació",
+        "title": "Comparteix-ho com vulguis",
+        "description": "Envia els subtítols o un resum com a text, un enllaç, un PDF, un correu o una instrucció per a un xat d’IA."
+      },
+      "folders": {
+        "label": "Carpetes",
+        "title": "Carpetes i carpetes compartides",
+        "description": "Ordena els enregistraments en carpetes i comparteix-ne una amb la família, els companys de classe o el teu equip."
+      },
+      "recognize-voices": {
+        "label": "Reconeixement de veus",
+        "title": "Noms, no Parlant 2",
+        "description": "Desa les veus de la gent amb qui parles sovint i veu-ne els noms als subtítols."
+      },
+      "speaker-direction": {
+        "label": "Direcció del parlant",
+        "title": "Mira d’on ve la veu",
+        "description": "Les ones a la vora dels subtítols assenyalen qui parla. iPhone 16 i posteriors."
+      },
+      "connectors": {
+        "label": "Connectors",
+        "title": "Pregunta al teu xat",
+        "description": "Pregunta a Claude, ChatGPT, Gemini o Perplexity sobre qualsevol dels teus enregistraments."
+      },
+      "widgets": {
+        "label": "Ginys",
+        "title": "Subtítols amb un toc",
+        "description": "Inicia els subtítols en directe des de la pantalla d’inici o la pantalla de bloqueig de l’iPhone."
+      }
+    },
     "useCasesLabel": "Casos d’ús",
     "useCasesTitle": "Funciona en qualsevol situació",
     "useCasesSubtitle": "Pensada per als moments reals que importen, no només per a entorns tranquils i controlats.",

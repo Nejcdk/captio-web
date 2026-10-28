@@ -105,6 +105,44 @@
         ]
       }
     },
+    "moreFeaturesTitle": "Mai multe funcții",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "Acțiuni AI",
+        "title": "Sarcini, notițe și un mesaj de urmărire",
+        "description": "Transformă orice înregistrare în puncte-cheie, notițe detaliate, sarcini, întrebări și răspunsuri sau un mesaj de urmărire."
+      },
+      "export": {
+        "label": "Export",
+        "title": "Distribuie cum vrei tu",
+        "description": "Trimite subtitrările sau un rezumat ca text, link, PDF, e-mail sau prompt pentru un chat AI."
+      },
+      "folders": {
+        "label": "Dosare",
+        "title": "Dosare și dosare partajate",
+        "description": "Sortează înregistrările în dosare și partajează unul cu familia, colegii de clasă sau echipa ta."
+      },
+      "recognize-voices": {
+        "label": "Recunoașterea vocilor",
+        "title": "Nume, nu Vorbitor 2",
+        "description": "Salvează vocile persoanelor cu care vorbești des și vezi-le numele în subtitrări."
+      },
+      "speaker-direction": {
+        "label": "Direcția vorbitorului",
+        "title": "Vezi de unde vine o voce",
+        "description": "Undele de la marginea subtitrărilor arată cine vorbește. Pe iPhone 16 și mai noi."
+      },
+      "connectors": {
+        "label": "Conectori",
+        "title": "Întreabă aplicația ta de chat",
+        "description": "Întreabă Claude, ChatGPT, Gemini sau Perplexity despre orice înregistrare a ta."
+      },
+      "widgets": {
+        "label": "Widgeturi",
+        "title": "Subtitrări dintr-o atingere",
+        "description": "Pornește Subtitrări live de pe ecranul principal sau de pe ecranul de blocare al iPhone-ului."
+      }
+    },
     "useCasesLabel": "Situații",
     "useCasesTitle": "Funcționează în orice situație",
     "useCasesSubtitle": "Gândit pentru momentele reale care contează, nu doar pentru încăperi liniștite și controlate.",

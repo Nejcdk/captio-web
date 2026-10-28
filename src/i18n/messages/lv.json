@@ -105,6 +105,44 @@
         ]
       }
     },
+    "moreFeaturesTitle": "Vairāk iespēju",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "MI darbības",
+        "title": "Uzdevumi, piezīmes un turpinājuma ziņa",
+        "description": "Pārvērt jebkuru ierakstu galvenajās domās, detalizētās piezīmēs, uzdevumos, jautājumos un atbildēs vai turpinājuma ziņā."
+      },
+      "export": {
+        "label": "Eksports",
+        "title": "Dalies savā veidā",
+        "description": "Nosūti subtitrus vai kopsavilkumu kā tekstu, saiti, PDF, e-pastu vai MI tērzēšanas uzvedni."
+      },
+      "folders": {
+        "label": "Mapes",
+        "title": "Mapes un kopīgotās mapes",
+        "description": "Sakārto ierakstus mapēs un vienu no tām kopīgo ar ģimeni, klasesbiedriem vai komandu."
+      },
+      "recognize-voices": {
+        "label": "Balsu atpazīšana",
+        "title": "Vārdi, nevis „Runātājs 2”",
+        "description": "Saglabā to cilvēku balsis, ar kuriem bieži runā, un redzi viņu vārdus subtitros."
+      },
+      "speaker-direction": {
+        "label": "Runātāja virziens",
+        "title": "Redzi, no kurienes nāk balss",
+        "description": "Viļņi subtitru malā rāda, kurš runā. Ar iPhone 16 un jaunākiem."
+      },
+      "connectors": {
+        "label": "Savienotāji",
+        "title": "Pajautā savai tērzēšanas lietotnei",
+        "description": "Pajautā Claude, ChatGPT, Gemini vai Perplexity par jebkuru savu ierakstu."
+      },
+      "widgets": {
+        "label": "Logrīki",
+        "title": "Subtitri ar vienu pieskārienu",
+        "description": "Sāc tiešraides subtitrus tieši no sava iPhone sākuma vai bloķēšanas ekrāna."
+      }
+    },
     "useCasesLabel": "Lietojuma gadījumi",
     "useCasesTitle": "Darbojas jebkurā situācijā",
     "useCasesSubtitle": "Radīts īstiem, svarīgiem brīžiem, ne tikai klusai un kontrolētai videi.",

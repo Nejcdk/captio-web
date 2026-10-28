@@ -105,6 +105,44 @@
         ]
       }
     },
+    "moreFeaturesTitle": "その他の機能",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "AIアクション",
+        "title": "やること、ノート、フォローアップ",
+        "description": "どの録音も、要点、詳しいノート、やること、Q&A、フォローアップのメッセージにできます。"
+      },
+      "export": {
+        "label": "書き出し",
+        "title": "好きな形で共有",
+        "description": "字幕や要約を、テキスト、リンク、PDF、メール、AIチャットのプロンプトで送れます。"
+      },
+      "folders": {
+        "label": "フォルダ",
+        "title": "フォルダと共有フォルダ",
+        "description": "録音をフォルダに整理して、家族やクラスメイト、チームと共有できます。"
+      },
+      "recognize-voices": {
+        "label": "声を認識",
+        "title": "「話者2」ではなく名前で",
+        "description": "よく話す人の声を保存しておくと、字幕にその人の名前が表示されます。"
+      },
+      "speaker-direction": {
+        "label": "話者の方向",
+        "title": "声がどこから来るかが見える",
+        "description": "字幕の端に出る波が、誰が話しているかを指し示します。iPhone 16以降。"
+      },
+      "connectors": {
+        "label": "コネクタ",
+        "title": "チャットアプリに聞く",
+        "description": "Claude、ChatGPT、Gemini、Perplexityで、どの録音についても質問できます。"
+      },
+      "widgets": {
+        "label": "ウィジェット",
+        "title": "ワンタップで字幕",
+        "description": "iPhoneのホーム画面やロック画面から、ライブ字幕を始められます。"
+      }
+    },
     "useCasesLabel": "活用シーン",
     "useCasesTitle": "あらゆる場面で使えます",
     "useCasesSubtitle": "静かで整った環境だけでなく、本当に大切な実際の場面のために作られています。",

@@ -105,6 +105,44 @@
         ]
       }
     },
+    "moreFeaturesTitle": "Meer functies",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "AI-acties",
+        "title": "To-do’s, notities en een vervolgbericht",
+        "description": "Maak van elke opname kernpunten, uitgebreide notities, to-do’s, vragen en antwoorden of een vervolgbericht."
+      },
+      "export": {
+        "label": "Exporteren",
+        "title": "Deel het op jouw manier",
+        "description": "Stuur ondertitels of een samenvatting als tekst, link, pdf, e-mail of AI-chatprompt."
+      },
+      "folders": {
+        "label": "Mappen",
+        "title": "Mappen en gedeelde mappen",
+        "description": "Sorteer opnames in mappen en deel er een met familie, klasgenoten of je team."
+      },
+      "recognize-voices": {
+        "label": "Stemmen herkennen",
+        "title": "Namen, geen Spreker 2",
+        "description": "Bewaar de stemmen van mensen met wie je vaak praat en zie hun namen in je ondertitels."
+      },
+      "speaker-direction": {
+        "label": "Richting van de spreker",
+        "title": "Zie waar een stem vandaan komt",
+        "description": "Golven aan de rand van de ondertitels wijzen naar wie er praat. Vanaf iPhone 16."
+      },
+      "connectors": {
+        "label": "Connectors",
+        "title": "Vraag het aan je chat-app",
+        "description": "Vraag Claude, ChatGPT, Gemini of Perplexity naar al je opnames."
+      },
+      "widgets": {
+        "label": "Widgets",
+        "title": "Ondertitels met één tik",
+        "description": "Start Live ondertiteling vanaf het beginscherm of toegangsscherm van je iPhone."
+      }
+    },
     "useCasesLabel": "Toepassingen",
     "useCasesTitle": "Werkt in elke situatie",
     "useCasesSubtitle": "Gemaakt voor de echte momenten die ertoe doen, niet alleen voor rustige, gecontroleerde omgevingen.",

@@ -105,6 +105,44 @@
         ]
       }
     },
+    "moreFeaturesTitle": "Vipengele zaidi",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "Vitendo vya AI",
+        "title": "Orodha ya kufanya, maelezo na ujumbe wa ufuatiliaji",
+        "description": "Geuza rekodi yoyote kuwa mambo muhimu, maelezo ya kina, orodha ya kufanya, maswali na majibu au ujumbe wa ufuatiliaji."
+      },
+      "export": {
+        "label": "Hamisha",
+        "title": "Shiriki kwa njia yako",
+        "description": "Tuma manukuu au muhtasari kama maandishi, kiungo, PDF, barua pepe au maelekezo ya gumzo la AI."
+      },
+      "folders": {
+        "label": "Folda",
+        "title": "Folda na folda zilizoshirikiwa",
+        "description": "Panga rekodi kwenye folda na ushiriki moja na familia, wanafunzi wenzako au timu yako."
+      },
+      "recognize-voices": {
+        "label": "Tambua Sauti",
+        "title": "Majina, si “Mzungumzaji 2”",
+        "description": "Hifadhi sauti za watu unaozungumza nao mara kwa mara uone majina yao kwenye manukuu yako."
+      },
+      "speaker-direction": {
+        "label": "Mwelekeo wa Mzungumzaji",
+        "title": "Ona sauti inatoka wapi",
+        "description": "Mawimbi pembeni mwa manukuu huonyesha nani anazungumza. iPhone 16 na kuendelea."
+      },
+      "connectors": {
+        "label": "Viunganishi",
+        "title": "Uliza programu yako ya gumzo",
+        "description": "Uliza Claude, ChatGPT, Gemini au Perplexity kuhusu rekodi zako zozote."
+      },
+      "widgets": {
+        "label": "Wijeti",
+        "title": "Manukuu kwa mguso mmoja",
+        "description": "Anzisha Manukuu Mubashara kutoka Skrini ya Kwanza au Skrini ya Kufunga ya iPhone yako."
+      }
+    },
     "useCasesLabel": "Matumizi",
     "useCasesTitle": "Inafanya kazi katika kila hali",
     "useCasesSubtitle": "Imeundwa kwa nyakati halisi zenye umuhimu — si tu mahali tulivu palipodhibitiwa.",

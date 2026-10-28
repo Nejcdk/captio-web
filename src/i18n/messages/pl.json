@@ -105,6 +105,44 @@
         ]
       }
     },
+    "moreFeaturesTitle": "Więcej funkcji",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "Działania AI",
+        "title": "Zadania, notatki i wiadomość z podsumowaniem",
+        "description": "Zamień dowolne nagranie w najważniejsze punkty, szczegółowe notatki, zadania, pytania i odpowiedzi lub wiadomość z podsumowaniem."
+      },
+      "export": {
+        "label": "Eksport",
+        "title": "Udostępnij po swojemu",
+        "description": "Wyślij napisy lub podsumowanie jako tekst, link, plik PDF, e-mail lub prompt do czatu z AI."
+      },
+      "folders": {
+        "label": "Foldery",
+        "title": "Foldery i foldery współdzielone",
+        "description": "Porządkuj nagrania w folderach i udostępniaj folder rodzinie, kolegom z klasy lub zespołowi."
+      },
+      "recognize-voices": {
+        "label": "Rozpoznawanie głosów",
+        "title": "Imiona zamiast „Mówca 2”",
+        "description": "Zapisz głosy osób, z którymi często rozmawiasz, i widuj ich imiona w napisach."
+      },
+      "speaker-direction": {
+        "label": "Kierunek mówcy",
+        "title": "Zobacz, skąd dochodzi głos",
+        "description": "Fale na brzegu napisów wskazują, kto mówi. iPhone 16 i nowsze."
+      },
+      "connectors": {
+        "label": "Konektory",
+        "title": "Zapytaj swojego asystenta AI",
+        "description": "Zapytaj Claude, ChatGPT, Gemini lub Perplexity o dowolne ze swoich nagrań."
+      },
+      "widgets": {
+        "label": "Widżety",
+        "title": "Napisy jednym dotknięciem",
+        "description": "Włączaj Napisy na żywo z ekranu początkowego lub ekranu blokady iPhone’a."
+      }
+    },
     "useCasesLabel": "Zastosowania",
     "useCasesTitle": "Sprawdza się w każdej sytuacji",
     "useCasesSubtitle": "Stworzone z myślą o prawdziwych, ważnych chwilach – nie tylko o ciszy i idealnych warunkach.",

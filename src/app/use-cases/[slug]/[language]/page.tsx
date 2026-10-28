@@ -6,6 +6,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { DownloadCard, StoreButtons } from "@/components/StoreButtons";
 import FaqAccordion from "@/components/FaqAccordion";
+import HeroDownload from "@/components/HeroDownload";
 import { useCases, getUseCaseBySlug, inlineUseCaseLabel, type UseCase } from "@/lib/useCases";
 import { languages, getLanguageBySlug, type Language } from "@/lib/languages";
 import { getUseCaseLanguageVariant, type UseCaseLanguageVariant } from "@/lib/useCaseLanguageData";
@@ -150,17 +151,7 @@ export default async function UseCaseLanguagePage({ params }: Props) {
             <p className="text-xl sm:text-2xl font-semibold text-gray-800 max-w-xl">
               For <span className="text-brand">deaf</span> and <span className="text-brand">hard of hearing</span> people.
             </p>
-            <DownloadCard id="download" />
-            <div className="mt-6 sm:mt-10">
-              <Image
-                src="/mockup_app.png"
-                alt="Captio AI app showing live captions"
-                width={400}
-                height={340}
-                className="w-[280px] sm:w-[400px] h-auto mx-auto drop-shadow-2xl"
-                priority
-              />
-            </div>
+            <HeroDownload alt="Captio AI app showing live captions" />
           </div>
         </section>
 

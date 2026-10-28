@@ -105,6 +105,44 @@
         ]
       }
     },
+    "moreFeaturesTitle": "Lisää ominaisuuksia",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "Tekoälytoiminnot",
+        "title": "Tehtävät, muistiinpanot ja seurantaviesti",
+        "description": "Muuta mikä tahansa tallenne tärkeimmiksi kohdiksi, yksityiskohtaisiksi muistiinpanoiksi, tehtäviksi, kysymyksiksi ja vastauksiksi tai seurantaviestiksi."
+      },
+      "export": {
+        "label": "Vienti",
+        "title": "Jaa omalla tavallasi",
+        "description": "Lähetä tekstitykset tai yhteenveto tekstinä, linkkinä, PDF-tiedostona, sähköpostina tai tekoälychatin kehotteena."
+      },
+      "folders": {
+        "label": "Kansiot",
+        "title": "Kansiot ja jaetut kansiot",
+        "description": "Lajittele tallenteet kansioihin ja jaa yksi perheesi, luokkatoverien tai tiimisi kanssa."
+      },
+      "recognize-voices": {
+        "label": "Äänten tunnistus",
+        "title": "Nimet, ei Puhuja 2",
+        "description": "Tallenna niiden ihmisten äänet, joiden kanssa puhut usein, ja näe heidän nimensä tekstityksessä."
+      },
+      "speaker-direction": {
+        "label": "Puhujan suunta",
+        "title": "Näe, mistä ääni tulee",
+        "description": "Tekstityksen reunalla näkyvät aallot osoittavat, kuka puhuu. iPhone 16 ja uudemmat."
+      },
+      "connectors": {
+        "label": "Connectors",
+        "title": "Kysy chat-sovellukseltasi",
+        "description": "Kysy Claudelta, ChatGPT:ltä, Geminiltä tai Perplexityltä mitä tahansa tallenteistasi."
+      },
+      "widgets": {
+        "label": "Widgetit",
+        "title": "Tekstitys yhdellä napautuksella",
+        "description": "Käynnistä livetekstitys iPhonen Koti-valikosta tai lukitusnäytöltä."
+      }
+    },
     "useCasesLabel": "Käyttötilanteet",
     "useCasesTitle": "Toimii joka tilanteessa",
     "useCasesSubtitle": "Suunniteltu niihin oikeisiin hetkiin, joilla on väliä, eikä vain hiljaisiin ja hallittuihin ympäristöihin.",

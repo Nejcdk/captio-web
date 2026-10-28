@@ -105,6 +105,44 @@
         ]
       }
     },
+    "moreFeaturesTitle": "Veel funktsioone",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "AI-toimingud",
+        "title": "Ülesanded, märkmed ja järelsõnum",
+        "description": "Muuda iga salvestus põhipunktideks, üksikasjalikeks märkmeteks, ülesanneteks, küsimusteks ja vastusteks või järelsõnumiks."
+      },
+      "export": {
+        "label": "Eksport",
+        "title": "Jaga nii, nagu sulle sobib",
+        "description": "Saada subtiitrid või kokkuvõte tekstina, lingina, PDF-ina, e-kirjana või AI-vestluse käsuna."
+      },
+      "folders": {
+        "label": "Kaustad",
+        "title": "Kaustad ja jagatud kaustad",
+        "description": "Sorteeri salvestused kaustadesse ja jaga üht neist pere, klassikaaslaste või meeskonnaga."
+      },
+      "recognize-voices": {
+        "label": "Häälte tuvastamine",
+        "title": "Nimed, mitte „Kõneleja 2“",
+        "description": "Salvesta nende inimeste hääled, kellega tihti räägid, ja näe nende nimesid subtiitrites."
+      },
+      "speaker-direction": {
+        "label": "Kõneleja suund",
+        "title": "Näe, kust hääl tuleb",
+        "description": "Lained subtiitrite serval näitavad, kes räägib. iPhone 16 ja uuemate jaoks."
+      },
+      "connectors": {
+        "label": "Ühendused",
+        "title": "Küsi oma vestlusrakenduselt",
+        "description": "Esita oma salvestuste kohta küsimusi vestlusrakenduses Claude, ChatGPT, Gemini või Perplexity."
+      },
+      "widgets": {
+        "label": "Vidinad",
+        "title": "Subtiitrid ühe puudutusega",
+        "description": "Käivita otsesubtiitrid oma iPhone'i avaekraanilt või lukustusekraanilt."
+      }
+    },
     "useCasesLabel": "Kasutusjuhud",
     "useCasesTitle": "Töötab igas olukorras",
     "useCasesSubtitle": "Loodud päriselu hetkedeks, mis loevad, mitte ainult vaikse ja kontrollitud keskkonna jaoks.",

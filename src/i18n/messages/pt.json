@@ -105,6 +105,44 @@
         ]
       }
     },
+    "moreFeaturesTitle": "Mais recursos",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "Ações com IA",
+        "title": "Tarefas, anotações e um acompanhamento",
+        "description": "Transforme qualquer gravação em pontos principais, anotações detalhadas, tarefas, perguntas e respostas ou uma mensagem de acompanhamento."
+      },
+      "export": {
+        "label": "Exportar",
+        "title": "Compartilhe do seu jeito",
+        "description": "Envie as legendas ou um resumo como texto, link, PDF, e-mail ou prompt para um chat de IA."
+      },
+      "folders": {
+        "label": "Pastas",
+        "title": "Pastas e pastas compartilhadas",
+        "description": "Organize as gravações em pastas e compartilhe uma com a família, os colegas de turma ou a equipe."
+      },
+      "recognize-voices": {
+        "label": "Reconhecer vozes",
+        "title": "Nomes, não “Falante 2”",
+        "description": "Salve a voz das pessoas com quem você mais conversa e veja o nome delas nas legendas."
+      },
+      "speaker-direction": {
+        "label": "Direção do falante",
+        "title": "Veja de onde vem uma voz",
+        "description": "Ondas na borda das legendas apontam quem está falando. No iPhone 16 e posteriores."
+      },
+      "connectors": {
+        "label": "Conectores",
+        "title": "Pergunte ao seu app de chat",
+        "description": "Pergunte ao Claude, ChatGPT, Gemini ou Perplexity sobre qualquer uma das suas gravações."
+      },
+      "widgets": {
+        "label": "Widgets",
+        "title": "Legendas com um toque",
+        "description": "Inicie as Legendas ao vivo pela Tela de Início ou pela Tela Bloqueada do iPhone."
+      }
+    },
     "useCasesLabel": "Casos de uso",
     "useCasesTitle": "Funciona em qualquer situação",
     "useCasesSubtitle": "Feito para os momentos reais que importam, não só para ambientes silenciosos e controlados.",

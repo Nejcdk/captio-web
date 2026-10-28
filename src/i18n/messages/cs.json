@@ -105,6 +105,44 @@
         ]
       }
     },
+    "moreFeaturesTitle": "Další funkce",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "AI akce",
+        "title": "Úkoly, poznámky a navazující zpráva",
+        "description": "Z každé nahrávky udělej hlavní body, podrobné poznámky, úkoly, otázky a odpovědi nebo navazující zprávu."
+      },
+      "export": {
+        "label": "Export",
+        "title": "Sdílej po svém",
+        "description": "Pošli titulky nebo shrnutí jako text, odkaz, PDF, e-mail nebo prompt pro AI chat."
+      },
+      "folders": {
+        "label": "Složky",
+        "title": "Složky a sdílené složky",
+        "description": "Třiď nahrávky do složek a jednu sdílej s rodinou, spolužáky nebo týmem."
+      },
+      "recognize-voices": {
+        "label": "Rozpoznávání hlasů",
+        "title": "Jména místo „Mluvčí 2“",
+        "description": "Ulož si hlasy lidí, se kterými mluvíš často, a uvidíš jejich jména v titulcích."
+      },
+      "speaker-direction": {
+        "label": "Směr mluvčího",
+        "title": "Uvidíš, odkud hlas přichází",
+        "description": "Vlny na okraji titulků ukazují, kdo mluví. Od iPhonu 16."
+      },
+      "connectors": {
+        "label": "Konektory",
+        "title": "Zeptej se chatové aplikace",
+        "description": "Ptej se na své nahrávky v Claude, ChatGPT, Gemini nebo Perplexity."
+      },
+      "widgets": {
+        "label": "Widgety",
+        "title": "Titulky jedním klepnutím",
+        "description": "Spusť Živé titulky z plochy nebo zamčené obrazovky iPhonu."
+      }
+    },
     "useCasesLabel": "Využití",
     "useCasesTitle": "Funguje v každé situaci",
     "useCasesSubtitle": "Navrženo pro skutečné chvíle, na kterých záleží – nejen pro ticho a ideální podmínky.",

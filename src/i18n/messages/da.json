@@ -105,6 +105,44 @@
         ]
       }
     },
+    "moreFeaturesTitle": "Flere funktioner",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "AI-handlinger",
+        "title": "Opgaver, noter og en opfølgning",
+        "description": "Gør enhver optagelse til hovedpunkter, udførlige noter, opgaver, spørgsmål og svar eller en opfølgende besked."
+      },
+      "export": {
+        "label": "Eksport",
+        "title": "Del det på din måde",
+        "description": "Send undertekster eller et resumé som tekst, et link, en PDF, en e-mail eller en AI-chatprompt."
+      },
+      "folders": {
+        "label": "Mapper",
+        "title": "Mapper og delte mapper",
+        "description": "Sortér optagelser i mapper, og del en med familien, klassekammerater eller dit team."
+      },
+      "recognize-voices": {
+        "label": "Genkend stemmer",
+        "title": "Navne i stedet for Taler 2",
+        "description": "Gem stemmerne på dem, du ofte taler med, og se deres navne i dine undertekster."
+      },
+      "speaker-direction": {
+        "label": "Talerens retning",
+        "title": "Se, hvor en stemme kommer fra",
+        "description": "Bølger i kanten af underteksterne peger på, hvem der taler. iPhone 16 og nyere."
+      },
+      "connectors": {
+        "label": "Connectors",
+        "title": "Spørg din chat-app",
+        "description": "Spørg Claude, ChatGPT, Gemini eller Perplexity om alle dine optagelser."
+      },
+      "widgets": {
+        "label": "Widgets",
+        "title": "Undertekster med ét tryk",
+        "description": "Start liveundertekster fra din iPhones hjemmeskærm eller låseskærm."
+      }
+    },
     "useCasesLabel": "Anvendelser",
     "useCasesTitle": "Virker i alle situationer",
     "useCasesSubtitle": "Lavet til de virkelige øjeblikke, der betyder noget, ikke kun til stille, kontrollerede omgivelser.",

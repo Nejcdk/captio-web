@@ -105,6 +105,44 @@
         ]
       }
     },
+    "moreFeaturesTitle": "Više mogućnosti",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "AI radnje",
+        "title": "Zadaci, bilješke i naknadna poruka",
+        "description": "Pretvori bilo koji snimak u ključne tačke, detaljne bilješke, zadatke, pitanja i odgovore ili naknadnu poruku."
+      },
+      "export": {
+        "label": "Izvoz",
+        "title": "Podijeli kako ti odgovara",
+        "description": "Titlove ili sažetak pošalji kao tekst, link, PDF, e-mail ili upit za AI chat."
+      },
+      "folders": {
+        "label": "Folderi",
+        "title": "Folderi i dijeljeni folderi",
+        "description": "Razvrstaj snimke u foldere, a jedan podijeli s porodicom, kolegama iz razreda ili timom."
+      },
+      "recognize-voices": {
+        "label": "Prepoznavanje glasova",
+        "title": "Imena umjesto „Govornik 2“",
+        "description": "Sačuvaj glasove ljudi s kojima često razgovaraš i u titlovima vidi njihova imena."
+      },
+      "speaker-direction": {
+        "label": "Smjer govornika",
+        "title": "Vidi odakle dolazi glas",
+        "description": "Valovi na rubu titlova pokazuju ko govori. Za iPhone 16 i novije."
+      },
+      "connectors": {
+        "label": "Konektori",
+        "title": "Pitaj svoju chat aplikaciju",
+        "description": "Pitaj Claude, ChatGPT, Gemini ili Perplexity o bilo kojem od svojih snimaka."
+      },
+      "widgets": {
+        "label": "Vidžeti",
+        "title": "Titlovi jednim dodirom",
+        "description": "Pokreni titlove uživo s početnog ili zaključanog ekrana telefona iPhone."
+      }
+    },
     "useCasesLabel": "Primjeri upotrebe",
     "useCasesTitle": "Radi u svakoj situaciji",
     "useCasesSubtitle": "Napravljeno za stvarne trenutke koji su bitni, a ne samo za tiha i kontrolisana okruženja.",

@@ -17,7 +17,7 @@ export default function Footer({ code = "en", m = en }: { code?: string; m?: Mes
   // Newest articles on every page: readers find them, and crawlers reach a new
   // article from ~800 pages the day it is published.
   const latestPosts = getAllPosts().slice(0, 4);
-  const comparePages = getAllComparePages().slice(0, 3);
+  const comparePages = getAllComparePages();
   return (
     <footer className="bg-brand text-white">
       <div className="max-w-6xl mx-auto px-6 pt-12 pb-0">
@@ -50,11 +50,15 @@ export default function Footer({ code = "en", m = en }: { code?: string; m?: Mes
             <FeaturedOnCard label={t.featuredOn} />
           </div>
 
-          <div className="flex flex-wrap gap-12 text-sm">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-10 text-sm md:max-w-3xl">
             <div className="flex flex-col gap-2">
               <span className="font-semibold text-white/40 uppercase tracking-widest text-xs mb-1">{t.features}</span>
               {FEATURE_SLUGS.map((slug) => (
                 <Link key={slug} href={pagePath(code, slug)} className="text-white/70 hover:text-white transition-colors">{m.common.featureNames[slug]}</Link>
+              ))}
+              {/* The newer feature pages are English only. */}
+              {Object.entries(m.home.moreFeatures).map(([slug, f]) => (
+                <Link key={slug} href={`/${slug}`} className="text-white/70 hover:text-white transition-colors">{f.label}</Link>
               ))}
             </div>
 
@@ -65,18 +69,20 @@ export default function Footer({ code = "en", m = en }: { code?: string; m?: Mes
               ))}
             </div>
 
-            <div className="flex flex-col gap-2 max-w-[15rem]">
+            <div className="flex flex-col gap-2">
+              <Link href="/compare" className="font-semibold text-white/40 hover:text-white uppercase tracking-widest text-xs mb-1 transition-colors">{t.compare}</Link>
+              {comparePages.map((page) => (
+                <Link key={page.slug} href={`/compare/${page.slug}`} className="text-white/70 hover:text-white transition-colors leading-snug">{page.title}</Link>
+              ))}
+              <Link href="/compare" className="text-white font-semibold hover:underline">{t.compareApps}</Link>
+            </div>
+
+            <div className="flex flex-col gap-2">
               <Link href="/blog" className="font-semibold text-white/40 hover:text-white uppercase tracking-widest text-xs mb-1 transition-colors">{t.blog}</Link>
               {latestPosts.map((post) => (
                 <Link key={post.slug} href={`/blog/${post.slug}`} className="text-white/70 hover:text-white transition-colors leading-snug">{post.title}</Link>
               ))}
               <Link href="/blog" className="text-white font-semibold hover:underline">{t.allArticles}</Link>
-
-              <Link href="/compare" className="font-semibold text-white/40 hover:text-white uppercase tracking-widest text-xs mt-6 mb-1 transition-colors">{t.compare}</Link>
-              {comparePages.map((page) => (
-                <Link key={page.slug} href={`/compare/${page.slug}`} className="text-white/70 hover:text-white transition-colors leading-snug">{page.title}</Link>
-              ))}
-              <Link href="/compare" className="text-white font-semibold hover:underline">{t.compareApps}</Link>
 
               <span className="font-semibold text-white/40 uppercase tracking-widest text-xs mt-6 mb-1">{t.company}</span>
               <Link href="/organizations" className="text-white/70 hover:text-white transition-colors">{t.organizations}</Link>

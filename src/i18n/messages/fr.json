@@ -105,6 +105,44 @@
         ]
       }
     },
+    "moreFeaturesTitle": "Plus de fonctionnalités",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "Actions IA",
+        "title": "À faire, notes et message de suivi",
+        "description": "Transforme n’importe quel enregistrement en points clés, notes détaillées, tâches, questions-réponses ou message de suivi."
+      },
+      "export": {
+        "label": "Exportation",
+        "title": "Partage comme tu veux",
+        "description": "Envoie les sous-titres ou un résumé en texte, lien, PDF, e-mail ou prompt de chat IA."
+      },
+      "folders": {
+        "label": "Dossiers",
+        "title": "Dossiers et dossiers partagés",
+        "description": "Range tes enregistrements dans des dossiers et partage-en un avec ta famille, tes camarades ou ton équipe."
+      },
+      "recognize-voices": {
+        "label": "Reconnaissance des voix",
+        "title": "Des noms, pas « Intervenant 2 »",
+        "description": "Enregistre la voix des personnes avec qui tu parles souvent et vois leur nom dans tes sous-titres."
+      },
+      "speaker-direction": {
+        "label": "Direction de l’intervenant",
+        "title": "Vois d’où vient une voix",
+        "description": "Des ondes au bord des sous-titres indiquent qui parle. iPhone 16 et modèles suivants."
+      },
+      "connectors": {
+        "label": "Connecteurs",
+        "title": "Demande à ton appli de chat",
+        "description": "Interroge Claude, ChatGPT, Gemini ou Perplexity sur n’importe lequel de tes enregistrements."
+      },
+      "widgets": {
+        "label": "Widgets",
+        "title": "Les sous-titres en un geste",
+        "description": "Lance les sous-titres en direct depuis l’écran d’accueil ou l’écran verrouillé de ton iPhone."
+      }
+    },
     "useCasesLabel": "Cas d’usage",
     "useCasesTitle": "Fonctionne dans toutes les situations",
     "useCasesSubtitle": "Pensé pour les vrais moments qui comptent, pas seulement pour les environnements calmes et maîtrisés.",

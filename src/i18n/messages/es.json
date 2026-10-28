@@ -105,6 +105,44 @@
         ]
       }
     },
+    "moreFeaturesTitle": "Más funciones",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "Acciones con IA",
+        "title": "Tareas, notas y un seguimiento",
+        "description": "Convierte cualquier grabación en puntos clave, notas detalladas, tareas, preguntas y respuestas o un mensaje de seguimiento."
+      },
+      "export": {
+        "label": "Exportar",
+        "title": "Compártelo a tu manera",
+        "description": "Envía los subtítulos o un resumen como texto, enlace, PDF, correo o prompt para un chat de IA."
+      },
+      "folders": {
+        "label": "Carpetas",
+        "title": "Carpetas y carpetas compartidas",
+        "description": "Ordena las grabaciones en carpetas y comparte una con tu familia, tus compañeros de clase o tu equipo."
+      },
+      "recognize-voices": {
+        "label": "Reconocer voces",
+        "title": "Nombres, no «Hablante 2»",
+        "description": "Guarda las voces de las personas con las que hablas a menudo y ve sus nombres en los subtítulos."
+      },
+      "speaker-direction": {
+        "label": "Dirección del hablante",
+        "title": "Ve de dónde viene una voz",
+        "description": "Unas ondas en el borde de los subtítulos señalan quién está hablando. En el iPhone 16 y posteriores."
+      },
+      "connectors": {
+        "label": "Conectores",
+        "title": "Pregunta a tu app de chat",
+        "description": "Pregunta a Claude, ChatGPT, Gemini o Perplexity por cualquiera de tus grabaciones."
+      },
+      "widgets": {
+        "label": "Widgets",
+        "title": "Subtítulos con un toque",
+        "description": "Inicia Subtítulos en vivo desde la pantalla de inicio o la pantalla bloqueada de tu iPhone."
+      }
+    },
     "useCasesLabel": "Casos de uso",
     "useCasesTitle": "Funciona en cualquier situación",
     "useCasesSubtitle": "Diseñada para los momentos reales que importan, no solo para entornos tranquilos y controlados.",

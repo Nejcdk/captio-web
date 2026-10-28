@@ -105,6 +105,44 @@
         ]
       }
     },
+    "moreFeaturesTitle": "Më shumë veçori",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "Veprime me AI",
+        "title": "Detyra, shënime dhe një mesazh vijimi",
+        "description": "Ktheje çdo regjistrim në pika kryesore, shënime të detajuara, detyra, pyetje e përgjigje ose një mesazh vijimi."
+      },
+      "export": {
+        "label": "Eksporto",
+        "title": "Ndaje siç të pëlqen",
+        "description": "Dërgo titrat ose përmbledhjen si tekst, lidhje, PDF, email ose kërkesë për një bisedë me AI."
+      },
+      "folders": {
+        "label": "Dosjet",
+        "title": "Dosje dhe dosje të ndara",
+        "description": "Rendit regjistrimet në dosje dhe ndaje një me familjen, shokët e klasës ose ekipin tënd."
+      },
+      "recognize-voices": {
+        "label": "Njohja e zërave",
+        "title": "Emra, jo Folësi 2",
+        "description": "Ruaj zërat e njerëzve me të cilët flet shpesh dhe shiko emrat e tyre te titrat."
+      },
+      "speaker-direction": {
+        "label": "Drejtimi i folësit",
+        "title": "Shiko nga vjen një zë",
+        "description": "Valët në skajin e titrave tregojnë kush po flet. iPhone 16 e më i ri."
+      },
+      "connectors": {
+        "label": "Lidhësit",
+        "title": "Pyet aplikacionin e bisedës",
+        "description": "Pyet Claude, ChatGPT, Gemini ose Perplexity për çdo regjistrim tëndin."
+      },
+      "widgets": {
+        "label": "Widget-et",
+        "title": "Titra me një prekje",
+        "description": "Nise titrat live nga ekrani bazë ose ekrani i kyçjes i iPhone-it tënd."
+      }
+    },
     "useCasesLabel": "Përdorimet",
     "useCasesTitle": "Funksionon në çdo situatë",
     "useCasesSubtitle": "Krijuar për momentet e vërteta që kanë rëndësi, jo vetëm për ambiente të qeta e të kontrolluara.",

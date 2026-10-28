@@ -105,6 +105,44 @@
         ]
       }
     },
+    "moreFeaturesTitle": "Več funkcij",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "Dejanja z UI",
+        "title": "Opravila, zapiski in sporočilo za nadaljevanje",
+        "description": "Vsak posnetek spremeni v ključne točke, podrobne zapiske, opravila, vprašanja in odgovore ali sporočilo za nadaljevanje."
+      },
+      "export": {
+        "label": "Izvoz",
+        "title": "Deli po svoje",
+        "description": "Podnapise ali povzetek pošlji kot besedilo, povezavo, PDF, e-pošto ali poziv za klepetalnik UI."
+      },
+      "folders": {
+        "label": "Mape",
+        "title": "Mape in skupne mape",
+        "description": "Posnetke razvrsti v mape, eno pa deli z družino, sošolci ali ekipo."
+      },
+      "recognize-voices": {
+        "label": "Prepoznaj glasove",
+        "title": "Imena namesto »Govorec 2«",
+        "description": "Shrani glasove ljudi, s katerimi se pogosto pogovarjaš, in njihova imena se prikažejo v podnapisih."
+      },
+      "speaker-direction": {
+        "label": "Smer govorca",
+        "title": "Vidiš, od kod prihaja glas",
+        "description": "Valovi na robu podnapisov pokažejo, kdo govori. Za iPhone 16 in novejše."
+      },
+      "connectors": {
+        "label": "Povezovalniki",
+        "title": "Vprašaj svoj klepetalnik",
+        "description": "Vprašaj Claude, ChatGPT, Gemini ali Perplexity o katerem koli svojem posnetku."
+      },
+      "widgets": {
+        "label": "Pripomočki",
+        "title": "Podnapisi z enim dotikom",
+        "description": "Podnapise v živo zaženi z začetnega ali zaklenjenega zaslona telefona iPhone."
+      }
+    },
     "useCasesLabel": "Primeri uporabe",
     "useCasesTitle": "Deluje v vsaki situaciji",
     "useCasesSubtitle": "Narejeno za resnične trenutke, ki štejejo, ne le za tiha in nadzorovana okolja.",

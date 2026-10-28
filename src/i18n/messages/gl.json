@@ -105,6 +105,44 @@
         ]
       }
     },
+    "moreFeaturesTitle": "Máis funcións",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "Accións con IA",
+        "title": "Tarefas, notas e unha mensaxe de seguimento",
+        "description": "Converte calquera gravación en puntos clave, notas detalladas, tarefas, preguntas e respostas ou unha mensaxe de seguimento."
+      },
+      "export": {
+        "label": "Exportar",
+        "title": "Comparte como che veña mellor",
+        "description": "Envía os subtítulos ou un resumo como texto, ligazón, PDF, correo electrónico ou indicación para un chat de IA."
+      },
+      "folders": {
+        "label": "Cartafoles",
+        "title": "Cartafoles e cartafoles compartidos",
+        "description": "Ordena as gravacións en cartafoles e comparte un coa túa familia, os teus compañeiros de clase ou o teu equipo."
+      },
+      "recognize-voices": {
+        "label": "Recoñecer voces",
+        "title": "Nomes, non «Falante 2»",
+        "description": "Garda as voces das persoas coas que falas a miúdo e ve os seus nomes nos subtítulos."
+      },
+      "speaker-direction": {
+        "label": "Dirección do falante",
+        "title": "Mira de onde vén unha voz",
+        "description": "As ondas do bordo dos subtítulos indican quen está a falar. Para iPhone 16 e posteriores."
+      },
+      "connectors": {
+        "label": "Conectores",
+        "title": "Pregúntalle ao teu chat",
+        "description": "Pregunta a Claude, ChatGPT, Gemini ou Perplexity sobre calquera das túas gravacións."
+      },
+      "widgets": {
+        "label": "Widgets",
+        "title": "Subtítulos cun toque",
+        "description": "Inicia os subtítulos en directo desde a pantalla de inicio ou a pantalla de bloqueo do teu iPhone."
+      }
+    },
     "useCasesLabel": "Casos de uso",
     "useCasesTitle": "Funciona en calquera situación",
     "useCasesSubtitle": "Pensada para os momentos reais que importan, non só para ambientes tranquilos e controlados.",

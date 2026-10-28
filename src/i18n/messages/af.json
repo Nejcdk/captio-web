@@ -105,6 +105,44 @@
         ]
       }
     },
+    "moreFeaturesTitle": "Meer kenmerke",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "KI-aksies",
+        "title": "Taaklyste, notas en ’n opvolgboodskap",
+        "description": "Verander enige opname in hoofpunte, gedetailleerde notas, taaklyste, vrae en antwoorde of ’n opvolgboodskap."
+      },
+      "export": {
+        "label": "Uitvoer",
+        "title": "Deel dit op jou manier",
+        "description": "Stuur onderskrifte of ’n opsomming as teks, ’n skakel, ’n PDF, ’n e-pos of ’n KI-klets-opdrag."
+      },
+      "folders": {
+        "label": "Vouers",
+        "title": "Vouers en gedeelde vouers",
+        "description": "Sorteer opnames in vouers en deel een met familie, klasmaats of jou span."
+      },
+      "recognize-voices": {
+        "label": "Herken stemme",
+        "title": "Name, nie Spreker 2 nie",
+        "description": "Stoor die stemme van mense met wie jy gereeld praat en sien hul name in jou onderskrifte."
+      },
+      "speaker-direction": {
+        "label": "Sprekerrigting",
+        "title": "Sien waarvandaan ’n stem kom",
+        "description": "Golwe aan die rand van die onderskrifte wys na wie praat. iPhone 16 en nuuer."
+      },
+      "connectors": {
+        "label": "Connectors",
+        "title": "Vra jou klets-toepassing",
+        "description": "Vra Claude, ChatGPT, Gemini of Perplexity oor enige van jou opnames."
+      },
+      "widgets": {
+        "label": "Widgets",
+        "title": "Onderskrifte met een tik",
+        "description": "Begin regstreekse onderskrifte vanaf jou iPhone se Tuisskerm of Sluitskerm."
+      }
+    },
     "useCasesLabel": "Gebruike",
     "useCasesTitle": "Werk in elke situasie",
     "useCasesSubtitle": "Ontwerp vir die werklike oomblikke wat saak maak, nie net vir stil, beheerde omgewings nie.",

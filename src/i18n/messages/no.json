@@ -105,6 +105,44 @@
         ]
       }
     },
+    "moreFeaturesTitle": "Flere funksjoner",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "AI-handlinger",
+        "title": "Oppgaver, notater og en oppfølging",
+        "description": "Gjør ethvert opptak om til hovedpunkter, detaljerte notater, oppgaver, spørsmål og svar eller en oppfølgingsmelding."
+      },
+      "export": {
+        "label": "Eksport",
+        "title": "Del det slik du vil",
+        "description": "Send tekstingen eller et sammendrag som tekst, lenke, PDF, e-post eller en AI-chat-prompt."
+      },
+      "folders": {
+        "label": "Mapper",
+        "title": "Mapper og delte mapper",
+        "description": "Sorter opptak i mapper, og del en med familien, klassekamerater eller teamet ditt."
+      },
+      "recognize-voices": {
+        "label": "Gjenkjenn stemmer",
+        "title": "Navn, ikke Taler 2",
+        "description": "Lagre stemmene til folk du snakker ofte med, og se navnene deres i tekstingen."
+      },
+      "speaker-direction": {
+        "label": "Talerens retning",
+        "title": "Se hvor stemmen kommer fra",
+        "description": "Bølger i kanten av tekstingen peker mot den som snakker. iPhone 16 og nyere."
+      },
+      "connectors": {
+        "label": "Connectors",
+        "title": "Spør chat-appen din",
+        "description": "Spør Claude, ChatGPT, Gemini eller Perplexity om hvilket som helst av opptakene dine."
+      },
+      "widgets": {
+        "label": "Widgets",
+        "title": "Teksting med ett trykk",
+        "description": "Start direkteteksting fra Hjem-skjermen eller låseskjermen på iPhone."
+      }
+    },
     "useCasesLabel": "Bruksområder",
     "useCasesTitle": "Fungerer i alle situasjoner",
     "useCasesSubtitle": "Laget for de virkelige øyeblikkene som betyr noe, ikke bare for stille, kontrollerte omgivelser.",

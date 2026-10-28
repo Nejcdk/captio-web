@@ -105,6 +105,44 @@
         ]
       }
     },
+    "moreFeaturesTitle": "Daha fazla özellik",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "Yapay Zekâ İşlemleri",
+        "title": "Yapılacaklar, notlar ve takip mesajı",
+        "description": "Her kaydı ana noktalara, ayrıntılı notlara, yapılacaklara, soru-cevaba ya da takip mesajına dönüştür."
+      },
+      "export": {
+        "label": "Dışa Aktar",
+        "title": "İstediğin şekilde paylaş",
+        "description": "Altyazıları veya özeti metin, bağlantı, PDF, e-posta ya da yapay zekâ sohbet istemi olarak gönder."
+      },
+      "folders": {
+        "label": "Klasörler",
+        "title": "Klasörler ve paylaşılan klasörler",
+        "description": "Kayıtlarını klasörlere ayır, birini ailenle, sınıf arkadaşlarınla ya da ekibinle paylaş."
+      },
+      "recognize-voices": {
+        "label": "Sesleri Tanı",
+        "title": "“Konuşmacı 2” değil, isimler",
+        "description": "Sık konuştuğun kişilerin seslerini kaydet, altyazılarda adlarını gör."
+      },
+      "speaker-direction": {
+        "label": "Konuşmacının Yönü",
+        "title": "Sesin nereden geldiğini gör",
+        "description": "Altyazıların kenarındaki dalgalar kimin konuştuğunu gösterir. iPhone 16 ve sonrası."
+      },
+      "connectors": {
+        "label": "Connectors",
+        "title": "Sohbet uygulamana sor",
+        "description": "Claude, ChatGPT, Gemini veya Perplexity ile kayıtlarından herhangi biri hakkında sohbet et."
+      },
+      "widgets": {
+        "label": "Widget’lar",
+        "title": "Tek dokunuşla altyazı",
+        "description": "iPhone’unun Ana Ekranından veya Kilit Ekranından Canlı Altyazı’yı başlat."
+      }
+    },
     "useCasesLabel": "Kullanım Alanları",
     "useCasesTitle": "Her durumda çalışır",
     "useCasesSubtitle": "Önemli olan gerçek anlar için tasarlandı — yalnızca sessiz ve kontrollü ortamlar için değil.",

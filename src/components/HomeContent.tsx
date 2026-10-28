@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { DownloadCard, StoreButtons } from "@/components/StoreButtons";
 import FaqAccordion from "@/components/FaqAccordion";
-import { FeaturedOnLine } from "@/components/FeaturedOn";
+import HeroDownload from "@/components/HeroDownload";
 import LocaleShell from "@/components/LocaleShell";
 import { FEATURE_SLUGS, languageName, languageOptions, pagePath, type Messages } from "@/i18n";
 import { ALL_LOCALES } from "@/i18n/locales";
@@ -180,20 +180,7 @@ export default function HomeContent({ code, m }: { code: string; m: Messages }) 
               {h.heroSubtitle}
             </p>
 
-            <DownloadCard id="download" t={m.store} />
-            <FeaturedOnLine label={m.footer.featuredOn} />
-
-            {/* App mockup */}
-            <div className="mt-6 sm:mt-10">
-              <Image
-                src="/mockup_app.png"
-                alt={h.mockupAlt}
-                width={400}
-                height={340}
-                className="w-[280px] sm:w-[400px] h-auto mx-auto drop-shadow-2xl"
-                priority
-              />
-            </div>
+            <HeroDownload alt={h.mockupAlt} t={m.store} />
           </div>
         </section>
 
@@ -243,6 +230,28 @@ export default function HomeContent({ code, m }: { code: string; m: Messages }) 
                   </Link>
                 );
               })}
+            </div>
+
+            {/* The newer feature pages are English only; their cards follow the page's language. */}
+            <h3 className="text-xl font-bold text-gray-900 tracking-tight text-center mt-10 mb-5">{h.moreFeaturesTitle}</h3>
+            <div className="flex flex-wrap justify-center gap-4">
+              {Object.entries(h.moreFeatures).map(([slug, f]) => (
+                <Link
+                  key={slug}
+                  href={`/${slug}`}
+                  className="w-full sm:w-[calc(50%-0.5rem)] lg:w-[calc(25%-0.75rem)] group bg-gray-50 border border-gray-100 rounded-xl p-5 flex flex-col gap-2 hover:border-brand/30 transition-colors"
+                >
+                  <span className="text-xs font-bold text-brand uppercase tracking-wide">{f.label}</span>
+                  <span className="font-bold text-gray-900 text-base leading-snug">{f.title}</span>
+                  <span className="text-sm text-gray-500 leading-relaxed flex-1">{f.description}</span>
+                  <span className="inline-flex items-center gap-1 text-brand text-sm font-semibold mt-1 group-hover:underline">
+                    {c.explore}
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 rtl:-scale-x-100">
+                      <path d="m9 18 6-6-6-6" strokeWidth="2" />
+                    </svg>
+                  </span>
+                </Link>
+              ))}
             </div>
           </div>
         </section>

@@ -105,6 +105,44 @@
         ]
       }
     },
+    "moreFeaturesTitle": "További funkciók",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "MI-műveletek",
+        "title": "Teendők, jegyzetek és követő üzenet",
+        "description": "Készíts bármelyik felvételből fő pontokat, részletes jegyzeteket, teendőket, kérdéseket és válaszokat vagy követő üzenetet."
+      },
+      "export": {
+        "label": "Exportálás",
+        "title": "Oszd meg a magad módján",
+        "description": "Küldd el a feliratot vagy az összefoglalót szövegként, linkként, PDF-ként, e-mailben vagy MI-csevegés promptjaként."
+      },
+      "folders": {
+        "label": "Mappák",
+        "title": "Mappák és megosztott mappák",
+        "description": "Rendezd a felvételeket mappákba, és oszd meg valamelyiket a családdal, osztálytársakkal vagy a csapatoddal."
+      },
+      "recognize-voices": {
+        "label": "Hangfelismerés",
+        "title": "Nevek a „2. beszélő” helyett",
+        "description": "Mentsd el azok hangját, akikkel gyakran beszélsz, és lásd a nevüket a feliratokban."
+      },
+      "speaker-direction": {
+        "label": "A beszélő iránya",
+        "title": "Lásd, honnan jön egy hang",
+        "description": "A feliratok szélén lévő hullámok mutatják, ki beszél. iPhone 16-tól kezdve."
+      },
+      "connectors": {
+        "label": "Összekötők",
+        "title": "Kérdezd a csevegőappodat",
+        "description": "Kérdezz a felvételeidről a Claude, a ChatGPT, a Gemini vagy a Perplexity segítségével."
+      },
+      "widgets": {
+        "label": "Widgetek",
+        "title": "Feliratok egyetlen koppintással",
+        "description": "Indítsd el az Élő feliratot az iPhone főképernyőjéről vagy zárolási képernyőjéről."
+      }
+    },
     "useCasesLabel": "Felhasználás",
     "useCasesTitle": "Minden helyzetben működik",
     "useCasesSubtitle": "A valódi, fontos pillanatokra tervezve, nem csak csendes, ideális körülményekre.",

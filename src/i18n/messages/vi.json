@@ -105,6 +105,44 @@
         ]
       }
     },
+    "moreFeaturesTitle": "Thêm tính năng",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "Tác vụ AI",
+        "title": "Việc cần làm, ghi chú và tin nhắn theo dõi",
+        "description": "Biến mọi bản ghi âm thành ý chính, ghi chú chi tiết, việc cần làm, hỏi đáp hoặc tin nhắn theo dõi."
+      },
+      "export": {
+        "label": "Xuất",
+        "title": "Chia sẻ theo cách của bạn",
+        "description": "Gửi phụ đề hoặc bản tóm tắt dưới dạng văn bản, liên kết, PDF, email hoặc câu lệnh cho chat AI."
+      },
+      "folders": {
+        "label": "Thư mục",
+        "title": "Thư mục và thư mục chia sẻ",
+        "description": "Sắp xếp bản ghi âm vào các thư mục và chia sẻ một thư mục với gia đình, bạn học hoặc nhóm của bạn."
+      },
+      "recognize-voices": {
+        "label": "Nhận diện giọng nói",
+        "title": "Hiện tên, không phải “Người nói 2”",
+        "description": "Lưu giọng nói của những người bạn hay trò chuyện để thấy tên họ ngay trong phụ đề."
+      },
+      "speaker-direction": {
+        "label": "Hướng người nói",
+        "title": "Thấy giọng nói đến từ đâu",
+        "description": "Những làn sóng ở mép phụ đề chỉ ra ai đang nói. Từ iPhone 16 trở lên."
+      },
+      "connectors": {
+        "label": "Connectors",
+        "title": "Hỏi ứng dụng chat của bạn",
+        "description": "Hỏi Claude, ChatGPT, Gemini hoặc Perplexity về bất kỳ bản ghi âm nào của bạn."
+      },
+      "widgets": {
+        "label": "Widget",
+        "title": "Phụ đề chỉ với một chạm",
+        "description": "Bật Phụ đề trực tiếp từ Màn hình chính hoặc Màn hình khóa trên iPhone của bạn."
+      }
+    },
     "useCasesLabel": "Tình huống sử dụng",
     "useCasesTitle": "Dùng được trong mọi tình huống",
     "useCasesSubtitle": "Được thiết kế cho những khoảnh khắc thật sự quan trọng, không chỉ ở nơi yên tĩnh, được kiểm soát.",

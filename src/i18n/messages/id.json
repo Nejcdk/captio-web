@@ -105,6 +105,44 @@
         ]
       }
     },
+    "moreFeaturesTitle": "Fitur lainnya",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "Tindakan AI",
+        "title": "Daftar tugas, catatan, dan tindak lanjut",
+        "description": "Ubah rekaman apa pun jadi poin penting, catatan lengkap, daftar tugas, tanya jawab, atau pesan tindak lanjut."
+      },
+      "export": {
+        "label": "Ekspor",
+        "title": "Bagikan dengan caramu",
+        "description": "Kirim teks percakapan atau ringkasan dalam bentuk teks biasa, tautan, PDF, email, atau prompt chat AI."
+      },
+      "folders": {
+        "label": "Folder",
+        "title": "Folder dan folder bersama",
+        "description": "Susun rekaman ke dalam folder dan bagikan satu folder dengan keluarga, teman sekelas, atau timmu."
+      },
+      "recognize-voices": {
+        "label": "Kenali Suara",
+        "title": "Nama, bukan “Pembicara 2”",
+        "description": "Simpan suara orang yang sering kamu ajak bicara dan lihat nama mereka di teks percakapan."
+      },
+      "speaker-direction": {
+        "label": "Arah Pembicara",
+        "title": "Lihat dari mana suara berasal",
+        "description": "Gelombang di tepi teks menunjukkan siapa yang sedang bicara. Di iPhone 16 ke atas."
+      },
+      "connectors": {
+        "label": "Konektor",
+        "title": "Tanya aplikasi chat-mu",
+        "description": "Tanyakan ke Claude, ChatGPT, Gemini, atau Perplexity soal rekaman apa pun milikmu."
+      },
+      "widgets": {
+        "label": "Widget",
+        "title": "Teks langsung dengan sekali ketuk",
+        "description": "Mulai Teks Langsung dari Layar Utama atau Layar Terkunci iPhone."
+      }
+    },
     "useCasesLabel": "Kegunaan",
     "useCasesTitle": "Bisa dipakai di segala situasi",
     "useCasesSubtitle": "Dirancang untuk momen nyata yang penting, bukan hanya di tempat yang tenang dan terkendali.",

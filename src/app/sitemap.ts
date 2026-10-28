@@ -22,6 +22,7 @@ const UPDATED = {
   terms: "2026-10-07",
   organizations: "2026-10-27",
   translations: "2026-10-28", // /<code> and /<code>/<feature>
+  moreFeatures: "2026-10-28", // /ai-actions, /export, /folders, /recognize-voices, /speaker-direction, /connectors, /widgets
 };
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -31,6 +32,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/live-translator`, lastModified: UPDATED.core },
     { url: `${SITE_URL}/audio-transcription`, lastModified: UPDATED.core },
     { url: `${SITE_URL}/ai-summary`, lastModified: UPDATED.core },
+    ...["ai-actions", "export", "folders", "recognize-voices", "speaker-direction", "connectors", "widgets"].map((slug) => ({
+      url: `${SITE_URL}/${slug}`,
+      lastModified: UPDATED.moreFeatures,
+    })),
     { url: `${SITE_URL}/organizations`, lastModified: UPDATED.organizations },
     { url: `${SITE_URL}/privacy`, lastModified: UPDATED.privacy },
     { url: `${SITE_URL}/terms`, lastModified: UPDATED.terms },

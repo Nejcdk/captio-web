@@ -105,6 +105,44 @@
         ]
       }
     },
+    "moreFeaturesTitle": "Funtzio gehiago",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "AA ekintzak",
+        "title": "Egitekoak, oharrak eta jarraipen-mezua",
+        "description": "Bihurtu edozein grabazio gako-ideia, ohar xehatu, egiteko, galdera-erantzun edo jarraipen-mezu."
+      },
+      "export": {
+        "label": "Esportatu",
+        "title": "Partekatu zure erara",
+        "description": "Bidali azpitituluak edo laburpena testu, esteka, PDF edo mezu elektroniko gisa, baita AA txaterako prompt gisa ere."
+      },
+      "folders": {
+        "label": "Karpetak",
+        "title": "Karpetak eta partekatutako karpetak",
+        "description": "Antolatu grabazioak karpetetan eta partekatu bat familiarekin, ikaskideekin edo zure taldearekin."
+      },
+      "recognize-voices": {
+        "label": "Ahotsak ezagutzea",
+        "title": "Izenak, ez «Hizlari 2»",
+        "description": "Gorde maiz hitz egiten duzun jendearen ahotsak eta ikusi haien izenak azpitituluetan."
+      },
+      "speaker-direction": {
+        "label": "Hizlariaren norabidea",
+        "title": "Ikusi nondik datorren ahotsa",
+        "description": "Azpitituluen ertzeko uhinek nork hitz egiten duen adierazten dute. iPhone 16 eta ondorengoetarako."
+      },
+      "connectors": {
+        "label": "Konektoreak",
+        "title": "Galdetu zure txat-aplikazioari",
+        "description": "Egin galderak zure grabazioei buruz Claude, ChatGPT, Gemini edo Perplexity erabilita."
+      },
+      "widgets": {
+        "label": "Widgetak",
+        "title": "Azpitituluak ukitu batean",
+        "description": "Hasi zuzeneko azpitituluak zure iPhone-aren hasierako pantailatik edo blokeo-pantailatik."
+      }
+    },
     "useCasesLabel": "Erabilerak",
     "useCasesTitle": "Egoera guztietan dabil",
     "useCasesSubtitle": "Benetan garrantzia duten uneetarako pentsatua, ez bakarrik ingurune lasai eta kontrolatuetarako.",

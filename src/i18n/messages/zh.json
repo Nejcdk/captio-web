@@ -105,6 +105,44 @@
         ]
       }
     },
+    "moreFeaturesTitle": "更多功能",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "AI 操作",
+        "title": "待办、笔记和跟进消息",
+        "description": "把任何录音变成要点、详细笔记、待办事项、问答或跟进消息。"
+      },
+      "export": {
+        "label": "导出",
+        "title": "按你的方式分享",
+        "description": "把字幕或摘要以文本、链接、PDF、邮件或 AI 聊天提示词的形式发送出去。"
+      },
+      "folders": {
+        "label": "文件夹",
+        "title": "文件夹与共享文件夹",
+        "description": "把录音分类放进文件夹，并与家人、同学或团队共享。"
+      },
+      "recognize-voices": {
+        "label": "识别声音",
+        "title": "显示名字，而不是“说话人 2”",
+        "description": "保存常交谈的人的声音，在字幕里直接看到他们的名字。"
+      },
+      "speaker-direction": {
+        "label": "说话人方向",
+        "title": "看见声音来自哪里",
+        "description": "字幕边缘的波形会指向正在说话的人。支持 iPhone 16 及更新机型。"
+      },
+      "connectors": {
+        "label": "连接器",
+        "title": "向你的聊天应用提问",
+        "description": "向 Claude、ChatGPT、Gemini 或 Perplexity 询问你的任何录音。"
+      },
+      "widgets": {
+        "label": "小组件",
+        "title": "一键开启字幕",
+        "description": "从 iPhone 主屏幕或锁定屏幕启动实时字幕。"
+      }
+    },
     "useCasesLabel": "使用场景",
     "useCasesTitle": "适用于每一种场景",
     "useCasesSubtitle": "为真正重要的时刻而设计，而不只是安静、可控的环境。",

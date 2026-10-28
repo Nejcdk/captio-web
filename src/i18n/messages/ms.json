@@ -105,6 +105,44 @@
         ]
       }
     },
+    "moreFeaturesTitle": "Lebih banyak ciri",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "Tindakan AI",
+        "title": "Senarai tugasan, nota dan mesej susulan",
+        "description": "Jadikan mana-mana rakaman sebagai perkara utama, nota terperinci, senarai tugasan, soal jawab atau mesej susulan."
+      },
+      "export": {
+        "label": "Eksport",
+        "title": "Kongsi dengan cara anda",
+        "description": "Hantar sari kata atau ringkasan sebagai teks, pautan, PDF, e-mel atau gesaan sembang AI."
+      },
+      "folders": {
+        "label": "Folder",
+        "title": "Folder dan folder kongsi",
+        "description": "Susun rakaman ke dalam folder dan kongsikan satu folder dengan keluarga, rakan sekelas atau pasukan anda."
+      },
+      "recognize-voices": {
+        "label": "Kenal pasti suara",
+        "title": "Nama, bukan “Penutur 2”",
+        "description": "Simpan suara orang yang kerap anda ajak berbual dan lihat nama mereka dalam sari kata anda."
+      },
+      "speaker-direction": {
+        "label": "Arah penutur",
+        "title": "Lihat dari mana suara datang",
+        "description": "Gelombang di tepi sari kata menunjukkan siapa yang sedang bercakap. iPhone 16 dan yang lebih baharu."
+      },
+      "connectors": {
+        "label": "Penyambung",
+        "title": "Tanya aplikasi sembang anda",
+        "description": "Tanya Claude, ChatGPT, Gemini atau Perplexity tentang mana-mana rakaman anda."
+      },
+      "widgets": {
+        "label": "Widget",
+        "title": "Sari kata dengan satu ketikan",
+        "description": "Mulakan Sari Kata Langsung dari Skrin Utama atau Skrin Kunci iPhone anda."
+      }
+    },
     "useCasesLabel": "Kegunaan",
     "useCasesTitle": "Berfungsi dalam setiap situasi",
     "useCasesSubtitle": "Direka untuk detik sebenar yang penting — bukan sekadar persekitaran yang senyap dan terkawal.",

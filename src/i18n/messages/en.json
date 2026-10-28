@@ -105,6 +105,44 @@
         ]
       }
     },
+    "moreFeaturesTitle": "More features",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "AI Actions",
+        "title": "To-dos, notes and a follow-up",
+        "description": "Turn any recording into key points, detailed notes, to-dos, Q&A or a follow-up message."
+      },
+      "export": {
+        "label": "Export",
+        "title": "Share it your way",
+        "description": "Send captions or a summary as text, a link, a PDF, an email or an AI chat prompt."
+      },
+      "folders": {
+        "label": "Folders",
+        "title": "Folders and shared folders",
+        "description": "Sort recordings into folders and share one with family, classmates or your team."
+      },
+      "recognize-voices": {
+        "label": "Recognize Voices",
+        "title": "Names, not Speaker 2",
+        "description": "Save the voices of people you talk to often and see their names in your captions."
+      },
+      "speaker-direction": {
+        "label": "Speaker Direction",
+        "title": "See where a voice comes from",
+        "description": "Waves at the edge of the captions point to who is talking. iPhone 16 and later."
+      },
+      "connectors": {
+        "label": "Connectors",
+        "title": "Ask your chat app",
+        "description": "Ask Claude, ChatGPT, Gemini or Perplexity about any of your recordings."
+      },
+      "widgets": {
+        "label": "Widgets",
+        "title": "Captions in one tap",
+        "description": "Start Live Captions from your iPhone Home Screen or Lock Screen."
+      }
+    },
     "useCasesLabel": "Use Cases",
     "useCasesTitle": "Works in every situation",
     "useCasesSubtitle": "Designed for the real moments that matter — not just quiet controlled environments.",

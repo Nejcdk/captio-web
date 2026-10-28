@@ -105,6 +105,44 @@
         ]
       }
     },
+    "moreFeaturesTitle": "Daugiau funkcijų",
+    "moreFeatures": {
+      "ai-actions": {
+        "label": "DI veiksmai",
+        "title": "Užduotys, užrašai ir tolesnė žinutė",
+        "description": "Bet kurį įrašą paversk pagrindinėmis mintimis, išsamiais užrašais, užduotimis, klausimais ir atsakymais arba tolesne žinute."
+      },
+      "export": {
+        "label": "Eksportas",
+        "title": "Dalinkis savo būdu",
+        "description": "Subtitrus ar santrauką išsiųsk kaip tekstą, nuorodą, PDF, el. laišką arba DI pokalbio užklausą."
+      },
+      "folders": {
+        "label": "Aplankai",
+        "title": "Aplankai ir bendrinami aplankai",
+        "description": "Išskirstyk įrašus į aplankus ir vienu iš jų pasidalyk su šeima, bendraklasiais ar komanda."
+      },
+      "recognize-voices": {
+        "label": "Balsų atpažinimas",
+        "title": "Vardai, o ne „Kalbėtojas 2“",
+        "description": "Išsaugok žmonių, su kuriais dažnai kalbi, balsus ir subtitruose matyk jų vardus."
+      },
+      "speaker-direction": {
+        "label": "Kalbėtojo kryptis",
+        "title": "Matyk, iš kur sklinda balsas",
+        "description": "Bangos subtitrų pakraštyje rodo, kas kalba. Veikia su iPhone 16 ir naujesniais."
+      },
+      "connectors": {
+        "label": "Jungtys",
+        "title": "Klausk savo pokalbių programos",
+        "description": "Klausk Claude, ChatGPT, Gemini ar Perplexity apie bet kurį savo įrašą."
+      },
+      "widgets": {
+        "label": "Valdikliai",
+        "title": "Subtitrai vienu palietimu",
+        "description": "Tiesioginiai subtitrai pasileidžia tiesiai iš iPhone pagrindinio ar užrakinto ekrano."
+      }
+    },
     "useCasesLabel": "Naudojimo atvejai",
     "useCasesTitle": "Veikia bet kokioje situacijoje",
     "useCasesSubtitle": "Sukurta tikroms, svarbioms akimirkoms, o ne tik tylioms ir kontroliuojamoms aplinkoms.",
