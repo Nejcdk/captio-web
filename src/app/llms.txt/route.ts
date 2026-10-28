@@ -2,6 +2,7 @@ import { features } from "@/lib/features";
 import { languages } from "@/lib/languages";
 import { useCases } from "@/lib/useCases";
 import { getAllPosts } from "@/lib/blog";
+import { FEATURED_ON } from "@/lib/press";
 import { APP_STORE_URL, GOOGLE_PLAY_URL, SITE_URL } from "@/lib/schema";
 
 // /llms.txt: a plain-text map of the site for AI assistants and their crawlers
@@ -33,6 +34,9 @@ export function GET() {
     "## Blog",
     `- [All articles](${SITE_URL}/blog): data, comparisons and guides about hearing loss and captions, every number sourced.`,
     ...posts.map((p) => `- [${p.title}](${SITE_URL}/blog/${p.slug}): ${p.answer}`),
+    "",
+    "## Coverage",
+    `- [${FEATURED_ON.title}](${FEATURED_ON.url}): ${FEATURED_ON.name}, Assistive Technology section, 27 October 2026.`,
     "",
     "## Languages",
     `Each language has its own page about dialects and accents, e.g. ${SITE_URL}/${languages[0].languageSlug}, and pages per use case, e.g. ${SITE_URL}/use-cases/${useCases[0].slug}/${languages[0].languageSlug}.`,
