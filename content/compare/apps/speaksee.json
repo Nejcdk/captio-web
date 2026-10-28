@@ -1,0 +1,709 @@
+{
+  "slug": "speaksee",
+  "name": "Speaksee Microphone Kit",
+  "shortName": "Speaksee",
+  "developer": "Speaksee B.V.",
+  "developerCountry": "Netherlands",
+  "website": "https://speak-see.com/",
+  "appStoreUrl": "https://apps.apple.com/app/speaksee/id1488460003",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=speaksee.onboarding",
+  "category": "in-person-captions",
+  "oneLine": "A clip-on microphone kit with a phone app that captions in-person group conversations, one colour per speaker, for deaf and hard of hearing people.",
+  "facts": {
+    "platforms": {
+      "status": "yes",
+      "text": "iPhone, iPad, Android; web viewer",
+      "detail": "The Speaksee app runs on iOS and Android and connects to the kit. Others can follow a session on a phone, tablet or computer through a shared link or QR code.",
+      "sources": [
+        "s5",
+        "s24",
+        "s25"
+      ]
+    },
+    "deviceRequirements": {
+      "status": "yes",
+      "text": "Speaksee kit; iOS 16.6+ or Android",
+      "detail": "The app works only with the Speaksee Microphone Kit, on a phone or tablet with Bluetooth Low Energy; the App Store lists iOS 16.6 or later. A minimum Android version is not stated, and the kit can't connect directly to a laptop.",
+      "sources": [
+        "s3",
+        "s5",
+        "s7",
+        "s24"
+      ]
+    },
+    "roomCaptions": {
+      "status": "partial",
+      "text": "Only through its clip-on mics",
+      "detail": "Speech is picked up by the kit's microphones, which the speakers wear. The app is not a standalone app and doesn't caption with the phone's own microphone.",
+      "sources": [
+        "s3",
+        "s7",
+        "s21"
+      ]
+    },
+    "groupConversations": {
+      "status": "yes",
+      "text": "Yes, one mic per speaker",
+      "detail": "The kit comes with 3 wearable microphones and a base station, and a second kit can be added. Speaksee's website says groups of up to 9; its store listings say up to six speakers at the same time.",
+      "sources": [
+        "s2",
+        "s3",
+        "s24",
+        "s25"
+      ]
+    },
+    "languages": {
+      "status": "yes",
+      "text": "55 listed, 11 tested by native speakers",
+      "detail": "Speaksee's help centre lists 11 languages tested by native speakers (such as Dutch, English, French, German and Spanish) and 44 more not yet tested, many of them regional variants.",
+      "sources": [
+        "s6"
+      ]
+    },
+    "offline": {
+      "status": "no",
+      "text": "No, needs internet",
+      "detail": "The manual lists an internet connection as a requirement (Wi-Fi, or the phone's connection over Bluetooth), because audio goes to the Speaksee cloud. The kit uses about 40 MB of data an hour.",
+      "sources": [
+        "s3",
+        "s23"
+      ]
+    },
+    "speakerLabels": {
+      "status": "yes",
+      "text": "Yes, a colour and name per mic",
+      "detail": "Each microphone's speech shows in its own colour, and each microphone can be given a name and a language in the app.",
+      "sources": [
+        "s2",
+        "s3",
+        "s10"
+      ]
+    },
+    "translation": {
+      "status": "yes",
+      "text": "Yes, live, a language per mic",
+      "detail": "You can set the spoken and shown language for the whole session or for each microphone, and people following by QR code can read in their own language. The August 2026 manual says 80+ languages; the product page says more than 40.",
+      "sources": [
+        "s2",
+        "s3"
+      ]
+    },
+    "saveTranscripts": {
+      "status": "yes",
+      "text": "Yes, as a file on your device",
+      "detail": "After a conversation you can save the transcript to the phone (Files on iPhone and iPad, Downloads on Android). Speaksee deletes transcripts from its own servers shortly after use, so the saved file is your copy.",
+      "sources": [
+        "s8",
+        "s3",
+        "s19"
+      ]
+    },
+    "export": {
+      "status": "partial",
+      "text": "File on device; live link or QR",
+      "detail": "Transcripts are saved as a file on the device; the file format is not stated. A live session can be shared with others through a link or QR code.",
+      "sources": [
+        "s8",
+        "s5",
+        "s3"
+      ]
+    },
+    "fileUpload": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Transcribing uploaded audio or video files is not mentioned on Speaksee's pages.",
+      "sources": []
+    },
+    "summaries": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "AI summaries are not mentioned on Speaksee's pages.",
+      "sources": []
+    },
+    "customWords": {
+      "status": "partial",
+      "text": "Word list sent through a web form",
+      "detail": "You can add names, technical terms and abbreviations by sending a word list through a form on the help centre; it is not described as a setting in the app.",
+      "sources": [
+        "s9"
+      ]
+    },
+    "display": {
+      "status": "yes",
+      "text": "Themes, dark mode, text size",
+      "detail": "The app offers four themes (Color, Glow, Minimal, Teletext), dark mode, focus mode, text size and bold words.",
+      "sources": [
+        "s10",
+        "s3"
+      ]
+    },
+    "soundAlerts": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Alerts for sounds other than speech are not mentioned.",
+      "sources": []
+    },
+    "phoneCalls": {
+      "status": "no",
+      "text": "No",
+      "detail": "Speaksee's help centre says the Microphone Kit is not designed for phone calls; it captions conversations around you.",
+      "sources": [
+        "s11"
+      ]
+    },
+    "videoCalls": {
+      "status": "partial",
+      "text": "Separate Windows software (AutoCaption)",
+      "detail": "The kit is for in-person conversations. Speaksee sells separate AutoCaption software that captions a Windows computer's sound, such as online meetings; it runs on Windows only and is priced by quote.",
+      "sources": [
+        "s12",
+        "s13",
+        "s29"
+      ]
+    },
+    "mediaOnDevice": {
+      "status": "partial",
+      "text": "AutoCaption on Windows only",
+      "detail": "AutoCaption captions audio playing on a Windows computer. The kit's base station has a 3.5 mm input for a phone or TV, but Speaksee says this is not fully supported yet.",
+      "sources": [
+        "s12",
+        "s22",
+        "s3"
+      ]
+    },
+    "humanCaptioners": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No human captioners are offered; captions are automatic.",
+      "sources": []
+    },
+    "signLanguage": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Sign language is not mentioned.",
+      "sources": []
+    },
+    "privacy": {
+      "status": "yes",
+      "text": "Cloud in the EEA; not used for training",
+      "detail": "Audio is processed in the cloud by Speaksee and third-party speech-to-text processors within the European Economic Area, encrypted, and is never used for training. The privacy policy says transcripts are deleted within 5 minutes; the help centre says right after processing.",
+      "sources": [
+        "s18",
+        "s19",
+        "s3"
+      ]
+    },
+    "account": {
+      "status": "yes",
+      "text": "Yes, plus a kit activation code",
+      "detail": "You create a Speaksee account (Google, Apple or email) and enter the activation code from the kit box; each code works for one account.",
+      "sources": [
+        "s7",
+        "s3"
+      ]
+    },
+    "availability": {
+      "status": "partial",
+      "text": "No country list published",
+      "detail": "Speaksee doesn't publish a country list. Its help centre covers funding in the UK and the Netherlands, the kit is safety-tested for the EU, UK, US, Canada and Australia, and a Canadian reseller sells it.",
+      "sources": [
+        "s14",
+        "s3",
+        "s26"
+      ]
+    },
+    "freePlan": {
+      "status": "no",
+      "text": "No; the app needs the paid kit",
+      "detail": "The app is free to download but works only with the Speaksee Microphone Kit, which comes with a paid software subscription. Speaksee says a trial is possible in some cases.",
+      "sources": [
+        "s24",
+        "s12",
+        "s20"
+      ]
+    },
+    "price": {
+      "status": "partial",
+      "text": "Quote only, not published",
+      "detail": "Speaksee publishes no prices and asks you to request a quote. Canadian reseller Special Needs Computers lists the 3-microphone kit at CA$2,029.99, the 6-microphone kit at CA$2,999.99 and a one-year Speaksee subscription at CA$2,800.00 (October 2026).",
+      "sources": [
+        "s4",
+        "s12",
+        "s26",
+        "s27"
+      ]
+    },
+    "accessibilityFunding": {
+      "status": "yes",
+      "text": "UK and Netherlands funding",
+      "detail": "In the UK, Speaksee points employees to Access to Work and students to the Disabled Students' Allowance. In the Netherlands, contracted health insurers usually pay the full cost (your deductible applies), and work use can be paid through the UWV.",
+      "sources": [
+        "s14",
+        "s15",
+        "s16",
+        "s17",
+        "s2"
+      ]
+    }
+  },
+  "strengths": [
+    {
+      "text": "Each speaker wears their own microphone, so captions are split by speaker with a colour and name for each; Speaksee says it works in groups and with background noise.",
+      "sources": [
+        "s2",
+        "s3",
+        "s10"
+      ]
+    },
+    {
+      "text": "A session can be shared live by link or QR code to other phones, tablets or computers, and each microphone can be translated into another language.",
+      "sources": [
+        "s5",
+        "s3"
+      ]
+    },
+    {
+      "text": "Funding routes are documented for the UK (Access to Work, DSA) and the Netherlands (health insurance, UWV), where the kit can be fully funded.",
+      "sources": [
+        "s14",
+        "s15",
+        "s2"
+      ]
+    },
+    {
+      "text": "Audio is processed in the EEA under GDPR and is not used for training, and Speaksee states ISO 27001 certification.",
+      "sources": [
+        "s18",
+        "s3"
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "text": "The app works only with the Speaksee Microphone Kit; it can't caption with the phone's own microphone.",
+      "sources": [
+        "s7",
+        "s24",
+        "s25"
+      ]
+    },
+    {
+      "text": "Prices are not published; a Canadian reseller lists CA$2,029.99 for the 3-mic kit plus CA$2,800.00 for a one-year subscription.",
+      "sources": [
+        "s4",
+        "s26",
+        "s27"
+      ]
+    },
+    {
+      "text": "Captioning needs an internet connection because audio is sent to the Speaksee cloud.",
+      "sources": [
+        "s3"
+      ]
+    },
+    {
+      "text": "The microphones must be worn (not placed on a table) and last about 4 hours per charge; phone calls are not supported.",
+      "sources": [
+        "s21",
+        "s3",
+        "s11"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Speaksee homepage",
+      "publisher": "Speaksee",
+      "url": "https://speak-see.com/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "The award-winning Speaksee device subtitles what's said, even in groups.",
+        "Speaksee (patented) is the first microphone system able to accurately transcribe group conversations.",
+        "Admiraliteitsstraat 7A, 3063 EJ Rotterdam"
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Speaksee Microphone Kit",
+      "publisher": "Speaksee",
+      "url": "https://speak-see.com/pages/products-speakseemicrophonekit",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Our unique technology can identify who is speaking and provide personalised colour-coded subtitles, making it easier to follow the conversation.",
+        "The Speaksee system is specifically designed for group settings with up to 9 participants.",
+        "Translate into more than 40 different languages.",
+        "Up to 95% accurate, even with accents and background noise.",
+        "You may be eligible for full funding of Speaksee."
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "User Manual Microphone Kit, version 2026",
+      "publisher": "Speaksee B.V.",
+      "url": "https://support.speak-see.com/hubfs/2026%20-%20User%20Manual%20Speaksee%20Microphone%20Kit.pdf",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Important to note: This is the manual for the new app that was released 10th of August, 2026.",
+        "1 x Base station",
+        "3 x Microphone",
+        "Average operating time for each microphone is 4 hours.",
+        "You can select from 80+ languages to translate to and from.",
+        "On the ‘’each’’ tab, you can set the specific input and output language for each microphone separately.",
+        "Wi-Fi internet connection",
+        "Speaksee app on a smart device (phone / tablet) with an iOS or Android operating system and Bluetooth Low Energy.",
+        "The internet connection is lost or there is no communication to the Speaksee cloud.",
+        "This feature will allow you to share the current ongoing transcription within someone in real time, through a QR code. They can also follow in their own language.",
+        "In this way you can create an account with Google, Apple, or another email address.",
+        "Note: We NEVER collect your transcripts or audio.",
+        "Also has ISO 27001 certificate.",
+        "NOTE: this feature is not fully supported yet for all setups.",
+        "Connection via Bluetooth will allow you to only connect the Microphone Kit to your smart device and directly use the internet connection of your smart device.",
+        "The Microphone Kit transcribes what people are saying in real time, even in groups and when there is background noise.",
+        "The Microphone Kit has been tested by SGS laboratories to meet the safety standards of the EU, UK, US, Canada and Australia.",
+        "Adding an additional Microphone Kit"
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "What are the costs for the Speaksee Microphone Kit?",
+      "publisher": "Speaksee",
+      "url": "https://support.speak-see.com/en/what-are-the-costs-for-the-speaksee-microphone-kit",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "The cost of the Speaksee Microphone Kit can vary depending on your specific needs and situation and the number of microphones you require.",
+        "To receive an exact price, you can request a quote by filling out the form via the following link: Request a Quote."
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "On which devices can I view the transcriptions?",
+      "publisher": "Speaksee",
+      "url": "https://support.speak-see.com/en/on-which-devices-can-i-view-the-transcriptions",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Please note: The Speaksee Microphone Kit cannot be connected directly to a laptop or desktop.",
+        "The Speaksee Microphone Kit works with iOS and Android devices through the Speaksee app.",
+        "Additionally, you can share transcripts from the app via a link or QR code, allowing others to follow along on a smartphone, tablet, PC, or laptop."
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "In which languages can I use the Microphone Kit?",
+      "publisher": "Speaksee",
+      "url": "https://support.speak-see.com/en/in-which-languages-can-i-use-the-microphone-kit",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Not all languages have been validated yet.",
+        "Validated languages (tested by native speakers):",
+        "Non-validated languages (not tested by native speakers):",
+        "11 validated entries (Dutch, English (United Kingdom), English (United States), French, German, German (Swiss), Italian, Portuguese, Spanish, Danish, Ukrainian) and 44 non-validated entries, counted 2026-10-28"
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "How can I download the Speaksee app and create an account?",
+      "publisher": "Speaksee",
+      "url": "https://support.speak-see.com/en/how-can-i-download-the-speaksee-app-and-create-an-account",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "The Speaksee mobile app can only be used with the Speaksee Microphone Kit and it is not a standalone app.",
+        "After creating your account, you'll receive a confirmation email to verify your account."
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "Can I Save Transcripts from the Microphone Kit?",
+      "publisher": "Speaksee",
+      "url": "https://support.speak-see.com/en/can-i-save-transcripts-from-the-microphone-kit",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "After ending a conversation, you will have the option to save the transcript to your device.",
+        "iPhone or iPad: The conversation is saved as a file and can be found in the Files app, usually in the Downloads folder."
+      ]
+    },
+    {
+      "id": "s9",
+      "title": "How do you improve the performance of the Microphone Kit with a custom dictionary?",
+      "publisher": "Speaksee",
+      "url": "https://support.speak-see.com/en/how-do-you-improve-the-performance-of-the-microphone-kit-with-a-custom-dictionary",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Did you know that you can optimize the performance of the Microphone Kit by adding your own words to the dictionary?",
+        "Simply submit your word list using the form below—it only takes a few minutes and enhances the overall transcription quality."
+      ]
+    },
+    {
+      "id": "s10",
+      "title": "How can I adjust legibility in the Speaksee app?",
+      "publisher": "Speaksee",
+      "url": "https://support.speak-see.com/en/how-can-i-adjust-legibility-in-the-speaksee-app",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Theme: choose from Color, Glow, Minimal, or Teletext.",
+        "Dark mode: enable a darker background.",
+        "Text size: adjust the size of the text to improve readability.",
+        "Under Participants, you can change the name, color, and language assigned to each microphone."
+      ]
+    },
+    {
+      "id": "s11",
+      "title": "Can I use the Microphone Kit for phone calls?",
+      "publisher": "Speaksee",
+      "url": "https://support.speak-see.com/en/can-i-use-the-microphone-kit-for-phone-calls",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "No, the Speaksee Microphone Kit is not designed for making direct phone calls."
+      ]
+    },
+    {
+      "id": "s12",
+      "title": "What is the difference between Speaksee AutoCaption and the Speaksee Microphones?",
+      "publisher": "Speaksee",
+      "url": "https://support.speak-see.com/en/what-is-the-difference-between-speaksee-autocaption-and-the-speaksee-microphones",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "AutoCaption is software that captions the audio output of your Windows tablet or computer in real-time.",
+        "The device consists of a base station and three microphones, together with a software subscription it can be used to transcribe any physical (group) conversation in real-time."
+      ]
+    },
+    {
+      "id": "s13",
+      "title": "On which devices can I use AutoCaption?",
+      "publisher": "Speaksee",
+      "url": "https://support.speak-see.com/en/on-which-devices-can-i-use-autocaption",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Windows OS: Compatible with versions 7 to 11.",
+        "Mobile devices: AutoCaption is currently not available for Android or iOS."
+      ]
+    },
+    {
+      "id": "s14",
+      "title": "Is the Speaksee Microphone Kit covered?",
+      "publisher": "Speaksee",
+      "url": "https://support.speak-see.com/en/are-speaksee-products-eligible-for-funding",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Many of our UK customers have successfully used Access-to-Work funding to purchase the Speaksee Microphone Kit.",
+        "The DSA covers the cost of assistive technology, such as the Speaksee Microphone Kit, to support students in their studies."
+      ]
+    },
+    {
+      "id": "s15",
+      "title": "Is the full cost reimbursed for private use through Dutch health insurance?",
+      "publisher": "Speaksee",
+      "url": "https://support.speak-see.com/en/is-the-full-cost-reimbursed-for-private-use-through-dutch-health-insurance",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "If your health insurer has a contract with Speaksee, the full cost is usually reimbursed.",
+        "Note that your deductible (eigen risico) still applies, meaning you may need to cover part of the cost until your deductible is met."
+      ]
+    },
+    {
+      "id": "s16",
+      "title": "What is the duration of the Speaksee license for private use through Dutch health insurance?",
+      "publisher": "Speaksee",
+      "url": "https://support.speak-see.com/en/what-is-the-duration-of-the-speaksee-license-for-private-use-through-dutch-health-insurance",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "The Speaksee license for private use has a standard duration of five years."
+      ]
+    },
+    {
+      "id": "s17",
+      "title": "What is the duration of the Speaksee license for work use through the UWV in the Netherlands?",
+      "publisher": "Speaksee",
+      "url": "https://support.speak-see.com/en/what-is-the-duration-of-the-speaksee-license-for-work-use-through-the-uwv-in-the-netherlands",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "The Speaksee license has a standard duration of one year.",
+        "The license is automatically renewed as long as:"
+      ]
+    },
+    {
+      "id": "s18",
+      "title": "Do other parties have access to the data that is collected?",
+      "publisher": "Speaksee",
+      "url": "https://support.speak-see.com/en/do-other-parties-have-access-to-the-data-that-is-collected",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Data processed through our software is used solely to provide the speech-to-text functionality and is never used for training or learning purposes.",
+        "Audio files and transcripts are transmitted using end-to-end encryption and are deleted from our servers immediately after processing.",
+        "All data is processed in full compliance with the GDPR and remains within the European Economic Area."
+      ]
+    },
+    {
+      "id": "s19",
+      "title": "Privacy Policy (last updated 12-01-2025)",
+      "publisher": "Speaksee",
+      "url": "https://speak-see.com/pages/privacy-policy",
+      "type": "privacy",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Transcripts that are generated are deleted from our temporary storage within 5 minutes after usage of the service.",
+        "Currently, we use several third-party processors for the purpose of providing our speech-to-text services as well as providing storage and communication of information",
+        "Speaksee and Speaksee servers are located in the European Union which means that your information will in principle be processed within the European Economic Area"
+      ]
+    },
+    {
+      "id": "s20",
+      "title": "Can I try the Microphone Kit?",
+      "publisher": "Speaksee",
+      "url": "https://support.speak-see.com/en/can-i-try-the-microphone-kit",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "In some cases, it is possible to receive a trial period for the Speaksee Microphone Kit."
+      ]
+    },
+    {
+      "id": "s21",
+      "title": "Can I place the microphones of the Microphone kit on a table?",
+      "publisher": "Speaksee",
+      "url": "https://support.speak-see.com/en/can-i-place-the-microphones-of-the-microphone-kit-on-a-table",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "No, the microphones of the Speaksee Microphone Kit are designed to be worn by individual speakers."
+      ]
+    },
+    {
+      "id": "s22",
+      "title": "How can I use the audio jack of the Microphone Kit?",
+      "publisher": "Speaksee",
+      "url": "https://support.speak-see.com/en/how-can-i-use-the-audio-jack-of-the-microphone-kit",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "The Microphone Kit has a 3.5 mm audio port on the base station that allows you to subtitle audio from devices such as a smartphone or television.",
+        "Note: this feature is currently not fully supported."
+      ]
+    },
+    {
+      "id": "s23",
+      "title": "How much data does the Speaksee Microphone Kit use?",
+      "publisher": "Speaksee",
+      "url": "https://support.speak-see.com/en/how-much-data-does-the-speaksee-microphone-kit-use",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "The Speaksee Microphone Kit consumes approximately 40MB per hour, similar to popular streaming apps like Spotify."
+      ]
+    },
+    {
+      "id": "s24",
+      "title": "Speaksee on the App Store",
+      "publisher": "Apple App Store (seller: SpeakSee B.V.)",
+      "url": "https://apps.apple.com/us/app/speaksee/id1488460003",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Note: The Speaksee app works exclusively with the Speaksee Microphone Kit.",
+        "Capture conversations with up to six speakers at the same time, making Speaksee ideal for meetings and social gatherings.",
+        "Your conversations are protected with end-to-end encryption, ensuring your data stays private, secure and not accessible for other parties.",
+        "Free · Designed for iPad. Not verified for macOS.",
+        "Requires iOS 16.6 or later.",
+        "Requires iPadOS 16.6 or later.",
+        "Requires macOS 13.5 or later and a Mac with Apple M1 chip or later."
+      ]
+    },
+    {
+      "id": "s25",
+      "title": "Speaksee - Apps on Google Play",
+      "publisher": "Google Play (developer: Speaksee B.V.)",
+      "url": "https://play.google.com/store/apps/details?id=speaksee.onboarding",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Note: The Speaksee app works exclusively with the Speaksee Microphone Kit.",
+        "Up to six speakers",
+        "In many countries, Speaksee may also be eligible for funding or reimbursement through local accessibility support programmes.",
+        "Sep 18, 2026"
+      ]
+    },
+    {
+      "id": "s26",
+      "title": "Speaksee Subscription License for Speaksee Microphone Kit",
+      "publisher": "Special Needs Computers (third-party reseller, Canada)",
+      "url": "https://specialneedscomputers.ca/products/speaksee-software-license-for-speaksee-microphone-kit",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Speaksee Annual Subscription (includes software, service and updates)",
+        "SpeakSee One-Year Subscription - $2,800.00"
+      ]
+    },
+    {
+      "id": "s27",
+      "title": "Speaksee Microphone Kit - Accessible Group Conversations for Deaf or Hard of Hearing",
+      "publisher": "Special Needs Computers (third-party reseller, Canada)",
+      "url": "https://specialneedscomputers.ca/products/speaksee-microphone-kit-accessible-group-conversations-for-deaf-or-hard-of-hearing",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Kit 1: Three (3) Microphones - $2,029.99",
+        "Kit 2: Six (6) Microphones - $2,999.99",
+        "Speaksee Annual Subscription (includes software, service and updates)"
+      ]
+    },
+    {
+      "id": "s29",
+      "title": "What are the costs for AutoCaption?",
+      "publisher": "Speaksee",
+      "url": "https://support.speak-see.com/en/what-are-the-costs-for-autocaption",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "To receive an exact price of AutoCaption, you can request a quote by filling out the form via the following link: Request a Quote."
+      ]
+    }
+  ],
+  "notes": "Speaksee publishes no prices on its own site or help centre (quote only). The CAD prices come from a third-party Canadian reseller, Special Needs Computers (s26, s27; kit prices re-checked in its product JSON: 2029.99 and 2999.99 CAD); the reseller lists the kit as a one-time purchase plus an annual subscription. EUR figures seen only in a search snippet of a European assistive-technology database record (not opened, behind a Cloudflare challenge) are not used. UK reseller pages blocked access. Conflicts: group size is 'up to 9 participants' on the website vs 'up to six speakers' in both store listings; translation is '40+ languages' on the product page vs '80+' in the August 2026 manual; transcripts are deleted 'immediately after processing' (help centre) vs 'within 5 minutes after usage' (privacy policy dated 12-01-2025). The manual lists 'Wi-Fi internet connection' as a requirement but also says Bluetooth mode uses the phone's internet. The language list (re-counted 2026-10-28) has 55 entries including regional variants and near-duplicates (Zulu and IsiZulu, Bahasa Melayu and Malaysian). On the App Store the app is an iPad app that can run on Apple silicon Macs, marked 'Not verified for macOS'. speak-see.com and the reseller rate-limited direct downloads, so s1, s2, s19, s26 and s27 were read through WebFetch; help-centre, manual and store quotes were checked against the raw page text. Speaksee also sells Soundshape 1 Pro, an event captioning product, not covered here."
+}

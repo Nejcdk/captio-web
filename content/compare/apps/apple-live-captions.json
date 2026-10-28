@@ -1,0 +1,577 @@
+{
+  "slug": "apple-live-captions",
+  "name": "Live Captions",
+  "shortName": "Apple Live Captions",
+  "developer": "Apple",
+  "developerCountry": "United States",
+  "website": "https://www.apple.com/accessibility/hearing/",
+  "appStoreUrl": null,
+  "googlePlayUrl": null,
+  "category": "built-in-captions",
+  "oneLine": "A free accessibility feature built into iPhone, iPad and Mac that captions people nearby, calls and any app's audio on the device.",
+  "facts": {
+    "platforms": {
+      "status": "yes",
+      "text": "iPhone, iPad, Mac, Vision Pro",
+      "detail": "Built into iOS, iPadOS and macOS, and it works on Apple Vision Pro. During Live Listen, the iPhone's captions can also be read on a paired Apple Watch.",
+      "sources": [
+        "s1",
+        "s5",
+        "s6",
+        "s8",
+        "s11"
+      ]
+    },
+    "deviceRequirements": {
+      "status": "yes",
+      "text": "iPhone 11+, A12 iPad, Apple silicon Mac",
+      "detail": "Apple lists iPhone 11 and later, iPad models with A12 Bionic and later, and Macs with Apple silicon. Captions during Live Listen need iOS 26 or later.",
+      "sources": [
+        "s8",
+        "s1",
+        "s6",
+        "s10"
+      ]
+    },
+    "roomCaptions": {
+      "status": "yes",
+      "text": "Yes, with the Microphone option",
+      "detail": "Tap Live Captions, then Microphone, to caption an in-person conversation. On a Mac you switch the window to the microphone.",
+      "sources": [
+        "s1",
+        "s5",
+        "s6",
+        "s8"
+      ]
+    },
+    "groupConversations": {
+      "status": "partial",
+      "text": "Captions the room, no speaker labels",
+      "detail": "In the room, one device captions the conversation around you, but Apple describes no labels for who is talking. In FaceTime group calls, captions show who's speaking.",
+      "sources": [
+        "s4",
+        "s12",
+        "s8",
+        "s10"
+      ]
+    },
+    "languages": {
+      "status": "yes",
+      "text": "8 languages (18 variants)",
+      "detail": "Cantonese, English, French, German, Japanese, Korean, Mandarin Chinese and Spanish, in 18 language and region variants. It launched in 2022 as a beta in US and Canadian English only.",
+      "sources": [
+        "s2",
+        "s3",
+        "s12",
+        "s13",
+        "s14"
+      ]
+    },
+    "offline": {
+      "status": "yes",
+      "text": "Yes, processed on the device",
+      "detail": "Apple says audio is processed on the device. A Mac downloads language data the first time, which needs internet; Apple's iPhone guide doesn't mention internet at all.",
+      "sources": [
+        "s6",
+        "s8",
+        "s12"
+      ]
+    },
+    "speakerLabels": {
+      "status": "partial",
+      "text": "FaceTime calls only",
+      "detail": "In FaceTime calls the captions show who's speaking. Apple describes no speaker labels for in-person or other-app captions.",
+      "sources": [
+        "s4",
+        "s12"
+      ]
+    },
+    "translation": {
+      "status": "partial",
+      "text": "Separate Live Translation feature",
+      "detail": "Live Captions only transcribes. Apple's separate Live Translation (Apple Intelligence, iPhone 15 Pro or later) translates Phone and FaceTime calls, and with supported AirPods translates in-person speech into your ears.",
+      "sources": [
+        "s4",
+        "s16",
+        "s2",
+        "s17"
+      ]
+    },
+    "saveTranscripts": {
+      "status": "partial",
+      "text": "No history; call captions up to 1 hour",
+      "detail": "There is no transcript library; you can copy or clear the captions. With Keep Call Captions set to 1 Hour, call captions stay for up to an hour, and everyone on the call hears a short notice.",
+      "sources": [
+        "s1",
+        "s5"
+      ]
+    },
+    "export": {
+      "status": "partial",
+      "text": "Copy text or take a screenshot",
+      "detail": "Copy Captions pastes the text into another app such as Notes or Messages, and you can take a screenshot or screen recording. No file export is described.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "fileUpload": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Apple's guides list two sources only: the microphone and audio playing on the device. Transcribing a saved file isn't described.",
+      "sources": [
+        "s1",
+        "s6"
+      ]
+    },
+    "summaries": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Apple's Live Captions guide lists pause, copy, clear, move and full screen; no summaries are described.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "customWords": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Apple's Live Captions pages describe no way to add your own words or names.",
+      "sources": [
+        "s1",
+        "s7"
+      ]
+    },
+    "display": {
+      "status": "yes",
+      "text": "Text size and colour; more on Mac",
+      "detail": "On iPhone and iPad you set the text, size and colour, and can move the window or make it full screen. A Mac adds font and background colour. Not adjustable inside FaceTime.",
+      "sources": [
+        "s1",
+        "s5",
+        "s7",
+        "s8"
+      ]
+    },
+    "soundAlerts": {
+      "status": "partial",
+      "text": "Separate Sound Recognition feature",
+      "detail": "Not part of Live Captions. The iPhone's built-in Sound Recognition alerts you to 15 sounds, such as a doorbell or siren, and Name Recognition when someone says your name.",
+      "sources": [
+        "s8",
+        "s9"
+      ]
+    },
+    "phoneCalls": {
+      "status": "yes",
+      "text": "Yes, Phone and FaceTime calls",
+      "detail": "Live Captions can be turned on in Phone and FaceTime calls; the Keep Call Captions setting controls how long call captions stay.",
+      "sources": [
+        "s8",
+        "s1"
+      ]
+    },
+    "videoCalls": {
+      "status": "yes",
+      "text": "FaceTime, and other apps' audio",
+      "detail": "FaceTime has its own Live Captions button. Live Captions also follows spoken audio in other apps, and Apple's 2022 announcement named video-conferencing apps.",
+      "sources": [
+        "s4",
+        "s1",
+        "s12"
+      ]
+    },
+    "mediaOnDevice": {
+      "status": "yes",
+      "text": "Yes, audio from any app",
+      "detail": "iPhone Audio captions spoken audio in apps such as Podcasts while it plays; on a Mac you switch to the computer's audio.",
+      "sources": [
+        "s1",
+        "s6"
+      ]
+    },
+    "humanCaptioners": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Apple's pages describe only automatic captions made on the device.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "signLanguage": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Live Captions has no sign language feature. In May 2026 Apple announced a way for interpreter apps to add a human sign language interpreter to FaceTime video calls.",
+      "sources": [
+        "s15"
+      ]
+    },
+    "privacy": {
+      "status": "yes",
+      "text": "On the device",
+      "detail": "Apple says audio is processed and captions are made on the device, which it says keeps your information private. Apple's pages say nothing about using caption audio for training.",
+      "sources": [
+        "s6",
+        "s8",
+        "s12"
+      ]
+    },
+    "account": {
+      "status": "no",
+      "text": "No sign-up; on in Settings",
+      "detail": "Turned on in Settings, Accessibility, Live Captions. Only Live Listen captions on an Apple Watch need the iPhone and watch on the same Apple Account.",
+      "sources": [
+        "s1",
+        "s11"
+      ]
+    },
+    "availability": {
+      "status": "partial",
+      "text": "Supported languages and regions only",
+      "detail": "Apple says Live Captions isn't available in all languages, countries or regions; its feature availability pages list where it is.",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    "freePlan": {
+      "status": "yes",
+      "text": "Free, built into the device",
+      "detail": "A built-in accessibility feature of iPhone, iPad and Mac; there is nothing to buy or download from the App Store.",
+      "sources": [
+        "s9",
+        "s1"
+      ]
+    },
+    "price": {
+      "status": "no",
+      "text": "No paid plan",
+      "detail": "Included with the device's operating system.",
+      "sources": [
+        "s9"
+      ]
+    },
+    "accessibilityFunding": {
+      "status": "no",
+      "text": "Not needed: built in",
+      "detail": "No programme is needed; it comes with the operating system.",
+      "sources": [
+        "s9"
+      ]
+    }
+  },
+  "strengths": [
+    {
+      "text": "Built into every iPhone 11 or later, iPad with A12 Bionic or later and Apple silicon Mac, with nothing to install.",
+      "sources": [
+        "s8",
+        "s9"
+      ]
+    },
+    {
+      "text": "Audio is processed on the device, not sent to a server.",
+      "sources": [
+        "s6",
+        "s8"
+      ]
+    },
+    {
+      "text": "One feature captions in-person speech, Phone and FaceTime calls, and audio from any app.",
+      "sources": [
+        "s1",
+        "s8"
+      ]
+    },
+    {
+      "text": "Works with Live Listen, a paired Apple Watch and braille displays, and shows who's speaking in FaceTime.",
+      "sources": [
+        "s8",
+        "s11",
+        "s4"
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "text": "Live captions in 8 languages (18 language and region variants).",
+      "sources": [
+        "s2"
+      ]
+    },
+    {
+      "text": "No transcript history: text can be copied or screenshotted, and call captions are kept for at most 1 hour.",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "text": "Speaker names only in FaceTime calls, not for in-person conversations.",
+      "sources": [
+        "s4"
+      ]
+    },
+    {
+      "text": "Apple says accuracy may vary and shouldn't be relied upon in high-risk or emergency situations, and Live Captions uses additional battery.",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Get live captions of spoken audio on iPhone (iPhone User Guide, iOS 27)",
+      "publisher": "Apple",
+      "url": "https://support.apple.com/guide/iphone/get-live-captions-of-spoken-audio-iphe0990f7bb/ios",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "With Live Captions on iPhone, you can get a real-time transcription of spoken audio. Use Live Captions to more easily follow the audio in any app, such as FaceTime or Podcasts, as well as live conversations around you.",
+        "Note: Live Captions is available on iPhone 11 or later. Live Captions isn’t available in all languages, countries, or regions. The accuracy of Live Captions may vary and shouldn’t be relied upon in high-risk or emergency situations.",
+        "Tap Appearance to customize the text, size, and color of the captions.",
+        "1 Hour: Select 1 Hour to save captions from calls for up to one hour after a call ends.",
+        "1 Minute: Select 1 Minute to save captions from calls for up to one minute during a call. All call captions are cleared after the call ends.",
+        "Note: When you choose 1 Hour, all call participants hear a brief audio announcement (“This call is being transcribed”) at the start of the call.",
+        "Transcribe an in-person conversation: Tap Live Captions, then tap Microphone.",
+        "Transcribe iPhone audio: Tap Live Captions, then tap iPhone Audio.",
+        "then tap Copy Captions. You can paste your transcriptions in another app—like in Notes or Messages.",
+        "Take a screenshot or screen recording of the transcription: Position the Live Captions window, then take a screenshot or take a screen recording.",
+        "Tap Accessibility, tap Live Captions, then turn on Live Captions."
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "iOS and iPadOS Feature Availability: Accessibility: Live Captions",
+      "publisher": "Apple",
+      "url": "https://www.apple.com/ios/feature-availability/#accessibility-live-captions",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Accessibility: Live Captions Cantonese (China mainland) Cantonese (Hong Kong) English (Australia) English (Canada) English (India) English (Singapore) English (United Kingdom) English (United States) French (Canada) French (France) German (Germany) Japanese Korean Mandarin Chinese (China mainland) Mandarin Chinese (Taiwan) Spanish (Mexico) Spanish (Spain) Spanish (United States)",
+        "Apple Intelligence: Live Translations in Phone and FaceTime Chinese (Mandarin, Simplified) - not available in China mainland Chinese (Mandarin, Traditional) English (United Kingdom) English (United States) French (France) German (Germany) Italian Italian (Switzerland) Japanese Korean Portuguese (Brazil) Spanish (Spain)"
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "macOS Feature Availability: Accessibility: Live Captions",
+      "publisher": "Apple",
+      "url": "https://www.apple.com/macos/feature-availability/#accessibility-live-captions",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Accessibility: Live Captions Cantonese (China mainland) Cantonese (Hong Kong) English (Australia) English (Canada) English (India) English (Singapore) English (United Kingdom) English (United States) French (Canada) French (France) German (Germany) Japanese Korean Mandarin Chinese (China mainland) Mandarin Chinese (Taiwan) Spanish (Mexico) Spanish (Spain) Spanish (United States)"
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Use Live Captions and Live Translation in FaceTime on iPhone",
+      "publisher": "Apple",
+      "url": "https://support.apple.com/guide/iphone/use-live-captions-and-live-translation-iphb41156356/ios",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "A Live Captions window appears, showing the automatically transcribed dialogue of the call near the top of the screen and who’s speaking.",
+        "Important: The accuracy of Live Captions may vary and shouldn’t be relied upon in high-risk or emergency situations. Live Captions uses additional battery.",
+        "Note: Live Translation in FaceTime is available for one-on-one calls in English (UK, U.S.), French (France), German, Italian, Portuguese (Brazil), Spanish (Spain), Chinese (Simplified), Chinese (Traditional), Japanese, and Korean.",
+        "Note: Apple Intelligence on iOS 27 or later is available on an Apple Intelligence-enabled iPhone 15 Pro, iPhone 15 Pro Max, or iPhone 16 model or later."
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Get live captions of spoken audio on iPad (iPad User Guide)",
+      "publisher": "Apple",
+      "url": "https://support.apple.com/guide/ipad/get-live-captions-of-spoken-audio-ipad0bbca12e/ipados",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Note: Live Captions is available on supported models. Live Captions isn’t available in all languages, countries or regions.",
+        "Transcribe an in-person conversation: Tap Live Captions, then tap Microphone.",
+        "Make the Live Captions window longer or shorter: Drag the bottom of the Live Captions window up or down."
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Get captions of spoken and computer audio on Mac (Mac User Guide)",
+      "publisher": "Apple",
+      "url": "https://support.apple.com/guide/mac-help/get-captions-of-spoken-and-computer-audio-mchldd11f4fd/mac",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Live Captions gives you a real-time transcription of spoken audio—allowing you to easily follow the audio in any app, such as FaceTime or Podcasts, as well as live conversations around you. Audio is processed on device.",
+        "Note: Live Captions is available only on Mac computers with Apple silicon and is not available in all languages, countries, or regions;",
+        "Note: The first time you turn on Live Captions, language data is downloaded to your Mac. You must be connected to the internet.",
+        "When you use Live Captions, you can switch between captioning the audio coming out of your Mac and the sound picked up by the computer’s microphone (such as during an in-person conversation).",
+        "In the Live Captions window on your Mac, click the Type to Speak field, enter what you want to say, then press the Return key."
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Change Live Captions settings for accessibility on Mac",
+      "publisher": "Apple",
+      "url": "https://support.apple.com/guide/mac-help/change-live-captions-settings-accessibility-mchla0b36db8/mac",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Font family Choose a font for Live Captions.",
+        "Font size Choose a text size for Live Captions.",
+        "Font color Choose a font color for Live Captions.",
+        "Background color Choose a background color for the Live Captions window."
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "Accessibility: Hearing",
+      "publisher": "Apple",
+      "url": "https://www.apple.com/accessibility/hearing/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Live Captions offer real-time, on-device-generated transcriptions of conversations so you can follow along securely on your device.",
+        "You can turn on Live Captions in your Phone calls, FaceTime calls, or any web content you’re browsing. They can even capture and caption live, in-person speech through the microphone in your device.",
+        "You can customize the Live Captions window, adjusting the size, placement, fonts, and colors to suit your needs.",
+        "Live Captions also work with Apple Vision Pro, so you can follow along with spoken dialogue in live conversations on FaceTime as well as audio from apps systemwide.",
+        "During Live Listen sessions, you can view Live Captions on a paired Apple Watch or on a nearby iPhone or iPad signed in to the same Apple Account.",
+        "Live Captions are available on iPhone 11 and later, iPad models with A12 Bionic and later, paired Apple Watch models, and Mac computers with Apple silicon. Live Captions are available for calls and media.",
+        "Customization options are not available for Live Captions in FaceTime.",
+        "This feature recognizes 15 different sounds — or you can train your device to listen for your name, as well as electronic sounds that are unique to your environment, like the beeping of appliances in your kitchen, specific types of alarms, or doorbells.",
+        "If you use a braille display with VoiceOver, you can use Live Captions to get real-time captioning of spoken audio."
+      ]
+    },
+    {
+      "id": "s9",
+      "title": "Accessibility features for hearing on iPhone",
+      "publisher": "Apple",
+      "url": "https://support.apple.com/guide/iphone/overview-accessibility-features-hearing-iphb210be03a/ios",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "iPhone comes with built-in tools designed to help you hear better—or stay connected without hearing a sound.",
+        "With Live Captions, get a transcription of the audio from any app and from live conversations around you.",
+        "With Sound Recognition, have iPhone listen for sounds—such as a doorbell or siren—and alert you when it recognizes them.",
+        "With Name Recognition, have iPhone listen for your name and alert you when it recognizes it."
+      ]
+    },
+    {
+      "id": "s10",
+      "title": "Use iPhone as a remote microphone with Live Listen",
+      "publisher": "Apple",
+      "url": "https://support.apple.com/guide/iphone/use-live-listen-iph8bf9386f5/ios",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "To use Live Captions with Live Listen, you need an iPhone with iOS 26 or later.",
+        "View Live Captions: View captions of the Live Listen session in real time.",
+        "As your iPhone picks up audio, the text also appears on the other device in real time so you can follow along on either device."
+      ]
+    },
+    {
+      "id": "s11",
+      "title": "Control Live Listen on iPhone from Apple Watch",
+      "publisher": "Apple",
+      "url": "https://support.apple.com/guide/watch/control-live-listen-apd4f5b634f3/watchos",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "With Live Captions generated on your iPhone, you can also view the transcription of the conversation directly on your wrist.",
+        "Note: Your iPhone and Apple Watch must be signed in to the same Apple Account."
+      ]
+    },
+    {
+      "id": "s12",
+      "title": "Apple previews innovative accessibility features (May 17, 2022)",
+      "publisher": "Apple Newsroom",
+      "url": "https://www.apple.com/newsroom/2022/05/apple-previews-innovative-accessibility-features/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Live Captions in FaceTime attribute auto-transcribed dialogue to call participants, so group video calls become even more convenient for users with hearing disabilities.",
+        "And because Live Captions are generated on device, user information stays private and secure.",
+        "Live Captions will be available in beta later this year in English (US, Canada) on iPhone 11 and later, iPad models with A12 Bionic and later, and Macs with Apple silicon.",
+        "Users can follow along more easily with any audio content — whether they are on a phone or FaceTime call, using a video conferencing or social media app, streaming media content, or having a conversation with someone next to them."
+      ]
+    },
+    {
+      "id": "s13",
+      "title": "Get live captions in real time on iPhone (iPhone User Guide, iOS 16 version)",
+      "publisher": "Apple",
+      "url": "https://support.apple.com/guide/iphone/iphe0990f7bb/16.0/ios/16.0",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Live Captions is available on iPhone 11 and later when the primary language is set to English (U.S.) or English (Canada).",
+        "Go to Settings > Accessibility > Live Captions (Beta)."
+      ]
+    },
+    {
+      "id": "s14",
+      "title": "Get live captions of spoken audio on iPhone (iPhone User Guide, iOS 18 version)",
+      "publisher": "Apple",
+      "url": "https://support.apple.com/guide/iphone/iphe0990f7bb/18.0/ios/18.0",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Note: Live Captions is available on iPhone 11 and later when the primary language is set to English (U.S.) or English (Canada)."
+      ]
+    },
+    {
+      "id": "s15",
+      "title": "Apple unveils new accessibility features, and updates powered by Apple Intelligence (May 19, 2026)",
+      "publisher": "Apple Newsroom",
+      "url": "https://www.apple.com/newsroom/2026/05/apple-unveils-new-accessibility-features-and-updates-with-apple-intelligence/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "CUPERTINO, CALIFORNIA Apple today previewed a suite of accessibility updates",
+        "For sign language interpretation app developers, a new API supports users in adding a human interpreter to an ongoing FaceTime video call.",
+        "With on-device speech recognition, subtitles are generated privately and appear automatically for uncaptioned videos on iPhone, iPad, Mac, Apple TV, and Apple Vision Pro."
+      ]
+    },
+    {
+      "id": "s16",
+      "title": "Use Live Translation on iPhone",
+      "publisher": "Apple",
+      "url": "https://support.apple.com/en-us/123720",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "During an active call, tap the More button, then tap Live Translation.",
+        "Live Translation runs entirely on device to keep your messages private.",
+        "Use Live Translation with the Messages app",
+        "Use Live Translation with the Phone app",
+        "As both callers speak, translated live captions appear on the screen.",
+        "You can also learn how to use Live Translation on iPad, Mac, and with AirPods paired to an Apple Intelligence-enabled iPhone."
+      ]
+    },
+    {
+      "id": "s17",
+      "title": "Use Live Translation with your AirPods",
+      "publisher": "Apple",
+      "url": "https://support.apple.com/en-us/123185",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Bridge language barriers in person—while traveling or navigating in a foreign country—with AirPods.",
+        "AirPods now help you understand what someone is saying in your preferred language.",
+        "Live Translation with AirPods works on AirPods Max 2, AirPods 4 with Active Noise Cancellation, AirPods 5 (both models), and AirPods Pro 2 and later with the latest firmware when paired with an Apple Intelligence–enabled iPhone running iOS 26 and later.",
+        "Once the language models are downloaded, all processing takes place on your iPhone where all of your conversation data remains private."
+      ]
+    }
+  ],
+  "notes": "The iPhone guide's default version is iOS 27 (version picker: iOS 27, 26, 18, 17, 16). History from Apple's own older guide versions: iOS 16 and 17 labelled it '(beta)' and English (U.S./Canada) only; the iOS 18 guide dropped 'beta' but still said English (U.S./Canada); the iOS 26 and 27 guides drop the language line and point to the feature availability page, which today lists 18 variants of 8 languages (a WebFetch summary miscounted this as 17; counted by hand from the page HTML). Apple doesn't say which iOS version brought each language. Offline: 'yes' rests on Apple saying audio is processed/generated on device (Mac guide, apple.com/accessibility/hearing); no Apple page literally says 'works without internet' for iPhone, and the Mac needs internet once to download language data. fileUpload, summaries, customWords and humanCaptioners are 'not_stated' because Apple's pages simply don't mention them (its guide lists the sources and actions, none of these). Related but separate Apple features, not counted as Live Captions: Sound Recognition (15 sounds), Name Recognition (50+ languages), Live Listen (mic to AirPods/hearing aids, with Live Captions from iOS 26), Live Translation (Apple Intelligence), Type to Speak on Mac, and 'generated subtitles' for uncaptioned videos announced May 2026 (footnote on apple.com/accessibility/hearing: English in Canada and the U.S.; announced as coming later this year, shipping not verified). The 2026 sign language interpreter API for FaceTime was announced May 19, 2026 as coming later this year; I did not verify that it has shipped. 2026-10-28 cleanup: re-opened the iOS 27 iPhone guide (no mention of internet, Wi-Fi or downloads; its table of contents now lists 'Add a sign language interpreter to a FaceTime call', not verified further) and Apple's Live Translation pages (s16, new s17: in-person Live Translation with supported AirPods, iPhone 15 Pro or later, iOS 26+)."
+}

@@ -1,0 +1,446 @@
+{
+  "slug": "android-live-caption",
+  "name": "Live Caption",
+  "shortName": "Android Live Caption",
+  "developer": "Google",
+  "developerCountry": "United States",
+  "website": "https://support.google.com/accessibility/android/answer/9350862",
+  "appStoreUrl": null,
+  "googlePlayUrl": null,
+  "category": "built-in-captions",
+  "oneLine": "Android's built-in feature that captions speech in audio playing on the phone, such as videos, podcasts and calls, processed on the device.",
+  "facts": {
+    "platforms": {
+      "status": "yes",
+      "text": "Android (Pixel and selected phones)",
+      "detail": "Part of Android on Pixel and selected Android phones; it is not an app you download. Chrome has its own live captions for media with audio.",
+      "sources": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    },
+    "deviceRequirements": {
+      "status": "yes",
+      "text": "Pixel 2+ and selected Android phones",
+      "detail": "Which phones besides Pixel have it is up to the phone maker. The first use needs Wi-Fi to download a language. Translation and typed replies in calls need a Pixel 6 or later; Expressive Captions need Android 14 or later.",
+      "sources": [
+        "c1"
+      ]
+    },
+    "roomCaptions": {
+      "status": "no",
+      "text": "No, only audio playing on the phone",
+      "detail": "Live Caption captions speech in audio playing on the phone. For people talking around you, Google makes a separate app, Live Transcribe, which uses the microphone.",
+      "sources": [
+        "c1",
+        "c8",
+        "c6",
+        "c9"
+      ]
+    },
+    "groupConversations": {
+      "status": "no",
+      "text": "No, not the room or group calls",
+      "detail": "It doesn't caption the room, and Google says it isn't intended for calls with more than one other person.",
+      "sources": [
+        "c1"
+      ]
+    },
+    "languages": {
+      "status": "yes",
+      "text": "Up to 15 languages (Pixel 6+)",
+      "detail": "15 on Pixel 6 and later and selected phones (English, French, German, Italian, Japanese, Hindi, Spanish, Traditional and Simplified Chinese, Turkish, Polish, Portuguese, Korean, Russian, Vietnamese), the first 7 on Pixel 4 and 5, English on Pixel 2 and 3. Expressive Captions are English only.",
+      "sources": [
+        "c1"
+      ]
+    },
+    "offline": {
+      "status": "yes",
+      "text": "Yes, fully on the device",
+      "detail": "Google says Live Caption uses no mobile data or internet connection; only the first language pack download needs Wi-Fi.",
+      "sources": [
+        "c1",
+        "c2",
+        "c5"
+      ]
+    },
+    "speakerLabels": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Google's help page describes no labels for who is speaking.",
+      "sources": [
+        "c1"
+      ]
+    },
+    "translation": {
+      "status": "partial",
+      "text": "Translates captions, Pixel 6+ only",
+      "detail": "Captions of what plays on the phone can be translated with Live Translate, which Google says is only on Pixel 6 and later. The Live Caption page doesn't list translation languages.",
+      "sources": [
+        "c1",
+        "c7"
+      ]
+    },
+    "saveTranscripts": {
+      "status": "no",
+      "text": "No, captions are never stored",
+      "detail": "Google says all captions are processed on the phone and never stored.",
+      "sources": [
+        "c1"
+      ]
+    },
+    "export": {
+      "status": "no",
+      "text": "No (nothing is saved)",
+      "detail": "Because captions are never stored, there is no transcript to export.",
+      "sources": [
+        "c1"
+      ]
+    },
+    "fileUpload": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "There is no upload. A video or audio file captions while it plays on the phone, like any other audio.",
+      "sources": [
+        "c1",
+        "c3"
+      ]
+    },
+    "summaries": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No summaries or notes are described.",
+      "sources": [
+        "c1"
+      ]
+    },
+    "customWords": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Google's help page describes no way to add your own words.",
+      "sources": [
+        "c1"
+      ]
+    },
+    "display": {
+      "status": "yes",
+      "text": "Caption size, style and colour",
+      "detail": "Set in Caption preferences; the caption box can be moved and expanded from 2 to 12 lines. Expressive Captions add capitals and long words to show tone.",
+      "sources": [
+        "c1"
+      ]
+    },
+    "soundAlerts": {
+      "status": "partial",
+      "text": "Sound labels in captions only",
+      "detail": "Captions can show labels such as laughter, applause and music (10 more on Android 15 and later). They describe audio playing on the phone; there are no alerts for sounds in the room.",
+      "sources": [
+        "c1",
+        "c2"
+      ]
+    },
+    "phoneCalls": {
+      "status": "yes",
+      "text": "Yes, calls with one other person",
+      "detail": "Works on calls on Pixel and selected Android phones; Google asks you to make sure the other person knows captions are on. On Pixel 6 and later you can type replies instead of speaking.",
+      "sources": [
+        "c1",
+        "c3",
+        "c2"
+      ]
+    },
+    "videoCalls": {
+      "status": "yes",
+      "text": "Yes, some apps unsupported",
+      "detail": "Video calls are supported, but Google says captions might be unavailable for some media and calling apps.",
+      "sources": [
+        "c1"
+      ]
+    },
+    "mediaOnDevice": {
+      "status": "yes",
+      "text": "Videos, podcasts, voice messages",
+      "detail": "Its main job: one tap captions speech in audio playing on the phone, even your own videos. It doesn't work on music.",
+      "sources": [
+        "c1",
+        "c3",
+        "c5"
+      ]
+    },
+    "humanCaptioners": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No human captioning option is described.",
+      "sources": [
+        "c1"
+      ]
+    },
+    "signLanguage": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Live Caption's help page describes no sign language features.",
+      "sources": [
+        "c1"
+      ]
+    },
+    "privacy": {
+      "status": "yes",
+      "text": "On the device, never sent to Google",
+      "detail": "Google says all audio and captions are processed on the device and are never stored or sent to Google.",
+      "sources": [
+        "c1",
+        "c5"
+      ]
+    },
+    "account": {
+      "status": "no",
+      "text": "No sign-up; on in Settings",
+      "detail": "Switched on from the volume controls or in Settings; Google describes no account step.",
+      "sources": [
+        "c1",
+        "c6",
+        "c4"
+      ]
+    },
+    "availability": {
+      "status": "partial",
+      "text": "Pixel and selected Android phones",
+      "detail": "Pixel and selected phones such as Samsung Galaxy (Accessibility, Hearing enhancements); Samsung says it only works for select devices. Expressive Captions cover US, Australian, Canadian and UK English.",
+      "sources": [
+        "c1",
+        "c6",
+        "c2"
+      ]
+    },
+    "freePlan": {
+      "status": "yes",
+      "text": "Free, built into Android",
+      "detail": "Part of the phone's operating system, switched on in Settings or from the volume controls; there is nothing to buy.",
+      "sources": [
+        "c1",
+        "c2"
+      ]
+    },
+    "price": {
+      "status": "no",
+      "text": "No paid plan",
+      "detail": "Part of Android; Google lists no price or subscription.",
+      "sources": [
+        "c1",
+        "c2"
+      ]
+    },
+    "accessibilityFunding": {
+      "status": "no",
+      "text": "Not needed: built in",
+      "detail": "No programme is needed; it comes with the phone.",
+      "sources": [
+        "c1"
+      ]
+    }
+  },
+  "strengths": [
+    {
+      "text": "Runs fully on the device with no internet; audio and captions are never stored or sent to Google.",
+      "sources": [
+        "c1"
+      ]
+    },
+    {
+      "text": "Captions speech in almost anything playing on the phone, including videos, podcasts, audio messages, phone calls and video calls.",
+      "sources": [
+        "c1",
+        "c3"
+      ]
+    },
+    {
+      "text": "On Pixel 6+ you can type replies during a call that are read aloud, so calls work without speaking.",
+      "sources": [
+        "c1"
+      ]
+    },
+    {
+      "text": "Expressive Captions show tone with capitals, lengthened words and sound labels like laughter or applause.",
+      "sources": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "text": "Does not caption people talking in the room: it only captions audio playing on the phone.",
+      "sources": [
+        "c1"
+      ]
+    },
+    {
+      "text": "Up to 15 languages, fewer on older Pixels; Expressive Captions are English only and translation needs a Pixel 6+.",
+      "sources": [
+        "c1"
+      ]
+    },
+    {
+      "text": "Captions are never saved, so there is no history or export.",
+      "sources": [
+        "c1"
+      ]
+    },
+    {
+      "text": "Not intended for calls with more than one other person, and some media and calling apps aren't supported.",
+      "sources": [
+        "c1"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "c1",
+      "title": "Live Caption: Caption media & calls on your device - Android Accessibility Help",
+      "publisher": "Google",
+      "url": "https://support.google.com/accessibility/android/answer/9350862",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "With a single tap, Live Caption automatically captions speech on your device. You can use it on media like videos, podcasts, phone calls, video calls, and audio messages.",
+        "If there’s no “Live Caption,” please check with your phone manufacturer.",
+        "When you use “Live Caption” for the first time, you need to connect to Wi-Fi to download the default language pack.",
+        "Pixel 2 and Pixel 3 series in English.",
+        "Pixel 4 and Pixel 5 series and selected Android phones in English, French, German, Italian, Japanese, Hindi, and Spanish.",
+        "Pixel 6+ and selected Android phones in Android U+ support English, French, German, Italian, Japanese, Hindi, Spanish, Traditional Chinese, Simplified Chinese, Turkish, Polish, Portuguese, Korean, Russian, and Vietnamese.",
+        "When \"Live Caption\" is on, captions appear for speech in audio playing on your device.",
+        "All captions are processed locally, never stored, and never leave your device.",
+        "Important: On Android 14 and above devices that have “Live Caption” on, Expressive captions are available in English (US). While English (Australia, Canada, and UK) are available on Android 15 and above devices.",
+        "On Android 15 and above, 10 additional sound labels are now available like clears throat, whistling, whispering, etc.",
+        "To expand the caption box: Double-tap to change from 2 lines up to 12 lines.",
+        "To translate captions, you will need to have Live Translate feature enabled. This feature is only available on Pixel 6+ devices.",
+        "Tip: To change the caption size, style, and color, go to Caption preferences.",
+        "Hide or show profanity.",
+        "You can get captions with calls on Pixel and selected Android phones.",
+        "Important: Available on Pixel 6 and Pixel 6 Pro above.",
+        "Use this feature to make calls without speech. You get captions of what the other person says and you can type in responses in real time.",
+        "Live Caption isn't intended for calls with more than one other person.",
+        "Make sure that the other person knows captions are on.",
+        "Captions might be unavailable for some media and calling apps.",
+        "Live Caption works best on audio with clear speech and low background noise.",
+        "Live Caption doesn't work on music.",
+        "Live Caption doesn't use mobile data or an internet connection. All audio and captions are processed on the device and are never stored or sent to Google.",
+        "Live Caption turns off automatically in battery saver mode."
+      ]
+    },
+    {
+      "id": "c2",
+      "title": "Android’s Expressive Captions uses AI to bring emotion to captions (Dec 5, 2024)",
+      "publisher": "Google (The Keyword blog)",
+      "url": "https://blog.google/products-and-platforms/platforms/android/google-android-expressive-captions/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Expressive Captions uses AI on your Android device to communicate things like tone, volume, environmental cues and human noises.",
+        "Expressive Captions are part of Live Caption, so they’re built into the operating system and available across apps on your phone.",
+        "When enabled, captions will occur in real time and on device, so you can use them even while you’re on airplane mode.",
+        "Starting today, Expressive Captions will be available in the U.S. in English on any Android device running Android 14 and above that has Live Caption.",
+        "Not currently compatible with calls."
+      ]
+    },
+    {
+      "id": "c3",
+      "title": "Android Audio Accessibility Tools & Features",
+      "publisher": "Google (android.com)",
+      "url": "https://www.android.com/accessibility/live-transcribe/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "With a single tap, automatically caption videos, podcasts, and audio messages—even your home movies.",
+        "On Pixel, you can even caption your calls.",
+        "You can automatically generate real-time captions for media with audio on Chrome.",
+        "Join any conversation with Live Transcribe's instant speech-to-text captions."
+      ]
+    },
+    {
+      "id": "c4",
+      "title": "Expressive Captions: Google's Next Generation Caption",
+      "publisher": "Google (android.com)",
+      "url": "https://www.android.com/accessibility/expressive-captions/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "AI-powered captions that capture the personality and duration of what’s being said",
+        "Under the volume controls, tap the Live Caption icon, then Done."
+      ]
+    },
+    {
+      "id": "c5",
+      "title": "On-Device Captioning with Live Caption (Oct 29, 2019)",
+      "publisher": "Google Research",
+      "url": "https://research.google/blog/on-device-captioning-with-live-caption/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Recently we introduced Live Caption, a new Android feature that automatically captions media playing on your phone.",
+        "The captioning happens in real time, completely on-device, without using network resources, thus preserving privacy and lowering latency."
+      ]
+    },
+    {
+      "id": "c6",
+      "title": "Use Live Caption and Live Transcribe on your Galaxy device",
+      "publisher": "Samsung (US)",
+      "url": "https://www.samsung.com/us/support/answer/ANS10003704/",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Live Caption automatically detects audio streams from your phone once it's on.",
+        "Tap Live Caption, and then tap Use Live Caption to turn it on.",
+        "But since Live Caption only works for select devices, you might experience limited functionality.",
+        "You also might be unable to change captions to your preferred language.",
+        "The Live Transcribe feature uses the external speaker of your phone to provide a transcript of conversations taking place around the phone."
+      ]
+    },
+    {
+      "id": "c7",
+      "title": "Translate speech & text on your Pixel phone or Pixel Tablet - Pixel Phone Help",
+      "publisher": "Google",
+      "url": "https://support.google.com/pixelphone/answer/11209263",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "You can switch caption languages on media like videos, podcasts, phone calls, video calls, and audio messages.",
+        "Important: This feature is available on Pixel 6 and later."
+      ]
+    },
+    {
+      "id": "c8",
+      "title": "Use Live Transcribe - Android Accessibility Help",
+      "publisher": "Google",
+      "url": "https://support.google.com/accessibility/android/answer/9158064",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "You can use Live Transcribe on your Android device to capture speech and sound and see them as text on your screen.",
+        "Tip: Hold your device microphone near the person or sound that you want to capture."
+      ]
+    },
+    {
+      "id": "c9",
+      "title": "Use sign-to-text to translate American Sign Language (ASL) into English text in real time - Gboard Help",
+      "publisher": "Google",
+      "url": "https://support.google.com/gboard/answer/17468449",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Meanwhile, you can use Live Transcribe for spontaneous face-to-face chats like ordering a coffee or talking with colleagues."
+      ]
+    }
+  ],
+  "notes": "Live Caption vs Live Transcribe (often confused): Live Caption is a built-in Android setting that captions speech in audio PLAYING ON THE PHONE (videos, podcasts, audio messages, phone and video calls), fully on the device. Live Transcribe is a separate Google app that captions speech AROUND YOU through the phone's microphone (in-person conversations) and includes Sound Notifications. There is no Google Play or App Store listing: Live Caption is part of Android. Google's help page says 'Android U+' for the 15-language tier (U is Android 14); no minimum Android version for Live Caption itself is stated. Google's 2019 research post says it launched on Pixel 4 and Pixel 4 XL. Which non-Pixel phones have it is not listed; Google says to check with the phone maker, and Samsung says it only works for select devices and the preferred language may not be available. Expressive Captions: the Dec 2024 post says 'Not currently compatible with calls' and U.S. English only; the current help page adds English (Australia, Canada, UK) on Android 15+ and does not repeat the calls note, so whether it now works on calls is unclear. Caption translation needs Live Translate (Pixel 6+); the languages it can translate into are not listed on the Live Caption page. Chrome (desktop) and Android XR have their own Live Caption features; not covered here. developerCountry: Google LLC's address is Mountain View, CA, United States (from Google's Play developer details). 2026-10-28 cleanup: price, account and accessibilityFunding set to 'no' because it is a built-in Android setting with nothing to buy and no sign-up step (c1, c2, c4)."
+}

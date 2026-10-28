@@ -1,0 +1,747 @@
+{
+  "slug": "ava",
+  "name": "Ava: Transcribe Voice to Text",
+  "shortName": "Ava",
+  "developer": "Transcense, Inc.",
+  "developerCountry": "United States (San Francisco, California)",
+  "website": "https://www.ava.me/",
+  "appStoreUrl": "https://apps.apple.com/us/app/ava-transcribe-voice-to-text/id1030067058",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=me.ava.android",
+  "category": "in-person-captions",
+  "oneLine": "Live captioning app for deaf and hard of hearing people, with group conversations, offline mode, sound alerts and optional human captioners.",
+  "facts": {
+    "platforms": {
+      "status": "yes",
+      "text": "iPhone, iPad, Android, web, Windows, Mac",
+      "detail": "Mobile apps for iOS and Android, a web app and a desktop app for Windows and Mac.",
+      "sources": [
+        "s2",
+        "s4",
+        "s13"
+      ]
+    },
+    "deviceRequirements": {
+      "status": "yes",
+      "text": "iOS 18.6+ (App Store), Android 10+",
+      "detail": "The current App Store version (October 2026) needs iOS 18.6 or later; Ava's help centre still lists iOS 15.0. Android needs version 10 or later.",
+      "sources": [
+        "s4",
+        "s13"
+      ]
+    },
+    "roomCaptions": {
+      "status": "yes",
+      "text": "Yes, from the phone's microphone",
+      "detail": "Ava uses the phone's microphone to caption the person you are talking to, and captions start when you open the app.",
+      "sources": [
+        "s6",
+        "s23",
+        "s13"
+      ]
+    },
+    "groupConversations": {
+      "status": "yes",
+      "text": "Up to 25 people, each on their own phone",
+      "detail": "Others join by QR code or link from their own phone or computer, with no app or account needed, and each phone works as a microphone.",
+      "sources": [
+        "s5",
+        "s6",
+        "s24"
+      ]
+    },
+    "languages": {
+      "status": "yes",
+      "text": "23+ languages",
+      "detail": "Ava's help centre (June 2026) lists 23 languages, with 19 more on some devices. Its website says 20+ in one place and 50+ in another, and the App Store says 16. Captioning in a language other than your phone's language needs a paid plan.",
+      "sources": [
+        "s3",
+        "s2",
+        "s1",
+        "s13"
+      ]
+    },
+    "offline": {
+      "status": "partial",
+      "text": "Mobile only, one person, default language",
+      "detail": "The mobile apps have an offline mode with somewhat lower accuracy. It works only one to one (solo mode), only in your default language, and not on web or desktop.",
+      "sources": [
+        "s7",
+        "s1",
+        "s14"
+      ]
+    },
+    "speakerLabels": {
+      "status": "yes",
+      "text": "Per joined phone; 1-phone SpeakerID in beta",
+      "detail": "In a group conversation each person who joins from their own phone appears in their own colour with their name. SpeakerID on a single phone (up to 5 speakers) is a Premium-only beta you must be given access to.",
+      "sources": [
+        "s5",
+        "s6",
+        "s8",
+        "s1"
+      ]
+    },
+    "translation": {
+      "status": "yes",
+      "text": "Live, paid plans (Premium captions)",
+      "detail": "You pick a spoken language and a language to translate into during a conversation; it needs Premium captions, which come with paid plans. Ava's translation article lists 23 languages, but its languages article lists only a few pairs, such as English with French or Spanish.",
+      "sources": [
+        "s9",
+        "s3",
+        "s22",
+        "s1"
+      ]
+    },
+    "saveTranscripts": {
+      "status": "yes",
+      "text": "Text only, if you choose to save",
+      "detail": "Turn on automatic saving or save at the end; an unsaved conversation can't be recovered. Transcripts are text, with no audio. One help article says they stay on the phone, while the Google Play listing says they are saved in the cloud.",
+      "sources": [
+        "s10",
+        "s11",
+        "s6",
+        "s14"
+      ]
+    },
+    "export": {
+      "status": "yes",
+      "text": "Email, text, copy; Export on a computer",
+      "detail": "On mobile you share a transcript by email or text message, or copy it. On a computer there is an Export button; the file formats are not listed.",
+      "sources": [
+        "s10"
+      ]
+    },
+    "fileUpload": {
+      "status": "partial",
+      "text": "Paid human service (Scribe Transcriptions)",
+      "detail": "Ava sells Scribe Transcriptions: you upload files and get transcripts made with AI and professional editors. No price is published, and no self-service file transcription in the app is described.",
+      "sources": [
+        "s27"
+      ]
+    },
+    "summaries": {
+      "status": "partial",
+      "text": "Smart Recap: 5 free on iOS",
+      "detail": "Smart Recap turns a saved transcript into key points. A July 2024 help article says everyone gets 5 free on iOS, Pro gets unlimited, and it is not on Android yet.",
+      "sources": [
+        "s20",
+        "s2"
+      ]
+    },
+    "customWords": {
+      "status": "partial",
+      "text": "Vocabulary Boost, Pro plan",
+      "detail": "Vocabulary Boost adds names, acronyms and jargon. The help centre says it comes with Ava Pro, and the pricing table shows the custom dictionary only for Pro and Enterprise.",
+      "sources": [
+        "s21",
+        "s1"
+      ]
+    },
+    "display": {
+      "status": "yes",
+      "text": "Text size, dark mode, floating captions",
+      "detail": "Change the text size with a slider and turn dark mode on or off. Mobile has picture-in-picture captions; desktop has an always-on-top captions bar.",
+      "sources": [
+        "s22",
+        "s18",
+        "s1"
+      ]
+    },
+    "soundAlerts": {
+      "status": "yes",
+      "text": "Yes, in the mobile apps",
+      "detail": "Sound Detection shows a small alert during a conversation when it hears sounds such as a doorbell, an alarm clock, a baby or a phone ringing. Only in the mobile apps.",
+      "sources": [
+        "s17"
+      ]
+    },
+    "phoneCalls": {
+      "status": "no",
+      "text": "No",
+      "detail": "Ava's help centre lists phone calls, FaceTime and WhatsApp as things its mobile floating captions cannot caption.",
+      "sources": [
+        "s18"
+      ]
+    },
+    "videoCalls": {
+      "status": "yes",
+      "text": "Ava Connect: Zoom, Teams, Meet",
+      "detail": "Ava Connect joins a Zoom, Google Meet or Teams call from the link and captions it with speaker names. Web and desktop only, listed for Canada, France and the US, and part of the Pro plan on the pricing page.",
+      "sources": [
+        "s19",
+        "s2",
+        "s1"
+      ]
+    },
+    "mediaOnDevice": {
+      "status": "yes",
+      "text": "Floating captions (via the mic)",
+      "detail": "On mobile, floating captions caption YouTube, TikTok or Spotify by listening through the microphone with the volume up. The desktop app shows captions over videos, calls and podcasts.",
+      "sources": [
+        "s28",
+        "s18",
+        "s14"
+      ]
+    },
+    "humanCaptioners": {
+      "status": "yes",
+      "text": "Ava Scribe, paid plans plus Scribe time",
+      "detail": "A human captioner corrects the AI captions live, for about 99% accuracy (Ava's figure). It needs a Pro, Welcome or Enterprise plan plus bought Scribe time, booked 6 hours ahead for guaranteed service on weekdays.",
+      "sources": [
+        "s15",
+        "s1"
+      ]
+    },
+    "signLanguage": {
+      "status": "yes",
+      "text": "Remote ASL interpreters, per minute",
+      "detail": "Credentialed ASL interpreters (and Spanish Sign Language) over video in the desktop and mobile apps, billed per minute with no minimum. No price is published.",
+      "sources": [
+        "s16"
+      ]
+    },
+    "privacy": {
+      "status": "yes",
+      "text": "Cloud; trains on audio if you consent",
+      "detail": "Speech is processed on Ava's servers, not the phone. Its privacy policy (January 2025) says it trains its speech recognition on audio segments and their text if you consent; an older help article (July 2024) says it uses voice data to learn how people sound, not what they said.",
+      "sources": [
+        "s11",
+        "s12",
+        "s13"
+      ]
+    },
+    "account": {
+      "status": "yes",
+      "text": "Needed to host; guests join without one",
+      "detail": "You sign up with email, Google, Facebook, Apple or a phone number. People who join your group conversation by QR code or link need no account or app.",
+      "sources": [
+        "s26",
+        "s5"
+      ]
+    },
+    "availability": {
+      "status": "partial",
+      "text": "24 countries listed",
+      "detail": "The help centre lists 24 countries, including the US, UK, Canada, Australia and much of Western Europe and Latin America. Ava Connect is listed only for Canada, France and the US.",
+      "sources": [
+        "s3",
+        "s19"
+      ]
+    },
+    "freePlan": {
+      "status": "yes",
+      "text": "Unlimited basic captions, 40-min sessions",
+      "detail": "The pricing page and App Store describe free basic captions in sessions of up to 40 minutes that you can restart. An older answer on the pricing page still mentions 5 free hours a month. It is not an ADA-compliant plan.",
+      "sources": [
+        "s1",
+        "s13"
+      ]
+    },
+    "price": {
+      "status": "yes",
+      "text": "Community US$14.99/month or US$119.99/year",
+      "detail": "Community on the US App Store, October 2026 (the pricing page shows US$9.99 a month billed yearly), with 3 hours a month of Premium captions and extra hours at US$4.99. Pro, Enterprise and event plans have no public price. Paid plans show a 15-day free trial.",
+      "sources": [
+        "s1",
+        "s13",
+        "s25"
+      ]
+    },
+    "accessibilityFunding": {
+      "status": "partial",
+      "text": "Employer or school can sponsor; Ava helps",
+      "detail": "Ava says organizations often sponsor Ava Pro, and it can contact your school or employer for you. A non-profit discount is offered on request. No government programme is stated.",
+      "sources": [
+        "s1",
+        "s25"
+      ]
+    }
+  },
+  "strengths": [
+    {
+      "text": "Group conversations let up to 25 people join from their own phone by QR code or link, without the app, each shown in their own colour.",
+      "sources": [
+        "s5",
+        "s6"
+      ]
+    },
+    {
+      "text": "Human-corrected Scribe captions and remote ASL or Spanish Sign Language interpreters can be added in the same app.",
+      "sources": [
+        "s15",
+        "s16"
+      ]
+    },
+    {
+      "text": "Free basic captions with no monthly limit, an offline mode on mobile, and alerts for sounds like a doorbell or a crying baby.",
+      "sources": [
+        "s13",
+        "s7",
+        "s17"
+      ]
+    },
+    {
+      "text": "Runs on iPhone, Android, web, Windows and Mac, and Ava Connect captions Zoom, Teams and Meet calls with speaker names.",
+      "sources": [
+        "s2",
+        "s19"
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "text": "Free and Community sessions stop at 40 minutes, and Community includes only 3 hours a month of Premium captions.",
+      "sources": [
+        "s1",
+        "s13"
+      ]
+    },
+    {
+      "text": "Captioning in a language other than your phone's language, and translation, need a paid plan with Premium captions.",
+      "sources": [
+        "s3"
+      ]
+    },
+    {
+      "text": "Pro and Enterprise prices are not published, and Scribe time is bought separately.",
+      "sources": [
+        "s1",
+        "s15"
+      ]
+    },
+    {
+      "text": "The current iPhone app needs iOS 18.6 or later, and phone calls, FaceTime and WhatsApp cannot be captioned on mobile.",
+      "sources": [
+        "s13",
+        "s18"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Ava Plans - Always at the Best Price",
+      "publisher": "Ava (Transcense, Inc.)",
+      "url": "https://www.ava.me/pricing",
+      "type": "pricing",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Up to 40-min captioned sessions",
+        "3 hours/mo of Premium captions on any platform",
+        "Premium captions are 90% accurate. After using 3 hours of Premium captions, you will get unlimited Basic captions.",
+        "3-hrs/mo, $4.99/hr beyond",
+        "⚠️ Not an ADA-compliant plan",
+        "Ava Pro is made for you, and organizations often sponsor it.",
+        "Use Ava when you have no or slow internet connection (for mobile only)",
+        "Each speaker in a room is identified by name so the captions are easy to read and conversation easy to follow",
+        "Translate in 20+ languages",
+        "15-day free trial",
+        "Professional Scribe Captions (99%) on demand with 24-hour notice",
+        "Works with any online meeting Zoom, Teams, Meet & others",
+        "Do you offer a non-profit discount? Yes, please send us a message.",
+        "Wait till the end of your 30 day cycle for a new 5 hours credit!"
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Professional & AI-Based Captions for Deaf & HoH | Ava",
+      "publisher": "Ava (Transcense, Inc.)",
+      "url": "https://www.ava.me/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Ava is available across all major platforms including mobile (iOS and Android), web, and desktop (Windows and Mac)",
+        "Ava supports 50+ languages including Spanish, French, German, Mandarin, Japanese, and more. Both transcription and translation services are available.",
+        "Voice to text in 20+ languages",
+        "Ava can store your transcripts and generate an accurate summary of your conversation with just a click of a button.",
+        "Ava Connect integrates with all major video meeting platforms including Zoom, Google Meet, and Microsoft Teams."
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "What Languages and Countries Are Supported by Ava?",
+      "publisher": "Ava Help Center",
+      "url": "https://help.ava.me/en/articles/1215141-what-languages-and-countries-are-supported-by-ava",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "June 29, 2026",
+        "Ava can understand and transcribe more than 23 spoken languages:",
+        "More languages can be available depending on your device",
+        "This feature is only available with Premium Captions (paid plans have variable amounts of Premium Captions)",
+        "This feature is only available to users on a paid plan",
+        "Ava recognized language will be set based on your smartphone language, or by default English if this language isn't supported yet.",
+        "Ava is available to download in the following countries:",
+        "Unfortunately, Ava isn’t available every country yet."
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "What system requirements does Ava have?",
+      "publisher": "Ava Help Center",
+      "url": "https://help.ava.me/en/articles/1215139-what-system-requirements-does-ava-have",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "You'll need an Internet connection (wifi or mobile data) to run Ava.",
+        "Android (Phone/Tablet), version 10.0 and above",
+        "iPhone/iPad - iOS version 15.0 and above",
+        "Ava officially supports macOS and Windows."
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Captioning Group Conversations on Ava",
+      "publisher": "Ava Help Center",
+      "url": "https://help.ava.me/en/articles/2752252-captioning-group-conversations-on-ava",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Learn how to use Ava to follow group conversations with up to 25 participants.",
+        "Near or far, anyone can join on Ava- they don't even need to download the app!",
+        "Send the link to any individual and they can join from their phone or computer - they don't need an Ava Account to join!"
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Using Ava for Casual Conversations (in-person)",
+      "publisher": "Ava Help Center",
+      "url": "https://help.ava.me/en/articles/3157495-using-ava-for-casual-conversations-in-person",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Our engineers have developed a solution that differentiates between the voices of each person and displays each participant in a different color.",
+        "Each phone is then used as a microphone, and transcription is more accurate.",
+        "Conversations on Ava are private, and the written transcripts you keep (if you so choose) are recorded locally directly on your phone.",
+        "Ava can now distinguish different voices on a single device (Paid Feature)"
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Does Ava work with little or no internet connection?",
+      "publisher": "Ava Help Center",
+      "url": "https://help.ava.me/en/articles/3101130-does-ava-work-with-little-or-no-internet-connection",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Ava has an offline mode for when you don't have cellular service or an internet connection on your mobile device.",
+        "This only works in solo mode",
+        "There will be a slightly depreciated accuracy",
+        "Offline mode works only for your default language, you cannot caption or translate in other languages.",
+        "This is not available for Ava Web or Ava Desktop"
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "SpeakerID for Live Captioning on Mobile [Beta]",
+      "publisher": "Ava Help Center",
+      "url": "https://help.ava.me/en/articles/9715516-speakerid-for-live-captioning-on-mobile-beta",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "SpeakerID supports up to 5 speakers at a time",
+        "SpeakerID is a Premium-only feature.",
+        "SpeakerID is currently in Beta and you must be given access to see it in your Ava Conversation."
+      ]
+    },
+    {
+      "id": "s9",
+      "title": "How to translate a conversation with Ava",
+      "publisher": "Ava Help Center",
+      "url": "https://help.ava.me/en/articles/4236217-how-to-translate-a-conversation-with-ava",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "June 25, 2026",
+        "With the translation function, you can translate your live conversations into over 20 languages.",
+        "Currently, the translation is available in 23 languages:"
+      ]
+    },
+    {
+      "id": "s10",
+      "title": "How to save, delete, edit, or share a transcript on Ava",
+      "publisher": "Ava Help Center",
+      "url": "https://help.ava.me/en/articles/1478156-how-to-save-delete-edit-or-share-a-transcript-on-ava",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "By turning this setting on, your captions will save to transcripts after each conversation.",
+        "If autosave is not activated and you decide not to save a transcript at the end of the Ava session, you will no longer be able to access it.",
+        "You can choose to email, text it to someone, copy it into any other document, or any of the other options listed"
+      ]
+    },
+    {
+      "id": "s11",
+      "title": "How does Ava guarantee privacy and safety of my data?",
+      "publisher": "Ava Help Center",
+      "url": "https://help.ava.me/en/articles/1215157-how-does-ava-guarantee-privacy-and-safety-of-my-data",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "July 12, 2024",
+        "First, we use your voice and conversation data to train Ava.",
+        "When an Ava conversation happens, the audio is fragmented in \"sounds\", and we use these to learn how people sound when they speak. We don't capture or store what the conversation is about.",
+        "To comply with HIPAA standards and regulations, we provide our clients with the option to disable any data storage, as well as any ability to save transcripts.",
+        "If you choose to save the conversation notes, they are text-only (no audio recording), and cannot be used as legal evidence or proof of record because they can be easily modified.",
+        "In order to deliver the highest accuracy possible for your conversations, Ava needs a high computation power that smartphones cannot deliver."
+      ]
+    },
+    {
+      "id": "s12",
+      "title": "Ava Privacy Policy: How We Protect Your Data",
+      "publisher": "Ava (Transcense, Inc.)",
+      "url": "https://www.ava.me/privacy",
+      "type": "privacy",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Last Updated: January 15th, 2025",
+        "train and enhance Ava’s software and technology (e.g. the automatic sound, speech and speaker recognition technology), if you consent to allow Ava to use of segments of raw or partially processed audio and associated transcribed text from your recorded conversations in order to enhance our Services;",
+        "Ava does not sell the data collected as part of the services offered for advertising purposes.",
+        "as long as your Account has not been deactivated, in a maximum limit of 5 years, or as needed to provide you services, comply with our legal obligations, resolve disputes, or enforce our agreements."
+      ]
+    },
+    {
+      "id": "s13",
+      "title": "Ava: Transcribe Voice to Text (App Store, United States)",
+      "publisher": "Apple App Store",
+      "url": "https://apps.apple.com/us/app/ava-transcribe-voice-to-text/id1030067058",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Live caption any conversation with unlimited basic captions per month and up to 40-minute-long sessions.",
+        "Live caption any conversation with 3 hours of premium captions for $9.99 per month paid annually or $14.99 per month paid monthly and up to 40-minute-long sessions. Buy additional hours for $4.99 per hour.",
+        "Live transcribe and translate conversations in 16 languages.",
+        "To use voice to text in group conversations, invite users to download the Ava app with a QR code or link so they can connect with you instantly.",
+        "Requires iOS 18.6 or later.",
+        "Ava Community Plan (Yearly) $119.99",
+        "Version 3.0.5",
+        "Oct 5"
+      ]
+    },
+    {
+      "id": "s14",
+      "title": "Ava: Transcribe Voice to Text (Google Play, United States)",
+      "publisher": "Google Play",
+      "url": "https://play.google.com/store/apps/details?id=me.ava.android",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Your captions are always available, with our without phone service or WiFi - Ava works on airplane mode.",
+        "Transcripts are saved in the cloud",
+        "Never miss out on podcasts or live videos with the ability to have Ava’s captions overlay any app.",
+        "1844 Golden Gate Ave, San Francisco, CA 94115, United States"
+      ]
+    },
+    {
+      "id": "s15",
+      "title": "Discover Ava Scribe",
+      "publisher": "Ava Help Center",
+      "url": "https://help.ava.me/en/articles/2705439-discover-ava-scribe",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Using Ava Scribe means a human transcription specialist (CART) will correct the captions in real-time for a 99% accurate transcript.",
+        "To be able to use Ava Scribe, you will need to be on one of the Ava professional Plans (Pro, Welcome, Enterprise) and need to purchase Scribe time.",
+        "Ava Scribe guarantees you a Scribe service when you book more than 6 hours in advance, and during our service hours: Monday to Friday, 8am to 10pm EST / 5am to 7pm PST",
+        "1 minute of Ava Scribe use = 2 minutes of credit deducted"
+      ]
+    },
+    {
+      "id": "s16",
+      "title": "Remote ASL Interpreting Services",
+      "publisher": "Ava (Transcense, Inc.)",
+      "url": "https://www.ava.me/interpretation",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Connect with a credentialed ASL interpreter over video, in the Ava desktop and mobile apps.",
+        "Spanish Sign Language interpreting is available too.",
+        "Ava charges per minute with no minimums, so a short conversation costs a short conversation, and a meeting that runs long or gets rescheduled brings no surprise charges."
+      ]
+    },
+    {
+      "id": "s17",
+      "title": "Sound Detection for Ava Mobile",
+      "publisher": "Ava Help Center",
+      "url": "https://help.ava.me/en/articles/8470101-sound-detection-for-ava-mobile",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Sound Detection is only available on Ava Mobile",
+        "When you are using Ava on a mobile device, a small alert will appear at the bottom of your screen to let you know if Ava detects sounds around you.",
+        "Door Bell",
+        "Alarm Clock",
+        "Baby Sounds",
+        "Telephone Ringing"
+      ]
+    },
+    {
+      "id": "s18",
+      "title": "Floating Captions on Ava Mobile",
+      "publisher": "Ava Help Center",
+      "url": "https://help.ava.me/en/articles/5718629-floating-captions-on-ava-mobile",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Floating captions are when you have \"picture-in-picture\" through Ava Mobile, allowing you to caption everything from YouTube to TikTok to Spotify",
+        "(Don't forget to turn up the volume so that Ava can \"listen\" to the video's audio)",
+        "Content that cannot be captioned with Floating Captions",
+        "Telephone",
+        "FaceTime",
+        "WhatsApp"
+      ]
+    },
+    {
+      "id": "s19",
+      "title": "Caption Online Meetings with Ava Connect",
+      "publisher": "Ava Help Center",
+      "url": "https://help.ava.me/en/articles/8420992-caption-online-meetings-with-ava-connect",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Ava Connect is only available for Ava Web & Desktop",
+        "Ava Connect seamlessly integrates with your meetings, using cutting-edge technology to identify and visually distinguish each speaker.",
+        "A message will appear in your videoconference chat, visible to everyone, to alert you to Ava's presence, with a link to your transcript.",
+        "Ava Connect is available in the following locations:"
+      ]
+    },
+    {
+      "id": "s20",
+      "title": "Generating a Smart Recap of Your Transcript on iOS",
+      "publisher": "Ava Help Center",
+      "url": "https://help.ava.me/en/articles/8400483-generating-a-smart-recap-of-your-transcript-on-ios",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "July 19, 2024",
+        "On iOS, we give 5 free Smart Recaps for everyone. When you upgrade to Pro and beyond on iOS, you will get unlimited Smart Recaps at your disposal.",
+        "This is not available on Android yet, but once it is we will let you know"
+      ]
+    },
+    {
+      "id": "s21",
+      "title": "How do I boost the transcript accuracy in Ava",
+      "publisher": "Ava Help Center",
+      "url": "https://help.ava.me/en/articles/6342470-how-do-i-boost-the-transcript-accuracy-in-ava",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "This feature is available with the Ava Pro license",
+        "Help Ava to transcribe the proper nouns, acronyms, and specific words your organization uses using Vocabulary Boost!"
+      ]
+    },
+    {
+      "id": "s22",
+      "title": "How to change the settings in a conversation",
+      "publisher": "Ava Help Center",
+      "url": "https://help.ava.me/en/articles/2823128-how-to-change-the-settings-in-a-conversation",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Text Layout: change the text size in your conversation with the sliding text settings",
+        "Dark mode: Allows you to change the background color of your conversation.",
+        "Translate to: Select the language you want to translate the transcription into (Ava Pro feature)."
+      ]
+    },
+    {
+      "id": "s23",
+      "title": "Discover Ava App, one-tap captions for instant conversations",
+      "publisher": "Ava Help Center",
+      "url": "https://help.ava.me/en/articles/1225757-discover-ava-app-one-tap-captions-for-instant-conversations",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Ava is a live captioning app for Deaf and hard-of-hearing people.",
+        "When you open Ava on your mobile device, captions will automatically start.",
+        "Don't forget that Ava needs a stable Internet connection to work"
+      ]
+    },
+    {
+      "id": "s24",
+      "title": "New Android App [beta]",
+      "publisher": "Ava Help Center",
+      "url": "https://help.ava.me/en/articles/9750286-new-android-app-beta",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "While not all features from the previous version will be immediately available, it will offer exciting new features like fast captioning, Ava Show, and more options for text-to-speech.",
+        "This new app is currently in Beta so you will see some bugs"
+      ]
+    },
+    {
+      "id": "s25",
+      "title": "Ava Advocacy",
+      "publisher": "Ava (Transcense, Inc.)",
+      "url": "https://www.ava.me/advocacy",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Know your rights — now put them to work. Ava can contact your school or employer on your behalf.",
+        "Either way, you'll get a free trial of Ava premium captions."
+      ]
+    },
+    {
+      "id": "s26",
+      "title": "How do I create an Ava account",
+      "publisher": "Ava Help Center",
+      "url": "https://help.ava.me/en/articles/3129894-how-do-i-create-an-ava-account",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "There are several ways to create your Ava account. We recommend that you create an Ava account via an e-mail address or via Google/Facebook/Apple."
+      ]
+    },
+    {
+      "id": "s27",
+      "title": "Scribe Transcriptions",
+      "publisher": "Ava (Transcense, Inc.)",
+      "url": "https://www.ava.me/transcriptions",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Experience 99% accurate transcriptions for any type of media.",
+        "Upload your file(s)"
+      ]
+    },
+    {
+      "id": "s28",
+      "title": "Discover Ava's Desktop App",
+      "publisher": "Ava Help Center",
+      "url": "https://help.ava.me/en/articles/4413669-discover-ava-s-desktop-app",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Ava's Desktop App is a versatile captioning box that will overlay your online videos, virtual conference calls, and podcasts!"
+      ]
+    }
+  ],
+  "notes": "Conflicts: (1) Live-caption languages: help centre 'more than 23' (22 named + English, 19 more depending on device), website nav and pricing '20+', homepage FAQ '50+', App Store '16'. (2) Translation: one help article lists 23 languages, the languages article lists only EN<->FR, EN<->ES, EN->TR, FR->DE; App Store '16 languages'. (3) Minimum iOS: help says iOS 15.0+, App Store (v3.0.5, Oct 2026) says iOS 18.6+. (4) Free plan: App Store says unlimited basic captions; a pricing-page FAQ still says 'a new 5 hours credit' every 30 days (looks stale). Pricing table lists 'Speaker identification' in Free, but the SpeakerID help article says single-device SpeakerID is Premium-only beta; group-mode speaker names appear to be free. (5) Community yearly discount: pricing page 'save 20%', help article '33% discount' ($9.99 vs $14.99 is 33%). (6) Transcript storage: one help article says saved transcripts are stored locally on the phone, Google Play says 'saved in the cloud' and another article mentions sync across devices. (7) Privacy: help article says voice/conversation data is used to train Ava; the privacy policy (last updated 15 Jan 2025, footer says Oct 2023) says training on audio + transcribed text happens if you consent. Price currency: the pricing page shows both $ and € symbols with the same figures (14.99 / 9.99), so the € amount likely equals the $ amount for EU visitors; I only saw it from one location. US App Store in-app purchases also list '+1h Ava Premium Credit' at $2.99, $3.99 and $4.99 and '+5h Ava Credit for captions' $4.99. Pro, Enterprise, event plans, Scribe and ASL prices are not public (Scribe rates are said to be in 'Scribe Terms of Use', not opened). Smart Recap and New Android App articles are from 2024 and may be out of date (Android may now have Smart Recap / group conversations). Quotes from pricing cards are given as the rendered text (the HTML splits them across elements). All pages opened 2026-10-28 with WebFetch/curl."
+}

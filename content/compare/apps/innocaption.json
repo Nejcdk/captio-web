@@ -1,0 +1,800 @@
+{
+  "slug": "innocaption",
+  "name": "InnoCaption: Call Captioning",
+  "shortName": "InnoCaption",
+  "developer": "Mezmo Corporation",
+  "developerCountry": "United States (Irvine, California)",
+  "website": "https://www.innocaption.com/",
+  "appStoreUrl": "https://apps.apple.com/us/app/innocaption-call-captioning/id1333988644",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.innocaption.vpdp",
+  "category": "phone-call-captions",
+  "oneLine": "US phone-call caption app with live stenographers or automatic captions, free through the FCC for eligible people with hearing loss.",
+  "facts": {
+    "platforms": {
+      "status": "yes",
+      "text": "iPhone, iPad, Android, web browser",
+      "detail": "The app runs on iOS and Android phones and tablets. InnoCaption Web places captioned calls from a computer browser, or shows the phone's captions on a bigger screen.",
+      "sources": [
+        "s1",
+        "s6",
+        "s7",
+        "s20"
+      ]
+    },
+    "deviceRequirements": {
+      "status": "yes",
+      "text": "iPhone XS+ (iOS 15.1+), Android 8+",
+      "detail": "The help centre says iPhone XS or newer on iOS 15.1 or later, and Android 8.0 or later. It reports compatibility problems with Jitterbug and Motorola phones.",
+      "sources": [
+        "s13",
+        "s6"
+      ]
+    },
+    "roomCaptions": {
+      "status": "no",
+      "text": "No, phone calls only",
+      "detail": "InnoCaption says its FCC-funded service can't be used when both people are in the same room, including a classroom. The same company has separate apps that aren't FCC-funded: InnoScribe (free, on Google Play) and Bridge Live (with the paid Bridge product).",
+      "sources": [
+        "s8",
+        "s36",
+        "s30",
+        "s31"
+      ]
+    },
+    "groupConversations": {
+      "status": "partial",
+      "text": "Conference and 3-way calls only",
+      "detail": "You can join conference call lines and add a third caller. InnoCaption Bot's meeting captions can be shared with other attendees by link; nothing is offered for groups in the same room.",
+      "sources": [
+        "s2",
+        "s22",
+        "s8"
+      ]
+    },
+    "languages": {
+      "status": "yes",
+      "text": "20+ (AI); English (stenographers)",
+      "detail": "AI captions can use a secondary language from a list of over 20, such as Spanish, Chinese, Vietnamese and Arabic. Live stenographers caption English only; the Security page still says AI supports Spanish in addition to English.",
+      "sources": [
+        "s11",
+        "s14",
+        "s5"
+      ]
+    },
+    "offline": {
+      "status": "no",
+      "text": "No, needs internet",
+      "detail": "You need a mobile data or Wi-Fi connection to use InnoCaption.",
+      "sources": [
+        "s1",
+        "s6"
+      ]
+    },
+    "speakerLabels": {
+      "status": "partial",
+      "text": "InnoCaption Bot (online meetings)",
+      "detail": "InnoCaption Bot shows who is speaking in online meetings. On phone calls you can choose to caption only the other person, or your own voice too.",
+      "sources": [
+        "s22",
+        "s2"
+      ]
+    },
+    "translation": {
+      "status": "no",
+      "text": "No",
+      "detail": "InnoCaption says captions match the language spoken on the call and it does not translate speech.",
+      "sources": [
+        "s11"
+      ]
+    },
+    "saveTranscripts": {
+      "status": "yes",
+      "text": "Yes, on device; iCloud/Google backup",
+      "detail": "Call transcripts are kept on your device and can be backed up to your own iCloud or Google account. Without a backup, deleting the app deletes them; they are not stored on InnoCaption's servers.",
+      "sources": [
+        "s16",
+        "s17",
+        "s5"
+      ]
+    },
+    "export": {
+      "status": "yes",
+      "text": ".txt file or email",
+      "detail": "Transcripts can be shared as .txt files or emailed, and a web Transcript Viewer turns a .txt file into a printable conversation.",
+      "sources": [
+        "s16",
+        "s1"
+      ]
+    },
+    "fileUpload": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No InnoCaption page mentions transcribing an uploaded audio or video file.",
+      "sources": []
+    },
+    "summaries": {
+      "status": "yes",
+      "text": "Yes, of saved call transcripts",
+      "detail": "A Summarize button turns a saved call transcript into a summary with key points. The transcript goes to InnoCaption's server temporarily for this.",
+      "sources": [
+        "s18",
+        "s6"
+      ]
+    },
+    "customWords": {
+      "status": "yes",
+      "text": "Yes, custom word list",
+      "detail": "You can add names, places and technical terms to a Custom Word List.",
+      "sources": [
+        "s19",
+        "s6"
+      ]
+    },
+    "display": {
+      "status": "yes",
+      "text": "Colours, fonts (incl. dyslexic), size",
+      "detail": "You can change the caption background colour, font (Default, Serif or Dyslexic), size and bold text, and pinch to zoom during calls.",
+      "sources": [
+        "s24",
+        "s2"
+      ]
+    },
+    "soundAlerts": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No alerts for sounds around you are described. Caption alert vibrates and flashes the screen when captions start again after a long hold.",
+      "sources": [
+        "s35"
+      ]
+    },
+    "phoneCalls": {
+      "status": "yes",
+      "text": "Yes, calls, voicemail, 911",
+      "detail": "InnoCaption captions incoming, outgoing and three-way calls, voicemail and 911 calls. It works with your existing number through call forwarding.",
+      "sources": [
+        "s1",
+        "s6",
+        "s2"
+      ]
+    },
+    "videoCalls": {
+      "status": "partial",
+      "text": "Meetings via web or Bot; no FaceTime",
+      "detail": "InnoCaption Web captions meetings you dial into by phone, or sends InnoCaption Bot (AI captions only) to Teams, Meet, Zoom and Webex. The app can't caption FaceTime; a separate InnoCaption Video app makes captioned video calls.",
+      "sources": [
+        "s21",
+        "s22",
+        "s23",
+        "s4"
+      ]
+    },
+    "mediaOnDevice": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No InnoCaption page describes captioning videos or other media playing on the device.",
+      "sources": []
+    },
+    "humanCaptioners": {
+      "status": "yes",
+      "text": "Yes, live stenographers, English",
+      "detail": "You can switch between live stenographers (CART), available 24/7, and AI captions before or during a call. If every stenographer is busy, an optional AI fallback takes over.",
+      "sources": [
+        "s1",
+        "s3",
+        "s14",
+        "s15",
+        "s32"
+      ]
+    },
+    "signLanguage": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No sign-language feature is described.",
+      "sources": []
+    },
+    "privacy": {
+      "status": "yes",
+      "text": "Calls not kept; not used to train AI",
+      "detail": "Transcripts stay on your device, and call audio and transcripts are not kept after the call, except voicemail. The privacy notice says your data is never used to train AI models; stenographers hear only the other person.",
+      "sources": [
+        "s27",
+        "s25",
+        "s5"
+      ]
+    },
+    "account": {
+      "status": "yes",
+      "text": "Yes; name, DOB, last 4 of SSN",
+      "detail": "Registration asks for your full name, date of birth, last four digits of your SSN, home address and cell number, sent to the FCC's TRS Fund Administrator. You self-certify your hearing loss; no doctor's note is needed.",
+      "sources": [
+        "s26",
+        "s1",
+        "s29"
+      ]
+    },
+    "availability": {
+      "status": "partial",
+      "text": "US only",
+      "detail": "Only for eligible users based in the US with a US cell number, home address and SSN; US residents can keep using it on a trip abroad if they tell support first. The app was not found in the UK, Canada or Mexico App Stores.",
+      "sources": [
+        "s12",
+        "s1",
+        "s34"
+      ]
+    },
+    "freePlan": {
+      "status": "yes",
+      "text": "Free, unlimited, for eligible users",
+      "detail": "Free for eligible US users with hearing loss or a speech disability, with no limit on the number or length of calls.",
+      "sources": [
+        "s1",
+        "s10"
+      ]
+    },
+    "price": {
+      "status": "no",
+      "text": "No paid plans",
+      "detail": "The app is free with no in-app purchases on the App Store. Bridge, the company's separate workplace product, costs from US$300 per device plus US$80 a month (US prices, October 2026).",
+      "sources": [
+        "s6",
+        "s31"
+      ]
+    },
+    "accessibilityFunding": {
+      "status": "yes",
+      "text": "Yes, FCC (IP CTS and IP Relay)",
+      "detail": "The FCC lists Mezmo Corporation (dba InnoCaption) with full IP CTS and conditional IP Relay certification. The service is paid from the federal TRS Fund.",
+      "sources": [
+        "s28",
+        "s9",
+        "s29",
+        "s33"
+      ]
+    }
+  },
+  "strengths": [
+    {
+      "text": "It offers live human stenographers (CART) around the clock alongside AI captions, and you can switch during a call.",
+      "sources": [
+        "s1",
+        "s3",
+        "s14"
+      ]
+    },
+    {
+      "text": "Free and unlimited for eligible US users, with no cap on the number or length of calls.",
+      "sources": [
+        "s1",
+        "s10"
+      ]
+    },
+    {
+      "text": "The privacy notice says call audio and transcripts are not kept after the call and your data is never used to train AI models.",
+      "sources": [
+        "s27",
+        "s25"
+      ]
+    },
+    {
+      "text": "Covers calls on phone, tablet and web browser, including 3-way calls, voicemail, 911 and online meetings through InnoCaption Bot.",
+      "sources": [
+        "s2",
+        "s6",
+        "s22"
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "text": "It can't be used for in-person conversations; InnoCaption says this is against the law for its FCC-funded service.",
+      "sources": [
+        "s8"
+      ]
+    },
+    {
+      "text": "Only for eligible users in the US with a US cell number, residential address and SSN.",
+      "sources": [
+        "s12",
+        "s26"
+      ]
+    },
+    {
+      "text": "Stenographer captions are English only; other languages are AI-only, and nothing is translated.",
+      "sources": [
+        "s14",
+        "s11"
+      ]
+    },
+    {
+      "text": "It needs an internet connection; there is no offline mode.",
+      "sources": [
+        "s1"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Real-time Call Caption App | Android & Iphone | InnoCaption",
+      "publisher": "InnoCaption (Mezmo Corporation)",
+      "url": "https://www.innocaption.com/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Certified by the FCC - Offered at no cost to individuals with hearing loss.",
+        "Highly trained stenographers are available 24/7 to provide accurate captions and additional context during calls.",
+        "Yes! InnoCaption is free for individuals with hearing loss in the United States, with no limit on the number of calls you can make or receive or how long those calls can last.",
+        "Please note that you need a smartphone or tablet with a cellular or Wi-Fi internet connection to use InnoCaption.",
+        "Because our service is funded by the FCC, InnoCaption is only available to users located in the U.S.",
+        "No, you don't need a note from a doctor (or an audiologist) to register. Instead, you'll be asked to sign a self-certification form stating that you have hearing loss and need this service during the registration process.",
+        "When you use the automated speech recognition option for captioning, no call audio is logged for machine learning or any other purpose."
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Features",
+      "publisher": "InnoCaption (Mezmo Corporation)",
+      "url": "https://www.innocaption.com/features",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Our automated captioning supports many languages including Spanish, Chinese, Filipino, Vietnamese, French, Arabic, Korean and more!",
+        "Our caption screen is highly customizable with accessible color schemes and various caption fonts and sizes to ensure you can easily read and understand the text.",
+        "Use our text-to-speech feature to type responses and have them converted to speech automatically during phone calls.",
+        "Use your computer web browser to make and receive calls or to live stream the same captions from your phone onto a bigger screen.",
+        "Add a third caller during a call by selecting from your contact list or dialing a number on the keypad.",
+        "Two-sided captions Choose whether you would like captions of only the other party or your speech as well."
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Stenographers | CART Captioning Jobs",
+      "publisher": "InnoCaption (Mezmo Corporation)",
+      "url": "https://www.innocaption.com/stenographers",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "InnoCaption is proud to be the only call captioning app providing human assisted captioning through stenographers in addition to automated captioning technology.",
+        "We utilize live stenographers (CART) to provide faster and more accurate captioning and let you choose the captioning mode that best meets your needs before or during your calls."
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Who We Are",
+      "publisher": "InnoCaption (Mezmo Corporation)",
+      "url": "https://www.innocaption.com/who-we-are",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "2014 InnoCaption is granted conditional certification by the FCC as the first mobile-focused IP CTS provider.",
+        "2026 InnoCaption Video is launched on iOS and Android, reimagining video calls for the Deaf and Hard of Hearing community."
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Security",
+      "publisher": "InnoCaption (Mezmo Corporation)",
+      "url": "https://www.innocaption.com/security",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Call transcripts are not saved or archived on InnoCaption servers and our team does not have the ability to access transcripts that are saved on a user’s device.",
+        "ASR caption mode supports Spanish in addition to English."
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "InnoCaption: Call Captioning (App Store, US)",
+      "publisher": "Apple App Store",
+      "url": "https://apps.apple.com/us/app/innocaption-call-captioning/id1333988644",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "InnoCaption is available at no cost to eligible users in the United States through funding from the FCC’s Telecommunications Relay Services (TRS) Fund.",
+        "Switch between live stenographers or Automated Speech Recognition (ASR) captions at any time during your call",
+        "Generate concise AI-powered summaries of call transcripts",
+        "Seller: Mezmo Corporation",
+        "Requires iOS 15.1 or later.",
+        "Data Used to Track You: The following data may be used to track you across apps and websites owned by other companies: Identifiers Usage Data"
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "InnoCaption Live Call Captions (Google Play, US)",
+      "publisher": "Google Play",
+      "url": "https://play.google.com/store/apps/details?id=com.innocaption.vpdp",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Whether you prefer AI captions or captions from live stenographers (CART), ensure fast, accurate captions for all your phone conversations.",
+        "Stream phone calls directly to your Bluetooth compatible hearing aids or cochlear implants and get real-time, live transcriptions.",
+        "Mezmo Corporation info@innocaption.com 530 Technology Dr Ste 150 Irvine, CA 92618-1368 United States",
+        "Updated on Oct 15, 2026"
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "In-person captioning",
+      "publisher": "InnoCaption Help Center",
+      "url": "https://help.innocaption.com/en/articles/9236751-in-person-captioning",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "InnoCaption cannot be used for in-person captioning, in other words when both parties are in the same room together.",
+        "It is against the law to use the service as a substitute for hiring an in-person captioner to provide access."
+      ]
+    },
+    {
+      "id": "s9",
+      "title": "InnoCaption eligibility and why it's free",
+      "publisher": "InnoCaption Help Center",
+      "url": "https://help.innocaption.com/en/articles/9236738-innocaption-eligibility-and-why-it-s-free",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "InnoCaption’s service is offered free of charge to eligible individuals who are deaf or hard of hearing and need captions to understand phone conversations.",
+        "Our service is funded and administered by the Federal Communications Commission (FCC) through the Telecommunications Relay Service (TRS) fund and is available to eligible users in the United States."
+      ]
+    },
+    {
+      "id": "s10",
+      "title": "Usage limits for InnoCaption",
+      "publisher": "InnoCaption Help Center",
+      "url": "https://help.innocaption.com/en/articles/9236739-usage-limits-for-innocaption",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "InnoCaption is free of charge to people with hearing or speech disabilities in the United States, with no limits to how much you can use our service."
+      ]
+    },
+    {
+      "id": "s11",
+      "title": "Languages available for captioning",
+      "publisher": "InnoCaption Help Center",
+      "url": "https://help.innocaption.com/en/articles/9236747-languages-available-for-captioning",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "InnoCaption is able to provide captioning in other languages using AI, so you can select a secondary language of your choice. You can choose from over 20 different languages, with more options being added to the app.",
+        "Note: Captions will match the language actually being spoken on the call - InnoCaption does not translate speech from one language into another."
+      ]
+    },
+    {
+      "id": "s12",
+      "title": "InnoCaption availability outside the United States",
+      "publisher": "InnoCaption Help Center",
+      "url": "https://help.innocaption.com/en/articles/9236754-innocaption-availability-outside-the-united-states",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "The service is available to eligible users based in the United States with a US cell phone number, US residential address and social security number.",
+        "If you reside in the United States but plan to travel temporarily outside of the country (for example, vacation or business trip), you may continue to use our service while abroad.",
+        "In order to do so, please inform us of your travel dates and location by reaching out to our support team"
+      ]
+    },
+    {
+      "id": "s13",
+      "title": "Device compatibility with InnoCaption",
+      "publisher": "InnoCaption Help Center",
+      "url": "https://help.innocaption.com/en/articles/9236741-device-compatibility-with-innocaption",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "For iPhones, the InnoCaption app works on iPhone XS and newer devices with iOS 15.1 or higher.",
+        "For Android devices, the InnoCaption app works on devices with Android OS 8.0 or higher.",
+        "we have seen technical compatibility issues with Jitterbug and Motorola phones that we are unable to fully resolve at this time."
+      ]
+    },
+    {
+      "id": "s14",
+      "title": "Caption modes on InnoCaption",
+      "publisher": "InnoCaption Help Center",
+      "url": "https://help.innocaption.com/en/articles/9236784-caption-modes-on-innocaption",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Human (English) with AI fallback enabled - defaults to live stenographer (Human), but enables ASR captioning when a live stenographer is not available"
+      ]
+    },
+    {
+      "id": "s15",
+      "title": "Choose between stenographer and AI caption modes",
+      "publisher": "InnoCaption Help Center",
+      "url": "https://help.innocaption.com/en/articles/9236786-choose-between-stenographer-and-ai-caption-modes",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "This may be caused by poor audio quality, multiple speakers talking at once or speakers with heavy accents or slurred speech.",
+        "Our stenographers are also able to provide captioning of non-verbal sounds on the call, for example if someone is laughing."
+      ]
+    },
+    {
+      "id": "s16",
+      "title": "View and share call transcripts",
+      "publisher": "InnoCaption Help Center",
+      "url": "https://help.innocaption.com/en/articles/9236788-view-and-share-call-transcripts",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "To share your call transcript as a .txt file, follow the steps below.",
+        "InnoCaption offers a Transcript Viewer that converts .txt file transcripts into an easy-to-read transcript on your computer."
+      ]
+    },
+    {
+      "id": "s17",
+      "title": "Back up and restore call transcripts",
+      "publisher": "InnoCaption Help Center",
+      "url": "https://help.innocaption.com/en/articles/9236804-back-up-and-restore-call-transcripts",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "If you do not back up your call logs before deleting the app, all of your call transcripts will be deleted permanently.",
+        "Only you can access, save, and restore your call logs since they are stored on your device or backed up to your personal iCloud or Google account when you enable auto backup."
+      ]
+    },
+    {
+      "id": "s18",
+      "title": "Summarize transcripts",
+      "publisher": "InnoCaption Help Center",
+      "url": "https://help.innocaption.com/en/articles/12069693-summarize-transcripts",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "InnoCaption can help you generate helpful AI summaries of your past call transcripts at the tap of a button.",
+        "When you use this feature, you are sending your transcript temporarily to our server to process the summary."
+      ]
+    },
+    {
+      "id": "s19",
+      "title": "Add words to your Custom word list",
+      "publisher": "InnoCaption Help Center",
+      "url": "https://help.innocaption.com/en/articles/13356804-add-words-to-your-custom-word-list",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "InnoCaption's Custom Word List feature helps improve caption accuracy by learning the words and phrases you use most often."
+      ]
+    },
+    {
+      "id": "s20",
+      "title": "Make calls on your computer with InnoCaption Web",
+      "publisher": "InnoCaption Help Center",
+      "url": "https://help.innocaption.com/en/articles/9236776-make-calls-on-your-computer-with-innocaption-web",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "InnoCaption Web helps make calls far more accessible by allowing you to place a captioned call directly from your browser or live stream the same captions from your phone onto a computer screen."
+      ]
+    },
+    {
+      "id": "s21",
+      "title": "Use InnoCaption for Zoom and other video conference meetings",
+      "publisher": "InnoCaption Help Center",
+      "url": "https://help.innocaption.com/en/articles/9236750-use-innocaption-for-zoom-and-other-video-conference-meetings",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "You can use InnoCaption for any phone call a hearing person would also make, including dialing into video conference meetings.",
+        "However, organizations such as employers, schools or government offices that are required to provide accessibility accommodations cannot use InnoCaption as a substitute for CART captioning."
+      ]
+    },
+    {
+      "id": "s22",
+      "title": "Use InnoCaption Bot",
+      "publisher": "InnoCaption Help Center",
+      "url": "https://help.innocaption.com/en/articles/11140637-use-innocaption-bot",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "The InnoCaption Bot will join your meeting and provide real-time captions with speaker identification",
+        "Note: The host of the meeting may need to admit the bot depending on platform settings. Only AI caption mode is available for the InnoCaption Bot.",
+        "You can send this link to other attendees."
+      ]
+    },
+    {
+      "id": "s23",
+      "title": "Get captions for FaceTime calls",
+      "publisher": "InnoCaption Help Center",
+      "url": "https://help.innocaption.com/en/articles/14501927-get-captions-for-facetime-calls",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "The InnoCaption app cannot caption FaceTime calls.",
+        "Alternatively, you can try our dedicated app for captioned video calls, called InnoCaption Video."
+      ]
+    },
+    {
+      "id": "s24",
+      "title": "Personalize your caption screen and app text size",
+      "publisher": "InnoCaption Help Center",
+      "url": "https://help.innocaption.com/en/articles/9236795-personalize-your-caption-screen-and-app-text-size",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "InnoCaption allows you to personalize the color of the caption screen background, caption font, and size.",
+        "Select your preferred font - Default, Serif, or Dyslexic"
+      ]
+    },
+    {
+      "id": "s25",
+      "title": "Call confidentiality",
+      "publisher": "InnoCaption Help Center",
+      "url": "https://help.innocaption.com/en/articles/9236766-call-confidentiality",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "In addition, our CAs can only listen to and transcribe one side of the conversation, and do not hear what is being said by the InnoCaption user.",
+        "If you choose to move your data to a new device, a temporary encrypted backup file is stored on our server for up to 30 days, but this file is password-protected by you and is inaccessible to InnoCaption."
+      ]
+    },
+    {
+      "id": "s26",
+      "title": "Personal information required for registration",
+      "publisher": "InnoCaption Help Center",
+      "url": "https://help.innocaption.com/en/articles/9236765-personal-information-required-for-registration",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "The personal information we are required to provide to the FCC’s Telecommunications Relay Services (TRS) Fund Administrator for compliance purposes include: full name, date of birth, last four digits of your social security number, residential address and cell phone number for IP CTS"
+      ]
+    },
+    {
+      "id": "s27",
+      "title": "Privacy Notice (Termly embed on innocaption.com/privacy-policy)",
+      "publisher": "InnoCaption (Mezmo Corporation)",
+      "url": "https://www.innocaption.com/privacy-policy",
+      "type": "privacy",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Last updated June 15, 2026",
+        "This Privacy Notice for Mezmo Corporation (doing business as InnoCaption)",
+        "During normal use, transcripts are not stored on InnoCaption servers; with the limited exception of voicemail recordings, which are retained solely to provide you with voicemail functionality, we do not retain any call audio or call transcript data once your call has ended.",
+        "These features do not use machine learning, and your data is never used to train, retrain, or improve AI models."
+      ]
+    },
+    {
+      "id": "s28",
+      "title": "Internet-Based TRS Providers",
+      "publisher": "Federal Communications Commission",
+      "url": "https://www.fcc.gov/general/internet-based-trs-providers",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Mezmo Corporation (dba InnoCaption)",
+        "Full certification to provide Internet Protocol Captioned Telephone Service (IP CTS)",
+        "Conditional certification to provide Internet Protocol Relay Service (IP Relay)",
+        "530 Technology Drive, Ste 150 Irvine, CA 92618"
+      ]
+    },
+    {
+      "id": "s29",
+      "title": "New IP CTS Registration Requirements FAQs",
+      "publisher": "Federal Communications Commission",
+      "url": "https://www.fcc.gov/consumers/guides/new-ip-cts-registration-requirements-faqs",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "The new registration process is designed to ensure that the IP CTS program serves only eligible users.",
+        "you will be asked to confirm that you have a hearing or speech disability that necessitates the use of IP CTS and that you understand that the cost of IP CTS calls is paid for by the TRS Fund."
+      ]
+    },
+    {
+      "id": "s30",
+      "title": "InnoScribe (Google Play, US)",
+      "publisher": "Google Play",
+      "url": "https://play.google.com/store/apps/details?id=com.innocaption.scribe",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Welcome to InnoScribe, the live captioning app created by the InnoCaption team at the request of d/Deaf and hard of hearing community members and healthcare professionals.",
+        "IMPORTANT: While InnoCaption is a certified IP CTS provider, InnoScribe is not an IP CTS service and captioning provided on the InnoScribe app is not funded by the Telecommunications Relay Service Fund.",
+        "Available both online AND offline"
+      ]
+    },
+    {
+      "id": "s31",
+      "title": "Pricing | Professional, Business & Enterprise | Bridge",
+      "publisher": "Mezmo Technologies Inc",
+      "url": "https://www.bridgecaption.com/pricing",
+      "type": "pricing",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Every purchase now includes Bridge Live, our in-person captioning app.",
+        "Device $300 /unit Monthly fee $80"
+      ]
+    },
+    {
+      "id": "s32",
+      "title": "\"All live captioners are busy\" message",
+      "publisher": "InnoCaption Help Center",
+      "url": "https://help.innocaption.com/en/articles/9236878-all-live-captioners-are-busy-message",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "When we are experiencing an unexpected surge in call volumes and all of our live stenographers are assisting other users with their calls, you may see the \"All live captioners are busy\" message."
+      ]
+    },
+    {
+      "id": "s33",
+      "title": "Internet Protocol (IP) Captioned Telephone Service",
+      "publisher": "Federal Communications Commission",
+      "url": "https://www.fcc.gov/consumers/guides/internet-protocol-ip-captioned-telephone-service",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Internet Protocol Captioned Telephone Service (IP CTS) is a form of telecommunications relay service (TRS) that permits an individual who can speak but who has difficulty hearing over the telephone to use a telephone and an Internet Protocol-enabled device via the Internet to simultaneously listen to the other party and read captions of what the other party is saying."
+      ]
+    },
+    {
+      "id": "s34",
+      "title": "Apple iTunes Lookup API, InnoCaption app id 1333988644, UK storefront",
+      "publisher": "Apple",
+      "url": "https://itunes.apple.com/lookup?id=1333988644&country=gb",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "\"resultCount\":0 (same for country=ca and mx; country=us returns the app)"
+      ]
+    },
+    {
+      "id": "s35",
+      "title": "Use Caption alert",
+      "publisher": "InnoCaption Help Center",
+      "url": "https://help.innocaption.com/en/articles/10055583-use-caption-alert",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "When captioning is detected, your device will vibrate and the call screen will flash white to alert you that captioning has started again."
+      ]
+    },
+    {
+      "id": "s36",
+      "title": "Classroom captioning",
+      "publisher": "InnoCaption Help Center",
+      "url": "https://help.innocaption.com/en/articles/9236752-classroom-captioning",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "InnoCaption cannot be used when the teacher and the student are in the same classroom together.",
+        "For classroom captions, we recommend requesting your school to contract directly with a Communication Access Realtime Translation (CART) provider."
+      ]
+    }
+  ],
+  "notes": "InnoCaption is a brand of Mezmo Corporation (Irvine, CA), the App Store seller and Google Play developer. The FCC list shows Mezmo Corporation (dba InnoCaption) with full IP CTS certification, and also Mezmo Corporation (dba CaptionMate), a provider InnoCaption bought in 2024. Language claims conflict: the Security page says AI captions support Spanish in addition to English, while the help centre lists English + 28 secondary options and the Features page says many languages. InnoCaption calls itself the only call captioning app with stenographers; that is the company's own claim and was not checked independently. In-person captions: the InnoCaption app does not do it, but the same team offers InnoScribe (free, Android listing on Google Play, says it is not TRS-funded; no iOS listing found) and Bridge Live (comes with the paid Bridge workplace product from Mezmo Technologies Inc; the Bridge pricing page says 75+ languages, the Bridge Live App Store listing says 50+ online with English offline). These are separate products and are not counted in the facts above. The innocaption.com privacy policy page loads its text through a Termly embed that needs JavaScript; it was read in a browser (Termly policy viewer for UUID 9f39b78f-5477-42df-9d4f-565d4a79f313). The FCC IP CTS consumer guide returned 403 to WebFetch and was read in a browser instead; it describes communications assistants re-voicing captions and does not itself say the service is free. Cost and eligibility rules come from the FCC registration FAQ and InnoCaption's pages. The App Store lookup API returned no result for the UK, Canada and Mexico storefronts; other countries were not checked. /innocaption-bridge (linked from the homepage) returned 404. Cleaned 2026-10-28 for the table: text cells shortened, conflicts explained in detail, download counts removed; added s36 (classroom captioning help article)."
+}

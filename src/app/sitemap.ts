@@ -3,6 +3,7 @@ import { SITE_URL } from "@/lib/schema";
 import { languages } from "@/lib/languages";
 import { useCases } from "@/lib/useCases";
 import { AUTHORS, CATEGORIES, getAllPosts, getPostsByAuthor, getPostsByCategory, type AuthorKey, type CategorySlug } from "@/lib/blog";
+import { getAllComparePages, getCompareHub } from "@/lib/compare";
 
 // Generated from the same data that generates the pages, so it stays in sync
 // automatically. Next serves this at /sitemap.xml.
@@ -78,6 +79,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const post of posts) {
       entries.push({ url: `${SITE_URL}/blog/${post.slug}`, lastModified: post.updated });
     }
+  }
+
+  // Compare: the hub moves with its own date, each page with its frontmatter.
+  entries.push({ url: `${SITE_URL}/compare`, lastModified: getCompareHub().updated });
+  for (const page of getAllComparePages()) {
+    entries.push({ url: `${SITE_URL}/compare/${page.slug}`, lastModified: page.updated });
   }
 
   return entries;

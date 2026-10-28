@@ -2,6 +2,7 @@ import { features } from "@/lib/features";
 import { languages } from "@/lib/languages";
 import { useCases } from "@/lib/useCases";
 import { getAllPosts } from "@/lib/blog";
+import { getAllComparePages } from "@/lib/compare";
 import { FEATURED_ON } from "@/lib/press";
 import { APP_STORE_URL, GOOGLE_PLAY_URL, SITE_URL } from "@/lib/schema";
 
@@ -12,6 +13,7 @@ export const dynamic = "force-static";
 
 export function GET() {
   const posts = getAllPosts();
+  const comparePages = getAllComparePages();
   const lines = [
     "# Captio AI",
     "",
@@ -34,6 +36,10 @@ export function GET() {
     "## Blog",
     `- [All articles](${SITE_URL}/blog): data, comparisons and guides about hearing loss and captions, every number sourced.`,
     ...posts.map((p) => `- [${p.title}](${SITE_URL}/blog/${p.slug}): ${p.answer}`),
+    "",
+    "## Compare",
+    `- [Caption apps compared](${SITE_URL}/compare): caption, translation and phone-call caption apps for deaf and hard of hearing people side by side, every fact linked to the company's own page.`,
+    ...comparePages.map((p) => `- [${p.title}](${SITE_URL}/compare/${p.slug}): ${p.answer}`),
     "",
     "## Coverage",
     `- [${FEATURED_ON.title}](${FEATURED_ON.url}): ${FEATURED_ON.name}, Assistive Technology section, 27 October 2026.`,

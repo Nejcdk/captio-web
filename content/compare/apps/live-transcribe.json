@@ -1,0 +1,522 @@
+{
+  "slug": "live-transcribe",
+  "name": "Live Transcribe & Sound Notifications",
+  "shortName": "Live Transcribe",
+  "developer": "Google",
+  "developerCountry": "United States",
+  "website": "https://support.google.com/accessibility/android/answer/9158064",
+  "appStoreUrl": null,
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.google.audio.hearing.visualization.accessibility.scribe",
+  "category": "in-person-captions",
+  "oneLine": "Google's free Android app that captions in-person speech through the phone's microphone and alerts you to sounds like alarms and doorbells.",
+  "facts": {
+    "platforms": {
+      "status": "yes",
+      "text": "Android only (no iPhone app)",
+      "detail": "Google describes it as working \"using just your Android phone\". A search of Apple's US App Store finds no Live Transcribe app from Google.",
+      "sources": [
+        "s2",
+        "s1",
+        "s11"
+      ]
+    },
+    "deviceRequirements": {
+      "status": "yes",
+      "text": "Android 12 and up",
+      "detail": "The Play listing requires Android 12 and up; it comes pre-installed on Pixel and select other Android phones. Google's help page still describes offline English on Android 8 to 11, and the foldable outer-screen font size needs Android 14+.",
+      "sources": [
+        "s2",
+        "s1"
+      ]
+    },
+    "roomCaptions": {
+      "status": "yes",
+      "text": "Yes, speech around you via the phone mic",
+      "detail": "Live Transcribe captures speech and sound through the microphone and shows them as text; Google advises holding the microphone near the person speaking.",
+      "sources": [
+        "s1",
+        "s6"
+      ]
+    },
+    "groupConversations": {
+      "status": "partial",
+      "text": "External mics; foldable outer screen",
+      "detail": "You can use wired, Bluetooth or USB microphones, and on foldables show captions on the outer screen for the other person. Google describes no way to join several phones into one conversation.",
+      "sources": [
+        "s2",
+        "s1"
+      ]
+    },
+    "languages": {
+      "status": "yes",
+      "text": "Over 80 languages and dialects",
+      "detail": "The Play listing says over 80 languages and dialects (the 2019 launch post said over 70). You can set a primary and a secondary language. Google does not publish the full list on these pages.",
+      "sources": [
+        "s2",
+        "s7",
+        "s1"
+      ]
+    },
+    "offline": {
+      "status": "partial",
+      "text": "Downloaded languages only; Android 12+ for more than English",
+      "detail": "On Pixel and select phones with Android 12 or later you can download several languages (e.g. English, French) for offline use; on Android 8 to 11, English only. Offline transcription turns on automatically. Google does not list which languages can be downloaded.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "speakerLabels": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Neither Google's help page nor the Play listing describes showing who is talking. Google's 2019 launch post listed speaker separation as possible future work.",
+      "sources": [
+        "s1",
+        "s2",
+        "s7"
+      ]
+    },
+    "translation": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Google's help page describes no translation between spoken languages. The only translation is sign-to-text (ASL into English text, see signLanguage).",
+      "sources": [
+        "s1"
+      ]
+    },
+    "saveTranscripts": {
+      "status": "yes",
+      "text": "Optional, kept 3 days on the phone",
+      "detail": "Transcription history is optional and kept for up to three days, then deleted automatically. The Play listing says transcripts are not saved by default; the help page says that with history off they are deleted after 24 hours.",
+      "sources": [
+        "s2",
+        "s1"
+      ]
+    },
+    "export": {
+      "status": "partial",
+      "text": "Export stored text; copy and paste",
+      "detail": "Settings has \"Export all stored transcription\", and text can be copied. Google does not state the export format.",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    "fileUpload": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Google's help page and Play listing describe live captions only, no transcription of audio or video files.",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    "summaries": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No AI summaries or notes are described on Google's help page or Play listing.",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    "customWords": {
+      "status": "yes",
+      "text": "Custom words; vibrate when your name is said",
+      "detail": "You can add uncommon words or names so they are transcribed, and set the phone to vibrate when a chosen word or name is spoken.",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    "display": {
+      "status": "yes",
+      "text": "Text size (slider or pinch)",
+      "detail": "Text size changes with a slider or by pinching; on foldables the outer screen has its own font size. Google's help page mentions no colour, font or theme options.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "soundAlerts": {
+      "status": "yes",
+      "text": "Sound Notifications: alarms, baby, doorbell, more",
+      "detail": "Sound Notifications (same app) alerts you by vibration or camera flash to sounds such as smoke alarms, sirens, a baby crying, a dog barking, knocking, a doorbell, appliance beeps, a landline ringing and running water; you can add custom appliance sounds and review the last 12 hours. Live Transcribe also labels sounds like laughing or music in the transcript. Google's 2020 post and android.com say alerts can also go to a smartwatch (Wear OS).",
+      "sources": [
+        "s4",
+        "s2",
+        "s1",
+        "s5",
+        "s6"
+      ]
+    },
+    "phoneCalls": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Google's help page does not describe captioning phone calls with Live Transcribe. Android's separate Live Caption feature captions calls on Pixel and selected phones.",
+      "sources": [
+        "s1",
+        "s12"
+      ]
+    },
+    "videoCalls": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Google's help page does not describe captioning Zoom, Teams or Meet calls with Live Transcribe.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "mediaOnDevice": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Live Transcribe captures sound through the microphone. Captioning audio playing on the phone itself is what Google's separate Live Caption feature does.",
+      "sources": [
+        "s1",
+        "s12"
+      ]
+    },
+    "humanCaptioners": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No human captioning option is described; Google's 2019 launch post presents the app as an automatic alternative to services like CART.",
+      "sources": [
+        "s1",
+        "s7"
+      ]
+    },
+    "signLanguage": {
+      "status": "partial",
+      "text": "ASL to English text (sign-to-text), Pixel 11",
+      "detail": "Sign-to-text uses the front camera to turn American Sign Language into English text inside Live Transcribe. Google's Gboard help lists a Pixel 11 as a requirement; it sends body key points, not video, to Google's server.",
+      "sources": [
+        "s1",
+        "s8",
+        "s9",
+        "s2"
+      ]
+    },
+    "privacy": {
+      "status": "yes",
+      "text": "Online mode uses Google's cloud; audio not stored",
+      "detail": "Without a downloaded offline language it needs the internet; Google's 2019 post says it relies on cloud speech recognition. The Play listing says audio is not stored after processing, transcripts are stored encrypted in the app, and Data safety lists voice recordings collected for app functionality and analytics, no sharing with third parties, and no way to request deletion. Sound Notifications keeps all audio on the device. Whether audio is used to train AI is not stated.",
+      "sources": [
+        "s7",
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ]
+    },
+    "account": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Google's setup steps list only opening the app and allowing the microphone; no account requirement is stated. Data safety lists email address as optional.",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    "availability": {
+      "status": "yes",
+      "text": "Pixel, Samsung Galaxy and other Android phones",
+      "detail": "Pre-installed on Pixel and select other Android phones (on Samsung Galaxy: Settings, Accessibility, Hearing enhancements); other phones download it from Google Play. Google does not list countries; android.com says some features may not be available in all countries.",
+      "sources": [
+        "s1",
+        "s10",
+        "s2",
+        "s6"
+      ]
+    },
+    "freePlan": {
+      "status": "yes",
+      "text": "Free, no in-app purchases listed",
+      "detail": "Google Play lists the app at a price of 0 USD with no in-app purchases; Google launched it as a free Android service.",
+      "sources": [
+        "s2",
+        "s7"
+      ]
+    },
+    "price": {
+      "status": "no",
+      "text": "No paid plan",
+      "detail": "Google Play lists no price and no in-app purchases (US listing).",
+      "sources": [
+        "s2"
+      ]
+    },
+    "accessibilityFunding": {
+      "status": "no",
+      "text": "No (the app is free)",
+      "detail": "No funding programme is needed: Google Play lists the app as free with no in-app purchases.",
+      "sources": [
+        "s2"
+      ]
+    }
+  },
+  "strengths": [
+    {
+      "text": "Free, and already installed on Pixel and select other Android phones.",
+      "sources": [
+        "s2",
+        "s1"
+      ]
+    },
+    {
+      "text": "Captions speech in over 80 languages and dialects, with offline captions for downloaded languages on Android 12+.",
+      "sources": [
+        "s2",
+        "s1"
+      ]
+    },
+    {
+      "text": "Sound Notifications in the same app alerts you to alarms, a baby crying or a doorbell, processed on the phone.",
+      "sources": [
+        "s4",
+        "s2"
+      ]
+    },
+    {
+      "text": "Supports external wired, Bluetooth and USB mics, custom words, and name-spoken vibration; ASL sign-to-text on Pixel 11.",
+      "sources": [
+        "s2",
+        "s1",
+        "s8"
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "text": "Android only: Google offers no iPhone version.",
+      "sources": [
+        "s2",
+        "s11"
+      ]
+    },
+    {
+      "text": "Transcripts are kept for at most 3 days and are not saved by default.",
+      "sources": [
+        "s2",
+        "s1"
+      ]
+    },
+    {
+      "text": "No speaker labels, AI summaries or file transcription are described.",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "text": "Offline mode on Android 8 to 11 is English only, and online captions need an internet connection.",
+      "sources": [
+        "s1"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Use Live Transcribe - Android Accessibility Help",
+      "publisher": "Google",
+      "url": "https://support.google.com/accessibility/android/answer/9158064",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "You can use Live Transcribe on your Android device to capture speech and sound and see them as text on your screen.",
+        "Tip: Hold your device microphone near the person or sound that you want to capture.",
+        "Live Transcribe is already installed on Pixel phones and select other Android phones.",
+        "Make sure that you're connected to the Internet unless you’re using one of the offline languages.",
+        "On select Android devices and all Pixel devices that run on Android 12 or later, you can download multiple languages, like English, French and more for offline use.",
+        "On select Android devices that run on Android 8, 9, 10 or 11, you can download English for offline use.",
+        "To ensure that you get an uninterrupted transcription experience, Live Transcribe automatically turns on offline transcription.",
+        "Important: If transcription history is turned off, your transcriptions will be deleted after 24 hours.",
+        "You can find your transcription history in Live Transcribe for up to three days.",
+        "Audio and transcriptions are securely encrypted and temporarily stored in the Live Transcribe app.",
+        "Tap Settings Export all stored transcription.",
+        "Along with speech, Live Transcribe can show you other sounds, including human sounds like 'Laughing' or environmental sounds like 'Doorbell' or 'Music'.",
+        "If your conversations often include uncommon words or phrases, you can add them so that they can be transcribed.",
+        "You can get notified with a vibration when someone speaks a word or name that you specify.",
+        "Two-finger gesture: Use pinch to scale or pinch to zoom.",
+        "To change the text size, use the slider.",
+        "You can use an external microphone instead of the microphone on your device.",
+        "Signing: Use Live Transcribe to translate American Sign Language (ASL) into English text.",
+        "Conversation partners can read the caption on the outer screen while the other user can communicate with Talkback or Text-to-speech (TTS).",
+        "This is supported on foldable devices with Android 14 and up.",
+        "Optional: To set a secondary language, tap Secondary language, then choose a language from the list.",
+        "Google makes no representations that Live Transcribe satisfies HIPAA requirements."
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Live Transcribe & Notification - Apps on Google Play (US listing)",
+      "publisher": "Google Play",
+      "url": "https://play.google.com/store/apps/details?id=com.google.audio.hearing.visualization.accessibility.scribe",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Live Transcribe & Sound Notifications makes everyday conversations and surrounding sounds more accessible among people who are deaf and hard of hearing, using just your Android phone.",
+        "Get transcriptions in real-time in over 80 languages and dialects.",
+        "Add custom words that you use frequently, like names or household items.",
+        "Type responses in your conversation.",
+        "Use external microphones found in wired headsets, Bluetooth headsets, and USB mics for better audio reception.",
+        "On foldable phones, show transcriptions and typed responses on the outside screen so it's easier to communicate with others.",
+        "Choose to save transcriptions for 3 days.",
+        "By default, transcriptions are not saved.",
+        "Add custom sounds to get notified when your appliances beep.",
+        "Review sounds from the past 12 hours to check what was happening around you.",
+        "Android 12 and up",
+        "The audio is not stored after transcriptions or recognized sounds are processed.",
+        "Sign-to-text uses your device's camera to translate American Sign Language into English in real-time",
+        "made in collaboration with Gallaudet University and Rochester Institute of Technology, National Technical Institute for the Deaf (RIT/NTID)",
+        "1B+ Downloads",
+        "\"price\":\"0\",\"priceCurrency\":\"USD\"",
+        "Mountain View, CA 94043-1351 United States"
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Data safety: Live Transcribe & Notification (Google Play)",
+      "publisher": "Google Play",
+      "url": "https://play.google.com/store/apps/datasafety?id=com.google.audio.hearing.visualization.accessibility.scribe",
+      "type": "privacy",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "The developer says this app doesn't share user data with other companies or organizations.",
+        "Voice or sound recordings",
+        "Data is encrypted in transit",
+        "The developer doesn’t provide a way for you to request that your data be deleted"
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Sound Notifications: Get notified about important sounds around you - Android Accessibility Help",
+      "publisher": "Google",
+      "url": "https://support.google.com/accessibility/android/answer/10092548",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "When they're turned on, your phone always checks for sounds you want notifications about, like when a smoke alarm beeps or a doorbell rings.",
+        "For other phones, you need to download the Live Transcribe & Notifications on Google Play.",
+        "Sound Notifications never send audio or background conversations to Google without your permission.",
+        "All the audio your device hears stays on your device.",
+        "Vibrate: Your device will shake.",
+        "Camera flash: The light on your device will flash.",
+        "Sound Notifications are always listening, so they might use more battery power."
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Important household sounds become more accessible (Oct 8, 2020)",
+      "publisher": "Google (The Keyword blog)",
+      "url": "https://blog.google/products/android/new-sound-notifications-on-android/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Sound Notifications works with other devices, including Wear OS by Google smartwatches.",
+        "Developed with machine learning, Sound Notifications works completely offline and uses your phone's microphone to recognize ten different noises",
+        "This expands our sound detection work in Live Transcribe which shows over 30 sound events alongside real time captions"
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Android Audio Accessibility Tools & Features",
+      "publisher": "Google (android.com)",
+      "url": "https://www.android.com/accessibility/live-transcribe/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Join any conversation with Live Transcribe's instant speech-to-text captions.",
+        "And for other important sounds like sirens, a doorbell or a dog barking, set your phone or smartwatch to vibrate or flash.",
+        "Some features and devices may not be available in all countries."
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Real-time Continuous Transcription with Live Transcribe (Feb 4, 2019)",
+      "publisher": "Google Research",
+      "url": "https://research.google/blog/real-time-continuous-transcription-with-live-transcribe/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Today, we're announcing Live Transcribe, a free Android service that makes real-world conversations more accessible by bringing the power of automatic captioning into everyday, conversational use.",
+        "Powered by Google Cloud, Live Transcribe captions conversations in real-time, supporting over 70 languages and more than 80% of the world's population.",
+        "Relying on cloud ASR provides us greater accuracy, but we wanted to reduce the network data consumption that Live Transcribe requires.",
+        "Potential future improvements in mobile-based automatic speech transcription include on-device recognition, speaker-separation, and speech enhancement."
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "Here's how to use sign-to-text translation on Pixel 11 (Aug 21, 2026)",
+      "publisher": "Google (The Keyword blog)",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/american-sign-language-sign-to-text-pixel-11/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "The brand new Pixel 11 series will bring a new sign-to-text translation feature to people who communicate using American Sign Language (ASL).",
+        "The feature, which supports both one-handed and two-handed signing, lets signers use their native language to express themselves when using Live Transcribe or across their device with Gboard."
+      ]
+    },
+    {
+      "id": "s9",
+      "title": "Use sign-to-text to translate American Sign Language (ASL) into English text in real time - Gboard Help",
+      "publisher": "Google",
+      "url": "https://support.google.com/gboard/answer/17468449",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Have a Google Pixel 11 device.",
+        "It sends only a 2D representation of key points of the movements, not your video, to the server and translates them into written English.",
+        "Your inputs are never saved, shared, or used to train models."
+      ]
+    },
+    {
+      "id": "s10",
+      "title": "Use Live Caption and Live Transcribe on your Galaxy device",
+      "publisher": "Samsung (US)",
+      "url": "https://www.samsung.com/us/support/answer/ANS10003704/",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "You can also use Live Transcribe to create a transcript of your conversation, with added descriptions of other sounds in the environment as well.",
+        "Navigate to Settings, tap Accessibility, and then tap Hearing enhancements.",
+        "Tap Live Transcribe, then tap Open Live Transcribe.",
+        "You can even create a transcript of your voicemails using the visual voicemail app, if the audio is played on speakerphone."
+      ]
+    },
+    {
+      "id": "s11",
+      "title": "App Store search results for \"live transcribe\" (US store)",
+      "publisher": "Apple",
+      "url": "https://itunes.apple.com/search?term=live+transcribe&entity=software&country=us&limit=50",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "No app by Google LLC named Live Transcribe in the results (28 October 2026)"
+      ],
+      "label": "App Store search"
+    },
+    {
+      "id": "s12",
+      "title": "Live Caption: Caption media & calls on your device - Android Accessibility Help",
+      "publisher": "Google",
+      "url": "https://support.google.com/accessibility/android/answer/9350862",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "When \"Live Caption\" is on, captions appear for speech in audio playing on your device."
+      ]
+    }
+  ],
+  "notes": "WebFetch's summariser returned nothing for the Google Play page, so the full Play listing and Data safety HTML were downloaded and read directly (same pages, same day). Conflicts: (1) Play requires Android 12 and up, while Google's help page still describes offline English on Android 8 to 11. (2) Play says transcripts are not saved by default; the help page says that with history off they are deleted after 24 hours. (3) Language count: Play says over 80 languages and dialects; the 2019 launch post said over 70. No official full language list or list of offline languages was found. Speaker labels: no official page describes them; marked not_stated. Wear OS: only the 2020 Sound Notifications post and android.com ('phone or smartwatch') mention watch alerts; the current help page lists only vibrate and camera flash. No Wear OS version of the captions themselves is described. Sign-to-text: the Live Transcribe help page names no devices; the Gboard help page requires a Pixel 11 and the Aug 2026 blog post is about the Pixel 11 series. Cloud processing is stated only in the 2019 research post; current pages imply it through the internet requirement for non-offline languages. Use of audio for AI training is not stated for Live Transcribe (the Gboard sign-to-text page says sign inputs are not used to train models). Samsung's US page says Live Transcribe 'uses the external speaker of your phone' (Samsung's wording; it means the microphone). Apple App Store: the iTunes Search API (US) for 'live transcribe' returned no app from Google; an app called 'Live Transcribe' there is by Mighty Fine Apps LLC, unrelated to Google. Play listing on 2026-10-28 (US): title 'Live Transcribe & Notification', developer shown as 'Research at Google', 3.8 stars, 274K reviews, 1B+ downloads, updated Oct 21, 2026. Countries where it works are not stated."
+}

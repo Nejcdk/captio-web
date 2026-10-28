@@ -1,0 +1,395 @@
+{
+  "slug": "captio-ai",
+  "name": "Captio AI",
+  "shortName": "Captio AI",
+  "developer": "Captio AI",
+  "developerCountry": "Slovenia",
+  "website": "https://captioai.app",
+  "appStoreUrl": "https://apps.apple.com/app/captio-ai/id6796617180",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.captio.app",
+  "category": "in-person-captions",
+  "oneLine": "A live captioning app for deaf and hard of hearing people that captions, translates and summarises speech in the room, on iPhone and Android.",
+  "facts": {
+    "platforms": {
+      "status": "yes",
+      "text": "iPhone, iPad, Android",
+      "detail": "On the App Store (also listed for Apple silicon Macs and Apple Vision) and on Google Play since October 2026.",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    "deviceRequirements": {
+      "status": "yes",
+      "text": "iOS 15.1 or later",
+      "detail": "The App Store lists iOS 15.1 or later for iPhone.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "roomCaptions": {
+      "status": "yes",
+      "text": "Yes, from the phone's microphone",
+      "detail": "Speech in the room appears as text while the person is still talking.",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    },
+    "groupConversations": {
+      "status": "partial",
+      "text": "One phone, speaker labels",
+      "detail": "One phone captions the whole table and labels each speaker. Shared folders let several people add recordings to one place; live captions are not joined across phones.",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    },
+    "languages": {
+      "status": "yes",
+      "text": "60+ languages",
+      "detail": "Captions and translation in 60+ languages, including speech that switches languages mid-sentence.",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    },
+    "offline": {
+      "status": "partial",
+      "text": "Records offline, captions later",
+      "detail": "Live captions need internet. Without a connection it keeps recording and transcribes automatically when the phone is back online.",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    },
+    "speakerLabels": {
+      "status": "yes",
+      "text": "Yes, live and saved; names on iPhone",
+      "detail": "Separates speakers (Speaker 1, Speaker 2). On iPhone it can learn saved voices and show their names instead.",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    },
+    "translation": {
+      "status": "yes",
+      "text": "Yes, live, two-way mode",
+      "detail": "Live translation next to the original captions, with a two-way mode where each person reads the other in their own language.",
+      "sources": [
+        "s1",
+        "s7"
+      ]
+    },
+    "saveTranscripts": {
+      "status": "yes",
+      "text": "Yes, with audio, synced",
+      "detail": "Recordings are saved with their audio in a searchable library and synced to your account.",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    "export": {
+      "status": "yes",
+      "text": "Text, link, PDF, email",
+      "detail": "Share a transcript or summary as text, a link, a PDF, an email, or a prompt for an AI chat.",
+      "sources": [
+        "s6"
+      ]
+    },
+    "fileUpload": {
+      "status": "yes",
+      "text": "Audio and video files",
+      "detail": "Upload audio or video and get a full transcript with speaker labels.",
+      "sources": [
+        "s1",
+        "s5"
+      ]
+    },
+    "summaries": {
+      "status": "yes",
+      "text": "Summary, key points, to-dos",
+      "detail": "Turns transcripts into summaries, key points, notes, to-dos and follow-up messages. Free plan: 3 summaries in total.",
+      "sources": [
+        "s1",
+        "s6"
+      ]
+    },
+    "customWords": {
+      "status": "yes",
+      "text": "Yes, words and names",
+      "detail": "Add names, medical terms or specialist words so they are recognised.",
+      "sources": [
+        "s4"
+      ]
+    },
+    "display": {
+      "status": "yes",
+      "text": "Text size, colours, contrast",
+      "detail": "Text size, background colour and contrast can be adjusted.",
+      "sources": [
+        "s4"
+      ]
+    },
+    "soundAlerts": {
+      "status": "no",
+      "text": "No",
+      "detail": "Captio AI captions speech; it does not alert you to non-speech sounds.",
+      "sources": [
+        "s4"
+      ]
+    },
+    "phoneCalls": {
+      "status": "no",
+      "text": "No",
+      "detail": "Made for in-person speech picked up by the microphone, not for captioning phone calls.",
+      "sources": [
+        "s4"
+      ]
+    },
+    "videoCalls": {
+      "status": "no",
+      "text": "No",
+      "detail": "It is not a video-call captioning service.",
+      "sources": [
+        "s4"
+      ]
+    },
+    "mediaOnDevice": {
+      "status": "partial",
+      "text": "Uploaded files only",
+      "detail": "It does not caption audio playing on the phone, but it can transcribe a saved audio or video file.",
+      "sources": [
+        "s5"
+      ]
+    },
+    "humanCaptioners": {
+      "status": "no",
+      "text": "No",
+      "detail": "Captions are automatic.",
+      "sources": [
+        "s4"
+      ]
+    },
+    "signLanguage": {
+      "status": "no",
+      "text": "No",
+      "detail": "Captio AI works with speech and text only.",
+      "sources": [
+        "s4"
+      ]
+    },
+    "privacy": {
+      "status": "yes",
+      "text": "Cloud; audio not stored on its servers",
+      "detail": "Speech is processed by third-party speech recognition after you agree. Audio is not stored on Captio AI's servers; content is never sold or used to train AI models.",
+      "sources": [
+        "s3"
+      ]
+    },
+    "account": {
+      "status": "partial",
+      "text": "Optional",
+      "detail": "Sign in with Apple or Google to sync, or skip and use it on one phone.",
+      "sources": [
+        "s3"
+      ]
+    },
+    "availability": {
+      "status": "yes",
+      "text": "Worldwide",
+      "detail": "Available on the App Store and Google Play; prices differ by country.",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    "freePlan": {
+      "status": "yes",
+      "text": "10 min a day + 3 summaries",
+      "detail": "Free every day: 10 minutes of live captions or transcription a day, and 3 AI summaries in total.",
+      "sources": [
+        "s1",
+        "s8"
+      ]
+    },
+    "price": {
+      "status": "yes",
+      "text": "US$14.99/month or US$79.99/year",
+      "detail": "Captio AI Plus on the US App Store, October 2026. No free trial. Prices differ by country.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "accessibilityFunding": {
+      "status": "no",
+      "text": "No",
+      "detail": "No government funding programme; see captioai.app/organizations for licences through an organisation.",
+      "sources": [
+        "s9"
+      ]
+    }
+  },
+  "strengths": [
+    {
+      "text": "Captions, live translation, file transcription and AI summaries in one app, in 60+ languages.",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "text": "Works on both iPhone and Android, and keeps captioning with the iPhone screen locked.",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "text": "On iPhone it can learn the voices of people you talk to and show their names in the captions.",
+      "sources": [
+        "s1"
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "text": "Live captions need an internet connection; offline it only records and transcribes later.",
+      "sources": [
+        "s4"
+      ]
+    },
+    {
+      "text": "The free plan covers 10 minutes of captions a day; more needs Captio AI Plus.",
+      "sources": [
+        "s8"
+      ]
+    },
+    {
+      "text": "It does not caption phone or video calls, and has no sound alerts or sign language.",
+      "sources": [
+        "s4"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Live Captions - Captio AI on the App Store",
+      "publisher": "Apple App Store",
+      "url": "https://apps.apple.com/us/app/captio-ai/id6796617180",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Real-time captions of everything said around you",
+        "Separate speakers so you always know who said what",
+        "Translate conversations in real time across 60+ languages",
+        "Keep recording with no connection. Your audio is saved and transcribed automatically when you're back online.",
+        "Captio AI is free to use every day. Captio AI Plus unlocks unlimited live captions, translations, file transcriptions and AI summaries.",
+        "Captio Plus Monthly: $14.99",
+        "CaptioAI Plus Yearly: $79.99",
+        "iOS 15.1 or later"
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Captio AI on Google Play",
+      "publisher": "Google Play",
+      "url": "https://play.google.com/store/apps/details?id=com.captio.app",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Real-time live captions, translation and transcripts for every conversation"
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Privacy Policy",
+      "publisher": "Captio AI",
+      "url": "https://captioai.app/privacy",
+      "type": "privacy",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Your audio is processed in real time and is not stored on our servers.",
+        "Your content is never used to train AI models, and it is never shared for advertising."
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Live Captions",
+      "publisher": "Captio AI",
+      "url": "https://captioai.app/live-captions",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Live Captions requires an internet connection to process speech in real time.",
+        "Adjust text size, background color, and contrast"
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Audio Transcription",
+      "publisher": "Captio AI",
+      "url": "https://captioai.app/audio-transcription",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Upload any audio or video file and get a full written transcript."
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "AI Summary",
+      "publisher": "Captio AI",
+      "url": "https://captioai.app/ai-summary",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Turn any transcript into a structured summary."
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Live Translator",
+      "publisher": "Captio AI",
+      "url": "https://captioai.app/live-translator",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "French, Japanese, Arabic, Spanish, German, Mandarin — 60+ languages, any direction."
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "Captio AI for AI assistants (llms.txt)",
+      "publisher": "Captio AI",
+      "url": "https://captioai.app/llms.txt",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Free plan with 10 minutes of captions a day; Captio AI Plus removes the limit."
+      ]
+    },
+    {
+      "id": "s9",
+      "title": "Captio AI for organizations",
+      "publisher": "Captio AI",
+      "url": "https://captioai.app/organizations",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "licenses for the deaf and hard of hearing people in your organization, paid by invoice."
+      ]
+    }
+  ],
+  "notes": "Built from content/blog/CAPTIO_FACTS.md (the only source for claims about Captio AI). Update both together."
+}

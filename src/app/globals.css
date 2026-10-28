@@ -126,3 +126,14 @@ sup.cite a {
   vertical-align: 0.35em;
 }
 sup.cite a:hover { background: var(--color-brand); color: #fff; }
+
+/* Compare tables: scroll sideways inside the box on phones, never the page.
+   A soft edge on the right says there is more to see. */
+.compare-scroll {
+  -webkit-overflow-scrolling: touch;
+  background:
+    linear-gradient(to left, #fff 30%, rgba(255, 255, 255, 0)) right / 2.5rem 100% no-repeat local,
+    radial-gradient(farthest-side at 100% 50%, rgba(17, 24, 39, 0.12), rgba(17, 24, 39, 0)) right / 0.75rem 100% no-repeat scroll,
+    #fff;
+}
+.compare-scroll sup.cite a { font-size: 10px; }

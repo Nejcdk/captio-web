@@ -34,6 +34,15 @@ const navItems = [
     ),
   },
   {
+    label: "Compare",
+    href: "/compare",
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} className="w-5 h-5">
+        <path d="M4 4h16v16H4zM12 4v16M4 10h16M4 15h16" strokeLinecap="round" strokeLinejoin="round" />
+      </svg>
+    ),
+  },
+  {
     label: "Blog",
     href: "/blog",
     icon: (
@@ -60,6 +69,7 @@ export default function Header() {
           <Link href="/#features" className="hover:text-white transition-colors">Features</Link>
           <Link href="/#use-cases" className="hover:text-white transition-colors">Use Cases</Link>
           <Link href="/#languages" className="hover:text-white transition-colors">Languages</Link>
+          <Link href="/compare" className="hover:text-white transition-colors">Compare</Link>
           <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
         </nav>
 

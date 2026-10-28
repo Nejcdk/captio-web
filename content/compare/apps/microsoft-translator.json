@@ -1,0 +1,505 @@
+{
+  "slug": "microsoft-translator",
+  "name": "Microsoft Translator",
+  "shortName": "Microsoft Translator",
+  "developer": "Microsoft",
+  "developerCountry": "United States",
+  "website": "https://www.microsoft.com/translator/",
+  "appStoreUrl": "https://apps.apple.com/us/app/microsoft-translator/id1018949559",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.microsoft.translator",
+  "category": "translation",
+  "oneLine": "Microsoft's free app for iPhone and Android that translates speech, text and photos; its store listings say multi-device conversations have been retired.",
+  "facts": {
+    "platforms": {
+      "status": "yes",
+      "text": "iPhone, iPad, Android",
+      "detail": "The App Store lists it for iPhone and iPad, and Google Play has the Android app. Microsoft says its Windows desktop app is retired.",
+      "sources": [
+        "s1",
+        "s2",
+        "s11"
+      ]
+    },
+    "deviceRequirements": {
+      "status": "yes",
+      "text": "iOS 17 or later; Android not stated",
+      "detail": "The US App Store listing needs iOS 17.0 or later (iPadOS 17.0 on iPad). The Google Play listing doesn't show a minimum Android version.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "roomCaptions": {
+      "status": "partial",
+      "text": "Translates short spoken phrases",
+      "detail": "The microphone translates what is said between two chosen languages, hands-free when both support auto-detect. In auto mode each speaker can talk for up to 20 seconds (Android FAQ), and Microsoft doesn't describe captions in the same language.",
+      "sources": [
+        "s1",
+        "s3",
+        "s4",
+        "s6",
+        "s9"
+      ]
+    },
+    "groupConversations": {
+      "status": "no",
+      "text": "Multi-device feature retired (June 2026)",
+      "detail": "Both store listings say the multi-device conversation feature has been retired (App Store version 26.7.1, June 30, 2026). Some Microsoft pages still describe joining a conversation from several phones with a code; a split-screen mode puts two people on one phone.",
+      "sources": [
+        "s1",
+        "s2",
+        "s6",
+        "s7",
+        "s8",
+        "s4"
+      ]
+    },
+    "languages": {
+      "status": "yes",
+      "text": "48 speech languages",
+      "detail": "Microsoft's languages page marks 48 languages for speech (Levantine Arabic on Android only) and 135 for text; the store listings say over 100. Its Android FAQ still says 11 speech languages.",
+      "sources": [
+        "s5",
+        "s1",
+        "s4"
+      ]
+    },
+    "offline": {
+      "status": "no",
+      "text": "No, speech needs internet",
+      "detail": "Microsoft says speech translation works only while online. With downloaded language packs, text and photos translate without internet.",
+      "sources": [
+        "s3",
+        "s4",
+        "s6"
+      ]
+    },
+    "speakerLabels": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Microsoft's current pages don't describe showing who is talking. Split-screen mode gives two people one phone, one language each.",
+      "sources": [
+        "s4",
+        "s5"
+      ]
+    },
+    "translation": {
+      "status": "yes",
+      "text": "Yes, speech in 48 languages",
+      "detail": "Speech is translated between two chosen languages, and the app detects which one is spoken when both support it. A split-screen mode lets two people share one phone.",
+      "sources": [
+        "s1",
+        "s3",
+        "s5",
+        "s9",
+        "s4"
+      ]
+    },
+    "saveTranscripts": {
+      "status": "partial",
+      "text": "History and pinned translations",
+      "detail": "Recent translations stay in the app's history and can be pinned or saved as favourites. Transcripts were part of the conversation feature (2023 blog); the store listings now say the multi-device conversation feature has been retired.",
+      "sources": [
+        "s3",
+        "s4",
+        "s9",
+        "s1"
+      ]
+    },
+    "export": {
+      "status": "partial",
+      "text": "Copy or share single translations",
+      "detail": "Translations can be copied, sent as a text message, or shared by email or social apps. No transcript file export is described.",
+      "sources": [
+        "s4",
+        "s6"
+      ]
+    },
+    "fileUpload": {
+      "status": "no",
+      "text": "No audio or video files",
+      "detail": "Microsoft says the app doesn't translate media or files such as movies or video clips. You can upload photos to translate the text in them.",
+      "sources": [
+        "s3",
+        "s6"
+      ]
+    },
+    "summaries": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No AI summaries are described for the app. Microsoft's 2023 blog mentioned meeting topics in the conversation feature's transcripts.",
+      "sources": [
+        "s9",
+        "s6"
+      ]
+    },
+    "customWords": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No option to add your own words or names is described.",
+      "sources": [
+        "s3",
+        "s4"
+      ]
+    },
+    "display": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Microsoft's app pages don't describe text size or colour options.",
+      "sources": [
+        "s3",
+        "s4"
+      ]
+    },
+    "soundAlerts": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No sound alerts are described.",
+      "sources": [
+        "s3",
+        "s4"
+      ]
+    },
+    "phoneCalls": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Captioning phone calls isn't described.",
+      "sources": [
+        "s3",
+        "s4"
+      ]
+    },
+    "videoCalls": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Captioning Zoom, Teams or Meet calls isn't described for the app.",
+      "sources": [
+        "s3",
+        "s4"
+      ]
+    },
+    "mediaOnDevice": {
+      "status": "no",
+      "text": "No",
+      "detail": "Microsoft says the app doesn't translate media or files such as movies or video clips.",
+      "sources": [
+        "s3"
+      ]
+    },
+    "humanCaptioners": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No human captioning option is described.",
+      "sources": [
+        "s3"
+      ]
+    },
+    "signLanguage": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No sign language feature is described.",
+      "sources": [
+        "s3"
+      ]
+    },
+    "privacy": {
+      "status": "yes",
+      "text": "In Microsoft's cloud (online only)",
+      "detail": "Speech works only online, so it goes to Microsoft's service. The iOS FAQ says speech isn't collected unless you agree to share voice clips; Microsoft's privacy statement says sampled audio is de-identified before it's used to improve the service.",
+      "sources": [
+        "s3",
+        "s12",
+        "s1",
+        "s2"
+      ]
+    },
+    "account": {
+      "status": "no",
+      "text": "No account needed",
+      "detail": "Microsoft says the app doesn't need you to sign in.",
+      "sources": [
+        "s3"
+      ]
+    },
+    "availability": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Microsoft's pages don't list country limits; which features work depends on the language.",
+      "sources": [
+        "s5"
+      ]
+    },
+    "freePlan": {
+      "status": "yes",
+      "text": "Free, whole app",
+      "detail": "Microsoft says the app is free of charge, and the App Store lists it as Free.",
+      "sources": [
+        "s3",
+        "s1"
+      ]
+    },
+    "price": {
+      "status": "no",
+      "text": "No paid plan",
+      "detail": "No paid plan or in-app purchases are listed on the US App Store (October 2026), and Microsoft's FAQ says the app is free.",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    "accessibilityFunding": {
+      "status": "no",
+      "text": "No (the app is free)",
+      "detail": "No funding programme is needed: the app costs nothing.",
+      "sources": [
+        "s3"
+      ]
+    }
+  },
+  "strengths": [
+    {
+      "text": "Free, with no account or sign-in needed.",
+      "sources": [
+        "s3"
+      ]
+    },
+    {
+      "text": "Speech translation in 48 languages and text translation in 135, by Microsoft's language list.",
+      "sources": [
+        "s5"
+      ]
+    },
+    {
+      "text": "Detects which of two languages is spoken, so two people can talk without tapping the microphone each time.",
+      "sources": [
+        "s3",
+        "s9"
+      ]
+    },
+    {
+      "text": "Downloaded language packs translate text and photos without internet.",
+      "sources": [
+        "s4",
+        "s6"
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "text": "Both store listings say the multi-device conversation feature, which Microsoft promoted for deaf and hard of hearing students, has been retired (June 2026).",
+      "sources": [
+        "s1",
+        "s2",
+        "s11"
+      ]
+    },
+    {
+      "text": "Speech translation works only while online.",
+      "sources": [
+        "s3"
+      ]
+    },
+    {
+      "text": "It doesn't translate media or files such as movies or video clips.",
+      "sources": [
+        "s3"
+      ]
+    },
+    {
+      "text": "In auto mode each speaker can talk for at most 20 seconds (Android FAQ).",
+      "sources": [
+        "s4"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Microsoft Translator on the App Store (US)",
+      "publisher": "Apple App Store",
+      "url": "https://apps.apple.com/us/app/microsoft-translator/id1018949559",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Translate text, speech, and images in over 100 languages — for free.",
+        "Note: The multi-device conversation feature has been retired.",
+        "• Real-time speech translation",
+        "Requires iOS 17.0 or later.",
+        "Requires iPadOS 17.0 or later.",
+        "Data Not Linked to You",
+        "Audio Data",
+        "26.7.1",
+        "Jun 30"
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Microsoft Translator on Google Play (US)",
+      "publisher": "Google Play",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.translator",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Note: The multi-device conversation feature has been retired.",
+        "• The multi-device conversation feature has been retired. • Bug fixes and general improvements.",
+        "Updated on Jun 29, 2026",
+        "No data shared with third parties",
+        "Data can’t be deleted"
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Translator for iOS FAQs",
+      "publisher": "Microsoft",
+      "url": "https://www.microsoft.com/en-us/translator/help/ios/",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "No, the Microsoft Translator app doesn’t require you to be authenticated (e.g., with a user ID and password).",
+        "By default, the speech translation data is not collected. Data is collected only if you consent to contribute voice clips.",
+        "Voice clips of 20 seconds are collected by the Microsoft’s Speech service",
+        "If you see a microphone with stars, it means you can speak in any of the 2 languages selected, and the app will auto-detect your spoken language and translate it to the other language.",
+        "Speech translation feature works only while online.",
+        "The Microsoft Translator app does not support translation of external media sources or files, such as movies or video clips.",
+        "The Microsoft Translator App is free of charge.",
+        "All your favorite translations are saved in “Favorite” section."
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Translator for Android FAQs",
+      "publisher": "Microsoft",
+      "url": "https://www.microsoft.com/en-us/translator/help/android/",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "The maximum duration for each speaker is 20 seconds.",
+        "If you download offline languages packs, text translation features are available offline when there is no data connection or WiFi.",
+        "Speech conversations using the live conversation feature, and short-form translations using the single microphone and split-screen microphone feature are currently not available while offline.",
+        "For in-person conversations with another person, you can use the Microsoft Translator split-screen feature to translate your conversation using a single device.",
+        "Currently Microsoft Translator supports 11 speech languages.",
+        "To view all of your saved translations, tap the clock icon on the Home screen.",
+        "How to send a translation as a text message",
+        "Camera feature: Snap a photo or upload a photo from your photo gallery to translate the text within the photo.",
+        "How long does the microphone stay on in auto-mode speech translation?"
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Microsoft Translator Languages",
+      "publisher": "Microsoft",
+      "url": "https://www.microsoft.com/en-us/translator/languages/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Have a split-screen conversation on a single phone, or speak into the microphone for a quick translation",
+        "Arabic (Levantine) - Android only",
+        "* Some speech-to-speech conversation languages may only be available in the mobile app."
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Translator app features",
+      "publisher": "Microsoft",
+      "url": "https://www.microsoft.com/en-us/translator/apps/features/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Host or join a live translated conversation with the Translator mobile app.",
+        "Tap and speak into the microphone to translate short phrases while online.",
+        "Download offline language packs to translate text even when you're offline.",
+        "Share translations via text, email, or on social.",
+        "Translate the text in photos with the app's built-in camera viewer, or upload saved photos from your gallery.",
+        "Multi-device conversation feature",
+        "Translate and caption live conversations",
+        "Download offline language packs and use the camera feature to translate street signs and menus while traveling abroad."
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Microsoft Translator multi-device conversation help and FAQs",
+      "publisher": "Microsoft",
+      "url": "https://www.microsoft.com/en-us/translator/help/live-feature/",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Turn on the Presenter mode toggle in the multi-device conversation feature Settings pane while giving a presentation.",
+        "Using a headset, a lapel microphone or a bluetooth microphone will result in the best quality of speech recognition"
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "Transitioning the Microsoft Translator web app to a simplified experience (August 3, 2022)",
+      "publisher": "Microsoft Translator Blog",
+      "url": "https://www.microsoft.com/en-us/translator/blog/2022/08/03/transitioning-the-microsoft-translator-web-app-to-a-simplified-experience/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "This means that the ability to start and host a conversation from the web app will be removed and the preset conversation feature will be retired.",
+        "The session join process will remain the same wherein participants simply need to input the five-character code, visit the host’s URL, or scan the host’s QR code to join the session."
+      ]
+    },
+    {
+      "id": "s9",
+      "title": "Introducing the redesigned Microsoft Translator app for iOS (February 28, 2023)",
+      "publisher": "Microsoft Translator Blog",
+      "url": "https://www.microsoft.com/en-us/translator/blog/2023/02/28/introducing-the-redesigned-microsoft-translator-app-for-ios/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "We have incorporated a new AI technology in Cognitive Services, continuous Language Identification (LID), into speech translation where two people can have natural and continuous conversations without the interruption of selecting source/target audio languages or tapping the microphone each time someone speaks.",
+        "Use the conversation feature by tapping on the icon located on top-right corner of the app to transcribe a single person’s speech or translate multiple users within a group. Stay on top of conversations by accessing the transcripts and using meeting topics to navigate within a transcript.",
+        "View your translation history on the same page as you continue translating new phrases."
+      ]
+    },
+    {
+      "id": "s10",
+      "title": "Microsoft Translator for Education",
+      "publisher": "Microsoft",
+      "url": "https://www.microsoft.com/en-us/translator/education/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Teachers manage many types of learners, including students who are deaf or hard of hearing (DHH) who require assistive technology",
+        "The Translator app's conversation feature helps teachers better communicate with students in class or for one-on-one conversations."
+      ]
+    },
+    {
+      "id": "s11",
+      "title": "Live conversations - Education - Microsoft Translator",
+      "publisher": "Microsoft",
+      "url": "https://www.microsoft.com/en-us/translator/education/live-conversations/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "The Translator multi-device conversation feature helps English language learners, deaf, or hard-of-hearing students or parents communicate with one another in class or for one-on-one chats.",
+        "* The Microsoft Translator app for Windows desktop is retired and is no longer available for download from the Microsoft Store."
+      ]
+    },
+    {
+      "id": "s12",
+      "title": "Microsoft Privacy Statement (Last Updated: September 2026), section Microsoft Translator",
+      "publisher": "Microsoft",
+      "url": "https://www.microsoft.com/en-us/privacy/privacystatement",
+      "type": "privacy",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Microsoft Translator processes the text, image, and voice data you submit, as well as device and usage data, to provide translations, personalize your experiences, and improve our products and services.",
+        "Microsoft uses business and technical measures designed to help de‑identify submitted data — such as deleting identifiers and certain text like email addresses and some number sequences that could contain personal data — when randomly sampling text and audio for product improvement.",
+        "Microsoft Privacy, Microsoft Corporation, One Microsoft Way, Redmond, Washington 98052, USA."
+      ]
+    }
+  ],
+  "notes": "Status of the conversation feature: both store listings (App Store version 26.7.1, June 30, 2026; Google Play updated June 29, 2026) say 'The multi-device conversation feature has been retired.' Microsoft's own web pages have not caught up: the app features page, the Education pages and the multi-device conversation help page (all opened 2026-10-28) still describe hosting or joining conversations. I found no Microsoft blog post or support article announcing the retirement (the Translator blog's newest post is from December 2023); only the store release notes. A press piece (WhistleOut) gave June 30, 2026 as the date; not used as a source. translator.microsoft.com (the old web join site) now returns 301 to microsoft.com/translator, so there is no web join page. microsoft.com/en-us/translator/live.aspx returned 403. Language counts: 48 speech / 135 text are my count of the Yes marks in the table on microsoft.com/translator/languages (136 rows; one row, Arabic (Levantine), is speech-only and Android-only). The page has no stated total. The Android FAQ's '11 speech languages' conflicts with it and looks out of date; the stores say 'over 100 languages' (text). Whether the single-phone split-screen and auto-detect conversation still exist after the June 2026 update is from the FAQ pages, not re-verified in the app. Privacy wording differs: the iOS FAQ says speech data is not collected by default, while the privacy statement says Microsoft randomly samples de-identified text and audio for product improvement; both reported. The privacy statement still lists a Windows app, which Microsoft retired. Speaker names, display options and Android minimum version were not stated on any page I opened. Cleaned 2026-10-28: store listings re-opened that day; App Store version history shows 26.7.1 (Jun 30) with the retirement note, Google Play 'Updated on Jun 29, 2026'. Microsoft's app features page still lists the multi-device conversation feature ('Translate and caption live conversations'). Speech/text counts recounted from the languages table: 48 and 135. Neither store shows in-app purchases."
+}

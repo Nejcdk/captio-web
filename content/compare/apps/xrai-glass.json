@@ -1,0 +1,762 @@
+{
+  "slug": "xrai-glass",
+  "name": "XRAI Glass",
+  "shortName": "XRAI Glass",
+  "developer": "XRAI Inc.",
+  "developerCountry": "United States",
+  "website": "https://xrai.glass/",
+  "appStoreUrl": "https://apps.apple.com/us/app/xrai-glass/id6447922836",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=glass.xrai.us.subtitles",
+  "category": "smart-glasses",
+  "oneLine": "A live captioning and translation app for phones that can also show the captions on compatible AR smart glasses, including XRAI's own AR2 glasses.",
+  "facts": {
+    "platforms": {
+      "status": "yes",
+      "text": "iPhone, iPad, Android, Windows; AR glasses",
+      "detail": "XRAI offers free apps for iOS, Android and Windows, and the App Store version also runs on Apple silicon Macs and Apple Vision. Captions show on the phone or on compatible AR glasses; the pricing page lists the Windows and Mac desktop app under Ultimate.",
+      "sources": [
+        "s6",
+        "s11",
+        "s2",
+        "s3"
+      ]
+    },
+    "deviceRequirements": {
+      "status": "yes",
+      "text": "iOS 17.5+ or Android 11+",
+      "detail": "The App Store lists iOS 17.5 or later (or macOS 14.5 on a Mac with M1 or later), and XRAI's setup guide says Android 11 or newer. Glasses are optional; the AR2 glasses pair with a phone within about 10 m.",
+      "sources": [
+        "s11",
+        "s13",
+        "s5",
+        "s22"
+      ]
+    },
+    "roomCaptions": {
+      "status": "yes",
+      "text": "Yes, phone mic; glasses optional",
+      "detail": "The app captions conversations around you through the phone's microphone, a Bluetooth microphone or the glasses' own microphones, and shows them on the phone or in AR glasses.",
+      "sources": [
+        "s14",
+        "s22",
+        "s11"
+      ]
+    },
+    "groupConversations": {
+      "status": "yes",
+      "text": "Phone mid-table or extra mics",
+      "detail": "XRAI suggests putting the phone in the middle of the table, or using a Bluetooth or conference microphone (it lists a 360° mic for 8+ people). XRAI Stream shares live captions to other devices on the same WiFi.",
+      "sources": [
+        "s14",
+        "s4",
+        "s8"
+      ]
+    },
+    "languages": {
+      "status": "yes",
+      "text": "20 free, 300 paid (incl. dialects)",
+      "detail": "XRAI's pricing table counts languages and dialects: 20 on the free plan, 300 on Premium and Ultimate. Its app store listings say translation covers 140+ languages and dialects.",
+      "sources": [
+        "s2",
+        "s11",
+        "s12"
+      ]
+    },
+    "offline": {
+      "status": "yes",
+      "text": "Yes, on the free plan (less accurate)",
+      "detail": "The free Essentials plan includes unlimited offline captioning with engines on the phone. XRAI's help centre says this is much less accurate than its cloud engines and can sometimes invent words; the cloud engines need internet.",
+      "sources": [
+        "s2",
+        "s20",
+        "s21",
+        "s4"
+      ]
+    },
+    "speakerLabels": {
+      "status": "partial",
+      "text": "Paid plans, some engines only",
+      "detail": "Speaker identification needs a paid plan and cloud transcription, and not every cloud engine supports it. People can be named by saying \"Hey XRAI, my name is\" and their name.",
+      "sources": [
+        "s17",
+        "s2",
+        "s11",
+        "s1"
+      ]
+    },
+    "translation": {
+      "status": "yes",
+      "text": "Yes, live; two-way on paid plans",
+      "detail": "Premium and Ultimate translate live, with Auto-reverse for a two-language conversation and up to 10 spoken languages at once. For the free plan XRAI's pages disagree: the pricing page lists translation between 20 languages, a March 2026 help article says translation is not included.",
+      "sources": [
+        "s2",
+        "s7",
+        "s15",
+        "s20",
+        "s1"
+      ]
+    },
+    "saveTranscripts": {
+      "status": "yes",
+      "text": "History: 1 day free, 30 days Premium",
+      "detail": "When you stop, you choose Keep or Discard; kept conversations are stored on the phone and can be searched. The pricing table lists unlimited history on Ultimate.",
+      "sources": [
+        "s2",
+        "s18",
+        "s11"
+      ]
+    },
+    "export": {
+      "status": "yes",
+      "text": "Email, text or copy",
+      "detail": "XRAI's help centre describes emailing, texting or copying a saved conversation, and the store listings mention sharing audio recordings. Which plan includes export is unclear: the pricing table ticks Premium and Ultimate, the Ultimate card lists it as an Ultimate extra.",
+      "sources": [
+        "s18",
+        "s11",
+        "s2"
+      ]
+    },
+    "fileUpload": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Transcribing an uploaded audio or video file is not described on XRAI's pages.",
+      "sources": [
+        "s3",
+        "s11"
+      ]
+    },
+    "summaries": {
+      "status": "partial",
+      "text": "Paid AI assistant; may need OpenAI key",
+      "detail": "XRAI's app page lists an AI Assistant that summarises conversations and answers questions, as a paid (Pro) feature. An April 2025 help article says it needs a separate OpenAI account, charged per use.",
+      "sources": [
+        "s3",
+        "s11",
+        "s19"
+      ]
+    },
+    "customWords": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No way to add your own words or names is described on XRAI's pages.",
+      "sources": [
+        "s3"
+      ]
+    },
+    "display": {
+      "status": "yes",
+      "text": "Text size, colours, fonts, themes",
+      "detail": "Font size and distance, colours, fonts, spacing, bionic reading and dark or light themes can be changed, and on glasses captions can be pinned and moved. A simpler Basic Mode is also available.",
+      "sources": [
+        "s3",
+        "s29",
+        "s30",
+        "s11"
+      ]
+    },
+    "soundAlerts": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Alerts for sounds other than speech are not described.",
+      "sources": [
+        "s3",
+        "s11"
+      ]
+    },
+    "phoneCalls": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Captioning phone calls is not described on XRAI's current pages.",
+      "sources": [
+        "s3",
+        "s11"
+      ]
+    },
+    "videoCalls": {
+      "status": "partial",
+      "text": "Teams on Windows; page says Coming soon",
+      "detail": "A May 2025 help article explains adding XRAI inside a Microsoft Teams meeting on a Windows PC, but XRAI's Teams page still says Coming soon. Zoom and Google Meet are not mentioned.",
+      "sources": [
+        "s26",
+        "s25"
+      ]
+    },
+    "mediaOnDevice": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "XRAI's TV page for shows and movies says Coming soon. Captioning audio playing on the phone is not described.",
+      "sources": [
+        "s27"
+      ]
+    },
+    "humanCaptioners": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No human captioners are described; captions are automatic.",
+      "sources": [
+        "s3"
+      ]
+    },
+    "signLanguage": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Sign language is not mentioned.",
+      "sources": [
+        "s3"
+      ]
+    },
+    "privacy": {
+      "status": "partial",
+      "text": "On the phone (free), cloud (paid)",
+      "detail": "XRAI's privacy policy (July 2023) says free-plan audio is processed on the phone and deleted after the session unless you turn on audio recording, while paid-plan audio goes to third-party cloud providers. It doesn't say whether audio is used to train AI.",
+      "sources": [
+        "s9",
+        "s16",
+        "s11"
+      ]
+    },
+    "account": {
+      "status": "yes",
+      "text": "Required, with phone number",
+      "detail": "Setup starts with an XRAI account or an Apple, Google, Microsoft or LinkedIn sign-in, then a code sent to your phone number.",
+      "sources": [
+        "s13"
+      ]
+    },
+    "availability": {
+      "status": "partial",
+      "text": "AR2 glasses ship to 13 countries",
+      "detail": "XRAI states no country limits for the app. The AR2 glasses ship to the US, UK, Australia, Canada, Japan, Singapore, South Korea, New Zealand, the UAE, Taiwan, Hong Kong, China and Mexico.",
+      "sources": [
+        "s5"
+      ]
+    },
+    "freePlan": {
+      "status": "yes",
+      "text": "Offline captions, 30 min per conversation",
+      "detail": "Free Essentials includes unlimited offline captioning, up to 30 minutes per conversation and 1 day of history, without speaker identification. XRAI's pages disagree on whether it includes translation and smart glasses.",
+      "sources": [
+        "s2",
+        "s20"
+      ]
+    },
+    "price": {
+      "status": "yes",
+      "text": "Premium US$20/month, Ultimate US$40/month",
+      "detail": "XRAI's pricing page, October 2026: Premium US$20 a month or US$15 a month billed yearly, Ultimate US$40 or US$30 billed yearly; the US App Store lists Premium at US$19.99 a month or US$179.99 a year. The XRAI AR2 glasses cost US$699 with 3,600 pro minutes included.",
+      "sources": [
+        "s2",
+        "s11",
+        "s12",
+        "s5"
+      ]
+    },
+    "accessibilityFunding": {
+      "status": "yes",
+      "text": "UK: Access to Work, DSA",
+      "detail": "XRAI says UK Access to Work can pay for its glasses, subscription and Bluetooth mics for employees, and the Disabled Students' Allowance covers XRAI AR One glasses for eligible students.",
+      "sources": [
+        "s23",
+        "s24"
+      ]
+    }
+  },
+  "strengths": [
+    {
+      "text": "The phone app works without glasses, and the free plan includes unlimited offline captioning.",
+      "sources": [
+        "s22",
+        "s2"
+      ]
+    },
+    {
+      "text": "Captions can show on compatible AR glasses, including XRAI's own AR2 with 8+ hours of battery, right in front of your eyes.",
+      "sources": [
+        "s3",
+        "s4",
+        "s5"
+      ]
+    },
+    {
+      "text": "Group and event tools: Bluetooth and conference microphones, and XRAI Stream to share live captions to other devices on one WiFi network.",
+      "sources": [
+        "s14",
+        "s8"
+      ]
+    },
+    {
+      "text": "Paid plans add speaker identification by name, two-way auto-reverse translation and up to 10 spoken languages at once.",
+      "sources": [
+        "s2",
+        "s15",
+        "s17"
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "text": "The free plan caps each conversation at 30 minutes and keeps history for 1 day.",
+      "sources": [
+        "s2"
+      ]
+    },
+    {
+      "text": "XRAI says free offline transcription is much less accurate than its cloud engines and can invent words that were never spoken.",
+      "sources": [
+        "s20"
+      ]
+    },
+    {
+      "text": "Premium includes 600 pro (cloud) captioning minutes a month, and the cloud engines need an internet connection.",
+      "sources": [
+        "s2",
+        "s16"
+      ]
+    },
+    {
+      "text": "Speaker identification needs a paid plan and a cloud engine that supports it.",
+      "sources": [
+        "s17"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "XRAI Glass | Life. Subtitled (homepage)",
+      "publisher": "XRAI Glass",
+      "url": "https://xrai.glass/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Our AI speech app lets you caption, translate, and see the conversation - all in real-time.",
+        "See who's talking, on your phone or in your smart glasses",
+        "Automatically transcribe up to 10 languages at once",
+        "Registered in the State of Delaware, USA (No. 7078137)"
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Plans & Pricing",
+      "publisher": "XRAI Glass",
+      "url": "https://xrai.glass/pricing/",
+      "type": "pricing",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Unlimited offline captioning",
+        "Translation between 20 languages",
+        "Up to 30 mins per conversation",
+        "600 pro captioning minutes per month",
+        "Desktop app for Windows and Mac",
+        "Pro Minutes let you use our online, cloud-enhanced transcription engines, which deliver our fastest and most accurate captioning, especially in loud or busy environments.",
+        "Our enhanced offline models already achieve 98% accuracy in quiet, one-to-one conversations.",
+        "Unused pro minutes will carry over, so you can use them in the future.",
+        "You’ll need a WiFi connection to take advantage of your pro minutes and access our cloud-enhanced subtitling engines.",
+        "Works with smart glasses (comparison table: ticked for Essentials, Premium and Ultimate; Premium card lists it as an upgrade)",
+        "Max. transcription minutes per conversation: 30 minutes / 60 minutes / Unlimited",
+        "Conversation history: 1 day / 30 days / Unlimited",
+        "Translation minutes (monthly): 200 max. / 600 max.",
+        "Premium $20 / mo (monthly); $15 / mo, Save 25% (annually). Ultimate $40 / mo (monthly); $30 / mo (annually).",
+        "Auto-reverse between two languages (comparison table: ticked for Premium and Ultimate)"
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Caption your conversations (XRAI Glass app)",
+      "publisher": "XRAI Glass",
+      "url": "https://xrai.glass/app/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Go hands-free and connect XRAI Glass with your favourite smart glasses for real-time captioning right in front of your eyes.",
+        "Summarize conversations and ask questions",
+        "Bionic reading options",
+        "Adjustable font scaling and distance",
+        "Dark and light themes",
+        "Pin, move, and adjust 3D captions",
+        "Our Pro and Ultimate plans include access to the following:"
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Compatible AR Glasses",
+      "publisher": "XRAI Glass",
+      "url": "https://xrai.glass/ar-glasses/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Exclusively available in Japan",
+        "Use XRAI Glass with a free account, or unlock more features with a subscription – all compatible across supported devices and smart glasses.",
+        "360ª Microphone for 8+ people",
+        "No – we have several offline subtitling engines that let you transcribe locally on your phone. However, we always recommend using our cloud-enhanced transcription engines for faster and more accurate captioning."
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "XRAI AR2",
+      "publisher": "XRAI Glass",
+      "url": "https://xrai.glass/ar2/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "The world’s first real-time captioning glasses, redesigned. See every word in the conversation, now in over 300+ languages with 8+hrs battery life.",
+        "You’ll receive 3,600 Pro Minutes included with your glasses, and you can use them whenever you like.",
+        "The glasses need to be paired with an iOS or Android phone within Bluetooth range (approximately 10 meters / 32 feet).",
+        "We currently ship to the United States, United Kingdom, Australia, Canada, Japan, Singapore, South Korea, New Zealand, United Arab Emirates, Taiwan, Hong Kong, China, and Mexico.",
+        "Built-in for 360ª voice capture",
+        "$699 (Add to cart)",
+        "3 microphones",
+        "Includes free offline captioning. Forever."
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Platforms & Integrations",
+      "publisher": "XRAI Glass",
+      "url": "https://xrai.glass/platforms/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Download the XRAI Glass® app for free on your iOS devices",
+        "Download the XRAI Glass® app for free on your Android devices",
+        "Download the XRAI Glass® app for free on your Windows device",
+        "Stream real-time subtitles to multiple devices on your local WiFi network"
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "XRAI Babelfish Translation",
+      "publisher": "XRAI Glass",
+      "url": "https://xrai.glass/translation/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Lightning-fast translation bolt-on for over 300+ languages and dialects. Available on iOS, Android, and desktop.",
+        "Cross-translate between two native languages",
+        "Transcribe up to 10 different languages at once"
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "XRAI Stream",
+      "publisher": "XRAI Glass",
+      "url": "https://xrai.glass/stream/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Simply connect your local audio source to a device running XRAI® Stream, then effortlessly share your real-time transcription to other devices on your WiFi network via the XRAI® App.",
+        "Stream real-time lectures and seminars from a bluetooth mic attached to the speaker, in over 300+ languages and dialects."
+      ]
+    },
+    {
+      "id": "s9",
+      "title": "Privacy Policy",
+      "publisher": "XRAI Glass",
+      "url": "https://xrai.glass/privacy/",
+      "type": "privacy",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Last updated: 22 July 2023",
+        "For users subscribing to XRAI Glass’ premium tier (or a trial of the premium tier), Audio Content will be shared with third-party cloud services providers to deliver transcription, translation and personal assistant functionalities.",
+        "Otherwise, all Audio Content is processed locally on a user’s mobile device for the period in which XRAI Glass is open (the “Session”).",
+        "XRAI Limited, a company registered in England and Wales under company number 14164476",
+        "Once a Session has ended, all Audio Content is automatically deleted from a user’s mobile device, if the user has enabled record session audio in the settings, then the audio content will remain on-device."
+      ]
+    },
+    {
+      "id": "s10",
+      "title": "About XRAI Glass",
+      "publisher": "XRAI Glass",
+      "url": "https://xrai.glass/about/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Founded in 2022, XRAI was born out of a desire to positively impact human connection, by enabling people to deeper explore the conversations around them.",
+        "We're fully remote"
+      ]
+    },
+    {
+      "id": "s11",
+      "title": "XRAI Glass on the App Store (US)",
+      "publisher": "Apple App Store",
+      "url": "https://apps.apple.com/us/app/xrai-glass/id6447922836",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "• Identify speakers with diarization (selected providers)",
+        "• Translate between over 140+ languages and dialects",
+        "• Available to use without smart glasses",
+        "• Powered by ChatGPT",
+        "• Share transcripts and audio recordings",
+        "• Search for previous conversations",
+        "• Delete old transcripts",
+        "Built with your privacy in mind - all conversations are stored directly on your phone, and the only person with access to them is you.",
+        "Requires iOS 17.5 or later.",
+        "Requires macOS 14.5 or later and a Mac with Apple M1 chip or later.",
+        "XRAI Premium (Annual) $179.99"
+      ]
+    },
+    {
+      "id": "s12",
+      "title": "XRAI Glass - Apps on Google Play (US)",
+      "publisher": "Google Play",
+      "url": "https://play.google.com/store/apps/details?id=glass.xrai.us.subtitles&hl=en_US&gl=US",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "• Translate between over 140+ languages and dialects",
+        "Download now for free and start subtitling your life, available on Android and iOS.",
+        "$19.99 - $179.99 per item"
+      ]
+    },
+    {
+      "id": "s13",
+      "title": "Setting up the XRAI app (Mar 3, 2025)",
+      "publisher": "XRAI Glass Knowledge Hub",
+      "url": "https://knowledge.xrai.glass/set-up-xrai-app",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Android (Phone/Tablet)- version 11 or newer",
+        "You will then see the option to sign up with an XRAI account, or sign in with a social account.",
+        "If you already have one of the following identities, you can use it with XRAI Glass®: Apple, Google, Microsoft (personal account), LinkedIn, Microsoft 365 (business account)",
+        "enter your phone number (without the country code and without the preceding 0)"
+      ]
+    },
+    {
+      "id": "s14",
+      "title": "Audio source options (Feb 27, 2024)",
+      "publisher": "XRAI Glass Knowledge Hub",
+      "url": "https://knowledge.xrai.glass/microphone-options",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Speakerphone microphone (Android only)",
+        "Place the phone in the middle of the table to capture the speakers conversing around the table or hold it in between a group of speakers.",
+        "The conference speaker is equipped with a multi-microphone array that allows the app to connect wirelessly.",
+        "This option is best suited for situations where you are walking alongside the person you are talking to, with your phone in your pocket."
+      ]
+    },
+    {
+      "id": "s15",
+      "title": "How to translate with XRAI (Sep 3, 2024)",
+      "publisher": "XRAI Glass Knowledge Hub",
+      "url": "https://knowledge.xrai.glass/how-to-translate",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Note that you can select up to 10 languages to be spoken at the same time.",
+        "Auto Reverse: This option will automatically translate English into Spanish and Spanish into English in real-time, allowing you to have a bilingual conversation without interruptions."
+      ]
+    },
+    {
+      "id": "s16",
+      "title": "What is cloud-enhanced transcription? (Aug 27, 2024)",
+      "publisher": "XRAI Glass Knowledge Hub",
+      "url": "https://knowledge.xrai.glass/cloud-enhanced-engines",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "XRAI Glass® utilizes cloud-based providers to power its transcription and translation services.",
+        "Our current cloud-enhanced transcription partners are:",
+        "Amazon Web Services (AWS) (Cloud-based transcription and translation)",
+        "It is important to note that an internet connection is required for these cloud providers to transcribe or translate."
+      ]
+    },
+    {
+      "id": "s17",
+      "title": "How to activate speaker identification (Apr 19, 2025)",
+      "publisher": "XRAI Glass Knowledge Hub",
+      "url": "https://knowledge.xrai.glass/speaker-identifcation",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Please note: speaker identification is not available with XRAI Essentials and required Cloud-enhanced transcription. Not all cloud transcription engines support speaker identification.",
+        "To associate an actual name with the speaker, have each person say exactly, without pausing \"Hey XRAI, my name is [...]\""
+      ]
+    },
+    {
+      "id": "s18",
+      "title": "How to save and share your conversation (Sep 19, 2024)",
+      "publisher": "XRAI Glass Knowledge Hub",
+      "url": "https://knowledge.xrai.glass/save-my-conversation",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "When you stop the conversation, XRAI will ask you to either cancel to resume subtitling, discard, or keep.",
+        "You can choose to email or text it to someone, or simply just copy it into any other document (e.g. Notes, Google Docs, etc.)."
+      ]
+    },
+    {
+      "id": "s19",
+      "title": "Setting up your AI Assistant (Apr 19, 2025)",
+      "publisher": "XRAI Glass Knowledge Hub",
+      "url": "https://knowledge.xrai.glass/setup-assistant",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Please Note: A separate OpenAI subscription is required to use this service. There is no monthly fee, you will just be charged some fraction of a cent each time you use it."
+      ]
+    },
+    {
+      "id": "s20",
+      "title": "Switch to free offline transcription with XRAI Glass Essentials (Android) (Mar 31, 2026)",
+      "publisher": "XRAI Glass Knowledge Hub",
+      "url": "https://knowledge.xrai.glass/switch-to-free-transcription-with-xrai-glass-essentials",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Please note: translation is not included within XRAI Essentials. To use translation, you will need to purchase pro minutes.",
+        "You can choose from NVIDIA and Alibaba as your transcription provider.",
+        "Please Note: free transcription on your phone is dramatically less accurate that transcription in the cloud with pro minutes.",
+        "In can sometimes invent words that were never spoken."
+      ]
+    },
+    {
+      "id": "s21",
+      "title": "Switch to free offline transcription with XRAI Glass Essentials (iOS) (Mar 31, 2026)",
+      "publisher": "XRAI Glass Knowledge Hub",
+      "url": "https://knowledge.xrai.glass/switch-to-free-transcription-with-xrai-glass-essentials-0",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Then select Apple as your transcription provider."
+      ]
+    },
+    {
+      "id": "s22",
+      "title": "Do I need a set of AR glasses to use XRAI Glass? (Feb 20, 2024)",
+      "publisher": "XRAI Glass Knowledge Hub",
+      "url": "https://knowledge.xrai.glass/need-ar-glasses",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "You can experience XRAI Glass without the need for AR glasses by downloading the free basic mode app on iOS and Android devices."
+      ]
+    },
+    {
+      "id": "s23",
+      "title": "UK Employees: Access-to-Work (Mar 27, 2025)",
+      "publisher": "XRAI Glass Knowledge Hub",
+      "url": "https://knowledge.xrai.glass/uk-employees-access-to-work",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Access-to-Work is a UK government-funded programme run by the Department for Work and Pensions (DWP) that helps individuals with disabilities start or remain in employment.",
+        "XRAI Subscription (captioning service)"
+      ]
+    },
+    {
+      "id": "s24",
+      "title": "UK Students: Disabled Students' Allowance (Mar 25, 2025)",
+      "publisher": "XRAI Glass Knowledge Hub",
+      "url": "https://knowledge.xrai.glass/disabled-students-allowance",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "DSA covers assistive technologies, such as the XRAI AR One smart glasses."
+      ]
+    },
+    {
+      "id": "s25",
+      "title": "XRAI for Microsoft Teams",
+      "publisher": "XRAI Glass",
+      "url": "https://xrai.glass/platforms/microsoft-teams/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Coming soon!",
+        "Get the XRAI Glass® experience on Microsoft Teams and discover faster, more accurate captioning for your team calls and meetings."
+      ]
+    },
+    {
+      "id": "s26",
+      "title": "Using XRAI for Microsoft Teams (May 25, 2025)",
+      "publisher": "XRAI Glass Knowledge Hub",
+      "url": "https://knowledge.xrai.glass/using-xrai-for-microsoft-teams",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Make sure that XRAI is running on your PC.",
+        "Search XRAI and then click XRAI Translation:"
+      ]
+    },
+    {
+      "id": "s27",
+      "title": "XRAI for television (TV)",
+      "publisher": "XRAI Glass",
+      "url": "https://xrai.glass/platforms/tv/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Coming soon!",
+        "Get the XRAI Glass® experience on your TV and discover faster, more accurate captioning for your shows and movies."
+      ]
+    },
+    {
+      "id": "s28",
+      "title": "Sales & Returns",
+      "publisher": "XRAI Glass",
+      "url": "https://xrai.glass/sales-and-returns/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "We offer a 14-day return policy for all customers globally, subject to the conditions below.",
+        "Subscription and software services are covered under our Terms of Service and are non-refundable unless otherwise required by law or specified in your service contract."
+      ]
+    },
+    {
+      "id": "s29",
+      "title": "What is XRAI? (Aug 23, 2024)",
+      "publisher": "XRAI Glass Knowledge Hub",
+      "url": "https://knowledge.xrai.glass/what-is-xrai",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Personalize the appearance of subtitles to align with your preferences in colors, fonts, and spacing by accessing the quick settings menu."
+      ]
+    },
+    {
+      "id": "s30",
+      "title": "How to enable basic mode (Jun 23, 2026)",
+      "publisher": "XRAI Glass Knowledge Hub",
+      "url": "https://knowledge.xrai.glass/basic-mode",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Basic Mode simplifies the XRAI Glass app by focusing on the most essential features, making it easier to navigate and use."
+      ]
+    }
+  ],
+  "notes": "The XRAI pricing page (re-read 2026-10-28) contradicts itself: the Premium card says 'Unlimited conversation length' but the table says 60 minutes; the Ultimate card says 'Unlimited online captioning' but the table says 'Unlimited + 1,800 pro'; the Premium card lists 'Works with smart glasses' as an upgrade while the table ticks it for free Essentials too; the Ultimate card lists export as an Ultimate extra while the table ticks it for Premium too; the FAQ says unused pro minutes carry over while the table ticks rollover only for one plan; the free card says 'Translation between 20 languages' while the table gives Essentials no translation minutes and the help centre (31 Mar 2026) says translation is not included in Essentials. Only what the pages agree on is in a cell's text; the rest is in detail. Language counts differ: pricing table 20/300 languages and dialects, store listings 140+ for translation. Accuracy claims differ (98% offline in quiet one-to-one talk in the FAQ, >75% in the table, 'dramatically less accurate' in the help centre), so no accuracy figure is used. Website prices show '$' with no country; read as USD (they match the US App Store: $19.99 monthly, $179.99 annual). The App Store also lists 'XRAI Premium (6 Months) $179.99' and top-up packs. AR2 is $699 on the AR2 page but £699 on the glasses comparison page. A free trial is only mentioned in the privacy policy, with no length. Glasses have a 14-day return policy; subscriptions are non-refundable unless the law requires otherwise (s28). The AI assistant guide (April 2025) says users need their own OpenAI account; the app page marks AI Assistant as Pro, so it is unclear whether a key is still needed. Microsoft Teams: the platform page says 'Coming soon!' but a May 2025 help article explains how to use it. Device requirements: an older help article says iPhone/iPad 13.7 or later, the App Store says iOS 17.5 or later (store used). Company: App Store seller 'XRAI INC (NY)', Google Play developer 'Xrai Inc' (New York address), website footer 'XRAI Inc. Registered in the State of Delaware, USA', privacy policy names 'XRAI Limited' (England and Wales); the About page says the team is fully remote. The privacy policy dates from 22 July 2023 and does not mention AI training. A second, older Google Play listing exists (glass.xrai.captions); xrai.glass download links point to glass.xrai.us.subtitles. Phone-call captions appear only in 2022 press coverage, which was not used. Google Play pages were read by downloading the page HTML."
+}
