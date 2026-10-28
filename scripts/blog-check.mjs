@@ -255,6 +255,30 @@ async function checkPost(slug) {
     }
   }
 
+  // Images (search checklist, 2026-10-28): real files from /public with real alt text
+  const images = [...body.matchAll(/!\[([^\]]*)\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g)].map((m) => ({ alt: m[1].trim(), src: m[2] }));
+  const pubDay = data.published instanceof Date ? data.published.toISOString().slice(0, 10) : String(data.published ?? "");
+  const imgRequired = pubDay >= "2026-10-28";
+  const imgMsg = `${images.length} images (at least 1 required, aim for 3)`;
+  if (images.length < 1) (imgRequired ? errors : warnings).push(imgMsg);
+  else if (images.length < 3) warnings.push(imgMsg);
+  for (const im of images) {
+    const aw = words(im.alt);
+    if (aw < 6 || aw > 30) errors.push(`image alt text "${im.alt.slice(0, 40)}…" is ${aw} words (6–30, describe what the image shows)`);
+    if (/^(image|picture|photo|screenshot)\b/i.test(im.alt)) warnings.push(`alt text starts with "${im.alt.split(" ")[0]}": say what it shows`);
+    if (/^https?:\/\//.test(im.src)) errors.push(`image ${im.src} must be a file in /public, not a hotlink`);
+    else if (!fs.existsSync(path.join(ROOT, "public", im.src))) errors.push(`image ${im.src} is not in /public`);
+  }
+
+  // Semantic keywords: the tags are the search phrases; each should appear in the text
+  const tagList = Array.isArray(data.tags) ? data.tags.map(String) : [];
+  if (tagList.length < 3 || tagList.length > 6) errors.push(`${tagList.length} tags (3–6 search phrases)`);
+  const hay = (title + " " + String(data.description ?? "") + " " + answer + " " + body).toLowerCase();
+  for (const t of tagList) {
+    const parts = t.toLowerCase().split(/\s+/).filter((w) => w.length > 3 && !STOP.has(w));
+    if (parts.length && !parts.some((w) => hay.includes(w.replace(/s$/, "")))) warnings.push(`tag "${t}" never appears in the text`);
+  }
+
   // Words and brand
   const text = [title, desc, answer, content, ...faqs.flatMap((f) => [f?.q, f?.a]), ...keyFacts.map((k) => k?.label)].join("\n");
   const lower = text.toLowerCase();
@@ -315,7 +339,9 @@ async function checkPost(slug) {
     });
   }
 
-  return { errors, warnings, stats: { words: bw, sources: sources.length, faqs: faqs.length, internal: internal.length, h2: h2s.length } };
+  const externalCount = new Set([...sources.map((x) => x?.url).filter(Boolean), ...[...content.matchAll(/\]\((https?:\/\/[^)\s]+)\)/g)].map((m) => m[1])]).size;
+  if (externalCount < 4) errors.push(`${externalCount} external links (sources count; at least 4)`);
+  return { errors, warnings, stats: { words: bw, images: images.length, external: externalCount, sources: sources.length, faqs: faqs.length, internal: internal.length, h2: h2s.length } };
 }
 
 // ── topics.json must stay valid ─────────────────────────────────────────────
@@ -349,7 +375,7 @@ let failed = globalErrors.length > 0;
 for (const e of globalErrors) console.log(`✗ ${e}`);
 for (const slug of slugs) {
   const { errors, warnings, stats } = await checkPost(slug);
-  const head = stats ? ` (${stats.words} words, ${stats.h2} sections, ${stats.sources} sources, ${stats.faqs} FAQs, ${stats.internal} internal links)` : "";
+  const head = stats ? ` (${stats.words} words, ${stats.h2} sections, ${stats.sources} sources, ${stats.faqs} FAQs, ${stats.internal} internal links, ${stats.external} external, ${stats.images} images)` : "";
   console.log(`\n${errors.length ? "✗" : "✓"} ${slug}${head}`);
   for (const e of errors) console.log(`  error    ${e}`);
   for (const w of warnings) console.log(`  warning  ${w}`);

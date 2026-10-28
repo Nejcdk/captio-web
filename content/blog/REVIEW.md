@@ -33,6 +33,10 @@ Inputs the reviewer gets: the article file path, the topic entry from `topics.js
    - Every internal link in the article returns 200 on the local server.
 4. If a browser is available: open the article at 375 px wide and 1280 px wide; no horizontal scroll, tables scroll inside their box, nothing overlaps.
 
+5. **Images and alt text:** at least 1 image, aim for 3. Open each image file (Read it): it is a real image (product screenshot or a chart from cited data), it matches the topic, the alt text says what it actually shows, and demo data is captioned as sample content. FAIL on stock people photos, invented UI, or alt text that is empty, generic ("image of app") or wrong.
+6. **Plagiarism check:** take 5 distinctive sentences from the body and search each in quotation marks (WebSearch). Any near-verbatim match on another page is a FAIL (quotes under 25 words with attribution and citation are fine). Record the 5 sentences and the result in the report.
+7. **Search checklist (PLAYBOOK section 12):** answer-first, at least 4 cited sources and 4 external links, 3 to 10 internal links, tags appear in the text, meta tags in range, JSON-LD parses (BlogPosting, FAQPage, BreadcrumbList).
+
 ## C. Will it genuinely help (SEO and GEO)?
 
 Search the topic's `query` (and one natural variant) now. Open the top 5 results and, where possible, ask an AI search engine the question. Then score the article 1–5 on each line, with one sentence of evidence each:
@@ -48,7 +52,7 @@ Search the topic's `query` (and one natural variant) now. Open the top 5 results
 | Fit with the site | One clear query, not already answered by another article (no cannibalisation), 3–8 relevant internal links, leads naturally to a Captio AI use case without forcing it. |
 | Reader value | A deaf or hard of hearing reader, or their family, would be glad they found it and could act on it. |
 
-**PASS needs:** every check in A and B passed, no score below 3, Information gain at least 4, and an average of at least 4. Otherwise FAIL with the exact changes that would raise the scores.
+**PASS needs:** every check in A and B passed (including images, plagiarism and the search checklist), no score below 3, Information gain at least 4, and an average of at least 4. Otherwise FAIL with the exact changes that would raise the scores.
 
 Also say, in one line, whether publishing this article could hurt the site (thin, duplicate, misleading, off-brand). If yes, FAIL.
 

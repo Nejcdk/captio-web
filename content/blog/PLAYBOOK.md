@@ -52,7 +52,7 @@ sources:                    # numbered in this order; cite as [1], [2] in the bo
 ---
 ```
 
-Body: Markdown. `##` and `###` headings, paragraphs, lists, tables, `>` quotes from sources. Write citations as `[n]` after the claim, before the full stop: `one in five people [1].` Internal links are relative: `[doctor's appointment](/use-cases/doctor-appointments)`. No images, no HTML, no H1 (the title is the H1).
+Body: Markdown. `##` and `###` headings, paragraphs, lists, tables, `>` quotes from sources. Write citations as `[n]` after the claim, before the full stop: `one in five people [1].` Internal links are relative: `[doctor's appointment](/use-cases/doctor-appointments)`. Images as `![alt text](/file.png "optional caption")` (see section 12). No HTML, no H1 (the title is the H1).
 
 What the page shows above the body: title, description, byline, the Short answer box, the key facts. Below it: a Captio AI box, the FAQ and the sources. So the body must not repeat the FAQ or end with a sources list.
 
@@ -168,3 +168,20 @@ New app features enter through the new-version check (DAILY.md step 1) as `prior
 ## 11. Updating articles
 
 If you notice during research that an older article has a number that changed, a price that changed or a broken source, fix it in the same run, bump its `updated` date, and say so in the run log. Never change a published fact without a new source.
+
+## 12. Optimized for search: the checklist every article meets (Nejc, 2026-10-28)
+
+Every article is optimized for Google and AI search so it can rank and be cited. `npm run blog:check` enforces what a script can; the reviewer (REVIEW.md) checks the rest.
+
+- **Answer-first writing:** the `answer` box and the first paragraph answer the title (6.1); each `##` opens with its answer (6.2).
+- **Credible sources, cited:** primary sources only, every number carries `[n]`, at least 4 sources (section 5).
+- **Optimal structure:** question headings, a table where the template asks for one, FAQ with FAQPage schema (the site generates it), key facts.
+- **Internal links:** 3 to 10, to use case, feature, language and earlier blog pages (section 7).
+- **External links:** at least 4, all to the sources opened in this run; more when the topic has them (the target is a source-rich article, 10 or more for data and comparison articles).
+- **Statistics data points:** concrete numbers with year, country and source in the answer, key facts, a table and the body.
+- **Images with alt text:** at least 1, aim for 3 per article. Only real images: files already in `public/` (the product screenshots `*_mockup_*.png`, the QR codes) or a chart or table-as-image made from data cited in the article. Never stock photos of people, never invented screenshots or fake UI, never hotlinked. Alt text is 6 to 30 words and says what the image shows and why it matters to the reader, in plain words, with the topic's natural keyword when it fits ("Captio AI Folders tab on iPhone showing a Lectures and a Weekly sync folder"). A caption (the quoted title) says what the image is, and says "sample content" for demo data. If no real image fits, use the closest product screenshot of the feature the article mentions.
+- **Semantic keywords:** `tags` are 3 to 6 real search phrases; the main query and its natural variants and related terms (the other words people use for the same thing: "transcript", "notes", "captions", "recording") appear in the title, the answer, the headings and the body without stuffing. The check warns when a tag never appears.
+- **Optimized meta tags:** title 30 to 70 characters with the query, description 110 to 160 characters with a fact, one canonical per article (the site sets canonical, Open Graph and Twitter tags from these).
+- **JSON-LD schema:** the site emits BlogPosting, FAQPage and BreadcrumbList from the frontmatter; the reviewer confirms they parse.
+- **Plagiarism check:** write every sentence in your own words. Quotes are under 25 words, in `>` or quotation marks, attributed and cited. The reviewer searches 5 distinctive sentences from the article in quotation marks (WebSearch) and fails the article if any matches another page.
+- **Length:** the minimum per template is enforced; 1,500 to 2,300 words of body is the target for guides, comparisons and data articles when the sources support it. Never pad.

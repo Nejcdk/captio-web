@@ -132,6 +132,10 @@ function blogRenderer(nextId: (text: string) => string) {
     table(this: Renderer, token: Tokens.Table): string {
       return `<div class="table-wrap">${Renderer.prototype.table.call(this, token)}</div>\n`;
     },
+    image(this: Renderer, token: Tokens.Image): string {
+      const caption = token.title ? `<figcaption>${escapeAttr(token.title)}</figcaption>` : "";
+      return `<figure class="blog-figure"><img src="${escapeAttr(token.href)}" alt="${escapeAttr(token.text)}" loading="lazy" decoding="async" />${caption}</figure>\n`;
+    },
     link(this: Renderer, token: Tokens.Link): string {
       const inner = this.parser.parseInline(token.tokens);
       const external = /^https?:\/\//.test(token.href) && !token.href.startsWith(SITE_URL);

@@ -38,7 +38,7 @@ It returns a priority topic if there is one, otherwise the first queued topic th
 - If fewer than 14 topics are queued, run `npm run blog:coverage`, then add 20 topics (PLAYBOOK section 10), gaps first.
 
 ## 3. Research and write
-Follow PLAYBOOK sections 3 to 9. Write `content/blog/posts/<slug>.md` with `published` and `updated` set to today. Keep your research notes (each claim with its source quote) so you can fix review findings quickly, but don't give them to the reviewer.
+Follow PLAYBOOK sections 3 to 9 and the search checklist in section 12 (images with alt text, 4+ external links, semantic keywords, plagiarism-safe wording). Write `content/blog/posts/<slug>.md` with `published` and `updated` set to today. Keep your research notes (each claim with its source quote) so you can fix review findings quickly, but don't give them to the reviewer.
 
 **Sundays:** also refresh one older article. Pick the one with the oldest `updated` date (at least 60 days old), recheck its numbers, prices and links, fix what changed and bump `updated`. It goes through step 4 and the review like a new article.
 

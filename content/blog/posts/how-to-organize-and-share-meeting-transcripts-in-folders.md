@@ -55,6 +55,8 @@ Folders turn a pile of recordings into something you can find again. A shared fo
 
 ## How do you organize recordings in folders?
 
+![Captio AI Folders tab on iPhone showing six folders: Weekly sync, Lectures, Doctor, Family and two more, each with its recording count](/FO_mockup_1.png "The Folders tab in Captio AI on iPhone, with sample folders")
+
 Captio AI on iPhone keeps folders on a Folders tab, where you sort saved recordings into the folder they belong to. One folder per meeting series, course or appointment type is enough to start.
 
 - **Meetings:** one folder per team or project, for example "Weekly team meeting".
@@ -63,9 +65,13 @@ Captio AI on iPhone keeps folders on a Folders tab, where you sort saved recordi
 
 You do not have to sort by hand. When a recording is saved, the app can suggest a folder and asks first. Nothing moves without your yes. A folder can also record, translate or upload straight into itself, so a recording started from the lectures folder lands in the lectures folder.
 
+![Captio AI card on iPhone asking Save to Lectures? for a biology lecture recording, with the buttons Save to folder, Choose another folder and No thanks](/FO_mockup_2.png "Captio AI asks before it moves a recording into a suggested folder")
+
 ## How do you share a folder of meeting transcripts?
 
 You invite people to a Captio AI folder with a link or a code. Everyone who joins sees every recording in the folder and can add their own. That fits a team meeting where each person records on their own phone, and a lecture series where one student records and the rest read along.
+
+![Captio AI shared folder called Weekly sync on iPhone listing six recordings made by different people, with an Add members button](/FO_mockup_3.png "A shared Weekly sync folder with recordings from several people (sample content)")
 
 Two rules keep a shared folder tidy:
 
