@@ -65,29 +65,26 @@ const mainFeatures = [
   },
 ];
 
-// Live in the App Store: Recognize voices since 1.1.3, Speaker direction since
-// 1.1.4. Recognize sounds ships with 1.1.5: drop its `soon` once 1.1.5 is live.
+// Recognize voices (1.1.3), Speaker direction (1.1.4), Recognize sounds (1.1.5;
+// Nejc 2026-10-28: shown as a feature that exists, no "next update" tag).
 const awareness = [
   {
     Mock: VoicesMock,
     title: "Knows who is talking",
     description: "Save a person's voice once, from about 20 seconds of them talking, and captions show their name instead of \"Speaker 2\", live and in saved recordings. Voices are made and kept on the phone.",
     where: "iPhone",
-    soon: false,
   },
   {
     Mock: DirectionMock,
     title: "Shows where the voice is",
     description: "Waves at the edge of the screen show which side a voice is coming from, in that speaker's colour, so they know where to look in a busy room.",
     where: "iPhone 16 and later",
-    soon: false,
   },
   {
     Mock: SoundsMock,
     title: "Hears the sounds around them",
     description: "Sounds show up in the captions the way film subtitles do it. A doorbell, an alarm or a crying baby also makes the phone vibrate.",
     where: "iPhone and iPad",
-    soon: true,
   },
 ];
 
@@ -133,7 +130,7 @@ const dataFacts = [
 const faqs = [
   {
     q: "What is Captio AI?",
-    a: "An app for iPhone and Android that shows what people say as text, the moment they say it, in 60+ languages. Deaf and hard of hearing people use it in person, wherever they need captions: they open it, tap the microphone and read along. It can also translate, tell speakers apart and call people it knows by name, show where a voice is coming from (iPhone 16 and later), and save and summarise what was said.",
+    a: "An app for iPhone and Android that shows what people say as text, the moment they say it, in 60+ languages. Deaf and hard of hearing people use it in person, wherever they need captions: they open it, tap the microphone and read along. It can also translate, tell speakers apart and call people it knows by name, show where a voice is coming from (iPhone 16 and later), write sounds like a doorbell or an alarm into the captions, and save and summarise what was said.",
   },
   {
     q: "Who is Captio AI for Organizations for?",
@@ -324,16 +321,13 @@ export default function OrganizationsPage() {
               subtitle="Who is talking, where they are and what else is going on: the things that matter when you can't hear the room."
             />
             <div className="grid sm:grid-cols-3 gap-5">
-              {awareness.map(({ Mock, title, description, where, soon }) => (
+              {awareness.map(({ Mock, title, description, where }) => (
                 <div key={title} className="rounded-xl border border-gray-200 bg-white p-5 flex flex-col gap-4">
                   <div className="rounded-[10px] bg-gray-50 p-4 min-h-[150px] flex flex-col justify-center">
                     <Mock />
                   </div>
                   <div>
-                    <h3 className="font-bold text-gray-900 text-lg flex flex-wrap items-center gap-2">
-                      {title}
-                      {soon && <span className="rounded-[6px] bg-cta/10 px-2 py-0.5 text-[11px] font-bold uppercase tracking-wide text-cta">Next update</span>}
-                    </h3>
+                    <h3 className="font-bold text-gray-900 text-lg">{title}</h3>
                     <p className="mt-1.5 text-sm text-gray-500 leading-relaxed">{description}</p>
                     <p className="mt-2 text-xs font-semibold text-brand">{where}</p>
                   </div>
