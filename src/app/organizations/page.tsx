@@ -1,27 +1,31 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import Header from "@/components/Header";
-import BackButton from "@/components/BackButton";
 import Footer from "@/components/Footer";
 import FaqAccordion from "@/components/FaqAccordion";
 import { PilotForm } from "./PilotForm";
+import { PhoneVideo } from "./PhoneVideo";
 
 import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbSchema } from "@/lib/schema";
 
-// Captio AI for Organizations: yearly per-person licenses, paid by invoice, for
-// any organization that pays for captioning on someone's behalf. Nejc
-// 2026-10-27: meant for any organization, never "students" or "staff".
-// Prices and the pilot are decided in the app repo: tools/organizations/PLAN.md.
-// Never name the speech provider here (business secret); /privacy lists them.
+// Captio AI for Organizations: a landing page of its own for people who have
+// never heard of the app (Nejc 2026-10-28): its own header (logo + "for
+// Organizations" + one button, no site menu), what Captio AI is in one
+// sentence with the real app playing next to it, three short videos of what
+// it does, why organizations buy it, the pilot form, prices, data, FAQ.
+// Yearly per-person licenses, paid by invoice, for any organization that pays
+// for captioning on someone's behalf (Nejc 2026-10-27: never "students" or
+// "staff"). Prices and the pilot: app repo tools/organizations/PLAN.md. Never
+// name the speech provider here (business secret); /privacy lists them.
 // The pilot starts from the form (PilotForm.tsx): the link to forward is
-// emailed at once, people join at /o/<code> (src/app/o/[code]).
+// emailed at once, people join at /o/<code> (src/app/o/[code]). Videos: the
+// app's onboarding loops in public/organizations (PhoneVideo.tsx).
 
 const PILOT_ANCHOR = "#pilot";
 const QUOTE_MAILTO = "mailto:hello@captioai.app?subject=Captio%20AI%20quote";
 
 const DESCRIPTION =
-  "Yearly Captio AI licenses for the deaf and hard of hearing people in your organization, paid by invoice. Live captions on their own phone, in 60+ languages. Free 30-day pilot.";
+  "Captio AI shows deaf and hard of hearing people live captions on their own phone, in person, in 60+ languages. Yearly licenses for your organization, paid by invoice. Free 30-day pilot.";
 
 export const metadata: Metadata = {
   title: "Live Captions for Organizations",
@@ -35,6 +39,34 @@ export const metadata: Metadata = {
     images: ["/opengraph-image"],
   },
 };
+
+const facts = ["iPhone and Android", "60+ languages", "Stored in the EU"];
+
+// The hero shows live captions; these are what comes with them.
+const whatItDoes = [
+  {
+    video: "translate",
+    title: "Live translation",
+    description: "When someone speaks another language, the captions show what was said and its translation, side by side.",
+  },
+  {
+    video: "summary",
+    title: "Saved and summarised",
+    description: "Keep any conversation, find a word in it later, and get an AI summary with what was decided and what's next.",
+  },
+  {
+    video: "upload",
+    title: "Recordings and files",
+    description: "Everything kept in one place on their phone. An audio or video file becomes a transcript too.",
+  },
+];
+
+const reasons = [
+  { icon: "⚡", title: "Ready the moment it's needed", description: "No booking a captioner in advance. Captions start with one tap, wherever the person is." },
+  { icon: "📱", title: "On their own phone", description: "iPhone or Android. Nothing for your IT team to install and no hardware to hand out." },
+  { icon: "🔒", title: "Private by design", description: "Stored in the EU. Audio isn't kept on our servers, and nothing is ever used to train AI." },
+  { icon: "🧾", title: "Simple to buy", description: "One price per person per year, by invoice. No minimum, no setup fee, nothing renews by itself." },
+];
 
 const plans = [
   { people: "1 to 19 people", gbp: "£89", eur: "€99", usd: "$109" },
@@ -52,14 +84,6 @@ const included = [
   "No minimum, no setup fee, no auto-renewal",
 ];
 
-const personGets = [
-  { title: "Unlimited live captions", description: "Speech turns into text on their own phone while the person is still speaking, in person, wherever they need captions." },
-  { title: "Live translation", description: "Captions in their own language while someone speaks another, for people working in a second language." },
-  { title: "60+ languages", description: "Including people who switch languages mid-sentence, with regional accents and dialects." },
-  { title: "Knows who is talking", description: "Each speaker gets their own label, and people they name once are recognised by voice." },
-  { title: "Saved, searchable transcripts", description: "Keep a session, find a word in it later, and get an AI summary of it." },
-  { title: "Recordings and files", description: "Upload an audio or video file and get a transcript of it." },
-];
 
 const pilotSteps = [
   { number: "1", title: "Get your pilot link", description: "Fill in the form below. The link arrives in your inbox within a minute, with a message ready to forward." },
@@ -77,6 +101,10 @@ const dataFacts = [
 ];
 
 const faqs = [
+  {
+    q: "What is Captio AI?",
+    a: "An app for iPhone and Android that shows what people say as text, the moment they say it, in 60+ languages. Deaf and hard of hearing people use it in person, wherever they need captions: they open it, tap the microphone and read along. It can also translate, tell speakers apart, and save and summarise what was said.",
+  },
   {
     q: "Who is Captio AI for Organizations for?",
     a: "Any organization that pays for captioning on behalf of deaf and hard of hearing people. Each person gets Captio AI Plus on their own phone for a year, and the organization pays one invoice.",
@@ -179,40 +207,118 @@ export default function OrganizationsPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaOrg) }} />
       <main>
-        <Header />
-
-        {/* ── Nav bar ── */}
-        <div className="px-6 pt-6 pb-3 sm:pt-10 bg-white">
-          <div className="max-w-6xl mx-auto flex items-center justify-center gap-4">
-            <BackButton label="Back" />
-            <span className="text-sm font-medium text-gray-500">For organizations</span>
-          </div>
+        {/* ── Its own header: no site menu, one way forward ── */}
+        <div className="px-4 pt-4">
+          <header className="max-w-6xl mx-auto bg-brand rounded-xl px-4 sm:px-5 h-14 sm:h-16 flex items-center justify-between gap-3">
+            <Link href="/" className="flex items-center gap-2 min-w-0">
+              <Image src="/logo_image_profile.png" alt="" width={40} height={40} className="rounded-full w-9 h-9 sm:w-10 sm:h-10" priority />
+              <Image src="/logo_text.png" alt="Captio AI" width={110} height={30} className="w-[92px] sm:w-[110px] h-auto" priority />
+              <span className="hidden sm:inline text-sm font-semibold text-white/80 border-l border-white/30 pl-3 ml-1 whitespace-nowrap">for Organizations</span>
+            </Link>
+            <a
+              href={PILOT_ANCHOR}
+              className="shrink-0 inline-flex items-center justify-center rounded-[8px] bg-white px-4 py-2.5 text-sm font-semibold text-brand transition-colors hover:bg-white/90 sm:px-5"
+            >
+              Start a free pilot
+            </a>
+          </header>
         </div>
 
-        {/* ── Hero ── */}
-        <section className="pt-2 pb-12 sm:pt-4 sm:pb-16 px-5 bg-white">
-          <div className="max-w-3xl mx-auto flex flex-col items-center text-center gap-4 sm:gap-6">
-            <span className="text-[11px] font-bold text-brand uppercase tracking-widest">🏢 For organizations</span>
-            <h1 className="text-[2.2rem] leading-[1.15] sm:text-[3.4rem] font-bold text-gray-900 tracking-tight">
-              Live captions for the{" "}
-              <span className="underline decoration-brand decoration-4 underline-offset-4">deaf and hard of hearing</span>{" "}
-              people in your organization
-            </h1>
-            <p className="text-base sm:text-lg text-gray-500 max-w-xl leading-relaxed">
-              Captio AI on their own phone, in person, wherever they need captions. One yearly license per person, paid by invoice.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
-              <MailButton href={PILOT_ANCHOR}>Start a free pilot</MailButton>
+        {/* ── Hero: what it is, and the real app working ── */}
+        <section className="px-5 pt-8 pb-12 sm:pt-14 sm:pb-16">
+          {/* Phones: headline, then the app playing, then the words (the text
+              column is "contents" there, so its children and the video share one
+              ordered column). Desktop: text left, video right. */}
+          <div className="max-w-6xl mx-auto flex flex-col items-center text-center gap-5 lg:grid lg:grid-cols-[minmax(0,7fr)_minmax(0,5fr)] lg:gap-12 lg:text-left">
+            <div className="contents lg:flex lg:flex-col lg:items-start lg:gap-5">
+              <span className="order-1 text-[11px] font-bold text-brand uppercase tracking-widest">🏢 Captio AI for Organizations</span>
+              <h1 className="order-2 text-[2.3rem] leading-[1.12] sm:text-[3.3rem] font-bold text-gray-900 tracking-tight">
+                Live captions on their phone, the moment people{" "}
+                <span className="underline decoration-brand decoration-4 underline-offset-4">speak</span>
+              </h1>
+              <p className="order-4 text-base sm:text-lg text-gray-600 max-w-xl leading-relaxed">
+                Captio AI is an app for deaf and hard of hearing people. It listens and shows what&rsquo;s said as text, in person, in 60+ languages. Give it to the people in your organization who need it: one yearly license each, paid by invoice.
+              </p>
+              <div className="order-5 flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
+                <MailButton href={PILOT_ANCHOR}>Start a free pilot</MailButton>
+                <MailButton href="#how" kind="outline">See how it works</MailButton>
+              </div>
+              <p className="order-6 text-xs text-gray-500 -mt-1">Free for 30 days, up to 5 people. Nothing to pay, nothing to sign.</p>
+              <ul className="order-7 flex flex-wrap justify-center lg:justify-start gap-2">
+                {facts.map((f) => (
+                  <li key={f} className="flex items-center gap-1.5 rounded-[8px] bg-brand-light px-3 py-1.5 text-xs font-semibold text-brand">
+                    <Check className="text-brand" />
+                    {f}
+                  </li>
+                ))}
+              </ul>
             </div>
-            <p className="text-xs text-gray-400">Free for 30 days, up to 5 people. Nothing to pay, nothing to sign.</p>
-            <Image
-              src="/mockup_app.png"
-              alt="Captio AI showing live captions and a saved transcript with its summary"
-              width={895}
-              height={1024}
-              className="w-[260px] sm:w-[340px] h-auto mx-auto mt-4 sm:mt-6 drop-shadow-2xl"
-              priority
+            <div className="order-3 lg:order-none relative mx-auto w-full max-w-[210px] sm:max-w-[250px] lg:max-w-[270px] my-2 lg:my-0">
+              <div aria-hidden className="absolute inset-x-[-12%] top-[10%] bottom-[6%] rounded-[32px] bg-brand-light" />
+              <div className="relative">
+                <PhoneVideo name="captions" label="Captio AI showing live captions of two people talking, with a label for each speaker" priority />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ── What it does ── */}
+        <section id="how" className="py-12 px-6 bg-gray-50 scroll-mt-4">
+          <div className="max-w-6xl mx-auto">
+            <SectionTitle
+              eyebrow="How it works"
+              title="Open the app, tap the microphone, read along"
+              subtitle="Speech becomes text while people are still talking, with a label for each speaker. And there's more than live captions:"
             />
+            {/* Phones: a row to swipe through; larger screens: three columns. */}
+            <div className="-mx-6 px-6 flex gap-5 overflow-x-auto snap-x snap-mandatory pb-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:mx-0 sm:px-0 sm:grid sm:grid-cols-3 sm:gap-6 sm:overflow-visible sm:pb-0">
+              {whatItDoes.map((w) => (
+                <div key={w.video} className="w-[68%] shrink-0 snap-center sm:w-auto flex flex-col items-center text-center gap-4">
+                  <div className="w-full max-w-[200px] sm:max-w-[220px]">
+                    <PhoneVideo name={w.video} label={`Captio AI: ${w.title.toLowerCase()}`} />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-gray-900 text-lg">{w.title}</h3>
+                    <p className="mt-1.5 text-sm text-gray-500 leading-relaxed max-w-xs mx-auto">{w.description}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ── Why organizations choose it ── */}
+        <section className="py-12 px-6 bg-brand">
+          <div className="max-w-6xl mx-auto">
+            <SectionTitle eyebrow="For your organization" title="Why organizations choose Captio AI" onBlue />
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              {reasons.map((r) => (
+                <div key={r.title} className="bg-white/10 rounded-xl p-6 border border-white/20">
+                  <span className="text-2xl" aria-hidden>{r.icon}</span>
+                  <h3 className="mt-3 font-semibold text-white">{r.title}</h3>
+                  <p className="mt-1 text-sm text-blue-100 leading-relaxed">{r.description}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ── Pilot ── */}
+        <section id="pilot" className="py-12 px-6 bg-white scroll-mt-4">
+          <div className="max-w-5xl mx-auto">
+            <SectionTitle eyebrow="Free pilot" title="Try it for 30 days with up to 5 people" />
+            <div className="grid sm:grid-cols-3 gap-5">
+              {pilotSteps.map((s) => (
+                <div key={s.number} className="bg-white rounded-xl border border-gray-200 p-6 flex flex-col gap-3">
+                  <span className="w-9 h-9 rounded-[8px] bg-brand-light text-brand font-bold flex items-center justify-center">{s.number}</span>
+                  <h3 className="font-bold text-gray-900 leading-snug">{s.title}</h3>
+                  <p className="text-sm text-gray-500 leading-relaxed">{s.description}</p>
+                </div>
+              ))}
+            </div>
+            <div className="max-w-xl mx-auto mt-8">
+              <PilotForm />
+            </div>
           </div>
         </section>
 
@@ -251,75 +357,25 @@ export default function OrganizationsPage() {
           </div>
         </section>
 
-        {/* ── Pilot ── */}
-        <section id="pilot" className="py-12 px-6 bg-white scroll-mt-4">
-          <div className="max-w-5xl mx-auto">
-            <SectionTitle eyebrow="Free pilot" title="Try it for 30 days with up to 5 people" />
-            <div className="grid sm:grid-cols-3 gap-5">
-              {pilotSteps.map((s) => (
-                <div key={s.number} className="bg-white rounded-xl border border-gray-200 p-6 flex flex-col gap-3">
-                  <span className="w-9 h-9 rounded-[8px] bg-brand-light text-brand font-bold flex items-center justify-center">{s.number}</span>
-                  <h3 className="font-bold text-gray-900 leading-snug">{s.title}</h3>
-                  <p className="text-sm text-gray-500 leading-relaxed">{s.description}</p>
-                </div>
-              ))}
-            </div>
-            <div className="max-w-xl mx-auto mt-8">
-              <PilotForm />
-            </div>
-          </div>
-        </section>
-
-        {/* ── What each person gets ── */}
-        <section className="py-12 px-6 bg-gray-50">
-          <div className="max-w-6xl mx-auto">
-            <SectionTitle eyebrow="What each person gets" title="Everything in Captio AI Plus" />
-            <div className="grid lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] gap-5 items-center">
-              <Image
-                src="/work_mockup.png"
-                alt="Captio AI live captions on a phone, held in one hand"
-                width={1024}
-                height={1024}
-                className="w-full max-w-md lg:max-w-none mx-auto h-auto rounded-xl object-cover"
-              />
-              <div className="grid sm:grid-cols-2 gap-4">
-                {personGets.map((f) => (
-                  <div key={f.title} className="bg-white rounded-xl border border-gray-200 p-5 flex flex-col gap-2">
-                    <h3 className="font-bold text-gray-900 leading-snug flex items-start gap-2.5">
-                      <Check />
-                      {f.title}
-                    </h3>
-                    <p className="text-sm text-gray-500 leading-relaxed">{f.description}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-            <p className="text-sm text-gray-500 text-center mt-6">
-              More about <Link href="/live-captions" className="text-brand font-semibold hover:underline">live captions</Link> and{" "}
-              <Link href="/live-translator" className="text-brand font-semibold hover:underline">live translation</Link>.
-            </p>
-          </div>
-        </section>
-
         {/* ── Data protection ── */}
-        <section id="data" className="py-12 px-6 bg-brand">
+        <section id="data" className="py-12 px-6 bg-white">
           <div className="max-w-5xl mx-auto">
-            <SectionTitle eyebrow="For your data protection team" title="How data is handled" onBlue />
+            <SectionTitle eyebrow="For your data protection team" title="How data is handled" />
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {dataFacts.map((d) => (
-                <div key={d.title} className="bg-white/10 rounded-xl p-6 border border-white/20">
-                  <h3 className="font-semibold text-white mb-1">{d.title}</h3>
-                  <p className="text-sm text-blue-100 leading-relaxed">{d.description}</p>
+                <div key={d.title} className="bg-gray-50 rounded-xl p-6 border border-gray-100">
+                  <h3 className="font-semibold text-gray-900 mb-1">{d.title}</h3>
+                  <p className="text-sm text-gray-500 leading-relaxed">{d.description}</p>
                 </div>
               ))}
             </div>
             <div className="flex flex-col sm:flex-row gap-3 justify-center mt-8">
-              <MailButton href="mailto:hello@captioai.app?subject=Captio%20AI%20data%20processing%20agreement" kind="white">
+              <MailButton href="mailto:hello@captioai.app?subject=Captio%20AI%20data%20processing%20agreement" kind="outline">
                 Ask for the data processing agreement
               </MailButton>
               <Link
                 href="/privacy"
-                className="inline-flex items-center justify-center rounded-[8px] px-6 py-3.5 text-base font-semibold text-white border border-white/50 hover:bg-white/10 transition-colors"
+                className="inline-flex items-center justify-center rounded-[8px] px-6 py-3.5 text-base font-semibold text-brand hover:bg-brand-light transition-colors"
               >
                 Read the privacy policy
               </Link>
@@ -328,7 +384,7 @@ export default function OrganizationsPage() {
         </section>
 
         {/* ── FAQ ── */}
-        <section className="py-12 px-6 bg-white">
+        <section className="py-12 px-6 bg-gray-50">
           <div className="max-w-3xl mx-auto">
             <SectionTitle eyebrow="FAQ" title="Frequently asked questions" />
             <FaqAccordion faqs={faqs} />
@@ -336,12 +392,12 @@ export default function OrganizationsPage() {
         </section>
 
         {/* ── CTA ── */}
-        <section className="pt-4 pb-20 px-6 bg-white">
+        <section className="pt-12 pb-20 px-6 bg-white">
           <div className="max-w-4xl mx-auto bg-brand rounded-xl px-6 py-10 sm:px-12 sm:py-12 flex flex-col items-center text-center gap-4">
             <span className="text-xs font-bold text-cta uppercase tracking-widest">Free pilot</span>
-            <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight">Try it free for 30 days</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight">See it with your own people</h2>
             <p className="text-blue-100 max-w-lg">
-              Up to 5 people, nothing to pay. Questions first? Write to hello@captioai.app.
+              Up to 5 people, free for 30 days. The link arrives in your inbox within a minute. Questions first? Write to hello@captioai.app.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 mt-2 w-full sm:w-auto">
               <MailButton href={PILOT_ANCHOR}>Start a free pilot</MailButton>
