@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import BackButton from "@/components/BackButton";
 import Footer from "@/components/Footer";
 import FaqAccordion from "@/components/FaqAccordion";
+import { PilotForm } from "./PilotForm";
 
 import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbSchema } from "@/lib/schema";
 
@@ -13,8 +14,10 @@ import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbS
 // 2026-10-27: meant for any organization, never "students" or "staff".
 // Prices and the pilot are decided in the app repo: tools/organizations/PLAN.md.
 // Never name the speech provider here (business secret); /privacy lists them.
+// The pilot starts from the form (PilotForm.tsx): the link to forward is
+// emailed at once, people join at /o/<code> (src/app/o/[code]).
 
-const PILOT_MAILTO = "mailto:hello@captioai.app?subject=Captio%20AI%20pilot";
+const PILOT_ANCHOR = "#pilot";
 const QUOTE_MAILTO = "mailto:hello@captioai.app?subject=Captio%20AI%20quote";
 
 const DESCRIPTION =
@@ -40,6 +43,8 @@ const plans = [
 
 const included = [
   "Captio AI Plus for each person, for 12 months",
+  "One link to forward: people join in a minute",
+  "Usage totals, never what was said",
   "A setup call, if you'd like one",
   "Email support straight from the founder",
   "A quote, your purchase order, an invoice",
@@ -57,9 +62,9 @@ const personGets = [
 ];
 
 const pilotSteps = [
-  { number: "1", title: "Tell us you'd like a pilot", description: "Email hello@captioai.app with your organization's name. Up to 5 people, for 30 days, free." },
-  { number: "2", title: "They download Captio AI and sign in", description: "On iPhone or Android. Each person then emails us from the address shown at the top of the app's Settings." },
-  { number: "3", title: "We unlock the full version", description: "Usually the same day. Your organization shares no personal data with us, so a pilot needs no paperwork." },
+  { number: "1", title: "Get your pilot link", description: "Fill in the form below. The link arrives in your inbox within a minute, with a message ready to forward." },
+  { number: "2", title: "Forward it to up to 5 people", description: "Each person opens it on their phone, continues with Apple or Google, and gets Captio AI on iPhone or Android." },
+  { number: "3", title: "They have the full version for 30 days", description: "No personal data from you, so no paperwork. Near the end you get a summary of how much it was used, and the price to keep it." },
 ];
 
 const dataFacts = [
@@ -86,11 +91,19 @@ const faqs = [
   },
   {
     q: "Can we try it first?",
-    a: "Yes. A free 30-day pilot for up to 5 people. Nothing to pay and nothing to sign. Email hello@captioai.app to start.",
+    a: "Yes. A free 30-day pilot for up to 5 people. Fill in the form on this page and the link to forward arrives by email within a minute. Nothing to pay and nothing to sign.",
   },
   {
     q: "Do the people using it need to pay or set anything up?",
-    a: "No. They download Captio AI for free on iPhone or Android, sign in, and we unlock the full version for them. Your IT team doesn't need to install anything.",
+    a: "No. They open the link you forward, continue with Apple or Google, then download Captio AI for free on iPhone or Android and sign in with the same account. They have the full version straight away. Your IT team doesn't need to install anything.",
+  },
+  {
+    q: "What do we see about how it's used?",
+    a: "Totals only: how many people joined, how many opened Captio AI in the last week, and how many recordings were saved and how long they are. Never what was said, and never who said it.",
+  },
+  {
+    q: "How do we add people after we buy?",
+    a: "With the same link. Once your licenses are active, anyone you send it to can join, up to the number of licenses you have. People from the pilot keep everything they saved.",
   },
   {
     q: "What happens after 12 months?",
@@ -189,8 +202,7 @@ export default function OrganizationsPage() {
               Captio AI on their own phone, in person, wherever they need captions. One yearly license per person, paid by invoice.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
-              <MailButton href={PILOT_MAILTO}>Start a free pilot</MailButton>
-              <MailButton href={QUOTE_MAILTO} kind="outline">Ask for a quote</MailButton>
+              <MailButton href={PILOT_ANCHOR}>Start a free pilot</MailButton>
             </div>
             <p className="text-xs text-gray-400">Free for 30 days, up to 5 people. Nothing to pay, nothing to sign.</p>
             <Image
@@ -233,11 +245,14 @@ export default function OrganizationsPage() {
                 ))}
               </ul>
             </div>
+            <div className="flex justify-center mt-6">
+              <MailButton href={QUOTE_MAILTO} kind="outline">Ask for a quote</MailButton>
+            </div>
           </div>
         </section>
 
         {/* ── Pilot ── */}
-        <section className="py-12 px-6 bg-white">
+        <section id="pilot" className="py-12 px-6 bg-white scroll-mt-4">
           <div className="max-w-5xl mx-auto">
             <SectionTitle eyebrow="Free pilot" title="Try it for 30 days with up to 5 people" />
             <div className="grid sm:grid-cols-3 gap-5">
@@ -249,8 +264,8 @@ export default function OrganizationsPage() {
                 </div>
               ))}
             </div>
-            <div className="flex justify-center mt-8">
-              <MailButton href={PILOT_MAILTO}>Start a free pilot</MailButton>
+            <div className="max-w-xl mx-auto mt-8">
+              <PilotForm />
             </div>
           </div>
         </section>
@@ -329,7 +344,7 @@ export default function OrganizationsPage() {
               Up to 5 people, nothing to pay. Questions first? Write to hello@captioai.app.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 mt-2 w-full sm:w-auto">
-              <MailButton href={PILOT_MAILTO}>Start a free pilot</MailButton>
+              <MailButton href={PILOT_ANCHOR}>Start a free pilot</MailButton>
               <MailButton href={QUOTE_MAILTO} kind="outlineWhite">Ask for a quote</MailButton>
             </div>
           </div>
