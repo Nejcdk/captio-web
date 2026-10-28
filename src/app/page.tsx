@@ -103,6 +103,14 @@ const features = [
   },
 ];
 
+const moreFeatures = [
+  { label: "FOLDERS", title: "Folders and shared folders", description: "Sort recordings into folders and share one with family, classmates or your team.", href: "/folders" },
+  { label: "RECOGNIZE VOICES", title: "Names, not Speaker 2", description: "Save the voices of people you talk to often and see their names in your captions.", href: "/recognize-voices" },
+  { label: "SPEAKER DIRECTION", title: "See where a voice comes from", description: "Waves at the edge of the captions point to who is talking. iPhone 16 and later.", href: "/speaker-direction" },
+  { label: "CONNECTORS", title: "Ask your chat app", description: "Ask Claude, ChatGPT, Gemini or Perplexity about any of your recordings.", href: "/connectors" },
+  { label: "WIDGETS", title: "Captions in one tap", description: "Start Live Captions from your iPhone Home Screen or Lock Screen.", href: "/widgets" },
+];
+
 const useCases = [
   {
     label: "Everyday Conversations",
@@ -396,6 +404,27 @@ export default function HomePage() {
                       </svg>
                     </span>
                   </div>
+                </Link>
+              ))}
+            </div>
+
+            <h3 className="text-xl font-bold text-gray-900 tracking-tight text-center mt-10 mb-5">More features</h3>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {moreFeatures.map((f) => (
+                <Link
+                  key={f.href}
+                  href={f.href}
+                  className="group bg-gray-50 border border-gray-100 rounded-xl p-5 flex flex-col gap-2 hover:border-brand/30 transition-colors"
+                >
+                  <span className="text-xs font-bold text-brand uppercase tracking-wide">{f.label}</span>
+                  <span className="font-bold text-gray-900 text-base leading-snug">{f.title}</span>
+                  <span className="text-sm text-gray-500 leading-relaxed flex-1">{f.description}</span>
+                  <span className="inline-flex items-center gap-1 text-brand text-sm font-semibold mt-1 group-hover:underline">
+                    Explore
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
+                      <path d="m9 18 6-6-6-6" strokeWidth="2" />
+                    </svg>
+                  </span>
                 </Link>
               ))}
             </div>

@@ -49,6 +49,11 @@ export default function Footer() {
               <Link href="/live-translator" className="text-white/70 hover:text-white transition-colors">Live Translator</Link>
               <Link href="/audio-transcription" className="text-white/70 hover:text-white transition-colors">Audio Transcription</Link>
               <Link href="/ai-summary" className="text-white/70 hover:text-white transition-colors">AI Summary</Link>
+              <Link href="/folders" className="text-white/70 hover:text-white transition-colors">Folders</Link>
+              <Link href="/recognize-voices" className="text-white/70 hover:text-white transition-colors">Recognize Voices</Link>
+              <Link href="/speaker-direction" className="text-white/70 hover:text-white transition-colors">Speaker Direction</Link>
+              <Link href="/connectors" className="text-white/70 hover:text-white transition-colors">Connectors</Link>
+              <Link href="/widgets" className="text-white/70 hover:text-white transition-colors">Widgets</Link>
             </div>
 
             <div className="flex flex-col gap-2">

@@ -41,12 +41,17 @@ export const websiteSchema = {
   publisher: { "@id": ORG_ID },
 };
 
-/** The four product features, referenced as SoftwareApplication.featureList. */
+/** The product features, referenced as SoftwareApplication.featureList. */
 export const FEATURE_LIST = [
   "Live Captions",
   "Live Translator",
   "Audio Transcription",
   "AI Summary",
+  "Folders and shared folders",
+  "Recognize Voices",
+  "Speaker Direction",
+  "Connectors for Claude, ChatGPT, Gemini and Perplexity",
+  "Home Screen and Lock Screen widgets",
 ];
 
 /** Build a SoftwareApplication node for a page. */
