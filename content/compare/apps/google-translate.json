@@ -1,0 +1,560 @@
+{
+  "slug": "google-translate",
+  "name": "Google Translate",
+  "shortName": "Google Translate",
+  "developer": "Google",
+  "developerCountry": "United States",
+  "website": "https://translate.google.com/",
+  "appStoreUrl": "https://apps.apple.com/us/app/google-translate/id414706506",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.google.android.apps.translate",
+  "category": "translation",
+  "oneLine": "Google's free translation app for Android and iPhone; its Live translate and Transcribe modes show spoken words as text, translated into another language.",
+  "facts": {
+    "platforms": {
+      "status": "yes",
+      "text": "Android, iPhone, iPad",
+      "detail": "Transcribe and Live translate are in the app for Android phones and tablets and for iPhone and iPad. Google Translate also has a website, but Google's help pages describe these speech modes only in the app.",
+      "sources": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s7",
+        "s13",
+        "s14"
+      ]
+    },
+    "deviceRequirements": {
+      "status": "yes",
+      "text": "iOS 18 or later; Android not stated",
+      "detail": "The US App Store listing needs iOS 18.0 or later (iPadOS 18.0 on iPad). The Google Play listing doesn't state a minimum Android version; offline live translation needs a Pixel 9, 10 or 11.",
+      "sources": [
+        "s13",
+        "s14",
+        "s3"
+      ]
+    },
+    "roomCaptions": {
+      "status": "partial",
+      "text": "Shows speech as text, made for translating",
+      "detail": "Transcribe shows a running translation of someone speaking, such as a lecture, and can show the original words too; Live translate has a Text only mode and a Face to face split screen. Google doesn't describe either as captions in the same language.",
+      "sources": [
+        "s1",
+        "s2",
+        "s3",
+        "s12"
+      ]
+    },
+    "groupConversations": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Live translate is a two-language conversation where people take turns. Google's 2020 Transcribe post said it works best in a quiet room with one person speaking at a time.",
+      "sources": [
+        "s3",
+        "s12",
+        "s1"
+      ]
+    },
+    "languages": {
+      "status": "yes",
+      "text": "73 (Live translate), 8 (Transcribe)",
+      "detail": "Google's Live translate help page lists 73 languages (its blog says more than 70), and the Google Play listing says Transcribe supports 8. Typed text translates between up to 249 languages, says the App Store listing; the older Play listing says 108 and a help page says over 200.",
+      "sources": [
+        "s3",
+        "s8",
+        "s14",
+        "s12",
+        "s13",
+        "s7"
+      ]
+    },
+    "offline": {
+      "status": "partial",
+      "text": "Pixel 9, 10, 11 only, 10 language pairs",
+      "detail": "Offline live translation works only on Pixel 9, 10 and 11, in 10 language pairs with English. On any phone, downloaded languages translate text without internet (59 languages, Play listing); Google doesn't say whether Transcribe works offline.",
+      "sources": [
+        "s5",
+        "s14",
+        "s3"
+      ]
+    },
+    "speakerLabels": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Google doesn't describe labels for who is talking. Live translate notices when one language stops and the other starts, and Face to face mode gives each of two people half of the screen.",
+      "sources": [
+        "s3"
+      ]
+    },
+    "translation": {
+      "status": "yes",
+      "text": "Yes, Live translate and Transcribe",
+      "detail": "Live translate translates a back-and-forth conversation out loud and on screen in more than 70 languages. Transcribe keeps translating one person speaking another language, in near real time.",
+      "sources": [
+        "s3",
+        "s8",
+        "s13"
+      ]
+    },
+    "saveTranscripts": {
+      "status": "partial",
+      "text": "Transcribe can save transcripts",
+      "detail": "After Transcribe you can tap Save transcript and find it later in your saved transcripts. Google doesn't say how long they are kept, or describe saving Live translate sessions.",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    "export": {
+      "status": "yes",
+      "text": "Copy or share transcript text",
+      "detail": "You can select, copy and share a transcript's text to other apps. No file formats such as PDF are mentioned.",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    "fileUpload": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "The App Store listing names text, camera, photo, dictation, conversation, transcribe and handwriting features, but not transcribing an audio or video file.",
+      "sources": [
+        "s13"
+      ]
+    },
+    "summaries": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No AI summaries or notes for conversations are described in Google's help pages or store listings.",
+      "sources": [
+        "s13",
+        "s14"
+      ]
+    },
+    "customWords": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Google doesn't describe adding your own words or names.",
+      "sources": [
+        "s13",
+        "s14"
+      ]
+    },
+    "display": {
+      "status": "yes",
+      "text": "Font size in Transcribe; dark theme",
+      "detail": "Transcribe lets you change the font size in its settings. Android has a dark theme in the app; on iPhone the app follows the phone's Dark Mode.",
+      "sources": [
+        "s1",
+        "s2",
+        "s7",
+        "s12"
+      ]
+    },
+    "soundAlerts": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No alerts for non-speech sounds are described.",
+      "sources": [
+        "s13",
+        "s14"
+      ]
+    },
+    "phoneCalls": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Captioning phone calls isn't described for the Translate app.",
+      "sources": [
+        "s13",
+        "s14"
+      ]
+    },
+    "videoCalls": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "The Translate app doesn't describe captioning Zoom, Teams or Meet calls. Translated captions in Google Meet are a separate Meet feature for certain Google Workspace editions.",
+      "sources": [
+        "s16"
+      ]
+    },
+    "mediaOnDevice": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Live translate's Listening mode plays translations of speech around you into headphones. Captioning audio or video playing on the phone isn't described.",
+      "sources": [
+        "s3"
+      ]
+    },
+    "humanCaptioners": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No human captioner option is described.",
+      "sources": [
+        "s13"
+      ]
+    },
+    "signLanguage": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Sign language isn't mentioned.",
+      "sources": [
+        "s13"
+      ]
+    },
+    "privacy": {
+      "status": "partial",
+      "text": "History syncs if signed in; audio not stated",
+      "detail": "Signed in, your translations save to your Google account and can be managed in My Activity; signed out, history stays on the phone, and Google Play says no data is shared with third parties. Google's Translate help pages don't say whether speech audio is stored or used to train models.",
+      "sources": [
+        "s6",
+        "s15",
+        "s13"
+      ]
+    },
+    "account": {
+      "status": "no",
+      "text": "Not needed; sign-in syncs history",
+      "detail": "You can use the app signed out, with history kept only on the phone. Signing in saves your translations to the cloud.",
+      "sources": [
+        "s6"
+      ]
+    },
+    "availability": {
+      "status": "partial",
+      "text": "Live translate rolled out by country",
+      "detail": "Live translate started in August 2025 in the US, India and Mexico, reached more countries in March 2026, and in June 2026 Google said its newest Live translate model is rolling out in the app worldwide. The help page lists no country limits.",
+      "sources": [
+        "s8",
+        "s9",
+        "s10",
+        "s3"
+      ]
+    },
+    "freePlan": {
+      "status": "yes",
+      "text": "Free, no in-app purchases listed",
+      "detail": "The App Store lists the app as Free, and the Google Play listing shows no in-app purchases.",
+      "sources": [
+        "s13",
+        "s14"
+      ]
+    },
+    "price": {
+      "status": "no",
+      "text": "No paid plan",
+      "detail": "Neither store lists a paid plan or subscription for Google Translate (US listings, October 2026).",
+      "sources": [
+        "s13",
+        "s14"
+      ]
+    },
+    "accessibilityFunding": {
+      "status": "no",
+      "text": "No (the app is free)",
+      "detail": "No funding programme is needed: both stores list the app as free.",
+      "sources": [
+        "s13",
+        "s14"
+      ]
+    }
+  },
+  "strengths": [
+    {
+      "text": "Free on Android, iPhone and iPad, with no in-app purchases listed.",
+      "sources": [
+        "s13",
+        "s14"
+      ]
+    },
+    {
+      "text": "Live translate covers 73 languages, with a Text only mode and a Face to face split screen.",
+      "sources": [
+        "s3"
+      ]
+    },
+    {
+      "text": "Translates typed text in up to 249 languages and text in photos, and downloaded languages work without internet.",
+      "sources": [
+        "s13",
+        "s5"
+      ]
+    },
+    {
+      "text": "On Pixel 9, 10 and 11 it translates conversations offline, and on Android Live translate keeps running with the screen locked.",
+      "sources": [
+        "s3",
+        "s11"
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "text": "Made for translating between two languages: Google doesn't describe it as same-language captions for deaf or hard of hearing people.",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "text": "Transcribe supports 8 languages (Play listing), and Google's 2020 post said it works best with one person speaking at a time.",
+      "sources": [
+        "s14",
+        "s12"
+      ]
+    },
+    {
+      "text": "Offline live translation needs a Pixel 9, 10 or 11 and covers 10 language pairs with English.",
+      "sources": [
+        "s3"
+      ]
+    },
+    {
+      "text": "No speaker labels, custom words or AI summaries are described.",
+      "sources": [
+        "s1",
+        "s3",
+        "s13"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Transcribe in Google Translate (Android phone & tablet)",
+      "publisher": "Google",
+      "url": "https://support.google.com/translate/answer/9724492?hl=en&co=GENIE.Platform%3DAndroid",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "The Translate app lets you translate in near real-time while someone speaks a different language. For example, you can translate a classroom lecture or speech.",
+        "You can use your Pixel Buds to get real-time translations.",
+        "To change your font size: At the top, tap Settings .",
+        "After you have finished transcribing: At the top, tap Save transcript .",
+        "At the top, tap Menu   Saved transcripts.",
+        "To share text to other Android apps: Tap Share."
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Transcribe in Google Translate (iPhone & iPad)",
+      "publisher": "Google",
+      "url": "https://support.google.com/translate/answer/9724492?hl=en&co=GENIE.Platform%3DiOS",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Tap Dictation   Transcribe .",
+        "Your phone automatically starts to translate spoken words.",
+        "To toggle between the speaker’s language and the translation language, in the toolbar near the mic, tap Settings   Show original text.",
+        "Tip: To change your font size, in the toolbar near the mic, tap Settings .",
+        "To access your saved transcripts on the Home screen, at the top, tap Saved   Transcripts.",
+        "Share text to other apps: Tap Share."
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Hear live speech to speech translations with live translate (Android phone & tablet)",
+      "publisher": "Google",
+      "url": "https://support.google.com/translate/answer/6142474?hl=en&co=GENIE.Platform%3DAndroid",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "You can now use live translate with or without headphones on your phone or tablet.",
+        "Text only: Read translations. No audio plays.",
+        "Conversation: Translations play out loud on your phone speakers or headphones. Take turns speaking.",
+        "In the face to face mode, each speaker can view the transcription and translation of each of their own languages on each half of the screen.",
+        "The microphone automatically detects when one language stops and the other language starts.",
+        "Your translation session continues seamlessly when you switch apps, minimize the application, or when the screen locks.",
+        "Important: This feature is currently only available for Pixel 9, 10, and 11 users.",
+        "List of supported language pairs for offline live translation"
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Hear live speech to speech translations with live translate (iPhone & iPad)",
+      "publisher": "Google",
+      "url": "https://support.google.com/translate/answer/6142474?hl=en&co=GENIE.Platform%3DiOS",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "You can now use live translate with or without headphones on your iPhone or iPad.",
+        "Text only: Read translations. No audio plays.",
+        "If you don’t have headphones connected, the “Listening” option is greyed out."
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Download languages to use offline",
+      "publisher": "Google",
+      "url": "https://support.google.com/translate/answer/6142473?hl=en",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "You can download languages onto your device. This lets you translate them without an internet connection.",
+        "Next to the language, tap Download .",
+        "If it’s not there, the language can’t be downloaded."
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Find & manage Translate history (Android and iPhone & iPad tabs)",
+      "publisher": "Google",
+      "url": "https://support.google.com/translate/answer/6142480?hl=en",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "The Translate app syncs your history from your device to the cloud. When you’re signed in, your translations automatically save to the cloud. You can manage your saved history in My Activity.",
+        "Important: If you don’t want to use cloud history in the app, you must sign out of your account. After you sign out, you can only view on-device history."
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Download & use Google Translate (Android and iPhone & iPad tabs)",
+      "publisher": "Google",
+      "url": "https://support.google.com/translate/answer/6350850?hl=en",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "You can translate text, handwriting, photos, and speech in over 200 languages with the Google Translate app. You can also use Translate on the web.",
+        "Tip: In version 6.10 and up, you can use a Dark theme in the Translate app.",
+        "Tip: You can use Dark mode in your Translate app but you cannot adjust Dark mode from the app directly."
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "New AI-powered live translation and language learning tools in Google Translate (Aug 26, 2025)",
+      "publisher": "Google (The Keyword blog)",
+      "url": "https://blog.google/products/translate/language-learning-live-translate/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "our advanced AI models are now making it even easier to have a live conversation in more than 70 languages",
+        "You’ll hear the translation aloud and see a transcript of your conversation in both languages on your device.",
+        "These new live translate capabilities are available starting today for users in the U.S., India and Mexico."
+      ]
+    },
+    {
+      "id": "s9",
+      "title": "Transform your headphones into a live personal translator on iOS (Mar 26, 2026)",
+      "publisher": "Google (The Keyword blog)",
+      "url": "https://blog.google/products-and-platforms/products/translate/live-translate-with-headphones/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Google Translate’s Live translate with headphones is officially arriving on iOS! And we're expanding the capability for both iOS and Android users to even more countries, including France, Germany, Italy, Japan, Spain, Thailand, and the U.K.",
+        "To try it, open the Translate app, tap “Live translate” and connect your headphones."
+      ]
+    },
+    {
+      "id": "s10",
+      "title": "Fluid, natural voice translation with Gemini 3.5 Live Translate (Jun 09, 2026)",
+      "publisher": "Google (The Keyword blog)",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "The model is also rolling out on the Google Translate app globally, on both Android and iOS.",
+        "For Android users, we’re also starting to roll out a new ‘listening mode’ with 3.5 Live Translate that lets you hear translations directly through your phone’s earpiece."
+      ]
+    },
+    {
+      "id": "s11",
+      "title": "Google Translate rolls out new upgrades for iOS and Android (Sep 04, 2026)",
+      "publisher": "Google (The Keyword blog)",
+      "url": "https://blog.google/products-and-platforms/products/translate/google-translate-ios-android-upgrades/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Android users can now keep live translations running in the background. This is perfect for longer sessions where you need to multitask or want to lock your phone screen. iOS support is coming soon.",
+        "Second, iOS users worldwide can now get live translations directly through their phone’s earpiece."
+      ]
+    },
+    {
+      "id": "s12",
+      "title": "Now you can transcribe speech with Google Translate (Mar 17, 2020)",
+      "publisher": "Google (The Keyword blog)",
+      "url": "https://blog.google/products/translate/transcribe-speech/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Transcribe will be rolling out in the next few days with support for any combination of the following eight languages: English, French, German, Hindi, Portuguese, Russian, Spanish and Thai.",
+        "You also can see the original transcript, change the text size or choose a dark theme in the settings menu.",
+        "Right now, the transcribe feature will work best in a quiet environment with one person speaking at a time."
+      ]
+    },
+    {
+      "id": "s13",
+      "title": "Google Translate on the App Store (US)",
+      "publisher": "Apple App Store",
+      "url": "https://apps.apple.com/us/app/google-translate/id414706506",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Free",
+        "Translate between up to 249 languages. Feature support varies by language:",
+        "• Conversations: Translate bilingual conversations on the fly",
+        "• Transcribe: Continuously translate someone speaking a different language in near real-time",
+        "Requires iOS 18.0 or later.",
+        "• Instant camera translation: Translate text in images instantly by just pointing your camera",
+        "• Photos: Translate text in taken or imported photos",
+        "• Handwriting: Draw text characters instead of typing",
+        "• Text: Translate between languages by typing"
+      ]
+    },
+    {
+      "id": "s14",
+      "title": "Google Translate - Apps on Google Play (US)",
+      "publisher": "Google Play",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.translate&hl=en_US&gl=US",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "• Offline: Translate with no internet connection (59 languages)",
+        "• Conversations: Translate bilingual conversations on the fly (70 languages)",
+        "• Transcribe: Continuously translate someone speaking a different language in near real-time (8 languages)",
+        "• Text translation: Translate between 108 languages by typing"
+      ]
+    },
+    {
+      "id": "s15",
+      "title": "Google Translate - Data safety (Google Play)",
+      "publisher": "Google Play",
+      "url": "https://play.google.com/store/apps/datasafety?id=com.google.android.apps.translate&hl=en_US",
+      "type": "privacy",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "No data shared with third parties",
+        "Data is encrypted in transit",
+        "You can request that data be deleted"
+      ]
+    },
+    {
+      "id": "s16",
+      "title": "Use translated captions in Google Meet",
+      "publisher": "Google",
+      "url": "https://support.google.com/translate/answer/10964115?hl=en",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "You can use translated captions to translate to and from specific languages.",
+        "Translated captions are currently only available for the following Workspace editions"
+      ]
+    }
+  ],
+  "notes": "Language counts conflict: the Live translate help page lists 73 languages and Google's blog says 70+; the Google Play listing says Conversations 70, Transcribe 8, Offline 59 and text 108 languages, while the App Store says text translation covers up to 249 languages. The Play listing looks older than the App Store text. The official Transcribe help page does not list its languages; the count of 8 comes from the Play listing and the 2020 launch post. No official page says whether Transcribe needs internet (only press articles from 2020 say so, not used). Live translate availability: the help page has no country limits, but the blog posts describe a country-by-country rollout (Aug 2025: US, India, Mexico; Mar 2026: France, Germany, Italy, Japan, Spain, Thailand, UK; Jun 2026: Gemini 3.5 Live Translate model 'globally'). It is not clear from official pages whether the Text only and Face to face modes work in every country today. Google Translate is not made for deaf or hard of hearing users and its official pages never mention them. Google's general 'Manage audio recordings' help page (support.google.com/websearch/answer/6030020) only covers Search, Assistant and Maps, so it was not used for Translate's privacy. developerCountry comes from the Google Play developer address (1600 Amphitheatre Pkwy, Mountain View, CA, United States). Most help pages and the Play listing were read by downloading the page HTML directly because WebFetch refuses to quote long passages or truncates Play pages; WebFetch was also used to confirm the key help pages and blog posts. A WebFetch of the App Store page returned HTTP 429 once and worked on retry. Cleaned 2026-10-28: the languages cell shows 73 (Live translate help page list, recounted that day) and 8 (Transcribe, Google Play, the only official count); the text-translation counts (249 App Store, over 200 help page, 108 Play) are explained in detail. All store and help quotes re-checked by downloading the pages on 2026-10-28."
+}

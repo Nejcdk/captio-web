@@ -2,12 +2,14 @@ import Link from "next/link";
 import Image from "next/image";
 import { useCases } from "@/lib/useCases";
 import { getAllPosts } from "@/lib/blog";
+import { getAllComparePages } from "@/lib/compare";
 import { FeaturedOnCard } from "@/components/FeaturedOn";
 
 export default function Footer() {
   // Newest articles on every page: readers find them, and crawlers reach a new
   // article from ~800 pages the day it is published.
   const latestPosts = getAllPosts().slice(0, 4);
+  const comparePages = getAllComparePages().slice(0, 3);
   return (
     <footer className="bg-brand text-white">
       <div className="max-w-6xl mx-auto px-6 pt-12 pb-0">
@@ -62,6 +64,12 @@ export default function Footer() {
                 <Link key={post.slug} href={`/blog/${post.slug}`} className="text-white/70 hover:text-white transition-colors leading-snug">{post.title}</Link>
               ))}
               <Link href="/blog" className="text-white font-semibold hover:underline">All articles</Link>
+
+              <Link href="/compare" className="font-semibold text-white/40 hover:text-white uppercase tracking-widest text-xs mt-6 mb-1 transition-colors">Compare</Link>
+              {comparePages.map((page) => (
+                <Link key={page.slug} href={`/compare/${page.slug}`} className="text-white/70 hover:text-white transition-colors leading-snug">{page.title}</Link>
+              ))}
+              <Link href="/compare" className="text-white font-semibold hover:underline">Compare caption apps</Link>
 
               <span className="font-semibold text-white/40 uppercase tracking-widest text-xs mt-6 mb-1">Company</span>
               <Link href="/organizations" className="text-white/70 hover:text-white transition-colors">For organizations</Link>

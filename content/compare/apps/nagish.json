@@ -1,0 +1,831 @@
+{
+  "slug": "nagish",
+  "name": "Rylo: Live Call Captioning (formerly Nagish)",
+  "shortName": "Rylo (formerly Nagish)",
+  "developer": "Nagish Inc.",
+  "developerCountry": "United States (New York, NY)",
+  "website": "https://rylo.com/",
+  "appStoreUrl": "https://apps.apple.com/us/app/rylo-live-call-captioning/id1514154600",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.talknagish.app",
+  "category": "phone-call-captions",
+  "oneLine": "US phone-call caption app, free through the FCC for eligible users, with free in-person captions (Live Transcribe) and a desktop app for video calls.",
+  "facts": {
+    "platforms": {
+      "status": "yes",
+      "text": "iPhone, iPad, Android, Mac, Windows",
+      "detail": "The Rylo phone app runs on iPhone, iPad and Android phones and tablets, with an Apple Watch companion. Rylo Desktop, a separate free app for Mac and Windows, captions video calls.",
+      "sources": [
+        "s4",
+        "s10",
+        "s17",
+        "s19"
+      ]
+    },
+    "deviceRequirements": {
+      "status": "yes",
+      "text": "iOS 16.6+ or Android 9+",
+      "detail": "The App Store listing needs iOS 16.6 or later (Rylo's help centre still says iOS 15+), and the help centre says Android 9+. Rylo Desktop needs macOS 14.2 or later, or 64-bit Windows 10 or 11.",
+      "sources": [
+        "s4",
+        "s10",
+        "s19"
+      ]
+    },
+    "roomCaptions": {
+      "status": "yes",
+      "text": "Yes, Live Transcribe (free)",
+      "detail": "Live Transcribe, inside the Rylo phone app, captions speech in the room through the phone's microphone. It is free with no time limits and is not part of the FCC-funded service.",
+      "sources": [
+        "s2",
+        "s9",
+        "s5",
+        "s25"
+      ]
+    },
+    "groupConversations": {
+      "status": "partial",
+      "text": "One phone on the table; conference calls",
+      "detail": "Rylo pitches Live Transcribe for group meetings with one phone on the table, and you can show the screen to the group. The phone app also captions conference and speakerphone calls; linking several phones or mics is not described.",
+      "sources": [
+        "s2",
+        "s1"
+      ]
+    },
+    "languages": {
+      "status": "yes",
+      "text": "50+ languages",
+      "detail": "Rylo's website says 50+ and its help centre lists 53 language entries. The App Store and Google Play listings name only 6, and Rylo Desktop says 60.",
+      "sources": [
+        "s8",
+        "s1",
+        "s4",
+        "s3"
+      ]
+    },
+    "offline": {
+      "status": "partial",
+      "text": "Live Transcribe yes; calls no",
+      "detail": "Rylo says Live Transcribe works without Wi-Fi or mobile data. Phone-call captions and Rylo Desktop need internet, and Rylo doesn't say which languages work offline.",
+      "sources": [
+        "s1",
+        "s2",
+        "s3"
+      ]
+    },
+    "speakerLabels": {
+      "status": "partial",
+      "text": "Rylo Desktop; not stated in person",
+      "detail": "Rylo Desktop marks each line with who said it, and the homepage says calls show who is speaking, typing or pausing. Speaker labels are not mentioned for Live Transcribe.",
+      "sources": [
+        "s3",
+        "s22",
+        "s1"
+      ]
+    },
+    "translation": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No Rylo page describes translating speech into another language. Rylo says it detects when the language changes during a conversation.",
+      "sources": [
+        "s2",
+        "s8"
+      ]
+    },
+    "saveTranscripts": {
+      "status": "yes",
+      "text": "Yes, on your device",
+      "detail": "Call transcripts save on your device by default (you can turn this off), and Live Transcribe transcripts save automatically. Rylo can't restore deleted transcripts because they aren't on its servers.",
+      "sources": [
+        "s11",
+        "s9",
+        "s2"
+      ]
+    },
+    "export": {
+      "status": "yes",
+      "text": "Share from app; Desktop: .txt file",
+      "detail": "Call and Live Transcribe transcripts can be shared from the app (formats not stated). Rylo Desktop downloads transcripts as .txt files with the title, date and who said what.",
+      "sources": [
+        "s11",
+        "s9",
+        "s22"
+      ]
+    },
+    "fileUpload": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No Rylo page mentions transcribing an uploaded audio or video file.",
+      "sources": []
+    },
+    "summaries": {
+      "status": "partial",
+      "text": "Rylo Desktop only",
+      "detail": "Rylo Desktop writes an AI summary on the computer after each captioned call, with decisions and action items. Summaries are not mentioned for the phone app or Live Transcribe.",
+      "sources": [
+        "s21",
+        "s3",
+        "s20"
+      ]
+    },
+    "customWords": {
+      "status": "yes",
+      "text": "Yes, personal dictionary",
+      "detail": "You can add names, places and jargon to a personal dictionary in the call settings.",
+      "sources": [
+        "s14",
+        "s4"
+      ]
+    },
+    "display": {
+      "status": "yes",
+      "text": "Text size, weight, dark mode",
+      "detail": "You can change caption size during calls, and in Live Transcribe also font weight and light or dark mode.",
+      "sources": [
+        "s15",
+        "s9",
+        "s16",
+        "s2"
+      ]
+    },
+    "soundAlerts": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No Rylo page mentions alerts for non-speech sounds. Live Transcribe shows the current sound level.",
+      "sources": [
+        "s9"
+      ]
+    },
+    "phoneCalls": {
+      "status": "yes",
+      "text": "Yes, incoming, outgoing, voicemail",
+      "detail": "Rylo captions incoming and outgoing calls and voicemail, on your existing number or a new one. You can also caption your own voice, and keep captions in a floating window while you use other apps.",
+      "sources": [
+        "s1",
+        "s5",
+        "s32",
+        "s34"
+      ]
+    },
+    "videoCalls": {
+      "status": "yes",
+      "text": "Yes, Rylo Desktop (Zoom, Teams, Meet)",
+      "detail": "Rylo Desktop for Mac and Windows captions calls in Zoom, Teams, Google Meet, Slack Huddles, FaceTime, Discord, Webex and the browser. Rylo says no bot joins the meeting.",
+      "sources": [
+        "s17",
+        "s23",
+        "s3"
+      ]
+    },
+    "mediaOnDevice": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Captioning videos or other media playing on the device is not described. During a browser call, Rylo Desktop captions all audio from that browser.",
+      "sources": [
+        "s23"
+      ]
+    },
+    "humanCaptioners": {
+      "status": "no",
+      "text": "No, automatic only",
+      "detail": "Rylo's terms say captions come from automated speech recognition, and the App Store listing says there is no human involvement.",
+      "sources": [
+        "s25",
+        "s4"
+      ]
+    },
+    "signLanguage": {
+      "status": "partial",
+      "text": "Separate free tools (Sign Translate)",
+      "detail": "Rylo offers AI sign language tools, Sign Translate and an ASL Sign Dictionary in beta, as separate free tools outside the caption app.",
+      "sources": [
+        "s31"
+      ]
+    },
+    "privacy": {
+      "status": "partial",
+      "text": "Calls deleted; Live Transcribe may be kept",
+      "detail": "Call audio and captions are deleted from Rylo's servers once delivered. Rylo's Live Transcribe page says transcripts are saved privately on your device, but its privacy policy says Rylo Live conversations may be recorded and stored, and its terms say Live Transcribe input may be used to train its AI.",
+      "sources": [
+        "s2",
+        "s24",
+        "s25"
+      ]
+    },
+    "account": {
+      "status": "yes",
+      "text": "Yes; name, DOB, last 4 of SSN",
+      "detail": "Registration asks for your address, date of birth and the last four digits of your Social Security number, as FCC rules require; Rylo's help centre says you can't register without them, while the FCC says providers may accept other documents. Rylo Desktop also needs a free Rylo account.",
+      "sources": [
+        "s12",
+        "s13",
+        "s3",
+        "s27"
+      ]
+    },
+    "availability": {
+      "status": "partial",
+      "text": "US and US territories",
+      "detail": "Rylo supports the United States and its territories; its App Store listing was not found in the UK, Canada, Germany, Australia or Slovenia stores. Free international calls are possible to a listed set of countries.",
+      "sources": [
+        "s7",
+        "s28",
+        "s29"
+      ]
+    },
+    "freePlan": {
+      "status": "yes",
+      "text": "Free for eligible users, no limits",
+      "detail": "Phone-call captions are free for eligible deaf, hard of hearing or speech-disabled users. Live Transcribe is free with no time limits or ads, and Rylo Desktop is free with no paid features.",
+      "sources": [
+        "s6",
+        "s2",
+        "s18"
+      ]
+    },
+    "price": {
+      "status": "no",
+      "text": "No paid plans",
+      "detail": "No paid plan is listed and the App Store shows no in-app purchases. Rylo says people who aren't eligible may not get the service for free, and its terms allow fees outside the FCC programme.",
+      "sources": [
+        "s4",
+        "s25",
+        "s30"
+      ]
+    },
+    "accessibilityFunding": {
+      "status": "yes",
+      "text": "Yes, FCC (IP CTS and IP Relay)",
+      "detail": "The FCC lists Nagish, Inc. d/b/a Rylo with full IP CTS and conditional IP Relay certification. Calls are paid from the federal TRS Fund, and you self-certify a hearing or speech disability.",
+      "sources": [
+        "s26",
+        "s6",
+        "s25",
+        "s27",
+        "s33"
+      ]
+    }
+  },
+  "strengths": [
+    {
+      "text": "Phone-call captions are free for eligible US users, and Live Transcribe and Rylo Desktop are free with no paid features.",
+      "sources": [
+        "s6",
+        "s2",
+        "s18"
+      ]
+    },
+    {
+      "text": "One app covers phone calls, voicemail and in-person speech (Live Transcribe), which Rylo says also works offline.",
+      "sources": [
+        "s5",
+        "s9",
+        "s2"
+      ]
+    },
+    {
+      "text": "Rylo Desktop captions Zoom, Teams, Meet and FaceTime on Mac and Windows, with speaker labels and summaries made on the computer.",
+      "sources": [
+        "s17",
+        "s3",
+        "s21"
+      ]
+    },
+    {
+      "text": "Call transcripts are stored only on your device, and the content of FCC-funded calls is not kept after the call.",
+      "sources": [
+        "s11",
+        "s24",
+        "s25"
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "text": "Only offered in the United States and its territories, and registration needs US details including the last four digits of an SSN.",
+      "sources": [
+        "s7",
+        "s13",
+        "s28"
+      ]
+    },
+    {
+      "text": "Captions are automatic only; there is no human captioner option.",
+      "sources": [
+        "s25",
+        "s4"
+      ]
+    },
+    {
+      "text": "Rylo's terms say Live Transcribe input may be used to train its AI, and its privacy policy says Rylo Live conversations may be recorded and stored.",
+      "sources": [
+        "s25",
+        "s24"
+      ]
+    },
+    {
+      "text": "Language counts differ: the store listings name 6 languages, the website says 50+, Rylo Desktop says 60.",
+      "sources": [
+        "s4",
+        "s1",
+        "s3"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Free Phone Call Captioning App | Rylo",
+      "publisher": "Rylo (Nagish Inc.)",
+      "url": "https://rylo.com/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "\"legalName\":\"Nagish Inc. dba Rylo\"",
+        "\"alternateName\":\"Nagish\"",
+        "Rylo is a free call captioning and live transcription app that provides real-time captions for phone conversations and in-person communication.",
+        "Rylo is free for eligible users who are Deaf, hard of hearing, or have a speech disability. As an FCC-certified captioned telephone service and IP Relay provider, Rylo is reimbursed through a federally administered fund",
+        "Rylo requires an active internet connection to provide real-time phone call captions, but can work offline for live transcriptions.",
+        "Rylo currently supports over 50 languages.",
+        "Understand speaker sentiment and know who is speaking, typing, or pausing",
+        "Pair Rylo with your hearing aids, cochlear implants, and bluetooth headsets",
+        "All Rylo calls are fully private with transcripts saved locally on your device",
+        "Caption telephone calls, video calls, conference calls, and calls on speakerphone.",
+        "Rylo lets you choose between getting a fresh phone number or keeping your existing one"
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Live Transcribe: Real-time captions for in-person conversations",
+      "publisher": "Rylo (Nagish Inc.)",
+      "url": "https://rylo.com/live-transcribe",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Hold your phone up or place it on the table and watch speech turn into text as people talk.",
+        "Rylo live works offline, so you don't need to worry about your connection during life's most important moments.",
+        "Rylo Live Transcribe is completely free to use, with no ads, time limits, or credit card required.",
+        "Transcripts are automatically saved privately to your device",
+        "Adjust text size, contrast, and layout so captions are comfortable for your eyes and easy to follow.",
+        "Share your screen with others so the whole group can see what is being said",
+        "Live Transcribe is available through the Rylo app, which supports more than 50 languages including English, Spanish, French (Canadian), Hebrew, Italian, Japanese and more.",
+        "100% Private",
+        "The app can automatically detect language changes during conversations"
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Rylo Desktop: Live captions for every call on your computer",
+      "publisher": "Rylo (Nagish Inc.)",
+      "url": "https://rylo.com/desktop",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Works with Zoom, Google Meet, Microsoft Teams, FaceTime, and more.",
+        "Speaker-by-speaker bubbles, each marked with who said it, scrolling like a messaging thread.",
+        "Rylo Desktop captions 60 languages, including English, Spanish, French, German, Portuguese, Italian, Dutch, Chinese, Japanese, Korean, Hindi, Arabic, and Hebrew.",
+        "Live captions need an internet connection.",
+        "You can search it, export it as a text file, or share it, and Rylo Desktop writes an AI summary with decisions and action items.",
+        "Yes. You'll create a free Rylo account when you first open Rylo Desktop.",
+        "Rylo Desktop captions automatically. No bot joins your meeting and no human listens to your call."
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Rylo: Live Call Captioning (App Store, US)",
+      "publisher": "Apple App Store",
+      "url": "https://apps.apple.com/us/app/rylo-live-call-captioning/id1514154600",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Rylo provides real-time, AI-powered call captions on every phone call for anyone who is deaf or has hearing loss.",
+        "Multilingual captioning: English, Spanish, French, Japanese, Hebrew, Italian",
+        "Personal dictionary for custom words and phrases",
+        "Captions are generated with end-to-end encryption. No human involvement.",
+        "Seller: Nagish Inc.",
+        "Requires iOS 16.6 or later.",
+        "Requires iPadOS 16.6 or later.",
+        "Data Used to Track You: The following data may be used to track you across apps and websites owned by other companies: Usage Data",
+        "Price shown: Free (no In-App Purchases section on the page)"
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Rylo: Live Call Captions (Google Play, US)",
+      "publisher": "Google Play",
+      "url": "https://play.google.com/store/apps/details?id=com.talknagish.app",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Captioned calls are private, accurate, and free.",
+        "Free live captioning for in-person moments (Rylo Live Transcribe)",
+        "If you prefer to type your responses, you can choose a voice and use our text-to-speech feature.",
+        "Read full transcripts of your voicemails so you never miss important messages.",
+        "Nagish Inc. support@nagish.com 228 Park Ave S New York, NY 10003 United States",
+        "Updated on Oct 23, 2026"
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Is Rylo free?",
+      "publisher": "Rylo Help Center",
+      "url": "https://help.rylo.com/en/articles/5811619-is-rylo-free",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Rylo is 100% free for people who are Deaf, hard of hearing, or challenged with speech.",
+        "Rylo is certified by the FCC, which means the FCC reimburses Rylo for the cost of providing its IP CTS and IP Relay services.",
+        "Rylo may offer additional services at no cost as part of our mission to make communication accessible for all, such as text-to-speech and Rylo live. These services will be offered on a case-by-case basis and are not certified or reimbursed by the FCC."
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Which countries does Rylo support?",
+      "publisher": "Rylo Help Center",
+      "url": "https://help.rylo.com/en/articles/7956540-which-countries-does-rylo-support",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Rylo currently supports the United States, including its territories.",
+        "Puerto Rico, Guam, American Samoa, U.S. Virgin Islands, Northern Mariana Islands"
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "Which languages does Rylo support?",
+      "publisher": "Rylo Help Center",
+      "url": "https://help.rylo.com/en/articles/7956544-which-languages-does-rylo-support",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Rylo Language Support",
+        "Supported Languages:",
+        "Arabic",
+        "Slovenian",
+        "Vietnamese",
+        "We are constantly adding more languages."
+      ]
+    },
+    {
+      "id": "s9",
+      "title": "How to use Rylo Live (Live Transcribe)",
+      "publisher": "Rylo Help Center",
+      "url": "https://help.rylo.com/en/articles/8940721-how-to-use-rylo-live-transcribe",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Rylo offers two captioning modes: Phone calls and in-person.",
+        "Rylo Live is 100% free for Rylo users and has no time limits. Live Transcribe is available on both iOS and Android devices.",
+        "You can just pause the transcript at any given moment and share it with others. Transcripts save automatically to your device and kept 100% private.",
+        "Style – Tap the Style icon to adjust font size, weight, and switch between light and dark modes.",
+        "Type – Select the Type icon to type messages and display large text on your screen."
+      ]
+    },
+    {
+      "id": "s10",
+      "title": "Which devices are compatible with Rylo?",
+      "publisher": "Rylo Help Center",
+      "url": "https://help.rylo.com/en/articles/5811618-which-devices-are-compatible-with-rylo",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Rylo supports all iOS and Android devices running on versions 15+ (iOS) and 9+ (Android) -- including iPads and tablets!",
+        "Rylo also supports Apple Watch!"
+      ]
+    },
+    {
+      "id": "s11",
+      "title": "How to access Rylo's saved call transcripts",
+      "publisher": "Rylo Help Center",
+      "url": "https://help.rylo.com/en/articles/8160332-how-to-access-rylo-s-saved-call-transcripts",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Transcripts are saved by default for all of your calls and are always 100% private to you. You can disable the auto-save of transcripts anytime.",
+        "You can tap any transcript to see it, share it, or delete it.",
+        "Note: Since transcripts are saved locally on your device, we cannot restore any deleted transcripts."
+      ]
+    },
+    {
+      "id": "s12",
+      "title": "Why does Rylo need personal information such as my Address, DoB, and the last four digits of my SSN?",
+      "publisher": "Rylo Help Center",
+      "url": "https://help.rylo.com/en/articles/7985085-why-does-rylo-need-personal-information-such-as-my-address-dob-and-the-last-four-digits-of-my-ssn",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "we are required by the FCC to collect this information to help verify your identity and prevent fraud"
+      ]
+    },
+    {
+      "id": "s13",
+      "title": "I don't have a Social Security Number. Can I still use Rylo?",
+      "publisher": "Rylo Help Center",
+      "url": "https://help.rylo.com/en/articles/7993172-i-don-t-have-a-social-security-number-can-i-still-use-rylo",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Without this information, you will not be able to register and activate your Rylo account."
+      ]
+    },
+    {
+      "id": "s14",
+      "title": "How to add words to your personal dictionary",
+      "publisher": "Rylo Help Center",
+      "url": "https://help.rylo.com/en/articles/6719468-how-to-add-words-to-your-personal-dictionary",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Personal Dictionary is a Rylo feature that allows users to index words they use often.",
+        "You tap the text field and add as many words as you'd like"
+      ]
+    },
+    {
+      "id": "s15",
+      "title": "How to change the font size of my Rylo captions",
+      "publisher": "Rylo Help Center",
+      "url": "https://help.rylo.com/en/articles/8149235-how-to-change-the-font-size-of-my-rylo-captions",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "In the Rylo app, you can easily change the size of your captions."
+      ]
+    },
+    {
+      "id": "s16",
+      "title": "How to enable dark mode on Rylo",
+      "publisher": "Rylo Help Center",
+      "url": "https://help.rylo.com/en/articles/10296303-how-to-enable-dark-mode-on-rylo",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Choose light or dark mode, or select 'System' to automatically adjust the appearance based on your device's system settings."
+      ]
+    },
+    {
+      "id": "s17",
+      "title": "What is Rylo Desktop?",
+      "publisher": "Rylo Help Center",
+      "url": "https://help.rylo.com/en/articles/16034824-what-is-rylo-desktop",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Rylo Desktop is a free app for Mac and Windows that adds live captions to your video calls. It works with Zoom, Microsoft Teams, Google Meet, Slack Huddles, FaceTime, Discord, Webex, and more.",
+        "Rylo Desktop doesn't make calls. It captions the calls you're already having in other apps on your computer."
+      ]
+    },
+    {
+      "id": "s18",
+      "title": "Is Rylo Desktop free?",
+      "publisher": "Rylo Help Center",
+      "url": "https://help.rylo.com/en/articles/16034869-is-rylo-desktop-free",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Yes! Rylo Desktop is free. There's no subscription and no charge.",
+        "No. Every feature is free, including live captions, type-to-speak, transcript history, and call summaries."
+      ]
+    },
+    {
+      "id": "s19",
+      "title": "System requirements for Rylo Desktop",
+      "publisher": "Rylo Help Center",
+      "url": "https://help.rylo.com/en/articles/16034826-system-requirements-for-rylo-desktop",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "macOS 14.2 (Sonoma) or later",
+        "Windows 10 or Windows 11 (64-bit)"
+      ]
+    },
+    {
+      "id": "s20",
+      "title": "Does Rylo Desktop send my audio to the cloud?",
+      "publisher": "Rylo Help Center",
+      "url": "https://help.rylo.com/en/articles/16034868-does-rylo-desktop-send-my-audio-to-the-cloud",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Your call audio is processed in real time to create captions. Rylo doesn't record or store it, and no one at Rylo can access it. Your transcripts are saved only on your computer, never on our servers.",
+        "No. Your call summaries are created entirely on your computer."
+      ]
+    },
+    {
+      "id": "s21",
+      "title": "Getting an AI summary of your call",
+      "publisher": "Rylo Help Center",
+      "url": "https://help.rylo.com/en/articles/16034852-getting-an-ai-summary-of-your-call",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "When a captioned call ends, Rylo Desktop creates a short summary for you, right on your computer.",
+        "Action items, including who they're for when that's clear"
+      ]
+    },
+    {
+      "id": "s22",
+      "title": "Viewing, searching, and exporting your call history in Rylo Desktop",
+      "publisher": "Rylo Help Center",
+      "url": "https://help.rylo.com/en/articles/16034851-viewing-searching-and-exporting-your-call-history-in-rylo-desktop",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Open the transcript and choose Download to save it as a text (.txt) file.",
+        "Exported transcripts include the call title, date, and who said what."
+      ]
+    },
+    {
+      "id": "s23",
+      "title": "Does Rylo Desktop work with Zoom, Teams, Google Meet, and other call apps?",
+      "publisher": "Rylo Help Center",
+      "url": "https://help.rylo.com/en/articles/16034874-does-rylo-desktop-work-with-zoom-teams-google-meet-and-other-call-apps",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "It recognizes calls in Zoom, Microsoft Teams, Slack Huddles, FaceTime, Google Meet, Discord, and Webex automatically. For any other app, you can start captions yourself.",
+        "When your call is in a browser tab, Rylo Desktop captions all the audio from that browser."
+      ]
+    },
+    {
+      "id": "s24",
+      "title": "Privacy policy",
+      "publisher": "Rylo (Nagish Inc.)",
+      "url": "https://rylo.com/legal/privacy",
+      "type": "privacy",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Last Updated: October 4, 2026",
+        "We do not retain the audio or transcriptions of connected calls in the ordinary course of providing our Services to you. Once captions are delivered to your device, they are deleted from our servers.",
+        "As a part of the Rylo Live service, we may record and store live conversations that you make available to the Services."
+      ]
+    },
+    {
+      "id": "s25",
+      "title": "Terms of Use (incl. Annex 2, Rylo AI Supplementary Terms)",
+      "publisher": "Rylo (Nagish Inc.)",
+      "url": "https://rylo.com/legal/terms",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Last Updated: October 8, 2026",
+        "You understand that the captioning provided in connection with the Services is by an automated speech recognition system which provides captions in the App or Website.",
+        "Rylo reserves the right to offer the Services for a fee outside of the TRS program",
+        "Rylo Live is not offered when a user makes a phone call with Rylo, and Rylo Live is not offered in connection with the federal telecommunications relay services (\"TRS\") program.",
+        "Input that you provide in connection with Rylo Live, Rylo Live Transcribe, or Rylo Sign, and your usage of those services, may be used to train or improve our models and Rylo AI, consistent with applicable law.",
+        "The content of calls processed as part of the federal TRS program will not be used or retained beyond the duration of the call by either Rylo or its partners, except as required by law.",
+        "As part of the registration process, you are required to complete a self-certification of your eligibility in the form and manner set forth by the FCC (see 47 C.F.R. § 64.611)."
+      ]
+    },
+    {
+      "id": "s26",
+      "title": "Internet-Based TRS Providers",
+      "publisher": "Federal Communications Commission",
+      "url": "https://www.fcc.gov/general/internet-based-trs-providers",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Nagish, Inc. d/b/a Rylo",
+        "Full certification to provider Internet Protocol Captioned Telephone Service (IP CTS)",
+        "Conditional certification to provide Internet Protocol Relay Service (IP Relay)"
+      ]
+    },
+    {
+      "id": "s27",
+      "title": "New IP CTS Registration Requirements FAQs",
+      "publisher": "Federal Communications Commission",
+      "url": "https://www.fcc.gov/consumers/guides/new-ip-cts-registration-requirements-faqs",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Your IP CTS provider will request information from you, including your full name, address, date of birth, and the last four digits of your Social Security number",
+        "you will be asked to confirm that you have a hearing or speech disability that necessitates the use of IP CTS and that you understand that the cost of IP CTS calls is paid for by the TRS Fund.",
+        "If a current user of IP CTS or an applicant seeking to use the service does not have a social security number or official Tribal identification card number, then IP CTS providers can accept several alternative documents"
+      ]
+    },
+    {
+      "id": "s28",
+      "title": "Apple iTunes Lookup API, Rylo app id 1514154600, UK storefront",
+      "publisher": "Apple",
+      "url": "https://itunes.apple.com/lookup?id=1514154600&country=gb",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "\"resultCount\":0 (same result for country=ca, de, au, si; country=us returns the app)"
+      ]
+    },
+    {
+      "id": "s29",
+      "title": "Can I make international calls with Rylo?",
+      "publisher": "Rylo Help Center",
+      "url": "https://help.rylo.com/en/articles/7959651-can-i-make-international-calls-with-rylo",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Rylo supports international calls for free! See below for the complete list of supported countries:"
+      ]
+    },
+    {
+      "id": "s30",
+      "title": "Is Rylo only for people who are deaf or hard of hearing?",
+      "publisher": "Rylo Help Center",
+      "url": "https://help.rylo.com/en/articles/5618838-is-rylo-only-for-people-who-are-deaf-or-hard-of-hearing",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "If you don't feel like you identify with one of the above groups, you may still be eligible to use Rylo, but we may not be able to offer you our services for free."
+      ]
+    },
+    {
+      "id": "s31",
+      "title": "AI-Powered Sign Language Tools for the Deaf and Hard of Hearing Community",
+      "publisher": "Rylo (Nagish Inc.)",
+      "url": "https://rylo.com/sign",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "In 2025, Rylo acquired sign.mt, an AI research company working at the intersection of Computer Vision, LLMs, and Sign Language Translation.",
+        "Sign Translate and the Sign Dictionary are free and maintained by the community."
+      ]
+    },
+    {
+      "id": "s32",
+      "title": "How to enable two-sided captioning",
+      "publisher": "Rylo Help Center",
+      "url": "https://help.rylo.com/en/articles/11801848-how-to-enable-two-sided-captioning",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "To turn on two-sided captioning (where both your voice and the other participant's speech appear in captions):"
+      ]
+    },
+    {
+      "id": "s33",
+      "title": "What are IP CTS and IP Relay?",
+      "publisher": "Rylo Help Center",
+      "url": "https://help.rylo.com/en/articles/10539570-what-are-ip-cts-and-ip-relay",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "IP CTS is for people with hearing loss who prefer to speak.",
+        "IP Relay is for people with hearing loss or speech disabilities who prefer to type."
+      ]
+    },
+    {
+      "id": "s34",
+      "title": "How to Turn on Background Captions",
+      "publisher": "Rylo Help Center",
+      "url": "https://help.rylo.com/en/articles/15932772-how-to-turn-on-background-captions",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Background Captions works for phone calls only. It does not yet support Live Transcribe (in-person conversation captions)."
+      ]
+    },
+    {
+      "id": "s35",
+      "title": "nagish.com (redirects to rylo.com)",
+      "publisher": "Rylo (Nagish Inc.)",
+      "url": "https://nagish.com/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "HTTP/2 301, location: https://rylo.com/ (seen 2026-10-28)"
+      ]
+    }
+  ],
+  "notes": "Nagish has been renamed Rylo: nagish.com answers with a 301 redirect to https://rylo.com/ (s35, seen 2026-10-28), rylo.com's structured data gives legalName \"Nagish Inc. dba Rylo\" and alternateName \"Nagish\", the FCC provider list says \"Nagish, Inc. d/b/a Rylo\", and the store seller is still Nagish Inc. (Play package com.talknagish.app). The App Store privacy policy link still points to nagish.com/privacy-policy, which redirects to rylo.com/legal/privacy. Language counts conflict (store 6, help centre 53 entries, website 50+, Desktop 60). Device requirements conflict (App Store iOS 16.6+, help centre iOS 15+). Rylo's help centre says the last 4 SSN digits are required, while the FCC FAQ says providers may accept other ID documents if a user has no SSN. Privacy messaging conflicts: marketing pages say Live Transcribe is 100% private and saved on the device, but the privacy policy says Rylo Live conversations may be recorded and stored, and the AI terms allow Live Transcribe input to be used for training. Whether Live Transcribe needs the full FCC registration (SSN etc.) is not stated; the help centre only says it is free for Rylo users. Speaker labels and translation for Live Transcribe are not stated. Google Play's Android version requirement was not visible in the fetched page. No 'Nagish Pro' or other paid plan was found on any current official page. The App Store lookup API returned no result for the UK, Canada, Germany, Australia and Slovenia storefronts; other countries were not checked. The FCC IP CTS consumer guide (fcc.gov/consumers/guides/internet-protocol-ip-captioned-telephone-service) returned 403 to WebFetch and was read in a browser instead; the facts here cite the FCC provider list and registration FAQ. Cleaned 2026-10-28 for the table: text cells shortened, the most official figure in text (website 50+ languages, App Store iOS 16.6+), conflicts explained in detail; download counts removed."
+}

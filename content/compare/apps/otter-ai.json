@@ -1,0 +1,714 @@
+{
+  "slug": "otter-ai",
+  "name": "Otter.ai",
+  "shortName": "Otter.ai",
+  "developer": "Otter.ai, Inc.",
+  "developerCountry": "United States (Mountain View, California)",
+  "website": "https://otter.ai/",
+  "appStoreUrl": "https://apps.apple.com/us/app/otter-transcribe-voice-notes/id1276437113",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.aisense.otter",
+  "category": "meeting-transcription",
+  "oneLine": "AI meeting notetaker that transcribes in-person and online meetings live, joins Zoom, Teams and Meet calls, and writes summaries.",
+  "facts": {
+    "platforms": {
+      "status": "yes",
+      "text": "iPhone, iPad, Android, web, Mac, Windows",
+      "detail": "iOS and Android apps, a web app at otter.ai, desktop apps for Mac and Windows, and a Chrome extension for Google Meet and Zoom.",
+      "sources": [
+        "o1",
+        "o17",
+        "o24"
+      ]
+    },
+    "deviceRequirements": {
+      "status": "yes",
+      "text": "iOS 16+, Android 6.0+",
+      "detail": "The App Store listing needs iOS 16.0 or later and Google Play lists Android 6.0 and up. Otter's help centre still says iOS 15 and Android 5.0.",
+      "sources": [
+        "o24",
+        "o25",
+        "o5"
+      ]
+    },
+    "roomCaptions": {
+      "status": "yes",
+      "text": "Yes, live transcript while it records",
+      "detail": "Tap record in the mobile app or on the web and the conversation is transcribed in real time from the built-in mic, a Bluetooth mic or AirPods. Real-time transcription needs internet.",
+      "sources": [
+        "o6",
+        "o26",
+        "o1",
+        "o25"
+      ]
+    },
+    "groupConversations": {
+      "status": "partial",
+      "text": "One device records; others can follow",
+      "detail": "Otter records from one device and recommends placing the mic in the middle of all speakers. A recording started inside an Otter group can be followed live by its members; other phones do not join as microphones.",
+      "sources": [
+        "o26",
+        "o25"
+      ]
+    },
+    "languages": {
+      "status": "yes",
+      "text": "6 languages, one at a time",
+      "detail": "Otter's help centre and pricing page list English, Spanish, French, German, Japanese and Chinese (German and Chinese in beta); French can be mixed with English. The App Store says four languages and Google Play three. Menus stay in English.",
+      "sources": [
+        "o2",
+        "o3",
+        "o1",
+        "o24",
+        "o25"
+      ]
+    },
+    "offline": {
+      "status": "partial",
+      "text": "Records offline, transcribes later",
+      "detail": "Without internet the live transcript pauses but the audio keeps recording; the transcript is made once a connection is back.",
+      "sources": [
+        "o7",
+        "o6"
+      ]
+    },
+    "speakerLabels": {
+      "status": "partial",
+      "text": "After the recording stops (in person)",
+      "detail": "For in-person recordings and imports, speakers are identified only after the recording stops (Speaker 1, or a name once you tag them, which teaches Otter their voice). In Zoom meetings, Notetaker tags speakers live from participant names.",
+      "sources": [
+        "o8",
+        "o25",
+        "o1"
+      ]
+    },
+    "translation": {
+      "status": "partial",
+      "text": "Not live; Otter Chat translates afterwards",
+      "detail": "Otter does not translate while you talk. Its help centre says you can ask Otter Chat to translate a conversation into other languages.",
+      "sources": [
+        "o2",
+        "o3"
+      ]
+    },
+    "saveTranscripts": {
+      "status": "yes",
+      "text": "Yes, with audio; free shows latest 25",
+      "detail": "Transcripts and audio are saved to your account. On the free Basic plan only the 25 most recent conversations show (older ones are archived, not deleted); paid plans keep unlimited history.",
+      "sources": [
+        "o4",
+        "o1"
+      ]
+    },
+    "export": {
+      "status": "yes",
+      "text": "TXT free; PDF, DOCX, SRT on paid plans",
+      "detail": "Basic exports text only as TXT (the pricing table also lists MP3 audio). Pro and higher export TXT, PDF, DOCX and SRT caption files, and Business adds bulk export.",
+      "sources": [
+        "o12",
+        "o1"
+      ]
+    },
+    "fileUpload": {
+      "status": "yes",
+      "text": "Yes; free plan 3 files in total",
+      "detail": "Import audio and video files up to 5 GB on web or mobile. Basic allows 3 imports per account in total, Pro 10 a month, Business unlimited.",
+      "sources": [
+        "o11",
+        "o4",
+        "o1"
+      ]
+    },
+    "summaries": {
+      "status": "yes",
+      "text": "Summaries, action items, AI Chat",
+      "detail": "Automatic summaries, action items and outlines for recordings and imports, a summary email for synced calendar meetings, and AI Chat (limited on Basic).",
+      "sources": [
+        "o1",
+        "o11",
+        "o13"
+      ]
+    },
+    "customWords": {
+      "status": "yes",
+      "text": "Yes; 5 terms free, 200 on Pro",
+      "detail": "Custom vocabulary for names and jargon: 5 words or phrases on Basic, 100 names and 100 other terms on Pro, more on Business.",
+      "sources": [
+        "o14",
+        "o1"
+      ]
+    },
+    "display": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No caption text size, colour or contrast settings are described on Otter's pricing page or the help articles checked, and its App Store listing names no accessibility features.",
+      "sources": [
+        "o1",
+        "o24"
+      ]
+    },
+    "soundAlerts": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No alerts for non-speech sounds are described on Otter's pricing page, store listings or help articles checked.",
+      "sources": []
+    },
+    "phoneCalls": {
+      "status": "no",
+      "text": "No; import a call recording",
+      "detail": "Otter says Apple and Google stop third-party apps from recording calls, so you record the call elsewhere and import it. A live Otter recording pauses during a call.",
+      "sources": [
+        "o15"
+      ]
+    },
+    "videoCalls": {
+      "status": "yes",
+      "text": "Notetaker joins Zoom, Teams, Meet",
+      "detail": "Otter Notetaker joins Zoom, Google Meet and Teams meetings and transcribes them live, on every plan. Zoom hosts can also give every participant a live transcript link (Live Notes).",
+      "sources": [
+        "o9",
+        "o10",
+        "o17",
+        "o1"
+      ]
+    },
+    "mediaOnDevice": {
+      "status": "partial",
+      "text": "Computer audio and Chrome tab audio",
+      "detail": "On a computer Otter can transcribe meeting audio played through the speakers (not a headset), and the Chrome extension records the browser's own audio. Captioning audio playing on a phone is not described.",
+      "sources": [
+        "o16",
+        "o6",
+        "o17"
+      ]
+    },
+    "humanCaptioners": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Otter's plans list only AI transcription; no human captioner is described.",
+      "sources": [
+        "o1"
+      ]
+    },
+    "signLanguage": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No sign language feature or interpreter service is described on Otter's pages checked.",
+      "sources": []
+    },
+    "privacy": {
+      "status": "yes",
+      "text": "Cloud; trains AI on de-identified audio",
+      "detail": "Audio is processed and stored in the cloud (AWS, US West). The privacy policy says Otter trains its own AI on de-identified audio and on transcripts, and shares data with data-labeling providers. AI Chat sends your question and transcript to third-party AI providers.",
+      "sources": [
+        "o18",
+        "o19",
+        "o20",
+        "o27",
+        "o24"
+      ]
+    },
+    "account": {
+      "status": "yes",
+      "text": "Account needed",
+      "detail": "You sign in to an Otter account (name, email, phone number, password) to record. Google Play lists account creation as a requirement.",
+      "sources": [
+        "o21",
+        "o18",
+        "o25"
+      ]
+    },
+    "availability": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Otter's pages checked state no country limits. Prices are in US dollars, a lower price is shown only for India-issued cards, and the app's menus are in English only.",
+      "sources": [
+        "o1",
+        "o3"
+      ]
+    },
+    "freePlan": {
+      "status": "yes",
+      "text": "300 min a month, 30 min per conversation",
+      "detail": "Basic is free: 300 transcription minutes a month, up to 30 minutes per conversation, 3 file imports in total, the 25 most recent conversations, 5 vocabulary terms and TXT export.",
+      "sources": [
+        "o4",
+        "o1",
+        "o12"
+      ]
+    },
+    "price": {
+      "status": "yes",
+      "text": "Pro US$16.99/month or US$99.99/year",
+      "detail": "Pro on the US App Store, October 2026 (otter.ai shows US$8.33 a month billed yearly), with 1,200 minutes and up to 90 minutes per meeting. Business costs US$30 a month or US$239.99 a year, with a free trial that needs a card; students and teachers get 20% off Pro.",
+      "sources": [
+        "o1",
+        "o24",
+        "o23",
+        "o21"
+      ]
+    },
+    "accessibilityFunding": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No discount or funding for deaf or hard of hearing users is stated. Otter offers 20% off Pro for students and teachers, and a nonprofit discount on Business through TechSoup.",
+      "sources": [
+        "o21",
+        "o22",
+        "o1"
+      ]
+    }
+  },
+  "strengths": [
+    {
+      "text": "Free Basic plan with 300 transcription minutes a month and real-time transcription on iPhone, Android and the web.",
+      "sources": [
+        "o1",
+        "o4",
+        "o6"
+      ]
+    },
+    {
+      "text": "Notetaker joins Zoom, Google Meet and Teams by itself, and in Zoom it names speakers live from participant names; Live Notes gives every Zoom participant a live transcript link.",
+      "sources": [
+        "o9",
+        "o8",
+        "o10"
+      ]
+    },
+    {
+      "text": "Every recording and imported file gets an automatic summary, action items, outline and AI Chat.",
+      "sources": [
+        "o1",
+        "o11",
+        "o13"
+      ]
+    },
+    {
+      "text": "Learns voices once you tag a speaker, and paid plans export DOCX, PDF and SRT caption files.",
+      "sources": [
+        "o8",
+        "o12"
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "text": "Transcribes 6 languages, one at a time (French can mix with English), with German and Chinese in beta.",
+      "sources": [
+        "o2",
+        "o3"
+      ]
+    },
+    {
+      "text": "On the free plan each conversation is limited to 30 minutes, only 3 files can ever be imported, and only the 25 most recent conversations show.",
+      "sources": [
+        "o4"
+      ]
+    },
+    {
+      "text": "For in-person recordings, speaker names are added only after the recording stops, not live.",
+      "sources": [
+        "o8"
+      ]
+    },
+    {
+      "text": "Live transcription needs internet; offline it only records audio, and phone calls cannot be transcribed live.",
+      "sources": [
+        "o6",
+        "o7",
+        "o15"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "o1",
+      "title": "Pricing | Otter.ai",
+      "publisher": "Otter.ai",
+      "url": "https://otter.ai/pricing",
+      "type": "pricing",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Prices in USD",
+        "Pro For individuals and small teams $16.99/user/month",
+        "$8.33/user/month save 51%",
+        "Business Best Value For medium-sized teams $30 $24/user/month 20% off for 3 months",
+        "$19.99/user/month save 33%",
+        "Offer valid for first-time subscribers only",
+        "*Offer valid only with an India-issued credit card.",
+        "300 monthly transcription minutes",
+        "3 lifetime audio/video file imports",
+        "AI transcription in English, Spanish, French, German, Japanese, and Chinese",
+        "Max transcription time per conversation",
+        "Live notes and captioning for Google Meet",
+        "Audio input from built-in mic, Bluetooth, and AirPods",
+        "Download for Mac",
+        "Download for Windows",
+        "Otter Pro Annual: $6.67 USD per month (billed $79.99 annually)",
+        "Otter Pro Monthly: $13.59 USD per month"
+      ]
+    },
+    {
+      "id": "o2",
+      "title": "Supported languages",
+      "publisher": "Otter Help Center",
+      "url": "https://help.otter.ai/hc/en-us/articles/360047247414-Supported-languages",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Otter currently only supports English, Spanish, French, German, Japanese, and Chinese (Simplified); however, we hope to expand to more languages in the future.",
+        "You can translate your conversations into other languages using Otter Chat."
+      ]
+    },
+    {
+      "id": "o3",
+      "title": "Transcribe conversations in English, Spanish, French, German, Japanese, or Chinese (Simplified)",
+      "publisher": "Otter Help Center",
+      "url": "https://help.otter.ai/hc/en-us/articles/26660468516631-Transcribe-conversations-in-English-Spanish-French-German-Japanese-or-Chinese-Simplified",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Note: Otter can only transcribe in one language at a time.",
+        "You can transcribe both French and English simultaneously.",
+        "Note: German and Chinese (Simplified) are currently still in beta.",
+        "Other parts of Otter UI, such as settings, navigation, and menus, will all remain in English."
+      ]
+    },
+    {
+      "id": "o4",
+      "title": "Conversation, import, and app limits on the Basic free plan",
+      "publisher": "Otter Help Center",
+      "url": "https://help.otter.ai/hc/en-us/articles/360047538094-Conversation-import-and-app-limits-on-the-Basic-free-plan",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Transcription limit - Up to 300 minutes per month",
+        "On the Basic free plan, each conversation and import has a limit of 30-minutes.",
+        "On the Basic free plan, you can import up to three audio or video files for transcription per account (not per month).",
+        "On the Basic free plan, you will see the 25 most recent conversations. Older conversations will be archived (not deleted)."
+      ]
+    },
+    {
+      "id": "o5",
+      "title": "System requirements & third-party hardware",
+      "publisher": "Otter Help Center",
+      "url": "https://help.otter.ai/hc/en-us/articles/360047247594-System-requirements-third-party-hardware",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "iOS 15 or above",
+        "Android 5.0 (Lollipop) or above",
+        "Note: Starting version 3.57, we no longer support iOS 13 or iOS 14."
+      ]
+    },
+    {
+      "id": "o6",
+      "title": "Record a conversation",
+      "publisher": "Otter Help Center",
+      "url": "https://help.otter.ai/hc/en-us/articles/360048269733-Record-a-conversation",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "The conversation will start recording and will transcribe in real time.",
+        "Note: An active internet connection is required for real-time transcription.",
+        "Note: With Safari, it is impossible to record the audio coming out of the speaker back into the microphone of the same computer, such as recording participants in an online meeting."
+      ]
+    },
+    {
+      "id": "o7",
+      "title": "Record with Otter offline or without an internet connection",
+      "publisher": "Otter Help Center",
+      "url": "https://help.otter.ai/hc/en-us/articles/44008744581271-Record-with-Otter-offline-or-without-an-internet-connection",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Live transcription will pause, but Otter will continue recording your audio.",
+        "If you end the recording while offline, Otter will wait until a stable internet connection is available, then upload the recorded audio and process it to generate the transcript."
+      ]
+    },
+    {
+      "id": "o8",
+      "title": "Speaker Identification Overview",
+      "publisher": "Otter Help Center",
+      "url": "https://help.otter.ai/hc/en-us/articles/21665587209367-Speaker-Identification-Overview",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Note: Speaker identification processing will begin after the recording has stopped or a file has finished importing.",
+        "By tagging a speaker, you will teach Otter to recognize that speaker and improve upon the speaker identification for your future conversations, leading to less tagging in the future.",
+        "Using Otter Notetaker will automatically tag speakers in real-time based on the participant names of Zoom meetings."
+      ]
+    },
+    {
+      "id": "o9",
+      "title": "Otter Notetaker Overview",
+      "publisher": "Otter Help Center",
+      "url": "https://help.otter.ai/hc/en-us/articles/4425393298327-Otter-Notetaker-Overview",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Otter Notetaker is an AI meeting notetaker that automatically joins your Zoom, Google Meet, and Microsoft Teams meetings to record, transcribe, and capture your meetings in real time.",
+        "Depending on your plan, Notetaker can join multiple meetings simultaneously."
+      ]
+    },
+    {
+      "id": "o10",
+      "title": "Using Otter Live Notes",
+      "publisher": "Otter Help Center",
+      "url": "https://help.otter.ai/hc/en-us/articles/10474062838295-Using-Otter-Live-Notes",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Otter Live Notes provides real-time transcription for Zoom meetings you host, making conversations more accessible and easier to follow.",
+        "All meeting participants can access the live transcript through the link.",
+        "Otter Live Notes does not work in breakout rooms."
+      ]
+    },
+    {
+      "id": "o11",
+      "title": "Import an audio or video file",
+      "publisher": "Otter Help Center",
+      "url": "https://help.otter.ai/hc/en-us/articles/360047733574-Import-an-audio-or-video-file",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Once uploaded, Otter processes the recording to generate a transcript, AI-powered summaries, action items, outlines, and other meeting notes.",
+        "Note: Each imported file can be up to 5 GB in size and counts toward your plan’s transcription and recording limits."
+      ]
+    },
+    {
+      "id": "o12",
+      "title": "Export conversations",
+      "publisher": "Otter Help Center",
+      "url": "https://help.otter.ai/hc/en-us/articles/360047733634-Export-conversations",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Note: Basic plan users can export conversations only as TXT files.",
+        "SRT exports text with timestamps in SubRip Subtitle format, which can be used for video captions and is commonly supported by platforms like YouTube."
+      ]
+    },
+    {
+      "id": "o13",
+      "title": "Meeting Summary Overview",
+      "publisher": "Otter Help Center",
+      "url": "https://help.otter.ai/hc/en-us/articles/9156381229079-Meeting-Summary-Overview",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "When you record a meeting for a calendar event synced to Otter, you and all calendar guests will receive a Meeting Summary email within 2 hours after the meeting ends.",
+        "Note: Meeting Summary emails will not be sent to your calendar guests if you have no action items and the conversation does not generate an Automated Summary (due to the conversation having 500 words or fewer)."
+      ]
+    },
+    {
+      "id": "o14",
+      "title": "Manage vocabulary",
+      "publisher": "Otter Help Center",
+      "url": "https://help.otter.ai/hc/en-us/articles/360048571373-Manage-vocabulary",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "The Basic free plan includes up to 5 words or phrases. The Pro plan gives you a personal vocabulary of up to 100 names and 100 other vocabularies."
+      ]
+    },
+    {
+      "id": "o15",
+      "title": "Record and transcribe a phone call",
+      "publisher": "Otter Help Center",
+      "url": "https://help.otter.ai/hc/en-us/articles/37814850589975-Record-and-transcribe-a-phone-call",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Apple and Google currently restrict third-party apps from recording phone calls directly, so calls must be recorded separately and imported into Otter.",
+        "A live recording in Otter will pause during a phone call."
+      ]
+    },
+    {
+      "id": "o16",
+      "title": "Transcribe an online meeting, webinar, or virtual event",
+      "publisher": "Otter Help Center",
+      "url": "https://help.otter.ai/hc/en-us/articles/360060292793-Transcribe-an-online-meeting-webinar-or-virtual-event",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Note: Be sure to play the audio through your computer speakers, turn up the volume, and do not use a headset.",
+        "Using Otter on a web browser on the same computer (recommended) or the mobile app, begin recording the meeting."
+      ]
+    },
+    {
+      "id": "o17",
+      "title": "Otter Chrome extension",
+      "publisher": "Otter Help Center",
+      "url": "https://help.otter.ai/hc/en-us/articles/1500001857021-Otter-Chrome-extension",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "The Otter Chrome extension enables meeting hosts and participants to effortlessly transcribe Google Meet and Zoom meetings in real-time.",
+        "You have the option to record the internal browser audio along with your microphone's audio."
+      ]
+    },
+    {
+      "id": "o18",
+      "title": "Privacy Policy",
+      "publisher": "Otter.ai",
+      "url": "https://otter.ai/privacy-policy",
+      "type": "privacy",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Effective June 16, 2026",
+        "refers to Otter.ai, Inc., a company registered in Delaware with its registered address located at 800 W El Camino Real, Suite 170, Mountain View, CA 94040.",
+        "When you create an account on our Services, you will be asked to provide your name, email, phone number, and a password, you may voluntarily add a profile picture.",
+        "Improve and monitor the Services, including training our proprietary AI technology on de-identified audio recordings and on transcriptions (which may contain Personal Information)",
+        "Data labeling service providers who provide annotation services and use the data we share to create training and evaluation data for Otter’s product features."
+      ]
+    },
+    {
+      "id": "o19",
+      "title": "Data security and privacy policies",
+      "publisher": "Otter Help Center",
+      "url": "https://help.otter.ai/hc/en-us/articles/360048258953-Data-security-and-privacy-policies",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Otter uses AWS services for its data storage in the AWS region West, United States."
+      ]
+    },
+    {
+      "id": "o20",
+      "title": "Otter AI Chat FAQs",
+      "publisher": "Otter Help Center",
+      "url": "https://help.otter.ai/hc/en-us/articles/17016733191703-Otter-AI-Chat-FAQs",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Otter only sends your prompts and transcript to 3rd parties if you interact with AI Chat by sending a question.",
+        "Data is not stored by any of our 3rd-party external providers."
+      ]
+    },
+    {
+      "id": "o21",
+      "title": "Student & Teacher discount program for the Pro plan",
+      "publisher": "Otter Help Center",
+      "url": "https://help.otter.ai/hc/en-us/articles/4402467517847-Student-Teacher-discount-program-for-the-Pro-plan",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "The Student & Teacher program offers a discount on our Pro monthly or annual plan for individuals.",
+        "Sign in to your Otter.ai account."
+      ]
+    },
+    {
+      "id": "o22",
+      "title": "Otter x TechSoup Nonprofit discount",
+      "publisher": "Otter Help Center",
+      "url": "https://help.otter.ai/hc/en-us/articles/15871360236951-Otter-x-TechSoup-Nonprofit-discount",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "We offer a discount on our Otter Business plan to organizations that hold a valid charitable status with either the IRS (section 501(c)(3) in the United States) or a local tax service/charity commission."
+      ]
+    },
+    {
+      "id": "o23",
+      "title": "About your Otter Business free trial",
+      "publisher": "Otter Help Center",
+      "url": "https://help.otter.ai/hc/en-us/articles/1500007864861-About-your-Otter-Business-free-trial",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Note: A credit card is required to start the Otter Business free trial.",
+        "After your trial period is complete, the card on file you entered during sign-up will automatically be charged for the current number of seats in your Workspace, at the Otter Business monthly rate."
+      ]
+    },
+    {
+      "id": "o24",
+      "title": "Otter Transcribe Voice Notes (App Store, United States)",
+      "publisher": "Apple App Store",
+      "url": "https://apps.apple.com/us/app/otter-transcribe-voice-notes/id1276437113",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Available in English, Spanish, French and Japanese.",
+        "Requires iOS 16.0 or later.",
+        "Otter Pro (monthly) $16.99",
+        "Otter Pro (yearly) $99.99",
+        "Otter Business (monthly) $30.00",
+        "Otter Business (yearly) $239.99",
+        "The following data may be used to track you across apps and websites owned by other companies:",
+        "Version 3.110.1",
+        "The developer has not yet indicated which accessibility features this app supports."
+      ]
+    },
+    {
+      "id": "o25",
+      "title": "OtterAI Transcribe Voice Notes (Google Play, United States)",
+      "publisher": "Google Play",
+      "url": "https://play.google.com/store/apps/details?id=com.aisense.otter",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Show live caption in real time. Great for in-person recordings and online meetings. Also available on the web. English, Spanish, French only.",
+        "Provide live captioning to anyone with accessibility needs",
+        "Transcribe in real time (when online) with high accuracy",
+        "Identify speakers (after some training)",
+        "Start a meeting recording inside a group to share the transcript live",
+        "Android 6.0 & up",
+        "Internet connection for transcribing",
+        "Account creation. See our Terms of Service",
+        "Get an AI meeting assistant that records audio, takes notes, voice memos, automatically captures slides, and transcribes voice summaries."
+      ]
+    },
+    {
+      "id": "o26",
+      "title": "Getting the most out of Otter.ai: Best Practices for in-person recordings",
+      "publisher": "Otter Help Center",
+      "url": "https://help.otter.ai/hc/en-us/articles/31672594631063-Getting-the-most-out-of-Otter-ai-Best-Practices-for-in-person-recordings",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "You have two options to record using Otter for in-person meetings or conversations.",
+        "Otter requires a stable internet connection to provide real-time transcription.",
+        "We recommend positioning the microphone in the center of all speakers."
+      ]
+    },
+    {
+      "id": "o27",
+      "title": "Set a custom Data Retention policy",
+      "publisher": "Otter Help Center",
+      "url": "https://help.otter.ai/hc/en-us/articles/19500988656279-Set-a-custom-Data-Retention-policy",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Getting Started: Contact your Otter account manager to set up a custom Data Retention policy."
+      ]
+    }
+  ],
+  "notes": "help.otter.ai returns 403 (Cloudflare) to WebFetch and curl; its articles were opened in a real browser on 2026-10-28 (article text read from the help centre page / its own article endpoint). otter.ai pricing, privacy policy and both store listings opened directly. Conflicts: (1) Languages: help centre and pricing say 6 (EN, ES, FR, DE, JA, ZH Simplified; DE and ZH beta), App Store description says EN, ES, FR, JA, Google Play says 'English, Spanish, French only'. (2) Minimum iOS: help says iOS 15+, App Store says iOS 16.0+. (3) Annual prices: website $8.33/user/month Pro and $19.99 Business billed annually; US App Store in-app purchases $99.99/year Pro and $239.99/year Business. The pricing page also shows India-only card prices ($8.49 monthly, $4.17 annual Pro) and a first-time Business promo ($24/month for 3 months). Free trial length for Business is not stated on the pages opened; Pro has no stated trial. 'OtterPilot' is the older name still used in the privacy policy; help pages now say 'Otter Notetaker'. Pricing table lists 'Live transcription via RTMP (additional fees apply)', fee not stated. An Otter blog post from 3 June 2019 (otter.ai/blog/otter-for-accessibility-a-universal-tool-that-meets-specific-needs-for-people-with-disabilities) says many deaf and hard of hearing users adopted it, but its prices and free limits (10 hours/month) are long out of date, so it was not used. No deaf-specific features (sound alerts, caption text size, sign language) were found. Quotes from pricing cards and store price lists are the rendered text (the HTML splits amounts across elements)."
+}

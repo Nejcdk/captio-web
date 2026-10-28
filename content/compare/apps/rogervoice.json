@@ -1,0 +1,934 @@
+{
+  "slug": "rogervoice",
+  "name": "Rogervoice",
+  "shortName": "Rogervoice",
+  "developer": "Rogervoice",
+  "developerCountry": "France",
+  "website": "https://rogervoice.com/",
+  "appStoreUrl": "https://apps.apple.com/app/rogervoice/id1033113354",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.rogervoice.app",
+  "category": "phone-call-captions",
+  "oneLine": "French app that captions phone calls in real time for deaf and hard of hearing people; since October 2026 it also captions in-person conversations.",
+  "facts": {
+    "platforms": {
+      "status": "yes",
+      "text": "iPhone, iPad, Android",
+      "detail": "Rogervoice's help centre says the app runs only on iPhone, iPad and Android phones and tablets.",
+      "sources": [
+        "r23",
+        "r34",
+        "r37"
+      ]
+    },
+    "deviceRequirements": {
+      "status": "yes",
+      "text": "iOS 16+ or Android 7+; Live captions iOS 26+",
+      "detail": "The app needs iOS 16 or later (iPhone 8 or newer) or Android 7 or later, and a mobile number to sign up. The new Live captions mode needs iOS 26 or later on iPhone; Rogervoice says it works on all Android phones.",
+      "sources": [
+        "r23",
+        "r9",
+        "r34",
+        "r26"
+      ]
+    },
+    "roomCaptions": {
+      "status": "yes",
+      "text": "Yes, Live captions (new, Oct 2026)",
+      "detail": "Live captions shows what people around you say in real time, with text size and pause. It arrived in app version 6.1.0 on 26 October 2026, and Rogervoice's official pages say little more about it so far.",
+      "sources": [
+        "r9",
+        "r10",
+        "r2",
+        "r35",
+        "r34"
+      ]
+    },
+    "groupConversations": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No official page says how Live captions handles several people talking, or whether it can use more than one phone or an external microphone.",
+      "sources": []
+    },
+    "languages": {
+      "status": "yes",
+      "text": "100+ languages for calls",
+      "detail": "Rogervoice's international site and US App Store listing say 100+ languages, its French listings say more than 80, and its help-centre list (from 2021) has 119 language and region entries in 64 languages. Languages for Live captions are not stated.",
+      "sources": [
+        "r17",
+        "r6",
+        "r35",
+        "r34",
+        "r38"
+      ]
+    },
+    "offline": {
+      "status": "yes",
+      "text": "Yes, Live captions in airplane mode",
+      "detail": "Rogervoice's French features page says face-to-face captions work even in airplane mode; its help article doesn't mention it. Phone calls need Wi-Fi or mobile data.",
+      "sources": [
+        "r2",
+        "r23"
+      ]
+    },
+    "speakerLabels": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No official page says Live captions shows who is talking. During calls, a setting can also show your own words as text.",
+      "sources": [
+        "r40"
+      ]
+    },
+    "translation": {
+      "status": "no",
+      "text": "No",
+      "detail": "The help centre says Rogervoice does not translate conversations from one language to another; you pick the caption language for each call.",
+      "sources": [
+        "r24"
+      ]
+    },
+    "saveTranscripts": {
+      "status": "yes",
+      "text": "Yes, on the phone only",
+      "detail": "Call transcripts can be saved on the phone (a setting you can turn off) and re-read in Recents, and Live captions transcripts can be re-read too. Rogervoice says it keeps no transcripts on its servers; how long the phone keeps them is not stated.",
+      "sources": [
+        "r21",
+        "r2",
+        "r22",
+        "r9"
+      ]
+    },
+    "export": {
+      "status": "yes",
+      "text": "Yes; format not stated",
+      "detail": "Live captions transcripts can be exported, and an app update added exporting conversations to save or share them. The file format is not stated.",
+      "sources": [
+        "r9",
+        "r34"
+      ]
+    },
+    "fileUpload": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No official page mentions transcribing audio or video files.",
+      "sources": []
+    },
+    "summaries": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No official page mentions AI summaries or notes.",
+      "sources": []
+    },
+    "customWords": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No official page mentions adding your own words or names.",
+      "sources": []
+    },
+    "display": {
+      "status": "yes",
+      "text": "Text size, 4 themes, high contrast",
+      "detail": "You can change caption size and choose one of 4 appearance themes, including a blue and yellow theme for people with low vision. The store listings also mention dark, light and high-contrast modes.",
+      "sources": [
+        "r29",
+        "r41",
+        "r35"
+      ]
+    },
+    "soundAlerts": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No official page mentions alerts for non-speech sounds.",
+      "sources": []
+    },
+    "phoneCalls": {
+      "status": "yes",
+      "text": "Yes, calls to any number",
+      "detail": "It captions incoming and outgoing calls word for word, lets you reply by voice or by typing (read out for you), transcribes voicemail and lets you keep your own number. The other person needs nothing, and each call can last up to 2 hours.",
+      "sources": [
+        "r5",
+        "r35",
+        "r6",
+        "r2",
+        "r11"
+      ]
+    },
+    "videoCalls": {
+      "status": "partial",
+      "text": "Between Rogervoice users only",
+      "detail": "Captioned video calls work when both people have the Rogervoice app and you have a subscription or, in the US, FCC registration. Captioning Zoom, Teams or Meet is not stated.",
+      "sources": [
+        "r25"
+      ]
+    },
+    "mediaOnDevice": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No official page mentions captioning audio or video playing on the phone.",
+      "sources": []
+    },
+    "humanCaptioners": {
+      "status": "partial",
+      "text": "France only, in the 5 h relay offer",
+      "detail": "In France, the operator-funded relay offer lets you add a human 'copilote' who corrects captions and describes the other person's tone, within 5 hours a month on weekdays 8:30 to 21:00 and Saturday 8:30 to 13:00. Paid plans use automatic captions only.",
+      "sources": [
+        "r16",
+        "r15",
+        "r14"
+      ]
+    },
+    "signLanguage": {
+      "status": "partial",
+      "text": "France only: LSF, LfPC, braille",
+      "detail": "In France, the operator-funded relay offer includes calls through a qualified French Sign Language (LSF) interpreter by video, a Cued French (LfPC) coder, or a braille-compatible mode, within 5 hours a month and opening hours.",
+      "sources": [
+        "r15",
+        "r4",
+        "r3"
+      ]
+    },
+    "privacy": {
+      "status": "yes",
+      "text": "Cloud for calls; no transcripts on servers",
+      "detail": "Rogervoice says calls are captioned automatically with no person listening, that it stores no call audio or transcripts on its servers, and that EU users' data stays in Europe. Its French App Store privacy label lists identifiers as data used to track you.",
+      "sources": [
+        "r32",
+        "r22",
+        "r33",
+        "r34",
+        "r35"
+      ]
+    },
+    "account": {
+      "status": "yes",
+      "text": "Yes, phone number + SMS code",
+      "detail": "You sign up with your phone number and a code sent by SMS. A Rogervoice number in France can need proof of address or ID, and free US service needs FCC registration with a Social Security number.",
+      "sources": [
+        "r26",
+        "r33",
+        "r30"
+      ]
+    },
+    "availability": {
+      "status": "yes",
+      "text": "44 countries; incoming calls in 9",
+      "detail": "The help centre lists 44 countries where you can download it, 38 where you can buy a plan or credit, and 9 where you can receive calls, including France, the US, the UK and Canada. Its international site says more than 52 countries.",
+      "sources": [
+        "r18",
+        "r19",
+        "r20",
+        "r6",
+        "r30"
+      ]
+    },
+    "freePlan": {
+      "status": "partial",
+      "text": "30 free minutes; app-to-app calls free",
+      "detail": "The app is free, calls between Rogervoice users are free, and new users outside the US get 30 free minutes of calls for their first year; free calls in the US and France come through public programmes. Rogervoice doesn't say whether Live captions costs anything.",
+      "sources": [
+        "r27",
+        "r36",
+        "r11",
+        "r12",
+        "r30",
+        "r13"
+      ]
+    },
+    "price": {
+      "status": "yes",
+      "text": "US$5.99 or US$29.99/month (US App Store)",
+      "detail": "Freedom (a number and 1 hour of calls a month) or Premium (unlimited calls), billed by Apple or Google, October 2026: US$5.99 or US$29.99 (US), €5.99 or €29.99 (France), £5.49 or £27.49 (UK). Extra credit of 2 hours costs €11.99 in France and £9.99 in the UK (US$10.99 in the English help centre), and a French business plan €1,200 a year before VAT.",
+      "sources": [
+        "r11",
+        "r12",
+        "r6",
+        "r34",
+        "r35",
+        "r36",
+        "r8",
+        "r39"
+      ]
+    },
+    "accessibilityFunding": {
+      "status": "yes",
+      "text": "Free in US (FCC); France: 5 h/month",
+      "detail": "In the US it is free for eligible users with hearing loss, paid by the FCC (certified since March 2024). In France, under French law, Orange, SFR, Bouygues Telecom, La Poste Mobile and their brands pay for 5 hours of calls a month since 1 October 2026 (3 hours before, as the French App Store listing still says), and the MDPH and Agefiph can reimburse subscriptions.",
+      "sources": [
+        "r5",
+        "r30",
+        "r13",
+        "r3",
+        "r34",
+        "r28",
+        "r8"
+      ]
+    }
+  },
+  "strengths": [
+    {
+      "text": "Captions phone calls to any number in real time, with typed replies read aloud, voicemail transcription and the option to keep your own number.",
+      "sources": [
+        "r35",
+        "r6",
+        "r2",
+        "r11"
+      ]
+    },
+    {
+      "text": "Free for eligible US users through the FCC, and 5 hours of calls a month in France through major operators, including LSF interpreters, LfPC coders and human-corrected captions.",
+      "sources": [
+        "r5",
+        "r30",
+        "r13",
+        "r15"
+      ]
+    },
+    {
+      "text": "A new Live captions mode captions people in the room; its French site says it works in airplane mode, and transcripts can be re-read and exported.",
+      "sources": [
+        "r9",
+        "r2"
+      ]
+    },
+    {
+      "text": "Says it never stores call audio or transcripts on its servers; transcripts stay on the phone.",
+      "sources": [
+        "r32",
+        "r22",
+        "r35"
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "text": "Outside the US, calls to people without the app need a plan or credit after 30 free minutes, unless a French operator pays for them.",
+      "sources": [
+        "r11",
+        "r12",
+        "r13"
+      ]
+    },
+    {
+      "text": "No translation between languages.",
+      "sources": [
+        "r24"
+      ]
+    },
+    {
+      "text": "Live captions on iPhone needs iOS 26 or later, and official pages say little about it so far.",
+      "sources": [
+        "r9",
+        "r35"
+      ]
+    },
+    {
+      "text": "The French relay offer (sign language, LfPC, human-corrected captions) is limited to 5 hours a month, opening hours and calls within France and its overseas departments.",
+      "sources": [
+        "r14"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "r1",
+      "title": "Rogervoice (France homepage)",
+      "publisher": "Rogervoice",
+      "url": "https://rogervoice.com/fr/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Rogervoice transcrit tous vos appels, mot à mot, en temps réel",
+        "Sauvegardées sur votre téléphone en toute sécurité, relisez vos conversations pour vous en remémorer les détails."
+      ]
+    },
+    {
+      "id": "r2",
+      "title": "Nos fonctionnalités",
+      "publisher": "Rogervoice",
+      "url": "https://rogervoice.com/fr/application-de-transcription-instantanee/nos-fonctionnalites/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Grâce à l’application Rogervoice, vous pouvez désormais sous-titrer vos échanges en face à face.",
+        "Bénéficiez d’une retranscription fiable quelle que soit la qualité du réseau : cela fonctionne même en mode avion.",
+        "Conservez votre numéro de téléphone habituel, aucune modification n’est nécessaire pour utiliser Rogervoice.",
+        "Avec Rogervoice, toutes vos conversations sont sauvegardées sur votre téléphone* de manière totalement sécurisée pour garantir la confidentialité.",
+        "*vous pouvez désactiver cette fonctionnalité dans les paramètres si vous le souhaitez"
+      ]
+    },
+    {
+      "id": "r3",
+      "title": "Application de transcription instantanée",
+      "publisher": "Rogervoice",
+      "url": "https://rogervoice.com/fr/application-de-transcription-instantanee/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "5 heures par mois prises en charge par votre opérateur téléphonique",
+        "Pour Bouygues Telecom, La Poste mobile, Orange, et SFR et leurs filiales*, le service passe par Rogervoice.",
+        "En lien avec ces évolutions règlementaires prévues au 1er octobre 2026, les opérateurs proposent désormais :",
+        "En Langue de signes française",
+        "24 heures sur 24 et 7 jours sur 7 y compris jours fériés ;"
+      ]
+    },
+    {
+      "id": "r4",
+      "title": "Le Centre relais téléphonique",
+      "publisher": "Rogervoice",
+      "url": "https://rogervoice.com/fr/centre-relais-telephonique/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Nos interprètes diplômés traduisent vos appels en LSF via une interface vidéo intuitive.",
+        "Un codeur professionnel visualise la parole et ses compléments nécessaires pour une lecture labiale optimale.",
+        "Thèmes adaptés : clair ou à contraste renforcé"
+      ]
+    },
+    {
+      "id": "r5",
+      "title": "Live Caption Your Calls (US homepage)",
+      "label": "Rogervoice US homepage",
+      "publisher": "Rogervoice",
+      "url": "https://rogervoice.com/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Rogervoice transcribes your calls word for word, in real time.",
+        "As a US citizen or resident with a hearing loss, you may use Rogervoice free of charge, 24 hours a day and 7 days a week.",
+        "The service is paid for by the FCC through a federally funded service for persons with hearing loss.",
+        "Your calls and captions are encrypted end-to-end."
+      ]
+    },
+    {
+      "id": "r6",
+      "title": "Rogervoice (international site, plans)",
+      "label": "Rogervoice international site and plans",
+      "publisher": "Rogervoice",
+      "url": "https://rogervoice.com/en-int/",
+      "type": "pricing",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Rogervoice is available in more than 52 countries providing live call captioning in 100+ languages.",
+        "1 Hour Plan",
+        "$5.99",
+        "Make or receive up to 1 hour of calls per month.",
+        "Unlimited Plan",
+        "$29.99",
+        "Unlimited calls internationally.",
+        "Made in Paris",
+        "If you prefer typing instead of speaking, simply write your message and Rogervoice will voice it for you in real time.",
+        "Rogervoice instantly transcribes voicemails into text so you can read them anytime, anywhere."
+      ]
+    },
+    {
+      "id": "r7",
+      "title": "Qui sommes-nous ?",
+      "publisher": "Rogervoice",
+      "url": "https://rogervoice.com/fr/qui-sommes-nous/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Créée à Paris en 2014 par Olivier Jeannel, lui-même sourd, rejoint par Bastien Le Rest, Rogervoice est une société à mission qui emploie plus de 120 personnes."
+      ]
+    },
+    {
+      "id": "r8",
+      "title": "Nos solutions entreprises",
+      "label": "Rogervoice business plans (France)",
+      "publisher": "Rogervoice",
+      "url": "https://rogervoice.com/fr/nos-solutions-entreprises/",
+      "type": "pricing",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Forfait pro",
+        "1200€ HT/an",
+        "Appels sous-titrés illimités 24/24, 7j/7",
+        "Eligible à une prise en charge par l’AGEFIPH"
+      ]
+    },
+    {
+      "id": "r9",
+      "title": "Live captions",
+      "publisher": "Rogervoice Help Center",
+      "url": "https://help.rogervoice.com/en/articles/17693934-live-captions",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "With Live captions, the app shows what people around you are saying in real time.",
+        "Note: this feature is available on iPhone with iOS 26 or later, and and on all Android phones.",
+        "change the text size using the two magnifying glass icons at the bottom left of the screen",
+        "read the transcript again",
+        "export it"
+      ]
+    },
+    {
+      "id": "r10",
+      "title": "Sous-titres en direct",
+      "publisher": "Rogervoice Help Center",
+      "url": "https://help.rogervoice.com/fr/articles/17693934-sous-titres-en-direct",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Avec les sous-titres en direct, l’application écrit en temps réel ce que disent les personnes autour de vous."
+      ]
+    },
+    {
+      "id": "r11",
+      "title": "Outgoing call",
+      "publisher": "Rogervoice Help Center",
+      "url": "https://help.rogervoice.com/en/articles/2064387-outgoing-call",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Calls are limited to 2 hours per call.",
+        "when you download the app for the first time, you can call 30 minutes for free. Try it out! This offer is valid for one year after you sign up.",
+        "Freedom: 5.99$ Rogervoice number gets you 1 hour per month",
+        "Premium: 29.99$ Rogervoice number gets you unlimited calls",
+        "You can buy top-up credits! Get 2 hours for 10.99$",
+        "For your correspondent, it works exactly like a normal call.",
+        "Calls towards someone that doesn't have Rogervoice will use up your credits"
+      ]
+    },
+    {
+      "id": "r12",
+      "title": "Appels sortants",
+      "publisher": "Rogervoice Help Center",
+      "url": "https://help.rogervoice.com/fr/articles/2064387-appels-sortants",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "A votre inscription, 30 minutes d'appels vous sont offertes, valable pendant 1 an.",
+        "Freedom : 5,99€ numéro Rogervoice +1h/mois",
+        "Premium : 29,99€ numéro Rogervoice +illimité",
+        "2h d'appel valable pour un an : 11,99€.",
+        "Vous ne pouvez pas appeler les numéros d'urgence (112, 15, 17, 18)."
+      ]
+    },
+    {
+      "id": "r13",
+      "title": "Opérateurs éligibles",
+      "publisher": "Rogervoice Help Center",
+      "url": "https://help.rogervoice.com/fr/articles/2417559-operateurs-eligibles",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Depuis le 1er octobre 2026, certains opérateurs prennent en charge 5 heures d’appels par mois.",
+        "(5,99€ par mois pour 1h d'appels par mois, ou 29,99€ par mois pour appels illimités)",
+        "Si votre opérateur téléphonique ne figure pas dans cette liste (Free par exemple) , il vous est possible de prendre un abonnement sous-titré disponible 24h/24, 7jours/7 avec Rogervoice."
+      ]
+    },
+    {
+      "id": "r14",
+      "title": "Informations Générales (relais téléphonique)",
+      "publisher": "Rogervoice Help Center",
+      "url": "https://help.rogervoice.com/fr/articles/2398902-informations-generales",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Si votre opérateur fait partie de la liste des opérateurs éligibles, vous avez droit à 5 heures offertes par mois pour passer et recevoir vos appels.",
+        "Votre crédit est renouvelé le 1er de chaque mois.",
+        "du lundi au vendredi, de 8h30 à 21h",
+        "Le service sert uniquement aux appels entre deux personnes. Il ne remplace pas un interprète pour une réunion en présentiel.",
+        "Vous pouvez appeler uniquement vers la France métropolitaine et les DROM-COM.",
+        "Il vous permet de téléphoner avec la transcription automatique uniquement."
+      ]
+    },
+    {
+      "id": "r15",
+      "title": "Modes d'appel",
+      "publisher": "Rogervoice Help Center",
+      "url": "https://help.rogervoice.com/fr/articles/7128452-modes-d-appel",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "la Langue des Signes Française : un(e) interprète diplômé(e) vous accompagne tout le long de l’appel",
+        "la Langue française Parlée Complétée : un(e) codeur(se) code la conversation et vous répondez à l’oral",
+        "en mode compatible braille : lisez les propos de votre interlocuteur à l’aide de votre clavier braille connecté et répondez à l’écrit."
+      ]
+    },
+    {
+      "id": "r16",
+      "title": "Passer un appel sous-titré avec un copilote",
+      "publisher": "Rogervoice Help Center",
+      "url": "https://help.rogervoice.com/fr/articles/10125347-passer-un-appel-sous-titre-avec-un-copilote",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "En activant l'option copilote, un professionnel humain assiste votre appel sous-titré pour une compréhension optimale.",
+        "Il décrypte l'ambiance et les émotions de votre interlocuteur, corrige les mots complexes (adresses, noms) et peut même lire vos écrits à voix haute si vous ne souhaitez pas oraliser."
+      ]
+    },
+    {
+      "id": "r17",
+      "title": "Languages available in STT (Speech to Text)",
+      "publisher": "Rogervoice Help Center",
+      "url": "https://help.rogervoice.com/en/articles/2066030-languages-available-in-stt-speech-to-text",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Afrikaans (Suid-Afrika) af-ZA Afrikaans (South Africa)",
+        "Français (France) fr-FR French (France)",
+        "普通话 (中国大陆) cmn-Hans-CN Chinese, Mandarin (Simplified, China)",
+        "March 8, 2021"
+      ]
+    },
+    {
+      "id": "r18",
+      "title": "Eligible countries to download Rogervoice",
+      "publisher": "Rogervoice Help Center",
+      "url": "https://help.rogervoice.com/en/articles/3693184-eligible-countries-to-download-rogervoice",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "List of countries where residents can download the application to make phone calls."
+      ]
+    },
+    {
+      "id": "r19",
+      "title": "Eligible countries for subscription or purchase of credits",
+      "publisher": "Rogervoice Help Center",
+      "url": "https://help.rogervoice.com/en/articles/3635871-eligible-countries-for-subscription-or-purchase-of-credits",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "List of countries where residents can subscribe or buy credits to make phone calls."
+      ]
+    },
+    {
+      "id": "r20",
+      "title": "Countries where it is possible to accept incoming calls",
+      "publisher": "Rogervoice Help Center",
+      "url": "https://help.rogervoice.com/en/articles/2064217-countries-where-it-is-possible-to-accept-incoming-calls",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "List of countries where residents can receive phone calls with Rogervoice.",
+        "If your country is not listed below, you can still make phone calls with your subscription or credit."
+      ]
+    },
+    {
+      "id": "r21",
+      "title": "Save conversations",
+      "publisher": "Rogervoice Help Center",
+      "url": "https://help.rogervoice.com/en/articles/6028664-save-conversations",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "To activate this feature, go to ⚙️ Settings > Save call transcripts.",
+        "Once activated, you can re-read your conversations by going to Recents after a call."
+      ]
+    },
+    {
+      "id": "r22",
+      "title": "Confidentiality",
+      "publisher": "Rogervoice Help Center",
+      "url": "https://help.rogervoice.com/en/articles/4359959-confidentiality",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "We don't archive the transcripts on our servers.",
+        "No person or other intermediary intervenes during the call, the voice message is automatic."
+      ]
+    },
+    {
+      "id": "r23",
+      "title": "Getting Started as a New User",
+      "publisher": "Rogervoice Help Center",
+      "url": "https://help.rogervoice.com/en/articles/1047845-getting-started-as-a-new-user",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Rogervoice is only available on smartphones and tablets iOS 🍏 (iPhone/iPad) and Android 🤖.",
+        "On iOS (iPhone/iPad) 🍏: you need at least iOS 16.0 to download Rogervoice.",
+        "Warning: the app can't be downloaded on models before the iPhone 8.",
+        "On Android 🤖: you need at least the version 7.0 Nougat.",
+        "Connect to your WiFi network or a 4G/5G/LTE connection to make phone calls with Rogervoice."
+      ]
+    },
+    {
+      "id": "r24",
+      "title": "Transcription language",
+      "publisher": "Rogervoice Help Center",
+      "url": "https://help.rogervoice.com/en/articles/389585-transcription-language",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Attention: Rogervoice does not allow you to translate your conversations from one language to another."
+      ]
+    },
+    {
+      "id": "r25",
+      "title": "Captioned video calls",
+      "publisher": "Rogervoice Help Center",
+      "url": "https://help.rogervoice.com/en/articles/11822322-captioned-video-calls",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "You can see your contact and read their words at the same time using Rogervoice.",
+        "for users who have a Rogervoice subscription,",
+        "the other person has also downloaded the Rogervoice app.",
+        "or for those who have registered for FCC,"
+      ]
+    },
+    {
+      "id": "r26",
+      "title": "Sign Up & Log In",
+      "publisher": "Rogervoice Help Center",
+      "url": "https://help.rogervoice.com/en/articles/1063710-sign-up-log-in",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "If it's the first time you use Rogervoice, you will need to type in your phone number.",
+        "The message contains a verification code required to activate your account."
+      ]
+    },
+    {
+      "id": "r27",
+      "title": "Introduction",
+      "publisher": "Rogervoice Help Center",
+      "url": "https://help.rogervoice.com/en/articles/1081132-introduction",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "You can download the app for free.",
+        "For persons located in the United States, calls are free for eligible persons (deaf and hard-of-hearing), covered by the FCC's TRS (telephone relay service) provision.",
+        "For persons outside the United States, you'll need to subscribe to a plan."
+      ]
+    },
+    {
+      "id": "r28",
+      "title": "Présentation",
+      "publisher": "Rogervoice Help Center",
+      "url": "https://help.rogervoice.com/fr/articles/1081132-presentation",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Les abonnements sont remboursés jusqu'à 100% par la MDPH et l'Agefiph."
+      ]
+    },
+    {
+      "id": "r29",
+      "title": "Contrast",
+      "publisher": "Rogervoice Help Center",
+      "url": "https://help.rogervoice.com/en/articles/4319821-contrast",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "you will have a choice of 4 appearance modes, including the Blue and yellow theme suitable for the visually impaired, a first in mobile applications in its category."
+      ]
+    },
+    {
+      "id": "r30",
+      "title": "Free and unlimited calls (Certified by the FCC)",
+      "publisher": "Rogervoice Help Center",
+      "url": "https://help.rogervoice.com/en/articles/9014096-free-and-unlimited-calls-certified-by-the-fcc",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Since March 1, 2024, Rogervoice has been certified by the FCC (Federal Communications Commission) to operate in the United States and offer its American users free and unlimited calls.",
+        "Have a SSN (Social Security Number)",
+        "Have a mobile phone number with a US area code"
+      ]
+    },
+    {
+      "id": "r31",
+      "title": "Emergency calls",
+      "publisher": "Rogervoice Help Center",
+      "url": "https://help.rogervoice.com/en/articles/11693566-emergency-calls",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Because Rogervoice relies on the internet, it is not a full replacement for a traditional telephone line.",
+        "Currently, Rogervoice cannot place calls to emergency short-codes (like 999, 112, etc.) or premium rate numbers in other countries."
+      ]
+    },
+    {
+      "id": "r32",
+      "title": "Privacy policy (Rogervoice Inc., US)",
+      "label": "Rogervoice privacy policy (US)",
+      "publisher": "Rogervoice",
+      "url": "https://rogervoice.com/privacy-policy/",
+      "type": "privacy",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Audio and video streams during calls are encrypted using DTLS and SRTP.",
+        "We do not store any data from calls on our servers or databases, including audio, video, or transcriptions."
+      ]
+    },
+    {
+      "id": "r33",
+      "title": "Politique de confidentialité",
+      "label": "Rogervoice privacy policy (France)",
+      "publisher": "Rogervoice",
+      "url": "https://rogervoice.com/fr/politique-de-confidentialite/",
+      "type": "privacy",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Vos Données Personnelles, en tant qu’utilisateurs Européens des Services Rogervoice, sont conservées en Europe.",
+        "Ces données peuvent inclure notamment votre numéro de téléphone et, pour l’attribution des numéros, votre justificatif de domicile et/ou votre pièce d’identité.",
+        "dont le siège social est situé au 47 rue des Vinaigriers, 75010 Paris"
+      ]
+    },
+    {
+      "id": "r34",
+      "title": "Rogervoice - App Store (France)",
+      "label": "App Store listing (France)",
+      "publisher": "Apple App Store",
+      "url": "https://apps.apple.com/fr/app/rogervoice/id1033113354",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Rogervoice est la première technologie pour sourds & malentendants qui sous-titre en direct tous vos appels, chez vous et à l'international, dans plus de 80 langues.",
+        "Vous disposez de 3h de communication par mois valable en France via l'application Rogervoice.",
+        "Nous ne stockons à aucun moment la voix et/ou les transcriptions de vos appels.",
+        "Nouveauté : Les sous-titres en direct",
+        "Vous pouvez désormais exporter vos conversations pour enregistrer ou partager les informations qui comptent à vos yeux !",
+        "Le professionnel humain est proposé dans l'offre de 3 heures offertes par l'opérateur téléphonique en réponse à la Loi Numérique mise en place depuis la sortie du centre relais téléphonique en 2018.",
+        "Nécessite iOS 16.0 ou version ultérieure.",
+        "Freedom 5,99 €",
+        "Premium 29,99 €",
+        "Top Up 11,99 €",
+        "Données utilisées pour vous suivre"
+      ]
+    },
+    {
+      "id": "r35",
+      "title": "Rogervoice - Call Captions (App Store, US)",
+      "label": "App Store listing (US)",
+      "publisher": "Apple App Store",
+      "url": "https://apps.apple.com/us/app/rogervoice/id1033113354",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "We transcribe over 100 languages.",
+        "We never store audio and/or transcriptions of your calls. Your call transcripts are localized on your device only.",
+        "Choose among high-contrast modes, dark or light themes, color-sensitive themes, extra-large font",
+        "Thanks to voice recognition, your calls are private. No third party is involved in your calls.",
+        "Freedom $5.99",
+        "Premium $29.99",
+        "New: Live Captions",
+        "In addition to your phone calls, you can now use Rogervoice to caption your everyday life, anywhere, anytime!",
+        "6.1.0 (2026-10-26)"
+      ]
+    },
+    {
+      "id": "r36",
+      "title": "Rogervoice - App Store (UK)",
+      "label": "App Store listing (UK)",
+      "publisher": "Apple App Store",
+      "url": "https://apps.apple.com/gb/app/rogervoice/id1033113354",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "We offer free app-to-app calls between Rogervoice users.",
+        "You can cancel your plan anytime.",
+        "Freedom £5.49",
+        "Premium £27.49",
+        "Top Up Credit £9.99"
+      ]
+    },
+    {
+      "id": "r37",
+      "title": "Rogervoice Phone Call Captions - Apps on Google Play",
+      "label": "Google Play listing (US)",
+      "publisher": "Google Play",
+      "url": "https://play.google.com/store/apps/details?id=com.rogervoice.app&hl=en&gl=US",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "100K+",
+        "Oct 23, 2026",
+        "No data shared with third parties",
+        "47 B RUE DES VINAIGRIERS",
+        "75010 PARIS"
+      ]
+    },
+    {
+      "id": "r38",
+      "title": "Rogervoice - Applications sur Google Play (France)",
+      "label": "Google Play listing (France)",
+      "publisher": "Google Play",
+      "url": "https://play.google.com/store/apps/details?id=com.rogervoice.app&hl=fr&gl=FR",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Rogervoice opère officiellement le Centre Relais Téléphonique Français.",
+        "dans plus de 80 langues"
+      ]
+    },
+    {
+      "id": "r39",
+      "title": "What do I pay?",
+      "publisher": "Rogervoice Help Center",
+      "url": "https://help.rogervoice.com/en/articles/2065985-what-do-i-pay",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "For your information, Rogervoice does not manage the payment, invoices are delivered by Apple or Google at the time of subscription and at each renewal."
+      ]
+    },
+    {
+      "id": "r40",
+      "title": "Lire mes propos",
+      "publisher": "Rogervoice Help Center",
+      "url": "https://help.rogervoice.com/fr/articles/12320592-lire-mes-propos",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Pour lire la transcription en temps réel de vos phrases lors d’un appel téléphonique, activez les sous-titres dans ⚙️ Paramètres > Afficher mes propos."
+      ]
+    },
+    {
+      "id": "r41",
+      "title": "Change the font size",
+      "publisher": "Rogervoice Help Center",
+      "url": "https://help.rogervoice.com/en/articles/2065163-change-the-font-size",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Navigate to the Settings ⚙️ tab, then Captions size, finally choose the text size."
+      ]
+    }
+  ],
+  "notes": "Live captions (in-person) is new: App Store version 6.1.0, released 2026-10-26, with short help articles in English and French; not on the US or international homepages. Whether Live captions is free or uses call credit is not stated. Its languages and speaker labels are not stated. Airplane mode only on the French features page. France free hours: help centre and French site say 5 h/month since 1 October 2026; French App Store and Google Play descriptions still say 3 h (the earlier amount). Free Mobile is not an eligible operator. Languages: 100+ (international site, US/UK stores; used in text), 80+ (French store and Google Play), help-centre list dated 2021 = 119 locale entries in 64 languages (our count). Countries: help centre lists 44 download / 38 purchase / 9 incoming-call countries (used in text); international site says more than 52. Top-up: US$10.99 for 2 h (English help centre), €11.99 (French help + store), £9.99 (UK store); US store lists no top-up. Stores also list 'Halfprice' variants no official page explains. No desktop app found, though the French relay page mentions computers. rogervoice.com/en/pricing returned 404. Google Play was read with curl."
+}
