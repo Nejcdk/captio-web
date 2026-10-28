@@ -73,6 +73,16 @@
         "s4"
       ]
     },
+    "voiceNames": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "sources": []
+    },
+    "speakerDirection": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "sources": []
+    },
     "translation": {
       "status": "partial",
       "text": "In a 2024 post; not in the App Store listing",

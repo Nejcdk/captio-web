@@ -81,6 +81,19 @@
         "s1"
       ]
     },
+    "voiceNames": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Ava describes SpeakerID on one phone (up to 5 speakers, a Premium beta) but doesn't say it remembers a voice from one conversation to the next.",
+      "sources": [
+        "s8"
+      ]
+    },
+    "speakerDirection": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "sources": []
+    },
     "translation": {
       "status": "yes",
       "text": "Live, paid plans (Premium captions)",

@@ -82,6 +82,16 @@
         "s1"
       ]
     },
+    "voiceNames": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "sources": []
+    },
+    "speakerDirection": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "sources": []
+    },
     "translation": {
       "status": "not_stated",
       "text": "Not stated",

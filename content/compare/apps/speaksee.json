@@ -79,6 +79,16 @@
         "s10"
       ]
     },
+    "voiceNames": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "sources": []
+    },
+    "speakerDirection": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "sources": []
+    },
     "translation": {
       "status": "yes",
       "text": "Yes, live, a language per mic",

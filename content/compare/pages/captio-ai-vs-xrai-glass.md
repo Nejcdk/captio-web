@@ -3,15 +3,15 @@ title: "Captio AI vs XRAI Glass"
 description: "Captio AI and XRAI Glass side by side: captions on your phone or on AR glasses, offline use, who is talking, translation, saved transcripts and price."
 kind: versus
 apps: [captio-ai, xrai-glass]
-rows: [platforms, deviceRequirements, roomCaptions, groupConversations, languages, offline, speakerLabels, translation, saveTranscripts, fileUpload, summaries, customWords, display, privacy, account, freePlan, price, accessibilityFunding]
+rows: [platforms, deviceRequirements, roomCaptions, groupConversations, languages, offline, speakerLabels, voiceNames, speakerDirection, translation, saveTranscripts, fileUpload, summaries, customWords, display, privacy, account, freePlan, price, accessibilityFunding]
 published: 2026-10-28
 updated: 2026-10-28
-answer: "Use XRAI Glass if you want captions on AR smart glasses, so you can keep looking at the person while you read, or free captions without internet on your phone. Use Captio AI if you want to keep recordings with their audio, transcribe files and turn conversations into summaries and to-dos, with no account needed."
+answer: "Use XRAI Glass if you want captions on AR smart glasses, so you can keep looking at the person while you read, or free captions without internet on your phone. Use Captio AI if you want to keep recordings with their audio, transcribe files and turn conversations into summaries and to-dos, with no account needed; on iPhone it also names people by their voice."
 picks:
   - app: xrai-glass
     text: "You want captions in front of your eyes on AR glasses, need free captions with no signal, or can get the glasses paid for through UK Access to Work."
   - app: captio-ai
-    text: "You want to keep recordings with their audio, transcribe files, get summaries and to-dos, or add names and medical words so they are recognised."
+    text: "You want to keep recordings with their audio, transcribe files, get summaries and to-dos, add medical words so they are recognised, or see on your phone which side a voice comes from (iPhone 16 and later)."
 differences:
   - title: "Do you need glasses to use XRAI Glass?"
     text: "No. XRAI says its app works on iPhone and Android without AR glasses, with captions from the phone's microphone on the phone screen. Glasses such as XRAI's own AR2 (US$699) are optional and put the captions in front of your eyes. Captio AI shows captions on your phone or tablet screen."
@@ -19,9 +19,9 @@ differences:
   - title: "Which one works without internet?"
     text: "XRAI Glass. Its free plan includes unlimited offline captioning on the phone, though XRAI says this is much less accurate than its cloud engines and can invent words. Captio AI needs a connection for live captions; without one it keeps recording and transcribes when the phone is back online."
     sources: [xrai-glass:offline, captio-ai:offline]
-  - title: "Which one shows who is talking?"
-    text: "Both, with limits on XRAI Glass. XRAI identifies speakers only on paid plans and only with cloud engines that support it. Captio AI labels each speaker in live captions and saved recordings, and on iPhone can show the names of people whose voices you saved."
-    sources: [xrai-glass:speakerLabels, captio-ai:speakerLabels]
+  - title: "Can XRAI Glass tell you who is talking?"
+    text: "On paid plans only: XRAI identifies speakers with cloud engines that support it, and people can be named by saying \"Hey XRAI, my name is\" and their name. XRAI's pages don't describe remembering people's voices or showing where a voice comes from. Captio AI labels each speaker; on iPhone, Recognize Voices shows the names of people whose voices you saved, live and in saved recordings. On glasses, the captions keep your eyes on people; on a phone, Captio AI's Speaker Direction (iPhone 16 and later) shows which side a voice comes from, so you know whose face to look at."
+    sources: [xrai-glass:speakerLabels, xrai-glass:s3, captio-ai:speakerLabels, captio-ai:voiceNames, captio-ai:speakerDirection]
   - title: "What happens to the conversation afterwards?"
     text: "XRAI Glass keeps conversation history on the phone for 1 day on the free plan and 30 days on Premium. Captio AI saves each recording with its audio in a library synced to your account, and turns it into a summary, key points or to-dos. XRAI's AI assistant can also summarise, but an April 2025 help article says it needs a separate OpenAI account."
     sources: [xrai-glass:saveTranscripts, xrai-glass:summaries, captio-ai:saveTranscripts, captio-ai:summaries]
@@ -44,12 +44,12 @@ better:
     - text: "In the UK, Access to Work can pay for its glasses and subscription, and the Disabled Students' Allowance covers XRAI AR One glasses."
       sources: [xrai-glass:accessibilityFunding]
   captio-ai:
-    - text: "It saves every recording with its audio in a library synced to your account. XRAI's free plan keeps history for 1 day."
-      sources: [captio-ai:saveTranscripts, xrai-glass:saveTranscripts]
-    - text: "It transcribes audio and video files you upload."
-      sources: [captio-ai:fileUpload]
-    - text: "It writes summaries, key points and to-dos itself, with 3 summaries on the free plan."
-      sources: [captio-ai:summaries]
+    - text: "On iPhone, Recognize Voices shows names like \"Mum\" instead of \"Speaker 2\" on every line a saved person says, live and in saved recordings, and the free plan covers your own voice plus one other person. XRAI's speaker identification needs a paid plan."
+      sources: [captio-ai:voiceNames, xrai-glass:speakerLabels]
+    - text: "On iPhone 16 and later, Speaker Direction shows which side a voice comes from, so reading on a phone you still know whose face to look at."
+      sources: [captio-ai:speakerDirection]
+    - text: "It saves every recording with its audio in a library synced to your account, transcribes audio and video files, and writes summaries, key points and to-dos. XRAI's free plan keeps history for 1 day."
+      sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries, xrai-glass:saveTranscripts]
     - text: "You can add names, medical terms and specialist words so they are recognised."
       sources: [captio-ai:customWords]
     - text: "You can use it without an account. XRAI Glass asks for an account and a phone number."
@@ -72,7 +72,7 @@ situations:
   - icon: meeting
     title: "A meeting you need notes from"
     pick: captio-ai
-    text: "Captio AI turns the recording into a summary, key points and to-dos. XRAI's assistant may need your own OpenAI account."
+    text: "Captio AI names people by their voice on iPhone, shows which side a voice comes from on iPhone 16 and later, and turns the recording into a summary, key points and to-dos. XRAI's assistant may need your own OpenAI account."
     link: /use-cases/meetings
   - icon: lecture
     title: "A lecture or a talk"
@@ -94,7 +94,7 @@ faqs:
   - q: "Does XRAI Glass work offline on a plane or abroad?"
     a: "Yes, on the free plan, with engines on the phone; XRAI says these are much less accurate than its cloud engines and can invent words. Its cloud engines need internet. Captio AI needs internet for live captions, and transcribes recordings made offline once you reconnect."
   - q: "Can XRAI Glass show who is talking at a family dinner or in a meeting?"
-    a: "Only on paid plans, with a cloud engine that supports it; each person can say a set phrase with their name to be named. The free plan has no speaker identification. Captio AI labels each speaker, and on iPhone can show the names of people whose voices you saved."
+    a: "Only on paid plans, with a cloud engine that supports it; each person can say a set phrase with their name to be named. The free plan has no speaker identification, and XRAI's pages don't describe remembering people's voices. Captio AI labels each speaker. On iPhone, Recognize Voices shows the names of people whose voices you saved, and on iPhone 16 and later Speaker Direction shows which side of the table a voice comes from."
   - q: "Can XRAI Glass translate Spanish to English live?"
     a: "Yes. On paid plans its Auto-reverse mode translates English to Spanish and Spanish to English in a two-person conversation, and you can choose up to 10 spoken languages; XRAI's pages disagree on whether the free plan translates. Captio AI also translates live, with a two-way mode, in 60+ languages."
   - q: "Is XRAI Glass covered by Access to Work in the UK?"

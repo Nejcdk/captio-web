@@ -3,15 +3,15 @@ title: "Captio AI vs CaptionMate"
 description: "Captio AI vs CaptionMate: free FCC phone-call captions in the US vs live captions for people in the room, languages, translation, transcripts and price."
 kind: versus
 apps: [captio-ai, captionmate]
-rows: [platforms, availability, phoneCalls, videoCalls, roomCaptions, humanCaptioners, languages, translation, offline, speakerLabels, saveTranscripts, summaries, customWords, privacy, account, accessibilityFunding, freePlan, price]
+rows: [platforms, availability, phoneCalls, videoCalls, roomCaptions, humanCaptioners, languages, translation, offline, speakerLabels, voiceNames, speakerDirection, saveTranscripts, summaries, customWords, privacy, account, accessibilityFunding, freePlan, price]
 published: 2026-10-28
 updated: 2026-10-28
-answer: "Use CaptionMate if you live in the US and need captions on phone calls: it is free through the FCC for eligible users, captions both sides of a call and covers more than 100 languages. Use Captio AI for conversations with people in the same room, which CaptionMate says it can't be used for, or if you live outside the US. They do different jobs, so in the US you may want both: one for calls, one for the room."
+answer: "Use CaptionMate if you live in the US and need captions on phone calls: it is free through the FCC for eligible users, captions both sides of a call and covers more than 100 languages. Use Captio AI for conversations with people in the same room, which CaptionMate says it can't be used for, or if you live outside the US. They do different jobs, so in the US you may want both: one for calls, one for the room, where on iPhone Captio AI can show who is talking by name."
 picks:
   - app: captionmate
     text: "You live in the US and need free captions on phone calls and voicemail, on your own number, in one of more than 100 languages."
   - app: captio-ai
-    text: "You need captions for people in the same room, live translation or recordings you can summarise, or you live outside the US."
+    text: "You need captions for people in the same room, want to see where a voice comes from (iPhone 16 and later), need live translation or recordings you can summarise, or you live outside the US."
 differences:
   - title: "Can you use CaptionMate for in-person conversations?"
     text: "No. CaptionMate says it can't be used when both people are in the same room, and that using it instead of an in-person captioner is against the law. Captio AI is made for that: it captions speech around you through the phone's microphone."
@@ -44,12 +44,12 @@ better:
   captio-ai:
     - text: "It captions people in the same room, which CaptionMate says its FCC-funded service may not be used for."
       sources: [captio-ai:roomCaptions, captionmate:s11]
-    - text: "It translates conversations live, in 60+ languages."
-      sources: [captio-ai:translation, captio-ai:languages]
-    - text: "It labels who is talking, and on iPhone can show their names."
-      sources: [captio-ai:speakerLabels]
-    - text: "It keeps recordings with their audio, syncs them, transcribes audio and video files, and writes summaries and to-dos."
-      sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries]
+    - text: "Recognize Voices (iPhone): save someone's voice once and their name shows on every line they say, like \"Mum\" instead of \"Speaker 2\", live and in saved recordings. Voiceprints stay on the iPhone."
+      sources: [captio-ai:voiceNames]
+    - text: "Speaker Direction (iPhone 16 and later): with the phone flat on the table, a wave at the edge of the captions shows which side the voice comes from, so you know whose face to look at."
+      sources: [captio-ai:speakerDirection]
+    - text: "It translates conversations live in 60+ languages, keeps recordings with their audio, syncs them, and writes summaries and to-dos."
+      sources: [captio-ai:translation, captio-ai:languages, captio-ai:saveTranscripts, captio-ai:summaries]
     - text: "It works outside the US, and you can use it without an account."
       sources: [captio-ai:availability, captio-ai:account]
 situations:
@@ -70,7 +70,7 @@ situations:
   - icon: dinner
     title: "A family dinner or a group"
     pick: captio-ai
-    text: "Captio AI captions the table and labels each speaker. CaptionMate is for calls only."
+    text: "Captio AI captions the table and labels each speaker. On iPhone it names the people whose voices you saved, and on iPhone 16 and later it shows which side a voice comes from. CaptionMate is for calls only."
     link: /use-cases/group-settings
   - icon: lecture
     title: "A class or lecture"
@@ -98,7 +98,7 @@ faqs:
   - q: "Are CaptionMate call transcripts saved?"
     a: "Yes, on the phone you used for the call. They aren't stored on CaptionMate's servers or synced to your other devices, and deleting the app deletes them, so send important ones to your email first. Captio AI saves recordings with their audio in a searchable library and syncs them to your account if you sign in."
   - q: "Do I need both CaptionMate and Captio AI?"
-    a: "If you live in the US, you may: a call-caption service like CaptionMate for phone calls, and a live caption app like Captio AI for people in the same room. They do different jobs, and CaptionMate's service may not be used for in-person conversations."
+    a: "If you live in the US, you may: a call-caption service like CaptionMate for phone calls, and a live caption app like Captio AI for people in the same room. At a family dinner, Captio AI on iPhone can show who is talking by name, and on iPhone 16 and later which side the voice comes from. They do different jobs, and CaptionMate's service may not be used for in-person conversations."
 tags: [captionmate, captionmate app, captionmate innocaption, captionmate in person, captionmate alternative, captio ai vs captionmate, call captioning app]
 related: [captio-ai-vs-innocaption, captio-ai-vs-nagish, captio-ai-vs-rogervoice]
 ---

@@ -3,15 +3,15 @@ title: "Captio AI vs Soniox"
 description: "Captio AI and the Soniox app side by side: live captions, who is talking, translation, captions with the screen off, files, free plan and price, all sourced."
 kind: versus
 apps: [captio-ai, soniox]
-rows: [platforms, deviceRequirements, roomCaptions, groupConversations, speakerLabels, languages, offline, translation, saveTranscripts, export, fileUpload, summaries, customWords, display, privacy, account, freePlan, price]
+rows: [platforms, deviceRequirements, roomCaptions, groupConversations, speakerLabels, voiceNames, speakerDirection, languages, offline, translation, saveTranscripts, export, fileUpload, summaries, customWords, display, privacy, account, freePlan, price]
 published: 2026-10-28
 updated: 2026-10-28
-answer: "Use Soniox if you want the same app on your phone, a Mac or Windows computer and the web, or want to ask your own questions about a transcript. Use Captio AI if you want captions that keep going with the iPhone screen locked, free credits every day, a lower price for unlimited use, or audio and video files transcribed on your phone without an account."
+answer: "Use Soniox if you want the same app on your phone, a Mac or Windows computer and the web, or want to ask your own questions about a transcript. Use Captio AI if you want captions that keep going with the iPhone screen locked, people shown by name with Recognize Voices on iPhone, free credits every day, a lower price for unlimited use, or audio and video files transcribed on your phone without an account."
 picks:
   - app: soniox
     text: "You want one app on your phone, your Mac or Windows computer and the web, or want to ask your own questions about a transcript and get quotes from each speaker."
   - app: captio-ai
-    text: "You want captions that keep going with the iPhone screen locked, free credits every day, a lower price for unlimited use, or to transcribe audio and video files on your phone."
+    text: "You want captions that keep going with the iPhone screen locked, names of the people you talk to from their voice (iPhone), free credits every day, a lower price for unlimited use, or to transcribe audio and video files on your phone."
 differences:
   - title: "How much does Soniox cost?"
     text: "Soniox is free with 10 credits a week that don't roll over; Soniox doesn't say how much audio a credit covers. Soniox Pro costs US$19.99 a month or US$119.99 a year on the US App Store (October 2026). Captio AI is free with 100 free credits a day and 3 AI summaries in total. Captio AI Plus costs US$14.99 a month or US$79.99 a year on the US App Store (October 2026), with no free trial."
@@ -25,9 +25,9 @@ differences:
   - title: "Where does Soniox keep my recordings?"
     text: "On your phone. Saved audio stays only on the phone and is deleted if you uninstall the app; transcripts, translations and summaries sync to your Soniox account. Soniox says it never uses your audio to train AI. Captio AI saves recordings with their audio in a library synced to your account; audio is not stored on Captio AI's servers, and your content is never used to train AI models."
     sources: [soniox:saveTranscripts, soniox:privacy, captio-ai:saveTranscripts, captio-ai:privacy]
-  - title: "Do I need an account to use Soniox?"
-    text: "Yes. You create a Soniox account in the app or on the web. Captio AI works without an account; signing in with Apple or Google adds sync."
-    sources: [soniox:account, captio-ai:account]
+  - title: "Can Soniox tell you who is talking by name?"
+    text: "In a saved recording, after you rename the speakers. Soniox labels the text Speaker 1, Speaker 2, live and in saved recordings, and renaming a speaker updates every line of theirs in that recording; Soniox's pages don't say it remembers a voice in later recordings. Captio AI's Recognize Voices on iPhone shows the names of people whose voices you saved, like \"Mum\" instead of \"Speaker 2\", live and in saved recordings. On iPhone 16 and later, Speaker Direction shows which side a voice comes from."
+    sources: [soniox:speakerLabels, soniox:voiceNames, captio-ai:voiceNames, captio-ai:speakerDirection]
   - title: "Can Soniox transcribe an audio or video file on my phone?"
     text: "Only on a computer, as Soniox describes it: its help centre explains uploading audio files in the Mac and Windows app, and no file import in the phone app. Captio AI transcribes audio and video files in the phone app, with speaker labels."
     sources: [soniox:fileUpload, captio-ai:fileUpload]
@@ -44,14 +44,14 @@ better:
   captio-ai:
     - text: "It keeps captioning with the iPhone screen locked. Soniox's live transcription works only with the app open on screen."
       sources: [captio-ai:s10, soniox:offline]
-    - text: "Captio AI Plus costs US$14.99 a month or US$79.99 a year; Soniox Pro costs US$19.99 a month or US$119.99 a year (US App Store, October 2026)."
-      sources: [captio-ai:price, soniox:price]
-    - text: "Its free plan gives 100 free credits every day; Soniox's free credits come once a week."
-      sources: [captio-ai:freePlan, soniox:freePlan]
-    - text: "It transcribes audio and video files in the phone app. Soniox describes file upload only in its desktop app."
-      sources: [captio-ai:fileUpload, soniox:fileUpload]
-    - text: "It works without an account, and on iPhone it can learn saved voices and show people's names in the captions."
-      sources: [captio-ai:account, captio-ai:speakerLabels, soniox:account]
+    - text: "Its free plan gives 100 free credits every day, and Captio AI Plus costs US$14.99 a month or US$79.99 a year. Soniox's free credits come once a week, and Soniox Pro costs US$19.99 a month or US$119.99 a year (US App Store, October 2026)."
+      sources: [captio-ai:freePlan, captio-ai:price, soniox:freePlan, soniox:price]
+    - text: "It transcribes audio and video files in the phone app, and works without an account. Soniox describes file upload only in its desktop app, and needs an account."
+      sources: [captio-ai:fileUpload, captio-ai:account, soniox:fileUpload, soniox:account]
+    - text: "Recognize Voices (iPhone): save someone's voice once and their name, like \"Mum\" instead of \"Speaker 2\", shows on every line they say, live and in saved recordings. Voiceprints stay on the iPhone. Soniox lets you rename speakers in a saved recording; its pages don't say it remembers a voice."
+      sources: [captio-ai:voiceNames, soniox:voiceNames]
+    - text: "Speaker Direction (iPhone 16 and later): with the phone flat on the table, a wave at the edge of the captions shows which side a voice comes from."
+      sources: [captio-ai:speakerDirection]
 situations:
   - icon: work
     title: "Meetings on a Mac or Windows computer"
@@ -66,7 +66,7 @@ situations:
   - icon: dinner
     title: "A family dinner with several people"
     pick: both
-    text: "Both label each speaker from one phone in the middle of the table. On iPhone, Captio AI can show the names of voices you saved; in Soniox you rename speakers after saving."
+    text: "Both label each speaker from one phone in the middle of the table. On iPhone, Captio AI shows the names of voices you saved while people talk, and on iPhone 16 and later shows which side a voice comes from; in Soniox you rename speakers after saving."
     link: /use-cases/group-settings
   - icon: translate
     title: "A conversation in two languages across a table"
@@ -93,7 +93,7 @@ faqs:
   - q: "Can Soniox translate Spanish into English live?"
     a: "Yes. Spanish and English are among Soniox's 60+ languages. Translate to shows the original and the English translation; Translate between shows one box per language for a two-way conversation. Captio AI also translates live in 60+ languages, with the translation next to the original captions and a two-way mode."
   - q: "Does Soniox show who is talking at a family dinner?"
-    a: "Yes. With speaker diarization on, Soniox labels the text Speaker 1, Speaker 2 and so on, and you can rename speakers after saving. Captio AI labels each speaker from one phone, live and in saved recordings, and on iPhone can show the names of voices you saved."
+    a: "Yes. With speaker diarization on, Soniox labels the text Speaker 1, Speaker 2 and so on, and you can rename speakers after saving; Soniox's pages don't say it remembers a voice in later recordings. Captio AI labels each speaker from one phone. On iPhone, Recognize Voices shows the names of people whose voices you saved, live and in saved recordings, and on iPhone 16 and later Speaker Direction shows which side of the table a voice comes from."
   - q: "Can Soniox caption phone calls or Zoom meetings?"
     a: "Soniox doesn't say how. Its pages mention recording and captioning calls and meetings, but not how the sound of a call on the same phone or computer is captured. Captio AI does not caption phone or video calls; it is made for speech in the room around you."
   - q: "Does Soniox use my conversations to train its AI?"

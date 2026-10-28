@@ -3,15 +3,15 @@ title: "Captio AI vs Rogervoice"
 description: "Captio AI and Rogervoice side by side: phone call captions, captions in the room, translation, sign language in France, free calls in the US and France."
 kind: versus
 apps: [captio-ai, rogervoice]
-rows: [phoneCalls, roomCaptions, platforms, deviceRequirements, languages, offline, speakerLabels, translation, saveTranscripts, summaries, humanCaptioners, signLanguage, videoCalls, privacy, availability, accessibilityFunding, freePlan, price]
+rows: [phoneCalls, roomCaptions, platforms, deviceRequirements, languages, offline, speakerLabels, voiceNames, speakerDirection, translation, saveTranscripts, summaries, humanCaptioners, signLanguage, videoCalls, privacy, availability, accessibilityFunding, freePlan, price]
 published: 2026-10-28
 updated: 2026-10-28
-answer: "Use Rogervoice if you need captions on phone calls: it captions calls to any number, is free for eligible users in the US, and in France operators pay for 5 hours of calls a month, with French Sign Language interpreters available. Use Captio AI for conversations in the room, where it labels who is talking, translates live and keeps recordings you can summarise; Rogervoice's in-person Live captions is new and needs iOS 26 on iPhone. They do different jobs, so you may want both."
+answer: "Use Rogervoice if you need captions on phone calls: it captions calls to any number, is free for eligible users in the US, and in France operators pay for 5 hours of calls a month, with French Sign Language interpreters available. Use Captio AI for conversations in the room, where it labels who is talking (by name on iPhone), translates live and keeps recordings you can summarise; Rogervoice's in-person Live captions is new and needs iOS 26 on iPhone. They do different jobs, so you may want both."
 picks:
   - app: rogervoice
     text: "You need captions on phone calls, live in the US or France where calls can be free, or want a sign language interpreter or a person correcting the captions on calls in France."
   - app: captio-ai
-    text: "You want captions for conversations in the room, need to see who is talking or a live translation, or want to keep recordings and turn them into notes and to-dos."
+    text: "You want captions for conversations in the room, need to see who is talking and where their voice comes from (iPhone 16 and later) or a live translation, or want to keep recordings and turn them into notes and to-dos."
 differences:
   - title: "Can Captio AI caption phone calls like Rogervoice?"
     text: "No. Rogervoice captions incoming and outgoing calls to any number word for word, and you can reply by voice or by typing. Captio AI is made for speech in the room around you, not for calls, so the two do different jobs and you may want both."
@@ -46,12 +46,12 @@ better:
   captio-ai:
     - text: "Captioning conversations in the room is its main job, on iOS 15.1 or later and Android; Rogervoice's Live captions needs iOS 26 on iPhone."
       sources: [captio-ai:roomCaptions, captio-ai:deviceRequirements, rogervoice:deviceRequirements]
-    - text: "It labels who is talking, and on iPhone can show their names."
-      sources: [captio-ai:speakerLabels]
-    - text: "It translates conversations live, which Rogervoice says it doesn't do."
-      sources: [captio-ai:translation, rogervoice:translation]
-    - text: "It keeps recordings with their audio, transcribes files, and writes summaries and to-dos."
-      sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries]
+    - text: "Recognize Voices (iPhone): save someone's voice once and their name shows on every line they say, like \"Mum\" instead of \"Speaker 2\", live and in saved recordings. Voiceprints stay on the iPhone."
+      sources: [captio-ai:voiceNames]
+    - text: "Speaker Direction (iPhone 16 and later): with the phone flat on the table, a wave at the edge of the captions shows which side the voice comes from, so you know whose face to look at."
+      sources: [captio-ai:speakerDirection]
+    - text: "It translates conversations live, which Rogervoice says it doesn't do, and keeps recordings with their audio for summaries and to-dos."
+      sources: [captio-ai:translation, rogervoice:translation, captio-ai:saveTranscripts, captio-ai:summaries]
     - text: "No phone number needed: sign in with Apple or Google, or skip. Rogervoice signs you up with your phone number and an SMS code."
       sources: [captio-ai:account, rogervoice:account]
 situations:
@@ -68,7 +68,7 @@ situations:
   - icon: dinner
     title: "A family dinner or a group"
     pick: captio-ai
-    text: "Captio AI labels each speaker, so you can see who said what at the table. Rogervoice doesn't say whether its Live captions does."
+    text: "Captio AI labels each speaker at the table. On iPhone it names the people whose voices you saved, and on iPhone 16 and later it shows which side a voice comes from. Rogervoice doesn't say whether its Live captions shows who is talking."
     link: /use-cases/group-settings
   - icon: offline
     title: "No signal, or in airplane mode"
@@ -89,7 +89,7 @@ faqs:
   - q: "Is Rogervoice free in the US?"
     a: "Yes, for US citizens or residents with hearing loss who register: the FCC pays for the service, and Rogervoice has been FCC-certified since March 2024. Registration needs a Social Security number and a mobile number with a US area code. The US App Store also lists paid plans at US$5.99 a month for 1 hour of calls or US$29.99 for unlimited calls (October 2026). Captio AI doesn't caption calls; for conversations in the room its free plan gives 100 free credits a day."
   - q: "Can Rogervoice caption a face-to-face conversation?"
-    a: "Yes. Live captions, added in version 6.1.0 on 26 October 2026, shows what people around you say in real time; it needs iOS 26 or later on iPhone and works on all Android phones. Rogervoice's pages don't yet say which languages it supports, whether it shows who is talking, or whether it costs anything. Captio AI captions conversations in the room in 60+ languages, labels who is talking, and runs on iOS 15.1 or later and Android."
+    a: "Yes. Live captions, added in version 6.1.0 on 26 October 2026, shows what people around you say in real time; it needs iOS 26 or later on iPhone and works on all Android phones. Rogervoice's pages don't yet say which languages it supports, whether it shows who is talking, or whether it costs anything. Captio AI captions conversations in the room in 60+ languages, labels who is talking, and runs on iOS 15.1 or later and Android. At a family dinner, Captio AI on iPhone can show who is talking by name, and on iPhone 16 and later which side the voice comes from."
   - q: "Can Rogervoice translate a call from Spanish to English?"
     a: "No. Rogervoice's help centre says it doesn't translate conversations from one language to another; you choose the caption language for each call. Captio AI translates conversations in the room live, but it doesn't caption phone calls."
   - q: "Does Rogervoice offer French Sign Language (LSF) interpreters?"

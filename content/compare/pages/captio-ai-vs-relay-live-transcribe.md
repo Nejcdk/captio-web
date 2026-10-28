@@ -3,15 +3,15 @@ title: "Captio AI vs Relay Live Transcribe"
 description: "Captio AI and Relay Live Transcribe side by side: iPhone or Android, captions without internet, translation, privacy, saved transcripts and price."
 kind: versus
 apps: [captio-ai, relay-live-transcribe]
-rows: [platforms, deviceRequirements, roomCaptions, languages, offline, speakerLabels, translation, saveTranscripts, export, fileUpload, summaries, display, privacy, account, phoneCalls, freePlan, price, accessibilityFunding]
+rows: [platforms, deviceRequirements, roomCaptions, languages, offline, speakerLabels, voiceNames, speakerDirection, translation, saveTranscripts, export, fileUpload, summaries, display, privacy, account, phoneCalls, freePlan, price, accessibilityFunding]
 published: 2026-10-28
 updated: 2026-10-28
-answer: "Use Relay (Live Transcribe Deaf - Relay) if you have an iPhone with iOS 18 and want free, unlimited captions that run on the phone without internet, transcripts that never leave the phone, and a Flip mode for the person across the counter. Use Captio AI if you have an Android phone or an iPhone that can't run iOS 18, or if you need live translation and recordings with their audio that you can keep, share and summarise."
+answer: "Use Relay (Live Transcribe Deaf - Relay) if you have an iPhone with iOS 18 and want free, unlimited captions that run on the phone without internet, transcripts that never leave the phone, and a Flip mode for the person across the counter. Use Captio AI if you have an Android phone or an iPhone that can't run iOS 18, or if you need live translation, captions that know people by their voice (Recognize Voices, iPhone), and recordings with their audio that you can keep, share and summarise."
 picks:
   - app: relay-live-transcribe
     text: "You have an iPhone with iOS 18, often have no signal, want free captions with no daily limit, or want transcripts that stay on the phone with no account."
   - app: captio-ai
-    text: "You have an Android phone or an older iPhone, need live translation, or want to keep recordings with their audio and turn them into notes and to-dos."
+    text: "You have an Android phone or an older iPhone, need live translation, want saved voices named on every line (iPhone), or want to keep recordings with their audio and turn them into notes and to-dos."
 differences:
   - title: "Does Relay work on Android?"
     text: "No. Relay is on the App Store for iPhone and iPad and needs iOS 18 or later. Its website only offers an iOS download, and Google Play has no Relay app. Captio AI runs on Android and on iPhones with iOS 15.1 or later."
@@ -22,9 +22,9 @@ differences:
   - title: "Can Relay translate a conversation?"
     text: "Relay's website, FAQ and App Store listing describe captions only, not translation. Captio AI translates speech live in 60+ languages, next to the original captions, with a two-way mode."
     sources: [relay-live-transcribe:translation, captio-ai:translation]
-  - title: "Which one shows who is talking?"
-    text: "Both. Relay's version notes (May 2026) say you can name each speaker and see which part of the transcript belongs to whom. Captio AI labels each speaker in live captions and saved recordings, and on iPhone can show the names of people whose voices you saved."
-    sources: [relay-live-transcribe:speakerLabels, captio-ai:speakerLabels]
+  - title: "Does Relay remember who is talking by their voice?"
+    text: "Relay lets you name each speaker (added in May 2026), but its pages don't say it recognises a voice in later conversations. Captio AI's Recognize Voices (iPhone) learns a voice once, from about 20 seconds of talking, and then shows that name on every line the person says, live and in saved recordings. On iPhone 16 and later, Speaker Direction shows which side of the table a voice comes from."
+    sources: [relay-live-transcribe:voiceNames, relay-live-transcribe:speakerLabels, captio-ai:voiceNames, captio-ai:speakerDirection]
   - title: "Where do the transcripts go?"
     text: "Relay keeps transcripts on your phone only, without audio, needs no account, and lets you share them from the app. Captio AI saves each recording with its audio in a library synced to your account (an account is optional), and shares it as text, a link, a PDF or an email."
     sources: [relay-live-transcribe:saveTranscripts, relay-live-transcribe:account, relay-live-transcribe:export, captio-ai:saveTranscripts, captio-ai:account, captio-ai:export]
@@ -46,12 +46,12 @@ better:
       sources: [captio-ai:platforms, captio-ai:deviceRequirements, relay-live-transcribe:deviceRequirements]
     - text: "It translates conversations live in 60+ languages, with a two-way mode."
       sources: [captio-ai:translation]
-    - text: "It keeps recordings with their audio, synced to your account, and transcribes audio and video files."
-      sources: [captio-ai:saveTranscripts, captio-ai:fileUpload]
-    - text: "It turns a transcript into a summary, key points, to-dos or a follow-up message, and shares it as text, a link, a PDF or an email."
-      sources: [captio-ai:summaries, captio-ai:export]
-    - text: "You can add names and specialist words so they are recognised; Relay's pages don't describe this."
-      sources: [captio-ai:customWords, relay-live-transcribe:customWords]
+    - text: "It keeps recordings with their audio, synced to your account, transcribes audio and video files, and turns a transcript into a summary, key points or to-dos."
+      sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries]
+    - text: "Recognize Voices (iPhone): save someone's voice once and their name shows on every line they say, like \"Mum\" instead of \"Speaker 2\", in every conversation after, live and in saved recordings. The voiceprints stay on the iPhone."
+      sources: [captio-ai:voiceNames]
+    - text: "Speaker Direction (iPhone 16 and later): with the phone flat on the table, a wave at the edge of the captions shows which side a voice comes from, in that speaker's colour."
+      sources: [captio-ai:speakerDirection]
 situations:
   - icon: offline
     title: "No signal on a plane or in a basement"
@@ -70,7 +70,7 @@ situations:
   - icon: meeting
     title: "A team meeting you need notes from"
     pick: captio-ai
-    text: "Captio AI labels each speaker, keeps the recording and turns it into a summary, key points and to-dos."
+    text: "Captio AI names colleagues it knows by voice (iPhone) and, on iPhone 16 and later, shows which side a voice comes from. It keeps the recording and turns it into a summary, key points and to-dos."
     link: /use-cases/meetings
   - icon: travel
     title: "Travelling abroad"
@@ -97,8 +97,8 @@ faqs:
     a: "On the US App Store (October 2026), Relay lists a Monthly Subscription at US$12.99, a Yearly Subscription at US$89.99, Lite at US$7.99 a month or US$59.99 a year, and hour packs of 10, 20 and 100 hours for US$9.99, US$18.99 and US$89.99. Standard mode is free. Captio AI is free with 100 free credits a day and 3 AI summaries; Captio AI Plus costs US$14.99 a month or US$79.99 a year, with no free trial."
   - q: "Does Relay translate conversations when travelling?"
     a: "Relay's pages don't describe translation; they describe captions in the language being spoken. Captio AI translates conversations live, shows the translation next to the original captions, and has a two-way mode where each person reads the other in their own language."
-  - q: "Does Relay keep my conversations?"
-    a: "Only on your phone: Relay stores transcripts locally, without audio, and says it cannot read them. Deleting the app removes them. Captio AI saves each recording with its audio in a searchable library synced to your account."
+  - q: "Does Relay recognize who is talking at a family dinner?"
+    a: "Relay lets you name each speaker in a conversation (added in May 2026), but its pages don't say it recognises a voice the next time. Captio AI's Recognize Voices (iPhone) shows the name of everyone whose voice you saved on every line they say, at every dinner after. On iPhone 16 and later, Captio AI's Speaker Direction shows which side of the table a voice comes from."
 tags: [relay live transcribe, relay app deaf, live transcribe deaf relay, relay alternative, captio ai vs relay, caption app for deaf people]
 related: [captio-ai-vs-live-transcribe, captio-ai-vs-ava, captio-ai-vs-innocaption]
 draft: false

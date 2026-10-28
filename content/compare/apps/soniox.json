@@ -79,6 +79,19 @@
         "s5"
       ]
     },
+    "voiceNames": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Soniox labels speakers Speaker 1, Speaker 2 and lets you rename them; it doesn't say it remembers a voice in later recordings.",
+      "sources": [
+        "s11"
+      ]
+    },
+    "speakerDirection": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "sources": []
+    },
     "translation": {
       "status": "yes",
       "text": "Yes, live, one-way or two-way",

@@ -35,6 +35,8 @@ export const ROWS = {
   languages: { label: "Languages for live captions", why: "The number of spoken languages it can caption live." },
   offline: { label: "Live captions without internet", why: "Planes, basements, hospitals and trips abroad often have no signal." },
   speakerLabels: { label: "Shows who is talking", why: "Without it, a group conversation is one block of text." },
+  voiceNames: { label: "Remembers people's voices", why: "Captions that say \"Mum\" instead of \"Speaker 2\", every time she talks." },
+  speakerDirection: { label: "Shows where a voice comes from", why: "At a busy table, knowing where to look helps you follow who is talking." },
   translation: { label: "Live translation", why: "For a conversation in a language you don't read." },
   saveTranscripts: { label: "Saves transcripts", why: "To read a lecture, appointment or meeting again later." },
   export: { label: "Export and share", why: "To send notes to yourself, a carer or a colleague." },

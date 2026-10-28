@@ -3,15 +3,15 @@ title: "Captio AI vs InnoCaption"
 description: "Captio AI vs InnoCaption: phone-call captions with live stenographers, in-person captions, languages, translation, FCC funding, US-only sign-up and price."
 kind: versus
 apps: [captio-ai, innocaption]
-rows: [platforms, availability, phoneCalls, videoCalls, roomCaptions, humanCaptioners, languages, translation, offline, speakerLabels, saveTranscripts, summaries, customWords, privacy, account, accessibilityFunding, freePlan, price]
+rows: [platforms, availability, phoneCalls, videoCalls, roomCaptions, humanCaptioners, languages, translation, offline, speakerLabels, voiceNames, speakerDirection, saveTranscripts, summaries, customWords, privacy, account, accessibilityFunding, freePlan, price]
 published: 2026-10-28
 updated: 2026-10-28
-answer: "Use InnoCaption if you live in the US and need captions on phone calls: it is free through the FCC for eligible users, and you can choose live stenographers or AI captions. Use Captio AI for conversations with people in the same room, which InnoCaption says its service can't be used for, or if you live outside the US. In the US you may want both: one for calls, one for the room."
+answer: "Use InnoCaption if you live in the US and need captions on phone calls: it is free through the FCC for eligible users, and you can choose live stenographers or AI captions. Use Captio AI for conversations with people in the same room, which InnoCaption says its service can't be used for, or if you live outside the US. In the US you may want both: one for calls, one for the room, where on iPhone Captio AI can show who is talking by name."
 picks:
   - app: innocaption
     text: "You live in the US and need captions on phone calls, voicemail or 911, and want a live stenographer when every word matters."
   - app: captio-ai
-    text: "You need captions for people in the same room, live translation or recordings you can summarise, or you live outside the US."
+    text: "You need captions for people in the same room, want to see where a voice comes from (iPhone 16 and later), need live translation or recordings you can summarise, or you live outside the US."
 differences:
   - title: "Can you use InnoCaption for in-person conversations?"
     text: "No. InnoCaption says its FCC-funded service can't be used when both people are in the same room, including a teacher and student in a classroom. Captio AI is made for that: it captions speech around you through the phone's microphone. InnoCaption's company also has separate apps for the room that aren't FCC-funded: InnoScribe on Google Play, and Bridge Live with its paid Bridge product."
@@ -46,12 +46,12 @@ better:
   captio-ai:
     - text: "It captions people in the same room, which InnoCaption says its FCC-funded service may not be used for."
       sources: [captio-ai:roomCaptions, innocaption:s8]
-    - text: "It labels who is talking, and on iPhone can show their names."
-      sources: [captio-ai:speakerLabels]
-    - text: "It translates conversations live, in 60+ languages."
-      sources: [captio-ai:translation, captio-ai:languages]
-    - text: "It keeps recordings with their audio, transcribes audio and video files, and writes summaries and to-dos."
-      sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries]
+    - text: "Recognize Voices (iPhone): save someone's voice once and their name shows on every line they say, like \"Mum\" instead of \"Speaker 2\", live and in saved recordings. Voiceprints stay on the iPhone."
+      sources: [captio-ai:voiceNames]
+    - text: "Speaker Direction (iPhone 16 and later): with the phone flat on the table, a wave at the edge of the captions shows which side the voice comes from, so you know whose face to look at."
+      sources: [captio-ai:speakerDirection]
+    - text: "It translates conversations live in 60+ languages, keeps recordings with their audio, and writes summaries and to-dos."
+      sources: [captio-ai:translation, captio-ai:languages, captio-ai:saveTranscripts, captio-ai:summaries]
     - text: "It works outside the US, and you can use it without an account."
       sources: [captio-ai:availability, captio-ai:account]
 situations:
@@ -72,7 +72,7 @@ situations:
   - icon: dinner
     title: "A family dinner or a group"
     pick: captio-ai
-    text: "Captio AI captions the table and labels each speaker. InnoCaption is for calls only."
+    text: "Captio AI captions the table and labels each speaker. On iPhone it names the people whose voices you saved, and on iPhone 16 and later it shows which side a voice comes from. InnoCaption is for calls only."
     link: /use-cases/group-settings
   - icon: lecture
     title: "A class or lecture"
@@ -100,7 +100,7 @@ faqs:
   - q: "What personal information does InnoCaption need?"
     a: "For the FCC's rules it asks for your full name, date of birth, the last four digits of your Social Security number, your home address and cell number. Captio AI doesn't need an account; signing in with Apple or Google is optional, to sync."
   - q: "Do I need both InnoCaption and Captio AI?"
-    a: "If you live in the US, you may: a call-caption service like InnoCaption for phone calls, and a live caption app like Captio AI for people in the same room. They do different jobs, and InnoCaption's service may not be used for in-person conversations."
+    a: "If you live in the US, you may: a call-caption service like InnoCaption for phone calls, and a live caption app like Captio AI for people in the same room. At a family dinner, Captio AI on iPhone can show who is talking by name, and on iPhone 16 and later which side the voice comes from. They do different jobs, and InnoCaption's service may not be used for in-person conversations."
 tags: [innocaption, innocaption app, innocaption in person, innocaption alternative, captio ai vs innocaption, call captioning app, cart captioning]
 related: [captio-ai-vs-nagish, captio-ai-vs-rogervoice, captio-ai-vs-ava]
 ---

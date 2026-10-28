@@ -38,10 +38,12 @@
     },
     "groupConversations": {
       "status": "partial",
-      "text": "One phone, speaker labels",
-      "detail": "One phone captions the whole table and labels each speaker. Shared folders let several people add recordings to one place; live captions are not joined across phones.",
+      "text": "One phone: speaker labels, names, direction",
+      "detail": "One phone captions the whole table and labels each speaker. On iPhone it can name people by their voice, and on iPhone 16 and later a wave shows which side a voice comes from. Shared folders let several people add recordings to one place; live captions are not joined across phones.",
       "sources": [
         "s1",
+        "s11",
+        "s12",
         "s4"
       ]
     },
@@ -65,11 +67,28 @@
     },
     "speakerLabels": {
       "status": "yes",
-      "text": "Yes, live and saved; names on iPhone",
+      "text": "Yes, live and saved; names by voice on iPhone",
       "detail": "Separates speakers (Speaker 1, Speaker 2). On iPhone it can learn saved voices and show their names instead.",
       "sources": [
         "s1",
+        "s11",
         "s4"
+      ]
+    },
+    "voiceNames": {
+      "status": "yes",
+      "text": "Yes, Recognize Voices (iPhone)",
+      "detail": "Save someone's voice once (about 20 seconds of talking, or an audio file) and their name and emoji show on every line they say, live and in saved recordings, instead of \"Speaker 2\". Voiceprints are made on the iPhone and never uploaded. When someone new talks for a while, Captio AI asks who it is. Free plan: your own voice plus one other person; Plus: more people.",
+      "sources": [
+        "s11"
+      ]
+    },
+    "speakerDirection": {
+      "status": "yes",
+      "text": "Yes, on iPhone 16 and later",
+      "detail": "With the iPhone flat on the table, a wave grows at the edge of the captions on the side the voice comes from, in that speaker's colour, while new words appear. It uses the iPhone's spatial microphones (not AirPods or an external mic), works in Live Captions and Live Translator, is calculated on the phone, and is free.",
+      "sources": [
+        "s12"
       ]
     },
     "translation": {
@@ -400,6 +419,43 @@
       "checked": "2026-10-28",
       "quotes": [
         "Captions keep recording with the screen locked, and the Lock Screen and Dynamic Island show a red dot and a timer with pause and resume."
+      ]
+    },
+    {
+      "id": "s11",
+      "title": "Recognize Voices: Captions That Show Who Is Talking by Name",
+      "publisher": "Captio AI",
+      "url": "https://captioai.app/recognize-voices",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Recognize voices (Captio AI)",
+      "quotes": [
+        "Their name and emoji show on every line they say, live and in saved recordings.",
+        "Ask them first, then let them talk about anything. It stops by itself once it has 20 seconds of speech.",
+        "Each voiceprint is made on your iPhone and stays there. It is never uploaded or synced.",
+        "When someone it doesn't know talks for a while, Captio AI asks who it is. One answer names them in every recording.",
+        "Names carry into exports and AI Summary, so the notes say who said what.",
+        "Yes. The free plan recognizes your own voice plus one other person. Captio AI Plus recognizes more people."
+      ]
+    },
+    {
+      "id": "s12",
+      "title": "Speaker Direction: See Where a Voice Is Coming From",
+      "publisher": "Captio AI",
+      "url": "https://captioai.app/speaker-direction",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Speaker direction (Captio AI)",
+      "quotes": [
+        "Put your iPhone 16 or later flat on the table and start Live Captions. Speaker direction is on by default.",
+        "A wave grows at the edge of the captions on the side the voice comes from, while new words appear.",
+        "The wave takes the colour of the talking speaker's tag, including the names you saved with Recognize Voices.",
+        "Works in Live Captions and in Live Translator sessions.",
+        "If you are on AirPods or an external microphone, captions stay on that microphone and the waves simply don't show.",
+        "Speaker direction is part of Live Captions, on the free plan and on Plus.",
+        "The direction is calculated on your iPhone from its microphones. It is not sent anywhere."
       ]
     }
   ],

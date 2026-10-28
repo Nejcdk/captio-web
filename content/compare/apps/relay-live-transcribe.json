@@ -76,6 +76,19 @@
         "s1"
       ]
     },
+    "voiceNames": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Version 1.26 (May 2026) added naming each speaker; Relay's pages don't say it recognises a voice in later conversations.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "speakerDirection": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "sources": []
+    },
     "translation": {
       "status": "not_stated",
       "text": "Not stated",

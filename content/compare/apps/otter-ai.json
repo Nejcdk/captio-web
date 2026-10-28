@@ -81,6 +81,19 @@
         "o1"
       ]
     },
+    "voiceNames": {
+      "status": "partial",
+      "text": "Learns voices you tag; names after recording",
+      "detail": "Tagging a speaker teaches Otter to recognize that voice in future conversations. For in-person recordings, speakers are identified only after the recording stops.",
+      "sources": [
+        "o8"
+      ]
+    },
+    "speakerDirection": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "sources": []
+    },
     "translation": {
       "status": "partial",
       "text": "Not live; Otter Chat translates afterwards",
