@@ -1,0 +1,466 @@
+{
+  "slug": "deaf-transcribe",
+  "name": "Deaf Transcribe:Speech to Text",
+  "shortName": "Deaf Transcribe",
+  "developer": "Youdao Education Technology (Hong Kong) Limited",
+  "developerCountry": "Hong Kong",
+  "website": "https://livetranscribe.luckon.online",
+  "appStoreUrl": "https://apps.apple.com/us/app/deaf-transcribe-speech-to-text/id6463851667",
+  "googlePlayUrl": null,
+  "category": "in-person-captions",
+  "oneLine": "An iPhone app that turns speech around you into live text in 71 languages, free to download with a paid Pro subscription; sold on the App Store by Youdao Education Technology (Hong Kong).",
+  "facts": {
+    "platforms": {
+      "status": "yes",
+      "text": "iPhone only (no Android version found)",
+      "detail": "Apple's App Store lists it as \"Only for iPhone\"; it also runs on Apple Vision. A Google Play search on 28 October 2026 found no Android version, and the developer website links only to the App Store.",
+      "sources": [
+        "s1",
+        "s7",
+        "s5"
+      ]
+    },
+    "deviceRequirements": {
+      "status": "yes",
+      "text": "iOS 13.0 or later",
+      "detail": "The App Store lists iOS 13.0 or later for iPhone, and visionOS 1.0 or later for Apple Vision.",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    "roomCaptions": {
+      "status": "yes",
+      "text": "Yes, speech around you as live text",
+      "detail": "The listing says it instantly turns speech into text so people who are hard of hearing can follow conversations. The developer website says \"Hear what others are saying, anywhere, anytime.\"",
+      "sources": [
+        "s1",
+        "s5"
+      ]
+    },
+    "groupConversations": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "The listing and website don't describe group conversations, external microphones or joining several phones into one conversation.",
+      "sources": [
+        "s1",
+        "s5"
+      ]
+    },
+    "languages": {
+      "status": "yes",
+      "text": "71 languages",
+      "detail": "The listing says you can transcribe, record and create captions in 71 languages and names each one, from English, Spanish, Chinese and Arabic to Cantonese, Swahili and Zulu. The app's own menus come in 7 languages.",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    "offline": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "The listing doesn't mention working without internet. The terms describe the service as provided via the internet and make you responsible for connecting.",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    },
+    "speakerLabels": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Neither the listing nor the website describes showing who is talking. One App Store screenshot shows lines under the name \"Dr. James\", but no text explains it.",
+      "sources": [
+        "s1",
+        "s5"
+      ]
+    },
+    "translation": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "The listing names 71 caption languages but doesn't describe translating speech into another language.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "saveTranscripts": {
+      "status": "yes",
+      "text": "Yes, text saved in the app",
+      "detail": "The listing says you can save the converted text in the app, and that the app can record. The terms list unlimited recordings as a Pro feature; the free version's limit isn't stated.",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    },
+    "export": {
+      "status": "yes",
+      "text": "Share via email, messaging and social apps",
+      "detail": "Saved text can be shared by email, messaging apps or social media; a store screenshot shows Copy and Copy Photo options. File formats aren't stated.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "fileUpload": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "The listing describes live speech-to-text, not transcribing audio or video files you already have.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "summaries": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No AI summaries or notes are described in the listing or on the website.",
+      "sources": [
+        "s1",
+        "s5"
+      ]
+    },
+    "customWords": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "The listing doesn't describe adding your own words or names.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "display": {
+      "status": "yes",
+      "text": "Font sizes, colours, themes; flip and type",
+      "detail": "The listing says you can choose font sizes, colors and themes. Store screenshots show buttons to type, flip the text for the person opposite, adjust the text (Aa) and clear the screen.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "soundAlerts": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "The listing describes speech-to-text only; no alerts for sounds such as a doorbell or an alarm are described.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "phoneCalls": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "The listing doesn't describe captioning phone calls.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "videoCalls": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "The listing doesn't describe captioning Zoom, Teams or FaceTime calls.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "mediaOnDevice": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "The listing doesn't describe captioning videos or audio playing on the phone.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "humanCaptioners": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "The listing describes automatic speech recognition; no human captioner option is described.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "signLanguage": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No sign language features are described in the listing or on the website.",
+      "sources": [
+        "s1",
+        "s5"
+      ]
+    },
+    "privacy": {
+      "status": "partial",
+      "text": "Not stated where; policy covers audio, US servers",
+      "detail": "The listing doesn't say whether speech is turned into text on the phone or on a server; the terms say the service runs via the internet. The privacy policy (September 2023) lets the company collect audio recordings and the text of words spoken, says data may be stored on servers in the United States, names Alibaba Cloud, Firebase, Google, Facebook, Apple and App Annie as service providers, and allows sharing some data with Facebook to build ad audiences; it says personal information is not sold. Apple's privacy label lists identifiers that may be used to track you. Whether audio is used to train AI is not stated.",
+      "sources": [
+        "s1",
+        "s3",
+        "s4"
+      ]
+    },
+    "account": {
+      "status": "partial",
+      "text": "Not clear; some versions need no login",
+      "detail": "The listing says you can delete your data from your account. The terms say you may log in with a phone number or a third-party account, and that some versions have no login, with Pro linked to your Apple ID.",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    },
+    "availability": {
+      "status": "yes",
+      "text": "App Store in many countries; not Hong Kong",
+      "detail": "Apple's store data finds it in the US and UK App Stores (and other countries checked), but not in the Hong Kong store, on 28 October 2026. No country list is published.",
+      "sources": [
+        "s2",
+        "s9",
+        "s8"
+      ]
+    },
+    "freePlan": {
+      "status": "partial",
+      "text": "Free download; Pro removes ads, unlimited recordings",
+      "detail": "The app is free to download, with in-app purchases. The terms say Pro adds ad removal and unlimited recordings; the free version's limits aren't stated. The listing describes a 3-day free trial for its subscription.",
+      "sources": [
+        "s1",
+        "s2",
+        "s4"
+      ]
+    },
+    "price": {
+      "status": "yes",
+      "text": "Pro: US$5.99 or US$49.99 (periods not listed)",
+      "detail": "Apple's US App Store lists two \"Live Transcribe Pro\" purchases, US$5.99 and US$49.99 (October 2026), without saying which period each covers. The description names a 1-week subscription with a 3-day free trial; the terms mention weekly, monthly and annual subscriptions.",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    },
+    "accessibilityFunding": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No funding through a government or insurance programme is described.",
+      "sources": [
+        "s1"
+      ]
+    }
+  },
+  "strengths": [
+    {
+      "text": "Captions speech in 71 languages, each one named on the App Store listing.",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "text": "Runs on iPhones with iOS 13 or later, and on Apple Vision.",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "text": "Font sizes, colours and themes can be changed, and store screenshots show buttons to type a reply and flip the text for the person opposite.",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "text": "Free to download, and the listing describes a 3-day free trial of Pro.",
+      "sources": [
+        "s1"
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "text": "iPhone only: no Android version was found on Google Play.",
+      "sources": [
+        "s1",
+        "s7"
+      ]
+    },
+    {
+      "text": "The listing describes no speaker labels, translation, file transcription or AI summaries.",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "text": "Apple's listing doesn't say which subscription period each Pro price covers.",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "text": "The last App Store update was version 1.3.0 on 5 September 2025, and the privacy policy is dated September 2023.",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Deaf Transcribe:Speech to Text on the App Store (US)",
+      "publisher": "Apple App Store",
+      "url": "https://apps.apple.com/us/app/deaf-transcribe-speech-to-text/id6463851667",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Only for iPhone",
+        "It instantly turns speech into text, making it easy for people who are hard of hearing to follow conversations.",
+        "You can transcribe, record, and create captions in 71 languages.",
+        "It even works with deaf voice dictation, turning spoken words into text quickly and accurately.",
+        "With cutting-edge speech recognition technology, our app guarantees a high level of accuracy in converting audio to text, making it incredibly reliable for all users.",
+        "Choose from different font sizes, colors, and themes to enhance your reading experience.",
+        "Save the converted text files directly within the app and easily share them via email, messaging apps, or social media platforms.",
+        "Currently supported languages include: English, Spanish, Chinese, Arabic, German, French, Italian, Japanese, Korean, Dutch, Polish, Portuguese, Russian, Thai, Turkish, Bulgarian, Catalan, Czech, Danish, Greek, Finnish, Hebrew, Hindi, Croatian, Hungarian, Indonesian, Lithuanian, Latvian, Norwegian, Romanian, Slovak, Slovenian, Serbian, Swedish, Ukrainian, Vietnamese, Afrikaans, Amharic, Azerbaijani, Bengali, Estonian, Basque, Persian, Filipino, Galician, Gujarati, Armenian, Icelandic, Javanese, Georgian, Khmer, Kannada, Lao, Macedonian, Malayalam, Mongolian, Marathi, Malay, Burmese, Nepali, Punjabi, Sinhalese, Albanian, Sundanese, Swahili, Tamil, Telugu, Urdu, Uzbek, Cantonese, Zulu.",
+        "Your data is confidential and will not be transferred to third parties for any reason. You have full control over your data and can delete it from your account at any time.",
+        "Our standard Subscription Plans with a 3-day free trial are: * 1-Week Subscription",
+        "In-App Purchases: Live Transcribe Pro $5.99; Live Transcribe Pro $49.99",
+        "Requires iOS 13.0 or later.",
+        "Requires visionOS 1.0 or later.",
+        "Data Used to Track You. The following data may be used to track you across apps and websites owned by other companies: Identifiers",
+        "Seller: YOUDAO EDUCATION TECHNOLOGY (HONG KONG) LIMITED",
+        "Copyright: ©  2023 Talent Me Limited",
+        "Version history: 1.3.0, 09/05/2025, Bug fixes and performance improvements",
+        "Screenshot captions: \"Speak and Transcribe\", \"Customize your app to fit your unique needs and preferences\", \"Share, save, and revisit conversations easily\"",
+        "Screenshot buttons: Clear, Type, Flip, Text; share sheet with Copy, Copy Photo, Hide; caption lines under the name \"Dr. James\""
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "App Store lookup: Deaf Transcribe:Speech to Text (US store data)",
+      "publisher": "Apple",
+      "url": "https://itunes.apple.com/lookup?id=6463851667&country=us",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "App Store data (US)",
+      "quotes": [
+        "\"sellerName\":\"YOUDAO EDUCATION TECHNOLOGY (HONG KONG) LIMITED\"",
+        "\"minimumOsVersion\":\"13.0\"",
+        "\"price\":0.00",
+        "\"formattedPrice\":\"Free\"",
+        "\"languageCodesISO2A\":[\"EN\", \"FR\", \"DE\", \"JA\", \"KO\", \"PT\", \"ES\"]",
+        "\"version\":\"1.3.0\"",
+        "\"currentVersionReleaseDate\":\"2025-09-05T13:42:44Z\"",
+        "\"sellerUrl\":\"https://livetranscribe.luckon.online\""
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Privacy Policy (Live Transcribe)",
+      "publisher": "Talent Me Technology Pte. Ltd.",
+      "url": "https://d1e0dtlz2jooy2.cloudfront.net/inter-web/live-transcribe/privacy.html",
+      "type": "privacy",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Privacy policy",
+      "quotes": [
+        "Updated： September 05 2023",
+        "This privacy policy (the “Privacy Policy”) is designed to provide users (“you”) of our websites, apps, software and other online services (the “Live Transcribe”, “Service” or “Platform”) with clear information relating to how TALENT ME TECHNOLOGY PTE.LTD. and its affiliates (“Talent Me” or “We”) process your personal data or personal information (“Personal Information”).",
+        "such as 【Alibaba Cloud, Firebase, Google, Facebook, Apple, App Annie】",
+        "TALENT ME TECHNOLOGY PTE.LTD. is a company established at 5001 Beach Road #07-37 Golden Mile Complex Singapore.",
+        "User Content. We may collect the content you create or publish through the Service, such as audio recordings, videos, and the associated metadata (such as when, where, and by whom the content was created).",
+        "Content Characteristics and Features, the characteristics and features we detect and collect about the videos, images, and audio recordings that are part of your User Content, for example, by identifying objects and scenery, the existence or location within an image of a face or other body parts; and the text of words spoken in your User Content. We do this, for example, for content moderation and to provide special effects (such as transcription) and captions.",
+        "We may share or make available unique user identifiers, IDFA, device id, IP address and app usage and events (such as when you subscribed to our services) with these providers for the following business purposes",
+        "Additionally, we may share certain information with Facebook that allows us to create Custom or Lookalike Audiences here.",
+        "The personal data we collect from you may be stored on a server located in United States, outside of the country where you live.",
+        "You can delete the User Content you uploaded.",
+        "As noted, we do not sell your Personal Information."
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Live Transcribe Service Terms",
+      "publisher": "Talent Me Technology Pte. Ltd.",
+      "url": "https://d1e0dtlz2jooy2.cloudfront.net/inter-web/live-transcribe/terms.html",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Terms of service",
+      "quotes": [
+        "TALENT ME TECHNOLOGY PTE. LTD. (hereinafter referred to as “TALENT ME”), who possesses the ownership and operational rights of Live Transcribe, agrees to provide the Internet-based services according to the Live Transcribe Service Terms",
+        "TALENT ME will provide Live Transcribe services for the User using its operating system via the Internet.",
+        "(3) Be responsible for connecting the Internet and any fees for such connection;",
+        "additional value-added membership services including but not limited to the advertisement removal from current platform, unlimited recordings and other services to be launched in the future",
+        "TALENT ME will launch the weekly/monthly/annual subscription service with automatic renewal (“Subscription Service”)",
+        "To activate the Live Transcribe Service, you may log in using your mobile phone number or by authorizing a third-party account, and select the applicable value-added membership services and pay the agreed fees.",
+        "Live Transcribe User Account login system is not available for some versions, in which case User may select the applicable value-added membership services without logging in, and upon the completion of payment, the User benefits will be linked to the User’s Apple ID or Google Play ID",
+        "Live Transcribe Service is only available to User for non-commercial purposes.",
+        "(3) To promote the sharing and the spread of knowledge, User shall grant TALENT ME a free, global, perpetual, irrevocable, assignable, sublicensable and non-exclusive license to use all the content they’ve published in Live Transcribe.",
+        "The terms above will be governed by and interpreted in accordance with the laws of the People’s Republic of China."
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Live Transcribe (developer website linked from the App Store)",
+      "publisher": "livetranscribe.luckon.online",
+      "url": "https://livetranscribe.luckon.online",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Developer website",
+      "quotes": [
+        "Speak and Transcribe",
+        "Say it out loud and see it in writing, instantly.",
+        "Hear what others are saying, anywhere, anytime.",
+        "Experience the power of clear communication with our app.",
+        "title:\"Live Transcribe\",email:\"livetranscribe.service@gmail.com\",downloadUrl:\"https://apps.apple.com/app/id6463851667\" (no Android download link set)"
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Youdao, Inc. annual report on Form 20-F for 2024 (filed 15 April 2025)",
+      "publisher": "Youdao, Inc. (US SEC filing)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1781753/000119312525080651/d758034d20f.htm",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Youdao, Inc. annual report 2024",
+      "quotes": [
+        "As of December 31, 2024, the Company’s major subsidiaries and consolidated VIEs are as follows:",
+        "Youdao Education Technology (Hong Kong) Limited Hong Kong, China, 2021 100 % Providing sales of smart devices",
+        "“NetEase” refers to NetEase, Inc. (NASDAQ: NTES; HKEX: 9999), our controlling shareholder"
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Google Play search results for \"Deaf Transcribe\" (US)",
+      "publisher": "Google Play",
+      "url": "https://play.google.com/store/search?q=Deaf%20Transcribe&c=apps&hl=en_US&gl=US",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Google Play search",
+      "quotes": [
+        "No app called Deaf Transcribe and no app from YOUDAO EDUCATION TECHNOLOGY (HONG KONG) LIMITED or Talent Me in the 30 results; the only Youdao app shown is iTranscribe - Voice to Text by Youdao (Hong Kong) Limited, a different app (28 October 2026)"
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "App Store lookup: Deaf Transcribe (Hong Kong store data)",
+      "publisher": "Apple",
+      "url": "https://itunes.apple.com/lookup?id=6463851667&country=hk",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "App Store data (Hong Kong)",
+      "quotes": [
+        "\"resultCount\":0"
+      ]
+    },
+    {
+      "id": "s9",
+      "title": "App Store lookup: Deaf Transcribe (UK store data)",
+      "publisher": "Apple",
+      "url": "https://itunes.apple.com/lookup?id=6463851667&country=gb",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "App Store data (UK)",
+      "quotes": [
+        "\"trackName\":\"Deaf Transcribe:Speech to Text\"",
+        "\"sellerName\":\"YOUDAO EDUCATION TECHNOLOGY (HONG KONG) LIMITED\"",
+        "\"formattedPrice\":\"Free\""
+      ]
+    }
+  ],
+  "notes": "Names: the App Store seller is YOUDAO EDUCATION TECHNOLOGY (HONG KONG) LIMITED (developer id 1813052831; its other app is Smart AI Note Taker: MemoWave). Youdao, Inc.'s 2024 Form 20-F (SEC) lists Youdao Education Technology (Hong Kong) Limited as a 100% subsidiary and calls NetEase, Inc. its controlling shareholder. The privacy policy (updated 5 September 2023) and terms name TALENT ME TECHNOLOGY PTE. LTD. (Singapore) as the company that runs the service, the listing's copyright reads '© 2023 Talent Me Limited', and Youdao's 20-F does not mention Talent Me, so how the two are linked is not stated. The terms are governed by Chinese law with CIETAC arbitration in Beijing. The app calls itself 'Live Transcribe' in its privacy policy, terms, website title and in-app purchase name ('Live Transcribe Pro'); it is not Google's Live Transcribe. Other apps with similar names on the App Store are by different developers: 'Deaf Transcriber : HearingPal' (Burotec Limited), 'Deaf Transcribe Assistant', 'Speech to Text for Deaf', and 'Live Transcribe' (Mighty Fine Apps LLC); on Google Play, 'UHO Global - deaf transcribe' is also unrelated. Conflict: the App Store description says data 'will not be transferred to third parties for any reason', while the privacy policy lists third-party service providers (Alibaba Cloud, Firebase, Google, Facebook, Apple, App Annie), sharing of identifiers and usage with analytics and measurement partners, and sharing with Facebook for Custom or Lookalike Audiences; Apple's privacy label lists identifiers used to track you. Prices: the US In-App Purchases list shows 'Live Transcribe Pro' at $5.99 and $49.99 with no period; the description names only a 1-week subscription with a 3-day free trial; the terms mention weekly/monthly/annual subscriptions and give no prices. Periods were not assumed. Free-version limits: the terms say Pro removes ads and gives unlimited recordings; no free limit is stated, and whether the free version shows ads is only implied. Where speech is processed (on the phone or on a server) is not stated anywhere; the terms only say the service is provided via the internet. The developer website (livetranscribe.luckon.online) renders with JavaScript; its text was read from the page's own script bundle. That bundle has a footer component naming NetEase Youdao Information Technology (Beijing) Co., Ltd. with a Beijing address, but it is switched off (not shown), so it is not used as a source. One store screenshot shows caption lines under the name 'Dr. James'; no text describes speaker labels, so speakerLabels is not_stated. Availability: Apple's lookup found the app in the US, UK, Canada, Australia, Germany, France, Spain, Italy, Brazil, Mexico, India, South Korea, mainland China, Japan, Taiwan and Singapore stores, and not in Hong Kong (28 October 2026). Google Play: no Android version found by search; the Google Play developer page of Youdao (Hong Kong) Limited lists six other apps and no captions app. Ratings, reviews and download counts on the listing were not used. Not checked: in-app behaviour, the free version's ads or limits, and accuracy."
+}

@@ -1,0 +1,667 @@
+{
+  "slug": "captify",
+  "name": "Captify",
+  "shortName": "Captify",
+  "developer": "Captify Inc.",
+  "developerCountry": "United States",
+  "website": "https://captify.glass/",
+  "appStoreUrl": "https://apps.apple.com/us/app/captify-glass/id6748929504",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.captify.app",
+  "category": "smart-glasses",
+  "oneLine": "Captioning smart glasses for deaf and hard of hearing people that show live captions, translations and sound alerts in the lenses, run by the free Captify Glass app on iPhone or Android.",
+  "facts": {
+    "platforms": {
+      "status": "yes",
+      "text": "Captify glasses + iPhone or Android app",
+      "detail": "Captions show in Captify's own glasses (Captify Pro or Captify Light), run by the free Captify Glass app on an iPhone or Android phone. The App Store lists the app for iPhone only, and Captify says a phone is required for captioning.",
+      "sources": [
+        "s2",
+        "s5",
+        "s10",
+        "s11",
+        "s17"
+      ]
+    },
+    "deviceRequirements": {
+      "status": "yes",
+      "text": "Captify glasses; iOS 16+ or Android 12+",
+      "detail": "Captify lists iOS 16 or later and Android 12 or later. The phone has to stay within Bluetooth range of the glasses (about 10 m / 30 feet), because speech is turned into text on the phone.",
+      "sources": [
+        "s2",
+        "s5",
+        "s10"
+      ]
+    },
+    "roomCaptions": {
+      "status": "yes",
+      "text": "Yes, shown in the glasses' lenses",
+      "detail": "The glasses' two directional microphones, or the phone's microphone, pick up speech nearby, and the captions appear in the lenses, in your line of sight. Captify doesn't say whether the app can caption on the phone screen without the glasses.",
+      "sources": [
+        "s2",
+        "s12",
+        "s14",
+        "s10"
+      ]
+    },
+    "groupConversations": {
+      "status": "partial",
+      "text": "Small groups; not several people at once",
+      "detail": "Captify lists family gatherings and small groups among the places Captify Pro works best, and several people speaking at once, or very loud and crowded places, as not ideal. The glasses' microphones focus on the person in front of you; for a speaker further away you can switch to the phone's microphone.",
+      "sources": [
+        "s2",
+        "s14"
+      ]
+    },
+    "languages": {
+      "status": "yes",
+      "text": "80+ (Captify Pro); 30+ offline",
+      "detail": "Captify lists 80+ languages and regional variants for Captify Pro and Captify Light, with more coming soon. Its subscription page counts 30+ languages for free offline captions. The older Captify Myvu supports 13 languages.",
+      "sources": [
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ]
+    },
+    "offline": {
+      "status": "yes",
+      "text": "Yes, offline model in 30+ languages",
+      "detail": "Captify says no internet is needed: captions can run on an offline model, and the free plan has unlimited offline captions in 30+ languages. An online model can be chosen in Settings. A help article says real-time translation needs internet, while the subscription page lists free offline translation in 20+ languages.",
+      "sources": [
+        "s2",
+        "s4",
+        "s12",
+        "s13"
+      ]
+    },
+    "speakerLabels": {
+      "status": "partial",
+      "text": "Added Feb 2026; listed as Premium",
+      "detail": "The App Store release notes added speaker labelling in February 2026, and Captify's comparison page lists speaker labeling for Captify Pro. The subscription page lists speaker differentiation as part of the Premium plan, which it marks Coming Soon.",
+      "sources": [
+        "s10",
+        "s6",
+        "s4",
+        "s5"
+      ]
+    },
+    "translation": {
+      "status": "yes",
+      "text": "Yes, live, in the glasses; 80+ languages",
+      "detail": "Translated captions show in the glasses. Captify's product pages say 80+ languages, a help article (August 2026) says over 40, and says translation needs internet; the subscription page lists free offline translations in 20+ languages. A two-way mode is not described.",
+      "sources": [
+        "s2",
+        "s13",
+        "s4",
+        "s10"
+      ]
+    },
+    "saveTranscripts": {
+      "status": "yes",
+      "text": "Yes, in the app; cloud sync is Premium",
+      "detail": "Transcripts are saved on the app's home screen after each session, sorted into captions and translations. Cloud backup and sync across devices is listed for the Premium plan, marked Coming Soon. Keeping the audio is not described.",
+      "sources": [
+        "s12",
+        "s13",
+        "s4",
+        "s17"
+      ]
+    },
+    "export": {
+      "status": "yes",
+      "text": "Save to PDF (app release notes)",
+      "detail": "The App Store release notes for version 1.0.9 (October 2025) mention fixing the Save to PDF function. Other ways to share a transcript are not described.",
+      "sources": [
+        "s10"
+      ]
+    },
+    "fileUpload": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Transcribing an uploaded audio or video file is not described on Captify's pages.",
+      "sources": [
+        "s4",
+        "s10"
+      ]
+    },
+    "summaries": {
+      "status": "partial",
+      "text": "Added Jan 2026; listed as Premium",
+      "detail": "The App Store release notes added conversation summaries in January 2026. The subscription page lists AI summaries, and Ask AI to search your saved conversations, under the Premium plan, marked Coming Soon.",
+      "sources": [
+        "s10",
+        "s4",
+        "s6"
+      ]
+    },
+    "customWords": {
+      "status": "partial",
+      "text": "Custom keywords, online only; Premium",
+      "detail": "Custom keywords came with app version 1.3.5 (September 2026), online only. The subscription page lists custom word recognition for names and jargon under the Premium plan, marked Coming Soon.",
+      "sources": [
+        "s10",
+        "s4"
+      ]
+    },
+    "display": {
+      "status": "yes",
+      "text": "3 text sizes, position, brightness",
+      "detail": "Captify Pro has three font sizes (Regular, Large, Extra-Large), captions that can move to the top, bottom or sides of your view, adjustable brightness and a high-contrast monochrome display. One of its two displays can be turned off. Captify Light has a single-eye display.",
+      "sources": [
+        "s5",
+        "s12",
+        "s15",
+        "s3"
+      ]
+    },
+    "soundAlerts": {
+      "status": "yes",
+      "text": "Yes, 300+ sounds, on the free plan",
+      "detail": "Non-speech sounds such as doorbells, sirens, laughter, applause, alarms and music are shown in the glasses. The subscription page counts 300+ sounds on the free Standard plan; the Captify Light page says 500+.",
+      "sources": [
+        "s4",
+        "s14",
+        "s2",
+        "s3"
+      ]
+    },
+    "phoneCalls": {
+      "status": "partial",
+      "text": "Listed on comparison page only",
+      "detail": "Captify's comparison page lists phone call transcription among Captify Pro's AI features. No other Captify page explains how it works.",
+      "sources": [
+        "s6"
+      ]
+    },
+    "videoCalls": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Captioning video calls is not described on Captify's pages.",
+      "sources": [
+        "s2",
+        "s10"
+      ]
+    },
+    "mediaOnDevice": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Captioning audio or video playing on the phone is not described.",
+      "sources": [
+        "s2",
+        "s10"
+      ]
+    },
+    "humanCaptioners": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No human captioners are described; captions come from speech recognition.",
+      "sources": [
+        "s5"
+      ]
+    },
+    "signLanguage": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Sign language is not mentioned.",
+      "sources": [
+        "s2"
+      ]
+    },
+    "privacy": {
+      "status": "partial",
+      "text": "On the phone, offline or online",
+      "detail": "Captify says speech is turned into text on the phone, with Microsoft's speech recognition model, and you choose an offline or an online model. Its privacy policy (March 2025) does not mention audio; the App Store privacy label lists audio data linked to you, and Google Play says no data is shared with third parties.",
+      "sources": [
+        "s5",
+        "s12",
+        "s8",
+        "s10",
+        "s11"
+      ]
+    },
+    "account": {
+      "status": "yes",
+      "text": "Sign-in with phone number (Myvu guide)",
+      "detail": "Captify's setup guide for Captify Myvu says to sign in to the app with your phone number and a verification code. The App Store privacy label lists name, email address and user ID.",
+      "sources": [
+        "s16",
+        "s10",
+        "s19"
+      ]
+    },
+    "availability": {
+      "status": "yes",
+      "text": "Glasses ship worldwide; free US shipping",
+      "detail": "Captify ships anywhere in the world (190+ countries, says the Captify Pro page), free within the continental US; other buyers pay shipping and any import duties. The app is in English.",
+      "sources": [
+        "s5",
+        "s2",
+        "s10"
+      ]
+    },
+    "freePlan": {
+      "status": "partial",
+      "text": "Free app: unlimited offline captions",
+      "detail": "The app is free with no in-app purchases on the US App Store. Captify's $0 Standard plan includes unlimited offline captions (30+ languages), offline translation (20+ languages), sound alerts and note-taking. You need Captify glasses, which you buy.",
+      "sources": [
+        "s4",
+        "s10",
+        "s3"
+      ]
+    },
+    "price": {
+      "status": "yes",
+      "text": "Pro US$849, Light US$499; Premium US$15/mo (soon)",
+      "detail": "Captify's US store, October 2026: Captify Pro US$849 and Captify Light US$499 at regular price (on sale for US$699 and US$399 in late October 2026); new prescription lenses start at US$99. A Premium plan at US$15 a month is announced as Coming Soon; the app is free on the US App Store, with no in-app purchases.",
+      "sources": [
+        "s2",
+        "s3",
+        "s4",
+        "s18",
+        "s10"
+      ]
+    },
+    "accessibilityFunding": {
+      "status": "partial",
+      "text": "US: FSA/HSA cards; insurance may reimburse",
+      "detail": "Captify takes FSA and HSA cards at checkout, and vision insurance plans that cover out-of-network glasses may pay you back. No government programme is named.",
+      "sources": [
+        "s7",
+        "s5",
+        "s1"
+      ]
+    }
+  },
+  "strengths": [
+    {
+      "text": "Captions appear in the glasses' lenses, in your line of sight, so you can keep looking at the person speaking.",
+      "sources": [
+        "s2",
+        "s10"
+      ]
+    },
+    {
+      "text": "The free Standard plan includes unlimited offline captions in 30+ languages, with no internet needed.",
+      "sources": [
+        "s4",
+        "s2"
+      ]
+    },
+    {
+      "text": "It shows non-speech sounds such as doorbells, sirens, laughter and applause, on the free plan.",
+      "sources": [
+        "s4",
+        "s14"
+      ]
+    },
+    {
+      "text": "The glasses come with single vision, reading or progressive prescription lenses, and US buyers can pay with FSA or HSA cards.",
+      "sources": [
+        "s2",
+        "s5",
+        "s7"
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "text": "You need Captify glasses: Captify Pro costs US$699 and Captify Light US$399 on Captify's US store (October 2026).",
+      "sources": [
+        "s2",
+        "s3"
+      ]
+    },
+    {
+      "text": "Captify Pro gives 3 to 4 hours of continuous captioning with both displays on, and up to 6 hours with one.",
+      "sources": [
+        "s15"
+      ]
+    },
+    {
+      "text": "Captify says Captify Pro is not ideal when several people speak at once or in very loud, crowded places.",
+      "sources": [
+        "s2"
+      ]
+    },
+    {
+      "text": "Speaker differentiation, summaries, custom words and cloud sync are listed for a Premium plan marked Coming Soon.",
+      "sources": [
+        "s4"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Captify: Captions for real life (homepage)",
+      "publisher": "Captify",
+      "url": "https://captify.glass/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "We support FSA/HSA cards and insurance! Get free shipping in the US and a 14-day risk-free trial.",
+        "The first captioning glasses purpose built for the deaf/hard of hearing.",
+        "Unlimited Captions in 80+ Languages",
+        "Alerts You to Environmental Sounds",
+        "Supports Your Prescription Lenses",
+        "As a hard of hearing-owned company, we're committed to creating a world where hearing loss doesn't mean missing out."
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Captify Pro: Live Caption Glasses for Deaf & HoH",
+      "publisher": "Captify",
+      "url": "https://captify.glass/products/captify-pro",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Never miss a word with Captify smart glasses. Displays real-time captions directly in your lenses, so you can follow conversations easily again.",
+        "$699",
+        "$849",
+        "SAVE $150",
+        "Orders are shipped in 1-2 weeks after placement; shipping takes 5-10 days. Prescription lenses are not eligible for return. We support HSA/FSA and payments in installments.",
+        "4 hours continuous usage",
+        "Weight 37 grams (1.3 oz)",
+        "SPH: -20.00 to +6.00",
+        "Single vision, reading or progressives",
+        "Range 10m / 30 feet",
+        "iOS v16+ and Android 12+ required",
+        "Dual beamforming microphones",
+        "Captions appear in both lenses, centered in your natural line of sight so you won’t squint, strain, or look away from the person speaking.",
+        "Two built-in microphones focus on the person in front of you, helping you follow one-on-one conversations and feel more confident connecting at family gatherings.",
+        "Stay aware of more than just words. Captify alerts you to laughter, applause, music, and other sounds so you're never out of the loop, even when nobody's speaking.",
+        "Instantly and effortlessly translate live speech into 80+ different languages.",
+        "Yes! We support both Android and iOS. The app requires iOS v16+ and Android 12+ to run. A phone is required for captioning, but no internet access is needed - Captify works offline.",
+        "Family gatherings and small groups",
+        "Several people speaking at once",
+        "Very loud or crowded environments",
+        "Coming Soon",
+        "Go Beyond With Captify Premium",
+        "Ships worldwide to 190+ countries"
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Captify Light",
+      "publisher": "Captify",
+      "url": "https://captify.glass/products/captify-light",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Single-eye display so you can read what people are saying",
+        "Translates 80+ languages",
+        "Works with our free app, no subscription needed",
+        "Sale price $399.00",
+        "Regular price $499.00",
+        "Monocular diffractive waveguide",
+        "3 hours continuous usage",
+        "Weight 28 grams (0.99 oz)",
+        "iOS v16+ and Android 12+ required",
+        "Laughter, applause, alarms, music: Captify Light recognizes over 500 non-verbal sounds so you never miss a thing."
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Subscription (Captify Premium)",
+      "publisher": "Captify",
+      "url": "https://captify.glass/pages/subscription",
+      "type": "pricing",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Coming Soon",
+        "Captify Premium",
+        "Captify always offers unlimited free captioning and environmental sound indicators. For just $15/month, you can unlock premium features designed to make your experience even better.",
+        "Standard Plan $0 /month",
+        "Unlimited free offline captions Available in 30+ languages.",
+        "Unlimited free offline translations Available in 20+ languages.",
+        "300+ environmental sounds",
+        "Automatically transcribe conversations, meetings, and lectures into text notes you can save and review later.",
+        "Premium Plan $15 /month",
+        "Boost caption accuracy up to 98%",
+        "Automatically differentiate different voices, so you always know who’s talking in a conversation or meeting.",
+        "Get concise, AI-generated summaries of your conversations.",
+        "Teach Captify the words that matter most to you.",
+        "Store all conversations securely, accessible across devices.",
+        "it scans your conversations and brings the answer back in seconds."
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Frequently asked questions",
+      "publisher": "Captify",
+      "url": "https://captify.glass/pages/faqs",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "We ship internationally to anywhere in the world! We offer free shipping within the continental US. For other countries, please enter your address at checkout to see the shipping cost. You will be responsible for any customs or import duties that may arise.",
+        "Captify Myvu supports 13 languages",
+        "Captify Pro currently supports 80+ languages",
+        "Captify Pro works right out of the box with offline captioning, translations, environmental sound detection, and automated note-taking included. Upgrade to the optional $15/mo premium subscription to unlock even higher accuracy, identify speakers, get instant conversation summaries, and access AI-powered features.",
+        "Yes! We support both Android and iOS. The app requires iOS v16+ and Android 12+ to run. A phone is required for captioning.",
+        "No - you will need an iOS or Android phone within range of Bluetooth (10 meters / 30 feet), because the speech-to-text processing is performed on the phone, in order to conserve power consumption on the glasses.",
+        "We use Microsoft's state-of-the-art language recognition model for speech transcription/translation.",
+        "Yes - anything from a -20.00 to +6.00. We also support astigmatism.",
+        "Yes! Simply use your FSA or HSA card at checkout. If you have insurance, check with your provider about out-of-network reimbursements.",
+        "Captify Pro allows font size adjustment. We offer three font sizes: Regular, Large, and Extra-Large.",
+        "Captify Pro offers the option to adjust the position of the captions so they can be on the top, bottom or sides of your view.",
+        "Captify uses a high-contrast monochrome mode optimized for clear, readable captions.",
+        "On Captify Pro, we also offer the option to turn off one display should you wish to.",
+        "Our team is based in San Francisco, California."
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Comparison: Captify Pro and Captify",
+      "publisher": "Captify",
+      "url": "https://captify.glass/pages/comparison",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Phone call transcription, speaker labeling, note taking, ambient sound detection, conversation summaries etc.",
+        "4 hours (binocular mode)",
+        "6+ hours (monocular mode)",
+        "10 meters in quiet setting",
+        "2.5 meters in noise (70 dB)"
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Using FSA/HSA Cards and Insurance",
+      "publisher": "Captify",
+      "url": "https://captify.glass/pages/insurance",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Now you can use your FSA or HSA card to buy Captify!",
+        "If your insurance plan supports buying out-of-network glasses, you can get reimbursed by your insurance after purchasing Captify."
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "Privacy Policy",
+      "publisher": "Captify",
+      "url": "https://captify.glass/pages/privacy-policy",
+      "type": "privacy",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Last Updated: March 19, 2025",
+        "When you create an account, place an order, subscribe to our newsletter, or contact us, we may collect personal information such as your name, email address, postal address, phone number, payment information, and prescription details."
+      ]
+    },
+    {
+      "id": "s9",
+      "title": "Return Policy",
+      "publisher": "Captify",
+      "url": "https://captify.glass/pages/return-policy",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Last Updated: May 8, 2026",
+        "You have 14 days from the date of delivery to return your glasses for any reason—no questions asked."
+      ]
+    },
+    {
+      "id": "s10",
+      "title": "Captify Glass on the App Store (US)",
+      "publisher": "Apple App Store",
+      "url": "https://apps.apple.com/us/app/captify-glass/id6748929504",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Only for iPhone",
+        "Captify smart glasses deliver live captions and translations directly in your field of view—like subtitles for real life.",
+        "Our glasses pair with a companion app to transcribe speech in real time, display captions discreetly, and support over a dozen languages.",
+        "Captify glasses are available with a variety of lens options—non-corrective, reading, single vision, and progressive prescription lenses—so you can see and read clearly at the same time.",
+        "Added support for offline transcriptions and translation for non-English languages",
+        "Added support for custom keywords (online only)",
+        "1. New feature: added speaker labelling",
+        "1. New feature: added conversation summary",
+        "3.Fixed 'Save to PDF' functionality",
+        "Audio Data",
+        "Requires iOS 16.0 or later.",
+        "Seller Captify Incorporated"
+      ]
+    },
+    {
+      "id": "s11",
+      "title": "Captify on Google Play (US)",
+      "publisher": "Google Play",
+      "url": "https://play.google.com/store/apps/details?id=com.captify.app&hl=en_US&gl=US",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Captify smart glasses deliver live captions and translations directly in your field of view—like subtitles for real life.",
+        "No data shared with third parties",
+        "You can request that data be deleted",
+        "Houston, TX 77043-3261"
+      ]
+    },
+    {
+      "id": "s12",
+      "title": "Start Captioning with Captify Pro (Jul 28, 2026)",
+      "publisher": "Captify Help Center",
+      "url": "https://help.captify.glass/articles/captify-pro/getting-started/start-captioning-with-captify-pro",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "This launches the captioning interface in the app and begins live captions on your glasses.",
+        "The transcript appears in your main Captify app dashboard after a session ends.",
+        "Choose phone mic or glasses’ built-in directional mics.",
+        "Select online or offline speech recognition.",
+        "Adjust caption brightness.",
+        "However, for the best captioning accuracy, use your Captify Pro in quieter environments or within close range of the speaker."
+      ]
+    },
+    {
+      "id": "s13",
+      "title": "How to Turn On Translation on Captify Pro (Aug 31, 2026)",
+      "publisher": "Captify Help Center",
+      "url": "https://help.captify.glass/articles/captify-pro/live-captions-features/how-to-turn-on-translation-on-captify-pro",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Captify Pro supports real-time translation in over 40 languages, allowing you to display translated captions directly on your glasses.",
+        "You must be connected to the internet to use real-time translation.",
+        "Captions without translation can run offline using the offline model (see Settings).",
+        "Transcripts are automatically saved to the app’s home screen."
+      ]
+    },
+    {
+      "id": "s14",
+      "title": "Using Live Captioning in Noisy Environments (Aug 31, 2026)",
+      "publisher": "Captify Help Center",
+      "url": "https://help.captify.glass/articles/captify-pro/live-captions-features/using-live-captioning-in-noisy-environments",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Captify Pro includes directional microphones built directly into the glasses, optimized to pick up speech in front of you and minimize surrounding noise.",
+        "If the speaker is far away or you're in an especially loud environment, you can switch to your phone’s microphone for better pickup:",
+        "Make sure you stay within Bluetooth range of your phone (about 30 feet indoors).",
+        "This optional setting allows your glasses to recognize important non-speech sounds like: Doorbells Sirens Laughter or applause"
+      ]
+    },
+    {
+      "id": "s15",
+      "title": "How Long Does the Battery Last? (Jul 28, 2026)",
+      "publisher": "Captify Help Center",
+      "url": "https://help.captify.glass/articles/captify-pro/charging-and-battery/how-long-does-the-battery-last-tips-and-tricks-for-extending-performance",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "3–4 hours of continuous captioning in binocular mode (both lenses active)",
+        "Up to 6 hours in monocular mode (one lens active — ideal for extended use)",
+        "48-hour standby mode",
+        "Lower caption brightness in Settings for reduced power consumption"
+      ]
+    },
+    {
+      "id": "s16",
+      "title": "Getting Started With Your Captify (Captify Myvu, Aug 31, 2026)",
+      "publisher": "Captify Help Center",
+      "url": "https://help.captify.glass/articles/captify-myvu/getting-started/getting-started-with-your-captify",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Sign in to the app by entering your phone number to get a verification code.",
+        "The app needs to be connected to Captify in the background to work."
+      ]
+    },
+    {
+      "id": "s17",
+      "title": "Installing and Connecting the Captify App (Aug 31, 2026)",
+      "publisher": "Captify Help Center",
+      "url": "https://help.captify.glass/articles/captify-pro/getting-started/installing-and-connecting-the-captify-app",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "The Captify app powers your Captify Pro glasses, enabling real-time captions, translation, and saved transcripts.",
+        "Search for “Captify Glass” in the App Store (iOS) or Google Play (Android).",
+        "Look for the Captify logo and confirm it is developed by Captify."
+      ]
+    },
+    {
+      "id": "s18",
+      "title": "How Do I Update My Prescription Lenses? (Aug 31, 2026)",
+      "publisher": "Captify Help Center",
+      "url": "https://help.captify.glass/articles/prescription-lenses/lens-support/how-do-i-update-my-prescription-lenses",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "We can make your new prescription lenses for the same price (starting at $99 depending on the type of lenses, plus shipping), and ship you the new prescription inserts to install yourself."
+      ]
+    },
+    {
+      "id": "s19",
+      "title": "Terms of Use",
+      "publisher": "Captify",
+      "url": "https://captify.glass/pages/terms-of-service",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Last Updated: March 19, 2025",
+        "To access certain features of our Services, you may be required to register and create an “Account.”",
+        "You must be at least 18 years old to create an Account and make purchases."
+      ]
+    }
+  ],
+  "notes": "Different app, same name: 'Captify: Live Caption Deaf+HoH' (App Store id 6449643108, bundle com.inquiryhealth.captify, seller Inquiry Health LLC, version 1.0 released 2 June 2023, never updated) is not by Captify Inc.: different seller, different bundle id, no link to it on captify.glass, and Captify's help centre tells buyers to make sure the app is developed by Captify. It is left out of every fact. Company names differ by page: App Store seller 'Captify Incorporated', Google Play developer 'Captify Inc.' with a Houston, Texas address, privacy policy and terms 'Captify Glass, Inc.', site footer 'Captify Inc.'; the FAQ says the team is based in San Francisco. Products: Captify Pro (two displays) and Captify Light (the Light page says 'Single-eye display' and 'Monocular diffractive waveguide' but also 'Captions appear in both lenses'); the older Captify Myvu is still covered by the FAQ and help centre but not sold on the product menu. The Light page is not described as a rename of Myvu (it compares itself to Myvu). Premium: the subscription page and the Captify Pro page mark Captify Premium (US$15/month) 'Coming Soon', but the FAQ says 'Upgrade to the optional $15/mo premium subscription' without that label; the US App Store lists no in-app purchases (checked in the page data), so the cells treat Premium as announced, not on sale. Several Premium features (speaker labelling Feb 2026, conversation summary Jan 2026, custom keywords Sep 2026) are already in the app's release notes; whether they will need Premium is unclear. Translation: help article (Aug 2026) says real-time translation needs internet and supports over 40 languages; product pages say 80+; subscription page lists free offline translation in 20+ languages; app version 1.3.5 (Sep 2026) added offline translation for non-English languages. Language counts also differ: App Store description 'over a dozen', release notes '40+' (Sep 2025), product pages and FAQ '80+', subscription page '30+' for offline captions; the FAQ and product page differ slightly on which languages are 'coming soon'. Sound count: subscription page 300+, Light page 500+. Battery: Pro page 4 hours continuous and 20 hours standby; help article 3-4 hours binocular, up to 6 hours monocular, 48-hour standby; comparison page 4 hours / 6+ hours. Trial: 14 days on the homepage, FAQ and return policy, 15 days on the Light page. Shipping time: FAQ 1-2 weeks; an older help article says about 4 weeks. Prices were read in USD with a US localisation cookie (the site shows euros from Europe); the Pro US$699 price is a Halloween sale (regular US$849); lens add-on prices on the product page are set in a lens picker that was not read, so only the help centre's 'starting at $99' for new prescription lenses is used. Whether the app captions on the phone screen without glasses is not stated. The privacy policy (March 2025) does not cover audio or AI training; Captify's FAQ names Microsoft as its speech model. The captify.glass site rate-limited automated requests (HTTP 429), so pages were downloaded slowly by script; the help centre (help.captify.glass) renders client-side and its article URLs were taken from its own route code. No Captify page states accessibility features beyond captions, and no ratings, review counts or user counts are used."
+}

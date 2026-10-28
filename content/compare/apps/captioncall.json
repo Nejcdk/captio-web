@@ -1,0 +1,788 @@
+{
+  "slug": "captioncall",
+  "name": "CaptionCall Mobile",
+  "shortName": "CaptionCall",
+  "developer": "CaptionCall, LLC (Sorenson)",
+  "developerCountry": "United States (Salt Lake City, Utah)",
+  "website": "https://sorenson.com/captioncall/captioncall-mobile/",
+  "appStoreUrl": "https://apps.apple.com/us/app/captioncall/id1529823668",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.machinegenius.olelo",
+  "category": "phone-call-captions",
+  "oneLine": "Sorenson's US phone-call caption app, free through the FCC for eligible people with hearing loss; Sorenson also provides a captioned home phone.",
+  "facts": {
+    "platforms": {
+      "status": "yes",
+      "text": "iPhone, iPad, Android, Fire tablet",
+      "detail": "On the App Store (iPhone and iPad, with call alerts on Apple Watch), Google Play and the Amazon Appstore for Fire tablets. Sorenson also provides a CaptionCall home phone with a caption screen.",
+      "sources": [
+        "s1",
+        "s4",
+        "s5",
+        "s19",
+        "s8"
+      ]
+    },
+    "deviceRequirements": {
+      "status": "yes",
+      "text": "iOS 16+ (App Store), Android 9+",
+      "detail": "The App Store lists iOS 16.0 or later. Sorenson's CaptionCall Mobile page says iOS 15 or later and Android 9 or later.",
+      "sources": [
+        "s1",
+        "s2",
+        "s6"
+      ]
+    },
+    "roomCaptions": {
+      "status": "no",
+      "text": "No, phone calls only",
+      "detail": "CaptionCall says the app only captions calls that go through your CaptionCall number. None of its pages describe captioning people in the same room.",
+      "sources": [
+        "s28",
+        "s17"
+      ]
+    },
+    "groupConversations": {
+      "status": "partial",
+      "text": "3-way calls only",
+      "detail": "You can merge a second call into a 3-way call, and all parties are captioned. Nothing is described for groups in the same room.",
+      "sources": [
+        "s26"
+      ]
+    },
+    "languages": {
+      "status": "yes",
+      "text": "English and Spanish",
+      "detail": "CaptionCall can caption calls in English and Spanish. Spanish captions were added to the app in 2023.",
+      "sources": [
+        "s9",
+        "s11"
+      ]
+    },
+    "offline": {
+      "status": "no",
+      "text": "No, needs Wi-Fi or mobile data",
+      "detail": "Calls are captioned anywhere with Wi-Fi or mobile data. A 911 call also needs a data connection.",
+      "sources": [
+        "s1",
+        "s10"
+      ]
+    },
+    "speakerLabels": {
+      "status": "partial",
+      "text": "Your side and the caller's, in colours",
+      "detail": "Both sides of the call are captioned, each in its own coloured text bubble. You can turn off the captions of your own voice.",
+      "sources": [
+        "s12",
+        "s27"
+      ]
+    },
+    "translation": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No CaptionCall page describes translating speech from one language into another.",
+      "sources": []
+    },
+    "saveTranscripts": {
+      "status": "yes",
+      "text": "Yes, on the phone, by default",
+      "detail": "Call transcripts are saved to the History tab by default and stored on the device. Sorenson says only you can access them.",
+      "sources": [
+        "s22",
+        "s11",
+        "s12"
+      ]
+    },
+    "export": {
+      "status": "yes",
+      "text": "Share a transcript from call history",
+      "detail": "Open a call in History, tap Share Transcript and choose how to export it.",
+      "sources": [
+        "s23"
+      ]
+    },
+    "fileUpload": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No CaptionCall page mentions transcribing an uploaded audio or video file.",
+      "sources": []
+    },
+    "summaries": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No CaptionCall page mentions summaries of calls.",
+      "sources": []
+    },
+    "customWords": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No CaptionCall page mentions adding your own words or names.",
+      "sources": []
+    },
+    "display": {
+      "status": "yes",
+      "text": "Caption size, picture-in-picture, dark mode",
+      "detail": "A slider changes the caption size, also during a call. Captions can stay on screen in a small window over other apps, and the app has a dark mode.",
+      "sources": [
+        "s24",
+        "s25",
+        "s5",
+        "s6"
+      ]
+    },
+    "soundAlerts": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No alerts for sounds around you are described. Incoming calls can show on a smartwatch.",
+      "sources": [
+        "s31"
+      ]
+    },
+    "phoneCalls": {
+      "status": "yes",
+      "text": "Yes: calls, 3-way, voicemail, 911",
+      "detail": "CaptionCall captions incoming and outgoing calls, 3-way calls, voicemail and 911 calls. Call forwarding and My Caller ID let you keep using your own number.",
+      "sources": [
+        "s1",
+        "s26",
+        "s30",
+        "s10",
+        "s29",
+        "s33"
+      ]
+    },
+    "videoCalls": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No CaptionCall page describes captioning Zoom, FaceTime or other video calls.",
+      "sources": []
+    },
+    "mediaOnDevice": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No CaptionCall page describes captioning videos or other media playing on the phone.",
+      "sources": []
+    },
+    "humanCaptioners": {
+      "status": "partial",
+      "text": "Home phone: yes; mobile app: no",
+      "detail": "On the CaptionCall home phone, a live captioning agent connects to each call. CaptionCall Mobile doesn't use live agents: its captions are automatic.",
+      "sources": [
+        "s12",
+        "s7",
+        "s6"
+      ]
+    },
+    "signLanguage": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "CaptionCall shows text captions. Sorenson, the same company, offers ASL interpreting for phone calls through its separate Sorenson VRS service.",
+      "sources": [
+        "s6"
+      ]
+    },
+    "privacy": {
+      "status": "yes",
+      "text": "Cloud; call audio not kept on servers",
+      "detail": "The privacy policy says call audio and transcription are not kept by Sorenson or its providers, and transcripts are saved on your phone. It also says information it collects may be used to help train its machine learning or AI models.",
+      "sources": [
+        "s13",
+        "s11"
+      ]
+    },
+    "account": {
+      "status": "yes",
+      "text": "Yes; ID details, home address",
+      "detail": "Sign-up asks for your cell number, email, your details as on your government ID and your home address, and you self-certify your hearing loss. The FCC says IP CTS providers ask for your date of birth and the last four digits of your Social Security number.",
+      "sources": [
+        "s20",
+        "s21",
+        "s16"
+      ]
+    },
+    "availability": {
+      "status": "partial",
+      "text": "US only",
+      "detail": "CaptionCall and CaptionCall Mobile are available in the United States only. The app was not found in the UK, Canadian, Mexican, Australian or German App Stores.",
+      "sources": [
+        "s1",
+        "s6",
+        "s3"
+      ]
+    },
+    "freePlan": {
+      "status": "yes",
+      "text": "Free for eligible US users",
+      "detail": "No cost and no subscription for people with hearing loss who need captions to use the phone.",
+      "sources": [
+        "s6",
+        "s21",
+        "s1"
+      ]
+    },
+    "price": {
+      "status": "no",
+      "text": "No paid plans",
+      "detail": "The app is free on the App Store and Google Play, and Sorenson says there is no subscription (US, October 2026). The CaptionCall home phone is also provided at no cost.",
+      "sources": [
+        "s1",
+        "s2",
+        "s6",
+        "s7"
+      ]
+    },
+    "accessibilityFunding": {
+      "status": "yes",
+      "text": "Yes, FCC (IP CTS)",
+      "detail": "The FCC lists CaptionCall, LLC with conditional certification to provide IP CTS, with a Sorenson contact. The FCC's fund pays Sorenson for each minute of captions.",
+      "sources": [
+        "s14",
+        "s21",
+        "s15",
+        "s6"
+      ]
+    }
+  },
+  "strengths": [
+    {
+      "text": "Free for eligible US users with hearing loss, with no subscription: the FCC's fund pays for the captions.",
+      "sources": [
+        "s6",
+        "s21"
+      ]
+    },
+    {
+      "text": "Captions phone calls, 3-way calls, voicemail and 911 calls, and lets you keep your own number through call forwarding and My Caller ID.",
+      "sources": [
+        "s1",
+        "s26",
+        "s10",
+        "s29",
+        "s33"
+      ]
+    },
+    {
+      "text": "Sorenson also provides eligible users a CaptionCall home phone at no cost, with delivery, setup and a live captioning agent on calls.",
+      "sources": [
+        "s8",
+        "s7",
+        "s12"
+      ]
+    },
+    {
+      "text": "Works with Bluetooth hearing aids, AirPods and other headphones.",
+      "sources": [
+        "s6",
+        "s32"
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "text": "It captions phone calls only: the app captions calls that go through your CaptionCall number.",
+      "sources": [
+        "s28",
+        "s17"
+      ]
+    },
+    {
+      "text": "Only available in the United States, for registered users with hearing loss.",
+      "sources": [
+        "s1",
+        "s6"
+      ]
+    },
+    {
+      "text": "Calls are captioned in English and Spanish only.",
+      "sources": [
+        "s9"
+      ]
+    },
+    {
+      "text": "It needs Wi-Fi or mobile data, and calls to your usual number aren't captioned until you set up call forwarding.",
+      "sources": [
+        "s1",
+        "s34"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "CaptionCall (App Store, US)",
+      "publisher": "Apple App Store",
+      "url": "https://apps.apple.com/us/app/captioncall/id1529823668",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "CaptionCall Mobile empowers deaf and hard-of-hearing individuals to make and receive phone calls with instant live captions.",
+        "No more landlines. CaptionCall Mobile goes where you go, allowing you to make and receive captioned calls from your mobile device anywhere with WiFi or mobile data service.",
+        "Fast, accurate, and easy, CaptionCall automatically transcribes both sides of your conversation in a customizable easy-to-read format, using advanced voice to text for deaf and hard-of-hearing that is 100% private and secure.",
+        "You'll have quick access to your saved contacts, captioned voicemail and voicemail alerts, and can dial and receive calls from any phone number, just like your regular phone.",
+        "CaptionCall and CaptionCall Mobile are available in the United States only.",
+        "The CaptionCall phone and app remain the property of Sorenson in order to provide ongoing support, service, and upgrades.",
+        "Price: Free",
+        "Seller: MachineGenius, Inc.",
+        "Requires iOS 16.0 or later.",
+        "Requires iPadOS 16.0 or later.",
+        "Requires watchOS 9.0 or later.",
+        "Languages: English and Spanish",
+        "Copyright: © CaptionCall, LLC",
+        "Data Used to Track You: The following data may be used to track you across apps and websites owned by other companies: Identifiers"
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Apple iTunes Lookup API, CaptionCall app id 1529823668, US storefront",
+      "publisher": "Apple",
+      "url": "https://itunes.apple.com/lookup?id=1529823668&country=us",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "\"trackName\":\"CaptionCall\"",
+        "\"sellerName\":\"MachineGenius, Inc.\"",
+        "\"minimumOsVersion\":\"16.0\"",
+        "\"formattedPrice\":\"Free\"",
+        "\"sellerUrl\":\"https://sorenson.com/captioncall/captioncall-mobile\""
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Apple iTunes Lookup API, CaptionCall app id 1529823668, UK storefront",
+      "publisher": "Apple",
+      "url": "https://itunes.apple.com/lookup?id=1529823668&country=gb",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "\"resultCount\":0 (same for country=ca, mx, au and de; country=us returns the app)"
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "CaptionCall (Google Play, US)",
+      "publisher": "Google Play",
+      "url": "https://play.google.com/store/apps/details?id=com.machinegenius.olelo",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "CaptionCall Mobile is exclusively for people with hearing loss who need captions to use the phone effectively in the United States only.",
+        "Or you can continue using your existing phone number and automatically forward them to CaptionCall Mobile on your mobile device or tablet for captioning.",
+        "Updated on Oct 15, 2026",
+        "About the developer: Captioncall LLC, 4192 S Riverboat Rd, Salt Lake City, UT 84123, United States"
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "CaptionCall (Amazon Appstore)",
+      "publisher": "Amazon Appstore",
+      "url": "https://www.amazon.com/CaptionCall-Olelo-Captioned-Calls/dp/B0BLT53TZX",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "No cost, FCC-certified captioned calling app for your Fire Tablet",
+        "Olelo is now known as CaptionCall Mobile.",
+        "Adding to the makeover, CaptionCall now provides official dark mode support!"
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Mobile Captioning | Captions App for Iphone or Android",
+      "publisher": "Sorenson (CaptionCall)",
+      "url": "https://sorenson.com/captioncall/captioncall-mobile/",
+      "type": "official",
+      "label": "CaptionCall Mobile (Sorenson)",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "CaptionCall Mobile is part of the Sorenson family.",
+        "Captions are generated automatically in real time with no need for a third person on the line.",
+        "Change text size and display for easier reading, and save captions to revisit names, dates, and instructions.",
+        "No subscription and no cost to individuals with hearing loss who need captions for phone calls because our service is funded by the FCC.",
+        "Use CaptionCall Mobile with the audio you already rely on — Bluetooth hearing aids, AirPods, or other headphones for clearer sound alongside live captions.",
+        "Yes! Eligible users can get both CaptionCall for Home and CaptionCall Mobile at no cost.",
+        "The CaptionCall Mobile app supports any smartphone or tablet running iOS 15 or later and Android 9 or later.",
+        "The FCC uses that funding to reimburse each minute of captioning service Sorenson provides instead of customers paying for it out of pocket.",
+        "CaptionCall and CaptionCall Mobile are available in the United States only.",
+        "Deaf and use ASL? Get no-cost ASL interpreting for phone calls."
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "CaptionCall (captioncall.com, redirects to sorenson.com/captioncall)",
+      "publisher": "Sorenson (CaptionCall)",
+      "url": "https://sorenson.com/captioncall/",
+      "type": "official",
+      "label": "CaptionCall home page (Sorenson)",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "CaptionCall captions phone calls in real time. Stay connected and independent with a captioned telephone for deaf or hard of  hearing individuals.",
+        "CaptionCall provides a physical captioned phone for hard-of-hearing or Deaf individuals who need captions to communicate over the phone. Just like the captioning service, Sorenson provides this phone at no cost.",
+        "CaptionCall’s captioning assistance uses a combination of live captioning agents, the most advanced voice recognition technology, and a fast transcription service to display text captions of what a caller is saying as they’re saying it on a large, easy-to-read screen.",
+        "Yes. Only people with hearing loss who need captions to use the phone effectively may use CaptionCall and CaptionCall Mobile."
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "CaptionCall for Home",
+      "publisher": "Sorenson (CaptionCall)",
+      "url": "https://sorenson.com/captioncall/captioncall-home-phone/",
+      "type": "official",
+      "label": "CaptionCall for Home (Sorenson)",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Enjoy phone calls again with a no-cost caption phone. Delivery, expert setup, and ongoing support included.",
+        "Sorenson launched our caption phone service in 2010"
+      ]
+    },
+    {
+      "id": "s9",
+      "title": "CaptionCall Support",
+      "publisher": "Sorenson (CaptionCall)",
+      "url": "https://sorenson.com/support/captioncall-support/",
+      "type": "help",
+      "label": "CaptionCall Support (Sorenson)",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "What captioning languages are available with CaptionCall?",
+        "CaptionCall can provide call captioning in English and Spanish."
+      ]
+    },
+    {
+      "id": "s10",
+      "title": "911 Emergency Calling with CaptionCall Mobile",
+      "publisher": "Sorenson (CaptionCall)",
+      "url": "https://sorenson.com/captioncall/captioncall-mobile/911-emergency-calling/",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Any 911 call you make is prioritized ahead of all other calls and uses our automated speech recognition for captions while you are talking with the emergency response team.",
+        "When dialing a 911 call, your phone must be connected to a data network (LTE/5G cellular data network or WiFi)."
+      ]
+    },
+    {
+      "id": "s11",
+      "title": "Olelo by Sorenson Rebrands to CaptionCall Mobile",
+      "publisher": "Sorenson",
+      "url": "https://sorenson.com/newsroom/olelo-by-sorenson-rebrands-to-captioncall-mobile/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "SALT LAKE CITY, December 12, 2023",
+        "today announced the rebranding of its Olelo app to CaptionCall Mobile.",
+        "Earlier this year, Sorenson updated the app with a new interface, and added an option for captions in Spanish.",
+        "After users hang up, CaptionCall Mobile will securely store a history of captioned calls on the device for later review."
+      ]
+    },
+    {
+      "id": "s12",
+      "title": "Does CaptionCall Work on a Cell Phone? Is It Really No Cost?",
+      "publisher": "Sorenson",
+      "url": "https://sorenson.com/blog/captioncall/does-captioncall-work-on-a-cell-phone-is-it-really-no-cost/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "If you use CaptionCall Mobile, each side of the conversation displays in a colored text bubble.",
+        "When you make or receive a call using CaptionCall, a live captioning agent automatically connects to your call. The agent uses voice-recognition technology and manual corrections to turn your phone conversation into captions.",
+        "CaptionCall Mobile doesn’t use live agents. Instead, it uses the highest quality automatic speech recognition (ASR) technology available.",
+        "Just like with CaptionCall, CaptionCall Mobile also gives you access to full call transcripts in your phone’s history. Only you can access those transcripts."
+      ]
+    },
+    {
+      "id": "s13",
+      "title": "Privacy Policy",
+      "publisher": "Sorenson",
+      "url": "https://sorenson.com/privacy/privacy-policy/",
+      "type": "privacy",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Last updated 26 May, 2026.",
+        "Sorenson Communications, LLC; CaptionCall, LLC; and their subsidiaries and affiliates",
+        "Specifically, we require automated speech-recognition or other systems and individuals, including our representatives and agents, to process, listen to, interpret, and transcribe the audio and signing (for users who communicate with sign language) portions of your telephone conversations.",
+        "To protect your privacy, none of the audio transmission, interpretation, or transcription of the call will be retained by us or our third-party service providers.",
+        "We may also use the information we collect, as outlined in this Policy, to help train our machine learning or artificial intelligence models to analyze and improve our products and services, our business, and to develop new products and services."
+      ]
+    },
+    {
+      "id": "s14",
+      "title": "Internet-Based TRS Providers",
+      "publisher": "Federal Communications Commission",
+      "url": "https://www.fcc.gov/general/internet-based-trs-providers",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "CaptionCall, LLC",
+        "Conditional certification to provide Internet Protocol Captioned Telephone Service (IP CTS)",
+        "Landon Potter Head of Compliance and Ethics Sorenson Communications, LLC 4192 South Riverboat Road Salt Lake City, UT 84123",
+        "Website: https://www.captioncall.com",
+        "Updated: Wednesday, June 10, 2026"
+      ]
+    },
+    {
+      "id": "s15",
+      "title": "Internet Protocol (IP) Captioned Telephone Service",
+      "publisher": "Federal Communications Commission",
+      "url": "https://www.fcc.gov/consumers/guides/internet-protocol-ip-captioned-telephone-service",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Internet Protocol Captioned Telephone Service (IP CTS) is a form of telecommunications relay service (TRS) that permits an individual who can speak but who has difficulty hearing over the telephone to use a telephone and an Internet Protocol-enabled device via the Internet to simultaneously listen to the other party and read captions of what the other party is saying."
+      ]
+    },
+    {
+      "id": "s16",
+      "title": "New IP CTS Registration Requirements FAQs",
+      "publisher": "Federal Communications Commission",
+      "url": "https://www.fcc.gov/consumers/guides/new-ip-cts-registration-requirements-faqs",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Your IP CTS provider will request information from you, including your full name, address, date of birth, and the last four digits of your Social Security number, to the extent any of the information is missing or needs updating.",
+        "Users must also provide a document with a U.S. address to verify that the user is located in the United States."
+      ]
+    },
+    {
+      "id": "s17",
+      "title": "What is CaptionCall Mobile?",
+      "publisher": "CaptionCall Mobile Help Center",
+      "url": "https://intercom.help/captioncallmobile/en/articles/6715194-what-is-captioncall-mobile",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "CaptionCall Mobile is a call captioning app for Apple and Android smartphones that uses an automated transcription system to caption phone calls quickly, accurately, and privately."
+      ]
+    },
+    {
+      "id": "s18",
+      "title": "What happened to Olelo?",
+      "publisher": "CaptionCall Mobile Help Center",
+      "url": "https://intercom.help/captioncallmobile/en/articles/8709556-what-happened-to-olelo",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Olelo is now CaptionCall Mobile! So, nothing happened to Olelo, we just changed the name and colors!",
+        "Longer than a year ago, Olelo became part of Sorenson."
+      ]
+    },
+    {
+      "id": "s19",
+      "title": "How to get started with CaptionCall Mobile",
+      "publisher": "CaptionCall Mobile Help Center",
+      "url": "https://intercom.help/captioncallmobile/en/articles/6590342-how-to-get-started-with-captioncall-mobile",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "First, just download the app on your iPhone or Android smartphone, then create an account in the app.",
+        "Click here to download the CaptionCall app on your Amazon Fire tablet",
+        "Remember, only individuals with a hearing loss that necessitates the use of captions are permitted to use CaptionCall."
+      ]
+    },
+    {
+      "id": "s20",
+      "title": "How to create an account (step-by-step)",
+      "publisher": "CaptionCall Mobile Help Center",
+      "url": "https://intercom.help/captioncallmobile/en/articles/7842103-how-to-create-an-account-step-by-step",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Enter your cell phone number then tap",
+        "Enter your email address and create a password.",
+        "Enter your personal information as it appears on your government ID.",
+        "Enter your home address. This will be the destination for emergency responders in the event that you dial for emergency services."
+      ]
+    },
+    {
+      "id": "s21",
+      "title": "Is the CaptionCall service no-cost?",
+      "publisher": "CaptionCall Mobile Help Center",
+      "url": "https://intercom.help/captioncallmobile/en/articles/6591591-is-the-captioncall-service-no-cost",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "There is no cost to use the CaptionCall service for qualified users experiencing difficulties communicating over the phone as a result of hearing loss.",
+        "CaptionCall is an FCC-authorized captioned telephone service provider and is compensated for providing the captioning service by the Interstate Telecommunications Relay Service Fund, which is administered by the Federal Communications Commission.",
+        "When you first sign up, you will be required to complete a self-certification and provide other mandatory registration information."
+      ]
+    },
+    {
+      "id": "s22",
+      "title": "Where do I find my call transcript?",
+      "publisher": "CaptionCall Mobile Help Center",
+      "url": "https://intercom.help/captioncallmobile/en/articles/6609936-where-do-i-find-my-call-transcript",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "All call transcripts are saved into your history by default."
+      ]
+    },
+    {
+      "id": "s23",
+      "title": "How do I export a call transcript?",
+      "publisher": "CaptionCall Mobile Help Center",
+      "url": "https://intercom.help/captioncallmobile/en/articles/6609960-how-do-i-export-a-call-transcript",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Tap on the call with the desired transcript and tap on the",
+        "Choose how you would like to export the transcript"
+      ]
+    },
+    {
+      "id": "s24",
+      "title": "How do I increase the caption size?",
+      "publisher": "CaptionCall Mobile Help Center",
+      "url": "https://intercom.help/captioncallmobile/en/articles/6591571-how-do-i-increase-the-caption-size",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Scroll down to Caption Settings and use the slider to adjust the caption font size.",
+        "You can also adjust the caption size during a call in the call menu"
+      ]
+    },
+    {
+      "id": "s25",
+      "title": "What is Picture-in-Picture (PiP) Mode?",
+      "publisher": "CaptionCall Mobile Help Center",
+      "url": "https://intercom.help/captioncallmobile/en/articles/9718222-what-is-picture-in-picture-pip-mode",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Picture-in-Picture (PiP) mode on CaptionCall allows you to continue using the app for captioned calls while navigating through other apps or screens on your phone."
+      ]
+    },
+    {
+      "id": "s26",
+      "title": "How do I start a 3-way call?",
+      "publisher": "CaptionCall Mobile Help Center",
+      "url": "https://intercom.help/captioncallmobile/en/articles/6616704-how-do-i-start-a-3-way-call",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "CaptionCall gives you the ability to make a second call while already in a call and then merge the calls into a 3-way call.",
+        "Voilà! You should now be in a 3-way call. All parties will be captioned."
+      ]
+    },
+    {
+      "id": "s27",
+      "title": "How do I turn off the captions of my voice?",
+      "publisher": "CaptionCall Mobile Help Center",
+      "url": "https://intercom.help/captioncallmobile/en/articles/6591530-how-do-i-turn-off-the-captions-of-my-voice",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "One thing that makes the CaptionCall app special is the ability to read your own words, since CaptionCall captions both sides of the conversation."
+      ]
+    },
+    {
+      "id": "s28",
+      "title": "Why does the app show a different number than mine?",
+      "publisher": "CaptionCall Mobile Help Center",
+      "url": "https://intercom.help/captioncallmobile/en/articles/6715177-why-does-the-app-show-a-different-number-than-mine",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "When you make a CaptionCall account, you are given a unique CaptionCall phone number which acts like a second phone inside your phone.",
+        "The CaptionCall app will only caption all the calls that go through the CaptionCall number, however, you can continue using your usual phone number by setting up"
+      ]
+    },
+    {
+      "id": "s29",
+      "title": "How to set up Call Forwarding",
+      "publisher": "CaptionCall Mobile Help Center",
+      "url": "https://intercom.help/captioncallmobile/en/articles/6589710-how-to-set-up-call-forwarding",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Call forwarding lets you automatically send calls made to your usual cell phone number to your CaptionCall app instead, so you don't have to worry about giving out your new CaptionCall number to your friends and family."
+      ]
+    },
+    {
+      "id": "s30",
+      "title": "How to access Voicemails",
+      "publisher": "CaptionCall Mobile Help Center",
+      "url": "https://intercom.help/captioncallmobile/en/articles/9358025-how-to-access-voicemails",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Access voicemails within the CaptionCall Mobile App",
+        "This will bring you directly to your voicemail system to retrieve the transcripts and hear the call."
+      ]
+    },
+    {
+      "id": "s31",
+      "title": "Miss fewer calls with smartwatch notifications",
+      "publisher": "CaptionCall Mobile Help Center",
+      "url": "https://intercom.help/captioncallmobile/en/articles/9117757-miss-fewer-calls-with-smartwatch-notifications",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "When you're within range of your cell phone, your smartwatch can now notify you that someone is calling while your phone is locked."
+      ]
+    },
+    {
+      "id": "s32",
+      "title": "How do I connect my Bluetooth device?",
+      "publisher": "CaptionCall Mobile Help Center",
+      "url": "https://intercom.help/captioncallmobile/en/articles/6592987-how-do-i-connect-my-bluetooth-device",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "When your Bluetooth device is connected to your phone, the CaptionCall app will automatically detect it."
+      ]
+    },
+    {
+      "id": "s33",
+      "title": "How to set up My Caller ID",
+      "publisher": "CaptionCall Mobile Help Center",
+      "url": "https://intercom.help/captioncallmobile/en/articles/6589888-how-to-set-up-my-caller-id",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "My Caller ID makes it so your CaptionCall number shows up as your usual number when you make an outgoing call, so your friends and family know it's you calling."
+      ]
+    },
+    {
+      "id": "s34",
+      "title": "Why aren't my incoming calls being captioned?",
+      "publisher": "CaptionCall Mobile Help Center",
+      "url": "https://intercom.help/captioncallmobile/en/articles/6715142-why-aren-t-my-incoming-calls-being-captioned",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Incoming calls to your usual phone number will not be captioned by default. If you would like the incoming calls to your usual phone number to be captioned, you will need to set up Call Forwarding."
+      ]
+    }
+  ],
+  "notes": "Ownership: CaptionCall is Sorenson's. captioncall.com redirects to sorenson.com/captioncall/; Sorenson's privacy policy covers \"Sorenson Communications, LLC; CaptionCall, LLC\"; the Google Play developer is CaptionCall, LLC (Salt Lake City, UT); the FCC lists CaptionCall, LLC with conditional IP CTS certification and a Sorenson Communications compliance contact (page updated June 10, 2026). The App Store seller is still MachineGenius, Inc. (bundle id com.machingenius.olelo, copyright CaptionCall, LLC): the app was Olelo, which became part of Sorenson and was renamed CaptionCall Mobile in December 2023 (Sorenson press release; help article). Sorenson also provides CaptionCall home phones (landline/VoIP caption phones with a large screen) at no cost to eligible users, with delivery and installation, and says eligible users can have both. Conflicts: Sorenson's mobile page says iOS 15 or later and Android 9 or later, while the App Store lists iOS 16.0 or later; the store and site disclaimer says IP captioned telephone service \"may use a live operator\", while Sorenson's mobile page and blog say CaptionCall Mobile captions automatically without a live agent (the home phone uses live captioning agents). In-person use: no CaptionCall or Sorenson page found says anything about captioning people in the same room, either allowed or forbidden; the roomCaptions fact rests on the help centre saying the app only captions calls through the CaptionCall number, and on the FCC's description of IP CTS as captions of the other party on a call. Privacy: the privacy policy says call audio and transcription are not retained, and separately that collected information may be used to help train its machine learning or AI models (with aggregated or de-identified data); the App Store privacy label lists Identifiers as data used to track you. No In-App Purchases section on the App Store page and none shown on Google Play. The Amazon Appstore listing shows an older version (10.0.2401) and lists English only. FCC pages returned 403 to curl/WebFetch and were read in a browser. The Google Play page did not show a minimum Android version in the fetched HTML. Not found anywhere: translation, summaries, custom words, file upload, video calls, captioning media on the phone; these are not_stated. Customer quotes, store ratings and review counts on Sorenson's and the stores' pages were left out on purpose. The Sorenson blog post \"Comparing Top Call Captioning Apps\" (linked from its blog) returned 404 and was not used."
+}

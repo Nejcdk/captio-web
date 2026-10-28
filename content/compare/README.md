@@ -81,7 +81,7 @@ Situation icons: doctor, dinner, meeting, lecture, travel, home, phone, offline,
 6. **Disclosed.** Every page says Captio AI made it, how facts were checked, and has the contact address for corrections (the template adds this).
 7. **No fake first-hand testing.** Don't write "we tested" unless someone did, on a named device and date. Real tests (screenshots, a timed conversation) are the strongest thing a page can add: say what was done.
 8. **Captio AI is not a phone-call or video-call service.** On pages about call-captioning apps, say plainly that they do a different job.
-9. Never name Captio AI's speech-recognition or AI providers.
+9. Never name Captio AI's speech-recognition or AI providers. The Soniox app is compared as an app like any other (its page and the hub may name it), but no page says or hints what Captio AI's captions run on, and none compares the two on accuracy.
 10. Always "Captio AI", never "Captio". Feature names capitalised: Live Captions, Live Translator, Audio Transcription, AI Summary.
 
 ## Adding a page

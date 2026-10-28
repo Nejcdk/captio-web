@@ -1,0 +1,424 @@
+{
+  "slug": "relay-live-transcribe",
+  "name": "Live Transcribe Deaf - Relay",
+  "shortName": "Relay",
+  "developer": "KYB Bilgi İletişim Limited Şirketi",
+  "developerCountry": "Türkiye (Istanbul)",
+  "website": "https://www.relay-app.net",
+  "appStoreUrl": "https://apps.apple.com/us/app/live-transcribe-deaf-relay/id6757261643",
+  "googlePlayUrl": null,
+  "category": "in-person-captions",
+  "oneLine": "An iPhone and iPad app that captions face-to-face conversations, with a paid cloud mode in 60+ languages and a free on-device mode that works without internet.",
+  "facts": {
+    "platforms": {
+      "status": "yes",
+      "text": "iPhone and iPad (no Android app)",
+      "detail": "On the App Store for iPhone and iPad, also listed for Apple silicon Macs and Apple Vision (\"Designed for iPad. Not verified for macOS\"). Relay's website only offers an iOS download, and a Google Play search finds no Relay app.",
+      "sources": ["s1", "s3", "s5", "s9"]
+    },
+    "deviceRequirements": {
+      "status": "yes",
+      "text": "iOS 18 or later",
+      "detail": "The App Store lists iOS 18 or later for iPhone, iPadOS 18 for iPad, and macOS 15 with an M1 chip or later for Mac.",
+      "sources": ["s1", "s2"]
+    },
+    "roomCaptions": {
+      "status": "yes",
+      "text": "Yes, from the phone's microphone",
+      "detail": "Relay turns speech around you into text as it is spoken. Its website says to place the phone where it can hear.",
+      "sources": ["s1", "s3"]
+    },
+    "groupConversations": {
+      "status": "partial",
+      "text": "One phone; you can name each speaker",
+      "detail": "The App Store version notes (May 2026) say you can name each speaker and see which part of the transcript belongs to whom. Relay describes no way to join several phones into one conversation.",
+      "sources": ["s1"]
+    },
+    "languages": {
+      "status": "yes",
+      "text": "60+ languages (Premium); 18 offline",
+      "detail": "Premium transcription covers 60+ languages and Standard (on-device) transcription 18. One line of the App Store description says 90+ languages for Premium; the rest of Relay's pages say 60+. Relay does not publish the list.",
+      "sources": ["s4", "s3", "s1"]
+    },
+    "offline": {
+      "status": "yes",
+      "text": "Yes, Standard mode on the phone, 18 languages",
+      "detail": "Standard mode uses Apple's speech recognition on the phone, is free and unlimited, and works without internet. Relay says it may be less accurate in hard conditions. It does not switch by itself: when the connection drops, Relay tells you and you switch to Standard.",
+      "sources": ["s4", "s3", "s6", "s7"]
+    },
+    "speakerLabels": {
+      "status": "yes",
+      "text": "Yes, name each speaker",
+      "detail": "Version 1.26 (May 2026) added naming each speaker so you can see which part of the transcript belongs to whom. The current App Store description and website do not describe it further.",
+      "sources": ["s1"]
+    },
+    "translation": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Relay's website, FAQ and App Store listing describe captions only; no translation between spoken languages is described. The app's interface can be switched between languages, separately from the language being transcribed.",
+      "sources": ["s1", "s3", "s4"]
+    },
+    "saveTranscripts": {
+      "status": "yes",
+      "text": "Yes, on the phone only, no audio",
+      "detail": "Transcripts are stored only on your device and are never uploaded; Relay says it cannot read them. Audio is not recorded or stored. You can delete transcripts in the app, and uninstalling removes them.",
+      "sources": ["s4", "s5", "s1"]
+    },
+    "export": {
+      "status": "yes",
+      "text": "Share and export transcripts",
+      "detail": "A Share button (added in version 1.36, August 2026) sends transcripts to other apps, and the website says you can export transcripts to any app. The file format is not stated.",
+      "sources": ["s1", "s3", "s6"]
+    },
+    "fileUpload": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Relay's pages describe live transcription only, not transcribing audio or video files.",
+      "sources": ["s1", "s3", "s4"]
+    },
+    "summaries": {
+      "status": "yes",
+      "text": "Summarises recent recordings (App Store story)",
+      "detail": "Apple's App Store story on Relay says it summarises your recent recordings. Relay's own website and App Store description don't describe summaries.",
+      "sources": ["s8"]
+    },
+    "customWords": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No way to add your own words or names is described on Relay's website, FAQ or App Store listing.",
+      "sources": ["s1", "s3", "s4"]
+    },
+    "display": {
+      "status": "yes",
+      "text": "Text size, colours, dark mode, high contrast",
+      "detail": "Font size and colours can be changed, with large text for seniors, dark mode, high contrast options and Dynamic Type. Flip mode turns the text so the person across from you can read it.",
+      "sources": ["s3", "s1", "s8"]
+    },
+    "soundAlerts": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Relay's pages describe speech transcription only; no alerts for sounds such as a doorbell or an alarm are described.",
+      "sources": ["s1", "s3"]
+    },
+    "phoneCalls": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Relay's pages describe face-to-face conversations; captioning phone calls is not described. Despite its name, it is not an FCC relay service (see Free through a government programme).",
+      "sources": ["s1", "s3", "s10"]
+    },
+    "videoCalls": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Captioning Zoom, Teams or Meet calls is not described.",
+      "sources": ["s1", "s3"]
+    },
+    "mediaOnDevice": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Captioning videos or audio playing on the phone itself is not described.",
+      "sources": ["s1", "s3"]
+    },
+    "humanCaptioners": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Captions come from speech recognition: a Premium AI engine or Apple's on-device Speech Recognition. No human captioners are described.",
+      "sources": ["s6", "s4"]
+    },
+    "signLanguage": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No sign language feature is described.",
+      "sources": ["s1", "s3"]
+    },
+    "privacy": {
+      "status": "yes",
+      "text": "Premium: cloud, audio not stored; Standard: on phone",
+      "detail": "Premium streams audio over an encrypted connection for processing and does not store it; Standard mode processes audio on the phone. Transcripts stay on the phone. Relay says it is designed to be HIPAA compatible but advises asking your compliance officer before medical use. Apple's App Privacy section, filled in by the developer, lists identifiers that may be used to track you across other companies' apps and websites.",
+      "sources": ["s5", "s4", "s3", "s1"]
+    },
+    "account": {
+      "status": "no",
+      "text": "No account needed",
+      "detail": "Relay's FAQ and website say no account is required; data stays on the device.",
+      "sources": ["s4", "s3"]
+    },
+    "availability": {
+      "status": "yes",
+      "text": "App Store in many countries (iOS only)",
+      "detail": "The App Store lists Relay in the US, UK, Canada, Australia, Germany, France, Türkiye, Japan, Brazil, India and Slovenia (looked up on 28 October 2026). Relay does not publish a country list.",
+      "sources": ["s2", "s12"]
+    },
+    "freePlan": {
+      "status": "yes",
+      "text": "Unlimited Standard (on-device) captions",
+      "detail": "Standard transcription is free and unlimited. The higher-accuracy Premium engine needs a subscription or a pack of hours; whether the free tier includes any Premium time is not stated.",
+      "sources": ["s4", "s1"]
+    },
+    "price": {
+      "status": "yes",
+      "text": "US$12.99/month or US$89.99/year; Lite US$7.99/month",
+      "detail": "US App Store, October 2026: Monthly Subscription US$12.99, Yearly Subscription US$89.99, Lite Monthly US$7.99, Lite Yearly US$59.99, plus items named Core (US$22.99) and Pro (US$44.99) with no period shown. Hour packs that never expire: 10 hours US$9.99, 20 hours US$18.99, 100 hours US$89.99. The App Store description says Premium includes 15 hours a month; the FAQ says Relay Pro includes 10 hours a month. Plan hours reset each billing period. No free trial is described.",
+      "sources": ["s1", "s4", "s6"]
+    },
+    "accessibilityFunding": {
+      "status": "no",
+      "text": "No (not an FCC relay service)",
+      "detail": "Relay is sold through App Store subscriptions and hour packs. Its pages don't mention the FCC or phone calls, and its developer is not on the FCC's list of internet-based relay providers (updated June 2026). FCC relay services help people make phone calls and are paid from a state or federal fund.",
+      "sources": ["s1", "s10", "s11"]
+    }
+  },
+  "strengths": [
+    {
+      "text": "Standard mode is free, unlimited and runs on the phone, so it captions without internet in 18 languages.",
+      "sources": ["s4", "s3"]
+    },
+    {
+      "text": "Transcripts stay on the phone only, audio is not stored, and no account is needed.",
+      "sources": ["s4", "s5"]
+    },
+    {
+      "text": "Flip mode turns the text toward the person across from you, and Quick Phrases show saved messages like \"Please speak slower\" with one tap.",
+      "sources": ["s1", "s8"]
+    },
+    {
+      "text": "Plans start at US$7.99 a month (Lite), and hour packs from US$9.99 for 10 hours never expire (US App Store, October 2026).",
+      "sources": ["s1", "s6"]
+    }
+  ],
+  "limits": [
+    {
+      "text": "iPhone and iPad only, with iOS 18 or later: there is no Android app.",
+      "sources": ["s1", "s9"]
+    },
+    {
+      "text": "The higher-accuracy Premium mode needs internet and paid hours; the free Standard mode covers 18 languages.",
+      "sources": ["s4", "s7"]
+    },
+    {
+      "text": "No live translation, file transcription, custom words or sound alerts are described.",
+      "sources": ["s1", "s3", "s4"]
+    },
+    {
+      "text": "Relay's terms say not to rely on it for critical, life-safety or legal matters.",
+      "sources": ["s6"]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Live Transcribe Deaf - Relay on the App Store (United States)",
+      "publisher": "Apple App Store",
+      "url": "https://apps.apple.com/us/app/live-transcribe-deaf-relay/id6757261643",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Relay App Store listing",
+      "quotes": [
+        "Relay transforms spoken words into text instantly, right on your screen.",
+        "Our premium transcription engine delivers exceptional accuracy across 90+ languages, while a reliable on-device option works even without internet.",
+        "Transcripts are stored locally on your device and never uploaded to external servers.",
+        "Turn your device around so the other person can read the transcript while you speak.",
+        "Save frequently used messages like \"Please speak slower\" or \"Can you repeat that?\" and send them with a single tap to keep conversations flowing smoothly.",
+        "No internet? No problem. Switch to basic transcription mode and continue capturing speech using on-device processing.",
+        "From English and Spanish to Japanese, Arabic, and beyond—Relay understands the world's languages with premium transcription.",
+        "Start with our free tier to experience Relay. Upgrade to Premium for 15 hours of high-accuracy transcription each month, or purchase additional minutes that never expire.",
+        "- VoiceOver compatible - Dynamic Type support - High contrast options - RTL language support - Background transcription while screen is locked",
+        "Switch the app interface between 10 languages including English, Spanish, German, French, Italian, Portuguese, Turkish, Arabic, Japanese, and Chinese—independent of which language is being transcribed.",
+        "Relay requires iOS 18.0 or later. Subscription required. Internet connection required for premium transcription.",
+        "- Improved speaker identification. You can now name each speaker and easily see which transcript belongs to whom.",
+        "Share transcriptions directly with the new Share button",
+        "Free · In‑App Purchases · Designed for iPad. Not verified for macOS.",
+        "Requires iOS 18 or later. Requires iPadOS 18 or later. Requires macOS 15.0 or later and a Mac with Apple M1 chip or later. Requires visionOS 2.0 or later.",
+        "In-App Purchases: Monthly Subscription $12.99; Yearly Subscription $89.99; Lite Monthly $7.99; Core $22.99; Lite Yearly $59.99; 20 Hours $18.99; 10 Hours $9.99; Pro $44.99; 100 Hours $89.99",
+        "Data Used to Track You: The following data may be used to track you across apps and websites owned by other companies: Identifiers",
+        "Seller: KYB BILGI ILETISIM LIMITED SIRKETI"
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "App Store lookup for app 6757261643 (US)",
+      "publisher": "Apple",
+      "url": "https://itunes.apple.com/lookup?id=6757261643&country=us",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Relay App Store lookup",
+      "quotes": [
+        "\"minimumOsVersion\":\"18\"",
+        "\"sellerName\":\"KYB BILGI ILETISIM LIMITED SIRKETI\"",
+        "\"sellerUrl\":\"https://www.relay-app.net\"",
+        "\"formattedPrice\":\"Free\"",
+        "\"releaseDate\":\"2026-02-01T08:00:00Z\""
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Relay - Real-Time Speech to Text for the Deaf Community",
+      "publisher": "Relay (KYB Bilgi İletişim)",
+      "url": "https://www.relay-app.net/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Relay website",
+      "quotes": [
+        "Transcribe conversations in over 60 languages for international meetings.",
+        "Your conversations stay on your device. No cloud storage. HIPAA compatible.",
+        "Customize font size and colors. Designed for seniors with large text.",
+        "Comfortable viewing in any lighting with automatic dark mode support.",
+        "On-device speech recognition provides unlimited offline transcription in 18 languages.",
+        "Keep transcribing even when your screen is locked for long meetings.",
+        "No complicated setup. No account required. Just tap and start transcribing in seconds.",
+        "Place your phone where it can hear. Works in noisy restaurants or quiet offices.",
+        "Keep a record of important conversations. Export transcripts to any app.",
+        "Download for iOS"
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "FAQ - Relay Real-Time Speech to Text",
+      "publisher": "Relay (KYB Bilgi İletişim)",
+      "url": "https://www.relay-app.net/faq",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Relay FAQ",
+      "quotes": [
+        "No account is required to use Relay. All your data is stored locally on your device.",
+        "Premium transcription supports 60+ languages. Standard transcription supports 18 languages and works offline.",
+        "Standard uses on-device speech recognition, which is free and unlimited but may be less accurate in challenging conditions.",
+        "No. Relay will notify you if the connection is lost so you can switch to Standard mode. You can manually select your preferred engine in settings.",
+        "Relay Pro includes 10 hours (600 minutes) of premium transcription per month. Minutes reset each billing cycle and don't roll over.",
+        "At 0 minutes, you can switch to unlimited Standard mode or purchase more minutes.",
+        "No! Minute packs never expire. They're consumed only after your subscription minutes are used up.",
+        "All transcriptions are stored locally on your device only. We never have access to your conversation content.",
+        "No. Audio is streamed for real-time processing and is never stored. When using Standard mode, audio is processed entirely on your device.",
+        "Relay is designed to be HIPAA compatible. Our AI engine maintains HIPAA compliance for audio processing. However, consult your compliance officer before using in medical settings."
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Privacy Policy - Relay",
+      "publisher": "Relay (KYB Bilgi İletişim)",
+      "url": "https://www.relay-app.net/privacy",
+      "type": "privacy",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Relay privacy policy",
+      "quotes": [
+        "This Privacy Policy explains how we handle your personal information when you access our iOS application.",
+        "Relay is operated by KYB Bilgi İletişim Limited Şirketi, Sinanpaşa, Çelebi Oğlu Sk. No: 2 D:5, 34353 Beşiktaş/İstanbul, Türkiye.",
+        "When using Premium transcription, audio is streamed in real-time for processing. This audio is processed immediately, not permanently stored, and transmitted securely using encryption.",
+        "All transcriptions are stored locally on your device only. We do not have access to, and cannot read, your transcribed conversations.",
+        "We collect anonymous app usage metrics and analytics data to improve the app experience.",
+        "Delete any or all transcriptions at any time directly from the app",
+        "Uninstall the app to remove all local data from your device"
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Terms of Service - Relay",
+      "publisher": "Relay (KYB Bilgi İletişim)",
+      "url": "https://www.relay-app.net/terms",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Relay terms",
+      "quotes": [
+        "Premium transcription powered by industry-leading speech recognition",
+        "Standard transcription using Apple Speech Recognition",
+        "Local storage of transcriptions on your device",
+        "Export and sharing capabilities",
+        "Subscriptions are billed monthly or annually through the Apple App Store",
+        "Included premium minutes reset each billing period and do not roll over",
+        "Minutes from packs never expire",
+        "Do not rely on Relay for critical, life-safety, or legal matters where accuracy is essential."
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Support - Relay",
+      "publisher": "Relay (KYB Bilgi İletişim)",
+      "url": "https://www.relay-app.net/support",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Relay support",
+      "quotes": [
+        "Premium transcription requires internet. Try Standard mode offline.",
+        "Ensure microphone access is enabled in iOS Settings → Relay"
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "Catch Every Word With Relay (Apps We Love)",
+      "publisher": "Apple App Store",
+      "url": "https://apps.apple.com/us/iphone/story/id1887912059",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Apple App Store story on Relay",
+      "quotes": [
+        "Designed with people who are deaf or hard of hearing in mind, Relay transcribes spoken conversations in real time and displays them in an easy-to-read format.",
+        "The app is thoughtfully designed for face-to-face interactions: Flip mode rotates text 180 degrees, so the person across from you can read it right side up.",
+        "Relay summarizes your recent recordings (in case you forgot what groceries you came to the store to pick up).",
+        "Save frequently used phrases (like “Can you repeat that?” or “Where is the restroom?”) as Quick Texts so you can display them with a single tap."
+      ]
+    },
+    {
+      "id": "s9",
+      "title": "Google Play search results for \"relay live transcribe deaf\" (US)",
+      "publisher": "Google Play",
+      "url": "https://play.google.com/store/search?q=relay%20live%20transcribe%20deaf&c=apps&hl=en_US&gl=US",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "Google Play search",
+      "quotes": [
+        "No app named Relay and no app by KYB BILGI ILETISIM LIMITED SIRKETI in the results (28 October 2026)"
+      ]
+    },
+    {
+      "id": "s10",
+      "title": "Internet-Based TRS Providers",
+      "publisher": "Federal Communications Commission",
+      "url": "https://www.fcc.gov/general/internet-based-trs-providers",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "FCC relay provider list",
+      "quotes": [
+        "Points of Contact for the carriers who provide Internet-based relay services. (Alphabetical by each service (IP CTS, IP Relay, and VRS).",
+        "Updated: Wednesday, June 10, 2026",
+        "KYB Bilgi İletişim and Relay are not on the list (checked 28 October 2026)"
+      ]
+    },
+    {
+      "id": "s11",
+      "title": "Consumer Guide: Telecommunications Relay Service - TRS",
+      "publisher": "Federal Communications Commission",
+      "url": "https://www.fcc.gov/consumers/guides/telecommunications-relay-service-trs",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "FCC guide to relay services",
+      "quotes": [
+        "Telecommunications Relay Service allows persons with hearing or speech disabilities to place and receive telephone calls.",
+        "TRS providers are compensated for the costs of providing TRS from either a state or a federal fund."
+      ]
+    },
+    {
+      "id": "s12",
+      "title": "App Store lookup for app 6757261643 in other countries",
+      "publisher": "Apple",
+      "url": "https://itunes.apple.com/lookup?id=6757261643&country=gb",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "App Store lookup (other countries)",
+      "quotes": [
+        "\"resultCount\":1 for country=gb, ca, au, de, fr, tr, jp, br, in and si (28 October 2026)"
+      ]
+    }
+  ],
+  "notes": "No Android version: the website offers only 'Download for iOS', the privacy policy speaks of 'our iOS application', and Google Play searches for the app and for the developer found nothing (the developer page URL returned 404). Conflicts: (1) Premium languages: the App Store description says '90+ languages' in its first paragraph and '60+ Languages' further down; the website and FAQ say 60+. (2) Hours included: the App Store description says Premium includes 15 hours a month; the FAQ says 'Relay Pro includes 10 hours (600 minutes)'. The In-App Purchases list has Monthly/Yearly Subscription, Lite Monthly/Yearly, 'Core' (US$22.99) and 'Pro' (US$44.99) with no period or hours shown, so which plan includes how many hours is not clear; 'Yearly Subscription US$89.99' appears twice. (3) Privacy: Apple's App Store story says conversations are 'processed on your iPhone and never uploaded to external servers', but Relay's own privacy policy and FAQ say Premium audio is streamed for processing (not stored); only Standard mode is on the phone. The App Store App Privacy section (developer-declared) lists Identifiers under 'Data Used to Track You' and Third-Party Advertising among purposes, while the privacy policy names only Adapty (subscriptions) and anonymous analytics. (4) The privacy policy's effective date is 'January 6th, 2025' and the terms say 'January 2025', although the App Store lists the app's release as 1 February 2026. (5) The App Store lists 16 interface languages; the description says 10. Summaries are only mentioned in Apple's App Store story, not on Relay's own pages; details unknown. Speaker naming is only in the version notes for 1.26 (May 2026). The FAQ answers are loaded by script; they were read from the site's own JavaScript bundle for /faq. The website's 'Documentation' link on the support page goes back to the homepage. The App Store page's 'More by' section lists other apps by the same seller (an AI note taker, a transcription app and a call-captioning app, 'Realtime Caption Call: CapCall'); Relay's own website does not link them, so they are not mentioned on the comparison page. The name 'Relay' is not related to US relay services: the FCC's list of internet-based relay providers (updated 10 June 2026) does not include the developer, and Relay's pages never mention phone calls or the FCC. Not checked: what the free tier includes beyond Standard mode (any Premium minutes), how speaker naming works live, export formats, and the Quick Phrases/'Type' reply feature in detail (the website mock-up shows Clear, Type, Flip and Text buttons). Not opened: the app itself. All pages read with curl on 2026-10-28."
+}

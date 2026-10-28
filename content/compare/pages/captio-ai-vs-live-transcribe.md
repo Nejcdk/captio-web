@@ -53,7 +53,7 @@ better:
     - text: "It keeps recordings with their audio, transcribes files, and writes summaries and to-dos."
       sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries]
     - text: "On iPhone it keeps captioning with the screen locked."
-      sources: [captio-ai:s1]
+      sources: [captio-ai:s10]
 situations:
   - icon: doctor
     title: "A doctor's appointment with weak signal"

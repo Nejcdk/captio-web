@@ -1,0 +1,443 @@
+{
+  "slug": "live-transcribe-plus",
+  "name": "Live Transcribe +",
+  "shortName": "Live Transcribe +",
+  "developer": "Zerovik Pte. Ltd.",
+  "developerCountry": "Singapore",
+  "website": "https://zerovik.com",
+  "appStoreUrl": "https://apps.apple.com/us/app/live-transcribe/id1618181875",
+  "googlePlayUrl": null,
+  "category": "in-person-captions",
+  "oneLine": "An iPhone and iPad app by Zerovik, not connected to Google's Live Transcribe, that turns speech picked up by the microphone into live text in 60+ languages.",
+  "facts": {
+    "platforms": {
+      "status": "yes",
+      "text": "iPhone and iPad (no Android app found)",
+      "detail": "On the App Store for iPhone and iPad, and listed as compatible with Apple Vision. A Google Play search finds no app by Zerovik, and Zerovik's own launch post describes it as an iPhone app.",
+      "sources": [
+        "s1",
+        "s6",
+        "s4"
+      ]
+    },
+    "deviceRequirements": {
+      "status": "yes",
+      "text": "iOS 15.0 or later",
+      "detail": "The App Store lists iOS 15.0 or later for iPhone and iPadOS 15.0 or later for iPad. Zerovik's June 2024 launch post said iOS 16.0 and above.",
+      "sources": [
+        "s1",
+        "s2",
+        "s4"
+      ]
+    },
+    "roomCaptions": {
+      "status": "yes",
+      "text": "Yes, speech around you via the mic",
+      "detail": "The listing describes live transcription and captioning for deaf and hard of hearing people, with audio from the phone's built-in mic or a Bluetooth device.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "groupConversations": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "The listing names classrooms and business meetings as uses, but describes no speaker labels and no way to join several phones. It says the speaker can wear Bluetooth headphones for better accuracy in noisy places.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "languages": {
+      "status": "yes",
+      "text": "60+ languages",
+      "detail": "The App Store listing and Zerovik's 2024 launch post say 60+ languages. No full list is published. The app's own menus are in English only.",
+      "sources": [
+        "s1",
+        "s4",
+        "s2"
+      ]
+    },
+    "offline": {
+      "status": "yes",
+      "text": "Yes, says the App Store; languages not listed",
+      "detail": "The listing says it transcribes in real time \"even when offline\". It doesn't say which languages work without internet.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "speakerLabels": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Neither the App Store listing nor Zerovik's launch post describes showing who is talking.",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    },
+    "translation": {
+      "status": "partial",
+      "text": "In a 2024 post; not in the App Store listing",
+      "detail": "Zerovik's June 2024 launch post describes translating spoken words into another language. The App Store listing doesn't mention translation, and Zerovik sells a separate translator app, Live Voice Translator +.",
+      "sources": [
+        "s4",
+        "s1"
+      ]
+    },
+    "saveTranscripts": {
+      "status": "yes",
+      "text": "Yes, with the audio recording",
+      "detail": "Version 1.4 added saving transcriptions, and version 1.5.1 (2024) added saving the audio recording along with the transcription. Where they are stored, on the phone or online, isn't stated.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "export": {
+      "status": "yes",
+      "text": "Export text (format not stated)",
+      "detail": "The listing says you can export text after dictation and share meeting minutes with teammates. It doesn't name a file format.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "fileUpload": {
+      "status": "yes",
+      "text": "Audio files (import or share)",
+      "detail": "Version 1.5.2 (October 2024) added importing audio recordings to transcribe, and version 1.5.1 a share extension for audio from other apps. Importing video files isn't described.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "summaries": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "The listing names \"share meeting minutes and summary with teammates\" as a use, but describes no feature that writes a summary.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "customWords": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Adding your own words or names isn't described on the App Store listing or in Zerovik's launch post.",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    },
+    "display": {
+      "status": "yes",
+      "text": "Font size; light and dark mode",
+      "detail": "Version 1.4 added changing the font size. The listing mentions light and dark mode and new lines to break up the text. Colours and fonts aren't described.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "soundAlerts": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "The listing describes speech only; alerts for a doorbell, an alarm or other sounds aren't mentioned.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "phoneCalls": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Captioning phone calls isn't described on the App Store listing.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "videoCalls": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Captioning Zoom, Teams or Meet calls isn't described. The listing names webinars among things you can record and transcribe.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "mediaOnDevice": {
+      "status": "partial",
+      "text": "Shared or imported audio only",
+      "detail": "Audio from other apps can be shared to the app or imported and transcribed. Live captions for sound playing on the phone aren't described.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "humanCaptioners": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "The listing describes transcription by artificial intelligence; no human captioners are mentioned.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "signLanguage": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Sign language isn't mentioned on the App Store listing or Zerovik's website.",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    },
+    "privacy": {
+      "status": "partial",
+      "text": "Not stated; store label lists no audio data",
+      "detail": "Zerovik's privacy policy doesn't say whether speech is processed on the phone or online, or whether audio is kept. The App Store privacy label lists purchases, identifiers and diagnostics (purchases \"used to track you\"), and no audio data.",
+      "sources": [
+        "s3",
+        "s1"
+      ]
+    },
+    "account": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Neither the listing nor the privacy policy says an account is needed. The App Store privacy label lists no contact details.",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    "availability": {
+      "status": "yes",
+      "text": "App Store in many countries (11 checked)",
+      "detail": "Found on the App Store in the US, UK, Canada, Australia, India, Germany, France, Slovenia, Singapore, Japan and Brazil (28 October 2026). Zerovik doesn't publish a country list.",
+      "sources": [
+        "s2",
+        "s7"
+      ]
+    },
+    "freePlan": {
+      "status": "partial",
+      "text": "First 5 transcriptions free",
+      "detail": "All features are free until you have transcribed 5 times; after that a paid subscription is needed.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "price": {
+      "status": "yes",
+      "text": "Full Access US$3.99 to US$79.99 (US App Store)",
+      "detail": "The US App Store lists nine \"Full Access\" in-app purchases from US$3.99 to US$79.99 (October 2026). The listing offers a monthly and a yearly subscription but doesn't say which price is which.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "accessibilityFunding": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No funding programme is mentioned on the App Store listing or Zerovik's website.",
+      "sources": [
+        "s1"
+      ]
+    }
+  },
+  "strengths": [
+    {
+      "text": "Its App Store listing says it transcribes in real time even when offline.",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "text": "Saves recordings with their transcripts, and transcribes imported audio or audio shared from other apps.",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "text": "Captions 60+ languages, with audio from the phone's mic or a Bluetooth headset worn by the speaker.",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "text": "iPhone and iPad only: no Android app by Zerovik was found on Google Play.",
+      "sources": [
+        "s1",
+        "s6"
+      ]
+    },
+    {
+      "text": "Only the first 5 transcriptions are free; after that it needs a subscription.",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "text": "No speaker labels, custom words, sound alerts or AI summaries are described.",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "text": "The latest App Store update is version 1.6.5, from 19 September 2025.",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Live Transcribe + on the App Store (US listing)",
+      "publisher": "Apple App Store",
+      "url": "https://apps.apple.com/us/app/live-transcribe/id1618181875",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Live Transcribe + is an App to make it Possible to do Live Transcription and Captioning for Deaf and hard of hearing.",
+        "Supports 60+ languages.",
+        "Built for simplicity and ease of use. (Not associated with Google.)",
+        "All The Features are Available Freely on the Live Transcribe + until transcription is done for 5 times, then the features will require a paid subscription.",
+        "Transcribe in real time (even when offline) with high accuracy",
+        "Input audio via built-in mic or Bluetooth device",
+        "The speaker can use bluetooth headphones for increased accuracy even in noisy environments",
+        "Use Live Transcribe + to transcribe or live caption voice to text for classrooms, business meetings, doctor’s appointments, shopping, events, and more.",
+        "Add new lines automatically or manually to break up the text",
+        "Easily Read Text in Both Light and Dark Mode",
+        "Export Text after dictation",
+        "Share meeting minutes and summary with teammates",
+        "Record and transcribe interviews, lectures, podcasts, videos, webinars, keynotes",
+        "To have access to the \"Live Transcribe + Full Access\" functionality, you can choose between a monthly and yearly auto-renewable subscription.",
+        "Live Transcribe + Now supports 60+ Languages along with Punctuations and Saving Transcriptions.",
+        "Added capability to Change Font Size.",
+        "Record Functionality - Now you can save the recordings of the audio along with Transcription in Real Time",
+        "Added Share Extension - Now transcribe audios from other apps by sharing the audio to Live Transcribe +",
+        "Added Import Audio Functionality - Now you can import audio recordings from other sources and get them transcribed using the Audio Transcribe feature.",
+        "Version 1.6.5",
+        "09/19/2025",
+        "Requires iOS 15.0 or later.",
+        "Requires iPadOS 15.0 or later.",
+        "Requires visionOS 1.0 or later.",
+        "In-App Purchases",
+        "Full Access $3.99",
+        "Full Access $79.99",
+        "The following data may be used to track you across apps and websites owned by other companies:",
+        "Purchases",
+        "Data Not Linked to You",
+        "Identifiers",
+        "Diagnostics",
+        "Live Voice Translator +",
+        "Instant Text, Audio Translate",
+        "Seller Zerovik Pte. Ltd."
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "iTunes lookup for Live Transcribe + (US store)",
+      "publisher": "Apple",
+      "url": "https://itunes.apple.com/lookup?id=1618181875&country=us",
+      "type": "store",
+      "label": "App Store data (US)",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "\"sellerName\":\"Zerovik Pte. Ltd.\"",
+        "\"minimumOsVersion\":\"15.0\"",
+        "\"languageCodesISO2A\":[\"EN\"]",
+        "\"formattedPrice\":\"Free\"",
+        "\"version\":\"1.6.5\"",
+        "\"currentVersionReleaseDate\":\"2025-09-19T14:00:56Z\"",
+        "\"releaseDate\":\"2022-04-25T07:00:00Z\""
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Privacy Policy For Live Transcribe+",
+      "publisher": "Zerovik",
+      "url": "https://zerovik.com/privacy-policy-for-live-transcribe/",
+      "type": "privacy",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Zerovik built the Live Transcribe + app as a Freemium app.",
+        "For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information.",
+        "The app does use third-party services that may collect information used to identify you.",
+        "This policy is effective as of 2022-04-20"
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Zerovik launches Live Transcribe +: The Ultimate app for clear conversation on your iPhone (June 18, 2024)",
+      "publisher": "Zerovik",
+      "url": "https://zerovik.com/zerovik-launches-live-transcribe-the-ultimate-app-for-clear-conversation-on-your-iphone/",
+      "type": "official",
+      "label": "Zerovik launch post (2024)",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Live Transcribe + is a revolutionary transcription app for iPhone users.",
+        "Live Transcribe + offers instant transcription of spoken words into written text in over 60+ languages.",
+        "Users can speak into their iPhone’s microphone, and Live Transcribe + will instantly translate the spoken words into the desired language.",
+        "Already live, Live Transcribe + is available on iPhone supporting iOS 16.0 and above with a freemium model."
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Zerovik – Innovations (home page)",
+      "publisher": "Zerovik",
+      "url": "https://zerovik.com/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Live Transcribe + is your own Personal Assistant for transcribing live speech and voice to text.",
+        "Zerovik Innovations Pvt. Ltd.",
+        "Uttarakhand - 263641",
+        "Zerovik Pte. Ltd.",
+        "160 Robinson Road, #14-04 Singapore Business Federation Center"
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Google Play search results for \"Zerovik\" (US)",
+      "publisher": "Google Play",
+      "url": "https://play.google.com/store/search?q=Zerovik&c=apps&hl=en_US&gl=US",
+      "type": "store",
+      "label": "Google Play search",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "No app by Zerovik in the results (28 October 2026)",
+        "A search for \"Live Transcribe +\" Zerovik also returned no app by Zerovik, and https://play.google.com/store/apps/developer?id=Zerovik returned 404 (28 October 2026)"
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "iTunes lookup for Live Transcribe + in other App Store countries",
+      "publisher": "Apple",
+      "url": "https://itunes.apple.com/lookup?id=1618181875&country=gb",
+      "type": "store",
+      "label": "App Store data (other countries)",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "\"resultCount\":1",
+        "\"sellerName\":\"Zerovik Pte. Ltd.\"",
+        "The same lookup with country=ca, au, in, de, fr, si, sg, jp and br also returned the app (28 October 2026)"
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "App Store search results for \"live transcribe\" (US store)",
+      "publisher": "Apple",
+      "url": "https://itunes.apple.com/search?term=live+transcribe&entity=software&country=us&limit=50",
+      "type": "store",
+      "label": "App Store search",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Live Transcribe | Mighty Fine Apps LLC (id 1471473738)",
+        "Live Transcribe + | Zerovik Pte. Ltd. (id 1618181875)",
+        "No app by Google LLC named Live Transcribe in the results (28 October 2026)"
+      ]
+    }
+  ],
+  "notes": "Not Google's Live Transcribe (Android, own page live-transcribe) and not the Mighty Fine Apps 'Live Transcribe' iPhone app (id 1471473738); the App Store description says '(Not associated with Google.)'. The App Store URL slug is 'live-transcribe'; the bundle id is com.roveterio.Live-Transcribe and the App Store developer account (id 1819093753) is newer than the app (released 25 April 2022), so the app may have moved between accounts; not checked further. Developer: the App Store seller is Zerovik Pte. Ltd. (Singapore); zerovik.com also lists Zerovik Innovations Pvt. Ltd. in Uttarakhand, India. Last update: version 1.6.5 on 19 September 2025; every release note since April 2025 is 'Bug fixes and stability improvements'. Conflicts: (1) the App Store requires iOS 15.0, Zerovik's June 2024 launch post says iOS 16.0 and above. (2) Translation: the launch post describes voice translation, but its 'Voice Translation' and 'Customizable Settings' paragraphs are nearly word for word the same as Zerovik's launch post for its separate translator app, Live Translator +, and the App Store listing never mentions translation; marked partial, not yes. (3) Summaries: the listing says 'Share meeting minutes and summary with teammates' under uses, with no summary feature described; marked not_stated. Prices: the US App Store lists nine 'Full Access' in-app purchases (US$3.99, 3.99, 9.99, 9.99, 29.99, 29.99, 39.99, 49.99, 79.99) without periods; the description says monthly and yearly subscriptions; no pricing page exists on zerovik.com. Offline: only the App Store description says it works offline; offline languages not listed. Where speech is processed is not stated anywhere (privacy policy is a generic 2022 template naming only a purchases provider); App Store privacy label lists no audio data. Not found: no help centre or FAQ (zerovik.com 'Contact Support' is a tally.so contact form), no features or pricing page; the Live Transcribe + 'LEARN MORE' button on zerovik.com leads to a 'Page not found' page. Google Play: searches for 'Zerovik' and '\"Live Transcribe +\" Zerovik' returned no Zerovik app; Zerovik's website and news posts only mention iPhone. App screenshots (images) were not read. Availability: lookup checked in 11 storefronts only."
+}

@@ -1,0 +1,692 @@
+{
+  "slug": "captionmate",
+  "name": "CaptionMate",
+  "shortName": "CaptionMate",
+  "developer": "Mezmo Corporation",
+  "developerCountry": "United States (Irvine, California)",
+  "website": "https://www.captionmate.com/",
+  "appStoreUrl": "https://apps.apple.com/us/app/captionmate/id1465233104",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.captionmate.app",
+  "category": "phone-call-captions",
+  "oneLine": "US phone-call caption app with AI captions in 100+ languages, free through the FCC for eligible people with hearing loss; owned by InnoCaption's company since 2024.",
+  "facts": {
+    "platforms": {
+      "status": "yes",
+      "text": "iPhone, iPad, Android",
+      "detail": "On the App Store for iPhone and iPad (also listed for Apple Vision) and on Google Play for phones and tablets. One account can be signed in on several devices. The CaptionMate web app was retired; the company points computer users to InnoCaption Web.",
+      "sources": [
+        "s3",
+        "s5",
+        "s15",
+        "s25"
+      ]
+    },
+    "deviceRequirements": {
+      "status": "yes",
+      "text": "iOS 15.0 or later; Android not stated",
+      "detail": "The App Store lists iOS 15.0 or later for iPhone and iPadOS 15.0 or later for iPad. No CaptionMate page gives a minimum Android version.",
+      "sources": [
+        "s3",
+        "s4"
+      ]
+    },
+    "roomCaptions": {
+      "status": "no",
+      "text": "No, phone calls only",
+      "detail": "CaptionMate says it can't be used when both people are in the same room. It is paid for by a federal relay fund, and using it instead of an in-person captioner is against the law.",
+      "sources": [
+        "s11"
+      ]
+    },
+    "groupConversations": {
+      "status": "partial",
+      "text": "Conference calls by phone only",
+      "detail": "It can be used on conference calls and to dial into online meetings and webinars. It can't be used for a group in the same room.",
+      "sources": [
+        "s11",
+        "s3"
+      ]
+    },
+    "languages": {
+      "status": "yes",
+      "text": "100+ languages (AI captions)",
+      "detail": "You pick the languages you want and can switch during a call. The app's menus come in English, Spanish, Vietnamese and Chinese. The About page says 150+ languages; the home page uses 150+ for the app's menus.",
+      "sources": [
+        "s6",
+        "s1",
+        "s3",
+        "s18"
+      ]
+    },
+    "offline": {
+      "status": "no",
+      "text": "No, needs internet",
+      "detail": "Calls connect over Wi-Fi or mobile data, so the app needs an internet connection.",
+      "sources": [
+        "s14"
+      ]
+    },
+    "speakerLabels": {
+      "status": "partial",
+      "text": "Both sides of a call",
+      "detail": "It captions what you say and what the other person says, so you can read the whole call. Nothing is described for groups in the room.",
+      "sources": [
+        "s1",
+        "s3",
+        "s2"
+      ]
+    },
+    "translation": {
+      "status": "no",
+      "text": "No",
+      "detail": "Captions match the language spoken on the call. CaptionMate says it can't translate speech from one language to another.",
+      "sources": [
+        "s6"
+      ]
+    },
+    "saveTranscripts": {
+      "status": "yes",
+      "text": "Yes, on the device only",
+      "detail": "Each call's transcript is saved on the device used for the call. Transcripts aren't stored on CaptionMate's servers or synced to your other devices, and deleting the app deletes them.",
+      "sources": [
+        "s9",
+        "s15"
+      ]
+    },
+    "export": {
+      "status": "yes",
+      "text": "Share by email or another app",
+      "detail": "You can send a transcript through any app on your phone, such as email, to keep a copy. The About page says you can share a call transcript with the other person.",
+      "sources": [
+        "s10",
+        "s2"
+      ]
+    },
+    "fileUpload": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No CaptionMate page mentions transcribing audio or video files.",
+      "sources": []
+    },
+    "summaries": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No CaptionMate page mentions AI summaries of calls.",
+      "sources": []
+    },
+    "customWords": {
+      "status": "yes",
+      "text": "Yes, custom words or phrases",
+      "detail": "You can add names and words you use often that the AI may have trouble captioning.",
+      "sources": [
+        "s17",
+        "s1"
+      ]
+    },
+    "display": {
+      "status": "yes",
+      "text": "Font size and colour",
+      "detail": "You can change the font size and colour of the captions.",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    "soundAlerts": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No alerts for sounds around you are described.",
+      "sources": []
+    },
+    "phoneCalls": {
+      "status": "yes",
+      "text": "Yes, calls and voicemail",
+      "detail": "Captions both sides of incoming and outgoing calls on your own number through call forwarding, and voicemail as text (no audio). You can call numbers outside the US. The privacy policy describes how 911 calls are handled. Text messages aren't covered.",
+      "sources": [
+        "s1",
+        "s3",
+        "s19",
+        "s20",
+        "s21",
+        "s22"
+      ]
+    },
+    "videoCalls": {
+      "status": "partial",
+      "text": "Dial-in by phone; no FaceTime",
+      "detail": "You can dial into a video conference or online meeting by phone. The app can't caption FaceTime calls; the company points to its sister app, InnoCaption Video.",
+      "sources": [
+        "s3",
+        "s11",
+        "s16"
+      ]
+    },
+    "mediaOnDevice": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No CaptionMate page describes captioning videos or other media playing on the device.",
+      "sources": []
+    },
+    "humanCaptioners": {
+      "status": "no",
+      "text": "No, AI captions only",
+      "detail": "CaptionMate says its captions are 100% AI and it does not use human stenographers. InnoCaption, from the same company, also offers live stenographers.",
+      "sources": [
+        "s7",
+        "s17",
+        "s24"
+      ]
+    },
+    "signLanguage": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No sign-language feature is described.",
+      "sources": []
+    },
+    "privacy": {
+      "status": "yes",
+      "text": "Cloud; call audio not kept after the call",
+      "detail": "Call audio is sent to servers in the US, some run by third parties, and discarded when the call ends. CaptionMate says no call audio is logged for machine learning and only you can read your transcripts.",
+      "sources": [
+        "s22",
+        "s7",
+        "s1"
+      ]
+    },
+    "account": {
+      "status": "yes",
+      "text": "Yes; name, DOB, last 4 of SSN",
+      "detail": "Registration asks for your full name, date of birth, last four digits of your SSN, home address and cell number, for the FCC's relay fund. No doctor's or audiologist's statement is needed.",
+      "sources": [
+        "s8",
+        "s12"
+      ]
+    },
+    "availability": {
+      "status": "partial",
+      "text": "US and US territories only",
+      "detail": "Only for eligible users based in the US or a US territory such as Puerto Rico or Guam, with a US cell number, home address and SSN. The app was not found in the UK, Canada or Mexico App Stores.",
+      "sources": [
+        "s13",
+        "s12",
+        "s27"
+      ]
+    },
+    "freePlan": {
+      "status": "yes",
+      "text": "Free for eligible US users",
+      "detail": "Free for eligible people who are deaf or hard of hearing and need captions on phone calls, paid from the FCC's relay fund. Your phone plan's data and call charges still apply.",
+      "sources": [
+        "s12",
+        "s23",
+        "s1"
+      ]
+    },
+    "price": {
+      "status": "no",
+      "text": "No paid plans",
+      "detail": "Free on the App Store with no in-app purchases (US App Store, October 2026).",
+      "sources": [
+        "s3",
+        "s4"
+      ]
+    },
+    "accessibilityFunding": {
+      "status": "yes",
+      "text": "Yes, FCC (IP CTS)",
+      "detail": "The FCC lists Mezmo Corporation (dba CaptionMate) with full certification for IP captioned telephone service. The service is paid from the federal TRS Fund.",
+      "sources": [
+        "s26",
+        "s12"
+      ]
+    }
+  },
+  "strengths": [
+    {
+      "text": "Free for eligible users in the US, paid for by the FCC's relay fund.",
+      "sources": [
+        "s12",
+        "s3"
+      ]
+    },
+    {
+      "text": "Captions both sides of phone calls in more than 100 languages, and you can switch language during a call.",
+      "sources": [
+        "s6",
+        "s3"
+      ]
+    },
+    {
+      "text": "Works with your existing phone number and turns voicemail into text.",
+      "sources": [
+        "s1",
+        "s19"
+      ]
+    },
+    {
+      "text": "Streams calls to Bluetooth hearing aids and cochlear implants.",
+      "sources": [
+        "s5"
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "text": "It can't be used for in-person conversations; CaptionMate says this is against the law for its FCC-funded service.",
+      "sources": [
+        "s11"
+      ]
+    },
+    {
+      "text": "Only for eligible users in the US and US territories with a US cell number, home address and SSN.",
+      "sources": [
+        "s13",
+        "s12"
+      ]
+    },
+    {
+      "text": "Captions are AI only, with no human stenographers, and nothing is translated.",
+      "sources": [
+        "s7",
+        "s6"
+      ]
+    },
+    {
+      "text": "Transcripts stay on one device and are deleted with the app unless you share them first.",
+      "sources": [
+        "s9"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "CaptionMate | Your New Best Friend on Phone Calls",
+      "publisher": "CaptionMate (Mezmo Corporation)",
+      "url": "https://www.captionmate.com/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "CaptionMate website",
+      "quotes": [
+        "CaptionMate is a mobile app that uses automated speech recognition technology to instantly transcribe both sides of a phone call, so that the entire conversation can be read in real time.",
+        "Over 100 languages",
+        "Get high-quality captions in Spanish, Mandarin, Vietnamese, and more.",
+        "Funded by an FCC-administered program, our service is free for people with hearing loss in the United States.",
+        "No call audio is logged for machine learning or any other purpose, and only you have access to your call transcripts.",
+        "Call forwarding lets you stay connected without having to change your phone number.",
+        "Save time and effort listening to voicemail messages with full preview transcripts.",
+        "The entire app interface can be in the language of your choice, not just the call captions.",
+        "To improve accuracy, you can add custom words or phrases that come up on your calls.",
+        "Customize the font size and color of captions to make the app more comfortable to use.",
+        "Is located in the United States"
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "About CaptionMate | Accessible Phone Calls for Everyone",
+      "publisher": "CaptionMate (Mezmo Corporation)",
+      "url": "https://www.captionmate.com/about",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "About CaptionMate",
+      "quotes": [
+        "We were the first IP CTS service to work on Android and iOS, the first to show both sides of the conversation, and the first to allow users to share a call transcript with the other party.",
+        "In November 2024, CaptionMate became part of the InnoCaption family. While our service will continue to stand alone, we’re so excited about how InnoCaption’s world-class engineering and customer service can elevate the CaptionMate experience for our users.",
+        "150+ languages available"
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "CaptionMate (App Store, US)",
+      "publisher": "Apple App Store",
+      "url": "https://apps.apple.com/us/app/captionmate/id1465233104",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "CaptionMate provides free, real-time captions for both sides of your phone calls.",
+        "Certified and funded by an FCC-administered program, CaptionMate is available at no cost to individuals with hearing loss in the US.",
+        "Customizable font sizes, colors, and language options",
+        "Supports over 100 captioning languages",
+        "Whether you are calling family, attending a meeting, or dialing into a video conference, CaptionMate gives you the tools to stay engaged, productive, and independent.",
+        "Free",
+        "Seller: Mezmo Corporation",
+        "Requires iOS 15.0 or later.",
+        "Requires iPadOS 15.0 or later.",
+        "Requires visionOS 1.0 or later.",
+        "English, Simplified Chinese, Spanish, Traditional Chinese, Vietnamese",
+        "© Clarity Products LLC"
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Apple iTunes Lookup API, CaptionMate app id 1465233104, US storefront",
+      "publisher": "Apple",
+      "url": "https://itunes.apple.com/lookup?id=1465233104&country=us",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "App Store data (US)",
+      "quotes": [
+        "\"formattedPrice\":\"Free\"",
+        "\"minimumOsVersion\":\"15.0\"",
+        "\"sellerName\":\"Mezmo Corporation\""
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "CaptionMate Live Call Captions (Google Play, US)",
+      "publisher": "Google Play",
+      "url": "https://play.google.com/store/apps/details?id=com.captionmate.app",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "CaptionMate is certified by the FCC and free for individuals in the United States who are deaf, hard of hearing, or have difficulty hearing phone calls due to hearing loss.",
+        "Bluetooth support – Stream call audio directly to compatible Bluetooth-enabled hearing aids and cochlear implants.",
+        "Cross-device support – Get clear captions on your smartphone or tablet for maximum flexibility.",
+        "100+ languages supported – Caption calls in English, Spanish, Chinese, and more.",
+        "Read your voicemail – View captions for incoming voicemail messages.",
+        "Mezmo Corporation",
+        "info@innocaption.com",
+        "Updated on Oct 27, 2026"
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Languages available for captioning",
+      "publisher": "CaptionMate Help Center",
+      "url": "https://help.captionmate.com/en/articles/10477910-languages-available-for-captioning",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "CaptionMate is able to provide captioning in more than 100 languages.",
+        "Select the languages that you would like to access on calls. You can choose more than one language.",
+        "CaptionMate is only able to provide captions in the same language that is being spoken. CaptionMate cannot translate speech from one language to another."
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Call confidentiality",
+      "publisher": "CaptionMate Help Center",
+      "url": "https://help.captionmate.com/en/articles/10477952-call-confidentiality",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "All calls are fully captioned by automated speech recognition software. Our service does not use human stenographers for captioning.",
+        "The ASR (automatic speech recognition) engine does not store or otherwise keep any record of your speech, transcription or conversation after the call has ended."
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "Personal information required for registration",
+      "publisher": "CaptionMate Help Center",
+      "url": "https://help.captionmate.com/en/articles/10477981-personal-information-required-for-registration",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "The personal information we are required to provide to the FCC’s Telecommunications Relay Services (TRS) Fund Administrator for compliance purposes include: full name, date of birth, last four digits of your social security number, residential address and cell phone number."
+      ]
+    },
+    {
+      "id": "s9",
+      "title": "View and delete call transcripts",
+      "publisher": "CaptionMate Help Center",
+      "url": "https://help.captionmate.com/en/articles/10478039-view-and-delete-call-transcripts",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "CaptionMate automatically saves the transcript of each call. Call transcripts will only be available on the device you used for the call.",
+        "your call transcripts are not saved on CaptionMate servers.",
+        "If you delete the app, all transcripts inside the app will be deleted, and they will not be restored if you reinstall."
+      ]
+    },
+    {
+      "id": "s10",
+      "title": "Share and Save Call Transcripts",
+      "publisher": "CaptionMate Help Center",
+      "url": "https://help.captionmate.com/en/articles/15787350-share-and-save-call-transcripts",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Select the app you'd like to use to send the transcript. An easy way to save them is to use an email app to send them to your own email address."
+      ]
+    },
+    {
+      "id": "s11",
+      "title": "In-person Captioning",
+      "publisher": "CaptionMate Help Center",
+      "url": "https://help.captionmate.com/en/articles/12454856-in-person-captioning",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "CaptionMate cannot be used for in-person captioning- or, in other words- when both parties are in the same room together.",
+        "It is against the law to use the service as a substitute for hiring an in-person captioner to provide access.",
+        "For example, this could include phone calls to family and friends; work calls; conference calls; online meetings; and even webinars. Again, this would not apply to when people are in the same room."
+      ]
+    },
+    {
+      "id": "s12",
+      "title": "CaptionMate eligibility and why it's free",
+      "publisher": "CaptionMate Help Center",
+      "url": "https://help.captionmate.com/en/articles/14645374-captionmate-eligibility-and-why-it-s-free",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "CaptionMate's service is offered free of charge to eligible individuals who are deaf or hard of hearing and need captions to understand phone conversations.",
+        "Our service is funded and administered by the Federal Communications Commission (FCC) through the Telecommunications Relay Service (TRS) fund and is available to eligible users in the United States.",
+        "Individuals living in US territories including Puerto Rico, Guam, the US Virgin Islands, American Samoa, Northern Mariana Islands, and US Minor Outlying Islands are also eligible to use the app.",
+        "No signed statement from a doctor or audiologist is required to use our service"
+      ]
+    },
+    {
+      "id": "s13",
+      "title": "CaptionMate availability outside of the United States",
+      "publisher": "CaptionMate Help Center",
+      "url": "https://help.captionmate.com/en/articles/14646314-captionmate-availability-outside-of-the-united-states",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "The service is available to eligible users based in the United States with a US cell phone number, US residential address and social security number.",
+        "cannot be used by residents in other countries."
+      ]
+    },
+    {
+      "id": "s14",
+      "title": "CaptionMate data usage",
+      "publisher": "CaptionMate Help Center",
+      "url": "https://help.captionmate.com/en/articles/14646085-captionmate-data-usage",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "To use the app, your device must be connected to the internet either through Wi-Fi or cellular data."
+      ]
+    },
+    {
+      "id": "s15",
+      "title": "Use CaptionMate on multiple devices",
+      "publisher": "CaptionMate Help Center",
+      "url": "https://help.captionmate.com/en/articles/14645523-use-captionmate-on-multiple-devices",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "For example, if you have an iPhone and iPad, you can use the same login credentials for both devices at the same time.",
+        "Transcripts will not be synced across your devices with general call history information."
+      ]
+    },
+    {
+      "id": "s16",
+      "title": "Get captions for FaceTime calls",
+      "publisher": "CaptionMate Help Center",
+      "url": "https://help.captionmate.com/en/articles/14646357-get-captions-for-facetime-calls",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "The CaptionMate app cannot caption FaceTime calls.",
+        "Alternatively, you can try our dedicated sister app for captioned video calls, called InnoCaption Video."
+      ]
+    },
+    {
+      "id": "s17",
+      "title": "How to save custom words or phrases",
+      "publisher": "CaptionMate Help Center",
+      "url": "https://help.captionmate.com/en/articles/12510401-how-to-save-custom-words-or-phrases",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Our captioning is 100% AI.",
+        "The custom words/phrases option is there for you to add words or names you use frequently that the AI engine may have trouble captioning accurately."
+      ]
+    },
+    {
+      "id": "s18",
+      "title": "Change the CaptionMate app to a different language",
+      "publisher": "CaptionMate Help Center",
+      "url": "https://help.captionmate.com/en/articles/10478168-change-the-captionmate-app-to-a-different-language",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "CaptionMate's app interface can be displayed in four different languages: English, Spanish, Vietnamese, and Chinese (Simplified)."
+      ]
+    },
+    {
+      "id": "s19",
+      "title": "How to view and delete voicemail messages",
+      "publisher": "CaptionMate Help Center",
+      "url": "https://help.captionmate.com/en/articles/10478100-how-to-view-and-delete-voicemail-messages",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "Please note that CaptionMate only provides the transcription of the voicemail for you to read - there is no audio recording."
+      ]
+    },
+    {
+      "id": "s20",
+      "title": "International phone calls",
+      "publisher": "CaptionMate Help Center",
+      "url": "https://help.captionmate.com/en/articles/12119576-international-phone-calls",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "You can use CaptionMate to call phone numbers outside of the United States."
+      ]
+    },
+    {
+      "id": "s21",
+      "title": "Text messages and CaptionMate",
+      "publisher": "CaptionMate Help Center",
+      "url": "https://help.captionmate.com/en/articles/14646335-text-messages-and-captionmate",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "CaptionMate can only be used for incoming and outgoing phone calls, and cannot be used for text messages."
+      ]
+    },
+    {
+      "id": "s22",
+      "title": "CaptionMate Privacy Policy",
+      "publisher": "CaptionMate (Mezmo Corporation)",
+      "url": "https://www.captionmate.com/privacy",
+      "type": "privacy",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "operated by CaptionMate LLC",
+        "When you make or receive calls using the Application, we temporarily collect the audio speech of the phone call, for the purposes of transcribing that speech and displaying that speech on your screen. This information is immediately discarded from our equipment upon the end of a telephone call.",
+        "We temporarily store information on servers located in the United States via third parties as well as on our own servers.",
+        "Accept and handle 911/E911 calls;"
+      ]
+    },
+    {
+      "id": "s23",
+      "title": "CaptionMate Terms and Conditions",
+      "publisher": "CaptionMate (Mezmo Corporation)",
+      "url": "https://www.captionmate.com/terms",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "CaptionMate terms",
+      "quotes": [
+        "CaptionMate is free to use because it is funded by the FCC.",
+        "Your phone plan may charge for the data used, and phone plan may incur telephone charges.",
+        "By using CaptionMate, you acknowledge that this is a government sponsored service for you alone, and you agree that you will only use it for your own use, and that you will not allow others to use it."
+      ]
+    },
+    {
+      "id": "s24",
+      "title": "CaptionMate Joins the InnoCaption Family",
+      "publisher": "CaptionMate (Mezmo Corporation)",
+      "url": "https://www.captionmate.com/news/captionmate-joins-the-innocaption-family-54784",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "InnoCaption, a leading mobile call captioning technology provider for the deaf and hard of hearing community, announced today that it has completed the acquisition of CaptionMate.",
+        "CaptionMate uses advanced automated speech recognition technology to provide real-time captions of phone calls for users in more than 100 languages and offers unique features like the ability to change the mobile app interface language to Spanish, Chinese or Vietnamese.",
+        "With the closing of this acquisition, CaptionMate will be supported by the InnoCaption team as a standalone service.",
+        "is the only caption phone service to offer real-time captioning of phone calls through best-in-class automated speech recognition technology and live stenographers."
+      ]
+    },
+    {
+      "id": "s25",
+      "title": "CaptionMate on the web is no longer available",
+      "publisher": "CaptionMate (Mezmo Corporation)",
+      "url": "https://app.captionmate.com/en/signin",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "CaptionMate web app notice",
+      "quotes": [
+        "We have retired the CaptionMate web app. Your account and your CaptionMate number are not affected, and you can keep making captioned calls in the CaptionMate mobile app.",
+        "If you prefer to call from a computer, InnoCaption Web offers free captioned calling in your browser from InnoCaption, the team behind CaptionMate."
+      ]
+    },
+    {
+      "id": "s26",
+      "title": "Internet-Based TRS Providers",
+      "publisher": "Federal Communications Commission",
+      "url": "https://www.fcc.gov/general/internet-based-trs-providers",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-10-28",
+      "quotes": [
+        "CaptionMate, LLC",
+        "Full certification to provide Internet Protocol Captioned Telephone Service (IP CTS)",
+        "Mezmo Corporation (dba CaptionMate)",
+        "support@captionmate.com"
+      ]
+    },
+    {
+      "id": "s27",
+      "title": "Apple iTunes Lookup API, CaptionMate app id 1465233104, UK storefront",
+      "publisher": "Apple",
+      "url": "https://itunes.apple.com/lookup?id=1465233104&country=gb",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-10-28",
+      "label": "App Store data (UK)",
+      "quotes": [
+        "\"resultCount\":0 (same for country=ca and mx; country=us returns the app)"
+      ]
+    }
+  ],
+  "notes": "Owner: InnoCaption completed the acquisition of CaptionMate on November 1, 2024 (CaptionMate news page, copied from InnoCaption's own release). The App Store seller and Google Play developer are Mezmo Corporation (Play contact info@innocaption.com, Irvine CA), and the FCC lists 'CaptionMate, LLC' with full IP CTS certification under Mezmo Corporation (dba CaptionMate). The privacy policy and terms still name CaptionMate LLC (Hixson, TN), and the App Store copyright line is Clarity Products LLC. How it differs from InnoCaption, from official pages: CaptionMate stays a standalone service supported by the InnoCaption team; its captions are 100% AI with no human stenographers, while InnoCaption also offers live stenographers; CaptionMate captions in 100+ languages (InnoCaption's help centre lists 20+ secondary AI languages); the acquisition release calls the Spanish, Chinese and Vietnamese app interface a unique CaptionMate feature; the CaptionMate web app was retired and points to InnoCaption Web; CaptionMate's help pages describe no transcript backup or AI summaries, which InnoCaption has (not stated, not 'no'). No page compares the two apps directly. Language conflicts: home page, App Store, Google Play and help centre say 100+ caption languages; the About page says '150+ languages available', and the home page uses 150+ for the app interface, while the help centre says the interface has four languages (English, Spanish, Vietnamese, Chinese Simplified) and the App Store lists five (adds Traditional Chinese). Not found: minimum Android version (not in the Play page's HTML or the help centre), any usage limit, file transcription, summaries, sound alerts, sign language. The App Store privacy label lists Identifiers as data used to track you (not used on the page). Pages were read with curl (full HTML); the Google Play page through its static HTML. The App Store lookup API returned no result for the UK, Canada and Mexico storefronts; other countries were not checked. A web search for InnoCaption help articles about CaptionMate could not be run (search limit); the InnoCaption help centre was not searched for CaptionMate."
+}
