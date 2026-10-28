@@ -43,22 +43,25 @@ export const metadata: Metadata = {
 
 const facts = ["iPhone and Android", "60+ languages", "Stored in the EU"];
 
-// The hero shows live captions; these are what comes with them.
-const whatItDoes = [
+// The three main features, each with a loop of the real app.
+const mainFeatures = [
   {
-    video: "translate",
-    title: "Live translation",
-    description: "When someone speaks another language, the captions show what was said and its translation, side by side.",
+    video: "captions",
+    label: "Live captions",
+    title: "Every word, as it's said",
+    description: "Open the app, tap the microphone and read along. Each speaker gets their own label, so it's clear who said what.",
   },
   {
-    video: "summary",
-    title: "Saved and summarised",
-    description: "Keep any conversation, find a word in it later, and get an AI summary with what was decided and what's next.",
+    video: "translate",
+    label: "Live translation",
+    title: "Both languages side by side",
+    description: "When someone speaks another language, they see what was said and its translation at the same time.",
   },
   {
     video: "upload",
-    title: "Recordings and files",
-    description: "Everything kept in one place on their phone. An audio or video file becomes a transcript too.",
+    label: "Transcription",
+    title: "Recordings and files to text",
+    description: "Save any conversation, or add an audio or video file, and get the full transcript with an AI summary.",
   },
 ];
 
@@ -290,20 +293,21 @@ export default function OrganizationsPage() {
         <section id="how" className="pt-4 pb-14 px-6 bg-white scroll-mt-4">
           <div className="max-w-6xl mx-auto">
             <SectionTitle
-              eyebrow="How it works"
-              title="Open the app, tap the microphone, read along"
-              subtitle="Speech becomes text while people are still talking, with a label for each speaker. And there's more than live captions:"
+              eyebrow="What Captio AI does"
+              title="Live captions, translation and transcription"
+              subtitle="Three tools in one app, on their own phone, in 60+ languages."
             />
             {/* Phones: a row to swipe through; larger screens: three columns. */}
-            <div className="-mx-6 px-6 flex gap-5 overflow-x-auto snap-x snap-mandatory pb-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:mx-0 sm:px-0 sm:grid sm:grid-cols-3 sm:gap-6 sm:overflow-visible sm:pb-0">
-              {whatItDoes.map((w) => (
-                <div key={w.video} className="w-[68%] shrink-0 snap-center sm:w-auto flex flex-col items-center text-center gap-4">
+            <div className="-mx-6 px-6 flex gap-5 overflow-x-auto snap-x snap-mandatory pb-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:mx-0 sm:px-0 sm:grid sm:grid-cols-3 sm:gap-8 sm:overflow-visible sm:pb-0">
+              {mainFeatures.map((f) => (
+                <div key={f.video} className="w-[68%] shrink-0 snap-center sm:w-auto flex flex-col items-center text-center gap-5">
                   <div className="w-full max-w-[200px] sm:max-w-[220px]">
-                    <PhoneVideo name={w.video} label={`Captio AI: ${w.title.toLowerCase()}`} />
+                    <PhoneVideo name={f.video} label={`Captio AI: ${f.label.toLowerCase()}`} />
                   </div>
                   <div>
-                    <h3 className="font-bold text-gray-900 text-lg">{w.title}</h3>
-                    <p className="mt-1.5 text-sm text-gray-500 leading-relaxed max-w-xs mx-auto">{w.description}</p>
+                    <span className="text-xs font-bold text-cta uppercase tracking-widest">{f.label}</span>
+                    <h3 className="mt-1.5 font-bold text-gray-900 text-lg">{f.title}</h3>
+                    <p className="mt-1.5 text-sm text-gray-500 leading-relaxed max-w-xs mx-auto">{f.description}</p>
                   </div>
                 </div>
               ))}
