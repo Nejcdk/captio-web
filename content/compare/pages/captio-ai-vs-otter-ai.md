@@ -3,7 +3,7 @@ title: "Captio AI vs Otter.ai"
 description: "Captio AI and Otter.ai side by side for deaf and hard of hearing people: captions in the room, who is talking, languages, meeting bots, exports and price."
 kind: versus
 apps: [captio-ai, otter-ai]
-rows: [platforms, roomCaptions, speakerLabels, voiceNames, speakerDirection, groupConversations, languages, translation, offline, display, saveTranscripts, export, fileUpload, summaries, customWords, videoCalls, privacy, account, freePlan, price]
+rows: [platforms, roomCaptions, speakerLabels, voiceNames, speakerDirection, soundAlerts, groupConversations, languages, translation, offline, display, saveTranscripts, export, fileUpload, summaries, videoCalls, privacy, account, freePlan, price]
 published: 2026-10-28
 updated: 2026-10-28
 answer: "Use Otter.ai if most of your conversations are work meetings on Zoom, Teams or Google Meet, where its Notetaker joins the call, or if you need summaries with action items and exports such as DOCX or SRT. Use Captio AI if you need to follow face-to-face conversations as they happen: it shows who is talking live (by name on iPhone, with Recognize Voices), captions and translates 60+ languages, and lets you change text size and colours."
@@ -50,10 +50,10 @@ better:
       sources: [captio-ai:speakerDirection]
     - text: "It captions 60+ languages and translates live; Otter transcribes 6, one at a time."
       sources: [captio-ai:languages, captio-ai:translation, otter-ai:languages]
-    - text: "You can change the text size, background colour and contrast. Otter's pages don't describe caption display settings."
-      sources: [captio-ai:display, otter-ai:display]
-    - text: "You can use it on one phone without an account, and its privacy policy says your content is never used to train AI models. Otter needs an account, and its privacy policy says it trains its AI on de-identified audio and transcripts."
-      sources: [captio-ai:account, captio-ai:privacy, otter-ai:account, otter-ai:privacy]
+    - text: "Recognize Sounds (version 1.1.5, iPhone and iPad): sounds like \"[doorbell rings]\" are written into the captions where they happen and stay in the saved recording, and a doorbell, a smoke alarm or a baby crying makes the phone vibrate. Otter's pages don't describe alerts for sounds."
+      sources: [captio-ai:soundAlerts]
+    - text: "You can change the text size, background colour and contrast, and use it without an account; its privacy policy says your content is never used to train AI models. Otter's pages don't describe caption display settings, it needs an account, and its privacy policy says it trains its AI on de-identified audio and transcripts."
+      sources: [captio-ai:display, captio-ai:account, captio-ai:privacy, otter-ai:display, otter-ai:account, otter-ai:privacy]
 situations:
   - icon: dinner
     title: "A family dinner or a chat with friends"
@@ -86,7 +86,7 @@ situations:
     text: "Otter can't transcribe a call live; you import a recording afterwards. Captio AI doesn't caption calls. Look at a call-captioning service."
 faqs:
   - q: "Is there an Otter.ai app for deaf people?"
-    a: "Otter.ai describes itself as an AI meeting assistant that records, takes notes and writes summaries; its Google Play listing also mentions live captioning for anyone with accessibility needs. It shows a live transcript, but it names speakers only after the recording stops and describes no caption text size or colour settings. Captio AI is a live captioning app for conversations in the room, with speaker labels live and adjustable text."
+    a: "Otter.ai describes itself as an AI meeting assistant that records, takes notes and writes summaries; its Google Play listing also mentions live captioning for anyone with accessibility needs. It shows a live transcript, but it names speakers only after the recording stops and describes no caption text size or colour settings. Captio AI is a live captioning app for conversations in the room, with speaker labels live, adjustable text and, on iPhone and iPad, sounds like a doorbell written into the captions."
   - q: "Does Otter.ai show who is speaking at a family dinner?"
     a: "Only after you stop recording: Otter's help centre says speaker identification starts once the recording has stopped, and it learns a voice after you tag that speaker. Captio AI labels each speaker while they talk. With Recognize Voices on iPhone, people whose voices you saved show by name live, and on iPhone 16 and later Speaker Direction shows which side of the table a voice comes from."
   - q: "Does Otter.ai have a free plan?"

@@ -3,7 +3,7 @@ title: "Captio AI vs Deaf Transcribe"
 description: "Captio AI and Deaf Transcribe side by side: iPhone or Android, 71 or 60+ languages, who is talking, translation, privacy, saved transcripts and price."
 kind: versus
 apps: [captio-ai, deaf-transcribe]
-rows: [platforms, deviceRequirements, roomCaptions, languages, offline, speakerLabels, voiceNames, speakerDirection, translation, saveTranscripts, export, fileUpload, summaries, customWords, display, privacy, account, availability, freePlan, price]
+rows: [platforms, deviceRequirements, roomCaptions, languages, offline, speakerLabels, voiceNames, speakerDirection, soundAlerts, translation, saveTranscripts, export, fileUpload, summaries, customWords, display, privacy, availability, freePlan, price]
 published: 2026-10-28
 updated: 2026-10-28
 answer: "Use Deaf Transcribe if you have an iPhone, including an older one on iOS 13 or 14, and want plain live text in one of 71 languages, with a free trial of Pro. Use Captio AI if you also need Android, want to see who is talking (by name on iPhone, with Recognize Voices) or translate a conversation, or want recordings you keep and turn into summaries."
@@ -42,16 +42,16 @@ better:
     - text: "Store screenshots show buttons to type a reply and to flip the text towards the person opposite you."
       sources: [deaf-transcribe:display]
   captio-ai:
-    - text: "It runs on iPhone, iPad and Android. Deaf Transcribe is iPhone only."
-      sources: [captio-ai:platforms, deaf-transcribe:platforms]
+    - text: "It runs on iPhone, iPad and Android; Deaf Transcribe is iPhone only. Its privacy policy says audio is not stored on its servers and content is never sold or used to train AI models."
+      sources: [captio-ai:platforms, deaf-transcribe:platforms, captio-ai:privacy]
     - text: "Recognize Voices (iPhone): save someone's voice once and their name shows on every line they say, like \"Mum\" instead of \"Speaker 2\", live and in saved recordings. The voiceprints stay on the iPhone."
       sources: [captio-ai:voiceNames]
     - text: "Speaker Direction (iPhone 16 and later): with the phone flat on the table, a wave at the edge of the captions shows which side a voice comes from, in that speaker's colour."
       sources: [captio-ai:speakerDirection]
     - text: "It translates conversations live, with a two-way mode, keeps recordings with their audio, transcribes files, and writes summaries and to-dos."
       sources: [captio-ai:translation, captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries]
-    - text: "Its privacy policy says audio is not stored on its servers and content is never sold or used to train AI models."
-      sources: [captio-ai:privacy]
+    - text: "Recognize Sounds (version 1.1.5, iPhone and iPad): sounds around you are written into the captions where they happen, like \"[doorbell rings]\", and kept in the saved recording. A doorbell, a smoke alarm or a baby crying also makes the phone vibrate while Captio AI is recording."
+      sources: [captio-ai:soundAlerts]
 situations:
   - icon: iphone
     title: "An older iPhone on iOS 13 or 14"
@@ -79,7 +79,7 @@ situations:
   - icon: home
     title: "A quick chat at a counter or at home"
     pick: both
-    text: "Both turn speech in front of you into large live text. Deaf Transcribe's screenshots also show a button to flip the text towards the other person."
+    text: "Both turn speech in front of you into large live text. Deaf Transcribe's screenshots also show a button to flip the text towards the other person. On iPhone and iPad, Captio AI also writes a doorbell or knocking into the captions while it records."
     link: /use-cases/everyday-conversations
 faqs:
   - q: "Is Deaf Transcribe available on Android?"

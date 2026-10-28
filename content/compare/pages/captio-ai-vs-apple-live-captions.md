@@ -3,7 +3,7 @@ title: "Captio AI vs Apple Live Captions"
 description: "Captio AI and Apple Live Captions on iPhone side by side: captions in the room, who is talking, languages, translation, saved transcripts, calls and price."
 kind: versus
 apps: [captio-ai, apple-live-captions]
-rows: [platforms, deviceRequirements, roomCaptions, languages, offline, speakerLabels, voiceNames, speakerDirection, translation, saveTranscripts, fileUpload, summaries, customWords, display, phoneCalls, videoCalls, mediaOnDevice, privacy, freePlan, price]
+rows: [platforms, deviceRequirements, roomCaptions, languages, offline, speakerLabels, voiceNames, speakerDirection, soundAlerts, translation, saveTranscripts, fileUpload, summaries, customWords, phoneCalls, videoCalls, mediaOnDevice, privacy, freePlan, price]
 published: 2026-10-28
 updated: 2026-10-28
 answer: "Use Apple Live Captions if you want free captions already built into your iPhone, made on the device, that also caption Phone calls, FaceTime and audio in any app. Use Captio AI if you need a language Apple doesn't caption, labels for who is talking in the room (by name on iPhone, with Recognize Voices), live translation of a conversation, or recordings you can keep and summarise. You can also use both: Live Captions for calls and videos, Captio AI for conversations you want to keep."
@@ -50,10 +50,10 @@ better:
       sources: [captio-ai:speakerLabels, captio-ai:voiceNames]
     - text: "Speaker Direction (iPhone 16 and later): with the phone flat on the table, a wave at the edge of the captions shows which side a voice comes from, in that speaker's colour."
       sources: [captio-ai:speakerDirection]
-    - text: "It keeps recordings with their audio, transcribes files, and writes summaries and to-dos."
-      sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries]
-    - text: "You can add names, medical terms or specialist words so they are recognised, and it also runs on Android."
-      sources: [captio-ai:customWords, captio-ai:platforms]
+    - text: "It keeps recordings with their audio, transcribes files, and writes summaries and to-dos. You can add names, medical terms or specialist words so they are recognised, and it also runs on Android."
+      sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries, captio-ai:customWords, captio-ai:platforms]
+    - text: "Recognize Sounds (version 1.1.5, iPhone and iPad): sounds around you are written into the captions where they happen, like \"[doorbell rings]\", and kept in the saved recording. A doorbell, a smoke alarm or a baby crying also makes the phone vibrate while Captio AI is recording. Apple's Sound Recognition, which alerts you to 15 sounds, is a separate built-in feature, not part of Live Captions."
+      sources: [captio-ai:soundAlerts, apple-live-captions:soundAlerts]
 situations:
   - icon: phone
     title: "A phone call or FaceTime call"

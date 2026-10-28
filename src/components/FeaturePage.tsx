@@ -13,7 +13,8 @@ import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbS
 // and the download card. Pages added after the first four pass their content
 // in; the first four still carry the same markup inline.
 
-export type FeatureStep = { title: string; desc: string; img: string; alt: string };
+/** `img` is a phone mockup; a step without one shows its text only (until screenshots exist). */
+export type FeatureStep = { title: string; desc: string; img?: string; alt?: string };
 export type FeatureCard = { title: string; description: string };
 export type FeatureFaq = { q: string; a: string };
 
@@ -90,13 +91,15 @@ export default function FeaturePage(p: FeaturePageProps) {
                     <h3 className="font-bold text-gray-900 text-sm sm:text-base">{item.title}</h3>
                   </div>
                   <p className="text-xs sm:text-sm text-gray-500 leading-relaxed">{item.desc}</p>
-                  <Image
-                    src={item.img}
-                    alt={item.alt}
-                    width={240}
-                    height={480}
-                    className="w-full max-w-[160px] sm:max-w-[200px] h-auto drop-shadow-lg"
-                  />
+                  {item.img && (
+                    <Image
+                      src={item.img}
+                      alt={item.alt ?? ""}
+                      width={240}
+                      height={480}
+                      className="w-full max-w-[160px] sm:max-w-[200px] h-auto drop-shadow-lg"
+                    />
+                  )}
                 </div>
               ))}
             </div>

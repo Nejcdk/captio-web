@@ -3,7 +3,7 @@ title: "Captio AI vs Live Transcribe by Mighty Fine Apps"
 description: "Captio AI vs Live Transcribe by Mighty Fine Apps, the iPhone app (not Google's): Android, offline captions, who is talking, translation and price."
 kind: versus
 apps: [captio-ai, live-transcribe-mighty-fine-apps]
-rows: [platforms, deviceRequirements, roomCaptions, groupConversations, languages, offline, speakerLabels, voiceNames, speakerDirection, translation, saveTranscripts, export, fileUpload, summaries, customWords, display, privacy, account, freePlan, price]
+rows: [platforms, deviceRequirements, roomCaptions, languages, offline, speakerLabels, voiceNames, speakerDirection, soundAlerts, translation, saveTranscripts, export, fileUpload, summaries, customWords, display, privacy, account, freePlan, price]
 published: 2026-10-28
 updated: 2026-10-28
 answer: "Pick Live Transcribe by Mighty Fine Apps if you use an iPhone or iPad, often have no signal, and want unlimited offline captions for close-up talk, with no account. Pick Captio AI if someone in the family uses Android, if you need live translation or names by voice on the captions (Recognize Voices, iPhone), or if you want recordings you keep with their audio and turned into summaries, with a free plan of 100 free credits a day."
@@ -44,16 +44,16 @@ better:
     - text: "Its Starter plan costs less a month (US$9.99) than Captio AI Plus (US$14.99), if 10 Best hours a month plus Offline mode are enough for you."
       sources: [live-transcribe-mighty-fine-apps:price, captio-ai:price]
   captio-ai:
-    - text: "It runs on Android as well as iPhone and iPad, and it translates conversations live."
-      sources: [captio-ai:platforms, captio-ai:translation]
+    - text: "It runs on Android as well as iPhone and iPad, translates conversations live, and has a free plan: 100 free credits a day and 3 AI summaries."
+      sources: [captio-ai:platforms, captio-ai:translation, captio-ai:freePlan]
     - text: "It keeps recordings with their audio, synced to your account, transcribes audio and video files, and writes summaries and to-dos."
       sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries]
-    - text: "It has a free plan: 100 free credits a day and 3 AI summaries."
-      sources: [captio-ai:freePlan]
     - text: "Recognize Voices (iPhone): save someone's voice once and their name shows on every line they say, like \"Mum\" instead of \"Speaker 2\", live and in saved recordings. The voiceprints stay on the iPhone."
       sources: [captio-ai:voiceNames]
     - text: "Speaker Direction (iPhone 16 and later): with the phone flat on the table, a wave at the edge of the captions shows which side a voice comes from, in that speaker's colour."
       sources: [captio-ai:speakerDirection]
+    - text: "Recognize Sounds (version 1.1.5, iPhone and iPad): sounds around you are written into the captions where they happen, like \"[doorbell rings]\", and kept in the saved recording. A doorbell, a smoke alarm or a baby crying also makes the phone vibrate while Captio AI is recording."
+      sources: [captio-ai:soundAlerts]
 situations:
   - icon: doctor
     title: "A doctor's appointment in a building with no signal"

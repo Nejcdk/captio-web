@@ -3,7 +3,7 @@ title: "Captio AI vs XRAI Glass"
 description: "Captio AI and XRAI Glass side by side: captions on your phone or on AR glasses, offline use, who is talking, translation, saved transcripts and price."
 kind: versus
 apps: [captio-ai, xrai-glass]
-rows: [platforms, deviceRequirements, roomCaptions, groupConversations, languages, offline, speakerLabels, voiceNames, speakerDirection, translation, saveTranscripts, fileUpload, summaries, customWords, display, privacy, account, freePlan, price, accessibilityFunding]
+rows: [platforms, roomCaptions, groupConversations, languages, offline, speakerLabels, voiceNames, speakerDirection, soundAlerts, translation, saveTranscripts, fileUpload, summaries, customWords, display, privacy, account, freePlan, price, accessibilityFunding]
 published: 2026-10-28
 updated: 2026-10-28
 answer: "Use XRAI Glass if you want captions on AR smart glasses, so you can keep looking at the person while you read, or free captions without internet on your phone. Use Captio AI if you want to keep recordings with their audio, transcribe files and turn conversations into summaries and to-dos, with no account needed; on iPhone it also names people by their voice."
@@ -50,10 +50,10 @@ better:
       sources: [captio-ai:speakerDirection]
     - text: "It saves every recording with its audio in a library synced to your account, transcribes audio and video files, and writes summaries, key points and to-dos. XRAI's free plan keeps history for 1 day."
       sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries, xrai-glass:saveTranscripts]
-    - text: "You can add names, medical terms and specialist words so they are recognised."
-      sources: [captio-ai:customWords]
-    - text: "You can use it without an account. XRAI Glass asks for an account and a phone number."
-      sources: [captio-ai:account, xrai-glass:account]
+    - text: "Recognize Sounds (version 1.1.5, iPhone and iPad) writes sounds into the captions where they happen, like [doorbell rings], and keeps them in the saved recording. Alerts such as a smoke alarm or a baby crying make the phone vibrate. XRAI's pages don't describe alerts for sounds other than speech."
+      sources: [captio-ai:soundAlerts, xrai-glass:soundAlerts]
+    - text: "You can use it without an account, and add names, medical terms and specialist words so they are recognised. XRAI Glass asks for an account and a phone number."
+      sources: [captio-ai:account, captio-ai:customWords, xrai-glass:account]
 situations:
   - icon: glasses
     title: "You want to look at the person, not your phone"

@@ -3,7 +3,7 @@ title: "Captio AI vs Soniox"
 description: "Captio AI and the Soniox app side by side: live captions, who is talking, translation, captions with the screen off, files, free plan and price, all sourced."
 kind: versus
 apps: [captio-ai, soniox]
-rows: [platforms, deviceRequirements, roomCaptions, groupConversations, speakerLabels, voiceNames, speakerDirection, languages, offline, translation, saveTranscripts, export, fileUpload, summaries, customWords, display, privacy, account, freePlan, price]
+rows: [platforms, deviceRequirements, roomCaptions, groupConversations, speakerLabels, voiceNames, speakerDirection, soundAlerts, languages, offline, translation, saveTranscripts, export, fileUpload, summaries, display, privacy, account, freePlan, price]
 published: 2026-10-28
 updated: 2026-10-28
 answer: "Use Soniox if you want the same app on your phone, a Mac or Windows computer and the web, or want to ask your own questions about a transcript. Use Captio AI if you want captions that keep going with the iPhone screen locked, people shown by name with Recognize Voices on iPhone, free credits every day, a lower price for unlimited use, or audio and video files transcribed on your phone without an account."
@@ -42,16 +42,16 @@ better:
     - text: "It also types with your voice in any app: as a keyboard on iPhone, and in the Mac and Windows app."
       sources: [soniox:s3, soniox:s13, soniox:s17]
   captio-ai:
-    - text: "It keeps captioning with the iPhone screen locked. Soniox's live transcription works only with the app open on screen."
-      sources: [captio-ai:s10, soniox:offline]
+    - text: "It keeps captioning with the iPhone screen locked, transcribes audio and video files in the phone app, and works without an account. Soniox's live transcription works only with the app open on screen, Soniox describes file upload only in its desktop app, and it needs an account."
+      sources: [captio-ai:s10, captio-ai:fileUpload, captio-ai:account, soniox:offline, soniox:fileUpload, soniox:account]
     - text: "Its free plan gives 100 free credits every day, and Captio AI Plus costs US$14.99 a month or US$79.99 a year. Soniox's free credits come once a week, and Soniox Pro costs US$19.99 a month or US$119.99 a year (US App Store, October 2026)."
       sources: [captio-ai:freePlan, captio-ai:price, soniox:freePlan, soniox:price]
-    - text: "It transcribes audio and video files in the phone app, and works without an account. Soniox describes file upload only in its desktop app, and needs an account."
-      sources: [captio-ai:fileUpload, captio-ai:account, soniox:fileUpload, soniox:account]
     - text: "Recognize Voices (iPhone): save someone's voice once and their name, like \"Mum\" instead of \"Speaker 2\", shows on every line they say, live and in saved recordings. Voiceprints stay on the iPhone. Soniox lets you rename speakers in a saved recording; its pages don't say it remembers a voice."
       sources: [captio-ai:voiceNames, soniox:voiceNames]
     - text: "Speaker Direction (iPhone 16 and later): with the phone flat on the table, a wave at the edge of the captions shows which side a voice comes from."
       sources: [captio-ai:speakerDirection]
+    - text: "Recognize Sounds (version 1.1.5, iPhone and iPad): sounds like \"[doorbell rings]\" are written into the captions where they happen and stay in the saved recording, and a doorbell, a smoke alarm or a baby crying makes the phone vibrate. Soniox's pages don't describe alerts for sounds."
+      sources: [captio-ai:soundAlerts, soniox:soundAlerts]
 situations:
   - icon: work
     title: "Meetings on a Mac or Windows computer"

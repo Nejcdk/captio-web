@@ -3,7 +3,7 @@ title: "Captio AI vs Live Transcribe +"
 description: "Captio AI and Live Transcribe + (Plus) by Zerovik side by side: iPhone or Android, captions offline, who is talking, translation, free use and prices."
 kind: versus
 apps: [captio-ai, live-transcribe-plus]
-rows: [platforms, deviceRequirements, roomCaptions, languages, offline, speakerLabels, voiceNames, speakerDirection, groupConversations, translation, saveTranscripts, export, fileUpload, summaries, customWords, display, privacy, freePlan, price]
+rows: [platforms, deviceRequirements, roomCaptions, languages, offline, speakerLabels, voiceNames, speakerDirection, soundAlerts, groupConversations, translation, saveTranscripts, export, fileUpload, summaries, customWords, display, privacy, freePlan, price]
 published: 2026-10-28
 updated: 2026-10-28
 answer: "Pick Live Transcribe + if you use an iPhone or iPad and need live captions without internet, which its App Store listing says it does. Pick Captio AI if you also use Android, need to see who is talking (by name on iPhone, with Recognize Voices), want live translation or AI summaries, or want a free plan you can use every day rather than 5 free transcriptions."
@@ -40,16 +40,16 @@ better:
     - text: "Its \"Full Access\" purchases on the US App Store start at US$3.99, though the listing doesn't say how long each one lasts."
       sources: [live-transcribe-plus:price]
   captio-ai:
-    - text: "It runs on Android as well as iPhone and iPad."
-      sources: [captio-ai:platforms]
+    - text: "It runs on Android as well as iPhone and iPad, and its free plan comes back every day: 100 free credits a day, where Live Transcribe + gives 5 free transcriptions in total."
+      sources: [captio-ai:platforms, captio-ai:freePlan, live-transcribe-plus:freePlan]
     - text: "Recognize Voices (iPhone): save someone's voice once and their name shows on every line they say, like \"Mum\" instead of \"Speaker 2\", live and in saved recordings. The voiceprints stay on the iPhone."
       sources: [captio-ai:voiceNames]
     - text: "Speaker Direction (iPhone 16 and later): with the phone flat on the table, a wave at the edge of the captions shows which side a voice comes from, in that speaker's colour."
       sources: [captio-ai:speakerDirection]
     - text: "It translates conversations live, with a two-way mode, and turns recordings into summaries, key points and to-dos."
       sources: [captio-ai:translation, captio-ai:summaries]
-    - text: "Its free plan comes back every day: 100 free credits a day, where Live Transcribe + gives 5 free transcriptions in total."
-      sources: [captio-ai:freePlan, live-transcribe-plus:freePlan]
+    - text: "Recognize Sounds (version 1.1.5, iPhone and iPad): sounds around you are written into the captions where they happen, like \"[doorbell rings]\", and kept in the saved recording. A doorbell, a smoke alarm or a baby crying also makes the phone vibrate while Captio AI is recording."
+      sources: [captio-ai:soundAlerts]
 situations:
   - icon: doctor
     title: "A doctor's appointment with no signal"

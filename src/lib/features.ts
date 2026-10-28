@@ -51,6 +51,11 @@ export const features: Feature[] = [
     description: "Waves at the edge of the captions show where the voice is coming from (iPhone 16 and later)",
   },
   {
+    slug: "recognize-sounds",
+    label: "Recognize Sounds",
+    description: "A doorbell, an alarm or a crying baby shows in your captions, and alerts make your phone vibrate (version 1.1.5)",
+  },
+  {
     slug: "connectors",
     label: "Connectors",
     description: "Ask Claude, ChatGPT, Gemini or Perplexity about your recordings",

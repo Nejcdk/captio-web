@@ -3,13 +3,13 @@ title: "Captio AI vs Captify"
 description: "Captio AI and Captify side by side: captions on your phone or in smart glasses, offline use, sound alerts, who is talking, saved transcripts and price."
 kind: versus
 apps: [captio-ai, captify]
-rows: [platforms, deviceRequirements, roomCaptions, groupConversations, languages, offline, speakerLabels, voiceNames, speakerDirection, translation, saveTranscripts, fileUpload, summaries, customWords, display, soundAlerts, privacy, account, freePlan, price]
+rows: [platforms, deviceRequirements, roomCaptions, groupConversations, languages, offline, speakerLabels, voiceNames, speakerDirection, soundAlerts, translation, saveTranscripts, fileUpload, summaries, customWords, display, privacy, account, freePlan, price]
 published: 2026-10-28
 updated: 2026-10-28
 answer: "Pick Captify if you want captions inside your glasses, so your eyes stay on the person, with free offline captions and sound alerts, and you are ready to buy the glasses (US$499 or US$849 at regular price). Pick Captio AI if you want captions on the phone you already have, with nothing to buy, and want to keep recordings with their audio, transcribe files and get summaries; on iPhone it also names people by their voice."
 picks:
   - app: captify
-    text: "You want captions in your glasses so you can keep looking at the person, need captions with no signal, or want to see sounds like the doorbell."
+    text: "You want captions in your glasses so you can keep looking at the person, need captions with no signal, or want 300+ sounds, like the doorbell, shown in your glasses."
   - app: captio-ai
     text: "You want captions on the phone you already have, with no glasses to buy, want to see which side a voice comes from (iPhone 16 and later), or want recordings with audio, file transcription and summaries."
 differences:
@@ -23,8 +23,8 @@ differences:
     text: "Captify. Its free plan has unlimited offline captions in 30+ languages; Captify's help centre says live translation needs internet. Captio AI needs a connection for live captions; without one it keeps recording and transcribes when the phone is back online."
     sources: [captify:offline, captify:s13, captio-ai:offline]
   - title: "Which one tells you about sounds like the doorbell?"
-    text: "Captify. It shows non-speech sounds such as doorbells, sirens, laughter and applause in the glasses, on the free plan. Captio AI captions speech only and does not alert you to other sounds."
-    sources: [captify:soundAlerts, captio-ai:soundAlerts]
+    text: "Both, in different ways. Captify shows non-speech sounds such as doorbells, sirens, laughter and applause in the glasses, so your eyes stay up, and its subscription page counts 300+ sounds on the free plan. Captio AI's Recognize Sounds writes sounds into the captions on the screen where they happen, like [doorbell rings], from a list of 28, and keeps them in the recording. A doorbell, a smoke alarm or a baby crying also makes the phone vibrate. It works while Captio AI is recording, not as an always-on alarm."
+    sources: [captify:soundAlerts, captio-ai:soundAlerts, captio-ai:s13]
   - title: "Can Captify tell you who is talking?"
     text: "With limits. Captify added speaker labelling in February 2026, but its subscription page lists it for a Premium plan marked Coming Soon, and Captify says several people talking at once is not ideal for Captify Pro. Its pages don't describe remembering people's voices or showing where a voice comes from. Captio AI labels each speaker; on iPhone, Recognize Voices shows the names of people whose voices you saved, live and in saved recordings. In Captify's glasses the captions keep your eyes on people; on a phone, Captio AI's Speaker Direction (iPhone 16 and later) shows which side a voice comes from, so you know whose face to look at."
     sources: [captify:speakerLabels, captify:groupConversations, captify:s2, captio-ai:speakerLabels, captio-ai:voiceNames, captio-ai:speakerDirection]
@@ -37,8 +37,8 @@ better:
       sources: [captify:s2, captify:roomCaptions, captio-ai:platforms]
     - text: "It captions without internet: the free plan has unlimited offline captions in 30+ languages."
       sources: [captify:offline, captify:freePlan]
-    - text: "It shows sounds such as doorbells, sirens, laughter and applause. Captio AI does not alert you to sounds."
-      sources: [captify:soundAlerts, captio-ai:soundAlerts]
+    - text: "It shows sounds such as doorbells, sirens, laughter and applause in the glasses, so your eyes stay up, and its subscription page counts 300+ sounds. Captio AI's list has 28 sounds, written into the captions on the screen."
+      sources: [captify:soundAlerts, captio-ai:s13]
     - text: "The glasses' directional microphones focus on the person in front of you, and the glasses can carry your prescription lenses."
       sources: [captify:s14, captify:s2]
     - text: "Once you own the glasses, captions have no daily limit: the app has no in-app purchases on the US App Store, and US buyers can pay for the glasses with FSA or HSA cards."
@@ -50,10 +50,10 @@ better:
       sources: [captio-ai:voiceNames]
     - text: "On iPhone 16 and later, Speaker Direction shows which side a voice comes from, so reading on a phone you still know whose face to look at."
       sources: [captio-ai:speakerDirection]
-    - text: "It saves every recording with its audio in a library synced to your account, transcribes audio and video files, and writes summaries, key points and to-dos today. Captify lists summaries for a Premium plan marked Coming Soon."
-      sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries, captify:summaries]
-    - text: "Live translation has a two-way mode, where each person reads the other in their own language."
-      sources: [captio-ai:translation]
+    - text: "Recognize Sounds (version 1.1.5, iPhone and iPad) writes sounds into the captions where they happen, like [doorbell rings], so you read them as part of the conversation, and keeps them in the saved recording. Alerts such as a smoke alarm or a baby crying make the phone vibrate."
+      sources: [captio-ai:soundAlerts]
+    - text: "It saves every recording with its audio, transcribes audio and video files, writes summaries and to-dos today, and translates live with a two-way mode. Captify lists summaries for a Premium plan marked Coming Soon."
+      sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries, captio-ai:translation, captify:summaries]
 situations:
   - icon: glasses
     title: "You want to look at the person, not a screen"
@@ -67,7 +67,7 @@ situations:
   - icon: home
     title: "At home, waiting for the doorbell"
     pick: captify
-    text: "Captify shows sounds like doorbells and sirens in the glasses. Captio AI captions speech only."
+    text: "Captify shows sounds like doorbells and sirens in the glasses you wear. Captio AI hears the doorbell only while it is recording: then it writes [doorbell rings] into the captions and the phone vibrates. It is not an always-on doorbell alert."
   - icon: doctor
     title: "A doctor's appointment you want to read again"
     pick: captio-ai

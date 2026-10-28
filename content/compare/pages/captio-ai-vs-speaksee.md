@@ -3,7 +3,7 @@ title: "Captio AI vs Speaksee"
 description: "Captio AI and the Speaksee microphone kit side by side: phone mic or clip-on mics, group conversations, who is talking, translation, funding and price."
 kind: versus
 apps: [captio-ai, speaksee]
-rows: [platforms, deviceRequirements, roomCaptions, groupConversations, speakerLabels, voiceNames, speakerDirection, languages, offline, translation, saveTranscripts, fileUpload, summaries, customWords, display, privacy, account, freePlan, price, accessibilityFunding]
+rows: [platforms, deviceRequirements, roomCaptions, groupConversations, speakerLabels, voiceNames, speakerDirection, soundAlerts, languages, offline, translation, saveTranscripts, fileUpload, summaries, customWords, privacy, account, freePlan, price, accessibilityFunding]
 published: 2026-10-28
 updated: 2026-10-28
 answer: "Use Speaksee if you follow group conversations in noisy places and the people you talk to will each wear a clip-on microphone, especially if UK or Dutch funding can pay for the kit. Use Captio AI if you want captions from the phone you already have, with a free plan, people named by their voice on iPhone (Recognize Voices), saved recordings and summaries."
@@ -50,10 +50,10 @@ better:
       sources: [captio-ai:voiceNames]
     - text: "Speaker Direction (iPhone 16 and later): with the phone flat on the table, a wave at the edge of the captions shows which side a voice comes from."
       sources: [captio-ai:speakerDirection]
-    - text: "It saves recordings with their audio, transcribes files, and writes summaries and to-dos."
-      sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries]
-    - text: "You add your own words and names in the app, and can start without an account. Speaksee asks for a word list through a web form, and needs an account and the kit's activation code."
-      sources: [captio-ai:customWords, captio-ai:account, speaksee:customWords, speaksee:account]
+    - text: "Recognize Sounds (version 1.1.5, iPhone and iPad): sounds like \"[doorbell rings]\" are written into the captions where they happen and stay in the saved recording, and a doorbell, a smoke alarm or a baby crying makes the phone vibrate. Speaksee's pages don't describe alerts for sounds."
+      sources: [captio-ai:soundAlerts]
+    - text: "It saves recordings with their audio, transcribes files and writes summaries and to-dos. You add your own words in the app and can start without an account; Speaksee asks for a word list through a web form, and needs an account and the kit's activation code."
+      sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries, captio-ai:customWords, captio-ai:account, speaksee:customWords, speaksee:account]
 situations:
   - icon: dinner
     title: "A noisy family dinner or a group"
