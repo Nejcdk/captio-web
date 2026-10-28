@@ -5,7 +5,6 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { DownloadCard, StoreButtons } from "@/components/StoreButtons";
 import FaqAccordion from "@/components/FaqAccordion";
-import { FeaturedOnLine } from "@/components/FeaturedOn";
 import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
@@ -337,18 +336,21 @@ export default function HomePage() {
             <p className="text-base sm:text-lg text-gray-500 max-w-xl leading-relaxed">
               Follow any conversation, meeting or lecture. In any language.
             </p>
+          </div>
 
+          {/* Download box and app mockup: stacked on phones, side by side on a computer
+              so both are on screen at once. */}
+          <div className="max-w-5xl mx-auto mt-4 sm:mt-6 flex flex-col lg:flex-row items-center justify-center gap-4 sm:gap-6 lg:gap-14">
             <DownloadCard id="download" />
-            <FeaturedOnLine />
 
             {/* App mockup */}
-            <div className="mt-6 sm:mt-10">
+            <div className="mt-6 sm:mt-10 lg:mt-0">
               <Image
                 src="/mockup_app.png"
                 alt="Captio AI app showing live captions and translation"
                 width={400}
                 height={340}
-                className="w-[280px] sm:w-[400px] h-auto mx-auto drop-shadow-2xl"
+                className="w-[280px] sm:w-[400px] lg:w-[360px] h-auto mx-auto drop-shadow-2xl"
                 priority
               />
             </div>
