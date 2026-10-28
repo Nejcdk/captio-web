@@ -50,7 +50,7 @@ better:
       sources: [captio-ai:voiceNames]
     - text: "On iPhone 16 and later, Speaker Direction shows which side a voice comes from, so reading on a phone you still know whose face to look at."
       sources: [captio-ai:speakerDirection]
-    - text: "Recognize Sounds (version 1.1.5, iPhone and iPad) writes sounds into the captions where they happen, like [doorbell rings], so you read them as part of the conversation, and keeps them in the saved recording. Alerts such as a smoke alarm or a baby crying make the phone vibrate."
+    - text: "Recognize Sounds (iPhone and iPad) writes sounds into the captions where they happen, like [doorbell rings], so you read them as part of the conversation, and keeps them in the saved recording. Alerts such as a smoke alarm or a baby crying make the phone vibrate."
       sources: [captio-ai:soundAlerts]
     - text: "It saves every recording with its audio, transcribes audio and video files, writes summaries and to-dos today, and translates live with a two-way mode. Captify lists summaries for a Premium plan marked Coming Soon."
       sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries, captio-ai:translation, captify:summaries]

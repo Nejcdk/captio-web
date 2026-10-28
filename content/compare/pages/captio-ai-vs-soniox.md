@@ -50,7 +50,7 @@ better:
       sources: [captio-ai:voiceNames, soniox:voiceNames]
     - text: "Speaker Direction (iPhone 16 and later): with the phone flat on the table, a wave at the edge of the captions shows which side a voice comes from."
       sources: [captio-ai:speakerDirection]
-    - text: "Recognize Sounds (version 1.1.5, iPhone and iPad): sounds like \"[doorbell rings]\" are written into the captions where they happen and stay in the saved recording, and a doorbell, a smoke alarm or a baby crying makes the phone vibrate. Soniox's pages don't describe alerts for sounds."
+    - text: "Recognize Sounds (iPhone and iPad): sounds like \"[doorbell rings]\" are written into the captions where they happen and stay in the saved recording, and a doorbell, a smoke alarm or a baby crying makes the phone vibrate. Soniox's pages don't describe alerts for sounds."
       sources: [captio-ai:soundAlerts, soniox:soundAlerts]
 situations:
   - icon: work

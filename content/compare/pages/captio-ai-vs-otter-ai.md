@@ -50,7 +50,7 @@ better:
       sources: [captio-ai:speakerDirection]
     - text: "It captions 60+ languages and translates live; Otter transcribes 6, one at a time."
       sources: [captio-ai:languages, captio-ai:translation, otter-ai:languages]
-    - text: "Recognize Sounds (version 1.1.5, iPhone and iPad): sounds like \"[doorbell rings]\" are written into the captions where they happen and stay in the saved recording, and a doorbell, a smoke alarm or a baby crying makes the phone vibrate. Otter's pages don't describe alerts for sounds."
+    - text: "Recognize Sounds (iPhone and iPad): sounds like \"[doorbell rings]\" are written into the captions where they happen and stay in the saved recording, and a doorbell, a smoke alarm or a baby crying makes the phone vibrate. Otter's pages don't describe alerts for sounds."
       sources: [captio-ai:soundAlerts]
     - text: "You can change the text size, background colour and contrast, and use it without an account; its privacy policy says your content is never used to train AI models. Otter's pages don't describe caption display settings, it needs an account, and its privacy policy says it trains its AI on de-identified audio and transcripts."
       sources: [captio-ai:display, captio-ai:account, captio-ai:privacy, otter-ai:display, otter-ai:account, otter-ai:privacy]

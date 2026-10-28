@@ -52,7 +52,7 @@ better:
       sources: [captio-ai:speakerDirection]
     - text: "It keeps recordings with their audio, transcribes files, and writes summaries and to-dos. You can add names, medical terms or specialist words so they are recognised, and it also runs on Android."
       sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries, captio-ai:customWords, captio-ai:platforms]
-    - text: "Recognize Sounds (version 1.1.5, iPhone and iPad): sounds around you are written into the captions where they happen, like \"[doorbell rings]\", and kept in the saved recording. A doorbell, a smoke alarm or a baby crying also makes the phone vibrate while Captio AI is recording. Apple's Sound Recognition, which alerts you to 15 sounds, is a separate built-in feature, not part of Live Captions."
+    - text: "Recognize Sounds (iPhone and iPad): sounds around you are written into the captions where they happen, like \"[doorbell rings]\", and kept in the saved recording. A doorbell, a smoke alarm or a baby crying also makes the phone vibrate while Captio AI is recording. Apple's Sound Recognition, which alerts you to 15 sounds, is a separate built-in feature, not part of Live Captions."
       sources: [captio-ai:soundAlerts, apple-live-captions:soundAlerts]
 situations:
   - icon: phone

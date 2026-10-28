@@ -53,7 +53,7 @@ export const features: Feature[] = [
   {
     slug: "recognize-sounds",
     label: "Recognize Sounds",
-    description: "A doorbell, an alarm or a crying baby shows in your captions, and alerts make your phone vibrate (version 1.1.5)",
+    description: "A doorbell, an alarm or a crying baby shows in your captions, and alerts make your phone vibrate",
   },
   {
     slug: "connectors",

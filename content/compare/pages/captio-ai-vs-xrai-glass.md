@@ -50,7 +50,7 @@ better:
       sources: [captio-ai:speakerDirection]
     - text: "It saves every recording with its audio in a library synced to your account, transcribes audio and video files, and writes summaries, key points and to-dos. XRAI's free plan keeps history for 1 day."
       sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries, xrai-glass:saveTranscripts]
-    - text: "Recognize Sounds (version 1.1.5, iPhone and iPad) writes sounds into the captions where they happen, like [doorbell rings], and keeps them in the saved recording. Alerts such as a smoke alarm or a baby crying make the phone vibrate. XRAI's pages don't describe alerts for sounds other than speech."
+    - text: "Recognize Sounds (iPhone and iPad) writes sounds into the captions where they happen, like [doorbell rings], and keeps them in the saved recording. Alerts such as a smoke alarm or a baby crying make the phone vibrate. XRAI's pages don't describe alerts for sounds other than speech."
       sources: [captio-ai:soundAlerts, xrai-glass:soundAlerts]
     - text: "You can use it without an account, and add names, medical terms and specialist words so they are recognised. XRAI Glass asks for an account and a phone number."
       sources: [captio-ai:account, captio-ai:customWords, xrai-glass:account]

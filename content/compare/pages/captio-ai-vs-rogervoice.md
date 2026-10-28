@@ -50,7 +50,7 @@ better:
       sources: [captio-ai:voiceNames]
     - text: "Speaker Direction (iPhone 16 and later): with the phone flat on the table, a wave at the edge of the captions shows which side the voice comes from, so you know whose face to look at."
       sources: [captio-ai:speakerDirection]
-    - text: "Recognize Sounds (version 1.1.5, iPhone and iPad): sounds around you are written into the captions where they happen, like \"[doorbell rings]\", and kept in the saved recording. A doorbell, a smoke alarm or a baby crying also makes the phone vibrate while Captio AI is recording."
+    - text: "Recognize Sounds (iPhone and iPad): sounds around you are written into the captions where they happen, like \"[doorbell rings]\", and kept in the saved recording. A doorbell, a smoke alarm or a baby crying also makes the phone vibrate while Captio AI is recording."
       sources: [captio-ai:soundAlerts]
     - text: "It translates conversations live, which Rogervoice says it doesn't do, and keeps recordings with their audio for summaries and to-dos. It needs no phone number: sign in with Apple or Google, or skip. Rogervoice signs you up with your phone number and an SMS code."
       sources: [captio-ai:translation, rogervoice:translation, captio-ai:saveTranscripts, captio-ai:summaries, captio-ai:account, rogervoice:account]

@@ -50,7 +50,7 @@ better:
       sources: [captio-ai:voiceNames]
     - text: "Speaker Direction (iPhone 16 and later): with the phone flat on the table, a wave at the edge of the captions shows which side a voice comes from."
       sources: [captio-ai:speakerDirection]
-    - text: "Recognize Sounds (version 1.1.5, iPhone and iPad): during Live Captions or Live Translator, a doorbell, a smoke alarm or a baby crying makes the phone vibrate, with a notification if the screen is locked. Sounds like \"[doorbell rings]\" stay in the saved recording, and uploaded files get them too."
+    - text: "Recognize Sounds (iPhone and iPad): during Live Captions or Live Translator, a doorbell, a smoke alarm or a baby crying makes the phone vibrate, with a notification if the screen is locked. Sounds like \"[doorbell rings]\" stay in the saved recording, and uploaded files get them too."
       sources: [captio-ai:soundAlerts]
     - text: "It translates conversations live, keeps recordings with their audio, transcribes files, and writes summaries and to-dos."
       sources: [captio-ai:translation, captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries]

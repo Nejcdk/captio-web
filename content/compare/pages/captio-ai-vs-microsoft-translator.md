@@ -48,7 +48,7 @@ better:
       sources: [captio-ai:groupConversations, captio-ai:voiceNames]
     - text: "On iPhone 16 and later, Speaker Direction shows which side a voice comes from, also in Live Translator, so in a two-way conversation across a table you know who just spoke."
       sources: [captio-ai:speakerDirection]
-    - text: "Recognize Sounds (version 1.1.5, iPhone and iPad) writes sounds into the captions where they happen, like [doorbell rings], in Live Captions and in both panes of Live Translator, and keeps them in the recording. Alerts such as a smoke alarm or a baby crying make the phone vibrate. Microsoft's pages don't describe sound alerts."
+    - text: "Recognize Sounds (iPhone and iPad) writes sounds into the captions where they happen, like [doorbell rings], in Live Captions and in both panes of Live Translator, and keeps them in the recording. Alerts such as a smoke alarm or a baby crying make the phone vibrate. Microsoft's pages don't describe sound alerts."
       sources: [captio-ai:soundAlerts, microsoft-translator:soundAlerts]
     - text: "It saves recordings with their audio, transcribes audio and video files and writes summaries and to-dos. You can add names and specialist words so they are recognised."
       sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries, captio-ai:customWords]

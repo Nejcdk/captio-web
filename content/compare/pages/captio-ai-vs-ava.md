@@ -48,7 +48,7 @@ better:
       sources: [captio-ai:speakerLabels, captio-ai:voiceNames, ava:speakerLabels]
     - text: "Speaker Direction (iPhone 16 and later): with the phone flat on the table, a wave at the edge of the captions shows which side a voice comes from, so you know where to look."
       sources: [captio-ai:speakerDirection]
-    - text: "Recognize Sounds (version 1.1.5, iPhone and iPad): sounds are written into the captions where they happen, like \"[doorbell rings]\", and stay in the saved recording. A doorbell, a smoke alarm or a baby crying makes the phone vibrate, with a notification if the screen is locked during a recording. Ava's Sound Detection shows a small alert on the screen."
+    - text: "Recognize Sounds (iPhone and iPad): sounds are written into the captions where they happen, like \"[doorbell rings]\", and stay in the saved recording. A doorbell, a smoke alarm or a baby crying makes the phone vibrate, with a notification if the screen is locked during a recording. Ava's Sound Detection shows a small alert on the screen."
       sources: [captio-ai:soundAlerts, ava:soundAlerts]
     - text: "It captions and translates 60+ languages live; Ava's help centre lists 23+ for captions. It also runs on iPhones from iOS 15.1, while the current Ava app on the App Store needs iOS 18.6."
       sources: [captio-ai:languages, captio-ai:translation, ava:languages, captio-ai:deviceRequirements, ava:deviceRequirements]

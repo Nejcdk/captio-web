@@ -55,8 +55,8 @@ const faqs = [
     a: "Yes. Recognize Sounds listens to the same microphone as your captions, so it works with AirPods, a headset or an external microphone, and doesn't change which microphone is used.",
   },
   {
-    q: "Is it free? Which version and which phones?",
-    a: "Yes, free for everyone, on the free plan and on Plus. It comes with Captio AI version 1.1.5, on iPhone and iPad. It is not on Android yet.",
+    q: "Is it free, and which phones does it work on?",
+    a: "Yes, free for everyone, on the free plan and on Plus. It works on iPhone and iPad. It is not on Android yet.",
   },
 ];
 
@@ -65,7 +65,7 @@ export default function RecognizeSoundsPage() {
     <FeaturePage
       slug="recognize-sounds"
       name="Recognize Sounds"
-      schemaDescription="Live captions that show the sounds around you, like a doorbell, a smoke alarm or a crying baby, written into the captions where they happen, with vibration for alerts. Recognized on the phone. iPhone and iPad, from version 1.1.5."
+      schemaDescription="Live captions that show the sounds around you, like a doorbell, a smoke alarm or a crying baby, written into the captions where they happen, with vibration for alerts. Recognized on the phone. iPhone and iPad."
       stepsHeading="See the sounds, not only the words."
       steps={[
         {
