@@ -47,6 +47,8 @@ export const FEATURE_LIST = [
   "Live Translator",
   "Audio Transcription",
   "AI Summary",
+  "AI Actions: key points, notes, to-dos, questions and answers, follow-up message",
+  "Export as text, link, PDF, email or AI chat prompt",
   "Folders and shared folders",
   "Recognize Voices",
   "Speaker Direction",

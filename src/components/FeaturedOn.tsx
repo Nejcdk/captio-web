@@ -1,7 +1,6 @@
 import { FEATURED_ON } from "@/lib/press";
 
-// Disabled World's own globe mark (their favicon), drawn without a clip path so
-// it can appear twice on one page without clashing ids.
+// Disabled World's own globe mark (their favicon), drawn without a clip path.
 function DisabledWorldMark({ className }: { className: string }) {
   return (
     <svg viewBox="0 0 32 32" aria-hidden className={className}>
@@ -12,23 +11,6 @@ function DisabledWorldMark({ className }: { className: string }) {
         <ellipse cx="16" cy="16" rx="14" ry="6" />
       </g>
     </svg>
-  );
-}
-
-/** One quiet line under the homepage download button. */
-export function FeaturedOnLine() {
-  return (
-    <a
-      href={FEATURED_ON.url}
-      target="_blank"
-      rel="noopener"
-      className="inline-flex items-center gap-2 text-sm text-gray-500 hover:text-gray-900 transition-colors"
-    >
-      <DisabledWorldMark className="w-5 h-5 shrink-0" />
-      <span>
-        Featured on <span className="font-semibold text-gray-900">{FEATURED_ON.name}</span>
-      </span>
-    </a>
   );
 }
 

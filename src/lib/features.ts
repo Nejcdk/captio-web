@@ -26,6 +26,16 @@ export const features: Feature[] = [
     description: "Structured summaries from any transcript",
   },
   {
+    slug: "ai-actions",
+    label: "AI Actions",
+    description: "Summary, key points, detailed notes, to-dos, questions and answers, or a follow-up message from any recording",
+  },
+  {
+    slug: "export",
+    label: "Export",
+    description: "Share captions or a summary as text, a link, a PDF, an email or an AI chat prompt",
+  },
+  {
     slug: "folders",
     label: "Folders",
     description: "Sort recordings into folders and share a folder with family, classmates or a team",
