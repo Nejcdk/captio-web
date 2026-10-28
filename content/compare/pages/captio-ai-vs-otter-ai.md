@@ -29,7 +29,7 @@ differences:
     text: "Both keep the recording with its audio and write summaries. Otter adds action items, outlines, AI Chat and, on paid plans, PDF, DOCX and SRT exports; its free plan shows only the 25 most recent conversations. Captio AI writes summaries, key points and to-dos, and shares them as text, a link, a PDF or an email."
     sources: [otter-ai:saveTranscripts, otter-ai:summaries, otter-ai:export, captio-ai:saveTranscripts, captio-ai:summaries, captio-ai:export]
   - title: "What does each one cost?"
-    text: "Otter's free Basic plan gives 300 minutes a month, up to 30 minutes per conversation; Otter Pro costs US$16.99 a month or US$99.99 a year on the US App Store (October 2026). Captio AI is free for 10 minutes a day; Captio AI Plus costs US$14.99 a month or US$79.99 a year on the US App Store (October 2026), with no free trial."
+    text: "Otter's free Basic plan gives 300 minutes a month, up to 30 minutes per conversation; Otter Pro costs US$16.99 a month or US$99.99 a year on the US App Store (October 2026). Captio AI is free with 100 free credits a day; Captio AI Plus costs US$14.99 a month or US$79.99 a year on the US App Store (October 2026), with no free trial."
     sources: [otter-ai:freePlan, otter-ai:price, captio-ai:freePlan, captio-ai:price]
 better:
   otter-ai:
@@ -41,7 +41,7 @@ better:
       sources: [otter-ai:summaries]
     - text: "Paid plans export PDF, DOCX and SRT caption files, and Business adds bulk export."
       sources: [otter-ai:export]
-    - text: "Its free plan allows up to 30 minutes in one conversation and 300 minutes a month. Captio AI's free plan covers 10 minutes a day."
+    - text: "Its free plan allows up to 30 minutes in one conversation and 300 minutes a month. Captio AI's free plan gives 100 free credits a day."
       sources: [otter-ai:freePlan, captio-ai:freePlan]
   captio-ai:
     - text: "It labels who is talking while the conversation happens, not only after the recording stops."
@@ -90,7 +90,7 @@ faqs:
   - q: "Does Otter.ai show who is speaking at a family dinner?"
     a: "Only after you stop recording: Otter's help centre says speaker identification starts once the recording has stopped, and it learns a voice after you tag that speaker. Captio AI labels each speaker while they talk, and on iPhone can show the names of people whose voices you saved."
   - q: "Does Otter.ai have a free plan?"
-    a: "Yes. Otter Basic gives 300 transcription minutes a month, up to 30 minutes per conversation, 3 file imports in total and the 25 most recent conversations. Captio AI's free plan gives 10 minutes of captions or transcription a day and 3 AI summaries in total."
+    a: "Yes. Otter Basic gives 300 transcription minutes a month, up to 30 minutes per conversation, 3 file imports in total and the 25 most recent conversations. Captio AI's free plan gives 100 free credits a day for captions or transcription and 3 AI summaries in total."
   - q: "Can Otter.ai translate Spanish into English live?"
     a: "No. Otter transcribes one language at a time (English, Spanish, French, German, Japanese or Chinese); afterwards you can ask Otter Chat to translate the conversation. Captio AI translates speech live in 60+ languages and shows the translation next to the original captions."
   - q: "Does Otter.ai work without internet, for example on a plane?"

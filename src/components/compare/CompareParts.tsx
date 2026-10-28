@@ -1,3 +1,5 @@
+import { Fragment } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { formatDay } from "@/lib/blog";
 import type { Cell, CompareApp, ComparePage, FactStatus, SituationIcon, Src, TableRow } from "@/lib/compare";
@@ -229,30 +231,62 @@ function StoreLinks({ app, onDark = false }: { app: CompareApp; onDark?: boolean
   );
 }
 
-/** Hero card per app: who makes it, where it runs, what's free, and when to pick it. */
-export function AppPickCard({ app, pick }: { app: CompareApp; pick?: string }) {
+function AppIdentity({ app }: { app: CompareApp }) {
   const mine = app.slug === "captio-ai";
-  const fact = (k: "platforms" | "freePlan") => app.facts[k].text;
   return (
-    <div className={`flex flex-col rounded-xl p-6 sm:p-7 text-left ${mine ? "bg-brand text-white" : "bg-white border border-gray-200"}`}>
-      <p className={`text-xs font-bold uppercase tracking-widest ${mine ? "text-white/60" : "text-gray-400"}`}>{shortDeveloper(app)}</p>
-      <h2 className={`mt-1.5 text-2xl font-bold tracking-tight ${mine ? "text-white" : "text-gray-900"}`}>{app.shortName}</h2>
-      <dl className={`mt-4 grid grid-cols-[5.5rem_1fr] gap-x-3 gap-y-1.5 text-sm ${mine ? "text-blue-50" : "text-gray-600"}`}>
-        <dt className={mine ? "text-white/60" : "text-gray-400"}>Works on</dt>
-        <dd className="font-medium">{fact("platforms")}</dd>
-        <dt className={mine ? "text-white/60" : "text-gray-400"}>Free</dt>
-        <dd className="font-medium">{fact("freePlan")}</dd>
-      </dl>
-      {pick && (
-        <div className={`mt-5 pt-5 border-t ${mine ? "border-white/20" : "border-gray-100"}`}>
-          <p className={`text-xs font-bold uppercase tracking-widest ${mine ? "text-white/60" : "text-gray-400"}`}>Pick it if</p>
-          <p className={`mt-1.5 text-[15px] leading-relaxed ${mine ? "text-white" : "text-gray-800"}`}>{pick}</p>
-        </div>
+    <div className="h-full bg-white border border-gray-200 rounded-xl px-6 py-7 flex flex-col items-center text-center">
+      {mine ? (
+        <Image src="/logo_image_profile.png" alt="" width={48} height={48} className="rounded-xl" />
+      ) : (
+        <span aria-hidden className="w-12 h-12 rounded-xl bg-gray-100 text-gray-500 text-xl font-bold flex items-center justify-center">
+          {app.shortName.charAt(0)}
+        </span>
       )}
-      <div className="mt-auto pt-5">
-        <StoreLinks app={app} onDark={mine} />
+      <p className="mt-4 text-2xl font-bold text-gray-900 tracking-tight leading-tight">{app.shortName}</p>
+      <p className="mt-1 text-sm text-gray-400">{mine ? "Our app" : `by ${shortDeveloper(app)}`}</p>
+      <p className="mt-3 text-sm text-gray-600 leading-snug">{app.facts.platforms.text}</p>
+      <div className="mt-auto pt-5 flex justify-center">
+        <StoreLinks app={app} />
       </div>
     </div>
+  );
+}
+
+/** The two apps with equal weight and "vs" between them. Pass the other app first. */
+export function VersusStrip({ apps }: { apps: CompareApp[] }) {
+  return (
+    <div className="grid md:grid-cols-[1fr_auto_1fr] items-stretch gap-3 md:gap-4">
+      {apps.map((app, i) => (
+        <Fragment key={app.slug}>
+          {i > 0 && (
+            <div className="flex items-center justify-center -my-6 md:my-0 relative z-10">
+              <span className="w-12 h-12 rounded-full bg-gray-900 text-white text-sm font-bold flex items-center justify-center ring-4 ring-white">vs</span>
+            </div>
+          )}
+          <AppIdentity app={app} />
+        </Fragment>
+      ))}
+    </div>
+  );
+}
+
+/** The short answer, then "Choose X if" for each app, side by side. */
+export function Verdict({ answer, picks }: { answer: string; picks: { app: CompareApp; text: string }[] }) {
+  return (
+    <section aria-labelledby="verdict" className="bg-brand-light/60 border border-brand/15 rounded-xl p-6 sm:p-8">
+      <h2 id="verdict" className="text-xs font-bold text-brand uppercase tracking-widest">The short answer</h2>
+      <p className="mt-2.5 text-[17px] sm:text-lg leading-relaxed text-gray-900 font-medium">{answer}</p>
+      {picks.length > 0 && (
+        <div className={`mt-6 pt-6 border-t border-brand/15 grid gap-5 ${picks.length > 1 ? "md:grid-cols-2 md:gap-8" : ""}`}>
+          {picks.map((p) => (
+            <div key={p.app.slug}>
+              <h3 className="text-sm font-bold text-gray-900">Choose {p.app.shortName} if</h3>
+              <p className="mt-1.5 text-[15px] text-gray-600 leading-relaxed">{p.text.replace(/^You /, "you ")}</p>
+            </div>
+          ))}
+        </div>
+      )}
+    </section>
   );
 }
 

@@ -41,7 +41,7 @@ better:
       sources: [android-live-caption:offline]
     - text: "Google says audio and captions stay on the phone and are never stored or sent to Google."
       sources: [android-live-caption:privacy]
-    - text: "It is free and built into Pixel and selected Android phones. Captio AI's free plan covers 10 minutes of captions a day."
+    - text: "It is free and built into Pixel and selected Android phones. Captio AI's free plan gives 100 free credits a day."
       sources: [android-live-caption:freePlan, android-live-caption:platforms, captio-ai:freePlan]
   captio-ai:
     - text: "It captions the people talking around you, which Live Caption doesn't do."
@@ -88,7 +88,7 @@ faqs:
   - q: "Does Android Live Caption work for in-person conversations?"
     a: "No. Live Caption captions speech in audio playing on the phone. For people talking around you, use a live caption app that listens through the microphone, such as Google's Live Transcribe or Captio AI."
   - q: "What is the difference between Live Caption and Live Transcribe?"
-    a: "Live Caption is built into Android and captions videos, podcasts, audio messages and calls playing on the phone. Live Transcribe is a separate Google app that captions speech and sounds around you through the microphone."
+    a: "Live Caption is built into Android and captions videos, podcasts, audio messages and calls playing on the phone. Live Transcribe is a separate Google app that captions speech and sounds around you through the microphone. Captio AI does the same job as Live Transcribe, captioning the people around you, on Android and iPhone."
   - q: "Does Live Caption work offline, for example on a plane?"
     a: "Yes. Google says Live Caption uses no mobile data or internet connection, and that Expressive Captions work in airplane mode; only the first language pack download needs Wi-Fi. Captio AI needs internet for live captions; without it, it keeps recording and transcribes later."
   - q: "Does Live Caption work in Spanish or Hindi?"
@@ -98,7 +98,7 @@ faqs:
   - q: "Does Live Caption keep a transcript of a video or call?"
     a: "No. Google says captions are processed on the phone and never stored. Captio AI saves each recording with its audio, and can transcribe a saved audio or video file and turn it into a summary."
   - q: "Is Android Live Caption free?"
-    a: "Yes, it is part of Android on Pixel and selected phones, with nothing to buy. Captio AI's free plan covers 10 minutes of live captions a day; Captio AI Plus costs US$14.99 a month or US$79.99 a year on the US App Store (October 2026), and prices differ by country."
+    a: "Yes, it is part of Android on Pixel and selected phones, with nothing to buy. Captio AI's free plan gives 100 free credits a day; Captio AI Plus costs US$14.99 a month or US$79.99 a year on the US App Store (October 2026), and prices differ by country."
   - q: "Should I use Live Caption and a caption app together?"
     a: "If you need both kinds of captions, yes. Live Caption covers what plays on your phone, like videos, voice messages and one-to-one calls; a live caption app such as Captio AI or Live Transcribe covers the people talking around you."
 tags: [android live caption, live caption vs live transcribe, live caption in person conversations, captio ai vs android live caption, caption app for deaf people]

@@ -6,7 +6,7 @@ apps: [captio-ai, google-translate]
 rows: [platforms, deviceRequirements, roomCaptions, translation, languages, offline, speakerLabels, groupConversations, saveTranscripts, export, fileUpload, summaries, customWords, display, privacy, account, freePlan, price]
 published: 2026-10-28
 updated: 2026-10-28
-answer: "Use Google Translate if you mainly need translation: it is free, Live translate covers 73 languages, typed text up to 249, and it translates text offline, and conversations offline on a Pixel 9, 10 or 11. Use Captio AI if you want to read a conversation as live captions, see who is talking, and keep the recording; it captions and translates in 60+ languages, free for 10 minutes a day."
+answer: "Use Google Translate if you mainly need translation: it is free, Live translate covers 73 languages, typed text up to 249, and it translates text offline, and conversations offline on a Pixel 9, 10 or 11. Use Captio AI if you want to read a conversation as live captions, see who is talking, and keep the recording; it captions and translates in 60+ languages, free with 100 free credits a day."
 picks:
   - app: google-translate
     text: "You mainly need translation, want it free, also want typed text or text in photos translated, or have a Pixel 9, 10 or 11 and may lose signal."
@@ -29,7 +29,7 @@ differences:
     text: "Both can save, in different ways. Google Translate's Transcribe lets you save a transcript and copy or share its text, and Google doesn't describe saving Live translate sessions. Captio AI saves recordings with their audio, synced to your account, and can turn them into a summary or to-dos."
     sources: [google-translate:saveTranscripts, google-translate:export, captio-ai:saveTranscripts, captio-ai:summaries]
   - title: "What does each one cost?"
-    text: "Google Translate is free, with no in-app purchases listed. Captio AI is free for 10 minutes of captions a day; Captio AI Plus costs US$14.99 a month or US$79.99 a year on the US App Store (October 2026), with no free trial."
+    text: "Google Translate is free, with no in-app purchases listed. Captio AI is free with 100 free credits a day; Captio AI Plus costs US$14.99 a month or US$79.99 a year on the US App Store (October 2026), with no free trial."
     sources: [google-translate:freePlan, google-translate:price, captio-ai:freePlan, captio-ai:price]
 better:
   google-translate:
@@ -98,7 +98,7 @@ faqs:
   - q: "Does Google Translate's Live translate work in the UK and Europe?"
     a: "Google's Live translate help page lists no country limits. Google's blog says Live translate started in the US, India and Mexico in August 2025, and Live translate with headphones reached the UK, France, Germany, Italy, Spain and more in March 2026. Captio AI is on the App Store and Google Play worldwide."
   - q: "Is Google Translate free?"
-    a: "Yes. The App Store lists it as free, and neither store lists in-app purchases (US listings, October 2026). Captio AI is free for 10 minutes of captions a day and 3 AI summaries in total; Captio AI Plus costs US$14.99 a month or US$79.99 a year on the US App Store."
+    a: "Yes. The App Store lists it as free, and neither store lists in-app purchases (US listings, October 2026). Captio AI is free with 100 free credits a day and 3 AI summaries in total; Captio AI Plus costs US$14.99 a month or US$79.99 a year on the US App Store."
 tags: [google translate, google translate for deaf people, google translate live captions, google translate transcribe, captio ai vs google translate, live translation app]
 related: [captio-ai-vs-microsoft-translator, captio-ai-vs-live-transcribe, captio-ai-vs-apple-live-captions]
 ---

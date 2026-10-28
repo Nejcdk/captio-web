@@ -29,7 +29,7 @@ differences:
     text: "Captio AI saves recordings with their audio, synced to your account, and can turn them into a summary or to-dos. Microsoft Translator keeps a history of single translations that you can pin, copy or share; it doesn't describe saving a whole conversation."
     sources: [captio-ai:saveTranscripts, captio-ai:summaries, microsoft-translator:saveTranscripts, microsoft-translator:export]
   - title: "What does each one cost?"
-    text: "Microsoft Translator is free and needs no account. Captio AI is free for 10 minutes of captions a day; Captio AI Plus costs US$14.99 a month or US$79.99 a year on the US App Store (October 2026), with no free trial."
+    text: "Microsoft Translator is free and needs no account. Captio AI is free with 100 free credits a day; Captio AI Plus costs US$14.99 a month or US$79.99 a year on the US App Store (October 2026), with no free trial."
     sources: [microsoft-translator:freePlan, microsoft-translator:account, captio-ai:freePlan, captio-ai:price]
 better:
   microsoft-translator:
@@ -83,7 +83,7 @@ situations:
     text: "Neither captions or translates speech without internet. Microsoft Translator still translates text and photos offline; Captio AI keeps recording and transcribes later."
 faqs:
   - q: "Has Microsoft Translator's conversation feature been retired?"
-    a: "Its App Store and Google Play listings say the multi-device conversation feature has been retired; on the App Store that note came with version 26.7.1 on June 30, 2026. Some Microsoft help and education pages still describe the feature. Microsoft's FAQs still describe speech translation on one phone, including a split-screen mode."
+    a: "Its App Store and Google Play listings say the multi-device conversation feature has been retired; on the App Store that note came with version 26.7.1 on June 30, 2026. Some Microsoft help and education pages still describe the feature. Microsoft's FAQs still describe speech translation on one phone, including a split-screen mode. Captio AI captions a group conversation from one phone, labels each speaker, and translates it live."
   - q: "What can deaf students use instead of Microsoft Translator in class?"
     a: "Microsoft promoted its multi-device conversation feature for deaf and hard of hearing students, and its store listings now say that feature has been retired. Captio AI captions a lecture from one phone, labels speakers and keeps the recording, which you can turn into notes. It doesn't join several phones into one live conversation."
   - q: "Does Microsoft Translator work offline?"
@@ -97,7 +97,7 @@ faqs:
   - q: "Can Microsoft Translator translate a video or a recorded lecture?"
     a: "No. Microsoft says the app doesn't translate media or files such as movies or video clips. Captio AI transcribes audio and video files you upload, with speaker labels."
   - q: "Is Microsoft Translator free?"
-    a: "Yes. Microsoft says the app is free of charge and needs no account, and the US App Store lists no in-app purchases (October 2026). Captio AI is free for 10 minutes of captions a day; Captio AI Plus costs US$14.99 a month or US$79.99 a year on the US App Store."
+    a: "Yes. Microsoft says the app is free of charge and needs no account, and the US App Store lists no in-app purchases (October 2026). Captio AI is free with 100 free credits a day; Captio AI Plus costs US$14.99 a month or US$79.99 a year on the US App Store."
 tags: [microsoft translator, microsoft translator conversation retired, microsoft translator for deaf students, microsoft translator alternative, captio ai vs microsoft translator, live translation app]
 related: [captio-ai-vs-google-translate, captio-ai-vs-ava, captio-ai-vs-live-transcribe]
 ---

@@ -36,6 +36,7 @@ const BANNED = [
   [/\b\d(\.\d)? ?(stars?|★)/i, "a star rating"],
   [/\bSoniox|Gemini\b/, "a Captio AI provider name"],
   [/\bCaptio(?! AI)\b/, '"Captio" without "AI"'],
+  [/\b10 min(ute)?s?\b[^.]{0,40}\ba day\b/i, 'the free plan in minutes (say "100 free credits a day")'],
 ];
 
 // ── Apps ───────────────────────────────────────────────────────────────────
@@ -107,6 +108,9 @@ for (const file of [...pageFiles.map((f) => path.join(PAGES_DIR, f)), path.join(
       if ((data.situations ?? []).length < 3) warnings.push(`${slug}: ${(data.situations ?? []).length} situations (aim for 4–6)`);
     }
     if ((data.faqs ?? []).length < 5) warnings.push(`${slug}: ${(data.faqs ?? []).length} FAQs (aim for 6–8)`);
+    (data.faqs ?? []).forEach((f, i) => {
+      if (!/Captio AI/.test(f.a)) errors.push(`${slug}: FAQ ${i + 1} ("${f.q}") doesn't mention Captio AI in its answer`);
+    });
     for (const a of data.apps ?? []) {
       const app = apps.get(a);
       if (!app) continue;

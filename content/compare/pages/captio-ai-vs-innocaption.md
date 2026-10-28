@@ -29,7 +29,7 @@ differences:
     text: "Only on a trip. InnoCaption is for eligible users based in the US with a US cell number, home address and Social Security number, who can keep using it abroad if they tell support first. Captio AI is available worldwide on the App Store and Google Play, and an account is optional."
     sources: [innocaption:availability, innocaption:account, captio-ai:availability, captio-ai:account]
   - title: "What does each one cost?"
-    text: "InnoCaption is free for eligible US users, with no limit on the number or length of calls, paid from the FCC's TRS Fund. Captio AI is free for 10 minutes of captions a day; Captio AI Plus costs US$14.99 a month or US$79.99 a year on the US App Store (October 2026)."
+    text: "InnoCaption is free for eligible US users, with no limit on the number or length of calls, paid from the FCC's TRS Fund. Captio AI is free with 100 free credits a day; Captio AI Plus costs US$14.99 a month or US$79.99 a year on the US App Store (October 2026)."
     sources: [innocaption:freePlan, innocaption:accessibilityFunding, captio-ai:freePlan, captio-ai:price]
 better:
   innocaption:
@@ -86,17 +86,17 @@ situations:
     link: /use-cases/traveling
 faqs:
   - q: "Is InnoCaption free?"
-    a: "Yes, for eligible people in the US with hearing loss or a speech disability, with no limit on the number or length of calls. The FCC pays for it through the TRS Fund. You self-certify that you need it; no doctor's note is needed."
+    a: "Yes, for eligible people in the US with hearing loss or a speech disability, with no limit on the number or length of calls. The FCC pays for it through the TRS Fund. You self-certify that you need it; no doctor's note is needed. Captio AI, for conversations in the room, is free with 100 free credits a day in any country, and Captio AI Plus removes the limit."
   - q: "Can I use InnoCaption for in-person conversations or in a classroom?"
     a: "No. InnoCaption says its service can't be used when both people are in the same room, including a teacher and student in a classroom. For speech in the room you need a live caption app such as Captio AI; InnoCaption's team also makes a separate app, InnoScribe, on Google Play."
   - q: "Does InnoCaption use real stenographers or AI?"
-    a: "Both. You can pick live stenographers (CART), available 24/7 in English, or AI captions, and switch during a call. If every stenographer is busy, an optional AI fallback takes over."
+    a: "Both. You can pick live stenographers (CART), available 24/7 in English, or AI captions, and switch during a call. If every stenographer is busy, an optional AI fallback takes over. Captio AI's captions are automatic: it has no human captioners."
   - q: "Does InnoCaption caption calls in Spanish?"
-    a: "Yes, with AI captions: you pick a secondary language from a list of over 20, such as Spanish, Chinese, Vietnamese or Arabic. Live stenographers caption English only, and InnoCaption doesn't translate between languages."
+    a: "Yes, with AI captions: you pick a secondary language from a list of over 20, such as Spanish, Chinese, Vietnamese or Arabic. Live stenographers caption English only, and InnoCaption doesn't translate between languages. Captio AI captions conversations in the room in 60+ languages, including Spanish, and translates them live."
   - q: "Can I use InnoCaption in Canada or the UK?"
     a: "No. It is for eligible users based in the US with a US cell number, home address and Social Security number; US residents may keep using it on a trip abroad if they tell support first. Captio AI is available worldwide."
   - q: "Does InnoCaption work with FaceTime or Zoom?"
-    a: "Not FaceTime: InnoCaption says its app can't caption FaceTime calls and points to its separate InnoCaption Video app. For Zoom, Teams, Meet and Webex, InnoCaption Web can dial in by phone or send InnoCaption Bot, which uses AI captions; the host may need to admit it."
+    a: "Not FaceTime: InnoCaption says its app can't caption FaceTime calls and points to its separate InnoCaption Video app. For Zoom, Teams, Meet and Webex, InnoCaption Web can dial in by phone or send InnoCaption Bot, which uses AI captions; the host may need to admit it. Captio AI doesn't caption FaceTime or Zoom calls either: it is made for speech in the room."
   - q: "What personal information does InnoCaption need?"
     a: "For the FCC's rules it asks for your full name, date of birth, the last four digits of your Social Security number, your home address and cell number. Captio AI doesn't need an account; signing in with Apple or Google is optional, to sync."
   - q: "Do I need both InnoCaption and Captio AI?"

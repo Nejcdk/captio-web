@@ -67,7 +67,7 @@ Situation icons: doctor, dinner, meeting, lecture, travel, home, phone, offline,
 
 ## Page types and how to write them
 
-**versus** (`captio-ai-vs-<app>`): Captio AI and one other app. The other app's "better" points are the most important part of the page: say clearly where it wins. `answer` says who should pick which, straight away. Difference titles are the questions people type ("Does Ava work offline?"), answered in the first words. FAQs: 6–8, at least half name a situation, a language or a country.
+**versus** (`captio-ai-vs-<app>`): Captio AI and one other app. The other app's "better" points are the most important part of the page: say clearly where it wins. `answer` says who should pick which, straight away. Difference titles are the questions people type ("Does Ava work offline?"), answered in the first words. FAQs: 6–8, at least half name a situation, a language or a country, and every answer says what Captio AI does on that question (Nejc, 2026-10-28; `compare:check` fails without it).
 
 **alternatives** / **roundup**: for later (e.g. "Live Transcribe for iPhone", "apps that caption in-person conversations"); same blocks, more apps.
 

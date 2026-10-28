@@ -5,7 +5,6 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { DownloadCard, StoreButtons } from "@/components/StoreButtons";
 import {
-  AppPickCard,
   BetterColumn,
   CompareFaq,
   ComparisonCard,
@@ -14,6 +13,8 @@ import {
   SectionHeading,
   SituationCard,
   SourcesByApp,
+  Verdict,
+  VersusStrip,
   VersusTable,
 } from "@/components/compare/CompareParts";
 import { formatDay } from "@/lib/blog";
@@ -87,7 +88,7 @@ export default async function ComparePageView({ params }: Props) {
       <main>
         <Header />
 
-        {/* ── Hero: the verdict and one card per app ── */}
+        {/* ── Hero: the two apps, then the verdict ── */}
         <section className="px-5 sm:px-6 pt-8 sm:pt-14 pb-12 sm:pb-16 bg-white">
           <div className="max-w-5xl mx-auto">
             <nav aria-label="Breadcrumb" className="flex items-center justify-center gap-2 text-sm text-gray-400">
@@ -105,15 +106,12 @@ export default async function ComparePageView({ params }: Props) {
               </p>
             </div>
 
-            <section aria-labelledby="verdict" className="mt-10 max-w-3xl mx-auto bg-brand-light/60 border border-brand/15 rounded-xl p-6 sm:p-7">
-              <h2 id="verdict" className="text-xs font-bold text-brand uppercase tracking-widest">The short answer</h2>
-              <p className="mt-2.5 text-[17px] sm:text-lg leading-relaxed text-gray-900 font-medium">{page.answer}</p>
-            </section>
+            <div className="mt-10 max-w-4xl mx-auto">
+              <VersusStrip apps={order} />
+            </div>
 
-            <div className={`mt-6 grid gap-4 ${order.length === 2 ? "md:grid-cols-2" : "md:grid-cols-3"}`}>
-              {order.map((app) => (
-                <AppPickCard key={app.slug} app={app} pick={pickFor(app.slug)} />
-              ))}
+            <div className="mt-6 max-w-4xl mx-auto">
+              <Verdict answer={page.answer} picks={order.map((app) => ({ app, text: pickFor(app.slug) ?? "" })).filter((p) => p.text)} />
             </div>
           </div>
         </section>

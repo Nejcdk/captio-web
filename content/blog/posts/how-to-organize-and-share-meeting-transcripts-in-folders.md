@@ -104,7 +104,7 @@ A shared folder changes who reads the transcript, because every member sees ever
 
 A Captio AI folder does not change how the captions are made or who owns a recording. Live captions still need an internet connection, and without one the app records and transcribes when the phone reconnects. Transcripts are stored on the device and synced to your account. Captio AI says audio is processed in real time and is not stored on its servers.
 
-Folders and shared folders are listed for iPhone. Android availability is not confirmed. The free plan gives 10 minutes of live captions a day, and Captio AI Plus removes that limit, so a long meeting recorded in a folder may need Plus.
+Folders and shared folders are listed for iPhone. Android availability is not confirmed. The free plan gives 100 free credits a day, and Captio AI Plus removes that limit, so a long meeting recorded in a folder may need Plus.
 
 ## Which setup should you use?
 

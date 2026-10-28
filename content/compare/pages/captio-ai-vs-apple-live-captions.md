@@ -35,7 +35,7 @@ better:
   apple-live-captions:
     - text: "It is built into iPhone 11 and later, iPads with A12 Bionic or later and Apple silicon Macs, with nothing to install or sign up for."
       sources: [apple-live-captions:deviceRequirements, apple-live-captions:account]
-    - text: "It costs nothing. Captio AI's free plan covers 10 minutes of captions a day."
+    - text: "It costs nothing. Captio AI's free plan gives 100 free credits a day."
       sources: [apple-live-captions:freePlan, captio-ai:freePlan]
     - text: "Apple says audio is processed and captions are made on the device. Captio AI sends speech to third-party speech recognition after you agree."
       sources: [apple-live-captions:privacy, captio-ai:privacy]
@@ -87,7 +87,7 @@ situations:
     link: /use-cases/traveling
 faqs:
   - q: "Does Apple Live Captions work for in-person conversations?"
-    a: "Yes. Turn on Live Captions in Settings, Accessibility, then tap Live Captions and Microphone, and your iPhone captions the conversation around you. Apple doesn't describe labels for who is speaking outside FaceTime calls."
+    a: "Yes. Turn on Live Captions in Settings, Accessibility, then tap Live Captions and Microphone, and your iPhone captions the conversation around you. Apple doesn't describe labels for who is speaking outside FaceTime calls. Captio AI also captions the room through the microphone, and labels each speaker live and in saved recordings."
   - q: "Does Apple Live Captions work in Italian or Portuguese?"
     a: "Not as of October 2026. Apple's feature availability page lists 8 languages: Cantonese, English, French, German, Japanese, Korean, Mandarin Chinese and Spanish. Captio AI captions and translates 60+ languages."
   - q: "Does Apple Live Captions work offline, for example on a plane?"
@@ -101,7 +101,7 @@ faqs:
   - q: "Does Apple Live Captions caption phone calls?"
     a: "Yes, Phone and FaceTime calls. If you keep call captions for 1 hour, everyone on the call hears that the call is being transcribed. Captio AI doesn't caption phone or video calls; it is made for speech in the room."
   - q: "Is Apple Live Captions free?"
-    a: "Yes. It is built into iPhone 11 and later, iPad models with A12 Bionic and later, and Apple silicon Macs, with nothing to buy. Captio AI's free plan covers 10 minutes of live captions a day; Captio AI Plus costs US$14.99 a month or US$79.99 a year on the US App Store (October 2026)."
+    a: "Yes. It is built into iPhone 11 and later, iPad models with A12 Bionic and later, and Apple silicon Macs, with nothing to buy. Captio AI's free plan gives 100 free credits a day; Captio AI Plus costs US$14.99 a month or US$79.99 a year on the US App Store (October 2026)."
 tags: [apple live captions, live captions iphone, iphone live captions alternative, captio ai vs apple live captions, caption app for deaf people]
 related: [captio-ai-vs-live-transcribe, captio-ai-vs-android-live-caption, captio-ai-vs-ava]
 ---

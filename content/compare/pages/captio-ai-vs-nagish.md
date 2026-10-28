@@ -29,7 +29,7 @@ differences:
     text: "Rylo's own pages say different things. Its Live Transcribe page says transcripts are saved privately on your device, while its privacy policy says Rylo Live conversations may be recorded and stored, and its terms say Live Transcribe input may be used to train its AI. Captio AI says audio is not stored on its servers and content is never used to train AI models."
     sources: [nagish:s2, nagish:s24, nagish:s25, captio-ai:privacy]
   - title: "What does each one cost?"
-    text: "Rylo is free: phone-call captions are paid from the FCC's TRS Fund for eligible users, and Live Transcribe and Rylo Desktop are free to use. Captio AI is free for 10 minutes of captions a day; Captio AI Plus costs US$14.99 a month or US$79.99 a year on the US App Store (October 2026)."
+    text: "Rylo is free: phone-call captions are paid from the FCC's TRS Fund for eligible users, and Live Transcribe and Rylo Desktop are free to use. Captio AI is free with 100 free credits a day; Captio AI Plus costs US$14.99 a month or US$79.99 a year on the US App Store (October 2026)."
     sources: [nagish:freePlan, nagish:accessibilityFunding, captio-ai:freePlan, captio-ai:price]
 better:
   nagish:
@@ -85,15 +85,15 @@ situations:
     link: /use-cases/traveling
 faqs:
   - q: "Is Nagish now called Rylo?"
-    a: "Yes. nagish.com now redirects to rylo.com, Rylo's website gives the company's name as Nagish Inc. dba Rylo, and the FCC lists it as Nagish, Inc. d/b/a Rylo. The app is called Rylo on the App Store and Google Play."
+    a: "Yes. nagish.com now redirects to rylo.com, Rylo's website gives the company's name as Nagish Inc. dba Rylo, and the FCC lists it as Nagish, Inc. d/b/a Rylo. The app is called Rylo on the App Store and Google Play. Captio AI is a separate app for captions of the people in the room, available outside the US too."
   - q: "Is Rylo free for deaf and hard of hearing people in the US?"
-    a: "Yes, for eligible users. Rylo is FCC-certified, so phone-call captions are paid from the federal TRS Fund for people who are deaf, hard of hearing or have a speech disability, who self-certify when they sign up. Live Transcribe and Rylo Desktop are free too."
+    a: "Yes, for eligible users. Rylo is FCC-certified, so phone-call captions are paid from the federal TRS Fund for people who are deaf, hard of hearing or have a speech disability, who self-certify when they sign up. Live Transcribe and Rylo Desktop are free too. Captio AI, for conversations in the room, is free with 100 free credits a day in any country, and Captio AI Plus removes the limit."
   - q: "Can I use Rylo in the UK or Canada?"
     a: "No. Rylo supports the United States and its territories, and its App Store listing was not found in the UK, Canadian, German or Australian stores in October 2026. Captio AI is available worldwide on the App Store and Google Play."
   - q: "Does Rylo Live Transcribe work offline in a hospital or on a plane?"
     a: "Rylo says Live Transcribe works without Wi-Fi or mobile data, but doesn't say which languages work offline. Phone-call captions need internet. Captio AI needs internet for live captions; offline it records and transcribes when the phone is back online."
   - q: "Does Rylo use my in-person conversations to train its AI?"
-    a: "Rylo's terms say input to Live Transcribe may be used to train or improve its models, and its privacy policy says Rylo Live conversations may be recorded and stored. Its Live Transcribe page says transcripts are saved privately on your device. The terms also say the content of FCC-funded calls is not kept beyond the call."
+    a: "Rylo's terms say input to Live Transcribe may be used to train or improve its models, and its privacy policy says Rylo Live conversations may be recorded and stored. Its Live Transcribe page says transcripts are saved privately on your device. The terms also say the content of FCC-funded calls is not kept beyond the call. Captio AI's privacy policy says audio is not stored on its servers and content is never used to train AI models."
   - q: "Can Rylo translate Spanish into English?"
     a: "Rylo doesn't describe translating speech. It captions more than 50 languages, including Spanish, and detects when the language changes. Captio AI translates conversations live and shows the translation next to the original captions."
   - q: "Does Rylo use human captioners?"

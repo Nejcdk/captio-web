@@ -97,7 +97,7 @@ Captio AI, Google Pixel Recorder, Google Live Transcribe, Apple Live Captions an
 | Saved voices shown by name | Yes (version 1.1.3) | No, voice models are deleted a few minutes after labeling [3] | Not stated | Not stated | Not stated |
 | Languages | 60, including speech that switches languages mid-sentence | Speaker labels in US English only [3] | Several languages for offline use; total not stated [4] | Varies by region and language [6] | Long list of spoken-language variants [7] |
 | Works without internet | Records offline, transcribes when back online | Not stated | Yes, in offline languages [4] | Captions are generated on the device; offline use not stated [6] | Not stated |
-| Price | Free plan 10 minutes a day; Plus US$14.99 a month or US$79.99 a year on the US App Store [5] | Not stated on the page | Not stated on the page | Not stated on the page | Not stated on the page |
+| Price | Free plan: 100 free credits a day; Plus US$14.99 a month or US$79.99 a year on the US App Store [5] | Not stated on the page | Not stated on the page | Not stated on the page | Not stated on the page |
 
 The Captio AI cells come from the app's release notes and App Store listing [5]. Every other cell comes from the maker's own page, linked in the source list.
 
