@@ -5,7 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { DownloadCard, StoreButtons } from "@/components/StoreButtons";
 import FaqAccordion from "@/components/FaqAccordion";
-import { FeaturedOnLine } from "@/components/FeaturedOn";
+import HeroDownload from "@/components/HeroDownload";
 import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
@@ -104,6 +104,8 @@ const features = [
 ];
 
 const moreFeatures = [
+  { label: "AI ACTIONS", title: "To-dos, notes and a follow-up", description: "Turn any recording into key points, detailed notes, to-dos, Q&A or a follow-up message.", href: "/ai-actions" },
+  { label: "EXPORT", title: "Share it your way", description: "Send captions or a summary as text, a link, a PDF, an email or an AI chat prompt.", href: "/export" },
   { label: "FOLDERS", title: "Folders and shared folders", description: "Sort recordings into folders and share one with family, classmates or your team.", href: "/folders" },
   { label: "RECOGNIZE VOICES", title: "Names, not Speaker 2", description: "Save the voices of people you talk to often and see their names in your captions.", href: "/recognize-voices" },
   { label: "SPEAKER DIRECTION", title: "See where a voice comes from", description: "Waves at the edge of the captions point to who is talking. iPhone 16 and later.", href: "/speaker-direction" },
@@ -346,20 +348,7 @@ export default function HomePage() {
               Follow any conversation, meeting or lecture. In any language.
             </p>
 
-            <DownloadCard id="download" />
-            <FeaturedOnLine />
-
-            {/* App mockup */}
-            <div className="mt-6 sm:mt-10">
-              <Image
-                src="/mockup_app.png"
-                alt="Captio AI app showing live captions and translation"
-                width={400}
-                height={340}
-                className="w-[280px] sm:w-[400px] h-auto mx-auto drop-shadow-2xl"
-                priority
-              />
-            </div>
+            <HeroDownload alt="Captio AI app showing live captions and translation" />
           </div>
         </section>
 
@@ -409,12 +398,12 @@ export default function HomePage() {
             </div>
 
             <h3 className="text-xl font-bold text-gray-900 tracking-tight text-center mt-10 mb-5">More features</h3>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="flex flex-wrap justify-center gap-4">
               {moreFeatures.map((f) => (
                 <Link
                   key={f.href}
                   href={f.href}
-                  className="group bg-gray-50 border border-gray-100 rounded-xl p-5 flex flex-col gap-2 hover:border-brand/30 transition-colors"
+                  className="w-full sm:w-[calc(50%-0.5rem)] lg:w-[calc(25%-0.75rem)] group bg-gray-50 border border-gray-100 rounded-xl p-5 flex flex-col gap-2 hover:border-brand/30 transition-colors"
                 >
                   <span className="text-xs font-bold text-brand uppercase tracking-wide">{f.label}</span>
                   <span className="font-bold text-gray-900 text-base leading-snug">{f.title}</span>
