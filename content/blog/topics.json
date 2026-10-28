@@ -3043,8 +3043,9 @@
           "english"
         ]
       },
-      "status": "queued",
-      "priority": true
+      "status": "published",
+      "slug": "how-to-organize-and-share-meeting-transcripts-in-folders",
+      "published": "2026-10-28"
     },
     {
       "id": "how-to-caption-a-conversation-in-two-languages",
