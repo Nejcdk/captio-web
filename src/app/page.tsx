@@ -5,7 +5,6 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { DownloadCard, StoreButtons } from "@/components/StoreButtons";
 import FaqAccordion from "@/components/FaqAccordion";
-import { FeaturedOnLine } from "@/components/FeaturedOn";
 import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
@@ -342,10 +341,7 @@ export default function HomePage() {
           {/* Download box and app mockup: stacked on phones, side by side on a computer
               so both are on screen at once. */}
           <div className="max-w-5xl mx-auto mt-4 sm:mt-6 flex flex-col lg:flex-row items-center justify-center gap-4 sm:gap-6 lg:gap-14">
-            <div className="flex flex-col items-center gap-4 sm:gap-6">
-              <DownloadCard id="download" />
-              <FeaturedOnLine />
-            </div>
+            <DownloadCard id="download" />
 
             {/* App mockup */}
             <div className="mt-6 sm:mt-10 lg:mt-0">
