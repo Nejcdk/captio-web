@@ -1,0 +1,638 @@
+{
+  "header": {
+    "features": "Veçoritë",
+    "useCases": "Përdorimet",
+    "languages": "Gjuhët",
+    "compare": "Krahaso",
+    "blog": "Blog",
+    "download": "Shkarko",
+    "toggleMenu": "Hap ose mbyll menunë",
+    "chooseLanguage": "Zgjidh gjuhën"
+  },
+  "footer": {
+    "tagline": "Titra live dhe mjet produktiviteti për persona të shurdhër dhe me vështirësi në dëgjim.",
+    "productHuntTagline": "Titra live dhe transkriptim për persona të shurdhër dhe me vështirësi në dëgjim",
+    "productHunt": "Na shiko në Product Hunt →",
+    "featuredOn": "Paraqitur në",
+    "features": "Veçoritë",
+    "useCases": "Përdorimet",
+    "blog": "Blog",
+    "allArticles": "Të gjithë artikujt",
+    "compare": "Krahaso",
+    "compareApps": "Krahaso aplikacionet e titrave",
+    "company": "Kompania",
+    "organizations": "Për organizatat",
+    "privacy": "Politika e privatësisë",
+    "terms": "Kushtet e përdorimit"
+  },
+  "store": {
+    "appleOverline": "Shkarko nga",
+    "googleOverline": "Merre në",
+    "appleQrAlt": "Kodi QR për të shkarkuar Captio AI nga App Store për iPhone",
+    "googleQrAlt": "Kodi QR për të shkarkuar Captio AI nga Google Play për Android",
+    "downloadForFree": "Shkarko falas"
+  },
+  "common": {
+    "home": "Kryefaqja",
+    "back": "Prapa",
+    "goBack": "Kthehu prapa",
+    "explore": "Zbulo më shumë",
+    "featuresLabel": "Veçoritë",
+    "howItWorks": "Si funksionon",
+    "privacyLabel": "Privatësia",
+    "privacyTitle": "Ajo që dëgjon mbetet vetëm me ty.",
+    "privacyImageAlt": "Privat që në fillim: audioja jote nuk ruhet kurrë në serverët tanë, nuk shitet kurrë dhe nuk përdoret kurrë për trajnim",
+    "faqLabel": "Pyetje",
+    "faqTitle": "Pyetjet më të shpeshta",
+    "getStarted": "Fillo",
+    "freeToStart": "Me Captio AI mund të fillosh falas",
+    "allFeatures": "Captio AI përfshin «Titra live», «Përkthyes live», «Transkriptim audio» dhe «Përmbledhje me AI».",
+    "featureNames": {
+      "live-captions": "Titra live",
+      "live-translator": "Përkthyes live",
+      "audio-transcription": "Transkriptim audio",
+      "ai-summary": "Përmbledhje me AI"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Captio AI — titra live për të shurdhër e me vështirësi dëgjimi",
+      "description": "Captio AI: titra live, përkthim në kohë reale, transkriptim audio dhe përmbledhje me AI për të shurdhër dhe me vështirësi në dëgjim. 60+ gjuhë.",
+      "ogDescription": "Titra live, përkthim në kohë reale, transkriptim audio dhe përmbledhje me AI për të shurdhër dhe me vështirësi në dëgjim. 60+ gjuhë. iPhone dhe Android.",
+      "schemaDescription": "Titra live, përkthim në kohë reale, transkriptim audio dhe përmbledhje me AI për persona të shurdhër dhe me vështirësi në dëgjim. 60+ gjuhë."
+    },
+    "eyebrow": "🦻 Aksesueshmëri + 💻 Produktivitet, në një aplikacion",
+    "heroTitle": "[Titra live] dhe [mjet produktiviteti] për persona të shurdhër dhe me vështirësi në dëgjim.",
+    "heroSubtitle": "Ndiq çdo bisedë, takim apo leksion. Në çdo gjuhë.",
+    "mockupAlt": "Aplikacioni Captio AI me titra live dhe përkthim",
+    "featuresTitle": "Gjithçka që të duhet për të ndjekur çdo bisedë",
+    "featuresSubtitle": "Katër mjete të krijuara posaçërisht për persona të shurdhër dhe me vështirësi në dëgjim.",
+    "features": {
+      "live-captions": {
+        "title": "Nga e folura në tekst, në kohë reale",
+        "bullets": [
+          "Fjalë pas fjale, në kohë reale",
+          "Funksionon edhe në vende me zhurmë",
+          "Çdo theks, çdo ritëm",
+          "Pa pasur nevojë të lexosh buzët"
+        ]
+      },
+      "live-translator": {
+        "title": "Përkthe çdo gjuhë në kohë reale",
+        "bullets": [
+          "Përkthen ndërsa flasin",
+          "Secili flet gjuhën e vet",
+          "E ndjek ndërrimin e gjuhës në mes të fjalisë",
+          "60+ gjuhë"
+        ]
+      },
+      "audio-transcription": {
+        "title": "Transkripto çdo skedar audio ose video",
+        "bullets": [
+          "Çdo skedar audio ose video",
+          "I ndarë sipas folësve",
+          "60+ gjuhë",
+          "Lexo, kopjo, kërko, ndaj"
+        ]
+      },
+      "ai-summary": {
+        "title": "Ktheji transkriptet në përmbledhje të strukturuara",
+        "bullets": [
+          "Pikat kryesore dhe vendimet",
+          "Detyrat, të nxjerra veçmas",
+          "Funksionon me çdo transkript",
+          "E ndarë në seksione"
+        ]
+      }
+    },
+    "useCasesLabel": "Përdorimet",
+    "useCasesTitle": "Funksionon në çdo situatë",
+    "useCasesSubtitle": "Krijuar për momentet e vërteta që kanë rëndësi, jo vetëm për ambiente të qeta e të kontrolluara.",
+    "useCases": {
+      "everyday-conversations": {
+        "label": "Bisedat e përditshme",
+        "description": "Shumica e bisedave ndodhin shpejt, me ritëm normal dhe pa paralajmërim. Captio AI e kthen në titra çdo fjalë sapo thuhet, që ta ndjekësh bisedën pa i kërkuar askujt ta përsërisë."
+      },
+      "deaf-hoh-communication": {
+        "label": "Komunikimi me të shurdhër dhe me vështirësi në dëgjim",
+        "description": "Njerëzit që dëgjojnë shpesh nuk dinë si të përshtaten kur flasin me miq të shurdhër ose me vështirësi në dëgjim. Captio AI e kthen të folurën e tyre në titra në kohë reale, që biseda të rrjedhë natyrshëm nga të dyja anët."
+      },
+      "meetings": {
+        "label": "Takimet",
+        "description": "Në takime vendimet merren shpejt dhe njerëzit flasin njëri mbi tjetrin. Captio AI e kthen në titra çdo folës ndërsa flet, që të mos të shpëtojë asnjë vendim apo pyetje që të drejtohet ty."
+      },
+      "lectures": {
+        "label": "Leksionet",
+        "description": "Pedagogët flasin shpejt, shpjegojnë tema të vështira dhe rrallë përsërisin. Captio AI të jep një transkript live të gjithçkaje që thuhet, që të përqendrohesh te përmbajtja në vend që të sforcohesh për të dëgjuar."
+      },
+      "doctor-appointments": {
+        "label": "Vizitat te mjeku",
+        "description": "Mjekët flasin shpejt dhe përdorin terma mjekësorë që keqkuptohen lehtë. Captio AI të shfaq gjithçka që thonë në kohë reale, që ta kuptosh diagnozën dhe të bësh pyetjet e duhura."
+      },
+      "job-interviews": {
+        "label": "Intervistat për punë",
+        "description": "Nëse të shpëton një pyetje në intervistë, ose përgjigjesh gabim ose duhet të kërkosh ta përsërisin. Captio AI të shfaq çdo fjalë të intervistuesit, që të përqendrohesh plotësisht te përgjigja jote."
+      },
+      "phone-video-calls": {
+        "label": "Telefonatat dhe video thirrjet",
+        "description": "Telefonatat dhe video thirrjet ndiqen më vështirë se bisedat ballë për ballë. Nuk mund të lexosh buzët dhe zëri shpesh dëgjohet keq. Captio AI e kthen në titra këdo që flet, në kohë reale, që të mos kesh nevojë të kërkosh përsëritje."
+      },
+      "group-settings": {
+        "label": "Bisedat në grup",
+        "description": "Në grup flasin disa njerëz njëkohësisht dhe biseda ecën shpejt. Captio AI ndjek këdo që flet, që ta ndjekësh bisedën pa e humbur fillin."
+      },
+      "restaurants": {
+        "label": "Restorante dhe kafene",
+        "description": "Zhurma përreth e bën të folurën të vështirë për t'u ndjekur edhe për ata që dëgjojnë mirë. Captio AI përqendrohet te ai që të flet ty, që të bësh një bisedë të vërtetë edhe në mes të zhurmës."
+      },
+      "traveling": {
+        "label": "Udhëtimet",
+        "description": "Në aeroporte, hotele dhe qytete të panjohura nuk ka vend për keqkuptime. Captio AI e kthen të folurën në titra në 60+ gjuhë, që të lëvizësh me siguri kudo që të shkosh."
+      },
+      "conferences": {
+        "label": "Konferenca dhe evente",
+        "description": "Folësit janë larg, akustika është e paparashikueshme dhe nuk mund të kërkosh përsëritje. Captio AI të jep një transkript live të çdo folësi, që ta ndjekësh gjithë eventin nga çdo vend në sallë."
+      },
+      "tv-media": {
+        "label": "TV dhe media",
+        "description": "Titrat e integruara shpesh janë gabim, vonohen ose mungojnë fare. Captio AI e kthen në titra në kohë reale çfarëdo që po luhet, që të mos varesh nga fakti nëse përmbajtja ka titra apo jo."
+      }
+    },
+    "languagesLabel": "Gjuhët",
+    "languagesTitle": "Captio AI mbështet 60+ gjuhë",
+    "privacyCards": [
+      {
+        "title": "Audioja nuk mbetet në serverët tanë",
+        "description": "Audioja jote kthehet në tekst në kohë reale dhe nuk ruhet kurrë në serverët tanë. Regjistrimet që ruan mbeten në telefonin tënd, dhe transkriptet e tyre sinkronizohen vetëm me llogarinë tënde."
+      },
+      {
+        "title": "Nuk janë për shitje",
+        "description": "Captio AI nuk i shet, nuk i ndan dhe nuk fiton para nga bisedat e tua, me askënd dhe për asnjë arsye."
+      },
+      {
+        "title": "Nuk përdoret për trajnim",
+        "description": "Ajo që thua te mjeku ose në një intervistë pune nuk përfundon kurrë në një bazë të dhënash për trajnim. As në tonën. As në të askujt tjetër."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Për kë është krijuar Captio AI?",
+        "a": "Captio AI është krijuar kryesisht për persona të shurdhër dhe me vështirësi në dëgjim, që kanë nevojë të ndjekin bisedat në kohë reale. E përdorin gjerësisht edhe njerëz me çrregullim të përpunimit dëgjimor, njerëz në ambiente me zhurmë, ata që mësojnë gjuhë të huaja dhe kushdo që e ka më të shpejtë ose më të lehtë të lexojë sesa të dëgjojë."
+      },
+      {
+        "q": "Sa të sakta janë titrat live?",
+        "a": "Captio AI përdor njohje të avancuar të të folurës, të ndërtuar posaçërisht për saktësi dhe vonesë të ulët. Saktësia varet nga qartësia e zërit, theksi dhe zhurma përreth, por në kushte të zakonshme bisede është shumë e lartë, e krahasueshme me shërbimet profesionale të titrimit."
+      },
+      {
+        "q": "Cilat gjuhë mbështet Captio AI?",
+        "a": "Captio AI mbështet 60+ gjuhë, përfshirë anglishten, spanjishten, frëngjishten, gjermanishten, kinezishten mandarine, arabishten, hindishten, japonishten, koreanishten, portugalishten, rusishten dhe shumë të tjera. Të gjitha gjuhët janë të disponueshme për «Titra live» dhe «Përkthyes live». Lista e plotë është në këtë faqe."
+      },
+      {
+        "q": "A funksionon Captio AI me thekse dhe dialekte të ndryshme?",
+        "a": "Po. Captio AI kupton një gamë të gjerë theksesh dhe dialektesh rajonale, jo vetëm të folurën standarde të librave. Mbështet anglishten australiane, spanjishten e Amerikës Latine, gjermanishten zvicerane, portugalishten braziliane, frëngjishten e Kebekut dhe shumë të tjera."
+      },
+      {
+        "q": "Cili është ndryshimi mes «Titra live» dhe «Përkthyes live»?",
+        "a": "«Titra live» e kthen të folurën në tekst në gjuhën në të cilën flitet. «Përkthyes live» e merr atë të folur dhe e përkthen në kohë reale në gjuhën që zgjedh ti. Ideale kur folësi dhe lexuesi flasin gjuhë të ndryshme, si me një mjek të huaj ose në një takim pune në një gjuhë tjetër."
+      },
+      {
+        "q": "A e ruan apo e ndan Captio AI audion time?",
+        "a": "Captio AI nuk e ruan kurrë audion tënde në serverët e vet dhe nuk e shet e nuk e ndan kurrë për reklama. Ajo dërgohet në mënyrë të sigurt te një shërbim i njohjes së të folurit vetëm për ta kthyer në tekst, dhe pastaj fshihet atje. Regjistrimet që zgjedh të ruash mbeten në telefonin tënd; transkriptet dhe përmbledhjet e tyre ruhen edhe në llogarinë tënde, që të hapen në një pajisje tjetër, dhe kur fshin një regjistrim, ai hiqet kudo. Bisedat e tua nuk përdoren kurrë për të trajnuar modele AI, as tonat, as të askujt tjetër."
+      },
+      {
+        "q": "A funksionon Captio AI pa internet?",
+        "a": "«Titra live» dhe «Përkthyes live» kanë nevojë për lidhje interneti që ta përpunojnë të folurën në kohë reale. Edhe «Transkriptim audio» (për skedarët që ngarkon) ka nevojë për internet. Titrat pa internet nuk mbështeten aktualisht."
+      },
+      {
+        "q": "Çfarë telefoni ose iPad më duhet?",
+        "a": "Captio AI funksionon në iPhone dhe iPad me iOS 16 ose më të ri, si dhe në telefonat Android. Është optimizuar për telefon dhe funksionon më mirë kur asgjë nuk qëndron mes mikrofonit dhe folësit."
+      },
+      {
+        "q": "A mund ta përdor Captio AI te mjeku?",
+        "a": "Po, vizitat te mjeku janë një nga përdorimet më të rëndësishme. Mund ta vendosësh telefonin mbi tavolinë ose ta mbash drejt mjekut dhe të lexosh në kohë reale gjithçka që thotë. Termat mjekësorë njihen saktë, prandaj Captio AI është një mjet praktik aksesueshmërie në kujdesin shëndetësor."
+      },
+      {
+        "q": "A mund ta përdor Captio AI në takime dhe leksione?",
+        "a": "Po. Captio AI funksionon kudo ku flitet: takime pune, leksione në universitet, mbledhje të shkurtra ekipi, konferenca dhe video thirrje. Drejtoje mikrofonin nga folësi dhe titrat shfaqen menjëherë."
+      },
+      {
+        "q": "Çfarë është «Transkriptim audio» dhe si ndryshon nga «Titra live»?",
+        "a": "«Titra live» punon në kohë reale, ndërsa dikush flet. «Transkriptim audio» është për regjistrimet: ngarkon një skedar audio ose video dhe merr transkriptin e plotë me shkrim. Është ideal për të rishikuar leksione që ke regjistruar, intervista, podkaste ose çdo përmbajtje që preferon ta lexosh në vend që ta dëgjosh."
+      },
+      {
+        "q": "Çfarë bën «Përmbledhje me AI»?",
+        "a": "«Përmbledhje me AI» merr çdo transkript dhe nxjerr informacionin kryesor (pikat kryesore, vendimet e marra, detyrat dhe detajet e rëndësishme) në një përmbledhje të strukturuar. Të kursen kohë kur ke një transkript të gjatë nga një takim ose leksion dhe të duhen shpejt pikat kyçe."
+      },
+      {
+        "q": "A është Captio AI falas?",
+        "a": "Captio AI ka një plan falas që të lejon të fillosh pa paguar asgjë. Për ata që duan përdorim të pakufizuar ka planin Plus. Çmimi aktual i Plus për vendin tënd shfaqet në faqen e aplikacionit në App Store."
+      },
+      {
+        "q": "Si ndryshon Captio AI nga titrat live të integruara të Apple?",
+        "a": "Titrat live të Apple janë pjesë e iOS, por mbështesin më pak gjuhë, nuk ofrojnë përkthim dhe nuk kanë «Transkriptim audio» ose «Përmbledhje me AI». Captio AI mbështet 60+ gjuhë, përkthen në kohë reale, të lejon të transkriptosh skedarët që ngarkon dhe krijon përmbledhje me AI, ndaj është një mjet aksesueshmërie dhe produktiviteti shumë më i plotë."
+      }
+    ]
+  },
+  "featurePages": {
+    "live-captions": {
+      "meta": {
+        "title": "Titra live në iPhone për të shurdhër e me vështirësi dëgjimi",
+        "description": "Nga e folura në tekst në kohë reale, me mikrofonin e iPhone. Ndiq çdo bisedë, në çdo gjuhë, menjëherë. Për të shurdhër dhe me vështirësi në dëgjim.",
+        "schemaDescription": "Titra live në kohë reale për persona të shurdhër dhe me vështirësi në dëgjim. 60+ gjuhë, vonesë shumë nën një sekondë, funksionon kudo."
+      },
+      "howTitle": "Tri prekje. Gjithë biseda.",
+      "steps": [
+        {
+          "title": "Nis regjistrimin",
+          "desc": "Shtyp butonin e regjistrimit. Captio AI fillon të dëgjojë menjëherë."
+        },
+        {
+          "title": "Shiko fjalët teksa shfaqen",
+          "desc": "Titrat shfaqen fjalë pas fjale, ndërsa personi ende po flet."
+        },
+        {
+          "title": "Ruaje",
+          "desc": "Mbaje transkriptin dhe regjistrimin audio për më vonë."
+        }
+      ],
+      "featuresTitle": "Krijuar për biseda të vërteta",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Fjalët që u thanë vërtet",
+          "description": "Captio AI kap atë që dikush tha në të vërtetë, jo një parafrazim të përafërt. Kështu mund t'i besosh transkriptit kur ka rëndësi: te mjeku, në intervistë, në takim."
+        },
+        {
+          "title": "Pa vonesë",
+          "description": "Vonesa është shumë nën një sekondë. Titrat shfaqen fjalë pas fjale, ndërsa personi ende po flet, ndaj e lexon atë që thotë në të njëjtin moment kur e dëgjojnë të tjerët."
+        },
+        {
+          "title": "E di kush po flet",
+          "description": "Në grupe dhe takime, Captio AI i shënon folësit veç e veç, që ta dish gjithmonë kush tha çfarë, pa ndjekur fytyrat apo lëvizjet e buzëve."
+        },
+        {
+          "title": "60+ gjuhë",
+          "description": "Ndiq një bisedë në frëngjisht, japonisht apo arabisht njësoj si në anglisht. Pa ndërruar regjim. Humbja e dëgjimit nuk bëhet kurrë edhe pengesë gjuhësore."
+        },
+        {
+          "title": "Kupton gjuhët që përzihen në mes të fjalisë",
+          "description": "Kur njerëzit ndërrojnë gjuhë gjatë bisedës, Captio AI i ndjek. Pa boshllëqe në titra, pa regjim për të ndërruar."
+        },
+        {
+          "title": "Mësoji fjalorin tënd",
+          "description": "Shto emra, terma mjekësorë ose fjalë të specializuara që i dëgjon shpesh. Captio AI përdor listën tënde të fjalëve që t'i kthejë më saktë në titra bisedat e tua të vërteta."
+        },
+        {
+          "title": "Shto një sugjerim gjuhe",
+          "description": "Thuaji Captio AI cilën gjuhë të presë dhe do të jetë gati që nga fjala e parë. E dobishme kur nga konteksti nuk kuptohet se ç'gjuhë flitet."
+        },
+        {
+          "title": "Ritranskripto më vonë për më shumë saktësi",
+          "description": "Kaloje sërish çdo regjistrim më vonë për një transkript më të pastër. E dobishme për leksione, vizita dhe çdo bisedë që ia vlen të rishikohet."
+        },
+        {
+          "title": "Lexoje si të të pëlqejë",
+          "description": "Rregullo madhësinë e tekstit, ngjyrën e sfondit dhe kontrastin derisa titrat të lexohen lehtë me një vështrim: me telefonin në dorë, shtrirë mbi tavolinë ose të mbështetur në tavolinën e punës."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Audioja nuk mbetet në serverët tanë",
+          "description": "Audioja jote kthehet në tekst në kohë reale dhe nuk ruhet kurrë në serverët tanë. Regjistrimet që ruan mbeten në telefonin tënd, dhe transkriptet e tyre sinkronizohen vetëm me llogarinë tënde."
+        },
+        {
+          "title": "Nuk janë për shitje",
+          "description": "Captio AI nuk i shet, nuk i ndan dhe nuk fiton para nga bisedat e tua, me askënd dhe për asnjë arsye."
+        },
+        {
+          "title": "Nuk përdoret për trajnim",
+          "description": "Ajo që thua te mjeku ose në një intervistë pune nuk përfundon kurrë në një bazë të dhënash për trajnim. As në tonën. As në të askujt tjetër."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Si ndryshon Captio AI nga titrat live të integruara të Apple?",
+          "a": "Titrat live të Apple mbështesin më pak gjuhë, nuk ofrojnë përkthim dhe nuk kanë «Transkriptim audio» ose «Përmbledhje me AI». Captio AI mbështet 60+ gjuhë, përkthen në kohë reale, të lejon të transkriptosh skedarët që ngarkon dhe krijon përmbledhje me AI. Të lejon gjithashtu të rregullosh madhësinë e tekstit, ngjyrat dhe kontrastin ashtu si lexon më mirë."
+        },
+        {
+          "q": "Sa të sakta janë titrat live?",
+          "a": "Në kushte të zakonshme bisede saktësia është e lartë. Captio AI është ndërtuar për të folurën e vërtetë, jo vetëm për audio të pastër studioje, ndaj ia del mbanë me ata që flasin shpejt, me thekset rajonale, me zhurmën përreth dhe me fjalitë që përziejnë gjuhët. Mund të shtosh edhe fjalorin tënd (emra, terma mjekësorë, fjalë të specializuara) për më shumë saktësi në bisedat e tua."
+        },
+        {
+          "q": "Sa shpejt shfaqen titrat?",
+          "a": "Fjalë pas fjale, ndërsa personi ende po flet. Vonesa është shumë nën një sekondë, pothuajse në kohë reale. E lexon atë që thotë dikush në të njëjtin moment kur e dëgjojnë të tjerët, jo pasi ta ketë mbaruar fjalinë."
+        },
+        {
+          "q": "A funksionon «Titra live» në vende me zhurmë?",
+          "a": "Po. Captio AI është krijuar për ambiente të vërteta: restorante, rrugë, salla pritjeje, transport publik. Drejtoje mikrofonin nga folësi dhe titrat shfaqen pavarësisht zhurmës përreth."
+        },
+        {
+          "q": "Cilat gjuhë mbështet «Titra live»?",
+          "a": "60+ gjuhë, përfshirë anglishten, spanjishten, frëngjishten, gjermanishten, kinezishten mandarine, arabishten, hindishten, japonishten, koreanishten, portugalishten, rusishten dhe shumë të tjera. Thekset dhe dialektet rajonale mbështeten në të gjitha gjuhët kryesore."
+        },
+        {
+          "q": "A funksionon me thekse dhe dialekte?",
+          "a": "Po. Captio AI kupton një gamë të gjerë theksesh rajonale, jo vetëm të folurën standarde të librave. Mbështeten anglishtja australiane, spanjishtja e Amerikës Latine, gjermanishtja zvicerane, frëngjishtja e Kebekut dhe shumë të tjera."
+        },
+        {
+          "q": "A mund t'i ruaj titrat?",
+          "a": "Po. Pas çdo seance mund t'i ruash transkriptet dhe regjistrimet audio dhe t'i rishikosh më vonë. Mund edhe ta ritranskriptosh një regjistrim të ruajtur për një transkript më të pastër dhe më të saktë."
+        },
+        {
+          "q": "A më duhet internet?",
+          "a": "Po. «Titra live» ka nevojë për lidhje interneti që ta përpunojë të folurën në kohë reale. Titrat pa internet nuk mbështeten aktualisht."
+        }
+      ]
+    },
+    "live-translator": {
+      "meta": {
+        "title": "Përkthyes live: përkthim i të folurës në kohë reale në iPhone",
+        "description": "Përkthim i të folurës në kohë reale në iPhone. Tjetri flet gjuhën e vet, ti lexon në tënden, menjëherë. Për të shurdhër dhe me vështirësi në dëgjim.",
+        "schemaDescription": "Përkthim i të folurës në kohë reale për persona të shurdhër dhe me vështirësi në dëgjim. 60+ gjuhë, secili flet gjuhën e vet, ti lexon në tënden."
+      },
+      "howTitle": "Tri prekje. Çdo gjuhë.",
+      "steps": [
+        {
+          "title": "Zgjidh përkthyesin",
+          "desc": "Hap Captio AI dhe zgjidh «Përkthyes live»."
+        },
+        {
+          "title": "Zgjidh gjuhën që do",
+          "desc": "Zgjidh gjuhën në të cilën do të lexosh."
+        },
+        {
+          "title": "Shiko përkthimin në kohë reale",
+          "desc": "Captio AI përkthen fjalë pas fjale."
+        }
+      ],
+      "featuresTitle": "Krijuar për biseda të vërteta",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Çdo gjuhë",
+          "description": "Frëngjisht, japonisht, arabisht, spanjisht, gjermanisht, kinezisht mandarine: 60+ gjuhë, në çdo drejtim. Humbja e dëgjimit nuk bëhet kurrë edhe pengesë gjuhësore."
+        },
+        {
+          "title": "E njeh vetë gjuhën që flitet",
+          "description": "Lëre gjuhën burimore në «automatik» dhe Captio AI e kupton që nga fjalët e para. Nuk ke pse ta zgjedhësh me dorë para çdo bisede."
+        },
+        {
+          "title": "Pa vonesë",
+          "description": "Vonesa e përkthimit është shumë nën një sekondë. E lexon atë që thotë dikush në të njëjtin moment kur e dëgjojnë të tjerët, jo pasi ta ketë mbaruar fjalinë."
+        },
+        {
+          "title": "Shto sugjerime gjuhe",
+          "description": "Thuaji Captio AI cilën gjuhë të presë dhe do të jetë gati që nga fjala e parë. E dobishme kur nga konteksti nuk kuptohet se ç'gjuhë flitet."
+        },
+        {
+          "title": "Disa gjuhë njëkohësisht",
+          "description": "Kur njerëzit ndërrojnë gjuhë gjatë bisedës, Captio AI i ndjek dhe i përkthen të gjitha në gjuhën tënde, pa pasur nevojë të ndërhysh."
+        },
+        {
+          "title": "Lexoje si të të pëlqejë",
+          "description": "Rregullo ngjyrën e sfondit, ngjyrën e tekstit dhe madhësinë e shkronjave që përkthimi të lexohet lehtë me një vështrim, me telefonin në dorë ose shtrirë mbi tavolinë."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Audioja nuk mbetet në serverët tanë",
+          "description": "Audioja jote kthehet në tekst në kohë reale dhe nuk ruhet kurrë në serverët tanë. Regjistrimet që ruan mbeten në telefonin tënd, dhe transkriptet e tyre sinkronizohen vetëm me llogarinë tënde."
+        },
+        {
+          "title": "Nuk janë për shitje",
+          "description": "Captio AI nuk i shet, nuk i ndan dhe nuk fiton para nga bisedat e tua, me askënd dhe për asnjë arsye."
+        },
+        {
+          "title": "Nuk përdoret për trajnim",
+          "description": "Ajo që thua te mjeku ose në një intervistë pune nuk përfundon kurrë në një bazë të dhënash për trajnim. As në tonën. As në të askujt tjetër."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Si ndryshon «Përkthyes live» nga «Titra live»?",
+          "a": "«Titra live» e kthen të folurën në tekst në gjuhën origjinale. «Përkthyes live» e merr atë të folur dhe e përkthen në kohë reale në gjuhën që zgjedh ti. Nëse tjetri flet frëngjisht dhe ti lexon anglisht, të duhet «Përkthyes live»."
+        },
+        {
+          "q": "Sa i saktë është përkthimi?",
+          "a": "Për çiftet e zakonshme të gjuhëve në bisedat e përditshme, përkthimi është shumë i saktë. Captio AI e kupton të folurën natyrale (njerëz që flasin shpejt, thekse, zhurmë përreth), jo vetëm audio të pastër studioje. Për çifte të rralla gjuhësh ose për përmbajtje shumë teknike, saktësia mund të ndryshojë."
+        },
+        {
+          "q": "Cilat gjuhë mbështeten?",
+          "a": "60+ gjuhë, përfshirë anglishten, spanjishten, frëngjishten, gjermanishten, kinezishten mandarine, arabishten, hindishten, japonishten, koreanishten, portugalishten, rusishten dhe shumë të tjera. Si gjuha burimore, ashtu edhe gjuha e përkthimit mund të jetë cilado nga gjuhët e mbështetura."
+        },
+        {
+          "q": "Sa shpejt shfaqet përkthimi?",
+          "a": "Vonesa është shumë nën një sekondë. E lexon përkthimin fjalë pas fjale, ndërsa personi ende po flet, pothuajse në kohë reale, jo pasi ta ketë mbaruar fjalinë."
+        },
+        {
+          "q": "A funksionon te një mjek që flet një gjuhë tjetër?",
+          "a": "Po. Ky është një nga përdorimet më të rëndësishme. Vendose telefonin mbi tavolinë, cakto si gjuhë burimore gjuhën e mjekut dhe lexo në kohë reale, në gjuhën tënde, gjithçka që thotë. Mund ta ruash edhe transkriptin e përkthyer, që t'i rishikosh më pas udhëzimet e tij."
+        },
+        {
+          "q": "A funksionon në vende me zhurmë?",
+          "a": "Po. Captio AI është ndërtuar për ambiente të vërteta: salla pritjeje, restorante, aeroporte. Drejtoje mikrofonin nga folësi dhe përkthimi shfaqet pavarësisht zhurmës përreth."
+        },
+        {
+          "q": "A mund ta ruaj transkriptin e përkthyer?",
+          "a": "Po. Pas seancës mund ta ruash tekstin e përkthyer dhe ta rishikosh më vonë. E dobishme për vizita mjekësore, takime dhe çdo bisedë që do ta kesh të shkruar."
+        },
+        {
+          "q": "A më duhet internet?",
+          "a": "Po. «Përkthyes live» ka nevojë për lidhje interneti që ta përpunojë dhe ta përkthejë të folurën në kohë reale. Përkthimi pa internet nuk mbështetet aktualisht."
+        }
+      ]
+    },
+    "audio-transcription": {
+      "meta": {
+        "title": "Transkriptim audio: audio dhe video në tekst në iPhone",
+        "description": "Ngarko çdo skedar audio ose video dhe merr transkriptin e plotë. 60+ gjuhë, ndarje sipas folësve, me kërkim. Për të shurdhër dhe me vështirësi në dëgjim.",
+        "schemaDescription": "Ngarko çdo skedar audio ose video dhe merr transkriptin e plotë. 60+ gjuhë, ndarje sipas folësve, vula kohore. Për të shurdhër dhe me vështirësi në dëgjim."
+      },
+      "howTitle": "Ngarko. Lexo. Gati.",
+      "steps": [
+        {
+          "title": "Zgjidh llojin e skedarit",
+          "desc": "Zgjidh nëse po ngarkon një skedar audio apo video."
+        },
+        {
+          "title": "Zgjidh një skedar",
+          "desc": "Zgjidh skedarin nga telefoni. Captio AI fillon transkriptimin menjëherë."
+        },
+        {
+          "title": "Shiko transkriptin",
+          "desc": "Lexo transkriptin e plotë, të ndarë sipas folësve, me vula kohore."
+        }
+      ],
+      "featuresTitle": "Krijuar për regjistrime të vërteta",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Çdo format",
+          "description": "MP3, MP4, M4A, WAV dhe të tjera. Leksione, takime, mesazhe zanore, podkaste, intervista, regjistrime telefonatash: nëse ka të folur, Captio AI mund ta transkriptojë."
+        },
+        {
+          "title": "Saktësia më e lartë",
+          "description": "Captio AI është ndërtuar për audio nga jeta e vërtetë, jo vetëm për skedarë të pastër studioje. Audio nga telefonatat, regjistrime në sallat e leksioneve, ambiente me zhurmë: i përballon të gjitha."
+        },
+        {
+          "title": "Çdo gjuhë",
+          "description": "Ngarko një regjistrim në frëngjisht, japonisht, arabisht ose në 57 gjuhë të tjera. Captio AI e njeh gjuhën dhe e transkripton saktë."
+        },
+        {
+          "title": "Disa gjuhë",
+          "description": "Kur folësit ndërrojnë gjuhë gjatë regjistrimit, Captio AI i ndjek. Transkripti përmban çdo gjuhë që u fol, pa boshllëqe."
+        },
+        {
+          "title": "Vula kohore",
+          "description": "Çdo rresht i transkriptit ka vulë kohore, që të kalosh në çdo moment të regjistrimit dhe të gjesh saktësisht çfarë u tha dhe kur."
+        },
+        {
+          "title": "Eksporto dhe ndaj",
+          "description": "Kopjo transkriptin e plotë, ndaje ose ruaje. Regjistrimet dhe transkriptet e tua mbeten në dispozicion sa herë që të duhen."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Skedarët nuk mbeten në serverët tanë",
+          "description": "Skedari yt dërgohet vetëm që të transkriptohet, pastaj fshihet atje dhe nuk ruhet kurrë në serverët tanë. Regjistrimi mbetet në telefonin tënd, dhe transkripti i tij sinkronizohet vetëm me llogarinë tënde."
+        },
+        {
+          "title": "Nuk janë për shitje",
+          "description": "Captio AI nuk i shet, nuk i ndan dhe nuk fiton para nga regjistrimet e tua, me askënd dhe për asnjë arsye."
+        },
+        {
+          "title": "Nuk përdoret për trajnim",
+          "description": "Ajo që ngarkon (një vizitë te mjeku, një takim, një intervistë) nuk përfundon kurrë në një bazë të dhënash për trajnim. As në tonën. As në të askujt tjetër."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Si ndryshon «Transkriptim audio» nga «Titra live»?",
+          "a": "«Titra live» punon në kohë reale, ndërsa dikush flet. «Transkriptim audio» është për regjistrimet: ngarkon një skedar audio ose video dhe merr transkriptin e plotë me shkrim. Është ideal për të rishikuar leksione që ke regjistruar, vizita te mjeku, intervista ose çdo përmbajtje që preferon ta lexosh në vend që ta dëgjosh."
+        },
+        {
+          "q": "Cilat formate skedarësh mbështet «Transkriptim audio»?",
+          "a": "Captio AI pranon formatet e zakonshme audio dhe video, përfshirë MP3, MP4, M4A, WAV dhe të tjera. Nëse e ke regjistruar me telefon ose e ke shkarkuar nga një platformë video, do të funksionojë."
+        },
+        {
+          "q": "Sa i saktë është transkriptimi?",
+          "a": "Për regjistrime të qarta në gjuhët e mbështetura, saktësia është e lartë. Captio AI e përballon audion nga jeta e vërtetë (telefonata, regjistrime në sallat e leksioneve, ambiente me zhurmë), jo vetëm skedarë me cilësi studioje. Nëse duhet, mund ta ritranskriptosh skedarin edhe një herë."
+        },
+        {
+          "q": "Cilat gjuhë mbështeten?",
+          "a": "60+ gjuhë, përfshirë anglishten, spanjishten, frëngjishten, gjermanishten, kinezishten mandarine, arabishten, hindishten, japonishten, koreanishten, portugalishten, rusishten dhe shumë të tjera. Captio AI e njeh vetë gjuhën që flitet në skedar."
+        },
+        {
+          "q": "A i ndan folësit?",
+          "a": "Po. Captio AI e shënon veç çdo folës në transkript, që ta ndjekësh kush tha çfarë. E dobishme për takime, intervista, vizita te mjeku dhe çdo regjistrim me disa persona."
+        },
+        {
+          "q": "Sa zgjat transkriptimi?",
+          "a": "Transkriptimi është i shpejtë. Për një regjistrim njëorësh zakonisht duhen disa minuta. Koha varet nga gjatësia e skedarit dhe cilësia e zërit."
+        },
+        {
+          "q": "A ruhet audioja ime pas transkriptimit?",
+          "a": "Jo në serverët e Captio AI. Skedari dërgohet në mënyrë të sigurt te një shërbim i njohjes së të folurit vetëm që të transkriptohet, dhe fshihet atje sapo transkripti është gati. Regjistrimi mbetet në telefonin tënd, dhe transkripti i tij ruhet edhe në llogarinë tënde, që të hapet në një pajisje tjetër. Regjistrimet e tua nuk shiten kurrë dhe nuk përdoren për të trajnuar modele AI."
+        },
+        {
+          "q": "A mund të transkriptoj një skedar video?",
+          "a": "Po. Ngarko drejtpërdrejt skedarin video dhe Captio AI e nxjerr audion dhe e transkripton. Nuk ke pse ta konvertosh skedarin më parë."
+        }
+      ]
+    },
+    "ai-summary": {
+      "meta": {
+        "title": "Përmbledhje me AI: përmbledhje e strukturuar e çdo transkripti",
+        "description": "Ktheje çdo transkript në një përmbledhje të strukturuar. Pikat kryesore, vendimet dhe detyrat nxirren vetë. Për të shurdhër dhe me vështirësi në dëgjim.",
+        "schemaDescription": "Ktheje çdo transkript në një përmbledhje të strukturuar. Pikat kryesore, vendimet, detyrat dhe citatet e folësve nxirren automatikisht."
+      },
+      "howTitle": "Hyn transkripti. Del përmbledhja.",
+      "steps": [
+        {
+          "title": "Hap një transkript",
+          "desc": "Zgjidh çdo transkript nga «Titra live» ose «Transkriptim audio»."
+        },
+        {
+          "title": "Krijo përmbledhjen",
+          "desc": "Prek «Përmbledhje me AI». Captio AI e përpunon transkriptin automatikisht."
+        },
+        {
+          "title": "Lexo përmbledhjen",
+          "desc": "Përmbledhja jote është gati, e ndarë në seksione, për ta lexuar ose për ta ndarë me të tjerët."
+        }
+      ],
+      "featuresTitle": "Krijuar për transkripte të gjata",
+      "featuresSubtitle": "Merr përmbledhje, listë detyrash, citate të folësve, shënime dhe më shumë.",
+      "subfeatures": [
+        {
+          "title": "Pikat kryesore, të nxjerra automatikisht",
+          "description": "Captio AI lexon gjithë transkriptin dhe nxjerr atë që pati vërtet rëndësi: pikat kryesore, vendimet e marra dhe përfundimet."
+        },
+        {
+          "title": "Detyrat në pah",
+          "description": "Detyrat dhe hapat e mëtejshëm gjenden dhe listohen veçmas, që të mos të shpëtojë asgjë pas një takimi, vizite ose leksioni."
+        },
+        {
+          "title": "E ndarë në seksione",
+          "description": "Përmbledhja është e strukturuar, jo një bllok i vetëm teksti. Çdo temë ka seksionin e vet, që ta shfletosh shpejt dhe të gjesh atë që të duhet."
+        },
+        {
+          "title": "Funksionon me çdo transkript të Captio AI",
+          "description": "Përdor «Përmbledhje me AI» për çdo transkript që ke krijuar me «Titra live» ose «Transkriptim audio». Pa hapa shtesë, pa kopjo-ngjit."
+        },
+        {
+          "title": "Çdo gjuhë",
+          "description": "Përmblidh transkripte në 60+ gjuhë. Captio AI e lexon transkriptin në gjuhën origjinale dhe krijon një përmbledhje që mund ta lexosh."
+        },
+        {
+          "title": "Ruaje dhe ndaje",
+          "description": "Mbaje përmbledhjen bashkë me transkriptin, kopjoje ose ndaje. E dobishme pas vizitave te mjeku, takimeve dhe leksioneve."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Ruhet vetëm në llogarinë tënde",
+          "description": "Përmbledhja jote ruhet bashkë me regjistrimin, në telefonin tënd dhe në llogarinë tënde, ndaj është e disponueshme në çdo pajisje ku hyn. Fshije dhe zhduket kudo."
+        },
+        {
+          "title": "Nuk janë për shitje",
+          "description": "Captio AI nuk i shet, nuk i ndan dhe nuk fiton para nga bisedat e tua, me askënd dhe për asnjë arsye."
+        },
+        {
+          "title": "Nuk përdoret për trajnim",
+          "description": "Ajo që përmbledh (një vizitë te mjeku, një takim, një intervistë) nuk përfundon kurrë në një bazë të dhënash për trajnim. As në tonën. As në të askujt tjetër."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Çfarë bën «Përmbledhje me AI»?",
+          "a": "«Përmbledhje me AI» merr çdo transkript dhe nxjerr informacionin kryesor (pikat kryesore, vendimet, detyrat dhe detajet e rëndësishme) në një përmbledhje të strukturuar. Të kursen kohë kur ke një transkript të gjatë dhe të duhen shpejt pikat kyçe."
+        },
+        {
+          "q": "Cilat transkripte mund të përmbledh?",
+          "a": "Çdo transkript të krijuar në Captio AI, nga «Titra live» ose «Transkriptim audio». «Përmbledhje me AI» e përdor drejtpërdrejt mbi transkriptin, pa hapa shtesë."
+        },
+        {
+          "q": "Si ndryshon «Përmbledhje me AI» nga leximi i thjeshtë i transkriptit?",
+          "a": "Transkripti i plotë i një takimi njëorësh mund të ketë mijëra fjalë. «Përmbledhje me AI» të jep pikat kryesore, vendimet dhe detyrat për një pjesë të vogël të kohës së leximit, të renditura sipas temës, jo sipas radhës në të cilën u thanë."
+        },
+        {
+          "q": "A funksionon për vizitat mjekësore?",
+          "a": "Po. Gjatë një vizite te mjeku merr shumë informacion në pak kohë. «Përmbledhje me AI» nxjerr diagnozën, udhëzimet dhe hapat e mëtejshëm në një listë të qartë, që mund ta rishikosh dhe t'i rikthehesh kur të duash."
+        },
+        {
+          "q": "Cilat gjuhë mbështeten?",
+          "a": "«Përmbledhje me AI» funksionon me transkripte në 60+ gjuhë. Përmbledhja krijohet në të njëjtën gjuhë si transkripti."
+        },
+        {
+          "q": "A mund ta ruaj ose ta ndaj përmbledhjen?",
+          "a": "Po. Mund ta ruash përmbledhjen bashkë me transkriptin origjinal, ta kopjosh ose ta ndash. E dobishme për të dërguar një përmbledhje takimi ose për të mbajtur shënim të një vizite mjekësore."
+        },
+        {
+          "q": "A e ruan «Përmbledhje me AI» transkriptin ose audion time?",
+          "a": "Transkripti yt dërgohet në mënyrë të sigurt te një shërbim AI vetëm për të shkruar përmbledhjen dhe nuk përdoret kurrë për të trajnuar modele AI. Përmbledhja ruhet bashkë me regjistrimin, në telefonin tënd dhe në llogarinë tënde, derisa ta fshish. Audioja nuk ruhet kurrë në serverët e Captio AI, dhe bisedat e tua nuk shiten kurrë."
+        }
+      ]
+    }
+  }
+}

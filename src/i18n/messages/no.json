@@ -1,0 +1,638 @@
+{
+  "header": {
+    "features": "Funksjoner",
+    "useCases": "Bruksområder",
+    "languages": "Språk",
+    "compare": "Sammenlign",
+    "blog": "Blogg",
+    "download": "Last ned",
+    "toggleMenu": "Åpne eller lukk menyen",
+    "chooseLanguage": "Velg språk"
+  },
+  "footer": {
+    "tagline": "Direkteteksting og produktivitetsverktøy for døve og hørselshemmede.",
+    "productHuntTagline": "Direkteteksting og transkripsjon for døve og hørselshemmede",
+    "productHunt": "Sjekk den ut på Product Hunt →",
+    "featuredOn": "Omtalt på",
+    "features": "Funksjoner",
+    "useCases": "Bruksområder",
+    "blog": "Blogg",
+    "allArticles": "Alle artikler",
+    "compare": "Sammenlign",
+    "compareApps": "Sammenlign tekstingsapper",
+    "company": "Selskap",
+    "organizations": "For organisasjoner",
+    "privacy": "Personvernerklæring",
+    "terms": "Tjenestevilkår"
+  },
+  "store": {
+    "appleOverline": "Last ned fra",
+    "googleOverline": "Tilgjengelig på",
+    "appleQrAlt": "QR-kode for å laste ned Captio AI fra App Store til iPhone",
+    "googleQrAlt": "QR-kode for å laste ned Captio AI fra Google Play til Android",
+    "downloadForFree": "Last ned gratis"
+  },
+  "common": {
+    "home": "Hjem",
+    "back": "Tilbake",
+    "goBack": "Gå tilbake",
+    "explore": "Utforsk",
+    "featuresLabel": "Funksjoner",
+    "howItWorks": "Slik fungerer det",
+    "privacyLabel": "Personvern",
+    "privacyTitle": "Det du hører, blir hos deg.",
+    "privacyImageAlt": "Privat fra start: lyden din lagres aldri på serverne våre, selges aldri og brukes aldri til trening",
+    "faqLabel": "FAQ",
+    "faqTitle": "Ofte stilte spørsmål",
+    "getStarted": "Kom i gang",
+    "freeToStart": "Det er gratis å komme i gang med Captio AI",
+    "allFeatures": "Captio AI har Direkteteksting, Direkteoversetter, Lydtranskripsjon og AI-sammendrag.",
+    "featureNames": {
+      "live-captions": "Direkteteksting",
+      "live-translator": "Direkteoversetter",
+      "audio-transcription": "Lydtranskripsjon",
+      "ai-summary": "AI-sammendrag"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Captio AI — Direkteteksting for døve og hørselshemmede",
+      "description": "Captio AI gir døve og hørselshemmede direkteteksting i sanntid, direkteoversettelse, lydtranskripsjon og AI-sammendrag rett på mobilen. 60+ språk.",
+      "ogDescription": "Direkteteksting i sanntid, direkteoversettelse, lydtranskripsjon og AI-sammendrag for døve og hørselshemmede. 60+ språk. iPhone og Android.",
+      "schemaDescription": "Direkteteksting i sanntid, direkteoversettelse, lydtranskripsjon og AI-sammendrag for døve og hørselshemmede. 60+ språk."
+    },
+    "eyebrow": "🦻 Tilgjengelighet + 💻 Produktivitetsapp",
+    "heroTitle": "[Direkteteksting] og [produktivitetsverktøy] for døve og hørselshemmede.",
+    "heroSubtitle": "Følg alle samtaler, møter og forelesninger. På alle språk.",
+    "mockupAlt": "Appen Captio AI med direkteteksting og oversettelse",
+    "featuresTitle": "Alt du trenger for å følge med i enhver samtale",
+    "featuresSubtitle": "Fire verktøy laget spesielt for døve og hørselshemmede.",
+    "features": {
+      "live-captions": {
+        "title": "Tale til tekst i sanntid",
+        "bullets": [
+          "Ord for ord, i sanntid",
+          "Fungerer i støyende omgivelser",
+          "Alle dialekter, alle tempo",
+          "Ingen munnavlesning nødvendig"
+        ]
+      },
+      "live-translator": {
+        "title": "Oversett alle språk i sanntid",
+        "bullets": [
+          "Oversetter mens de snakker",
+          "Alle snakker sitt eget språk",
+          "Takler språkbytte midt i en setning",
+          "60+ språk"
+        ]
+      },
+      "audio-transcription": {
+        "title": "Transkriber alle lyd- og videofiler",
+        "bullets": [
+          "Alle lyd- og videofiler",
+          "Delt opp etter taler",
+          "60+ språk",
+          "Les, kopier, søk, del"
+        ]
+      },
+      "ai-summary": {
+        "title": "Gjør transkripsjoner om til ryddige sammendrag",
+        "bullets": [
+          "Hovedpunkter og beslutninger",
+          "Oppgaver hentes ut",
+          "Fungerer med alle transkripsjoner",
+          "Delt inn i avsnitt"
+        ]
+      }
+    },
+    "useCasesLabel": "Bruksområder",
+    "useCasesTitle": "Fungerer i alle situasjoner",
+    "useCasesSubtitle": "Laget for de virkelige øyeblikkene som betyr noe, ikke bare for stille, kontrollerte omgivelser.",
+    "useCases": {
+      "everyday-conversations": {
+        "label": "Hverdagssamtaler",
+        "description": "De fleste samtaler går fort, i vanlig tempo og uten forvarsel. Captio AI teksterer hvert ord mens det blir sagt, så du kan følge med uten å be noen gjenta seg."
+      },
+      "deaf-hoh-communication": {
+        "label": "Snakke med døve og hørselshemmede",
+        "description": "Hørende vet ofte ikke hvordan de skal tilpasse seg når de snakker med døve eller hørselshemmede venner. Captio AI gjør talen deres om til teksting i sanntid, så samtalen kan gå naturlig for begge parter."
+      },
+      "meetings": {
+        "label": "Møter",
+        "description": "I møter tas beslutninger fort, og folk snakker i munnen på hverandre. Captio AI teksterer hver taler mens de snakker, så du aldri går glipp av en beslutning eller et spørsmål til deg."
+      },
+      "lectures": {
+        "label": "Forelesninger",
+        "description": "Forelesere snakker fort, går gjennom krevende stoff og gjentar seg sjelden. Captio AI gir deg en direkte transkripsjon av alt som blir sagt, så du kan følge innholdet i stedet for å anstrenge deg for å høre."
+      },
+      "doctor-appointments": {
+        "label": "Legetimer",
+        "description": "Leger snakker fort og bruker medisinske ord som er lette å høre feil. Captio AI viser deg alt de sier i sanntid, så du kan forstå diagnosen din og stille de riktige spørsmålene."
+      },
+      "job-interviews": {
+        "label": "Jobbintervjuer",
+        "description": "Går du glipp av et spørsmål på et jobbintervju, svarer du feil eller må be om å få det gjentatt. Captio AI viser deg hvert ord intervjueren sier, så du kan konsentrere deg helt om svaret ditt."
+      },
+      "phone-video-calls": {
+        "label": "Telefon- og videosamtaler",
+        "description": "Telefon- og videosamtaler er vanskeligere å følge enn samtaler ansikt til ansikt. Ingen munnavlesning, ofte dårlig lyd. Captio AI teksterer den som snakker i sanntid, så du slipper å be om gjentakelser."
+      },
+      "group-settings": {
+        "label": "I grupper",
+        "description": "I grupper snakker flere samtidig, og samtalen går fort. Captio AI henger med uansett hvem som snakker, så du kan følge med uten å miste tråden."
+      },
+      "restaurants": {
+        "label": "Restauranter og kafeer",
+        "description": "Bakgrunnsstøy gjør tale vanskelig å oppfatte, selv for folk uten hørselstap. Captio AI fokuserer på den som snakker til deg, så du kan ha en ordentlig samtale midt i støyen."
+      },
+      "traveling": {
+        "label": "På reise",
+        "description": "På flyplasser, hoteller og i ukjente byer er det ikke rom for å høre feil. Captio AI teksterer tale på 60+ språk, så du kan finne veien trygt uansett hvor du er."
+      },
+      "conferences": {
+        "label": "Konferanser og arrangementer",
+        "description": "Talerne står langt unna, akustikken er uforutsigbar, og du kan ikke be om å få noe gjentatt. Captio AI gir deg en direkte transkripsjon av hver taler, så du kan følge hele arrangementet fra hvilken som helst plass."
+      },
+      "tv-media": {
+        "label": "TV og medier",
+        "description": "Innebygde undertekster er ofte feil, forsinket eller mangler helt. Captio AI teksterer det som spilles av i sanntid, så du ikke er avhengig av om innholdet har undertekster."
+      }
+    },
+    "languagesLabel": "Språk",
+    "languagesTitle": "Captio AI støtter 60+ språk",
+    "privacyCards": [
+      {
+        "title": "Lyden blir ikke på serverne våre",
+        "description": "Lyden din gjøres om til tekst i sanntid og lagres aldri på serverne våre. Opptak du lagrer, blir på telefonen din, og transkripsjonene deres synkroniseres bare med din egen konto."
+      },
+      {
+        "title": "Ikke en handelsvare",
+        "description": "Samtalene dine er ikke noe Captio AI selger, deler eller tjener penger på, til noen, av noen grunn."
+      },
+      {
+        "title": "Brukes ikke til å trene noe",
+        "description": "Det du sier hos legen eller på et jobbintervju, havner aldri i et treningsdatasett. Ikke vårt. Ikke noen andres."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Hvem er Captio AI laget for?",
+        "a": "Captio AI er først og fremst laget for døve og hørselshemmede som trenger å følge muntlige samtaler i sanntid. Den brukes også mye av personer med auditive prosesseringsvansker (APD), folk i støyende omgivelser, de som lærer et nytt språk, og alle som synes det er raskere eller enklere å lese enn å lytte."
+      },
+      {
+        "q": "Hvor nøyaktig er direktetekstingen?",
+        "a": "Captio AI bruker avansert talegjenkjenning som er bygget spesielt for nøyaktighet og lav forsinkelse. Nøyaktigheten avhenger av hvor tydelig lyden er, uttalen og bakgrunnsstøyen, men i vanlige samtaler er den svært høy og på nivå med profesjonelle tekstetjenester."
+      },
+      {
+        "q": "Hvilke språk støtter Captio AI?",
+        "a": "Captio AI støtter 60+ språk, blant annet engelsk, spansk, fransk, tysk, mandarin, arabisk, hindi, japansk, koreansk, portugisisk, russisk og mange flere. Alle språkene kan brukes med Direkteteksting og Direkteoversetter. Se hele listen på denne siden."
+      },
+      {
+        "q": "Fungerer Captio AI med ulike aksenter og dialekter?",
+        "a": "Ja. Captio AI takler mange regionale aksenter og dialekter, ikke bare pent lærebokspråk. Den støtter blant annet australsk engelsk, latinamerikansk spansk, sveitsertysk, brasiliansk portugisisk, québecfransk og mange flere."
+      },
+      {
+        "q": "Hva er forskjellen på Direkteteksting og Direkteoversetter?",
+        "a": "Direkteteksting gjør tale om til tekst på språket som blir snakket. Direkteoversetter tar talen og oversetter den til språket du velger, i sanntid. Perfekt når den som snakker og den som leser har ulike språk, for eksempel hos en utenlandsk lege eller på et forretningsmøte på et annet språk."
+      },
+      {
+        "q": "Lagrer eller deler Captio AI lyden min?",
+        "a": "Captio AI lagrer aldri lyden din på serverne sine, og den blir aldri solgt eller delt til reklame. Lyden sendes sikkert til en tjeneste for talegjenkjenning, bare for å gjøres om til tekst, og slettes deretter der. Opptak du velger å lagre, blir på telefonen din. Transkripsjonene og sammendragene deres lagres også i din egen konto, slik at du kan åpne dem på en annen enhet, og når du sletter et opptak, forsvinner det overalt. Samtalene dine brukes aldri til å trene AI-modeller, verken våre eller noen andres."
+      },
+      {
+        "q": "Fungerer Captio AI uten internettilkobling?",
+        "a": "Direkteteksting og Direkteoversetter trenger internettilkobling for å behandle tale i sanntid. Lydtranskripsjon (for opplastede filer) trenger også tilkobling. Teksting uten nett støttes ikke foreløpig."
+      },
+      {
+        "q": "Hvilken telefon eller iPad trenger jeg?",
+        "a": "Captio AI fungerer på iPhone og iPad med iOS 16 eller nyere, og på Android-telefoner. Appen er optimalisert for mobil og fungerer best når mikrofonen har fri bane til den som snakker."
+      },
+      {
+        "q": "Kan jeg bruke Captio AI hos legen?",
+        "a": "Ja, legetimer er et av de viktigste bruksområdene. Legg telefonen på pulten eller hold den mot legen, og les alt som blir sagt i sanntid. Medisinske ord gjenkjennes nøyaktig, og det gjør Captio AI til et praktisk tilgjengelighetsverktøy i helsevesenet."
+      },
+      {
+        "q": "Kan jeg bruke Captio AI i møter og forelesninger?",
+        "a": "Ja. Captio AI fungerer overalt der det snakkes: møter på jobben, forelesninger på universitetet, stand-ups med teamet, konferanser og videosamtaler. Rett mikrofonen mot den som snakker, så dukker tekstingen opp med en gang."
+      },
+      {
+        "q": "Hva er Lydtranskripsjon, og hvordan skiller den seg fra Direkteteksting?",
+        "a": "Direkteteksting fungerer i sanntid mens noen snakker. Lydtranskripsjon er for opptak: du laster opp en lyd- eller videofil og får en fullstendig skriftlig transkripsjon. Perfekt for å gå gjennom forelesninger du har tatt opp, intervjuer, podkaster eller alt annet du heller vil lese enn høre på."
+      },
+      {
+        "q": "Hva gjør AI-sammendrag?",
+        "a": "AI-sammendrag tar en hvilken som helst transkripsjon og henter ut den viktigste informasjonen, som hovedpunkter, beslutninger, oppgaver og viktige detaljer, i et ryddig sammendrag. Det sparer tid når du har en lang transkripsjon fra et møte eller en forelesning og raskt vil ha det viktigste."
+      },
+      {
+        "q": "Er Captio AI gratis?",
+        "a": "Captio AI har en gratisversjon, så du kan komme i gang uten å betale. Trenger du ubegrenset bruk, finnes Plus. Gjeldende pris for Plus i landet ditt står i App Store."
+      },
+      {
+        "q": "Hvordan skiller Captio AI seg fra den innebygde direktetekstingen til Apple?",
+        "a": "Apples direkteteksting er innebygd i iOS, men støtter færre språk, oversetter ikke og har verken lydtranskripsjon eller AI-sammendrag. Captio AI støtter 60+ språk, oversetter i sanntid, lar deg transkribere opplastede filer og lager AI-sammendrag, og er dermed et langt mer komplett verktøy for tilgjengelighet og produktivitet."
+      }
+    ]
+  },
+  "featurePages": {
+    "live-captions": {
+      "meta": {
+        "title": "Direkteteksting for døve og hørselshemmede på iPhone",
+        "description": "Tale til tekst i sanntid via mikrofonen på iPhonen din. Følg enhver samtale, på alle språk, med en gang. Laget for døve og hørselshemmede.",
+        "schemaDescription": "Direkteteksting i sanntid for døve og hørselshemmede. 60+ språk, godt under ett sekunds forsinkelse, fungerer overalt."
+      },
+      "howTitle": "Tre trykk. Hele samtalen.",
+      "steps": [
+        {
+          "title": "Start opptaket",
+          "desc": "Trykk på opptaksknappen. Captio AI begynner å lytte med en gang."
+        },
+        {
+          "title": "Se ordene dukke opp",
+          "desc": "Tekstingen kommer ord for ord mens personen fortsatt snakker."
+        },
+        {
+          "title": "Lagre det",
+          "desc": "Behold transkripsjonen og lydopptaket til senere."
+        }
+      ],
+      "featuresTitle": "Laget for ekte samtaler",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Ord som stemmer med det som ble sagt",
+          "description": "Captio AI fanger det noen faktisk sa, ikke en løs gjengivelse. Så du kan stole på transkripsjonen når det gjelder: hos legen, på et jobbintervju, i et møte."
+        },
+        {
+          "title": "Ingen forsinkelse",
+          "description": "Forsinkelsen er godt under ett sekund. Tekstingen kommer ord for ord mens personen fortsatt snakker, så du leser det som blir sagt i samme øyeblikk som alle andre hører det."
+        },
+        {
+          "title": "Se hvem som snakker",
+          "description": "I grupper og møter merker Captio AI hver taler for seg, så du alltid vet hvem som sa hva, uten å måtte følge med på ansikter eller leppebevegelser."
+        },
+        {
+          "title": "60+ språk",
+          "description": "Følg en samtale på fransk, japansk eller arabisk like lett som en på norsk. Ingen modus å bytte. Et hørselstap blir aldri også en språkbarriere."
+        },
+        {
+          "title": "Takler språk som blandes midt i en setning",
+          "description": "Når folk bytter språk midt i samtalen, henger Captio AI med. Ingen hull i tekstingen, ingen modus å bytte."
+        },
+        {
+          "title": "Lær den dine egne ord",
+          "description": "Legg til navn, medisinske ord eller fagord du ofte hører. Captio AI bruker ordlisten din til å tekste de ekte samtalene dine mer nøyaktig."
+        },
+        {
+          "title": "Legg til et språkhint",
+          "description": "Fortell Captio AI hvilket språk du venter, så er appen innstilt på det fra første ord. Nyttig når det ikke går fram av sammenhengen hvilket språk som snakkes."
+        },
+        {
+          "title": "Transkriber på nytt senere for bedre nøyaktighet",
+          "description": "Kjør et opptak gjennom en gang til i etterkant for en renere transkripsjon. Nyttig for forelesninger, avtaler og alle samtaler som er verdt å gå gjennom igjen."
+        },
+        {
+          "title": "Les på din måte",
+          "description": "Juster tekststørrelse, bakgrunnsfarge og kontrast til tekstingen er lett å lese med et raskt blikk, med telefonen i hånden, flatt på bordet eller stilt opp på pulten."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Lyden blir ikke på serverne våre",
+          "description": "Lyden din gjøres om til tekst i sanntid og lagres aldri på serverne våre. Opptak du lagrer, blir på telefonen din, og transkripsjonene deres synkroniseres bare med din egen konto."
+        },
+        {
+          "title": "Ikke en handelsvare",
+          "description": "Samtalene dine er ikke noe Captio AI selger, deler eller tjener penger på, til noen, av noen grunn."
+        },
+        {
+          "title": "Brukes ikke til å trene noe",
+          "description": "Det du sier hos legen eller på et jobbintervju, havner aldri i et treningsdatasett. Ikke vårt. Ikke noen andres."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Hvordan skiller Captio AI seg fra den innebygde direktetekstingen til Apple?",
+          "a": "Apples direkteteksting støtter færre språk, oversetter ikke og har verken lydtranskripsjon eller AI-sammendrag. Captio AI støtter 60+ språk, oversetter i sanntid, lar deg transkribere opplastede filer og lager AI-sammendrag. Du kan også tilpasse tekststørrelse, farger og kontrast etter hvordan du leser best."
+        },
+        {
+          "q": "Hvor nøyaktig er direktetekstingen?",
+          "a": "I vanlige samtaler er nøyaktigheten høy. Captio AI er bygget for ekte tale, ikke bare ren studiolyd, så den takler de som snakker fort, regionale dialekter, bakgrunnsstøy og setninger der språkene blandes. Du kan også legge til egne ord (navn, medisinske ord, fagord) for å gjøre samtalene dine enda mer nøyaktige."
+        },
+        {
+          "q": "Hvor raskt kommer tekstingen?",
+          "a": "Ord for ord, mens personen fortsatt snakker. Forsinkelsen er godt under ett sekund, nesten i sanntid. Du leser det som blir sagt i samme øyeblikk som alle andre hører det, ikke først når setningen er ferdig."
+        },
+        {
+          "q": "Fungerer Direkteteksting i støyende omgivelser?",
+          "a": "Ja. Captio AI er laget for ekte omgivelser: restauranter, gater, venterom, kollektivtrafikk. Rett mikrofonen mot den som snakker, så kommer tekstingen, uansett bakgrunnsstøy."
+        },
+        {
+          "q": "Hvilke språk støtter Direkteteksting?",
+          "a": "60+ språk, blant annet engelsk, spansk, fransk, tysk, mandarin, arabisk, hindi, japansk, koreansk, portugisisk, russisk og mange flere. Regionale aksenter og dialekter støttes på alle store språk."
+        },
+        {
+          "q": "Fungerer den med aksenter og dialekter?",
+          "a": "Ja. Captio AI takler mange regionale aksenter, ikke bare pent lærebokspråk. Australsk engelsk, latinamerikansk spansk, sveitsertysk, québecfransk og mange flere støttes."
+        },
+        {
+          "q": "Kan jeg lagre tekstingen?",
+          "a": "Ja. Etter en økt kan du lagre transkripsjoner og lydopptak og gå gjennom dem senere. Du kan også transkribere et lagret opptak på nytt for å få en renere og mer nøyaktig transkripsjon."
+        },
+        {
+          "q": "Trenger jeg internettilkobling?",
+          "a": "Ja. Direkteteksting trenger internettilkobling for å behandle tale i sanntid. Teksting uten nett støttes ikke foreløpig."
+        }
+      ]
+    },
+    "live-translator": {
+      "meta": {
+        "title": "Direkteoversetter: oversett tale i sanntid på iPhone",
+        "description": "Oversett tale i sanntid på iPhonen din. Den andre snakker sitt språk, du leser på ditt, med en gang og på alle språk. Laget for døve og hørselshemmede.",
+        "schemaDescription": "Taleoversettelse i sanntid for døve og hørselshemmede. 60+ språk, alle snakker sitt eget språk, du leser på ditt."
+      },
+      "howTitle": "Tre trykk. Alle språk.",
+      "steps": [
+        {
+          "title": "Velg oversettermodus",
+          "desc": "Åpne Captio AI og velg Direkteoversetter."
+        },
+        {
+          "title": "Velg språket ditt",
+          "desc": "Velg språket du vil lese på."
+        },
+        {
+          "title": "Se oversettelsen i sanntid",
+          "desc": "Captio AI oversetter ord for ord."
+        }
+      ],
+      "featuresTitle": "Laget for ekte samtaler",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Alle språk",
+          "description": "Fransk, japansk, arabisk, spansk, tysk, mandarin: 60+ språk, i alle retninger. Et hørselstap blir aldri også en språkbarriere."
+        },
+        {
+          "title": "Finner selv ut hvilket språk som snakkes",
+          "description": "La kildespråket stå på «Automatisk», så finner Captio AI ut av det fra de første ordene. Du trenger ikke å velge språk før hver samtale."
+        },
+        {
+          "title": "Ingen forsinkelse",
+          "description": "Forsinkelsen i oversettelsen er godt under ett sekund. Du leser det som blir sagt i samme øyeblikk som alle andre hører det, ikke først når setningen er ferdig."
+        },
+        {
+          "title": "Legg til språkhint",
+          "description": "Fortell Captio AI hvilket språk du venter, så er appen innstilt på det fra første ord. Nyttig når det ikke går fram av sammenhengen hvilket språk som snakkes."
+        },
+        {
+          "title": "Flere språk samtidig",
+          "description": "Når folk bytter språk midt i samtalen, henger Captio AI med og oversetter alt til språket ditt, uten at du trenger å gjøre noe."
+        },
+        {
+          "title": "Les på din måte",
+          "description": "Juster bakgrunnsfarge, tekstfarge og skriftstørrelse så oversettelsen er lett å lese med et raskt blikk, enten telefonen er i hånden eller ligger flatt på bordet."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Lyden blir ikke på serverne våre",
+          "description": "Lyden din gjøres om til tekst i sanntid og lagres aldri på serverne våre. Opptak du lagrer, blir på telefonen din, og transkripsjonene deres synkroniseres bare med din egen konto."
+        },
+        {
+          "title": "Ikke en handelsvare",
+          "description": "Samtalene dine er ikke noe Captio AI selger, deler eller tjener penger på, til noen, av noen grunn."
+        },
+        {
+          "title": "Brukes ikke til å trene noe",
+          "description": "Det du sier hos legen eller på et jobbintervju, havner aldri i et treningsdatasett. Ikke vårt. Ikke noen andres."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Hva er forskjellen på Direkteoversetter og Direkteteksting?",
+          "a": "Direkteteksting gjør tale om til tekst på språket som blir snakket. Direkteoversetter tar talen og oversetter den til språket du velger, i sanntid. Snakker den andre fransk og du vil lese på norsk, er det Direkteoversetter du skal bruke."
+        },
+        {
+          "q": "Hvor nøyaktig er oversettelsen?",
+          "a": "For vanlige språkpar er oversettelsen svært nøyaktig i hverdagssamtaler. Captio AI takler naturlig tale, med folk som snakker fort, aksenter og bakgrunnsstøy, ikke bare ren studiolyd. For sjeldne språkpar eller svært teknisk innhold kan nøyaktigheten variere."
+        },
+        {
+          "q": "Hvilke språk støttes?",
+          "a": "60+ språk, blant annet engelsk, spansk, fransk, tysk, mandarin, arabisk, hindi, japansk, koreansk, portugisisk, russisk og mange flere. Både kilde- og målspråket kan være hvilket som helst av de støttede språkene."
+        },
+        {
+          "q": "Hvor raskt kommer oversettelsen?",
+          "a": "Forsinkelsen er godt under ett sekund. Du leser oversettelsen ord for ord mens personen fortsatt snakker, nesten i sanntid og ikke først når setningen er ferdig."
+        },
+        {
+          "q": "Fungerer den hos en lege som snakker et annet språk?",
+          "a": "Ja. Det er et av de viktigste bruksområdene. Legg telefonen på pulten, sett kildespråket til legens språk, og les alt som blir sagt på ditt eget språk i sanntid. Du kan også lagre den oversatte transkripsjonen og lese instruksjonene på nytt etterpå."
+        },
+        {
+          "q": "Fungerer den i støyende omgivelser?",
+          "a": "Ja. Captio AI er laget for ekte omgivelser: venterom, restauranter, flyplasser. Rett mikrofonen mot den som snakker, så kommer oversettelsen, uansett støy rundt deg."
+        },
+        {
+          "q": "Kan jeg lagre den oversatte transkripsjonen?",
+          "a": "Ja. Etter en økt kan du lagre den oversatte teksten og lese den senere. Nyttig for legetimer, møter og alle samtaler du vil ha svart på hvitt."
+        },
+        {
+          "q": "Trenger jeg internettilkobling?",
+          "a": "Ja. Direkteoversetter trenger internettilkobling for å behandle og oversette tale i sanntid. Oversettelse uten nett støttes ikke foreløpig."
+        }
+      ]
+    },
+    "audio-transcription": {
+      "meta": {
+        "title": "Lydtranskripsjon: lyd og video til tekst på iPhone",
+        "description": "Last opp en hvilken som helst lyd- eller videofil og få en fullstendig skriftlig transkripsjon. 60+ språk, delt opp etter taler, søkbar. Laget for døve og hørselshemmede.",
+        "schemaDescription": "Last opp en hvilken som helst lyd- eller videofil og få en fullstendig skriftlig transkripsjon. 60+ språk, delt opp etter taler, tidsstempler. Laget for døve og hørselshemmede."
+      },
+      "howTitle": "Last opp. Les. Ferdig.",
+      "steps": [
+        {
+          "title": "Velg hva du laster opp",
+          "desc": "Velg om du laster opp en lydfil eller en videofil."
+        },
+        {
+          "title": "Velg en fil",
+          "desc": "Velg filen på telefonen. Captio AI begynner å transkribere med en gang."
+        },
+        {
+          "title": "Se transkripsjonen",
+          "desc": "Les hele transkripsjonen, delt opp etter taler og med tidsstempler."
+        }
+      ],
+      "featuresTitle": "Laget for ekte opptak",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Alle formater",
+          "description": "MP3, MP4, M4A, WAV og flere. Forelesninger, møter, talemeldinger, podkaster, intervjuer, opptak av telefonsamtaler: er det tale i den, kan Captio AI transkribere den."
+        },
+        {
+          "title": "Høyeste nøyaktighet",
+          "description": "Captio AI er bygget for lyd fra virkeligheten, ikke bare rene studiofiler. Lyd fra telefonsamtaler, opptak fra auditorier, støyende omgivelser: Captio AI takler alt."
+        },
+        {
+          "title": "Alle språk",
+          "description": "Last opp et opptak på fransk, japansk, arabisk eller 57 andre språk. Captio AI kjenner igjen språket og transkriberer det nøyaktig."
+        },
+        {
+          "title": "Flere språk",
+          "description": "Når talerne bytter språk midt i opptaket, henger Captio AI med. Transkripsjonen viser alle språkene som ble snakket, uten hull."
+        },
+        {
+          "title": "Tidsstempler",
+          "description": "Hver linje i transkripsjonen har et tidsstempel, så du kan hoppe til et hvilket som helst øyeblikk i opptaket og finne nøyaktig hva som ble sagt og når."
+        },
+        {
+          "title": "Eksporter og del",
+          "description": "Kopier hele transkripsjonen, del den eller lagre den. Opptakene og transkripsjonene dine er alltid der når du trenger dem."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Filer blir ikke på serverne våre",
+          "description": "Filen din sendes bare for å bli transkribert og slettes deretter der, og den lagres aldri på serverne våre. Opptaket blir på telefonen din, og transkripsjonen synkroniseres bare med din egen konto."
+        },
+        {
+          "title": "Ikke en handelsvare",
+          "description": "Opptakene dine er ikke noe Captio AI selger, deler eller tjener penger på, til noen, av noen grunn."
+        },
+        {
+          "title": "Brukes ikke til å trene noe",
+          "description": "Det du laster opp, enten det er en legetime, et møte eller et intervju, havner aldri i et treningsdatasett. Ikke vårt. Ikke noen andres."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Hvordan skiller Lydtranskripsjon seg fra Direkteteksting?",
+          "a": "Direkteteksting fungerer i sanntid mens noen snakker. Lydtranskripsjon er for opptak: du laster opp en lyd- eller videofil og får en fullstendig skriftlig transkripsjon. Perfekt for å gå gjennom forelesninger du har tatt opp, legetimer, intervjuer eller alt annet du heller vil lese enn høre på."
+        },
+        {
+          "q": "Hvilke filformater støtter Lydtranskripsjon?",
+          "a": "Captio AI tar imot vanlige lyd- og videoformater, blant annet MP3, MP4, M4A, WAV og flere. Har du tatt det opp med telefonen eller lastet det ned fra en videotjeneste, fungerer det."
+        },
+        {
+          "q": "Hvor nøyaktig er transkripsjonen?",
+          "a": "Med tydelige opptak på støttede språk er nøyaktigheten høy. Captio AI takler lyd fra virkeligheten, som telefonsamtaler, opptak fra auditorier og støyende omgivelser, ikke bare filer i studiokvalitet. Ved behov kan du også transkribere en fil en gang til."
+        },
+        {
+          "q": "Hvilke språk støttes?",
+          "a": "60+ språk, blant annet engelsk, spansk, fransk, tysk, mandarin, arabisk, hindi, japansk, koreansk, portugisisk, russisk og mange flere. Captio AI finner automatisk ut hvilket språk som snakkes i filen."
+        },
+        {
+          "q": "Skiller den mellom talerne?",
+          "a": "Ja. Captio AI merker hver taler for seg i transkripsjonen, så du kan følge hvem som sa hva. Nyttig for møter, intervjuer, legetimer og alle opptak med flere personer."
+        },
+        {
+          "q": "Hvor lang tid tar transkripsjonen?",
+          "a": "Transkripsjonen går raskt. Et opptak på en time tar vanligvis bare noen minutter. Tiden avhenger av hvor lang filen er og lydkvaliteten."
+        },
+        {
+          "q": "Blir lyden min lagret etter transkripsjonen?",
+          "a": "Ikke på serverne til Captio AI. Filen sendes sikkert til en tjeneste for talegjenkjenning bare for å bli transkribert, og den slettes der så snart transkripsjonen er ferdig. Opptaket blir på telefonen din, og transkripsjonen lagres også i din egen konto, slik at du kan åpne den på en annen enhet. Opptakene dine blir aldri solgt eller brukt til å trene AI-modeller."
+        },
+        {
+          "q": "Kan jeg transkribere en videofil?",
+          "a": "Ja. Last opp videofilen direkte, så henter Captio AI ut lyden og transkriberer den. Du trenger ikke å konvertere filen først."
+        }
+      ]
+    },
+    "ai-summary": {
+      "meta": {
+        "title": "AI-sammendrag: ryddige sammendrag av enhver transkripsjon",
+        "description": "Gjør enhver transkripsjon om til et ryddig sammendrag. Hovedpunkter, beslutninger og oppgaver hentes ut automatisk. Laget for døve og hørselshemmede.",
+        "schemaDescription": "Gjør enhver transkripsjon om til et ryddig sammendrag. Hovedpunkter, beslutninger, oppgaver og sitater fra talerne hentes ut automatisk."
+      },
+      "howTitle": "Transkripsjon inn. Sammendrag ut.",
+      "steps": [
+        {
+          "title": "Åpne en transkripsjon",
+          "desc": "Velg en hvilken som helst transkripsjon fra Direkteteksting eller Lydtranskripsjon."
+        },
+        {
+          "title": "Lag et sammendrag",
+          "desc": "Trykk på AI-sammendrag. Captio AI behandler transkripsjonen automatisk."
+        },
+        {
+          "title": "Les sammendraget",
+          "desc": "Sammendraget ditt er klart, delt inn i avsnitt og klart til å leses eller deles."
+        }
+      ],
+      "featuresTitle": "Laget for lange transkripsjoner",
+      "featuresSubtitle": "Få sammendrag, gjøremål, sitater fra talerne, notater og mer.",
+      "subfeatures": [
+        {
+          "title": "Hovedpunktene hentes ut automatisk",
+          "description": "Captio AI leser hele transkripsjonen og henter ut det som faktisk betydde noe: hovedpunktene, beslutningene som ble tatt, og konklusjonene man kom fram til."
+        },
+        {
+          "title": "Oppgaver løftes fram",
+          "description": "Oppgaver og oppfølging blir funnet og listet opp for seg, så ingenting blir glemt etter et møte, en avtale eller en forelesning."
+        },
+        {
+          "title": "Delt inn i avsnitt",
+          "description": "Sammendraget er strukturert, ikke én lang tekstblokk. Hvert tema får sitt eget avsnitt, så du raskt kan skumlese og finne det du trenger."
+        },
+        {
+          "title": "Fungerer med alle transkripsjoner i Captio AI",
+          "description": "Bruk AI-sammendrag på enhver transkripsjon du har laget med Direkteteksting eller Lydtranskripsjon. Ingen ekstra steg, ingen kopiering."
+        },
+        {
+          "title": "Alle språk",
+          "description": "Lag sammendrag av transkripsjoner på 60+ språk. Captio AI leser transkripsjonen på originalspråket og lager et sammendrag du kan lese."
+        },
+        {
+          "title": "Lagre og del",
+          "description": "Behold sammendraget sammen med transkripsjonen, kopier det eller del det. Nyttig etter legetimer, møter og forelesninger."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Lagres bare i kontoen din",
+          "description": "Sammendraget lagres sammen med opptaket, på telefonen din og i din egen konto, så det finnes på alle enheter du logger inn på. Slett det, og det er borte overalt."
+        },
+        {
+          "title": "Ikke en handelsvare",
+          "description": "Samtalene dine er ikke noe Captio AI selger, deler eller tjener penger på, til noen, av noen grunn."
+        },
+        {
+          "title": "Brukes ikke til å trene noe",
+          "description": "Det du lager sammendrag av, enten det er en legetime, et møte eller et intervju, havner aldri i et treningsdatasett. Ikke vårt. Ikke noen andres."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Hva gjør AI-sammendrag?",
+          "a": "AI-sammendrag tar en hvilken som helst transkripsjon og henter ut den viktigste informasjonen, som hovedpunkter, beslutninger, oppgaver og viktige detaljer, i et ryddig sammendrag. Det sparer tid når du har en lang transkripsjon og raskt vil ha det viktigste."
+        },
+        {
+          "q": "Hvilke transkripsjoner kan jeg lage sammendrag av?",
+          "a": "Alle transkripsjoner som er laget i Captio AI, med Direkteteksting eller Lydtranskripsjon. Du bruker AI-sammendrag direkte på transkripsjonen, uten ekstra steg."
+        },
+        {
+          "q": "Hva er forskjellen på AI-sammendrag og å bare lese transkripsjonen?",
+          "a": "En fullstendig transkripsjon av et møte på en time kan være flere tusen ord lang. AI-sammendrag gir deg hovedpunktene, beslutningene og oppgavene på en brøkdel av lesetiden, sortert etter tema i stedet for i den rekkefølgen ting ble sagt."
+        },
+        {
+          "q": "Fungerer det for legetimer?",
+          "a": "Ja. En legetime gir mye informasjon på kort tid. AI-sammendrag henter ut diagnosen, instruksjonene og de neste stegene i en tydelig liste du kan gå gjennom og gå tilbake til."
+        },
+        {
+          "q": "Hvilke språk støttes?",
+          "a": "AI-sammendrag fungerer med transkripsjoner på 60+ språk. Sammendraget skrives på samme språk som transkripsjonen."
+        },
+        {
+          "q": "Kan jeg lagre eller dele sammendraget?",
+          "a": "Ja. Du kan lagre sammendraget sammen med den opprinnelige transkripsjonen, kopiere det eller dele det. Nyttig for å sende et referat fra et møte eller ha en legetime svart på hvitt."
+        },
+        {
+          "q": "Lagrer AI-sammendrag transkripsjonen eller lyden min?",
+          "a": "Transkripsjonen din sendes sikkert til en AI-tjeneste bare for å skrive sammendraget, og den brukes aldri til å trene AI-modeller. Sammendraget lagres sammen med opptaket, på telefonen din og i din egen konto, til du sletter det. Captio AI lagrer aldri lyd på serverne sine, og samtalene dine blir aldri solgt."
+        }
+      ]
+    }
+  }
+}

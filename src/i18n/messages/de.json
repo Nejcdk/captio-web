@@ -1,0 +1,638 @@
+{
+  "header": {
+    "features": "Funktionen",
+    "useCases": "Anwendungsfälle",
+    "languages": "Sprachen",
+    "compare": "Vergleich",
+    "blog": "Blog",
+    "download": "Herunterladen",
+    "toggleMenu": "Menü öffnen oder schließen",
+    "chooseLanguage": "Sprache wählen"
+  },
+  "footer": {
+    "tagline": "Live-Untertitel und Produktivitätstool für gehörlose und schwerhörige Menschen.",
+    "productHuntTagline": "Live-Untertitel & Transkription für Gehörlose und Schwerhörige",
+    "productHunt": "Schau es dir auf Product Hunt an →",
+    "featuredOn": "Vorgestellt auf",
+    "features": "Funktionen",
+    "useCases": "Anwendungsfälle",
+    "blog": "Blog",
+    "allArticles": "Alle Artikel",
+    "compare": "Vergleich",
+    "compareApps": "Untertitel-Apps vergleichen",
+    "company": "Unternehmen",
+    "organizations": "Für Organisationen",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen"
+  },
+  "store": {
+    "appleOverline": "Laden im",
+    "googleOverline": "Jetzt bei",
+    "appleQrAlt": "QR-Code zum Herunterladen von Captio AI im App Store für iPhone",
+    "googleQrAlt": "QR-Code zum Herunterladen von Captio AI bei Google Play für Android",
+    "downloadForFree": "Kostenlos herunterladen"
+  },
+  "common": {
+    "home": "Startseite",
+    "back": "Zurück",
+    "goBack": "Zurückgehen",
+    "explore": "Entdecken",
+    "featuresLabel": "Funktionen",
+    "howItWorks": "So funktioniert’s",
+    "privacyLabel": "Datenschutz",
+    "privacyTitle": "Was du hörst, bleibt bei dir.",
+    "privacyImageAlt": "Privat ab Werk: Dein Audio wird nie auf unseren Servern gespeichert, nie verkauft und nie zum Training verwendet",
+    "faqLabel": "FAQ",
+    "faqTitle": "Häufig gestellte Fragen",
+    "getStarted": "Jetzt loslegen",
+    "freeToStart": "Der Einstieg in Captio AI ist kostenlos",
+    "allFeatures": "Captio AI umfasst Live-Untertitel, Live-Übersetzer, Audio-Transkription und KI-Zusammenfassung.",
+    "featureNames": {
+      "live-captions": "Live-Untertitel",
+      "live-translator": "Live-Übersetzer",
+      "audio-transcription": "Audio-Transkription",
+      "ai-summary": "KI-Zusammenfassung"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Captio AI — Live-Untertitel für Gehörlose und Schwerhörige",
+      "description": "Captio AI bringt gehörlosen und schwerhörigen Menschen Live-Untertitel, Übersetzung in Echtzeit, Audio-Transkription und KI-Zusammenfassungen aufs Handy. 60+ Sprachen.",
+      "ogDescription": "Live-Untertitel in Echtzeit, Live-Übersetzung, Audio-Transkription und KI-Zusammenfassungen für gehörlose und schwerhörige Menschen. 60+ Sprachen. iPhone und Android.",
+      "schemaDescription": "Live-Untertitel in Echtzeit, Live-Übersetzung, Audio-Transkription und KI-Zusammenfassungen für gehörlose und schwerhörige Menschen. 60+ Sprachen."
+    },
+    "eyebrow": "🦻 Barrierefreiheit + 💻 Produktivitäts-App",
+    "heroTitle": "[Live-Untertitel] und [Produktivitätstool] für gehörlose und schwerhörige Menschen.",
+    "heroSubtitle": "Folge jedem Gespräch, jedem Meeting, jeder Vorlesung. In jeder Sprache.",
+    "mockupAlt": "Die App Captio AI mit Live-Untertiteln und Übersetzung",
+    "featuresTitle": "Alles, was du brauchst, um jedem Gespräch zu folgen",
+    "featuresSubtitle": "Vier Werkzeuge, speziell für gehörlose und schwerhörige Menschen entwickelt.",
+    "features": {
+      "live-captions": {
+        "title": "Sprache zu Text in Echtzeit",
+        "bullets": [
+          "Wort für Wort, in Echtzeit",
+          "Funktioniert auch bei Lärm",
+          "Jeder Akzent, jedes Tempo",
+          "Kein Lippenlesen nötig"
+        ]
+      },
+      "live-translator": {
+        "title": "Jede Sprache in Echtzeit übersetzen",
+        "bullets": [
+          "Übersetzt, während gesprochen wird",
+          "Jede Person spricht ihre eigene Sprache",
+          "Kommt mit Sprachwechseln mitten im Satz klar",
+          "60+ Sprachen"
+        ]
+      },
+      "audio-transcription": {
+        "title": "Jede Audio- oder Videodatei transkribieren",
+        "bullets": [
+          "Jede Audio- oder Videodatei",
+          "Nach Sprechern geordnet",
+          "60+ Sprachen",
+          "Lesen, kopieren, durchsuchen, teilen"
+        ]
+      },
+      "ai-summary": {
+        "title": "Aus Transkripten werden strukturierte Zusammenfassungen",
+        "bullets": [
+          "Kernpunkte und Entscheidungen",
+          "Aufgaben werden herausgefiltert",
+          "Funktioniert mit jedem Transkript",
+          "In Abschnitte gegliedert"
+        ]
+      }
+    },
+    "useCasesLabel": "Anwendungsfälle",
+    "useCasesTitle": "Funktioniert in jeder Situation",
+    "useCasesSubtitle": "Gemacht für die echten Momente, auf die es ankommt, nicht nur für ruhige, kontrollierte Umgebungen.",
+    "useCases": {
+      "everyday-conversations": {
+        "label": "Alltagsgespräche",
+        "description": "Die meisten Gespräche laufen schnell, in normalem Tempo und ohne Vorwarnung. Captio AI untertitelt jedes Wort, während es gesprochen wird, damit du folgen kannst, ohne jemanden um Wiederholung zu bitten."
+      },
+      "deaf-hoh-communication": {
+        "label": "Kommunikation mit Gehörlosen & Schwerhörigen",
+        "description": "Hörende wissen oft nicht, wie sie sich im Gespräch mit gehörlosen oder schwerhörigen Freunden anpassen sollen. Captio AI macht aus ihrer Sprache Untertitel in Echtzeit, damit das Gespräch für beide Seiten ganz natürlich läuft."
+      },
+      "meetings": {
+        "label": "Besprechungen",
+        "description": "In Besprechungen fallen Entscheidungen schnell, und alle reden durcheinander. Captio AI untertitelt jeden Sprecher, während er spricht, damit dir keine Entscheidung und keine Frage an dich entgeht."
+      },
+      "lectures": {
+        "label": "Vorlesungen",
+        "description": "Dozierende sprechen schnell, behandeln komplexen Stoff und wiederholen sich selten. Captio AI liefert dir ein Live-Transkript von allem, was gesagt wird, damit du dem Inhalt folgen kannst, statt dich beim Zuhören anzustrengen."
+      },
+      "doctor-appointments": {
+        "label": "Arzttermine",
+        "description": "Ärztinnen und Ärzte sprechen schnell und benutzen Fachbegriffe, die man leicht falsch versteht. Captio AI zeigt dir alles, was sie sagen, in Echtzeit, damit du deine Diagnose verstehst und die richtigen Fragen stellen kannst."
+      },
+      "job-interviews": {
+        "label": "Vorstellungsgespräche",
+        "description": "Eine verpasste Frage im Vorstellungsgespräch heißt: falsch antworten oder um Wiederholung bitten. Captio AI zeigt dir jedes Wort deines Gegenübers, damit du dich ganz auf deine Antwort konzentrieren kannst."
+      },
+      "phone-video-calls": {
+        "label": "Telefon- & Videoanrufe",
+        "description": "Telefon- und Videoanrufe sind schwerer zu verstehen als Gespräche von Angesicht zu Angesicht. Kein Lippenlesen, oft schlechte Tonqualität. Captio AI untertitelt in Echtzeit, wer gerade spricht, damit du nicht um Wiederholung bitten musst."
+      },
+      "group-settings": {
+        "label": "In der Gruppe",
+        "description": "In Gruppen reden mehrere Leute gleichzeitig, und das Gespräch ist schnell. Captio AI hält mit, egal wer gerade spricht, damit du folgen kannst, ohne den Faden zu verlieren."
+      },
+      "restaurants": {
+        "label": "Restaurants & Cafés",
+        "description": "Hintergrundlärm macht es selbst Menschen ohne Hörverlust schwer, Gesprochenes zu verstehen. Captio AI konzentriert sich auf die Person, die mit dir spricht, damit du trotz Lärm ein echtes Gespräch führen kannst."
+      },
+      "traveling": {
+        "label": "Reisen",
+        "description": "An Flughäfen, in Hotels und in fremden Städten gibt es keinen Spielraum für Missverständnisse. Captio AI untertitelt Gesprochenes in 60+ Sprachen, damit du dich überall sicher zurechtfindest."
+      },
+      "conferences": {
+        "label": "Konferenzen & Veranstaltungen",
+        "description": "Die Vortragenden sind weit weg, die Akustik ist unberechenbar, und um Wiederholung bitten geht nicht. Captio AI liefert dir ein Live-Transkript aller Sprecher, damit du die ganze Veranstaltung von jedem Platz aus verfolgen kannst."
+      },
+      "tv-media": {
+        "label": "TV & Medien",
+        "description": "Eingebaute Untertitel sind oft falsch, verzögert oder fehlen ganz. Captio AI untertitelt in Echtzeit, was gerade läuft, damit du nicht davon abhängig bist, ob es Untertitel gibt."
+      }
+    },
+    "languagesLabel": "Sprachen",
+    "languagesTitle": "Captio AI unterstützt 60+ Sprachen",
+    "privacyCards": [
+      {
+        "title": "Audio bleibt nicht auf unseren Servern",
+        "description": "Dein Audio wird in Echtzeit in Text umgewandelt und nie auf unseren Servern gespeichert. Aufnahmen, die du speicherst, bleiben auf deinem Handy, und ihre Transkripte werden nur mit deinem eigenen Konto synchronisiert."
+      },
+      {
+        "title": "Kein Produkt",
+        "description": "Deine Gespräche sind nichts, was Captio AI verkauft, weitergibt oder zu Geld macht, an niemanden und aus keinem Grund."
+      },
+      {
+        "title": "Für kein Training genutzt",
+        "description": "Was du bei einem Arzttermin oder in einem Vorstellungsgespräch sagst, landet nie in einem Trainingsdatensatz. Nicht in unserem. Nicht in dem von irgendwem sonst."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Für wen ist Captio AI gedacht?",
+        "a": "Captio AI ist in erster Linie für gehörlose und schwerhörige Menschen gemacht, die Gesprächen in Echtzeit folgen müssen. Viele nutzen die App auch bei einer auditiven Verarbeitungsstörung, in lauten Umgebungen, beim Sprachenlernen oder einfach, weil Lesen für sie schneller oder leichter ist als Zuhören."
+      },
+      {
+        "q": "Wie genau sind die Live-Untertitel?",
+        "a": "Captio AI nutzt fortschrittliche Spracherkennung, die speziell auf Genauigkeit und geringe Verzögerung ausgelegt ist. Die Genauigkeit hängt von der Tonqualität, dem Akzent und den Hintergrundgeräuschen ab. In typischen Gesprächssituationen ist sie aber sehr hoch und mit professionellen Untertitelungsdiensten vergleichbar."
+      },
+      {
+        "q": "Welche Sprachen unterstützt Captio AI?",
+        "a": "Captio AI unterstützt 60+ Sprachen, darunter Englisch, Spanisch, Französisch, Deutsch, Mandarin, Arabisch, Hindi, Japanisch, Koreanisch, Portugiesisch, Russisch und viele mehr. Alle Sprachen stehen für Live-Untertitel und den Live-Übersetzer zur Verfügung. Die vollständige Liste findest du auf dieser Seite."
+      },
+      {
+        "q": "Kommt Captio AI mit verschiedenen Akzenten und Dialekten zurecht?",
+        "a": "Ja. Captio AI versteht viele regionale Akzente und Dialekte, nicht nur Hochsprache wie aus dem Lehrbuch. Unterstützt werden zum Beispiel australisches Englisch, lateinamerikanisches Spanisch, Schweizerdeutsch, brasilianisches Portugiesisch, Québec-Französisch und viele mehr."
+      },
+      {
+        "q": "Was ist der Unterschied zwischen Live-Untertiteln und dem Live-Übersetzer?",
+        "a": "Live-Untertitel schreiben Gesprochenes in der Originalsprache mit. Der Live-Übersetzer übersetzt das Gesprochene in Echtzeit in die Sprache deiner Wahl. Ideal, wenn die sprechende und die lesende Person verschiedene Sprachen sprechen, zum Beispiel bei einer Ärztin aus dem Ausland oder einer geschäftlichen Besprechung in einer anderen Sprache."
+      },
+      {
+        "q": "Speichert oder teilt Captio AI mein Audio?",
+        "a": "Dein Audio wird nie auf den Servern von Captio AI gespeichert und nie verkauft oder für Werbung weitergegeben. Es wird sicher an einen Spracherkennungsdienst gesendet, nur um es in Text umzuwandeln, und dort anschließend gelöscht. Aufnahmen, die du speichern willst, bleiben auf deinem Handy; ihre Transkripte und Zusammenfassungen werden außerdem in deinem eigenen Konto gespeichert, damit du sie auf einem anderen Gerät öffnen kannst, und wenn du eine Aufnahme löschst, ist sie überall weg. Deine Gespräche werden nie zum Trainieren von KI-Modellen verwendet, weder von unseren noch von anderen."
+      },
+      {
+        "q": "Funktioniert Captio AI ohne Internetverbindung?",
+        "a": "Live-Untertitel und der Live-Übersetzer brauchen eine Internetverbindung, um Sprache in Echtzeit zu verarbeiten. Auch die Audio-Transkription (für hochgeladene Dateien) braucht eine Verbindung. Offline-Untertitel werden derzeit nicht unterstützt."
+      },
+      {
+        "q": "Welches Handy oder iPad brauche ich?",
+        "a": "Captio AI läuft auf iPhone und iPad ab iOS 16 sowie auf Android-Handys. Die App ist fürs Handy optimiert und funktioniert am besten, wenn das Mikrofon freie Bahn zur sprechenden Person hat."
+      },
+      {
+        "q": "Kann ich Captio AI bei einem Arzttermin nutzen?",
+        "a": "Ja, Arzttermine gehören zu den wichtigsten Einsatzbereichen. Leg dein Handy auf den Tisch oder halte es in Richtung Ärztin oder Arzt und lies alles, was gesagt wird, in Echtzeit mit. Medizinische Fachbegriffe werden zuverlässig erkannt. So ist Captio AI ein praktisches Hilfsmittel für Barrierefreiheit im Gesundheitswesen."
+      },
+      {
+        "q": "Kann ich Captio AI in Meetings und Vorlesungen nutzen?",
+        "a": "Ja. Captio AI funktioniert überall, wo gesprochen wird: in Meetings bei der Arbeit, Vorlesungen an der Uni, Team-Stand-ups, Konferenzen und Videoanrufen. Richte das Mikrofon auf die sprechende Person, und die Untertitel erscheinen sofort."
+      },
+      {
+        "q": "Was ist die Audio-Transkription und wie unterscheidet sie sich von Live-Untertiteln?",
+        "a": "Live-Untertitel funktionieren in Echtzeit, während jemand spricht. Die Audio-Transkription ist für Aufnahmen: Du lädst eine Audio- oder Videodatei hoch und bekommst ein vollständiges schriftliches Transkript. Ideal, um aufgezeichnete Vorlesungen, Interviews, Podcasts oder alles andere nachzulesen, was du lieber lesen als hören möchtest."
+      },
+      {
+        "q": "Was macht die KI-Zusammenfassung?",
+        "a": "Die KI-Zusammenfassung nimmt ein beliebiges Transkript und zieht die wichtigsten Informationen heraus: Kernpunkte, getroffene Entscheidungen, Aufgaben und wichtige Details, übersichtlich strukturiert. Das spart Zeit, wenn du ein langes Transkript von einem Meeting oder einer Vorlesung hast und schnell das Wichtigste brauchst."
+      },
+      {
+        "q": "Ist Captio AI kostenlos?",
+        "a": "Captio AI hat einen kostenlosen Tarif, mit dem du ohne Bezahlung loslegen kannst. Wer unbegrenzt nutzen möchte, kann den Plus-Tarif wählen. Den aktuellen Preis von Plus für dein Land findest du im App Store."
+      },
+      {
+        "q": "Was unterscheidet Captio AI von Apples integrierten Live-Untertiteln?",
+        "a": "Apples Live-Untertitel sind in iOS integriert, unterstützen aber weniger Sprachen, bieten keine Übersetzung und haben weder Audio-Transkription noch KI-Zusammenfassung. Captio AI unterstützt 60+ Sprachen, übersetzt in Echtzeit, transkribiert hochgeladene Dateien und erstellt KI-Zusammenfassungen. Damit ist es ein deutlich umfassenderes Werkzeug für Barrierefreiheit und Produktivität."
+      }
+    ]
+  },
+  "featurePages": {
+    "live-captions": {
+      "meta": {
+        "title": "Live-Untertitel für Gehörlose und Schwerhörige auf dem iPhone",
+        "description": "Sprache zu Text in Echtzeit über das Mikrofon deines iPhones. Folge jedem Gespräch, in jeder Sprache, sofort. Für gehörlose und schwerhörige Menschen gemacht.",
+        "schemaDescription": "Live-Untertitel in Echtzeit für gehörlose und schwerhörige Menschen. 60+ Sprachen, deutlich unter einer Sekunde Verzögerung, funktioniert überall."
+      },
+      "howTitle": "Dreimal tippen. Das ganze Gespräch.",
+      "steps": [
+        {
+          "title": "Aufnahme starten",
+          "desc": "Drück auf den Aufnahmeknopf. Captio AI hört sofort zu."
+        },
+        {
+          "title": "Wörter erscheinen",
+          "desc": "Die Untertitel erscheinen Wort für Wort, während die Person noch spricht."
+        },
+        {
+          "title": "Speichern",
+          "desc": "Behalte das Transkript und die Audioaufnahme für später."
+        }
+      ],
+      "featuresTitle": "Gemacht für echte Gespräche",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Wörter, die dem Gesagten entsprechen",
+          "description": "Captio AI erfasst, was jemand wirklich gesagt hat, keine grobe Umschreibung. So kannst du dich auf das Transkript verlassen, wenn es darauf ankommt: beim Arzt, im Vorstellungsgespräch, im Meeting."
+        },
+        {
+          "title": "Keine Verzögerung",
+          "description": "Die Verzögerung liegt deutlich unter einer Sekunde. Die Untertitel erscheinen Wort für Wort, während die Person noch spricht. So liest du das Gesagte im selben Moment, in dem alle anderen es hören."
+        },
+        {
+          "title": "Wissen, wer spricht",
+          "description": "In Gruppen und Meetings kennzeichnet Captio AI jeden Sprecher einzeln. So weißt du immer, wer was gesagt hat, ohne Gesichter zu beobachten oder Lippenbewegungen zu verfolgen."
+        },
+        {
+          "title": "60+ Sprachen",
+          "description": "Folge einem Gespräch auf Französisch, Japanisch oder Arabisch genauso wie einem auf Deutsch. Ohne den Modus zu wechseln. Ein Hörverlust wird nie auch noch zur Sprachbarriere."
+        },
+        {
+          "title": "Kommt mit Sprachwechseln mitten im Satz klar",
+          "description": "Wenn mitten im Gespräch die Sprache gewechselt wird, hält Captio AI mit. Keine Lücke in den Untertiteln, kein Modus zum Umschalten."
+        },
+        {
+          "title": "Bring der App deinen Wortschatz bei",
+          "description": "Füge Namen, medizinische Begriffe oder Fachwörter hinzu, die du oft hörst. Captio AI nutzt deine Wortliste, um deine echten Gespräche genauer zu untertiteln."
+        },
+        {
+          "title": "Sprachhinweis hinzufügen",
+          "description": "Sag Captio AI, welche Sprache zu erwarten ist, dann ist die App ab dem ersten Wort darauf eingestellt. Praktisch, wenn die gesprochene Sprache nicht aus dem Zusammenhang klar ist."
+        },
+        {
+          "title": "Später neu transkribieren, für mehr Genauigkeit",
+          "description": "Lass jede Aufnahme im Nachhinein noch einmal durchlaufen und erhalte ein saubereres Transkript. Praktisch für Vorlesungen, Termine und jedes Gespräch, das du noch einmal durchgehen willst."
+        },
+        {
+          "title": "Lies, wie es dir passt",
+          "description": "Passe Schriftgröße, Hintergrundfarbe und Kontrast an, bis sich die Untertitel auf einen Blick gut lesen lassen, ob in der Hand, flach auf dem Tisch oder aufgestellt auf dem Schreibtisch."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Audio bleibt nicht auf unseren Servern",
+          "description": "Dein Audio wird in Echtzeit in Text umgewandelt und nie auf unseren Servern gespeichert. Aufnahmen, die du speicherst, bleiben auf deinem Handy, und ihre Transkripte werden nur mit deinem eigenen Konto synchronisiert."
+        },
+        {
+          "title": "Kein Produkt",
+          "description": "Deine Gespräche sind nichts, was Captio AI verkauft, weitergibt oder zu Geld macht, an niemanden und aus keinem Grund."
+        },
+        {
+          "title": "Für kein Training genutzt",
+          "description": "Was du bei einem Arzttermin oder in einem Vorstellungsgespräch sagst, landet nie in einem Trainingsdatensatz. Nicht in unserem. Nicht in dem von irgendwem sonst."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Was unterscheidet Captio AI von Apples integrierten Live-Untertiteln?",
+          "a": "Apples Live-Untertitel unterstützen weniger Sprachen, bieten keine Übersetzung und haben weder Audio-Transkription noch KI-Zusammenfassung. Captio AI unterstützt 60+ Sprachen, übersetzt in Echtzeit, transkribiert hochgeladene Dateien und erstellt KI-Zusammenfassungen. Außerdem kannst du Schriftgröße, Farben und Kontrast so einstellen, wie du am besten liest."
+        },
+        {
+          "q": "Wie genau sind die Live-Untertitel?",
+          "a": "In typischen Gesprächssituationen ist die Genauigkeit hoch. Captio AI ist für echte Sprache gemacht, nicht nur für sauberen Studioton, und kommt mit schnellen Sprechern, regionalen Akzenten, Hintergrundlärm und gemischtsprachigen Sätzen zurecht. Du kannst auch eigene Wörter hinzufügen (Namen, medizinische Begriffe, Fachwörter), damit deine Gespräche noch genauer erkannt werden."
+        },
+        {
+          "q": "Wie schnell erscheinen die Untertitel?",
+          "a": "Wort für Wort, während die Person noch spricht. Die Verzögerung liegt deutlich unter einer Sekunde, fast in Echtzeit. Du liest das Gesagte im selben Moment, in dem alle anderen es hören, nicht erst, wenn der Satz zu Ende ist."
+        },
+        {
+          "q": "Funktionieren die Live-Untertitel auch in lauten Umgebungen?",
+          "a": "Ja. Captio AI ist für echte Umgebungen gemacht: Restaurants, Straßen, Wartezimmer, öffentliche Verkehrsmittel. Richte das Mikrofon auf die sprechende Person, und die Untertitel erscheinen trotz Hintergrundlärm."
+        },
+        {
+          "q": "Welche Sprachen unterstützen die Live-Untertitel?",
+          "a": "60+ Sprachen, darunter Englisch, Spanisch, Französisch, Deutsch, Mandarin, Arabisch, Hindi, Japanisch, Koreanisch, Portugiesisch, Russisch und viele mehr. Regionale Akzente und Dialekte werden in allen großen Sprachen unterstützt."
+        },
+        {
+          "q": "Funktioniert es mit Akzenten und Dialekten?",
+          "a": "Ja. Captio AI versteht viele regionale Akzente, nicht nur Hochsprache wie aus dem Lehrbuch. Australisches Englisch, lateinamerikanisches Spanisch, Schweizerdeutsch, Québec-Französisch und viele mehr werden unterstützt."
+        },
+        {
+          "q": "Kann ich meine Untertitel speichern?",
+          "a": "Ja. Nach einer Sitzung kannst du Transkripte und Audioaufnahmen speichern und später ansehen. Eine gespeicherte Aufnahme kannst du auch neu transkribieren, um ein saubereres, genaueres Transkript zu bekommen."
+        },
+        {
+          "q": "Brauche ich eine Internetverbindung?",
+          "a": "Ja. Live-Untertitel brauchen eine Internetverbindung, um Sprache in Echtzeit zu verarbeiten. Offline-Untertitel werden derzeit nicht unterstützt."
+        }
+      ]
+    },
+    "live-translator": {
+      "meta": {
+        "title": "Live-Übersetzer: Gesprochenes in Echtzeit übersetzen auf dem iPhone",
+        "description": "Gesprochenes in Echtzeit übersetzen, auf deinem iPhone. Die Person spricht ihre Sprache, du liest in deiner, sofort und in jeder Sprache. Für gehörlose und schwerhörige Menschen gemacht.",
+        "schemaDescription": "Sprachübersetzung in Echtzeit für gehörlose und schwerhörige Menschen. 60+ Sprachen, jede Person spricht ihre eigene Sprache, du liest in deiner."
+      },
+      "howTitle": "Dreimal tippen. Jede Sprache.",
+      "steps": [
+        {
+          "title": "Übersetzer-Modus wählen",
+          "desc": "Öffne Captio AI und wähle den Live-Übersetzer."
+        },
+        {
+          "title": "Gewünschte Sprache wählen",
+          "desc": "Wähle die Sprache, in der du lesen möchtest."
+        },
+        {
+          "title": "Übersetzung in Echtzeit sehen",
+          "desc": "Captio AI übersetzt Wort für Wort."
+        }
+      ],
+      "featuresTitle": "Gemacht für echte Gespräche",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Jede Sprache",
+          "description": "Französisch, Japanisch, Arabisch, Spanisch, Deutsch, Mandarin: 60+ Sprachen, in jede Richtung. Ein Hörverlust wird nie auch noch zur Sprachbarriere."
+        },
+        {
+          "title": "Erkennt die gesprochene Sprache automatisch",
+          "description": "Lass die Ausgangssprache auf „Automatisch“, und Captio AI erkennt sie an den ersten Wörtern. Du musst nicht vor jedem Gespräch eine Sprache auswählen."
+        },
+        {
+          "title": "Keine Verzögerung",
+          "description": "Die Verzögerung der Übersetzung liegt deutlich unter einer Sekunde. Du liest das Gesagte im selben Moment, in dem alle anderen es hören, nicht erst, wenn der Satz zu Ende ist."
+        },
+        {
+          "title": "Sprachhinweise hinzufügen",
+          "description": "Sag Captio AI, welche Sprache zu erwarten ist, dann ist die App ab dem ersten Wort darauf eingestellt. Praktisch, wenn die gesprochene Sprache nicht aus dem Zusammenhang klar ist."
+        },
+        {
+          "title": "Mehrere Sprachen gleichzeitig",
+          "description": "Wenn mitten im Gespräch die Sprache gewechselt wird, hält Captio AI mit und übersetzt alles in deine Sprache, ohne dass du eingreifen musst."
+        },
+        {
+          "title": "Lies, wie es dir passt",
+          "description": "Passe Hintergrundfarbe, Textfarbe und Schriftgröße an, damit sich die Übersetzung auf einen Blick gut lesen lässt, ob das Handy in deiner Hand liegt oder flach auf dem Tisch."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Audio bleibt nicht auf unseren Servern",
+          "description": "Dein Audio wird in Echtzeit in Text umgewandelt und nie auf unseren Servern gespeichert. Aufnahmen, die du speicherst, bleiben auf deinem Handy, und ihre Transkripte werden nur mit deinem eigenen Konto synchronisiert."
+        },
+        {
+          "title": "Kein Produkt",
+          "description": "Deine Gespräche sind nichts, was Captio AI verkauft, weitergibt oder zu Geld macht, an niemanden und aus keinem Grund."
+        },
+        {
+          "title": "Für kein Training genutzt",
+          "description": "Was du bei einem Arzttermin oder in einem Vorstellungsgespräch sagst, landet nie in einem Trainingsdatensatz. Nicht in unserem. Nicht in dem von irgendwem sonst."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Was unterscheidet den Live-Übersetzer von den Live-Untertiteln?",
+          "a": "Live-Untertitel schreiben Gesprochenes in der Originalsprache mit. Der Live-Übersetzer übersetzt das Gesprochene in Echtzeit in die Sprache deiner Wahl. Wenn die andere Person Französisch spricht und du auf Deutsch lesen willst, nimmst du den Live-Übersetzer."
+        },
+        {
+          "q": "Wie genau ist die Übersetzung?",
+          "a": "Bei gängigen Sprachpaaren ist die Übersetzung im Alltagsgespräch sehr genau. Captio AI kommt mit natürlicher Sprache zurecht, mit schnellen Sprechern, Akzenten und Hintergrundlärm, nicht nur mit sauberem Studioton. Bei seltenen Sprachpaaren oder sehr fachlichen Inhalten kann die Genauigkeit schwanken."
+        },
+        {
+          "q": "Welche Sprachen werden unterstützt?",
+          "a": "60+ Sprachen, darunter Englisch, Spanisch, Französisch, Deutsch, Mandarin, Arabisch, Hindi, Japanisch, Koreanisch, Portugiesisch, Russisch und viele mehr. Ausgangs- und Zielsprache können jede der unterstützten Sprachen sein."
+        },
+        {
+          "q": "Wie schnell erscheint die Übersetzung?",
+          "a": "Die Verzögerung liegt deutlich unter einer Sekunde. Du liest die Übersetzung Wort für Wort, während die Person noch spricht, fast in Echtzeit und nicht erst, wenn der Satz zu Ende ist."
+        },
+        {
+          "q": "Funktioniert es beim Arzttermin, wenn die Ärztin oder der Arzt eine andere Sprache spricht?",
+          "a": "Ja. Das ist einer der wichtigsten Einsatzbereiche. Leg dein Handy auf den Tisch, stell die Ausgangssprache auf die Sprache der Ärztin oder des Arztes und lies alles, was gesagt wird, in Echtzeit in deiner Sprache. Du kannst das übersetzte Transkript auch speichern und die Anweisungen später noch einmal nachlesen."
+        },
+        {
+          "q": "Funktioniert es in lauten Umgebungen?",
+          "a": "Ja. Captio AI ist für echte Umgebungen gemacht: Wartezimmer, Restaurants, Flughäfen. Richte das Mikrofon auf die sprechende Person, und die Übersetzung erscheint trotz Umgebungslärm."
+        },
+        {
+          "q": "Kann ich das übersetzte Transkript speichern?",
+          "a": "Ja. Nach einer Sitzung kannst du den übersetzten Text speichern und später nachlesen. Praktisch für Arzttermine, Meetings und jedes Gespräch, das du festhalten möchtest."
+        },
+        {
+          "q": "Brauche ich eine Internetverbindung?",
+          "a": "Ja. Der Live-Übersetzer braucht eine Internetverbindung, um Sprache in Echtzeit zu verarbeiten und zu übersetzen. Offline-Übersetzung wird derzeit nicht unterstützt."
+        }
+      ]
+    },
+    "audio-transcription": {
+      "meta": {
+        "title": "Audio-Transkription: Audio und Video in Text auf dem iPhone",
+        "description": "Lade eine beliebige Audio- oder Videodatei hoch und erhalte ein vollständiges Transkript. 60+ Sprachen, Sprechertrennung, durchsuchbar. Für gehörlose und schwerhörige Menschen gemacht.",
+        "schemaDescription": "Lade eine beliebige Audio- oder Videodatei hoch und erhalte ein vollständiges Transkript. 60+ Sprachen, Sprechertrennung, Zeitstempel. Für gehörlose und schwerhörige Menschen gemacht."
+      },
+      "howTitle": "Hochladen. Lesen. Fertig.",
+      "steps": [
+        {
+          "title": "Format wählen",
+          "desc": "Wähle, ob du eine Audio- oder eine Videodatei hochlädst."
+        },
+        {
+          "title": "Datei auswählen",
+          "desc": "Wähle die Datei auf deinem Handy aus. Captio AI beginnt sofort mit der Transkription."
+        },
+        {
+          "title": "Transkript ansehen",
+          "desc": "Lies das vollständige Transkript, nach Sprechern geordnet und mit Zeitstempeln."
+        }
+      ],
+      "featuresTitle": "Gemacht für echte Aufnahmen",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Jedes Format",
+          "description": "MP3, MP4, M4A, WAV und mehr. Vorlesungen, Meetings, Sprachnachrichten, Podcasts, Interviews, Telefonmitschnitte: Wenn darin gesprochen wird, kann Captio AI es transkribieren."
+        },
+        {
+          "title": "Höchste Genauigkeit",
+          "description": "Captio AI ist für Audio aus dem echten Leben gemacht, nicht nur für saubere Studiodateien. Telefonate, Aufnahmen aus dem Hörsaal, laute Umgebungen: Captio AI kommt mit allem zurecht."
+        },
+        {
+          "title": "Jede Sprache",
+          "description": "Lade eine Aufnahme auf Französisch, Japanisch, Arabisch oder in 57 anderen Sprachen hoch. Captio AI erkennt die Sprache und transkribiert sie genau."
+        },
+        {
+          "title": "Mehrere Sprachen",
+          "description": "Wenn mitten in der Aufnahme die Sprache gewechselt wird, hält Captio AI mit. Das Transkript enthält jede gesprochene Sprache, ohne Lücken."
+        },
+        {
+          "title": "Zeitstempel",
+          "description": "Jede Zeile im Transkript hat einen Zeitstempel. So springst du zu jedem Moment der Aufnahme und findest genau, was wann gesagt wurde."
+        },
+        {
+          "title": "Exportieren und teilen",
+          "description": "Kopiere das ganze Transkript, teile es oder speichere es. Deine Aufnahmen und Transkripte sind jederzeit für dich da."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Dateien bleiben nicht auf unseren Servern",
+          "description": "Deine Datei wird nur zum Transkribieren gesendet und dort anschließend gelöscht. Auf unseren Servern wird sie nie gespeichert. Die Aufnahme bleibt auf deinem Handy, und ihr Transkript wird nur mit deinem eigenen Konto synchronisiert."
+        },
+        {
+          "title": "Kein Produkt",
+          "description": "Deine Aufnahmen sind nichts, was Captio AI verkauft, weitergibt oder zu Geld macht, an niemanden und aus keinem Grund."
+        },
+        {
+          "title": "Für kein Training genutzt",
+          "description": "Was du hochlädst, ob Arzttermin, Meeting oder Interview, landet nie in einem Trainingsdatensatz. Nicht in unserem. Nicht in dem von irgendwem sonst."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Was unterscheidet die Audio-Transkription von Live-Untertiteln?",
+          "a": "Live-Untertitel funktionieren in Echtzeit, während jemand spricht. Die Audio-Transkription ist für Aufnahmen: Du lädst eine Audio- oder Videodatei hoch und bekommst ein vollständiges schriftliches Transkript. Ideal, um aufgezeichnete Vorlesungen, Arzttermine, Interviews oder alles andere nachzulesen, was du lieber lesen als hören möchtest."
+        },
+        {
+          "q": "Welche Dateiformate unterstützt die Audio-Transkription?",
+          "a": "Captio AI nimmt gängige Audio- und Videoformate an, darunter MP3, MP4, M4A, WAV und mehr. Wenn du es mit deinem Handy aufgenommen oder von einer Videoplattform heruntergeladen hast, funktioniert es."
+        },
+        {
+          "q": "Wie genau ist die Transkription?",
+          "a": "Bei klaren Aufnahmen in unterstützten Sprachen ist die Genauigkeit hoch. Captio AI kommt mit Audio aus dem echten Leben zurecht (Telefonate, Aufnahmen aus dem Hörsaal, laute Umgebungen), nicht nur mit Dateien in Studioqualität. Bei Bedarf kannst du eine Datei auch ein zweites Mal transkribieren lassen."
+        },
+        {
+          "q": "Welche Sprachen werden unterstützt?",
+          "a": "60+ Sprachen, darunter Englisch, Spanisch, Französisch, Deutsch, Mandarin, Arabisch, Hindi, Japanisch, Koreanisch, Portugiesisch, Russisch und viele mehr. Captio AI erkennt die gesprochene Sprache in der Datei automatisch."
+        },
+        {
+          "q": "Werden die Sprecher getrennt?",
+          "a": "Ja. Captio AI kennzeichnet jeden Sprecher im Transkript einzeln, damit du nachvollziehen kannst, wer was gesagt hat. Praktisch für Meetings, Interviews, Arzttermine und jede Aufnahme mit mehreren Personen."
+        },
+        {
+          "q": "Wie lange dauert die Transkription?",
+          "a": "Die Transkription geht schnell. Eine einstündige Aufnahme dauert meist nur ein paar Minuten. Die Dauer hängt von der Länge der Datei und der Tonqualität ab."
+        },
+        {
+          "q": "Wird mein Audio nach der Transkription gespeichert?",
+          "a": "Nicht auf den Servern von Captio AI. Die Datei wird sicher an einen Spracherkennungsdienst gesendet, nur um transkribiert zu werden, und dort gelöscht, sobald das Transkript fertig ist. Die Aufnahme bleibt auf deinem Handy, und ihr Transkript wird außerdem in deinem eigenen Konto gespeichert, damit du es auf einem anderen Gerät öffnen kannst. Deine Aufnahmen werden nie verkauft oder zum Trainieren von KI-Modellen verwendet."
+        },
+        {
+          "q": "Kann ich eine Videodatei transkribieren?",
+          "a": "Ja. Lade die Videodatei direkt hoch, und Captio AI holt den Ton heraus und transkribiert ihn. Du musst die Datei vorher nicht umwandeln."
+        }
+      ]
+    },
+    "ai-summary": {
+      "meta": {
+        "title": "KI-Zusammenfassung: Jedes Transkript strukturiert zusammengefasst",
+        "description": "Mach aus jedem Transkript eine strukturierte Zusammenfassung. Kernpunkte, Entscheidungen und Aufgaben werden automatisch herausgefiltert. Für gehörlose und schwerhörige Menschen gemacht.",
+        "schemaDescription": "Mach aus jedem Transkript eine strukturierte Zusammenfassung. Kernpunkte, Entscheidungen, Aufgaben und Zitate der Sprecher werden automatisch herausgefiltert."
+      },
+      "howTitle": "Transkript rein. Zusammenfassung raus.",
+      "steps": [
+        {
+          "title": "Transkript öffnen",
+          "desc": "Wähle ein beliebiges Transkript aus Live-Untertiteln oder Audio-Transkription."
+        },
+        {
+          "title": "Zusammenfassung erstellen",
+          "desc": "Tippe auf KI-Zusammenfassung. Captio AI verarbeitet das Transkript automatisch."
+        },
+        {
+          "title": "Zusammenfassung lesen",
+          "desc": "Deine Zusammenfassung ist fertig, in Abschnitte gegliedert und bereit zum Lesen oder Teilen."
+        }
+      ],
+      "featuresTitle": "Gemacht für lange Transkripte",
+      "featuresSubtitle": "Hol dir Zusammenfassung, To-dos, Zitate der Sprecher, Notizen und mehr.",
+      "subfeatures": [
+        {
+          "title": "Kernpunkte automatisch herausgefiltert",
+          "description": "Captio AI liest das ganze Transkript und holt heraus, worauf es wirklich ankam: die Kernpunkte, die getroffenen Entscheidungen und die Ergebnisse."
+        },
+        {
+          "title": "Aufgaben auf einen Blick",
+          "description": "Aufgaben und nächste Schritte werden erkannt und getrennt aufgelistet, damit nach einem Meeting, einem Termin oder einer Vorlesung nichts untergeht."
+        },
+        {
+          "title": "In Abschnitte gegliedert",
+          "description": "Die Zusammenfassung ist strukturiert, kein durchgehender Textblock. Jedes Thema bekommt einen eigenen Abschnitt, damit du schnell findest, was du brauchst."
+        },
+        {
+          "title": "Funktioniert mit jedem Transkript aus Captio AI",
+          "description": "Nutze die KI-Zusammenfassung für jedes Transkript, das du mit Live-Untertiteln oder der Audio-Transkription erstellt hast. Keine zusätzlichen Schritte, kein Kopieren und Einfügen."
+        },
+        {
+          "title": "Jede Sprache",
+          "description": "Fasse Transkripte in 60+ Sprachen zusammen. Captio AI liest das Transkript in der Originalsprache und erstellt eine Zusammenfassung, die du lesen kannst."
+        },
+        {
+          "title": "Speichern und teilen",
+          "description": "Behalte die Zusammenfassung zusammen mit dem Transkript, kopiere sie oder teile sie. Praktisch nach Arztterminen, Meetings und Vorlesungen."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Nur in deinem Konto gespeichert",
+          "description": "Deine Zusammenfassung wird mit ihrer Aufnahme gespeichert, auf deinem Handy und in deinem eigenen Konto, damit sie auf jedem Gerät da ist, auf dem du dich anmeldest. Löschst du sie, ist sie überall weg."
+        },
+        {
+          "title": "Kein Produkt",
+          "description": "Deine Gespräche sind nichts, was Captio AI verkauft, weitergibt oder zu Geld macht, an niemanden und aus keinem Grund."
+        },
+        {
+          "title": "Für kein Training genutzt",
+          "description": "Was du zusammenfasst, ob Arzttermin, Meeting oder Interview, landet nie in einem Trainingsdatensatz. Nicht in unserem. Nicht in dem von irgendwem sonst."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Was macht die KI-Zusammenfassung?",
+          "a": "Die KI-Zusammenfassung nimmt ein beliebiges Transkript und zieht die wichtigsten Informationen heraus: Kernpunkte, Entscheidungen, Aufgaben und wichtige Details, übersichtlich strukturiert. Das spart Zeit, wenn du ein langes Transkript hast und schnell das Wichtigste brauchst."
+        },
+        {
+          "q": "Welche Transkripte kann ich zusammenfassen?",
+          "a": "Jedes Transkript, das in Captio AI entstanden ist, ob mit Live-Untertiteln oder mit der Audio-Transkription. Du startest die KI-Zusammenfassung direkt im Transkript, ohne zusätzliche Schritte."
+        },
+        {
+          "q": "Was bringt die KI-Zusammenfassung, statt einfach das Transkript zu lesen?",
+          "a": "Das vollständige Transkript eines einstündigen Meetings kann Tausende Wörter lang sein. Die KI-Zusammenfassung liefert dir Kernpunkte, Entscheidungen und Aufgaben in einem Bruchteil der Lesezeit, nach Themen geordnet statt in der Reihenfolge, in der etwas gesagt wurde."
+        },
+        {
+          "q": "Funktioniert es bei Arztterminen?",
+          "a": "Ja. Bei einem Arzttermin kommen schnell viele Informationen zusammen. Die KI-Zusammenfassung filtert Diagnose, Anweisungen und nächste Schritte heraus und macht daraus eine übersichtliche Liste, die du jederzeit nachlesen kannst."
+        },
+        {
+          "q": "Welche Sprachen werden unterstützt?",
+          "a": "Die KI-Zusammenfassung funktioniert mit Transkripten in 60+ Sprachen. Die Zusammenfassung wird in derselben Sprache wie das Transkript erstellt."
+        },
+        {
+          "q": "Kann ich die Zusammenfassung speichern oder teilen?",
+          "a": "Ja. Du kannst die Zusammenfassung zusammen mit dem Original-Transkript speichern, kopieren oder teilen. Praktisch, um nach einem Meeting eine Zusammenfassung zu verschicken oder einen Arzttermin festzuhalten."
+        },
+        {
+          "q": "Speichert die KI-Zusammenfassung mein Transkript oder Audio?",
+          "a": "Dein Transkript wird sicher an einen KI-Dienst gesendet, nur um die Zusammenfassung zu schreiben, und nie zum Trainieren von KI-Modellen verwendet. Die Zusammenfassung wird mit der Aufnahme gespeichert, auf deinem Handy und in deinem eigenen Konto, bis du sie löschst. Audio wird nie auf den Servern von Captio AI gespeichert, und deine Gespräche werden nie verkauft."
+        }
+      ]
+    }
+  }
+}

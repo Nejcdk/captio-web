@@ -4,6 +4,8 @@ import { languages } from "@/lib/languages";
 import { useCases } from "@/lib/useCases";
 import { AUTHORS, CATEGORIES, getAllPosts, getPostsByAuthor, getPostsByCategory, type AuthorKey, type CategorySlug } from "@/lib/blog";
 import { getAllComparePages, getCompareHub } from "@/lib/compare";
+import { FEATURE_SLUGS, pagePath } from "@/i18n";
+import { LOCALE_CODES } from "@/i18n/locales";
 
 // Generated from the same data that generates the pages, so it stays in sync
 // automatically. Next serves this at /sitemap.xml.
@@ -19,6 +21,7 @@ const UPDATED = {
   privacy: "2026-10-07",
   terms: "2026-10-07",
   organizations: "2026-10-27",
+  translations: "2026-10-28", // /<code> and /<code>/<feature>
 };
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -32,6 +35,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/privacy`, lastModified: UPDATED.privacy },
     { url: `${SITE_URL}/terms`, lastModified: UPDATED.terms },
   ];
+
+  // The home page and the four feature pages in 59 more languages — /de, /de/live-captions
+  for (const code of LOCALE_CODES) {
+    for (const page of ["home", ...FEATURE_SLUGS] as const) {
+      entries.push({ url: `${SITE_URL}${pagePath(code, page)}`, lastModified: UPDATED.translations });
+    }
+  }
 
   // 60 language pages — /[language]
   for (const lang of languages) {

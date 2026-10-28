@@ -1,0 +1,638 @@
+{
+  "header": {
+    "features": "Funcións",
+    "useCases": "Casos de uso",
+    "languages": "Idiomas",
+    "compare": "Comparar",
+    "blog": "Blog",
+    "download": "Descargar",
+    "toggleMenu": "Abrir ou pechar o menú",
+    "chooseLanguage": "Escolle un idioma"
+  },
+  "footer": {
+    "tagline": "Subtítulos en directo e ferramenta de produtividade para persoas xordas e con perda auditiva.",
+    "productHuntTagline": "Subtítulos en directo e transcrición para persoas xordas e con perda auditiva",
+    "productHunt": "Bótalle unha ollada en Product Hunt →",
+    "featuredOn": "Destacada en",
+    "features": "Funcións",
+    "useCases": "Casos de uso",
+    "blog": "Blog",
+    "allArticles": "Todos os artigos",
+    "compare": "Comparar",
+    "compareApps": "Comparar apps de subtítulos",
+    "company": "Empresa",
+    "organizations": "Para organizacións",
+    "privacy": "Política de privacidade",
+    "terms": "Condicións do servizo"
+  },
+  "store": {
+    "appleOverline": "Descárgaa na",
+    "googleOverline": "Dispoñible en",
+    "appleQrAlt": "Código QR para descargar Captio AI da App Store para iPhone",
+    "googleQrAlt": "Código QR para descargar Captio AI de Google Play para Android",
+    "downloadForFree": "Descárgaa gratis"
+  },
+  "common": {
+    "home": "Inicio",
+    "back": "Atrás",
+    "goBack": "Volver atrás",
+    "explore": "Explorar",
+    "featuresLabel": "Funcións",
+    "howItWorks": "Como funciona",
+    "privacyLabel": "Privacidade",
+    "privacyTitle": "O que oes queda contigo.",
+    "privacyImageAlt": "Privada de serie: o teu audio nunca se garda nos nosos servidores, nunca se vende e nunca se usa para adestrar modelos",
+    "faqLabel": "FAQ",
+    "faqTitle": "Preguntas frecuentes",
+    "getStarted": "Comezar",
+    "freeToStart": "Comezar con Captio AI é gratis",
+    "allFeatures": "Captio AI inclúe Subtítulos en directo, Tradutor en directo, Transcrición de audio e Resumo con IA.",
+    "featureNames": {
+      "live-captions": "Subtítulos en directo",
+      "live-translator": "Tradutor en directo",
+      "audio-transcription": "Transcrición de audio",
+      "ai-summary": "Resumo con IA"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Captio AI — Subtítulos en directo para persoas xordas",
+      "description": "Captio AI dálles ás persoas xordas e con perda auditiva subtítulos en directo, tradución, transcrición de audio e resumos con IA no móbil. 60+ idiomas.",
+      "ogDescription": "Subtítulos en directo, tradución simultánea, transcrición de audio e resumos con IA para persoas xordas e con perda auditiva. 60+ idiomas. iPhone e Android.",
+      "schemaDescription": "Subtítulos en directo, tradución en tempo real, transcrición de audio e resumos con IA para persoas xordas e con perda auditiva. Máis de 60 idiomas."
+    },
+    "eyebrow": "🦻 Accesibilidade + 💻 App de produtividade",
+    "heroTitle": "[Subtítulos en directo] e [ferramenta de produtividade] para persoas xordas e con perda auditiva.",
+    "heroSubtitle": "Segue calquera conversa, reunión ou clase. En calquera idioma.",
+    "mockupAlt": "A app Captio AI mostrando subtítulos en directo e tradución",
+    "featuresTitle": "Todo o que precisas para seguir calquera conversa",
+    "featuresSubtitle": "Catro ferramentas feitas especificamente para persoas xordas e con perda auditiva.",
+    "features": {
+      "live-captions": {
+        "title": "Voz a texto en tempo real",
+        "bullets": [
+          "Palabra a palabra, en tempo real",
+          "Funciona en lugares con ruído",
+          "Calquera acento, calquera ritmo",
+          "Sen ter que ler os beizos"
+        ]
+      },
+      "live-translator": {
+        "title": "Traduce calquera idioma en tempo real",
+        "bullets": [
+          "Traduce mentres falan",
+          "Cada persoa fala no seu idioma",
+          "Entende cambios de idioma a media frase",
+          "Máis de 60 idiomas"
+        ]
+      },
+      "audio-transcription": {
+        "title": "Transcribe calquera ficheiro de audio ou vídeo",
+        "bullets": [
+          "Calquera ficheiro de audio ou vídeo",
+          "Organizado por falante",
+          "Máis de 60 idiomas",
+          "Le, copia, busca e comparte"
+        ]
+      },
+      "ai-summary": {
+        "title": "Converte transcricións en resumos estruturados",
+        "bullets": [
+          "Puntos clave e decisións",
+          "Tarefas extraídas",
+          "Funciona con calquera transcrición",
+          "Organizado en seccións"
+        ]
+      }
+    },
+    "useCasesLabel": "Casos de uso",
+    "useCasesTitle": "Funciona en calquera situación",
+    "useCasesSubtitle": "Pensada para os momentos reais que importan, non só para ambientes tranquilos e controlados.",
+    "useCases": {
+      "everyday-conversations": {
+        "label": "Conversas do día a día",
+        "description": "A maioría das conversas van rápido, a ritmo normal e sen aviso. Captio AI subtitula cada palabra no momento en que se di, para que poidas seguilas sen pedirlle a ninguén que repita."
+      },
+      "deaf-hoh-communication": {
+        "label": "Falar con persoas xordas",
+        "description": "Moitas veces as persoas oíntes non saben como adaptarse cando falan con amigos xordos ou con perda auditiva. Captio AI converte o que din en subtítulos en tempo real, para que a conversa flúa con naturalidade polas dúas partes."
+      },
+      "meetings": {
+        "label": "Reunións",
+        "description": "Nas reunións as decisións tómanse rápido e a xente fala á vez. Captio AI subtitula a cada participante mentres fala, para que nunca perdas unha decisión nin unha pregunta dirixida a ti."
+      },
+      "lectures": {
+        "label": "Clases",
+        "description": "O profesorado fala rápido, explica materia complexa e case nunca repite. Captio AI dáche unha transcrición en directo de todo o que se di, para que poidas seguir o contido en vez de esforzarte por oílo."
+      },
+      "doctor-appointments": {
+        "label": "Consultas médicas",
+        "description": "Os médicos falan rápido e usan termos clínicos que é fácil entender mal. Captio AI móstrache en tempo real todo o que din, para que poidas seguir o teu diagnóstico e facer as preguntas axeitadas."
+      },
+      "job-interviews": {
+        "label": "Entrevistas de traballo",
+        "description": "Perder unha pregunta nunha entrevista significa responder mal ou pedir que a repitan. Captio AI móstrache cada palabra que di a persoa que te entrevista, para que te poidas centrar por completo na túa resposta."
+      },
+      "phone-video-calls": {
+        "label": "Chamadas e videochamadas",
+        "description": "As chamadas e as videochamadas son máis difíciles de seguir que as conversas en persoa. Non hai lectura labial e o son adoita ser malo. Captio AI subtitula en tempo real a quen estea falando, para que non teñas que pedir que repitan."
+      },
+      "group-settings": {
+        "label": "En grupo",
+        "description": "En grupo varias persoas falan á vez e a conversa avanza rápido. Captio AI segue o ritmo de quen fale, para que poidas seguila sen perder o fío."
+      },
+      "restaurants": {
+        "label": "Restaurantes e cafetarías",
+        "description": "O ruído de fondo fai que custe seguir o que se di, mesmo a quen non ten perda auditiva. Captio AI céntrase en quen che fala, para que poidas manter unha conversa de verdade a pesar do barullo."
+      },
+      "traveling": {
+        "label": "Viaxes",
+        "description": "En aeroportos, hoteis e cidades descoñecidas non hai marxe para entender mal. Captio AI subtitula a fala en máis de 60 idiomas, para que te movas con seguridade alá onde vaias."
+      },
+      "conferences": {
+        "label": "Congresos e eventos",
+        "description": "Os oradores están lonxe, a acústica é imprevisible e non podes pedir que repitan. Captio AI dáche unha transcrición en directo de cada orador, para que poidas seguir todo o evento desde calquera asento."
+      },
+      "tv-media": {
+        "label": "TV e medios",
+        "description": "Os subtítulos que trae o contido adoitan estar mal, chegar tarde ou nin sequera existir. Captio AI subtitula en tempo real o que estea soando, para que non dependas de se o contido ten subtítulos ou non."
+      }
+    },
+    "languagesLabel": "Idiomas",
+    "languagesTitle": "Captio AI admite máis de 60 idiomas",
+    "privacyCards": [
+      {
+        "title": "O audio non chega aos nosos servidores",
+        "description": "O teu audio convértese en texto en tempo real e nunca se garda nos nosos servidores. As gravacións que gardas quedan no teu teléfono, e as súas transcricións só se sincronizan coa túa propia conta."
+      },
+      {
+        "title": "Non é un produto",
+        "description": "As túas conversas non son algo que Captio AI venda, comparta ou rendibilice, a ninguén e por ningún motivo."
+      },
+      {
+        "title": "Non se usa para adestrar nada",
+        "description": "O que dis nunha consulta médica ou nunha entrevista de traballo nunca acaba nun conxunto de datos de adestramento. Nin no noso. Nin no de ninguén."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Para quen está pensada Captio AI?",
+        "a": "Captio AI está feita sobre todo para persoas xordas e con perda auditiva que precisan seguir conversas faladas en tempo real. Tamén a usan moito persoas con trastorno do procesamento auditivo, persoas en ambientes con ruído, estudantes de idiomas e calquera persoa á que lle resulte máis rápido ou doado ler que escoitar."
+      },
+      {
+        "q": "Que precisión teñen os subtítulos en directo?",
+        "a": "Captio AI usa un recoñecemento de voz avanzado, feito especificamente para ofrecer precisión e baixa latencia. A precisión depende da claridade do audio, do acento e do ruído de fondo, pero nas condicións habituais dunha conversa é moi alta, comparable á dos servizos profesionais de subtitulado."
+      },
+      {
+        "q": "Que idiomas admite Captio AI?",
+        "a": "Captio AI admite máis de 60 idiomas, entre eles inglés, español, francés, alemán, chinés mandarín, árabe, hindi, xaponés, coreano, portugués, ruso e moitos máis. Todos os idiomas están dispoñibles en Subtítulos en directo e en Tradutor en directo. Consulta a lista completa nesta páxina."
+      },
+      {
+        "q": "Funciona Captio AI con diferentes acentos e dialectos?",
+        "a": "Si. Captio AI entende unha ampla variedade de acentos rexionais e dialectos, non só a fala estándar dos libros de texto. Admite inglés australiano, español latinoamericano, alemán suízo, portugués brasileiro, francés quebequés e moitos máis."
+      },
+      {
+        "q": "Cal é a diferenza entre Subtítulos en directo e Tradutor en directo?",
+        "a": "Subtítulos en directo transcribe a fala no idioma orixinal en que se fala. Tradutor en directo colle esa fala e tradúcea en tempo real ao idioma que escollas. É ideal cando quen fala e quen le usan idiomas distintos, como cun médico estranxeiro ou nunha reunión de traballo noutro idioma."
+      },
+      {
+        "q": "Garda ou comparte Captio AI o meu audio?",
+        "a": "O teu audio nunca se garda nos servidores de Captio AI, e nunca se vende nin se comparte con fins publicitarios. Envíase de forma segura a un servizo de recoñecemento da fala só para convertelo en texto e elimínase alí. As gravacións que decides gardar quedan no teu teléfono; as súas transcricións e resumos tamén se gardan na túa propia conta para que os poidas abrir noutro dispositivo, e ao eliminar unha gravación desaparece de todas partes. As túas conversas nunca se usan para adestrar modelos de IA, nin os nosos nin os de ninguén."
+      },
+      {
+        "q": "Funciona Captio AI sen conexión a internet?",
+        "a": "Subtítulos en directo e Tradutor en directo precisan conexión a internet para procesar a fala en tempo real. Transcrición de audio (para ficheiros subidos) tamén precisa conexión. Polo de agora non se poden xerar subtítulos sen conexión."
+      },
+      {
+        "q": "Que teléfono ou iPad necesito?",
+        "a": "Captio AI funciona en iPhone e iPad con iOS 16 ou posterior, e en teléfonos Android. Está optimizada para o teléfono e funciona mellor cando non hai nada entre o micrófono e quen fala."
+      },
+      {
+        "q": "Podo usar Captio AI nunha consulta médica?",
+        "a": "Si. As consultas médicas son un dos usos máis importantes. Podes deixar o teléfono na mesa ou achegalo cara ao médico e ler en tempo real todo o que di. Os termos médicos recoñécense con precisión, o que fai de Captio AI unha ferramenta de accesibilidade práctica no ámbito sanitario."
+      },
+      {
+        "q": "Podo usar Captio AI en reunións e clases?",
+        "a": "Si. Captio AI funciona en calquera situación na que se fale: reunións de traballo, clases na universidade, reunións diarias de equipo, congresos e videochamadas. Apunta o micrófono cara a quen fala e os subtítulos aparecen ao instante."
+      },
+      {
+        "q": "Que é Transcrición de audio e en que se diferencia de Subtítulos en directo?",
+        "a": "Subtítulos en directo funciona en tempo real mentres alguén fala. Transcrición de audio é para gravacións: subes un ficheiro de audio ou vídeo e recibes unha transcrición escrita completa. É ideal para repasar clases que gravaches, entrevistas, podcasts ou calquera contido que prefiras ler en vez de escoitar."
+      },
+      {
+        "q": "Que fai a función Resumo con IA?",
+        "a": "Resumo con IA colle calquera transcrición e extrae a información clave (ideas principais, decisións tomadas, tarefas e detalles importantes) nun resumo estruturado. Aforra tempo cando tes unha transcrición longa dunha reunión ou dunha clase e precisas o esencial axiña."
+      },
+      {
+        "q": "Captio AI é gratis?",
+        "a": "Captio AI ten un plan gratuíto para que comeces sen pagar nada. Se precisas acceso ilimitado, tes o plan Plus. O prezo actual de Plus no teu país aparece na ficha da App Store."
+      },
+      {
+        "q": "En que se diferencia Captio AI dos subtítulos en directo que trae Apple?",
+        "a": "Os subtítulos en directo de Apple veñen integrados en iOS, pero admiten menos idiomas, non traducen e non inclúen transcrición de audio nin resumos con IA. Captio AI admite máis de 60 idiomas, traduce en tempo real, permíteche transcribir ficheiros subidos e xera resumos con IA, o que a converte nunha ferramenta de accesibilidade e produtividade moito máis completa."
+      }
+    ]
+  },
+  "featurePages": {
+    "live-captions": {
+      "meta": {
+        "title": "Subtítulos en directo no iPhone para persoas xordas",
+        "description": "Voz a texto en tempo real co micrófono do iPhone. Segue calquera conversa, en calquera idioma, ao instante. Para persoas xordas e con perda auditiva.",
+        "schemaDescription": "Subtítulos en tempo real para persoas xordas e con perda auditiva. Máis de 60 idiomas, latencia de moito menos dun segundo e funciona en calquera parte."
+      },
+      "howTitle": "Tres toques. Toda a conversa.",
+      "steps": [
+        {
+          "title": "Comeza a gravar",
+          "desc": "Preme o botón de gravar. Captio AI empeza a escoitar ao momento."
+        },
+        {
+          "title": "Mira como saen as palabras",
+          "desc": "Os subtítulos aparecen palabra a palabra mentres a persoa aínda está a falar."
+        },
+        {
+          "title": "Gárdao",
+          "desc": "Conserva a transcrición e a gravación de audio para máis tarde."
+        }
+      ],
+      "featuresTitle": "Feito para conversas reais",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Palabras que coinciden co que se dixo",
+          "description": "Captio AI recolle o que alguén dixo de verdade, non unha paráfrase aproximada. Así podes fiarte da transcrición cando importa: no médico, nunha entrevista, nunha reunión."
+        },
+        {
+          "title": "Latencia cero",
+          "description": "A latencia é de moito menos dun segundo. Os subtítulos aparecen palabra a palabra mentres a persoa aínda fala, así que les o que di no mesmo momento en que o oen os demais."
+        },
+        {
+          "title": "Sabe quen fala",
+          "description": "En grupos e reunións, Captio AI etiqueta cada falante por separado para que sempre saibas quen dixo que, sen ter que mirar as caras nin seguir o movemento dos beizos."
+        },
+        {
+          "title": "Máis de 60 idiomas",
+          "description": "Segue unha conversa en francés, xaponés ou árabe igual que segues unha en galego. Sen cambiar de modo. A perda auditiva nunca é tamén unha barreira lingüística."
+        },
+        {
+          "title": "Entende idiomas mesturados a media frase",
+          "description": "Cando a xente cambia de idioma no medio da conversa, Captio AI segue o ritmo. Sen ocos nos subtítulos, sen modos que cambiar."
+        },
+        {
+          "title": "Ensínalle o teu vocabulario",
+          "description": "Engade nomes, termos médicos ou palabras técnicas que oes a miúdo. Captio AI usa a túa lista de vocabulario para subtitular con máis precisión as túas conversas reais."
+        },
+        {
+          "title": "Engade unha pista de idioma",
+          "description": "Dille a Captio AI que idioma debe esperar e empezará afinado desde a primeira palabra. Útil cando o contexto non deixa claro que idioma se fala."
+        },
+        {
+          "title": "Volve transcribir despois para gañar precisión",
+          "description": "Pasa de novo calquera gravación máis tarde para obter unha transcrición máis limpa. Útil para clases, consultas e calquera conversa que pague a pena repasar."
+        },
+        {
+          "title": "Le ao teu xeito",
+          "description": "Axusta o tamaño do texto, a cor de fondo e o contraste ata que os subtítulos se lean dunha ollada: co teléfono na man, deitado na mesa ou apoiado no escritorio."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "O audio non chega aos nosos servidores",
+          "description": "O teu audio convértese en texto en tempo real e nunca se garda nos nosos servidores. As gravacións que gardas quedan no teu teléfono, e as súas transcricións só se sincronizan coa túa propia conta."
+        },
+        {
+          "title": "Non é un produto",
+          "description": "As túas conversas non son algo que Captio AI venda, comparta ou rendibilice, a ninguén e por ningún motivo."
+        },
+        {
+          "title": "Non se usa para adestrar nada",
+          "description": "O que dis nunha consulta médica ou nunha entrevista de traballo nunca acaba nun conxunto de datos de adestramento. Nin no noso. Nin no de ninguén."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "En que se diferencia Captio AI dos subtítulos en directo que trae Apple?",
+          "a": "Os subtítulos en directo de Apple admiten menos idiomas, non traducen e non inclúen transcrición de audio nin resumos con IA. Captio AI admite máis de 60 idiomas, traduce en tempo real, permíteche transcribir ficheiros subidos e xera resumos con IA. Ademais, podes personalizar o tamaño do texto, as cores e o contraste para ler como mellor che vaia."
+        },
+        {
+          "q": "Que precisión teñen os subtítulos en directo?",
+          "a": "A precisión é alta nas condicións habituais dunha conversa. Captio AI está feita para a fala real, non só para audio limpo de estudo, así que entende a quen fala rápido, os acentos rexionais, o ruído de fondo e as frases que mesturan idiomas. Tamén podes engadir vocabulario propio (nomes, termos médicos, palabras técnicas) para mellorar a precisión nas túas conversas."
+        },
+        {
+          "q": "Con que rapidez aparecen os subtítulos?",
+          "a": "Palabra a palabra, mentres a persoa aínda fala. A latencia é de moito menos dun segundo, case en tempo real. Les o que alguén di no mesmo momento en que o oen os demais, non cando remata a frase."
+        },
+        {
+          "q": "Funciona Subtítulos en directo en lugares con ruído?",
+          "a": "Si. Captio AI está pensada para ambientes reais: restaurantes, rúas, salas de espera, transporte público. Apunta o micrófono cara a quen fala e os subtítulos aparecen aínda que haxa ruído de fondo."
+        },
+        {
+          "q": "Que idiomas admite Subtítulos en directo?",
+          "a": "Máis de 60 idiomas, entre eles inglés, español, francés, alemán, chinés mandarín, árabe, hindi, xaponés, coreano, portugués, ruso e moitos máis. Os acentos rexionais e os dialectos están admitidos en todos os idiomas principais."
+        },
+        {
+          "q": "Funciona con acentos e dialectos?",
+          "a": "Si. Captio AI entende unha ampla variedade de acentos rexionais, non só a fala estándar dos libros de texto. Admite inglés australiano, español latinoamericano, alemán suízo, francés quebequés e moitos máis."
+        },
+        {
+          "q": "Podo gardar os subtítulos?",
+          "a": "Si. Ao rematar unha sesión podes gardar as transcricións e as gravacións de audio e revisalas despois. Tamén podes volver transcribir unha gravación gardada para obter unha transcrición máis limpa e precisa."
+        },
+        {
+          "q": "Necesito conexión a internet?",
+          "a": "Si. Subtítulos en directo precisa conexión a internet para procesar a fala en tempo real. Polo de agora non se poden xerar subtítulos sen conexión."
+        }
+      ]
+    },
+    "live-translator": {
+      "meta": {
+        "title": "Tradutor en directo: tradución de voz no iPhone",
+        "description": "Tradución de voz en tempo real no teu iPhone. A outra persoa fala no seu idioma e ti les no teu, ao instante. Para persoas xordas e con perda auditiva.",
+        "schemaDescription": "Tradución de voz en tempo real para persoas xordas e con perda auditiva. Máis de 60 idiomas: cada persoa fala no seu idioma e ti les no teu."
+      },
+      "howTitle": "Tres toques. Calquera idioma.",
+      "steps": [
+        {
+          "title": "Escolle o modo tradutor",
+          "desc": "Abre Captio AI e selecciona Tradutor en directo."
+        },
+        {
+          "title": "Selecciona o teu idioma",
+          "desc": "Escolle o idioma no que queres ler."
+        },
+        {
+          "title": "Mira a tradución en tempo real",
+          "desc": "Captio AI traduce palabra a palabra."
+        }
+      ],
+      "featuresTitle": "Feito para conversas reais",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Calquera idioma",
+          "description": "Francés, xaponés, árabe, español, alemán, chinés mandarín: máis de 60 idiomas, en calquera dirección. A perda auditiva nunca é tamén unha barreira lingüística."
+        },
+        {
+          "title": "Detecta automaticamente o idioma falado",
+          "description": "Deixa o idioma de orixe en automático e Captio AI descóbreo coas primeiras palabras. Non tes que escollelo a man antes de cada conversa."
+        },
+        {
+          "title": "Sen atraso",
+          "description": "A latencia da tradución é de moito menos dun segundo. Les o que alguén di no mesmo momento en que o oen os demais, non cando remata a frase."
+        },
+        {
+          "title": "Engade pistas de idioma",
+          "description": "Dille a Captio AI que idioma debe esperar e empezará afinado desde a primeira palabra. Útil cando o contexto non deixa claro que idioma se fala."
+        },
+        {
+          "title": "Varios idiomas á vez",
+          "description": "Cando a xente cambia de idioma no medio da conversa, Captio AI segue o ritmo e tradúceo todo ao teu idioma sen que teñas que facer nada."
+        },
+        {
+          "title": "Le ao teu xeito",
+          "description": "Axusta a cor de fondo, a cor do texto e o tamaño da letra para que a tradución se lea dunha ollada, tanto co teléfono na man como deitado na mesa."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "O audio non chega aos nosos servidores",
+          "description": "O teu audio convértese en texto en tempo real e nunca se garda nos nosos servidores. As gravacións que gardas quedan no teu teléfono, e as súas transcricións só se sincronizan coa túa propia conta."
+        },
+        {
+          "title": "Non é un produto",
+          "description": "As túas conversas non son algo que Captio AI venda, comparta ou rendibilice, a ninguén e por ningún motivo."
+        },
+        {
+          "title": "Non se usa para adestrar nada",
+          "description": "O que dis nunha consulta médica ou nunha entrevista de traballo nunca acaba nun conxunto de datos de adestramento. Nin no noso. Nin no de ninguén."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "En que se diferencia Tradutor en directo de Subtítulos en directo?",
+          "a": "Subtítulos en directo transcribe a fala no idioma orixinal en que se fala. Tradutor en directo colle esa fala e tradúcea en tempo real ao idioma que escollas. Se a outra persoa fala francés e ti les en galego, o que precisas é Tradutor en directo."
+        },
+        {
+          "q": "Que precisión ten a tradución?",
+          "a": "A precisión é alta nos pares de idiomas habituais e nas conversas do día a día. Captio AI entende a fala natural (xente que fala rápido, acentos, ruído de fondo), non só audio limpo de estudo. En pares de idiomas pouco comúns ou con contido moi técnico, a precisión pode variar."
+        },
+        {
+          "q": "Que idiomas se admiten?",
+          "a": "Máis de 60 idiomas, entre eles inglés, español, francés, alemán, chinés mandarín, árabe, hindi, xaponés, coreano, portugués, ruso e moitos máis. Tanto o idioma de orixe como o de destino poden ser calquera dos admitidos."
+        },
+        {
+          "q": "Con que rapidez aparece a tradución?",
+          "a": "A latencia é de moito menos dun segundo. Les a tradución palabra a palabra mentres a persoa aínda fala: case en tempo real, non cando remata a frase."
+        },
+        {
+          "q": "Serve para unha consulta cun médico que fala outro idioma?",
+          "a": "Si. É un dos usos máis importantes. Deixa o teléfono na mesa, pon como idioma de orixe o do médico e le en tempo real e no teu idioma todo o que di. Tamén podes gardar a transcrición traducida para repasar despois as súas indicacións."
+        },
+        {
+          "q": "Funciona en lugares con ruído?",
+          "a": "Si. Captio AI está feita para ambientes reais: salas de espera, restaurantes, aeroportos. Apunta o micrófono cara a quen fala e a tradución aparece aínda que haxa ruído ambiente."
+        },
+        {
+          "q": "Podo gardar a transcrición traducida?",
+          "a": "Si. Ao rematar unha sesión podes gardar o texto traducido e revisalo despois. Útil para consultas médicas, reunións e calquera conversa da que queiras gardar constancia."
+        },
+        {
+          "q": "Necesito conexión a internet?",
+          "a": "Si. Tradutor en directo precisa conexión a internet para procesar e traducir a fala en tempo real. Polo de agora non se pode traducir sen conexión."
+        }
+      ]
+    },
+    "audio-transcription": {
+      "meta": {
+        "title": "Transcrición de audio: audio e vídeo a texto no iPhone",
+        "description": "Sube calquera ficheiro de audio ou vídeo e recibe a transcrición completa. 60+ idiomas, falantes separados e buscas no texto. Para persoas xordas.",
+        "schemaDescription": "Sube calquera ficheiro de audio ou vídeo e recibe a transcrición completa. 60+ idiomas, separación de falantes e marcas de tempo. Para persoas xordas e con perda auditiva."
+      },
+      "howTitle": "Sube. Le. Listo.",
+      "steps": [
+        {
+          "title": "Escolle o tipo de ficheiro",
+          "desc": "Indica se vas subir un ficheiro de audio ou de vídeo."
+        },
+        {
+          "title": "Selecciona un ficheiro",
+          "desc": "Escolle o ficheiro no teu teléfono. Captio AI empeza a transcribir ao momento."
+        },
+        {
+          "title": "Mira a transcrición",
+          "desc": "Le a transcrición completa, organizada por falante e con marcas de tempo."
+        }
+      ],
+      "featuresTitle": "Feito para gravacións reais",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Calquera formato",
+          "description": "MP3, MP4, M4A, WAV e máis. Clases, reunións, mensaxes de voz, podcasts, entrevistas, gravacións de chamadas: se se fala nel, Captio AI pode transcribilo."
+        },
+        {
+          "title": "A máxima precisión",
+          "description": "Captio AI está feita para o audio do mundo real, non só para ficheiros limpos de estudo. Audio de chamadas, gravacións na aula, ambientes con ruído: entende todo."
+        },
+        {
+          "title": "Calquera idioma",
+          "description": "Sube unha gravación en francés, xaponés, árabe ou noutros 57 idiomas. Captio AI identifica o idioma e transcríbeo con precisión."
+        },
+        {
+          "title": "Varios idiomas",
+          "description": "Cando os falantes cambian de idioma no medio da gravación, Captio AI segue o ritmo. A transcrición recolle todos os idiomas que se falaron, sen ocos."
+        },
+        {
+          "title": "Marcas de tempo",
+          "description": "Cada liña da transcrición leva a súa marca de tempo para que poidas saltar a calquera momento da gravación e atopar exactamente que se dixo e cando."
+        },
+        {
+          "title": "Exporta e comparte",
+          "description": "Copia a transcrición completa, compártea ou gárdaa. As túas gravacións e transcricións quedan á man sempre que as precises."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Os ficheiros non chegan aos nosos servidores",
+          "description": "O teu ficheiro envíase só para transcribilo e elimínase alí. Nos nosos servidores nunca se garda. A gravación queda no teu teléfono, e a súa transcrición só se sincroniza coa túa propia conta."
+        },
+        {
+          "title": "Non é un produto",
+          "description": "As túas gravacións non son algo que Captio AI venda, comparta ou rendibilice, a ninguén e por ningún motivo."
+        },
+        {
+          "title": "Non se usa para adestrar nada",
+          "description": "O que subes (unha consulta médica, unha reunión, unha entrevista) nunca acaba nun conxunto de datos de adestramento. Nin no noso. Nin no de ninguén."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "En que se diferencia Transcrición de audio de Subtítulos en directo?",
+          "a": "Subtítulos en directo funciona en tempo real mentres alguén fala. Transcrición de audio é para gravacións: subes un ficheiro de audio ou vídeo e recibes unha transcrición escrita completa. É ideal para repasar clases que gravaches, consultas médicas, entrevistas ou calquera contido que prefiras ler en vez de escoitar."
+        },
+        {
+          "q": "Que formatos de ficheiro admite Transcrición de audio?",
+          "a": "Captio AI acepta os formatos de audio e vídeo habituais, entre eles MP3, MP4, M4A, WAV e máis. Se o gravaches co teléfono ou o descargaches dunha plataforma de vídeo, funcionará."
+        },
+        {
+          "q": "Que precisión ten a transcrición?",
+          "a": "A precisión é alta en gravacións claras nos idiomas admitidos. Captio AI entende o audio do mundo real (chamadas, gravacións na aula, ambientes con ruído), non só ficheiros con calidade de estudo. Se fai falta, tamén podes volver transcribir un ficheiro."
+        },
+        {
+          "q": "Que idiomas se admiten?",
+          "a": "Máis de 60 idiomas, entre eles inglés, español, francés, alemán, chinés mandarín, árabe, hindi, xaponés, coreano, portugués, ruso e moitos máis. Captio AI detecta automaticamente o idioma que se fala no ficheiro."
+        },
+        {
+          "q": "Separa os falantes?",
+          "a": "Si. Captio AI etiqueta cada falante por separado na transcrición para que poidas seguir quen dixo que. Útil para reunións, entrevistas, consultas médicas e calquera gravación con varias persoas."
+        },
+        {
+          "q": "Canto tarda a transcrición?",
+          "a": "A transcrición é rápida. Unha gravación dunha hora adoita levar uns minutos. O tempo depende da duración do ficheiro e da calidade do audio."
+        },
+        {
+          "q": "Gárdase o meu audio despois da transcrición?",
+          "a": "Non nos servidores de Captio AI. O ficheiro envíase de forma segura a un servizo de recoñecemento da fala só para transcribilo, e elimínase alí en canto a transcrición está lista. A gravación queda no teu teléfono, e a súa transcrición tamén se garda na túa propia conta para que a poidas abrir noutro dispositivo. As túas gravacións nunca se venden nin se usan para adestrar modelos de IA."
+        },
+        {
+          "q": "Podo transcribir un ficheiro de vídeo?",
+          "a": "Si. Sube directamente o ficheiro de vídeo e Captio AI extrae o audio e transcríbeo. Non tes que convertelo antes."
+        }
+      ]
+    },
+    "ai-summary": {
+      "meta": {
+        "title": "Resumo con IA: resumos estruturados de transcricións",
+        "description": "Converte calquera transcrición nun resumo estruturado. Puntos clave, decisións e tarefas extraídos ao momento. Para persoas xordas e con perda auditiva.",
+        "schemaDescription": "Converte calquera transcrición nun resumo estruturado. Puntos clave, decisións, tarefas e citas dos falantes extraídos automaticamente."
+      },
+      "howTitle": "Entra a transcrición. Sae o resumo.",
+      "steps": [
+        {
+          "title": "Abre calquera transcrición",
+          "desc": "Selecciona calquera transcrición de Subtítulos en directo ou de Transcrición de audio."
+        },
+        {
+          "title": "Xera o resumo",
+          "desc": "Toca Resumo con IA. Captio AI procesa a transcrición automaticamente."
+        },
+        {
+          "title": "Le o resumo",
+          "desc": "O teu resumo está listo, organizado en seccións, para ler ou compartir."
+        }
+      ],
+      "featuresTitle": "Feito para transcricións longas",
+      "featuresSubtitle": "Obtén resumos, tarefas, citas dos falantes, notas e moito máis.",
+      "subfeatures": [
+        {
+          "title": "Puntos clave extraídos automaticamente",
+          "description": "Captio AI le a transcrición completa e saca o que de verdade importou: as ideas principais, as decisións tomadas e as conclusións ás que se chegou."
+        },
+        {
+          "title": "Tarefas á vista",
+          "description": "As tarefas e os seguimentos detéctanse e lístanse á parte, para que non se escape nada despois dunha reunión, unha consulta ou unha clase."
+        },
+        {
+          "title": "Organizado en seccións",
+          "description": "O resumo está estruturado, non é un bloque de texto continuo. Cada tema ten a súa propia sección para que poidas ollalo por riba e atopar o que precisas."
+        },
+        {
+          "title": "Funciona con calquera transcrición de Captio AI",
+          "description": "Usa Resumo con IA en calquera transcrición que fixeses con Subtítulos en directo ou con Transcrición de audio. Sen pasos extra, sen copiar e pegar."
+        },
+        {
+          "title": "Calquera idioma",
+          "description": "Resume transcricións en máis de 60 idiomas. Captio AI le a transcrición no idioma orixinal e crea un resumo que podes ler."
+        },
+        {
+          "title": "Garda e comparte",
+          "description": "Conserva o resumo xunto á transcrición, cópiao ou compárteo. Útil despois de consultas médicas, reunións e clases."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Gárdase só na túa conta",
+          "description": "O teu resumo gárdase xunto coa gravación, no teu teléfono e na túa propia conta, así que está dispoñible en calquera dispositivo no que inicies sesión. Se o eliminas, desaparece de todas partes."
+        },
+        {
+          "title": "Non é un produto",
+          "description": "As túas conversas non son algo que Captio AI venda, comparta ou rendibilice, a ninguén e por ningún motivo."
+        },
+        {
+          "title": "Non se usa para adestrar nada",
+          "description": "O que resumes (unha consulta médica, unha reunión, unha entrevista) nunca acaba nun conxunto de datos de adestramento. Nin no noso. Nin no de ninguén."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Que fai Resumo con IA?",
+          "a": "Resumo con IA colle calquera transcrición e extrae a información clave (ideas principais, decisións, tarefas e detalles importantes) nun resumo estruturado. Aforra tempo cando tes unha transcrición longa e precisas o esencial axiña."
+        },
+        {
+          "q": "Que transcricións podo resumir?",
+          "a": "Calquera transcrición feita en Captio AI, xa sexa con Subtítulos en directo ou con Transcrición de audio. Usas Resumo con IA directamente sobre a transcrición, sen pasos extra."
+        },
+        {
+          "q": "En que se diferencia Resumo con IA de ler sen máis a transcrición?",
+          "a": "A transcrición completa dunha reunión dunha hora pode ter miles de palabras. Resumo con IA dáche os puntos clave, as decisións e as tarefas nunha fracción do tempo de lectura, organizado por temas e non pola orde en que se dixeron as cousas."
+        },
+        {
+          "q": "Serve para consultas médicas?",
+          "a": "Si. Nunha consulta médica recíbese moita información en pouco tempo. Resumo con IA extrae o diagnóstico, as indicacións e os seguintes pasos nunha lista clara que podes revisar e consultar cando queiras."
+        },
+        {
+          "q": "Que idiomas se admiten?",
+          "a": "Resumo con IA funciona con transcricións en máis de 60 idiomas. O resumo faise no mesmo idioma ca transcrición."
+        },
+        {
+          "q": "Podo gardar ou compartir o resumo?",
+          "a": "Si. Podes gardar o resumo xunto á transcrición orixinal, copialo ou compartilo. Útil para enviar o resumo dunha reunión ou para gardar constancia dunha consulta médica."
+        },
+        {
+          "q": "Garda Resumo con IA a miña transcrición ou o meu audio?",
+          "a": "A túa transcrición envíase de forma segura a un servizo de IA só para redactar o resumo, e nunca se usa para adestrar modelos de IA. O resumo gárdase coa gravación, no teu teléfono e na túa propia conta, ata que o elimines. O audio nunca se garda nos servidores de Captio AI, e as túas conversas nunca se venden."
+        }
+      ]
+    }
+  }
+}

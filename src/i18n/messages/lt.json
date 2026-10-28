@@ -1,0 +1,638 @@
+{
+  "header": {
+    "features": "Funkcijos",
+    "useCases": "Naudojimo atvejai",
+    "languages": "Kalbos",
+    "compare": "Palyginti",
+    "blog": "Tinklaraštis",
+    "download": "Atsisiųsti",
+    "toggleMenu": "Atidaryti arba uždaryti meniu",
+    "chooseLanguage": "Pasirink kalbą"
+  },
+  "footer": {
+    "tagline": "Tiesioginiai subtitrai ir produktyvumo įrankis kurtiesiems ir neprigirdintiesiems.",
+    "productHuntTagline": "Tiesioginiai subtitrai ir transkripcija kurtiesiems ir neprigirdintiesiems",
+    "productHunt": "Pažiūrėk Product Hunt platformoje →",
+    "featuredOn": "Pristatyta",
+    "features": "Funkcijos",
+    "useCases": "Naudojimo atvejai",
+    "blog": "Tinklaraštis",
+    "allArticles": "Visi straipsniai",
+    "compare": "Palyginti",
+    "compareApps": "Palygink subtitrų programėles",
+    "company": "Įmonė",
+    "organizations": "Organizacijoms",
+    "privacy": "Privatumo politika",
+    "terms": "Naudojimo sąlygos"
+  },
+  "store": {
+    "appleOverline": "Atsisiųsk iš",
+    "googleOverline": "Gauk iš",
+    "appleQrAlt": "QR kodas, skirtas atsisiųsti Captio AI iš App Store į iPhone",
+    "googleQrAlt": "QR kodas, skirtas atsisiųsti Captio AI iš Google Play į Android įrenginį",
+    "downloadForFree": "Atsisiųsk nemokamai"
+  },
+  "common": {
+    "home": "Pradžia",
+    "back": "Atgal",
+    "goBack": "Grįžti atgal",
+    "explore": "Sužinok daugiau",
+    "featuresLabel": "Funkcijos",
+    "howItWorks": "Kaip tai veikia",
+    "privacyLabel": "Privatumas",
+    "privacyTitle": "Tai, ką girdi, lieka tik tau.",
+    "privacyImageAlt": "Privatu pagal numatytuosius nustatymus: tavo garsas niekada nesaugomas mūsų serveriuose, niekada neparduodamas ir nenaudojamas mokymui",
+    "faqLabel": "DUK",
+    "faqTitle": "Dažniausiai užduodami klausimai",
+    "getStarted": "Pradėk",
+    "freeToStart": "Captio AI galima pradėti naudoti nemokamai",
+    "allFeatures": "Captio AI funkcijos: Tiesioginiai subtitrai, Tiesioginis vertėjas, Garso transkripcija ir DI santrauka.",
+    "featureNames": {
+      "live-captions": "Tiesioginiai subtitrai",
+      "live-translator": "Tiesioginis vertėjas",
+      "audio-transcription": "Garso transkripcija",
+      "ai-summary": "DI santrauka"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Captio AI — subtitrai kurtiesiems ir neprigirdintiesiems",
+      "description": "Captio AI kurtiesiems ir neprigirdintiesiems: tiesioginiai subtitrai, vertimas realiuoju laiku, garso transkripcija ir DI santraukos telefone. 60+ kalbų.",
+      "ogDescription": "Tiesioginiai subtitrai, vertimas realiuoju laiku, garso transkripcija ir DI santraukos kurtiesiems ir neprigirdintiesiems. 60+ kalbų. iPhone ir Android.",
+      "schemaDescription": "Tiesioginiai subtitrai, vertimas realiuoju laiku, garso transkripcija ir DI santraukos kurtiesiems ir neprigirdintiesiems. 60+ kalbų."
+    },
+    "eyebrow": "🦻 Prieinamumas + 💻 Produktyvumo programėlė",
+    "heroTitle": "[Tiesioginiai subtitrai] ir [produktyvumo įrankis] kurtiesiems ir neprigirdintiesiems.",
+    "heroSubtitle": "Sek bet kokį pokalbį, susitikimą ar paskaitą. Bet kuria kalba.",
+    "mockupAlt": "Captio AI programėlė rodo tiesioginius subtitrus ir vertimą",
+    "featuresTitle": "Viskas, ko reikia, kad suprastum bet kokį pokalbį",
+    "featuresSubtitle": "Keturi įrankiai, sukurti specialiai kurtiesiems ir neprigirdintiesiems.",
+    "features": {
+      "live-captions": {
+        "title": "Kalba į tekstą realiuoju laiku",
+        "bullets": [
+          "Žodis po žodžio, realiuoju laiku",
+          "Veikia triukšmingose vietose",
+          "Bet koks akcentas, bet koks tempas",
+          "Nereikia skaityti iš lūpų"
+        ]
+      },
+      "live-translator": {
+        "title": "Versk bet kurią kalbą realiuoju laiku",
+        "bullets": [
+          "Verčia, kol kalbama",
+          "Kiekvienas kalba savo kalba",
+          "Supranta kalbos keitimą sakinio viduryje",
+          "60+ kalbų"
+        ]
+      },
+      "audio-transcription": {
+        "title": "Transkribuok bet kokį garso ar vaizdo įrašą",
+        "bullets": [
+          "Bet koks garso ar vaizdo failas",
+          "Suskirstyta pagal kalbėtojus",
+          "60+ kalbų",
+          "Skaityk, kopijuok, ieškok, dalinkis"
+        ]
+      },
+      "ai-summary": {
+        "title": "Paversk transkripcijas struktūruotomis santraukomis",
+        "bullets": [
+          "Pagrindinės mintys ir sprendimai",
+          "Išskirtos užduotys",
+          "Tinka bet kokiai transkripcijai",
+          "Suskirstyta į skyrius"
+        ]
+      }
+    },
+    "useCasesLabel": "Naudojimo atvejai",
+    "useCasesTitle": "Veikia bet kokioje situacijoje",
+    "useCasesSubtitle": "Sukurta tikroms, svarbioms akimirkoms, o ne tik tylioms ir kontroliuojamoms aplinkoms.",
+    "useCases": {
+      "everyday-conversations": {
+        "label": "Kasdieniai pokalbiai",
+        "description": "Dauguma pokalbių vyksta greitai, įprastu tempu ir be įspėjimo. Captio AI subtitruoja kiekvieną žodį vos jį ištarus, todėl gali sekti pokalbį ir nereikia prašyti, kad kas nors pakartotų."
+      },
+      "deaf-hoh-communication": {
+        "label": "Bendravimas su kurčiaisiais ir neprigirdinčiaisiais",
+        "description": "Girdintieji dažnai nežino, kaip prisitaikyti kalbėdami su kurčiais ar neprigirdinčiais draugais. Captio AI paverčia jų kalbą subtitrais realiuoju laiku, todėl pokalbis abiem pusėms vyksta natūraliai."
+      },
+      "meetings": {
+        "label": "Susitikimai",
+        "description": "Susitikimuose sprendimai priimami greitai, o žmonės kalba vienas per kitą. Captio AI subtitruoja kiekvieno kalbėtojo žodžius, todėl nepraleisi nė vieno sprendimo ar tau užduoto klausimo."
+      },
+      "lectures": {
+        "label": "Paskaitos",
+        "description": "Dėstytojai kalba greitai, aiškina sudėtingą medžiagą ir retai kartoja. Captio AI realiuoju laiku pateikia viso to, kas pasakyta, tekstą, todėl gali sekti turinį, o ne įtemptai klausytis."
+      },
+      "doctor-appointments": {
+        "label": "Vizitai pas gydytoją",
+        "description": "Gydytojai kalba greitai ir vartoja medicininius terminus, kuriuos lengva išgirsti klaidingai. Captio AI realiuoju laiku rodo viską, ką jie sako, todėl suprasi savo diagnozę ir galėsi užduoti tinkamus klausimus."
+      },
+      "job-interviews": {
+        "label": "Darbo pokalbiai",
+        "description": "Praleidus klausimą darbo pokalbyje, tenka atsakyti ne į tą klausimą arba prašyti pakartoti. Captio AI rodo kiekvieną pokalbį vedančiojo žodį, todėl gali visiškai susitelkti į savo atsakymą."
+      },
+      "phone-video-calls": {
+        "label": "Telefono ir vaizdo skambučiai",
+        "description": "Telefono ir vaizdo skambučius sekti sunkiau nei pokalbius akis į akį. Skaityti iš lūpų neįmanoma, o garso kokybė dažnai prasta. Captio AI realiuoju laiku subtitruoja kalbantįjį, todėl nereikia prašyti pakartoti."
+      },
+      "group-settings": {
+        "label": "Pokalbiai grupėje",
+        "description": "Grupėje keli žmonės kalba vienu metu, o pokalbis vyksta greitai. Captio AI neatsilieka nuo kalbančiojo, todėl gali sekti pokalbį ir nepamesti minties."
+      },
+      "restaurants": {
+        "label": "Restoranai ir kavinės",
+        "description": "Dėl foninio triukšmo kalbą sunku sekti net gerai girdintiems žmonėms. Captio AI susitelkia į tą, kuris kalba su tavimi, todėl gali tikrai pasikalbėti net ir triukšme."
+      },
+      "traveling": {
+        "label": "Kelionės",
+        "description": "Oro uostuose, viešbučiuose ir nepažįstamuose miestuose nėra vietos klaidingai išgirstiems žodžiams. Captio AI subtitruoja kalbą daugiau nei 60 kalbų, todėl visur jausiesi užtikrintai."
+      },
+      "conferences": {
+        "label": "Konferencijos ir renginiai",
+        "description": "Pranešėjai toli, akustika nenuspėjama, o paprašyti pakartoti negali. Captio AI realiuoju laiku pateikia kiekvieno pranešėjo kalbos tekstą, todėl gali sekti visą renginį iš bet kurios vietos salėje."
+      },
+      "tv-media": {
+        "label": "Televizija ir medija",
+        "description": "Integruoti subtitrai dažnai būna klaidingi, vėluoja arba jų visai nėra. Captio AI realiuoju laiku subtitruoja viską, kas rodoma, todėl nepriklausai nuo to, ar turinys turi subtitrus."
+      }
+    },
+    "languagesLabel": "Kalbos",
+    "languagesTitle": "Captio AI palaiko daugiau nei 60 kalbų",
+    "privacyCards": [
+      {
+        "title": "Garsas nepatenka į mūsų serverius",
+        "description": "Tavo garsas realiuoju laiku paverčiamas tekstu ir niekada nesaugomas mūsų serveriuose. Įrašai, kuriuos išsaugai, lieka tavo telefone, o jų transkripcijos sinchronizuojamos tik su tavo paskyra."
+      },
+      {
+        "title": "Ne prekė",
+        "description": "Captio AI tavo pokalbių neparduoda, jais nesidalija ir iš jų neuždirba – niekam ir dėl jokios priežasties."
+      },
+      {
+        "title": "Nenaudojama jokiam mokymui",
+        "description": "Tai, ką pasakai pas gydytoją ar per darbo pokalbį, niekada nepatenka į mokymo duomenų rinkinį. Nei į mūsų. Nei į kieno nors kito."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Kam skirta programėlė Captio AI?",
+        "a": "Programėlė Captio AI pirmiausia sukurta kurtiesiems ir neprigirdintiesiems, kuriems reikia sekti pokalbius realiuoju laiku. Ją taip pat plačiai naudoja žmonės, turintys klausos apdorojimo sutrikimą, esantys triukšmingoje aplinkoje, besimokantys kalbų, ir visi, kuriems skaityti greičiau ar lengviau nei klausytis."
+      },
+      {
+        "q": "Kiek tikslūs tiesioginiai subtitrai?",
+        "a": "Captio AI naudoja pažangų kalbos atpažinimą, sukurtą tikslumui ir mažam vėlavimui. Tikslumas priklauso nuo garso aiškumo, akcento ir foninio triukšmo, tačiau įprastomis pokalbio sąlygomis jis labai aukštas ir prilygsta profesionalioms subtitravimo paslaugoms."
+      },
+      {
+        "q": "Kokias kalbas palaiko Captio AI?",
+        "a": "Captio AI palaiko daugiau nei 60 kalbų, tarp jų anglų, ispanų, prancūzų, vokiečių, kinų (mandarinų), arabų, hindi, japonų, korėjiečių, portugalų, rusų ir daugelį kitų. Visos kalbos prieinamos Tiesioginiams subtitrams ir Tiesioginiam vertėjui. Visą sąrašą rasi šiame puslapyje."
+      },
+      {
+        "q": "Ar Captio AI supranta skirtingus akcentus ir tarmes?",
+        "a": "Taip. Captio AI supranta daugybę regioninių akcentų ir tarmių, o ne tik taisyklingą vadovėlinę kalbą. Palaikomos Australijos anglų, Lotynų Amerikos ispanų, Šveicarijos vokiečių, Brazilijos portugalų, Kvebeko prancūzų ir daugelio kitų kalbų atmainos."
+      },
+      {
+        "q": "Kuo skiriasi Tiesioginiai subtitrai ir Tiesioginis vertėjas?",
+        "a": "Tiesioginiai subtitrai paverčia kalbą tekstu originalo kalba. Tiesioginis vertėjas tą pačią kalbą realiuoju laiku išverčia į tavo pasirinktą kalbą – idealu, kai kalbėtojas ir skaitytojas kalba skirtingomis kalbomis, pavyzdžiui, pas užsienietį gydytoją ar per verslo susitikimą kita kalba."
+      },
+      {
+        "q": "Ar Captio AI saugo mano garsą ar juo dalijasi?",
+        "a": "Tavo garsas niekada nesaugomas Captio AI serveriuose, niekada neparduodamas ir juo nesidalijama reklamos tikslais. Jis saugiai siunčiamas kalbos atpažinimo paslaugai tik tam, kad būtų paverstas tekstu, o po to ten ištrinamas. Įrašai, kuriuos pasirenki išsaugoti, lieka tavo telefone; jų transkripcijos ir santraukos taip pat saugomos tavo paskyroje, kad galėtum jas atidaryti kitame įrenginyje, o ištrynus įrašą jis pašalinamas visur. Tavo pokalbiai niekada nenaudojami DI modeliams mokyti – nei mūsų, nei kieno nors kito."
+      },
+      {
+        "q": "Ar Captio AI veikia be interneto ryšio?",
+        "a": "Tiesioginiams subtitrams ir Tiesioginiam vertėjui reikia interneto ryšio, kad kalba būtų apdorojama realiuoju laiku. Garso transkripcijai (įkeltiems failams) taip pat reikia ryšio. Subtitrai be interneto kol kas nepalaikomi."
+      },
+      {
+        "q": "Kokio telefono ar iPad reikia?",
+        "a": "Captio AI veikia iPhone ir iPad su iOS 16 ar naujesne versija bei Android telefonuose. Programėlė optimizuota telefonui ir geriausiai veikia, kai tarp mikrofono ir kalbančiojo nėra kliūčių."
+      },
+      {
+        "q": "Ar galiu naudoti Captio AI pas gydytoją?",
+        "a": "Taip – vizitai pas gydytoją yra vienas svarbiausių naudojimo atvejų. Gali padėti telefoną ant stalo arba atsukti jį į gydytoją ir realiuoju laiku skaityti viską, ką gydytojas sako. Medicininiai terminai atpažįstami tiksliai, todėl Captio AI yra praktiškas prieinamumo įrankis sveikatos priežiūroje."
+      },
+      {
+        "q": "Ar galiu naudoti Captio AI susitikimuose ir paskaitose?",
+        "a": "Taip. Captio AI veikia visur, kur kalbama – darbo susitikimuose, universiteto paskaitose, komandos rytiniuose pasitarimuose, konferencijose ir vaizdo skambučiuose. Nukreipk mikrofoną į kalbantįjį ir subtitrai atsiras akimirksniu."
+      },
+      {
+        "q": "Kas yra Garso transkripcija ir kuo ji skiriasi nuo Tiesioginių subtitrų?",
+        "a": "Tiesioginiai subtitrai veikia realiuoju laiku, kol kas nors kalba. Garso transkripcija skirta įrašams – įkeli garso ar vaizdo failą ir gauni visą rašytinį tekstą. Tai idealu norint peržiūrėti įrašytas paskaitas, interviu, tinklalaides ar bet kokį turinį, kurį mieliau skaitytum nei klausytum."
+      },
+      {
+        "q": "Ką daro DI santrauka?",
+        "a": "DI santrauka iš bet kokios transkripcijos išrenka svarbiausią informaciją – pagrindines mintis, priimtus sprendimus, užduotis ir svarbias detales – ir pateikia ją struktūruota santrauka. Ji taupo laiką, kai turi ilgą susitikimo ar paskaitos transkripciją ir greitai reikia esmės."
+      },
+      {
+        "q": "Ar Captio AI galima naudotis nemokamai?",
+        "a": "Captio AI turi nemokamą planą, kuriuo gali pradėti naudotis be jokio mokėjimo. Plus planas skirtas tiems, kuriems reikia neriboto naudojimo. Dabartinę Plus kainą tavo šalyje rasi App Store puslapyje."
+      },
+      {
+        "q": "Kuo Captio AI skiriasi nuo Apple integruotų tiesioginių subtitrų?",
+        "a": "Apple tiesioginiai subtitrai integruoti į iOS, tačiau palaiko mažiau kalbų, neverčia ir neturi Garso transkripcijos ar DI santraukos. Captio AI palaiko daugiau nei 60 kalbų, verčia realiuoju laiku, leidžia transkribuoti įkeltus failus ir kuria DI santraukas, todėl tai daug išsamesnis prieinamumo ir produktyvumo įrankis."
+      }
+    ]
+  },
+  "featurePages": {
+    "live-captions": {
+      "meta": {
+        "title": "Tiesioginiai subtitrai kurtiesiems ir neprigirdintiesiems",
+        "description": "Kalba į tekstą realiuoju laiku per iPhone mikrofoną. Sek bet kokį pokalbį bet kuria kalba akimirksniu. Sukurta kurtiesiems ir neprigirdintiesiems.",
+        "schemaDescription": "Tiesioginiai subtitrai kurtiesiems ir neprigirdintiesiems. Daugiau nei 60 kalbų, vėlavimas gerokai mažesnis nei sekundė, veikia bet kur."
+      },
+      "howTitle": "Trys palietimai. Visas pokalbis.",
+      "steps": [
+        {
+          "title": "Pradėk įrašymą",
+          "desc": "Paspausk įrašymo mygtuką. Captio AI iškart pradeda klausytis."
+        },
+        {
+          "title": "Matyk, kaip atsiranda žodžiai",
+          "desc": "Subtitrai rodomi žodis po žodžio, kol žmogus dar kalba."
+        },
+        {
+          "title": "Išsaugok",
+          "desc": "Pasilik transkripciją ir garso įrašą vėlesniam laikui."
+        }
+      ],
+      "featuresTitle": "Sukurta tikriems pokalbiams",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Žodžiai, atitinkantys tai, kas pasakyta",
+          "description": "Captio AI užfiksuoja tai, ką žmogus iš tikrųjų pasakė, o ne apytikslį perpasakojimą. Todėl gali pasitikėti tekstu, kai tai svarbu – pas gydytoją, per darbo pokalbį, susitikime."
+        },
+        {
+          "title": "Jokio vėlavimo",
+          "description": "Vėlavimas gerokai mažesnis nei sekundė. Subtitrai atsiranda žodis po žodžio, kol žmogus dar kalba, todėl skaitai žodžius tą pačią akimirką, kai kiti juos girdi."
+        },
+        {
+          "title": "Žinok, kas kalba",
+          "description": "Grupėse ir susitikimuose Captio AI kiekvieną kalbėtoją pažymi atskirai, todėl visada žinai, kas ką pasakė, ir nereikia stebėti veidų ar sekti lūpų judesių."
+        },
+        {
+          "title": "60+ kalbų",
+          "description": "Sek pokalbį prancūzų, japonų ar arabų kalba taip pat, kaip anglų. Nereikia perjungti režimų. Klausos sutrikimas niekada nevirsta dar ir kalbos barjeru."
+        },
+        {
+          "title": "Supranta kalbas, kurios maišosi sakinio viduryje",
+          "description": "Kai žmonės pokalbio metu pakeičia kalbą, Captio AI neatsilieka. Jokių spragų subtitruose, jokio režimo, kurį reikėtų perjungti."
+        },
+        {
+          "title": "Papildyk žodyną savo žodžiais",
+          "description": "Pridėk vardų, medicininių terminų ar specialių žodžių, kuriuos dažnai girdi. Captio AI naudoja tavo žodyną, kad tiksliau subtitruotų tavo tikrus pokalbius."
+        },
+        {
+          "title": "Pridėk kalbos užuominą",
+          "description": "Nurodyk, kokios kalbos tikėtis, ir Captio AI ją atpažins nuo pirmo žodžio – naudinga, kai iš konteksto neaišku, kokia kalba kalbama."
+        },
+        {
+          "title": "Vėliau transkribuok iš naujo tiksliau",
+          "description": "Bet kurį įrašą vėliau gali apdoroti dar kartą ir gauti švaresnę transkripciją. Naudinga paskaitoms, vizitams ir bet kokiam pokalbiui, kurį verta peržiūrėti."
+        },
+        {
+          "title": "Skaityk taip, kaip tau patogu",
+          "description": "Keisk teksto dydį, fono spalvą ir kontrastą, kol subtitrus bus lengva perskaityti vienu žvilgsniu – laikant telefoną rankoje, padėjus ant stalo ar atrėmus į ką nors."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Garsas nepatenka į mūsų serverius",
+          "description": "Tavo garsas realiuoju laiku paverčiamas tekstu ir niekada nesaugomas mūsų serveriuose. Įrašai, kuriuos išsaugai, lieka tavo telefone, o jų transkripcijos sinchronizuojamos tik su tavo paskyra."
+        },
+        {
+          "title": "Ne prekė",
+          "description": "Captio AI tavo pokalbių neparduoda, jais nesidalija ir iš jų neuždirba – niekam ir dėl jokios priežasties."
+        },
+        {
+          "title": "Nenaudojama jokiam mokymui",
+          "description": "Tai, ką pasakai pas gydytoją ar per darbo pokalbį, niekada nepatenka į mokymo duomenų rinkinį. Nei į mūsų. Nei į kieno nors kito."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Kuo Captio AI skiriasi nuo Apple integruotų tiesioginių subtitrų?",
+          "a": "Apple tiesioginiai subtitrai palaiko mažiau kalbų, neverčia ir neturi Garso transkripcijos ar DI santraukos. Captio AI palaiko daugiau nei 60 kalbų, verčia realiuoju laiku, leidžia transkribuoti įkeltus failus ir kuria DI santraukas. Be to, gali pritaikyti teksto dydį, spalvas ir kontrastą taip, kaip tau geriausia skaityti."
+        },
+        {
+          "q": "Kiek tikslūs tiesioginiai subtitrai?",
+          "a": "Įprastomis pokalbio sąlygomis tikslumas aukštas. Captio AI atpažįsta tikrą kalbą, o ne tik švarų studijinį garsą, todėl susidoroja su greitakalbiais, regioniniais akcentais, foniniu triukšmu ir sakiniais, kuriuose maišosi kalbos. Taip pat gali pridėti savo žodyną (vardus, medicininius terminus, specialius žodžius), kad tavo pokalbiai būtų atpažįstami tiksliau."
+        },
+        {
+          "q": "Kaip greitai atsiranda subtitrai?",
+          "a": "Žodis po žodžio, kol žmogus dar kalba. Vėlavimas gerokai mažesnis nei sekundė – beveik realusis laikas. Skaitai, ką žmogus sako, tą pačią akimirką, kai kiti tai girdi, o ne tik pasibaigus sakiniui."
+        },
+        {
+          "q": "Ar Tiesioginiai subtitrai veikia triukšmingose vietose?",
+          "a": "Taip. Captio AI veikia tikroje aplinkoje – restoranuose, gatvėse, laukiamuosiuose, viešajame transporte. Nukreipk mikrofoną į kalbantįjį ir subtitrai atsiras nepaisant foninio triukšmo."
+        },
+        {
+          "q": "Kokias kalbas palaiko Tiesioginiai subtitrai?",
+          "a": "Daugiau nei 60 kalbų, tarp jų anglų, ispanų, prancūzų, vokiečių, kinų (mandarinų), arabų, hindi, japonų, korėjiečių, portugalų, rusų ir daugelis kitų. Regioniniai akcentai ir tarmės palaikomi visose pagrindinėse kalbose."
+        },
+        {
+          "q": "Ar atpažįsta akcentus ir tarmes?",
+          "a": "Taip. Captio AI supranta daugybę regioninių akcentų, o ne tik taisyklingą vadovėlinę kalbą. Palaikomos Australijos anglų, Lotynų Amerikos ispanų, Šveicarijos vokiečių, Kvebeko prancūzų ir daugelio kitų kalbų atmainos."
+        },
+        {
+          "q": "Ar galiu išsaugoti subtitrus?",
+          "a": "Taip. Po sesijos gali išsaugoti transkripcijas ir garso įrašus ir peržiūrėti juos vėliau. Išsaugotą įrašą taip pat gali transkribuoti iš naujo ir gauti švaresnį, tikslesnį tekstą."
+        },
+        {
+          "q": "Ar reikia interneto ryšio?",
+          "a": "Taip. Tiesioginiams subtitrams reikia interneto ryšio, kad kalba būtų apdorojama realiuoju laiku. Subtitrai be interneto kol kas nepalaikomi."
+        }
+      ]
+    },
+    "live-translator": {
+      "meta": {
+        "title": "Tiesioginis vertėjas: kalbos vertimas realiuoju laiku iPhone",
+        "description": "Kalbos vertimas realiuoju laiku iPhone. Pašnekovas kalba savo kalba, tu skaitai savąja, iškart. Sukurta kurtiesiems ir neprigirdintiesiems.",
+        "schemaDescription": "Kalbos vertimas realiuoju laiku kurtiesiems ir neprigirdintiesiems. Daugiau nei 60 kalbų, kiekvienas kalba savo kalba, o tu skaitai savąja."
+      },
+      "howTitle": "Trys palietimai. Bet kuri kalba.",
+      "steps": [
+        {
+          "title": "Pasirink vertėjo režimą",
+          "desc": "Atidaryk Captio AI ir pasirink Tiesioginį vertėją."
+        },
+        {
+          "title": "Pasirink norimą kalbą",
+          "desc": "Pasirink kalbą, kuria nori skaityti."
+        },
+        {
+          "title": "Matyk vertimą realiuoju laiku",
+          "desc": "Captio AI verčia žodis po žodžio."
+        }
+      ],
+      "featuresTitle": "Sukurta tikriems pokalbiams",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Bet kuri kalba",
+          "description": "Prancūzų, japonų, arabų, ispanų, vokiečių, kinų (mandarinų) – daugiau nei 60 kalbų, bet kuria kryptimi. Klausos sutrikimas niekada nevirsta dar ir kalbos barjeru."
+        },
+        {
+          "title": "Automatiškai atpažįsta šnekamą kalbą",
+          "description": "Palik šaltinio kalbą automatinę, ir Captio AI ją atpažins iš pirmųjų žodžių. Nereikia rankiniu būdu rinktis kalbos prieš kiekvieną pokalbį."
+        },
+        {
+          "title": "Be vėlavimo",
+          "description": "Vertimo vėlavimas gerokai mažesnis nei sekundė. Skaitai, ką žmogus sako, tą pačią akimirką, kai kiti tai girdi, o ne tik pasibaigus sakiniui."
+        },
+        {
+          "title": "Pridėk kalbos užuominų",
+          "description": "Nurodyk, kokios kalbos tikėtis, ir Captio AI ją atpažins nuo pirmo žodžio – naudinga, kai iš konteksto neaišku, kokia kalba kalbama."
+        },
+        {
+          "title": "Kelios kalbos vienu metu",
+          "description": "Kai žmonės pokalbio metu keičia kalbą, Captio AI neatsilieka ir kiekvieną jų išverčia į tavo kalbą be jokio rankinio įsikišimo."
+        },
+        {
+          "title": "Skaityk taip, kaip tau patogu",
+          "description": "Keisk fono spalvą, teksto spalvą ir šrifto dydį, kad vertimą būtų lengva perskaityti vienu žvilgsniu, nesvarbu, ar telefonas rankoje, ar ant stalo."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Garsas nepatenka į mūsų serverius",
+          "description": "Tavo garsas realiuoju laiku paverčiamas tekstu ir niekada nesaugomas mūsų serveriuose. Įrašai, kuriuos išsaugai, lieka tavo telefone, o jų transkripcijos sinchronizuojamos tik su tavo paskyra."
+        },
+        {
+          "title": "Ne prekė",
+          "description": "Captio AI tavo pokalbių neparduoda, jais nesidalija ir iš jų neuždirba – niekam ir dėl jokios priežasties."
+        },
+        {
+          "title": "Nenaudojama jokiam mokymui",
+          "description": "Tai, ką pasakai pas gydytoją ar per darbo pokalbį, niekada nepatenka į mokymo duomenų rinkinį. Nei į mūsų. Nei į kieno nors kito."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Kuo Tiesioginis vertėjas skiriasi nuo Tiesioginių subtitrų?",
+          "a": "Tiesioginiai subtitrai paverčia kalbą tekstu originalo kalba. Tiesioginis vertėjas tą pačią kalbą realiuoju laiku išverčia į tavo pasirinktą kalbą. Jei pašnekovas kalba prancūziškai, o tu skaitai angliškai, tau reikia Tiesioginio vertėjo."
+        },
+        {
+          "q": "Kiek tikslus vertimas?",
+          "a": "Įprastoms kalbų poroms kasdieniame pokalbyje vertimas tikslus. Captio AI supranta natūralią kalbą – greitakalbius, akcentus, foninį triukšmą – o ne tik švarų studijinį garsą. Retoms kalbų poroms ar labai techniniam turiniui tikslumas gali skirtis."
+        },
+        {
+          "q": "Kokios kalbos palaikomos?",
+          "a": "Daugiau nei 60 kalbų, tarp jų anglų, ispanų, prancūzų, vokiečių, kinų (mandarinų), arabų, hindi, japonų, korėjiečių, portugalų, rusų ir daugelis kitų. Ir šaltinio, ir tikslinė kalba gali būti bet kuri iš palaikomų kalbų."
+        },
+        {
+          "q": "Kaip greitai atsiranda vertimas?",
+          "a": "Vėlavimas gerokai mažesnis nei sekundė. Vertimą skaitai žodis po žodžio, kol žmogus dar kalba – beveik realiuoju laiku, o ne tik pasibaigus sakiniui."
+        },
+        {
+          "q": "Ar tinka vizitui pas kita kalba kalbantį gydytoją?",
+          "a": "Taip. Tai vienas svarbiausių naudojimo atvejų. Padėk telefoną ant stalo, gydytojo kalbą nustatyk kaip šaltinio kalbą ir realiuoju laiku savo kalba skaityk viską, ką gydytojas sako. Išverstą tekstą taip pat gali išsaugoti ir vėliau peržiūrėti gydytojo nurodymus."
+        },
+        {
+          "q": "Ar veikia triukšmingose vietose?",
+          "a": "Taip. Captio AI veikia tikroje aplinkoje – laukiamuosiuose, restoranuose, oro uostuose. Nukreipk mikrofoną į kalbantįjį ir vertimas atsiras nepaisant aplinkos triukšmo."
+        },
+        {
+          "q": "Ar galiu išsaugoti išverstą tekstą?",
+          "a": "Taip. Po sesijos gali išsaugoti išverstą tekstą ir peržiūrėti jį vėliau. Naudinga vizitams pas gydytoją, susitikimams ir bet kokiam pokalbiui, kurį nori turėti užrašytą."
+        },
+        {
+          "q": "Ar reikia interneto ryšio?",
+          "a": "Taip. Tiesioginiam vertėjui reikia interneto ryšio, kad kalba būtų apdorojama ir verčiama realiuoju laiku. Vertimas be interneto kol kas nepalaikomas."
+        }
+      ]
+    },
+    "audio-transcription": {
+      "meta": {
+        "title": "Garso transkripcija: garso ir vaizdo įrašai į tekstą iPhone",
+        "description": "Įkelk garso ar vaizdo failą ir gauk visą tekstą. 60+ kalbų, kalbėtojų atskyrimas, paieška tekste. Sukurta kurtiesiems ir neprigirdintiesiems.",
+        "schemaDescription": "Įkelk bet kokį garso ar vaizdo failą ir gauk visą rašytinę transkripciją. Daugiau nei 60 kalbų, kalbėtojų atskyrimas, laiko žymos. Sukurta kurtiesiems ir neprigirdintiesiems."
+      },
+      "howTitle": "Įkelk. Skaityk. Viskas.",
+      "steps": [
+        {
+          "title": "Pasirink įkėlimo formatą",
+          "desc": "Pasirink, ar įkeli garso, ar vaizdo failą."
+        },
+        {
+          "title": "Pasirink failą",
+          "desc": "Pasirink failą savo telefone. Captio AI iškart pradeda transkribuoti."
+        },
+        {
+          "title": "Peržiūrėk transkripciją",
+          "desc": "Skaityk visą transkripciją, suskirstytą pagal kalbėtojus, su laiko žymomis."
+        }
+      ],
+      "featuresTitle": "Sukurta tikriems įrašams",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Bet koks formatas",
+          "description": "MP3, MP4, M4A, WAV ir kiti. Paskaitos, susitikimai, balso pranešimai, tinklalaidės, interviu, pokalbių įrašai – jei įraše kalbama, Captio AI gali jį transkribuoti."
+        },
+        {
+          "title": "Didžiausias tikslumas",
+          "description": "Captio AI susidoroja su tikru garsu, o ne tik su švariais studijiniais failais. Telefono pokalbių garsas, paskaitų salės įrašai, triukšminga aplinka – viskas įveikiama."
+        },
+        {
+          "title": "Bet kuri kalba",
+          "description": "Įkelk įrašą prancūzų, japonų, arabų ar dar 57 kitomis kalbomis. Captio AI atpažįsta kalbą ir tiksliai ją transkribuoja."
+        },
+        {
+          "title": "Kelios kalbos",
+          "description": "Kai kalbėtojai įrašo metu pakeičia kalbą, Captio AI neatsilieka. Transkripcijoje atsispindi kiekviena pavartota kalba, be spragų."
+        },
+        {
+          "title": "Laiko žymos",
+          "description": "Kiekviena transkripcijos eilutė turi laiko žymą, todėl gali peršokti į bet kurią įrašo vietą ir rasti, kas tiksliai ir kada buvo pasakyta."
+        },
+        {
+          "title": "Eksportuok ir dalinkis",
+          "description": "Nukopijuok visą transkripciją, pasidalink ja ar išsaugok. Tavo įrašai ir transkripcijos visada pasiekiami, kai jų prireikia."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Failai nepatenka į mūsų serverius",
+          "description": "Tavo failas siunčiamas tik tam, kad būtų transkribuotas, ir ten ištrinamas. Mūsų serveriuose jis niekada nesaugomas. Įrašas lieka tavo telefone, o jo transkripcija sinchronizuojama tik su tavo paskyra."
+        },
+        {
+          "title": "Ne prekė",
+          "description": "Captio AI tavo įrašų neparduoda, jais nesidalija ir iš jų neuždirba – niekam ir dėl jokios priežasties."
+        },
+        {
+          "title": "Nenaudojama jokiam mokymui",
+          "description": "Tai, ką įkeli – vizitas pas gydytoją, susitikimas, interviu – niekada nepatenka į mokymo duomenų rinkinį. Nei į mūsų. Nei į kieno nors kito."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Kuo Garso transkripcija skiriasi nuo Tiesioginių subtitrų?",
+          "a": "Tiesioginiai subtitrai veikia realiuoju laiku, kol kas nors kalba. Garso transkripcija skirta įrašams – įkeli garso ar vaizdo failą ir gauni visą rašytinį tekstą. Tai idealu norint peržiūrėti įrašytas paskaitas, vizitus pas gydytoją, interviu ar bet kokį turinį, kurį mieliau skaitytum nei klausytum."
+        },
+        {
+          "q": "Kokius failų formatus palaiko Garso transkripcija?",
+          "a": "Captio AI priima įprastus garso ir vaizdo formatus, tarp jų MP3, MP4, M4A, WAV ir kitus. Jei įrašei failą telefonu ar atsisiuntei iš vaizdo platformos, jis tiks."
+        },
+        {
+          "q": "Kiek tiksli transkripcija?",
+          "a": "Aiškių įrašų palaikomomis kalbomis tikslumas aukštas. Captio AI susidoroja su tikru garsu – telefono pokalbiais, paskaitų salės įrašais, triukšminga aplinka – o ne tik su studijinės kokybės failais. Jei reikia, failą gali transkribuoti dar kartą."
+        },
+        {
+          "q": "Kokios kalbos palaikomos?",
+          "a": "Daugiau nei 60 kalbų, tarp jų anglų, ispanų, prancūzų, vokiečių, kinų (mandarinų), arabų, hindi, japonų, korėjiečių, portugalų, rusų ir daugelis kitų. Captio AI automatiškai atpažįsta faile vartojamą kalbą."
+        },
+        {
+          "q": "Ar atskiria kalbėtojus?",
+          "a": "Taip. Captio AI transkripcijoje kiekvieną kalbėtoją pažymi atskirai, todėl gali sekti, kas ką pasakė – naudinga susitikimams, interviu, vizitams pas gydytoją ir bet kokiems kelių žmonių įrašams."
+        },
+        {
+          "q": "Kiek trunka transkripcija?",
+          "a": "Transkripcija greita. Valandos įrašas paprastai užtrunka kelias minutes. Laikas priklauso nuo failo ilgio ir garso kokybės."
+        },
+        {
+          "q": "Ar mano garsas saugomas po transkripcijos?",
+          "a": "Ne Captio AI serveriuose. Failas saugiai siunčiamas kalbos atpažinimo paslaugai tik tam, kad būtų transkribuotas, ir ten ištrinamas, vos tik transkripcija būna paruošta. Įrašas lieka tavo telefone, o jo transkripcija taip pat saugoma tavo paskyroje, kad galėtum ją atidaryti kitame įrenginyje. Tavo įrašai niekada neparduodami ir nenaudojami DI modeliams mokyti."
+        },
+        {
+          "q": "Ar galiu transkribuoti vaizdo failą?",
+          "a": "Taip. Įkelk vaizdo failą tiesiogiai, ir Captio AI išskirs garsą bei jį transkribuos. Failo iš anksto konvertuoti nereikia."
+        }
+      ]
+    },
+    "ai-summary": {
+      "meta": {
+        "title": "DI santrauka: struktūruota bet kokios transkripcijos santrauka",
+        "description": "Paversk transkripciją struktūruota santrauka: pagrindinės mintys, sprendimai ir užduotys automatiškai. Sukurta kurtiesiems ir neprigirdintiesiems.",
+        "schemaDescription": "Paversk bet kokią transkripciją struktūruota santrauka. Pagrindinės mintys, sprendimai, užduotys ir kalbėtojų citatos išrenkami automatiškai."
+      },
+      "howTitle": "Įdedi transkripciją. Gauni santrauką.",
+      "steps": [
+        {
+          "title": "Atidaryk bet kurią transkripciją",
+          "desc": "Pasirink bet kurią transkripciją iš Tiesioginių subtitrų ar Garso transkripcijos."
+        },
+        {
+          "title": "Sukurk santrauką",
+          "desc": "Paliesk „DI santrauka“. Captio AI automatiškai apdoroja transkripciją."
+        },
+        {
+          "title": "Skaityk santrauką",
+          "desc": "Tavo santrauka paruošta – suskirstyta į skyrius, ją galima skaityti ar ja dalintis."
+        }
+      ],
+      "featuresTitle": "Sukurta ilgoms transkripcijoms",
+      "featuresSubtitle": "Gauk santrauką, užduočių sąrašą, kalbėtojų citatas, užrašus ir dar daugiau.",
+      "subfeatures": [
+        {
+          "title": "Pagrindinės mintys išrenkamos automatiškai",
+          "description": "Captio AI perskaito visą transkripciją ir išrenka tai, kas iš tikrųjų svarbu – pagrindines mintis, priimtus sprendimus ir padarytas išvadas."
+        },
+        {
+          "title": "Išryškintos užduotys",
+          "description": "Užduotys ir tolesni veiksmai atpažįstami ir surašomi atskirai, todėl po susitikimo, vizito ar paskaitos nieko nepraleisi."
+        },
+        {
+          "title": "Suskirstyta į skyrius",
+          "description": "Santrauka struktūruota, o ne vientisas teksto blokas. Kiekviena tema turi savo skyrių, todėl gali greitai peržvelgti ir rasti, ko reikia."
+        },
+        {
+          "title": "Tinka bet kuriai Captio AI transkripcijai",
+          "description": "Naudok DI santrauką bet kuriai transkripcijai, sukurtai Tiesioginiais subtitrais ar Garso transkripcija. Jokių papildomų žingsnių, jokio kopijavimo ir įklijavimo."
+        },
+        {
+          "title": "Bet kuri kalba",
+          "description": "Kurk transkripcijų santraukas daugiau nei 60 kalbų. Captio AI skaito transkripciją originalo kalba ir parengia santrauką, kurią gali perskaityti."
+        },
+        {
+          "title": "Išsaugok ir dalinkis",
+          "description": "Laikyk santrauką kartu su transkripcija, nukopijuok ją ar pasidalink. Naudinga po vizitų pas gydytoją, susitikimų ir paskaitų."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Saugoma tik tavo paskyroje",
+          "description": "Tavo santrauka išsaugoma kartu su įrašu – telefone ir tavo paskyroje, todėl ji pasiekiama bet kuriame įrenginyje, kuriame prisijungi. Ištrink ją, ir ji dings visur."
+        },
+        {
+          "title": "Ne prekė",
+          "description": "Captio AI tavo pokalbių neparduoda, jais nesidalija ir iš jų neuždirba – niekam ir dėl jokios priežasties."
+        },
+        {
+          "title": "Nenaudojama jokiam mokymui",
+          "description": "Tai, ko santrauką kuri – vizitas pas gydytoją, susitikimas, interviu – niekada nepatenka į mokymo duomenų rinkinį. Nei į mūsų. Nei į kieno nors kito."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Ką daro DI santrauka?",
+          "a": "DI santrauka iš bet kokios transkripcijos išrenka svarbiausią informaciją – pagrindines mintis, sprendimus, užduotis ir svarbias detales – ir pateikia ją struktūruota santrauka. Ji taupo laiką, kai turi ilgą transkripciją ir greitai reikia esmės."
+        },
+        {
+          "q": "Kurių transkripcijų santraukas galiu kurti?",
+          "a": "Bet kurios transkripcijos, sukurtos su Captio AI – Tiesioginiais subtitrais ar Garso transkripcija. DI santrauką paleidi tiesiai transkripcijoje, be papildomų žingsnių."
+        },
+        {
+          "q": "Kuo DI santrauka skiriasi nuo paprasto transkripcijos skaitymo?",
+          "a": "Visa valandos susitikimo transkripcija gali būti tūkstančių žodžių ilgio. DI santrauka pateikia pagrindines mintis, sprendimus ir užduotis per mažą dalį skaitymo laiko – suskirstytas pagal temas, o ne ta tvarka, kuria viskas buvo pasakyta."
+        },
+        {
+          "q": "Ar tinka vizitams pas gydytoją?",
+          "a": "Taip. Per vizitą pas gydytoją greitai gauni daug informacijos. DI santrauka diagnozę, nurodymus ir tolesnius veiksmus surašo į aiškų sąrašą, kurį gali peržiūrėti ir prie jo grįžti."
+        },
+        {
+          "q": "Kokios kalbos palaikomos?",
+          "a": "DI santrauka veikia su transkripcijomis daugiau nei 60 kalbų. Santrauka parengiama ta pačia kalba kaip ir transkripcija."
+        },
+        {
+          "q": "Ar galiu išsaugoti santrauką ar ja pasidalinti?",
+          "a": "Taip. Santrauką gali išsaugoti kartu su originalia transkripcija, nukopijuoti ar ja pasidalinti. Naudinga norint išsiųsti susitikimo apžvalgą ar išsaugoti vizito pas gydytoją įrašą."
+        },
+        {
+          "q": "Ar DI santrauka saugo mano transkripciją ar garsą?",
+          "a": "Tavo transkripcija saugiai siunčiama DI paslaugai tik tam, kad būtų parašyta santrauka, ir niekada nenaudojama DI modeliams mokyti. Santrauka išsaugoma kartu su įrašu telefone ir tavo paskyroje, kol ją ištrinsi. Garsas niekada nesaugomas Captio AI serveriuose, o tavo pokalbiai niekada neparduodami."
+        }
+      ]
+    }
+  }
+}

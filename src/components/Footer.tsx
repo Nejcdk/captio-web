@@ -4,8 +4,16 @@ import { useCases } from "@/lib/useCases";
 import { getAllPosts } from "@/lib/blog";
 import { getAllComparePages } from "@/lib/compare";
 import { FeaturedOnCard } from "@/components/FeaturedOn";
+import en from "@/i18n/messages/en.json";
+import { FEATURE_SLUGS, pagePath, type Messages } from "@/i18n";
 
-export default function Footer() {
+// On a translated page (code + m) the footer's words follow the page's language
+// and the feature links go to that language's feature pages. Articles,
+// comparisons and use-case pages are English only: their links stay, and the
+// use cases are labelled from the home page's translation.
+export default function Footer({ code = "en", m = en }: { code?: string; m?: Messages }) {
+  const t = m.footer;
+  const useCaseLabels: Record<string, { label: string }> = m.home.useCases;
   // Newest articles on every page: readers find them, and crawlers reach a new
   // article from ~800 pages the day it is published.
   const latestPosts = getAllPosts().slice(0, 4);
@@ -17,7 +25,7 @@ export default function Footer() {
           <div>
             <Image src="/logo_text.png" alt="Captio AI" width={90} height={25} />
             <p className="mt-3 text-sm text-white/60 max-w-xs leading-relaxed">
-              Live captions and productivity tool for deaf and HoH people.
+              {t.tagline}
             </p>
 
             {/* Product Hunt's embed card, rebuilt in Tailwind with the app icon served from here. */}
@@ -26,7 +34,7 @@ export default function Footer() {
                 <Image src="/app_icon.png" alt="Captio AI" width={48} height={48} className="rounded-lg shrink-0" />
                 <div className="min-w-0">
                   <p className="font-semibold text-[#1a1a1a] leading-tight">Captio AI</p>
-                  <p className="mt-1 text-xs text-[#666] leading-snug line-clamp-2">Live Captions &amp; Transcription for Deaf and Hard of Hearing</p>
+                  <p className="mt-1 text-xs text-[#666] leading-snug line-clamp-2">{t.productHuntTagline}</p>
                 </div>
               </div>
               <a
@@ -35,46 +43,45 @@ export default function Footer() {
                 rel="noopener"
                 className="mt-3 inline-flex items-center rounded-full bg-[#FF6154] px-4 py-2 text-sm font-semibold text-white hover:bg-[#e8564a] transition-colors"
               >
-                Check it out on Product Hunt →
+                {t.productHunt}
               </a>
             </div>
 
-            <FeaturedOnCard />
+            <FeaturedOnCard label={t.featuredOn} />
           </div>
 
           <div className="flex flex-wrap gap-12 text-sm">
             <div className="flex flex-col gap-2">
-              <span className="font-semibold text-white/40 uppercase tracking-widest text-xs mb-1">Features</span>
-              <Link href="/live-captions" className="text-white/70 hover:text-white transition-colors">Live Captions</Link>
-              <Link href="/live-translator" className="text-white/70 hover:text-white transition-colors">Live Translator</Link>
-              <Link href="/audio-transcription" className="text-white/70 hover:text-white transition-colors">Audio Transcription</Link>
-              <Link href="/ai-summary" className="text-white/70 hover:text-white transition-colors">AI Summary</Link>
+              <span className="font-semibold text-white/40 uppercase tracking-widest text-xs mb-1">{t.features}</span>
+              {FEATURE_SLUGS.map((slug) => (
+                <Link key={slug} href={pagePath(code, slug)} className="text-white/70 hover:text-white transition-colors">{m.common.featureNames[slug]}</Link>
+              ))}
             </div>
 
             <div className="flex flex-col gap-2">
-              <span className="font-semibold text-white/40 uppercase tracking-widest text-xs mb-1">Use Cases</span>
+              <span className="font-semibold text-white/40 uppercase tracking-widest text-xs mb-1">{t.useCases}</span>
               {useCases.map((uc) => (
-                <Link key={uc.slug} href={`/use-cases/${uc.slug}`} className="text-white/70 hover:text-white transition-colors">{uc.label}</Link>
+                <Link key={uc.slug} href={`/use-cases/${uc.slug}`} className="text-white/70 hover:text-white transition-colors">{code === "en" ? uc.label : (useCaseLabels[uc.slug]?.label ?? uc.label)}</Link>
               ))}
             </div>
 
             <div className="flex flex-col gap-2 max-w-[15rem]">
-              <Link href="/blog" className="font-semibold text-white/40 hover:text-white uppercase tracking-widest text-xs mb-1 transition-colors">Blog</Link>
+              <Link href="/blog" className="font-semibold text-white/40 hover:text-white uppercase tracking-widest text-xs mb-1 transition-colors">{t.blog}</Link>
               {latestPosts.map((post) => (
                 <Link key={post.slug} href={`/blog/${post.slug}`} className="text-white/70 hover:text-white transition-colors leading-snug">{post.title}</Link>
               ))}
-              <Link href="/blog" className="text-white font-semibold hover:underline">All articles</Link>
+              <Link href="/blog" className="text-white font-semibold hover:underline">{t.allArticles}</Link>
 
-              <Link href="/compare" className="font-semibold text-white/40 hover:text-white uppercase tracking-widest text-xs mt-6 mb-1 transition-colors">Compare</Link>
+              <Link href="/compare" className="font-semibold text-white/40 hover:text-white uppercase tracking-widest text-xs mt-6 mb-1 transition-colors">{t.compare}</Link>
               {comparePages.map((page) => (
                 <Link key={page.slug} href={`/compare/${page.slug}`} className="text-white/70 hover:text-white transition-colors leading-snug">{page.title}</Link>
               ))}
-              <Link href="/compare" className="text-white font-semibold hover:underline">Compare caption apps</Link>
+              <Link href="/compare" className="text-white font-semibold hover:underline">{t.compareApps}</Link>
 
-              <span className="font-semibold text-white/40 uppercase tracking-widest text-xs mt-6 mb-1">Company</span>
-              <Link href="/organizations" className="text-white/70 hover:text-white transition-colors">For organizations</Link>
-              <Link href="/privacy" className="text-white/70 hover:text-white transition-colors">Privacy Policy</Link>
-              <Link href="/terms" className="text-white/70 hover:text-white transition-colors">Terms of Service</Link>
+              <span className="font-semibold text-white/40 uppercase tracking-widest text-xs mt-6 mb-1">{t.company}</span>
+              <Link href="/organizations" className="text-white/70 hover:text-white transition-colors">{t.organizations}</Link>
+              <Link href="/privacy" className="text-white/70 hover:text-white transition-colors">{t.privacy}</Link>
+              <Link href="/terms" className="text-white/70 hover:text-white transition-colors">{t.terms}</Link>
             </div>
           </div>
         </div>

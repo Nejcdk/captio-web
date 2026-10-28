@@ -16,7 +16,7 @@ function DisabledWorldMark({ className }: { className: string }) {
 }
 
 /** One quiet line under the homepage download button. */
-export function FeaturedOnLine() {
+export function FeaturedOnLine({ label = "Featured on" }: { label?: string }) {
   return (
     <a
       href={FEATURED_ON.url}
@@ -26,14 +26,14 @@ export function FeaturedOnLine() {
     >
       <DisabledWorldMark className="w-5 h-5 shrink-0" />
       <span>
-        Featured on <span className="font-semibold text-gray-900">{FEATURED_ON.name}</span>
+        {label} <span className="font-semibold text-gray-900">{FEATURED_ON.name}</span>
       </span>
     </a>
   );
 }
 
 /** Footer card under the Product Hunt one, on every page. */
-export function FeaturedOnCard() {
+export function FeaturedOnCard({ label = "Featured on" }: { label?: string }) {
   return (
     <a
       href={FEATURED_ON.url}
@@ -43,7 +43,7 @@ export function FeaturedOnCard() {
     >
       <DisabledWorldMark className="w-12 h-12 shrink-0" />
       <div className="min-w-0">
-        <p className="text-[11px] font-semibold text-white/50 uppercase tracking-widest">Featured on</p>
+        <p className="text-[11px] font-semibold text-white/50 uppercase tracking-widest">{label}</p>
         <p className="font-semibold leading-tight">{FEATURED_ON.name}</p>
         <p className="mt-1 text-xs text-white/60 leading-snug line-clamp-2">{FEATURED_ON.title} →</p>
       </div>

@@ -16,6 +16,13 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* Translated pages (components/LocaleShell.tsx): Plus Jakarta Sans's accented
+   Latin and Vietnamese letters come first (fonts in src/app/layout.tsx), so
+   "ł" or "ơ" isn't drawn in a fallback font. */
+.font-intl {
+  font-family: var(--font-jakarta-latin-ext), var(--font-jakarta-vietnamese), var(--font-google-sans), "Plus Jakarta Sans", system-ui, sans-serif;
+}
+
 /* ── Blog article body (rendered Markdown, src/lib/blog.ts) ───────────────── */
 .blog-prose {
   color: #374151;

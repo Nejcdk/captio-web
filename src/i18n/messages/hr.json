@@ -1,0 +1,638 @@
+{
+  "header": {
+    "features": "Značajke",
+    "useCases": "Primjeri korištenja",
+    "languages": "Jezici",
+    "compare": "Usporedba",
+    "blog": "Blog",
+    "download": "Preuzmi",
+    "toggleMenu": "Otvori ili zatvori izbornik",
+    "chooseLanguage": "Odaberi jezik"
+  },
+  "footer": {
+    "tagline": "Titlovi uživo i alat za produktivnost za gluhe i nagluhe osobe.",
+    "productHuntTagline": "Titlovi uživo i transkripcija za gluhe i nagluhe osobe",
+    "productHunt": "Pogledaj nas na platformi Product Hunt →",
+    "featuredOn": "Predstavljeno na",
+    "features": "Značajke",
+    "useCases": "Primjeri korištenja",
+    "blog": "Blog",
+    "allArticles": "Svi članci",
+    "compare": "Usporedba",
+    "compareApps": "Usporedba aplikacija za titlove",
+    "company": "Tvrtka",
+    "organizations": "Za organizacije",
+    "privacy": "Pravila privatnosti",
+    "terms": "Uvjeti korištenja"
+  },
+  "store": {
+    "appleOverline": "Preuzmi iz trgovine",
+    "googleOverline": "Nabavi na",
+    "appleQrAlt": "QR kod za preuzimanje aplikacije Captio AI za iPhone iz trgovine App Store",
+    "googleQrAlt": "QR kod za preuzimanje aplikacije Captio AI za Android iz trgovine Google Play",
+    "downloadForFree": "Preuzmi besplatno"
+  },
+  "common": {
+    "home": "Početna",
+    "back": "Natrag",
+    "goBack": "Vrati se",
+    "explore": "Istraži",
+    "featuresLabel": "Značajke",
+    "howItWorks": "Kako radi",
+    "privacyLabel": "Privatnost",
+    "privacyTitle": "Ono što čuješ ostaje kod tebe.",
+    "privacyImageAlt": "Privatno od samog početka: tvoj se zvuk nikad ne pohranjuje na našim poslužiteljima, nikad se ne prodaje i nikad se ne koristi za treniranje",
+    "faqLabel": "Pitanja",
+    "faqTitle": "Česta pitanja",
+    "getStarted": "Započni",
+    "freeToStart": "Aplikaciju Captio AI možeš početi koristiti besplatno",
+    "allFeatures": "Captio AI uključuje titlove uživo, prevoditelj uživo, transkripciju zvuka i AI sažetak.",
+    "featureNames": {
+      "live-captions": "Titlovi uživo",
+      "live-translator": "Prevoditelj uživo",
+      "audio-transcription": "Transkripcija zvuka",
+      "ai-summary": "AI sažetak"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Captio AI – titlovi uživo i transkripcija za gluhe i nagluhe",
+      "description": "Captio AI gluhim i nagluhim osobama donosi titlove uživo, prijevod uživo, transkripciju zvuka i AI sažetke, izravno na mobitelu. Više od 60 jezika.",
+      "ogDescription": "Titlovi uživo, prijevod uživo, transkripcija zvuka i AI sažeci za gluhe i nagluhe osobe. Više od 60 jezika. Za iPhone i Android.",
+      "schemaDescription": "Titlovi uživo, prijevod uživo, transkripcija zvuka i AI sažeci za gluhe i nagluhe osobe. Više od 60 jezika."
+    },
+    "eyebrow": "🦻 Pristupačnost + 💻 Aplikacija za produktivnost",
+    "heroTitle": "[Titlovi uživo] i [alat za produktivnost] za gluhe i nagluhe osobe.",
+    "heroSubtitle": "Prati svaki razgovor, sastanak ili predavanje. Na bilo kojem jeziku.",
+    "mockupAlt": "Aplikacija Captio AI prikazuje titlove uživo i prijevod",
+    "featuresTitle": "Sve što ti treba za praćenje svakog razgovora",
+    "featuresSubtitle": "Četiri alata napravljena posebno za gluhe i nagluhe osobe.",
+    "features": {
+      "live-captions": {
+        "title": "Govor u tekst u stvarnom vremenu",
+        "bullets": [
+          "Riječ po riječ, u stvarnom vremenu",
+          "Radi i u bučnim prostorima",
+          "Bilo koji naglasak, bilo koji tempo",
+          "Bez čitanja s usana"
+        ]
+      },
+      "live-translator": {
+        "title": "Prevođenje s bilo kojeg jezika u stvarnom vremenu",
+        "bullets": [
+          "Prevodi dok drugi govore",
+          "Svatko govori svojim jezikom",
+          "Prati promjenu jezika usred rečenice",
+          "60+ jezika"
+        ]
+      },
+      "audio-transcription": {
+        "title": "Transkribiraj bilo koju audio ili video datoteku",
+        "bullets": [
+          "Bilo koja audio ili video datoteka",
+          "Razvrstano po govornicima",
+          "60+ jezika",
+          "Čitaj, kopiraj, pretražuj, dijeli"
+        ]
+      },
+      "ai-summary": {
+        "title": "Pretvori transkripte u pregledne sažetke",
+        "bullets": [
+          "Ključne točke i odluke",
+          "Izdvojeni zadaci",
+          "Radi na svakom transkriptu",
+          "Podijeljeno u odjeljke"
+        ]
+      }
+    },
+    "useCasesLabel": "Primjeri korištenja",
+    "useCasesTitle": "Radi u svakoj situaciji",
+    "useCasesSubtitle": "Napravljeno za stvarne trenutke koji su važni, a ne samo za tiha i kontrolirana okruženja.",
+    "useCases": {
+      "everyday-conversations": {
+        "label": "Svakodnevni razgovori",
+        "description": "Većina razgovora odvija se brzo, normalnim tempom i bez najave. Captio AI ispisuje svaku riječ čim je izgovorena, pa možeš pratiti, a da nikoga ne moraš moliti da ponovi."
+      },
+      "deaf-hoh-communication": {
+        "label": "Razgovor s gluhim i nagluhim osobama",
+        "description": "Čujuće osobe često ne znaju kako se prilagoditi kad razgovaraju s gluhim ili nagluhim prijateljima. Captio AI njihov govor pretvara u titlove u stvarnom vremenu, pa razgovor prirodno teče s obje strane."
+      },
+      "meetings": {
+        "label": "Sastanci",
+        "description": "Na sastancima se odluke donose brzo, a ljudi govore jedni preko drugih. Captio AI ispisuje titlove za svakog govornika dok govori, pa ti nikad ne promakne ni odluka ni pitanje upućeno tebi."
+      },
+      "lectures": {
+        "label": "Predavanja",
+        "description": "Predavači govore brzo, obrađuju složeno gradivo i rijetko se ponavljaju. Captio AI daje ti transkript svega izgovorenog uživo, pa možeš pratiti sadržaj, umjesto da napinješ uši."
+      },
+      "doctor-appointments": {
+        "label": "Pregledi kod liječnika",
+        "description": "Liječnici govore brzo i koriste stručne izraze koje je lako krivo čuti. Captio AI ti u stvarnom vremenu prikazuje sve što kažu, pa možeš pratiti svoju dijagnozu i postaviti prava pitanja."
+      },
+      "job-interviews": {
+        "label": "Razgovori za posao",
+        "description": "Ako na razgovoru za posao propustiš pitanje, odgovorit ćeš krivo ili ćeš morati tražiti da ga ponove. Captio AI prikazuje ti svaku riječ osobe koja vodi razgovor, pa se možeš potpuno usredotočiti na svoj odgovor."
+      },
+      "phone-video-calls": {
+        "label": "Telefonski i video pozivi",
+        "description": "Telefonske i video pozive teže je pratiti nego razgovore uživo. Nema čitanja s usana, a zvuk je često loš. Captio AI u stvarnom vremenu ispisuje titlove za onoga tko govori, pa ne moraš tražiti da ponavljaju."
+      },
+      "group-settings": {
+        "label": "Razgovori u grupi",
+        "description": "U grupi više ljudi govori istodobno, a razgovor teče brzo. Captio AI drži korak s onim tko govori, pa možeš pratiti, a da ne izgubiš nit razgovora."
+      },
+      "restaurants": {
+        "label": "Restorani i kafići",
+        "description": "Zbog buke u pozadini govor je teško pratiti čak i ljudima bez oštećenja sluha. Captio AI usredotočuje se na onoga tko ti govori, pa možeš normalno razgovarati unatoč buci."
+      },
+      "traveling": {
+        "label": "Putovanja",
+        "description": "U zračnim lukama, hotelima i nepoznatim gradovima ne smiješ ništa krivo čuti. Captio AI pretvara govor u titlove na više od 60 jezika, pa se sigurno snalaziš na svakom putovanju."
+      },
+      "conferences": {
+        "label": "Konferencije i događanja",
+        "description": "Govornici su daleko, akustika je nepredvidljiva, a ne možeš tražiti da ponove. Captio AI daje ti transkript svakog govornika uživo, pa cijelo događanje možeš pratiti s bilo kojeg mjesta."
+      },
+      "tv-media": {
+        "label": "TV i mediji",
+        "description": "Ugrađeni titlovi često su pogrešni, kasne ili ih uopće nema. Captio AI u stvarnom vremenu titlira sve što se reproducira, pa ne ovisiš o tome ima li sadržaj titlove."
+      }
+    },
+    "languagesLabel": "Jezici",
+    "languagesTitle": "Captio AI podržava više od 60 jezika",
+    "privacyCards": [
+      {
+        "title": "Zvuk ne ostaje na našim poslužiteljima",
+        "description": "Tvoj se zvuk u stvarnom vremenu pretvara u tekst i nikad se ne pohranjuje na našim poslužiteljima. Snimke koje spremiš ostaju na tvojem mobitelu, a njihovi se transkripti sinkroniziraju samo s tvojim vlastitim računom."
+      },
+      {
+        "title": "Nije proizvod",
+        "description": "Tvoji razgovori nisu nešto što Captio AI prodaje, dijeli ili unovčuje, nikome i ni iz kojeg razloga."
+      },
+      {
+        "title": "Ne koristi se za treniranje",
+        "description": "Ono što kažeš na pregledu kod liječnika ili na razgovoru za posao nikad ne završi u skupu podataka za treniranje. Ni u našem. Ni u ičijem drugom."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Kome je namijenjena aplikacija Captio AI?",
+        "a": "Aplikacija Captio AI napravljena je prije svega za gluhe i nagluhe osobe koje trebaju pratiti razgovor u stvarnom vremenu. Često je koriste i osobe s poremećajem slušne obrade, ljudi u bučnim okruženjima, oni koji uče strani jezik i svi kojima je čitanje brže ili lakše od slušanja."
+      },
+      {
+        "q": "Koliko su točni titlovi uživo?",
+        "a": "Captio AI koristi napredno prepoznavanje govora, razvijeno upravo za točnost i malo kašnjenje. Točnost ovisi o jasnoći zvuka, naglasku i buci u pozadini, ali je u uobičajenim uvjetima razgovora vrlo visoka, usporediva s profesionalnim uslugama titlovanja."
+      },
+      {
+        "q": "Koje jezike podržava Captio AI?",
+        "a": "Captio AI podržava više od 60 jezika, među kojima su engleski, španjolski, francuski, njemački, mandarinski, arapski, hindski, japanski, korejski, portugalski, ruski i mnogi drugi. Svi su jezici dostupni i za titlove uživo i za prevoditelj uživo. Cijeli popis nalazi se na ovoj stranici."
+      },
+      {
+        "q": "Razumije li Captio AI različite naglaske i dijalekte?",
+        "a": "Da. Captio AI razumije širok raspon regionalnih naglasaka i dijalekata, a ne samo standardni govor iz udžbenika. Podržava australski engleski, latinoamerički španjolski, švicarski njemački, brazilski portugalski, kvebečki francuski i mnoge druge."
+      },
+      {
+        "q": "Koja je razlika između titlova uživo i prevoditelja uživo?",
+        "a": "Titlovi uživo zapisuju govor na jeziku na kojem se govori. Prevoditelj uživo taj govor u stvarnom vremenu prevodi na jezik koji odabereš, što je idealno kad govornik i čitatelj ne govore isti jezik, primjerice kod liječnika stranca ili na poslovnom sastanku na drugom jeziku."
+      },
+      {
+        "q": "Sprema li Captio AI moj zvuk ili ga dijeli?",
+        "a": "Captio AI nikad ne pohranjuje tvoj zvuk na svojim poslužiteljima i nikad ga ne prodaje niti dijeli u reklamne svrhe. Zvuk se sigurno šalje usluzi za prepoznavanje govora samo da bi se pretvorio u tekst, a zatim se tamo briše. Snimke koje odlučiš spremiti ostaju na tvojem mobitelu; njihovi se transkripti i sažeci pohranjuju i u tvojem vlastitom računu da ih možeš otvoriti na drugom uređaju, a brisanjem snimke ona nestaje posvuda. Tvoji se razgovori nikad ne koriste za treniranje AI modela, ni naših ni tuđih."
+      },
+      {
+        "q": "Radi li Captio AI bez internetske veze?",
+        "a": "Titlovima uživo i prevoditelju uživo potrebna je internetska veza za obradu govora u stvarnom vremenu. I transkripcija zvuka (za prenesene datoteke) traži vezu. Titlovanje bez interneta trenutačno nije podržano."
+      },
+      {
+        "q": "Koji mobitel ili iPad mi treba?",
+        "a": "Captio AI radi na uređajima iPhone i iPad sa sustavom iOS 16 ili novijim te na Android mobitelima. Aplikacija je prilagođena mobitelu i najbolje radi kad mikrofon jasno hvata govornika."
+      },
+      {
+        "q": "Mogu li koristiti Captio AI na pregledu kod liječnika?",
+        "a": "Da, pregledi kod liječnika jedan su od najvažnijih načina korištenja. Mobitel možeš staviti na stol ili ga okrenuti prema liječniku i u stvarnom vremenu čitati sve što kaže. Medicinski izrazi prepoznaju se točno, pa je Captio AI praktičan alat za pristupačnost u zdravstvu."
+      },
+      {
+        "q": "Mogu li koristiti Captio AI na sastancima i predavanjima?",
+        "a": "Da. Captio AI radi svugdje gdje se govori: na poslovnim sastancima, predavanjima na fakultetu, kratkim timskim sastancima, konferencijama i video pozivima. Usmjeri mikrofon prema govorniku i titlovi se odmah pojavljuju."
+      },
+      {
+        "q": "Što je transkripcija zvuka i po čemu se razlikuje od titlova uživo?",
+        "a": "Titlovi uživo rade u stvarnom vremenu dok netko govori. Transkripcija zvuka namijenjena je snimkama: preneseš audio ili video datoteku i dobiješ cijeli pisani transkript. Idealna je za ponovni pregled snimljenih predavanja, intervjua, podcasta ili bilo kojeg sadržaja koji radije čitaš nego slušaš."
+      },
+      {
+        "q": "Što radi AI sažetak?",
+        "a": "AI sažetak iz bilo kojeg transkripta izdvaja ključne informacije (glavne točke, donesene odluke, zadatke i važne pojedinosti) i slaže ih u pregledan sažetak. Štedi vrijeme kad imaš dug transkript sastanka ili predavanja, a brzo ti trebaju najvažniji dijelovi."
+      },
+      {
+        "q": "Je li Captio AI besplatan?",
+        "a": "Captio AI ima besplatnu verziju s kojom možeš početi bez plaćanja. Za neograničeno korištenje dostupan je paket Plus. Aktualna cijena paketa Plus za tvoju zemlju navedena je u trgovini App Store."
+      },
+      {
+        "q": "Po čemu se Captio AI razlikuje od ugrađenih titlova uživo tvrtke Apple?",
+        "a": "Titlovi uživo tvrtke Apple ugrađeni su u iOS, ali podržavaju manje jezika, ne nude prijevod i ne uključuju transkripciju zvuka ni AI sažetak. Captio AI podržava više od 60 jezika, prevodi u stvarnom vremenu, transkribira prenesene datoteke i izrađuje AI sažetke, pa je puno potpuniji alat za pristupačnost i produktivnost."
+      }
+    ]
+  },
+  "featurePages": {
+    "live-captions": {
+      "meta": {
+        "title": "Titlovi uživo za gluhe i nagluhe – aplikacija za iPhone",
+        "description": "Govor u tekst u stvarnom vremenu preko mikrofona na mobitelu. Prati svaki razgovor, na bilo kojem jeziku, odmah. Za gluhe i nagluhe osobe.",
+        "schemaDescription": "Titlovi uživo u stvarnom vremenu za gluhe i nagluhe osobe. Više od 60 jezika, kašnjenje znatno ispod sekunde, radi svugdje."
+      },
+      "howTitle": "Tri dodira. Cijeli razgovor.",
+      "steps": [
+        {
+          "title": "Pokreni snimanje",
+          "desc": "Pritisni gumb za snimanje. Captio AI odmah počinje slušati."
+        },
+        {
+          "title": "Gledaj kako se pojavljuju riječi",
+          "desc": "Titlovi se pojavljuju riječ po riječ dok osoba još govori."
+        },
+        {
+          "title": "Spremi razgovor",
+          "desc": "Zadrži transkript i audiosnimku za kasnije."
+        }
+      ],
+      "featuresTitle": "Napravljeno za stvarne razgovore",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Riječi kakve su izgovorene",
+          "description": "Captio AI bilježi ono što je netko stvarno rekao, a ne približno prepričavanje. Zato se na transkript možeš osloniti kad je važno: kod liječnika, na razgovoru za posao, na sastanku."
+        },
+        {
+          "title": "Bez kašnjenja",
+          "description": "Kašnjenje je znatno ispod sekunde. Titlovi se pojavljuju riječ po riječ dok osoba još govori, pa čitaš ono što kaže u istom trenutku kad to drugi čuju."
+        },
+        {
+          "title": "Znaš tko govori",
+          "description": "U grupama i na sastancima Captio AI zasebno označava svakog govornika, pa uvijek znaš tko je što rekao, bez praćenja lica ili pokreta usana."
+        },
+        {
+          "title": "Više od 60 jezika",
+          "description": "Razgovor na francuskom, japanskom ili arapskom pratiš jednako kao onaj na hrvatskom. Bez prebacivanja načina rada. Gubitak sluha nikad nije i jezična barijera."
+        },
+        {
+          "title": "Snalazi se kad se jezici miješaju usred rečenice",
+          "description": "Kad ljudi usred razgovora prijeđu na drugi jezik, Captio AI ih prati. Bez praznina u titlovima, bez prebacivanja načina rada."
+        },
+        {
+          "title": "Nauči ga svoj rječnik",
+          "description": "Dodaj imena, medicinske izraze ili stručne riječi koje često čuješ. Captio AI koristi tvoj popis riječi kako bi točnije titlovao tvoje stvarne razgovore."
+        },
+        {
+          "title": "Dodaj jezični savjet",
+          "description": "Reci aplikaciji Captio AI koji jezik da očekuje i od prve će riječi biti spremna za njega, što je korisno kad iz konteksta nije jasno koji se jezik govori."
+        },
+        {
+          "title": "Ponovno transkribiraj za veću točnost",
+          "description": "Bilo koju snimku možeš naknadno ponovno transkribirati i dobiti čišći transkript. Korisno za predavanja, preglede i svaki razgovor koji želiš ponovno proći."
+        },
+        {
+          "title": "Čitaj na svoj način",
+          "description": "Prilagodi veličinu teksta, boju pozadine i kontrast tako da titlove pročitaš u trenu, s mobitelom u ruci, položenim na stol ili uspravljenim na radnom stolu."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Zvuk ne ostaje na našim poslužiteljima",
+          "description": "Tvoj se zvuk u stvarnom vremenu pretvara u tekst i nikad se ne pohranjuje na našim poslužiteljima. Snimke koje spremiš ostaju na tvojem mobitelu, a njihovi se transkripti sinkroniziraju samo s tvojim vlastitim računom."
+        },
+        {
+          "title": "Nije proizvod",
+          "description": "Tvoji razgovori nisu nešto što Captio AI prodaje, dijeli ili unovčuje, nikome i ni iz kojeg razloga."
+        },
+        {
+          "title": "Ne koristi se za treniranje",
+          "description": "Ono što kažeš na pregledu kod liječnika ili na razgovoru za posao nikad ne završi u skupu podataka za treniranje. Ni u našem. Ni u ičijem drugom."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Po čemu se Captio AI razlikuje od ugrađenih titlova uživo tvrtke Apple?",
+          "a": "Titlovi uživo tvrtke Apple podržavaju manje jezika, ne nude prijevod i ne uključuju transkripciju zvuka ni AI sažetak. Captio AI podržava više od 60 jezika, prevodi u stvarnom vremenu, transkribira prenesene datoteke i izrađuje AI sažetke. Uz to možeš prilagoditi veličinu teksta, boje i kontrast onako kako ti je najlakše čitati."
+        },
+        {
+          "q": "Koliko su točni titlovi uživo?",
+          "a": "U uobičajenim uvjetima razgovora točnost je visoka. Captio AI napravljen je za stvaran govor, a ne samo za čist studijski zvuk, pa se snalazi s brzim govornicima, regionalnim naglascima, bukom u pozadini i rečenicama na više jezika. Možeš dodati i vlastiti rječnik (imena, medicinske izraze, stručne riječi) za još veću točnost u svojim razgovorima."
+        },
+        {
+          "q": "Koliko se brzo pojavljuju titlovi?",
+          "a": "Riječ po riječ, dok osoba još govori. Kašnjenje je znatno ispod sekunde, gotovo u stvarnom vremenu. Ono što netko kaže čitaš u istom trenutku kad to drugi čuju, a ne tek kad završi rečenicu."
+        },
+        {
+          "q": "Rade li titlovi uživo u bučnim prostorima?",
+          "a": "Da. Captio AI napravljen je za stvarna okruženja: restorane, ulice, čekaonice, javni prijevoz. Usmjeri mikrofon prema govorniku i titlovi će se pojaviti bez obzira na buku u pozadini."
+        },
+        {
+          "q": "Koje jezike podržavaju titlovi uživo?",
+          "a": "Više od 60 jezika, među kojima su engleski, španjolski, francuski, njemački, mandarinski, arapski, hindski, japanski, korejski, portugalski, ruski i mnogi drugi. Regionalni naglasci i dijalekti podržani su u svim velikim jezicima."
+        },
+        {
+          "q": "Razumije li naglaske i dijalekte?",
+          "a": "Da. Captio AI razumije širok raspon regionalnih naglasaka, a ne samo standardni govor iz udžbenika. Podržani su australski engleski, latinoamerički španjolski, švicarski njemački, kvebečki francuski i mnogi drugi."
+        },
+        {
+          "q": "Mogu li spremiti titlove?",
+          "a": "Da. Nakon sesije možeš spremiti transkript i audiosnimku te ih kasnije pregledati. Spremljenu snimku možeš i ponovno transkribirati za čišći i točniji transkript."
+        },
+        {
+          "q": "Treba li mi internetska veza?",
+          "a": "Da. Titlovima uživo potrebna je internetska veza za obradu govora u stvarnom vremenu. Titlovanje bez interneta trenutačno nije podržano."
+        }
+      ]
+    },
+    "live-translator": {
+      "meta": {
+        "title": "Prevoditelj uživo: prijevod govora u stvarnom vremenu",
+        "description": "Prijevod govora u stvarnom vremenu za iPhone. Sugovornik govori svojim jezikom, a ti čitaš na svom, odmah i na bilo kojem jeziku. Za gluhe i nagluhe.",
+        "schemaDescription": "Prijevod govora u stvarnom vremenu za gluhe i nagluhe osobe. Više od 60 jezika, svatko govori svojim jezikom, a ti čitaš na svom."
+      },
+      "howTitle": "Tri dodira. Bilo koji jezik.",
+      "steps": [
+        {
+          "title": "Odaberi način prevođenja",
+          "desc": "Otvori Captio AI i odaberi Prevoditelj uživo."
+        },
+        {
+          "title": "Odaberi željeni jezik",
+          "desc": "Odaberi jezik na kojem želiš čitati."
+        },
+        {
+          "title": "Prati prijevod u stvarnom vremenu",
+          "desc": "Captio AI prevodi riječ po riječ."
+        }
+      ],
+      "featuresTitle": "Napravljeno za stvarne razgovore",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Bilo koji jezik",
+          "description": "Francuski, japanski, arapski, španjolski, njemački, mandarinski: više od 60 jezika, u bilo kojem smjeru. Gubitak sluha nikad nije i jezična barijera."
+        },
+        {
+          "title": "Sam prepoznaje jezik govora",
+          "description": "Ostavi izvorni jezik na automatskom prepoznavanju i Captio AI će ga odrediti već iz prvih riječi. Ne moraš ga ručno birati prije svakog razgovora."
+        },
+        {
+          "title": "Bez zastoja",
+          "description": "Kašnjenje prijevoda znatno je ispod sekunde. Ono što netko kaže čitaš u istom trenutku kad to drugi čuju, a ne tek kad završi rečenicu."
+        },
+        {
+          "title": "Dodaj jezične savjete",
+          "description": "Reci aplikaciji Captio AI koji jezik da očekuje i od prve će riječi biti spremna za njega, što je korisno kad iz konteksta nije jasno koji se jezik govori."
+        },
+        {
+          "title": "Više jezika istodobno",
+          "description": "Kad ljudi usred razgovora prijeđu na drugi jezik, Captio AI ih prati i sve prevodi na tvoj jezik, bez ikakvog ručnog podešavanja."
+        },
+        {
+          "title": "Čitaj na svoj način",
+          "description": "Prilagodi boju pozadine, boju teksta i veličinu slova tako da prijevod pročitaš u trenu, bilo da mobitel držiš u ruci ili ti leži na stolu."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Zvuk ne ostaje na našim poslužiteljima",
+          "description": "Tvoj se zvuk u stvarnom vremenu pretvara u tekst i nikad se ne pohranjuje na našim poslužiteljima. Snimke koje spremiš ostaju na tvojem mobitelu, a njihovi se transkripti sinkroniziraju samo s tvojim vlastitim računom."
+        },
+        {
+          "title": "Nije proizvod",
+          "description": "Tvoji razgovori nisu nešto što Captio AI prodaje, dijeli ili unovčuje, nikome i ni iz kojeg razloga."
+        },
+        {
+          "title": "Ne koristi se za treniranje",
+          "description": "Ono što kažeš na pregledu kod liječnika ili na razgovoru za posao nikad ne završi u skupu podataka za treniranje. Ni u našem. Ni u ičijem drugom."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Po čemu se prevoditelj uživo razlikuje od titlova uživo?",
+          "a": "Titlovi uživo zapisuju govor na jeziku na kojem se govori. Prevoditelj uživo taj govor u stvarnom vremenu prevodi na jezik koji odabereš. Ako sugovornik govori francuski, a ti čitaš na hrvatskom, koristiš prevoditelj uživo."
+        },
+        {
+          "q": "Koliko je prijevod točan?",
+          "a": "Za česte jezične parove u svakodnevnom razgovoru prijevod je vrlo točan. Captio AI se snalazi s prirodnim govorom, brzim govornicima, naglascima i bukom u pozadini, a ne samo s čistim studijskim zvukom. Kod rijetkih jezičnih parova ili vrlo stručnog sadržaja točnost može varirati."
+        },
+        {
+          "q": "Koji su jezici podržani?",
+          "a": "Više od 60 jezika, među kojima su engleski, španjolski, francuski, njemački, mandarinski, arapski, hindski, japanski, korejski, portugalski, ruski i mnogi drugi. I izvorni i ciljni jezik mogu biti bilo koji od podržanih jezika."
+        },
+        {
+          "q": "Koliko se brzo pojavljuje prijevod?",
+          "a": "Kašnjenje je znatno ispod sekunde. Prijevod čitaš riječ po riječ dok osoba još govori, gotovo u stvarnom vremenu, a ne tek kad završi rečenicu."
+        },
+        {
+          "q": "Radi li kod liječnika koji govori strani jezik?",
+          "a": "Da, to je jedan od najvažnijih načina korištenja. Stavi mobitel na stol, za izvorni jezik postavi liječnikov jezik i u stvarnom vremenu čitaj sve što kaže na svom jeziku. Prevedeni transkript možeš i spremiti, pa njegove upute kasnije ponovno pregledati."
+        },
+        {
+          "q": "Radi li u bučnim prostorima?",
+          "a": "Da. Captio AI napravljen je za stvarna okruženja: čekaonice, restorane, zračne luke. Usmjeri mikrofon prema govorniku i prijevod će se pojaviti bez obzira na buku oko tebe."
+        },
+        {
+          "q": "Mogu li spremiti prevedeni transkript?",
+          "a": "Da. Nakon sesije možeš spremiti prevedeni tekst i kasnije ga pregledati. Korisno za liječničke preglede, sastanke i svaki razgovor koji želiš imati zapisan."
+        },
+        {
+          "q": "Treba li mi internetska veza?",
+          "a": "Da. Prevoditelju uživo potrebna je internetska veza za obradu i prevođenje govora u stvarnom vremenu. Prevođenje bez interneta trenutačno nije podržano."
+        }
+      ]
+    },
+    "audio-transcription": {
+      "meta": {
+        "title": "Transkripcija zvuka: audio i video u tekst za iPhone",
+        "description": "Prenesi bilo koju audio ili video datoteku i dobij cijeli pisani transkript. Više od 60 jezika, razdvojeni govornici, pretraživanje. Za gluhe i nagluhe.",
+        "schemaDescription": "Prenesi bilo koju audio ili video datoteku i dobij cijeli pisani transkript. Više od 60 jezika, razdvajanje govornika, vremenske oznake. Za gluhe i nagluhe."
+      },
+      "howTitle": "Prenesi. Pročitaj. Gotovo.",
+      "steps": [
+        {
+          "title": "Odaberi vrstu datoteke",
+          "desc": "Odaberi prenosiš li audio ili video datoteku."
+        },
+        {
+          "title": "Odaberi datoteku",
+          "desc": "Izaberi datoteku s mobitela. Captio AI odmah počinje transkribirati."
+        },
+        {
+          "title": "Pogledaj transkript",
+          "desc": "Pročitaj cijeli transkript, razvrstan po govornicima, s vremenskim oznakama."
+        }
+      ],
+      "featuresTitle": "Napravljeno za stvarne snimke",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Bilo koji format",
+          "description": "MP3, MP4, M4A, WAV i drugi. Predavanja, sastanci, glasovne poruke, podcasti, intervjui, snimke poziva: ako se u snimci govori, Captio AI je može transkribirati."
+        },
+        {
+          "title": "Najveća točnost",
+          "description": "Captio AI napravljen je za stvaran zvuk, a ne samo za čiste studijske datoteke. Zvuk telefonskih poziva, snimke iz predavaonica, bučna okruženja: sa svime se snalazi."
+        },
+        {
+          "title": "Bilo koji jezik",
+          "description": "Prenesi snimku na francuskom, japanskom, arapskom ili nekom od 57 drugih jezika. Captio AI prepoznaje jezik i točno ga transkribira."
+        },
+        {
+          "title": "Više jezika",
+          "description": "Kad govornici usred snimke prijeđu na drugi jezik, Captio AI ih prati. Transkript sadrži svaki jezik kojim se govorilo, bez praznina."
+        },
+        {
+          "title": "Vremenske oznake",
+          "description": "Svaki redak transkripta ima vremensku oznaku, pa možeš skočiti na bilo koji trenutak snimke i pronaći točno ono što je rečeno i kada."
+        },
+        {
+          "title": "Izvezi i podijeli",
+          "description": "Kopiraj cijeli transkript, podijeli ga ili spremi. Tvoje snimke i transkripti dostupni su kad god ti zatrebaju."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Datoteke ne ostaju na našim poslužiteljima",
+          "description": "Tvoja se datoteka šalje samo radi transkripcije, a zatim se tamo briše i nikad se ne pohranjuje na našim poslužiteljima. Snimka ostaje na tvojem mobitelu, a njezin se transkript sinkronizira samo s tvojim vlastitim računom."
+        },
+        {
+          "title": "Nije proizvod",
+          "description": "Tvoje snimke nisu nešto što Captio AI prodaje, dijeli ili unovčuje, nikome i ni iz kojeg razloga."
+        },
+        {
+          "title": "Ne koristi se za treniranje",
+          "description": "Ono što preneseš, bilo pregled kod liječnika, sastanak ili intervju, nikad ne završi u skupu podataka za treniranje. Ni u našem. Ni u ičijem drugom."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Po čemu se transkripcija zvuka razlikuje od titlova uživo?",
+          "a": "Titlovi uživo rade u stvarnom vremenu dok netko govori. Transkripcija zvuka namijenjena je snimkama: preneseš audio ili video datoteku i dobiješ cijeli pisani transkript. Idealna je za ponovni pregled snimljenih predavanja, pregleda kod liječnika, intervjua ili bilo kojeg sadržaja koji radije čitaš nego slušaš."
+        },
+        {
+          "q": "Koje formate datoteka podržava transkripcija zvuka?",
+          "a": "Captio AI prihvaća uobičajene audio i video formate, uključujući MP3, MP4, M4A, WAV i druge. Ako je snimljeno mobitelom ili preuzeto s video platforme, radit će."
+        },
+        {
+          "q": "Koliko je transkripcija točna?",
+          "a": "Za jasne snimke na podržanim jezicima točnost je visoka. Captio AI se snalazi sa stvarnim zvukom (telefonskim pozivima, snimkama iz predavaonica, bučnim okruženjima), a ne samo s datotekama studijske kvalitete. Ako treba, datoteku možeš i ponovno transkribirati."
+        },
+        {
+          "q": "Koji su jezici podržani?",
+          "a": "Više od 60 jezika, među kojima su engleski, španjolski, francuski, njemački, mandarinski, arapski, hindski, japanski, korejski, portugalski, ruski i mnogi drugi. Captio AI sam prepoznaje jezik kojim se govori u datoteci."
+        },
+        {
+          "q": "Razdvaja li govornike?",
+          "a": "Da. Captio AI u transkriptu zasebno označava svakog govornika, pa možeš pratiti tko je što rekao. Korisno za sastanke, intervjue, preglede kod liječnika i svaku snimku s više osoba."
+        },
+        {
+          "q": "Koliko traje transkripcija?",
+          "a": "Transkripcija je brza. Snimka od sat vremena obično je gotova za nekoliko minuta. Vrijeme ovisi o duljini datoteke i kvaliteti zvuka."
+        },
+        {
+          "q": "Pohranjuje li se moj zvuk nakon transkripcije?",
+          "a": "Ne na poslužiteljima Captio AI. Datoteka se sigurno šalje usluzi za prepoznavanje govora samo radi transkripcije i tamo se briše čim je transkript gotov. Snimka ostaje na tvojem mobitelu, a njezin se transkript pohranjuje i u tvojem vlastitom računu da ga možeš otvoriti na drugom uređaju. Tvoje snimke nikad se ne prodaju niti koriste za treniranje AI modela."
+        },
+        {
+          "q": "Mogu li transkribirati video datoteku?",
+          "a": "Da. Prenesi video datoteku izravno i Captio AI će izdvojiti zvuk i transkribirati ga. Datoteku ne moraš prethodno pretvarati."
+        }
+      ]
+    },
+    "ai-summary": {
+      "meta": {
+        "title": "AI sažetak: pregledni sažeci bilo kojeg transkripta",
+        "description": "Pretvori bilo koji transkript u pregledan sažetak. Ključne točke, odluke i zadaci izdvajaju se automatski. Za gluhe i nagluhe osobe.",
+        "schemaDescription": "Pretvori bilo koji transkript u pregledan sažetak. Ključne točke, odluke, zadaci i citati govornika izdvajaju se automatski."
+      },
+      "howTitle": "Od transkripta do sažetka.",
+      "steps": [
+        {
+          "title": "Otvori bilo koji transkript",
+          "desc": "Odaberi bilo koji transkript iz titlova uživo ili transkripcije zvuka."
+        },
+        {
+          "title": "Izradi sažetak",
+          "desc": "Dodirni AI sažetak. Captio AI automatski obrađuje transkript."
+        },
+        {
+          "title": "Pročitaj sažetak",
+          "desc": "Sažetak je gotov: podijeljen u odjeljke i spreman za čitanje ili dijeljenje."
+        }
+      ],
+      "featuresTitle": "Napravljeno za duge transkripte",
+      "featuresSubtitle": "Dobij sažetak, zadatke, citate govornika, bilješke i još mnogo toga.",
+      "subfeatures": [
+        {
+          "title": "Ključne točke izdvojene automatski",
+          "description": "Captio AI čita cijeli transkript i izdvaja ono što je stvarno bilo važno: glavne točke, donesene odluke i zaključke."
+        },
+        {
+          "title": "Zadaci na jednom mjestu",
+          "description": "Zadaci i daljnji koraci prepoznaju se i navode zasebno, pa ništa ne promakne nakon sastanka, pregleda ili predavanja."
+        },
+        {
+          "title": "Podijeljeno u odjeljke",
+          "description": "Sažetak je strukturiran, a ne jedan neprekinut blok teksta. Svaka tema ima svoj odjeljak, pa brzo preletiš pogledom i pronađeš ono što ti treba."
+        },
+        {
+          "title": "Radi na svakom transkriptu iz aplikacije Captio AI",
+          "description": "Pokreni AI sažetak na bilo kojem transkriptu iz titlova uživo ili transkripcije zvuka. Bez dodatnih koraka, bez kopiranja i lijepljenja."
+        },
+        {
+          "title": "Bilo koji jezik",
+          "description": "Sažimaj transkripte na više od 60 jezika. Captio AI čita transkript na izvornom jeziku i izrađuje sažetak koji možeš pročitati."
+        },
+        {
+          "title": "Spremi i podijeli",
+          "description": "Zadrži sažetak uz transkript, kopiraj ga ili podijeli. Korisno nakon pregleda kod liječnika, sastanaka i predavanja."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Čuva se samo u tvojem računu",
+          "description": "Tvoj se sažetak sprema uz snimku, na tvojem mobitelu i u tvojem vlastitom računu, pa je dostupan na svakom uređaju na kojem se prijaviš. Izbriši ga i nestaje posvuda."
+        },
+        {
+          "title": "Nije proizvod",
+          "description": "Tvoji razgovori nisu nešto što Captio AI prodaje, dijeli ili unovčuje, nikome i ni iz kojeg razloga."
+        },
+        {
+          "title": "Ne koristi se za treniranje",
+          "description": "Ono što sažimaš, bilo pregled kod liječnika, sastanak ili intervju, nikad ne završi u skupu podataka za treniranje. Ni u našem. Ni u ičijem drugom."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Što radi AI sažetak?",
+          "a": "AI sažetak iz bilo kojeg transkripta izdvaja ključne informacije (glavne točke, odluke, zadatke i važne pojedinosti) i slaže ih u pregledan sažetak. Štedi vrijeme kad imaš dug transkript, a brzo ti trebaju najvažniji dijelovi."
+        },
+        {
+          "q": "Koje transkripte mogu sažeti?",
+          "a": "Bilo koji transkript nastao u aplikaciji Captio AI, iz titlova uživo ili transkripcije zvuka. AI sažetak pokrećeš izravno na transkriptu, bez dodatnih koraka."
+        },
+        {
+          "q": "Po čemu se AI sažetak razlikuje od samog čitanja transkripta?",
+          "a": "Cijeli transkript jednosatnog sastanka može imati tisuće riječi. AI sažetak daje ti ključne točke, odluke i zadatke u djeliću vremena potrebnog za čitanje, razvrstane po temama, a ne redoslijedom kojim je što rečeno."
+        },
+        {
+          "q": "Radi li za liječničke preglede?",
+          "a": "Da. Na pregledu kod liječnika u kratkom vremenu dobiješ puno informacija. AI sažetak izdvaja dijagnozu, upute i daljnje korake u jasan popis koji možeš pregledati i kojem se uvijek možeš vratiti."
+        },
+        {
+          "q": "Koji su jezici podržani?",
+          "a": "AI sažetak radi na transkriptima na više od 60 jezika. Sažetak se izrađuje na istom jeziku na kojem je transkript."
+        },
+        {
+          "q": "Mogu li spremiti ili podijeliti sažetak?",
+          "a": "Da. Sažetak možeš spremiti uz izvorni transkript, kopirati ga ili podijeliti. Korisno kad želiš poslati pregled sastanka ili sačuvati zapis liječničkog pregleda."
+        },
+        {
+          "q": "Pohranjuje li AI sažetak moj transkript ili zvuk?",
+          "a": "Tvoj se transkript sigurno šalje AI usluzi samo radi pisanja sažetka i nikad se ne koristi za treniranje AI modela. Sažetak se sprema uz snimku, na tvojem mobitelu i u tvojem vlastitom računu, dok ga ne izbrišeš. Captio AI nikad ne pohranjuje zvuk na svojim poslužiteljima, a tvoji se razgovori nikad ne prodaju."
+        }
+      ]
+    }
+  }
+}

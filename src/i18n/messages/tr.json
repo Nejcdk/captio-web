@@ -1,0 +1,638 @@
+{
+  "header": {
+    "features": "Özellikler",
+    "useCases": "Kullanım Alanları",
+    "languages": "Diller",
+    "compare": "Karşılaştır",
+    "blog": "Blog",
+    "download": "İndir",
+    "toggleMenu": "Menüyü aç veya kapat",
+    "chooseLanguage": "Dil seç"
+  },
+  "footer": {
+    "tagline": "Sağır ve ağır işiten kişiler için canlı altyazı ve verimlilik aracı.",
+    "productHuntTagline": "Sağır ve Ağır İşitenler için Canlı Altyazı ve Döküm",
+    "productHunt": "Product Hunt'ta göz at →",
+    "featuredOn": "Öne çıktığımız yer",
+    "features": "Özellikler",
+    "useCases": "Kullanım Alanları",
+    "blog": "Blog",
+    "allArticles": "Tüm yazılar",
+    "compare": "Karşılaştır",
+    "compareApps": "Altyazı uygulamalarını karşılaştır",
+    "company": "Şirket",
+    "organizations": "Kurumlar için",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Hizmet Koşulları"
+  },
+  "store": {
+    "appleOverline": "Hemen indir",
+    "googleOverline": "Şimdi edin",
+    "appleQrAlt": "iPhone için Captio AI uygulamasını App Store'dan indirmek için QR kodu",
+    "googleQrAlt": "Android için Captio AI uygulamasını Google Play'den indirmek için QR kodu",
+    "downloadForFree": "Ücretsiz indir"
+  },
+  "common": {
+    "home": "Ana sayfa",
+    "back": "Geri",
+    "goBack": "Geri dön",
+    "explore": "Keşfet",
+    "featuresLabel": "Özellikler",
+    "howItWorks": "Nasıl çalışır",
+    "privacyLabel": "Gizlilik",
+    "privacyTitle": "Duyduğun sende kalır.",
+    "privacyImageAlt": "Varsayılan olarak gizli — sesin sunucularımızda saklanmaz, asla satılmaz, asla yapay zekâ eğitiminde kullanılmaz",
+    "faqLabel": "SSS",
+    "faqTitle": "Sıkça sorulan sorular",
+    "getStarted": "Başla",
+    "freeToStart": "Captio AI ile ücretsiz başla",
+    "allFeatures": "Captio AI; Canlı Altyazı, Canlı Çevirmen, Ses Dökümü ve Yapay Zekâ Özeti özelliklerini bir arada sunar.",
+    "featureNames": {
+      "live-captions": "Canlı Altyazı",
+      "live-translator": "Canlı Çevirmen",
+      "audio-transcription": "Ses Dökümü",
+      "ai-summary": "Yapay Zekâ Özeti"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Captio AI — Sağır ve Ağır İşitenlere Canlı Altyazı ve Döküm",
+      "description": "Captio AI, sağır ve ağır işiten kişilere gerçek zamanlı canlı altyazı, canlı çeviri, ses dökümü ve yapay zekâ özetleri sunar — doğrudan telefonlarında. 60+ dil.",
+      "ogDescription": "Sağır ve ağır işiten kişiler için gerçek zamanlı canlı altyazı, canlı çeviri, ses dökümü ve yapay zekâ özetleri. 60+ dil. iPhone ve Android.",
+      "schemaDescription": "Sağır ve ağır işiten kişiler için gerçek zamanlı canlı altyazı, canlı çeviri, ses dökümü ve yapay zekâ özetleri. 60+ dil."
+    },
+    "eyebrow": "🦻 Erişilebilirlik + 💻 Verimlilik Uygulaması",
+    "heroTitle": "Sağır ve ağır işiten kişiler için [canlı altyazı] ve [verimlilik aracı].",
+    "heroSubtitle": "Her sohbeti, toplantıyı ya da dersi takip et. Her dilde.",
+    "mockupAlt": "Canlı altyazı ve çeviri gösteren Captio AI uygulaması",
+    "featuresTitle": "Her sohbeti takip etmek için ihtiyacın olan her şey",
+    "featuresSubtitle": "Sağır ve ağır işiten kişiler için özel olarak geliştirilmiş dört araç.",
+    "features": {
+      "live-captions": {
+        "title": "Gerçek Zamanlı Konuşmadan Yazıya",
+        "bullets": [
+          "Kelime kelime, gerçek zamanlı",
+          "Gürültülü yerlerde de çalışır",
+          "Her aksan, her hız",
+          "Dudak okumaya gerek yok"
+        ]
+      },
+      "live-translator": {
+        "title": "Her Dili Gerçek Zamanlı Çevir",
+        "bullets": [
+          "Onlar konuşurken çevirir",
+          "Herkes kendi dilinde konuşur",
+          "Cümle ortasında dil değişse de takip eder",
+          "60+ dil"
+        ]
+      },
+      "audio-transcription": {
+        "title": "Her Ses ve Video Dosyasını Yazıya Dök",
+        "bullets": [
+          "Her ses veya video dosyası",
+          "Konuşmacıya göre düzenlenir",
+          "60+ dil",
+          "Oku, kopyala, ara, paylaş"
+        ]
+      },
+      "ai-summary": {
+        "title": "Dökümleri Düzenli Özetlere Dönüştür",
+        "bullets": [
+          "Önemli noktalar ve kararlar",
+          "Yapılacaklar ayıklanır",
+          "Her dökümde çalışır",
+          "Bölümlere ayrılmış"
+        ]
+      }
+    },
+    "useCasesLabel": "Kullanım Alanları",
+    "useCasesTitle": "Her durumda çalışır",
+    "useCasesSubtitle": "Önemli olan gerçek anlar için tasarlandı — yalnızca sessiz ve kontrollü ortamlar için değil.",
+    "useCases": {
+      "everyday-conversations": {
+        "label": "Günlük Sohbetler",
+        "description": "Çoğu sohbet hızlı, normal tempoda ve habersizce gerçekleşir. Captio AI her kelimeyi söylendiği anda altyazıya çevirir; böylece kimseden tekrar etmesini istemeden takip edersin."
+      },
+      "deaf-hoh-communication": {
+        "label": "Sağır ve Ağır İşitenlerle İletişim",
+        "description": "Duyan kişiler, sağır ya da ağır işiten arkadaşlarıyla konuşurken nasıl uyum sağlayacaklarını çoğu zaman bilmez. Captio AI onların konuşmasını gerçek zamanlı altyazıya çevirir; böylece sohbet iki taraf için de doğal bir şekilde akar."
+      },
+      "meetings": {
+        "label": "Toplantılar",
+        "description": "Toplantılarda kararlar hızla alınır ve insanlar birbirinin sözünü keser. Captio AI her konuşmacının sözlerini konuştuğu anda altyazıya çevirir; böylece hiçbir kararı ya da sana yöneltilen hiçbir soruyu kaçırmazsın."
+      },
+      "lectures": {
+        "label": "Dersler",
+        "description": "Hocalar hızlı konuşur, karmaşık konuları anlatır ve nadiren tekrar eder. Captio AI söylenen her şeyin canlı dökümünü sunar; böylece duymaya çabalamak yerine içeriği takip edersin."
+      },
+      "doctor-appointments": {
+        "label": "Doktor Randevuları",
+        "description": "Doktorlar hızlı konuşur ve kolayca yanlış duyulabilen tıbbi terimler kullanır. Captio AI söyledikleri her şeyi gerçek zamanlı gösterir; böylece teşhisini takip edip doğru soruları sorabilirsin."
+      },
+      "job-interviews": {
+        "label": "İş Görüşmeleri",
+        "description": "Görüşmede bir soruyu kaçırmak, yanlış cevap vermek ya da tekrar istemek demektir. Captio AI görüşmecinin söylediği her kelimeyi gösterir; böylece tamamen cevabına odaklanabilirsin."
+      },
+      "phone-video-calls": {
+        "label": "Telefon ve Görüntülü Aramalar",
+        "description": "Telefon ve görüntülü aramaları takip etmek, yüz yüze sohbetlerden daha zordur. Dudak okuma yok, ses kalitesi de çoğu zaman kötü. Captio AI kim konuşuyorsa onun sözlerini gerçek zamanlı altyazıya çevirir; böylece tekrar istemene gerek kalmaz."
+      },
+      "group-settings": {
+        "label": "Kalabalık Ortamlar",
+        "description": "Gruplarda birkaç kişi aynı anda konuşur ve sohbet hızla ilerler. Captio AI kim konuşuyorsa ona yetişir; böylece sohbetin nereye gittiğini kaçırmadan takip edersin."
+      },
+      "restaurants": {
+        "label": "Restoranlar ve Kafeler",
+        "description": "Arka plan gürültüsü, işitme kaybı olmayanlar için bile konuşmayı takip etmeyi zorlaştırır. Captio AI seninle konuşan kişiye odaklanır; böylece gürültünün ortasında bile gerçek bir sohbet edebilirsin."
+      },
+      "traveling": {
+        "label": "Seyahat",
+        "description": "Havalimanlarında, otellerde ve tanımadığın şehirlerde yanlış duymaya yer yoktur. Captio AI konuşmayı 60'tan fazla dilde altyazıya çevirir; böylece nereye gidersen git yolunu rahatça bulursun."
+      },
+      "conferences": {
+        "label": "Konferanslar ve Etkinlikler",
+        "description": "Konuşmacılar uzaktadır, akustik tahmin edilemez ve tekrar isteyemezsin. Captio AI her konuşmacının canlı dökümünü sunar; böylece hangi koltukta oturursan otur etkinliğin tamamını takip edersin."
+      },
+      "tv-media": {
+        "label": "TV ve Medya",
+        "description": "Yerleşik altyazılar çoğu zaman hatalı, gecikmeli ya da hiç yoktur. Captio AI oynatılan her şeyi gerçek zamanlı altyazıya çevirir; böylece içeriğin altyazısı olup olmamasına bağlı kalmazsın."
+      }
+    },
+    "languagesLabel": "Diller",
+    "languagesTitle": "Captio AI 60'tan fazla dili destekler",
+    "privacyCards": [
+      {
+        "title": "Ses sunucularımızda kalmaz",
+        "description": "Sesin gerçek zamanlı olarak metne dönüştürülür ve sunucularımızda asla saklanmaz. Kaydettiğin kayıtlar telefonunda kalır, dökümleri ise yalnızca kendi hesabınla eşitlenir."
+      },
+      {
+        "title": "Satılık değil",
+        "description": "Captio AI konuşmalarını satmaz, paylaşmaz, onlardan para kazanmaz — kimseye, hiçbir sebeple."
+      },
+      {
+        "title": "Hiçbir şeyi eğitmek için kullanılmaz",
+        "description": "Doktor randevusunda ya da iş görüşmesinde söyledikların asla bir eğitim veri setine girmez. Ne bizimkine. Ne de başka birininkine."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Captio AI kimler için tasarlandı?",
+        "a": "Captio AI öncelikle konuşmaları gerçek zamanlı takip etmesi gereken sağır ve ağır işiten kişiler için geliştirildi. İşitsel işlemleme bozukluğu olanlar, gürültülü ortamlarda bulunanlar, dil öğrenenler ve okumayı dinlemekten daha hızlı ya da kolay bulan herkes de uygulamayı yaygın olarak kullanıyor."
+      },
+      {
+        "q": "Canlı altyazı ne kadar doğru?",
+        "a": "Captio AI, doğruluk ve düşük gecikme için özel olarak geliştirilmiş gelişmiş bir konuşma tanıma teknolojisi kullanır. Doğruluk; ses netliğine, aksana ve arka plan gürültüsüne bağlıdır — ama olağan sohbet koşullarında çok yüksektir ve profesyonel altyazı hizmetleriyle kıyaslanabilir."
+      },
+      {
+        "q": "Captio AI hangi dilleri destekliyor?",
+        "a": "Captio AI; İngilizce, İspanyolca, Fransızca, Almanca, Mandarin Çincesi, Arapça, Hintçe, Japonca, Korece, Portekizce, Rusça ve daha birçok dil dahil 60'tan fazla dili destekler. Tüm diller Canlı Altyazı ve Canlı Çevirmen'de kullanılabilir. Tam listeyi bu sayfada görebilirsin."
+      },
+      {
+        "q": "Captio AI farklı aksan ve lehçelerle çalışır mı?",
+        "a": "Evet. Captio AI çok çeşitli bölgesel aksan ve lehçelerle başa çıkar — yalnızca ders kitabındaki standart konuşmayla değil. Avustralya İngilizcesi, Latin Amerika İspanyolcası, İsviçre Almancası, Brezilya Portekizcesi, Quebec Fransızcası ve daha birçoğunu destekler."
+      },
+      {
+        "q": "Canlı Altyazı ile Canlı Çevirmen arasındaki fark nedir?",
+        "a": "Canlı Altyazı, konuşmayı söylendiği dilde yazıya döker. Canlı Çevirmen ise bu konuşmayı alır ve gerçek zamanlı olarak seçtiğin dile çevirir — konuşan ve okuyan farklı diller konuştuğunda idealdir; örneğin yabancı bir doktorla görüşürken ya da başka bir dilde yapılan bir iş toplantısında."
+      },
+      {
+        "q": "Captio AI sesimi saklıyor ya da paylaşıyor mu?",
+        "a": "Sesin Captio AI sunucularında asla saklanmaz, ayrıca asla satılmaz ya da reklam amacıyla paylaşılmaz. Ses yalnızca metne dönüştürülmek üzere güvenli şekilde bir konuşma tanıma hizmetine gönderilir, sonra orada silinir. Kaydetmeyi seçtiğin kayıtlar telefonunda kalır; dökümleri ve özetleri başka bir cihazda açabilmen için kendi hesabında da tutulur, bir kaydı silersen her yerden kalkar. Konuşmaların asla yapay zekâ modellerini eğitmek için kullanılmaz — ne bizim modellerimizi ne de başkalarınınkini."
+      },
+      {
+        "q": "Captio AI internet bağlantısı olmadan çalışır mı?",
+        "a": "Canlı Altyazı ve Canlı Çevirmen, konuşmayı gerçek zamanlı işlemek için internet bağlantısı gerektirir. Ses Dökümü (yüklenen dosyalar için) de bağlantı gerektirir. Çevrim dışı altyazı şu anda desteklenmiyor."
+      },
+      {
+        "q": "Hangi telefon ya da iPad gerekiyor?",
+        "a": "Captio AI, iOS 16 veya üstü yüklü iPhone ve iPad'lerde ve Android telefonlarda çalışır. Telefon için optimize edilmiştir ve mikrofonla konuşan kişi arasında hiçbir engel olmadığında en iyi sonucu verir."
+      },
+      {
+        "q": "Doktor randevusunda Captio AI kullanabilir miyim?",
+        "a": "Evet — doktor randevuları en önemli kullanım alanlarından biri. Telefonunu masaya koyabilir ya da doktora doğru tutabilir, söylediği her şeyi gerçek zamanlı okuyabilirsin. Tıbbi terimler doğru şekilde tanınır; bu da Captio AI uygulamasını sağlık ortamlarında pratik bir erişilebilirlik aracı yapar."
+      },
+      {
+        "q": "Toplantılarda ve derslerde Captio AI kullanabilir miyim?",
+        "a": "Evet. Captio AI konuşmanın olduğu her ortamda çalışır — iş toplantıları, üniversite dersleri, kısa günlük ekip toplantıları, konferanslar ve görüntülü aramalar. Mikrofonu konuşan kişiye doğrult, altyazı anında görünsün."
+      },
+      {
+        "q": "Ses Dökümü nedir ve Canlı Altyazı'dan farkı ne?",
+        "a": "Canlı Altyazı, biri konuşurken gerçek zamanlı çalışır. Ses Dökümü ise kayıtlar içindir — bir ses veya video dosyası yüklersin ve eksiksiz yazılı dökümünü alırsın. Kaydettiğin dersleri, röportajları, podcast'leri ya da dinlemek yerine okumayı tercih ettiğin her türlü içeriği gözden geçirmek için idealdir."
+      },
+      {
+        "q": "Yapay Zekâ Özeti özelliği ne işe yarar?",
+        "a": "Yapay Zekâ Özeti herhangi bir dökümü alır ve önemli bilgileri — ana noktaları, alınan kararları, yapılacakları ve önemli ayrıntıları — düzenli bir özete dönüştürür. Bir toplantı ya da dersin uzun bir dökümü elindeyken ve öne çıkanlara hızla ihtiyacın olduğunda zaman kazandırır."
+      },
+      {
+        "q": "Captio AI ücretsiz mi?",
+        "a": "Captio AI'da hiçbir ödeme yapmadan başlamanı sağlayan ücretsiz bir plan var. Sınırsız erişime ihtiyacı olanlar için Plus planı da sunuluyor. Ülkendeki güncel Plus fiyatı App Store sayfasında gösterilir."
+      },
+      {
+        "q": "Captio AI, Apple'ın yerleşik Canlı Altyazılar özelliğinden nasıl farklı?",
+        "a": "Apple'ın Canlı Altyazılar özelliği iOS'a yerleşiktir ama daha az dili destekler, çeviri sunmaz ve Ses Dökümü ya da Yapay Zekâ Özeti içermez. Captio AI ise 60'tan fazla dili destekler, gerçek zamanlı çeviri sunar, yüklediğin dosyaları yazıya döker ve yapay zekâ özetleri oluşturur — bu da onu çok daha kapsamlı bir erişilebilirlik ve verimlilik aracı yapar."
+      }
+    ]
+  },
+  "featurePages": {
+    "live-captions": {
+      "meta": {
+        "title": "iPhone'da Sağır ve Ağır İşitenler için Canlı Altyazı",
+        "description": "iPhone mikrofonuyla gerçek zamanlı konuşmadan yazıya. Her sohbeti, her dilde, anında takip et. Sağır ve ağır işiten kişiler için geliştirildi.",
+        "schemaDescription": "Sağır ve ağır işiten kişiler için gerçek zamanlı canlı altyazı. 60+ dil, bir saniyenin çok altında gecikme, her yerde çalışır."
+      },
+      "howTitle": "Üç dokunuş. Sohbetin tamamı.",
+      "steps": [
+        {
+          "title": "Kaydı başlat",
+          "desc": "Kayıt düğmesine bas. Captio AI hemen dinlemeye başlar."
+        },
+        {
+          "title": "Kelimelerin belirdiğini gör",
+          "desc": "Kişi daha konuşurken altyazı kelime kelime belirir."
+        },
+        {
+          "title": "Kaydet",
+          "desc": "Dökümü ve ses kaydını daha sonrası için sakla."
+        }
+      ],
+      "featuresTitle": "Gerçek sohbetler için geliştirildi",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Söylenenle birebir aynı kelimeler",
+          "description": "Captio AI, kişinin gerçekten ne söylediğini yakalar; kabaca bir özetini değil. Böylece önemli anlarda — doktorda, görüşmede, toplantıda — dökümüne güvenebilirsin."
+        },
+        {
+          "title": "Sıfır gecikme",
+          "description": "Gecikme bir saniyenin çok altında. Kişi daha konuşurken altyazı kelime kelime belirir; yani söylediklerini herkesin duyduğu anda okursun."
+        },
+        {
+          "title": "Kimin konuştuğunu bil",
+          "description": "Gruplarda ve toplantılarda Captio AI her konuşmacıyı ayrı ayrı etiketler; böylece yüzleri izlemeden ya da dudak hareketlerini takip etmeden kimin ne dediğini her zaman bilirsin."
+        },
+        {
+          "title": "60+ dil",
+          "description": "Fransızca, Japonca ya da Arapça bir sohbeti, Türkçe bir sohbeti takip ettiğin gibi takip et. Mod değiştirmek yok. İşitme kaybı hiçbir zaman bir de dil engeline dönüşmez."
+        },
+        {
+          "title": "Cümle ortasında karışan dillerle başa çıkar",
+          "description": "İnsanlar sohbetin ortasında dil değiştirdiğinde Captio AI ayak uydurur. Altyazıda boşluk yok, değiştirilecek bir mod yok."
+        },
+        {
+          "title": "Kendi kelimelerini öğret",
+          "description": "Sık duyduğun adları, tıbbi terimleri ya da uzmanlık kelimelerini ekle. Captio AI, gerçek sohbetlerini daha doğru altyazıya çevirmek için kelime listeni kullanır."
+        },
+        {
+          "title": "Dil ipucu ekle",
+          "description": "Captio AI uygulamasına hangi dili beklemesi gerektiğini söyle; ilk kelimeden itibaren o dile hazır başlasın — konuşulan dil bağlamdan anlaşılmadığında işe yarar."
+        },
+        {
+          "title": "Daha yüksek doğruluk için sonradan yeniden döküm",
+          "description": "Daha temiz bir döküm için herhangi bir kaydı sonradan yeniden işle. Dersler, randevular ve tekrar gözden geçirmeye değer her sohbet için kullanışlı."
+        },
+        {
+          "title": "Kendi tarzınla oku",
+          "description": "Altyazılar bir bakışta kolayca okunana kadar yazı boyutunu, arka plan rengini ve kontrastı ayarla — telefon elindeyken, masada dururken ya da çalışma masasına yaslanmışken."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Ses sunucularımızda kalmaz",
+          "description": "Sesin gerçek zamanlı olarak metne dönüştürülür ve sunucularımızda asla saklanmaz. Kaydettiğin kayıtlar telefonunda kalır, dökümleri ise yalnızca kendi hesabınla eşitlenir."
+        },
+        {
+          "title": "Satılık değil",
+          "description": "Captio AI konuşmalarını satmaz, paylaşmaz, onlardan para kazanmaz — kimseye, hiçbir sebeple."
+        },
+        {
+          "title": "Hiçbir şeyi eğitmek için kullanılmaz",
+          "description": "Doktor randevusunda ya da iş görüşmesinde söyledikların asla bir eğitim veri setine girmez. Ne bizimkine. Ne de başka birininkine."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Captio AI, Apple'ın yerleşik Canlı Altyazılar özelliğinden nasıl farklı?",
+          "a": "Apple'ın Canlı Altyazılar özelliği daha az dili destekler, çeviri sunmaz ve Ses Dökümü ya da Yapay Zekâ Özeti içermez. Captio AI ise 60'tan fazla dili destekler, gerçek zamanlı çeviri sunar, yüklediğin dosyaları yazıya döker ve yapay zekâ özetleri oluşturur. Ayrıca yazı boyutunu, renkleri ve kontrastı en rahat okuduğun şekilde özelleştirmeni sağlar."
+        },
+        {
+          "q": "Canlı altyazı ne kadar doğru?",
+          "a": "Olağan sohbet koşullarında doğruluk yüksektir. Captio AI gerçek konuşma için geliştirildi — yalnızca temiz stüdyo sesi için değil — bu yüzden hızlı konuşanlarla, bölgesel aksanlarla, arka plan gürültüsüyle ve dillerin karıştığı cümlelerle başa çıkar. Kendi sohbetlerinde doğruluğu artırmak için özel kelimeler (adlar, tıbbi terimler, uzmanlık kelimeleri) de ekleyebilirsin."
+        },
+        {
+          "q": "Altyazı ne kadar hızlı görünür?",
+          "a": "Kişi daha konuşurken, kelime kelime. Gecikme bir saniyenin çok altında — neredeyse gerçek zamanlı. Birinin söylediğini, o cümleyi bitirmesini beklemeden, herkesin duyduğu anda okursun."
+        },
+        {
+          "q": "Canlı Altyazı gürültülü yerlerde çalışır mı?",
+          "a": "Evet. Captio AI gerçek ortamlar için tasarlandı — restoranlar, sokaklar, bekleme salonları, toplu taşıma. Mikrofonu konuşan kişiye doğrult; arka plan gürültüsü ne olursa olsun altyazı görünür."
+        },
+        {
+          "q": "Canlı Altyazı hangi dilleri destekliyor?",
+          "a": "İngilizce, İspanyolca, Fransızca, Almanca, Mandarin Çincesi, Arapça, Hintçe, Japonca, Korece, Portekizce, Rusça ve daha birçok dil dahil 60'tan fazla dil. Bölgesel aksanlar ve lehçeler tüm büyük dillerde desteklenir."
+        },
+        {
+          "q": "Aksan ve lehçelerle çalışır mı?",
+          "a": "Evet. Captio AI çok çeşitli bölgesel aksanlarla başa çıkar — yalnızca ders kitabındaki standart konuşmayla değil. Avustralya İngilizcesi, Latin Amerika İspanyolcası, İsviçre Almancası, Quebec Fransızcası ve daha birçoğu desteklenir."
+        },
+        {
+          "q": "Altyazılarımı kaydedebilir miyim?",
+          "a": "Evet. Bir oturumdan sonra dökümleri ve ses kayıtlarını kaydedip daha sonra gözden geçirebilirsin. Daha temiz ve daha doğru bir döküm için kayıtlı bir kaydın dökümünü yeniden de yapabilirsin."
+        },
+        {
+          "q": "İnternet bağlantısı gerekiyor mu?",
+          "a": "Evet. Canlı Altyazı, konuşmayı gerçek zamanlı işlemek için internet bağlantısı gerektirir. Çevrim dışı altyazı şu anda desteklenmiyor."
+        }
+      ]
+    },
+    "live-translator": {
+      "meta": {
+        "title": "Canlı Çevirmen: iPhone'da Gerçek Zamanlı Konuşma Çevirisi",
+        "description": "iPhone'unda gerçek zamanlı konuşma çevirisi. Karşındaki kendi dilinde konuşur, sen kendi dilinde okursun — anında, her dilde. Sağır ve ağır işitenler için.",
+        "schemaDescription": "Sağır ve ağır işiten kişiler için gerçek zamanlı konuşma çevirisi. 60+ dil; herkes kendi dilinde konuşur, sen kendi dilinde okursun."
+      },
+      "howTitle": "Üç dokunuş. Her dil.",
+      "steps": [
+        {
+          "title": "Çevirmen modunu seç",
+          "desc": "Captio AI uygulamasını aç ve Canlı Çevirmen'i seç."
+        },
+        {
+          "title": "Tercih ettiğin dili seç",
+          "desc": "Okumak istediğin dili belirle."
+        },
+        {
+          "title": "Çeviriyi gerçek zamanlı gör",
+          "desc": "Captio AI kelime kelime çevirir."
+        }
+      ],
+      "featuresTitle": "Gerçek sohbetler için geliştirildi",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Her dil",
+          "description": "Fransızca, Japonca, Arapça, İspanyolca, Almanca, Mandarin Çincesi — 60'tan fazla dil, her yönde. İşitme kaybı hiçbir zaman bir de dil engeline dönüşmez."
+        },
+        {
+          "title": "Konuşulan dili otomatik algılar",
+          "description": "Kaynak dili otomatikte bırak; Captio AI ilk kelimelerden hangi dil olduğunu anlar. Her sohbetten önce elle seçim yapmana gerek yok."
+        },
+        {
+          "title": "Bekleme yok",
+          "description": "Çeviri gecikmesi bir saniyenin çok altında. Birinin söylediğini, o cümleyi bitirmesini beklemeden, herkesin duyduğu anda okursun."
+        },
+        {
+          "title": "Dil ipuçları ekle",
+          "description": "Captio AI uygulamasına hangi dili beklemesi gerektiğini söyle; ilk kelimeden itibaren o dile hazır başlasın — konuşulan dil bağlamdan anlaşılmadığında işe yarar."
+        },
+        {
+          "title": "Aynı anda birden fazla dil",
+          "description": "İnsanlar sohbetin ortasında dil değiştirdiğinde Captio AI ayak uydurur — her birini, sen hiçbir şeye dokunmadan, kendi diline çevirir."
+        },
+        {
+          "title": "Kendi tarzınla oku",
+          "description": "Arka plan rengini, yazı rengini ve yazı boyutunu ayarla; telefon ister elinde ister masada olsun, çeviri bir bakışta kolayca okunsun."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Ses sunucularımızda kalmaz",
+          "description": "Sesin gerçek zamanlı olarak metne dönüştürülür ve sunucularımızda asla saklanmaz. Kaydettiğin kayıtlar telefonunda kalır, dökümleri ise yalnızca kendi hesabınla eşitlenir."
+        },
+        {
+          "title": "Satılık değil",
+          "description": "Captio AI konuşmalarını satmaz, paylaşmaz, onlardan para kazanmaz — kimseye, hiçbir sebeple."
+        },
+        {
+          "title": "Hiçbir şeyi eğitmek için kullanılmaz",
+          "description": "Doktor randevusunda ya da iş görüşmesinde söyledikların asla bir eğitim veri setine girmez. Ne bizimkine. Ne de başka birininkine."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Canlı Çevirmen'in Canlı Altyazı'dan farkı ne?",
+          "a": "Canlı Altyazı, konuşmayı söylendiği dilde yazıya döker. Canlı Çevirmen ise bu konuşmayı alır ve gerçek zamanlı olarak seçtiğin dile çevirir. Karşındaki Fransızca konuşuyor ve sen Türkçe okuyorsan, kullanman gereken Canlı Çevirmen'dir."
+        },
+        {
+          "q": "Çeviri ne kadar doğru?",
+          "a": "Günlük sohbetlerde yaygın dil çiftleri için çeviri doğruluğu yüksektir. Captio AI doğal konuşmayla başa çıkar — hızlı konuşanlar, aksanlar, arka plan gürültüsü — yalnızca temiz stüdyo sesiyle değil. Nadir dil çiftlerinde ya da çok teknik içeriklerde doğruluk değişebilir."
+        },
+        {
+          "q": "Hangi diller destekleniyor?",
+          "a": "İngilizce, İspanyolca, Fransızca, Almanca, Mandarin Çincesi, Arapça, Hintçe, Japonca, Korece, Portekizce, Rusça ve daha birçok dil dahil 60'tan fazla dil. Hem kaynak dil hem de hedef dil, desteklenen dillerden herhangi biri olabilir."
+        },
+        {
+          "q": "Çeviri ne kadar hızlı görünür?",
+          "a": "Gecikme bir saniyenin çok altında. Kişi daha konuşurken çeviriyi kelime kelime okursun — neredeyse gerçek zamanlı, cümle bittikten sonra değil."
+        },
+        {
+          "q": "Yabancı dil konuşan bir doktorla randevuda işe yarar mı?",
+          "a": "Evet. Bu, en önemli kullanım alanlarından biri. Telefonunu masaya koy, kaynak dili doktorun diline ayarla ve söylediği her şeyi gerçek zamanlı olarak kendi dilinde oku. Doktorun talimatlarını sonradan gözden geçirmek için çevrilmiş dökümü de kaydedebilirsin."
+        },
+        {
+          "q": "Gürültülü yerlerde çalışır mı?",
+          "a": "Evet. Captio AI gerçek ortamlar için geliştirildi — bekleme salonları, restoranlar, havalimanları. Mikrofonu konuşan kişiye doğrult; ortamdaki gürültü ne olursa olsun çeviri görünür."
+        },
+        {
+          "q": "Çevrilmiş dökümü kaydedebilir miyim?",
+          "a": "Evet. Bir oturumdan sonra çevrilmiş metni kaydedip daha sonra gözden geçirebilirsin. Doktor randevuları, toplantılar ve kaydını tutmak istediğin her sohbet için kullanışlı."
+        },
+        {
+          "q": "İnternet bağlantısı gerekiyor mu?",
+          "a": "Evet. Canlı Çevirmen, konuşmayı gerçek zamanlı işleyip çevirmek için internet bağlantısı gerektirir. Çevrim dışı çeviri şu anda desteklenmiyor."
+        }
+      ]
+    },
+    "audio-transcription": {
+      "meta": {
+        "title": "Ses Dökümü: iPhone'da Ses ve Videoyu Yazıya Dök",
+        "description": "Herhangi bir ses veya video dosyasını yükle, eksiksiz yazılı dökümünü al. 60+ dil, konuşmacı ayırma, aranabilir metin. Sağır ve ağır işitenler için.",
+        "schemaDescription": "Herhangi bir ses veya video dosyasını yükle, eksiksiz yazılı dökümünü al. 60+ dil, konuşmacı ayırma, zaman damgaları. Sağır ve ağır işiten kişiler için."
+      },
+      "howTitle": "Yükle. Oku. Bitti.",
+      "steps": [
+        {
+          "title": "Dosya türünü seç",
+          "desc": "Ses dosyası mı yoksa video dosyası mı yükleyeceğini seç."
+        },
+        {
+          "title": "Bir dosya seç",
+          "desc": "Dosyayı telefonundan seç. Captio AI hemen yazıya dökmeye başlar."
+        },
+        {
+          "title": "Dökümü gör",
+          "desc": "Konuşmacıya göre düzenlenmiş, zaman damgalı dökümün tamamını oku."
+        }
+      ],
+      "featuresTitle": "Gerçek kayıtlar için geliştirildi",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Her format",
+          "description": "MP3, MP4, M4A, WAV ve daha fazlası. Dersler, toplantılar, sesli mesajlar, podcast'ler, röportajlar, telefon kayıtları — içinde konuşma varsa Captio AI onu yazıya dökebilir."
+        },
+        {
+          "title": "En yüksek doğruluk",
+          "description": "Captio AI yalnızca temiz stüdyo dosyaları için değil, gerçek hayattaki sesler için geliştirildi. Telefon görüşmesi sesi, amfi kayıtları, gürültülü ortamlar — hepsiyle başa çıkar."
+        },
+        {
+          "title": "Her dil",
+          "description": "Fransızca, Japonca, Arapça ya da 57 dilde daha bir kayıt yükle. Captio AI dili tanır ve doğru şekilde yazıya döker."
+        },
+        {
+          "title": "Birden fazla dil",
+          "description": "Konuşmacılar kaydın ortasında dil değiştirdiğinde Captio AI ayak uydurur. Döküm, konuşulan her dili boşluk bırakmadan yansıtır."
+        },
+        {
+          "title": "Zaman damgaları",
+          "description": "Dökümdeki her satır zaman damgalıdır; böylece kaydın herhangi bir anına atlayıp tam olarak neyin ne zaman söylendiğini bulabilirsin."
+        },
+        {
+          "title": "Dışa aktar ve paylaş",
+          "description": "Dökümün tamamını kopyala, paylaş ya da kaydet. Kayıtların ve dökümlerin, ne zaman ihtiyacın olursa erişilebilir kalır."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Dosyalar sunucularımızda kalmaz",
+          "description": "Dosyan yalnızca dökümü çıkarılmak üzere gönderilir, sonra orada silinir ve sunucularımızda asla saklanmaz. Kayıt telefonunda kalır, dökümü ise yalnızca kendi hesabınla eşitlenir."
+        },
+        {
+          "title": "Satılık değil",
+          "description": "Captio AI kayıtlarını satmaz, paylaşmaz, onlardan para kazanmaz — kimseye, hiçbir sebeple."
+        },
+        {
+          "title": "Hiçbir şeyi eğitmek için kullanılmaz",
+          "description": "Yüklediğin şey — bir doktor randevusu, bir toplantı, bir görüşme — asla bir eğitim veri setine girmez. Ne bizimkine. Ne de başka birininkine."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Ses Dökümü'nün Canlı Altyazı'dan farkı ne?",
+          "a": "Canlı Altyazı, biri konuşurken gerçek zamanlı çalışır. Ses Dökümü ise kayıtlar içindir — bir ses veya video dosyası yüklersin ve eksiksiz yazılı dökümünü alırsın. Kaydettiğin dersleri, doktor randevularını, röportajları ya da dinlemek yerine okumayı tercih ettiğin her türlü içeriği gözden geçirmek için idealdir."
+        },
+        {
+          "q": "Ses Dökümü hangi dosya formatlarını destekliyor?",
+          "a": "Captio AI; MP3, MP4, M4A, WAV ve daha fazlası dahil yaygın ses ve video formatlarını kabul eder. Telefonunla kaydettiysen ya da bir video platformundan indirdiysen çalışır."
+        },
+        {
+          "q": "Döküm ne kadar doğru?",
+          "a": "Desteklenen dillerdeki net kayıtlarda doğruluk yüksektir. Captio AI gerçek hayattaki seslerle başa çıkar — telefon görüşmeleri, amfi kayıtları, gürültülü ortamlar — yalnızca stüdyo kalitesindeki dosyalarla değil. Gerekirse bir dosyanın dökümünü ikinci kez de yapabilirsin."
+        },
+        {
+          "q": "Hangi diller destekleniyor?",
+          "a": "İngilizce, İspanyolca, Fransızca, Almanca, Mandarin Çincesi, Arapça, Hintçe, Japonca, Korece, Portekizce, Rusça ve daha birçok dil dahil 60'tan fazla dil. Captio AI dosyada konuşulan dili otomatik olarak algılar."
+        },
+        {
+          "q": "Konuşmacıları ayırıyor mu?",
+          "a": "Evet. Captio AI dökümde her konuşmacıyı ayrı ayrı etiketler; böylece kimin ne dediğini takip edebilirsin — toplantılar, röportajlar, doktor randevuları ve birden fazla kişinin olduğu her kayıt için kullanışlı."
+        },
+        {
+          "q": "Döküm ne kadar sürer?",
+          "a": "Döküm hızlıdır. Bir saatlik bir kayıt genellikle birkaç dakika sürer. Süre, dosyanın uzunluğuna ve ses kalitesine bağlıdır."
+        },
+        {
+          "q": "Döküm sonrasında sesim saklanıyor mu?",
+          "a": "Captio AI sunucularında saklanmaz. Dosya yalnızca dökümü çıkarılmak üzere güvenli şekilde bir konuşma tanıma hizmetine gönderilir ve döküm hazır olur olmaz orada silinir. Kayıt telefonunda kalır, dökümü de başka bir cihazda açabilmen için kendi hesabında tutulur. Kayıtların asla satılmaz ve yapay zekâ modellerini eğitmek için kullanılmaz."
+        },
+        {
+          "q": "Bir video dosyasını yazıya dökebilir miyim?",
+          "a": "Evet. Video dosyasını doğrudan yükle; Captio AI sesini ayırır ve yazıya döker. Önce dosyayı dönüştürmene gerek yok."
+        }
+      ]
+    },
+    "ai-summary": {
+      "meta": {
+        "title": "Yapay Zekâ Özeti: Her Dökümden Düzenli Özetler",
+        "description": "Herhangi bir dökümü düzenli bir özete dönüştür. Önemli noktalar, kararlar ve yapılacaklar otomatik olarak çıkarılır. Sağır ve ağır işitenler için.",
+        "schemaDescription": "Herhangi bir dökümü düzenli bir özete dönüştür. Önemli noktalar, kararlar, yapılacaklar ve konuşmacı alıntıları otomatik olarak çıkarılır."
+      },
+      "howTitle": "Döküm girer. Özet çıkar.",
+      "steps": [
+        {
+          "title": "Bir döküm aç",
+          "desc": "Canlı Altyazı ya da Ses Dökümü'nden herhangi bir dökümü seç."
+        },
+        {
+          "title": "Özet oluştur",
+          "desc": "Yapay Zekâ Özeti'ne dokun. Captio AI dökümü otomatik olarak işler."
+        },
+        {
+          "title": "Özeti oku",
+          "desc": "Özetin hazır — bölümlere ayrılmış, okumaya ya da paylaşmaya hazır."
+        }
+      ],
+      "featuresTitle": "Uzun dökümler için geliştirildi",
+      "featuresSubtitle": "Özet, yapılacaklar listesi, konuşmacı alıntıları, notlar ve daha fazlasını al.",
+      "subfeatures": [
+        {
+          "title": "Önemli noktalar otomatik olarak çıkarılır",
+          "description": "Captio AI dökümün tamamını okur ve gerçekten önemli olanları ayıklar — ana noktalar, alınan kararlar ve varılan sonuçlar."
+        },
+        {
+          "title": "Yapılacaklar öne çıkarılır",
+          "description": "Görevler ve takip edilecek işler belirlenip ayrı bir liste hâlinde sunulur; böylece bir toplantı, randevu ya da dersten sonra hiçbir şey gözden kaçmaz."
+        },
+        {
+          "title": "Bölümlere ayrılmış",
+          "description": "Özet, tek parça bir metin bloğu değil, düzenli bir yapıdadır. Her konunun kendi bölümü vardır; böylece göz gezdirip ihtiyacın olanı bulabilirsin."
+        },
+        {
+          "title": "Her Captio AI dökümünde çalışır",
+          "description": "Yapay Zekâ Özeti'ni Canlı Altyazı ya da Ses Dökümü ile oluşturduğun herhangi bir dökümde çalıştır. Ek adım yok, kopyala-yapıştır yok."
+        },
+        {
+          "title": "Her dil",
+          "description": "60'tan fazla dildeki dökümleri özetle. Captio AI dökümü orijinal dilinde okur ve okuyabileceğin bir özet hazırlar."
+        },
+        {
+          "title": "Kaydet ve paylaş",
+          "description": "Özeti dökümün yanında sakla, kopyala ya da paylaş. Doktor randevularından, toplantılardan ve derslerden sonra kullanışlı."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Yalnızca hesabında tutulur",
+          "description": "Özetin, kaydıyla birlikte telefonunda ve kendi hesabında saklanır; böylece giriş yaptığın her cihazda hazırdır. Silersen her yerden kalkar."
+        },
+        {
+          "title": "Satılık değil",
+          "description": "Captio AI konuşmalarını satmaz, paylaşmaz, onlardan para kazanmaz — kimseye, hiçbir sebeple."
+        },
+        {
+          "title": "Hiçbir şeyi eğitmek için kullanılmaz",
+          "description": "Özetlediğin şey — bir doktor randevusu, bir toplantı, bir görüşme — asla bir eğitim veri setine girmez. Ne bizimkine. Ne de başka birininkine."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Yapay Zekâ Özeti ne yapar?",
+          "a": "Yapay Zekâ Özeti herhangi bir dökümü alır ve önemli bilgileri — ana noktaları, kararları, yapılacakları ve önemli ayrıntıları — düzenli bir özete dönüştürür. Uzun bir dökümün olduğunda ve öne çıkanlara hızla ihtiyacın olduğunda zaman kazandırır."
+        },
+        {
+          "q": "Hangi dökümleri özetleyebilirim?",
+          "a": "Captio AI içinde oluşturulan her dökümü — Canlı Altyazı'dan ya da Ses Dökümü'nden. Yapay Zekâ Özeti'ni doğrudan dökümde, hiçbir ek adım olmadan çalıştırırsın."
+        },
+        {
+          "q": "Yapay Zekâ Özeti'nin dökümü okumaktan farkı ne?",
+          "a": "Bir saatlik bir toplantının tam dökümü binlerce kelime olabilir. Yapay Zekâ Özeti sana önemli noktaları, kararları ve yapılacakları okuma süresinin çok küçük bir kısmında sunar — söylenme sırasına göre değil, konuya göre düzenlenmiş olarak."
+        },
+        {
+          "q": "Doktor randevularında işe yarar mı?",
+          "a": "Evet. Bir doktor randevusunda kısa sürede çok fazla bilgi verilir. Yapay Zekâ Özeti teşhisi, talimatları ve takip adımlarını gözden geçirip yeniden bakabileceğin net bir listeye dönüştürür."
+        },
+        {
+          "q": "Hangi diller destekleniyor?",
+          "a": "Yapay Zekâ Özeti 60'tan fazla dildeki dökümlerde çalışır. Özet, dökümle aynı dilde hazırlanır."
+        },
+        {
+          "q": "Özeti kaydedebilir ya da paylaşabilir miyim?",
+          "a": "Evet. Özeti orijinal dökümün yanında kaydedebilir, kopyalayabilir ya da paylaşabilirsin. Bir toplantı özetini göndermek ya da bir doktor randevusunun kaydını tutmak için kullanışlı."
+        },
+        {
+          "q": "Yapay Zekâ Özeti dökümümü ya da sesimi saklıyor mu?",
+          "a": "Dökümün yalnızca özeti yazmak için güvenli şekilde bir yapay zekâ hizmetine gönderilir ve yapay zekâ modellerini eğitmek için asla kullanılmaz. Özet, sen silene kadar kayıtla birlikte telefonunda ve kendi hesabında saklanır. Ses, Captio AI sunucularında asla saklanmaz ve konuşmaların asla satılmaz."
+        }
+      ]
+    }
+  }
+}

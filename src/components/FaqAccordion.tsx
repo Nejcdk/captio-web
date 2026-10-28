@@ -15,7 +15,7 @@ export default function FaqAccordion({ faqs }: { faqs: Faq[] }) {
           className={`bg-white rounded-[8px] border transition-colors ${open === i ? "border-brand" : "border-gray-200"}`}
         >
           <button
-            className="w-full flex items-center justify-between gap-4 px-6 py-5 text-left"
+            className="w-full flex items-center justify-between gap-4 px-6 py-5 text-start"
             onClick={() => setOpen(open === i ? null : i)}
           >
             <span className="font-semibold text-gray-900 text-sm sm:text-base">{faq.q}</span>

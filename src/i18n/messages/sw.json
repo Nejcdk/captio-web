@@ -1,0 +1,638 @@
+{
+  "header": {
+    "features": "Vipengele",
+    "useCases": "Matumizi",
+    "languages": "Lugha",
+    "compare": "Linganisha",
+    "blog": "Blogu",
+    "download": "Pakua",
+    "toggleMenu": "Fungua au funga menyu",
+    "chooseLanguage": "Chagua lugha"
+  },
+  "footer": {
+    "tagline": "Manukuu mubashara na zana ya tija kwa viziwi na wasiosikia vizuri.",
+    "productHuntTagline": "Manukuu Mubashara na Unukuzi kwa Viziwi na Wasiosikia Vizuri",
+    "productHunt": "Itazame kwenye Product Hunt →",
+    "featuredOn": "Imeangaziwa kwenye",
+    "features": "Vipengele",
+    "useCases": "Matumizi",
+    "blog": "Blogu",
+    "allArticles": "Makala zote",
+    "compare": "Linganisha",
+    "compareApps": "Linganisha programu za manukuu",
+    "company": "Kampuni",
+    "organizations": "Kwa mashirika",
+    "privacy": "Sera ya Faragha",
+    "terms": "Masharti ya Huduma"
+  },
+  "store": {
+    "appleOverline": "Pakua kwenye",
+    "googleOverline": "Ipate kwenye",
+    "appleQrAlt": "Msimbo wa QR wa kupakua Captio AI kwenye App Store kwa iPhone",
+    "googleQrAlt": "Msimbo wa QR wa kupakua Captio AI kwenye Google Play kwa Android",
+    "downloadForFree": "Pakua bila malipo"
+  },
+  "common": {
+    "home": "Mwanzo",
+    "back": "Rudi",
+    "goBack": "Rudi nyuma",
+    "explore": "Gundua",
+    "featuresLabel": "Vipengele",
+    "howItWorks": "Jinsi inavyofanya kazi",
+    "privacyLabel": "Faragha",
+    "privacyTitle": "Unachosikia kinabaki kwako.",
+    "privacyImageAlt": "Faragha tangu mwanzo — sauti yako haihifadhiwi kwenye seva zetu, haiuzwi kamwe, haitumiwi kamwe kwa mafunzo",
+    "faqLabel": "Maswali",
+    "faqTitle": "Maswali yanayoulizwa mara kwa mara",
+    "getStarted": "Anza sasa",
+    "freeToStart": "Unaweza kuanza kutumia Captio AI bila malipo",
+    "allFeatures": "Captio AI ina Manukuu Mubashara, Tafsiri Mubashara, Unukuzi wa Sauti na Muhtasari wa AI.",
+    "featureNames": {
+      "live-captions": "Manukuu Mubashara",
+      "live-translator": "Tafsiri Mubashara",
+      "audio-transcription": "Unukuzi wa Sauti",
+      "ai-summary": "Muhtasari wa AI"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Captio AI — Manukuu Mubashara kwa Viziwi na Wasiosikia Vizuri",
+      "description": "Captio AI huwapa viziwi na wasiosikia vizuri manukuu mubashara, tafsiri mubashara, unukuzi wa sauti na muhtasari wa AI moja kwa moja kwenye simu. Lugha 60+.",
+      "ogDescription": "Manukuu mubashara papo hapo, tafsiri mubashara, unukuzi wa sauti na muhtasari wa AI kwa viziwi na wasiosikia vizuri. Lugha 60+. iPhone na Android.",
+      "schemaDescription": "Manukuu mubashara papo hapo, tafsiri mubashara, unukuzi wa sauti na muhtasari wa AI kwa viziwi na wasiosikia vizuri. Lugha 60+."
+    },
+    "eyebrow": "🦻 Ufikivu + 💻 Programu ya tija",
+    "heroTitle": "[Manukuu mubashara] na [zana ya tija] kwa viziwi na wasiosikia vizuri.",
+    "heroSubtitle": "Fuatilia mazungumzo, mkutano au mhadhara wowote. Kwa lugha yoyote.",
+    "mockupAlt": "Programu ya Captio AI ikionyesha manukuu mubashara na tafsiri",
+    "featuresTitle": "Kila kitu unachohitaji kufuatilia mazungumzo yoyote",
+    "featuresSubtitle": "Zana nne zilizoundwa mahususi kwa viziwi na wasiosikia vizuri.",
+    "features": {
+      "live-captions": {
+        "title": "Sauti kuwa maandishi papo hapo",
+        "bullets": [
+          "Neno kwa neno, papo hapo",
+          "Hufanya kazi mahali penye kelele",
+          "Lafudhi yoyote, kasi yoyote",
+          "Huhitaji kusoma midomo"
+        ]
+      },
+      "live-translator": {
+        "title": "Tafsiri lugha yoyote papo hapo",
+        "bullets": [
+          "Hutafsiri wanapozungumza",
+          "Kila mtu huzungumza lugha yake",
+          "Hufuata lugha ikibadilika katikati ya sentensi",
+          "Lugha 60+"
+        ]
+      },
+      "audio-transcription": {
+        "title": "Badilisha faili yoyote ya sauti au video kuwa maandishi",
+        "bullets": [
+          "Faili yoyote ya sauti au video",
+          "Imepangwa kwa kila mzungumzaji",
+          "Lugha 60+",
+          "Soma, nakili, tafuta, shiriki"
+        ]
+      },
+      "ai-summary": {
+        "title": "Geuza nakala kuwa muhtasari uliopangwa",
+        "bullets": [
+          "Mambo muhimu na maamuzi",
+          "Kazi za kufanya hutolewa",
+          "Hufanya kazi kwa nakala yoyote",
+          "Imepangwa katika sehemu"
+        ]
+      }
+    },
+    "useCasesLabel": "Matumizi",
+    "useCasesTitle": "Inafanya kazi katika kila hali",
+    "useCasesSubtitle": "Imeundwa kwa nyakati halisi zenye umuhimu — si tu mahali tulivu palipodhibitiwa.",
+    "useCases": {
+      "everyday-conversations": {
+        "label": "Mazungumzo ya kila siku",
+        "description": "Mazungumzo mengi hutokea haraka, kwa kasi ya kawaida, bila tahadhari. Captio AI huandika manukuu ya kila neno linapotamkwa, ili ufuatilie bila kumwomba mtu yeyote arudie."
+      },
+      "deaf-hoh-communication": {
+        "label": "Kuwasiliana na viziwi na wasiosikia vizuri",
+        "description": "Mara nyingi watu wanaosikia hawajui jinsi ya kujirekebisha wanapozungumza na marafiki viziwi au wasiosikia vizuri. Captio AI hubadilisha maneno yao kuwa manukuu papo hapo, ili mazungumzo yaende kwa kawaida pande zote mbili."
+      },
+      "meetings": {
+        "label": "Mikutano",
+        "description": "Katika mikutano, maamuzi hufanywa haraka na watu huzungumza wakiingiliana. Captio AI huandika manukuu ya kila mzungumzaji anapoongea, ili usikose kamwe uamuzi au swali unaloulizwa wewe."
+      },
+      "lectures": {
+        "label": "Mihadhara",
+        "description": "Wahadhiri huzungumza haraka, hufundisha mada ngumu na mara chache hurudia. Captio AI inakupa nakala ya moja kwa moja ya kila kinachosemwa, ili ufuatilie somo badala ya kujitahidi kusikia."
+      },
+      "doctor-appointments": {
+        "label": "Miadi ya daktari",
+        "description": "Madaktari huzungumza haraka na hutumia istilahi za kitabibu ambazo ni rahisi kusikia vibaya. Captio AI inakuonyesha kila wanachosema papo hapo, ili uelewe utambuzi wako na uulize maswali sahihi."
+      },
+      "job-interviews": {
+        "label": "Mahojiano ya kazi",
+        "description": "Kukosa swali kwenye mahojiano kunamaanisha kujibu vibaya au kuomba lirudiwe. Captio AI inakuonyesha kila neno analosema anayekuhoji, ili uweke akili yako yote kwenye jibu lako."
+      },
+      "phone-video-calls": {
+        "label": "Simu na simu za video",
+        "description": "Simu na simu za video ni ngumu zaidi kufuatilia kuliko mazungumzo ya ana kwa ana. Hakuna kusoma midomo, na mara nyingi sauti si nzuri. Captio AI huandika manukuu ya yeyote anayezungumza papo hapo, ili usihitaji kuomba warudie."
+      },
+      "group-settings": {
+        "label": "Mazungumzo ya kikundi",
+        "description": "Katika vikundi, watu kadhaa huzungumza kwa wakati mmoja na mazungumzo huenda haraka. Captio AI inaenda sambamba na yeyote anayezungumza, ili ufuatilie bila kupoteza mwelekeo wa mazungumzo."
+      },
+      "restaurants": {
+        "label": "Migahawa na mikahawa",
+        "description": "Kelele za nyuma hufanya maneno kuwa magumu kufuatilia hata kwa watu wasio na upotevu wa kusikia. Captio AI inamlenga yule anayezungumza nawe, ili uwe na mazungumzo ya kweli katikati ya kelele."
+      },
+      "traveling": {
+        "label": "Safari",
+        "description": "Katika viwanja vya ndege, hoteli na miji usiyoifahamu, hakuna nafasi ya kusikia vibaya. Captio AI huandika manukuu ya maneno katika lugha 60+, ili uende popote kwa kujiamini."
+      },
+      "conferences": {
+        "label": "Makongamano na matukio",
+        "description": "Wazungumzaji wako mbali, sauti ya ukumbi haitabiriki, na huwezi kuomba warudie. Captio AI inakupa nakala ya moja kwa moja ya kila mzungumzaji, ili ufuatilie tukio zima ukiwa umeketi popote."
+      },
+      "tv-media": {
+        "label": "Televisheni na vyombo vya habari",
+        "description": "Manukuu yaliyojengwa ndani mara nyingi si sahihi, huchelewa au hayapo kabisa. Captio AI huandika manukuu ya chochote kinachochezwa papo hapo, ili usitegemee kama kipindi kina manukuu au la."
+      }
+    },
+    "languagesLabel": "Lugha",
+    "languagesTitle": "Captio AI inaelewa lugha 60+",
+    "privacyCards": [
+      {
+        "title": "Sauti haibaki kwenye seva zetu",
+        "description": "Sauti yako hugeuzwa kuwa maandishi papo hapo na haihifadhiwi kamwe kwenye seva zetu. Rekodi unazohifadhi hubaki kwenye simu yako, na nakala zake husawazishwa kwenye akaunti yako mwenyewe tu."
+      },
+      {
+        "title": "Si bidhaa",
+        "description": "Mazungumzo yako si kitu ambacho Captio AI huuza, hushiriki au hupata pesa kutokana nacho — kwa mtu yeyote, kwa sababu yoyote."
+      },
+      {
+        "title": "Haitumiwi kufunza chochote",
+        "description": "Unachosema kwenye miadi ya daktari au mahojiano ya kazi hakiishii kamwe kwenye data ya kufunza AI. Si yetu. Si ya mtu mwingine yeyote."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Captio AI imeundwa kwa ajili ya nani?",
+        "a": "Captio AI imeundwa hasa kwa ajili ya viziwi na wasiosikia vizuri wanaohitaji kufuatilia mazungumzo papo hapo. Pia inatumiwa sana na watu wenye tatizo la ubongo kuchakata sauti wanazosikia, watu walio mahali penye kelele, wanaojifunza lugha, na yeyote anayeona kusoma ni haraka au rahisi kuliko kusikiliza."
+      },
+      {
+        "q": "Manukuu mubashara ni sahihi kiasi gani?",
+        "a": "Captio AI hutumia teknolojia ya kisasa ya utambuzi wa sauti iliyoundwa mahususi kwa usahihi na ucheleweshaji mdogo. Usahihi hutegemea uwazi wa sauti, lafudhi na kelele za nyuma — lakini katika mazungumzo ya kawaida, usahihi ni wa juu sana, unaolingana na huduma za kitaalamu za manukuu."
+      },
+      {
+        "q": "Captio AI inaelewa lugha zipi?",
+        "a": "Captio AI inaelewa lugha 60+ zikiwemo Kiingereza, Kihispania, Kifaransa, Kijerumani, Kichina (Mandarin), Kiarabu, Kihindi, Kijapani, Kikorea, Kireno, Kirusi na nyingine nyingi. Lugha zote zinapatikana kwa Manukuu Mubashara na Tafsiri Mubashara. Tazama orodha kamili kwenye ukurasa huu."
+      },
+      {
+        "q": "Je, Captio AI inafanya kazi na lafudhi na lahaja tofauti?",
+        "a": "Ndiyo. Captio AI inaelewa lafudhi na lahaja nyingi za maeneo mbalimbali — si tu lugha sanifu ya vitabuni. Inaelewa Kiingereza cha Australia, Kihispania cha Amerika ya Kilatini, Kijerumani cha Uswisi, Kireno cha Brazili, Kifaransa cha Québec, na nyingine nyingi."
+      },
+      {
+        "q": "Kuna tofauti gani kati ya Manukuu Mubashara na Tafsiri Mubashara?",
+        "a": "Manukuu Mubashara huandika maneno katika lugha ileile iliyozungumzwa. Tafsiri Mubashara huchukua maneno hayo na kuyatafsiri katika lugha uliyochagua papo hapo — inafaa sana mzungumzaji na msomaji wanapozungumza lugha tofauti, kama daktari wa kigeni au mkutano wa kibiashara kwa lugha nyingine."
+      },
+      {
+        "q": "Je, Captio AI huhifadhi au kushiriki sauti yangu?",
+        "a": "Sauti yako haihifadhiwi kamwe kwenye seva za Captio AI, wala haiuzwi au kushirikiwa kwa matangazo. Hutumwa kwa usalama kwa huduma ya utambuzi wa sauti ili tu kuigeuza kuwa maandishi, kisha hufutwa huko. Rekodi unazochagua kuhifadhi hubaki kwenye simu yako; nakala na muhtasari wa rekodi hizo pia huhifadhiwa kwenye akaunti yako mwenyewe ili uweze kuvifungua kwenye kifaa kingine, na kufuta rekodi kunaiondoa kila mahali. Mazungumzo yako hayatumiwi kamwe kufunza miundo ya AI — yetu au ya mtu mwingine yeyote."
+      },
+      {
+        "q": "Je, Captio AI inafanya kazi bila intaneti?",
+        "a": "Manukuu Mubashara na Tafsiri Mubashara zinahitaji intaneti ili kuchakata maneno papo hapo. Unukuzi wa Sauti (kwa faili unazopakia) pia unahitaji intaneti. Manukuu bila intaneti hayapatikani kwa sasa."
+      },
+      {
+        "q": "Ninahitaji simu au iPad gani?",
+        "a": "Captio AI inafanya kazi kwenye iPhone na iPad zenye iOS 16 au toleo jipya zaidi, na kwenye simu za Android. Imeboreshwa kwa ajili ya simu na hufanya kazi vizuri zaidi maikrofoni ikiwa wazi kuelekea mzungumzaji."
+      },
+      {
+        "q": "Je, naweza kutumia Captio AI kwenye miadi ya daktari?",
+        "a": "Ndiyo — miadi ya daktari ni mojawapo ya matumizi muhimu zaidi. Unaweza kuweka simu yako mezani au kuielekeza kwa daktari na kusoma kila anachosema papo hapo. Istilahi za kitabibu huandikwa kwa usahihi, hivyo Captio AI ni zana ya ufikivu yenye manufaa katika huduma za afya."
+      },
+      {
+        "q": "Je, naweza kutumia Captio AI kwenye mikutano na mihadhara?",
+        "a": "Ndiyo. Captio AI inafanya kazi popote watu wanapozungumza — mikutano ya kazini, mihadhara ya chuo kikuu, vikao vifupi vya timu, makongamano na simu za video. Elekeza maikrofoni kwa mzungumzaji na manukuu yatatokea mara moja."
+      },
+      {
+        "q": "Unukuzi wa Sauti ni nini na unatofautianaje na Manukuu Mubashara?",
+        "a": "Manukuu Mubashara hufanya kazi papo hapo mtu anapozungumza. Unukuzi wa Sauti ni kwa ajili ya rekodi — unapakia faili ya sauti au video na kupata nakala kamili ya maandishi. Unafaa sana kupitia mihadhara uliyorekodi, mahojiano, podikasti, au chochote unachopendelea kusoma badala ya kusikiliza."
+      },
+      {
+        "q": "Muhtasari wa AI hufanya nini?",
+        "a": "Muhtasari wa AI huchukua nakala yoyote na kutoa taarifa muhimu — hoja kuu, maamuzi yaliyofanywa, kazi za kufanya na maelezo muhimu — katika muhtasari uliopangwa. Hukuokolea muda unapokuwa na nakala ndefu ya mkutano au mhadhara na unahitaji mambo makuu haraka."
+      },
+      {
+        "q": "Je, Captio AI ni bure?",
+        "a": "Captio AI ina mpango wa bure unaokuwezesha kuanza bila malipo yoyote. Mpango wa Plus unapatikana kwa wanaohitaji matumizi bila kikomo. Bei ya sasa ya Plus kwa nchi yako inaonyeshwa kwenye ukurasa wa programu kwenye App Store."
+      },
+      {
+        "q": "Captio AI inatofautianaje na manukuu mubashara ya Apple yaliyojengwa ndani ya iOS?",
+        "a": "Manukuu mubashara ya Apple yamejengwa ndani ya iOS lakini yanaelewa lugha chache zaidi, hayatoi tafsiri, na hayana Unukuzi wa Sauti wala Muhtasari wa AI. Captio AI inaelewa lugha 60+, inatoa tafsiri papo hapo, inakuwezesha kubadilisha faili ulizopakia kuwa maandishi, na hutengeneza muhtasari wa AI — hivyo ni zana kamili zaidi ya ufikivu na tija."
+      }
+    ]
+  },
+  "featurePages": {
+    "live-captions": {
+      "meta": {
+        "title": "Manukuu Mubashara kwa Viziwi na Wasiosikia Vizuri kwenye iPhone",
+        "description": "Sauti kuwa maandishi papo hapo kupitia maikrofoni ya iPhone yako. Fuatilia mazungumzo yoyote, kwa lugha yoyote. Imeundwa kwa viziwi na wasiosikia vizuri.",
+        "schemaDescription": "Manukuu mubashara papo hapo kwa viziwi na wasiosikia vizuri. Lugha 60+, ucheleweshaji wa chini ya sekunde moja, hufanya kazi popote."
+      },
+      "howTitle": "Miguso mitatu. Mazungumzo yote.",
+      "steps": [
+        {
+          "title": "Anza kurekodi",
+          "desc": "Bonyeza kitufe cha kurekodi. Captio AI inaanza kusikiliza mara moja."
+        },
+        {
+          "title": "Tazama maneno yakitokea",
+          "desc": "Manukuu hutokea neno kwa neno huku mtu bado anazungumza."
+        },
+        {
+          "title": "Ihifadhi",
+          "desc": "Hifadhi nakala na rekodi ya sauti kwa ajili ya baadaye."
+        }
+      ],
+      "featuresTitle": "Imeundwa kwa mazungumzo halisi",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Maneno yanayolingana na yaliyosemwa",
+          "description": "Captio AI hunasa kile mtu alichosema hasa, si muhtasari wa kukadiria. Hivyo unaweza kuiamini nakala wakati ni muhimu — kwa daktari, kwenye mahojiano, kwenye mkutano."
+        },
+        {
+          "title": "Bila kuchelewa",
+          "description": "Ucheleweshaji ni chini ya sekunde moja. Manukuu hutokea neno kwa neno huku mtu bado anazungumza, hivyo unasoma anachosema wakati uleule wengine wanaposikia."
+        },
+        {
+          "title": "Jua nani anazungumza",
+          "description": "Katika vikundi na mikutano, Captio AI humtambulisha kila mzungumzaji kivyake ili ujue daima nani alisema nini, bila kutazama nyuso wala kufuatilia midomo."
+        },
+        {
+          "title": "Lugha 60+",
+          "description": "Fuatilia mazungumzo kwa Kifaransa, Kijapani au Kiarabu kwa njia ileile unavyofuatilia ya Kiingereza. Hakuna kubadilisha hali. Upotevu wa kusikia haugeuki kamwe kuwa kizuizi cha lugha pia."
+        },
+        {
+          "title": "Huelewa lugha zinazochanganywa katikati ya sentensi",
+          "description": "Watu wanapobadilisha lugha katikati ya mazungumzo, Captio AI inaenda nao. Hakuna pengo kwenye manukuu, hakuna hali ya kubadilisha."
+        },
+        {
+          "title": "Ifundishe msamiati wako",
+          "description": "Ongeza majina, istilahi za kitabibu au maneno ya kitaalamu unayoyasikia mara kwa mara. Captio AI hutumia orodha yako ya msamiati kuandika manukuu ya mazungumzo yako kwa usahihi zaidi."
+        },
+        {
+          "title": "Ongeza kidokezo cha lugha",
+          "description": "Iambie Captio AI lugha ya kutarajia na itaanza kuielewa tangu neno la kwanza — inafaa wakati lugha inayozungumzwa haieleweki wazi kutokana na muktadha."
+        },
+        {
+          "title": "Nukuu upya baadaye kwa usahihi zaidi",
+          "description": "Pitisha rekodi yoyote tena baadaye upate nakala safi zaidi. Inafaa kwa mihadhara, miadi, na mazungumzo yoyote yanayostahili kupitiwa."
+        },
+        {
+          "title": "Soma kwa namna yako",
+          "description": "Rekebisha ukubwa wa maandishi, rangi ya mandharinyuma na utofautishaji hadi manukuu yasomeke kwa urahisi kwa mtazamo mmoja — simu mkononi, ikiwa imelala mezani, au imeegemezwa kwenye dawati."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Sauti haibaki kwenye seva zetu",
+          "description": "Sauti yako hugeuzwa kuwa maandishi papo hapo na haihifadhiwi kamwe kwenye seva zetu. Rekodi unazohifadhi hubaki kwenye simu yako, na nakala zake husawazishwa kwenye akaunti yako mwenyewe tu."
+        },
+        {
+          "title": "Si bidhaa",
+          "description": "Mazungumzo yako si kitu ambacho Captio AI huuza, hushiriki au hupata pesa kutokana nacho — kwa mtu yeyote, kwa sababu yoyote."
+        },
+        {
+          "title": "Haitumiwi kufunza chochote",
+          "description": "Unachosema kwenye miadi ya daktari au mahojiano ya kazi hakiishii kamwe kwenye data ya kufunza AI. Si yetu. Si ya mtu mwingine yeyote."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Captio AI inatofautianaje na manukuu mubashara ya Apple yaliyojengwa ndani ya iOS?",
+          "a": "Manukuu mubashara ya Apple yanaelewa lugha chache zaidi, hayatoi tafsiri, na hayana Unukuzi wa Sauti wala Muhtasari wa AI. Captio AI inaelewa lugha 60+, inatoa tafsiri papo hapo, inakuwezesha kubadilisha faili ulizopakia kuwa maandishi, na hutengeneza muhtasari wa AI. Pia inakuwezesha kubadilisha ukubwa wa maandishi, rangi na utofautishaji ili kuendana na jinsi unavyosoma vizuri zaidi."
+        },
+        {
+          "q": "Manukuu mubashara ni sahihi kiasi gani?",
+          "a": "Usahihi ni wa juu katika mazungumzo ya kawaida. Captio AI imeundwa kwa ajili ya mazungumzo halisi — si tu sauti safi ya studio — hivyo inaelewa wanaozungumza haraka, lafudhi za maeneo, kelele za nyuma na sentensi zenye lugha mchanganyiko. Unaweza pia kuongeza msamiati wako (majina, istilahi za kitabibu, maneno ya kitaalamu) ili kuboresha usahihi kwa mazungumzo yako mahususi."
+        },
+        {
+          "q": "Manukuu hutokea kwa kasi gani?",
+          "a": "Neno kwa neno, huku mtu bado anazungumza. Ucheleweshaji ni chini ya sekunde moja — karibu papo hapo. Unasoma anachosema mtu wakati uleule wengine wanaposikia, si baada ya kumaliza sentensi."
+        },
+        {
+          "q": "Je, Manukuu Mubashara hufanya kazi mahali penye kelele?",
+          "a": "Ndiyo. Captio AI imeundwa kwa mazingira halisi — migahawa, mitaani, vyumba vya kusubiri, usafiri wa umma. Elekeza maikrofoni kwa mzungumzaji na manukuu yatatokea licha ya kelele za nyuma."
+        },
+        {
+          "q": "Manukuu Mubashara huelewa lugha zipi?",
+          "a": "Lugha 60+ zikiwemo Kiingereza, Kihispania, Kifaransa, Kijerumani, Kichina (Mandarin), Kiarabu, Kihindi, Kijapani, Kikorea, Kireno, Kirusi na nyingine nyingi. Lafudhi na lahaja za maeneo zinaeleweka katika lugha zote kuu."
+        },
+        {
+          "q": "Je, inafanya kazi na lafudhi na lahaja?",
+          "a": "Ndiyo. Captio AI inaelewa lafudhi nyingi za maeneo — si tu lugha sanifu ya vitabuni. Kiingereza cha Australia, Kihispania cha Amerika ya Kilatini, Kijerumani cha Uswisi, Kifaransa cha Québec na nyingine nyingi zinaeleweka."
+        },
+        {
+          "q": "Je, naweza kuhifadhi manukuu yangu?",
+          "a": "Ndiyo. Unaweza kuhifadhi nakala na rekodi za sauti baada ya kipindi na kuzipitia baadaye. Unaweza pia kunukuu upya rekodi iliyohifadhiwa ili upate nakala safi na sahihi zaidi."
+        },
+        {
+          "q": "Je, ninahitaji intaneti?",
+          "a": "Ndiyo. Manukuu Mubashara yanahitaji intaneti ili kuchakata maneno papo hapo. Manukuu bila intaneti hayapatikani kwa sasa."
+        }
+      ]
+    },
+    "live-translator": {
+      "meta": {
+        "title": "Tafsiri Mubashara: Tafsiri Sauti Papo Hapo kwenye iPhone",
+        "description": "Tafsiri ya mazungumzo papo hapo kwenye iPhone yako. Mtu anazungumza lugha yake, wewe unasoma kwa yako, kwa lugha yoyote. Kwa viziwi na wasiosikia vizuri.",
+        "schemaDescription": "Tafsiri ya mazungumzo papo hapo kwa viziwi na wasiosikia vizuri. Lugha 60+, kila mtu anazungumza lugha yake, wewe unasoma kwa yako."
+      },
+      "howTitle": "Miguso mitatu. Lugha yoyote.",
+      "steps": [
+        {
+          "title": "Chagua hali ya tafsiri",
+          "desc": "Fungua Captio AI na uchague Tafsiri Mubashara."
+        },
+        {
+          "title": "Chagua lugha unayopendelea",
+          "desc": "Chagua lugha unayotaka kusoma."
+        },
+        {
+          "title": "Tazama tafsiri papo hapo",
+          "desc": "Captio AI hutafsiri neno kwa neno."
+        }
+      ],
+      "featuresTitle": "Imeundwa kwa mazungumzo halisi",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Lugha yoyote",
+          "description": "Kifaransa, Kijapani, Kiarabu, Kihispania, Kijerumani, Kichina (Mandarin) — lugha 60+, upande wowote. Upotevu wa kusikia haugeuki kamwe kuwa kizuizi cha lugha pia."
+        },
+        {
+          "title": "Hutambua yenyewe lugha inayozungumzwa",
+          "description": "Acha lugha ya chanzo kwenye hali ya otomatiki na Captio AI itaitambua kutoka maneno ya kwanza. Huhitaji kuichagua mwenyewe kabla ya kila mazungumzo."
+        },
+        {
+          "title": "Bila kuchelewa",
+          "description": "Ucheleweshaji wa tafsiri ni chini ya sekunde moja. Unasoma anachosema mtu wakati uleule wengine wanaposikia, si baada ya kumaliza sentensi."
+        },
+        {
+          "title": "Ongeza vidokezo vya lugha",
+          "description": "Iambie Captio AI lugha ya kutarajia na itaanza kuielewa tangu neno la kwanza — inafaa wakati lugha inayozungumzwa haieleweki wazi kutokana na muktadha."
+        },
+        {
+          "title": "Lugha kadhaa kwa wakati mmoja",
+          "description": "Watu wanapobadilisha lugha katikati ya mazungumzo, Captio AI inaenda nao — ikitafsiri kila moja katika lugha yako bila wewe kufanya chochote."
+        },
+        {
+          "title": "Soma kwa namna yako",
+          "description": "Rekebisha rangi ya mandharinyuma, rangi ya maandishi na ukubwa wa herufi ili tafsiri isomeke kwa urahisi kwa mtazamo mmoja, simu ikiwa mkononi au imelala mezani."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Sauti haibaki kwenye seva zetu",
+          "description": "Sauti yako hugeuzwa kuwa maandishi papo hapo na haihifadhiwi kamwe kwenye seva zetu. Rekodi unazohifadhi hubaki kwenye simu yako, na nakala zake husawazishwa kwenye akaunti yako mwenyewe tu."
+        },
+        {
+          "title": "Si bidhaa",
+          "description": "Mazungumzo yako si kitu ambacho Captio AI huuza, hushiriki au hupata pesa kutokana nacho — kwa mtu yeyote, kwa sababu yoyote."
+        },
+        {
+          "title": "Haitumiwi kufunza chochote",
+          "description": "Unachosema kwenye miadi ya daktari au mahojiano ya kazi hakiishii kamwe kwenye data ya kufunza AI. Si yetu. Si ya mtu mwingine yeyote."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Tafsiri Mubashara inatofautianaje na Manukuu Mubashara?",
+          "a": "Manukuu Mubashara huandika maneno katika lugha ileile iliyozungumzwa. Tafsiri Mubashara huchukua maneno hayo na kuyatafsiri katika lugha uliyochagua papo hapo. Ikiwa mtu mwingine anazungumza Kifaransa na wewe unasoma Kiingereza, Tafsiri Mubashara ndiyo unayotumia."
+        },
+        {
+          "q": "Tafsiri ni sahihi kiasi gani?",
+          "a": "Usahihi wa tafsiri ni wa juu kwa jozi za lugha zinazotumika sana katika mazungumzo ya kila siku. Captio AI inaelewa mazungumzo ya kawaida — wanaozungumza haraka, lafudhi, kelele za nyuma — si tu sauti safi ya studio. Kwa jozi za lugha adimu au maudhui ya kitaalamu sana, usahihi unaweza kutofautiana."
+        },
+        {
+          "q": "Lugha zipi zinapatikana?",
+          "a": "Lugha 60+ zikiwemo Kiingereza, Kihispania, Kifaransa, Kijerumani, Kichina (Mandarin), Kiarabu, Kihindi, Kijapani, Kikorea, Kireno, Kirusi na nyingine nyingi. Lugha ya chanzo na lugha lengwa zinaweza kuwa yoyote kati ya lugha zinazopatikana."
+        },
+        {
+          "q": "Tafsiri hutokea kwa kasi gani?",
+          "a": "Ucheleweshaji ni chini ya sekunde moja. Unasoma tafsiri neno kwa neno huku mtu bado anazungumza — karibu papo hapo, si baada ya kumaliza sentensi."
+        },
+        {
+          "q": "Je, inafanya kazi kwenye miadi na daktari anayezungumza lugha ya kigeni?",
+          "a": "Ndiyo. Haya ni mojawapo ya matumizi muhimu zaidi. Weka simu yako mezani, weka lugha ya chanzo iwe lugha ya daktari, na usome kila anachosema kwa lugha yako papo hapo. Unaweza pia kuhifadhi nakala iliyotafsiriwa ili kupitia maelekezo yake baadaye."
+        },
+        {
+          "q": "Je, inafanya kazi mahali penye kelele?",
+          "a": "Ndiyo. Captio AI imeundwa kwa mazingira halisi — vyumba vya kusubiri, migahawa, viwanja vya ndege. Elekeza maikrofoni kwa mzungumzaji na tafsiri itatokea licha ya kelele zinazokuzunguka."
+        },
+        {
+          "q": "Je, naweza kuhifadhi nakala iliyotafsiriwa?",
+          "a": "Ndiyo. Baada ya kipindi unaweza kuhifadhi maandishi yaliyotafsiriwa na kuyapitia baadaye. Inafaa kwa miadi ya kitabibu, mikutano, na mazungumzo yoyote unayotaka kuwa na kumbukumbu yake."
+        },
+        {
+          "q": "Je, ninahitaji intaneti?",
+          "a": "Ndiyo. Tafsiri Mubashara inahitaji intaneti ili kuchakata na kutafsiri maneno papo hapo. Tafsiri bila intaneti haipatikani kwa sasa."
+        }
+      ]
+    },
+    "audio-transcription": {
+      "meta": {
+        "title": "Unukuzi wa Sauti: Sauti na Video kuwa Maandishi kwenye iPhone",
+        "description": "Pakia faili yoyote ya sauti au video upate nakala kamili ya maandishi. Lugha 60+, hutenganisha wazungumzaji, inatafutika. Kwa viziwi na wasiosikia vizuri.",
+        "schemaDescription": "Pakia faili yoyote ya sauti au video upate nakala kamili ya maandishi. Lugha 60+, hutenganisha wazungumzaji, alama za muda. Kwa viziwi na wasiosikia vizuri."
+      },
+      "howTitle": "Pakia. Soma. Imekamilika.",
+      "steps": [
+        {
+          "title": "Chagua aina ya faili",
+          "desc": "Chagua kama unapakia faili ya sauti au faili ya video."
+        },
+        {
+          "title": "Chagua faili",
+          "desc": "Chagua faili kutoka kwenye simu yako. Captio AI inaanza kunukuu mara moja."
+        },
+        {
+          "title": "Tazama nakala",
+          "desc": "Soma nakala kamili, iliyopangwa kwa kila mzungumzaji, pamoja na alama za muda."
+        }
+      ],
+      "featuresTitle": "Imeundwa kwa rekodi halisi",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Muundo wowote",
+          "description": "MP3, MP4, M4A, WAV na mingine. Mihadhara, mikutano, ujumbe wa sauti, podikasti, mahojiano, rekodi za simu — ikiwa ina maneno ndani yake, Captio AI inaweza kuinukuu."
+        },
+        {
+          "title": "Usahihi wa hali ya juu",
+          "description": "Captio AI imeundwa kwa sauti za maisha halisi, si tu faili safi za studio. Sauti za simu, rekodi za kumbi za mihadhara, mazingira yenye kelele — inaziweza zote."
+        },
+        {
+          "title": "Lugha yoyote",
+          "description": "Pakia rekodi kwa Kifaransa, Kijapani, Kiarabu au lugha nyingine 57. Captio AI hutambua lugha na kuinukuu kwa usahihi."
+        },
+        {
+          "title": "Lugha kadhaa",
+          "description": "Wazungumzaji wanapobadilisha lugha katikati ya rekodi, Captio AI inaenda nao. Nakala inaonyesha kila lugha iliyozungumzwa, bila mapengo."
+        },
+        {
+          "title": "Alama za muda",
+          "description": "Kila mstari wa nakala una alama ya muda ili uruke hadi wakati wowote kwenye rekodi na upate hasa kilichosemwa na lini."
+        },
+        {
+          "title": "Hamisha na shiriki",
+          "description": "Nakili nakala nzima, ishiriki au ihifadhi. Rekodi na nakala zako zinapatikana wakati wowote unapozihitaji."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Faili hazibaki kwenye seva zetu",
+          "description": "Faili yako hutumwa tu ili inukuliwe, kisha hufutwa huko, na haihifadhiwi kamwe kwenye seva zetu. Rekodi hubaki kwenye simu yako, na nakala yake husawazishwa kwenye akaunti yako mwenyewe tu."
+        },
+        {
+          "title": "Si bidhaa",
+          "description": "Rekodi zako si kitu ambacho Captio AI huuza, hushiriki au hupata pesa kutokana nacho — kwa mtu yeyote, kwa sababu yoyote."
+        },
+        {
+          "title": "Haitumiwi kufunza chochote",
+          "description": "Unachopakia — miadi ya daktari, mkutano, mahojiano — hakiishii kamwe kwenye data ya kufunza AI. Si yetu. Si ya mtu mwingine yeyote."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Unukuzi wa Sauti unatofautianaje na Manukuu Mubashara?",
+          "a": "Manukuu Mubashara hufanya kazi papo hapo mtu anapozungumza. Unukuzi wa Sauti ni kwa ajili ya rekodi — unapakia faili ya sauti au video na kupata nakala kamili ya maandishi. Unafaa sana kupitia mihadhara uliyorekodi, miadi ya daktari, mahojiano, au chochote unachopendelea kusoma badala ya kusikiliza."
+        },
+        {
+          "q": "Unukuzi wa Sauti unakubali miundo gani ya faili?",
+          "a": "Captio AI inakubali miundo ya kawaida ya sauti na video ikiwemo MP3, MP4, M4A, WAV na mingine. Ikiwa uliirekodi kwenye simu yako au uliipakua kutoka jukwaa la video, itafanya kazi."
+        },
+        {
+          "q": "Unukuzi ni sahihi kiasi gani?",
+          "a": "Usahihi ni wa juu kwa rekodi zilizo wazi katika lugha zinazopatikana. Captio AI inaelewa sauti za maisha halisi — simu, rekodi za kumbi za mihadhara, mazingira yenye kelele — si tu faili zenye ubora wa studio. Unaweza pia kunukuu faili upya kwa mara ya pili ikihitajika."
+        },
+        {
+          "q": "Lugha zipi zinapatikana?",
+          "a": "Lugha 60+ zikiwemo Kiingereza, Kihispania, Kifaransa, Kijerumani, Kichina (Mandarin), Kiarabu, Kihindi, Kijapani, Kikorea, Kireno, Kirusi na nyingine nyingi. Captio AI hutambua yenyewe lugha inayozungumzwa kwenye faili."
+        },
+        {
+          "q": "Je, hutenganisha wazungumzaji?",
+          "a": "Ndiyo. Captio AI humtambulisha kila mzungumzaji kivyake kwenye nakala ili ufuatilie nani alisema nini — inafaa kwa mikutano, mahojiano, miadi ya daktari na rekodi yoyote yenye watu kadhaa."
+        },
+        {
+          "q": "Unukuzi huchukua muda gani?",
+          "a": "Unukuzi ni wa haraka. Rekodi ya saa moja kwa kawaida huchukua dakika chache. Muda hutegemea urefu wa faili na ubora wa sauti."
+        },
+        {
+          "q": "Je, sauti yangu huhifadhiwa baada ya unukuzi?",
+          "a": "Hapana, si kwenye seva za Captio AI. Faili hutumwa kwa usalama kwa huduma ya utambuzi wa sauti ili tu inukuliwe, na hufutwa huko mara tu nakala inapokuwa tayari. Rekodi hubaki kwenye simu yako, na nakala yake pia huhifadhiwa kwenye akaunti yako mwenyewe ili uweze kuifungua kwenye kifaa kingine. Rekodi zako haziuzwi kamwe wala hazitumiwi kufunza miundo ya AI."
+        },
+        {
+          "q": "Je, naweza kunukuu faili ya video?",
+          "a": "Ndiyo. Pakia faili ya video moja kwa moja na Captio AI itatoa sauti yake na kuinukuu. Huhitaji kubadilisha faili kwanza."
+        }
+      ]
+    },
+    "ai-summary": {
+      "meta": {
+        "title": "Muhtasari wa AI: Muhtasari Uliopangwa wa Nakala Yoyote",
+        "description": "Geuza nakala yoyote kuwa muhtasari uliopangwa. Mambo muhimu, maamuzi na kazi za kufanya hutolewa yenyewe. Kwa viziwi na wasiosikia vizuri.",
+        "schemaDescription": "Geuza nakala yoyote kuwa muhtasari uliopangwa. Mambo muhimu, maamuzi, kazi za kufanya na nukuu za wazungumzaji hutolewa yenyewe."
+      },
+      "howTitle": "Weka nakala. Pata muhtasari.",
+      "steps": [
+        {
+          "title": "Fungua nakala yoyote",
+          "desc": "Chagua nakala yoyote kutoka Manukuu Mubashara au Unukuzi wa Sauti."
+        },
+        {
+          "title": "Tengeneza muhtasari",
+          "desc": "Gusa Muhtasari wa AI. Captio AI huchakata nakala yenyewe."
+        },
+        {
+          "title": "Soma muhtasari",
+          "desc": "Muhtasari wako uko tayari — umepangwa katika sehemu, tayari kusomwa au kushirikiwa."
+        }
+      ],
+      "featuresTitle": "Imeundwa kwa nakala ndefu",
+      "featuresSubtitle": "Pata muhtasari, orodha ya kazi, nukuu za wazungumzaji, maelezo na zaidi.",
+      "subfeatures": [
+        {
+          "title": "Mambo muhimu hutolewa yenyewe",
+          "description": "Captio AI husoma nakala nzima na kutoa yale yaliyokuwa muhimu kweli — hoja kuu, maamuzi yaliyofanywa na hitimisho lililofikiwa."
+        },
+        {
+          "title": "Kazi za kufanya huonyeshwa wazi",
+          "description": "Kazi na hatua za kufuatilia hutambuliwa na kuorodheshwa kando ili kisisahaulike chochote baada ya mkutano, miadi au mhadhara."
+        },
+        {
+          "title": "Imepangwa katika sehemu",
+          "description": "Muhtasari umepangwa, si fungu moja refu la maandishi. Kila mada ina sehemu yake ili upitie haraka na upate unachohitaji."
+        },
+        {
+          "title": "Hufanya kazi kwa nakala yoyote ya Captio AI",
+          "description": "Tumia Muhtasari wa AI kwa nakala yoyote uliyotengeneza kwa Manukuu Mubashara au Unukuzi wa Sauti. Hakuna hatua za ziada, hakuna kunakili na kubandika."
+        },
+        {
+          "title": "Lugha yoyote",
+          "description": "Fupisha nakala katika lugha 60+. Captio AI husoma nakala katika lugha yake asili na kutengeneza muhtasari unaoweza kuusoma."
+        },
+        {
+          "title": "Hifadhi na shiriki",
+          "description": "Weka muhtasari pamoja na nakala, unakili au uushiriki. Inafaa baada ya miadi ya daktari, mikutano na mihadhara."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Huhifadhiwa kwenye akaunti yako tu",
+          "description": "Muhtasari wako huhifadhiwa pamoja na rekodi yake, kwenye simu yako na kwenye akaunti yako mwenyewe, kwa hivyo upo kwenye kifaa chochote unachoingia nacho. Ukiufuta, unatoweka kila mahali."
+        },
+        {
+          "title": "Si bidhaa",
+          "description": "Mazungumzo yako si kitu ambacho Captio AI huuza, hushiriki au hupata pesa kutokana nacho — kwa mtu yeyote, kwa sababu yoyote."
+        },
+        {
+          "title": "Haitumiwi kufunza chochote",
+          "description": "Unachofupisha — miadi ya daktari, mkutano, mahojiano — hakiishii kamwe kwenye data ya kufunza AI. Si yetu. Si ya mtu mwingine yeyote."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Muhtasari wa AI hufanya nini?",
+          "a": "Muhtasari wa AI huchukua nakala yoyote na kutoa taarifa muhimu — hoja kuu, maamuzi, kazi za kufanya na maelezo muhimu — katika muhtasari uliopangwa. Hukuokolea muda unapokuwa na nakala ndefu na unahitaji mambo makuu haraka."
+        },
+        {
+          "q": "Ni nakala zipi ninazoweza kufupisha?",
+          "a": "Nakala yoyote iliyotengenezwa ndani ya Captio AI — kutoka Manukuu Mubashara au Unukuzi wa Sauti. Unatumia Muhtasari wa AI moja kwa moja kwenye nakala, bila hatua za ziada."
+        },
+        {
+          "q": "Muhtasari wa AI unatofautianaje na kusoma nakala tu?",
+          "a": "Nakala kamili ya mkutano wa saa moja inaweza kuwa na maelfu ya maneno. Muhtasari wa AI unakupa mambo muhimu, maamuzi na kazi za kufanya kwa sehemu ndogo ya muda wa kusoma — yamepangwa kwa mada, si kwa mpangilio yalivyosemwa."
+        },
+        {
+          "q": "Je, inafaa kwa miadi ya kitabibu?",
+          "a": "Ndiyo. Miadi ya daktari hutoa taarifa nyingi kwa haraka. Muhtasari wa AI hutoa utambuzi, maelekezo na hatua zinazofuata katika orodha iliyo wazi unayoweza kupitia na kuirejelea."
+        },
+        {
+          "q": "Lugha zipi zinapatikana?",
+          "a": "Muhtasari wa AI hufanya kazi kwa nakala katika lugha 60+. Muhtasari hutengenezwa katika lugha ileile ya nakala."
+        },
+        {
+          "q": "Je, naweza kuhifadhi au kushiriki muhtasari?",
+          "a": "Ndiyo. Unaweza kuhifadhi muhtasari pamoja na nakala asili, kuunakili au kuushiriki. Inafaa kwa kutuma muhtasari wa mkutano au kuweka kumbukumbu ya miadi ya kitabibu."
+        },
+        {
+          "q": "Je, Muhtasari wa AI huhifadhi nakala au sauti yangu?",
+          "a": "Nakala yako hutumwa kwa usalama kwa huduma ya AI ili tu kuandika muhtasari, na haitumiwi kamwe kufunza miundo ya AI. Muhtasari huhifadhiwa pamoja na rekodi, kwenye simu yako na kwenye akaunti yako mwenyewe, hadi uufute. Sauti haihifadhiwi kamwe kwenye seva za Captio AI, na mazungumzo yako hayauzwi kamwe."
+        }
+      ]
+    }
+  }
+}

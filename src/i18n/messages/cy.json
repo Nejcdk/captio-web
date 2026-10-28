@@ -1,0 +1,638 @@
+{
+  "header": {
+    "features": "Nodweddion",
+    "useCases": "Defnyddiau",
+    "languages": "Ieithoedd",
+    "compare": "Cymharu",
+    "blog": "Blog",
+    "download": "Lawrlwytho",
+    "toggleMenu": "Agor neu gau’r ddewislen",
+    "chooseLanguage": "Dewisa iaith"
+  },
+  "footer": {
+    "tagline": "Capsiynau byw ac offeryn cynhyrchiant i bobl fyddar a thrwm eu clyw.",
+    "productHuntTagline": "Capsiynau byw a thrawsgrifio i bobl fyddar a thrwm eu clyw",
+    "productHunt": "Cymer olwg ar Product Hunt →",
+    "featuredOn": "Fel y gwelwyd ar",
+    "features": "Nodweddion",
+    "useCases": "Defnyddiau",
+    "blog": "Blog",
+    "allArticles": "Pob erthygl",
+    "compare": "Cymharu",
+    "compareApps": "Cymharu apiau capsiynau",
+    "company": "Cwmni",
+    "organizations": "I sefydliadau",
+    "privacy": "Polisi preifatrwydd",
+    "terms": "Telerau gwasanaeth"
+  },
+  "store": {
+    "appleOverline": "Lawrlwytha o’r",
+    "googleOverline": "Ar gael ar",
+    "appleQrAlt": "Cod QR i lawrlwytho Captio AI o’r App Store ar gyfer iPhone",
+    "googleQrAlt": "Cod QR i lawrlwytho Captio AI o Google Play ar gyfer Android",
+    "downloadForFree": "Lawrlwytha am ddim"
+  },
+  "common": {
+    "home": "Hafan",
+    "back": "Yn ôl",
+    "goBack": "Mynd yn ôl",
+    "explore": "Archwilio",
+    "featuresLabel": "Nodweddion",
+    "howItWorks": "Sut mae’n gweithio",
+    "privacyLabel": "Preifatrwydd",
+    "privacyTitle": "Mae’r hyn rwyt ti’n ei glywed yn aros gyda ti.",
+    "privacyImageAlt": "Preifat yn ddiofyn: ni chaiff dy sain byth ei storio ar ein gweinyddion, ei gwerthu na’i defnyddio i hyfforddi",
+    "faqLabel": "FAQ",
+    "faqTitle": "Cwestiynau cyffredin",
+    "getStarted": "Dechrau arni",
+    "freeToStart": "Mae Captio AI am ddim i ddechrau",
+    "allFeatures": "Mae Captio AI yn cynnwys Capsiynau Byw, Cyfieithydd Byw, Trawsgrifio Sain a Chrynodeb AI.",
+    "featureNames": {
+      "live-captions": "Capsiynau Byw",
+      "live-translator": "Cyfieithydd Byw",
+      "audio-transcription": "Trawsgrifio Sain",
+      "ai-summary": "Crynodeb AI"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Captio AI — Capsiynau byw i bobl fyddar a thrwm eu clyw",
+      "description": "Mae Captio AI yn rhoi capsiynau byw, cyfieithu byw, trawsgrifio sain a chrynodebau AI i bobl fyddar a thrwm eu clyw, yn syth ar eu ffôn. 60+ iaith.",
+      "ogDescription": "Capsiynau byw mewn amser real, cyfieithu byw, trawsgrifio sain a chrynodebau AI i bobl fyddar a thrwm eu clyw. 60+ iaith. iPhone ac Android.",
+      "schemaDescription": "Capsiynau byw mewn amser real, cyfieithu byw, trawsgrifio sain a chrynodebau AI i bobl fyddar a thrwm eu clyw. Dros 60 iaith."
+    },
+    "eyebrow": "🦻 Hygyrchedd + 💻 Ap cynhyrchiant",
+    "heroTitle": "[Capsiynau byw] ac [offeryn cynhyrchiant] i bobl fyddar a thrwm eu clyw.",
+    "heroSubtitle": "Dilyna unrhyw sgwrs, gyfarfod neu ddarlith. Mewn unrhyw iaith.",
+    "mockupAlt": "Ap Captio AI yn dangos capsiynau byw a chyfieithiad",
+    "featuresTitle": "Popeth sydd ei angen arnat i ddilyn unrhyw sgwrs",
+    "featuresSubtitle": "Pedwar offeryn wedi’u gwneud yn arbennig ar gyfer pobl fyddar a thrwm eu clyw.",
+    "features": {
+      "live-captions": {
+        "title": "Lleferydd i destun mewn amser real",
+        "bullets": [
+          "Fesul gair, mewn amser real",
+          "Yn gweithio mewn llefydd swnllyd",
+          "Unrhyw acen, unrhyw gyflymder",
+          "Dim angen darllen gwefusau"
+        ]
+      },
+      "live-translator": {
+        "title": "Cyfieithu unrhyw iaith mewn amser real",
+        "bullets": [
+          "Cyfieithu wrth iddyn nhw siarad",
+          "Pawb yn siarad ei iaith ei hun",
+          "Yn ymdopi â newid iaith yng nghanol brawddeg",
+          "60+ iaith"
+        ]
+      },
+      "audio-transcription": {
+        "title": "Trawsgrifio unrhyw ffeil sain neu fideo",
+        "bullets": [
+          "Unrhyw ffeil sain neu fideo",
+          "Wedi’i drefnu fesul siaradwr",
+          "60+ iaith",
+          "Darllen, copïo, chwilio, rhannu"
+        ]
+      },
+      "ai-summary": {
+        "title": "Troi trawsgrifiadau’n grynodebau trefnus",
+        "bullets": [
+          "Pwyntiau allweddol a phenderfyniadau",
+          "Rhestr o dasgau i’w gwneud",
+          "Yn gweithio ar unrhyw drawsgrifiad",
+          "Wedi’i drefnu’n adrannau"
+        ]
+      }
+    },
+    "useCasesLabel": "Defnyddiau",
+    "useCasesTitle": "Yn gweithio ym mhob sefyllfa",
+    "useCasesSubtitle": "Wedi’i gynllunio ar gyfer yr adegau go iawn sy’n bwysig, nid dim ond llefydd tawel a rheoledig.",
+    "useCases": {
+      "everyday-conversations": {
+        "label": "Sgyrsiau bob dydd",
+        "description": "Mae’r rhan fwyaf o sgyrsiau’n digwydd yn gyflym, ar gyflymder arferol, heb rybudd. Mae Captio AI yn troi pob gair yn gapsiwn wrth iddo gael ei ddweud, felly gelli di ddilyn heb ofyn i neb ailadrodd."
+      },
+      "deaf-hoh-communication": {
+        "label": "Siarad â phobl fyddar",
+        "description": "Yn aml, dydy pobl sy’n clywed ddim yn gwybod sut i addasu wrth siarad â ffrindiau byddar neu drwm eu clyw. Mae Captio AI yn troi’r hyn maen nhw’n ei ddweud yn gapsiynau mewn amser real, felly gall y sgwrs lifo’n naturiol i’r ddwy ochr."
+      },
+      "meetings": {
+        "label": "Cyfarfodydd",
+        "description": "Mewn cyfarfodydd, mae penderfyniadau’n cael eu gwneud yn gyflym ac mae pobl yn siarad dros ei gilydd. Mae Captio AI yn dangos capsiynau i bob siaradwr wrth iddyn nhw siarad, felly fyddi di byth yn colli penderfyniad na chwestiwn sydd wedi’i gyfeirio atat ti."
+      },
+      "lectures": {
+        "label": "Darlithoedd",
+        "description": "Mae darlithwyr yn siarad yn gyflym, yn trafod deunydd cymhleth, ac anaml y byddan nhw’n ailadrodd. Mae Captio AI yn rhoi trawsgrifiad byw i ti o bopeth sy’n cael ei ddweud, felly gelli di ddilyn y cynnwys yn lle straffaglu i’w glywed."
+      },
+      "doctor-appointments": {
+        "label": "Apwyntiadau meddyg",
+        "description": "Mae meddygon yn siarad yn gyflym ac yn defnyddio iaith glinigol sy’n hawdd ei chamglywed. Mae Captio AI yn dangos popeth maen nhw’n ei ddweud mewn amser real, felly gelli di ddilyn dy ddiagnosis a gofyn y cwestiynau iawn."
+      },
+      "job-interviews": {
+        "label": "Cyfweliadau swydd",
+        "description": "Mae colli cwestiwn mewn cyfweliad yn golygu ateb yn anghywir neu ofyn i rywun ei ailadrodd. Mae Captio AI yn dangos pob gair mae’r cyfwelydd yn ei ddweud, felly gelli di ganolbwyntio’n llwyr ar dy ateb."
+      },
+      "phone-video-calls": {
+        "label": "Galwadau ffôn a fideo",
+        "description": "Mae galwadau ffôn a fideo yn anoddach i’w dilyn na sgyrsiau wyneb yn wyneb. Does dim modd darllen gwefusau, ac mae ansawdd y sain yn aml yn wael. Mae Captio AI yn rhoi capsiynau mewn amser real i bwy bynnag sy’n siarad, felly does dim angen i ti ofyn i bobl ailadrodd."
+      },
+      "group-settings": {
+        "label": "Mewn grŵp",
+        "description": "Mewn grŵp, mae sawl person yn siarad ar unwaith ac mae’r sgwrs yn symud yn gyflym. Mae Captio AI yn cadw i fyny â phwy bynnag sy’n siarad, felly gelli di ddilyn heb golli trywydd y sgwrs."
+      },
+      "restaurants": {
+        "label": "Bwytai a chaffis",
+        "description": "Mae sŵn cefndir yn gwneud lleferydd yn anodd ei ddilyn, hyd yn oed i bobl heb golled clyw. Mae Captio AI yn canolbwyntio ar bwy bynnag sy’n siarad â ti, felly gelli di gael sgwrs go iawn er gwaethaf y sŵn."
+      },
+      "traveling": {
+        "label": "Teithio",
+        "description": "Mewn meysydd awyr, gwestai a dinasoedd anghyfarwydd, does dim lle i gamglywed. Mae Captio AI yn rhoi capsiynau i leferydd mewn dros 60 iaith, felly gelli di symud o gwmpas yn hyderus lle bynnag yr ei di."
+      },
+      "conferences": {
+        "label": "Cynadleddau a digwyddiadau",
+        "description": "Mae’r siaradwyr ymhell i ffwrdd, mae’r acwsteg yn anrhagweladwy a does dim modd gofyn iddyn nhw ailadrodd. Mae Captio AI yn rhoi trawsgrifiad byw i ti o bob siaradwr, felly gelli di ddilyn y digwyddiad cyfan o unrhyw sedd."
+      },
+      "tv-media": {
+        "label": "Teledu a’r cyfryngau",
+        "description": "Mae’r isdeitlau sy’n dod gyda rhaglenni yn aml yn anghywir, yn hwyr neu ar goll yn llwyr. Mae Captio AI yn rhoi capsiynau mewn amser real i beth bynnag sy’n chwarae, felly dwyt ti ddim yn dibynnu ar a oes isdeitlau gan y cynnwys."
+      }
+    },
+    "languagesLabel": "Ieithoedd",
+    "languagesTitle": "Mae Captio AI yn cefnogi dros 60 iaith",
+    "privacyCards": [
+      {
+        "title": "Dim sain ar ein gweinyddion",
+        "description": "Mae dy sain yn cael ei throi’n destun mewn amser real ac ni chaiff ei storio byth ar ein gweinyddion. Mae’r recordiadau rwyt ti’n eu cadw yn aros ar dy ffôn, ac mae eu trawsgrifiadau’n cysoni â dy gyfrif dy hun yn unig."
+      },
+      {
+        "title": "Nid cynnyrch",
+        "description": "Dydy dy sgyrsiau ddim yn rhywbeth mae Captio AI yn ei werthu, yn ei rannu nac yn gwneud arian ohono, i neb, am unrhyw reswm."
+      },
+      {
+        "title": "Ddim yn cael ei ddefnyddio i hyfforddi",
+        "description": "Fydd yr hyn rwyt ti’n ei ddweud mewn apwyntiad meddyg neu gyfweliad swydd byth yn cyrraedd set ddata hyfforddi. Nid ein un ni. Nid un neb arall."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "I bwy mae Captio AI wedi’i greu?",
+        "a": "Mae Captio AI wedi’i greu yn bennaf ar gyfer pobl fyddar a thrwm eu clyw sydd angen dilyn sgyrsiau llafar mewn amser real. Mae hefyd yn cael ei ddefnyddio’n eang gan bobl ag anhwylder prosesu clywedol, pobl mewn llefydd swnllyd, dysgwyr iaith, ac unrhyw un sy’n gweld darllen yn gynt neu’n haws na gwrando."
+      },
+      {
+        "q": "Pa mor gywir yw’r capsiynau byw?",
+        "a": "Mae Captio AI yn defnyddio technoleg adnabod lleferydd uwch sydd wedi’i hadeiladu’n benodol ar gyfer cywirdeb ac oedi isel. Mae’r cywirdeb yn dibynnu ar eglurder y sain, yr acen a sŵn cefndir, ond mewn sgyrsiau arferol mae’r cywirdeb yn uchel iawn, yn debyg i wasanaethau capsiynau proffesiynol."
+      },
+      {
+        "q": "Pa ieithoedd mae Captio AI yn eu cefnogi?",
+        "a": "Mae Captio AI yn cefnogi dros 60 iaith, gan gynnwys Saesneg, Sbaeneg, Ffrangeg, Almaeneg, Mandarin, Arabeg, Hindi, Japaneeg, Coreeg, Portiwgaleg, Rwseg a llawer mwy. Mae pob iaith ar gael ar gyfer Capsiynau Byw a Chyfieithydd Byw. Edrycha ar y rhestr lawn ar y dudalen hon."
+      },
+      {
+        "q": "Ydy Captio AI yn gweithio gyda gwahanol acenion a thafodieithoedd?",
+        "a": "Ydy. Mae Captio AI yn ymdopi ag ystod eang o acenion a thafodieithoedd rhanbarthol, nid dim ond yr iaith safonol sydd mewn gwerslyfrau. Mae’n cefnogi Saesneg Awstralia, Sbaeneg America Ladin, Almaeneg y Swistir, Portiwgaleg Brasil, Ffrangeg Québec a llawer mwy."
+      },
+      {
+        "q": "Beth yw’r gwahaniaeth rhwng Capsiynau Byw a Chyfieithydd Byw?",
+        "a": "Mae Capsiynau Byw yn trawsgrifio lleferydd yn yr iaith wreiddiol sy’n cael ei siarad. Mae Cyfieithydd Byw yn cymryd y lleferydd hwnnw ac yn ei gyfieithu i’r iaith rwyt ti’n ei dewis mewn amser real. Mae’n berffaith pan fydd y siaradwr a’r darllenydd yn siarad ieithoedd gwahanol, fel meddyg o dramor neu gyfarfod busnes mewn iaith arall."
+      },
+      {
+        "q": "Ydy Captio AI yn cadw neu’n rhannu fy sain?",
+        "a": "Nid yw dy sain byth yn cael ei storio ar weinyddion Captio AI, ac nid yw byth yn cael ei gwerthu na’i rhannu ar gyfer hysbysebu. Caiff ei hanfon yn ddiogel i wasanaeth adnabod lleferydd dim ond i’w throi’n destun, ac yna caiff ei thaflu yno. Mae’r recordiadau rwyt ti’n dewis eu cadw yn aros ar dy ffôn; mae eu trawsgrifiadau a’u crynodebau hefyd yn cael eu cadw yn dy gyfrif dy hun fel y gelli di eu hagor ar ddyfais arall, ac mae dileu recordiad yn ei ddileu ym mhobman. Dydy dy sgyrsiau byth yn cael eu defnyddio i hyfforddi modelau AI, ein rhai ni na rhai neb arall."
+      },
+      {
+        "q": "Ydy Captio AI yn gweithio heb gysylltiad â’r rhyngrwyd?",
+        "a": "Mae Capsiynau Byw a Chyfieithydd Byw angen cysylltiad â’r rhyngrwyd i brosesu lleferydd mewn amser real. Mae Trawsgrifio Sain (ar gyfer ffeiliau wedi’u llwytho i fyny) hefyd angen cysylltiad. Does dim modd creu capsiynau all-lein ar hyn o bryd."
+      },
+      {
+        "q": "Pa ffôn neu iPad sydd ei angen arna i?",
+        "a": "Mae Captio AI yn gweithio ar iPhone ac iPad gydag iOS 16 neu’n ddiweddarach, ac ar ffonau Android. Mae wedi’i optimeiddio ar gyfer ffôn ac mae’n gweithio orau pan fydd gan y meicroffon lwybr clir at y siaradwr."
+      },
+      {
+        "q": "Alla i ddefnyddio Captio AI mewn apwyntiad meddyg?",
+        "a": "Gelli. Mae apwyntiadau meddyg yn un o’r defnyddiau pwysicaf. Gelli di roi dy ffôn ar y ddesg neu ei ddal tuag at y meddyg a darllen popeth mae’n ei ddweud mewn amser real. Mae termau meddygol yn cael eu deall yn gywir, sy’n gwneud Captio AI yn offeryn hygyrchedd ymarferol mewn lleoliadau gofal iechyd."
+      },
+      {
+        "q": "Alla i ddefnyddio Captio AI mewn cyfarfodydd a darlithoedd?",
+        "a": "Gelli. Mae Captio AI yn gweithio mewn unrhyw sefyllfa lle mae pobl yn siarad: cyfarfodydd gwaith, darlithoedd prifysgol, cyfarfodydd tîm dyddiol, cynadleddau a galwadau fideo. Pwyntia’r meicroffon at y siaradwr ac mae’r capsiynau’n ymddangos ar unwaith."
+      },
+      {
+        "q": "Beth yw Trawsgrifio Sain a sut mae’n wahanol i’r nodwedd Capsiynau Byw?",
+        "a": "Mae Capsiynau Byw yn gweithio mewn amser real tra bod rhywun yn siarad. Mae Trawsgrifio Sain ar gyfer recordiadau: rwyt ti’n llwytho ffeil sain neu fideo i fyny ac yn cael trawsgrifiad ysgrifenedig llawn. Mae’n berffaith ar gyfer adolygu darlithoedd rwyt ti wedi’u recordio, cyfweliadau, podlediadau neu unrhyw gynnwys y byddai’n well gen ti ei ddarllen na gwrando arno."
+      },
+      {
+        "q": "Beth mae’r nodwedd Crynodeb AI yn ei wneud?",
+        "a": "Mae Crynodeb AI yn cymryd unrhyw drawsgrifiad ac yn tynnu’r wybodaeth allweddol allan (prif bwyntiau, penderfyniadau, tasgau a manylion pwysig) i mewn i grynodeb trefnus. Mae’n arbed amser pan fydd gen ti drawsgrifiad hir o gyfarfod neu ddarlith a bod angen y prif bethau arnat ti’n gyflym."
+      },
+      {
+        "q": "Ydy Captio AI am ddim?",
+        "a": "Mae gan Captio AI gynllun am ddim sy’n gadael i ti ddechrau heb dalu dim. Mae cynllun Plus ar gael i ddefnyddwyr sydd angen mynediad diderfyn. Mae pris presennol Plus yn dy wlad di i’w weld ar dudalen yr ap yn yr App Store."
+      },
+      {
+        "q": "Sut mae Captio AI yn wahanol i gapsiynau byw Apple?",
+        "a": "Mae capsiynau byw Apple wedi’u hadeiladu i mewn i iOS, ond maen nhw’n cefnogi llai o ieithoedd, does dim cyfieithu, a dydyn nhw ddim yn cynnwys Trawsgrifio Sain na Chrynodeb AI. Mae Captio AI yn cefnogi dros 60 iaith, yn cyfieithu mewn amser real, yn gadael i ti drawsgrifio ffeiliau rwyt ti wedi’u llwytho i fyny ac yn creu crynodebau AI, sy’n ei wneud yn offeryn hygyrchedd a chynhyrchiant llawer mwy cyflawn."
+      }
+    ]
+  },
+  "featurePages": {
+    "live-captions": {
+      "meta": {
+        "title": "Capsiynau byw ar iPhone i bobl fyddar a thrwm eu clyw",
+        "description": "Lleferydd i destun mewn amser real drwy feicroffon dy iPhone. Dilyna unrhyw sgwrs, mewn unrhyw iaith, ar unwaith. I bobl fyddar a thrwm eu clyw.",
+        "schemaDescription": "Capsiynau byw mewn amser real i bobl fyddar a thrwm eu clyw. Dros 60 iaith, oedi ymhell o dan eiliad, yn gweithio ym mhobman."
+      },
+      "howTitle": "Tri thap. Y sgwrs gyfan.",
+      "steps": [
+        {
+          "title": "Dechrau recordio",
+          "desc": "Pwysa’r botwm recordio. Mae Captio AI yn dechrau gwrando ar unwaith."
+        },
+        {
+          "title": "Gwylio’r geiriau’n ymddangos",
+          "desc": "Mae’r capsiynau’n ymddangos fesul gair tra bod y person yn dal i siarad."
+        },
+        {
+          "title": "Ei gadw",
+          "desc": "Cadwa’r trawsgrifiad a’r recordiad sain ar gyfer nes ymlaen."
+        }
+      ],
+      "featuresTitle": "Wedi’i adeiladu ar gyfer sgyrsiau go iawn",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Geiriau sy’n cyfateb i’r hyn a ddywedwyd",
+          "description": "Mae Captio AI yn dal yr hyn ddywedodd rhywun mewn gwirionedd, nid aralleiriad bras. Felly gelli di ymddiried yn y trawsgrifiad pan fo’n bwysig: gyda’r meddyg, mewn cyfweliad, mewn cyfarfod."
+        },
+        {
+          "title": "Dim oedi",
+          "description": "Mae’r oedi ymhell o dan eiliad. Mae’r capsiynau’n ymddangos fesul gair tra bod y person yn dal i siarad, felly rwyt ti’n darllen yr hyn maen nhw’n ei ddweud yr un eiliad ag mae pawb arall yn ei glywed."
+        },
+        {
+          "title": "Gwybod pwy sy’n siarad",
+          "description": "Mewn grwpiau a chyfarfodydd, mae Captio AI yn labelu pob siaradwr ar wahân, felly rwyt ti bob amser yn gwybod pwy ddywedodd beth, heb wylio wynebau na dilyn symudiadau gwefusau."
+        },
+        {
+          "title": "60+ iaith",
+          "description": "Dilyna sgwrs yn Ffrangeg, Japaneeg neu Arabeg yn union fel rwyt ti’n dilyn un yn Gymraeg. Dim newid moddau. Dydy colli clyw byth yn golygu rhwystr iaith hefyd."
+        },
+        {
+          "title": "Ymdopi ag ieithoedd sy’n cymysgu yng nghanol brawddeg",
+          "description": "Pan fydd pobl yn newid iaith yng nghanol sgwrs, mae Captio AI yn cadw i fyny. Dim bwlch yn y capsiynau, dim modd i’w newid."
+        },
+        {
+          "title": "Dysga dy eirfa iddo",
+          "description": "Ychwanega enwau, termau meddygol neu eiriau arbenigol rwyt ti’n eu clywed yn aml. Mae Captio AI yn defnyddio dy restr o eiriau i greu capsiynau mwy cywir o dy sgyrsiau go iawn."
+        },
+        {
+          "title": "Ychwanega awgrym iaith",
+          "description": "Dywed wrth Captio AI pa iaith i’w disgwyl ac mae’n dechrau’n barod o’r gair cyntaf. Defnyddiol pan nad yw’r iaith lafar yn amlwg o’r cyd-destun."
+        },
+        {
+          "title": "Ail-drawsgrifio wedyn er mwyn cywirdeb",
+          "description": "Rho unrhyw recordiad drwy’r broses eto wedyn i gael trawsgrifiad glanach. Defnyddiol ar gyfer darlithoedd, apwyntiadau ac unrhyw sgwrs sy’n werth ei hadolygu."
+        },
+        {
+          "title": "Darllen yn dy ffordd di",
+          "description": "Addasa faint y testun, lliw’r cefndir a’r cyferbyniad nes bod y capsiynau’n hawdd eu darllen ar gip: y ffôn yn dy law, yn fflat ar fwrdd neu wedi’i bwyso ar ddesg."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Dim sain ar ein gweinyddion",
+          "description": "Mae dy sain yn cael ei throi’n destun mewn amser real ac ni chaiff ei storio byth ar ein gweinyddion. Mae’r recordiadau rwyt ti’n eu cadw yn aros ar dy ffôn, ac mae eu trawsgrifiadau’n cysoni â dy gyfrif dy hun yn unig."
+        },
+        {
+          "title": "Nid cynnyrch",
+          "description": "Dydy dy sgyrsiau ddim yn rhywbeth mae Captio AI yn ei werthu, yn ei rannu nac yn gwneud arian ohono, i neb, am unrhyw reswm."
+        },
+        {
+          "title": "Ddim yn cael ei ddefnyddio i hyfforddi",
+          "description": "Fydd yr hyn rwyt ti’n ei ddweud mewn apwyntiad meddyg neu gyfweliad swydd byth yn cyrraedd set ddata hyfforddi. Nid ein un ni. Nid un neb arall."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Sut mae Captio AI yn wahanol i gapsiynau byw Apple?",
+          "a": "Mae capsiynau byw Apple yn cefnogi llai o ieithoedd, does dim cyfieithu, a dydyn nhw ddim yn cynnwys Trawsgrifio Sain na Chrynodeb AI. Mae Captio AI yn cefnogi dros 60 iaith, yn cyfieithu mewn amser real, yn gadael i ti drawsgrifio ffeiliau rwyt ti wedi’u llwytho i fyny ac yn creu crynodebau AI. Mae hefyd yn gadael i ti addasu maint y testun, y lliwiau a’r cyferbyniad i weddu i’r ffordd rwyt ti’n darllen orau."
+        },
+        {
+          "q": "Pa mor gywir yw’r capsiynau byw?",
+          "a": "Mae’r cywirdeb yn uchel mewn sgyrsiau arferol. Mae Captio AI wedi’i adeiladu ar gyfer lleferydd go iawn, nid dim ond sain lân mewn stiwdio, felly mae’n ymdopi â phobl sy’n siarad yn gyflym, acenion rhanbarthol, sŵn cefndir a brawddegau sy’n cymysgu ieithoedd. Gelli di hefyd ychwanegu dy eirfa dy hun (enwau, termau meddygol, geiriau arbenigol) i wella’r cywirdeb yn dy sgyrsiau di."
+        },
+        {
+          "q": "Pa mor gyflym mae’r capsiynau’n ymddangos?",
+          "a": "Fesul gair, tra bod y person yn dal i siarad. Mae’r oedi ymhell o dan eiliad, bron mewn amser real. Rwyt ti’n darllen yr hyn mae rhywun yn ei ddweud yr un eiliad ag mae pawb arall yn ei glywed, nid ar ôl iddyn nhw orffen y frawddeg."
+        },
+        {
+          "q": "Ydy Capsiynau Byw yn gweithio mewn llefydd swnllyd?",
+          "a": "Ydy. Mae Captio AI wedi’i gynllunio ar gyfer llefydd go iawn: bwytai, strydoedd, ystafelloedd aros, trafnidiaeth gyhoeddus. Pwyntia’r meicroffon at y siaradwr ac mae’r capsiynau’n ymddangos er gwaethaf sŵn cefndir."
+        },
+        {
+          "q": "Pa ieithoedd mae Capsiynau Byw yn eu cefnogi?",
+          "a": "Dros 60 iaith, gan gynnwys Saesneg, Sbaeneg, Ffrangeg, Almaeneg, Mandarin, Arabeg, Hindi, Japaneeg, Coreeg, Portiwgaleg, Rwseg a llawer mwy. Mae acenion a thafodieithoedd rhanbarthol yn cael eu cefnogi ym mhob un o’r prif ieithoedd."
+        },
+        {
+          "q": "Ydy’n gweithio gydag acenion a thafodieithoedd?",
+          "a": "Ydy. Mae Captio AI yn ymdopi ag ystod eang o acenion rhanbarthol, nid dim ond yr iaith safonol sydd mewn gwerslyfrau. Mae Saesneg Awstralia, Sbaeneg America Ladin, Almaeneg y Swistir, Ffrangeg Québec a llawer mwy yn cael eu cefnogi."
+        },
+        {
+          "q": "Alla i gadw fy nghapsiynau?",
+          "a": "Gelli. Gelli di gadw trawsgrifiadau a recordiadau sain ar ôl sesiwn a’u hadolygu wedyn. Gelli di hefyd ail-drawsgrifio recordiad sydd wedi’i gadw i gael trawsgrifiad glanach a mwy cywir."
+        },
+        {
+          "q": "Oes angen cysylltiad â’r rhyngrwyd arna i?",
+          "a": "Oes. Mae Capsiynau Byw angen cysylltiad â’r rhyngrwyd i brosesu lleferydd mewn amser real. Does dim modd creu capsiynau all-lein ar hyn o bryd."
+        }
+      ]
+    },
+    "live-translator": {
+      "meta": {
+        "title": "Cyfieithydd Byw: cyfieithu lleferydd yn fyw ar iPhone",
+        "description": "Cyfieithu lleferydd mewn amser real ar dy iPhone. Mae’r person yn siarad ei iaith, tithau’n darllen yn dy iaith, ar unwaith. I bobl fyddar a thrwm eu clyw.",
+        "schemaDescription": "Cyfieithu lleferydd mewn amser real i bobl fyddar a thrwm eu clyw. Dros 60 iaith, pawb yn siarad ei iaith ei hun, a thithau’n darllen yn dy iaith di."
+      },
+      "howTitle": "Tri thap. Unrhyw iaith.",
+      "steps": [
+        {
+          "title": "Dewis y modd cyfieithu",
+          "desc": "Agora Captio AI a dewisa Cyfieithydd Byw."
+        },
+        {
+          "title": "Dewis yr iaith sydd orau gen ti",
+          "desc": "Dewisa’r iaith rwyt ti eisiau darllen ynddi."
+        },
+        {
+          "title": "Gweld y cyfieithiad mewn amser real",
+          "desc": "Mae Captio AI yn cyfieithu fesul gair."
+        }
+      ],
+      "featuresTitle": "Wedi’i adeiladu ar gyfer sgyrsiau go iawn",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Unrhyw iaith",
+          "description": "Ffrangeg, Japaneeg, Arabeg, Sbaeneg, Almaeneg, Mandarin: dros 60 iaith, i unrhyw gyfeiriad. Dydy colli clyw byth yn golygu rhwystr iaith hefyd."
+        },
+        {
+          "title": "Yn adnabod yr iaith lafar yn awtomatig",
+          "description": "Gad iaith y ffynhonnell ar awtomatig ac mae Captio AI yn ei hadnabod o’r geiriau cyntaf. Dim angen ei dewis â llaw cyn pob sgwrs."
+        },
+        {
+          "title": "Dim oedi",
+          "description": "Mae oedi’r cyfieithu ymhell o dan eiliad. Rwyt ti’n darllen yr hyn mae rhywun yn ei ddweud yr un eiliad ag mae pawb arall yn ei glywed, nid ar ôl iddyn nhw orffen y frawddeg."
+        },
+        {
+          "title": "Ychwanega awgrymiadau iaith",
+          "description": "Dywed wrth Captio AI pa iaith i’w disgwyl ac mae’n dechrau’n barod o’r gair cyntaf. Defnyddiol pan nad yw’r iaith lafar yn amlwg o’r cyd-destun."
+        },
+        {
+          "title": "Sawl iaith ar yr un pryd",
+          "description": "Pan fydd pobl yn newid iaith yng nghanol sgwrs, mae Captio AI yn cadw i fyny, gan gyfieithu pob un i dy iaith di heb i ti orfod gwneud dim."
+        },
+        {
+          "title": "Darllen yn dy ffordd di",
+          "description": "Addasa liw’r cefndir, lliw’r testun a maint y ffont fel bod y cyfieithiad yn hawdd ei ddarllen ar gip, boed y ffôn yn dy law neu’n fflat ar fwrdd."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Dim sain ar ein gweinyddion",
+          "description": "Mae dy sain yn cael ei throi’n destun mewn amser real ac ni chaiff ei storio byth ar ein gweinyddion. Mae’r recordiadau rwyt ti’n eu cadw yn aros ar dy ffôn, ac mae eu trawsgrifiadau’n cysoni â dy gyfrif dy hun yn unig."
+        },
+        {
+          "title": "Nid cynnyrch",
+          "description": "Dydy dy sgyrsiau ddim yn rhywbeth mae Captio AI yn ei werthu, yn ei rannu nac yn gwneud arian ohono, i neb, am unrhyw reswm."
+        },
+        {
+          "title": "Ddim yn cael ei ddefnyddio i hyfforddi",
+          "description": "Fydd yr hyn rwyt ti’n ei ddweud mewn apwyntiad meddyg neu gyfweliad swydd byth yn cyrraedd set ddata hyfforddi. Nid ein un ni. Nid un neb arall."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Sut mae Cyfieithydd Byw yn wahanol i’r nodwedd Capsiynau Byw?",
+          "a": "Mae Capsiynau Byw yn trawsgrifio lleferydd yn yr iaith wreiddiol sy’n cael ei siarad. Mae Cyfieithydd Byw yn cymryd y lleferydd hwnnw ac yn ei gyfieithu i’r iaith rwyt ti’n ei dewis mewn amser real. Os yw’r person arall yn siarad Ffrangeg a thithau’n darllen Cymraeg, Cyfieithydd Byw sydd ei angen arnat ti."
+        },
+        {
+          "q": "Pa mor gywir yw’r cyfieithiad?",
+          "a": "Mae’r cyfieithu’n gywir iawn ar gyfer parau iaith cyffredin mewn sgyrsiau bob dydd. Mae Captio AI yn ymdopi â lleferydd naturiol (pobl sy’n siarad yn gyflym, acenion, sŵn cefndir), nid dim ond sain lân mewn stiwdio. Ar gyfer parau iaith prin neu gynnwys technegol iawn, gall y cywirdeb amrywio."
+        },
+        {
+          "q": "Pa ieithoedd sy’n cael eu cefnogi?",
+          "a": "Dros 60 iaith, gan gynnwys Saesneg, Sbaeneg, Ffrangeg, Almaeneg, Mandarin, Arabeg, Hindi, Japaneeg, Coreeg, Portiwgaleg, Rwseg a llawer mwy. Gall iaith y ffynhonnell a’r iaith darged fod yn unrhyw un o’r ieithoedd sy’n cael eu cefnogi."
+        },
+        {
+          "q": "Pa mor gyflym mae’r cyfieithiad yn ymddangos?",
+          "a": "Mae’r oedi ymhell o dan eiliad. Rwyt ti’n darllen y cyfieithiad fesul gair tra bod y person yn dal i siarad: bron mewn amser real, nid ar ôl iddyn nhw orffen y frawddeg."
+        },
+        {
+          "q": "Ydy’n gweithio mewn apwyntiad gyda meddyg sy’n siarad iaith arall?",
+          "a": "Ydy. Dyma un o’r defnyddiau pwysicaf. Rho dy ffôn ar y ddesg, gosoda iaith y ffynhonnell i iaith y meddyg, a darllena bopeth mae’n ei ddweud yn dy iaith di mewn amser real. Gelli di hefyd gadw’r trawsgrifiad wedi’i gyfieithu i adolygu’r cyfarwyddiadau wedyn."
+        },
+        {
+          "q": "Ydy’n gweithio mewn llefydd swnllyd?",
+          "a": "Ydy. Mae Captio AI wedi’i adeiladu ar gyfer llefydd go iawn: ystafelloedd aros, bwytai, meysydd awyr. Pwyntia’r meicroffon at y siaradwr ac mae’r cyfieithiad yn ymddangos er gwaethaf y sŵn o gwmpas."
+        },
+        {
+          "q": "Alla i gadw’r trawsgrifiad wedi’i gyfieithu?",
+          "a": "Gelli. Ar ôl sesiwn gelli di gadw’r testun wedi’i gyfieithu a’i adolygu wedyn. Defnyddiol ar gyfer apwyntiadau meddygol, cyfarfodydd ac unrhyw sgwrs rwyt ti eisiau cofnod ohoni."
+        },
+        {
+          "q": "Oes angen cysylltiad â’r rhyngrwyd arna i?",
+          "a": "Oes. Mae Cyfieithydd Byw angen cysylltiad â’r rhyngrwyd i brosesu a chyfieithu lleferydd mewn amser real. Does dim modd cyfieithu all-lein ar hyn o bryd."
+        }
+      ]
+    },
+    "audio-transcription": {
+      "meta": {
+        "title": "Trawsgrifio Sain: sain a fideo i destun ar iPhone",
+        "description": "Llwytha unrhyw ffeil sain neu fideo i fyny a chael trawsgrifiad llawn. 60+ iaith, siaradwyr ar wahân, testun chwiliadwy. I bobl fyddar a thrwm eu clyw.",
+        "schemaDescription": "Llwytha unrhyw ffeil sain neu fideo i fyny a chael trawsgrifiad llawn. Dros 60 iaith, gwahanu siaradwyr, stampiau amser. I bobl fyddar a thrwm eu clyw."
+      },
+      "howTitle": "Llwytho. Darllen. Dyna ni.",
+      "steps": [
+        {
+          "title": "Dewis y math o ffeil",
+          "desc": "Dewisa a wyt ti’n llwytho ffeil sain neu ffeil fideo i fyny."
+        },
+        {
+          "title": "Dewis ffeil",
+          "desc": "Dewisa’r ffeil o dy ffôn. Mae Captio AI yn dechrau trawsgrifio ar unwaith."
+        },
+        {
+          "title": "Gweld y trawsgrifiad",
+          "desc": "Darllena’r trawsgrifiad llawn, wedi’i drefnu fesul siaradwr, gyda stampiau amser."
+        }
+      ],
+      "featuresTitle": "Wedi’i adeiladu ar gyfer recordiadau go iawn",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Unrhyw fformat",
+          "description": "MP3, MP4, M4A, WAV a mwy. Darlithoedd, cyfarfodydd, negeseuon llais, podlediadau, cyfweliadau, recordiadau ffôn: os oes lleferydd ynddo, gall Captio AI ei drawsgrifio."
+        },
+        {
+          "title": "Y cywirdeb uchaf",
+          "description": "Mae Captio AI wedi’i adeiladu ar gyfer sain go iawn, nid dim ond ffeiliau glân o stiwdio. Sain galwadau ffôn, recordiadau mewn darlithfa, llefydd swnllyd: mae’n ymdopi â’r cyfan."
+        },
+        {
+          "title": "Unrhyw iaith",
+          "description": "Llwytha recordiad i fyny yn Ffrangeg, Japaneeg, Arabeg neu 57 iaith arall. Mae Captio AI yn adnabod yr iaith ac yn trawsgrifio’r recordiad yn gywir."
+        },
+        {
+          "title": "Sawl iaith",
+          "description": "Pan fydd siaradwyr yn newid iaith yng nghanol recordiad, mae Captio AI yn cadw i fyny. Mae’r trawsgrifiad yn cynnwys pob iaith a gafodd ei siarad, heb fylchau."
+        },
+        {
+          "title": "Stampiau amser",
+          "description": "Mae stamp amser ar bob llinell yn y trawsgrifiad, felly gelli di neidio i unrhyw foment yn y recordiad a dod o hyd i’r union beth a ddywedwyd, a phryd."
+        },
+        {
+          "title": "Allforio a rhannu",
+          "description": "Gelli di gopïo’r trawsgrifiad cyfan, ei rannu neu ei gadw. Mae dy recordiadau a dy drawsgrifiadau ar gael pryd bynnag mae eu hangen arnat ti."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Dim ffeiliau ar ein gweinyddion",
+          "description": "Dim ond i gael ei thrawsgrifio y caiff dy ffeil ei hanfon, ac yna caiff ei thaflu yno. Ni chaiff ei storio byth ar ein gweinyddion. Mae’r recordiad yn aros ar dy ffôn, ac mae ei drawsgrifiad yn cysoni â dy gyfrif dy hun yn unig."
+        },
+        {
+          "title": "Nid cynnyrch",
+          "description": "Dydy dy recordiadau ddim yn rhywbeth mae Captio AI yn ei werthu, yn ei rannu nac yn gwneud arian ohono, i neb, am unrhyw reswm."
+        },
+        {
+          "title": "Ddim yn cael ei ddefnyddio i hyfforddi",
+          "description": "Fydd yr hyn rwyt ti’n ei lwytho i fyny (apwyntiad meddyg, cyfarfod, cyfweliad) byth yn cyrraedd set ddata hyfforddi. Nid ein un ni. Nid un neb arall."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Sut mae Trawsgrifio Sain yn wahanol i’r nodwedd Capsiynau Byw?",
+          "a": "Mae Capsiynau Byw yn gweithio mewn amser real tra bod rhywun yn siarad. Mae Trawsgrifio Sain ar gyfer recordiadau: rwyt ti’n llwytho ffeil sain neu fideo i fyny ac yn cael trawsgrifiad ysgrifenedig llawn. Mae’n berffaith ar gyfer adolygu darlithoedd rwyt ti wedi’u recordio, apwyntiadau meddyg, cyfweliadau neu unrhyw gynnwys y byddai’n well gen ti ei ddarllen na gwrando arno."
+        },
+        {
+          "q": "Pa fformatau ffeil mae Trawsgrifio Sain yn eu cefnogi?",
+          "a": "Mae Captio AI yn derbyn fformatau sain a fideo cyffredin, gan gynnwys MP3, MP4, M4A, WAV a mwy. Os gwnest ti ei recordio ar dy ffôn neu ei lawrlwytho o blatfform fideo, bydd yn gweithio."
+        },
+        {
+          "q": "Pa mor gywir yw’r trawsgrifio?",
+          "a": "Mae’r cywirdeb yn uchel ar gyfer recordiadau clir mewn ieithoedd sy’n cael eu cefnogi. Mae Captio AI yn ymdopi â sain go iawn (galwadau ffôn, recordiadau mewn darlithfa, llefydd swnllyd), nid dim ond ffeiliau o ansawdd stiwdio. Gelli di hefyd ail-drawsgrifio ffeil i gael ail gynnig os oes angen."
+        },
+        {
+          "q": "Pa ieithoedd sy’n cael eu cefnogi?",
+          "a": "Dros 60 iaith, gan gynnwys Saesneg, Sbaeneg, Ffrangeg, Almaeneg, Mandarin, Arabeg, Hindi, Japaneeg, Coreeg, Portiwgaleg, Rwseg a llawer mwy. Mae Captio AI yn adnabod iaith y ffeil yn awtomatig."
+        },
+        {
+          "q": "Ydy’n gwahanu siaradwyr?",
+          "a": "Ydy. Mae Captio AI yn labelu pob siaradwr ar wahân yn y trawsgrifiad, felly gelli di ddilyn pwy ddywedodd beth. Defnyddiol ar gyfer cyfarfodydd, cyfweliadau, apwyntiadau meddyg ac unrhyw recordiad gyda sawl person."
+        },
+        {
+          "q": "Faint o amser mae trawsgrifio’n ei gymryd?",
+          "a": "Mae trawsgrifio’n gyflym. Fel arfer mae recordiad awr o hyd yn cymryd ychydig funudau. Mae’r amser yn dibynnu ar hyd y ffeil ac ansawdd y sain."
+        },
+        {
+          "q": "Ydy fy sain yn cael ei storio ar ôl trawsgrifio?",
+          "a": "Nac ydy, nid ar weinyddion Captio AI. Mae’r ffeil yn cael ei hanfon yn ddiogel i wasanaeth adnabod lleferydd dim ond i gael ei thrawsgrifio, ac mae’n cael ei thaflu yno cyn gynted ag y bydd y trawsgrifiad yn barod. Mae’r recordiad yn aros ar dy ffôn, ac mae ei drawsgrifiad hefyd yn cael ei gadw yn dy gyfrif dy hun fel y gelli di ei agor ar ddyfais arall. Dydy dy recordiadau byth yn cael eu gwerthu na’u defnyddio i hyfforddi modelau AI."
+        },
+        {
+          "q": "Alla i drawsgrifio ffeil fideo?",
+          "a": "Gelli. Llwytha’r ffeil fideo i fyny’n uniongyrchol ac mae Captio AI yn tynnu’r sain allan ac yn ei thrawsgrifio. Does dim angen trosi’r ffeil yn gyntaf."
+        }
+      ]
+    },
+    "ai-summary": {
+      "meta": {
+        "title": "Crynodeb AI: crynodebau trefnus o unrhyw drawsgrifiad",
+        "description": "Troi unrhyw drawsgrifiad yn grynodeb trefnus. Pwyntiau allweddol, penderfyniadau a thasgau wedi’u tynnu allan yn awtomatig. I bobl fyddar a thrwm eu clyw.",
+        "schemaDescription": "Troi unrhyw drawsgrifiad yn grynodeb trefnus. Pwyntiau allweddol, penderfyniadau, tasgau a dyfyniadau siaradwyr wedi’u tynnu allan yn awtomatig."
+      },
+      "howTitle": "Trawsgrifiad i mewn. Crynodeb allan.",
+      "steps": [
+        {
+          "title": "Agor unrhyw drawsgrifiad",
+          "desc": "Dewisa unrhyw drawsgrifiad o’r Capsiynau Byw neu’r Trawsgrifio Sain."
+        },
+        {
+          "title": "Creu’r crynodeb",
+          "desc": "Tapia Crynodeb AI. Mae Captio AI yn prosesu’r trawsgrifiad yn awtomatig."
+        },
+        {
+          "title": "Darllen y crynodeb",
+          "desc": "Mae dy grynodeb yn barod, wedi’i drefnu’n adrannau, i’w ddarllen neu ei rannu."
+        }
+      ],
+      "featuresTitle": "Wedi’i adeiladu ar gyfer trawsgrifiadau hir",
+      "featuresSubtitle": "Cael crynodeb, rhestr tasgau, dyfyniadau siaradwyr, nodiadau a mwy.",
+      "subfeatures": [
+        {
+          "title": "Pwyntiau allweddol yn awtomatig",
+          "description": "Mae Captio AI yn darllen y trawsgrifiad cyfan ac yn tynnu allan yr hyn oedd yn bwysig go iawn: y prif bwyntiau, y penderfyniadau a wnaed a’r casgliadau y daethpwyd iddyn nhw."
+        },
+        {
+          "title": "Rhestr o dasgau i’w gwneud",
+          "description": "Mae tasgau a chamau dilynol yn cael eu nodi a’u rhestru ar wahân, felly does dim yn mynd ar goll ar ôl cyfarfod, apwyntiad neu ddarlith."
+        },
+        {
+          "title": "Wedi’i drefnu’n adrannau",
+          "description": "Mae’r crynodeb yn drefnus, nid un bloc hir o destun. Mae gan bob pwnc ei adran ei hun, felly gelli di sganio a dod o hyd i’r hyn sydd ei angen arnat ti."
+        },
+        {
+          "title": "Yn gweithio ar unrhyw drawsgrifiad Captio AI",
+          "description": "Defnyddia Crynodeb AI ar unrhyw drawsgrifiad a greaist ti, o’r Capsiynau Byw neu’r Trawsgrifio Sain. Dim camau ychwanegol, dim copïo a gludo."
+        },
+        {
+          "title": "Unrhyw iaith",
+          "description": "Crynhoi trawsgrifiadau mewn dros 60 iaith. Mae Captio AI yn darllen y trawsgrifiad yn yr iaith wreiddiol ac yn creu crynodeb y gelli di ei ddarllen."
+        },
+        {
+          "title": "Cadw a rhannu",
+          "description": "Gelli di gadw’r crynodeb gyda’r trawsgrifiad, ei gopïo neu ei rannu. Defnyddiol ar ôl apwyntiadau meddyg, cyfarfodydd a darlithoedd."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Wedi’i gadw yn dy gyfrif yn unig",
+          "description": "Mae dy grynodeb yn cael ei gadw gyda’r recordiad, ar dy ffôn ac yn dy gyfrif dy hun, felly mae ar gael ar unrhyw ddyfais rwyt ti’n mewngofnodi arni. Os byddi di’n ei ddileu, bydd wedi mynd ym mhobman."
+        },
+        {
+          "title": "Nid cynnyrch",
+          "description": "Dydy dy sgyrsiau ddim yn rhywbeth mae Captio AI yn ei werthu, yn ei rannu nac yn gwneud arian ohono, i neb, am unrhyw reswm."
+        },
+        {
+          "title": "Ddim yn cael ei ddefnyddio i hyfforddi",
+          "description": "Fydd yr hyn rwyt ti’n ei grynhoi (apwyntiad meddyg, cyfarfod, cyfweliad) byth yn cyrraedd set ddata hyfforddi. Nid ein un ni. Nid un neb arall."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Beth mae Crynodeb AI yn ei wneud?",
+          "a": "Mae Crynodeb AI yn cymryd unrhyw drawsgrifiad ac yn tynnu’r wybodaeth allweddol allan (prif bwyntiau, penderfyniadau, tasgau a manylion pwysig) i mewn i grynodeb trefnus. Mae’n arbed amser pan fydd gen ti drawsgrifiad hir a bod angen y prif bethau arnat ti’n gyflym."
+        },
+        {
+          "q": "Pa drawsgrifiadau alla i eu crynhoi?",
+          "a": "Unrhyw drawsgrifiad sydd wedi’i greu gyda Captio AI, o’r Capsiynau Byw neu’r Trawsgrifio Sain. Rwyt ti’n defnyddio Crynodeb AI yn syth ar y trawsgrifiad, heb gamau ychwanegol."
+        },
+        {
+          "q": "Sut mae Crynodeb AI yn wahanol i ddarllen y trawsgrifiad?",
+          "a": "Gall trawsgrifiad llawn o gyfarfod awr o hyd fod yn filoedd o eiriau. Mae Crynodeb AI yn rhoi’r pwyntiau allweddol, y penderfyniadau a’r tasgau i ti mewn ffracsiwn o’r amser darllen, wedi’u trefnu fesul pwnc, nid yn ôl y drefn y cafodd pethau eu dweud."
+        },
+        {
+          "q": "Ydy’n gweithio ar gyfer apwyntiadau meddygol?",
+          "a": "Ydy. Mae apwyntiad gyda’r meddyg yn rhoi llawer o wybodaeth yn gyflym. Mae Crynodeb AI yn tynnu’r diagnosis, y cyfarwyddiadau a’r camau nesaf allan i restr glir y gelli di ei hadolygu a chyfeirio’n ôl ati."
+        },
+        {
+          "q": "Pa ieithoedd sy’n cael eu cefnogi?",
+          "a": "Mae Crynodeb AI yn gweithio ar drawsgrifiadau mewn dros 60 iaith. Mae’r crynodeb yn cael ei greu yn yr un iaith â’r trawsgrifiad."
+        },
+        {
+          "q": "Alla i gadw neu rannu’r crynodeb?",
+          "a": "Gelli. Gelli di gadw’r crynodeb gyda’r trawsgrifiad gwreiddiol, ei gopïo neu ei rannu. Defnyddiol ar gyfer anfon crynodeb o gyfarfod neu gadw cofnod o apwyntiad meddygol."
+        },
+        {
+          "q": "Ydy Crynodeb AI yn storio fy nhrawsgrifiad neu fy sain?",
+          "a": "Mae dy drawsgrifiad yn cael ei anfon yn ddiogel i wasanaeth AI dim ond i ysgrifennu’r crynodeb, ac nid yw byth yn cael ei ddefnyddio i hyfforddi modelau AI. Mae’r crynodeb yn cael ei gadw gyda’r recordiad, ar dy ffôn ac yn dy gyfrif dy hun, nes i ti ei ddileu. Dydy sain byth yn cael ei storio ar weinyddion Captio AI, a dydy dy sgyrsiau byth yn cael eu gwerthu."
+        }
+      ]
+    }
+  }
+}

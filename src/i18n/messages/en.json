@@ -1,0 +1,638 @@
+{
+  "header": {
+    "features": "Features",
+    "useCases": "Use Cases",
+    "languages": "Languages",
+    "compare": "Compare",
+    "blog": "Blog",
+    "download": "Download",
+    "toggleMenu": "Toggle menu",
+    "chooseLanguage": "Choose a language"
+  },
+  "footer": {
+    "tagline": "Live captions and productivity tool for deaf and HoH people.",
+    "productHuntTagline": "Live Captions & Transcription for Deaf and Hard of Hearing",
+    "productHunt": "Check it out on Product Hunt →",
+    "featuredOn": "Featured on",
+    "features": "Features",
+    "useCases": "Use Cases",
+    "blog": "Blog",
+    "allArticles": "All articles",
+    "compare": "Compare",
+    "compareApps": "Compare caption apps",
+    "company": "Company",
+    "organizations": "For organizations",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "store": {
+    "appleOverline": "Download on the",
+    "googleOverline": "Get it on",
+    "appleQrAlt": "QR code to download Captio AI on the App Store for iPhone",
+    "googleQrAlt": "QR code to download Captio AI on Google Play for Android",
+    "downloadForFree": "Download for free"
+  },
+  "common": {
+    "home": "Home",
+    "back": "Back",
+    "goBack": "Go back",
+    "explore": "Explore",
+    "featuresLabel": "Features",
+    "howItWorks": "How it works",
+    "privacyLabel": "Privacy",
+    "privacyTitle": "What you hear stays with you.",
+    "privacyImageAlt": "Private by default — your audio is never stored on our servers, never sold, never used for training",
+    "faqLabel": "FAQ",
+    "faqTitle": "Frequently asked questions",
+    "getStarted": "Get started",
+    "freeToStart": "Captio AI is free to start",
+    "allFeatures": "Captio AI includes Live Captions, Live Translator, Audio Transcription, and AI Summary.",
+    "featureNames": {
+      "live-captions": "Live Captions",
+      "live-translator": "Live Translator",
+      "audio-transcription": "Audio Transcription",
+      "ai-summary": "AI Summary"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Captio AI — Live Captions & Transcription for Deaf and Hard of Hearing",
+      "description": "Captio AI gives deaf and hard of hearing people real-time live captions, live translation, audio transcription, and AI summaries — right on their phone. 60+ languages.",
+      "ogDescription": "Real-time live captions, live translation, audio transcription, and AI summaries for deaf and hard of hearing people. 60+ languages. iPhone and Android.",
+      "schemaDescription": "Real-time live captions, live translation, audio transcription, and AI summaries for deaf and hard of hearing people. 60+ languages."
+    },
+    "eyebrow": "🦻 Accessibility + 💻 Productivity App",
+    "heroTitle": "[Live captions] and [productivity tool] for deaf and HoH people.",
+    "heroSubtitle": "Follow any conversation, meeting or lecture. In any language.",
+    "mockupAlt": "Captio AI app showing live captions and translation",
+    "featuresTitle": "Everything you need to follow any conversation",
+    "featuresSubtitle": "Four tools built specifically for deaf and hard of hearing people.",
+    "features": {
+      "live-captions": {
+        "title": "Real-Time Speech to Text",
+        "bullets": [
+          "Word by word, in real time",
+          "Works in noisy places",
+          "Any accent, any pace",
+          "No lip reading needed"
+        ]
+      },
+      "live-translator": {
+        "title": "Translate Any Language in Real Time",
+        "bullets": [
+          "Translates as they speak",
+          "Each person speaks their own language",
+          "Handles mid-sentence switches",
+          "60+ languages"
+        ]
+      },
+      "audio-transcription": {
+        "title": "Transcribe Any Audio or Video File",
+        "bullets": [
+          "Any audio or video file",
+          "Organized by speaker",
+          "60+ languages",
+          "Read, copy, search, share"
+        ]
+      },
+      "ai-summary": {
+        "title": "Turn Transcripts into Structured Summaries",
+        "bullets": [
+          "Key points and decisions",
+          "Action items extracted",
+          "Works on any transcript",
+          "Organized into sections"
+        ]
+      }
+    },
+    "useCasesLabel": "Use Cases",
+    "useCasesTitle": "Works in every situation",
+    "useCasesSubtitle": "Designed for the real moments that matter — not just quiet controlled environments.",
+    "useCases": {
+      "everyday-conversations": {
+        "label": "Everyday Conversations",
+        "description": "Most conversations happen fast, at normal pace, without warning. Captio AI captions every word as it's spoken, so you can follow without asking anyone to repeat themselves."
+      },
+      "deaf-hoh-communication": {
+        "label": "Communicating with Deaf & HoH",
+        "description": "Hearing people often don't know how to adapt when talking with deaf or hard of hearing friends. Captio AI turns their speech into real-time captions, so the conversation can happen naturally on both sides."
+      },
+      "meetings": {
+        "label": "Meetings",
+        "description": "In meetings, decisions happen fast and people talk over each other. Captio AI captions every speaker as they talk, so you never miss a decision or a question directed at you."
+      },
+      "lectures": {
+        "label": "Lectures",
+        "description": "Lecturers speak quickly, cover complex material, and rarely repeat themselves. Captio AI gives you a live transcript of everything said, so you can follow the content instead of straining to hear it."
+      },
+      "doctor-appointments": {
+        "label": "Doctor Appointments",
+        "description": "Doctors speak quickly and use clinical language that's easy to mishear. Captio AI shows you everything they say in real time, so you can follow your diagnosis and ask the right questions."
+      },
+      "job-interviews": {
+        "label": "Job Interviews",
+        "description": "Missing a question in an interview means answering wrong or asking for a repeat. Captio AI shows you every word the interviewer says, so you can focus entirely on your answer."
+      },
+      "phone-video-calls": {
+        "label": "Phone & Video Calls",
+        "description": "Phone and video calls are harder to follow than in-person conversations. No lip reading, often poor audio quality. Captio AI captions whoever is speaking in real time, so you do not need to ask for repeats."
+      },
+      "group-settings": {
+        "label": "Group Settings",
+        "description": "In groups, multiple people talk at once and the conversation moves fast. Captio AI keeps up with whoever is speaking, so you can follow without losing where the conversation is going."
+      },
+      "restaurants": {
+        "label": "Restaurants & Cafes",
+        "description": "Background noise makes speech hard to follow even for people without hearing loss. Captio AI focuses on whoever is speaking to you, so you can have a real conversation through the noise."
+      },
+      "traveling": {
+        "label": "Traveling",
+        "description": "In airports, hotels, and unfamiliar cities there is no margin for mishearing. Captio AI captions speech in 60+ languages, so you can navigate confidently wherever you go."
+      },
+      "conferences": {
+        "label": "Conferences & Events",
+        "description": "Speakers are far away, acoustics are unpredictable, and you cannot ask for a repeat. Captio AI gives you a live transcript of every speaker, so you can follow the full event from any seat."
+      },
+      "tv-media": {
+        "label": "TV & Media",
+        "description": "Built-in subtitles are often wrong, delayed, or missing entirely. Captio AI captions whatever is playing in real time, so you are not dependent on whether the content has subtitles."
+      }
+    },
+    "languagesLabel": "Languages",
+    "languagesTitle": "Captio AI supports 60+ languages",
+    "privacyCards": [
+      {
+        "title": "Audio stays off our servers",
+        "description": "Your audio is turned into text in real time and never stored on our servers. Recordings you save stay on your phone, and their transcripts sync only to your own account."
+      },
+      {
+        "title": "Not a product",
+        "description": "Your conversations are not something Captio AI sells, shares, or monetizes — to anyone, for any reason."
+      },
+      {
+        "title": "Not used to train anything",
+        "description": "What you say in a doctor's appointment or a job interview never ends up in a training dataset. Not ours. Not anyone else's."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Who is Captio AI designed for?",
+        "a": "Captio AI is built primarily for deaf and hard of hearing people who need to follow spoken conversations in real time. It's also widely used by people with auditory processing disorder, people in noisy environments, language learners, and anyone who finds reading faster or easier than listening."
+      },
+      {
+        "q": "How accurate are the live captions?",
+        "a": "Captio AI uses advanced speech recognition built specifically for accuracy and low latency. Accuracy depends on audio clarity, accent, and background noise — but in typical conversation conditions, accuracy is very high, comparable to professional captioning services."
+      },
+      {
+        "q": "Which languages does Captio AI support?",
+        "a": "Captio AI supports 60+ languages including English, Spanish, French, German, Mandarin, Arabic, Hindi, Japanese, Korean, Portuguese, Russian, and many more. All languages are available for Live Captions and Live Translator. See the full list on this page."
+      },
+      {
+        "q": "Does Captio AI work with different accents and dialects?",
+        "a": "Yes. Captio AI handles a wide range of regional accents and dialects — not just standard textbook speech. It supports Australian English, Latin American Spanish, Swiss German, Brazilian Portuguese, Québécois French, and many others."
+      },
+      {
+        "q": "What is the difference between Live Captions and Live Translator?",
+        "a": "Live Captions transcribes speech in the original spoken language. Live Translator takes that speech and translates it into your chosen language in real time — ideal when the speaker and the reader speak different languages, such as a foreign doctor or a business meeting in another language."
+      },
+      {
+        "q": "Does Captio AI store or share my audio?",
+        "a": "Your audio is never stored on Captio AI's servers, and it is never sold or shared for advertising. It is sent securely to a speech-recognition service only to turn it into text, then deleted there. Recordings you choose to save stay on your phone; their transcripts and summaries are also kept in your own account so you can open them on another device, and deleting a recording removes it everywhere. Your conversations are never used to train AI models — ours or anyone else's."
+      },
+      {
+        "q": "Does Captio AI work without an internet connection?",
+        "a": "Live Captions and Live Translator require an internet connection to process speech in real time. Audio Transcription (for uploaded files) also requires connectivity. Offline captioning is not currently supported."
+      },
+      {
+        "q": "What phone or iPad do I need?",
+        "a": "Captio AI runs on iPhone and iPad with iOS 16 or later, and on Android phones. It is optimized for phone and works best when the microphone has a clear line to the speaker."
+      },
+      {
+        "q": "Can I use Captio AI at a doctor's appointment?",
+        "a": "Yes — doctor appointments are one of the most important use cases. You can place your phone on the desk or hold it toward the doctor and read everything they say in real time. Medical terminology is handled accurately, making Captio AI a practical accessibility tool in healthcare settings."
+      },
+      {
+        "q": "Can I use Captio AI in meetings and lectures?",
+        "a": "Yes. Captio AI works in any setting where speech occurs — work meetings, university lectures, team standups, conferences, and video calls. Point the microphone toward the speaker and captions appear instantly."
+      },
+      {
+        "q": "What is Audio Transcription and how is it different from Live Captions?",
+        "a": "Live Captions work in real time while someone is speaking. Audio Transcription is for recordings — you upload an audio or video file and get a full written transcript. It's ideal for reviewing lectures you recorded, interviews, podcasts, or any content you want to read rather than listen to."
+      },
+      {
+        "q": "What does the AI Summary feature do?",
+        "a": "AI Summary takes any transcript and extracts the key information — main points, decisions made, action items, and important details — into a structured summary. It saves time when you have a long transcript from a meeting or lecture and need the highlights quickly."
+      },
+      {
+        "q": "Is Captio AI free to use?",
+        "a": "Captio AI has a free tier that lets you get started without any payment. A Plus plan is available for users who need unlimited access. Current Plus pricing for your country is shown on the App Store listing."
+      },
+      {
+        "q": "How is Captio AI different from Apple's built-in Live Captions?",
+        "a": "Apple's Live Captions are built into iOS but support fewer languages, offer no translation, and don't include Audio Transcription or AI Summary. Captio AI supports 60+ languages, provides real-time translation, lets you transcribe uploaded files, and generates AI summaries — making it a far more complete accessibility and productivity tool."
+      }
+    ]
+  },
+  "featurePages": {
+    "live-captions": {
+      "meta": {
+        "title": "Live Captions for Deaf and Hard of Hearing on iPhone",
+        "description": "Real-time speech to text via your iPhone microphone. Follow any conversation, in any language, instantly. Built for deaf and hard of hearing people.",
+        "schemaDescription": "Real-time live captions for deaf and hard of hearing people. 60+ languages, well under a second latency, works anywhere."
+      },
+      "howTitle": "Three taps. Full conversation.",
+      "steps": [
+        {
+          "title": "Start recording",
+          "desc": "Press the record button. Captio AI starts listening immediately."
+        },
+        {
+          "title": "See words appear",
+          "desc": "Captions show up word by word while the person is still speaking."
+        },
+        {
+          "title": "Save it",
+          "desc": "Keep the transcription and audio recording for later."
+        }
+      ],
+      "featuresTitle": "Built for real conversations",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Words that match what was said",
+          "description": "Captio AI captures what someone actually said, not a rough paraphrase. So you can trust the transcript when it matters — at the doctor, in an interview, in a meeting."
+        },
+        {
+          "title": "Zero latency",
+          "description": "Latency is well under a second. Captions appear word by word while the person is still speaking, so you read what they say at the same moment everyone else hears it."
+        },
+        {
+          "title": "Know who is talking",
+          "description": "In groups and meetings, Captio AI labels each speaker separately so you always know who said what, without watching faces or tracking lip movements."
+        },
+        {
+          "title": "60+ languages",
+          "description": "Follow a conversation in French, Japanese, or Arabic the same way you follow one in English. No switching modes. Hearing loss is never also a language barrier."
+        },
+        {
+          "title": "Handles languages that mix mid-sentence",
+          "description": "When people switch languages mid-conversation, Captio AI keeps up. No gap in the captions, no mode to switch."
+        },
+        {
+          "title": "Teach it your vocabulary",
+          "description": "Add names, medical terms, or specialist words you hear often. Captio AI uses your vocabulary list to caption your actual conversations more accurately."
+        },
+        {
+          "title": "Add a language hint",
+          "description": "Tell Captio AI which language to expect and it starts tuned in from the first word — useful when the spoken language is not obvious from context."
+        },
+        {
+          "title": "Retranscribe later for more accuracy",
+          "description": "Run any recording through again after the fact for a cleaner transcript. Useful for lectures, appointments, and any conversation worth reviewing."
+        },
+        {
+          "title": "Read it your way",
+          "description": "Adjust text size, background color, and contrast until captions are easy to read at a glance — phone in hand, flat on a table, or propped on a desk."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Audio stays off our servers",
+          "description": "Your audio is turned into text in real time and never stored on our servers. Recordings you save stay on your phone, and their transcripts sync only to your own account."
+        },
+        {
+          "title": "Not a product",
+          "description": "Your conversations are not something Captio AI sells, shares, or monetizes — to anyone, for any reason."
+        },
+        {
+          "title": "Not used to train anything",
+          "description": "What you say in a doctor's appointment or a job interview never ends up in a training dataset. Not ours. Not anyone else's."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How is Captio AI different from Apple's built-in Live Captions?",
+          "a": "Apple's Live Captions support fewer languages, offer no translation, and don't include Audio Transcription or AI Summary. Captio AI supports 60+ languages, provides real-time translation, lets you transcribe uploaded files, and generates AI summaries. It also lets you customise text size, colors, and contrast to match how you read best."
+        },
+        {
+          "q": "How accurate are the live captions?",
+          "a": "Accuracy is high in typical conversation conditions. Captio AI is built for real speech — not just clean studio audio — so it handles fast talkers, regional accents, background noise, and mixed-language sentences. You can also add custom vocabulary (names, medical terms, specialist words) to improve accuracy for your specific conversations."
+        },
+        {
+          "q": "How fast do captions appear?",
+          "a": "Word by word, while the person is still speaking. The latency is well under a second — close to real time. You read what someone says at the same moment everyone else hears it, not after they finish the sentence."
+        },
+        {
+          "q": "Does Live Captions work in noisy places?",
+          "a": "Yes. Captio AI is designed for real environments — restaurants, streets, waiting rooms, public transport. Point the microphone toward the speaker and captions appear regardless of background noise."
+        },
+        {
+          "q": "Which languages does Live Captions support?",
+          "a": "60+ languages including English, Spanish, French, German, Mandarin, Arabic, Hindi, Japanese, Korean, Portuguese, Russian, and many more. Regional accents and dialects are supported across all major languages."
+        },
+        {
+          "q": "Does it work with accents and dialects?",
+          "a": "Yes. Captio AI handles a wide range of regional accents — not just standard textbook speech. Australian English, Latin American Spanish, Swiss German, Québécois French, and many others are supported."
+        },
+        {
+          "q": "Can I save my captions?",
+          "a": "Yes. You can save transcriptions and audio recordings after a session and review them later. You can also retranscribe a saved recording for a cleaner, more accurate transcript."
+        },
+        {
+          "q": "Do I need an internet connection?",
+          "a": "Yes. Live Captions requires an internet connection to process speech in real time. Offline captioning is not currently supported."
+        }
+      ]
+    },
+    "live-translator": {
+      "meta": {
+        "title": "Live Translator: Real-Time Speech Translation on iPhone",
+        "description": "Real-time speech translation on your iPhone. The person speaks their language, you read in yours — instantly, in any language. Built for deaf and hard of hearing people.",
+        "schemaDescription": "Real-time speech translation for deaf and hard of hearing people. 60+ languages, each person speaks their own language, you read in yours."
+      },
+      "howTitle": "Three taps. Any language.",
+      "steps": [
+        {
+          "title": "Choose translator mode",
+          "desc": "Open Captio AI and select Live Translator."
+        },
+        {
+          "title": "Select the preferred language",
+          "desc": "Pick the language you want to read in."
+        },
+        {
+          "title": "See translation in real time",
+          "desc": "Captio AI translates word by word."
+        }
+      ],
+      "featuresTitle": "Built for real conversations",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Any language",
+          "description": "French, Japanese, Arabic, Spanish, German, Mandarin — 60+ languages, any direction. Hearing loss is never also a language barrier."
+        },
+        {
+          "title": "Auto-detects the spoken language",
+          "description": "Leave the source language on auto and Captio AI figures it out from the first words. No manual selection before each conversation."
+        },
+        {
+          "title": "No delay",
+          "description": "Translation latency is well under a second. You read what someone says at the same moment everyone else hears it, not after they finish the sentence."
+        },
+        {
+          "title": "Add language hints",
+          "description": "Tell Captio AI which language to expect and it starts tuned in from the first word — useful when the spoken language is not obvious from context."
+        },
+        {
+          "title": "Multiple languages at the same time",
+          "description": "When people switch languages mid-conversation, Captio AI keeps up — translating each into your language without any manual intervention."
+        },
+        {
+          "title": "Read it your way",
+          "description": "Adjust background color, text color, and font size so the translation is easy to read at a glance, whether the phone is in your hand or flat on a table."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Audio stays off our servers",
+          "description": "Your audio is turned into text in real time and never stored on our servers. Recordings you save stay on your phone, and their transcripts sync only to your own account."
+        },
+        {
+          "title": "Not a product",
+          "description": "Your conversations are not something Captio AI sells, shares, or monetizes — to anyone, for any reason."
+        },
+        {
+          "title": "Not used to train anything",
+          "description": "What you say in a doctor's appointment or a job interview never ends up in a training dataset. Not ours. Not anyone else's."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How is Live Translator different from Live Captions?",
+          "a": "Live Captions transcribes speech in the original spoken language. Live Translator takes that speech and translates it into your chosen language in real time. If the other person speaks French and you read English, Live Translator is what you use."
+        },
+        {
+          "q": "How accurate is the translation?",
+          "a": "Translation accuracy is high for common language pairs in everyday conversation. Captio AI handles natural speech — fast talkers, accents, background noise — not just clean studio audio. For rare language pairs or highly technical content, accuracy may vary."
+        },
+        {
+          "q": "Which languages are supported?",
+          "a": "60+ languages including English, Spanish, French, German, Mandarin, Arabic, Hindi, Japanese, Korean, Portuguese, Russian, and many more. Both the source and target language can be any of the supported languages."
+        },
+        {
+          "q": "How fast does the translation appear?",
+          "a": "Latency is well under a second. You read the translation word by word while the person is still speaking — close to real time, not after they finish the sentence."
+        },
+        {
+          "q": "Does it work for doctor appointments with a foreign-speaking doctor?",
+          "a": "Yes. This is one of the most important use cases. Place your phone on the desk, set the source language to the doctor's language, and read everything they say in your language in real time. You can also save the translated transcript to review their instructions afterward."
+        },
+        {
+          "q": "Does it work in noisy places?",
+          "a": "Yes. Captio AI is built for real environments — waiting rooms, restaurants, airports. Point the microphone toward the speaker and translation appears regardless of ambient noise."
+        },
+        {
+          "q": "Can I save the translated transcript?",
+          "a": "Yes. After a session you can save the translated text and review it later. Useful for medical appointments, meetings, and any conversation you want a record of."
+        },
+        {
+          "q": "Do I need an internet connection?",
+          "a": "Yes. Live Translator requires an internet connection to process and translate speech in real time. Offline translation is not currently supported."
+        }
+      ]
+    },
+    "audio-transcription": {
+      "meta": {
+        "title": "Audio Transcription: Audio and Video to Text on iPhone",
+        "description": "Upload any audio or video file and get a full written transcript. 60+ languages, speaker separation, searchable. Built for deaf and hard of hearing people.",
+        "schemaDescription": "Upload any audio or video file and get a full written transcript. 60+ languages, speaker separation, timestamps. Built for deaf and hard of hearing people."
+      },
+      "howTitle": "Upload. Read. Done.",
+      "steps": [
+        {
+          "title": "Choose upload format",
+          "desc": "Select whether you are uploading an audio file or a video file."
+        },
+        {
+          "title": "Select a file",
+          "desc": "Pick the file from your phone. Captio AI starts transcribing immediately."
+        },
+        {
+          "title": "See the transcription",
+          "desc": "Read the full transcript, organized by speaker, with timestamps."
+        }
+      ],
+      "featuresTitle": "Built for real recordings",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Any format",
+          "description": "MP3, MP4, M4A, WAV, and more. Lectures, meetings, voicemails, podcasts, interviews, phone recordings — if it has speech in it, Captio AI can transcribe it."
+        },
+        {
+          "title": "Highest accuracy",
+          "description": "Captio AI is built for real-world audio, not just clean studio files. Phone call audio, lecture hall recordings, noisy environments — it handles them all."
+        },
+        {
+          "title": "Any language",
+          "description": "Upload a recording in French, Japanese, Arabic, or 57 other languages. Captio AI identifies the language and transcribes it accurately."
+        },
+        {
+          "title": "Multiple languages",
+          "description": "When speakers switch languages mid-recording, Captio AI keeps up. The transcript reflects every language that was spoken, without gaps."
+        },
+        {
+          "title": "Timestamps",
+          "description": "Every line in the transcript is time-stamped so you can jump to any moment in the recording and find exactly what was said and when."
+        },
+        {
+          "title": "Export and share",
+          "description": "Copy the full transcript, share it, or save it. Your recordings and transcripts stay accessible whenever you need them."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Files stay off our servers",
+          "description": "Your file is sent only to be transcribed, then deleted there, and is never stored on our servers. The recording stays on your phone, and its transcript syncs only to your own account."
+        },
+        {
+          "title": "Not a product",
+          "description": "Your recordings are not something Captio AI sells, shares, or monetizes — to anyone, for any reason."
+        },
+        {
+          "title": "Not used to train anything",
+          "description": "What you upload — a doctor's appointment, a meeting, an interview — never ends up in a training dataset. Not ours. Not anyone else's."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How is Audio Transcription different from Live Captions?",
+          "a": "Live Captions work in real time while someone is speaking. Audio Transcription is for recordings — you upload an audio or video file and get a full written transcript. It is ideal for reviewing lectures you recorded, doctor appointments, interviews, or any content you want to read rather than listen to."
+        },
+        {
+          "q": "What file formats does Audio Transcription support?",
+          "a": "Captio AI accepts common audio and video formats including MP3, MP4, M4A, WAV, and more. If you recorded it on your phone or downloaded it from a video platform, it will work."
+        },
+        {
+          "q": "How accurate is the transcription?",
+          "a": "Accuracy is high for clear recordings in supported languages. Captio AI handles real-world audio — phone calls, lecture hall recordings, noisy environments — not just studio-quality files. You can also retranscribe a file for a second pass if needed."
+        },
+        {
+          "q": "Which languages are supported?",
+          "a": "60+ languages including English, Spanish, French, German, Mandarin, Arabic, Hindi, Japanese, Korean, Portuguese, Russian, and many more. Captio AI auto-detects the spoken language in the file."
+        },
+        {
+          "q": "Does it separate speakers?",
+          "a": "Yes. Captio AI labels each speaker separately in the transcript so you can follow who said what — useful for meetings, interviews, doctor appointments, and any multi-person recording."
+        },
+        {
+          "q": "How long does transcription take?",
+          "a": "Transcription is fast. A one-hour recording typically takes a few minutes. The time depends on file length and audio quality."
+        },
+        {
+          "q": "Is my audio stored after transcription?",
+          "a": "Not on Captio AI's servers. The file is sent securely to a speech-recognition service only to be transcribed, and it is deleted there as soon as the transcript is ready. The recording stays on your phone, and its transcript is also kept in your own account so you can open it on another device. Your recordings are never sold or used to train AI models."
+        },
+        {
+          "q": "Can I transcribe a video file?",
+          "a": "Yes. Upload the video file directly and Captio AI extracts the audio and transcribes it. No need to convert the file first."
+        }
+      ]
+    },
+    "ai-summary": {
+      "meta": {
+        "title": "AI Summary: Structured Summaries of Any Transcript",
+        "description": "Turn any transcript into a structured summary. Key points, decisions, and action items extracted automatically. Built for deaf and hard of hearing people.",
+        "schemaDescription": "Turn any transcript into a structured summary. Key points, decisions, action items, and speaker quotes extracted automatically."
+      },
+      "howTitle": "Transcript in. Summary out.",
+      "steps": [
+        {
+          "title": "Open any transcript",
+          "desc": "Select any transcript from Live Captions or Audio Transcription."
+        },
+        {
+          "title": "Generate summary",
+          "desc": "Tap AI Summary. Captio AI processes the transcript automatically."
+        },
+        {
+          "title": "Read the summary",
+          "desc": "Your summary is ready — organized into sections, ready to read or share."
+        }
+      ],
+      "featuresTitle": "Built for long transcripts",
+      "featuresSubtitle": "Get summary, to-do, speaker quotes, notes and more.",
+      "subfeatures": [
+        {
+          "title": "Key points extracted automatically",
+          "description": "Captio AI reads the full transcript and pulls out what actually mattered — the main points, decisions made, and conclusions reached."
+        },
+        {
+          "title": "Action items surfaced",
+          "description": "Tasks and follow-ups are identified and listed separately so nothing gets missed after a meeting, appointment, or lecture."
+        },
+        {
+          "title": "Organized into sections",
+          "description": "The summary is structured, not one continuous block of text. Each topic gets its own section so you can scan and find what you need."
+        },
+        {
+          "title": "Works on any Captio AI transcript",
+          "description": "Run AI Summary on any transcript you created with Live Captions or Audio Transcription. No extra steps, no copy-pasting."
+        },
+        {
+          "title": "Any language",
+          "description": "Summarize transcripts in 60+ languages. Captio AI reads the transcript in the original language and produces a summary you can read."
+        },
+        {
+          "title": "Save and share",
+          "description": "Keep the summary alongside the transcript, copy it, or share it. Useful after doctor appointments, meetings, and lectures."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Kept only in your account",
+          "description": "Your summary is saved with its recording, on your phone and in your own account, so it's there on any device you sign in on. Delete it and it's gone everywhere."
+        },
+        {
+          "title": "Not a product",
+          "description": "Your conversations are not something Captio AI sells, shares, or monetizes — to anyone, for any reason."
+        },
+        {
+          "title": "Not used to train anything",
+          "description": "What you summarize — a doctor's appointment, a meeting, an interview — never ends up in a training dataset. Not ours. Not anyone else's."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What does AI Summary do?",
+          "a": "AI Summary takes any transcript and extracts the key information — main points, decisions, action items, and important details — into a structured summary. It saves time when you have a long transcript and need the highlights quickly."
+        },
+        {
+          "q": "Which transcripts can I summarize?",
+          "a": "Any transcript created in Captio AI — from Live Captions or Audio Transcription. You run AI Summary directly on the transcript, with no extra steps."
+        },
+        {
+          "q": "How is AI Summary different from just reading the transcript?",
+          "a": "A full transcript of a one-hour meeting can be thousands of words. AI Summary gives you the key points, decisions, and action items in a fraction of the reading time — organized by topic, not by the order things were said."
+        },
+        {
+          "q": "Does it work for medical appointments?",
+          "a": "Yes. A doctor's appointment produces a lot of information quickly. AI Summary extracts the diagnosis, instructions, and follow-up steps into a clear list you can review and refer back to."
+        },
+        {
+          "q": "Which languages are supported?",
+          "a": "AI Summary works on transcripts in 60+ languages. The summary is produced in the same language as the transcript."
+        },
+        {
+          "q": "Can I save or share the summary?",
+          "a": "Yes. You can save the summary alongside the original transcript, copy it, or share it. Useful for sending a meeting recap or keeping a record of a medical appointment."
+        },
+        {
+          "q": "Does AI Summary store my transcript or audio?",
+          "a": "Your transcript is sent securely to an AI service only to write the summary, and it is never used to train AI models. The summary is saved with the recording, on your phone and in your own account, until you delete it. Audio is never stored on Captio AI's servers, and your conversations are never sold."
+        }
+      ]
+    }
+  }
+}

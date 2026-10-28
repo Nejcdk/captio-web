@@ -1,0 +1,638 @@
+{
+  "header": {
+    "features": "Funkce",
+    "useCases": "Využití",
+    "languages": "Jazyky",
+    "compare": "Srovnání",
+    "blog": "Blog",
+    "download": "Stáhnout",
+    "toggleMenu": "Otevřít nebo zavřít menu",
+    "chooseLanguage": "Vyber jazyk"
+  },
+  "footer": {
+    "tagline": "Živé titulky a nástroj pro produktivitu určené neslyšícím a nedoslýchavým.",
+    "productHuntTagline": "Živé titulky a přepis řeči pro neslyšící a nedoslýchavé",
+    "productHunt": "Podívej se na nás na Product Hunt →",
+    "featuredOn": "Představeno na",
+    "features": "Funkce",
+    "useCases": "Využití",
+    "blog": "Blog",
+    "allArticles": "Všechny články",
+    "compare": "Srovnání",
+    "compareApps": "Srovnání aplikací s titulky",
+    "company": "Společnost",
+    "organizations": "Pro organizace",
+    "privacy": "Zásady ochrany osobních údajů",
+    "terms": "Podmínky služby"
+  },
+  "store": {
+    "appleOverline": "Stáhnout v",
+    "googleOverline": "Nyní na",
+    "appleQrAlt": "QR kód ke stažení Captio AI z App Store pro iPhone",
+    "googleQrAlt": "QR kód ke stažení Captio AI z Google Play pro Android",
+    "downloadForFree": "Stáhnout zdarma"
+  },
+  "common": {
+    "home": "Domů",
+    "back": "Zpět",
+    "goBack": "Vrátit se",
+    "explore": "Prozkoumat",
+    "featuresLabel": "Funkce",
+    "howItWorks": "Jak to funguje",
+    "privacyLabel": "Soukromí",
+    "privacyTitle": "Co slyšíš, zůstává u tebe.",
+    "privacyImageAlt": "Soukromí v základu – tvůj zvuk se na našich serverech nikdy neukládá, nikdy se neprodává a nepoužívá k trénování",
+    "faqLabel": "FAQ",
+    "faqTitle": "Často kladené otázky",
+    "getStarted": "Začít",
+    "freeToStart": "S Captio AI začneš zdarma",
+    "allFeatures": "Captio AI nabízí Živé titulky, Živý překlad, Přepis zvuku a AI shrnutí.",
+    "featureNames": {
+      "live-captions": "Živé titulky",
+      "live-translator": "Živý překlad",
+      "audio-transcription": "Přepis zvuku",
+      "ai-summary": "AI shrnutí"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Captio AI – živé titulky pro neslyšící a nedoslýchavé",
+      "description": "Captio AI dává neslyšícím a nedoslýchavým živé titulky v reálném čase, překlad řeči, přepis zvuku a AI shrnutí přímo v telefonu. 60+ jazyků.",
+      "ogDescription": "Živé titulky, překlad řeči v reálném čase, přepis zvuku a AI shrnutí pro neslyšící a nedoslýchavé. 60+ jazyků. iPhone a Android.",
+      "schemaDescription": "Živé titulky, překlad řeči v reálném čase, přepis zvuku a AI shrnutí pro neslyšící a nedoslýchavé. 60+ jazyků."
+    },
+    "eyebrow": "🦻 Přístupnost + 💻 Aplikace pro produktivitu",
+    "heroTitle": "[Živé titulky] a [nástroj pro produktivitu] určené neslyšícím a nedoslýchavým.",
+    "heroSubtitle": "Sleduj každý rozhovor, poradu nebo přednášku. V jakémkoli jazyce.",
+    "mockupAlt": "Aplikace Captio AI s živými titulky a překladem",
+    "featuresTitle": "Vše, co potřebuješ, aby ti neutekl žádný rozhovor",
+    "featuresSubtitle": "Čtyři nástroje vytvořené speciálně pro neslyšící a nedoslýchavé.",
+    "features": {
+      "live-captions": {
+        "title": "Převod řeči na text v reálném čase",
+        "bullets": [
+          "Slovo po slově, v reálném čase",
+          "Funguje i v hluku",
+          "Jakýkoli přízvuk, jakékoli tempo",
+          "Bez odezírání"
+        ]
+      },
+      "live-translator": {
+        "title": "Překlad jakéhokoli jazyka v reálném čase",
+        "bullets": [
+          "Překládá, zatímco druhý mluví",
+          "Každý mluví svým jazykem",
+          "Zvládne změnu jazyka uprostřed věty",
+          "60+ jazyků"
+        ]
+      },
+      "audio-transcription": {
+        "title": "Přepis jakéhokoli zvukového nebo video souboru",
+        "bullets": [
+          "Jakýkoli zvukový či video soubor",
+          "Rozdělené podle mluvčích",
+          "60+ jazyků",
+          "Čti, kopíruj, hledej, sdílej"
+        ]
+      },
+      "ai-summary": {
+        "title": "Z přepisu přehledné shrnutí",
+        "bullets": [
+          "Hlavní body a rozhodnutí",
+          "Vypsané úkoly",
+          "Funguje s jakýmkoli přepisem",
+          "Rozdělené do sekcí"
+        ]
+      }
+    },
+    "useCasesLabel": "Využití",
+    "useCasesTitle": "Funguje v každé situaci",
+    "useCasesSubtitle": "Navrženo pro skutečné chvíle, na kterých záleží – nejen pro ticho a ideální podmínky.",
+    "useCases": {
+      "everyday-conversations": {
+        "label": "Běžné rozhovory",
+        "description": "Většina rozhovorů probíhá rychle, normálním tempem a bez varování. Captio AI převádí na titulky každé slovo hned, jak zazní, takže rozhovor sleduješ a nikoho nemusíš žádat, aby něco zopakoval."
+      },
+      "deaf-hoh-communication": {
+        "label": "Komunikace s neslyšícími",
+        "description": "Slyšící lidé často nevědí, jak se přizpůsobit, když mluví s neslyšícími nebo nedoslýchavými přáteli. Captio AI převádí jejich řeč na živé titulky, takže rozhovor může přirozeně plynout na obou stranách."
+      },
+      "meetings": {
+        "label": "Porady",
+        "description": "Na poradách padají rozhodnutí rychle a lidé si skáčou do řeči. Captio AI přepisuje každého mluvčího, zatímco mluví, takže ti neunikne žádné rozhodnutí ani otázka, která patří tobě."
+      },
+      "lectures": {
+        "label": "Přednášky",
+        "description": "Přednášející mluví rychle, probírají složitou látku a málokdy něco zopakují. Captio AI ti dává živý přepis všeho, co zazní, takže se můžeš soustředit na obsah místo namáhavého poslouchání."
+      },
+      "doctor-appointments": {
+        "label": "Návštěvy u lékaře",
+        "description": "Lékaři mluví rychle a používají odborné výrazy, které se snadno přeslechnou. Captio AI ti v reálném čase ukazuje vše, co říkají, takže rozumíš své diagnóze a můžeš se ptát na to podstatné."
+      },
+      "job-interviews": {
+        "label": "Pracovní pohovory",
+        "description": "Přeslechnutá otázka u pohovoru znamená špatnou odpověď nebo prosbu o zopakování. Captio AI ti ukáže každé slovo, které tazatel řekne, takže se můžeš plně soustředit na svou odpověď."
+      },
+      "phone-video-calls": {
+        "label": "Telefonní a videohovory",
+        "description": "Telefonní a videohovory se sledují hůř než rozhovory tváří v tvář. Nedá se odezírat a zvuk bývá často špatný. Captio AI v reálném čase přepisuje toho, kdo právě mluví, takže nemusíš žádat o zopakování."
+      },
+      "group-settings": {
+        "label": "Skupinové rozhovory",
+        "description": "Ve skupině mluví víc lidí najednou a rozhovor rychle ubíhá. Captio AI drží krok s tím, kdo zrovna mluví, takže neztratíš nit."
+      },
+      "restaurants": {
+        "label": "Restaurace a kavárny",
+        "description": "Hluk v pozadí ztěžuje porozumění řeči i lidem bez ztráty sluchu. Captio AI se soustředí na toho, kdo mluví k tobě, takže si můžeš i v hluku opravdu popovídat."
+      },
+      "traveling": {
+        "label": "Cestování",
+        "description": "Na letištích, v hotelech a v neznámých městech není prostor pro přeslechnutí. Captio AI přepisuje řeč v 60+ jazycích, takže se s jistotou zorientuješ, ať jsi kdekoli."
+      },
+      "conferences": {
+        "label": "Konference a akce",
+        "description": "Řečníci jsou daleko, akustika je nevyzpytatelná a o zopakování požádat nejde. Captio AI ti dává živý přepis každého řečníka, takže celou akci sleduješ z jakéhokoli místa v sále."
+      },
+      "tv-media": {
+        "label": "Televize a média",
+        "description": "Vestavěné titulky bývají chybné, opožděné nebo úplně chybí. Captio AI v reálném čase titulkuje cokoli, co zrovna běží, takže už nezáleží na tom, jestli má obsah titulky."
+      }
+    },
+    "languagesLabel": "Jazyky",
+    "languagesTitle": "Captio AI podporuje 60+ jazyků",
+    "privacyCards": [
+      {
+        "title": "Zvuk zůstává mimo naše servery",
+        "description": "Tvůj zvuk se v reálném čase převádí na text a na našich serverech se nikdy neukládá. Nahrávky, které si uložíš, zůstávají v telefonu a jejich přepisy se synchronizují jen s tvým vlastním účtem."
+      },
+      {
+        "title": "Není na prodej",
+        "description": "Captio AI tvoje rozhovory neprodává, nesdílí ani na nich nevydělává – nikomu a z žádného důvodu."
+      },
+      {
+        "title": "Nepoužívá se k trénování",
+        "description": "Co řekneš u lékaře nebo na pracovním pohovoru, nikdy neskončí v trénovacích datech. Ani v našich, ani v nikoho jiného."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Pro koho je Captio AI?",
+        "a": "Aplikace Captio AI je určená především neslyšícím a nedoslýchavým, kteří potřebují sledovat mluvené rozhovory v reálném čase. Hodně ji používají i lidé s poruchou sluchového zpracování, lidé v hlučném prostředí, studenti jazyků a všichni, pro které je čtení rychlejší nebo snazší než poslech."
+      },
+      {
+        "q": "Jak přesné jsou živé titulky?",
+        "a": "Captio AI používá pokročilé rozpoznávání řeči zaměřené na přesnost a minimální zpoždění. Přesnost závisí na kvalitě zvuku, přízvuku a hluku v pozadí – v běžných podmínkách rozhovoru je ale velmi vysoká, srovnatelná s profesionálními titulkovacími službami."
+      },
+      {
+        "q": "Jaké jazyky Captio AI podporuje?",
+        "a": "Captio AI podporuje 60+ jazyků, mimo jiné angličtinu, španělštinu, francouzštinu, němčinu, mandarínskou čínštinu, arabštinu, hindštinu, japonštinu, korejštinu, portugalštinu, ruštinu a mnoho dalších. Všechny jazyky jsou dostupné v Živých titulcích i Živém překladu. Celý seznam najdeš na této stránce."
+      },
+      {
+        "q": "Zvládá Captio AI různé přízvuky a dialekty?",
+        "a": "Ano. Captio AI zvládá širokou škálu regionálních přízvuků a dialektů, nejen učebnicovou spisovnou řeč. Podporuje australskou angličtinu, latinskoamerickou španělštinu, švýcarskou němčinu, brazilskou portugalštinu, quebeckou francouzštinu a mnoho dalších."
+      },
+      {
+        "q": "Jaký je rozdíl mezi Živými titulky a Živým překladem?",
+        "a": "Živé titulky přepisují řeč v jazyce, kterým se mluví. Živý překlad tuto řeč v reálném čase překládá do jazyka, který si zvolíš – ideální, když mluvčí a čtenář mluví různými jazyky, třeba u lékaře cizince nebo na obchodní schůzce v jiném jazyce."
+      },
+      {
+        "q": "Ukládá nebo sdílí Captio AI moje nahrávky?",
+        "a": "Tvůj zvuk se na serverech Captio AI nikdy neukládá a nikdy se neprodává ani nesdílí pro reklamu. Zabezpečeně se odesílá službě pro rozpoznávání řeči jen proto, aby se převedl na text, a tam se pak smaže. Nahrávky, které se rozhodneš uložit, zůstávají v telefonu. Jejich přepisy a shrnutí se ukládají i do tvého vlastního účtu, aby se daly otevřít na jiném zařízení, a smazáním nahrávky zmizí všude. Tvoje rozhovory se nikdy nepoužívají k trénování AI modelů – našich ani nikoho jiného."
+      },
+      {
+        "q": "Funguje Captio AI bez internetu?",
+        "a": "Živé titulky a Živý překlad potřebují internetové připojení, aby mohly zpracovávat řeč v reálném čase. Přepis zvuku (nahraných souborů) také vyžaduje připojení. Titulky offline zatím nejsou podporované."
+      },
+      {
+        "q": "Jaký telefon nebo iPad potřebuju?",
+        "a": "Captio AI funguje na iPhonu a iPadu se systémem iOS 16 nebo novějším a na telefonech s Androidem. Aplikace je optimalizovaná pro telefon a nejlépe funguje, když má mikrofon k mluvčímu volnou cestu."
+      },
+      {
+        "q": "Můžu Captio AI používat u lékaře?",
+        "a": "Ano – návštěvy u lékaře patří k nejdůležitějším situacím. Polož telefon na stůl nebo ho natoč k lékaři a v reálném čase čti vše, co říká. Captio AI přesně zvládá i lékařskou terminologii, a proto je to praktický nástroj přístupnosti ve zdravotnictví."
+      },
+      {
+        "q": "Můžu Captio AI používat na poradách a přednáškách?",
+        "a": "Ano. Captio AI funguje všude, kde se mluví – na pracovních poradách, univerzitních přednáškách, ranních týmových schůzkách, konferencích i videohovorech. Namiř mikrofon na mluvčího a titulky se okamžitě objeví."
+      },
+      {
+        "q": "Co je Přepis zvuku a čím se liší od Živých titulků?",
+        "a": "Živé titulky fungují v reálném čase, zatímco někdo mluví. Přepis zvuku je na nahrávky – nahraješ zvukový nebo video soubor a dostaneš kompletní písemný přepis. Ideální na zpětné procházení nahraných přednášek, rozhovorů, podcastů nebo čehokoli, co si raději přečteš, než poslechneš."
+      },
+      {
+        "q": "Co dělá AI shrnutí?",
+        "a": "AI shrnutí vezme jakýkoli přepis a vytáhne z něj klíčové informace – hlavní body, přijatá rozhodnutí, úkoly a důležité detaily – do přehledného shrnutí. Ušetří čas, když máš dlouhý přepis z porady nebo přednášky a potřebuješ rychle to nejdůležitější."
+      },
+      {
+        "q": "Je Captio AI zdarma?",
+        "a": "Captio AI má bezplatnou verzi, se kterou začneš bez placení. Pro ty, kdo potřebují neomezený přístup, je tu předplatné Plus. Aktuální cenu Plus pro tvou zemi najdeš na stránce aplikace v App Store."
+      },
+      {
+        "q": "Čím se Captio AI liší od Živých titulků, které má Apple přímo v iOS?",
+        "a": "Živé titulky, které Apple zabudoval do iOS, podporují méně jazyků, neumí překládat a nemají Přepis zvuku ani AI shrnutí. Captio AI podporuje 60+ jazyků, překládá v reálném čase, přepisuje nahrané soubory a vytváří AI shrnutí – je to mnohem ucelenější nástroj pro přístupnost a produktivitu."
+      }
+    ]
+  },
+  "featurePages": {
+    "live-captions": {
+      "meta": {
+        "title": "Živé titulky na iPhonu pro neslyšící a nedoslýchavé",
+        "description": "Převod řeči na text v reálném čase přes mikrofon iPhonu. Sleduj jakýkoli rozhovor v jakémkoli jazyce, okamžitě. Pro neslyšící a nedoslýchavé.",
+        "schemaDescription": "Živé titulky v reálném čase pro neslyšící a nedoslýchavé. 60+ jazyků, zpoždění hluboko pod sekundu, funguje kdekoli."
+      },
+      "howTitle": "Tři klepnutí. Celý rozhovor.",
+      "steps": [
+        {
+          "title": "Spusť nahrávání",
+          "desc": "Stiskni tlačítko nahrávání. Captio AI začne hned poslouchat."
+        },
+        {
+          "title": "Sleduj, jak přibývají slova",
+          "desc": "Titulky se objevují slovo po slově, zatímco druhý ještě mluví."
+        },
+        {
+          "title": "Ulož si to",
+          "desc": "Nech si přepis i zvukovou nahrávku na později."
+        }
+      ],
+      "featuresTitle": "Vytvořeno pro skutečné rozhovory",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Slova přesně tak, jak zazněla",
+          "description": "Captio AI zachytí, co kdo skutečně řekl, ne zhruba převyprávěný obsah. Na přepis se tak můžeš spolehnout, když na tom záleží – u lékaře, u pohovoru, na poradě."
+        },
+        {
+          "title": "Nulové zpoždění",
+          "description": "Zpoždění je hluboko pod sekundu. Titulky se objevují slovo po slově, zatímco druhý ještě mluví, takže čteš, co říká, ve stejnou chvíli, kdy to ostatní slyší."
+        },
+        {
+          "title": "Víš, kdo mluví",
+          "description": "Ve skupinách a na poradách Captio AI označí každého mluvčího zvlášť, takže vždycky víš, kdo co řekl – bez sledování tváří a odezírání ze rtů."
+        },
+        {
+          "title": "60+ jazyků",
+          "description": "Rozhovor ve francouzštině, japonštině nebo arabštině sleduješ stejně jako v češtině. Žádné přepínání režimů. Ztráta sluchu se nikdy nestane ještě i jazykovou bariérou."
+        },
+        {
+          "title": "Zvládne jazyky, které se mění uprostřed věty",
+          "description": "Když lidé během rozhovoru přejdou do jiného jazyka, Captio AI drží krok. Žádná mezera v titulcích, žádný režim k přepínání."
+        },
+        {
+          "title": "Přidej vlastní slovník",
+          "description": "Přidej jména, lékařské výrazy nebo odborná slova, která často slyšíš. Captio AI podle tvého seznamu slov přepisuje tvoje skutečné rozhovory přesněji."
+        },
+        {
+          "title": "Přidej nápovědu jazyka",
+          "description": "Řekni Captio AI, jaký jazyk má čekat, a naladí se na něj od prvního slova – hodí se, když z kontextu není jasné, jakým jazykem se mluví."
+        },
+        {
+          "title": "Přepiš znovu pro vyšší přesnost",
+          "description": "Jakoukoli nahrávku můžeš nechat zpětně přepsat znovu a získat čistší přepis. Hodí se u přednášek, návštěv u lékaře a každého rozhovoru, ke kterému se chceš vrátit."
+        },
+        {
+          "title": "Čti po svém",
+          "description": "Uprav velikost písma, barvu pozadí a kontrast, dokud nebudou titulky čitelné na první pohled – s telefonem v ruce, naplocho na stole nebo opřeným o psací stůl."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Zvuk zůstává mimo naše servery",
+          "description": "Tvůj zvuk se v reálném čase převádí na text a na našich serverech se nikdy neukládá. Nahrávky, které si uložíš, zůstávají v telefonu a jejich přepisy se synchronizují jen s tvým vlastním účtem."
+        },
+        {
+          "title": "Není na prodej",
+          "description": "Captio AI tvoje rozhovory neprodává, nesdílí ani na nich nevydělává – nikomu a z žádného důvodu."
+        },
+        {
+          "title": "Nepoužívá se k trénování",
+          "description": "Co řekneš u lékaře nebo na pracovním pohovoru, nikdy neskončí v trénovacích datech. Ani v našich, ani v nikoho jiného."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Čím se Captio AI liší od Živých titulků, které má Apple přímo v iOS?",
+          "a": "Živé titulky v iOS podporují méně jazyků, neumí překládat a nemají Přepis zvuku ani AI shrnutí. Captio AI podporuje 60+ jazyků, překládá v reálném čase, přepisuje nahrané soubory a vytváří AI shrnutí. Navíc si můžeš upravit velikost písma, barvy a kontrast tak, jak se ti nejlépe čte."
+        },
+        {
+          "q": "Jak přesné jsou živé titulky?",
+          "a": "V běžných podmínkách rozhovoru je přesnost vysoká. Captio AI zvládá skutečnou řeč, nejen čistý studiový zvuk, takže si poradí s rychlými mluvčími, regionálními přízvuky, hlukem v pozadí i větami ve více jazycích. Přesnost pro své rozhovory zvýšíš i vlastním slovníkem (jména, lékařské výrazy, odborná slova)."
+        },
+        {
+          "q": "Jak rychle se titulky objevují?",
+          "a": "Slovo po slově, zatímco druhý ještě mluví. Zpoždění je hluboko pod sekundu – téměř v reálném čase. Čteš, co kdo říká, ve stejnou chvíli, kdy to slyší ostatní, ne až po dokončení věty."
+        },
+        {
+          "q": "Fungují Živé titulky v hlučném prostředí?",
+          "a": "Ano. Captio AI počítá se skutečným prostředím – restauracemi, ulicí, čekárnami, městskou dopravou. Namiř mikrofon na mluvčího a titulky se objeví bez ohledu na hluk v pozadí."
+        },
+        {
+          "q": "Jaké jazyky Živé titulky podporují?",
+          "a": "60+ jazyků, mimo jiné angličtinu, španělštinu, francouzštinu, němčinu, mandarínskou čínštinu, arabštinu, hindštinu, japonštinu, korejštinu, portugalštinu, ruštinu a mnoho dalších. Regionální přízvuky a dialekty jsou podporované u všech hlavních jazyků."
+        },
+        {
+          "q": "Zvládá přízvuky a dialekty?",
+          "a": "Ano. Captio AI zvládá širokou škálu regionálních přízvuků, nejen učebnicovou spisovnou řeč. Podporuje australskou angličtinu, latinskoamerickou španělštinu, švýcarskou němčinu, quebeckou francouzštinu a mnoho dalších."
+        },
+        {
+          "q": "Můžu si titulky uložit?",
+          "a": "Ano. Po skončení můžeš uložit přepis i zvukovou nahrávku a projít si je později. Uloženou nahrávku můžeš také nechat přepsat znovu a získat čistší a přesnější přepis."
+        },
+        {
+          "q": "Potřebuju připojení k internetu?",
+          "a": "Ano. Živé titulky potřebují internetové připojení, aby mohly zpracovávat řeč v reálném čase. Titulky offline zatím nejsou podporované."
+        }
+      ]
+    },
+    "live-translator": {
+      "meta": {
+        "title": "Živý překlad: překlad řeči v reálném čase na iPhonu",
+        "description": "Překlad řeči v reálném čase na iPhonu. Druhý mluví svým jazykem, ty čteš ve svém – okamžitě, v jakémkoli jazyce. Pro neslyšící a nedoslýchavé.",
+        "schemaDescription": "Překlad řeči v reálném čase pro neslyšící a nedoslýchavé. 60+ jazyků, každý mluví svým jazykem, ty čteš ve svém."
+      },
+      "howTitle": "Tři klepnutí. Jakýkoli jazyk.",
+      "steps": [
+        {
+          "title": "Vyber režim překladu",
+          "desc": "Otevři Captio AI a zvol Živý překlad."
+        },
+        {
+          "title": "Zvol svůj jazyk",
+          "desc": "Vyber jazyk, ve kterém chceš číst."
+        },
+        {
+          "title": "Sleduj překlad v reálném čase",
+          "desc": "Captio AI překládá slovo po slově."
+        }
+      ],
+      "featuresTitle": "Vytvořeno pro skutečné rozhovory",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Jakýkoli jazyk",
+          "description": "Francouzština, japonština, arabština, španělština, němčina, mandarínská čínština – 60+ jazyků, libovolným směrem. Ztráta sluchu se nikdy nestane ještě i jazykovou bariérou."
+        },
+        {
+          "title": "Automaticky rozpozná mluvený jazyk",
+          "description": "Nech zdrojový jazyk na automatice a Captio AI ho pozná z prvních slov. Žádné ruční vybírání před každým rozhovorem."
+        },
+        {
+          "title": "Bez zpoždění",
+          "description": "Zpoždění překladu je hluboko pod sekundu. Čteš, co kdo říká, ve stejnou chvíli, kdy to slyší ostatní, ne až po dokončení věty."
+        },
+        {
+          "title": "Přidej nápovědy jazyků",
+          "description": "Řekni Captio AI, jaký jazyk má čekat, a naladí se na něj od prvního slova – hodí se, když z kontextu není jasné, jakým jazykem se mluví."
+        },
+        {
+          "title": "Více jazyků najednou",
+          "description": "Když lidé během rozhovoru střídají jazyky, Captio AI drží krok a každý z nich překládá do tvého jazyka bez jakéhokoli ručního zásahu."
+        },
+        {
+          "title": "Čti po svém",
+          "description": "Uprav barvu pozadí, barvu textu a velikost písma, aby byl překlad čitelný na první pohled, ať držíš telefon v ruce, nebo leží na stole."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Zvuk zůstává mimo naše servery",
+          "description": "Tvůj zvuk se v reálném čase převádí na text a na našich serverech se nikdy neukládá. Nahrávky, které si uložíš, zůstávají v telefonu a jejich přepisy se synchronizují jen s tvým vlastním účtem."
+        },
+        {
+          "title": "Není na prodej",
+          "description": "Captio AI tvoje rozhovory neprodává, nesdílí ani na nich nevydělává – nikomu a z žádného důvodu."
+        },
+        {
+          "title": "Nepoužívá se k trénování",
+          "description": "Co řekneš u lékaře nebo na pracovním pohovoru, nikdy neskončí v trénovacích datech. Ani v našich, ani v nikoho jiného."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Čím se Živý překlad liší od Živých titulků?",
+          "a": "Živé titulky přepisují řeč v původním jazyce. Živý překlad tuto řeč v reálném čase překládá do jazyka, který si zvolíš. Když druhý mluví francouzsky a ty chceš číst česky, použiješ Živý překlad."
+        },
+        {
+          "q": "Jak přesný je překlad?",
+          "a": "U běžných jazykových dvojic je překlad v každodenních rozhovorech velmi přesný. Captio AI zvládá přirozenou řeč – rychlé mluvčí, přízvuky, hluk v pozadí – nejen čistý studiový zvuk. U vzácných jazykových dvojic nebo velmi odborného obsahu se přesnost může lišit."
+        },
+        {
+          "q": "Jaké jazyky jsou podporované?",
+          "a": "60+ jazyků, mimo jiné angličtinu, španělštinu, francouzštinu, němčinu, mandarínskou čínštinu, arabštinu, hindštinu, japonštinu, korejštinu, portugalštinu, ruštinu a mnoho dalších. Zdrojovým i cílovým jazykem může být kterýkoli z podporovaných jazyků."
+        },
+        {
+          "q": "Jak rychle se překlad objevuje?",
+          "a": "Zpoždění je hluboko pod sekundu. Překlad čteš slovo po slově, zatímco druhý ještě mluví – téměř v reálném čase, ne až po dokončení věty."
+        },
+        {
+          "q": "Funguje to i u lékaře, který mluví jiným jazykem?",
+          "a": "Ano. Je to jedna z nejdůležitějších situací. Polož telefon na stůl, nastav zdrojový jazyk na jazyk lékaře a v reálném čase čti vše, co říká, ve svém jazyce. Přeložený přepis si můžeš i uložit a jeho pokyny si projít později."
+        },
+        {
+          "q": "Funguje to v hlučném prostředí?",
+          "a": "Ano. Captio AI počítá se skutečným prostředím – čekárnami, restauracemi, letišti. Namiř mikrofon na mluvčího a překlad se objeví bez ohledu na okolní hluk."
+        },
+        {
+          "q": "Můžu si přeložený přepis uložit?",
+          "a": "Ano. Po skončení si přeložený text můžeš uložit a vrátit se k němu později. Hodí se u návštěv u lékaře, porad a každého rozhovoru, který chceš mít zaznamenaný."
+        },
+        {
+          "q": "Potřebuju připojení k internetu?",
+          "a": "Ano. Živý překlad potřebuje internetové připojení, aby mohl zpracovávat a překládat řeč v reálném čase. Offline překlad zatím není podporovaný."
+        }
+      ]
+    },
+    "audio-transcription": {
+      "meta": {
+        "title": "Přepis zvuku: převod audia a videa na text na iPhonu",
+        "description": "Nahraj jakýkoli zvukový nebo video soubor a získej kompletní přepis. 60+ jazyků, rozdělení podle mluvčích, vyhledávání. Pro neslyšící a nedoslýchavé.",
+        "schemaDescription": "Nahraj jakýkoli zvukový nebo video soubor a získej kompletní přepis. 60+ jazyků, rozdělení podle mluvčích, časové značky. Pro neslyšící a nedoslýchavé."
+      },
+      "howTitle": "Nahraj. Přečti. Hotovo.",
+      "steps": [
+        {
+          "title": "Vyber typ souboru",
+          "desc": "Zvol, jestli nahráváš zvukový, nebo video soubor."
+        },
+        {
+          "title": "Vyber soubor",
+          "desc": "Vyber soubor z telefonu. Captio AI ho začne hned přepisovat."
+        },
+        {
+          "title": "Prohlédni si přepis",
+          "desc": "Přečti si celý přepis rozdělený podle mluvčích, s časovými značkami."
+        }
+      ],
+      "featuresTitle": "Vytvořeno pro skutečné nahrávky",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Jakýkoli formát",
+          "description": "MP3, MP4, M4A, WAV a další. Přednášky, porady, hlasové zprávy, podcasty, rozhovory, nahrané hovory – pokud se v nahrávce mluví, Captio AI ji přepíše."
+        },
+        {
+          "title": "Nejvyšší přesnost",
+          "description": "Captio AI zvládá skutečný zvuk, nejen čisté studiové soubory. Nahrávky telefonátů, z přednáškových sálů nebo z hlučného prostředí – poradí si se všemi."
+        },
+        {
+          "title": "Jakýkoli jazyk",
+          "description": "Nahraj soubor ve francouzštině, japonštině, arabštině nebo v 57 dalších jazycích. Captio AI rozpozná jazyk a přesně ho přepíše."
+        },
+        {
+          "title": "Více jazyků",
+          "description": "Když mluvčí během nahrávky přejdou do jiného jazyka, Captio AI drží krok. Přepis zachytí každý jazyk, který zazněl, bez mezer."
+        },
+        {
+          "title": "Časové značky",
+          "description": "Každý řádek přepisu má časovou značku, takže můžeš skočit na libovolné místo nahrávky a najít přesně, co a kdy zaznělo."
+        },
+        {
+          "title": "Export a sdílení",
+          "description": "Zkopíruj celý přepis, sdílej ho nebo ulož. Tvoje nahrávky a přepisy máš k dispozici, kdykoli je potřebuješ."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Soubory zůstávají mimo naše servery",
+          "description": "Tvůj soubor se odešle jen k přepisu, tam se pak smaže a na našich serverech se nikdy neukládá. Nahrávka zůstává v telefonu a její přepis se synchronizuje jen s tvým vlastním účtem."
+        },
+        {
+          "title": "Není na prodej",
+          "description": "Captio AI tvoje nahrávky neprodává, nesdílí ani na nich nevydělává – nikomu a z žádného důvodu."
+        },
+        {
+          "title": "Nepoužívá se k trénování",
+          "description": "Co nahraješ – návštěvu u lékaře, poradu, rozhovor – nikdy neskončí v trénovacích datech. Ani v našich, ani v nikoho jiného."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Čím se Přepis zvuku liší od Živých titulků?",
+          "a": "Živé titulky fungují v reálném čase, zatímco někdo mluví. Přepis zvuku je na nahrávky – nahraješ zvukový nebo video soubor a dostaneš kompletní písemný přepis. Ideální na zpětné procházení nahraných přednášek, návštěv u lékaře, rozhovorů nebo čehokoli, co si raději přečteš, než poslechneš."
+        },
+        {
+          "q": "Jaké formáty souborů Přepis zvuku podporuje?",
+          "a": "Captio AI přijímá běžné zvukové a video formáty včetně MP3, MP4, M4A, WAV a dalších. Pokud soubor pochází z tvého telefonu nebo z video platformy, bude fungovat."
+        },
+        {
+          "q": "Jak přesný je přepis?",
+          "a": "U čistých nahrávek v podporovaných jazycích je přesnost vysoká. Captio AI zvládá skutečný zvuk – telefonáty, nahrávky z přednáškových sálů, hlučné prostředí – nejen soubory ve studiové kvalitě. V případě potřeby můžeš soubor nechat přepsat ještě jednou."
+        },
+        {
+          "q": "Jaké jazyky jsou podporované?",
+          "a": "60+ jazyků, mimo jiné angličtinu, španělštinu, francouzštinu, němčinu, mandarínskou čínštinu, arabštinu, hindštinu, japonštinu, korejštinu, portugalštinu, ruštinu a mnoho dalších. Captio AI automaticky rozpozná jazyk, kterým se v souboru mluví."
+        },
+        {
+          "q": "Rozlišuje mluvčí?",
+          "a": "Ano. Captio AI v přepisu označí každého mluvčího zvlášť, takže víš, kdo co řekl – hodí se u porad, rozhovorů, návštěv u lékaře a každé nahrávky s více lidmi."
+        },
+        {
+          "q": "Jak dlouho přepis trvá?",
+          "a": "Přepis je rychlý. Hodinová nahrávka obvykle zabere pár minut. Doba závisí na délce souboru a kvalitě zvuku."
+        },
+        {
+          "q": "Ukládá se můj zvuk po přepisu?",
+          "a": "Ne na serverech Captio AI. Soubor se zabezpečeně odešle službě pro rozpoznávání řeči jen k přepisu a hned, jak je přepis hotový, se tam smaže. Nahrávka zůstává v telefonu a její přepis se ukládá i do tvého vlastního účtu, aby se dal otevřít na jiném zařízení. Tvoje nahrávky se nikdy neprodávají a nepoužívají k trénování AI modelů."
+        },
+        {
+          "q": "Můžu přepsat video soubor?",
+          "a": "Ano. Nahraj přímo video soubor a Captio AI z něj vytáhne zvuk a přepíše ho. Soubor není potřeba nejdřív převádět."
+        }
+      ]
+    },
+    "ai-summary": {
+      "meta": {
+        "title": "AI shrnutí: přehledná shrnutí jakéhokoli přepisu",
+        "description": "Udělej z jakéhokoli přepisu přehledné shrnutí. Hlavní body, rozhodnutí a úkoly vytažené automaticky. Pro neslyšící a nedoslýchavé.",
+        "schemaDescription": "Udělej z jakéhokoli přepisu přehledné shrnutí. Hlavní body, rozhodnutí, úkoly a citace mluvčích vytažené automaticky."
+      },
+      "howTitle": "Dovnitř přepis. Ven shrnutí.",
+      "steps": [
+        {
+          "title": "Otevři přepis",
+          "desc": "Vyber jakýkoli přepis ze Živých titulků nebo Přepisu zvuku."
+        },
+        {
+          "title": "Vytvoř shrnutí",
+          "desc": "Klepni na AI shrnutí. Captio AI přepis automaticky zpracuje."
+        },
+        {
+          "title": "Přečti si shrnutí",
+          "desc": "Shrnutí je hotové – rozdělené do sekcí, připravené ke čtení nebo sdílení."
+        }
+      ],
+      "featuresTitle": "Vytvořeno pro dlouhé přepisy",
+      "featuresSubtitle": "Shrnutí, úkoly, citace mluvčích, poznámky a další.",
+      "subfeatures": [
+        {
+          "title": "Hlavní body automaticky",
+          "description": "Captio AI přečte celý přepis a vytáhne to, na čem skutečně záleželo – hlavní body, přijatá rozhodnutí a závěry."
+        },
+        {
+          "title": "Úkoly na očích",
+          "description": "Úkoly a další kroky se rozpoznají a vypíšou zvlášť, takže ti po poradě, návštěvě u lékaře nebo přednášce nic neuteče."
+        },
+        {
+          "title": "Rozdělené do sekcí",
+          "description": "Shrnutí má strukturu, není to jeden souvislý blok textu. Každé téma má vlastní sekci, takže ho rychle projdeš a najdeš, co potřebuješ."
+        },
+        {
+          "title": "Funguje s každým přepisem z Captio AI",
+          "description": "Spusť AI shrnutí na jakýkoli přepis ze Živých titulků nebo Přepisu zvuku. Žádné kroky navíc, žádné kopírování."
+        },
+        {
+          "title": "Jakýkoli jazyk",
+          "description": "Shrnuj přepisy v 60+ jazycích. Captio AI přečte přepis v původním jazyce a vytvoří shrnutí, které si přečteš."
+        },
+        {
+          "title": "Ulož a sdílej",
+          "description": "Nech si shrnutí u přepisu, zkopíruj ho nebo sdílej. Hodí se po návštěvách u lékaře, poradách a přednáškách."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Uloženo jen ve tvém účtu",
+          "description": "Tvoje shrnutí se ukládá spolu s nahrávkou, v telefonu i ve tvém vlastním účtu, takže ho najdeš na každém zařízení, kde se přihlásíš. Smažeš ho a zmizí všude."
+        },
+        {
+          "title": "Není na prodej",
+          "description": "Captio AI tvoje rozhovory neprodává, nesdílí ani na nich nevydělává – nikomu a z žádného důvodu."
+        },
+        {
+          "title": "Nepoužívá se k trénování",
+          "description": "Co shrnuješ – návštěvu u lékaře, poradu, rozhovor – nikdy neskončí v trénovacích datech. Ani v našich, ani v nikoho jiného."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Co dělá AI shrnutí?",
+          "a": "AI shrnutí vezme jakýkoli přepis a vytáhne z něj klíčové informace – hlavní body, rozhodnutí, úkoly a důležité detaily – do přehledného shrnutí. Ušetří čas, když máš dlouhý přepis a potřebuješ rychle to nejdůležitější."
+        },
+        {
+          "q": "Které přepisy můžu shrnout?",
+          "a": "Jakýkoli přepis vytvořený v Captio AI – ze Živých titulků nebo Přepisu zvuku. AI shrnutí spustíš přímo na přepisu, bez kroků navíc."
+        },
+        {
+          "q": "Čím se AI shrnutí liší od prostého čtení přepisu?",
+          "a": "Celý přepis hodinové porady může mít tisíce slov. AI shrnutí ti dá hlavní body, rozhodnutí a úkoly za zlomek času potřebného ke čtení – seřazené podle témat, ne podle toho, v jakém pořadí zazněly."
+        },
+        {
+          "q": "Funguje to i u návštěv u lékaře?",
+          "a": "Ano. Návštěva u lékaře přinese hodně informací v krátkém čase. AI shrnutí z ní vytáhne diagnózu, pokyny a další kroky do přehledného seznamu, ke kterému se můžeš vracet."
+        },
+        {
+          "q": "Jaké jazyky jsou podporované?",
+          "a": "AI shrnutí funguje s přepisy v 60+ jazycích. Shrnutí vznikne ve stejném jazyce jako přepis."
+        },
+        {
+          "q": "Můžu shrnutí uložit nebo sdílet?",
+          "a": "Ano. Shrnutí si můžeš uložit k původnímu přepisu, zkopírovat ho nebo sdílet. Hodí se, když chceš poslat zápis z porady nebo si nechat záznam z návštěvy u lékaře."
+        },
+        {
+          "q": "Ukládá AI shrnutí můj přepis nebo zvuk?",
+          "a": "Tvůj přepis se zabezpečeně odešle AI službě jen kvůli napsání shrnutí a nikdy se nepoužívá k trénování AI modelů. Shrnutí se ukládá spolu s nahrávkou, v telefonu i ve tvém vlastním účtu, dokud ho nesmažeš. Zvuk se na serverech Captio AI nikdy neukládá a tvoje rozhovory se nikdy neprodávají."
+        }
+      ]
+    }
+  }
+}

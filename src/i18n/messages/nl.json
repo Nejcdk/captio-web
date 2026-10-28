@@ -1,0 +1,638 @@
+{
+  "header": {
+    "features": "Functies",
+    "useCases": "Toepassingen",
+    "languages": "Talen",
+    "compare": "Vergelijken",
+    "blog": "Blog",
+    "download": "Downloaden",
+    "toggleMenu": "Menu openen of sluiten",
+    "chooseLanguage": "Kies een taal"
+  },
+  "footer": {
+    "tagline": "Live ondertiteling en productiviteitstool voor doven en slechthorenden.",
+    "productHuntTagline": "Live ondertiteling en transcriptie voor doven en slechthorenden",
+    "productHunt": "Bekijk het op Product Hunt →",
+    "featuredOn": "Uitgelicht op",
+    "features": "Functies",
+    "useCases": "Toepassingen",
+    "blog": "Blog",
+    "allArticles": "Alle artikelen",
+    "compare": "Vergelijken",
+    "compareApps": "Ondertitelingsapps vergelijken",
+    "company": "Bedrijf",
+    "organizations": "Voor organisaties",
+    "privacy": "Privacybeleid",
+    "terms": "Servicevoorwaarden"
+  },
+  "store": {
+    "appleOverline": "Download in de",
+    "googleOverline": "Ontdek het op",
+    "appleQrAlt": "QR-code om Captio AI te downloaden in de App Store voor iPhone",
+    "googleQrAlt": "QR-code om Captio AI te downloaden op Google Play voor Android",
+    "downloadForFree": "Gratis downloaden"
+  },
+  "common": {
+    "home": "Startpagina",
+    "back": "Terug",
+    "goBack": "Ga terug",
+    "explore": "Ontdekken",
+    "featuresLabel": "Functies",
+    "howItWorks": "Zo werkt het",
+    "privacyLabel": "Privacy",
+    "privacyTitle": "Wat jij hoort, blijft bij jou.",
+    "privacyImageAlt": "Standaard privé: je audio wordt nooit op onze servers bewaard, nooit verkocht en nooit gebruikt voor training",
+    "faqLabel": "FAQ",
+    "faqTitle": "Veelgestelde vragen",
+    "getStarted": "Aan de slag",
+    "freeToStart": "Je begint gratis met Captio AI",
+    "allFeatures": "Captio AI biedt Live ondertiteling, Live vertaler, Audiotranscriptie en AI-samenvatting.",
+    "featureNames": {
+      "live-captions": "Live ondertiteling",
+      "live-translator": "Live vertaler",
+      "audio-transcription": "Audiotranscriptie",
+      "ai-summary": "AI-samenvatting"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Captio AI — Live ondertiteling voor doven en slechthorenden",
+      "description": "Captio AI geeft doven en slechthorenden live ondertiteling, realtime vertaling, audiotranscriptie en AI-samenvattingen, gewoon op je telefoon. 60+ talen.",
+      "ogDescription": "Realtime live ondertiteling, live vertaling, audiotranscriptie en AI-samenvattingen voor doven en slechthorenden. 60+ talen. iPhone en Android.",
+      "schemaDescription": "Realtime live ondertiteling, live vertaling, audiotranscriptie en AI-samenvattingen voor doven en slechthorenden. 60+ talen."
+    },
+    "eyebrow": "🦻 Toegankelijkheid + 💻 Productiviteitsapp",
+    "heroTitle": "[Live ondertiteling] en [productiviteitstool] voor doven en slechthorenden.",
+    "heroSubtitle": "Volg elk gesprek, elke vergadering of elk college. In elke taal.",
+    "mockupAlt": "De app Captio AI met live ondertiteling en vertaling",
+    "featuresTitle": "Alles wat je nodig hebt om elk gesprek te volgen",
+    "featuresSubtitle": "Vier tools, speciaal gemaakt voor doven en slechthorenden.",
+    "features": {
+      "live-captions": {
+        "title": "Spraak naar tekst in realtime",
+        "bullets": [
+          "Woord voor woord, in realtime",
+          "Werkt ook op drukke plekken",
+          "Elk accent, elk tempo",
+          "Liplezen is niet nodig"
+        ]
+      },
+      "live-translator": {
+        "title": "Vertaal elke taal in realtime",
+        "bullets": [
+          "Vertaalt terwijl er gesproken wordt",
+          "Iedereen spreekt zijn eigen taal",
+          "Kan wisselen midden in een zin",
+          "60+ talen"
+        ]
+      },
+      "audio-transcription": {
+        "title": "Transcribeer elk audio- of videobestand",
+        "bullets": [
+          "Elk audio- of videobestand",
+          "Geordend per spreker",
+          "60+ talen",
+          "Lezen, kopiëren, zoeken, delen"
+        ]
+      },
+      "ai-summary": {
+        "title": "Van transcript naar overzichtelijke samenvatting",
+        "bullets": [
+          "Kernpunten en besluiten",
+          "Actiepunten eruit gehaald",
+          "Werkt met elk transcript",
+          "Ingedeeld in secties"
+        ]
+      }
+    },
+    "useCasesLabel": "Toepassingen",
+    "useCasesTitle": "Werkt in elke situatie",
+    "useCasesSubtitle": "Gemaakt voor de echte momenten die ertoe doen, niet alleen voor rustige, gecontroleerde omgevingen.",
+    "useCases": {
+      "everyday-conversations": {
+        "label": "Alledaagse gesprekken",
+        "description": "De meeste gesprekken gaan snel, op normaal tempo en zonder waarschuwing. Captio AI ondertitelt elk woord terwijl het wordt uitgesproken, zodat je kunt volgen zonder iemand te vragen iets te herhalen."
+      },
+      "deaf-hoh-communication": {
+        "label": "Communiceren met doven en slechthorenden",
+        "description": "Horende mensen weten vaak niet hoe ze zich moeten aanpassen in een gesprek met dove of slechthorende vrienden. Captio AI zet hun spraak om in realtime ondertiteling, zodat het gesprek voor beide kanten natuurlijk verloopt."
+      },
+      "meetings": {
+        "label": "Vergaderingen",
+        "description": "In vergaderingen vallen besluiten snel en praten mensen door elkaar heen. Captio AI ondertitelt elke spreker terwijl die praat, zodat je nooit een besluit of een vraag aan jou mist."
+      },
+      "lectures": {
+        "label": "Colleges",
+        "description": "Docenten praten snel, behandelen ingewikkelde stof en herhalen zichzelf zelden. Captio AI geeft je een live transcript van alles wat er wordt gezegd, zodat je de inhoud kunt volgen in plaats van je in te spannen om het te horen."
+      },
+      "doctor-appointments": {
+        "label": "Doktersafspraken",
+        "description": "Artsen praten snel en gebruiken medische termen die je makkelijk verkeerd verstaat. Captio AI laat je alles wat ze zeggen in realtime zien, zodat je je diagnose kunt volgen en de juiste vragen kunt stellen."
+      },
+      "job-interviews": {
+        "label": "Sollicitatiegesprekken",
+        "description": "Mis je een vraag in een sollicitatiegesprek, dan geef je het verkeerde antwoord of moet je vragen of ze het willen herhalen. Captio AI laat je elk woord van de interviewer zien, zodat je je helemaal op je antwoord kunt richten."
+      },
+      "phone-video-calls": {
+        "label": "Telefoon- en videogesprekken",
+        "description": "Telefoon- en videogesprekken zijn moeilijker te volgen dan gesprekken in het echt. Geen liplezen, vaak slecht geluid. Captio AI ondertitelt in realtime wie er ook praat, zodat je niet hoeft te vragen om iets te herhalen."
+      },
+      "group-settings": {
+        "label": "In een groep",
+        "description": "In groepen praten meerdere mensen tegelijk en gaat het gesprek snel. Captio AI houdt bij wie er ook praat, zodat je kunt volgen zonder de draad kwijt te raken."
+      },
+      "restaurants": {
+        "label": "Restaurants en cafés",
+        "description": "Door achtergrondlawaai is spraak zelfs voor mensen zonder gehoorverlies moeilijk te volgen. Captio AI richt zich op wie er tegen je praat, zodat je dwars door het lawaai een echt gesprek kunt voeren."
+      },
+      "traveling": {
+        "label": "Reizen",
+        "description": "Op luchthavens, in hotels en in onbekende steden is er geen ruimte om iets verkeerd te verstaan. Captio AI ondertitelt spraak in 60+ talen, zodat je overal zelfverzekerd je weg vindt."
+      },
+      "conferences": {
+        "label": "Congressen en evenementen",
+        "description": "Sprekers staan ver weg, de akoestiek is onvoorspelbaar en je kunt niet vragen om iets te herhalen. Captio AI geeft je een live transcript van elke spreker, zodat je het hele evenement kunt volgen, waar je ook zit."
+      },
+      "tv-media": {
+        "label": "Tv en media",
+        "description": "Ingebouwde ondertitels zijn vaak fout, vertraagd of ontbreken helemaal. Captio AI ondertitelt in realtime wat er ook speelt, zodat je niet afhankelijk bent van de vraag of er ondertitels zijn."
+      }
+    },
+    "languagesLabel": "Talen",
+    "languagesTitle": "Captio AI ondersteunt 60+ talen",
+    "privacyCards": [
+      {
+        "title": "Audio blijft van onze servers af",
+        "description": "Je audio wordt in realtime omgezet in tekst en nooit op onze servers bewaard. Opnames die je bewaart, blijven op je telefoon en hun transcripten synchroniseren alleen met je eigen account."
+      },
+      {
+        "title": "Geen handelswaar",
+        "description": "Je gesprekken zijn niet iets wat Captio AI verkoopt, deelt of te gelde maakt, aan niemand en om geen enkele reden."
+      },
+      {
+        "title": "Nergens voor getraind",
+        "description": "Wat je zegt bij een doktersafspraak of in een sollicitatiegesprek komt nooit in een trainingsdataset terecht. Niet in die van ons. Niet in die van iemand anders."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Voor wie is Captio AI bedoeld?",
+        "a": "Captio AI is in de eerste plaats gemaakt voor doven en slechthorenden die gesproken gesprekken in realtime moeten volgen. De app wordt ook veel gebruikt door mensen met een auditieve verwerkingsstoornis, mensen in rumoerige omgevingen, taalleerders en iedereen voor wie lezen sneller of makkelijker is dan luisteren."
+      },
+      {
+        "q": "Hoe nauwkeurig is de live ondertiteling?",
+        "a": "Captio AI gebruikt geavanceerde spraakherkenning die speciaal is gebouwd voor nauwkeurigheid en weinig vertraging. De nauwkeurigheid hangt af van hoe helder het geluid is, het accent en het achtergrondlawaai. In gewone gesprekken is ze heel hoog, vergelijkbaar met professionele ondertitelingsdiensten."
+      },
+      {
+        "q": "Welke talen ondersteunt Captio AI?",
+        "a": "Captio AI ondersteunt 60+ talen, waaronder Engels, Spaans, Frans, Duits, Mandarijn, Arabisch, Hindi, Japans, Koreaans, Portugees, Russisch en nog veel meer. Alle talen zijn beschikbaar voor Live ondertiteling en Live vertaler. Bekijk de volledige lijst op deze pagina."
+      },
+      {
+        "q": "Werkt Captio AI met verschillende accenten en dialecten?",
+        "a": "Ja. Captio AI kan overweg met veel regionale accenten en dialecten, niet alleen met keurige standaardtaal uit het leerboek. Het ondersteunt onder andere Australisch Engels, Latijns-Amerikaans Spaans, Zwitserduits, Braziliaans Portugees, Québecois Frans en nog veel meer."
+      },
+      {
+        "q": "Wat is het verschil tussen Live ondertiteling en Live vertaler?",
+        "a": "Live ondertiteling zet spraak om in tekst in de taal die gesproken wordt. Live vertaler neemt die spraak en vertaalt die in realtime naar de taal die jij kiest. Ideaal als de spreker en de lezer verschillende talen spreken, bijvoorbeeld bij een buitenlandse arts of een zakelijke vergadering in een andere taal."
+      },
+      {
+        "q": "Slaat Captio AI mijn audio op of deelt het die?",
+        "a": "Je audio wordt nooit op de servers van Captio AI bewaard en nooit verkocht of gedeeld voor advertenties. Het wordt alleen beveiligd naar een spraakherkenningsdienst gestuurd om er tekst van te maken en wordt daar daarna gewist. Opnames die je zelf bewaart, blijven op je telefoon. Hun transcripten en samenvattingen staan ook in je eigen account, zodat je ze op een ander apparaat kunt openen, en als je een opname verwijdert, is die overal weg. Je gesprekken worden nooit gebruikt om AI-modellen te trainen, niet die van ons en niet die van anderen."
+      },
+      {
+        "q": "Werkt Captio AI zonder internetverbinding?",
+        "a": "Live ondertiteling en Live vertaler hebben een internetverbinding nodig om spraak in realtime te verwerken. Ook Audiotranscriptie (voor geüploade bestanden) heeft een verbinding nodig. Offline ondertitelen wordt op dit moment niet ondersteund."
+      },
+      {
+        "q": "Welke telefoon of iPad heb ik nodig?",
+        "a": "Captio AI werkt op iPhone en iPad met iOS 16 of nieuwer, en op Android-telefoons. De app is geoptimaliseerd voor de telefoon en werkt het best als de microfoon vrij zicht heeft op de spreker."
+      },
+      {
+        "q": "Kan ik Captio AI gebruiken bij een doktersafspraak?",
+        "a": "Ja, doktersafspraken zijn een van de belangrijkste toepassingen. Leg je telefoon op het bureau of houd hem richting de arts en lees in realtime alles wat er wordt gezegd. Medische termen worden nauwkeurig herkend, waardoor Captio AI een praktisch hulpmiddel is voor toegankelijkheid in de zorg."
+      },
+      {
+        "q": "Kan ik Captio AI gebruiken in vergaderingen en colleges?",
+        "a": "Ja. Captio AI werkt overal waar gesproken wordt: werkoverleg, hoorcolleges, stand-ups met je team, congressen en videogesprekken. Richt de microfoon op de spreker en de ondertiteling verschijnt meteen."
+      },
+      {
+        "q": "Wat is Audiotranscriptie en wat is het verschil met Live ondertiteling?",
+        "a": "Live ondertiteling werkt in realtime, terwijl iemand praat. Audiotranscriptie is voor opnames: je uploadt een audio- of videobestand en krijgt een volledig uitgeschreven transcript. Ideaal om colleges die je hebt opgenomen terug te lezen, of interviews, podcasts en alles wat je liever leest dan beluistert."
+      },
+      {
+        "q": "Wat doet de AI-samenvatting?",
+        "a": "AI-samenvatting haalt uit elk transcript de belangrijkste informatie, zoals hoofdpunten, genomen besluiten, actiepunten en belangrijke details, en zet die in een overzichtelijke samenvatting. Dat scheelt tijd als je een lang transcript van een vergadering of college hebt en snel de hoofdzaken wilt."
+      },
+      {
+        "q": "Is Captio AI gratis?",
+        "a": "Captio AI heeft een gratis versie waarmee je zonder te betalen kunt beginnen. Wie onbeperkt gebruik nodig heeft, kan kiezen voor het Plus-abonnement. De actuele prijs van Plus in jouw land staat in de App Store."
+      },
+      {
+        "q": "Wat is het verschil tussen Captio AI en de ingebouwde Live-ondertiteling van Apple?",
+        "a": "De Live-ondertiteling van Apple zit in iOS, maar ondersteunt minder talen, vertaalt niet en heeft geen Audiotranscriptie of AI-samenvatting. Captio AI ondersteunt 60+ talen, vertaalt in realtime, transcribeert geüploade bestanden en maakt AI-samenvattingen. Zo is het een veel completere tool voor toegankelijkheid en productiviteit."
+      }
+    ]
+  },
+  "featurePages": {
+    "live-captions": {
+      "meta": {
+        "title": "Live ondertiteling voor doven en slechthorenden op iPhone",
+        "description": "Spraak naar tekst in realtime via de microfoon van je iPhone. Volg meteen elk gesprek, in elke taal. Gemaakt voor doven en slechthorenden.",
+        "schemaDescription": "Realtime live ondertiteling voor doven en slechthorenden. 60+ talen, ruim minder dan een seconde vertraging, werkt overal."
+      },
+      "howTitle": "Drie tikken. Het hele gesprek.",
+      "steps": [
+        {
+          "title": "Start de opname",
+          "desc": "Druk op de opnameknop. Captio AI begint meteen te luisteren."
+        },
+        {
+          "title": "Zie de woorden verschijnen",
+          "desc": "De ondertiteling verschijnt woord voor woord terwijl de persoon nog praat."
+        },
+        {
+          "title": "Bewaar het",
+          "desc": "Houd het transcript en de geluidsopname voor later."
+        }
+      ],
+      "featuresTitle": "Gemaakt voor echte gesprekken",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Woorden die kloppen met wat er gezegd is",
+          "description": "Captio AI legt vast wat iemand echt zei, geen ruwe samenvatting in andere woorden. Zo kun je op het transcript vertrouwen wanneer het ertoe doet: bij de dokter, in een sollicitatiegesprek, in een vergadering."
+        },
+        {
+          "title": "Geen vertraging",
+          "description": "De vertraging is ruim minder dan een seconde. De ondertiteling verschijnt woord voor woord terwijl de persoon nog praat, zodat je leest wat er gezegd wordt op hetzelfde moment dat de rest het hoort."
+        },
+        {
+          "title": "Weet wie er praat",
+          "description": "In groepen en vergaderingen geeft Captio AI elke spreker een eigen label, zodat je altijd weet wie wat zei, zonder naar gezichten te kijken of lippen te volgen."
+        },
+        {
+          "title": "60+ talen",
+          "description": "Volg een gesprek in het Frans, Japans of Arabisch net zo makkelijk als een gesprek in het Nederlands. Zonder van modus te wisselen. Gehoorverlies wordt nooit ook nog een taalbarrière."
+        },
+        {
+          "title": "Kan wisselen tussen talen midden in een zin",
+          "description": "Als mensen midden in een gesprek van taal wisselen, houdt Captio AI het bij. Geen gat in de ondertiteling, geen modus om om te zetten."
+        },
+        {
+          "title": "Leer de app je eigen woorden",
+          "description": "Voeg namen, medische termen of vakwoorden toe die je vaak hoort. Captio AI gebruikt je woordenlijst om je echte gesprekken nauwkeuriger te ondertitelen."
+        },
+        {
+          "title": "Voeg een taalhint toe",
+          "description": "Vertel Captio AI welke taal je verwacht, dan staat de app vanaf het eerste woord goed afgesteld. Handig als niet uit de context duidelijk is welke taal er gesproken wordt."
+        },
+        {
+          "title": "Later opnieuw transcriberen voor meer nauwkeurigheid",
+          "description": "Haal een opname achteraf nog een keer door de app voor een netter transcript. Handig voor colleges, afspraken en elk gesprek dat je nog eens wilt teruglezen."
+        },
+        {
+          "title": "Lees het op jouw manier",
+          "description": "Pas tekstgrootte, achtergrondkleur en contrast aan tot je de ondertiteling in één oogopslag kunt lezen, met de telefoon in je hand, plat op tafel of rechtop op je bureau."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Audio blijft van onze servers af",
+          "description": "Je audio wordt in realtime omgezet in tekst en nooit op onze servers bewaard. Opnames die je bewaart, blijven op je telefoon en hun transcripten synchroniseren alleen met je eigen account."
+        },
+        {
+          "title": "Geen handelswaar",
+          "description": "Je gesprekken zijn niet iets wat Captio AI verkoopt, deelt of te gelde maakt, aan niemand en om geen enkele reden."
+        },
+        {
+          "title": "Nergens voor getraind",
+          "description": "Wat je zegt bij een doktersafspraak of in een sollicitatiegesprek komt nooit in een trainingsdataset terecht. Niet in die van ons. Niet in die van iemand anders."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Wat is het verschil tussen Captio AI en de ingebouwde Live-ondertiteling van Apple?",
+          "a": "De Live-ondertiteling van Apple ondersteunt minder talen, vertaalt niet en heeft geen Audiotranscriptie of AI-samenvatting. Captio AI ondersteunt 60+ talen, vertaalt in realtime, transcribeert geüploade bestanden en maakt AI-samenvattingen. Je kunt ook tekstgrootte, kleuren en contrast aanpassen zodat het precies leest zoals jij wilt."
+        },
+        {
+          "q": "Hoe nauwkeurig is de live ondertiteling?",
+          "a": "In gewone gesprekken is de nauwkeurigheid hoog. Captio AI is gemaakt voor echte spraak, niet alleen voor schoon studiogeluid, en kan dus overweg met snelle praters, regionale accenten, achtergrondlawaai en zinnen waarin talen door elkaar lopen. Je kunt ook eigen woorden toevoegen (namen, medische termen, vakwoorden) zodat jouw gesprekken nog nauwkeuriger worden herkend."
+        },
+        {
+          "q": "Hoe snel verschijnt de ondertiteling?",
+          "a": "Woord voor woord, terwijl de persoon nog praat. De vertraging is ruim minder dan een seconde, bijna realtime. Je leest wat iemand zegt op hetzelfde moment dat de rest het hoort, niet pas als de zin af is."
+        },
+        {
+          "q": "Werkt Live ondertiteling ook op rumoerige plekken?",
+          "a": "Ja. Captio AI is gemaakt voor echte omgevingen: restaurants, de straat, wachtkamers, het openbaar vervoer. Richt de microfoon op de spreker en de ondertiteling verschijnt, hoeveel achtergrondlawaai er ook is."
+        },
+        {
+          "q": "Welke talen ondersteunt Live ondertiteling?",
+          "a": "60+ talen, waaronder Engels, Spaans, Frans, Duits, Mandarijn, Arabisch, Hindi, Japans, Koreaans, Portugees, Russisch en nog veel meer. Regionale accenten en dialecten worden in alle grote talen ondersteund."
+        },
+        {
+          "q": "Werkt het met accenten en dialecten?",
+          "a": "Ja. Captio AI kan overweg met veel regionale accenten, niet alleen met keurige standaardtaal uit het leerboek. Australisch Engels, Latijns-Amerikaans Spaans, Zwitserduits, Québecois Frans en nog veel meer worden ondersteund."
+        },
+        {
+          "q": "Kan ik mijn ondertiteling bewaren?",
+          "a": "Ja. Na een sessie kun je transcripten en geluidsopnames bewaren en later terugkijken. Je kunt een bewaarde opname ook opnieuw transcriberen voor een netter, nauwkeuriger transcript."
+        },
+        {
+          "q": "Heb ik een internetverbinding nodig?",
+          "a": "Ja. Live ondertiteling heeft een internetverbinding nodig om spraak in realtime te verwerken. Offline ondertitelen wordt op dit moment niet ondersteund."
+        }
+      ]
+    },
+    "live-translator": {
+      "meta": {
+        "title": "Live vertaler: spraak in realtime vertalen op iPhone",
+        "description": "Spraak in realtime vertalen op je iPhone. De ander spreekt zijn eigen taal, jij leest in de jouwe, meteen en in elke taal. Gemaakt voor doven en slechthorenden.",
+        "schemaDescription": "Realtime spraakvertaling voor doven en slechthorenden. 60+ talen, iedereen spreekt zijn eigen taal, jij leest in de jouwe."
+      },
+      "howTitle": "Drie tikken. Elke taal.",
+      "steps": [
+        {
+          "title": "Kies de vertaalmodus",
+          "desc": "Open Captio AI en kies Live vertaler."
+        },
+        {
+          "title": "Kies je taal",
+          "desc": "Kies de taal waarin je wilt lezen."
+        },
+        {
+          "title": "Zie de vertaling in realtime",
+          "desc": "Captio AI vertaalt woord voor woord."
+        }
+      ],
+      "featuresTitle": "Gemaakt voor echte gesprekken",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Elke taal",
+          "description": "Frans, Japans, Arabisch, Spaans, Duits, Mandarijn: 60+ talen, in elke richting. Gehoorverlies wordt nooit ook nog een taalbarrière."
+        },
+        {
+          "title": "Herkent automatisch de gesproken taal",
+          "description": "Laat de brontaal op ‘Automatisch’ staan en Captio AI herkent de taal aan de eerste woorden. Je hoeft niet voor elk gesprek zelf een taal te kiezen."
+        },
+        {
+          "title": "Geen vertraging",
+          "description": "De vertraging van de vertaling is ruim minder dan een seconde. Je leest wat iemand zegt op hetzelfde moment dat de rest het hoort, niet pas als de zin af is."
+        },
+        {
+          "title": "Voeg taalhints toe",
+          "description": "Vertel Captio AI welke taal je verwacht, dan staat de app vanaf het eerste woord goed afgesteld. Handig als niet uit de context duidelijk is welke taal er gesproken wordt."
+        },
+        {
+          "title": "Meerdere talen tegelijk",
+          "description": "Als mensen midden in een gesprek van taal wisselen, houdt Captio AI het bij en vertaalt alles naar jouw taal, zonder dat je iets hoeft te doen."
+        },
+        {
+          "title": "Lees het op jouw manier",
+          "description": "Pas achtergrondkleur, tekstkleur en lettergrootte aan zodat je de vertaling in één oogopslag kunt lezen, of je de telefoon nu in je hand hebt of plat op tafel."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Audio blijft van onze servers af",
+          "description": "Je audio wordt in realtime omgezet in tekst en nooit op onze servers bewaard. Opnames die je bewaart, blijven op je telefoon en hun transcripten synchroniseren alleen met je eigen account."
+        },
+        {
+          "title": "Geen handelswaar",
+          "description": "Je gesprekken zijn niet iets wat Captio AI verkoopt, deelt of te gelde maakt, aan niemand en om geen enkele reden."
+        },
+        {
+          "title": "Nergens voor getraind",
+          "description": "Wat je zegt bij een doktersafspraak of in een sollicitatiegesprek komt nooit in een trainingsdataset terecht. Niet in die van ons. Niet in die van iemand anders."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Wat is het verschil tussen Live vertaler en Live ondertiteling?",
+          "a": "Live ondertiteling zet spraak om in tekst in de taal die gesproken wordt. Live vertaler neemt die spraak en vertaalt die in realtime naar de taal die jij kiest. Spreekt de ander Frans en wil jij in het Nederlands lezen, dan gebruik je Live vertaler."
+        },
+        {
+          "q": "Hoe nauwkeurig is de vertaling?",
+          "a": "Bij veelgebruikte taalcombinaties is de vertaling in alledaagse gesprekken heel nauwkeurig. Captio AI kan overweg met natuurlijke spraak, met snelle praters, accenten en achtergrondlawaai, niet alleen met schoon studiogeluid. Bij zeldzame taalcombinaties of heel technische inhoud kan de nauwkeurigheid verschillen."
+        },
+        {
+          "q": "Welke talen worden ondersteund?",
+          "a": "60+ talen, waaronder Engels, Spaans, Frans, Duits, Mandarijn, Arabisch, Hindi, Japans, Koreaans, Portugees, Russisch en nog veel meer. De bron- en doeltaal kunnen allebei elk van de ondersteunde talen zijn."
+        },
+        {
+          "q": "Hoe snel verschijnt de vertaling?",
+          "a": "De vertraging is ruim minder dan een seconde. Je leest de vertaling woord voor woord terwijl de persoon nog praat, bijna realtime en niet pas als de zin af is."
+        },
+        {
+          "q": "Werkt het bij een doktersafspraak met een arts die een andere taal spreekt?",
+          "a": "Ja. Dat is een van de belangrijkste toepassingen. Leg je telefoon op het bureau, zet de brontaal op de taal van de arts en lees alles wat er wordt gezegd in realtime in jouw taal. Je kunt het vertaalde transcript ook bewaren om de instructies later nog eens na te lezen."
+        },
+        {
+          "q": "Werkt het op rumoerige plekken?",
+          "a": "Ja. Captio AI is gemaakt voor echte omgevingen: wachtkamers, restaurants, luchthavens. Richt de microfoon op de spreker en de vertaling verschijnt, hoeveel omgevingsgeluid er ook is."
+        },
+        {
+          "q": "Kan ik het vertaalde transcript bewaren?",
+          "a": "Ja. Na een sessie kun je de vertaalde tekst bewaren en later teruglezen. Handig voor doktersafspraken, vergaderingen en elk gesprek waarvan je iets op papier wilt hebben."
+        },
+        {
+          "q": "Heb ik een internetverbinding nodig?",
+          "a": "Ja. Live vertaler heeft een internetverbinding nodig om spraak in realtime te verwerken en te vertalen. Offline vertalen wordt op dit moment niet ondersteund."
+        }
+      ]
+    },
+    "audio-transcription": {
+      "meta": {
+        "title": "Audiotranscriptie: audio en video omzetten naar tekst op iPhone",
+        "description": "Upload elk audio- of videobestand en krijg een volledig uitgeschreven transcript. 60+ talen, sprekers gescheiden, doorzoekbaar. Gemaakt voor doven en slechthorenden.",
+        "schemaDescription": "Upload elk audio- of videobestand en krijg een volledig uitgeschreven transcript. 60+ talen, sprekers gescheiden, tijdcodes. Gemaakt voor doven en slechthorenden."
+      },
+      "howTitle": "Uploaden. Lezen. Klaar.",
+      "steps": [
+        {
+          "title": "Kies wat je uploadt",
+          "desc": "Kies of je een audiobestand of een videobestand uploadt."
+        },
+        {
+          "title": "Kies een bestand",
+          "desc": "Kies het bestand op je telefoon. Captio AI begint meteen met transcriberen."
+        },
+        {
+          "title": "Bekijk de transcriptie",
+          "desc": "Lees het volledige transcript, geordend per spreker en met tijdcodes."
+        }
+      ],
+      "featuresTitle": "Gemaakt voor echte opnames",
+      "featuresSubtitle": "",
+      "subfeatures": [
+        {
+          "title": "Elk formaat",
+          "description": "MP3, MP4, M4A, WAV en meer. Colleges, vergaderingen, voicemails, podcasts, interviews, opnames van telefoongesprekken: als er in gesproken wordt, kan Captio AI het transcriberen."
+        },
+        {
+          "title": "Hoogste nauwkeurigheid",
+          "description": "Captio AI is gemaakt voor geluid uit het echte leven, niet alleen voor schone studiobestanden. Telefoongeluid, opnames in een collegezaal, rumoerige omgevingen: Captio AI kan het allemaal aan."
+        },
+        {
+          "title": "Elke taal",
+          "description": "Upload een opname in het Frans, Japans, Arabisch of in 57 andere talen. Captio AI herkent de taal en transcribeert die nauwkeurig."
+        },
+        {
+          "title": "Meerdere talen",
+          "description": "Als sprekers midden in een opname van taal wisselen, houdt Captio AI het bij. Het transcript bevat elke taal die gesproken is, zonder gaten."
+        },
+        {
+          "title": "Tijdcodes",
+          "description": "Elke regel in het transcript heeft een tijdcode, zodat je naar elk moment in de opname kunt springen en precies vindt wat er wanneer is gezegd."
+        },
+        {
+          "title": "Exporteren en delen",
+          "description": "Kopieer het volledige transcript, deel het of bewaar het. Je opnames en transcripten zijn er altijd wanneer je ze nodig hebt."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Bestanden blijven van onze servers af",
+          "description": "Je bestand wordt alleen verstuurd om getranscribeerd te worden, daarna gewist en nooit op onze servers bewaard. De opname blijft op je telefoon en het transcript synchroniseert alleen met je eigen account."
+        },
+        {
+          "title": "Geen handelswaar",
+          "description": "Je opnames zijn niet iets wat Captio AI verkoopt, deelt of te gelde maakt, aan niemand en om geen enkele reden."
+        },
+        {
+          "title": "Nergens voor getraind",
+          "description": "Wat je uploadt, of het nu een doktersafspraak, een vergadering of een interview is, komt nooit in een trainingsdataset terecht. Niet in die van ons. Niet in die van iemand anders."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Wat is het verschil tussen Audiotranscriptie en Live ondertiteling?",
+          "a": "Live ondertiteling werkt in realtime, terwijl iemand praat. Audiotranscriptie is voor opnames: je uploadt een audio- of videobestand en krijgt een volledig uitgeschreven transcript. Ideaal om colleges die je hebt opgenomen terug te lezen, of doktersafspraken, interviews en alles wat je liever leest dan beluistert."
+        },
+        {
+          "q": "Welke bestandsformaten ondersteunt Audiotranscriptie?",
+          "a": "Captio AI accepteert gangbare audio- en videoformaten, waaronder MP3, MP4, M4A, WAV en meer. Heb je het met je telefoon opgenomen of van een videoplatform gedownload, dan werkt het."
+        },
+        {
+          "q": "Hoe nauwkeurig is de transcriptie?",
+          "a": "Bij heldere opnames in ondersteunde talen is de nauwkeurigheid hoog. Captio AI kan overweg met geluid uit het echte leven, zoals telefoongesprekken, opnames in een collegezaal en rumoerige omgevingen, niet alleen met bestanden van studiokwaliteit. Als het nodig is, kun je een bestand ook een tweede keer laten transcriberen."
+        },
+        {
+          "q": "Welke talen worden ondersteund?",
+          "a": "60+ talen, waaronder Engels, Spaans, Frans, Duits, Mandarijn, Arabisch, Hindi, Japans, Koreaans, Portugees, Russisch en nog veel meer. Captio AI herkent automatisch welke taal er in het bestand wordt gesproken."
+        },
+        {
+          "q": "Worden sprekers gescheiden?",
+          "a": "Ja. Captio AI geeft elke spreker in het transcript een eigen label, zodat je kunt volgen wie wat zei. Handig voor vergaderingen, interviews, doktersafspraken en elke opname met meerdere mensen."
+        },
+        {
+          "q": "Hoe lang duurt het transcriberen?",
+          "a": "Transcriberen gaat snel. Een opname van een uur duurt meestal een paar minuten. Hoe lang precies hangt af van de lengte van het bestand en de geluidskwaliteit."
+        },
+        {
+          "q": "Wordt mijn audio na het transcriberen bewaard?",
+          "a": "Niet op de servers van Captio AI. Het bestand wordt beveiligd naar een spraakherkenningsdienst gestuurd, alleen om getranscribeerd te worden, en daar gewist zodra het transcript klaar is. De opname blijft op je telefoon en het transcript staat ook in je eigen account, zodat je het op een ander apparaat kunt openen. Je opnames worden nooit verkocht of gebruikt om AI-modellen te trainen."
+        },
+        {
+          "q": "Kan ik een videobestand transcriberen?",
+          "a": "Ja. Upload het videobestand gewoon en Captio AI haalt het geluid eruit en transcribeert het. Je hoeft het bestand niet eerst om te zetten."
+        }
+      ]
+    },
+    "ai-summary": {
+      "meta": {
+        "title": "AI-samenvatting: elk transcript overzichtelijk samengevat",
+        "description": "Maak van elk transcript een overzichtelijke samenvatting. Kernpunten, besluiten en actiepunten worden automatisch eruit gehaald. Gemaakt voor doven en slechthorenden.",
+        "schemaDescription": "Maak van elk transcript een overzichtelijke samenvatting. Kernpunten, besluiten, actiepunten en citaten van sprekers worden automatisch eruit gehaald."
+      },
+      "howTitle": "Transcript erin. Samenvatting eruit.",
+      "steps": [
+        {
+          "title": "Open een transcript",
+          "desc": "Kies een transcript uit Live ondertiteling of Audiotranscriptie."
+        },
+        {
+          "title": "Maak een samenvatting",
+          "desc": "Tik op AI-samenvatting. Captio AI verwerkt het transcript automatisch."
+        },
+        {
+          "title": "Lees de samenvatting",
+          "desc": "Je samenvatting is klaar, ingedeeld in secties en klaar om te lezen of te delen."
+        }
+      ],
+      "featuresTitle": "Gemaakt voor lange transcripten",
+      "featuresSubtitle": "Krijg een samenvatting, to-do’s, citaten van sprekers, notities en meer.",
+      "subfeatures": [
+        {
+          "title": "Kernpunten automatisch eruit gehaald",
+          "description": "Captio AI leest het volledige transcript en haalt eruit wat er echt toe deed: de hoofdpunten, de genomen besluiten en de conclusies."
+        },
+        {
+          "title": "Actiepunten op een rij",
+          "description": "Taken en vervolgstappen worden herkend en apart op een rij gezet, zodat er na een vergadering, afspraak of college niets tussen wal en schip valt."
+        },
+        {
+          "title": "Ingedeeld in secties",
+          "description": "De samenvatting is overzichtelijk opgebouwd, geen lange lap tekst. Elk onderwerp krijgt een eigen sectie, zodat je snel vindt wat je zoekt."
+        },
+        {
+          "title": "Werkt met elk transcript in Captio AI",
+          "description": "Gebruik AI-samenvatting voor elk transcript dat je met Live ondertiteling of Audiotranscriptie hebt gemaakt. Geen extra stappen, geen knippen en plakken."
+        },
+        {
+          "title": "Elke taal",
+          "description": "Vat transcripten samen in 60+ talen. Captio AI leest het transcript in de oorspronkelijke taal en maakt een samenvatting die je kunt lezen."
+        },
+        {
+          "title": "Bewaren en delen",
+          "description": "Bewaar de samenvatting bij het transcript, kopieer of deel hem. Handig na doktersafspraken, vergaderingen en colleges."
+        }
+      ],
+      "privacyCards": [
+        {
+          "title": "Alleen in je eigen account bewaard",
+          "description": "Je samenvatting wordt bewaard bij de opname, op je telefoon en in je eigen account, dus hij staat op elk apparaat waarop je inlogt. Verwijder je de samenvatting, dan is die overal weg."
+        },
+        {
+          "title": "Geen handelswaar",
+          "description": "Je gesprekken zijn niet iets wat Captio AI verkoopt, deelt of te gelde maakt, aan niemand en om geen enkele reden."
+        },
+        {
+          "title": "Nergens voor getraind",
+          "description": "Wat je samenvat, of het nu een doktersafspraak, een vergadering of een interview is, komt nooit in een trainingsdataset terecht. Niet in die van ons. Niet in die van iemand anders."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Wat doet AI-samenvatting?",
+          "a": "AI-samenvatting haalt uit elk transcript de belangrijkste informatie, zoals hoofdpunten, besluiten, actiepunten en belangrijke details, en zet die in een overzichtelijke samenvatting. Dat scheelt tijd als je een lang transcript hebt en snel de hoofdzaken wilt."
+        },
+        {
+          "q": "Welke transcripten kan ik samenvatten?",
+          "a": "Elk transcript dat je in Captio AI hebt gemaakt, met Live ondertiteling of Audiotranscriptie. Je start AI-samenvatting direct vanuit het transcript, zonder extra stappen."
+        },
+        {
+          "q": "Wat is het verschil tussen AI-samenvatting en gewoon het transcript lezen?",
+          "a": "Een volledig transcript van een vergadering van een uur kan duizenden woorden lang zijn. AI-samenvatting geeft je de kernpunten, besluiten en actiepunten in een fractie van de leestijd, geordend per onderwerp in plaats van in de volgorde waarin alles gezegd werd."
+        },
+        {
+          "q": "Werkt het voor doktersafspraken?",
+          "a": "Ja. Bij een doktersafspraak krijg je in korte tijd veel informatie. AI-samenvatting haalt de diagnose, instructies en vervolgstappen eruit en zet ze in een duidelijke lijst die je kunt nalezen en later terugpakken."
+        },
+        {
+          "q": "Welke talen worden ondersteund?",
+          "a": "AI-samenvatting werkt met transcripten in 60+ talen. De samenvatting wordt gemaakt in dezelfde taal als het transcript."
+        },
+        {
+          "q": "Kan ik de samenvatting bewaren of delen?",
+          "a": "Ja. Je kunt de samenvatting bij het oorspronkelijke transcript bewaren, kopiëren of delen. Handig om een verslag van een vergadering te sturen of een doktersafspraak vast te leggen."
+        },
+        {
+          "q": "Bewaart AI-samenvatting mijn transcript of audio?",
+          "a": "Je transcript wordt beveiligd naar een AI-dienst gestuurd, alleen om de samenvatting te schrijven, en wordt nooit gebruikt om AI-modellen te trainen. De samenvatting wordt bij de opname bewaard, op je telefoon en in je eigen account, tot je die verwijdert. Audio wordt nooit op de servers van Captio AI bewaard en je gesprekken worden nooit verkocht."
+        }
+      ]
+    }
+  }
+}

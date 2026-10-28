@@ -1,4 +1,6 @@
 import Image from "next/image";
+import en from "@/i18n/messages/en.json";
+import type { Messages } from "@/i18n";
 
 // Store links behind every download button and QR code on the site.
 // (Canonical listings for schema/llms.txt live in src/lib/schema.ts.)
@@ -6,6 +8,9 @@ export const APP_STORE_LINK = "https://apps.apple.com/si/app/captio-ai/id6796617
 export const GOOGLE_PLAY_LINK = "https://play.google.com/store/apps/details?id=com.captio.app&hl=en";
 
 type Size = "md" | "sm";
+
+/** The buttons' words; English unless a translated page passes its own. */
+type StoreLabels = Messages["store"];
 
 const AppleLogo = ({ className }: { className: string }) => (
   <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden className={className}>
@@ -23,25 +28,25 @@ const STORES = {
   apple: {
     href: APP_STORE_LINK,
     Logo: AppleLogo,
-    overline: "Download on the",
+    overline: "appleOverline",
     name: "App Store",
     qr: "/qr-appstore.png",
-    qrAlt: "QR code to download Captio AI on the App Store for iPhone",
+    qrAlt: "appleQrAlt",
   },
   google: {
     href: GOOGLE_PLAY_LINK,
     Logo: PlayLogo,
-    overline: "Get it on",
+    overline: "googleOverline",
     name: "Google Play",
     qr: "/qr-googleplay.png",
-    qrAlt: "QR code to download Captio AI on Google Play for Android",
+    qrAlt: "googleQrAlt",
   },
 } as const;
 
 type Store = keyof typeof STORES;
 
 /** One orange store button. Both stores share a fixed width so they read as a pair. */
-export function StoreButton({ store, size = "md", fill = false }: { store: Store; size?: Size; fill?: boolean }) {
+export function StoreButton({ store, size = "md", fill = false, t = en.store }: { store: Store; size?: Size; fill?: boolean; t?: StoreLabels }) {
   const s = STORES[store];
   const width = fill ? "w-full" : size === "sm" ? "w-[152px]" : "w-[156px] sm:w-[200px]";
   const box = size === "sm" ? "px-3 py-3 gap-2.5" : "px-3 py-3 gap-2.5 sm:px-5 sm:py-4 sm:gap-3";
@@ -53,9 +58,9 @@ export function StoreButton({ store, size = "md", fill = false }: { store: Store
       className={`inline-flex items-center justify-center bg-cta text-white font-semibold rounded-[8px] hover:bg-cta-dark transition-colors ${width} ${box}`}
     >
       <s.Logo className={size === "sm" ? "w-5 h-5 shrink-0" : "w-5 h-5 sm:w-6 sm:h-6 shrink-0"} />
-      <span className="text-left whitespace-nowrap">
+      <span className="text-start whitespace-nowrap">
         <span className={`block font-normal opacity-75 leading-none mb-1 ${size === "sm" ? "text-[10px]" : "text-[10px] sm:text-xs"}`}>
-          {s.overline}
+          {t[s.overline]}
         </span>
         <span className={`block font-bold leading-none ${size === "sm" ? "text-[15px]" : "text-[15px] sm:text-lg"}`}>{s.name}</span>
       </span>
@@ -64,11 +69,11 @@ export function StoreButton({ store, size = "md", fill = false }: { store: Store
 }
 
 /** App Store + Google Play side by side; wraps to two rows on very narrow screens. */
-export function StoreButtons({ size = "md", stacked = false }: { size?: Size; stacked?: boolean }) {
+export function StoreButtons({ size = "md", stacked = false, t }: { size?: Size; stacked?: boolean; t?: StoreLabels }) {
   return (
     <div className={stacked ? "flex flex-col gap-2" : "flex flex-wrap justify-center gap-2 sm:gap-3"}>
-      <StoreButton store="apple" size={size} />
-      <StoreButton store="google" size={size} />
+      <StoreButton store="apple" size={size} t={t} />
+      <StoreButton store="google" size={size} t={t} />
     </div>
   );
 }
@@ -77,15 +82,15 @@ export function StoreButtons({ size = "md", stacked = false }: { size?: Size; st
  * Buttons with a QR code above each one from `sm` up (a computer visitor scans
  * with their phone); on a phone the QR codes are hidden and only the buttons show.
  */
-export function StoreQrButtons() {
+export function StoreQrButtons({ t = en.store }: { t?: StoreLabels }) {
   return (
     <div className="flex flex-wrap justify-center gap-2 sm:gap-8">
       {(Object.keys(STORES) as Store[]).map((store) => (
         <div key={store} className="flex flex-col items-center gap-4">
           <div className="hidden sm:block p-3 bg-white border border-gray-200 rounded-xl">
-            <Image src={STORES[store].qr} alt={STORES[store].qrAlt} width={112} height={112} className="w-28 h-28 rounded-lg" />
+            <Image src={STORES[store].qr} alt={t[STORES[store].qrAlt]} width={112} height={112} className="w-28 h-28 rounded-lg" />
           </div>
-          <StoreButton store={store} />
+          <StoreButton store={store} t={t} />
         </div>
       ))}
     </div>
@@ -96,26 +101,27 @@ export function StoreQrButtons() {
  * The download card used in heroes and at the bottom of pages. A white card on
  * computers with both QR codes; on phones just the label and the two buttons.
  */
-export function DownloadCard({ id, className = "" }: { id?: string; className?: string }) {
+export function DownloadCard({ id, className = "", t = en.store }: { id?: string; className?: string; t?: StoreLabels }) {
   return (
     <div
       id={id}
       className={`flex flex-col items-center gap-3 sm:gap-5 sm:bg-white sm:rounded-xl sm:border sm:border-gray-100 sm:shadow-sm sm:px-10 sm:py-7 ${className}`}
     >
-      <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">Download for free</p>
-      <StoreQrButtons />
+      <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">{t.downloadForFree}</p>
+      <StoreQrButtons t={t} />
     </div>
   );
 }
 
 /** Two small QR codes for tight spots (the blog sidebar), each captioned with its store. */
 export function StoreQrPair({ onDark = false }: { onDark?: boolean }) {
+  const t = en.store;
   return (
     <div className="flex gap-3">
       {(Object.keys(STORES) as Store[]).map((store) => (
         <div key={store} className="flex flex-col items-center gap-2">
           <div className="p-2 bg-white rounded-xl">
-            <Image src={STORES[store].qr} alt={STORES[store].qrAlt} width={80} height={80} className="w-20 h-20 rounded-md" />
+            <Image src={STORES[store].qr} alt={t[STORES[store].qrAlt]} width={80} height={80} className="w-20 h-20 rounded-md" />
           </div>
           <span className={`text-[11px] font-semibold ${onDark ? "text-blue-100" : "text-gray-500"}`}>
             {store === "apple" ? "iPhone" : "Android"}
