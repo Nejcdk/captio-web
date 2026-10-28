@@ -29,7 +29,7 @@ differences:
     text: "Live Transcribe can keep transcription history on the phone for up to three days if you turn it on. Captio AI saves each recording with its audio in a library synced to your account, and can turn it into a summary or to-dos."
     sources: [live-transcribe:saveTranscripts, captio-ai:saveTranscripts, captio-ai:summaries]
   - title: "What does each one cost?"
-    text: "Live Transcribe is free, with no in-app purchases. Captio AI is free for 10 minutes of captions a day; Captio AI Plus costs US$14.99 a month or US$79.99 a year on the US App Store (October 2026), with no free trial."
+    text: "Live Transcribe is free, with no in-app purchases. Captio AI is free with 100 free credits a day; Captio AI Plus costs US$14.99 a month or US$79.99 a year on the US App Store (October 2026), with no free trial."
     sources: [live-transcribe:price, captio-ai:freePlan, captio-ai:price]
 better:
   live-transcribe:
@@ -95,7 +95,7 @@ faqs:
   - q: "How long does Live Transcribe keep transcripts?"
     a: "Saving is optional. With history on, Google keeps transcripts on the phone for up to three days and then deletes them. Captio AI saves each recording with its audio in a library synced to your account."
   - q: "Is Captio AI free like Live Transcribe?"
-    a: "Partly. Captio AI's free plan covers 10 minutes of live captions or transcription a day and 3 AI summaries in total. Captio AI Plus removes the limits for US$14.99 a month or US$79.99 a year on the US App Store (October 2026). Live Transcribe is free with no in-app purchases."
+    a: "Partly. Captio AI's free plan gives 100 free credits a day for live captions or transcription and 3 AI summaries in total. Captio AI Plus removes the limits for US$14.99 a month or US$79.99 a year on the US App Store (October 2026). Live Transcribe is free with no in-app purchases."
   - q: "Which one is better for a doctor's appointment?"
     a: "Both let you add words, such as names or medical terms, so they are recognised. Live Transcribe can work without signal if the language is downloaded. Captio AI keeps the recording, so you can read the appointment again and turn it into a summary or to-dos."
   - q: "Does either app caption phone calls?"

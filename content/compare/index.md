@@ -23,7 +23,7 @@ overview:
   rows: [platforms, languages, offline, speakerLabels, translation, freePlan]
 faqs:
   - q: "What is the difference between Live Transcribe and Live Caption on Android?"
-    a: "Live Transcribe captions people talking around you, through the phone's microphone. Live Caption captions audio playing on the phone, such as videos, podcasts and calls, and doesn't caption people in the room. Both are made by Google."
+    a: "Live Transcribe captions people talking around you, through the phone's microphone. Live Caption captions audio playing on the phone, such as videos, podcasts and calls, and doesn't caption people in the room. Both are made by Google. Captio AI does the job of Live Transcribe, on Android and iPhone."
   - q: "Which caption apps work on iPhone?"
     a: "Apple's Live Captions is built into iPhone, iPad and Mac, and Captio AI, Ava and Otter.ai have iPhone apps. Google Live Transcribe and Android's Live Caption are Android only."
   - q: "Which caption apps work without internet?"

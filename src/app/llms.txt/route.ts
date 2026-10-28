@@ -22,7 +22,7 @@ export function GET() {
     "Key facts:",
     "- Made for in-person speech picked up by the phone's microphone: conversations, doctor's appointments, lectures, meetings, dinners, travel.",
     "- Labels speakers, handles accents and mid-sentence language switches, and lets you add your own words and names.",
-    "- Free plan with 10 minutes of captions a day; Captio AI Plus removes the limit.",
+    "- Free plan with 100 free credits a day; Captio AI Plus removes the limit.",
     "- Audio is processed in real time and not stored on Captio AI's servers; content is never sold or used to train AI models.",
     `- iPhone: ${APP_STORE_URL}`,
     `- Android: ${GOOGLE_PLAY_URL}`,

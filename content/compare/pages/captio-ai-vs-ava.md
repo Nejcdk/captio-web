@@ -29,11 +29,11 @@ differences:
     text: "Ava saves a text transcript, without audio, if you turn on saving or choose to save at the end, and its Smart Recap gives key points (5 free on iOS). Captio AI keeps recordings with their audio in a library synced to your account, and turns them into a summary, key points or to-dos."
     sources: [ava:saveTranscripts, ava:summaries, captio-ai:saveTranscripts, captio-ai:summaries]
   - title: "What does each one cost?"
-    text: "Ava's free plan has unlimited basic captions in sessions of up to 40 minutes. Ava Community costs US$14.99 a month or US$119.99 a year on the US App Store (October 2026), with 3 hours of Premium captions a month; Pro and Enterprise prices aren't published. Captio AI is free for 10 minutes a day; Captio AI Plus costs US$14.99 a month or US$79.99 a year on the US App Store (October 2026), with no free trial."
+    text: "Ava's free plan has unlimited basic captions in sessions of up to 40 minutes. Ava Community costs US$14.99 a month or US$119.99 a year on the US App Store (October 2026), with 3 hours of Premium captions a month; Pro and Enterprise prices aren't published. Captio AI is free with 100 free credits a day; Captio AI Plus costs US$14.99 a month or US$79.99 a year on the US App Store (October 2026), with no free trial."
     sources: [ava:freePlan, ava:price, captio-ai:freePlan, captio-ai:price]
 better:
   ava:
-    - text: "Basic captions are free with no monthly limit, in sessions of up to 40 minutes you can restart. Captio AI's free plan covers 10 minutes a day."
+    - text: "Basic captions are free with no monthly limit, in sessions of up to 40 minutes you can restart. Captio AI's free plan gives 100 free credits a day."
       sources: [ava:freePlan, captio-ai:freePlan]
     - text: "Up to 25 people can join a group conversation from their own phone, without the app or an account, and each phone works as a microphone."
       sources: [ava:groupConversations]
@@ -86,7 +86,7 @@ situations:
     link: /use-cases/traveling
 faqs:
   - q: "Does Ava have a free plan?"
-    a: "Yes. Ava's pricing page and App Store listing describe unlimited basic captions in sessions of up to 40 minutes that you can restart; an older answer on the pricing page still mentions 5 free hours a month. Premium captions, captioning in a language other than your phone's, and translation need a paid plan. Captio AI's free plan gives 10 minutes of captions a day and 3 AI summaries."
+    a: "Yes. Ava's pricing page and App Store listing describe unlimited basic captions in sessions of up to 40 minutes that you can restart; an older answer on the pricing page still mentions 5 free hours a month. Premium captions, captioning in a language other than your phone's, and translation need a paid plan. Captio AI's free plan gives 100 free credits a day and 3 AI summaries."
   - q: "How much does Ava cost in the US?"
     a: "Ava Community costs US$14.99 a month or US$119.99 a year on the US App Store (October 2026), with 3 hours of Premium captions a month and extra hours at US$4.99. Pro and Enterprise prices are not published. Captio AI Plus costs US$14.99 a month or US$79.99 a year on the US App Store (October 2026)."
   - q: "Does Ava work offline on a plane?"

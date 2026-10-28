@@ -136,7 +136,7 @@ Answer engines search, read a few pages, and quote the passages that answer the 
 
 - Mention it where it genuinely helps the reader, usually once or twice in the body, always tied to a concrete situation ("put your phone on the table during the appointment").
 - Never open the article with Captio AI, except in comparisons that are about it.
-- In comparisons, Captio AI is described exactly like a competitor: facts from `CAPTIO_FACTS.md`, limits included (internet needed for live captions, free plan 10 minutes a day, Android has no locked-screen captions).
+- In comparisons, Captio AI is described exactly like a competitor: facts from `CAPTIO_FACTS.md`, limits included (internet needed for live captions, free plan with 100 free credits a day, Android has no locked-screen captions).
 - The page already shows a download box; don't add "download now" calls in the text.
 
 ## 9. Style

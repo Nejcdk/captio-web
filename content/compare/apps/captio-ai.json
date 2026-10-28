@@ -207,8 +207,8 @@
     },
     "freePlan": {
       "status": "yes",
-      "text": "10 min a day + 3 summaries",
-      "detail": "Free every day: 10 minutes of live captions or transcription a day, and 3 AI summaries in total.",
+      "text": "100 free credits a day + 3 summaries",
+      "detail": "Free every day: 100 free credits a day for live captions or transcription, and 3 AI summaries in total.",
       "sources": [
         "s1",
         "s8"
@@ -260,7 +260,7 @@
       ]
     },
     {
-      "text": "The free plan covers 10 minutes of captions a day; more needs Captio AI Plus.",
+      "text": "The free plan gives 100 free credits a day; more needs Captio AI Plus.",
       "sources": [
         "s8"
       ]
@@ -375,7 +375,7 @@
       "opened": true,
       "checked": "2026-10-28",
       "quotes": [
-        "Free plan with 10 minutes of captions a day; Captio AI Plus removes the limit."
+        "Free plan with 100 free credits a day; Captio AI Plus removes the limit."
       ]
     },
     {

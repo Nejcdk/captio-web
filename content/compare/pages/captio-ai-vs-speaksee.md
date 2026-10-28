@@ -20,7 +20,7 @@ differences:
     text: "Speaksee. Each speaker wears their own microphone, captions are split by colour and name per person, and Speaksee says the kit transcribes groups even with background noise. Captio AI captions the whole table from one phone and labels each speaker."
     sources: [speaksee:groupConversations, speaksee:speakerLabels, speaksee:s3, captio-ai:groupConversations, captio-ai:speakerLabels]
   - title: "How much does Speaksee cost?"
-    text: "Speaksee publishes no prices and asks you to request a quote. Canadian reseller Special Needs Computers lists the 3-microphone kit at CA$2,029.99 plus CA$2,800.00 for a one-year subscription (October 2026). Captio AI is free for 10 minutes of captions a day, and Captio AI Plus costs US$14.99 a month or US$79.99 a year on the US App Store."
+    text: "Speaksee publishes no prices and asks you to request a quote. Canadian reseller Special Needs Computers lists the 3-microphone kit at CA$2,029.99 plus CA$2,800.00 for a one-year subscription (October 2026). Captio AI is free with 100 free credits a day, and Captio AI Plus costs US$14.99 a month or US$79.99 a year on the US App Store."
     sources: [speaksee:price, captio-ai:freePlan, captio-ai:price]
   - title: "Can you get Speaksee paid for?"
     text: "Often, in the UK and the Netherlands. Speaksee points UK employees to Access to Work and students to the Disabled Students' Allowance, and Dutch health insurers with a contract usually pay the full cost. Captio AI has no government funding programme."
@@ -46,7 +46,7 @@ better:
   captio-ai:
     - text: "It captions from the phone's own microphone, so there is no kit to buy and nobody has to wear a microphone."
       sources: [captio-ai:roomCaptions, speaksee:roomCaptions]
-    - text: "It has a free plan: 10 minutes of captions a day and 3 AI summaries."
+    - text: "It has a free plan: 100 free credits a day and 3 AI summaries."
       sources: [captio-ai:freePlan]
     - text: "It saves recordings with their audio, transcribes files, and writes summaries and to-dos."
       sources: [captio-ai:saveTranscripts, captio-ai:fileUpload, captio-ai:summaries]
@@ -87,15 +87,15 @@ faqs:
   - q: "Does Speaksee work without the microphone kit?"
     a: "No. Speaksee says its app works only with the Speaksee Microphone Kit and is not a standalone app; it doesn't caption with the phone's own microphone. Captio AI captions from the phone's microphone."
   - q: "How much does Speaksee cost?"
-    a: "Speaksee doesn't publish prices; it asks you to request a quote and says the cost depends on your needs and the number of microphones. Canadian reseller Special Needs Computers lists the 3-microphone kit at CA$2,029.99, the 6-microphone kit at CA$2,999.99 and a one-year subscription at CA$2,800.00 (October 2026)."
+    a: "Speaksee doesn't publish prices; it asks you to request a quote and says the cost depends on your needs and the number of microphones. Canadian reseller Special Needs Computers lists the 3-microphone kit at CA$2,029.99, the 6-microphone kit at CA$2,999.99 and a one-year subscription at CA$2,800.00 (October 2026). Captio AI needs no kit: it uses your phone's microphone, its free plan gives 100 free credits a day, and Captio AI Plus costs US$14.99 a month or US$79.99 a year on the US App Store (October 2026)."
   - q: "Is Speaksee covered by Access to Work or the DSA in the UK?"
     a: "Speaksee says many UK customers have used Access to Work to buy the kit, and that the Disabled Students' Allowance covers it for students. Captio AI has no government funding programme; organisations can get licences through captioai.app/organizations."
   - q: "Is Speaksee reimbursed by Dutch health insurance?"
-    a: "Speaksee says that if your health insurer has a contract with Speaksee, the full cost is usually reimbursed, though your deductible (eigen risico) still applies. The licence for private use runs five years, and work use can be paid through the UWV."
+    a: "Speaksee says that if your health insurer has a contract with Speaksee, the full cost is usually reimbursed, though your deductible (eigen risico) still applies. The licence for private use runs five years, and work use can be paid through the UWV. Captio AI isn't paid for by a public programme, but an organisation can buy Captio AI licences for the people who need them."
   - q: "Does Speaksee work in a noisy restaurant?"
     a: "Speaksee says the kit transcribes groups in real time even with background noise, with each speaker wearing their own microphone. It needs internet, and each microphone lasts about 4 hours per charge. Captio AI captions from the phone's own microphone."
   - q: "How many people can Speaksee caption at once?"
-    a: "One kit has 3 microphones, and another kit can be added. Speaksee's website says groups of up to 9 people; its App Store and Google Play listings say up to six speakers at the same time."
+    a: "One kit has 3 microphones, and another kit can be added. Speaksee's website says groups of up to 9 people; its App Store and Google Play listings say up to six speakers at the same time. Captio AI captions the whole table from one phone and labels each speaker."
   - q: "Which languages does Speaksee support?"
     a: "Speaksee's help centre lists 11 languages tested by native speakers, including Dutch, English, French, German, Italian, Portuguese and Spanish, and 44 more entries not yet tested. Captio AI captions and translates in 60+ languages."
   - q: "Can Speaksee caption phone calls?"

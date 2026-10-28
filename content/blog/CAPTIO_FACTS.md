@@ -53,7 +53,7 @@ Each row is one thing the app does for the reader. `id` is used in `topics.json`
 - Anything in the app's code that the 1.1.3 release notes do not mention (for example the speaker direction waves). Android availability of the 1.1.3 features is not confirmed: write "iPhone" only.
 
 ## Price (state "as of October 2026" and the store when you mention it)
-- Free to download. Free plan: 10 minutes of live captions or transcription a day (shown in the app as 100 credits), and 3 free AI summaries in total.
+- Free to download. Free plan: **100 free credits a day** for live captions or transcription, and 3 free AI summaries in total. Always write "100 free credits a day"; never describe the free plan in minutes (Nejc, 2026-10-28).
 - Captio AI Plus removes the daily limit and the summary limit.
 - App Store, US prices: Monthly US$14.99, Yearly US$79.99. No free trial: the 3-day trial offers were removed on 2026-10-21, so never mention a trial. Prices differ by country.
 - Don't state Android prices.

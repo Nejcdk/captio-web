@@ -29,7 +29,7 @@ differences:
     text: "Both. XRAI Glass translates live on its paid plans, with Auto-reverse for a two-language conversation and up to 10 spoken languages at once; its pages disagree on whether the free plan translates. Captio AI translates live next to the original captions, with a two-way mode, in 60+ languages."
     sources: [xrai-glass:translation, captio-ai:translation, captio-ai:languages]
   - title: "What does each one cost?"
-    text: "XRAI Glass Premium is US$20 a month, or US$15 a month billed yearly, on XRAI's pricing page, and Ultimate is US$40 a month. Captio AI Plus is US$14.99 a month or US$79.99 a year on the US App Store (October 2026). XRAI's free plan has unlimited offline captioning; Captio AI's free plan has 10 minutes of captions a day."
+    text: "XRAI Glass Premium is US$20 a month, or US$15 a month billed yearly, on XRAI's pricing page, and Ultimate is US$40 a month. Captio AI Plus is US$14.99 a month or US$79.99 a year on the US App Store (October 2026). XRAI's free plan has unlimited offline captioning; Captio AI's free plan has 100 free credits a day."
     sources: [xrai-glass:price, xrai-glass:freePlan, captio-ai:price, captio-ai:freePlan]
 better:
   xrai-glass:
@@ -86,9 +86,9 @@ situations:
     link: /use-cases/traveling
 faqs:
   - q: "Do you need smart glasses to use XRAI Glass?"
-    a: "No. XRAI says you can use the app on iPhone and Android without AR glasses, with the captions on the phone screen. Glasses such as XRAI's own AR2, at US$699, are optional."
+    a: "No. XRAI says you can use the app on iPhone and Android without AR glasses, with the captions on the phone screen. Glasses such as XRAI's own AR2, at US$699, are optional. Captio AI shows captions on the screen of your iPhone, iPad or Android phone."
   - q: "Does XRAI Glass have a free plan?"
-    a: "Yes. XRAI Essentials is free, with unlimited offline captioning, up to 30 minutes per conversation and 1 day of history, and no speaker identification. XRAI's own pages disagree on whether it includes translation. Captio AI's free plan covers 10 minutes of live captions or transcription a day and 3 AI summaries in total."
+    a: "Yes. XRAI Essentials is free, with unlimited offline captioning, up to 30 minutes per conversation and 1 day of history, and no speaker identification. XRAI's own pages disagree on whether it includes translation. Captio AI's free plan gives 100 free credits a day for live captions or transcription and 3 AI summaries in total."
   - q: "How much does XRAI Glass cost in the US?"
     a: "XRAI's pricing page lists Premium at US$20 a month or US$15 a month billed yearly, and Ultimate at US$40 a month or US$30 billed yearly (October 2026). The US App Store lists Premium at US$19.99 a month or US$179.99 a year. Captio AI Plus is US$14.99 a month or US$79.99 a year on the US App Store."
   - q: "Does XRAI Glass work offline on a plane or abroad?"
