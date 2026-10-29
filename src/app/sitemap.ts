@@ -15,13 +15,13 @@ import { LOCALE_CODES } from "@/i18n/locales";
 // URL with the deploy date teaches them to ignore it. When you meaningfully edit
 // a group's content, bump its date here.
 const UPDATED = {
-  core: "2026-10-13", // homepage, feature pages
+  core: "2026-10-29", // homepage, feature pages
   languages: "2026-10-13", // /[language]
   useCases: "2026-10-13", // /use-cases/[slug] and /use-cases/[slug]/[language]
   privacy: "2026-10-07",
   terms: "2026-10-07",
   organizations: "2026-10-29",
-  translations: "2026-10-28", // /<code> and /<code>/<feature>
+  translations: "2026-10-29", // /<code> and /<code>/<feature>
   moreFeatures: "2026-10-28", // /ai-actions, /export, /folders, /recognize-voices, /speaker-direction, /recognize-sounds, /connectors, /widgets
 };
 

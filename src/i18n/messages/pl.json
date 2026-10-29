@@ -133,6 +133,11 @@
         "title": "Zobacz, skąd dochodzi głos",
         "description": "Fale na brzegu napisów wskazują, kto mówi. iPhone 16 i nowsze."
       },
+      "recognize-sounds": {
+        "label": "Rozpoznawanie dźwięków",
+        "title": "Dźwięki w twoich napisach",
+        "description": "Dzwonek do drzwi, alarm czy płacz dziecka pojawia się w napisach, a przy ważnych dźwiękach telefon wibruje."
+      },
       "connectors": {
         "label": "Konektory",
         "title": "Zapytaj swojego asystenta AI",

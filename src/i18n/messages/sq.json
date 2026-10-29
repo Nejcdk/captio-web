@@ -133,6 +133,11 @@
         "title": "Shiko nga vjen një zë",
         "description": "Valët në skajin e titrave tregojnë kush po flet. iPhone 16 e më i ri."
       },
+      "recognize-sounds": {
+        "label": "Njohja e tingujve",
+        "title": "Tingujt në titrat e tua",
+        "description": "Zilja e derës, një alarm ose foshnja që qan shfaqen te titrat e tua, dhe për tinguj të rëndësishëm telefoni dridhet."
+      },
       "connectors": {
         "label": "Lidhësit",
         "title": "Pyet aplikacionin e bisedës",

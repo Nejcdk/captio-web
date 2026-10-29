@@ -133,6 +133,11 @@
         "title": "Se hvor stemmen kommer fra",
         "description": "Bølger i kanten av tekstingen peker mot den som snakker. iPhone 16 og nyere."
       },
+      "recognize-sounds": {
+        "label": "Gjenkjenn lyder",
+        "title": "Lyder i tekstingen din",
+        "description": "En dørklokke, en alarm eller en baby som gråter vises i tekstingen din, og ved viktige lyder vibrerer mobilen."
+      },
       "connectors": {
         "label": "Connectors",
         "title": "Spør chat-appen din",

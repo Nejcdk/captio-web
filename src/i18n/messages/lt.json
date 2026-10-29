@@ -133,6 +133,11 @@
         "title": "Matyk, iš kur sklinda balsas",
         "description": "Bangos subtitrų pakraštyje rodo, kas kalba. Veikia su iPhone 16 ir naujesniais."
       },
+      "recognize-sounds": {
+        "label": "Garsų atpažinimas",
+        "title": "Garsai tavo subtitruose",
+        "description": "Durų skambutis, signalizacija ar kūdikio verksmas pasirodo tavo subtitruose, o dėl svarbių garsų telefonas suvibruoja."
+      },
       "connectors": {
         "label": "Jungtys",
         "title": "Klausk savo pokalbių programos",

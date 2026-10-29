@@ -133,6 +133,11 @@
         "title": "Vidi odakle dolazi glas",
         "description": "Valovi na rubu titlova pokazuju ko govori. Za iPhone 16 i novije."
       },
+      "recognize-sounds": {
+        "label": "Prepoznavanje zvukova",
+        "title": "Zvukovi u tvojim titlovima",
+        "description": "Zvono na vratima, alarm ili plač bebe pojavljuju se u tvojim titlovima, a na važne zvukove mobitel zavibrira."
+      },
       "connectors": {
         "label": "Konektori",
         "title": "Pitaj svoju chat aplikaciju",

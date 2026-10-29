@@ -133,6 +133,11 @@
         "title": "Uvidíš, odkiaľ hlas prichádza",
         "description": "Vlny na okraji titulkov ukazujú, kto práve hovorí. iPhone 16 a novší."
       },
+      "recognize-sounds": {
+        "label": "Rozpoznávanie zvukov",
+        "title": "Zvuky v titulkoch",
+        "description": "Zvonček pri dverách, alarm alebo plač bábätka uvidíš v titulkoch a pri dôležitých zvukoch ti telefón zavibruje."
+      },
       "connectors": {
         "label": "Connectors",
         "title": "Opýtaj sa svojej chatovacej aplikácie",

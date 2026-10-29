@@ -133,6 +133,11 @@
         "title": "Lihat dari mana suara berasal",
         "description": "Gelombang di tepi teks menunjukkan siapa yang sedang bicara. Di iPhone 16 ke atas."
       },
+      "recognize-sounds": {
+        "label": "Kenali Bunyi",
+        "title": "Bunyi ikut muncul di teks",
+        "description": "Bel pintu, alarm, atau bayi menangis muncul di teks percakapanmu, dan bunyi penting membuat ponselmu bergetar."
+      },
       "connectors": {
         "label": "Konektor",
         "title": "Tanya aplikasi chat-mu",

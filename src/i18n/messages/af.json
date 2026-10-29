@@ -133,6 +133,11 @@
         "title": "Sien waarvandaan ’n stem kom",
         "description": "Golwe aan die rand van die onderskrifte wys na wie praat. iPhone 16 en nuuer."
       },
+      "recognize-sounds": {
+        "label": "Herken klanke",
+        "title": "Klanke in jou onderskrifte",
+        "description": "’n Deurklokkie, ’n alarm of ’n baba wat huil, verskyn in jou onderskrifte, en by belangrike klanke vibreer jou foon."
+      },
       "connectors": {
         "label": "Connectors",
         "title": "Vra jou klets-toepassing",

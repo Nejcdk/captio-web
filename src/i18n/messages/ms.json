@@ -133,6 +133,11 @@
         "title": "Lihat dari mana suara datang",
         "description": "Gelombang di tepi sari kata menunjukkan siapa yang sedang bercakap. iPhone 16 dan yang lebih baharu."
       },
+      "recognize-sounds": {
+        "label": "Kenal pasti bunyi",
+        "title": "Bunyi dalam sari kata anda",
+        "description": "Loceng pintu, penggera atau bayi menangis dipaparkan dalam sari kata anda, dan bunyi amaran membuatkan telefon anda bergetar."
+      },
       "connectors": {
         "label": "Penyambung",
         "title": "Tanya aplikasi sembang anda",

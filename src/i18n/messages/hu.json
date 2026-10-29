@@ -124,7 +124,7 @@
         "description": "Rendezd a felvételeket mappákba, és oszd meg valamelyiket a családdal, osztálytársakkal vagy a csapatoddal."
       },
       "recognize-voices": {
-        "label": "Hangfelismerés",
+        "label": "Beszélők felismerése",
         "title": "Nevek a „2. beszélő” helyett",
         "description": "Mentsd el azok hangját, akikkel gyakran beszélsz, és lásd a nevüket a feliratokban."
       },
@@ -132,6 +132,11 @@
         "label": "A beszélő iránya",
         "title": "Lásd, honnan jön egy hang",
         "description": "A feliratok szélén lévő hullámok mutatják, ki beszél. iPhone 16-tól kezdve."
+      },
+      "recognize-sounds": {
+        "label": "Hangok felismerése",
+        "title": "Hangok a feliratokban",
+        "description": "A csengő, a riasztó vagy a síró baba is megjelenik a feliratokban, a fontos hangoknál pedig rezeg a telefonod."
       },
       "connectors": {
         "label": "Összekötők",

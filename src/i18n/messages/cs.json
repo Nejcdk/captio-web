@@ -133,6 +133,11 @@
         "title": "Uvidíš, odkud hlas přichází",
         "description": "Vlny na okraji titulků ukazují, kdo mluví. Od iPhonu 16."
       },
+      "recognize-sounds": {
+        "label": "Rozpoznávání zvuků",
+        "title": "Zvuky v titulcích",
+        "description": "Zvonek u dveří, alarm nebo pláč miminka uvidíš v titulcích a u důležitých zvuků ti telefon zavibruje."
+      },
       "connectors": {
         "label": "Konektory",
         "title": "Zeptej se chatové aplikace",

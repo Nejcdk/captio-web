@@ -133,6 +133,11 @@
         "title": "Mira de onde vén unha voz",
         "description": "As ondas do bordo dos subtítulos indican quen está a falar. Para iPhone 16 e posteriores."
       },
+      "recognize-sounds": {
+        "label": "Recoñecer sons",
+        "title": "Sons nos teus subtítulos",
+        "description": "Un timbre, unha alarma ou un bebé que chora aparecen nos teus subtítulos, e cos sons importantes o teu móbil vibra."
+      },
       "connectors": {
         "label": "Conectores",
         "title": "Pregúntalle ao teu chat",

@@ -133,6 +133,11 @@
         "title": "See where a voice comes from",
         "description": "Waves at the edge of the captions point to who is talking. iPhone 16 and later."
       },
+      "recognize-sounds": {
+        "label": "Recognize Sounds",
+        "title": "Sounds in your captions",
+        "description": "A doorbell, an alarm or a crying baby shows up in your captions, and alerts make your phone vibrate."
+      },
       "connectors": {
         "label": "Connectors",
         "title": "Ask your chat app",

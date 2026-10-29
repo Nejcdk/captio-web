@@ -133,6 +133,11 @@
         "title": "Thấy giọng nói đến từ đâu",
         "description": "Những làn sóng ở mép phụ đề chỉ ra ai đang nói. Từ iPhone 16 trở lên."
       },
+      "recognize-sounds": {
+        "label": "Nhận diện âm thanh",
+        "title": "Âm thanh cũng hiện trong phụ đề",
+        "description": "Chuông cửa, báo động hay tiếng em bé khóc sẽ hiện trong phụ đề, và các âm thanh cảnh báo khiến điện thoại của bạn rung."
+      },
       "connectors": {
         "label": "Connectors",
         "title": "Hỏi ứng dụng chat của bạn",

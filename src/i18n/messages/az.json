@@ -133,6 +133,11 @@
         "title": "Səsin haradan gəldiyini gör",
         "description": "Subtitrlərin kənarındakı dalğalar kimin danışdığını göstərir. iPhone 16 və daha yeni modellərdə."
       },
+      "recognize-sounds": {
+        "label": "Ətraf səslərin tanınması",
+        "title": "Subtitrlərindəki səslər",
+        "description": "Qapı zəngi, həyəcan siqnalı və ya ağlayan körpə subtitrlərində görünür, vacib səslərdə isə telefonun titrəyir."
+      },
       "connectors": {
         "label": "Konnektorlar",
         "title": "Çat tətbiqindən soruş",

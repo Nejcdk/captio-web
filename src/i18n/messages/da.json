@@ -133,6 +133,11 @@
         "title": "Se, hvor en stemme kommer fra",
         "description": "Bølger i kanten af underteksterne peger på, hvem der taler. iPhone 16 og nyere."
       },
+      "recognize-sounds": {
+        "label": "Genkend lyde",
+        "title": "Lyde i dine undertekster",
+        "description": "En dørklokke, en alarm eller en baby, der græder, vises i dine undertekster, og ved vigtige lyde vibrerer telefonen."
+      },
       "connectors": {
         "label": "Connectors",
         "title": "Spørg din chat-app",

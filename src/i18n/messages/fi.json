@@ -124,7 +124,7 @@
         "description": "Lajittele tallenteet kansioihin ja jaa yksi perheesi, luokkatoverien tai tiimisi kanssa."
       },
       "recognize-voices": {
-        "label": "Äänten tunnistus",
+        "label": "Puhujien tunnistus",
         "title": "Nimet, ei Puhuja 2",
         "description": "Tallenna niiden ihmisten äänet, joiden kanssa puhut usein, ja näe heidän nimensä tekstityksessä."
       },
@@ -132,6 +132,11 @@
         "label": "Puhujan suunta",
         "title": "Näe, mistä ääni tulee",
         "description": "Tekstityksen reunalla näkyvät aallot osoittavat, kuka puhuu. iPhone 16 ja uudemmat."
+      },
+      "recognize-sounds": {
+        "label": "Tunnista äänet",
+        "title": "Äänet tekstityksessä",
+        "description": "Ovikello, hälytys tai vauvan itku näkyy tekstityksessäsi, ja tärkeistä äänistä puhelimesi värisee."
       },
       "connectors": {
         "label": "Connectors",

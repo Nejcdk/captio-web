@@ -133,6 +133,11 @@
         "title": "Vidi odakle dolazi glas",
         "description": "Talasi na ivici titlova pokazuju ko govori. iPhone 16 i noviji."
       },
+      "recognize-sounds": {
+        "label": "Prepoznavanje zvukova",
+        "title": "Zvukovi u tvojim titlovima",
+        "description": "Zvono na vratima, alarm ili plač bebe pojavljuju se u tvojim titlovima, a na važne zvukove telefon zavibrira."
+      },
       "connectors": {
         "label": "Konektori",
         "title": "Pitaj svoju čet aplikaciju",

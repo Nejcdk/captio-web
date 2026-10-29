@@ -133,6 +133,11 @@
         "title": "Gweld o ble mae llais yn dod",
         "description": "Mae tonnau ar ymyl y capsiynau’n dangos pwy sy’n siarad. Ar gyfer iPhone 16 a modelau newyddach."
       },
+      "recognize-sounds": {
+        "label": "Adnabod Synau",
+        "title": "Synau yn dy gapsiynau",
+        "description": "Mae cloch y drws, larwm neu fabi’n crio yn ymddangos yn dy gapsiynau, ac mae dy ffôn yn dirgrynu ar gyfer synau pwysig."
+      },
       "connectors": {
         "label": "Cysylltwyr",
         "title": "Gofyn i dy ap sgwrsio",

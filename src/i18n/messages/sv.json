@@ -133,6 +133,11 @@
         "title": "Se var en röst kommer ifrån",
         "description": "Vågor i kanten av undertexterna pekar ut vem som pratar. iPhone 16 och senare."
       },
+      "recognize-sounds": {
+        "label": "Ljudigenkänning",
+        "title": "Ljud i dina undertexter",
+        "description": "En dörrklocka, ett larm eller en bebis som gråter syns i undertexterna, och vid viktiga ljud vibrerar mobilen."
+      },
       "connectors": {
         "label": "Kopplingar",
         "title": "Fråga din chattapp",

@@ -124,7 +124,7 @@
         "description": "Kayıtlarını klasörlere ayır, birini ailenle, sınıf arkadaşlarınla ya da ekibinle paylaş."
       },
       "recognize-voices": {
-        "label": "Sesleri Tanı",
+        "label": "Konuşanları Tanı",
         "title": "“Konuşmacı 2” değil, isimler",
         "description": "Sık konuştuğun kişilerin seslerini kaydet, altyazılarda adlarını gör."
       },
@@ -132,6 +132,11 @@
         "label": "Konuşmacının Yönü",
         "title": "Sesin nereden geldiğini gör",
         "description": "Altyazıların kenarındaki dalgalar kimin konuştuğunu gösterir. iPhone 16 ve sonrası."
+      },
+      "recognize-sounds": {
+        "label": "Sesleri Tanı",
+        "title": "Sesler de altyazılarında",
+        "description": "Kapı zili, alarm ya da ağlayan bir bebek altyazılarında görünür, önemli seslerde telefonun titrer."
       },
       "connectors": {
         "label": "Connectors",
