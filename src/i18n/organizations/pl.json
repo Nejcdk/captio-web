@@ -12,7 +12,6 @@
     "eyebrow": "🏢 Captio AI dla organizacji",
     "title": "Napisy na żywo w telefonie w chwili, gdy ktoś [mówi]",
     "description": "Captio AI to aplikacja dla osób głuchych i słabosłyszących. Słucha i wyświetla jako tekst to, co jest mówione, w bezpośrednich rozmowach, w ponad 60 językach. Mogą Państwo udostępnić ją osobom w swojej organizacji, które jej potrzebują: jedna roczna licencja na osobę, płatność na fakturę.",
-    "seeHow": "Jak to działa",
     "pilotNote": "Za darmo przez 30 dni, dla maksymalnie 5 osób. Nic do zapłacenia, nic do podpisania.",
     "facts": ["iPhone i Android", "60+ języków", "Dane przechowywane w UE"],
     "videoLabel": "Captio AI wyświetla napisy na żywo do rozmowy dwóch osób, z etykietą dla każdego mówcy"
@@ -113,8 +112,7 @@
       "Oferta, Państwa zamówienie, faktura",
       "Umowa powierzenia przetwarzania danych",
       "Bez minimum, bez opłaty za wdrożenie, bez automatycznego odnawiania"
-    ],
-    "quote": "Zapytanie o ofertę"
+    ]
   },
   "data": {
     "eyebrow": "Dla działu ochrony danych",

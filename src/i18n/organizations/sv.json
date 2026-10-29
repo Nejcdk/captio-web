@@ -12,7 +12,6 @@
     "eyebrow": "🏢 Captio AI för organisationer",
     "title": "Liveundertexter i mobilen, i samma stund som någon [talar]",
     "description": "Captio AI är en app för döva och hörselskadade. Den lyssnar och visar det som sägs som text, i samtal på plats, på 60+ språk. Ge den till de personer i din organisation som behöver den: en årslicens per person, mot faktura.",
-    "seeHow": "Se hur det fungerar",
     "pilotNote": "Gratis i 30 dagar för upp till 5 personer. Inget att betala, inget att skriva under.",
     "facts": ["iPhone och Android", "60+ språk", "Lagras inom EU"],
     "videoLabel": "Captio AI visar liveundertexter när två personer pratar, med en etikett för varje talare"
@@ -113,8 +112,7 @@
       "Offert, inköpsorder enligt era rutiner och faktura",
       "Ett personuppgiftsbiträdesavtal",
       "Inget minimum, ingen startavgift, ingen automatisk förnyelse"
-    ],
-    "quote": "Begär en offert"
+    ]
   },
   "data": {
     "eyebrow": "För dig som ansvarar för dataskydd",

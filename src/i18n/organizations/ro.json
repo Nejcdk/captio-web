@@ -12,7 +12,6 @@
     "eyebrow": "🏢 Captio AI pentru organizații",
     "title": "Subtitrări live pe telefonul lor, chiar în clipa în care cineva [vorbește]",
     "description": "Captio AI este o aplicație pentru persoanele surde și hipoacuzice. Ascultă și afișează ca text ce se spune, în conversații față în față, în peste 60 de limbi. Oferiți-o persoanelor din organizația dumneavoastră care au nevoie de ea: câte o licență anuală de persoană, plătită pe bază de factură.",
-    "seeHow": "Vedeți cum funcționează",
     "pilotNote": "Gratuit 30 de zile, pentru cel mult 5 persoane. Nimic de plătit, nimic de semnat.",
     "facts": ["iPhone și Android", "Peste 60 de limbi", "Date stocate în UE"],
     "videoLabel": "Captio AI afișează subtitrări live pentru doi oameni care vorbesc, cu o etichetă pentru fiecare vorbitor"
@@ -113,8 +112,7 @@
       "Ofertă de preț, comanda dumneavoastră de achiziție, factură",
       "Un acord de prelucrare a datelor",
       "Fără minim, fără taxă de configurare, fără reînnoire automată"
-    ],
-    "quote": "Cereți o ofertă de preț"
+    ]
   },
   "data": {
     "eyebrow": "Pentru echipa de protecție a datelor",

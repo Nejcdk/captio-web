@@ -12,7 +12,6 @@
     "eyebrow": "🏢 Captio AI për organizatat",
     "title": "Titra live në telefonin e tyre, sapo dikush [flet]",
     "description": "Captio AI është një aplikacion për persona të shurdhër dhe me vështirësi në dëgjim. Dëgjon dhe shfaq si tekst atë që thuhet, në bisedat ballë për ballë, në mbi 60 gjuhë. Organizata juaj mund t'ua japë njerëzve që kanë nevojë për të: një licencë vjetore për person, me pagesë me faturë.",
-    "seeHow": "Shihni si funksionon",
     "pilotNote": "Falas për 30 ditë, deri në 5 persona. Asgjë për të paguar, asgjë për të nënshkruar.",
     "facts": ["iPhone dhe Android", "Mbi 60 gjuhë", "Të ruajtura në BE"],
     "videoLabel": "Captio AI duke shfaqur titra live të një bisede mes dy personave, me një etiketë për secilin folës"
@@ -113,8 +112,7 @@
       "Ofertë, urdhri juaj i blerjes, faturë",
       "Marrëveshje për përpunimin e të dhënave",
       "Pa minimum, pa tarifë fillestare, pa rinovim automatik"
-    ],
-    "quote": "Kërkoni një ofertë"
+    ]
   },
   "data": {
     "eyebrow": "Për ekipin tuaj të mbrojtjes së të dhënave",

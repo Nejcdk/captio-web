@@ -12,7 +12,6 @@
     "eyebrow": "🏢 Captio AI per a organitzacions",
     "title": "Subtítols en directe al seu mòbil, tan bon punt la gent [parla]",
     "description": "Captio AI és una aplicació per a persones sordes i amb pèrdua auditiva. Escolta i mostra en text el que es diu, presencialment, en 60+ idiomes. Doneu-la a les persones de la vostra organització que la necessitin: una llicència anual per a cadascuna, amb pagament per factura.",
-    "seeHow": "Vegeu com funciona",
     "pilotNote": "Gratuïta durant 30 dies, fins a 5 persones. Res a pagar, res a signar.",
     "facts": ["iPhone i Android", "60+ idiomes", "Dades a la UE"],
     "videoLabel": "Captio AI mostrant els subtítols en directe de dues persones que parlen, amb una etiqueta per a cada parlant"
@@ -113,8 +112,7 @@
       "Pressupost, la vostra ordre de compra i factura",
       "Un contracte d’encàrrec del tractament",
       "Sense mínim, sense quota d’alta, sense renovació automàtica"
-    ],
-    "quote": "Demaneu un pressupost"
+    ]
   },
   "data": {
     "eyebrow": "Per al vostre equip de protecció de dades",

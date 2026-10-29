@@ -12,7 +12,6 @@
     "eyebrow": "🏢 Captio AI i Sefydliadau",
     "title": "Capsiynau byw ar eu ffôn, yr eiliad mae pobl yn [siarad]",
     "description": "Ap i bobl fyddar a thrwm eu clyw yw Captio AI. Mae’n gwrando ac yn dangos yr hyn sy’n cael ei ddweud fel testun, wyneb yn wyneb, mewn 60+ iaith. Rhowch yr ap i’r bobl yn eich sefydliad sydd ei angen: un drwydded flynyddol yr un, wedi’i thalu drwy anfoneb.",
-    "seeHow": "Gweld sut mae’n gweithio",
     "pilotNote": "Am ddim am 30 diwrnod, hyd at 5 o bobl. Dim byd i’w dalu, dim byd i’w lofnodi.",
     "facts": ["iPhone ac Android", "60+ iaith", "Wedi’i storio yn yr UE"],
     "videoLabel": "Captio AI yn dangos capsiynau byw o ddau berson yn siarad, gyda label i bob siaradwr"
@@ -113,8 +112,7 @@
       "Dyfynbris, eich archeb brynu, anfoneb",
       "Cytundeb prosesu data",
       "Dim isafswm, dim ffi sefydlu, dim adnewyddu awtomatig"
-    ],
-    "quote": "Gofyn am ddyfynbris"
+    ]
   },
   "data": {
     "eyebrow": "I’ch tîm diogelu data",

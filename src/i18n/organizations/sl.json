@@ -12,7 +12,6 @@
     "eyebrow": "🏢 Captio AI za organizacije",
     "title": "Podnapisi v živo na njihovem telefonu, takoj ko kdo [spregovori]",
     "description": "Captio AI je aplikacija za gluhe in naglušne. Posluša in povedano sproti prikaže kot besedilo, v pogovorih v živo, v več kot 60 jezikih. Dajte jo ljudem v svoji organizaciji, ki jo potrebujejo: ena letna licenca na osebo, plačilo po računu.",
-    "seeHow": "Poglejte, kako deluje",
     "pilotNote": "Brezplačno 30 dni, za največ 5 oseb. Nič ne plačate, nič ne podpišete.",
     "facts": ["iPhone in Android", "Več kot 60 jezikov", "Shranjeno v EU"],
     "videoLabel": "Captio AI prikazuje podnapise v živo pogovora dveh oseb, z oznako za vsakega govorca"
@@ -113,8 +112,7 @@
       "Ponudba, vaša naročilnica, račun",
       "Pogodba o obdelavi osebnih podatkov",
       "Brez najmanjšega naročila, stroškov uvedbe in samodejnega podaljšanja"
-    ],
-    "quote": "Zahtevajte ponudbo"
+    ]
   },
   "data": {
     "eyebrow": "Za vašo službo za varstvo podatkov",

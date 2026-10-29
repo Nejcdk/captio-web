@@ -12,7 +12,6 @@
     "eyebrow": "🏢 Captio AI pour les organisations",
     "title": "Des sous-titres en direct sur leur téléphone, dès que l’on [parle]",
     "description": "Captio AI est une application pour les personnes sourdes et malentendantes. Elle écoute et affiche ce qui se dit sous forme de texte, en présentiel, dans plus de 60 langues. Proposez-la aux personnes de votre organisation qui en ont besoin : une licence annuelle par personne, réglée sur facture.",
-    "seeHow": "Voir comment cela fonctionne",
     "pilotNote": "Gratuit pendant 30 jours, jusqu’à 5 personnes. Rien à payer, rien à signer.",
     "facts": ["iPhone et Android", "Plus de 60 langues", "Hébergé dans l’UE"],
     "videoLabel": "Captio AI affiche les sous-titres en direct d’une conversation entre deux personnes, avec une étiquette pour chaque intervenant"
@@ -113,8 +112,7 @@
       "Un devis, votre bon de commande, une facture",
       "Un accord de traitement des données (DPA)",
       "Pas de minimum, pas de frais de mise en service, pas de renouvellement automatique"
-    ],
-    "quote": "Demander un devis"
+    ]
   },
   "data": {
     "eyebrow": "Pour votre DPO",

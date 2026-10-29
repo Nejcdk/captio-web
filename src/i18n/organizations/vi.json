@@ -12,7 +12,6 @@
     "eyebrow": "🏢 Captio AI cho tổ chức",
     "title": "Phụ đề trực tiếp trên điện thoại của họ, ngay khi người khác [nói]",
     "description": "Captio AI là ứng dụng dành cho người Điếc và người nghe kém. Ứng dụng lắng nghe và hiển thị lời nói thành chữ khi gặp mặt trực tiếp, bằng hơn 60 ngôn ngữ. Quý vị có thể cấp ứng dụng cho những người cần dùng trong tổ chức: mỗi người một giấy phép theo năm, thanh toán theo hóa đơn.",
-    "seeHow": "Xem cách hoạt động",
     "pilotNote": "Miễn phí 30 ngày, tối đa 5 người. Không phải trả tiền, không phải ký gì.",
     "facts": ["iPhone và Android", "Hơn 60 ngôn ngữ", "Lưu trữ tại EU"],
     "videoLabel": "Captio AI hiển thị phụ đề trực tiếp cuộc trò chuyện của hai người, mỗi người nói có nhãn riêng"
@@ -113,8 +112,7 @@
       "Báo giá, đơn đặt hàng của Quý vị, hóa đơn",
       "Hợp đồng xử lý dữ liệu cá nhân (DPA)",
       "Không tối thiểu, không phí thiết lập, không tự động gia hạn"
-    ],
-    "quote": "Yêu cầu báo giá"
+    ]
   },
   "data": {
     "eyebrow": "Dành cho bộ phận bảo vệ dữ liệu",

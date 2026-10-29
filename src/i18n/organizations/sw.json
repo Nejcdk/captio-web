@@ -12,7 +12,6 @@
     "eyebrow": "🏢 Captio AI kwa Mashirika",
     "title": "Manukuu mubashara kwenye simu zao, mara tu watu [wanapozungumza]",
     "description": "Captio AI ni programu kwa ajili ya viziwi na wasiosikia vizuri. Inasikiliza na kuonyesha kinachosemwa kama maandishi, ana kwa ana, kwa lugha 60+. Wape watu wa shirika lako wanaoihitaji: leseni moja ya mwaka kwa kila mtu, inayolipwa kwa ankara.",
-    "seeHow": "Jinsi inavyofanya kazi",
     "pilotNote": "Bure kwa siku 30, hadi watu 5. Hakuna cha kulipa, hakuna cha kusaini.",
     "facts": ["iPhone na Android", "Lugha 60+", "Huhifadhiwa ndani ya EU"],
     "videoLabel": "Captio AI ikionyesha manukuu mubashara ya watu wawili wanaozungumza, na lebo kwa kila mzungumzaji"
@@ -113,8 +112,7 @@
       "Nukuu ya bei, agizo lako la ununuzi (LPO), ankara",
       "Mkataba wa uchakataji wa data",
       "Hakuna kiwango cha chini, hakuna ada ya kuanzisha, hakuna usasishaji wa kiotomatiki"
-    ],
-    "quote": "Omba nukuu ya bei"
+    ]
   },
   "data": {
     "eyebrow": "Kwa timu yako ya ulinzi wa data",

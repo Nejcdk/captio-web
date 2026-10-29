@@ -12,7 +12,6 @@
     "eyebrow": "🏢 Captio AI para sa mga Organisasyon",
     "title": "Live na caption sa phone nila, sa sandaling [magsalita] ang mga tao",
     "description": "Ang Captio AI ay app para sa mga Bingi at mahina ang pandinig. Nakikinig ito at ipinapakita bilang text ang sinasabi, nang harapan, sa 60+ wika. Ibigay ito sa mga tao sa inyong organisasyon na nangangailangan nito: isang taunang lisensya bawat tao, bayad sa pamamagitan ng invoice.",
-    "seeHow": "Tingnan kung paano ito gumagana",
     "pilotNote": "Libre sa loob ng 30 araw, hanggang 5 tao. Walang babayaran, walang pipirmahan.",
     "facts": ["iPhone at Android", "60+ wika", "Nakaimbak sa EU"],
     "videoLabel": "Captio AI na nagpapakita ng live na caption ng dalawang taong nag-uusap, may label ang bawat nagsasalita"
@@ -113,8 +112,7 @@
       "Quotation, ang inyong purchase order, at invoice",
       "Isang data processing agreement",
       "Walang minimum, walang setup fee, walang auto-renewal"
-    ],
-    "quote": "Humingi ng quotation"
+    ]
   },
   "data": {
     "eyebrow": "Para sa inyong data protection team",

@@ -29,7 +29,6 @@ import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbS
 // emailed at once in this page's language, people join at /o/<code>.
 // Videos: the app's onboarding loops in public/organizations (PhoneVideo.tsx).
 
-const QUOTE_MAILTO = "mailto:hello@captioai.app?subject=Captio%20AI%20quote";
 const DPA_MAILTO = "mailto:hello@captioai.app?subject=Captio%20AI%20data%20processing%20agreement";
 const ADDRESS = "hello@captioai.app";
 
@@ -45,21 +44,13 @@ const MOCKS = [VoicesMock, DirectionMock, SoundsMock];
 // Every language the site (and live captions) has, with its flag: shown, not linked.
 const FLAGS = new Map(languagePages.map((l) => [l.languageSlug, l.flag]));
 
-type ButtonKind = "primary" | "outline" | "white" | "outlineWhite";
-
-const BUTTON: Record<ButtonKind, string> = {
-  primary: "bg-cta text-white hover:bg-cta-dark",
-  outline: "bg-white text-brand border border-brand hover:bg-brand-light",
-  white: "bg-white text-brand hover:bg-white/90",
-  outlineWhite: "text-white border border-white/50 hover:bg-white/10",
-};
-
-// Same shape as every other button on the site: 8px corners, semibold.
-function LinkButton({ href, children, kind = "primary" }: { href: string; children: React.ReactNode; kind?: ButtonKind }) {
+// The page's one call to action, everywhere: Start a free pilot (Nejc
+// 2026-10-29). Same shape as every other button on the site: 8px corners.
+function LinkButton({ href, children }: { href: string; children: React.ReactNode }) {
   return (
     <a
       href={href}
-      className={`inline-flex items-center justify-center gap-2 rounded-[8px] px-6 py-3.5 text-base font-semibold transition-colors ${BUTTON[kind]}`}
+      className="inline-flex w-full sm:w-auto items-center justify-center gap-2 rounded-[8px] bg-cta px-6 py-3.5 text-base font-semibold text-white transition-colors hover:bg-cta-dark"
     >
       {children}
     </a>
@@ -142,9 +133,8 @@ export default function OrganizationsContent({ code, t, m }: { code: string; t: 
                 <Underlined text={t.hero.title} />
               </h1>
               <p className="order-4 text-base sm:text-lg text-gray-600 max-w-xl leading-relaxed">{t.hero.description}</p>
-              <div className="order-5 flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
+              <div className="order-5 flex w-full sm:w-auto">
                 <LinkButton href="#pilot">{t.header.startPilot}</LinkButton>
-                <LinkButton href="#how" kind="outline">{t.hero.seeHow}</LinkButton>
               </div>
               <p className="order-6 text-xs text-gray-500 -mt-1">{t.hero.pilotNote}</p>
               <ul className="order-7 flex flex-wrap justify-center lg:justify-start gap-2">
@@ -289,7 +279,7 @@ export default function OrganizationsContent({ code, t, m }: { code: string; t: 
               </ul>
             </div>
             <div className="flex justify-center mt-6">
-              <LinkButton href={QUOTE_MAILTO} kind="outline">{t.pricing.quote}</LinkButton>
+              <LinkButton href="#pilot">{t.header.startPilot}</LinkButton>
             </div>
           </div>
         </section>
@@ -306,15 +296,11 @@ export default function OrganizationsContent({ code, t, m }: { code: string; t: 
                 </div>
               ))}
             </div>
-            <div className="flex flex-col sm:flex-row gap-3 justify-center mt-8">
-              <LinkButton href={DPA_MAILTO} kind="outline">{t.data.dpa}</LinkButton>
-              <Link
-                href="/privacy"
-                className="inline-flex items-center justify-center rounded-[8px] px-6 py-3.5 text-base font-semibold text-brand hover:bg-brand-light transition-colors"
-              >
-                {t.data.privacy}
-              </Link>
-            </div>
+            {/* Plain links, not buttons: the page has one call to action, Start a free pilot (Nejc 2026-10-29). */}
+            <p className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-6 text-sm font-semibold">
+              <a href={DPA_MAILTO} className="text-brand hover:underline">{t.data.dpa}</a>
+              <Link href="/privacy" className="text-brand hover:underline">{t.data.privacy}</Link>
+            </p>
           </div>
         </section>
 
@@ -332,9 +318,8 @@ export default function OrganizationsContent({ code, t, m }: { code: string; t: 
             <span className="text-xs font-bold text-cta uppercase tracking-widest">{t.cta.eyebrow}</span>
             <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight">{t.cta.title}</h2>
             <p className="text-blue-100 max-w-lg">{fill(t.cta.body, { address: ADDRESS })}</p>
-            <div className="flex flex-col sm:flex-row gap-3 mt-2 w-full sm:w-auto">
+            <div className="flex mt-2 w-full sm:w-auto">
               <LinkButton href="#pilot">{t.header.startPilot}</LinkButton>
-              <LinkButton href={QUOTE_MAILTO} kind="outlineWhite">{t.pricing.quote}</LinkButton>
             </div>
           </div>
         </section>

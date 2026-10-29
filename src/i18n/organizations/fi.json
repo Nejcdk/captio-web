@@ -12,7 +12,6 @@
     "eyebrow": "🏢 Captio AI organisaatioille",
     "title": "Livetekstitys heidän puhelimeensa heti, kun joku [puhuu]",
     "description": "Captio AI on sovellus kuuroille ja huonokuuloisille. Se kuuntelee ja näyttää puheen tekstinä kasvokkain käytävissä keskusteluissa, yli 60 kielellä. Anna se niille organisaatiosi ihmisille, jotka sitä tarvitsevat: yksi vuosilisenssi henkilöä kohden, laskulla.",
-    "seeHow": "Katso, miten se toimii",
     "pilotNote": "Maksuton 30 päivän ajan, enintään 5 henkilölle. Ei maksuja, ei allekirjoituksia.",
     "facts": ["iPhone ja Android", "Yli 60 kieltä", "Tallennus EU:ssa"],
     "videoLabel": "Captio AI näyttää kahden ihmisen keskustelun livetekstityksenä, ja jokaisella puhujalla on oma nimilappunsa"
@@ -113,8 +112,7 @@
       "Tarjous, ostotilaus ja lasku",
       "Henkilötietojen käsittelysopimus",
       "Ei vähimmäismäärää, ei aloitusmaksua, ei automaattista jatkoa"
-    ],
-    "quote": "Pyydä tarjous"
+    ]
   },
   "data": {
     "eyebrow": "Tietosuojasta vastaaville",

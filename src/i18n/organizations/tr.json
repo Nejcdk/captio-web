@@ -12,7 +12,6 @@
     "eyebrow": "🏢 Kurumlar için Captio AI",
     "title": "İnsanlar [konuşur konuşmaz] telefonlarında canlı altyazı",
     "description": "Captio AI, sağır ve ağır işiten kişiler için bir uygulamadır. Dinler ve söylenenleri yüz yüze ortamlarda, 60+ dilde metin olarak gösterir. Kurumunuzda ihtiyacı olan kişilere verin: kişi başına bir yıllık lisans, faturayla ödenir.",
-    "seeHow": "Nasıl çalıştığını görün",
     "pilotNote": "30 gün ücretsiz, en fazla 5 kişi. Ödeme yok, imza yok.",
     "facts": ["iPhone ve Android", "60+ dil", "Veriler AB'de saklanır"],
     "videoLabel": "İki kişinin konuşmasının canlı altyazısını, her konuşmacı için ayrı bir etiketle gösteren Captio AI"
@@ -113,8 +112,7 @@
       "Fiyat teklifi, satın alma siparişiniz, fatura",
       "Veri işleme sözleşmesi",
       "Asgari tutar yok, kurulum ücreti yok, otomatik yenileme yok"
-    ],
-    "quote": "Fiyat teklifi isteyin"
+    ]
   },
   "data": {
     "eyebrow": "Veri koruma ekibiniz için",

@@ -12,7 +12,6 @@
     "eyebrow": "🏢 Captio AI organizācijām",
     "title": "Tiešraides subtitri viņu tālrunī, tiklīdz cilvēki [runā]",
     "description": "Captio AI ir lietotne nedzirdīgajiem un vājdzirdīgajiem. Tā klausās un parāda teikto kā tekstu klātienes sarunās, 60+ valodās. Nodrošiniet to savas organizācijas cilvēkiem, kam tā vajadzīga: katram viena gada licence, apmaksa pēc rēķina.",
-    "seeHow": "Kā tas darbojas",
     "pilotNote": "30 dienas bez maksas, līdz 5 cilvēkiem. Nekas nav jāmaksā, nekas nav jāparaksta.",
     "facts": ["iPhone un Android", "60+ valodas", "Dati glabājas ES"],
     "videoLabel": "Captio AI rāda divu cilvēku sarunas subtitrus reāllaikā, katram runātājam ar savu apzīmējumu"
@@ -113,8 +112,7 @@
       "Cenu piedāvājums, jūsu pirkuma pasūtījums, rēķins",
       "Datu apstrādes līgums",
       "Bez minimuma, bez uzstādīšanas maksas, bez automātiskas atjaunošanas"
-    ],
-    "quote": "Pieprasīt cenu piedāvājumu"
+    ]
   },
   "data": {
     "eyebrow": "Jūsu datu aizsardzības komandai",

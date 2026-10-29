@@ -12,7 +12,6 @@
     "eyebrow": "🏢 Captio AI za organizacije",
     "title": "Titlovi uživo na njihovom mobitelu, čim neko [progovori]",
     "description": "Captio AI je aplikacija za gluhe i nagluhe osobe. Sluša i prikazuje izgovoreno kao tekst, u razgovorima uživo, na više od 60 jezika. Dajte je osobama u svojoj organizaciji kojima je potrebna: jedna godišnja licenca po osobi, plaćanje putem fakture.",
-    "seeHow": "Pogledajte kako radi",
     "pilotNote": "Besplatno 30 dana, za najviše 5 osoba. Ništa ne plaćate, ništa ne potpisujete.",
     "facts": ["iPhone i Android", "Više od 60 jezika", "Podaci u EU"],
     "videoLabel": "Captio AI prikazuje titlove uživo razgovora dvije osobe, s oznakom za svakog govornika"
@@ -113,8 +112,7 @@
       "Ponuda, vaša narudžbenica, faktura",
       "Ugovor o obradi podataka",
       "Bez minimalne narudžbe, naknade za postavljanje i automatskog obnavljanja"
-    ],
-    "quote": "Zatražite ponudu"
+    ]
   },
   "data": {
     "eyebrow": "Za vaš tim za zaštitu podataka",
