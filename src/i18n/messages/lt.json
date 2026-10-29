@@ -149,6 +149,13 @@
         "description": "Tiesioginiai subtitrai pasileidžia tiesiai iš iPhone pagrindinio ar užrakinto ekrano."
       }
     },
+    "screenshotsLabel": "Ekrano nuotraukos",
+    "screenshotsTitle": "Kaip Captio AI atrodo tavo telefone",
+    "screenshots": [
+      "Captio AI tiesioginiai subtitrai iPhone telefone: kiekvieno kalbėtojo žodžiai atsiranda jam kalbant, pažymėti „Kalbėtojas 1“ ir „Kalbėtojas 2“",
+      "Captio AI tiesioginis vertimas: pokalbis ispanų kalba vienu metu rodomas ispanų ir anglų kalbomis",
+      "Įrašyto susitikimo DI santrauka programėlėje Captio AI: priimti sprendimai ir užduočių sąrašas"
+    ],
     "useCasesLabel": "Naudojimo atvejai",
     "useCasesTitle": "Veikia bet kokioje situacijoje",
     "useCasesSubtitle": "Sukurta tikroms, svarbioms akimirkoms, o ne tik tylioms ir kontroliuojamoms aplinkoms.",

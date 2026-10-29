@@ -149,6 +149,13 @@
         "description": "Käynnistä livetekstitys iPhonen Koti-valikosta tai lukitusnäytöltä."
       }
     },
+    "screenshotsLabel": "Kuvakaappaukset",
+    "screenshotsTitle": "Tältä Captio AI näyttää puhelimessasi",
+    "screenshots": [
+      "Captio AI:n livetekstitys iPhonessa: jokaisen puhujan sanat näkyvät sitä mukaa kuin hän puhuu, merkittyinä Puhuja 1 ja Puhuja 2",
+      "Captio AI:n livekäännös: espanjankielinen keskustelu näkyy yhtä aikaa espanjaksi ja englanniksi",
+      "Captio AI:n tekoälyyhteenveto nauhoitetusta kokouksesta: tehdyt päätökset ja tehtävälista"
+    ],
     "useCasesLabel": "Käyttötilanteet",
     "useCasesTitle": "Toimii joka tilanteessa",
     "useCasesSubtitle": "Suunniteltu niihin oikeisiin hetkiin, joilla on väliä, eikä vain hiljaisiin ja hallittuihin ympäristöihin.",

@@ -149,6 +149,13 @@
         "description": "iPhoneのホーム画面やロック画面から、ライブ字幕を始められます。"
       }
     },
+    "screenshotsLabel": "スクリーンショット",
+    "screenshotsTitle": "スマホで使うCaptio AIの画面",
+    "screenshots": [
+      "iPhoneで使うCaptio AIのライブ字幕：一人ひとりの言葉が話すそばから表示され、「話者1」「話者2」と区別されます",
+      "Captio AIのライブ翻訳：スペイン語の会話を、スペイン語と英語で同時に表示",
+      "Captio AIで作った会議録音のAI要約：決定事項とやることリスト"
+    ],
     "useCasesLabel": "活用シーン",
     "useCasesTitle": "あらゆる場面で使えます",
     "useCasesSubtitle": "静かで整った環境だけでなく、本当に大切な実際の場面のために作られています。",

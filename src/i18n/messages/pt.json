@@ -149,6 +149,13 @@
         "description": "Inicie as Legendas ao vivo pela Tela de Início ou pela Tela Bloqueada do iPhone."
       }
     },
+    "screenshotsLabel": "Capturas de tela",
+    "screenshotsTitle": "Como o Captio AI aparece no seu celular",
+    "screenshots": [
+      "Legendas ao vivo do Captio AI no iPhone: as palavras de cada falante aparecem enquanto a pessoa fala, identificadas como “Falante 1” e “Falante 2”",
+      "Tradução ao vivo do Captio AI: uma conversa em espanhol exibida em espanhol e em inglês ao mesmo tempo",
+      "Resumo de uma reunião gravada no Captio AI: as decisões tomadas e uma lista de tarefas"
+    ],
     "useCasesLabel": "Casos de uso",
     "useCasesTitle": "Funciona em qualquer situação",
     "useCasesSubtitle": "Feito para os momentos reais que importam, não só para ambientes silenciosos e controlados.",

@@ -149,6 +149,13 @@
         "description": "Mulakan Sari Kata Langsung dari Skrin Utama atau Skrin Kunci iPhone anda."
       }
     },
+    "screenshotsLabel": "Tangkapan skrin",
+    "screenshotsTitle": "Beginilah rupa Captio AI pada telefon anda",
+    "screenshots": [
+      "Sari kata langsung Captio AI di iPhone: kata-kata setiap penutur muncul semasa mereka bercakap, berlabel “Penutur 1” dan “Penutur 2”",
+      "Penterjemah langsung Captio AI: perbualan dalam bahasa Sepanyol dipaparkan dalam bahasa Sepanyol dan bahasa Inggeris serentak",
+      "Ringkasan Captio AI untuk mesyuarat yang dirakam: keputusan yang dibuat dan senarai tugasan"
+    ],
     "useCasesLabel": "Kegunaan",
     "useCasesTitle": "Berfungsi dalam setiap situasi",
     "useCasesSubtitle": "Direka untuk detik sebenar yang penting — bukan sekadar persekitaran yang senyap dan terkawal.",

@@ -149,6 +149,13 @@
         "description": "Avvia i sottotitoli live dalla schermata Home o dalla schermata di blocco dell’iPhone."
       }
     },
+    "screenshotsLabel": "Screenshot",
+    "screenshotsTitle": "Ecco come appare Captio AI sul tuo telefono",
+    "screenshots": [
+      "Sottotitoli live di Captio AI su iPhone: le parole di ogni persona compaiono mentre parla, etichettate come «Voce 1» e «Voce 2»",
+      "Traduzione live di Captio AI: una conversazione in spagnolo mostrata in spagnolo e in inglese allo stesso tempo",
+      "Riassunto IA di una riunione registrata in Captio AI: le decisioni prese e una lista di cose da fare"
+    ],
     "useCasesLabel": "Casi d’uso",
     "useCasesTitle": "Funziona in ogni situazione",
     "useCasesSubtitle": "Pensata per i momenti reali che contano, non solo per ambienti silenziosi e controllati.",

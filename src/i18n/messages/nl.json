@@ -149,6 +149,13 @@
         "description": "Start Live ondertiteling vanaf het beginscherm of toegangsscherm van je iPhone."
       }
     },
+    "screenshotsLabel": "Screenshots",
+    "screenshotsTitle": "Zo ziet Captio AI eruit op je telefoon",
+    "screenshots": [
+      "Live ondertiteling van Captio AI op iPhone: de woorden van elke spreker verschijnen terwijl ze praten, met de labels Spreker 1 en Spreker 2",
+      "De live vertaler van Captio AI: een Spaans gesprek, tegelijk in het Spaans en in het Engels weergegeven",
+      "Samenvatting door Captio AI van een opgenomen vergadering: de genomen besluiten en een lijst met to-do’s"
+    ],
     "useCasesLabel": "Toepassingen",
     "useCasesTitle": "Werkt in elke situatie",
     "useCasesSubtitle": "Gemaakt voor de echte momenten die ertoe doen, niet alleen voor rustige, gecontroleerde omgevingen.",

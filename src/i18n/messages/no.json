@@ -149,6 +149,13 @@
         "description": "Start direkteteksting fra Hjem-skjermen eller låseskjermen på iPhone."
       }
     },
+    "screenshotsLabel": "Skjermbilder",
+    "screenshotsTitle": "Slik ser Captio AI ut på telefonen din",
+    "screenshots": [
+      "Direkteteksting i Captio AI på iPhone: ordene til hver taler vises mens de snakker, merket Taler 1 og Taler 2",
+      "Direkteoversettelse i Captio AI: en samtale på spansk vises på spansk og engelsk samtidig",
+      "AI-sammendrag av et innspilt møte i Captio AI: beslutningene som ble tatt, og en oppgaveliste"
+    ],
     "useCasesLabel": "Bruksområder",
     "useCasesTitle": "Fungerer i alle situasjoner",
     "useCasesSubtitle": "Laget for de virkelige øyeblikkene som betyr noe, ikke bare for stille, kontrollerte omgivelser.",

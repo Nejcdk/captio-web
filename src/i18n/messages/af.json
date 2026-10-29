@@ -149,6 +149,13 @@
         "description": "Begin regstreekse onderskrifte vanaf jou iPhone se Tuisskerm of Sluitskerm."
       }
     },
+    "screenshotsLabel": "Skermskote",
+    "screenshotsTitle": "So lyk Captio AI op jou foon",
+    "screenshots": [
+      "Regstreekse onderskrifte in Captio AI op iPhone: elke spreker se woorde verskyn terwyl hulle praat, gemerk Spreker 1 en Spreker 2",
+      "Regstreekse vertaling in Captio AI: ’n gesprek in Spaans, terselfdertyd in Spaans en in Engels gewys",
+      "KI-opsomming van ’n opgeneemde vergadering in Captio AI: die besluite wat geneem is en ’n taaklys"
+    ],
     "useCasesLabel": "Gebruike",
     "useCasesTitle": "Werk in elke situasie",
     "useCasesSubtitle": "Ontwerp vir die werklike oomblikke wat saak maak, nie net vir stil, beheerde omgewings nie.",

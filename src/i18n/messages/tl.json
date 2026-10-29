@@ -149,6 +149,13 @@
         "description": "Simulan ang Live na Caption mula sa Home Screen o Lock Screen ng iPhone mo."
       }
     },
+    "screenshotsLabel": "Mga screenshot",
+    "screenshotsTitle": "Ganito ang itsura ng Captio AI sa phone mo",
+    "screenshots": [
+      "Live na caption ng Captio AI sa iPhone: lumalabas ang mga salita ng bawat nagsasalita habang nagsasalita sila, may label na “Speaker 1” at “Speaker 2”",
+      "Live na Tagasalin ng Captio AI: usapang Espanyol na sabay na ipinapakita sa Espanyol at sa Ingles",
+      "Buod ng Captio AI ng isang na-record na meeting: ang mga napagpasyahan at listahan ng mga to-do"
+    ],
     "useCasesLabel": "Saan Magagamit",
     "useCasesTitle": "Gumagana sa bawat sitwasyon",
     "useCasesSubtitle": "Ginawa para sa mga totoong sandaling mahalaga — hindi lang sa tahimik at kontroladong lugar.",

@@ -149,6 +149,13 @@
         "description": "Anzisha Manukuu Mubashara kutoka Skrini ya Kwanza au Skrini ya Kufunga ya iPhone yako."
       }
     },
+    "screenshotsLabel": "Picha za skrini",
+    "screenshotsTitle": "Jinsi Captio AI inavyoonekana kwenye simu yako",
+    "screenshots": [
+      "Manukuu mubashara ya Captio AI kwenye iPhone: maneno ya kila mzungumzaji yanaonekana anapozungumza, yakiwa na lebo “Mzungumzaji 1” na “Mzungumzaji 2”",
+      "Tafsiri mubashara ya Captio AI: mazungumzo ya Kihispania yanaonyeshwa kwa Kihispania na kwa Kiingereza kwa wakati mmoja",
+      "Muhtasari wa Captio AI wa mkutano uliorekodiwa: maamuzi yaliyofanywa na orodha ya kufanya"
+    ],
     "useCasesLabel": "Matumizi",
     "useCasesTitle": "Inafanya kazi katika kila hali",
     "useCasesSubtitle": "Imeundwa kwa nyakati halisi zenye umuhimu — si tu mahali tulivu palipodhibitiwa.",

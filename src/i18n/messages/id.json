@@ -149,6 +149,13 @@
         "description": "Mulai Teks Langsung dari Layar Utama atau Layar Terkunci iPhone."
       }
     },
+    "screenshotsLabel": "Tangkapan layar",
+    "screenshotsTitle": "Tampilan Captio AI di ponselmu",
+    "screenshots": [
+      "Teks langsung Captio AI di iPhone: kata-kata setiap pembicara muncul saat mereka bicara, dengan label “Pembicara 1” dan “Pembicara 2”",
+      "Terjemahan langsung Captio AI: percakapan dalam bahasa Spanyol ditampilkan dalam bahasa Spanyol dan Inggris sekaligus",
+      "Ringkasan Captio AI dari rapat yang direkam: keputusan yang diambil dan daftar tugas"
+    ],
     "useCasesLabel": "Kegunaan",
     "useCasesTitle": "Bisa dipakai di segala situasi",
     "useCasesSubtitle": "Dirancang untuk momen nyata yang penting, bukan hanya di tempat yang tenang dan terkendali.",

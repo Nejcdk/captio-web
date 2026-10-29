@@ -149,6 +149,13 @@
         "description": "Hasi zuzeneko azpitituluak zure iPhone-aren hasierako pantailatik edo blokeo-pantailatik."
       }
     },
+    "screenshotsLabel": "Pantaila-argazkiak",
+    "screenshotsTitle": "Horrela ikusten da Captio AI zure telefonoan",
+    "screenshots": [
+      "Captio AI aplikazioko zuzeneko azpitituluak iPhone-an: hizlari bakoitzaren hitzak hitz egin ahala agertzen dira, «Hizlari 1» eta «Hizlari 2» etiketekin",
+      "Captio AI aplikazioko zuzeneko itzulpena: gaztelaniazko elkarrizketa bat, gaztelaniaz eta ingelesez aldi berean erakutsita",
+      "Grabatutako bilera baten AA bidezko laburpena Captio AI aplikazioan: hartutako erabakiak eta egitekoen zerrenda"
+    ],
     "useCasesLabel": "Erabilerak",
     "useCasesTitle": "Egoera guztietan dabil",
     "useCasesSubtitle": "Benetan garrantzia duten uneetarako pentsatua, ez bakarrik ingurune lasai eta kontrolatuetarako.",

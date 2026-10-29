@@ -8,7 +8,7 @@ import HeroDownload from "@/components/HeroDownload";
 import LocaleShell from "@/components/LocaleShell";
 import { FEATURE_SLUGS, languageName, languageOptions, pagePath, type Messages } from "@/i18n";
 import { ALL_LOCALES } from "@/i18n/locales";
-import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema } from "@/lib/schema";
+import { SITE_URL, APP_SCREENSHOTS, SCREENSHOT_SIZE, jsonLd, softwareApplicationSchema, faqPageSchema } from "@/lib/schema";
 
 // The home page, in any language: "/" (English) and "/<code>". All of its words
 // come from src/i18n/messages/<code>.json.
@@ -150,6 +150,7 @@ export default function HomeContent({ code, m }: { code: string; m: Messages }) 
       url: code === "en" ? SITE_URL : `${SITE_URL}${pagePath(code, "home")}`,
       description: h.meta.schemaDescription,
       inLanguage: code,
+      screenshotCaptions: h.screenshots,
       ...(code === "en" ? {} : { featureList: FEATURE_SLUGS.map((s) => c.featureNames[s]) }),
     }),
     faqPageSchema(h.faqs),
@@ -251,6 +252,34 @@ export default function HomeContent({ code, m }: { code: string; m: Messages }) 
                     </svg>
                   </span>
                 </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ── Screenshots: the app pictures made for the web (APP_SCREENSHOTS);
+            a swipeable row on phones, all three side by side from tablet up. ── */}
+        <section id="screenshots" className="pt-2 pb-12 bg-white">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-7 px-6">
+              <span className="text-xs font-bold text-cta uppercase tracking-widest">{h.screenshotsLabel}</span>
+              <h2 className="text-3xl font-bold text-gray-900 tracking-tight mt-3">
+                {h.screenshotsTitle}
+              </h2>
+            </div>
+
+            <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory px-6 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:grid sm:grid-cols-3 sm:overflow-visible">
+              {APP_SCREENSHOTS.map((src, i) => (
+                <figure key={src} className="shrink-0 w-[78%] sm:w-auto snap-center">
+                  <Image
+                    src={src}
+                    alt={h.screenshots[i]}
+                    width={SCREENSHOT_SIZE.width}
+                    height={SCREENSHOT_SIZE.height}
+                    sizes="(min-width: 896px) 280px, (min-width: 640px) 31vw, 78vw"
+                    className="block w-full h-auto rounded-2xl border border-gray-200"
+                  />
+                </figure>
               ))}
             </div>
           </div>

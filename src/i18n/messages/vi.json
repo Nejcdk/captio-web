@@ -149,6 +149,13 @@
         "description": "Bật Phụ đề trực tiếp từ Màn hình chính hoặc Màn hình khóa trên iPhone của bạn."
       }
     },
+    "screenshotsLabel": "Ảnh chụp màn hình",
+    "screenshotsTitle": "Captio AI trông thế nào trên điện thoại của bạn",
+    "screenshots": [
+      "Phụ đề trực tiếp của Captio AI trên iPhone: lời của từng người nói hiện ra ngay khi họ nói, được gắn nhãn “Người nói 1” và “Người nói 2”",
+      "Dịch trực tiếp của Captio AI: một cuộc trò chuyện bằng tiếng Tây Ban Nha hiển thị cùng lúc bằng tiếng Tây Ban Nha và tiếng Anh",
+      "Bản tóm tắt của Captio AI cho một cuộc họp đã ghi âm: các quyết định đã đưa ra và danh sách việc cần làm"
+    ],
     "useCasesLabel": "Tình huống sử dụng",
     "useCasesTitle": "Dùng được trong mọi tình huống",
     "useCasesSubtitle": "Được thiết kế cho những khoảnh khắc thật sự quan trọng, không chỉ ở nơi yên tĩnh, được kiểm soát.",

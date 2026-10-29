@@ -31,6 +31,7 @@ export default function FeatureContent({ code, m, feature }: { code: string; m: 
       url: `${SITE_URL}${pagePath(code, feature)}`,
       description: p.meta.schemaDescription,
       inLanguage: code,
+      screenshotCaptions: m.home.screenshots,
       ...(code === "en" ? {} : { featureList: FEATURE_SLUGS.map((s) => c.featureNames[s]) }),
     }),
     faqPageSchema(p.faqs),

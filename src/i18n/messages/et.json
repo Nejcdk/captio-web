@@ -149,6 +149,13 @@
         "description": "Käivita otsesubtiitrid oma iPhone'i avaekraanilt või lukustusekraanilt."
       }
     },
+    "screenshotsLabel": "Ekraanipildid",
+    "screenshotsTitle": "Nii näeb Captio AI välja sinu telefonis",
+    "screenshots": [
+      "Captio AI otsesubtiitrid iPhone'is: iga kõneleja sõnad ilmuvad ekraanile samal ajal, kui ta räägib, tähistatuna „Kõneleja 1“ ja „Kõneleja 2“",
+      "Captio AI otsetõlge: hispaaniakeelne vestlus on korraga näha hispaania ja inglise keeles",
+      "Salvestatud koosoleku AI-kokkuvõte rakenduses Captio AI: tehtud otsused ja ülesannete loend"
+    ],
     "useCasesLabel": "Kasutusjuhud",
     "useCasesTitle": "Töötab igas olukorras",
     "useCasesSubtitle": "Loodud päriselu hetkedeks, mis loevad, mitte ainult vaikse ja kontrollitud keskkonna jaoks.",

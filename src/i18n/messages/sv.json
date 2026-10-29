@@ -149,6 +149,13 @@
         "description": "Starta Liveundertexter från iPhones hemskärm eller låsskärm."
       }
     },
+    "screenshotsLabel": "Skärmbilder",
+    "screenshotsTitle": "Så ser Captio AI ut i din mobil",
+    "screenshots": [
+      "Liveundertexter i Captio AI på iPhone: varje talares ord syns medan de pratar, märkta Talare 1 och Talare 2",
+      "Liveöversättare i Captio AI: ett samtal på spanska visas på spanska och engelska samtidigt",
+      "Sammanfattning från Captio AI av ett inspelat möte: besluten som togs och en att göra-lista"
+    ],
     "useCasesLabel": "Användningsområden",
     "useCasesTitle": "Fungerar i alla situationer",
     "useCasesSubtitle": "Gjord för de verkliga ögonblicken som betyder något, inte bara för tysta, kontrollerade miljöer.",

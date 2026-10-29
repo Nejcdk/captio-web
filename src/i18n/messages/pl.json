@@ -149,6 +149,13 @@
         "description": "Włączaj Napisy na żywo z ekranu początkowego lub ekranu blokady iPhone’a."
       }
     },
+    "screenshotsLabel": "Zrzuty ekranu",
+    "screenshotsTitle": "Tak wygląda Captio AI na twoim telefonie",
+    "screenshots": [
+      "Napisy na żywo w Captio AI na iPhonie: słowa każdej osoby mówiącej pojawiają się na bieżąco, z etykietami „Mówca 1” i „Mówca 2”",
+      "Tłumacz na żywo w Captio AI: rozmowa po hiszpańsku wyświetlana jednocześnie po hiszpańsku i po angielsku",
+      "Podsumowanie nagranego spotkania w Captio AI: podjęte decyzje i lista zadań"
+    ],
     "useCasesLabel": "Zastosowania",
     "useCasesTitle": "Sprawdza się w każdej sytuacji",
     "useCasesSubtitle": "Stworzone z myślą o prawdziwych, ważnych chwilach – nie tylko o ciszy i idealnych warunkach.",

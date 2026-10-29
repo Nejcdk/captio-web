@@ -149,6 +149,13 @@
         "description": "Nise titrat live nga ekrani bazë ose ekrani i kyçjes i iPhone-it tënd."
       }
     },
+    "screenshotsLabel": "Pamje nga ekrani",
+    "screenshotsTitle": "Si duket Captio AI në telefonin tënd",
+    "screenshots": [
+      "Titrat live të Captio AI në iPhone: fjalët e secilit folës shfaqen ndërsa flet, me etiketat Folësi 1 dhe Folësi 2",
+      "Përkthimi live i Captio AI: një bisedë në spanjisht shfaqet njëkohësisht në spanjisht dhe në anglisht",
+      "Përmbledhje me AI e një takimi të regjistruar në Captio AI: vendimet e marra dhe një listë detyrash"
+    ],
     "useCasesLabel": "Përdorimet",
     "useCasesTitle": "Funksionon në çdo situatë",
     "useCasesSubtitle": "Krijuar për momentet e vërteta që kanë rëndësi, jo vetëm për ambiente të qeta e të kontrolluara.",

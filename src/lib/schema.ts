@@ -3,6 +3,8 @@
 // all JSON-LD on a page by @id, so page-level nodes can reference the global
 // Organization and WebSite defined in the root layout.
 
+import en from "@/i18n/messages/en.json";
+
 export const SITE_URL = "https://captioai.app";
 
 const ORG_ID = `${SITE_URL}/#organization`;
@@ -56,6 +58,33 @@ export const FEATURE_LIST = [
   "Home Screen and Lock Screen widgets",
 ];
 
+/**
+ * Pictures of the app made for the web (public/screenshots, 1200 × 1600, made
+ * by scripts/app-images.sh): the real app screen in an iPhone, the Captio AI
+ * name and one headline, nothing on top of the screen. They are the app's
+ * `image` and `screenshot` on every page, so search engines and AI assistants
+ * show Captio AI's own screens instead of picking another app's picture. Their
+ * descriptions are `home.screenshots` in the messages, so translated pages
+ * describe them in their own language.
+ */
+export const APP_SCREENSHOTS = [
+  "/screenshots/captio-ai-live-captions.jpg",
+  "/screenshots/captio-ai-live-translation.jpg",
+  "/screenshots/captio-ai-ai-summary.jpg",
+];
+export const SCREENSHOT_SIZE = { width: 1200, height: 1600 };
+
+function screenshotImages(captions: string[]) {
+  return APP_SCREENSHOTS.map((path, i) => ({
+    "@type": "ImageObject",
+    url: `${SITE_URL}${path}`,
+    contentUrl: `${SITE_URL}${path}`,
+    width: SCREENSHOT_SIZE.width,
+    height: SCREENSHOT_SIZE.height,
+    caption: captions[i],
+  }));
+}
+
 /** Build a SoftwareApplication node for a page. */
 export function softwareApplicationSchema(opts: {
   url: string;
@@ -63,7 +92,10 @@ export function softwareApplicationSchema(opts: {
   inLanguage?: string;
   /** The feature names in the page's language (translated pages). */
   featureList?: string[];
+  /** The screenshot descriptions in the page's language (translated pages). */
+  screenshotCaptions?: string[];
 }) {
+  const screenshots = screenshotImages(opts.screenshotCaptions ?? en.home.screenshots);
   return {
     "@type": "SoftwareApplication",
     name: "Captio AI",
@@ -79,6 +111,8 @@ export function softwareApplicationSchema(opts: {
     installUrl: [APP_STORE_URL, GOOGLE_PLAY_URL],
     sameAs: [APP_STORE_URL, GOOGLE_PLAY_URL],
     featureList: opts.featureList ?? FEATURE_LIST,
+    image: screenshots[0],
+    screenshot: screenshots,
     offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
     publisher: { "@id": ORG_ID },
     ...(opts.inLanguage ? { inLanguage: opts.inLanguage } : {}),

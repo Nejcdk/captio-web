@@ -149,6 +149,13 @@
         "description": "Lance les sous-titres en direct depuis l’écran d’accueil ou l’écran verrouillé de ton iPhone."
       }
     },
+    "screenshotsLabel": "Captures d’écran",
+    "screenshotsTitle": "À quoi ressemble Captio AI sur ton téléphone",
+    "screenshots": [
+      "Sous-titres en direct de Captio AI sur iPhone : les mots de chaque intervenant s’affichent pendant qu’il parle, avec les étiquettes « Intervenant 1 » et « Intervenant 2 »",
+      "Traduction en direct de Captio AI : une conversation en espagnol affichée à la fois en espagnol et en anglais",
+      "Résumé IA d’une réunion enregistrée dans Captio AI : les décisions prises et une liste de tâches"
+    ],
     "useCasesLabel": "Cas d’usage",
     "useCasesTitle": "Fonctionne dans toutes les situations",
     "useCasesSubtitle": "Pensé pour les vrais moments qui comptent, pas seulement pour les environnements calmes et maîtrisés.",
