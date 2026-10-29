@@ -10,7 +10,7 @@ type HeaderLabels = Messages["header"];
 
 // Features, Use Cases and Languages are sections of the home page in the
 // reader's language ("/#features", "/de#features"); Compare and Blog are
-// English only.
+// English only; For Organizations is in every language.
 function navItems(t: HeaderLabels, homeHref: string) {
   return [
     {
@@ -59,6 +59,16 @@ function navItems(t: HeaderLabels, homeHref: string) {
         </svg>
       ),
     },
+    {
+      // Captio AI for Organizations, in the reader's language (/organizations, /de/organizations).
+      label: t.organizations,
+      href: homeHref === "/" ? "/organizations" : `${homeHref}/organizations`,
+      icon: (
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} className="w-5 h-5">
+          <path d="M4 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16M16 9h2a2 2 0 0 1 2 2v10M2 21h20M8 7h4M8 11h4M8 15h4" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      ),
+    },
   ];
 }
 
@@ -104,8 +114,8 @@ export default function HeaderBar({
           <Image src="/logo_text.png" alt="Captio AI" width={110} height={30} priority />
         </Link>
 
-        {/* Desktop nav */}
-        <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-white/80">
+        {/* Desktop nav: from 1280 px (six items in 60 languages, measured: Tamil, Tagalog, French, German and Kazakh didn't fit 1024), the menu button below. */}
+        <nav className="hidden xl:flex items-center gap-6 2xl:gap-8 whitespace-nowrap text-sm font-medium text-white/80">
           {items.map((item) => (
             <Link key={item.href} href={item.href} className="hover:text-white transition-colors">{item.label}</Link>
           ))}
@@ -121,12 +131,12 @@ export default function HeaderBar({
             />
           )}
 
-          <a href="#download" className="hidden md:block bg-white text-brand text-sm font-semibold px-5 py-2.5 rounded-[8px] hover:bg-white/90 transition-colors">
+          <a href="#download" className="hidden xl:block whitespace-nowrap bg-white text-brand text-sm font-semibold px-5 py-2.5 rounded-[8px] hover:bg-white/90 transition-colors">
             {t.download}
           </a>
 
           {/* Mobile burger */}
-          <button className="md:hidden text-white p-1" onClick={() => setOpen(open === "menu" ? null : "menu")} aria-label={t.toggleMenu}>
+          <button className="xl:hidden text-white p-1" onClick={() => setOpen(open === "menu" ? null : "menu")} aria-label={t.toggleMenu}>
             {open === "menu" ? (
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} className="w-6 h-6">
                 <path d="M6 18L18 6M6 6l12 12" strokeLinecap="round" />
@@ -146,7 +156,7 @@ export default function HeaderBar({
 
       {/* Mobile menu — overlays content, does not push it down */}
       {open === "menu" && (
-        <div className="md:hidden absolute left-4 right-4 mt-2 bg-white rounded-xl shadow-xl border border-gray-100 py-4 z-40">
+        <div className="xl:hidden absolute left-4 right-4 mt-2 bg-white rounded-xl shadow-xl border border-gray-100 py-4 z-40">
           <nav className="flex flex-col gap-1 px-3">
             {items.map((item) => (
               <Link
