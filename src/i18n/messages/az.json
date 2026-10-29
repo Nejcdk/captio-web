@@ -149,6 +149,13 @@
         "description": "iPhone-un Ana ekranından və ya Kilid ekranından Canlı Subtitri işə sal."
       }
     },
+    "screenshotsLabel": "Ekran görüntüləri",
+    "screenshotsTitle": "Captio AI telefonunda belə görünür",
+    "screenshots": [
+      "iPhone-da Captio AI canlı subtitri: hər danışanın sözləri danışdıqca görünür, “Danışan 1” və “Danışan 2” adları ilə",
+      "Captio AI canlı tərcüməçisi: ispanca söhbət eyni anda həm ispanca, həm də ingiliscə göstərilir",
+      "Qeydə alınmış iclasın Captio AI xülasəsi: qəbul edilən qərarlar və görüləcək işlərin siyahısı"
+    ],
     "useCasesLabel": "İstifadə sahələri",
     "useCasesTitle": "Hər vəziyyətdə işləyir",
     "useCasesSubtitle": "Sakit və nəzarətli mühitlər üçün yox — həyatın vacib, real anları üçün hazırlanıb.",

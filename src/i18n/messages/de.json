@@ -149,6 +149,13 @@
         "description": "Starte Live-Untertitel vom Home-Bildschirm oder Sperrbildschirm deines iPhone."
       }
     },
+    "screenshotsLabel": "Screenshots",
+    "screenshotsTitle": "So sieht Captio AI auf deinem Handy aus",
+    "screenshots": [
+      "Live-Untertitel in Captio AI auf dem iPhone: Was jede Person sagt, erscheint schon beim Sprechen, beschriftet mit „Sprecher 1“ und „Sprecher 2“",
+      "Live-Übersetzer in Captio AI: ein Gespräch auf Spanisch, gleichzeitig auf Spanisch und auf Englisch angezeigt",
+      "KI-Zusammenfassung eines aufgenommenen Meetings in Captio AI: die getroffenen Entscheidungen und eine To-do-Liste"
+    ],
     "useCasesLabel": "Anwendungsfälle",
     "useCasesTitle": "Funktioniert in jeder Situation",
     "useCasesSubtitle": "Gemacht für die echten Momente, auf die es ankommt, nicht nur für ruhige, kontrollierte Umgebungen.",

@@ -149,6 +149,13 @@
         "description": "Dechrau Capsiynau Byw o Sgrin Gartref neu Sgrin Cloi dy iPhone."
       }
     },
+    "screenshotsLabel": "Sgrinluniau",
+    "screenshotsTitle": "Sut mae Captio AI yn edrych ar dy ffôn",
+    "screenshots": [
+      "Capsiynau byw Captio AI ar iPhone: mae geiriau pob siaradwr yn ymddangos wrth iddyn nhw siarad, wedi’u labelu’n “Siaradwr 1” a “Siaradwr 2”",
+      "Cyfieithu byw Captio AI: sgwrs yn Sbaeneg yn cael ei dangos yn Sbaeneg ac yn Saesneg ar yr un pryd",
+      "Crynodeb AI o gyfarfod wedi’i recordio yn Captio AI: y penderfyniadau a wnaed a rhestr o dasgau i’w gwneud"
+    ],
     "useCasesLabel": "Defnyddiau",
     "useCasesTitle": "Yn gweithio ym mhob sefyllfa",
     "useCasesSubtitle": "Wedi’i gynllunio ar gyfer yr adegau go iawn sy’n bwysig, nid dim ond llefydd tawel a rheoledig.",

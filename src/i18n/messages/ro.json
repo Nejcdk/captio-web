@@ -149,6 +149,13 @@
         "description": "Pornește Subtitrări live de pe ecranul principal sau de pe ecranul de blocare al iPhone-ului."
       }
     },
+    "screenshotsLabel": "Capturi de ecran",
+    "screenshotsTitle": "Așa arată Captio AI pe telefonul tău",
+    "screenshots": [
+      "Subtitrări live în Captio AI pe iPhone: cuvintele fiecărui vorbitor apar pe măsură ce vorbește, marcate „Vorbitor 1” și „Vorbitor 2”",
+      "Traducător live în Captio AI: o conversație în spaniolă, afișată în același timp în spaniolă și în engleză",
+      "Rezumatul unei ședințe înregistrate, făcut de Captio AI: deciziile luate și lista de sarcini"
+    ],
     "useCasesLabel": "Situații",
     "useCasesTitle": "Funcționează în orice situație",
     "useCasesSubtitle": "Gândit pentru momentele reale care contează, nu doar pentru încăperi liniștite și controlate.",

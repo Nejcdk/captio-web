@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { SITE_URL } from "@/lib/schema";
+import { APP_SCREENSHOTS, SITE_URL } from "@/lib/schema";
 import { languages } from "@/lib/languages";
 import { useCases } from "@/lib/useCases";
 import { AUTHORS, CATEGORIES, getAllPosts, getPostsByAuthor, getPostsByCategory, type AuthorKey, type CategorySlug } from "@/lib/blog";
@@ -27,7 +27,7 @@ const UPDATED = {
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [
-    { url: `${SITE_URL}/`, lastModified: UPDATED.core },
+    { url: `${SITE_URL}/`, lastModified: UPDATED.core, images: APP_SCREENSHOTS.map((p) => `${SITE_URL}${p}`) },
     { url: `${SITE_URL}/live-captions`, lastModified: UPDATED.core },
     { url: `${SITE_URL}/live-translator`, lastModified: UPDATED.core },
     { url: `${SITE_URL}/audio-transcription`, lastModified: UPDATED.core },

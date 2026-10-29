@@ -149,6 +149,13 @@
         "description": "Start Live Captions from your iPhone Home Screen or Lock Screen."
       }
     },
+    "screenshotsLabel": "Screenshots",
+    "screenshotsTitle": "What Captio AI looks like on your phone",
+    "screenshots": [
+      "Captio AI live captions on iPhone: each speaker's words appear as they talk, labelled Speaker 1 and Speaker 2",
+      "Captio AI live translation: a conversation in Spanish shown in Spanish and in English at the same time",
+      "Captio AI summary of a recorded meeting: the decisions made and a to-do list"
+    ],
     "useCasesLabel": "Use Cases",
     "useCasesTitle": "Works in every situation",
     "useCasesSubtitle": "Designed for the real moments that matter — not just quiet controlled environments.",

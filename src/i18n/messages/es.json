@@ -149,6 +149,13 @@
         "description": "Inicia Subtítulos en vivo desde la pantalla de inicio o la pantalla bloqueada de tu iPhone."
       }
     },
+    "screenshotsLabel": "Capturas de pantalla",
+    "screenshotsTitle": "Así se ve Captio AI en tu teléfono",
+    "screenshots": [
+      "Subtítulos en vivo de Captio AI en iPhone: las palabras de cada hablante aparecen mientras habla, con las etiquetas «Hablante 1» y «Hablante 2»",
+      "Traducción en vivo de Captio AI: una conversación en español que se muestra a la vez en español y en inglés",
+      "Resumen de una reunión grabada en Captio AI: las decisiones tomadas y una lista de tareas"
+    ],
     "useCasesLabel": "Casos de uso",
     "useCasesTitle": "Funciona en cualquier situación",
     "useCasesSubtitle": "Diseñada para los momentos reales que importan, no solo para entornos tranquilos y controlados.",

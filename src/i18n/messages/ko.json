@@ -149,6 +149,13 @@
         "description": "iPhone 홈 화면이나 잠금 화면에서 실시간 자막을 시작하세요."
       }
     },
+    "screenshotsLabel": "스크린샷",
+    "screenshotsTitle": "휴대폰에서 보는 Captio AI",
+    "screenshots": [
+      "iPhone에서 쓰는 Captio AI 실시간 자막: 화자마다 말하는 즉시 글자가 나타나고, “화자 1”과 “화자 2”로 표시돼요",
+      "Captio AI 실시간 번역: 스페인어 대화를 스페인어와 영어로 동시에 보여 줘요",
+      "녹음한 회의의 Captio AI 요약: 결정된 사항과 할 일 목록"
+    ],
     "useCasesLabel": "활용 사례",
     "useCasesTitle": "어떤 상황에서도 쓸 수 있어요",
     "useCasesSubtitle": "조용하고 정돈된 환경만이 아니라, 정말 중요한 실제 순간을 위해 만들었어요.",

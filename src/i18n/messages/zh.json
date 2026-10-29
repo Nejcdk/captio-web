@@ -149,6 +149,13 @@
         "description": "从 iPhone 主屏幕或锁定屏幕启动实时字幕。"
       }
     },
+    "screenshotsLabel": "截图",
+    "screenshotsTitle": "Captio AI 在你手机上的样子",
+    "screenshots": [
+      "iPhone 上的 Captio AI 实时字幕：每位说话人一开口，文字就随之出现，并标为“说话人 1”和“说话人 2”",
+      "Captio AI 实时翻译：一段西班牙语对话同时以西班牙语和英语显示",
+      "Captio AI 为一场会议录音生成的 AI 摘要：会上做出的决定和一份待办事项清单"
+    ],
     "useCasesLabel": "使用场景",
     "useCasesTitle": "适用于每一种场景",
     "useCasesSubtitle": "为真正重要的时刻而设计，而不只是安静、可控的环境。",

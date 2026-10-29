@@ -149,6 +149,13 @@
         "description": "Spusti živé titulky z plochy alebo uzamknutej obrazovky svojho iPhonu."
       }
     },
+    "screenshotsLabel": "Snímky obrazovky",
+    "screenshotsTitle": "Ako vyzerá Captio AI v tvojom telefóne",
+    "screenshots": [
+      "Živé titulky v aplikácii Captio AI na iPhone: slová každého hovoriaceho sa zobrazujú, kým hovorí, s označením Hovoriaci 1 a Hovoriaci 2",
+      "Živý preklad v aplikácii Captio AI: rozhovor v španielčine zobrazený naraz po španielsky aj po anglicky",
+      "AI zhrnutie nahranej porady v aplikácii Captio AI: prijaté rozhodnutia a zoznam úloh"
+    ],
     "useCasesLabel": "Využitie",
     "useCasesTitle": "Funguje v každej situácii",
     "useCasesSubtitle": "Navrhnuté pre skutočné chvíle, na ktorých záleží – nielen pre ticho a ideálne podmienky.",

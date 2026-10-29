@@ -149,6 +149,13 @@
         "description": "Indítsd el az Élő feliratot az iPhone főképernyőjéről vagy zárolási képernyőjéről."
       }
     },
+    "screenshotsLabel": "Képernyőképek",
+    "screenshotsTitle": "Így néz ki a Captio AI a telefonodon",
+    "screenshots": [
+      "A Captio AI élő felirata iPhone-on: minden beszélő szavai megjelennek, ahogy beszél, „1. beszélő” és „2. beszélő” címkével",
+      "A Captio AI élő fordítója: egy spanyol nyelvű beszélgetés egyszerre jelenik meg spanyolul és angolul",
+      "A Captio AI összefoglalója egy rögzített megbeszélésről: a meghozott döntések és egy teendőlista"
+    ],
     "useCasesLabel": "Felhasználás",
     "useCasesTitle": "Minden helyzetben működik",
     "useCasesSubtitle": "A valódi, fontos pillanatokra tervezve, nem csak csendes, ideális körülményekre.",

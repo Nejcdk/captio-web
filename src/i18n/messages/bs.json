@@ -149,6 +149,13 @@
         "description": "Pokreni titlove uživo s početnog ili zaključanog ekrana telefona iPhone."
       }
     },
+    "screenshotsLabel": "Snimci ekrana",
+    "screenshotsTitle": "Kako Captio AI izgleda na tvom telefonu",
+    "screenshots": [
+      "Titlovi uživo u aplikaciji Captio AI na telefonu iPhone: riječi svakog govornika pojavljuju se dok govori, označene kao „Govornik 1“ i „Govornik 2“",
+      "Prijevod uživo u aplikaciji Captio AI: razgovor na španskom prikazan istovremeno na španskom i na engleskom",
+      "AI sažetak snimljenog sastanka u aplikaciji Captio AI: donesene odluke i spisak zadataka"
+    ],
     "useCasesLabel": "Primjeri upotrebe",
     "useCasesTitle": "Radi u svakoj situaciji",
     "useCasesSubtitle": "Napravljeno za stvarne trenutke koji su bitni, a ne samo za tiha i kontrolisana okruženja.",

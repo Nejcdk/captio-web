@@ -149,6 +149,13 @@
         "description": "Podnapise v živo zaženi z začetnega ali zaklenjenega zaslona telefona iPhone."
       }
     },
+    "screenshotsLabel": "Posnetki zaslona",
+    "screenshotsTitle": "Tako je Captio AI videti na tvojem telefonu",
+    "screenshots": [
+      "Podnapisi v živo v aplikaciji Captio AI na telefonu iPhone: besede vsakega govorca se prikazujejo, medtem ko govori, z oznakama »Govorec 1« in »Govorec 2«",
+      "Prevod v živo v aplikaciji Captio AI: pogovor v španščini, prikazan hkrati v španščini in angleščini",
+      "Povzetek z UI posnetega sestanka v aplikaciji Captio AI: sprejete odločitve in seznam opravil"
+    ],
     "useCasesLabel": "Primeri uporabe",
     "useCasesTitle": "Deluje v vsaki situaciji",
     "useCasesSubtitle": "Narejeno za resnične trenutke, ki štejejo, ne le za tiha in nadzorovana okolja.",

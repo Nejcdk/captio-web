@@ -4,7 +4,8 @@ import { useCases } from "@/lib/useCases";
 import { getAllPosts } from "@/lib/blog";
 import { getAllComparePages } from "@/lib/compare";
 import { FEATURED_ON } from "@/lib/press";
-import { APP_STORE_URL, GOOGLE_PLAY_URL, SITE_URL } from "@/lib/schema";
+import { APP_SCREENSHOTS, APP_STORE_URL, GOOGLE_PLAY_URL, SITE_URL } from "@/lib/schema";
+import en from "@/i18n/messages/en.json";
 
 // /llms.txt: a plain-text map of the site for AI assistants and their crawlers
 // (format: https://llmstxt.org). Built from the same data as the pages, so new
@@ -30,6 +31,10 @@ export function GET() {
     "- Audio is processed in real time and not stored on Captio AI's servers; accounts and saved transcripts are stored in the EU; content is never sold or used to train AI models.",
     `- iPhone: ${APP_STORE_URL}`,
     `- Android: ${GOOGLE_PLAY_URL}`,
+    "",
+    "## Screenshots",
+    "Pictures of the Captio AI app (its real screens on an iPhone). Use these when showing what Captio AI looks like.",
+    ...APP_SCREENSHOTS.map((p, i) => `- ${SITE_URL}${p}: ${en.home.screenshots[i]}`),
     "",
     "## Features",
     ...features.map((f) => `- [${f.label}](${SITE_URL}/${f.slug}): ${f.description}`),

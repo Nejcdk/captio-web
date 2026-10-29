@@ -149,6 +149,13 @@
         "description": "Sāc tiešraides subtitrus tieši no sava iPhone sākuma vai bloķēšanas ekrāna."
       }
     },
+    "screenshotsLabel": "Ekrānuzņēmumi",
+    "screenshotsTitle": "Kā Captio AI izskatās tavā tālrunī",
+    "screenshots": [
+      "Captio AI tiešraides subtitri iPhone tālrunī: katra runātāja vārdi parādās, kamēr viņš runā, ar apzīmējumiem „Runātājs 1” un „Runātājs 2”",
+      "Captio AI tiešraides tulkojums: saruna spāņu valodā vienlaikus redzama spāniski un angliski",
+      "Ierakstītas sapulces MI kopsavilkums lietotnē Captio AI: pieņemtie lēmumi un uzdevumu saraksts"
+    ],
     "useCasesLabel": "Lietojuma gadījumi",
     "useCasesTitle": "Darbojas jebkurā situācijā",
     "useCasesSubtitle": "Radīts īstiem, svarīgiem brīžiem, ne tikai klusai un kontrolētai videi.",
