@@ -20,7 +20,7 @@ const UPDATED = {
   useCases: "2026-10-13", // /use-cases/[slug] and /use-cases/[slug]/[language]
   privacy: "2026-10-07",
   terms: "2026-10-07",
-  organizations: "2026-10-28",
+  organizations: "2026-10-29",
   translations: "2026-10-28", // /<code> and /<code>/<feature>
   moreFeatures: "2026-10-28", // /ai-actions, /export, /folders, /recognize-voices, /speaker-direction, /recognize-sounds, /connectors, /widgets
 };
