@@ -133,6 +133,11 @@
         "title": "Vidiš, od kod prihaja glas",
         "description": "Valovi na robu podnapisov pokažejo, kdo govori. Za iPhone 16 in novejše."
       },
+      "recognize-sounds": {
+        "label": "Prepoznaj zvoke",
+        "title": "Zvoki v tvojih podnapisih",
+        "description": "Zvonec na vratih, alarm ali jok dojenčka se prikaže v tvojih podnapisih, ob pomembnih zvokih pa telefon zavibrira."
+      },
       "connectors": {
         "label": "Povezovalniki",
         "title": "Vprašaj svoj klepetalnik",

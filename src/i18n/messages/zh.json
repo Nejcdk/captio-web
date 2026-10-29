@@ -124,7 +124,7 @@
         "description": "把录音分类放进文件夹，并与家人、同学或团队共享。"
       },
       "recognize-voices": {
-        "label": "识别声音",
+        "label": "识别人声",
         "title": "显示名字，而不是“说话人 2”",
         "description": "保存常交谈的人的声音，在字幕里直接看到他们的名字。"
       },
@@ -132,6 +132,11 @@
         "label": "说话人方向",
         "title": "看见声音来自哪里",
         "description": "字幕边缘的波形会指向正在说话的人。支持 iPhone 16 及更新机型。"
+      },
+      "recognize-sounds": {
+        "label": "识别声音",
+        "title": "声音也写进字幕",
+        "description": "门铃、闹钟或婴儿哭声会出现在你的字幕里，提醒类的声音还会让手机振动。"
       },
       "connectors": {
         "label": "连接器",

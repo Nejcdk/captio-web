@@ -133,6 +133,11 @@
         "title": "Vois d’où vient une voix",
         "description": "Des ondes au bord des sous-titres indiquent qui parle. iPhone 16 et modèles suivants."
       },
+      "recognize-sounds": {
+        "label": "Reconnaissance des sons",
+        "title": "Les sons dans tes sous-titres",
+        "description": "Une sonnette, une alarme ou un bébé qui pleure apparaît dans tes sous-titres, et les alertes font vibrer ton téléphone."
+      },
       "connectors": {
         "label": "Connecteurs",
         "title": "Demande à ton appli de chat",

@@ -133,6 +133,11 @@
         "title": "Näe, kust hääl tuleb",
         "description": "Lained subtiitrite serval näitavad, kes räägib. iPhone 16 ja uuemate jaoks."
       },
+      "recognize-sounds": {
+        "label": "Helide tuvastamine",
+        "title": "Helid sinu subtiitrites",
+        "description": "Uksekell, häiresignaal või beebi nutt ilmub sinu subtiitritesse ja oluliste helide korral telefon vibreerib."
+      },
       "connectors": {
         "label": "Ühendused",
         "title": "Küsi oma vestlusrakenduselt",

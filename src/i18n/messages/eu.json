@@ -133,6 +133,11 @@
         "title": "Ikusi nondik datorren ahotsa",
         "description": "Azpitituluen ertzeko uhinek nork hitz egiten duen adierazten dute. iPhone 16 eta ondorengoetarako."
       },
+      "recognize-sounds": {
+        "label": "Soinuak ezagutzea",
+        "title": "Soinuak zure azpitituluetan",
+        "description": "Ate-txirrina, alarma bat edo haur baten negarra azpitituluetan agertzen dira, eta soinu garrantzitsuekin telefonoak dar-dar egiten du."
+      },
       "connectors": {
         "label": "Konektoreak",
         "title": "Galdetu zure txat-aplikazioari",

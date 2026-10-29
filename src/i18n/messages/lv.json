@@ -133,6 +133,11 @@
         "title": "Redzi, no kurienes nāk balss",
         "description": "Viļņi subtitru malā rāda, kurš runā. Ar iPhone 16 un jaunākiem."
       },
+      "recognize-sounds": {
+        "label": "Skaņu atpazīšana",
+        "title": "Skaņas tavos subtitros",
+        "description": "Durvju zvans, trauksmes signāls vai raudošs mazulis parādās tavos subtitros, un svarīgu skaņu gadījumā tālrunis novibrē."
+      },
       "connectors": {
         "label": "Savienotāji",
         "title": "Pajautā savai tērzēšanas lietotnei",

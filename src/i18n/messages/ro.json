@@ -133,6 +133,11 @@
         "title": "Vezi de unde vine o voce",
         "description": "Undele de la marginea subtitrărilor arată cine vorbește. Pe iPhone 16 și mai noi."
       },
+      "recognize-sounds": {
+        "label": "Recunoașterea sunetelor",
+        "title": "Sunete în subtitrările tale",
+        "description": "O sonerie, o alarmă sau un bebeluș care plânge apar în subtitrările tale, iar la sunetele importante telefonul vibrează."
+      },
       "connectors": {
         "label": "Conectori",
         "title": "Întreabă aplicația ta de chat",

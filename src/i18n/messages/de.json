@@ -133,6 +133,11 @@
         "title": "Sieh, woher eine Stimme kommt",
         "description": "Wellen am Rand der Untertitel zeigen, wer gerade spricht. Ab dem iPhone 16."
       },
+      "recognize-sounds": {
+        "label": "Geräusche erkennen",
+        "title": "Geräusche in deinen Untertiteln",
+        "description": "Eine Türklingel, ein Alarm oder ein weinendes Baby erscheinen in deinen Untertiteln, und bei wichtigen Geräuschen vibriert dein Handy."
+      },
       "connectors": {
         "label": "Konnektoren",
         "title": "Frag deine Chat-App",

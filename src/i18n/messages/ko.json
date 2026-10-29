@@ -133,6 +133,11 @@
         "title": "목소리가 오는 방향 보기",
         "description": "자막 가장자리의 물결이 누가 말하는지 알려 줘요. iPhone 16 이상."
       },
+      "recognize-sounds": {
+        "label": "소리 인식",
+        "title": "자막에 소리까지",
+        "description": "초인종, 알람, 아기 울음소리가 자막에 나타나고, 중요한 소리가 나면 휴대폰이 진동해요."
+      },
       "connectors": {
         "label": "커넥터",
         "title": "채팅 앱에 물어보기",

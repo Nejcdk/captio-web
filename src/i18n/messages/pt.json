@@ -133,6 +133,11 @@
         "title": "Veja de onde vem uma voz",
         "description": "Ondas na borda das legendas apontam quem está falando. No iPhone 16 e posteriores."
       },
+      "recognize-sounds": {
+        "label": "Reconhecer sons",
+        "title": "Sons nas suas legendas",
+        "description": "Uma campainha, um alarme ou um bebê chorando aparecem nas suas legendas, e os alertas fazem o celular vibrar."
+      },
       "connectors": {
         "label": "Conectores",
         "title": "Pergunte ao seu app de chat",

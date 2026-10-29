@@ -133,6 +133,11 @@
         "title": "Ona sauti inatoka wapi",
         "description": "Mawimbi pembeni mwa manukuu huonyesha nani anazungumza. iPhone 16 na kuendelea."
       },
+      "recognize-sounds": {
+        "label": "Tambua Milio",
+        "title": "Milio kwenye manukuu yako",
+        "description": "Kengele ya mlango, alamu au mtoto anayelia huonekana kwenye manukuu yako, na milio ya tahadhari hufanya simu yako itetemeke."
+      },
       "connectors": {
         "label": "Viunganishi",
         "title": "Uliza programu yako ya gumzo",

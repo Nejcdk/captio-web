@@ -133,6 +133,11 @@
         "title": "Mira d’on ve la veu",
         "description": "Les ones a la vora dels subtítols assenyalen qui parla. iPhone 16 i posteriors."
       },
+      "recognize-sounds": {
+        "label": "Reconeixement de sons",
+        "title": "Sons als teus subtítols",
+        "description": "Un timbre, una alarma o un nadó que plora apareixen als teus subtítols, i amb els sons importants el mòbil vibra."
+      },
       "connectors": {
         "label": "Connectors",
         "title": "Pregunta al teu xat",

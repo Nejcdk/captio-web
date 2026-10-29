@@ -133,6 +133,11 @@
         "title": "Zie waar een stem vandaan komt",
         "description": "Golven aan de rand van de ondertitels wijzen naar wie er praat. Vanaf iPhone 16."
       },
+      "recognize-sounds": {
+        "label": "Geluiden herkennen",
+        "title": "Geluiden in je ondertitels",
+        "description": "Een deurbel, alarm of huilende baby verschijnt in je ondertitels, en bij belangrijke geluiden trilt je telefoon."
+      },
       "connectors": {
         "label": "Connectors",
         "title": "Vraag het aan je chat-app",

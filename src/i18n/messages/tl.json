@@ -133,6 +133,11 @@
         "title": "Tingnan kung saan galing ang boses",
         "description": "Itinuturo ng mga alon sa gilid ng mga caption kung sino ang nagsasalita. Para sa iPhone 16 at mas bago."
       },
+      "recognize-sounds": {
+        "label": "Pagkilala sa Tunog",
+        "title": "Mga tunog sa mga caption mo",
+        "description": "Lumalabas sa mga caption mo ang doorbell, alarm, o umiiyak na sanggol, at nagba-vibrate ang phone mo sa mga alert."
+      },
       "connectors": {
         "label": "Mga Connector",
         "title": "Magtanong sa chat app mo",
