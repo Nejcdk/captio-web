@@ -3,7 +3,7 @@ title: "How to see who is talking in live captions"
 description: "Captions without names are hard to follow at a table. Captioning standards, Pixel Recorder labels and Captio AI's saved voices, side by side."
 category: guides
 published: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-29
 author: nate
 tags: [who is speaking live captions, speaker labels, live captions group conversation, speaker identification captions]
 answer: "To see who is talking in live captions, use an app that separates speakers and lets you name them. Captioning standards say speakers should be identified, with a name once the person is known and a label like speaker #1 when it is not [1]. Captio AI, a live captioning app for deaf and hard of hearing people, labels speakers and, since version 1.1.3 on iPhone, can recognize voices you have saved so captions show names instead of Speaker 2."
@@ -90,7 +90,7 @@ Captio AI, Google Pixel Recorder, Google Live Transcribe, Apple Live Captions an
 
 | Feature | Captio AI | Google Pixel Recorder | Google Live Transcribe | Apple Live Captions | Microsoft Teams captions |
 |---|---|---|---|---|---|
-| Platform | iPhone, App Store (iOS 15.1 or later) [5] | Pixel phones (Pixel 6 and later) [3] | Android [4] | iPhone, iPad, Mac, Apple Watch, Apple Vision Pro [6] | Teams meetings and group calls [7] |
+| Platform | iPhone and iPad, App Store (iOS 15.1 or later) [5] | Pixel phones (Pixel 6 and later) [3] | Android [4] | iPhone, iPad, Mac, Apple Watch, Apple Vision Pro [6] | Teams meetings and group calls [7] |
 | Captions in-person speech through the microphone | Yes | Not stated | Yes, hold the microphone near the person [4] | Yes [6] | Not stated; the page covers meetings, group calls and live events [7] |
 | Labels speakers (Speaker 1, Speaker 2) | Yes | Yes [3] | Not stated [4] | Not stated [6] | Not stated; people can choose not to be identified in captions [7] |
 | Rename a speaker | Yes, tap the tag in a saved recording | Yes, one paragraph at a time [3] | Not stated | Not stated | Not stated |

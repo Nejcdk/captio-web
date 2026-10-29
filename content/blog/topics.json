@@ -3075,6 +3075,84 @@
           "spanish"
         ]
       },
+      "status": "published",
+      "slug": "how-to-caption-a-conversation-in-two-languages",
+      "published": "2026-10-29"
+    },
+    {
+      "id": "how-to-ask-claude-or-chatgpt-about-your-meeting-recordings",
+      "category": "guides",
+      "pillar": "feature",
+      "title": "How to ask Claude or ChatGPT about your meeting recordings",
+      "query": "ask chatgpt about meeting recordings transcript connector",
+      "angle": "Using the Captio AI Connectors (1.1.4): add the address to Claude, ChatGPT, Gemini or Perplexity, then ask what was decided and who said it, including recordings in shared folders. State each chat app's plan limits from its own help page.",
+      "links": [
+        "/connectors",
+        "/use-cases/meetings",
+        "/blog/how-to-organize-and-share-meeting-transcripts-in-folders"
+      ],
+      "covers": {
+        "features": [
+          "connectors",
+          "shared-folders"
+        ],
+        "useCases": [
+          "meetings",
+          "lectures"
+        ],
+        "languages": []
+      },
+      "status": "queued",
+      "priority": true
+    },
+    {
+      "id": "how-to-tell-where-a-voice-is-coming-from-with-hearing-loss",
+      "category": "guides",
+      "pillar": "feature",
+      "title": "How to tell which side a voice is coming from at a busy table",
+      "query": "hearing loss locate sound direction group conversation captions",
+      "angle": "Speaker direction waves in Captio AI 1.1.4 (iPhone 16 and later): what they show, how to place the phone, battery, and why sound localisation is hard with hearing loss (cite audiology sources).",
+      "links": [
+        "/speaker-direction",
+        "/use-cases/group-settings",
+        "/use-cases/restaurants"
+      ],
+      "covers": {
+        "features": [
+          "speaker-direction"
+        ],
+        "useCases": [
+          "group-settings",
+          "restaurants"
+        ],
+        "languages": []
+      },
+      "status": "queued",
+      "priority": true
+    },
+    {
+      "id": "live-captions-on-ipad-for-lectures-and-meetings",
+      "category": "guides",
+      "pillar": "feature",
+      "title": "How to use live captions on an iPad in a lecture or meeting",
+      "query": "live captions ipad lecture meeting",
+      "angle": "Captio AI is a native iPad app from 1.1.4: full-screen captions, side-by-side translation, Split View. Compare with Apple's built-in iPad Live Captions from Apple's own pages.",
+      "links": [
+        "/live-captions",
+        "/use-cases/lectures",
+        "/use-cases/meetings"
+      ],
+      "covers": {
+        "features": [
+          "ipad",
+          "live-captions"
+        ],
+        "useCases": [
+          "lectures",
+          "meetings"
+        ],
+        "languages": []
+      },
       "status": "queued",
       "priority": true
     }
