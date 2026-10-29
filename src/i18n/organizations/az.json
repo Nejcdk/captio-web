@@ -12,7 +12,6 @@
     "eyebrow": "🏢 Təşkilatlar üçün Captio AI",
     "title": "İnsanların [danışdığı] anda telefonda canlı subtitrlər",
     "description": "Captio AI kar və zəif eşidən insanlar üçün tətbiqdir. O, dinləyir və üz-üzə ünsiyyətdə deyilənləri mətn kimi göstərir, 60+ dildə. Onu təşkilatınızda ehtiyacı olan insanlara verin: hər nəfər üçün bir illik lisenziya, hesab-faktura ilə ödəniş.",
-    "seeHow": "Necə işlədiyinə baxın",
     "pilotNote": "30 gün pulsuz, 5 nəfərə qədər. Heç nə ödəmək və imzalamaq lazım deyil.",
     "facts": ["iPhone və Android", "60+ dil", "Məlumatlar Aİ-də saxlanılır"],
     "videoLabel": "Captio AI iki nəfərin söhbətini canlı subtitrlərlə göstərir, hər danışan üçün ayrıca etiketlə"
@@ -113,8 +112,7 @@
       "Kommersiya təklifi, satınalma sifarişiniz, hesab-faktura",
       "Məlumatların emalı haqqında müqavilə",
       "Minimum yoxdur, qoşulma haqqı yoxdur, avtomatik yenilənmə yoxdur"
-    ],
-    "quote": "Kommersiya təklifi istəyin"
+    ]
   },
   "data": {
     "eyebrow": "Məlumatların qorunması komandanız üçün",

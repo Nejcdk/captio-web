@@ -12,7 +12,6 @@
     "eyebrow": "🏢 Captio AI für Organisationen",
     "title": "Live-Untertitel auf dem eigenen Handy, sobald jemand [spricht]",
     "description": "Captio AI ist eine App für gehörlose und schwerhörige Menschen. Die App hört zu und zeigt das Gesagte als Text, im direkten Gespräch, in 60+ Sprachen. Stellen Sie sie den Menschen in Ihrer Organisation zur Verfügung, die sie brauchen: eine Jahreslizenz pro Person, bezahlt auf Rechnung.",
-    "seeHow": "So funktioniert es",
     "pilotNote": "30 Tage kostenlos, für bis zu 5 Personen. Nichts zu bezahlen, nichts zu unterschreiben.",
     "facts": ["iPhone und Android", "60+ Sprachen", "Speicherung in der EU"],
     "videoLabel": "Captio AI zeigt Live-Untertitel eines Gesprächs zwischen zwei Personen, mit einer eigenen Markierung für jeden Sprecher"
@@ -113,8 +112,7 @@
       "Angebot, Ihre Bestellung, Rechnung",
       "Ein Auftragsverarbeitungsvertrag",
       "Keine Mindestmenge, keine Einrichtungsgebühr, keine automatische Verlängerung"
-    ],
-    "quote": "Angebot anfordern"
+    ]
   },
   "data": {
     "eyebrow": "Für Ihr Datenschutzteam",

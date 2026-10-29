@@ -12,7 +12,6 @@
     "eyebrow": "🏢 Captio AI szervezeteknek",
     "title": "Élő felirat a telefonjukon, abban a pillanatban, ahogy valaki [megszólal]",
     "description": "A Captio AI siketeknek és nagyothallóknak készült alkalmazás. Figyeli, ami elhangzik, és szövegként mutatja személyes helyzetekben, több mint 60 nyelven. Adja oda azoknak a szervezetében, akiknek szükségük van rá: személyenként egy éves licenc, számlára.",
-    "seeHow": "Így működik",
     "pilotNote": "30 napig ingyenes, legfeljebb 5 főnek. Nincs mit fizetni, nincs mit aláírni.",
     "facts": ["iPhone és Android", "Több mint 60 nyelv", "Tárolás az EU-ban"],
     "videoLabel": "A Captio AI két beszélgető ember élő feliratát mutatja, minden beszélőnél külön címkével"
@@ -113,8 +112,7 @@
       "Árajánlat, az Önök megrendelése, számla",
       "Adatfeldolgozási szerződés",
       "Nincs minimum, nincs beállítási díj, nincs automatikus megújítás"
-    ],
-    "quote": "Árajánlatot kérek"
+    ]
   },
   "data": {
     "eyebrow": "Az adatvédelmi csapatnak",

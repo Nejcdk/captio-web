@@ -12,7 +12,6 @@
     "eyebrow": "🏢 Captio AI for organisasjoner",
     "title": "Direkteteksting på mobilen, i det øyeblikket noen [snakker]",
     "description": "Captio AI er en app for døve og hørselshemmede. Den lytter og viser det som blir sagt som tekst, ansikt til ansikt, på 60+ språk. Gi den til de personene i organisasjonen din som trenger den: én årslisens per person, mot faktura.",
-    "seeHow": "Se hvordan det fungerer",
     "pilotNote": "Gratis i 30 dager for opptil 5 personer. Ingenting å betale, ingenting å signere.",
     "facts": ["iPhone og Android", "60+ språk", "Lagres i EU"],
     "videoLabel": "Captio AI viser direkteteksting av to personer som snakker, med en merkelapp for hver taler"
@@ -113,8 +112,7 @@
       "Tilbud, innkjøpsordre etter deres rutiner og faktura",
       "En databehandleravtale",
       "Ingen minstekjøp, ingen etableringsgebyr, ingen automatisk fornyelse"
-    ],
-    "quote": "Be om et tilbud"
+    ]
   },
   "data": {
     "eyebrow": "For dem som har ansvar for personvern",

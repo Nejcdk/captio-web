@@ -12,7 +12,6 @@
     "eyebrow": "🏢 Captio AI organisatsioonidele",
     "title": "Otsesubtiitrid nende telefonis kohe, kui inimesed [räägivad]",
     "description": "Captio AI on rakendus kurtidele ja vaegkuuljatele. See kuulab ja näitab öeldut tekstina silmast silma vestlustes, 60+ keeles. Andke see oma organisatsiooni inimestele, kes seda vajavad: igaühele üks aastalitsents, tasumine arve alusel.",
-    "seeHow": "Vaadake, kuidas see töötab",
     "pilotNote": "30 päeva tasuta, kuni 5 inimesele. Midagi ei pea maksma ega allkirjastama.",
     "facts": ["iPhone ja Android", "60+ keelt", "Andmed asuvad ELis"],
     "videoLabel": "Captio AI näitab kahe inimese vestluse otsesubtiitreid, iga kõneleja oma sildiga"
@@ -113,8 +112,7 @@
       "Hinnapakkumine, teie ostutellimus, arve",
       "Andmetöötlusleping",
       "Miinimumita, juurutustasuta, automaatse pikenduseta"
-    ],
-    "quote": "Küsige hinnapakkumist"
+    ]
   },
   "data": {
     "eyebrow": "Teie andmekaitsemeeskonnale",

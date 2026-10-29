@@ -12,7 +12,6 @@
     "eyebrow": "🏢 Captio AI voor organisaties",
     "title": "Live ondertiteling op hun telefoon, zodra iemand [spreekt]",
     "description": "Captio AI is een app voor doven en slechthorenden. De app luistert en toont wat er gezegd wordt als tekst, bij gesprekken in dezelfde ruimte, in 60+ talen. Stel hem beschikbaar voor de mensen in uw organisatie die hem nodig hebben: één jaarlicentie per persoon, betaald op factuur.",
-    "seeHow": "Bekijk hoe het werkt",
     "pilotNote": "30 dagen gratis, voor maximaal 5 personen. Niets te betalen, niets te tekenen.",
     "facts": ["iPhone en Android", "60+ talen", "Opgeslagen in de EU"],
     "videoLabel": "Captio AI toont live ondertiteling van twee mensen die praten, met een label per spreker"
@@ -113,8 +112,7 @@
       "Een offerte, uw inkooporder, een factuur",
       "Een verwerkersovereenkomst",
       "Geen minimum, geen opstartkosten, geen automatische verlenging"
-    ],
-    "quote": "Vraag een offerte aan"
+    ]
   },
   "data": {
     "eyebrow": "Voor uw privacyteam",

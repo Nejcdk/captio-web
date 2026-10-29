@@ -12,7 +12,6 @@
     "eyebrow": "🏢 Captio AI organizacijoms",
     "title": "Tiesioginiai subtitrai jų telefone, vos tik žmonės [prabyla]",
     "description": "Captio AI – programėlė kurtiesiems ir neprigirdintiesiems. Ji klauso ir tekstu parodo, kas sakoma pokalbyje gyvai, 60+ kalbų. Suteikite ją savo organizacijos žmonėms, kuriems jos reikia: po vieną metinę licenciją kiekvienam, apmokama pagal sąskaitą faktūrą.",
-    "seeHow": "Kaip tai veikia",
     "pilotNote": "Nemokamai 30 dienų, iki 5 žmonių. Nereikia nei mokėti, nei ką nors pasirašyti.",
     "facts": ["iPhone ir Android", "60+ kalbų", "Duomenys saugomi ES"],
     "videoLabel": "Captio AI rodo tiesioginius dviejų kalbančių žmonių subtitrus, kiekvienas kalbėtojas pažymėtas atskirai"
@@ -113,8 +112,7 @@
       "Komercinis pasiūlymas, jūsų pirkimo užsakymas, sąskaita faktūra",
       "Duomenų tvarkymo sutartis",
       "Jokio minimumo, jokio diegimo mokesčio, jokio automatinio pratęsimo"
-    ],
-    "quote": "Prašyti komercinio pasiūlymo"
+    ]
   },
   "data": {
     "eyebrow": "Jūsų duomenų apsaugos komandai",

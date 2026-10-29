@@ -12,7 +12,6 @@
     "eyebrow": "🏢 Captio AI pre organizácie",
     "title": "Živé titulky v ich telefóne vo chvíli, keď ľudia [hovoria]",
     "description": "Captio AI je aplikácia pre nepočujúcich a nedoslýchavých. Počúva a zobrazuje to, čo sa hovorí, ako text, pri osobných stretnutiach, v 60+ jazykoch. Dajte ju ľuďom vo vašej organizácii, ktorí ju potrebujú: jedna ročná licencia na osobu, na faktúru.",
-    "seeHow": "Ako to funguje",
     "pilotNote": "Zadarmo na 30 dní, až pre 5 ľudí. Nič neplatíte, nič nepodpisujete.",
     "facts": ["iPhone a Android", "60+ jazykov", "Dáta uložené v EÚ"],
     "videoLabel": "Captio AI zobrazuje živé titulky rozhovoru dvoch ľudí so štítkom pri každom hovoriacom"
@@ -113,8 +112,7 @@
       "Cenová ponuka, vaša objednávka, faktúra",
       "Zmluva o spracúvaní osobných údajov",
       "Žiadne minimum, žiadny poplatok za zriadenie, žiadne automatické obnovenie"
-    ],
-    "quote": "Vyžiadať cenovú ponuku"
+    ]
   },
   "data": {
     "eyebrow": "Pre váš tím ochrany osobných údajov",

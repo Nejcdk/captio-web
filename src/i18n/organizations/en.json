@@ -12,7 +12,6 @@
     "eyebrow": "🏢 Captio AI for Organizations",
     "title": "Live captions on their phone, the moment people [speak]",
     "description": "Captio AI is an app for deaf and hard of hearing people. It listens and shows what's said as text, in person, in 60+ languages. Give it to the people in your organization who need it: one yearly license each, paid by invoice.",
-    "seeHow": "See how it works",
     "pilotNote": "Free for 30 days, up to 5 people. Nothing to pay, nothing to sign.",
     "facts": ["iPhone and Android", "60+ languages", "Stored in the EU"],
     "videoLabel": "Captio AI showing live captions of two people talking, with a label for each speaker"
@@ -113,8 +112,7 @@
       "A quote, your purchase order, an invoice",
       "A data processing agreement",
       "No minimum, no setup fee, no auto-renewal"
-    ],
-    "quote": "Ask for a quote"
+    ]
   },
   "data": {
     "eyebrow": "For your data protection team",
