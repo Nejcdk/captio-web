@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "title": "Subtitrări live și transcriere pentru organizații",
+    "description": "Captio AI oferă subtitrări live persoanelor surde și hipoacuzice, în peste 60 de limbi. Licențe anuale cu factură pentru organizații. Pilot gratuit 30 de zile."
+  },
+  "header": {
+    "forOrganizations": "pentru organizații",
+    "startPilot": "Începeți un pilot gratuit",
+    "chooseLanguage": "Alegeți limba"
+  },
+  "hero": {
+    "eyebrow": "🏢 Captio AI pentru organizații",
+    "title": "Subtitrări live pe telefonul lor, chiar în clipa în care cineva [vorbește]",
+    "description": "Captio AI este o aplicație pentru persoanele surde și hipoacuzice. Ascultă și afișează ca text ce se spune, în conversații față în față, în peste 60 de limbi. Oferiți-o persoanelor din organizația dumneavoastră care au nevoie de ea: câte o licență anuală de persoană, plătită pe bază de factură.",
+    "seeHow": "Vedeți cum funcționează",
+    "pilotNote": "Gratuit 30 de zile, pentru cel mult 5 persoane. Nimic de plătit, nimic de semnat.",
+    "facts": ["iPhone și Android", "Peste 60 de limbi", "Date stocate în UE"],
+    "videoLabel": "Captio AI afișează subtitrări live pentru doi oameni care vorbesc, cu o etichetă pentru fiecare vorbitor"
+  },
+  "features": {
+    "eyebrow": "Ce face Captio AI",
+    "title": "Subtitrări live, traducere și transcriere",
+    "subtitle": "Trei instrumente într-o singură aplicație, pe propriul telefon, în peste 60 de limbi.",
+    "items": [
+      { "label": "Subtitrări live", "title": "Fiecare cuvânt, pe măsură ce e rostit", "description": "Deschideți aplicația, atingeți microfonul și citiți. Fiecare vorbitor primește propria etichetă, așa că e clar cine ce a spus." },
+      { "label": "Traducere live", "title": "Ambele limbi, una lângă alta", "description": "Când cineva vorbește altă limbă, pe ecran apar în același timp ce s-a spus și traducerea." },
+      { "label": "Transcriere", "title": "Înregistrări și fișiere transformate în text", "description": "Salvați orice conversație sau adăugați un fișier audio ori video și primiți transcrierea completă, cu un rezumat AI." }
+    ]
+  },
+  "languages": {
+    "eyebrow": "Peste 60 de limbi",
+    "title": "Subtitrări în limbile vorbite în organizația dumneavoastră",
+    "subtitle": "Subtitrări live, traducere și transcriere în fiecare dintre ele, inclusiv pentru cei care schimbă limba în mijlocul propoziției."
+  },
+  "awareness": {
+    "eyebrow": "Gândit pentru persoanele surde și hipoacuzice",
+    "title": "Mai mult decât cuvinte pe un ecran",
+    "subtitle": "Cine vorbește, unde se află și ce se mai întâmplă: lucrurile care contează atunci când cineva nu poate auzi ce se petrece în jur.",
+    "items": [
+      { "title": "Știe cine vorbește", "description": "Salvați o singură dată vocea unei persoane, din aproximativ 20 de secunde de vorbire, iar subtitrările îi arată numele în loc de „Vorbitor 2”, live și în înregistrările salvate. Vocile sunt create și păstrate pe telefon.", "where": "iPhone" },
+      { "title": "Arată de unde vine vocea", "description": "Undele de pe marginea ecranului arată din ce parte vine o voce, în culoarea vorbitorului respectiv, ca să fie clar încotro trebuie privit într-o încăpere aglomerată.", "where": "iPhone 16 și modelele mai noi" },
+      { "title": "Aude sunetele din jur", "description": "Sunetele apar în subtitrări așa cum apar în subtitrările filmelor. O sonerie, o alarmă sau un bebeluș care plânge fac și telefonul să vibreze.", "where": "iPhone și iPad" }
+    ],
+    "drawing": {
+      "otherName": "Ana",
+      "me": "Eu",
+      "voicesLine1": "Putem muta ședința vineri?",
+      "voicesLine2": "Vineri îmi convine.",
+      "directionLine": "Sunt aici, în stânga ta.",
+      "soundsBefore": "Ne vedem la trei.",
+      "sound": "[sună soneria]",
+      "soundsAfter": "Cine e?",
+      "vibrates": "Telefonul vibrează"
+    }
+  },
+  "reasons": {
+    "eyebrow": "Pentru organizația dumneavoastră",
+    "title": "De ce aleg organizațiile Captio AI",
+    "items": [
+      { "title": "Gata în clipa în care e nevoie", "description": "Nu mai trebuie rezervat din timp un stenograf. Subtitrările pornesc cu o singură atingere, oriunde s-ar afla persoana." },
+      { "title": "Pe propriul telefon", "description": "iPhone sau Android. Echipa IT nu are nimic de instalat și nu trebuie împărțite dispozitive." },
+      { "title": "Confidențialitate din start", "description": "Date stocate în UE. Sunetul nu este păstrat pe serverele noastre și nimic nu este folosit vreodată pentru antrenarea AI." },
+      { "title": "Simplu de cumpărat", "description": "Un singur preț de persoană pe an, pe bază de factură. Fără minim, fără taxă de configurare, nimic nu se reînnoiește singur." }
+    ]
+  },
+  "pilot": {
+    "eyebrow": "Pilot gratuit",
+    "title": "Încercați 30 de zile cu cel mult 5 persoane",
+    "steps": [
+      { "title": "Primiți linkul pentru pilot", "description": "Completați formularul de mai jos. Linkul ajunge în căsuța dumneavoastră de e-mail în cel mult un minut, împreună cu un mesaj gata de trimis mai departe." },
+      { "title": "Trimiteți-l mai departe la cel mult 5 persoane", "description": "Fiecare îl deschide pe telefon, continuă cu Apple sau Google și primește Captio AI pe iPhone sau Android." },
+      { "title": "Au versiunea completă timp de 30 de zile", "description": "Nu ne dați date personale, deci nu e nevoie de acte. Spre final primiți un rezumat al utilizării și prețul pentru a păstra aplicația." }
+    ]
+  },
+  "form": {
+    "organization": "Organizație",
+    "name": "Numele dumneavoastră",
+    "email": "Adresa de e-mail de serviciu",
+    "emailHint": "Aici trimitem linkul pentru pilot.",
+    "people": "Aproximativ câte persoane ar putea să o folosească?",
+    "peopleOptions": ["Între 1 și 5", "Între 6 și 19", "Între 20 și 50", "Peste 50"],
+    "submit": "Trimiteți-mi linkul pentru pilot",
+    "sending": "Se trimite…",
+    "note": "Gratuit 30 de zile, pentru cel mult 5 persoane. Nimic de plătit, nimic de semnat.",
+    "sentTitle": "Verificați-vă căsuța de e-mail",
+    "sentTo": "Linkul pentru pilot e pe drum spre {email}, împreună cu un mesaj pe care îl puteți trimite mai departe persoanelor care vor folosi aplicația.",
+    "resentTo": "Am trimis din nou linkul pentru pilot la {email}, împreună cu un mesaj pe care îl puteți trimite mai departe persoanelor care vor folosi aplicația.",
+    "sentHelp": "De obicei ajunge în cel mult un minut. Nu îl găsiți? Verificați dosarul de spam sau scrieți-ne la {address}.",
+    "errors": {
+      "org": "Vă rugăm să adăugați numele organizației.",
+      "email": "Adresa de e-mail nu pare corectă.",
+      "tooMany": "Prea multe solicitări de aici astăzi. Vă rugăm să ne scrieți la {address}.",
+      "domainLimit": "Organizația dumneavoastră are deja piloturi în desfășurare. Scrieți-ne la {address} și adăugăm altele.",
+      "busy": "Am primit foarte multe solicitări astăzi. Vă rugăm să ne scrieți la {address} și veți avea linkul în cel mult o zi.",
+      "server": "Ceva nu a funcționat{code}. Încercați din nou sau scrieți-ne la {address}.",
+      "network": "Nu s-a putut trimite. Verificați conexiunea și încercați din nou."
+    }
+  },
+  "pricing": {
+    "eyebrow": "Prețuri",
+    "title": "Un singur preț de persoană, pe an",
+    "subtitle": "Plata se face pe bază de factură, prin transfer bancar. Prețurile nu includ TVA, acolo unde se aplică.",
+    "plans": ["Între 1 și 19 persoane", "20 de persoane sau mai multe"],
+    "perPersonYear": "de persoană pe an",
+    "otherCurrencies": "{a} sau {b}",
+    "includedTitle": "Inclus",
+    "included": [
+      "Captio AI Plus pentru fiecare persoană, timp de 12 luni",
+      "Un singur link de trimis: oamenii se alătură într-un minut",
+      "Totaluri de utilizare, niciodată ce s-a spus",
+      "O discuție de configurare, dacă doriți",
+      "Asistență prin e-mail direct de la fondator",
+      "Ofertă de preț, comanda dumneavoastră de achiziție, factură",
+      "Un acord de prelucrare a datelor",
+      "Fără minim, fără taxă de configurare, fără reînnoire automată"
+    ],
+    "quote": "Cereți o ofertă de preț"
+  },
+  "data": {
+    "eyebrow": "Pentru echipa de protecție a datelor",
+    "title": "Cum sunt tratate datele",
+    "items": [
+      { "title": "Stocate în UE", "description": "Conturile și transcrierile salvate sunt stocate în Uniunea Europeană (Frankfurt)." },
+      { "title": "Sunetul nu este păstrat pe serverele noastre", "description": "Vorbirea este procesată în timp real pentru a crea subtitrările. Sunetul înregistrărilor salvate rămâne pe telefonul fiecăruia." },
+      { "title": "Niciodată folosite pentru antrenarea AI", "description": "Niciun conținut nu este vândut, partajat în scopuri publicitare sau folosit pentru antrenarea modelelor AI, nici de noi, nici de vreun furnizor cu care lucrăm." },
+      { "title": "Fiecare persoană împuternicită este numită", "description": "Politica noastră de confidențialitate numește fiecare companie care prelucrează date și în ce scop. Transferurile în afara Regatului Unit și a SEE sunt acoperite de clauze contractuale standard." },
+      { "title": "Un acord de prelucrare a datelor", "description": "Încheiem unul cu organizația dumneavoastră pentru licențele plătite, atunci când ne trimiteți numele sau adresele de e-mail ale persoanelor cărora li se deblochează accesul." },
+      { "title": "Ștergere", "description": "Oricine își poate șterge contul și înregistrările din aplicație, oricând." }
+    ],
+    "dpa": "Cereți acordul de prelucrare a datelor",
+    "privacy": "Citiți politica de confidențialitate"
+  },
+  "faq": {
+    "eyebrow": "Întrebări",
+    "title": "Întrebări frecvente",
+    "items": [
+      { "q": "Ce este Captio AI?", "a": "O aplicație pentru iPhone și Android care afișează ca text ce spun oamenii, chiar în clipa în care vorbesc, în peste 60 de limbi. Persoanele surde și hipoacuzice o folosesc față în față, oriunde au nevoie de subtitrări: o deschid, ating microfonul și citesc. Poate și să traducă, să deosebească vorbitorii și să le afișeze numele celor pe care îi cunoaște, să arate de unde vine o voce (iPhone 16 și modelele mai noi), să scrie în subtitrări sunete precum o sonerie sau o alarmă, să salveze și să rezume ce s-a spus." },
+      { "q": "Pentru cine este Captio AI pentru organizații?", "a": "Pentru orice organizație care plătește subtitrarea în numele persoanelor surde și hipoacuzice. Fiecare persoană primește Captio AI Plus pe propriul telefon timp de un an, iar organizația plătește o singură factură." },
+      { "q": "Cât costă?", "a": "£89, €99 sau $109 de persoană pe an pentru 1–19 persoane și £69, €79 sau $89 de persoană pe an de la 20 de persoane în sus. Nu există un minim și nici taxă de configurare. Prețurile nu includ TVA, acolo unde se aplică." },
+      { "q": "Cum plătim?", "a": "Pe bază de factură, prin transfer bancar. Vă trimitem mai întâi o ofertă de preț și ne adaptăm cu plăcere procesului dumneavoastră de comenzi de achiziție." },
+      { "q": "Putem încerca mai întâi?", "a": "Da. Un pilot gratuit de 30 de zile pentru cel mult 5 persoane. Completați formularul de pe această pagină și linkul de trimis mai departe vă ajunge pe e-mail în cel mult un minut. Nimic de plătit și nimic de semnat." },
+      { "q": "Persoanele care o folosesc trebuie să plătească sau să configureze ceva?", "a": "Nu. Deschid linkul pe care li-l trimiteți, continuă cu Apple sau Google, apoi descarcă gratuit Captio AI pe iPhone sau Android și se conectează cu același cont. Au versiunea completă imediat. Echipa IT nu trebuie să instaleze nimic." },
+      { "q": "Ce vedem despre utilizare?", "a": "Doar totaluri: câte persoane s-au alăturat, câte au deschis Captio AI în ultima săptămână și câte înregistrări au fost salvate și cât durează. Niciodată ce s-a spus și niciodată cine a spus-o." },
+      { "q": "Cum adăugăm persoane după cumpărare?", "a": "Cu același link. Odată ce licențele sunt active, oricine primește linkul de la dumneavoastră se poate alătura, până la numărul de licențe pe care îl aveți. Persoanele din pilot păstrează tot ce au salvat." },
+      { "q": "Ce se întâmplă după 12 luni?", "a": "Vă trimitem o ofertă de reînnoire cu o lună înainte de expirarea licențelor. Nimic nu se reînnoiește și nu se plătește automat." },
+      { "q": "Înlocuiește un stenograf sau o persoană care ia notițe?", "a": "Nu în toate cazurile. Captio AI oferă subtitrări instant oriunde s-ar afla persoana, fără nicio rezervare prealabilă. Acolo unde e nevoie de o consemnare perfectă, multe organizații îl folosesc alături de sprijin uman." },
+      { "q": "Unde sunt stocate datele noastre și cine le prelucrează?", "a": "Conturile și transcrierile salvate sunt stocate în UE (Frankfurt). Sunetul este procesat în timp real și nu este păstrat pe serverele noastre. Politica noastră de confidențialitate enumeră fiecare companie care prelucrează date. Nimic nu este folosit pentru antrenarea modelelor AI." },
+      { "q": "Poate o persoană să cumpere singură Captio AI Plus?", "a": "Da, din aplicație. Licențele pentru organizații sunt pentru situațiile în care o organizație plătește în numele cuiva." }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Pilot gratuit",
+    "title": "Încercați-l cu oamenii dumneavoastră",
+    "body": "Cel mult 5 persoane, gratuit 30 de zile. Linkul ajunge în căsuța dumneavoastră de e-mail în cel mult un minut. Aveți întrebări mai întâi? Scrieți-ne la {address}."
+  },
+  "join": {
+    "metaTitle": "Captio AI de la {org}",
+    "metaDescription": "{org} îți oferă Captio AI: subtitrări live cu ce spun oamenii, pe propriul tău telefon.",
+    "gives": "{org} îți oferă",
+    "title": "Subtitrări live pe telefonul tău",
+    "pilotOffer": "Versiunea completă Captio AI, gratuit timp de {days} de zile.",
+    "paidOffer": "Versiunea completă Captio AI până pe {date}, plătită de {org}.",
+    "about": "Subtitrări cu ce spun oamenii, chiar în timp ce vorbesc, în peste 60 de limbi.",
+    "steps": ["Continuă mai jos cu Apple sau Google", "Descarcă Captio AI din App Store sau Google Play", "Conectează-te în aplicație cu același cont"],
+    "continueApple": "Continuă cu Apple",
+    "continueGoogle": "Continuă cu Google",
+    "signingIn": "Se face conectarea…",
+    "alreadyUse": "Folosești deja Captio AI? Continuă cu contul pe care îl folosești în aplicație.",
+    "nothingToPay": "Nimic de plătit. Pur și simplu se încheie după zilele gratuite.",
+    "privacyNote": "{org} vede doar câte persoane s-au alăturat și cât a fost folosit Captio AI în total, niciodată ce s-a spus.",
+    "privacyLink": "Politica de confidențialitate",
+    "joined": "Gata, ai acces",
+    "alreadyJoined": "Ai deja acces",
+    "until": "Ai versiunea completă Captio AI până pe {date}.",
+    "getAppStore": "Descarcă Captio AI din App Store",
+    "getGooglePlay": "Descarcă Captio AI din Google Play",
+    "phoneApp": "Captio AI este o aplicație pentru telefon: descarc-o pe iPhone sau pe telefonul Android.",
+    "thenSignIn": "Apoi conectează-te în Captio AI cu același cont {provider}. Ai deja aplicația? Închide-o și deschide-o din nou.",
+    "endedTitle": "Zilele tale gratuite s-au încheiat",
+    "endedBody": "Accesul tău la Captio AI de la {org} s-a încheiat pe {date}. Întreabă organizația {org} dacă îl poți păstra.",
+    "closed": {
+      "fullTitle": "Toate locurile sunt ocupate",
+      "full": "Toate locurile oferite de {org} ({seats}) sunt ocupate. Întreabă organizația {org} dacă mai sunt locuri.",
+      "stoppedTitle": "Acest link a fost închis",
+      "stopped": "Cere-i organizației {org} unul nou.",
+      "expiredTitle": "Acest link pentru pilot a expirat",
+      "expired": "Cere-i organizației {org} unul nou.",
+      "endedTitle": "Licențele organizației {org} au expirat",
+      "ended": "Întreabă organizația {org} dacă reînnoiește Captio AI."
+    },
+    "failures": {
+      "full": "Toate locurile oferite de {org} sunt ocupate. Întreabă organizația {org} dacă mai sunt locuri.",
+      "stopped": "Acest link a fost închis. Cere-i organizației {org} unul nou.",
+      "linkExpired": "Acest link pentru pilot a expirat. Cere-i organizației {org} unul nou.",
+      "ended": "Licențele organizației {org} au expirat.",
+      "otherOrg": "Contul tău primește deja Captio AI prin altă organizație.",
+      "hadPilot": "Acest cont a avut deja un pilot gratuit. Întreabă organizația {org} dacă poți păstra Captio AI.",
+      "notFound": "Acest link nu funcționează. Cere unul nou persoanei care ți l-a trimis.",
+      "signInFailed": "Conectarea nu a reușit. Încearcă din nou.",
+      "couldNotAdd": "Nu te-am putut adăuga acum. Încearcă din nou.",
+      "generic": "Ceva nu a funcționat. Încearcă din nou."
+    },
+    "invalidTitle": "Acest link nu funcționează",
+    "invalidBody": "Verifică dacă a fost copiat complet sau cere unul nou persoanei care ți l-a trimis.",
+    "errorTitle": "Pagina nu s-a putut încărca",
+    "errorBody": "Încearcă din nou peste câteva momente."
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "title": "Titra live dhe të folurit në tekst për organizatat",
+    "description": "Captio AI u shfaq titra live personave të shurdhër dhe me vështirësi në dëgjim në telefon, në 60+ gjuhë. Licenca vjetore me faturë. Provë pilot falas."
+  },
+  "header": {
+    "forOrganizations": "për organizatat",
+    "startPilot": "Nisni një provë pilot falas",
+    "chooseLanguage": "Zgjidhni gjuhën"
+  },
+  "hero": {
+    "eyebrow": "🏢 Captio AI për organizatat",
+    "title": "Titra live në telefonin e tyre, sapo dikush [flet]",
+    "description": "Captio AI është një aplikacion për persona të shurdhër dhe me vështirësi në dëgjim. Dëgjon dhe shfaq si tekst atë që thuhet, në bisedat ballë për ballë, në mbi 60 gjuhë. Organizata juaj mund t'ua japë njerëzve që kanë nevojë për të: një licencë vjetore për person, me pagesë me faturë.",
+    "seeHow": "Shihni si funksionon",
+    "pilotNote": "Falas për 30 ditë, deri në 5 persona. Asgjë për të paguar, asgjë për të nënshkruar.",
+    "facts": ["iPhone dhe Android", "Mbi 60 gjuhë", "Të ruajtura në BE"],
+    "videoLabel": "Captio AI duke shfaqur titra live të një bisede mes dy personave, me një etiketë për secilin folës"
+  },
+  "features": {
+    "eyebrow": "Çfarë bën Captio AI",
+    "title": "Titra live, përkthim dhe transkriptim",
+    "subtitle": "Tre mjete në një aplikacion, në telefonin e tyre, në mbi 60 gjuhë.",
+    "items": [
+      { "label": "Titra live", "title": "Çdo fjalë, sapo thuhet", "description": "Hapni aplikacionin, prekni mikrofonin dhe lexoni. Çdo folës merr etiketën e vet, kështu që është e qartë kush çfarë tha." },
+      { "label": "Përkthim live", "title": "Të dyja gjuhët krah për krah", "description": "Kur dikush flet në një gjuhë tjetër, personi sheh njëkohësisht atë që u tha dhe përkthimin." },
+      { "label": "Transkriptim", "title": "Regjistrime dhe skedarë në tekst", "description": "Ruani çdo bisedë ose shtoni një skedar audio a video dhe merrni transkriptin e plotë me një përmbledhje me AI." }
+    ]
+  },
+  "languages": {
+    "eyebrow": "Mbi 60 gjuhë",
+    "title": "Titra në gjuhët që flasin njerëzit tuaj",
+    "subtitle": "Titra live, përkthim dhe transkriptim në secilën prej tyre, edhe kur dikush ndërron gjuhë në mes të fjalisë."
+  },
+  "awareness": {
+    "eyebrow": "E krijuar për persona të shurdhër dhe me vështirësi në dëgjim",
+    "title": "Më shumë se fjalë në ekran",
+    "subtitle": "Kush flet, ku ndodhet dhe çfarë tjetër po ndodh: gjërat që kanë rëndësi kur nuk dëgjoni çfarë ndodh përreth.",
+    "items": [
+      { "title": "E di kush po flet", "description": "Ruani një herë zërin e dikujt, nga rreth 20 sekonda të folur, dhe titrat shfaqin emrin e personit në vend të «Folësi 2», live dhe në regjistrimet e ruajtura. Zërat krijohen dhe ruhen në telefon.", "where": "iPhone" },
+      { "title": "Tregon nga vjen zëri", "description": "Valët në skajin e ekranit tregojnë nga cila anë vjen zëri, me ngjyrën e atij folësi, që në një dhomë plot njerëz të dihet ku duhet parë.", "where": "iPhone 16 e më të rinj" },
+      { "title": "Dëgjon tingujt përreth", "description": "Tingujt shkruhen në titra, si në titrat e filmave. Zilja e derës, një alarm ose një foshnjë që qan e bëjnë edhe telefonin të dridhet.", "where": "iPhone dhe iPad" }
+    ],
+    "drawing": {
+      "otherName": "Ana",
+      "me": "Unë",
+      "voicesLine1": "E kalojmë takimin të premten?",
+      "voicesLine2": "E premtja më shkon mirë.",
+      "directionLine": "Jam këtu, në të majtën tënde.",
+      "soundsBefore": "Shihemi në tre.",
+      "sound": "[bie zilja e derës]",
+      "soundsAfter": "Kush është?",
+      "vibrates": "Telefoni dridhet"
+    }
+  },
+  "reasons": {
+    "eyebrow": "Për organizatën tuaj",
+    "title": "Pse organizatat zgjedhin Captio AI",
+    "items": [
+      { "title": "Gati sa herë që duhet", "description": "Nuk ka nevojë të rezervoni paraprakisht dikë për titrimin. Titrat nisin me një prekje, kudo që të jetë personi." },
+      { "title": "Në telefonin e tyre", "description": "iPhone ose Android. Ekipi juaj i IT-së nuk ka asgjë për të instaluar dhe nuk ka pajisje për të shpërndarë." },
+      { "title": "Privatësi që në projektim", "description": "Të ruajtura në BE. Audioja nuk mbahet në serverët tanë dhe asgjë nuk përdoret kurrë për të trajnuar AI." },
+      { "title": "E thjeshtë për t'u blerë", "description": "Një çmim për person në vit, me faturë. Pa minimum, pa tarifë fillestare, asgjë nuk rinovohet vetë." }
+    ]
+  },
+  "pilot": {
+    "eyebrow": "Provë pilot falas",
+    "title": "Provojeni për 30 ditë me deri në 5 persona",
+    "steps": [
+      { "title": "Merrni lidhjen e provës pilot", "description": "Plotësoni formularin më poshtë. Lidhja ju vjen në email brenda një minute, bashkë me një mesazh gati për ta përcjellë." },
+      { "title": "Përcilleni te deri në 5 persona", "description": "Çdo person e hap në telefonin e vet, vazhdon me Apple ose Google dhe merr Captio AI në iPhone ose Android." },
+      { "title": "30 ditë me versionin e plotë", "description": "Nuk ju kërkojmë të dhëna personale, ndaj nuk ka dokumente. Afër fundit merrni një përmbledhje se sa është përdorur dhe çmimin për ta mbajtur." }
+    ]
+  },
+  "form": {
+    "organization": "Organizata",
+    "name": "Emri juaj",
+    "email": "Emaili juaj i punës",
+    "emailHint": "Lidhja e provës pilot dërgohet këtu.",
+    "people": "Përafërsisht sa persona mund ta përdorin?",
+    "peopleOptions": ["1 deri në 5", "6 deri në 19", "20 deri në 50", "Mbi 50"],
+    "submit": "Më dërgoni lidhjen e provës pilot",
+    "sending": "Po dërgohet…",
+    "note": "Falas për 30 ditë, deri në 5 persona. Asgjë për të paguar, asgjë për të nënshkruar.",
+    "sentTitle": "Kontrolloni emailin",
+    "sentTo": "Lidhja e provës pilot po vjen te {email}, bashkë me një mesazh që mund t'ua përcillni njerëzve që do ta përdorin.",
+    "resentTo": "E dërguam sërish lidhjen e provës pilot te {email}, bashkë me një mesazh që mund t'ua përcillni njerëzve që do ta përdorin.",
+    "sentHelp": "Zakonisht vjen brenda një minute. Nuk ka ardhur? Kontrolloni dosjen e postës së padëshiruar ose shkruani në {address}.",
+    "errors": {
+      "org": "Shtoni emrin e organizatës suaj.",
+      "email": "Kjo adresë emaili nuk duket e saktë.",
+      "tooMany": "Sot ka pasur shumë kërkesa nga këtu. Ju lutemi shkruani në {address}.",
+      "domainLimit": "Organizata juaj ka tashmë prova pilot aktive. Shkruani në {address} dhe do të shtojmë të tjera.",
+      "busy": "Sot kemi pasur shumë kërkesa. Ju lutemi shkruani në {address} dhe do ta keni lidhjen brenda një dite.",
+      "server": "Diçka shkoi keq{code}. Provoni sërish ose shkruani në {address}.",
+      "network": "Dërgimi nuk u krye. Kontrolloni lidhjen me internetin dhe provoni sërish."
+    }
+  },
+  "pricing": {
+    "eyebrow": "Çmimet",
+    "title": "Një çmim për person, në vit",
+    "subtitle": "Pagesë me faturë dhe transfertë bankare. Çmimet nuk përfshijnë TVSH-në, aty ku zbatohet.",
+    "plans": ["1 deri në 19 persona", "20 ose më shumë persona"],
+    "perPersonYear": "për person në vit",
+    "otherCurrencies": "{a} ose {b}",
+    "includedTitle": "Përfshihen",
+    "included": [
+      "Captio AI Plus për çdo person, për 12 muaj",
+      "Një lidhje për ta përcjellë: njerëzit bashkohen brenda një minute",
+      "Shifra totale të përdorimit, kurrë çfarë u tha",
+      "Një telefonatë për konfigurimin, nëse dëshironi",
+      "Mbështetje me email drejtpërdrejt nga themeluesi",
+      "Ofertë, urdhri juaj i blerjes, faturë",
+      "Marrëveshje për përpunimin e të dhënave",
+      "Pa minimum, pa tarifë fillestare, pa rinovim automatik"
+    ],
+    "quote": "Kërkoni një ofertë"
+  },
+  "data": {
+    "eyebrow": "Për ekipin tuaj të mbrojtjes së të dhënave",
+    "title": "Si trajtohen të dhënat",
+    "items": [
+      { "title": "Të ruajtura në BE", "description": "Llogaritë dhe transkriptet e ruajtura ruhen në Bashkimin Evropian (Frankfurt)." },
+      { "title": "Audioja nuk mbahet në serverët tanë", "description": "Të folurit përpunohet në kohë reale për të krijuar titrat. Audioja e regjistrimeve që njerëzit ruajnë mbetet në telefonin e tyre." },
+      { "title": "Kurrë për të trajnuar AI", "description": "Asnjë përmbajtje nuk shitet, nuk ndahet për reklama dhe nuk përdoret për të trajnuar modele AI, as nga ne, as nga ndonjë ofrues që përdorim." },
+      { "title": "Çdo përpunues është i listuar", "description": "Politika jonë e privatësisë emërton çdo kompani që përpunon të dhëna dhe për çfarë qëllimi. Transferimet jashtë Mbretërisë së Bashkuar dhe ZEE-së mbulohen nga Klauzolat Standarde Kontraktuale." },
+      { "title": "Marrëveshje për përpunimin e të dhënave", "description": "E nënshkruajmë me organizatën tuaj për licencat me pagesë, kur na dërgoni emrat ose emailet e personave për të cilët duhet hapur qasja." },
+      { "title": "Fshirja", "description": "Kushdo mund ta fshijë llogarinë dhe regjistrimet e veta në aplikacion, në çdo kohë." }
+    ],
+    "dpa": "Kërkoni marrëveshjen për përpunimin e të dhënave",
+    "privacy": "Lexoni politikën e privatësisë"
+  },
+  "faq": {
+    "eyebrow": "Pyetje",
+    "title": "Pyetjet më të shpeshta",
+    "items": [
+      { "q": "Çfarë është Captio AI?", "a": "Një aplikacion për iPhone dhe Android që shfaq si tekst atë që thonë njerëzit, në çastin që e thonë, në mbi 60 gjuhë. Personat e shurdhër dhe me vështirësi në dëgjim e përdorin në bisedat ballë për ballë, kudo që u duhen titra: e hapin, prekin mikrofonin dhe lexojnë. Mund edhe të përkthejë, të dallojë folësit dhe t'i thërrasë me emër ata që i njeh, të tregojë nga vjen një zë (iPhone 16 e më të rinj), të shkruajë në titra tinguj si zilja e derës ose një alarm, si dhe të ruajë e të përmbledhë atë që u tha." },
+      { "q": "Për kë është Captio AI për organizatat?", "a": "Për çdo organizatë që paguan për titrim në emër të personave të shurdhër dhe me vështirësi në dëgjim. Çdo person merr Captio AI Plus në telefonin e vet për një vit, dhe organizata paguan një faturë." },
+      { "q": "Sa kushton?", "a": "£89, €99 ose $109 për person në vit për 1 deri në 19 persona, dhe £69, €79 ose $89 për person në vit nga 20 persona e lart. Nuk ka minimum dhe nuk ka tarifë fillestare. Çmimet nuk përfshijnë TVSH-në, aty ku zbatohet." },
+      { "q": "Si paguajmë?", "a": "Me faturë dhe transfertë bankare. Fillimisht dërgojmë një ofertë dhe jemi të gatshëm të punojmë sipas procedurës suaj të urdhrave të blerjes." },
+      { "q": "A mund ta provojmë më parë?", "a": "Po. Një provë pilot falas 30-ditore për deri në 5 persona. Plotësoni formularin në këtë faqe dhe lidhja për ta përcjellë ju vjen me email brenda një minute. Asgjë për të paguar dhe asgjë për të nënshkruar." },
+      { "q": "A duhet të paguajnë apo të konfigurojnë diçka njerëzit që e përdorin?", "a": "Jo. Hapin lidhjen që u përcillni, vazhdojnë me Apple ose Google, pastaj shkarkojnë falas Captio AI në iPhone ose Android dhe hyjnë me të njëjtën llogari. Versionin e plotë e kanë menjëherë. Ekipi juaj i IT-së nuk ka nevojë të instalojë asgjë." },
+      { "q": "Çfarë shohim për përdorimin?", "a": "Vetëm shifra totale: sa persona janë bashkuar, sa e kanë hapur Captio AI javën e fundit, dhe sa regjistrime janë ruajtur dhe sa zgjasin. Kurrë çfarë u tha dhe kurrë kush e tha." },
+      { "q": "Si shtojmë njerëz pas blerjes?", "a": "Me të njëjtën lidhje. Pasi licencat tuaja të jenë aktive, mund të bashkohet kushdo të cilit ia dërgoni, deri në numrin e licencave që keni. Njerëzit nga prova pilot nuk humbin asgjë nga ç'kanë ruajtur." },
+      { "q": "Çfarë ndodh pas 12 muajve?", "a": "Një muaj para se të mbarojnë licencat dërgojmë një ofertë për rinovim. Asgjë nuk rinovohet dhe nuk tarifohet automatikisht." },
+      { "q": "A e zëvendëson një titrues njerëzor ose një mbajtës shënimesh?", "a": "Jo në çdo rast. Captio AI jep titra të menjëhershme kudo që të jetë personi, pa rezervuar askënd paraprakisht. Aty ku kërkohet një procesverbal i përsosur, shumë shërbime e përdorin krahas mbështetjes njerëzore." },
+      { "q": "Ku ruhen të dhënat tona dhe kush i përpunon?", "a": "Llogaritë dhe transkriptet e ruajtura ruhen në BE (Frankfurt). Audioja përpunohet në kohë reale dhe nuk mbahet në serverët tanë. Politika jonë e privatësisë liston çdo kompani që përpunon të dhëna. Asgjë nuk përdoret për të trajnuar modele AI." },
+      { "q": "A mund ta blejë dikush vetë Captio AI Plus?", "a": "Po, brenda aplikacionit. Licencat për organizatat janë për rastet kur një organizatë paguan në emër të dikujt." }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Provë pilot falas",
+    "title": "Shiheni me njerëzit tuaj",
+    "body": "Deri në 5 persona, falas për 30 ditë. Lidhja ju vjen në email brenda një minute. Keni pyetje më parë? Shkruani në {address}."
+  },
+  "join": {
+    "metaTitle": "Captio AI nga {org}",
+    "metaDescription": "{org} të jep Captio AI: titra live të asaj që thonë njerëzit, në telefonin tënd.",
+    "gives": "{org} të jep",
+    "title": "Titra live në telefonin tënd",
+    "pilotOffer": "Versioni i plotë i Captio AI, falas për {days} ditë.",
+    "paidOffer": "Versioni i plotë i Captio AI deri më {date}, i paguar nga {org}.",
+    "about": "Titra të asaj që thonë njerëzit, ndërsa flasin, në mbi 60 gjuhë.",
+    "steps": ["Vazhdo me Apple ose Google më poshtë", "Shkarko Captio AI nga App Store ose Google Play", "Hyr në aplikacion me të njëjtën llogari"],
+    "continueApple": "Vazhdo me Apple",
+    "continueGoogle": "Vazhdo me Google",
+    "signingIn": "Po hyn…",
+    "alreadyUse": "E përdor tashmë Captio AI? Vazhdo me llogarinë që përdor në aplikacion.",
+    "nothingToPay": "Asgjë për të paguar. Thjesht mbaron pas ditëve falas.",
+    "privacyNote": "{org} sheh vetëm sa persona janë bashkuar dhe sa është përdorur Captio AI gjithsej, kurrë çfarë u tha.",
+    "privacyLink": "Politika e privatësisë",
+    "joined": "Je brenda",
+    "alreadyJoined": "Je tashmë brenda",
+    "until": "Versionin e plotë të Captio AI e ke deri më {date}.",
+    "getAppStore": "Shkarko Captio AI nga App Store",
+    "getGooglePlay": "Shkarko Captio AI nga Google Play",
+    "phoneApp": "Captio AI është aplikacion për telefon: shkarkoje në iPhone ose në telefonin Android.",
+    "thenSignIn": "Pastaj hyr në Captio AI me të njëjtën llogari {provider}. E ke tashmë aplikacionin? Mbylle dhe hape sërish.",
+    "endedTitle": "Ditët e tua falas kanë mbaruar",
+    "endedBody": "Captio AI që të dha {org} mbaroi më {date}. Pyet te {org} nëse mund ta mbash.",
+    "closed": {
+      "fullTitle": "Të gjitha vendet janë zënë",
+      "full": "Të gjitha {seats} vendet nga {org} janë zënë. Pyet te {org} për më shumë vende.",
+      "stoppedTitle": "Kjo lidhje është mbyllur",
+      "stopped": "Kërko një të re nga {org}.",
+      "expiredTitle": "Kjo lidhje e provës pilot ka skaduar",
+      "expired": "Kërko një të re nga {org}.",
+      "endedTitle": "Licencat nga {org} kanë mbaruar",
+      "ended": "Pyet te {org} nëse do ta rinovojnë Captio AI."
+    },
+    "failures": {
+      "full": "Të gjitha vendet nga {org} janë zënë. Pyet te {org} për më shumë vende.",
+      "stopped": "Kjo lidhje është mbyllur. Kërko një të re nga {org}.",
+      "linkExpired": "Kjo lidhje e provës pilot ka skaduar. Kërko një të re nga {org}.",
+      "ended": "Licencat nga {org} kanë mbaruar.",
+      "otherOrg": "Llogaria jote e merr tashmë Captio AI përmes një organizate tjetër.",
+      "hadPilot": "Kjo llogari ka pasur tashmë një provë pilot falas. Pyet te {org} si mund ta mbash Captio AI.",
+      "notFound": "Kjo lidhje nuk funksionon. Kërkoji një të re personit që ta dërgoi.",
+      "signInFailed": "Hyrja nuk u krye. Provo sërish.",
+      "couldNotAdd": "Nuk arritëm të të shtojmë tani. Provo sërish.",
+      "generic": "Diçka shkoi keq. Provo sërish."
+    },
+    "invalidTitle": "Kjo lidhje nuk funksionon",
+    "invalidBody": "Kontrollo nëse është kopjuar e plotë, ose kërkoji një të re personit që ta dërgoi.",
+    "errorTitle": "Faqja nuk u ngarkua",
+    "errorBody": "Provo sërish pas pak."
+  }
+}

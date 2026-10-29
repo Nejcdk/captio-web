@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "title": "Podnapisi v živo in govor v besedilo za organizacije",
+    "description": "Captio AI gluhim in naglušnim prikazuje podnapise v živo na telefonu, v 60+ jezikih. Letne licence, plačilo po računu. 30 dni brezplačnega preizkusa."
+  },
+  "header": {
+    "forOrganizations": "za organizacije",
+    "startPilot": "Začnite brezplačni preizkus",
+    "chooseLanguage": "Izberite jezik"
+  },
+  "hero": {
+    "eyebrow": "🏢 Captio AI za organizacije",
+    "title": "Podnapisi v živo na njihovem telefonu, takoj ko kdo [spregovori]",
+    "description": "Captio AI je aplikacija za gluhe in naglušne. Posluša in povedano sproti prikaže kot besedilo, v pogovorih v živo, v več kot 60 jezikih. Dajte jo ljudem v svoji organizaciji, ki jo potrebujejo: ena letna licenca na osebo, plačilo po računu.",
+    "seeHow": "Poglejte, kako deluje",
+    "pilotNote": "Brezplačno 30 dni, za največ 5 oseb. Nič ne plačate, nič ne podpišete.",
+    "facts": ["iPhone in Android", "Več kot 60 jezikov", "Shranjeno v EU"],
+    "videoLabel": "Captio AI prikazuje podnapise v živo pogovora dveh oseb, z oznako za vsakega govorca"
+  },
+  "features": {
+    "eyebrow": "Kaj zna Captio AI",
+    "title": "Podnapisi v živo, prevod in prepis",
+    "subtitle": "Tri orodja v eni aplikaciji, na lastnem telefonu, v več kot 60 jezikih.",
+    "items": [
+      { "label": "Podnapisi v živo", "title": "Vsaka beseda, takoj ko je izrečena", "description": "Odprite aplikacijo, tapnite mikrofon in berite. Vsak govorec dobi svojo oznako, zato je jasno, kdo je kaj rekel." },
+      { "label": "Prevod v živo", "title": "Oba jezika drug ob drugem", "description": "Ko nekdo govori v drugem jeziku, oseba hkrati vidi povedano in prevod." },
+      { "label": "Prepis", "title": "Posnetki in datoteke v besedilo", "description": "Shranite kateri koli pogovor ali dodajte zvočno ali video datoteko in dobite celoten prepis s povzetkom z UI." }
+    ]
+  },
+  "languages": {
+    "eyebrow": "Več kot 60 jezikov",
+    "title": "Podnapisi v jezikih, ki jih govorijo vaši ljudje",
+    "subtitle": "Podnapisi v živo, prevod in prepis v vsakem od njih, tudi ko kdo sredi stavka zamenja jezik."
+  },
+  "awareness": {
+    "eyebrow": "Narejeno za gluhe in naglušne",
+    "title": "Več kot besede na zaslonu",
+    "subtitle": "Kdo govori, kje je in kaj se še dogaja: vse, kar je pomembno, ko ne slišite, kaj se dogaja v prostoru.",
+    "items": [
+      { "title": "Ve, kdo govori", "description": "Glas osebe enkrat shranite, iz približno 20 sekund govora, in podnapisi namesto »Govorec 2« pokažejo njeno ime, v živo in v shranjenih posnetkih. Glasovi nastanejo in ostanejo na telefonu.", "where": "iPhone" },
+      { "title": "Pokaže, od kod prihaja glas", "description": "Valovi na robu zaslona pokažejo, s katere strani prihaja glas, v barvi tega govorca, zato je v polnem prostoru jasno, kam pogledati.", "where": "iPhone 16 in novejši" },
+      { "title": "Sliši zvoke v okolici", "description": "Zvoki se pojavijo v podnapisih tako, kot jih zapisujejo filmski podnapisi. Ob zvoncu na vratih, alarmu ali joku dojenčka telefon tudi zavibrira.", "where": "iPhone in iPad" }
+    ],
+    "drawing": {
+      "otherName": "Ana",
+      "me": "Jaz",
+      "voicesLine1": "Lahko sestanek prestavimo na petek?",
+      "voicesLine2": "Petek mi ustreza.",
+      "directionLine": "Tu sem, na tvoji levi.",
+      "soundsBefore": "Se vidimo ob treh.",
+      "sound": "[zvonec zvoni]",
+      "soundsAfter": "Kdo je to?",
+      "vibrates": "Telefon zavibrira"
+    }
+  },
+  "reasons": {
+    "eyebrow": "Za vašo organizacijo",
+    "title": "Zakaj organizacije izberejo Captio AI",
+    "items": [
+      { "title": "Na voljo takoj, ko je treba", "description": "Podnapisovalca ni treba naročati vnaprej. Podnapisi se zaženejo z enim dotikom, kjer koli je oseba." },
+      { "title": "Na lastnem telefonu", "description": "iPhone ali Android. Vaša IT-ekipa nima česa namestiti in ni opreme, ki bi jo morali razdeliti." },
+      { "title": "Zasebnost že v zasnovi", "description": "Shranjeno v EU. Zvok se ne hrani na naših strežnikih in nič se nikoli ne uporablja za učenje UI." },
+      { "title": "Preprost nakup", "description": "Ena cena na osebo na leto, plačilo po računu. Brez najmanjšega naročila, brez stroškov uvedbe in nič se ne podaljša samo." }
+    ]
+  },
+  "pilot": {
+    "eyebrow": "Brezplačni pilotni preizkus",
+    "title": "Preizkusite 30 dni z največ 5 osebami",
+    "steps": [
+      { "title": "Prejmite povezavo za preizkus", "description": "Izpolnite spodnji obrazec. Povezava v minuti prispe v vaš e-poštni predal, skupaj s sporočilom, ki ga lahko posredujete naprej." },
+      { "title": "Posredujte jo največ 5 osebam", "description": "Vsaka oseba jo odpre na svojem telefonu, nadaljuje z Apple ali Google in dobi Captio AI na iPhonu ali Androidu." },
+      { "title": "30 dni polne različice", "description": "Od vas ne potrebujemo osebnih podatkov, zato ni papirologije. Proti koncu prejmete povzetek, koliko so aplikacijo uporabljali, in ceno za nadaljevanje." }
+    ]
+  },
+  "form": {
+    "organization": "Organizacija",
+    "name": "Vaše ime",
+    "email": "Vaš službeni e-poštni naslov",
+    "emailHint": "Sem pošljemo povezavo za preizkus.",
+    "people": "Približno koliko ljudi bi jo lahko uporabljalo?",
+    "peopleOptions": ["Od 1 do 5", "Od 6 do 19", "Od 20 do 50", "Več kot 50"],
+    "submit": "Pošljite mi povezavo za preizkus",
+    "sending": "Pošiljanje …",
+    "note": "Brezplačno 30 dni, za največ 5 oseb. Nič ne plačate, nič ne podpišete.",
+    "sentTitle": "Preverite e-pošto",
+    "sentTo": "Povezava za preizkus je na poti na {email}, skupaj s sporočilom, ki ga lahko posredujete ljudem, ki bodo aplikacijo uporabljali.",
+    "resentTo": "Povezavo za preizkus smo znova poslali na {email}, skupaj s sporočilom, ki ga lahko posredujete ljudem, ki bodo aplikacijo uporabljali.",
+    "sentHelp": "Običajno prispe v minuti. Je ni? Preverite mapo z neželeno pošto ali pišite na {address}.",
+    "errors": {
+      "org": "Vpišite ime svoje organizacije.",
+      "email": "Ta e-poštni naslov ni videti pravilen.",
+      "tooMany": "Od tu je danes prišlo preveč zahtev. Prosimo, pišite na {address}.",
+      "domainLimit": "Vaša organizacija že ima aktivne preizkuse. Pišite na {address} in dodali bomo nove.",
+      "busy": "Danes smo prejeli veliko zahtev. Pišite na {address} in povezavo boste dobili v enem dnevu.",
+      "server": "Prišlo je do napake{code}. Poskusite znova ali pišite na {address}.",
+      "network": "Pošiljanje ni uspelo. Preverite povezavo z internetom in poskusite znova."
+    }
+  },
+  "pricing": {
+    "eyebrow": "Cene",
+    "title": "Ena cena na osebo, na leto",
+    "subtitle": "Plačilo po računu z bančnim nakazilom. Cene ne vključujejo DDV, kjer se obračuna.",
+    "plans": ["Od 1 do 19 oseb", "20 ali več oseb"],
+    "perPersonYear": "na osebo na leto",
+    "otherCurrencies": "{a} ali {b}",
+    "includedTitle": "Vključeno",
+    "included": [
+      "Captio AI Plus za vsako osebo, 12 mesecev",
+      "Ena povezava za posredovanje: pridružitev v minuti",
+      "Skupni podatki o uporabi, nikoli vsebina pogovorov",
+      "Uvodni klic za nastavitev, če želite",
+      "Podpora po e-pošti neposredno od ustanovitelja",
+      "Ponudba, vaša naročilnica, račun",
+      "Pogodba o obdelavi osebnih podatkov",
+      "Brez najmanjšega naročila, stroškov uvedbe in samodejnega podaljšanja"
+    ],
+    "quote": "Zahtevajte ponudbo"
+  },
+  "data": {
+    "eyebrow": "Za vašo službo za varstvo podatkov",
+    "title": "Kako ravnamo s podatki",
+    "items": [
+      { "title": "Shranjeno v EU", "description": "Uporabniški računi in shranjeni prepisi so shranjeni v Evropski uniji (Frankfurt)." },
+      { "title": "Zvok se ne hrani na naših strežnikih", "description": "Govor se obdeluje sproti, da nastanejo podnapisi. Zvok posnetkov, ki jih ljudje shranijo, ostane na njihovem telefonu." },
+      { "title": "Nikoli za učenje UI", "description": "Nobena vsebina se ne prodaja, ne deli za oglaševanje in ne uporablja za učenje modelov UI, ne pri nas ne pri katerem koli ponudniku, s katerim sodelujemo." },
+      { "title": "Navedeni so vsi obdelovalci", "description": "Naš pravilnik o zasebnosti navaja vsako podjetje, ki obdeluje podatke, in za kaj. Prenosi zunaj Združenega kraljestva in EGP so urejeni s standardnimi pogodbenimi klavzulami." },
+      { "title": "Pogodba o obdelavi osebnih podatkov", "description": "Z vašo organizacijo jo podpišemo za plačane licence, ko nam pošljete imena ali e-poštne naslove oseb, ki jim odklenemo dostop." },
+      { "title": "Brisanje", "description": "Vsakdo lahko svoj račun in posnetke kadar koli izbriše v aplikaciji." }
+    ],
+    "dpa": "Zahtevajte pogodbo o obdelavi osebnih podatkov",
+    "privacy": "Preberite pravilnik o zasebnosti"
+  },
+  "faq": {
+    "eyebrow": "Pogosta vprašanja",
+    "title": "Pogosta vprašanja",
+    "items": [
+      { "q": "Kaj je Captio AI?", "a": "Aplikacija za iPhone in Android, ki to, kar ljudje govorijo, prikaže kot besedilo takoj, ko je izrečeno, v več kot 60 jezikih. Gluhi in naglušni jo uporabljajo v živo, kjer koli potrebujejo podnapise: odprejo jo, tapnejo mikrofon in berejo. Zna tudi prevajati, ločiti govorce in tiste, ki jih pozna, poklicati po imenu, pokazati, od kod prihaja glas (iPhone 16 in novejši), v podnapise zapisati zvoke, kot sta zvonec na vratih ali alarm, ter povedano shraniti in povzeti." },
+      { "q": "Komu je namenjen Captio AI za organizacije?", "a": "Vsaki organizaciji, ki v imenu gluhih in naglušnih plačuje podnapisovanje. Vsaka oseba dobi Captio AI Plus na svojem telefonu za eno leto, organizacija pa plača en račun." },
+      { "q": "Koliko stane?", "a": "£89, €99 ali $109 na osebo na leto za 1 do 19 oseb ter £69, €79 ali $89 na osebo na leto od 20 oseb naprej. Brez najmanjšega naročila in brez stroškov uvedbe. Cene ne vključujejo DDV, kjer se obračuna." },
+      { "q": "Kako plačamo?", "a": "Po računu z bančnim nakazilom. Najprej pošljemo ponudbo, z veseljem pa se prilagodimo tudi vašemu postopku z naročilnicami." },
+      { "q": "Ga lahko najprej preizkusimo?", "a": "Da. Brezplačni 30-dnevni pilotni preizkus za največ 5 oseb. Izpolnite obrazec na tej strani in povezava za posredovanje v minuti prispe po e-pošti. Nič ne plačate in nič ne podpišete." },
+      { "q": "Morajo ljudje, ki ga uporabljajo, kaj plačati ali nastaviti?", "a": "Ne. Odprejo povezavo, ki jim jo posredujete, nadaljujejo z Apple ali Google, nato brezplačno prenesejo Captio AI na iPhone ali Android in se prijavijo z istim računom. Polno različico imajo takoj. Vaši IT-ekipi ni treba ničesar namestiti." },
+      { "q": "Kaj vidimo o uporabi?", "a": "Samo skupne številke: koliko ljudi se je pridružilo, koliko jih je v zadnjem tednu odprlo Captio AI ter koliko posnetkov je shranjenih in kako dolgi so. Nikoli tega, kar je bilo povedano, in nikoli, kdo je to povedal." },
+      { "q": "Kako dodamo ljudi po nakupu?", "a": "Z isto povezavo. Ko so vaše licence aktivne, se lahko pridruži vsakdo, ki mu jo pošljete, do števila licenc, ki jih imate. Ljudje iz preizkusa obdržijo vse, kar so shranili." },
+      { "q": "Kaj se zgodi po 12 mesecih?", "a": "Mesec dni pred iztekom licenc pošljemo ponudbo za podaljšanje. Nič se ne podaljša ali zaračuna samodejno." },
+      { "q": "Ali nadomesti podnapisovalca ali zapisnikarja?", "a": "Ne v vsakem primeru. Captio AI da takojšnje podnapise, kjer koli je oseba, brez vnaprejšnjega naročanja. Kjer je potreben popoln zapis, ga številne službe uporabljajo ob podpori ljudi." },
+      { "q": "Kje so shranjeni naši podatki in kdo jih obdeluje?", "a": "Uporabniški računi in shranjeni prepisi so shranjeni v EU (Frankfurt). Zvok se obdeluje sproti in se ne hrani na naših strežnikih. Naš pravilnik o zasebnosti navaja vsako podjetje, ki obdeluje podatke. Nič se ne uporablja za učenje modelov UI." },
+      { "q": "Ali lahko posameznik sam kupi Captio AI Plus?", "a": "Da, v aplikaciji. Licence za organizacije so za primere, ko nekomu plača organizacija." }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Brezplačni pilotni preizkus",
+    "title": "Preizkusite ga s svojimi ljudmi",
+    "body": "Do 5 oseb, 30 dni brezplačno. Povezava v minuti prispe v vaš e-poštni predal. Imate najprej vprašanja? Pišite na {address}."
+  },
+  "join": {
+    "metaTitle": "Captio AI, ki ti ga omogoča {org}",
+    "metaDescription": "{org} ti omogoča Captio AI: podnapise v živo vsega, kar ljudje govorijo, na tvojem telefonu.",
+    "gives": "{org} ti omogoča",
+    "title": "Podnapise v živo na tvojem telefonu",
+    "pilotOffer": "Polna različica aplikacije Captio AI, {days} dni brezplačno.",
+    "paidOffer": "Polna različica aplikacije Captio AI, ki jo plača {org}. Zadnji dan: {date}.",
+    "about": "Podnapisi vsega, kar ljudje govorijo, medtem ko govorijo, v več kot 60 jezikih.",
+    "steps": ["Spodaj nadaljuj z Apple ali Google", "Prenesi Captio AI iz trgovine App Store ali Google Play", "V aplikacijo se prijavi z istim računom"],
+    "continueApple": "Nadaljuj z Apple",
+    "continueGoogle": "Nadaljuj z Google",
+    "signingIn": "Prijavljanje …",
+    "alreadyUse": "Že uporabljaš Captio AI? Nadaljuj z računom, ki ga uporabljaš v aplikaciji.",
+    "nothingToPay": "Nič ne plačaš. Po brezplačnih dneh se preprosto konča.",
+    "privacyNote": "{org} vidi samo, koliko ljudi se je pridružilo in koliko so skupaj uporabljali Captio AI, nikoli tega, kar je bilo povedano.",
+    "privacyLink": "Pravilnik o zasebnosti",
+    "joined": "Uspelo je",
+    "alreadyJoined": "Dostop že imaš",
+    "until": "Zadnji dan s polno različico aplikacije Captio AI: {date}.",
+    "getAppStore": "Prenesi Captio AI iz trgovine App Store",
+    "getGooglePlay": "Prenesi Captio AI iz trgovine Google Play",
+    "phoneApp": "Captio AI je aplikacija za telefon: prenesi jo na svoj iPhone ali telefon Android.",
+    "thenSignIn": "Nato se v Captio AI prijavi z istim računom {provider}. Aplikacijo že imaš? Zapri jo in jo znova odpri.",
+    "endedTitle": "Tvoji brezplačni dnevi so se iztekli",
+    "endedBody": "Dostop do aplikacije Captio AI prek organizacije {org} se je končal (zadnji dan: {date}). Vprašaj organizacijo {org}, ali ga lahko obdržiš.",
+    "closed": {
+      "fullTitle": "Vsa mesta so zasedena",
+      "full": "Vsa mesta organizacije {org} so zasedena (skupaj {seats}). Vprašaj organizacijo {org} za dodatna mesta.",
+      "stoppedTitle": "Ta povezava je zaprta",
+      "stopped": "Za novo vprašaj organizacijo {org}.",
+      "expiredTitle": "Ta povezava za preizkus je potekla",
+      "expired": "Za novo vprašaj organizacijo {org}.",
+      "endedTitle": "Licence organizacije {org} so potekle",
+      "ended": "Vprašaj organizacijo {org}, ali bo Captio AI podaljšala."
+    },
+    "failures": {
+      "full": "Vsa mesta organizacije {org} so zasedena. Vprašaj organizacijo {org} za dodatna mesta.",
+      "stopped": "Ta povezava je zaprta. Za novo vprašaj organizacijo {org}.",
+      "linkExpired": "Ta povezava za preizkus je potekla. Za novo vprašaj organizacijo {org}.",
+      "ended": "Licence organizacije {org} so potekle.",
+      "otherOrg": "Tvoj račun že dobiva Captio AI prek druge organizacije.",
+      "hadPilot": "Ta račun je že imel brezplačni preizkus. Vprašaj organizacijo {org}, kako obdržati Captio AI.",
+      "notFound": "Ta povezava ne deluje. Za novo prosi osebo, ki ti jo je poslala.",
+      "signInFailed": "Prijava ni uspela. Poskusi znova.",
+      "couldNotAdd": "Trenutno te ne moremo dodati. Poskusi znova.",
+      "generic": "Nekaj je šlo narobe. Poskusi znova."
+    },
+    "invalidTitle": "Ta povezava ne deluje",
+    "invalidBody": "Preveri, ali je skopirana v celoti, ali pa za novo prosi osebo, ki ti jo je poslala.",
+    "errorTitle": "Strani ni bilo mogoče naložiti",
+    "errorBody": "Poskusi znova čez trenutek."
+  }
+}

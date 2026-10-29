@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "title": "Phụ đề trực tiếp cho tổ chức, chuyển giọng nói thành chữ",
+    "description": "Captio AI hiện phụ đề trực tiếp trên điện thoại cho người Điếc và nghe kém, hơn 60 ngôn ngữ. Giấy phép năm cho tổ chức, trả theo hóa đơn, dùng thử 30 ngày miễn phí."
+  },
+  "header": {
+    "forOrganizations": "Dành cho tổ chức",
+    "startPilot": "Dùng thử miễn phí",
+    "chooseLanguage": "Chọn ngôn ngữ"
+  },
+  "hero": {
+    "eyebrow": "🏢 Captio AI cho tổ chức",
+    "title": "Phụ đề trực tiếp trên điện thoại của họ, ngay khi người khác [nói]",
+    "description": "Captio AI là ứng dụng dành cho người Điếc và người nghe kém. Ứng dụng lắng nghe và hiển thị lời nói thành chữ khi gặp mặt trực tiếp, bằng hơn 60 ngôn ngữ. Quý vị có thể cấp ứng dụng cho những người cần dùng trong tổ chức: mỗi người một giấy phép theo năm, thanh toán theo hóa đơn.",
+    "seeHow": "Xem cách hoạt động",
+    "pilotNote": "Miễn phí 30 ngày, tối đa 5 người. Không phải trả tiền, không phải ký gì.",
+    "facts": ["iPhone và Android", "Hơn 60 ngôn ngữ", "Lưu trữ tại EU"],
+    "videoLabel": "Captio AI hiển thị phụ đề trực tiếp cuộc trò chuyện của hai người, mỗi người nói có nhãn riêng"
+  },
+  "features": {
+    "eyebrow": "Captio AI làm được gì",
+    "title": "Phụ đề trực tiếp, dịch và chép lời",
+    "subtitle": "Ba công cụ trong một ứng dụng, trên chính điện thoại của họ, bằng hơn 60 ngôn ngữ.",
+    "items": [
+      { "label": "Phụ đề trực tiếp", "title": "Từng lời, ngay khi được nói", "description": "Mở ứng dụng, chạm vào micrô và đọc theo. Mỗi người nói có nhãn riêng nên biết rõ ai nói gì." },
+      { "label": "Dịch trực tiếp", "title": "Hai ngôn ngữ cạnh nhau", "description": "Khi ai đó nói ngôn ngữ khác, họ thấy cùng lúc lời được nói và bản dịch." },
+      { "label": "Chép lời", "title": "Biến bản ghi và tệp thành văn bản", "description": "Lưu bất kỳ cuộc trò chuyện nào, hoặc thêm tệp âm thanh hay video, để nhận bản chép lời đầy đủ kèm tóm tắt AI." }
+    ]
+  },
+  "languages": {
+    "eyebrow": "Hơn 60 ngôn ngữ",
+    "title": "Phụ đề bằng chính ngôn ngữ mọi người đang nói",
+    "subtitle": "Phụ đề trực tiếp, dịch và chép lời ở mọi ngôn ngữ, kể cả khi người nói đổi ngôn ngữ giữa câu."
+  },
+  "awareness": {
+    "eyebrow": "Dành cho người Điếc và người nghe kém",
+    "title": "Không chỉ là chữ trên màn hình",
+    "subtitle": "Ai đang nói, họ ở đâu và xung quanh đang có gì: những điều quan trọng khi không nghe được âm thanh trong phòng.",
+    "items": [
+      { "title": "Biết ai đang nói", "description": "Lưu giọng của một người một lần, từ khoảng 20 giây họ nói, và phụ đề sẽ hiện tên người đó thay vì “Người nói 2”, cả khi trực tiếp lẫn trong bản ghi đã lưu. Giọng nói được tạo và lưu ngay trên điện thoại.", "where": "iPhone" },
+      { "title": "Cho thấy giọng nói ở đâu", "description": "Những làn sóng ở mép màn hình cho thấy giọng nói đến từ phía nào, bằng màu của người nói đó, để biết nên nhìn về đâu trong căn phòng đông người.", "where": "iPhone 16 trở lên" },
+      { "title": "Nghe được âm thanh xung quanh", "description": "Âm thanh hiện trong phụ đề giống như phụ đề phim. Chuông cửa, chuông báo động hay tiếng em bé khóc còn làm điện thoại rung.", "where": "iPhone và iPad" }
+    ],
+    "drawing": {
+      "otherName": "Lan",
+      "me": "Tôi",
+      "voicesLine1": "Mình dời cuộc họp sang thứ Sáu nhé?",
+      "voicesLine2": "Thứ Sáu thì được.",
+      "directionLine": "Mình ở đây, bên trái bạn.",
+      "soundsBefore": "Hẹn gặp lúc ba giờ.",
+      "sound": "[chuông cửa reo]",
+      "soundsAfter": "Ai vậy nhỉ?",
+      "vibrates": "Điện thoại rung"
+    }
+  },
+  "reasons": {
+    "eyebrow": "Cho tổ chức của Quý vị",
+    "title": "Vì sao các tổ chức chọn Captio AI",
+    "items": [
+      { "title": "Sẵn sàng ngay khi cần", "description": "Không cần đặt trước người làm phụ đề. Phụ đề bắt đầu chỉ với một chạm, dù người dùng ở đâu." },
+      { "title": "Ngay trên điện thoại của họ", "description": "iPhone hay Android đều được. Bộ phận IT không phải cài đặt gì, cũng không phải cấp phát thiết bị." },
+      { "title": "Riêng tư ngay từ thiết kế", "description": "Lưu trữ tại EU. Âm thanh không được giữ trên máy chủ của chúng tôi, và không gì được dùng để huấn luyện AI." },
+      { "title": "Mua đơn giản", "description": "Một mức giá cho mỗi người mỗi năm, thanh toán theo hóa đơn. Không số lượng tối thiểu, không phí thiết lập, không tự động gia hạn." }
+    ]
+  },
+  "pilot": {
+    "eyebrow": "Dùng thử miễn phí",
+    "title": "Dùng thử 30 ngày với tối đa 5 người",
+    "steps": [
+      { "title": "Nhận liên kết dùng thử", "description": "Điền vào biểu mẫu bên dưới. Liên kết sẽ đến hộp thư của Quý vị trong vòng một phút, kèm một tin nhắn soạn sẵn để chuyển tiếp." },
+      { "title": "Chuyển tiếp cho tối đa 5 người", "description": "Mỗi người mở liên kết trên điện thoại, tiếp tục với Apple hoặc Google, rồi tải Captio AI trên iPhone hoặc Android." },
+      { "title": "Họ dùng bản đầy đủ trong 30 ngày", "description": "Quý vị không cần cung cấp dữ liệu cá nhân nào nên không có thủ tục giấy tờ. Gần cuối đợt, Quý vị sẽ nhận bản tóm tắt mức độ sử dụng và giá nếu muốn tiếp tục." }
+    ]
+  },
+  "form": {
+    "organization": "Tổ chức",
+    "name": "Họ và tên",
+    "email": "Email công việc",
+    "emailHint": "Liên kết dùng thử sẽ được gửi đến địa chỉ này.",
+    "people": "Khoảng bao nhiêu người có thể sẽ dùng?",
+    "peopleOptions": ["1 đến 5", "6 đến 19", "20 đến 50", "Trên 50"],
+    "submit": "Gửi liên kết dùng thử cho tôi",
+    "sending": "Đang gửi…",
+    "note": "Miễn phí 30 ngày, tối đa 5 người. Không phải trả tiền, không phải ký gì.",
+    "sentTitle": "Vui lòng kiểm tra hộp thư",
+    "sentTo": "Liên kết dùng thử đang được gửi đến {email}, kèm một tin nhắn Quý vị có thể chuyển tiếp cho những người sẽ dùng.",
+    "resentTo": "Chúng tôi đã gửi lại liên kết dùng thử đến {email}, kèm một tin nhắn Quý vị có thể chuyển tiếp cho những người sẽ dùng.",
+    "sentHelp": "Thư thường đến trong vòng một phút. Chưa thấy? Vui lòng kiểm tra thư mục thư rác, hoặc viết thư đến {address}.",
+    "errors": {
+      "org": "Vui lòng nhập tên tổ chức.",
+      "email": "Địa chỉ email này có vẻ chưa đúng.",
+      "tooMany": "Hôm nay có quá nhiều yêu cầu từ đây. Vui lòng viết thư đến {address}.",
+      "domainLimit": "Tổ chức của Quý vị đã có đợt dùng thử đang diễn ra. Vui lòng viết thư đến {address}, chúng tôi sẽ thêm cho Quý vị.",
+      "busy": "Hôm nay chúng tôi nhận được rất nhiều yêu cầu. Vui lòng viết thư đến {address}, Quý vị sẽ nhận được liên kết trong vòng một ngày.",
+      "server": "Đã xảy ra lỗi{code}. Vui lòng thử lại, hoặc viết thư đến {address}.",
+      "network": "Không gửi được. Vui lòng kiểm tra kết nối và thử lại."
+    }
+  },
+  "pricing": {
+    "eyebrow": "Bảng giá",
+    "title": "Một mức giá cho mỗi người, mỗi năm",
+    "subtitle": "Thanh toán theo hóa đơn bằng chuyển khoản ngân hàng. Giá chưa bao gồm thuế GTGT (nếu có).",
+    "plans": ["1 đến 19 người", "Từ 20 người trở lên"],
+    "perPersonYear": "mỗi người mỗi năm",
+    "otherCurrencies": "{a} hoặc {b}",
+    "includedTitle": "Bao gồm",
+    "included": [
+      "Captio AI Plus cho mỗi người, trong 12 tháng",
+      "Một liên kết để chuyển tiếp: tham gia trong một phút",
+      "Chỉ số liệu tổng, không bao giờ có nội dung đã nói",
+      "Một cuộc gọi hướng dẫn thiết lập, nếu Quý vị muốn",
+      "Hỗ trợ qua email trực tiếp từ nhà sáng lập",
+      "Báo giá, đơn đặt hàng của Quý vị, hóa đơn",
+      "Hợp đồng xử lý dữ liệu cá nhân (DPA)",
+      "Không tối thiểu, không phí thiết lập, không tự động gia hạn"
+    ],
+    "quote": "Yêu cầu báo giá"
+  },
+  "data": {
+    "eyebrow": "Dành cho bộ phận bảo vệ dữ liệu",
+    "title": "Cách xử lý dữ liệu",
+    "items": [
+      { "title": "Lưu trữ tại EU", "description": "Tài khoản và bản chép lời đã lưu được lưu trữ tại Liên minh Châu Âu (Frankfurt)." },
+      { "title": "Âm thanh không được giữ trên máy chủ của chúng tôi", "description": "Giọng nói được xử lý theo thời gian thực để tạo phụ đề. Âm thanh của các bản ghi mà người dùng lưu vẫn nằm trên điện thoại của họ." },
+      { "title": "Không bao giờ dùng để huấn luyện AI", "description": "Không nội dung nào bị bán, chia sẻ cho quảng cáo hay dùng để huấn luyện mô hình AI, dù là bởi chúng tôi hay bất kỳ nhà cung cấp nào chúng tôi sử dụng." },
+      { "title": "Mọi bên xử lý đều được nêu tên", "description": "Chính sách quyền riêng tư của chúng tôi nêu tên mọi công ty xử lý dữ liệu và mục đích xử lý. Việc chuyển dữ liệu ra ngoài Vương quốc Anh và EEA được bảo đảm bằng Điều khoản Hợp đồng Tiêu chuẩn (SCC)." },
+      { "title": "Hợp đồng xử lý dữ liệu cá nhân", "description": "Đối với giấy phép trả phí, chúng tôi ký hợp đồng này với tổ chức của Quý vị khi Quý vị gửi cho chúng tôi tên hoặc email của những người cần kích hoạt." },
+      { "title": "Xóa dữ liệu", "description": "Bất kỳ ai cũng có thể xóa tài khoản và bản ghi của mình trong ứng dụng, vào bất kỳ lúc nào." }
+    ],
+    "dpa": "Yêu cầu hợp đồng xử lý dữ liệu cá nhân",
+    "privacy": "Đọc chính sách quyền riêng tư"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Câu hỏi thường gặp",
+    "items": [
+      { "q": "Captio AI là gì?", "a": "Một ứng dụng cho iPhone và Android hiển thị lời người khác nói thành chữ ngay khi họ nói, bằng hơn 60 ngôn ngữ. Người Điếc và người nghe kém dùng ứng dụng khi gặp mặt trực tiếp, ở bất cứ đâu cần phụ đề: mở ứng dụng, chạm vào micrô và đọc theo. Ứng dụng còn có thể dịch, phân biệt người nói và gọi tên những người đã biết, cho thấy giọng nói đến từ đâu (iPhone 16 trở lên), ghi các âm thanh như chuông cửa hay báo động vào phụ đề, cũng như lưu và tóm tắt những gì đã nói." },
+      { "q": "Captio AI cho tổ chức dành cho ai?", "a": "Bất kỳ tổ chức nào chi trả dịch vụ phụ đề thay cho người Điếc và người nghe kém. Mỗi người nhận Captio AI Plus trên điện thoại của mình trong một năm, và tổ chức thanh toán một hóa đơn." },
+      { "q": "Chi phí là bao nhiêu?", "a": "£89, €99 hoặc $109 mỗi người mỗi năm cho 1 đến 19 người, và £69, €79 hoặc $89 mỗi người mỗi năm từ 20 người. Không có số lượng tối thiểu và không có phí thiết lập. Giá chưa bao gồm thuế GTGT (nếu có)." },
+      { "q": "Chúng tôi thanh toán thế nào?", "a": "Theo hóa đơn, bằng chuyển khoản ngân hàng. Chúng tôi gửi báo giá trước và sẵn sàng làm theo quy trình đơn đặt hàng của Quý vị." },
+      { "q": "Chúng tôi có thể dùng thử trước không?", "a": "Có. Dùng thử miễn phí 30 ngày cho tối đa 5 người. Điền biểu mẫu trên trang này và liên kết để chuyển tiếp sẽ đến qua email trong vòng một phút. Không phải trả tiền, không phải ký gì." },
+      { "q": "Người dùng có phải trả tiền hay thiết lập gì không?", "a": "Không. Họ mở liên kết Quý vị chuyển tiếp, tiếp tục với Apple hoặc Google, rồi tải Captio AI miễn phí trên iPhone hoặc Android và đăng nhập bằng cùng tài khoản. Họ có bản đầy đủ ngay lập tức. Bộ phận IT của Quý vị không phải cài đặt gì." },
+      { "q": "Chúng tôi thấy được gì về việc sử dụng?", "a": "Chỉ số liệu tổng: bao nhiêu người đã tham gia, bao nhiêu người mở Captio AI trong tuần qua, bao nhiêu bản ghi đã được lưu và tổng thời lượng. Không bao giờ có nội dung đã nói, cũng không bao giờ biết ai đã nói." },
+      { "q": "Thêm người sau khi mua bằng cách nào?", "a": "Bằng chính liên kết đó. Khi giấy phép đã kích hoạt, bất kỳ ai Quý vị gửi liên kết đều có thể tham gia, cho đến hết số giấy phép Quý vị có. Những người tham gia từ đợt dùng thử vẫn giữ mọi thứ họ đã lưu." },
+      { "q": "Sau 12 tháng thì sao?", "a": "Chúng tôi gửi báo giá gia hạn một tháng trước khi giấy phép hết hạn. Không có gì tự động gia hạn hay tự động thu phí." },
+      { "q": "Ứng dụng có thay thế người làm phụ đề hay người ghi chép không?", "a": "Không phải trong mọi trường hợp. Captio AI cho phụ đề tức thì ở bất cứ nơi nào người dùng có mặt, không cần đặt trước ai. Ở những nơi cần biên bản chính xác tuyệt đối, nhiều đơn vị dùng ứng dụng song song với hỗ trợ của con người." },
+      { "q": "Dữ liệu của chúng tôi được lưu ở đâu và ai xử lý?", "a": "Tài khoản và bản chép lời đã lưu được lưu trữ tại EU (Frankfurt). Âm thanh được xử lý theo thời gian thực và không được giữ trên máy chủ của chúng tôi. Chính sách quyền riêng tư của chúng tôi liệt kê mọi công ty xử lý dữ liệu. Không gì được dùng để huấn luyện mô hình AI." },
+      { "q": "Một người có thể tự mua Captio AI Plus không?", "a": "Có, ngay trong ứng dụng. Giấy phép cho tổ chức dành cho trường hợp một tổ chức trả tiền thay cho người dùng." }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Dùng thử miễn phí",
+    "title": "Hãy thử cùng chính những người sẽ dùng",
+    "body": "Tối đa 5 người, miễn phí 30 ngày. Liên kết đến hộp thư của Quý vị trong vòng một phút. Có câu hỏi trước? Vui lòng viết thư đến {address}."
+  },
+  "join": {
+    "metaTitle": "Captio AI từ {org}",
+    "metaDescription": "{org} cung cấp cho bạn Captio AI: phụ đề trực tiếp lời người khác nói, ngay trên điện thoại của bạn.",
+    "gives": "{org} dành cho bạn",
+    "title": "Phụ đề trực tiếp trên điện thoại của bạn",
+    "pilotOffer": "Bản đầy đủ của Captio AI, miễn phí trong {days} ngày.",
+    "paidOffer": "Bản đầy đủ của Captio AI đến {date}, do {org} chi trả.",
+    "about": "Phụ đề lời người khác nói, ngay khi họ nói, bằng hơn 60 ngôn ngữ.",
+    "steps": ["Tiếp tục với Apple hoặc Google ở bên dưới", "Tải Captio AI từ App Store hoặc Google Play", "Đăng nhập vào ứng dụng bằng cùng tài khoản"],
+    "continueApple": "Tiếp tục với Apple",
+    "continueGoogle": "Tiếp tục với Google",
+    "signingIn": "Đang đăng nhập…",
+    "alreadyUse": "Đã dùng Captio AI? Hãy tiếp tục bằng tài khoản bạn đang dùng trong ứng dụng.",
+    "nothingToPay": "Không phải trả gì. Hết số ngày miễn phí thì tự kết thúc.",
+    "privacyNote": "{org} chỉ thấy có bao nhiêu người tham gia và tổng mức sử dụng Captio AI, không bao giờ thấy nội dung đã nói.",
+    "privacyLink": "Chính sách quyền riêng tư",
+    "joined": "Bạn đã tham gia",
+    "alreadyJoined": "Bạn đã tham gia từ trước",
+    "until": "Bạn có bản đầy đủ của Captio AI đến {date}.",
+    "getAppStore": "Tải Captio AI trên App Store",
+    "getGooglePlay": "Tải Captio AI trên Google Play",
+    "phoneApp": "Captio AI là ứng dụng điện thoại: hãy tải về iPhone hoặc điện thoại Android của bạn.",
+    "thenSignIn": "Sau đó đăng nhập vào Captio AI bằng cùng tài khoản {provider}. Đã có ứng dụng? Hãy đóng rồi mở lại.",
+    "endedTitle": "Số ngày miễn phí của bạn đã hết",
+    "endedBody": "Captio AI từ {org} của bạn đã kết thúc vào {date}. Hãy hỏi {org} nếu muốn tiếp tục dùng.",
+    "closed": {
+      "fullTitle": "Đã hết chỗ",
+      "full": "Tất cả {seats} chỗ từ {org} đã có người. Hãy hỏi {org} về việc thêm chỗ.",
+      "stoppedTitle": "Liên kết này đã đóng",
+      "stopped": "Hãy xin {org} một liên kết mới.",
+      "expiredTitle": "Liên kết dùng thử này đã hết hạn",
+      "expired": "Hãy xin {org} một liên kết mới.",
+      "endedTitle": "Giấy phép của {org} đã hết hạn",
+      "ended": "Hãy hỏi {org} xem họ có gia hạn Captio AI không."
+    },
+    "failures": {
+      "full": "Tất cả chỗ từ {org} đã có người. Hãy hỏi {org} về việc thêm chỗ.",
+      "stopped": "Liên kết này đã đóng. Hãy xin {org} một liên kết mới.",
+      "linkExpired": "Liên kết dùng thử này đã hết hạn. Hãy xin {org} một liên kết mới.",
+      "ended": "Giấy phép của {org} đã hết hạn.",
+      "otherOrg": "Tài khoản của bạn đã nhận Captio AI qua một tổ chức khác.",
+      "hadPilot": "Tài khoản này đã từng dùng thử miễn phí. Hãy hỏi {org} nếu muốn tiếp tục dùng Captio AI.",
+      "notFound": "Liên kết này không dùng được. Hãy xin người đã gửi một liên kết mới.",
+      "signInFailed": "Đăng nhập không thành công. Hãy thử lại.",
+      "couldNotAdd": "Hiện chưa thể thêm bạn. Hãy thử lại.",
+      "generic": "Đã xảy ra lỗi. Hãy thử lại."
+    },
+    "invalidTitle": "Liên kết này không dùng được",
+    "invalidBody": "Hãy kiểm tra xem liên kết đã được sao chép đầy đủ chưa, hoặc xin người đã gửi một liên kết mới.",
+    "errorTitle": "Không tải được trang này",
+    "errorBody": "Hãy thử lại sau giây lát."
+  }
+}

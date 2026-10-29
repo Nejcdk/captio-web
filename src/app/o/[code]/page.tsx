@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import LocaleShell from "@/components/LocaleShell";
 import { fill } from "@/i18n/fill";
+import { intlLocale } from "@/i18n/intl";
 import { isLocale } from "@/i18n/locales";
 import { getOrgMessages, type OrgMessages } from "@/i18n/organizations";
 import { getOrgLink, normalizeOrgCode, type OrgLink } from "@/lib/orgPilot";
@@ -57,7 +58,7 @@ function Header() {
 function longDate(iso: string, lang: string): string {
   const opts: Intl.DateTimeFormatOptions = { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" };
   try {
-    return new Intl.DateTimeFormat(lang === "en" ? "en-GB" : lang, opts).format(new Date(iso));
+    return new Intl.DateTimeFormat(lang === "en" ? "en-GB" : intlLocale(lang), opts).format(new Date(iso));
   } catch {
     return new Intl.DateTimeFormat("en-GB", opts).format(new Date(iso));
   }

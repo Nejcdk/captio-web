@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "title": "Sari Kata Langsung untuk Organisasi dan Syarikat",
+    "description": "Captio AI: sari kata langsung untuk orang Pekak dan kurang pendengaran di telefon, dalam 60+ bahasa. Lesen tahunan melalui invois. Cuba percuma selama 30 hari."
+  },
+  "header": {
+    "forOrganizations": "untuk Organisasi",
+    "startPilot": "Mulakan percubaan percuma",
+    "chooseLanguage": "Pilih bahasa"
+  },
+  "hero": {
+    "eyebrow": "🏢 Captio AI untuk Organisasi",
+    "title": "Sari kata langsung di telefon mereka, sebaik sahaja orang [bercakap]",
+    "description": "Captio AI ialah aplikasi untuk orang Pekak dan kurang pendengaran. Ia mendengar dan memaparkan apa yang dikatakan sebagai teks, secara bersemuka, dalam 60+ bahasa. Berikan kepada warga organisasi anda yang memerlukannya: satu lesen tahunan bagi setiap orang, dibayar melalui invois.",
+    "seeHow": "Lihat cara ia berfungsi",
+    "pilotNote": "Percuma selama 30 hari, untuk sehingga 5 orang. Tiada bayaran, tiada apa-apa untuk ditandatangani.",
+    "facts": ["iPhone dan Android", "60+ bahasa", "Disimpan di EU"],
+    "videoLabel": "Captio AI memaparkan sari kata langsung perbualan dua orang, dengan label bagi setiap penutur"
+  },
+  "features": {
+    "eyebrow": "Apa yang Captio AI lakukan",
+    "title": "Sari kata langsung, terjemahan dan transkripsi",
+    "subtitle": "Tiga alat dalam satu aplikasi, di telefon mereka sendiri, dalam 60+ bahasa.",
+    "items": [
+      { "label": "Sari kata langsung", "title": "Setiap perkataan, sebaik sahaja diucapkan", "description": "Buka aplikasi, ketik mikrofon dan baca. Setiap penutur mendapat label sendiri, jadi jelas siapa yang berkata apa." },
+      { "label": "Terjemahan langsung", "title": "Dua bahasa bersebelahan", "description": "Apabila seseorang bercakap dalam bahasa lain, pengguna melihat apa yang dikatakan dan terjemahannya serentak." },
+      { "label": "Transkripsi", "title": "Rakaman dan fail menjadi teks", "description": "Simpan mana-mana perbualan, atau tambah fail audio atau video, dan dapatkan transkrip penuh beserta ringkasan AI." }
+    ]
+  },
+  "languages": {
+    "eyebrow": "60+ bahasa",
+    "title": "Sari kata dalam bahasa yang dituturkan oleh warga organisasi anda",
+    "subtitle": "Sari kata langsung, terjemahan dan transkripsi dalam setiap bahasa itu, termasuk bagi orang yang bertukar bahasa di tengah-tengah ayat."
+  },
+  "awareness": {
+    "eyebrow": "Dibuat untuk orang Pekak dan kurang pendengaran",
+    "title": "Lebih daripada perkataan di skrin",
+    "subtitle": "Siapa yang bercakap, di mana mereka berada dan apa lagi yang sedang berlaku: perkara yang penting apabila seseorang tidak dapat mendengar keadaan di sekelilingnya.",
+    "items": [
+      { "title": "Tahu siapa yang bercakap", "description": "Simpan suara seseorang sekali sahaja, daripada kira-kira 20 saat dia bercakap, dan sari kata akan memaparkan namanya, bukan “Penutur 2”, secara langsung dan dalam rakaman yang disimpan. Data suara dibuat dan disimpan pada telefon itu sendiri.", "where": "iPhone" },
+      { "title": "Menunjukkan arah suara", "description": "Gelombang di tepi skrin menunjukkan dari arah mana suara datang, dalam warna penutur itu, supaya pengguna tahu ke mana hendak melihat dalam bilik yang sibuk.", "where": "iPhone 16 dan yang lebih baharu" },
+      { "title": "Mendengar bunyi di sekeliling", "description": "Bunyi dipaparkan dalam sari kata, sama seperti sari kata filem. Loceng pintu, penggera atau bayi menangis juga membuatkan telefon bergetar.", "where": "iPhone dan iPad" }
+    ],
+    "drawing": {
+      "otherName": "Aisyah",
+      "me": "Saya",
+      "voicesLine1": "Boleh kita alihkan mesyuarat ke Jumaat?",
+      "voicesLine2": "Jumaat sesuai untuk saya.",
+      "directionLine": "Saya di sini, di sebelah kiri anda.",
+      "soundsBefore": "Jumpa pukul tiga.",
+      "sound": "[loceng pintu berbunyi]",
+      "soundsAfter": "Siapa tu?",
+      "vibrates": "Telefon bergetar"
+    }
+  },
+  "reasons": {
+    "eyebrow": "Untuk organisasi anda",
+    "title": "Mengapa organisasi memilih Captio AI",
+    "items": [
+      { "title": "Sedia sebaik sahaja diperlukan", "description": "Tidak perlu menempah perkhidmatan sari kata lebih awal. Sari kata bermula dengan satu ketikan, di mana sahaja orang itu berada." },
+      { "title": "Di telefon mereka sendiri", "description": "iPhone atau Android. Tiada apa-apa untuk dipasang oleh pasukan IT anda dan tiada perkakasan untuk diedarkan." },
+      { "title": "Privasi diutamakan", "description": "Disimpan di EU. Audio tidak disimpan pada pelayan kami, dan tiada apa-apa yang digunakan untuk melatih AI." },
+      { "title": "Mudah dibeli", "description": "Satu harga bagi setiap orang setahun, melalui invois. Tiada jumlah minimum, tiada yuran persediaan, tiada pembaharuan automatik." }
+    ]
+  },
+  "pilot": {
+    "eyebrow": "Percubaan percuma",
+    "title": "Cuba selama 30 hari dengan sehingga 5 orang",
+    "steps": [
+      { "title": "Dapatkan pautan percubaan anda", "description": "Isi borang di bawah. Pautan akan tiba dalam peti masuk anda dalam masa seminit, bersama mesej yang sedia untuk dimajukan." },
+      { "title": "Majukan kepada sehingga 5 orang", "description": "Setiap orang membukanya di telefon, meneruskan dengan Apple atau Google, dan mendapatkan Captio AI di iPhone atau Android." },
+      { "title": "Mereka mendapat versi penuh selama 30 hari", "description": "Kami tidak memerlukan sebarang data peribadi daripada anda, jadi tiada urusan dokumen. Menjelang akhir tempoh, anda akan menerima ringkasan penggunaan dan harga untuk terus menggunakannya." }
+    ]
+  },
+  "form": {
+    "organization": "Organisasi",
+    "name": "Nama anda",
+    "email": "E-mel kerja anda",
+    "emailHint": "Pautan percubaan akan dihantar ke sini.",
+    "people": "Kira-kira berapa ramai orang yang mungkin menggunakannya?",
+    "peopleOptions": ["1 hingga 5", "6 hingga 19", "20 hingga 50", "Lebih daripada 50"],
+    "submit": "Hantar pautan percubaan kepada saya",
+    "sending": "Menghantar…",
+    "note": "Percuma selama 30 hari, untuk sehingga 5 orang. Tiada bayaran, tiada apa-apa untuk ditandatangani.",
+    "sentTitle": "Semak peti masuk anda",
+    "sentTo": "Pautan percubaan anda sedang dihantar ke {email}, bersama mesej yang boleh anda majukan kepada orang yang akan menggunakannya.",
+    "resentTo": "Kami telah menghantar semula pautan percubaan anda ke {email}, bersama mesej yang boleh anda majukan kepada orang yang akan menggunakannya.",
+    "sentHelp": "Biasanya ia tiba dalam masa seminit. Tiada? Semak folder spam anda, atau tulis kepada {address}.",
+    "errors": {
+      "org": "Sila masukkan nama organisasi anda.",
+      "email": "Alamat e-mel itu nampaknya tidak betul.",
+      "tooMany": "Terlalu banyak permintaan dari sini hari ini. Sila tulis kepada {address}.",
+      "domainLimit": "Organisasi anda sudah mempunyai percubaan yang sedang berjalan. Tulis kepada {address} dan kami akan menambah lagi.",
+      "busy": "Kami menerima banyak permintaan hari ini. Sila tulis kepada {address} dan anda akan menerima pautan dalam masa sehari.",
+      "server": "Berlaku masalah{code}. Sila cuba lagi, atau tulis kepada {address}.",
+      "network": "Tidak dapat menghantar. Semak sambungan anda dan cuba lagi."
+    }
+  },
+  "pricing": {
+    "eyebrow": "Harga",
+    "title": "Satu harga bagi setiap orang, setahun",
+    "subtitle": "Dibayar melalui invois dan pindahan bank. Harga tidak termasuk cukai seperti SST atau VAT jika berkenaan.",
+    "plans": ["1 hingga 19 orang", "20 orang atau lebih"],
+    "perPersonYear": "seorang setahun",
+    "otherCurrencies": "{a} atau {b}",
+    "includedTitle": "Termasuk",
+    "included": [
+      "Captio AI Plus untuk setiap orang, selama 12 bulan",
+      "Satu pautan untuk dimajukan: orang boleh menyertai dalam masa seminit",
+      "Jumlah penggunaan sahaja, bukan apa yang dikatakan",
+      "Panggilan persediaan, jika anda mahu",
+      "Sokongan e-mel terus daripada pengasas",
+      "Sebut harga, pesanan belian (PO) anda, invois",
+      "Perjanjian pemprosesan data",
+      "Tiada jumlah minimum, tiada yuran persediaan, tiada pembaharuan automatik"
+    ],
+    "quote": "Minta sebut harga"
+  },
+  "data": {
+    "eyebrow": "Untuk pasukan perlindungan data anda",
+    "title": "Cara data dikendalikan",
+    "items": [
+      { "title": "Disimpan di EU", "description": "Akaun dan transkrip yang disimpan berada di Kesatuan Eropah (Frankfurt)." },
+      { "title": "Audio tidak disimpan pada pelayan kami", "description": "Pertuturan diproses secara masa nyata untuk menghasilkan sari kata. Audio rakaman yang disimpan kekal pada telefon pengguna sendiri." },
+      { "title": "Tidak pernah digunakan untuk melatih AI", "description": "Tiada kandungan yang dijual, dikongsi untuk pengiklanan atau digunakan untuk melatih model AI, sama ada oleh kami atau oleh mana-mana penyedia yang kami gunakan." },
+      { "title": "Setiap pemproses disenaraikan", "description": "Dasar privasi kami menamakan setiap syarikat yang memproses data dan tujuannya. Pemindahan data ke luar UK dan EEA dilindungi oleh Klausa Kontrak Standard (Standard Contractual Clauses)." },
+      { "title": "Perjanjian pemprosesan data", "description": "Kami menandatanganinya bersama organisasi anda untuk lesen berbayar, apabila anda menghantar nama atau e-mel orang yang perlu diberi akses." },
+      { "title": "Pemadaman", "description": "Sesiapa sahaja boleh memadam akaun dan rakaman mereka dalam aplikasi, pada bila-bila masa." }
+    ],
+    "dpa": "Minta perjanjian pemprosesan data",
+    "privacy": "Baca dasar privasi"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Soalan lazim",
+    "items": [
+      { "q": "Apakah Captio AI?", "a": "Aplikasi untuk iPhone dan Android yang memaparkan apa yang dikatakan orang sebagai teks, sebaik sahaja mereka mengatakannya, dalam 60+ bahasa. Orang Pekak dan kurang pendengaran menggunakannya secara bersemuka, di mana sahaja mereka memerlukan sari kata: buka aplikasi, ketik mikrofon dan baca. Ia juga boleh menterjemah, membezakan penutur dan memanggil orang yang dikenalinya dengan nama, menunjukkan dari arah mana suara datang (iPhone 16 dan yang lebih baharu), menulis bunyi seperti loceng pintu atau penggera ke dalam sari kata, serta menyimpan dan meringkaskan apa yang dikatakan." },
+      { "q": "Captio AI untuk Organisasi ditujukan kepada siapa?", "a": "Mana-mana organisasi yang membayar perkhidmatan sari kata bagi pihak orang Pekak dan kurang pendengaran. Setiap orang mendapat Captio AI Plus di telefon sendiri selama setahun, dan organisasi membayar satu invois." },
+      { "q": "Berapakah kosnya?", "a": "£89, €99 atau $109 seorang setahun untuk 1 hingga 19 orang, dan £69, €79 atau $89 seorang setahun mulai 20 orang. Tiada jumlah minimum dan tiada yuran persediaan. Harga tidak termasuk cukai seperti SST atau VAT jika berkenaan." },
+      { "q": "Bagaimanakah kami membayar?", "a": "Melalui invois dan pindahan bank. Kami menghantar sebut harga dahulu, dan kami sedia mengikut proses pesanan belian (PO) anda." },
+      { "q": "Bolehkah kami mencubanya dahulu?", "a": "Boleh. Percubaan percuma 30 hari untuk sehingga 5 orang. Isi borang di halaman ini dan pautan untuk dimajukan akan tiba melalui e-mel dalam masa seminit. Tiada bayaran dan tiada apa-apa untuk ditandatangani." },
+      { "q": "Adakah pengguna perlu membayar atau menyediakan apa-apa?", "a": "Tidak. Mereka membuka pautan yang anda majukan, meneruskan dengan Apple atau Google, kemudian memuat turun Captio AI secara percuma di iPhone atau Android dan log masuk dengan akaun yang sama. Mereka terus mendapat versi penuh. Pasukan IT anda tidak perlu memasang apa-apa." },
+      { "q": "Apakah yang kami lihat tentang penggunaannya?", "a": "Jumlah sahaja: berapa ramai orang yang menyertai, berapa ramai yang membuka Captio AI dalam seminggu yang lalu, serta berapa banyak rakaman yang disimpan dan berapa panjangnya. Tidak pernah apa yang dikatakan, dan tidak pernah siapa yang mengatakannya." },
+      { "q": "Bagaimanakah kami menambah orang selepas membeli?", "a": "Dengan pautan yang sama. Setelah lesen anda aktif, sesiapa sahaja yang menerima pautan itu daripada anda boleh menyertai, sehingga bilangan lesen yang anda miliki. Orang daripada percubaan mengekalkan semua yang telah mereka simpan." },
+      { "q": "Apakah yang berlaku selepas 12 bulan?", "a": "Kami menghantar sebut harga pembaharuan sebulan sebelum lesen tamat. Tiada apa-apa yang diperbaharui atau dicaj secara automatik." },
+      { "q": "Adakah ia menggantikan penyedia sari kata atau pencatat nota manusia?", "a": "Tidak dalam setiap keadaan. Captio AI memberikan sari kata serta-merta di mana sahaja orang itu berada, tanpa perlu menempah sesiapa lebih awal. Apabila rekod yang sempurna diperlukan, banyak perkhidmatan menggunakannya bersama sokongan manusia." },
+      { "q": "Di manakah data kami disimpan, dan siapa yang memprosesnya?", "a": "Akaun dan transkrip yang disimpan berada di EU (Frankfurt). Audio diproses secara masa nyata dan tidak disimpan pada pelayan kami. Dasar privasi kami menyenaraikan setiap syarikat yang memproses data. Tiada apa-apa yang digunakan untuk melatih model AI." },
+      { "q": "Bolehkah seseorang membeli Captio AI Plus sendiri?", "a": "Boleh, dalam aplikasi. Lesen organisasi adalah untuk keadaan apabila organisasi membayar bagi pihak seseorang." }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Percubaan percuma",
+    "title": "Cuba bersama warga organisasi anda sendiri",
+    "body": "Sehingga 5 orang, percuma selama 30 hari. Pautan tiba dalam peti masuk anda dalam masa seminit. Ada soalan dahulu? Tulis kepada {address}."
+  },
+  "join": {
+    "metaTitle": "Captio AI daripada {org}",
+    "metaDescription": "{org} memberi anda Captio AI: sari kata langsung bagi apa yang dikatakan orang, di telefon anda sendiri.",
+    "gives": "{org} memberi anda",
+    "title": "Sari kata langsung di telefon anda",
+    "pilotOffer": "Versi penuh Captio AI, percuma selama {days} hari.",
+    "paidOffer": "Versi penuh Captio AI sehingga {date}, dibayar oleh {org}.",
+    "about": "Sari kata bagi apa yang dikatakan orang, semasa mereka bercakap, dalam 60+ bahasa.",
+    "steps": ["Teruskan dengan Apple atau Google di bawah", "Dapatkan Captio AI dari App Store atau Google Play", "Log masuk ke aplikasi dengan akaun yang sama"],
+    "continueApple": "Teruskan dengan Apple",
+    "continueGoogle": "Teruskan dengan Google",
+    "signingIn": "Sedang log masuk…",
+    "alreadyUse": "Sudah menggunakan Captio AI? Teruskan dengan akaun yang anda gunakan dalam aplikasi.",
+    "nothingToPay": "Tiada bayaran. Ia tamat dengan sendirinya selepas tempoh percuma.",
+    "privacyNote": "{org} hanya melihat berapa ramai orang yang menyertai dan jumlah keseluruhan penggunaan Captio AI, tidak pernah apa yang dikatakan.",
+    "privacyLink": "Dasar Privasi",
+    "joined": "Anda telah menyertai",
+    "alreadyJoined": "Anda sudah pun menyertai",
+    "until": "Anda mempunyai versi penuh Captio AI sehingga {date}.",
+    "getAppStore": "Dapatkan Captio AI di App Store",
+    "getGooglePlay": "Dapatkan Captio AI di Google Play",
+    "phoneApp": "Captio AI ialah aplikasi telefon: dapatkannya di iPhone atau telefon Android anda.",
+    "thenSignIn": "Kemudian log masuk ke Captio AI dengan akaun {provider} yang sama. Sudah ada aplikasinya? Tutup dan buka semula.",
+    "endedTitle": "Tempoh percuma anda telah tamat",
+    "endedBody": "Akses Captio AI anda daripada {org} telah tamat pada {date}. Tanya {org} tentang cara untuk terus menggunakannya.",
+    "closed": {
+      "fullTitle": "Semua tempat telah diambil",
+      "full": "Kesemua {seats} tempat daripada {org} telah diambil. Tanya {org} tentang tempat tambahan.",
+      "stoppedTitle": "Pautan ini telah ditutup",
+      "stopped": "Minta pautan baharu daripada {org}.",
+      "expiredTitle": "Pautan percubaan ini telah tamat tempoh",
+      "expired": "Minta pautan baharu daripada {org}.",
+      "endedTitle": "Lesen {org} telah tamat",
+      "ended": "Tanya {org} sama ada mereka akan memperbaharui Captio AI."
+    },
+    "failures": {
+      "full": "Semua tempat daripada {org} telah diambil. Tanya {org} tentang tempat tambahan.",
+      "stopped": "Pautan ini telah ditutup. Minta pautan baharu daripada {org}.",
+      "linkExpired": "Pautan percubaan ini telah tamat tempoh. Minta pautan baharu daripada {org}.",
+      "ended": "Lesen {org} telah tamat.",
+      "otherOrg": "Akaun anda sudah mendapat Captio AI melalui organisasi lain.",
+      "hadPilot": "Akaun ini sudah pernah mendapat percubaan percuma. Tanya {org} tentang cara untuk terus menggunakan Captio AI.",
+      "notFound": "Pautan ini tidak berfungsi. Minta pautan baharu daripada orang yang menghantarnya.",
+      "signInFailed": "Log masuk tidak berjaya. Sila cuba lagi.",
+      "couldNotAdd": "Tidak dapat menambah anda buat masa ini. Sila cuba lagi.",
+      "generic": "Berlaku masalah. Sila cuba lagi."
+    },
+    "invalidTitle": "Pautan ini tidak berfungsi",
+    "invalidBody": "Pastikan pautan disalin sepenuhnya, atau minta pautan baharu daripada orang yang menghantarnya.",
+    "errorTitle": "Tidak dapat memuatkan halaman ini",
+    "errorBody": "Sila cuba lagi sebentar lagi."
+  }
+}

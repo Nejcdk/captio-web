@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "title": "Teks Langsung untuk Organisasi: Ubah Suara Jadi Teks",
+    "description": "Captio AI menampilkan teks langsung di ponsel orang Tuli dan kurang dengar saat bertatap muka, dalam 60+ bahasa. Lisensi tahunan via invoice. Uji coba gratis 30 hari."
+  },
+  "header": {
+    "forOrganizations": "untuk Organisasi",
+    "startPilot": "Mulai uji coba gratis",
+    "chooseLanguage": "Pilih bahasa"
+  },
+  "hero": {
+    "eyebrow": "🏢 Captio AI untuk Organisasi",
+    "title": "Teks langsung di ponsel mereka, begitu orang [bicara]",
+    "description": "Captio AI adalah aplikasi untuk orang Tuli dan kurang dengar. Aplikasi ini mendengarkan dan menampilkan ucapan sebagai teks saat bertatap muka, dalam 60+ bahasa. Berikan kepada orang-orang di organisasi Anda yang membutuhkannya: satu lisensi tahunan per orang, dibayar dengan invoice.",
+    "seeHow": "Lihat cara kerjanya",
+    "pilotNote": "Gratis 30 hari, hingga 5 orang. Tanpa biaya, tanpa tanda tangan apa pun.",
+    "facts": ["iPhone dan Android", "60+ bahasa", "Disimpan di UE"],
+    "videoLabel": "Captio AI menampilkan teks langsung percakapan dua orang, dengan label untuk setiap pembicara"
+  },
+  "features": {
+    "eyebrow": "Apa yang dilakukan Captio AI",
+    "title": "Teks langsung, terjemahan, dan transkripsi",
+    "subtitle": "Tiga alat dalam satu aplikasi, di ponsel mereka sendiri, dalam 60+ bahasa.",
+    "items": [
+      { "label": "Teks langsung", "title": "Setiap kata, saat diucapkan", "description": "Buka aplikasi, ketuk mikrofon, lalu baca. Setiap pembicara mendapat labelnya sendiri, jadi jelas siapa mengatakan apa." },
+      { "label": "Terjemahan langsung", "title": "Dua bahasa berdampingan", "description": "Saat seseorang berbicara dalam bahasa lain, mereka melihat ucapannya dan terjemahannya sekaligus." },
+      { "label": "Transkripsi", "title": "Rekaman dan file jadi teks", "description": "Simpan percakapan apa pun, atau tambahkan file audio atau video, lalu dapatkan transkrip lengkap beserta ringkasan AI." }
+    ]
+  },
+  "languages": {
+    "eyebrow": "60+ bahasa",
+    "title": "Teks dalam bahasa yang dipakai orang-orang Anda",
+    "subtitle": "Teks langsung, terjemahan, dan transkripsi di setiap bahasa, termasuk bagi orang yang berganti bahasa di tengah kalimat."
+  },
+  "awareness": {
+    "eyebrow": "Dibuat untuk orang Tuli dan kurang dengar",
+    "title": "Lebih dari sekadar kata di layar",
+    "subtitle": "Siapa yang berbicara, di mana posisinya, dan apa lagi yang sedang terjadi: hal-hal yang penting saat tidak bisa mendengar suasana ruangan.",
+    "items": [
+      { "title": "Tahu siapa yang berbicara", "description": "Simpan suara seseorang sekali saja, dari sekitar 20 detik ia berbicara, dan teks akan menampilkan namanya, bukan “Pembicara 2”, baik secara langsung maupun di rekaman yang disimpan. Data suara dibuat dan disimpan di ponsel.", "where": "iPhone" },
+      { "title": "Menunjukkan arah suara", "description": "Gelombang di tepi layar menunjukkan dari sisi mana suara datang, dengan warna pembicara tersebut, sehingga mereka tahu harus melihat ke mana di ruangan yang ramai.", "where": "iPhone 16 ke atas" },
+      { "title": "Mendengar suara di sekitar", "description": "Suara muncul di teks seperti pada subtitle film. Bel pintu, alarm, atau tangisan bayi juga membuat ponsel bergetar.", "where": "iPhone dan iPad" }
+    ],
+    "drawing": {
+      "otherName": "Sari",
+      "me": "Aku",
+      "voicesLine1": "Rapatnya bisa dipindah ke Jumat?",
+      "voicesLine2": "Jumat aku bisa.",
+      "directionLine": "Aku di sini, di kirimu.",
+      "soundsBefore": "Sampai ketemu jam tiga.",
+      "sound": "[bel pintu berbunyi]",
+      "soundsAfter": "Siapa itu?",
+      "vibrates": "Ponsel bergetar"
+    }
+  },
+  "reasons": {
+    "eyebrow": "Untuk organisasi Anda",
+    "title": "Mengapa organisasi memilih Captio AI",
+    "items": [
+      { "title": "Siap saat dibutuhkan", "description": "Tidak perlu memesan juru teks jauh hari. Teks dimulai dengan satu ketukan, di mana pun orangnya berada." },
+      { "title": "Di ponsel mereka sendiri", "description": "iPhone atau Android. Tim IT Anda tidak perlu memasang apa pun, dan tidak ada perangkat yang harus dibagikan." },
+      { "title": "Privasi sejak rancangan", "description": "Disimpan di UE. Audio tidak disimpan di server kami, dan tidak ada yang dipakai untuk melatih AI." },
+      { "title": "Mudah dibeli", "description": "Satu harga per orang per tahun, dengan invoice. Tanpa minimum, tanpa biaya penyiapan, dan tidak ada yang diperpanjang otomatis." }
+    ]
+  },
+  "pilot": {
+    "eyebrow": "Uji coba gratis",
+    "title": "Coba selama 30 hari dengan hingga 5 orang",
+    "steps": [
+      { "title": "Dapatkan tautan uji coba", "description": "Isi formulir di bawah. Tautan tiba di kotak masuk Anda dalam satu menit, beserta pesan yang siap diteruskan." },
+      { "title": "Teruskan ke hingga 5 orang", "description": "Setiap orang membukanya di ponsel, melanjutkan dengan Apple atau Google, lalu mengunduh Captio AI di iPhone atau Android." },
+      { "title": "Versi lengkap selama 30 hari", "description": "Anda tidak perlu memberikan data pribadi, jadi tidak ada urusan dokumen. Menjelang akhir, Anda menerima ringkasan seberapa banyak aplikasi dipakai, beserta harga untuk melanjutkannya." }
+    ]
+  },
+  "form": {
+    "organization": "Organisasi",
+    "name": "Nama Anda",
+    "email": "Email kantor Anda",
+    "emailHint": "Tautan uji coba dikirim ke sini.",
+    "people": "Kira-kira berapa orang yang mungkin memakainya?",
+    "peopleOptions": ["1 sampai 5", "6 sampai 19", "20 sampai 50", "Lebih dari 50"],
+    "submit": "Kirimkan tautan uji coba",
+    "sending": "Mengirim…",
+    "note": "Gratis 30 hari, hingga 5 orang. Tanpa biaya, tanpa tanda tangan apa pun.",
+    "sentTitle": "Periksa kotak masuk Anda",
+    "sentTo": "Tautan uji coba sedang dikirim ke {email}, beserta pesan yang dapat Anda teruskan kepada orang-orang yang akan memakainya.",
+    "resentTo": "Kami sudah mengirim ulang tautan uji coba ke {email}, beserta pesan yang dapat Anda teruskan kepada orang-orang yang akan memakainya.",
+    "sentHelp": "Biasanya tiba dalam satu menit. Belum ada? Periksa folder spam, atau kirim email ke {address}.",
+    "errors": {
+      "org": "Mohon isi nama organisasi Anda.",
+      "email": "Alamat email tersebut sepertinya tidak benar.",
+      "tooMany": "Terlalu banyak permintaan dari sini hari ini. Silakan kirim email ke {address}.",
+      "domainLimit": "Organisasi Anda sudah memiliki uji coba yang berjalan. Kirim email ke {address} dan kami akan menambahkannya.",
+      "busy": "Hari ini kami menerima banyak permintaan. Silakan kirim email ke {address} dan Anda akan menerima tautan dalam satu hari.",
+      "server": "Terjadi kesalahan{code}. Silakan coba lagi, atau kirim email ke {address}.",
+      "network": "Tidak dapat mengirim. Periksa koneksi Anda dan coba lagi."
+    }
+  },
+  "pricing": {
+    "eyebrow": "Harga",
+    "title": "Satu harga per orang, per tahun",
+    "subtitle": "Dibayar dengan invoice melalui transfer bank. Harga belum termasuk PPN jika berlaku.",
+    "plans": ["1 sampai 19 orang", "20 orang atau lebih"],
+    "perPersonYear": "per orang per tahun",
+    "otherCurrencies": "{a} atau {b}",
+    "includedTitle": "Sudah termasuk",
+    "included": [
+      "Captio AI Plus untuk setiap orang, selama 12 bulan",
+      "Satu tautan untuk diteruskan: bergabung dalam satu menit",
+      "Hanya total penggunaan, tidak pernah isi percakapan",
+      "Panggilan penyiapan, jika Anda menginginkannya",
+      "Dukungan email langsung dari pendiri",
+      "Penawaran harga, PO dari Anda, dan invoice",
+      "Perjanjian pemrosesan data pribadi (DPA)",
+      "Tanpa minimum, tanpa biaya penyiapan, tanpa perpanjangan otomatis"
+    ],
+    "quote": "Minta penawaran harga"
+  },
+  "data": {
+    "eyebrow": "Untuk tim perlindungan data Anda",
+    "title": "Cara data ditangani",
+    "items": [
+      { "title": "Disimpan di UE", "description": "Akun dan transkrip yang disimpan berada di Uni Eropa (Frankfurt)." },
+      { "title": "Audio tidak disimpan di server kami", "description": "Ucapan diproses secara real-time untuk membuat teks. Audio dari rekaman yang disimpan tetap berada di ponsel pemiliknya." },
+      { "title": "Tidak pernah dipakai untuk melatih AI", "description": "Tidak ada konten yang dijual, dibagikan untuk iklan, atau dipakai untuk melatih model AI, baik oleh kami maupun penyedia mana pun yang kami gunakan." },
+      { "title": "Setiap pemroses dicantumkan", "description": "Kebijakan privasi kami menyebutkan setiap perusahaan yang memproses data beserta tujuannya. Transfer ke luar Inggris dan EEA dilindungi Klausul Kontrak Standar (SCC)." },
+      { "title": "Perjanjian pemrosesan data pribadi", "description": "Untuk lisensi berbayar, kami menandatanganinya dengan organisasi Anda saat Anda mengirimkan nama atau email orang-orang yang akan diaktifkan." },
+      { "title": "Penghapusan", "description": "Siapa pun dapat menghapus akun dan rekamannya di aplikasi, kapan saja." }
+    ],
+    "dpa": "Minta perjanjian pemrosesan data pribadi",
+    "privacy": "Baca kebijakan privasi"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Pertanyaan yang sering diajukan",
+    "items": [
+      { "q": "Apa itu Captio AI?", "a": "Aplikasi untuk iPhone dan Android yang menampilkan ucapan orang sebagai teks, tepat saat diucapkan, dalam 60+ bahasa. Orang Tuli dan kurang dengar memakainya saat bertatap muka, di mana pun mereka membutuhkan teks: buka aplikasi, ketuk mikrofon, lalu baca. Aplikasi ini juga bisa menerjemahkan, membedakan pembicara dan memanggil orang yang dikenalnya dengan nama, menunjukkan dari mana suara datang (iPhone 16 ke atas), menuliskan suara seperti bel pintu atau alarm ke dalam teks, serta menyimpan dan meringkas apa yang dibicarakan." },
+      { "q": "Untuk siapa Captio AI untuk Organisasi?", "a": "Organisasi apa pun yang membayar layanan teks atas nama orang Tuli dan kurang dengar. Setiap orang mendapat Captio AI Plus di ponselnya sendiri selama setahun, dan organisasi membayar satu invoice." },
+      { "q": "Berapa biayanya?", "a": "£89, €99, atau $109 per orang per tahun untuk 1 sampai 19 orang, dan £69, €79, atau $89 per orang per tahun mulai 20 orang. Tanpa minimum dan tanpa biaya penyiapan. Harga belum termasuk PPN jika berlaku." },
+      { "q": "Bagaimana cara membayarnya?", "a": "Dengan invoice melalui transfer bank. Kami mengirim penawaran harga terlebih dahulu, dan dengan senang hati mengikuti proses PO (purchase order) Anda." },
+      { "q": "Bisakah kami mencobanya dulu?", "a": "Bisa. Uji coba gratis 30 hari untuk hingga 5 orang. Isi formulir di halaman ini, dan tautan untuk diteruskan tiba lewat email dalam satu menit. Tanpa biaya dan tanpa tanda tangan apa pun." },
+      { "q": "Apakah penggunanya perlu membayar atau mengatur sesuatu?", "a": "Tidak. Mereka membuka tautan yang Anda teruskan, melanjutkan dengan Apple atau Google, lalu mengunduh Captio AI gratis di iPhone atau Android dan masuk dengan akun yang sama. Mereka langsung mendapat versi lengkap. Tim IT Anda tidak perlu memasang apa pun." },
+      { "q": "Apa yang kami lihat tentang penggunaannya?", "a": "Hanya total: berapa orang yang bergabung, berapa yang membuka Captio AI dalam seminggu terakhir, serta berapa rekaman yang disimpan dan berapa lama durasinya. Tidak pernah isi percakapannya, dan tidak pernah siapa yang mengatakannya." },
+      { "q": "Bagaimana menambah orang setelah membeli?", "a": "Dengan tautan yang sama. Setelah lisensi aktif, siapa pun yang Anda kirimi tautan dapat bergabung, hingga jumlah lisensi yang Anda miliki. Orang yang ikut sejak uji coba tetap memiliki semua yang telah mereka simpan." },
+      { "q": "Apa yang terjadi setelah 12 bulan?", "a": "Kami mengirim penawaran perpanjangan sebulan sebelum lisensi berakhir. Tidak ada yang diperpanjang atau ditagih secara otomatis." },
+      { "q": "Apakah aplikasi ini menggantikan juru teks atau notulis manusia?", "a": "Tidak dalam setiap kasus. Captio AI memberikan teks seketika di mana pun orangnya berada, tanpa perlu memesan siapa pun lebih dulu. Jika diperlukan catatan yang sempurna, banyak layanan memakainya berdampingan dengan dukungan manusia." },
+      { "q": "Di mana data kami disimpan, dan siapa yang memprosesnya?", "a": "Akun dan transkrip yang disimpan berada di UE (Frankfurt). Audio diproses secara real-time dan tidak disimpan di server kami. Kebijakan privasi kami mencantumkan setiap perusahaan yang memproses data. Tidak ada yang dipakai untuk melatih model AI." },
+      { "q": "Bisakah seseorang membeli Captio AI Plus sendiri?", "a": "Bisa, di dalam aplikasi. Lisensi organisasi ditujukan untuk saat organisasi membayar atas nama seseorang." }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Uji coba gratis",
+    "title": "Coba langsung bersama orang-orang Anda",
+    "body": "Hingga 5 orang, gratis selama 30 hari. Tautan tiba di kotak masuk Anda dalam satu menit. Ada pertanyaan dulu? Kirim email ke {address}."
+  },
+  "join": {
+    "metaTitle": "Captio AI dari {org}",
+    "metaDescription": "{org} memberimu Captio AI: teks langsung dari apa yang orang katakan, di ponselmu sendiri.",
+    "gives": "{org} memberimu",
+    "title": "Teks langsung di ponselmu",
+    "pilotOffer": "Versi lengkap Captio AI, gratis selama {days} hari.",
+    "paidOffer": "Versi lengkap Captio AI sampai {date}, dibayar oleh {org}.",
+    "about": "Teks dari apa yang orang katakan, saat mereka bicara, dalam 60+ bahasa.",
+    "steps": ["Lanjutkan dengan Apple atau Google di bawah", "Unduh Captio AI dari App Store atau Google Play", "Masuk ke aplikasi dengan akun yang sama"],
+    "continueApple": "Lanjutkan dengan Apple",
+    "continueGoogle": "Lanjutkan dengan Google",
+    "signingIn": "Sedang masuk…",
+    "alreadyUse": "Sudah pakai Captio AI? Lanjutkan dengan akun yang kamu pakai di aplikasi.",
+    "nothingToPay": "Tidak ada yang perlu dibayar. Aksesnya berakhir sendiri setelah masa gratis selesai.",
+    "privacyNote": "{org} hanya melihat berapa orang yang bergabung dan total penggunaan Captio AI, tidak pernah apa yang dibicarakan.",
+    "privacyLink": "Kebijakan privasi",
+    "joined": "Kamu sudah bergabung",
+    "alreadyJoined": "Kamu sudah bergabung sebelumnya",
+    "until": "Kamu bisa memakai versi lengkap Captio AI sampai {date}.",
+    "getAppStore": "Unduh Captio AI di App Store",
+    "getGooglePlay": "Unduh Captio AI di Google Play",
+    "phoneApp": "Captio AI adalah aplikasi ponsel: unduh di iPhone atau ponsel Android kamu.",
+    "thenSignIn": "Lalu masuk ke Captio AI dengan akun {provider} yang sama. Sudah punya aplikasinya? Tutup lalu buka lagi.",
+    "endedTitle": "Masa gratismu sudah berakhir",
+    "endedBody": "Captio AI dari {org} berakhir pada {date}. Tanyakan kepada {org} jika ingin terus memakainya.",
+    "closed": {
+      "fullTitle": "Semua tempat sudah terisi",
+      "full": "Semua {seats} tempat dari {org} sudah terisi. Tanyakan kepada {org} soal tambahan tempat.",
+      "stoppedTitle": "Tautan ini sudah ditutup",
+      "stopped": "Minta tautan baru kepada {org}.",
+      "expiredTitle": "Tautan uji coba ini sudah kedaluwarsa",
+      "expired": "Minta tautan baru kepada {org}.",
+      "endedTitle": "Lisensi {org} sudah berakhir",
+      "ended": "Tanyakan kepada {org} apakah mereka akan memperpanjang Captio AI."
+    },
+    "failures": {
+      "full": "Semua tempat dari {org} sudah terisi. Tanyakan kepada {org} soal tambahan tempat.",
+      "stopped": "Tautan ini sudah ditutup. Minta tautan baru kepada {org}.",
+      "linkExpired": "Tautan uji coba ini sudah kedaluwarsa. Minta tautan baru kepada {org}.",
+      "ended": "Lisensi {org} sudah berakhir.",
+      "otherOrg": "Akunmu sudah mendapat Captio AI melalui organisasi lain.",
+      "hadPilot": "Akun ini sudah pernah mendapat uji coba gratis. Tanyakan kepada {org} jika ingin terus memakai Captio AI.",
+      "notFound": "Tautan ini tidak berfungsi. Minta tautan baru kepada orang yang mengirimnya.",
+      "signInFailed": "Gagal masuk. Coba lagi.",
+      "couldNotAdd": "Belum bisa menambahkanmu sekarang. Coba lagi.",
+      "generic": "Terjadi kesalahan. Coba lagi."
+    },
+    "invalidTitle": "Tautan ini tidak berfungsi",
+    "invalidBody": "Pastikan tautannya tersalin lengkap, atau minta tautan baru kepada orang yang mengirimnya.",
+    "errorTitle": "Halaman ini tidak dapat dimuat",
+    "errorBody": "Coba lagi sebentar lagi."
+  }
+}

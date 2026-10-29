@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "title": "Capsiynau byw i sefydliadau a busnesau",
+    "description": "Mae Captio AI yn dangos capsiynau byw ar y ffôn i bobl fyddar a thrwm eu clyw, mewn 60+ iaith. Trwyddedau blynyddol drwy anfoneb. Treial 30 diwrnod am ddim."
+  },
+  "header": {
+    "forOrganizations": "i Sefydliadau",
+    "startPilot": "Dechreuwch dreial am ddim",
+    "chooseLanguage": "Dewiswch iaith"
+  },
+  "hero": {
+    "eyebrow": "🏢 Captio AI i Sefydliadau",
+    "title": "Capsiynau byw ar eu ffôn, yr eiliad mae pobl yn [siarad]",
+    "description": "Ap i bobl fyddar a thrwm eu clyw yw Captio AI. Mae’n gwrando ac yn dangos yr hyn sy’n cael ei ddweud fel testun, wyneb yn wyneb, mewn 60+ iaith. Rhowch yr ap i’r bobl yn eich sefydliad sydd ei angen: un drwydded flynyddol yr un, wedi’i thalu drwy anfoneb.",
+    "seeHow": "Gweld sut mae’n gweithio",
+    "pilotNote": "Am ddim am 30 diwrnod, hyd at 5 o bobl. Dim byd i’w dalu, dim byd i’w lofnodi.",
+    "facts": ["iPhone ac Android", "60+ iaith", "Wedi’i storio yn yr UE"],
+    "videoLabel": "Captio AI yn dangos capsiynau byw o ddau berson yn siarad, gyda label i bob siaradwr"
+  },
+  "features": {
+    "eyebrow": "Beth mae Captio AI yn ei wneud",
+    "title": "Capsiynau byw, cyfieithu a thrawsgrifio",
+    "subtitle": "Tri offeryn mewn un ap, ar eu ffôn eu hunain, mewn 60+ iaith.",
+    "items": [
+      { "label": "Capsiynau byw", "title": "Pob gair, wrth iddo gael ei ddweud", "description": "Agorwch yr ap, tapiwch y meicroffon a darllenwch. Mae gan bob siaradwr ei label ei hun, felly mae’n glir pwy ddywedodd beth." },
+      { "label": "Cyfieithu byw", "title": "Y ddwy iaith ochr yn ochr", "description": "Pan fydd rhywun yn siarad iaith arall, maen nhw’n gweld yr hyn a ddywedwyd a’r cyfieithiad yr un pryd." },
+      { "label": "Trawsgrifio", "title": "Recordiadau a ffeiliau yn destun", "description": "Cadwch unrhyw sgwrs, neu ychwanegwch ffeil sain neu fideo, a chewch y trawsgrifiad llawn gyda chrynodeb AI." }
+    ]
+  },
+  "languages": {
+    "eyebrow": "60+ iaith",
+    "title": "Capsiynau yn yr ieithoedd mae’ch pobl yn eu siarad",
+    "subtitle": "Capsiynau byw, cyfieithu a thrawsgrifio ym mhob un ohonyn nhw, gan gynnwys pobl sy’n newid iaith ar ganol brawddeg."
+  },
+  "awareness": {
+    "eyebrow": "Wedi’i wneud i bobl fyddar a thrwm eu clyw",
+    "title": "Mwy na geiriau ar sgrin",
+    "subtitle": "Pwy sy’n siarad, ble maen nhw a beth arall sy’n digwydd: y pethau sy’n bwysig pan nad oes modd clywed yr ystafell.",
+    "items": [
+      { "title": "Yn gwybod pwy sy’n siarad", "description": "Cadwch lais rhywun unwaith, o tua 20 eiliad ohonyn nhw’n siarad, a bydd y capsiynau’n dangos eu henw yn lle “Siaradwr 2”, yn fyw ac mewn recordiadau sydd wedi’u cadw. Mae’r lleisiau’n cael eu creu a’u cadw ar y ffôn.", "where": "iPhone" },
+      { "title": "Yn dangos o ble mae’r llais yn dod", "description": "Mae tonnau ar ymyl y sgrin yn dangos o ba ochr mae llais yn dod, yn lliw’r siaradwr hwnnw, fel eu bod nhw’n gwybod ble i edrych mewn ystafell brysur.", "where": "iPhone 16 a mwy newydd" },
+      { "title": "Yn clywed y synau o’u cwmpas", "description": "Mae synau’n ymddangos yn y capsiynau fel mewn isdeitlau ffilm. Mae cloch y drws, larwm neu fabi’n crio hefyd yn gwneud i’r ffôn ddirgrynu.", "where": "iPhone ac iPad" }
+    ],
+    "drawing": {
+      "otherName": "Elin",
+      "me": "Fi",
+      "voicesLine1": "Gawn ni symud y cyfarfod i ddydd Gwener?",
+      "voicesLine2": "Mae dydd Gwener yn iawn i fi.",
+      "directionLine": "Dw i fan hyn, ar dy chwith.",
+      "soundsBefore": "Wela i di am dri.",
+      "sound": "[cloch y drws yn canu]",
+      "soundsAfter": "Pwy sy ’na?",
+      "vibrates": "Mae’r ffôn yn dirgrynu"
+    }
+  },
+  "reasons": {
+    "eyebrow": "I’ch sefydliad chi",
+    "title": "Pam mae sefydliadau’n dewis Captio AI",
+    "items": [
+      { "title": "Yn barod y funud mae ei angen", "description": "Does dim angen archebu rhywun i ddarparu capsiynau ymlaen llaw. Mae capsiynau’n dechrau gydag un tap, lle bynnag mae’r person." },
+      { "title": "Ar eu ffôn eu hunain", "description": "iPhone neu Android. Dim byd i’ch tîm TG ei osod a dim offer i’w ddosbarthu." },
+      { "title": "Preifat o’r dechrau", "description": "Wedi’i storio yn yr UE. Dydy sain ddim yn cael ei chadw ar ein gweinyddion, a does dim byd byth yn cael ei ddefnyddio i hyfforddi AI." },
+      { "title": "Syml i’w brynu", "description": "Un pris y person y flwyddyn, drwy anfoneb. Dim isafswm, dim ffi sefydlu, does dim byd yn adnewyddu ohono’i hun." }
+    ]
+  },
+  "pilot": {
+    "eyebrow": "Treial am ddim",
+    "title": "Rhowch gynnig arni am 30 diwrnod gyda hyd at 5 o bobl",
+    "steps": [
+      { "title": "Cael eich dolen treial", "description": "Llenwch y ffurflen isod. Bydd y ddolen yn cyrraedd eich mewnflwch o fewn munud, gyda neges yn barod i’w hanfon ymlaen." },
+      { "title": "Ei hanfon ymlaen at hyd at 5 o bobl", "description": "Mae pob person yn ei hagor ar y ffôn, yn parhau gydag Apple neu Google, ac yn cael Captio AI ar iPhone neu Android." },
+      { "title": "Mae ganddyn nhw’r fersiwn lawn am 30 diwrnod", "description": "Dim data personol gennych chi, felly dim gwaith papur. Tua’r diwedd, cewch grynodeb o faint y cafodd ei ddefnyddio, a’r pris i barhau." }
+    ]
+  },
+  "form": {
+    "organization": "Sefydliad",
+    "name": "Eich enw",
+    "email": "Eich e-bost gwaith",
+    "emailHint": "Bydd y ddolen treial yn cael ei hanfon yma.",
+    "people": "Tua faint o bobl allai ei ddefnyddio?",
+    "peopleOptions": ["1 i 5", "6 i 19", "20 i 50", "Mwy na 50"],
+    "submit": "Anfonwch y ddolen treial ata i",
+    "sending": "Wrthi’n anfon…",
+    "note": "Am ddim am 30 diwrnod, hyd at 5 o bobl. Dim byd i’w dalu, dim byd i’w lofnodi.",
+    "sentTitle": "Edrychwch yn eich mewnflwch",
+    "sentTo": "Mae eich dolen treial ar ei ffordd i {email}, gyda neges y gallwch ei hanfon ymlaen at y bobl a fydd yn ei ddefnyddio.",
+    "resentTo": "Rydyn ni wedi anfon eich dolen treial eto i {email}, gyda neges y gallwch ei hanfon ymlaen at y bobl a fydd yn ei ddefnyddio.",
+    "sentHelp": "Fel arfer mae’n cyrraedd o fewn munud. Ddim yno? Edrychwch yn eich ffolder sbam, neu ysgrifennwch at {address}.",
+    "errors": {
+      "org": "Ychwanegwch enw eich sefydliad.",
+      "email": "Dydy’r cyfeiriad e-bost yna ddim yn edrych yn iawn.",
+      "tooMany": "Gormod o geisiadau o’r fan hon heddiw. Ysgrifennwch at {address} yn lle hynny.",
+      "domainLimit": "Mae gan eich sefydliad dreialon ar waith yn barod. Ysgrifennwch at {address} ac fe ychwanegwn ni ragor.",
+      "busy": "Rydyn ni wedi cael llawer o geisiadau heddiw. Ysgrifennwch at {address} a bydd eich dolen gennych o fewn diwrnod.",
+      "server": "Aeth rhywbeth o’i le{code}. Rhowch gynnig arall arni, neu ysgrifennwch at {address}.",
+      "network": "Methu anfon. Gwiriwch eich cysylltiad a rhowch gynnig arall arni."
+    }
+  },
+  "pricing": {
+    "eyebrow": "Prisiau",
+    "title": "Un pris y person, y flwyddyn",
+    "subtitle": "Talu drwy anfoneb a throsglwyddiad banc. Mae’r prisiau’n eithrio TAW lle mae’n berthnasol.",
+    "plans": ["1 i 19 o bobl", "20 neu fwy o bobl"],
+    "perPersonYear": "y person y flwyddyn",
+    "otherCurrencies": "{a} neu {b}",
+    "includedTitle": "Wedi’i gynnwys",
+    "included": [
+      "Captio AI Plus i bob person, am 12 mis",
+      "Un ddolen i’w hanfon ymlaen: mae pobl yn ymuno mewn munud",
+      "Cyfansymiau defnydd, byth yr hyn a ddywedwyd",
+      "Galwad sefydlu, os hoffech chi un",
+      "Cymorth e-bost yn syth gan y sylfaenydd",
+      "Dyfynbris, eich archeb brynu, anfoneb",
+      "Cytundeb prosesu data",
+      "Dim isafswm, dim ffi sefydlu, dim adnewyddu awtomatig"
+    ],
+    "quote": "Gofyn am ddyfynbris"
+  },
+  "data": {
+    "eyebrow": "I’ch tîm diogelu data",
+    "title": "Sut mae data’n cael ei drin",
+    "items": [
+      { "title": "Wedi’i storio yn yr UE", "description": "Mae cyfrifon a thrawsgrifiadau sydd wedi’u cadw yn cael eu storio yn yr Undeb Ewropeaidd (Frankfurt)." },
+      { "title": "Dydy sain ddim yn cael ei chadw ar ein gweinyddion", "description": "Mae lleferydd yn cael ei brosesu mewn amser real i greu’r capsiynau. Mae sain y recordiadau mae pobl yn eu cadw yn aros ar eu ffôn eu hunain." },
+      { "title": "Byth yn cael ei ddefnyddio i hyfforddi AI", "description": "Does dim cynnwys yn cael ei werthu, ei rannu ar gyfer hysbysebu na’i ddefnyddio i hyfforddi modelau AI, gennym ni na chan unrhyw ddarparwr rydyn ni’n ei ddefnyddio." },
+      { "title": "Mae pob prosesydd wedi’i restru", "description": "Mae ein polisi preifatrwydd yn enwi pob cwmni sy’n prosesu data, ac i ba bwrpas. Mae trosglwyddiadau y tu allan i’r DU a’r AEE wedi’u diogelu gan Gymalau Contract Safonol." },
+      { "title": "Cytundeb prosesu data", "description": "Rydyn ni’n llofnodi un gyda’ch sefydliad ar gyfer trwyddedau â thâl, pan fyddwch chi’n anfon aton ni enwau neu gyfeiriadau e-bost y bobl sydd i gael mynediad." },
+      { "title": "Dileu", "description": "Gall pawb ddileu eu cyfrif a’u recordiadau yn yr ap, unrhyw bryd." }
+    ],
+    "dpa": "Gofyn am y cytundeb prosesu data",
+    "privacy": "Darllen y polisi preifatrwydd"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Cwestiynau cyffredin",
+    "items": [
+      { "q": "Beth yw Captio AI?", "a": "Ap ar gyfer iPhone ac Android sy’n dangos yr hyn mae pobl yn ei ddweud fel testun, yr eiliad maen nhw’n ei ddweud, mewn 60+ iaith. Mae pobl fyddar a thrwm eu clyw yn ei ddefnyddio wyneb yn wyneb, lle bynnag mae angen capsiynau arnyn nhw: maen nhw’n ei agor, yn tapio’r meicroffon ac yn darllen. Gall hefyd gyfieithu, gwahaniaethu rhwng siaradwyr a galw pobl mae’n eu hadnabod wrth eu henw, dangos o ble mae llais yn dod (iPhone 16 a mwy newydd), ysgrifennu synau fel cloch y drws neu larwm yn y capsiynau, a chadw a chrynhoi’r hyn a ddywedwyd." },
+      { "q": "I bwy mae Captio AI i Sefydliadau?", "a": "Unrhyw sefydliad sy’n talu am gapsiynau ar ran pobl fyddar a thrwm eu clyw. Mae pob person yn cael Captio AI Plus ar eu ffôn eu hunain am flwyddyn, ac mae’r sefydliad yn talu un anfoneb." },
+      { "q": "Faint mae’n ei gostio?", "a": "£89, €99 neu $109 y person y flwyddyn ar gyfer 1 i 19 o bobl, a £69, €79 neu $89 y person y flwyddyn o 20 o bobl ymlaen. Does dim isafswm a dim ffi sefydlu. Mae’r prisiau’n eithrio TAW lle mae’n berthnasol." },
+      { "q": "Sut rydyn ni’n talu?", "a": "Drwy anfoneb a throsglwyddiad banc. Rydyn ni’n anfon dyfynbris yn gyntaf, ac yn hapus i weithio gyda’ch proses archebion prynu." },
+      { "q": "Allwn ni roi cynnig arni’n gyntaf?", "a": "Gallwch. Treial 30 diwrnod am ddim i hyd at 5 o bobl. Llenwch y ffurflen ar y dudalen hon a bydd y ddolen i’w hanfon ymlaen yn cyrraedd drwy e-bost o fewn munud. Dim byd i’w dalu a dim byd i’w lofnodi." },
+      { "q": "Oes rhaid i’r bobl sy’n ei ddefnyddio dalu neu osod unrhyw beth?", "a": "Nac oes. Maen nhw’n agor y ddolen rydych chi’n ei hanfon ymlaen, yn parhau gydag Apple neu Google, yna’n lawrlwytho Captio AI am ddim ar iPhone neu Android ac yn mewngofnodi gyda’r un cyfrif. Mae’r fersiwn lawn ganddyn nhw’n syth. Does dim rhaid i’ch tîm TG osod dim byd." },
+      { "q": "Beth ydyn ni’n ei weld am y defnydd?", "a": "Cyfansymiau yn unig: faint o bobl sydd wedi ymuno, faint agorodd Captio AI yn ystod yr wythnos ddiwethaf, a faint o recordiadau a gafodd eu cadw a pha mor hir ydyn nhw. Byth yr hyn a ddywedwyd, a byth pwy ddywedodd e." },
+      { "q": "Sut rydyn ni’n ychwanegu pobl ar ôl prynu?", "a": "Gyda’r un ddolen. Unwaith y bydd eich trwyddedau’n weithredol, gall unrhyw un rydych chi’n ei hanfon atyn nhw ymuno, hyd at nifer y trwyddedau sydd gennych. Mae pobl o’r treial yn cadw popeth maen nhw wedi’i gadw." },
+      { "q": "Beth sy’n digwydd ar ôl 12 mis?", "a": "Rydyn ni’n anfon dyfynbris adnewyddu fis cyn i’r trwyddedau ddod i ben. Does dim byd yn adnewyddu nac yn codi tâl yn awtomatig." },
+      { "q": "Ydy e’n cymryd lle person sy’n creu capsiynau neu’n cymryd nodiadau?", "a": "Ddim bob tro. Mae Captio AI yn rhoi capsiynau ar unwaith lle bynnag mae’r person, heb archebu neb ymlaen llaw. Lle mae angen cofnod perffaith, mae llawer o wasanaethau’n ei ddefnyddio ochr yn ochr â chymorth dynol." },
+      { "q": "Ble mae ein data’n cael ei storio, a phwy sy’n ei brosesu?", "a": "Mae cyfrifon a thrawsgrifiadau sydd wedi’u cadw yn cael eu storio yn yr UE (Frankfurt). Mae sain yn cael ei phrosesu mewn amser real a dydy hi ddim yn cael ei chadw ar ein gweinyddion. Mae ein polisi preifatrwydd yn rhestru pob cwmni sy’n prosesu data. Does dim byd yn cael ei ddefnyddio i hyfforddi modelau AI." },
+      { "q": "Ydy hi’n bosib i unigolyn brynu Captio AI Plus?", "a": "Ydy, yn yr ap. Mae trwyddedau sefydliad ar gyfer pan fydd sefydliad yn talu ar ran rhywun." }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Treial am ddim",
+    "title": "Gweld sut mae’n gweithio i’ch pobl chi",
+    "body": "Hyd at 5 o bobl, am ddim am 30 diwrnod. Bydd y ddolen yn cyrraedd eich mewnflwch o fewn munud. Cwestiynau yn gyntaf? Ysgrifennwch at {address}."
+  },
+  "join": {
+    "metaTitle": "Captio AI: {org}",
+    "metaDescription": "Mae {org} yn rhoi Captio AI i ti: capsiynau byw o’r hyn mae pobl yn ei ddweud, ar dy ffôn dy hun.",
+    "gives": "Mae {org} yn rhoi i ti",
+    "title": "Capsiynau byw ar dy ffôn",
+    "pilotOffer": "Fersiwn lawn Captio AI, am ddim am {days} diwrnod.",
+    "paidOffer": "Fersiwn lawn Captio AI tan {date}, ac mae {org} yn talu amdani.",
+    "about": "Capsiynau o’r hyn mae pobl yn ei ddweud, wrth iddyn nhw siarad, mewn 60+ iaith.",
+    "steps": ["Parha gydag Apple neu Google isod", "Lawrlwytha Captio AI o’r App Store neu Google Play", "Mewngofnoda i’r ap gyda’r un cyfrif"],
+    "continueApple": "Parhau gydag Apple",
+    "continueGoogle": "Parhau gyda Google",
+    "signingIn": "Wrthi’n mewngofnodi…",
+    "alreadyUse": "Wyt ti’n defnyddio Captio AI yn barod? Parha gyda’r cyfrif rwyt ti’n ei ddefnyddio yn yr ap.",
+    "nothingToPay": "Dim byd i’w dalu. Mae’n dod i ben ar ôl y dyddiau am ddim, dyna i gyd.",
+    "privacyNote": "Mae {org} yn gweld faint o bobl sydd wedi ymuno a faint mae Captio AI wedi cael ei ddefnyddio i gyd, dim mwy: byth yr hyn a ddywedwyd.",
+    "privacyLink": "Polisi preifatrwydd",
+    "joined": "Rwyt ti i mewn",
+    "alreadyJoined": "Rwyt ti i mewn yn barod",
+    "until": "Mae gen ti fersiwn lawn Captio AI tan {date}.",
+    "getAppStore": "Cael Captio AI ar yr App Store",
+    "getGooglePlay": "Cael Captio AI ar Google Play",
+    "phoneApp": "Ap ffôn yw Captio AI: lawrlwytha fe ar dy iPhone neu dy ffôn Android.",
+    "thenSignIn": "Yna mewngofnoda i Captio AI gyda’r un cyfrif {provider}. Oes gen ti’r ap yn barod? Caea fe a’i agor eto.",
+    "endedTitle": "Mae dy ddyddiau am ddim wedi dod i ben",
+    "endedBody": "Daeth y Captio AI roedd {org} yn ei roi i ti i ben ar {date}. Mae {org} yn gallu dweud wrthot ti sut i’w gadw.",
+    "closed": {
+      "fullTitle": "Mae pob lle wedi’i gymryd",
+      "full": "Mae {org} wedi llenwi pob un o’i {seats} lle. Mae {org} yn gallu dweud a oes rhagor ar gael.",
+      "stoppedTitle": "Mae’r ddolen hon wedi cau",
+      "stopped": "Mae {org} yn gallu rhoi un newydd i ti.",
+      "expiredTitle": "Mae’r ddolen treial hon wedi dod i ben",
+      "expired": "Mae {org} yn gallu rhoi un newydd i ti.",
+      "endedTitle": "Mae trwyddedau {org} wedi dod i ben",
+      "ended": "Gofynna a yw {org} yn mynd i adnewyddu Captio AI."
+    },
+    "failures": {
+      "full": "Mae {org} wedi llenwi pob un o’i leoedd. Mae {org} yn gallu dweud a oes rhagor ar gael.",
+      "stopped": "Mae’r ddolen hon wedi cau. Mae {org} yn gallu rhoi un newydd i ti.",
+      "linkExpired": "Mae’r ddolen treial hon wedi dod i ben. Mae {org} yn gallu rhoi un newydd i ti.",
+      "ended": "Mae trwyddedau {org} wedi dod i ben.",
+      "otherOrg": "Mae dy gyfrif yn cael Captio AI drwy sefydliad arall yn barod.",
+      "hadPilot": "Mae’r cyfrif hwn wedi cael treial am ddim yn barod. Mae {org} yn gallu dweud wrthot ti sut i gadw Captio AI.",
+      "notFound": "Dydy’r ddolen hon ddim yn gweithio. Gofynna am un newydd gan bwy bynnag a’i hanfonodd.",
+      "signInFailed": "Methodd y mewngofnodi. Rho gynnig arall arni.",
+      "couldNotAdd": "Methu dy ychwanegu di ar hyn o bryd. Rho gynnig arall arni.",
+      "generic": "Aeth rhywbeth o’i le. Rho gynnig arall arni."
+    },
+    "invalidTitle": "Dydy’r ddolen hon ddim yn gweithio",
+    "invalidBody": "Gwiria ei bod wedi’i chopïo’n llawn, neu gofynna am un newydd gan bwy bynnag a’i hanfonodd.",
+    "errorTitle": "Methu llwytho’r dudalen hon",
+    "errorBody": "Rho gynnig arall arni mewn munud."
+  }
+}

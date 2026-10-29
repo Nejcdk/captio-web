@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 import posthog from "posthog-js";
 import { fill } from "@/i18n/fill";
+import { intlLocale } from "@/i18n/intl";
 import type { OrgMessages } from "@/i18n/organizations";
 
 // All words come from the organization's language (src/i18n/organizations/<code>.json → join).
@@ -63,7 +64,7 @@ function inAppBrowser(): string | undefined {
 
 const longDate = (iso: string, lang: string) => {
   try {
-    return new Intl.DateTimeFormat(lang === "en" ? "en-GB" : lang, { day: "numeric", month: "long", year: "numeric" }).format(new Date(iso));
+    return new Intl.DateTimeFormat(lang === "en" ? "en-GB" : intlLocale(lang), { day: "numeric", month: "long", year: "numeric" }).format(new Date(iso));
   } catch {
     return new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "long", year: "numeric" }).format(new Date(iso));
   }

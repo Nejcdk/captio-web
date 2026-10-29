@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "title": "Live na Caption para sa mga Organisasyon at Kumpanya",
+    "description": "Captio AI: live na caption para sa mga Bingi at mahina ang pandinig sa phone nila, sa 60+ wika. Taunang lisensya, bayad sa invoice. Libreng 30-araw na pilot."
+  },
+  "header": {
+    "forOrganizations": "para sa mga Organisasyon",
+    "startPilot": "Magsimula ng libreng pilot",
+    "chooseLanguage": "Pumili ng wika"
+  },
+  "hero": {
+    "eyebrow": "🏢 Captio AI para sa mga Organisasyon",
+    "title": "Live na caption sa phone nila, sa sandaling [magsalita] ang mga tao",
+    "description": "Ang Captio AI ay app para sa mga Bingi at mahina ang pandinig. Nakikinig ito at ipinapakita bilang text ang sinasabi, nang harapan, sa 60+ wika. Ibigay ito sa mga tao sa inyong organisasyon na nangangailangan nito: isang taunang lisensya bawat tao, bayad sa pamamagitan ng invoice.",
+    "seeHow": "Tingnan kung paano ito gumagana",
+    "pilotNote": "Libre sa loob ng 30 araw, hanggang 5 tao. Walang babayaran, walang pipirmahan.",
+    "facts": ["iPhone at Android", "60+ wika", "Nakaimbak sa EU"],
+    "videoLabel": "Captio AI na nagpapakita ng live na caption ng dalawang taong nag-uusap, may label ang bawat nagsasalita"
+  },
+  "features": {
+    "eyebrow": "Ano ang ginagawa ng Captio AI",
+    "title": "Live na caption, pagsasalin at pag-transcribe",
+    "subtitle": "Tatlong tool sa iisang app, sa sarili nilang phone, sa 60+ wika.",
+    "items": [
+      { "label": "Live na caption", "title": "Bawat salita, habang sinasabi", "description": "Buksan ang app, i-tap ang mikropono at magbasa. May sariling label ang bawat nagsasalita, kaya malinaw kung sino ang nagsabi ng ano." },
+      { "label": "Live na pagsasalin", "title": "Magkatabi ang dalawang wika", "description": "Kapag may nagsalita sa ibang wika, sabay na nakikita ng gumagamit ang sinabi at ang salin nito." },
+      { "label": "Pag-transcribe", "title": "Mga recording at file, ginagawang text", "description": "I-save ang kahit anong usapan, o magdagdag ng audio o video file, at makuha ang buong transcript kasama ang buod gamit ang AI." }
+    ]
+  },
+  "languages": {
+    "eyebrow": "60+ wika",
+    "title": "Caption sa mga wikang ginagamit ng inyong mga tao",
+    "subtitle": "Live na caption, pagsasalin at pag-transcribe sa bawat isa sa mga wikang ito, pati para sa mga taong nagpapalit ng wika sa gitna ng pangungusap."
+  },
+  "awareness": {
+    "eyebrow": "Ginawa para sa mga Bingi at mahina ang pandinig",
+    "title": "Higit pa sa mga salita sa screen",
+    "subtitle": "Kung sino ang nagsasalita, nasaan sila at ano pa ang nangyayari: ang mga bagay na mahalaga kapag hindi naririnig ang nangyayari sa paligid.",
+    "items": [
+      { "title": "Alam kung sino ang nagsasalita", "description": "I-save nang isang beses ang boses ng isang tao, mula sa mga 20 segundo ng pagsasalita niya, at pangalan na niya ang ipapakita ng caption sa halip na “Speaker 2”, live man o sa mga naka-save na recording. Sa phone mismo ginagawa at itinatago ang mga boses.", "where": "iPhone" },
+      { "title": "Ipinapakita kung saan galing ang boses", "description": "Ipinapakita ng mga alon sa gilid ng screen kung saang panig nanggagaling ang boses, sa kulay ng nagsasalitang iyon, para alam ng gumagamit kung saan titingin sa mataong kuwarto.", "where": "iPhone 16 at mas bago" },
+      { "title": "Naririnig ang mga tunog sa paligid", "description": "Lumalabas ang mga tunog sa caption, gaya ng sa subtitle ng pelikula. Pinapa-vibrate din ng doorbell, alarm o umiiyak na sanggol ang phone.", "where": "iPhone at iPad" }
+    ],
+    "drawing": {
+      "otherName": "Ana",
+      "me": "Ako",
+      "voicesLine1": "Puwede bang ilipat ang meeting sa Biyernes?",
+      "voicesLine2": "Okay sa akin ang Biyernes.",
+      "directionLine": "Nandito ako, sa kaliwa mo.",
+      "soundsBefore": "Kita tayo nang alas-tres.",
+      "sound": "[tumutunog ang doorbell]",
+      "soundsAfter": "Sino 'yan?",
+      "vibrates": "Nagva-vibrate ang phone"
+    }
+  },
+  "reasons": {
+    "eyebrow": "Para sa inyong organisasyon",
+    "title": "Bakit pinipili ng mga organisasyon ang Captio AI",
+    "items": [
+      { "title": "Handa sa sandaling kailanganin", "description": "Hindi na kailangang mag-book ng captioner nang maaga. Nagsisimula ang caption sa isang tap, nasaan man ang tao." },
+      { "title": "Sa sarili nilang phone", "description": "iPhone o Android. Walang kailangang i-install ang inyong IT team at walang hardware na ipapamigay." },
+      { "title": "Pribado mula sa simula", "description": "Nakaimbak sa EU. Hindi itinatago ang audio sa aming mga server, at hindi kailanman ginagamit ang kahit ano para mag-train ng AI." },
+      { "title": "Madaling bilhin", "description": "Isang presyo bawat tao kada taon, sa pamamagitan ng invoice. Walang minimum, walang setup fee, walang kusang nagre-renew." }
+    ]
+  },
+  "pilot": {
+    "eyebrow": "Libreng pilot",
+    "title": "Subukan ito nang 30 araw kasama ang hanggang 5 tao",
+    "steps": [
+      { "title": "Kunin ang inyong pilot link", "description": "Sagutan ang form sa ibaba. Darating ang link sa inyong inbox sa loob ng isang minuto, kasama ang mensaheng handa nang i-forward." },
+      { "title": "I-forward ito sa hanggang 5 tao", "description": "Bubuksan ito ng bawat tao sa kanilang phone, magpapatuloy gamit ang Apple o Google, at makukuha ang Captio AI sa iPhone o Android." },
+      { "title": "Nasa kanila ang buong bersyon sa loob ng 30 araw", "description": "Wala kaming kailangang personal na data mula sa inyo, kaya walang papeles. Bago ito matapos, makakatanggap kayo ng buod kung gaano ito kadalas ginamit, at ang presyo para ipagpatuloy ito." }
+    ]
+  },
+  "form": {
+    "organization": "Organisasyon",
+    "name": "Inyong pangalan",
+    "email": "Inyong work email",
+    "emailHint": "Dito ipapadala ang pilot link.",
+    "people": "Mga ilang tao ang maaaring gumamit nito?",
+    "peopleOptions": ["1 hanggang 5", "6 hanggang 19", "20 hanggang 50", "Higit sa 50"],
+    "submit": "Ipadala sa akin ang pilot link",
+    "sending": "Ipinapadala…",
+    "note": "Libre sa loob ng 30 araw, hanggang 5 tao. Walang babayaran, walang pipirmahan.",
+    "sentTitle": "Tingnan ang inyong inbox",
+    "sentTo": "Papunta na sa {email} ang inyong pilot link, kasama ang mensaheng maaari ninyong i-forward sa mga gagamit nito.",
+    "resentTo": "Ipinadala naming muli ang inyong pilot link sa {email}, kasama ang mensaheng maaari ninyong i-forward sa mga gagamit nito.",
+    "sentHelp": "Kadalasan itong dumarating sa loob ng isang minuto. Wala pa po? Tingnan ang inyong spam folder, o sumulat sa {address}.",
+    "errors": {
+      "org": "Pakilagay po ang pangalan ng inyong organisasyon.",
+      "email": "Mukhang hindi tama ang email address na iyan.",
+      "tooMany": "Masyadong maraming request mula rito ngayong araw. Pakisulat na lang po sa {address}.",
+      "domainLimit": "May mga pilot na pong tumatakbo ang inyong organisasyon. Sumulat po kayo sa {address} at magdadagdag kami.",
+      "busy": "Marami kaming natanggap na request ngayong araw. Pakisulat po sa {address} at matatanggap ninyo ang link sa loob ng isang araw.",
+      "server": "Nagkaproblema{code}. Pakisubukan po ulit, o sumulat sa {address}.",
+      "network": "Hindi maipadala. Tingnan ang inyong koneksyon at subukan ulit."
+    }
+  },
+  "pricing": {
+    "eyebrow": "Presyo",
+    "title": "Isang presyo bawat tao, kada taon",
+    "subtitle": "Bayad sa pamamagitan ng invoice at bank transfer. Hindi pa kasama ang VAT kung saan ito naaangkop.",
+    "plans": ["1 hanggang 19 na tao", "20 tao o higit pa"],
+    "perPersonYear": "bawat tao kada taon",
+    "otherCurrencies": "{a} o {b}",
+    "includedTitle": "Kasama",
+    "included": [
+      "Captio AI Plus para sa bawat tao, sa loob ng 12 buwan",
+      "Isang link na ipapasa: makakasali ang mga tao sa loob ng isang minuto",
+      "Kabuuang bilang ng paggamit, hindi kailanman ang sinabi",
+      "Isang setup call, kung gusto ninyo",
+      "Email support direkta mula sa founder",
+      "Quotation, ang inyong purchase order, at invoice",
+      "Isang data processing agreement",
+      "Walang minimum, walang setup fee, walang auto-renewal"
+    ],
+    "quote": "Humingi ng quotation"
+  },
+  "data": {
+    "eyebrow": "Para sa inyong data protection team",
+    "title": "Paano pinangangasiwaan ang data",
+    "items": [
+      { "title": "Nakaimbak sa EU", "description": "Nakaimbak sa European Union (Frankfurt) ang mga account at naka-save na transcript." },
+      { "title": "Hindi itinatago ang audio sa aming mga server", "description": "Pinoproseso ang pananalita nang real time para mabuo ang mga caption. Ang audio ng mga recording na sine-save ng mga tao ay nananatili sa sarili nilang phone." },
+      { "title": "Hindi kailanman ginagamit para mag-train ng AI", "description": "Walang content na ibinebenta, ibinabahagi para sa advertising, o ginagamit para mag-train ng mga AI model, namin man o ng alinmang provider na ginagamit namin." },
+      { "title": "Nakalista ang bawat processor", "description": "Pinapangalanan ng aming Patakaran sa Privacy ang bawat kumpanyang nagpoproseso ng data at kung para saan. Saklaw ng Standard Contractual Clauses ang mga paglilipat ng data palabas ng UK at EEA." },
+      { "title": "Isang data processing agreement", "description": "Pumipirma kami ng isa kasama ang inyong organisasyon para sa mga bayad na lisensya, kapag ipinadala ninyo sa amin ang mga pangalan o email ng mga taong bibigyan ng access." },
+      { "title": "Pagbura", "description": "Puwedeng burahin ng kahit sino ang kanilang account at mga recording sa app, anumang oras." }
+    ],
+    "dpa": "Hilingin ang data processing agreement",
+    "privacy": "Basahin ang Patakaran sa Privacy"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Mga madalas itanong",
+    "items": [
+      { "q": "Ano ang Captio AI?", "a": "Isang app para sa iPhone at Android na nagpapakita bilang text ng sinasabi ng mga tao, sa mismong sandaling sinasabi nila ito, sa 60+ wika. Ginagamit ito ng mga Bingi at mahina ang pandinig nang harapan, saanman nila kailangan ng caption: bubuksan nila ito, ita-tap ang mikropono at magbabasa. Kaya rin nitong magsalin, pag-ibahin ang mga nagsasalita at tawagin sa pangalan ang mga taong kilala nito, ipakita kung saan galing ang boses (iPhone 16 at mas bago), isulat sa caption ang mga tunog gaya ng doorbell o alarm, at i-save at ibuod ang mga sinabi." },
+      { "q": "Sino ang puwedeng kumuha ng Captio AI para sa mga Organisasyon?", "a": "Kahit anong organisasyong nagbabayad ng captioning para sa mga Bingi at mahina ang pandinig. Makakakuha ang bawat tao ng Captio AI Plus sa sarili nilang phone sa loob ng isang taon, at isang invoice lang ang babayaran ng organisasyon." },
+      { "q": "Magkano ito?", "a": "£89, €99 o $109 bawat tao kada taon para sa 1 hanggang 19 na tao, at £69, €79 o $89 bawat tao kada taon simula 20 tao. Walang minimum at walang setup fee. Hindi pa kasama ang VAT kung saan ito naaangkop." },
+      { "q": "Paano kami magbabayad?", "a": "Sa pamamagitan ng invoice at bank transfer. Magpapadala muna kami ng quotation, at handa kaming sumunod sa proseso ng inyong purchase order." },
+      { "q": "Puwede ba muna naming subukan?", "a": "Opo. Isang libreng 30-araw na pilot para sa hanggang 5 tao. Sagutan ang form sa pahinang ito at darating sa email ang link na ipapasa sa loob ng isang minuto. Walang babayaran at walang pipirmahan." },
+      { "q": "Kailangan bang magbayad o mag-set up ng kahit ano ang mga gagamit nito?", "a": "Hindi po. Bubuksan nila ang link na ipapasa ninyo, magpapatuloy gamit ang Apple o Google, saka ida-download nang libre ang Captio AI sa iPhone o Android at magsa-sign in gamit ang parehong account. Makukuha agad nila ang buong bersyon. Walang kailangang i-install ang inyong IT team." },
+      { "q": "Ano ang makikita namin tungkol sa paggamit nito?", "a": "Mga kabuuang bilang lang: ilang tao ang sumali, ilan ang nagbukas ng Captio AI noong nakaraang linggo, at ilang recording ang na-save at gaano kahaba ang mga ito. Hindi kailanman ang sinabi, at hindi kailanman kung sino ang nagsabi." },
+      { "q": "Paano kami magdadagdag ng tao pagkatapos bumili?", "a": "Gamit ang parehong link. Kapag aktibo na ang inyong mga lisensya, makakasali ang sinumang padalhan ninyo nito, hanggang sa bilang ng inyong mga lisensya. Mananatili sa mga taong galing sa pilot ang lahat ng na-save nila." },
+      { "q": "Ano ang mangyayari pagkalipas ng 12 buwan?", "a": "Magpapadala kami ng quotation para sa renewal isang buwan bago matapos ang mga lisensya. Walang kusang nagre-renew o naniningil." },
+      { "q": "Pinapalitan ba nito ang taong captioner o note-taker?", "a": "Hindi sa lahat ng pagkakataon. Nagbibigay ang Captio AI ng agarang caption nasaan man ang tao, nang hindi kailangang mag-book ng kahit sino nang maaga. Kung saan kailangan ang perpektong record, maraming serbisyo ang gumagamit nito kasabay ng suporta ng tao." },
+      { "q": "Saan nakaimbak ang aming data, at sino ang nagpoproseso nito?", "a": "Nakaimbak sa EU (Frankfurt) ang mga account at naka-save na transcript. Pinoproseso ang audio nang real time at hindi itinatago sa aming mga server. Nakalista sa aming Patakaran sa Privacy ang bawat kumpanyang nagpoproseso ng data. Walang ginagamit para mag-train ng mga AI model." },
+      { "q": "Puwede bang bumili ng Captio AI Plus ang isang tao para sa sarili niya?", "a": "Opo, sa loob ng app. Ang mga lisensya para sa organisasyon ay para sa mga pagkakataong isang organisasyon ang nagbabayad para sa isang tao." }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Libreng pilot",
+    "title": "Subukan ito kasama ang sarili ninyong mga tao",
+    "body": "Hanggang 5 tao, libre sa loob ng 30 araw. Darating ang link sa inyong inbox sa loob ng isang minuto. May tanong muna? Sumulat sa {address}."
+  },
+  "join": {
+    "metaTitle": "Captio AI mula sa {org}",
+    "metaDescription": "Binibigyan ka ng {org} ng Captio AI: live na caption ng sinasabi ng mga tao, sa sarili mong phone.",
+    "gives": "Handog sa iyo ng {org}",
+    "title": "Live na caption sa phone mo",
+    "pilotOffer": "Ang buong bersyon ng Captio AI, libre sa loob ng {days} araw.",
+    "paidOffer": "Ang buong bersyon ng Captio AI hanggang {date}, bayad ng {org}.",
+    "about": "Caption ng sinasabi ng mga tao habang nagsasalita sila, sa 60+ wika.",
+    "steps": ["Magpatuloy gamit ang Apple o Google sa ibaba", "Kunin ang Captio AI sa App Store o Google Play", "Mag-sign in sa app gamit ang parehong account"],
+    "continueApple": "Magpatuloy gamit ang Apple",
+    "continueGoogle": "Magpatuloy gamit ang Google",
+    "signingIn": "Nagsa-sign in…",
+    "alreadyUse": "Gumagamit ka na ng Captio AI? Magpatuloy gamit ang account na ginagamit mo sa app.",
+    "nothingToPay": "Walang babayaran. Kusa lang itong matatapos pagkatapos ng mga libreng araw.",
+    "privacyNote": "Ang nakikita lang ng {org} ay kung ilang tao ang sumali at gaano kadalas ginamit ang Captio AI sa kabuuan, hindi kailanman ang sinabi.",
+    "privacyLink": "Patakaran sa Privacy",
+    "joined": "Kasali ka na",
+    "alreadyJoined": "Kasali ka na pala",
+    "until": "Nasa iyo ang buong bersyon ng Captio AI hanggang {date}.",
+    "getAppStore": "Kunin ang Captio AI sa App Store",
+    "getGooglePlay": "Kunin ang Captio AI sa Google Play",
+    "phoneApp": "Phone app ang Captio AI: kunin ito sa iyong iPhone o Android phone.",
+    "thenSignIn": "Pagkatapos, mag-sign in sa Captio AI gamit ang parehong {provider} account. May app ka na? Isara ito at buksan ulit.",
+    "endedTitle": "Tapos na ang mga libreng araw mo",
+    "endedBody": "Natapos noong {date} ang Captio AI mo mula sa {org}. Tanungin ang {org} kung puwede itong ituloy.",
+    "closed": {
+      "fullTitle": "Puno na ang lahat ng puwesto",
+      "full": "Puno na ang lahat ng {seats} puwesto mula sa {org}. Tanungin ang {org} tungkol sa dagdag na puwesto.",
+      "stoppedTitle": "Isinara na ang link na ito",
+      "stopped": "Humingi ng bago sa {org}.",
+      "expiredTitle": "Nag-expire na ang pilot link na ito",
+      "expired": "Humingi ng bago sa {org}.",
+      "endedTitle": "Tapos na ang mga lisensya ng {org}",
+      "ended": "Tanungin ang {org} kung ire-renew nila ang Captio AI."
+    },
+    "failures": {
+      "full": "Puno na ang lahat ng puwesto mula sa {org}. Tanungin ang {org} tungkol sa dagdag na puwesto.",
+      "stopped": "Isinara na ang link na ito. Humingi ng bago sa {org}.",
+      "linkExpired": "Nag-expire na ang pilot link na ito. Humingi ng bago sa {org}.",
+      "ended": "Tapos na ang mga lisensya ng {org}.",
+      "otherOrg": "Nakakakuha na ng Captio AI ang account mo sa pamamagitan ng ibang organisasyon.",
+      "hadPilot": "Nagkaroon na ng libreng pilot ang account na ito. Tanungin ang {org} kung puwedeng ituloy ang Captio AI.",
+      "notFound": "Hindi gumagana ang link na ito. Humingi ng bago sa nagpadala nito.",
+      "signInFailed": "Hindi gumana ang pag-sign in. Pakisubukan ulit.",
+      "couldNotAdd": "Hindi ka maidagdag sa ngayon. Pakisubukan ulit.",
+      "generic": "Nagkaproblema. Pakisubukan ulit."
+    },
+    "invalidTitle": "Hindi gumagana ang link na ito",
+    "invalidBody": "Tingnan kung buo itong nakopya, o humingi ng bago sa nagpadala nito.",
+    "errorTitle": "Hindi ma-load ang pahinang ito",
+    "errorBody": "Pakisubukan ulit maya-maya."
+  }
+}
