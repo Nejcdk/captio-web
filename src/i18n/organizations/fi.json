@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "title": "Livetekstitys ja puhe tekstiksi organisaatioille",
+    "description": "Livetekstitys kuuroille ja huonokuuloisille puhelimeen, yli 60 kielellä. Captio AI -vuosilisenssit organisaatioille laskulla. Maksuton 30 päivän pilotti."
+  },
+  "header": {
+    "forOrganizations": "organisaatioille",
+    "startPilot": "Aloita maksuton pilotti",
+    "chooseLanguage": "Valitse kieli"
+  },
+  "hero": {
+    "eyebrow": "🏢 Captio AI organisaatioille",
+    "title": "Livetekstitys heidän puhelimeensa heti, kun joku [puhuu]",
+    "description": "Captio AI on sovellus kuuroille ja huonokuuloisille. Se kuuntelee ja näyttää puheen tekstinä kasvokkain käytävissä keskusteluissa, yli 60 kielellä. Anna se niille organisaatiosi ihmisille, jotka sitä tarvitsevat: yksi vuosilisenssi henkilöä kohden, laskulla.",
+    "seeHow": "Katso, miten se toimii",
+    "pilotNote": "Maksuton 30 päivän ajan, enintään 5 henkilölle. Ei maksuja, ei allekirjoituksia.",
+    "facts": ["iPhone ja Android", "Yli 60 kieltä", "Tallennus EU:ssa"],
+    "videoLabel": "Captio AI näyttää kahden ihmisen keskustelun livetekstityksenä, ja jokaisella puhujalla on oma nimilappunsa"
+  },
+  "features": {
+    "eyebrow": "Mitä Captio AI tekee",
+    "title": "Livetekstitys, käännös ja litterointi",
+    "subtitle": "Kolme työkalua yhdessä sovelluksessa, omassa puhelimessa, yli 60 kielellä.",
+    "items": [
+      { "label": "Livetekstitys", "title": "Jokainen sana heti, kun se sanotaan", "description": "Avaa sovellus, napauta mikrofonia ja lue mukana. Jokainen puhuja saa oman nimilapun, joten on selvää, kuka sanoi mitä." },
+      { "label": "Livekäännös", "title": "Molemmat kielet rinnakkain", "description": "Kun joku puhuu toista kieltä, ruudulla näkyy samaan aikaan sekä se, mitä sanottiin, että sen käännös." },
+      { "label": "Litterointi", "title": "Tallenteet ja tiedostot tekstiksi", "description": "Tallenna mikä tahansa keskustelu tai lisää ääni- tai videotiedosto, niin saat koko litteroinnin ja tekoälyn tekemän yhteenvedon." }
+    ]
+  },
+  "languages": {
+    "eyebrow": "Yli 60 kieltä",
+    "title": "Tekstitys kielillä, joita organisaatiossasi puhutaan",
+    "subtitle": "Livetekstitys, käännös ja litterointi jokaisella niistä, myös silloin, kun joku vaihtaa kieltä kesken lauseen."
+  },
+  "awareness": {
+    "eyebrow": "Tehty kuuroille ja huonokuuloisille",
+    "title": "Enemmän kuin sanoja ruudulla",
+    "subtitle": "Kuka puhuu, missä hän on ja mitä muuta tapahtuu: asiat, joilla on väliä, kun ei kuule, mitä huoneessa tapahtuu.",
+    "items": [
+      { "title": "Tietää, kuka puhuu", "description": "Tallenna ihmisen ääni kerran noin 20 sekunnin puheesta, niin tekstityksessä näkyy hänen nimensä eikä ”Puhuja 2”, sekä livenä että tallenteissa. Äänet tehdään ja säilytetään puhelimessa.", "where": "iPhone" },
+      { "title": "Näyttää, mistä ääni tulee", "description": "Aallot ruudun reunassa näyttävät puhujan omalla värillä, mistä suunnasta ääni tulee, joten tietää, mihin katsoa täydessä huoneessa.", "where": "iPhone 16 ja uudemmat" },
+      { "title": "Kuulee ympäristön äänet", "description": "Äänet näkyvät tekstityksessä samaan tapaan kuin elokuvien tekstityksissä. Ovikello, hälytys tai itkevä vauva saa myös puhelimen värisemään.", "where": "iPhone ja iPad" }
+    ],
+    "drawing": {
+      "otherName": "Aino",
+      "me": "Minä",
+      "voicesLine1": "Voidaanko palaveri siirtää perjantaille?",
+      "voicesLine2": "Perjantai sopii minulle.",
+      "directionLine": "Olen täällä, vasemmalla puolellasi.",
+      "soundsBefore": "Nähdään kolmelta.",
+      "sound": "[ovikello soi]",
+      "soundsAfter": "Kuka siellä?",
+      "vibrates": "Puhelin värisee"
+    }
+  },
+  "reasons": {
+    "eyebrow": "Organisaatiollesi",
+    "title": "Miksi organisaatiot valitsevat Captio AI:n",
+    "items": [
+      { "title": "Valmiina heti, kun tarvitaan", "description": "Kirjoitustulkkia ei tarvitse varata etukäteen. Tekstitys alkaa yhdellä napautuksella, missä ikinä henkilö onkin." },
+      { "title": "Omassa puhelimessa", "description": "iPhone tai Android. IT-tiimin ei tarvitse asentaa mitään, eikä laitteita tarvitse jakaa." },
+      { "title": "Yksityisyys sisäänrakennettuna", "description": "Tallennus EU:ssa. Ääntä ei säilytetä palvelimillamme, eikä mitään käytetä koskaan tekoälyn kouluttamiseen." },
+      { "title": "Helppo hankkia", "description": "Yksi hinta henkilöä kohden vuodessa, laskulla. Ei vähimmäismäärää, ei aloitusmaksua, eikä mikään uusiudu itsestään." }
+    ]
+  },
+  "pilot": {
+    "eyebrow": "Maksuton pilotti",
+    "title": "Kokeile 30 päivää enintään 5 henkilön kanssa",
+    "steps": [
+      { "title": "Hae pilottilinkki", "description": "Täytä alla oleva lomake. Linkki tulee sähköpostiisi minuutin sisällä, ja mukana on valmis viesti välitettäväksi." },
+      { "title": "Välitä se enintään 5 henkilölle", "description": "Jokainen avaa linkin puhelimellaan, jatkaa Applella tai Googlella ja saa Captio AI:n iPhoneen tai Androidiin." },
+      { "title": "Heillä on täysi versio 30 päivän ajan", "description": "Et anna meille henkilötietoja, joten paperitöitä ei ole. Loppupuolella saat yhteenvedon käytön määrästä ja hinnan jatkokäytölle." }
+    ]
+  },
+  "form": {
+    "organization": "Organisaatio",
+    "name": "Nimesi",
+    "email": "Työsähköpostisi",
+    "emailHint": "Pilottilinkki lähetetään tähän osoitteeseen.",
+    "people": "Noin kuinka moni voisi käyttää sitä?",
+    "peopleOptions": ["1–5", "6–19", "20–50", "Yli 50"],
+    "submit": "Lähetä minulle pilottilinkki",
+    "sending": "Lähetetään…",
+    "note": "Maksuton 30 päivän ajan, enintään 5 henkilölle. Ei maksuja, ei allekirjoituksia.",
+    "sentTitle": "Katso sähköpostisi",
+    "sentTo": "Pilottilinkkisi on matkalla osoitteeseen {email}, ja mukana on viesti, jonka voit välittää sovellusta käyttäville.",
+    "resentTo": "Lähetimme pilottilinkkisi uudelleen osoitteeseen {email}, ja mukana on viesti, jonka voit välittää sovellusta käyttäville.",
+    "sentHelp": "Se tulee yleensä minuutin sisällä. Eikö näy? Katso roskapostikansio tai kirjoita osoitteeseen {address}.",
+    "errors": {
+      "org": "Kirjoita organisaatiosi nimi.",
+      "email": "Sähköpostiosoite ei näytä oikealta.",
+      "tooMany": "Täältä on tullut tänään liian monta pyyntöä. Kirjoita sen sijaan osoitteeseen {address}.",
+      "domainLimit": "Organisaatiollasi on jo pilotteja käynnissä. Kirjoita osoitteeseen {address}, niin lisäämme niitä.",
+      "busy": "Pyyntöjä on tullut tänään paljon. Kirjoita osoitteeseen {address}, niin saat linkkisi vuorokauden sisällä.",
+      "server": "Jokin meni vikaan{code}. Yritä uudelleen tai kirjoita osoitteeseen {address}.",
+      "network": "Lähetys ei onnistunut. Tarkista yhteys ja yritä uudelleen."
+    }
+  },
+  "pricing": {
+    "eyebrow": "Hinnoittelu",
+    "title": "Yksi hinta henkilöä kohden vuodessa",
+    "subtitle": "Maksu laskulla tilisiirtona. Hintoihin lisätään ALV, jos sitä sovelletaan.",
+    "plans": ["1–19 henkilöä", "20 henkilöä tai enemmän"],
+    "perPersonYear": "henkilöä kohden vuodessa",
+    "otherCurrencies": "{a} tai {b}",
+    "includedTitle": "Hintaan sisältyy",
+    "included": [
+      "Captio AI Plus jokaiselle 12 kuukauden ajan",
+      "Yksi välitettävä linkki: mukaan pääsee minuutissa",
+      "Käytön kokonaismäärät, ei koskaan sitä, mitä sanottiin",
+      "Käyttöönottopuhelu, jos haluat",
+      "Sähköpostituki suoraan perustajalta",
+      "Tarjous, ostotilaus ja lasku",
+      "Henkilötietojen käsittelysopimus",
+      "Ei vähimmäismäärää, ei aloitusmaksua, ei automaattista jatkoa"
+    ],
+    "quote": "Pyydä tarjous"
+  },
+  "data": {
+    "eyebrow": "Tietosuojasta vastaaville",
+    "title": "Näin tietoja käsitellään",
+    "items": [
+      { "title": "Tallennus EU:ssa", "description": "Tilit ja tallennetut litteroinnit säilytetään Euroopan unionissa (Frankfurt)." },
+      { "title": "Ääntä ei säilytetä palvelimillamme", "description": "Puhe käsitellään reaaliajassa tekstityksen tekemiseksi. Tallenteiden ääni pysyy käyttäjän omassa puhelimessa." },
+      { "title": "Ei koskaan tekoälyn kouluttamiseen", "description": "Mitään sisältöä ei myydä, jaeta mainontaan eikä käytetä tekoälymallien kouluttamiseen, ei meidän eikä yhdenkään käyttämämme palveluntarjoajan toimesta." },
+      { "title": "Jokainen käsittelijä on nimetty", "description": "Tietosuojakäytännössämme nimetään jokainen tietoja käsittelevä yritys ja käsittelyn tarkoitus. Siirrot Yhdistyneen kuningaskunnan ja ETA:n ulkopuolelle perustuvat vakiosopimuslausekkeisiin." },
+      { "title": "Henkilötietojen käsittelysopimus", "description": "Teemme sellaisen organisaatiosi kanssa maksullisista lisensseistä, kun lähetät meille niiden henkilöiden nimet tai sähköpostiosoitteet, joille käyttöoikeus avataan." },
+      { "title": "Poistaminen", "description": "Kuka tahansa voi poistaa tilinsä ja tallenteensa sovelluksessa milloin tahansa." }
+    ],
+    "dpa": "Pyydä henkilötietojen käsittelysopimus",
+    "privacy": "Lue tietosuojakäytäntö"
+  },
+  "faq": {
+    "eyebrow": "UKK",
+    "title": "Usein kysytyt kysymykset",
+    "items": [
+      { "q": "Mikä Captio AI on?", "a": "Sovellus iPhonelle ja Androidille, joka näyttää ihmisten puheen tekstinä samalla hetkellä, kun he puhuvat, yli 60 kielellä. Kuurot ja huonokuuloiset käyttävät sitä kasvokkain, missä tahansa tarvitsevat tekstitystä: he avaavat sen, napauttavat mikrofonia ja lukevat mukana. Se osaa myös kääntää, erottaa puhujat toisistaan ja kutsua tuntemiaan ihmisiä nimeltä, näyttää, mistä ääni tulee (iPhone 16 ja uudemmat), kirjoittaa tekstitykseen äänet, kuten ovikellon tai hälytyksen, sekä tallentaa ja tiivistää sanotun." },
+      { "q": "Kenelle Captio AI organisaatioille on tarkoitettu?", "a": "Mille tahansa organisaatiolle, joka maksaa tekstityksestä kuurojen ja huonokuuloisten puolesta. Jokainen saa Captio AI Plus -tilauksen omaan puhelimeensa vuodeksi, ja organisaatio maksaa yhden laskun." },
+      { "q": "Paljonko se maksaa?", "a": "£89, €99 tai $109 henkilöä kohden vuodessa, kun henkilöitä on 1–19, ja £69, €79 tai $89 henkilöä kohden vuodessa 20 henkilöstä alkaen. Vähimmäismäärää tai aloitusmaksua ei ole. Hintoihin lisätään ALV, jos sitä sovelletaan." },
+      { "q": "Miten maksamme?", "a": "Laskulla tilisiirtona. Lähetämme ensin tarjouksen ja toimimme mielellämme ostotilausprosessinne mukaan." },
+      { "q": "Voimmeko kokeilla ensin?", "a": "Kyllä. Maksuton 30 päivän pilotti enintään 5 henkilölle. Täytä tämän sivun lomake, niin välitettävä linkki tulee sähköpostiin minuutin sisällä. Ei maksuja eikä allekirjoituksia." },
+      { "q": "Pitääkö käyttäjien maksaa tai määrittää jotain?", "a": "Ei. He avaavat välittämäsi linkin, jatkavat Applella tai Googlella, lataavat sitten Captio AI:n maksutta iPhoneen tai Androidiin ja kirjautuvat samalla tilillä. Täysi versio on heti käytössä. IT-tiimin ei tarvitse asentaa mitään." },
+      { "q": "Mitä näemme käytöstä?", "a": "Vain kokonaismäärät: kuinka moni on liittynyt, kuinka moni on avannut Captio AI:n viimeisen viikon aikana sekä kuinka monta tallennetta on tallennettu ja kuinka pitkiä ne ovat. Ei koskaan sitä, mitä sanottiin, eikä sitä, kuka sen sanoi." },
+      { "q": "Miten lisäämme ihmisiä oston jälkeen?", "a": "Samalla linkillä. Kun lisenssinne ovat voimassa, kuka tahansa, jolle lähetätte linkin, voi liittyä, kunnes lisenssit on käytetty. Pilotissa mukana olleet säilyttävät kaiken tallentamansa." },
+      { "q": "Mitä tapahtuu 12 kuukauden jälkeen?", "a": "Lähetämme jatkotarjouksen kuukautta ennen lisenssien päättymistä. Mikään ei uusiudu eikä veloitu automaattisesti." },
+      { "q": "Korvaako se kirjoitustulkin tai muistiinpanojen tekijän?", "a": "Ei kaikissa tilanteissa. Captio AI antaa tekstityksen heti, missä henkilö onkin, ilman ennakkovarausta. Kun tarvitaan täysin virheetön kirjaus, moni käyttää sitä ihmisen antaman tuen rinnalla." },
+      { "q": "Missä tietojamme säilytetään ja kuka niitä käsittelee?", "a": "Tilit ja tallennetut litteroinnit säilytetään EU:ssa (Frankfurt). Ääni käsitellään reaaliajassa, eikä sitä säilytetä palvelimillamme. Tietosuojakäytännössämme luetellaan jokainen tietoja käsittelevä yritys. Mitään ei käytetä tekoälymallien kouluttamiseen." },
+      { "q": "Voiko yksittäinen ihminen ostaa Captio AI Plus -tilauksen itse?", "a": "Kyllä, sovelluksessa. Organisaatiolisenssit ovat sitä varten, että organisaatio maksaa jonkun puolesta." }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Maksuton pilotti",
+    "title": "Kokeile omien ihmistesi kanssa",
+    "body": "Enintään 5 henkilöä, maksutta 30 päivää. Linkki tulee sähköpostiisi minuutin sisällä. Kysyttävää ensin? Kirjoita osoitteeseen {address}."
+  },
+  "join": {
+    "metaTitle": "{org} tarjoaa sinulle Captio AI:n",
+    "metaDescription": "{org} tarjoaa sinulle Captio AI:n, joka näyttää ihmisten puheen livetekstityksenä omassa puhelimessasi.",
+    "gives": "{org} tarjoaa sinulle",
+    "title": "Livetekstitys puhelimeesi",
+    "pilotOffer": "Captio AI:n täysi versio maksutta {days} päivän ajan.",
+    "paidOffer": "Captio AI:n täysi versio {date} asti, ja {org} maksaa sen.",
+    "about": "Tekstitys siitä, mitä ihmiset sanovat, sitä mukaa kuin he puhuvat, yli 60 kielellä.",
+    "steps": ["Jatka alla Applella tai Googlella", "Lataa Captio AI App Storesta tai Google Playsta", "Kirjaudu sovellukseen samalla tilillä"],
+    "continueApple": "Jatka Applella",
+    "continueGoogle": "Jatka Googlella",
+    "signingIn": "Kirjaudutaan…",
+    "alreadyUse": "Käytätkö jo Captio AI:ta? Jatka tilillä, jota käytät sovelluksessa.",
+    "nothingToPay": "Ei mitään maksettavaa. Käyttö vain päättyy maksuttomien päivien jälkeen.",
+    "privacyNote": "{org} näkee vain, kuinka moni on liittynyt ja kuinka paljon Captio AI:ta on käytetty yhteensä, ei koskaan sitä, mitä sanottiin.",
+    "privacyLink": "Tietosuojakäytäntö",
+    "joined": "Olet mukana",
+    "alreadyJoined": "Olet jo mukana",
+    "until": "Sinulla on Captio AI:n täysi versio {date} asti.",
+    "getAppStore": "Lataa Captio AI App Storesta",
+    "getGooglePlay": "Lataa Captio AI Google Playsta",
+    "phoneApp": "Captio AI on puhelinsovellus: lataa se iPhoneen tai Android-puhelimeen.",
+    "thenSignIn": "Kirjaudu sitten Captio AI:hin samalla {provider}-tilillä. Onko sovellus jo puhelimessasi? Sulje se ja avaa uudelleen.",
+    "endedTitle": "Maksuttomat päiväsi ovat päättyneet",
+    "endedBody": "Captio AI, jonka {org} tarjosi sinulle, päättyi {date}. Kysy, voiko {org} tarjota sitä sinulle jatkossakin.",
+    "closed": {
+      "fullTitle": "Kaikki paikat on varattu",
+      "full": "Kaikki paikat, jotka {org} tarjosi ({seats}), on jo varattu. Kysy, voiko {org} lisätä paikkoja.",
+      "stoppedTitle": "Tämä linkki on suljettu",
+      "stopped": "{org} voi antaa sinulle uuden.",
+      "expiredTitle": "Tämä pilottilinkki on vanhentunut",
+      "expired": "{org} voi antaa sinulle uuden.",
+      "endedTitle": "{org}: lisenssit ovat päättyneet",
+      "ended": "Kysy, aikooko {org} jatkaa Captio AI:n käyttöä."
+    },
+    "failures": {
+      "full": "Kaikki paikat, jotka {org} tarjosi, on varattu. Kysy, voiko {org} lisätä paikkoja.",
+      "stopped": "Tämä linkki on suljettu. {org} voi antaa sinulle uuden.",
+      "linkExpired": "Tämä pilottilinkki on vanhentunut. {org} voi antaa sinulle uuden.",
+      "ended": "Lisenssit, jotka {org} hankki, ovat päättyneet.",
+      "otherOrg": "Tilisi saa jo Captio AI:n toisen organisaation kautta.",
+      "hadPilot": "Tällä tilillä on jo ollut maksuton pilotti. Kysy, voiko {org} tarjota sinulle Captio AI:n jatkossakin.",
+      "notFound": "Tämä linkki ei toimi. Pyydä uusi siltä, joka sen lähetti.",
+      "signInFailed": "Kirjautuminen ei onnistunut. Yritä uudelleen.",
+      "couldNotAdd": "Sinua ei voitu lisätä juuri nyt. Yritä uudelleen.",
+      "generic": "Jokin meni vikaan. Yritä uudelleen."
+    },
+    "invalidTitle": "Tämä linkki ei toimi",
+    "invalidBody": "Tarkista, että linkki on kopioitu kokonaan, tai pyydä uusi siltä, joka sen lähetti.",
+    "errorTitle": "Sivua ei voitu ladata",
+    "errorBody": "Yritä hetken päästä uudelleen."
+  }
+}

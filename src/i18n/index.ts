@@ -9,7 +9,7 @@ export const FEATURE_SLUGS = ["live-captions", "live-translator", "audio-transcr
 export type FeatureSlug = (typeof FEATURE_SLUGS)[number];
 
 /** A page that exists in every language. */
-export type TranslatedPage = "home" | FeatureSlug;
+export type TranslatedPage = "home" | FeatureSlug | "organizations";
 
 export function isFeatureSlug(slug: string): slug is FeatureSlug {
   return (FEATURE_SLUGS as readonly string[]).includes(slug);
@@ -20,7 +20,7 @@ export async function getMessages(code: string): Promise<Messages> {
   return (await import(`./messages/${code}.json`)).default as Messages;
 }
 
-/** "/" and "/live-captions" in English, "/de" and "/de/live-captions" in German. */
+/** "/" and "/live-captions" in English, "/de" and "/de/live-captions" in German (also "/de/organizations"). */
 export function pagePath(code: string, page: TranslatedPage): string {
   const tail = page === "home" ? "" : `/${page}`;
   if (code === DEFAULT_LOCALE) return tail || "/";
@@ -35,6 +35,9 @@ export function languageAlternates(page: TranslatedPage): Record<string, string>
   return links;
 }
 
+export { intlLocale } from "./intl";
+import { intlLocale } from "./intl";
+
 function capitalize(text: string, code: string) {
   return text.charAt(0).toLocaleUpperCase(code) + text.slice(1);
 }
@@ -43,7 +46,7 @@ function capitalize(text: string, code: string) {
 export function languageName(of: string, inCode: string): string {
   // English uses the site's own names (Intl says "Filipino" for Tagalog).
   if (inCode === DEFAULT_LOCALE) return getLocale(of).name;
-  const name = new Intl.DisplayNames([inCode], { type: "language" }).of(of);
+  const name = new Intl.DisplayNames([intlLocale(inCode)], { type: "language" }).of(of);
   return name && name !== of ? capitalize(name, inCode) : getLocale(of).name;
 }
 
@@ -58,7 +61,7 @@ export type LanguageOption = {
 
 /** The header's language menu for a page, sorted by name in the reader's language. */
 export function languageOptions(current: string, page: TranslatedPage): LanguageOption[] {
-  const collator = new Intl.Collator(current);
+  const collator = new Intl.Collator(intlLocale(current));
   return ALL_LOCALES.map((l) => ({
     code: l.code,
     native: l.native,

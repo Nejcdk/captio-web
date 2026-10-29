@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "title": "Manukuu Mubashara kwa Mashirika na Makampuni",
+    "description": "Captio AI: manukuu mubashara kwa viziwi na wasiosikia vizuri kwenye simu zao, kwa lugha 60+. Leseni za mwaka kwa ankara. Majaribio ya bure ya siku 30."
+  },
+  "header": {
+    "forOrganizations": "kwa Mashirika",
+    "startPilot": "Anza majaribio ya bure",
+    "chooseLanguage": "Chagua lugha"
+  },
+  "hero": {
+    "eyebrow": "🏢 Captio AI kwa Mashirika",
+    "title": "Manukuu mubashara kwenye simu zao, mara tu watu [wanapozungumza]",
+    "description": "Captio AI ni programu kwa ajili ya viziwi na wasiosikia vizuri. Inasikiliza na kuonyesha kinachosemwa kama maandishi, ana kwa ana, kwa lugha 60+. Wape watu wa shirika lako wanaoihitaji: leseni moja ya mwaka kwa kila mtu, inayolipwa kwa ankara.",
+    "seeHow": "Jinsi inavyofanya kazi",
+    "pilotNote": "Bure kwa siku 30, hadi watu 5. Hakuna cha kulipa, hakuna cha kusaini.",
+    "facts": ["iPhone na Android", "Lugha 60+", "Huhifadhiwa ndani ya EU"],
+    "videoLabel": "Captio AI ikionyesha manukuu mubashara ya watu wawili wanaozungumza, na lebo kwa kila mzungumzaji"
+  },
+  "features": {
+    "eyebrow": "Kile ambacho Captio AI hufanya",
+    "title": "Manukuu mubashara, tafsiri na unukuzi",
+    "subtitle": "Zana tatu katika programu moja, kwenye simu zao wenyewe, kwa lugha 60+.",
+    "items": [
+      { "label": "Manukuu mubashara", "title": "Kila neno, linaposemwa", "description": "Fungua programu, gusa maikrofoni na usome. Kila mzungumzaji anapata lebo yake, kwa hivyo ni wazi nani alisema nini." },
+      { "label": "Tafsiri mubashara", "title": "Lugha zote mbili kando kwa kando", "description": "Mtu anapozungumza lugha nyingine, mtumiaji huona kilichosemwa na tafsiri yake kwa wakati mmoja." },
+      { "label": "Unukuzi", "title": "Rekodi na faili kuwa maandishi", "description": "Hifadhi mazungumzo yoyote, au ongeza faili ya sauti au video, upate nakala kamili pamoja na muhtasari wa AI." }
+    ]
+  },
+  "languages": {
+    "eyebrow": "Lugha 60+",
+    "title": "Manukuu katika lugha zinazozungumzwa na watu wa shirika lako",
+    "subtitle": "Manukuu mubashara, tafsiri na unukuzi katika kila moja ya lugha hizo, hata kwa watu wanaobadilisha lugha katikati ya sentensi."
+  },
+  "awareness": {
+    "eyebrow": "Imeundwa kwa ajili ya viziwi na wasiosikia vizuri",
+    "title": "Zaidi ya maneno kwenye skrini",
+    "subtitle": "Nani anazungumza, yuko wapi na nini kingine kinaendelea: mambo muhimu kwa mtu asiyeweza kusikia kinachoendelea chumbani.",
+    "items": [
+      { "title": "Inajua nani anazungumza", "description": "Hifadhi sauti ya mtu mara moja tu, kutokana na takriban sekunde 20 za mazungumzo yake, na manukuu yataonyesha jina lake badala ya “Mzungumzaji 2”, mubashara na kwenye rekodi zilizohifadhiwa. Alama za sauti hutengenezwa na kubaki kwenye simu yenyewe.", "where": "iPhone" },
+      { "title": "Inaonyesha sauti inatoka wapi", "description": "Mawimbi pembeni mwa skrini huonyesha sauti inatoka upande gani, kwa rangi ya mzungumzaji huyo, ili mtumiaji ajue aangalie wapi katika chumba chenye watu wengi.", "where": "iPhone 16 na kuendelea" },
+      { "title": "Inasikia sauti za mazingira", "description": "Sauti huandikwa kwenye manukuu kama inavyofanyika katika manukuu ya filamu. Kengele ya mlango, kengele ya hatari au mtoto anayelia pia hufanya simu itetemeke.", "where": "iPhone na iPad" }
+    ],
+    "drawing": {
+      "otherName": "Amina",
+      "me": "Mimi",
+      "voicesLine1": "Tuhamishe mkutano hadi Ijumaa?",
+      "voicesLine2": "Ijumaa inanifaa.",
+      "directionLine": "Niko hapa, kushoto kwako.",
+      "soundsBefore": "Tuonane saa tisa.",
+      "sound": "[kengele ya mlango inalia]",
+      "soundsAfter": "Nani huyo?",
+      "vibrates": "Simu inatetemeka"
+    }
+  },
+  "reasons": {
+    "eyebrow": "Kwa shirika lako",
+    "title": "Kwa nini mashirika huchagua Captio AI",
+    "items": [
+      { "title": "Iko tayari pale inapohitajika", "description": "Hakuna haja ya kuweka nafasi ya mwandishi wa manukuu mapema. Manukuu huanza kwa mguso mmoja, popote mtu alipo." },
+      { "title": "Kwenye simu zao wenyewe", "description": "iPhone au Android. Hakuna kitu cha timu yako ya IT kusakinisha na hakuna vifaa vya kugawa." },
+      { "title": "Faragha tangu mwanzo", "description": "Huhifadhiwa ndani ya EU. Sauti haihifadhiwi kwenye seva zetu, na hakuna kinachotumiwa kamwe kufunza AI." },
+      { "title": "Rahisi kununua", "description": "Bei moja kwa kila mtu kwa mwaka, kwa ankara. Hakuna kiwango cha chini, hakuna ada ya kuanzisha, hakuna usasishaji wa kiotomatiki." }
+    ]
+  },
+  "pilot": {
+    "eyebrow": "Majaribio ya bure",
+    "title": "Ijaribu kwa siku 30 na hadi watu 5",
+    "steps": [
+      { "title": "Pata kiungo chako cha majaribio", "description": "Jaza fomu iliyo hapa chini. Kiungo kitafika kwenye kikasha chako ndani ya dakika moja, pamoja na ujumbe ulio tayari kusambazwa." },
+      { "title": "Kisambaze kwa hadi watu 5", "description": "Kila mtu anakifungua kwenye simu yake, anaendelea na Apple au Google, na kupata Captio AI kwenye iPhone au Android." },
+      { "title": "Wanapata toleo kamili kwa siku 30", "description": "Hatuhitaji data yoyote binafsi kutoka kwako, kwa hivyo hakuna makaratasi. Kuelekea mwisho utapokea muhtasari wa matumizi, pamoja na bei ya kuendelea nayo." }
+    ]
+  },
+  "form": {
+    "organization": "Shirika",
+    "name": "Jina lako",
+    "email": "Barua pepe yako ya kazini",
+    "emailHint": "Kiungo cha majaribio kitatumwa hapa.",
+    "people": "Takriban watu wangapi wanaweza kuitumia?",
+    "peopleOptions": ["1 hadi 5", "6 hadi 19", "20 hadi 50", "Zaidi ya 50"],
+    "submit": "Nitumie kiungo cha majaribio",
+    "sending": "Inatuma…",
+    "note": "Bure kwa siku 30, hadi watu 5. Hakuna cha kulipa, hakuna cha kusaini.",
+    "sentTitle": "Angalia kikasha chako",
+    "sentTo": "Kiungo chako cha majaribio kiko njiani kwenda {email}, pamoja na ujumbe unaoweza kuwasambazia watu watakaoitumia.",
+    "resentTo": "Tumetuma tena kiungo chako cha majaribio kwa {email}, pamoja na ujumbe unaoweza kuwasambazia watu watakaoitumia.",
+    "sentHelp": "Kwa kawaida hufika ndani ya dakika moja. Hakijafika? Angalia folda ya barua taka, au tuandikie kwa {address}.",
+    "errors": {
+      "org": "Tafadhali weka jina la shirika lako.",
+      "email": "Anwani hiyo ya barua pepe haionekani kuwa sahihi.",
+      "tooMany": "Kuna maombi mengi mno kutoka hapa leo. Tafadhali tuandikie kwa {address} badala yake.",
+      "domainLimit": "Shirika lako tayari lina majaribio yanayoendelea. Tuandikie kwa {address} nasi tutaongeza mengine.",
+      "busy": "Tumepokea maombi mengi leo. Tafadhali tuandikie kwa {address} na utapata kiungo chako ndani ya siku moja.",
+      "server": "Hitilafu imetokea{code}. Tafadhali jaribu tena, au tuandikie kwa {address}.",
+      "network": "Imeshindwa kutuma. Angalia muunganisho wako kisha ujaribu tena."
+    }
+  },
+  "pricing": {
+    "eyebrow": "Bei",
+    "title": "Bei moja kwa kila mtu, kwa mwaka",
+    "subtitle": "Malipo ni kwa ankara na uhamisho wa benki. Bei hazijumuishi VAT pale inapohusika.",
+    "plans": ["Watu 1 hadi 19", "Watu 20 au zaidi"],
+    "perPersonYear": "kwa mtu kwa mwaka",
+    "otherCurrencies": "{a} au {b}",
+    "includedTitle": "Kilichojumuishwa",
+    "included": [
+      "Captio AI Plus kwa kila mtu, kwa miezi 12",
+      "Kiungo kimoja cha kusambaza: watu hujiunga ndani ya dakika moja",
+      "Jumla za matumizi tu, kamwe si kilichosemwa",
+      "Simu ya kukusaidia kuanza, ukipenda",
+      "Msaada kwa barua pepe moja kwa moja kutoka kwa mwanzilishi",
+      "Nukuu ya bei, agizo lako la ununuzi (LPO), ankara",
+      "Mkataba wa uchakataji wa data",
+      "Hakuna kiwango cha chini, hakuna ada ya kuanzisha, hakuna usasishaji wa kiotomatiki"
+    ],
+    "quote": "Omba nukuu ya bei"
+  },
+  "data": {
+    "eyebrow": "Kwa timu yako ya ulinzi wa data",
+    "title": "Jinsi data inavyoshughulikiwa",
+    "items": [
+      { "title": "Huhifadhiwa ndani ya EU", "description": "Akaunti na nakala zilizohifadhiwa ziko katika Umoja wa Ulaya (Frankfurt)." },
+      { "title": "Sauti haihifadhiwi kwenye seva zetu", "description": "Maneno yanayozungumzwa huchakatwa papo hapo ili kutengeneza manukuu. Sauti ya rekodi ambazo watu huhifadhi hubaki kwenye simu zao wenyewe." },
+      { "title": "Haitumiwi kamwe kufunza AI", "description": "Hakuna maudhui yanayouzwa, kushirikiwa kwa ajili ya matangazo, au kutumiwa kufunza miundo ya AI, si na sisi wala na mtoa huduma yeyote tunayemtumia." },
+      { "title": "Kila mchakataji ameorodheshwa", "description": "Sera yetu ya faragha inataja kila kampuni inayochakata data na kwa madhumuni gani. Uhamishaji wa data nje ya Uingereza na EEA unalindwa na Vifungu vya Kawaida vya Mikataba (Standard Contractual Clauses)." },
+      { "title": "Mkataba wa uchakataji wa data", "description": "Tunasaini mkataba huo na shirika lako kwa leseni zinazolipiwa, unapotutumia majina au barua pepe za watu wanaopaswa kupewa ufikiaji." },
+      { "title": "Kufuta", "description": "Mtu yeyote anaweza kufuta akaunti yake na rekodi zake ndani ya programu, wakati wowote." }
+    ],
+    "dpa": "Omba mkataba wa uchakataji wa data",
+    "privacy": "Soma sera ya faragha"
+  },
+  "faq": {
+    "eyebrow": "Maswali",
+    "title": "Maswali yanayoulizwa mara kwa mara",
+    "items": [
+      { "q": "Captio AI ni nini?", "a": "Ni programu ya iPhone na Android inayoonyesha kile watu wanachosema kama maandishi, papo hapo wanapokisema, kwa lugha 60+. Viziwi na wasiosikia vizuri huitumia ana kwa ana, popote wanapohitaji manukuu: wanaifungua, wanagusa maikrofoni na kusoma. Pia inaweza kutafsiri, kutofautisha wazungumzaji na kuwaita kwa majina watu inaowajua, kuonyesha sauti inatoka upande gani (iPhone 16 na kuendelea), kuandika sauti kama kengele ya mlango au kengele ya hatari kwenye manukuu, na kuhifadhi na kufupisha kilichosemwa." },
+      { "q": "Captio AI kwa Mashirika ni kwa ajili ya nani?", "a": "Shirika lolote linalolipia huduma za manukuu kwa niaba ya viziwi na wasiosikia vizuri. Kila mtu anapata Captio AI Plus kwenye simu yake kwa mwaka mmoja, na shirika linalipa ankara moja." },
+      { "q": "Inagharimu kiasi gani?", "a": "£89, €99 au $109 kwa mtu kwa mwaka kwa watu 1 hadi 19, na £69, €79 au $89 kwa mtu kwa mwaka kuanzia watu 20. Hakuna kiwango cha chini wala ada ya kuanzisha. Bei hazijumuishi VAT pale inapohusika." },
+      { "q": "Tunalipaje?", "a": "Kwa ankara na uhamisho wa benki. Kwanza tunatuma nukuu ya bei, na tuko tayari kufuata utaratibu wa shirika lako wa agizo la ununuzi (LPO)." },
+      { "q": "Je, tunaweza kuijaribu kwanza?", "a": "Ndiyo. Majaribio ya bure ya siku 30 kwa hadi watu 5. Jaza fomu iliyo kwenye ukurasa huu na kiungo cha kusambaza kitafika kwa barua pepe ndani ya dakika moja. Hakuna cha kulipa wala cha kusaini." },
+      { "q": "Je, watakaoitumia wanahitaji kulipa au kuweka chochote?", "a": "Hapana. Wanafungua kiungo unachowasambazia, wanaendelea na Apple au Google, kisha wanapakua Captio AI bila malipo kwenye iPhone au Android na kuingia kwa akaunti ileile. Wanapata toleo kamili mara moja. Timu yako ya IT haihitaji kusakinisha chochote." },
+      { "q": "Tunaona nini kuhusu matumizi yake?", "a": "Jumla tu: watu wangapi wamejiunga, wangapi wamefungua Captio AI katika wiki iliyopita, na rekodi ngapi zimehifadhiwa na urefu wake. Kamwe si kilichosemwa, na kamwe si nani alikisema." },
+      { "q": "Tunaongezaje watu baada ya kununua?", "a": "Kwa kiungo kilekile. Leseni zako zikishaanza kutumika, yeyote utakayemtumia kiungo anaweza kujiunga, hadi idadi ya leseni ulizonazo. Watu waliokuwa kwenye majaribio wanabaki na kila kitu walichohifadhi." },
+      { "q": "Nini hutokea baada ya miezi 12?", "a": "Tunatuma nukuu ya bei ya mwaka unaofuata mwezi mmoja kabla leseni hazijaisha. Hakuna kinachojisasisha wala kutoza pesa chenyewe." },
+      { "q": "Je, inachukua nafasi ya mtu anayeandika manukuu au kumbukumbu?", "a": "Si katika kila hali. Captio AI inatoa manukuu papo hapo popote mtu alipo, bila kuweka nafasi ya mtu yeyote mapema. Pale ambapo kumbukumbu kamili kabisa inahitajika, huduma nyingi huitumia pamoja na msaada wa binadamu." },
+      { "q": "Data yetu huhifadhiwa wapi, na nani huichakata?", "a": "Akaunti na nakala zilizohifadhiwa ziko katika EU (Frankfurt). Sauti huchakatwa papo hapo na haihifadhiwi kwenye seva zetu. Sera yetu ya faragha inaorodhesha kila kampuni inayochakata data. Hakuna kinachotumiwa kufunza miundo ya AI." },
+      { "q": "Je, mtu mmoja anaweza kununua Captio AI Plus mwenyewe?", "a": "Ndiyo, ndani ya programu. Leseni za shirika ni kwa ajili ya pale shirika linapolipa kwa niaba ya mtu." }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Majaribio ya bure",
+    "title": "Ione ikifanya kazi na watu wako",
+    "body": "Hadi watu 5, bure kwa siku 30. Kiungo kinafika kwenye kikasha chako ndani ya dakika moja. Una maswali kwanza? Tuandikie kwa {address}."
+  },
+  "join": {
+    "metaTitle": "Captio AI kutoka {org}",
+    "metaDescription": "{org} inakupa Captio AI: manukuu mubashara ya kile watu wanachosema, kwenye simu yako mwenyewe.",
+    "gives": "{org} inakupa",
+    "title": "Manukuu mubashara kwenye simu yako",
+    "pilotOffer": "Toleo kamili la Captio AI, bure kwa siku {days}.",
+    "paidOffer": "Toleo kamili la Captio AI hadi {date}, limelipiwa na {org}.",
+    "about": "Manukuu ya kile watu wanachosema, wakati wanapozungumza, kwa lugha 60+.",
+    "steps": ["Endelea na Apple au Google hapa chini", "Pakua Captio AI kutoka App Store au Google Play", "Ingia kwenye programu kwa akaunti ileile"],
+    "continueApple": "Endelea na Apple",
+    "continueGoogle": "Endelea na Google",
+    "signingIn": "Inaingia…",
+    "alreadyUse": "Tayari unatumia Captio AI? Endelea na akaunti unayotumia kwenye programu.",
+    "nothingToPay": "Hakuna cha kulipa. Inaisha yenyewe baada ya siku za bure.",
+    "privacyNote": "{org} huona tu idadi ya watu waliojiunga na jumla ya matumizi ya Captio AI, kamwe si kilichosemwa.",
+    "privacyLink": "Sera ya Faragha",
+    "joined": "Umejiunga",
+    "alreadyJoined": "Tayari umejiunga",
+    "until": "Una toleo kamili la Captio AI hadi {date}.",
+    "getAppStore": "Pakua Captio AI kwenye App Store",
+    "getGooglePlay": "Pakua Captio AI kwenye Google Play",
+    "phoneApp": "Captio AI ni programu ya simu: ipakue kwenye iPhone au simu yako ya Android.",
+    "thenSignIn": "Kisha ingia kwenye Captio AI kwa akaunti ileile ya {provider}. Tayari una programu? Ifunge kisha uifungue tena.",
+    "endedTitle": "Siku zako za bure zimeisha",
+    "endedBody": "Captio AI uliyopewa na {org} iliisha tarehe {date}. Uliza {org} kuhusu kuendelea nayo.",
+    "closed": {
+      "fullTitle": "Nafasi zote zimejaa",
+      "full": "Nafasi zote {seats} kutoka {org} zimejaa. Uliza {org} kuhusu nafasi zaidi.",
+      "stoppedTitle": "Kiungo hiki kimefungwa",
+      "stopped": "Omba kipya kutoka {org}.",
+      "expiredTitle": "Muda wa kiungo hiki cha majaribio umeisha",
+      "expired": "Omba kipya kutoka {org}.",
+      "endedTitle": "Leseni za {org} zimeisha",
+      "ended": "Uliza {org} kama wataendelea na Captio AI."
+    },
+    "failures": {
+      "full": "Nafasi zote kutoka {org} zimejaa. Uliza {org} kuhusu nafasi zaidi.",
+      "stopped": "Kiungo hiki kimefungwa. Omba kipya kutoka {org}.",
+      "linkExpired": "Muda wa kiungo hiki cha majaribio umeisha. Omba kipya kutoka {org}.",
+      "ended": "Leseni za {org} zimeisha.",
+      "otherOrg": "Akaunti yako tayari inapata Captio AI kupitia shirika lingine.",
+      "hadPilot": "Akaunti hii tayari imeshapata majaribio ya bure. Uliza {org} kuhusu kuendelea na Captio AI.",
+      "notFound": "Kiungo hiki hakifanyi kazi. Omba kipya kutoka kwa aliyekutumia.",
+      "signInFailed": "Kuingia hakukufaulu. Tafadhali jaribu tena.",
+      "couldNotAdd": "Hatukuweza kukuongeza kwa sasa. Tafadhali jaribu tena.",
+      "generic": "Hitilafu imetokea. Tafadhali jaribu tena."
+    },
+    "invalidTitle": "Kiungo hiki hakifanyi kazi",
+    "invalidBody": "Hakikisha kimenakiliwa chote, au omba kipya kutoka kwa aliyekutumia.",
+    "errorTitle": "Imeshindwa kupakia ukurasa huu",
+    "errorBody": "Tafadhali jaribu tena baada ya muda mfupi."
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "title": "Živé titulky a prevod reči na text pre organizácie",
+    "description": "Captio AI dáva nepočujúcim a nedoslýchavým živé titulky v telefóne, v 60+ jazykoch. Ročné licencie pre organizácie na faktúru. Pilot zadarmo na 30 dní."
+  },
+  "header": {
+    "forOrganizations": "pre organizácie",
+    "startPilot": "Spustiť pilot zadarmo",
+    "chooseLanguage": "Vyberte jazyk"
+  },
+  "hero": {
+    "eyebrow": "🏢 Captio AI pre organizácie",
+    "title": "Živé titulky v ich telefóne vo chvíli, keď ľudia [hovoria]",
+    "description": "Captio AI je aplikácia pre nepočujúcich a nedoslýchavých. Počúva a zobrazuje to, čo sa hovorí, ako text, pri osobných stretnutiach, v 60+ jazykoch. Dajte ju ľuďom vo vašej organizácii, ktorí ju potrebujú: jedna ročná licencia na osobu, na faktúru.",
+    "seeHow": "Ako to funguje",
+    "pilotNote": "Zadarmo na 30 dní, až pre 5 ľudí. Nič neplatíte, nič nepodpisujete.",
+    "facts": ["iPhone a Android", "60+ jazykov", "Dáta uložené v EÚ"],
+    "videoLabel": "Captio AI zobrazuje živé titulky rozhovoru dvoch ľudí so štítkom pri každom hovoriacom"
+  },
+  "features": {
+    "eyebrow": "Čo Captio AI dokáže",
+    "title": "Živé titulky, preklad a prepis",
+    "subtitle": "Tri nástroje v jednej aplikácii, vo vlastnom telefóne, v 60+ jazykoch.",
+    "items": [
+      { "label": "Živé titulky", "title": "Každé slovo hneď, ako zaznie", "description": "Stačí otvoriť aplikáciu, ťuknúť na mikrofón a čítať. Každý hovoriaci má vlastný štítok, takže je jasné, kto čo povedal." },
+      { "label": "Živý preklad", "title": "Oba jazyky vedľa seba", "description": "Keď niekto hovorí iným jazykom, je vidieť zároveň to, čo povedal, aj preklad." },
+      { "label": "Prepis", "title": "Nahrávky a súbory prevedené na text", "description": "Uložte akýkoľvek rozhovor alebo pridajte zvukový či video súbor a získate celý prepis aj zhrnutie od AI." }
+    ]
+  },
+  "languages": {
+    "eyebrow": "60+ jazykov",
+    "title": "Titulky v jazykoch, ktorými sa hovorí vo vašej organizácii",
+    "subtitle": "Živé titulky, preklad aj prepis v každom z nich, aj keď niekto prejde na iný jazyk uprostred vety."
+  },
+  "awareness": {
+    "eyebrow": "Pre nepočujúcich a nedoslýchavých",
+    "title": "Viac než slová na obrazovke",
+    "subtitle": "Kto hovorí, kde je a čo ďalšie sa deje: veci, na ktorých záleží, keď človek nepočuje, čo sa v miestnosti deje.",
+    "items": [
+      { "title": "Vie, kto hovorí", "description": "Hlas človeka stačí uložiť raz, z približne 20 sekúnd jeho reči, a titulky potom namiesto „Hovoriaci 2“ ukazujú jeho meno, naživo aj v uložených nahrávkach. Hlasy vznikajú a zostávajú v telefóne.", "where": "iPhone" },
+      { "title": "Ukazuje, odkiaľ hlas prichádza", "description": "Vlny na okraji obrazovky ukazujú vo farbe daného hovoriaceho, z ktorej strany hlas prichádza, takže je jasné, kam sa v rušnej miestnosti pozrieť.", "where": "iPhone 16 a novší" },
+      { "title": "Počuje zvuky naokolo", "description": "Zvuky sa objavujú v titulkoch tak, ako to robia titulky vo filmoch. Zvonček, alarm alebo plačúce bábätko navyše rozvibrujú telefón.", "where": "iPhone a iPad" }
+    ],
+    "drawing": {
+      "otherName": "Jana",
+      "me": "Ja",
+      "voicesLine1": "Môžeme poradu presunúť na piatok?",
+      "voicesLine2": "Piatok mi vyhovuje.",
+      "directionLine": "Som tu, po tvojej ľavici.",
+      "soundsBefore": "Uvidíme sa o tretej.",
+      "sound": "[zvoní zvonček]",
+      "soundsAfter": "Kto to je?",
+      "vibrates": "Telefón vibruje"
+    }
+  },
+  "reasons": {
+    "eyebrow": "Pre vašu organizáciu",
+    "title": "Prečo si organizácie vyberajú Captio AI",
+    "items": [
+      { "title": "Pripravené, kedykoľvek treba", "description": "Žiadne objednávanie prepisovateľa vopred. Titulky sa spustia jedným ťuknutím, nech je človek kdekoľvek." },
+      { "title": "Vo vlastnom telefóne", "description": "iPhone alebo Android. Vaše IT nemusí nič inštalovať a nerozdávate žiadny hardvér." },
+      { "title": "Súkromie od základu", "description": "Dáta uložené v EÚ. Zvuk na našich serveroch nezostáva a nič sa nikdy nepoužíva na trénovanie AI." },
+      { "title": "Jednoduchý nákup", "description": "Jedna cena na osobu a rok, na faktúru. Žiadne minimum, žiadny poplatok za zriadenie, nič sa samo neobnovuje." }
+    ]
+  },
+  "pilot": {
+    "eyebrow": "Pilot zadarmo",
+    "title": "Vyskúšajte to na 30 dní až s 5 ľuďmi",
+    "steps": [
+      { "title": "Získajte odkaz na pilot", "description": "Vyplňte formulár nižšie. Odkaz vám do minúty príde e-mailom, aj so správou pripravenou na preposlanie." },
+      { "title": "Prepošlite ho až 5 ľuďom", "description": "Každý ho otvorí v telefóne, pokračuje cez Apple alebo Google a získa Captio AI pre iPhone alebo Android." },
+      { "title": "Majú plnú verziu na 30 dní", "description": "Nepotrebujeme od vás žiadne osobné údaje, takže žiadne papierovanie. Ku koncu dostanete prehľad, ako veľmi sa aplikácia používala, a cenu, ak si ju budete chcieť ponechať." }
+    ]
+  },
+  "form": {
+    "organization": "Organizácia",
+    "name": "Vaše meno",
+    "email": "Váš pracovný e-mail",
+    "emailHint": "Sem pošleme odkaz na pilot.",
+    "people": "Koľko ľudí ju približne môže používať?",
+    "peopleOptions": ["1 až 5", "6 až 19", "20 až 50", "Viac ako 50"],
+    "submit": "Pošlite mi odkaz na pilot",
+    "sending": "Odosiela sa…",
+    "note": "Zadarmo na 30 dní, až pre 5 ľudí. Nič neplatíte, nič nepodpisujete.",
+    "sentTitle": "Pozrite sa do schránky",
+    "sentTo": "Odkaz na pilot je na ceste na adresu {email}, aj so správou, ktorú môžete preposlať ľuďom, ktorí budú aplikáciu používať.",
+    "resentTo": "Odkaz na pilot sme znova poslali na adresu {email}, aj so správou, ktorú môžete preposlať ľuďom, ktorí budú aplikáciu používať.",
+    "sentHelp": "Zvyčajne príde do minúty. Nevidíte ho? Pozrite sa do spamu alebo napíšte na {address}.",
+    "errors": {
+      "org": "Doplňte, prosím, názov organizácie.",
+      "email": "Táto e-mailová adresa nevyzerá správne.",
+      "tooMany": "Odtiaľto dnes prišlo priveľa žiadostí. Napíšte, prosím, radšej na {address}.",
+      "domainLimit": "Vo vašej organizácii už piloty bežia. Napíšte na {address} a pridáme ďalšie.",
+      "busy": "Dnes sme dostali veľa žiadostí. Napíšte, prosím, na {address} a odkaz budete mať do 24 hodín.",
+      "server": "Niečo sa pokazilo{code}. Skúste to znova alebo napíšte na {address}.",
+      "network": "Nepodarilo sa odoslať. Skontrolujte pripojenie a skúste to znova."
+    }
+  },
+  "pricing": {
+    "eyebrow": "Ceny",
+    "title": "Jedna cena na osobu a rok",
+    "subtitle": "Platba na faktúru bankovým prevodom. Ceny sú bez DPH, ak sa uplatňuje.",
+    "plans": ["1 až 19 ľudí", "20 a viac ľudí"],
+    "perPersonYear": "na osobu a rok",
+    "otherCurrencies": "{a} alebo {b}",
+    "includedTitle": "V cene",
+    "included": [
+      "Captio AI Plus pre každého na 12 mesiacov",
+      "Jeden odkaz na preposlanie: pripojenie trvá minútu",
+      "Súhrnné čísla o používaní, nikdy obsah rozhovorov",
+      "Úvodný hovor, ak oň stojíte",
+      "Podpora e-mailom priamo od zakladateľa",
+      "Cenová ponuka, vaša objednávka, faktúra",
+      "Zmluva o spracúvaní osobných údajov",
+      "Žiadne minimum, žiadny poplatok za zriadenie, žiadne automatické obnovenie"
+    ],
+    "quote": "Vyžiadať cenovú ponuku"
+  },
+  "data": {
+    "eyebrow": "Pre váš tím ochrany osobných údajov",
+    "title": "Ako narábame s dátami",
+    "items": [
+      { "title": "Uložené v EÚ", "description": "Účty a uložené prepisy sú uložené v Európskej únii (Frankfurt)." },
+      { "title": "Zvuk na našich serveroch nezostáva", "description": "Reč sa spracúva v reálnom čase, aby vznikli titulky. Zvuk nahrávok, ktoré si ľudia uložia, zostáva v ich vlastnom telefóne." },
+      { "title": "Nikdy na trénovanie AI", "description": "Žiadny obsah sa nepredáva, nezdieľa na reklamu ani nepoužíva na trénovanie modelov AI, a to ani nami, ani žiadnym poskytovateľom, ktorého využívame." },
+      { "title": "Všetci sprostredkovatelia sú uvedení", "description": "Naše zásady ochrany osobných údajov menujú každú firmu, ktorá spracúva údaje, a na aký účel. Prenosy mimo Spojeného kráľovstva a EHP pokrývajú štandardné zmluvné doložky." },
+      { "title": "Zmluva o spracúvaní osobných údajov", "description": "Pri platených licenciách ju s vašou organizáciou uzavrieme, keď nám pošlete mená alebo e-maily ľudí, ktorým sa má prístup odomknúť." },
+      { "title": "Vymazanie", "description": "Každý si môže svoj účet aj nahrávky kedykoľvek vymazať priamo v aplikácii." }
+    ],
+    "dpa": "Vyžiadať zmluvu o spracúvaní osobných údajov",
+    "privacy": "Prečítať zásady ochrany osobných údajov"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Často kladené otázky",
+    "items": [
+      { "q": "Čo je Captio AI?", "a": "Aplikácia pre iPhone a Android, ktorá zobrazuje, čo ľudia hovoria, ako text vo chvíli, keď to hovoria, v 60+ jazykoch. Nepočujúci a nedoslýchaví ju používajú pri osobných stretnutiach všade, kde potrebujú titulky: otvoria ju, ťuknú na mikrofón a čítajú. Dokáže aj prekladať, rozlišovať hovoriacich a označiť známych ľudí ich menom, ukázať, odkiaľ hlas prichádza (iPhone 16 a novší), zapísať do titulkov zvuky ako zvonček alebo alarm a uložiť a zhrnúť, čo zaznelo." },
+      { "q": "Pre koho je Captio AI pre organizácie?", "a": "Pre akúkoľvek organizáciu, ktorá platí titulkovanie pre nepočujúcich a nedoslýchavých. Každý dostane Captio AI Plus do vlastného telefónu na rok a organizácia zaplatí jednu faktúru." },
+      { "q": "Koľko to stojí?", "a": "£89, €99 alebo $109 na osobu a rok pre 1 až 19 ľudí a £69, €79 alebo $89 na osobu a rok od 20 ľudí. Žiadne minimum ani poplatok za zriadenie. Ceny sú bez DPH, ak sa uplatňuje." },
+      { "q": "Ako zaplatíme?", "a": "Na faktúru bankovým prevodom. Najprv pošleme cenovú ponuku a radi sa prispôsobíme vášmu postupu s objednávkami." },
+      { "q": "Môžeme si to najprv vyskúšať?", "a": "Áno. Pilot zadarmo na 30 dní až pre 5 ľudí. Vyplňte formulár na tejto stránke a odkaz na preposlanie vám do minúty príde e-mailom. Nič neplatíte a nič nepodpisujete." },
+      { "q": "Musia ľudia, ktorí ju používajú, niečo platiť alebo nastavovať?", "a": "Nie. Otvoria odkaz, ktorý im prepošlete, pokračujú cez Apple alebo Google, potom si zadarmo stiahnu Captio AI pre iPhone alebo Android a prihlásia sa rovnakým účtom. Plnú verziu majú hneď. Vaše IT nemusí nič inštalovať." },
+      { "q": "Čo uvidíme o používaní?", "a": "Len súhrnné čísla: koľko ľudí sa pripojilo, koľkí za posledný týždeň otvorili Captio AI a koľko nahrávok sa uložilo a aké sú dlhé. Nikdy nie to, čo zaznelo, a nikdy nie to, kto to povedal." },
+      { "q": "Ako pridáme ľudí po nákupe?", "a": "Rovnakým odkazom. Keď sú vaše licencie aktívne, môže sa pripojiť ktokoľvek, komu ho pošlete, až do počtu licencií, ktoré máte. Ľudia z pilotu si ponechajú všetko, čo si uložili." },
+      { "q": "Čo sa stane po 12 mesiacoch?", "a": "Mesiac pred koncom licencií pošleme ponuku na obnovenie. Nič sa neobnovuje ani neúčtuje automaticky." },
+      { "q": "Nahradí prepisovateľa alebo zapisovateľa?", "a": "Nie vo všetkých prípadoch. Captio AI dáva okamžité titulky všade, kde človek je, bez objednávania vopred. Tam, kde je potrebný dokonale presný záznam, ju mnohé organizácie používajú spolu s ľudskou podporou." },
+      { "q": "Kde sú naše dáta uložené a kto ich spracúva?", "a": "Účty a uložené prepisy sú uložené v EÚ (Frankfurt). Zvuk sa spracúva v reálnom čase a na našich serveroch nezostáva. Naše zásady ochrany osobných údajov uvádzajú každú firmu, ktorá údaje spracúva. Nič sa nepoužíva na trénovanie modelov AI." },
+      { "q": "Môže si Captio AI Plus kúpiť aj jednotlivec sám?", "a": "Áno, priamo v aplikácii. Licencie pre organizácie sú pre prípady, keď za niekoho platí organizácia." }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Pilot zadarmo",
+    "title": "Vyskúšajte to s vlastnými ľuďmi",
+    "body": "Až 5 ľudí, zadarmo na 30 dní. Odkaz vám do minúty príde e-mailom. Máte najprv otázky? Napíšte na {address}."
+  },
+  "join": {
+    "metaTitle": "Captio AI od organizácie {org}",
+    "metaDescription": "{org} ti dáva Captio AI: živé titulky toho, čo ľudia hovoria, vo tvojom vlastnom telefóne.",
+    "gives": "{org} ti dáva",
+    "title": "Živé titulky v tvojom telefóne",
+    "pilotOffer": "Plná verzia Captio AI zadarmo na {days} dní.",
+    "paidOffer": "Plná verzia Captio AI do {date}, ktorú platí organizácia {org}.",
+    "about": "Titulky toho, čo ľudia hovoria, už počas rozprávania, v 60+ jazykoch.",
+    "steps": ["Pokračuj nižšie cez Apple alebo Google", "Stiahni si Captio AI z App Storu alebo Google Play", "Prihlás sa do aplikácie rovnakým účtom"],
+    "continueApple": "Pokračovať cez Apple",
+    "continueGoogle": "Pokračovať cez Google",
+    "signingIn": "Prihlasovanie…",
+    "alreadyUse": "Už Captio AI používaš? Pokračuj účtom, ktorý máš v aplikácii.",
+    "nothingToPay": "Nič neplatíš. Po skončení dní zadarmo to jednoducho skončí.",
+    "privacyNote": "Organizácia {org} vidí len to, koľko ľudí sa pripojilo a koľko sa Captio AI celkovo používala, nikdy nie to, čo zaznelo.",
+    "privacyLink": "Zásady ochrany osobných údajov",
+    "joined": "Hotovo",
+    "alreadyJoined": "Tento účet už je pripojený",
+    "until": "Plnú verziu Captio AI máš do {date}.",
+    "getAppStore": "Stiahnuť Captio AI z App Storu",
+    "getGooglePlay": "Stiahnuť Captio AI z Google Play",
+    "phoneApp": "Captio AI je aplikácia do telefónu: stiahni si ju do iPhonu alebo telefónu s Androidom.",
+    "thenSignIn": "Potom sa do Captio AI prihlás rovnakým účtom {provider}. Aplikáciu už máš? Zavri ju a otvor znova.",
+    "endedTitle": "Dni zadarmo sa skončili",
+    "endedBody": "Captio AI od organizácie {org} sa skončila {date}. Spýtaj sa v organizácii {org}, či si ju môžeš ponechať.",
+    "closed": {
+      "fullTitle": "Všetky miesta sú obsadené",
+      "full": "Všetky miesta od organizácie {org} (spolu {seats}) sú obsadené. Spýtaj sa v organizácii {org} na ďalšie miesta.",
+      "stoppedTitle": "Tento odkaz bol uzavretý",
+      "stopped": "Požiadaj organizáciu {org} o nový.",
+      "expiredTitle": "Platnosť tohto odkazu na pilot vypršala",
+      "expired": "Požiadaj organizáciu {org} o nový.",
+      "endedTitle": "Licencie organizácie {org} sa skončili",
+      "ended": "Spýtaj sa v organizácii {org}, či bude Captio AI obnovovať."
+    },
+    "failures": {
+      "full": "Všetky miesta od organizácie {org} sú obsadené. Spýtaj sa v organizácii {org} na ďalšie miesta.",
+      "stopped": "Tento odkaz bol uzavretý. Požiadaj organizáciu {org} o nový.",
+      "linkExpired": "Platnosť tohto odkazu na pilot vypršala. Požiadaj organizáciu {org} o nový.",
+      "ended": "Licencie organizácie {org} sa skončili.",
+      "otherOrg": "Tvoj účet už má Captio AI cez inú organizáciu.",
+      "hadPilot": "Tento účet už pilot zadarmo mal. Spýtaj sa v organizácii {org}, či si Captio AI môžeš ponechať.",
+      "notFound": "Tento odkaz nefunguje. Požiadaj toho, kto ti ho poslal, o nový.",
+      "signInFailed": "Prihlásenie sa nepodarilo. Skús to znova.",
+      "couldNotAdd": "Teraz ťa nebolo možné pridať. Skús to znova.",
+      "generic": "Niečo sa pokazilo. Skús to znova."
+    },
+    "invalidTitle": "Tento odkaz nefunguje",
+    "invalidBody": "Skontroluj, či sa skopíroval celý, alebo požiadaj toho, kto ti ho poslal, o nový.",
+    "errorTitle": "Stránku sa nepodarilo načítať",
+    "errorBody": "Skús to, prosím, o chvíľu znova."
+  }
+}

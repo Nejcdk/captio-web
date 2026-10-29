@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "title": "Live ondertiteling voor organisaties en bedrijven",
+    "description": "Captio AI toont doven en slechthorenden live ondertiteling op hun telefoon, in 60+ talen. Jaarlicenties per persoon op factuur. Gratis pilot van 30 dagen."
+  },
+  "header": {
+    "forOrganizations": "voor organisaties",
+    "startPilot": "Start een gratis pilot",
+    "chooseLanguage": "Kies een taal"
+  },
+  "hero": {
+    "eyebrow": "🏢 Captio AI voor organisaties",
+    "title": "Live ondertiteling op hun telefoon, zodra iemand [spreekt]",
+    "description": "Captio AI is een app voor doven en slechthorenden. De app luistert en toont wat er gezegd wordt als tekst, bij gesprekken in dezelfde ruimte, in 60+ talen. Stel hem beschikbaar voor de mensen in uw organisatie die hem nodig hebben: één jaarlicentie per persoon, betaald op factuur.",
+    "seeHow": "Bekijk hoe het werkt",
+    "pilotNote": "30 dagen gratis, voor maximaal 5 personen. Niets te betalen, niets te tekenen.",
+    "facts": ["iPhone en Android", "60+ talen", "Opgeslagen in de EU"],
+    "videoLabel": "Captio AI toont live ondertiteling van twee mensen die praten, met een label per spreker"
+  },
+  "features": {
+    "eyebrow": "Wat Captio AI doet",
+    "title": "Live ondertiteling, vertaling en transcriptie",
+    "subtitle": "Drie hulpmiddelen in één app, op de eigen telefoon, in 60+ talen.",
+    "items": [
+      { "label": "Live ondertiteling", "title": "Elk woord, zodra het gezegd wordt", "description": "Open de app, tik op de microfoon en lees mee. Elke spreker krijgt een eigen label, zodat duidelijk is wie wat zei." },
+      { "label": "Live vertaling", "title": "Beide talen naast elkaar", "description": "Spreekt iemand een andere taal, dan staan wat er gezegd werd en de vertaling tegelijk in beeld." },
+      { "label": "Transcriptie", "title": "Opnames en bestanden als tekst", "description": "Bewaar elk gesprek of voeg een audio- of videobestand toe, en krijg het volledige transcript met een AI-samenvatting." }
+    ]
+  },
+  "languages": {
+    "eyebrow": "60+ talen",
+    "title": "Ondertiteling in de talen die in uw organisatie gesproken worden",
+    "subtitle": "Live ondertiteling, vertaling en transcriptie in elk van die talen, ook voor wie midden in een zin van taal wisselt."
+  },
+  "awareness": {
+    "eyebrow": "Gemaakt voor doven en slechthorenden",
+    "title": "Meer dan woorden op een scherm",
+    "subtitle": "Wie er praat, waar die persoon is en wat er verder gebeurt: wat ertoe doet voor wie niet hoort wat er in de ruimte gebeurt.",
+    "items": [
+      { "title": "Weet wie er praat", "description": "Sla één keer iemands stem op, uit zo’n 20 seconden praten, en de ondertiteling toont de naam in plaats van ‘Spreker 2’, live en in opgeslagen opnames. Stemmen worden op de telefoon gemaakt en blijven daar.", "where": "iPhone" },
+      { "title": "Laat zien waar de stem vandaan komt", "description": "Golven aan de rand van het scherm laten in de kleur van die spreker zien van welke kant een stem komt, zodat ook in een drukke ruimte duidelijk is waar te kijken.", "where": "iPhone 16 en nieuwer" },
+      { "title": "Hoort de geluiden eromheen", "description": "Geluiden verschijnen in de ondertiteling, zoals bij ondertiteling van films. Bij een deurbel, een alarm of een huilende baby trilt de telefoon ook.", "where": "iPhone en iPad" }
+    ],
+    "drawing": {
+      "otherName": "Emma",
+      "me": "Ik",
+      "voicesLine1": "Kan het overleg naar vrijdag?",
+      "voicesLine2": "Vrijdag is prima.",
+      "directionLine": "Ik ben hier, links van je.",
+      "soundsBefore": "Tot drie uur dan.",
+      "sound": "[deurbel gaat]",
+      "soundsAfter": "Wie is dat?",
+      "vibrates": "De telefoon trilt"
+    }
+  },
+  "reasons": {
+    "eyebrow": "Voor uw organisatie",
+    "title": "Waarom organisaties voor Captio AI kiezen",
+    "items": [
+      { "title": "Klaar zodra het nodig is", "description": "Geen schrijftolk die vooraf geboekt moet worden. De ondertiteling start met één tik, waar de persoon ook is." },
+      { "title": "Op de eigen telefoon", "description": "iPhone of Android. Niets te installeren voor uw IT-afdeling en geen apparatuur om uit te delen." },
+      { "title": "Privacy by design", "description": "Opgeslagen in de EU. Audio wordt niet op onze servers bewaard en niets wordt ooit gebruikt om AI te trainen." },
+      { "title": "Eenvoudig in te kopen", "description": "Eén prijs per persoon per jaar, op factuur. Geen minimum, geen opstartkosten, niets wordt automatisch verlengd." }
+    ]
+  },
+  "pilot": {
+    "eyebrow": "Gratis pilot",
+    "title": "Probeer het 30 dagen met maximaal 5 personen",
+    "steps": [
+      { "title": "Vraag uw pilotlink aan", "description": "Vul het formulier hieronder in. De link staat binnen een minuut in uw inbox, met een bericht dat u zo kunt doorsturen." },
+      { "title": "Stuur hem door naar maximaal 5 personen", "description": "Iedereen opent hem op de eigen telefoon, gaat verder met Apple of Google en krijgt Captio AI op iPhone of Android." },
+      { "title": "30 dagen de volledige versie", "description": "Geen persoonsgegevens van u nodig, dus geen papierwerk. Tegen het einde krijgt u een overzicht van hoeveel de app gebruikt is, en de prijs om hem te houden." }
+    ]
+  },
+  "form": {
+    "organization": "Organisatie",
+    "name": "Uw naam",
+    "email": "Uw zakelijke e-mailadres",
+    "emailHint": "Hier sturen we de pilotlink naartoe.",
+    "people": "Hoeveel mensen gaan de app ongeveer gebruiken?",
+    "peopleOptions": ["1 tot 5", "6 tot 19", "20 tot 50", "Meer dan 50"],
+    "submit": "Stuur mij de pilotlink",
+    "sending": "Versturen…",
+    "note": "30 dagen gratis, voor maximaal 5 personen. Niets te betalen, niets te tekenen.",
+    "sentTitle": "Kijk in uw inbox",
+    "sentTo": "Uw pilotlink is onderweg naar {email}, met een bericht dat u kunt doorsturen naar de mensen die de app gaan gebruiken.",
+    "resentTo": "We hebben uw pilotlink opnieuw naar {email} gestuurd, met een bericht dat u kunt doorsturen naar de mensen die de app gaan gebruiken.",
+    "sentHelp": "Meestal komt hij binnen een minuut aan. Niet ontvangen? Kijk in uw spammap of mail naar {address}.",
+    "errors": {
+      "org": "Vul de naam van uw organisatie in.",
+      "email": "Dat e-mailadres lijkt niet te kloppen.",
+      "tooMany": "Er kwamen vandaag te veel aanvragen vanaf hier. Mail in plaats daarvan naar {address}.",
+      "domainLimit": "Uw organisatie heeft al lopende pilots. Mail naar {address}, dan voegen we er meer toe.",
+      "busy": "We kregen vandaag erg veel aanvragen. Mail naar {address}, dan heeft u uw link binnen een dag.",
+      "server": "Er ging iets mis{code}. Probeer het opnieuw of mail naar {address}.",
+      "network": "Versturen mislukt. Controleer uw verbinding en probeer het opnieuw."
+    }
+  },
+  "pricing": {
+    "eyebrow": "Prijzen",
+    "title": "Eén prijs per persoon, per jaar",
+    "subtitle": "Betaling op factuur, per bankoverschrijving. Prijzen exclusief btw, waar van toepassing.",
+    "plans": ["1 tot 19 personen", "20 personen of meer"],
+    "perPersonYear": "per persoon per jaar",
+    "otherCurrencies": "{a} of {b}",
+    "includedTitle": "Inbegrepen",
+    "included": [
+      "Captio AI Plus voor iedere persoon, 12 maanden lang",
+      "Eén link om door te sturen: binnen een minuut doet iemand mee",
+      "Gebruikscijfers, nooit wat er gezegd is",
+      "Een opstartgesprek, als u dat wilt",
+      "Ondersteuning per e-mail, rechtstreeks van de oprichter",
+      "Een offerte, uw inkooporder, een factuur",
+      "Een verwerkersovereenkomst",
+      "Geen minimum, geen opstartkosten, geen automatische verlenging"
+    ],
+    "quote": "Vraag een offerte aan"
+  },
+  "data": {
+    "eyebrow": "Voor uw privacyteam",
+    "title": "Hoe er met gegevens wordt omgegaan",
+    "items": [
+      { "title": "Opgeslagen in de EU", "description": "Accounts en opgeslagen transcripten staan in de Europese Unie (Frankfurt)." },
+      { "title": "Audio wordt niet op onze servers bewaard", "description": "Spraak wordt realtime verwerkt om de ondertiteling te maken. De audio van opnames die mensen bewaren, blijft op hun eigen telefoon." },
+      { "title": "Nooit gebruikt om AI te trainen", "description": "Geen enkele inhoud wordt verkocht, gedeeld voor advertenties of gebruikt om AI-modellen te trainen, niet door ons en niet door een dienstverlener die wij gebruiken." },
+      { "title": "Elke verwerker staat vermeld", "description": "Ons privacybeleid noemt elk bedrijf dat gegevens verwerkt, en waarvoor. Doorgiften buiten het VK en de EER zijn gedekt door modelcontractbepalingen." },
+      { "title": "Een verwerkersovereenkomst", "description": "Die sluiten we met uw organisatie voor betaalde licenties, wanneer u ons de namen of e-mailadressen stuurt van de mensen die toegang krijgen." },
+      { "title": "Verwijderen", "description": "Iedereen kan het eigen account en de eigen opnames op elk moment in de app verwijderen." }
+    ],
+    "dpa": "Vraag de verwerkersovereenkomst aan",
+    "privacy": "Lees het privacybeleid"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Veelgestelde vragen",
+    "items": [
+      { "q": "Wat is Captio AI?", "a": "Een app voor iPhone en Android die als tekst laat zien wat mensen zeggen, op het moment dat ze het zeggen, in 60+ talen. Doven en slechthorenden gebruiken hem bij gesprekken in dezelfde ruimte, overal waar ze ondertiteling nodig hebben: app openen, op de microfoon tikken en meelezen. De app kan ook vertalen, sprekers uit elkaar houden en bekende mensen bij hun naam noemen, laten zien waar een stem vandaan komt (iPhone 16 en nieuwer), geluiden zoals een deurbel of een alarm in de ondertiteling zetten, en bewaren en samenvatten wat er gezegd is." },
+      { "q": "Voor wie is Captio AI voor organisaties?", "a": "Voor elke organisatie die ondertiteling betaalt voor doven en slechthorenden. Iedere persoon krijgt een jaar lang Captio AI Plus op de eigen telefoon, en de organisatie betaalt één factuur." },
+      { "q": "Wat kost het?", "a": "£89, €99 of $109 per persoon per jaar voor 1 tot 19 personen, en £69, €79 of $89 per persoon per jaar vanaf 20 personen. Er is geen minimum en er zijn geen opstartkosten. Prijzen exclusief btw, waar van toepassing." },
+      { "q": "Hoe betalen we?", "a": "Op factuur, per bankoverschrijving. We sturen eerst een offerte en werken graag mee met uw inkoopproces." },
+      { "q": "Kunnen we het eerst uitproberen?", "a": "Ja, met een gratis pilot van 30 dagen voor maximaal 5 personen. Vul het formulier op deze pagina in en de link om door te sturen staat binnen een minuut in uw mailbox. Niets te betalen en niets te tekenen." },
+      { "q": "Moeten de mensen die de app gebruiken iets betalen of instellen?", "a": "Nee. Ze openen de link die u doorstuurt, gaan verder met Apple of Google, downloaden Captio AI gratis op iPhone of Android en loggen in met hetzelfde account. Ze hebben meteen de volledige versie. Uw IT-afdeling hoeft niets te installeren." },
+      { "q": "Wat zien wij van het gebruik?", "a": "Alleen totalen: hoeveel mensen meedoen, hoeveel Captio AI de afgelopen week hebben geopend, en hoeveel opnames er zijn bewaard en hoe lang die zijn. Nooit wat er gezegd is, en nooit wie het zei." },
+      { "q": "Hoe voegen we na de aankoop mensen toe?", "a": "Met dezelfde link. Zodra uw licenties actief zijn, kan iedereen naar wie u hem stuurt meedoen, tot het aantal licenties dat u heeft. Mensen uit de pilot houden alles wat ze hebben bewaard." },
+      { "q": "Wat gebeurt er na 12 maanden?", "a": "Een maand voordat de licenties aflopen, sturen we een offerte voor verlenging. Niets wordt automatisch verlengd of in rekening gebracht." },
+      { "q": "Vervangt het een schrijftolk of notulist?", "a": "Niet in elk geval. Captio AI geeft direct ondertiteling, waar de persoon ook is, zonder dat er iemand vooraf geboekt hoeft te worden. Waar een foutloos verslag nodig is, gebruiken veel organisaties het naast menselijke ondersteuning." },
+      { "q": "Waar worden onze gegevens opgeslagen, en wie verwerkt ze?", "a": "Accounts en opgeslagen transcripten staan in de EU (Frankfurt). Audio wordt realtime verwerkt en niet op onze servers bewaard. Ons privacybeleid noemt elk bedrijf dat gegevens verwerkt. Niets wordt gebruikt om AI-modellen te trainen." },
+      { "q": "Kan iemand Captio AI Plus ook zelf kopen?", "a": "Ja, in de app. Licenties voor organisaties zijn bedoeld voor als een organisatie voor iemand betaalt." }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Gratis pilot",
+    "title": "Ervaar het met uw eigen mensen",
+    "body": "Maximaal 5 personen, 30 dagen gratis. De link staat binnen een minuut in uw inbox. Eerst vragen? Mail naar {address}."
+  },
+  "join": {
+    "metaTitle": "Captio AI via {org}",
+    "metaDescription": "{org} geeft je Captio AI: live ondertiteling van wat mensen zeggen, op je eigen telefoon.",
+    "gives": "{org} geeft je",
+    "title": "Live ondertiteling op je telefoon",
+    "pilotOffer": "De volledige versie van Captio AI, {days} dagen gratis.",
+    "paidOffer": "De volledige versie van Captio AI tot {date}, betaald door {org}.",
+    "about": "Ondertiteling van wat mensen zeggen, terwijl ze praten, in 60+ talen.",
+    "steps": ["Ga hieronder verder met Apple of Google", "Download Captio AI in de App Store of op Google Play", "Meld je in de app aan met hetzelfde account"],
+    "continueApple": "Ga door met Apple",
+    "continueGoogle": "Ga door met Google",
+    "signingIn": "Inloggen…",
+    "alreadyUse": "Gebruik je Captio AI al? Ga verder met het account dat je in de app gebruikt.",
+    "nothingToPay": "Niets te betalen. Na de gratis dagen stopt het gewoon.",
+    "privacyNote": "{org} ziet alleen hoeveel mensen meedoen en hoeveel Captio AI in totaal gebruikt is, nooit wat er gezegd is.",
+    "privacyLink": "Privacybeleid",
+    "joined": "Je doet mee",
+    "alreadyJoined": "Je doet al mee",
+    "until": "Je hebt de volledige versie van Captio AI tot {date}.",
+    "getAppStore": "Download Captio AI in de App Store",
+    "getGooglePlay": "Download Captio AI op Google Play",
+    "phoneApp": "Captio AI is een app voor je telefoon: download hem op je iPhone of Android-telefoon.",
+    "thenSignIn": "Log daarna bij Captio AI in met hetzelfde {provider}-account. Heb je de app al? Sluit hem en open hem opnieuw.",
+    "endedTitle": "Je gratis dagen zijn voorbij",
+    "endedBody": "Je Captio AI via {org} is op {date} afgelopen. Vraag {org} of je het kunt houden.",
+    "closed": {
+      "fullTitle": "Alle plaatsen zijn bezet",
+      "full": "Alle {seats} plaatsen van {org} zijn bezet. Vraag {org} naar meer plaatsen.",
+      "stoppedTitle": "Deze link is gesloten",
+      "stopped": "Vraag {org} om een nieuwe.",
+      "expiredTitle": "Deze pilotlink is verlopen",
+      "expired": "Vraag {org} om een nieuwe.",
+      "endedTitle": "De licenties van {org} zijn afgelopen",
+      "ended": "Vraag {org} of Captio AI wordt verlengd."
+    },
+    "failures": {
+      "full": "Alle plaatsen van {org} zijn bezet. Vraag {org} naar meer plaatsen.",
+      "stopped": "Deze link is gesloten. Vraag {org} om een nieuwe.",
+      "linkExpired": "Deze pilotlink is verlopen. Vraag {org} om een nieuwe.",
+      "ended": "De licenties van {org} zijn afgelopen.",
+      "otherOrg": "Je account krijgt Captio AI al via een andere organisatie.",
+      "hadPilot": "Dit account heeft al een gratis pilot gehad. Vraag {org} of je Captio AI kunt houden.",
+      "notFound": "Deze link werkt niet. Vraag degene die hem stuurde om een nieuwe.",
+      "signInFailed": "Inloggen is niet gelukt. Probeer het opnieuw.",
+      "couldNotAdd": "We konden je nu niet toevoegen. Probeer het opnieuw.",
+      "generic": "Er ging iets mis. Probeer het opnieuw."
+    },
+    "invalidTitle": "Deze link werkt niet",
+    "invalidBody": "Controleer of hij helemaal is gekopieerd, of vraag degene die hem stuurde om een nieuwe.",
+    "errorTitle": "Deze pagina kon niet worden geladen",
+    "errorBody": "Probeer het zo opnieuw."
+  }
+}

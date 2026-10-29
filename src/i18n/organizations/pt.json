@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "title": "Legendas ao vivo para empresas e organizações",
+    "description": "O Captio AI mostra legendas ao vivo no celular de pessoas surdas e com perda auditiva, em mais de 60 idiomas. Licenças anuais com fatura e piloto grátis."
+  },
+  "header": {
+    "forOrganizations": "para organizações",
+    "startPilot": "Começar um piloto grátis",
+    "chooseLanguage": "Escolha um idioma"
+  },
+  "hero": {
+    "eyebrow": "🏢 Captio AI para organizações",
+    "title": "Legendas ao vivo no celular, assim que alguém [fala]",
+    "description": "O Captio AI é um app para pessoas surdas e com perda auditiva. Ele escuta e mostra em texto o que é dito, presencialmente, em mais de 60 idiomas. Ofereça o app às pessoas da sua organização que precisam dele: uma licença anual por pessoa, com pagamento por fatura.",
+    "seeHow": "Veja como funciona",
+    "pilotNote": "Grátis por 30 dias, para até 5 pessoas. Nada a pagar, nada a assinar.",
+    "facts": ["iPhone e Android", "Mais de 60 idiomas", "Dados armazenados na UE"],
+    "videoLabel": "Captio AI mostrando legendas ao vivo de duas pessoas conversando, com uma etiqueta para cada falante"
+  },
+  "features": {
+    "eyebrow": "O que o Captio AI faz",
+    "title": "Legendas ao vivo, tradução e transcrição",
+    "subtitle": "Três ferramentas em um só app, no próprio celular, em mais de 60 idiomas.",
+    "items": [
+      { "label": "Legendas ao vivo", "title": "Cada palavra, no momento em que é dita", "description": "É só abrir o app, tocar no microfone e ler. Cada falante ganha sua própria etiqueta, então fica claro quem disse o quê." },
+      { "label": "Tradução ao vivo", "title": "Os dois idiomas lado a lado", "description": "Quando alguém fala outro idioma, aparecem ao mesmo tempo o que foi dito e a tradução." },
+      { "label": "Transcrição", "title": "Gravações e arquivos em texto", "description": "É possível salvar qualquer conversa ou adicionar um arquivo de áudio ou vídeo e receber a transcrição completa com um resumo com IA." }
+    ]
+  },
+  "languages": {
+    "eyebrow": "Mais de 60 idiomas",
+    "title": "Legendas nos idiomas falados na sua organização",
+    "subtitle": "Legendas ao vivo, tradução e transcrição em todos eles, inclusive para quem troca de idioma no meio da frase."
+  },
+  "awareness": {
+    "eyebrow": "Feito para pessoas surdas e com perda auditiva",
+    "title": "Mais do que palavras na tela",
+    "subtitle": "Quem está falando, onde a pessoa está e o que mais está acontecendo: o que importa quando não se consegue ouvir o ambiente.",
+    "items": [
+      { "title": "Sabe quem está falando", "description": "Basta salvar uma vez a voz de uma pessoa, com cerca de 20 segundos de fala, para que as legendas mostrem o nome dela em vez de “Falante 2”, ao vivo e nas gravações salvas. As vozes são criadas e ficam no celular.", "where": "iPhone" },
+      { "title": "Mostra de onde vem a voz", "description": "Ondas na borda da tela mostram de que lado vem uma voz, na cor de quem está falando, para saber para onde olhar em um ambiente movimentado.", "where": "iPhone 16 e posteriores" },
+      { "title": "Ouve os sons ao redor", "description": "Os sons aparecem nas legendas, como nas legendas de filmes. Uma campainha, um alarme ou um bebê chorando também fazem o celular vibrar.", "where": "iPhone e iPad" }
+    ],
+    "drawing": {
+      "otherName": "Ana",
+      "me": "Eu",
+      "voicesLine1": "Podemos passar a reunião para sexta?",
+      "voicesLine2": "Pode ser na sexta.",
+      "directionLine": "Estou aqui, à sua esquerda.",
+      "soundsBefore": "Nos vemos às três.",
+      "sound": "[campainha tocando]",
+      "soundsAfter": "Quem será?",
+      "vibrates": "O celular vibra"
+    }
+  },
+  "reasons": {
+    "eyebrow": "Para a sua organização",
+    "title": "Por que as organizações escolhem o Captio AI",
+    "items": [
+      { "title": "Pronto quando for preciso", "description": "Sem precisar reservar um serviço de legendagem com antecedência. As legendas começam com um toque, onde quer que a pessoa esteja." },
+      { "title": "No próprio celular", "description": "iPhone ou Android. Nada para a sua equipe de TI instalar e nenhum equipamento para distribuir." },
+      { "title": "Privacidade desde a concepção", "description": "Dados armazenados na UE. O áudio não fica nos nossos servidores, e nada é usado para treinar IA." },
+      { "title": "Simples de contratar", "description": "Um preço por pessoa por ano, com fatura. Sem mínimo, sem taxa de implantação, sem renovação automática." }
+    ]
+  },
+  "pilot": {
+    "eyebrow": "Piloto grátis",
+    "title": "Teste por 30 dias com até 5 pessoas",
+    "steps": [
+      { "title": "Receba seu link do piloto", "description": "Preencha o formulário abaixo. O link chega à sua caixa de entrada em menos de um minuto, com uma mensagem pronta para encaminhar." },
+      { "title": "Encaminhe para até 5 pessoas", "description": "Cada pessoa abre o link no celular, continua com a Apple ou o Google e recebe o Captio AI no iPhone ou Android." },
+      { "title": "Versão completa por 30 dias", "description": "Nenhum dado pessoal da sua parte, então nada de papelada. Perto do fim, você recebe um resumo de quanto o app foi usado e o preço para continuar." }
+    ]
+  },
+  "form": {
+    "organization": "Organização",
+    "name": "Seu nome",
+    "email": "Seu e-mail corporativo",
+    "emailHint": "O link do piloto será enviado para este endereço.",
+    "people": "Quantas pessoas devem usar, aproximadamente?",
+    "peopleOptions": ["De 1 a 5", "De 6 a 19", "De 20 a 50", "Mais de 50"],
+    "submit": "Enviar o link do piloto",
+    "sending": "Enviando…",
+    "note": "Grátis por 30 dias, para até 5 pessoas. Nada a pagar, nada a assinar.",
+    "sentTitle": "Confira sua caixa de entrada",
+    "sentTo": "Seu link do piloto está a caminho de {email}, com uma mensagem que você pode encaminhar para as pessoas que vão usar o app.",
+    "resentTo": "Enviamos seu link do piloto de novo para {email}, com uma mensagem que você pode encaminhar para as pessoas que vão usar o app.",
+    "sentHelp": "Normalmente chega em menos de um minuto. Não chegou? Confira a pasta de spam ou escreva para {address}.",
+    "errors": {
+      "org": "Informe o nome da sua organização.",
+      "email": "Esse endereço de e-mail não parece correto.",
+      "tooMany": "Recebemos solicitações demais daqui hoje. Por favor, escreva para {address}.",
+      "domainLimit": "Sua organização já tem pilotos em andamento. Escreva para {address} e adicionaremos mais.",
+      "busy": "Recebemos muitas solicitações hoje. Escreva para {address} e você receberá seu link em até um dia.",
+      "server": "Algo deu errado{code}. Tente novamente ou escreva para {address}.",
+      "network": "Não foi possível enviar. Verifique sua conexão e tente novamente."
+    }
+  },
+  "pricing": {
+    "eyebrow": "Preços",
+    "title": "Um preço por pessoa, por ano",
+    "subtitle": "Pagamento por fatura e transferência bancária. Os preços não incluem IVA, quando aplicável.",
+    "plans": ["De 1 a 19 pessoas", "20 pessoas ou mais"],
+    "perPersonYear": "por pessoa por ano",
+    "otherCurrencies": "{a} ou {b}",
+    "includedTitle": "Incluído",
+    "included": [
+      "Captio AI Plus para cada pessoa, por 12 meses",
+      "Um único link para encaminhar: as pessoas entram em um minuto",
+      "Números de uso, nunca o que foi dito",
+      "Uma chamada de implantação, se você quiser",
+      "Suporte por e-mail direto com o fundador",
+      "Orçamento, seu pedido de compra e fatura",
+      "Um acordo de tratamento de dados (DPA)",
+      "Sem mínimo, sem taxa de implantação, sem renovação automática"
+    ],
+    "quote": "Solicitar um orçamento"
+  },
+  "data": {
+    "eyebrow": "Para a sua equipe de proteção de dados",
+    "title": "Como os dados são tratados",
+    "items": [
+      { "title": "Armazenados na UE", "description": "Contas e transcrições salvas ficam armazenadas na União Europeia (Frankfurt)." },
+      { "title": "O áudio não fica nos nossos servidores", "description": "A fala é processada em tempo real para gerar as legendas. O áudio das gravações que as pessoas salvam fica no próprio celular delas." },
+      { "title": "Nunca usados para treinar IA", "description": "Nenhum conteúdo é vendido, compartilhado para publicidade ou usado para treinar modelos de IA, nem por nós, nem por nenhum fornecedor que usamos." },
+      { "title": "Todos os operadores estão listados", "description": "Nossa política de privacidade cita cada empresa que trata dados e para quê. Transferências para fora do Reino Unido e do EEE são cobertas por cláusulas contratuais-tipo." },
+      { "title": "Um acordo de tratamento de dados", "description": "Assinamos um com a sua organização para licenças pagas, quando você nos envia os nomes ou e-mails das pessoas que terão acesso." },
+      { "title": "Exclusão", "description": "Qualquer pessoa pode excluir a própria conta e as gravações no app, a qualquer momento." }
+    ],
+    "dpa": "Solicitar o acordo de tratamento de dados",
+    "privacy": "Ler a política de privacidade"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Perguntas frequentes",
+    "items": [
+      { "q": "O que é o Captio AI?", "a": "Um app para iPhone e Android que mostra em texto o que as pessoas dizem, no momento em que dizem, em mais de 60 idiomas. Pessoas surdas e com perda auditiva o usam presencialmente, onde quer que precisem de legendas: abrem o app, tocam no microfone e leem. Ele também traduz, distingue os falantes e chama pelo nome as pessoas que conhece, mostra de onde vem uma voz (iPhone 16 e posteriores), escreve nas legendas sons como uma campainha ou um alarme, e salva e resume o que foi dito." },
+      { "q": "Para quem é o Captio AI para organizações?", "a": "Para qualquer organização que pague por legendagem em nome de pessoas surdas e com perda auditiva. Cada pessoa recebe o Captio AI Plus no próprio celular por um ano, e a organização paga uma única fatura." },
+      { "q": "Quanto custa?", "a": "£89, €99 ou $109 por pessoa por ano, de 1 a 19 pessoas, e £69, €79 ou $89 por pessoa por ano a partir de 20 pessoas. Não há mínimo nem taxa de implantação. Os preços não incluem IVA, quando aplicável." },
+      { "q": "Como pagamos?", "a": "Por fatura e transferência bancária. Primeiro enviamos um orçamento, e nos adaptamos com prazer ao seu processo de pedido de compra." },
+      { "q": "Podemos testar antes?", "a": "Sim, com um piloto grátis de 30 dias para até 5 pessoas. Preencha o formulário desta página e o link para encaminhar chega por e-mail em menos de um minuto. Nada a pagar e nada a assinar." },
+      { "q": "As pessoas que vão usar precisam pagar ou configurar algo?", "a": "Não. Elas abrem o link que você encaminha, continuam com a Apple ou o Google, baixam o Captio AI gratuitamente no iPhone ou Android e entram com a mesma conta. Elas têm a versão completa na hora. Sua equipe de TI não precisa instalar nada." },
+      { "q": "O que vemos sobre o uso?", "a": "Apenas totais: quantas pessoas entraram, quantas abriram o Captio AI na última semana e quantas gravações foram salvas e qual a duração delas. Nunca o que foi dito, nem quem disse." },
+      { "q": "Como adicionamos pessoas depois da compra?", "a": "Com o mesmo link. Depois que suas licenças estiverem ativas, qualquer pessoa para quem você o enviar pode entrar, até o número de licenças contratadas. Quem participou do piloto mantém tudo o que salvou." },
+      { "q": "O que acontece depois de 12 meses?", "a": "Enviamos um orçamento de renovação um mês antes de as licenças terminarem. Nada é renovado ou cobrado automaticamente." },
+      { "q": "Ele substitui um estenotipista ou alguém que faz anotações?", "a": "Nem sempre. O Captio AI oferece legendas instantâneas onde quer que a pessoa esteja, sem reservar ninguém com antecedência. Quando é necessário um registro perfeito, muitos serviços o usam junto com apoio humano." },
+      { "q": "Onde nossos dados ficam armazenados e quem os trata?", "a": "Contas e transcrições salvas ficam na UE (Frankfurt). O áudio é processado em tempo real e não fica nos nossos servidores. Nossa política de privacidade lista cada empresa que trata dados. Nada é usado para treinar modelos de IA." },
+      { "q": "Uma pessoa pode comprar o Captio AI Plus por conta própria?", "a": "Sim, dentro do app. As licenças para organizações são para quando uma organização paga em nome de alguém." }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Piloto grátis",
+    "title": "Teste com quem vai usar",
+    "body": "Até 5 pessoas, grátis por 30 dias. O link chega à sua caixa de entrada em menos de um minuto. Tem dúvidas antes? Escreva para {address}."
+  },
+  "join": {
+    "metaTitle": "Captio AI por {org}",
+    "metaDescription": "{org} oferece o Captio AI para você: legendas ao vivo do que as pessoas dizem, no seu próprio celular.",
+    "gives": "{org} oferece a você",
+    "title": "Legendas ao vivo no seu celular",
+    "pilotOffer": "A versão completa do Captio AI, grátis por {days} dias.",
+    "paidOffer": "A versão completa do Captio AI até {date}, paga por {org}.",
+    "about": "Legendas do que as pessoas dizem, enquanto falam, em mais de 60 idiomas.",
+    "steps": ["Continue com a Apple ou o Google aqui embaixo", "Baixe o Captio AI na App Store ou no Google Play", "Entre no app com a mesma conta"],
+    "continueApple": "Continuar com a Apple",
+    "continueGoogle": "Continuar com o Google",
+    "signingIn": "Entrando…",
+    "alreadyUse": "Já usa o Captio AI? Continue com a conta que você usa no app.",
+    "nothingToPay": "Nada a pagar. O acesso simplesmente termina depois dos dias grátis.",
+    "privacyNote": "{org} só vê quantas pessoas entraram e quanto o Captio AI foi usado no total, nunca o que foi dito.",
+    "privacyLink": "Política de privacidade",
+    "joined": "Pronto, você entrou",
+    "alreadyJoined": "Você já tinha entrado",
+    "until": "Você tem a versão completa do Captio AI até {date}.",
+    "getAppStore": "Baixe o Captio AI na App Store",
+    "getGooglePlay": "Baixe o Captio AI no Google Play",
+    "phoneApp": "O Captio AI é um app de celular: baixe no seu iPhone ou celular Android.",
+    "thenSignIn": "Depois, entre no Captio AI com a mesma conta {provider}. Já tem o app? Feche e abra de novo.",
+    "endedTitle": "Seus dias grátis terminaram",
+    "endedBody": "Seu acesso ao Captio AI oferecido por {org} terminou em {date}. Fale com {org} sobre continuar usando o app.",
+    "closed": {
+      "fullTitle": "Todas as vagas foram preenchidas",
+      "full": "As {seats} vagas de {org} foram preenchidas. Fale com {org} sobre mais vagas.",
+      "stoppedTitle": "Este link foi desativado",
+      "stopped": "Peça um novo a {org}.",
+      "expiredTitle": "Este link do piloto expirou",
+      "expired": "Peça um novo a {org}.",
+      "endedTitle": "As licenças de {org} terminaram",
+      "ended": "Pergunte a {org} se vai renovar o Captio AI."
+    },
+    "failures": {
+      "full": "Todas as vagas de {org} foram preenchidas. Fale com {org} sobre mais vagas.",
+      "stopped": "Este link foi desativado. Peça um novo a {org}.",
+      "linkExpired": "Este link do piloto expirou. Peça um novo a {org}.",
+      "ended": "As licenças de {org} terminaram.",
+      "otherOrg": "Sua conta já recebe o Captio AI por meio de outra organização.",
+      "hadPilot": "Esta conta já teve um piloto grátis. Fale com {org} sobre continuar com o Captio AI.",
+      "notFound": "Este link não funciona. Peça um novo para quem enviou.",
+      "signInFailed": "Não foi possível entrar. Tente novamente.",
+      "couldNotAdd": "Não foi possível adicionar você agora. Tente novamente.",
+      "generic": "Algo deu errado. Tente novamente."
+    },
+    "invalidTitle": "Este link não funciona",
+    "invalidBody": "Verifique se ele foi copiado por inteiro ou peça um novo para quem enviou.",
+    "errorTitle": "Não foi possível carregar esta página",
+    "errorBody": "Tente novamente em instantes."
+  }
+}

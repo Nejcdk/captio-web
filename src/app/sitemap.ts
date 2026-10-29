@@ -20,7 +20,7 @@ const UPDATED = {
   useCases: "2026-10-13", // /use-cases/[slug] and /use-cases/[slug]/[language]
   privacy: "2026-10-07",
   terms: "2026-10-07",
-  organizations: "2026-10-27",
+  organizations: "2026-10-28",
   translations: "2026-10-28", // /<code> and /<code>/<feature>
   moreFeatures: "2026-10-28", // /ai-actions, /export, /folders, /recognize-voices, /speaker-direction, /recognize-sounds, /connectors, /widgets
 };
@@ -46,6 +46,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const page of ["home", ...FEATURE_SLUGS] as const) {
       entries.push({ url: `${SITE_URL}${pagePath(code, page)}`, lastModified: UPDATED.translations });
     }
+    // and /de/organizations
+    entries.push({ url: `${SITE_URL}${pagePath(code, "organizations")}`, lastModified: UPDATED.organizations });
   }
 
   // 60 language pages — /[language]

@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "title": "Tiesioginiai subtitrai organizacijoms ir įmonėms",
+    "description": "Captio AI rodo kurtiesiems ir neprigirdintiesiems tiesioginius subtitrus telefone, 60+ kalbų. Metinės licencijos pagal sąskaitą. Nemokamas 30 d. bandymas."
+  },
+  "header": {
+    "forOrganizations": "Organizacijoms",
+    "startPilot": "Pradėti nemokamą bandymą",
+    "chooseLanguage": "Pasirinkite kalbą"
+  },
+  "hero": {
+    "eyebrow": "🏢 Captio AI organizacijoms",
+    "title": "Tiesioginiai subtitrai jų telefone, vos tik žmonės [prabyla]",
+    "description": "Captio AI – programėlė kurtiesiems ir neprigirdintiesiems. Ji klauso ir tekstu parodo, kas sakoma pokalbyje gyvai, 60+ kalbų. Suteikite ją savo organizacijos žmonėms, kuriems jos reikia: po vieną metinę licenciją kiekvienam, apmokama pagal sąskaitą faktūrą.",
+    "seeHow": "Kaip tai veikia",
+    "pilotNote": "Nemokamai 30 dienų, iki 5 žmonių. Nereikia nei mokėti, nei ką nors pasirašyti.",
+    "facts": ["iPhone ir Android", "60+ kalbų", "Duomenys saugomi ES"],
+    "videoLabel": "Captio AI rodo tiesioginius dviejų kalbančių žmonių subtitrus, kiekvienas kalbėtojas pažymėtas atskirai"
+  },
+  "features": {
+    "eyebrow": "Ką daro Captio AI",
+    "title": "Tiesioginiai subtitrai, vertimas ir transkripcija",
+    "subtitle": "Trys įrankiai vienoje programėlėje, jų pačių telefone, 60+ kalbų.",
+    "items": [
+      { "label": "Tiesioginiai subtitrai", "title": "Kiekvienas žodis, vos tik ištartas", "description": "Atidarykite programėlę, palieskite mikrofoną ir skaitykite. Kiekvienas kalbėtojas pažymimas atskirai, todėl aišku, kas ką pasakė." },
+      { "label": "Tiesioginis vertimas", "title": "Abi kalbos greta", "description": "Kai kas nors kalba kita kalba, žmogus tuo pačiu metu mato ir tai, kas pasakyta, ir vertimą." },
+      { "label": "Transkripcija", "title": "Įrašai ir failai – tekstu", "description": "Išsaugokite bet kurį pokalbį arba įkelkite garso ar vaizdo failą ir gaukite visą transkripciją su DI santrauka." }
+    ]
+  },
+  "languages": {
+    "eyebrow": "60+ kalbų",
+    "title": "Subtitrai kalbomis, kuriomis kalba jūsų žmonės",
+    "subtitle": "Tiesioginiai subtitrai, vertimas ir transkripcija kiekviena iš jų, net kai žmonės pakeičia kalbą sakinio viduryje."
+  },
+  "awareness": {
+    "eyebrow": "Sukurta kurtiesiems ir neprigirdintiesiems",
+    "title": "Daugiau nei žodžiai ekrane",
+    "subtitle": "Kas kalba, iš kur sklinda balsas ir kas dar vyksta aplinkui: tai, kas svarbu tiems, kurie negirdi aplinkos.",
+    "items": [
+      { "title": "Žino, kas kalba", "description": "Vieną kartą išsaugokite žmogaus balsą (užtenka maždaug 20 sekundžių jo kalbos), ir subtitruose vietoj „Kalbėtojas 2“ bus rodomas jo vardas, tiek gyvai, tiek išsaugotuose įrašuose. Balso atspaudai sukuriami ir saugomi pačiame telefone.", "where": "iPhone" },
+      { "title": "Rodo, iš kur sklinda balsas", "description": "Bangos ekrano pakraštyje to kalbėtojo spalva rodo, iš kurios pusės sklinda balsas, todėl triukšmingoje patalpoje aišku, kur žiūrėti.", "where": "iPhone 16 ir naujesni" },
+      { "title": "Girdi aplinkos garsus", "description": "Garsai subtitruose rodomi taip, kaip filmų subtitruose. Durų skambutis, signalizacija ar verkiantis kūdikis dar ir suvirpina telefoną.", "where": "iPhone ir iPad" }
+    ],
+    "drawing": {
+      "otherName": "Rūta",
+      "me": "Aš",
+      "voicesLine1": "Gal perkeliam susitikimą į penktadienį?",
+      "voicesLine2": "Man penktadienis tinka.",
+      "directionLine": "Aš čia, tavo kairėje.",
+      "soundsBefore": "Iki trečios.",
+      "sound": "[skamba durų skambutis]",
+      "soundsAfter": "Kas ten?",
+      "vibrates": "Telefonas suvirpa"
+    }
+  },
+  "reasons": {
+    "eyebrow": "Jūsų organizacijai",
+    "title": "Kodėl organizacijos renkasi Captio AI",
+    "items": [
+      { "title": "Paruošta tą akimirką, kai reikia", "description": "Nereikia iš anksto užsakyti subtitrų rengėjo. Subtitrai įsijungia vienu palietimu, kad ir kur žmogus būtų." },
+      { "title": "Jų pačių telefone", "description": "iPhone arba Android. Jūsų IT komandai nieko nereikia diegti, nereikia dalyti jokios įrangos." },
+      { "title": "Privatumas – nuo pat pradžių", "description": "Duomenys saugomi ES. Garsas nelaikomas mūsų serveriuose, o jokie duomenys niekada nenaudojami DI mokyti." },
+      { "title": "Paprasta įsigyti", "description": "Viena kaina vienam žmogui per metus, pagal sąskaitą faktūrą. Jokio minimumo, jokio diegimo mokesčio, niekas neatsinaujina savaime." }
+    ]
+  },
+  "pilot": {
+    "eyebrow": "Nemokamas bandymas",
+    "title": "Išbandykite 30 dienų – iki 5 žmonių",
+    "steps": [
+      { "title": "Gaukite bandymo nuorodą", "description": "Užpildykite žemiau esančią formą. Per minutę nuoroda atkeliaus į jūsų el. paštą kartu su žinute, kurią galėsite persiųsti." },
+      { "title": "Persiųskite ją iki 5 žmonių", "description": "Kiekvienas atsidaro ją telefone, tęsia su Apple arba Google ir atsisiunčia Captio AI programėlę į iPhone ar Android telefoną." },
+      { "title": "30 dienų jie naudojasi pilna versija", "description": "Iš jūsų nereikia jokių asmens duomenų, todėl nereikia ir jokių dokumentų. Artėjant pabaigai gausite suvestinę, kiek programėle naudotasi, ir kainą, jei norėtumėte tęsti." }
+    ]
+  },
+  "form": {
+    "organization": "Organizacija",
+    "name": "Jūsų vardas",
+    "email": "Jūsų darbo el. paštas",
+    "emailHint": "Bandymo nuoroda bus išsiųsta šiuo adresu.",
+    "people": "Maždaug kiek žmonių galėtų ja naudotis?",
+    "peopleOptions": ["Nuo 1 iki 5", "Nuo 6 iki 19", "Nuo 20 iki 50", "Daugiau nei 50"],
+    "submit": "Atsiųsti man bandymo nuorodą",
+    "sending": "Siunčiama…",
+    "note": "Nemokamai 30 dienų, iki 5 žmonių. Nereikia nei mokėti, nei ką nors pasirašyti.",
+    "sentTitle": "Patikrinkite el. paštą",
+    "sentTo": "Bandymo nuoroda jau keliauja adresu {email} kartu su žinute, kurią galėsite persiųsti ja naudosiantiems žmonėms.",
+    "resentTo": "Dar kartą išsiuntėme bandymo nuorodą adresu {email} kartu su žinute, kurią galėsite persiųsti ja naudosiantiems žmonėms.",
+    "sentHelp": "Paprastai ji ateina per minutę. Neradote? Patikrinkite šlamšto aplanką arba parašykite adresu {address}.",
+    "errors": {
+      "org": "Įrašykite savo organizacijos pavadinimą.",
+      "email": "Panašu, kad šis el. pašto adresas neteisingas.",
+      "tooMany": "Šiandien iš čia gauta per daug užklausų. Parašykite mums adresu {address}.",
+      "domainLimit": "Jūsų organizacijoje jau vyksta bandymai. Parašykite adresu {address}, ir pridėsime daugiau.",
+      "busy": "Šiandien sulaukėme daug užklausų. Parašykite adresu {address}, ir nuorodą gausite per dieną.",
+      "server": "Kažkas nepavyko{code}. Bandykite dar kartą arba parašykite adresu {address}.",
+      "network": "Nepavyko išsiųsti. Patikrinkite ryšį ir bandykite dar kartą."
+    }
+  },
+  "pricing": {
+    "eyebrow": "Kainos",
+    "title": "Viena kaina vienam žmogui per metus",
+    "subtitle": "Mokama pagal sąskaitą faktūrą banko pavedimu. Kainos nurodytos be PVM, kai jis taikomas.",
+    "plans": ["Nuo 1 iki 19 žmonių", "20 ir daugiau žmonių"],
+    "perPersonYear": "vienam žmogui per metus",
+    "otherCurrencies": "{a} arba {b}",
+    "includedTitle": "Įskaičiuota",
+    "included": [
+      "Captio AI Plus kiekvienam žmogui 12 mėnesių",
+      "Viena nuoroda persiųsti: žmonės prisijungia per minutę",
+      "Naudojimo suvestinės, niekada ne tai, kas pasakyta",
+      "Įvadinis skambutis, jei norėsite",
+      "Pagalba el. paštu tiesiai iš įkūrėjo",
+      "Komercinis pasiūlymas, jūsų pirkimo užsakymas, sąskaita faktūra",
+      "Duomenų tvarkymo sutartis",
+      "Jokio minimumo, jokio diegimo mokesčio, jokio automatinio pratęsimo"
+    ],
+    "quote": "Prašyti komercinio pasiūlymo"
+  },
+  "data": {
+    "eyebrow": "Jūsų duomenų apsaugos komandai",
+    "title": "Kaip tvarkomi duomenys",
+    "items": [
+      { "title": "Saugoma ES", "description": "Paskyros ir išsaugotos transkripcijos saugomos Europos Sąjungoje (Frankfurte)." },
+      { "title": "Garsas nelaikomas mūsų serveriuose", "description": "Kalba apdorojama realiuoju laiku, kad būtų sukurti subtitrai. Žmonių išsaugotų įrašų garsas lieka jų pačių telefone." },
+      { "title": "Niekada nenaudojama DI mokyti", "description": "Joks turinys neparduodamas, neperduodamas reklamai ir nenaudojamas DI modeliams mokyti – nei mūsų, nei jokio mūsų paslaugų teikėjo." },
+      { "title": "Nurodyti visi duomenų tvarkytojai", "description": "Mūsų privatumo politikoje nurodyta kiekviena duomenis tvarkanti įmonė ir tvarkymo tikslas. Duomenų perdavimui už JK ir EEE ribų taikomos standartinės sutarčių sąlygos." },
+      { "title": "Duomenų tvarkymo sutartis", "description": "Ją pasirašome su jūsų organizacija dėl mokamų licencijų, kai atsiunčiate žmonių, kuriems reikia suteikti prieigą, vardus ar el. pašto adresus." },
+      { "title": "Ištrynimas", "description": "Kiekvienas bet kada gali programėlėje ištrinti savo paskyrą ir įrašus." }
+    ],
+    "dpa": "Prašyti duomenų tvarkymo sutarties",
+    "privacy": "Skaityti privatumo politiką"
+  },
+  "faq": {
+    "eyebrow": "DUK",
+    "title": "Dažniausiai užduodami klausimai",
+    "items": [
+      { "q": "Kas yra Captio AI?", "a": "Programėlė iPhone ir Android telefonams, kuri tekstu parodo, ką žmonės sako, tą pačią akimirką, kai jie kalba, 60+ kalbų. Kurtieji ir neprigirdintieji ja naudojasi bendraudami gyvai, visur, kur jiems reikia subtitrų: atsidaro, paliečia mikrofoną ir skaito. Ji taip pat gali versti, atskirti kalbėtojus ir pažįstamus žmones vadinti vardais, rodyti, iš kur sklinda balsas (iPhone 16 ir naujesniuose), įrašyti į subtitrus garsus, pavyzdžiui, durų skambutį ar signalizaciją, ir išsaugoti bei apibendrinti, kas buvo pasakyta." },
+      { "q": "Kam skirta Captio AI organizacijoms?", "a": "Bet kuriai organizacijai, kuri apmoka subtitravimą kurtiesiems ir neprigirdintiesiems. Kiekvienas žmogus metams gauna Captio AI Plus savo telefone, o organizacija apmoka vieną sąskaitą faktūrą." },
+      { "q": "Kiek tai kainuoja?", "a": "£89, €99 arba $109 vienam žmogui per metus, kai žmonių yra nuo 1 iki 19, ir £69, €79 arba $89 vienam žmogui per metus nuo 20 žmonių. Jokio minimumo ir jokio diegimo mokesčio. Kainos nurodytos be PVM, kai jis taikomas." },
+      { "q": "Kaip mokame?", "a": "Pagal sąskaitą faktūrą banko pavedimu. Pirmiausia atsiunčiame komercinį pasiūlymą ir mielai prisitaikome prie jūsų pirkimo užsakymų tvarkos." },
+      { "q": "Ar galime pirmiausia išbandyti?", "a": "Taip. Nemokamas 30 dienų bandymas iki 5 žmonių. Užpildykite formą šiame puslapyje, ir nuoroda persiųsti per minutę ateis el. paštu. Nereikia nei mokėti, nei ką nors pasirašyti." },
+      { "q": "Ar ja naudosiantiems žmonėms reikės mokėti ar ką nors nustatyti?", "a": "Ne. Jie atidaro jūsų persiųstą nuorodą, tęsia su Apple arba Google, tada nemokamai atsisiunčia Captio AI programėlę į iPhone ar Android telefoną ir prisijungia ta pačia paskyra. Pilna versija veikia iš karto. Jūsų IT komandai nieko diegti nereikia." },
+      { "q": "Ką matome apie naudojimą?", "a": "Tik bendrus skaičius: kiek žmonių prisijungė, kiek jų per pastarąją savaitę atidarė Captio AI programėlę, kiek įrašų išsaugota ir kokia jų trukmė. Niekada ne tai, kas pasakyta, ir niekada ne tai, kas kalbėjo." },
+      { "q": "Kaip pridėti žmonių po pirkimo?", "a": "Ta pačia nuoroda. Kai jūsų licencijos aktyvuojamos, prisijungti gali kiekvienas, kam ją nusiųsite, kol neviršijamas licencijų skaičius. Bandymo dalyviai pasilieka viską, ką išsaugojo." },
+      { "q": "Kas bus po 12 mėnesių?", "a": "Likus mėnesiui iki licencijų pabaigos atsiunčiame pratęsimo pasiūlymą. Niekas neatsinaujina ir nenuskaičiuojama automatiškai." },
+      { "q": "Ar ji pakeičia subtitrų rengėją ar užrašų darytoją?", "a": "Ne visada. Captio AI pateikia subtitrus akimirksniu, kad ir kur žmogus būtų, nieko neužsakius iš anksto. Kai reikia tobulai tikslaus įrašo, daugelis tarnybų ją naudoja kartu su žmogaus pagalba." },
+      { "q": "Kur saugomi mūsų duomenys ir kas juos tvarko?", "a": "Paskyros ir išsaugotos transkripcijos saugomos ES (Frankfurte). Garsas apdorojamas realiuoju laiku ir nelaikomas mūsų serveriuose. Mūsų privatumo politikoje nurodytos visos duomenis tvarkančios įmonės. Jokie duomenys nenaudojami DI modeliams mokyti." },
+      { "q": "Ar žmogus gali pats įsigyti Captio AI Plus?", "a": "Taip, programėlėje. Organizacijų licencijos skirtos tais atvejais, kai už žmogų moka organizacija." }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Nemokamas bandymas",
+    "title": "Išbandykite su savo žmonėmis",
+    "body": "Iki 5 žmonių, nemokamai 30 dienų. Nuoroda į jūsų el. paštą ateis per minutę. Pirmiausia turite klausimų? Rašykite adresu {address}."
+  },
+  "join": {
+    "metaTitle": "Captio AI – {org}",
+    "metaDescription": "{org} tau suteikia Captio AI: tiesioginius subtitrus to, ką sako žmonės, tavo telefone.",
+    "gives": "{org} kviečia",
+    "title": "Tiesioginiai subtitrai tavo telefone",
+    "pilotOffer": "Pilna Captio AI versija nemokamai {days} d.",
+    "paidOffer": "Pilna Captio AI versija iki {date}, apmoka {org}.",
+    "about": "Subtitrai to, ką sako žmonės, kol jie kalba, 60+ kalbų.",
+    "steps": ["Žemiau tęsk su Apple arba Google", "Atsisiųsk Captio AI programėlę iš App Store arba Google Play", "Prisijunk prie programėlės ta pačia paskyra"],
+    "continueApple": "Tęsti su Apple",
+    "continueGoogle": "Tęsti su Google",
+    "signingIn": "Prisijungiama…",
+    "alreadyUse": "Jau naudojiesi Captio AI? Tęsk su paskyra, kurią naudoji programėlėje.",
+    "nothingToPay": "Nieko mokėti nereikia. Pasibaigus nemokamoms dienoms, ji tiesiog išsijungs.",
+    "privacyNote": "{org} mato tik, kiek žmonių prisijungė ir kiek iš viso naudotasi Captio AI, bet niekada ne tai, kas buvo pasakyta.",
+    "privacyLink": "Privatumo politika",
+    "joined": "Prisijungei",
+    "alreadyJoined": "Tu jau prisijungei anksčiau",
+    "until": "Pilna Captio AI versija tau veikia iki {date}.",
+    "getAppStore": "Atsisiųsk Captio AI iš App Store",
+    "getGooglePlay": "Atsisiųsk Captio AI iš Google Play",
+    "phoneApp": "Captio AI – telefono programėlė: atsisiųsk ją į savo iPhone arba Android telefoną.",
+    "thenSignIn": "Tada prisijunk prie Captio AI programėlės ta pačia {provider} paskyra. Programėlę jau turi? Uždaryk ją ir atidaryk iš naujo.",
+    "endedTitle": "Tavo nemokamos dienos baigėsi",
+    "endedBody": "Prieiga prie Captio AI, kurią suteikė {org}, baigėsi {date}. Jei nori ją pasilikti, kreipkis į organizaciją {org}.",
+    "closed": {
+      "fullTitle": "Visos vietos užimtos",
+      "full": "Visos vietos ({seats}), kurias suteikė {org}, užimtos. Dėl papildomų vietų kreipkis į organizaciją {org}.",
+      "stoppedTitle": "Ši nuoroda uždaryta",
+      "stopped": "Naujos nuorodos paprašyk organizacijos {org}.",
+      "expiredTitle": "Šios bandymo nuorodos galiojimas baigėsi",
+      "expired": "Naujos nuorodos paprašyk organizacijos {org}.",
+      "endedTitle": "Organizacijos {org} licencijos baigėsi",
+      "ended": "Paklausk organizacijos {org}, ar ji pratęs Captio AI licencijas."
+    },
+    "failures": {
+      "full": "Visos organizacijos {org} vietos užimtos. Dėl papildomų vietų kreipkis į organizaciją {org}.",
+      "stopped": "Ši nuoroda uždaryta. Naujos nuorodos paprašyk organizacijos {org}.",
+      "linkExpired": "Šios bandymo nuorodos galiojimas baigėsi. Naujos nuorodos paprašyk organizacijos {org}.",
+      "ended": "Organizacijos {org} licencijos baigėsi.",
+      "otherOrg": "Tavo paskyra jau gauna Captio AI per kitą organizaciją.",
+      "hadPilot": "Ši paskyra jau turėjo nemokamą bandymą. Paklausk organizacijos {org}, ar galima toliau naudotis Captio AI.",
+      "notFound": "Ši nuoroda neveikia. Naujos paprašyk to, kas ją atsiuntė.",
+      "signInFailed": "Prisijungti nepavyko. Bandyk dar kartą.",
+      "couldNotAdd": "Šiuo metu nepavyko tavęs pridėti. Bandyk dar kartą.",
+      "generic": "Kažkas nepavyko. Bandyk dar kartą."
+    },
+    "invalidTitle": "Ši nuoroda neveikia",
+    "invalidBody": "Patikrink, ar ji nukopijuota visa, arba naujos paprašyk to, kas ją atsiuntė.",
+    "errorTitle": "Nepavyko įkelti šio puslapio",
+    "errorBody": "Bandyk dar kartą po akimirkos."
+  }
+}

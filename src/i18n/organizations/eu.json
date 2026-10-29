@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "title": "Zuzeneko azpitituluak erakunde eta enpresentzat",
+    "description": "Captio AI: zuzeneko azpitituluak telefonoan pertsona gorrentzat eta entzumen-galera dutenentzat, 60+ hizkuntzatan. Urteko lizentziak fakturaz. 30 egun doan."
+  },
+  "header": {
+    "forOrganizations": "Erakundeentzat",
+    "startPilot": "Hasi doako proba",
+    "chooseLanguage": "Aukeratu hizkuntza"
+  },
+  "hero": {
+    "eyebrow": "🏢 Captio AI erakundeentzat",
+    "title": "Zuzeneko azpitituluak beren telefonoan, norbaitek [hitz egin] bezain laster",
+    "description": "Captio AI pertsona gorrentzako eta entzumen-galera dutenentzako aplikazioa da. Entzun egiten du, eta esaten dena testu gisa erakusten du, aurrez aurre, 60+ hizkuntzatan. Eman iezaiezu zure erakundean behar duten pertsonei: urteko lizentzia bat bakoitzari, fakturaz ordainduta.",
+    "seeHow": "Ikusi nola dabilen",
+    "pilotNote": "30 egun doan, gehienez 5 pertsonarentzat. Ez dago ezer ordaindu edo sinatu beharrik.",
+    "facts": ["iPhone eta Android", "60+ hizkuntza", "Datuak EBn gordeta"],
+    "videoLabel": "Captio AI aplikazioa bi pertsonaren elkarrizketaren zuzeneko azpitituluak erakusten, hizlari bakoitza bere etiketarekin"
+  },
+  "features": {
+    "eyebrow": "Zer egiten du Captio AI aplikazioak",
+    "title": "Zuzeneko azpitituluak, itzulpena eta transkripzioa",
+    "subtitle": "Hiru tresna aplikazio bakarrean, beren telefonoan, 60+ hizkuntzatan.",
+    "items": [
+      { "label": "Zuzeneko azpitituluak", "title": "Hitz bakoitza, esan ahala", "description": "Ireki aplikazioa, sakatu mikrofonoa eta irakurri. Hizlari bakoitzak bere etiketa du, eta argi dago nork zer esan duen." },
+      { "label": "Zuzeneko itzulpena", "title": "Bi hizkuntzak elkarren ondoan", "description": "Norbaitek beste hizkuntza batean hitz egiten duenean, esandakoa eta haren itzulpena aldi berean ikusten dira." },
+      { "label": "Transkripzioa", "title": "Grabazioak eta fitxategiak testura", "description": "Gorde edozein elkarrizketa, edo gehitu audio- edo bideo-fitxategi bat, eta lortu transkripzio osoa AA bidezko laburpen batekin." }
+    ]
+  },
+  "languages": {
+    "eyebrow": "60+ hizkuntza",
+    "title": "Azpitituluak zure jendeak hitz egiten dituen hizkuntzetan",
+    "subtitle": "Zuzeneko azpitituluak, itzulpena eta transkripzioa horietako bakoitzean, baita esaldi erdian hizkuntzaz aldatzen dutenean ere."
+  },
+  "awareness": {
+    "eyebrow": "Pertsona gorrentzat eta entzumen-galera dutenentzat egina",
+    "title": "Pantailako hitzak baino gehiago",
+    "subtitle": "Nor ari den hitz egiten, non dagoen eta zer gehiago gertatzen den: ingurua entzuten ez denean garrantzitsua dena.",
+    "items": [
+      { "title": "Badaki nor ari den hitz egiten", "description": "Gorde pertsona baten ahotsa behin, 20 bat segundoz hitz egiten entzunda, eta azpitituluek haren izena erakutsiko dute «Hizlari 2» beharrean, zuzenean eta gordetako grabazioetan. Ahotsak telefonoan bertan sortu eta gordetzen dira.", "where": "iPhone" },
+      { "title": "Ahotsa nondik datorren erakusten du", "description": "Pantailaren ertzeko uhinek ahots bat zein aldetatik datorren erakusten dute, hizlari horren kolorean, jendez betetako gela batean nora begiratu jakiteko.", "where": "iPhone 16 eta ondorengoak" },
+      { "title": "Inguruko soinuak entzuten ditu", "description": "Soinuak azpitituluetan agertzen dira, filmetako azpitituluetan bezala. Txirrin batek, alarma batek edo negarrez dagoen haur batek ere dardaraka jartzen du telefonoa.", "where": "iPhone eta iPad" }
+    ],
+    "drawing": {
+      "otherName": "Ane",
+      "me": "Ni",
+      "voicesLine1": "Bilera ostiralera pasa dezakegu?",
+      "voicesLine2": "Ostirala ondo datorkit.",
+      "directionLine": "Hemen nago, zure ezkerrean.",
+      "soundsBefore": "Hiruretan ikusiko gara.",
+      "sound": "[txirrina jo dute]",
+      "soundsAfter": "Nor da?",
+      "vibrates": "Telefonoak dardara egiten du"
+    }
+  },
+  "reasons": {
+    "eyebrow": "Zure erakundearentzat",
+    "title": "Zergatik aukeratzen duten erakundeek Captio AI",
+    "items": [
+      { "title": "Behar den unean prest", "description": "Ez da azpitituluak egiteko inor aldez aurretik erreserbatu behar. Azpitituluak ukitu bakarrarekin hasten dira, pertsona non dagoen ere." },
+      { "title": "Beren telefonoan", "description": "iPhone edo Android. Zure IT taldeak ez du ezer instalatu behar, eta ez da gailurik banatu behar." },
+      { "title": "Pribatutasuna diseinutik", "description": "Datuak EBn gordeta. Audioa ez da gure zerbitzarietan gordetzen, eta ezer ez da inoiz AA entrenatzeko erabiltzen." },
+      { "title": "Erosteko erraza", "description": "Prezio bat pertsona eta urte bakoitzeko, fakturaz. Gutxienekorik gabe, alta-kuotarik gabe, ezer ez da berez berritzen." }
+    ]
+  },
+  "pilot": {
+    "eyebrow": "Doako proba",
+    "title": "Probatu 30 egunez, gehienez 5 pertsonarekin",
+    "steps": [
+      { "title": "Jaso probako esteka", "description": "Bete beheko formularioa. Esteka minutu batean iritsiko zaizu sarrera-ontzira, birbidaltzeko prest dagoen mezu batekin." },
+      { "title": "Birbidali gehienez 5 pertsonari", "description": "Pertsona bakoitzak bere telefonoan irekitzen du, Apple edo Google bidez jarraitzen du, eta Captio AI aplikazioa lortzen du iPhone edo Android telefonoan." },
+      { "title": "30 egunez bertsio osoa dute", "description": "Ez dugu zure datu pertsonalik behar, beraz ez dago paperik. Amaiera aldera, zenbat erabili den azaltzen duen laburpen bat jasoko duzu, eta jarraitzeko prezioa." }
+    ]
+  },
+  "form": {
+    "organization": "Erakundea",
+    "name": "Zure izena",
+    "email": "Zure laneko helbide elektronikoa",
+    "emailHint": "Probako esteka helbide honetara bidaliko da.",
+    "people": "Gutxi gorabehera zenbat pertsonak erabil lezakete?",
+    "peopleOptions": ["1etik 5era", "6tik 19ra", "20tik 50era", "50 baino gehiago"],
+    "submit": "Bidali probako esteka",
+    "sending": "Bidaltzen…",
+    "note": "30 egun doan, gehienez 5 pertsonarentzat. Ez dago ezer ordaindu edo sinatu beharrik.",
+    "sentTitle": "Begiratu sarrera-ontzia",
+    "sentTo": "Zure probako esteka bidean da {email} helbidera, erabiliko duten pertsonei birbidal diezaiekezun mezu batekin.",
+    "resentTo": "Zure probako esteka berriro bidali dugu {email} helbidera, erabiliko duten pertsonei birbidal diezaiekezun mezu batekin.",
+    "sentHelp": "Normalean minutu batean iristen da. Ez dago? Begiratu spam karpeta, edo idatzi {address} helbidera.",
+    "errors": {
+      "org": "Idatzi zure erakundearen izena.",
+      "email": "Helbide elektroniko horrek ez du itxura onik.",
+      "tooMany": "Gaur eskaera gehiegi egin dira hemendik. Idatzi {address} helbidera, mesedez.",
+      "domainLimit": "Zure erakundeak dagoeneko baditu probak martxan. Idatzi {address} helbidera, eta gehiago gehituko ditugu.",
+      "busy": "Gaur eskaera asko jaso ditugu. Idatzi {address} helbidera, eta egun bateko epean izango duzu esteka.",
+      "server": "Zerbaitek huts egin du{code}. Saiatu berriro, edo idatzi {address} helbidera.",
+      "network": "Ezin izan da bidali. Egiaztatu konexioa eta saiatu berriro."
+    }
+  },
+  "pricing": {
+    "eyebrow": "Prezioak",
+    "title": "Prezio bat pertsona eta urte bakoitzeko",
+    "subtitle": "Fakturaz eta banku-transferentziaz ordaintzen da. Prezioek ez dute BEZik barne, aplikatzen denean.",
+    "plans": ["1etik 19ra pertsona", "20 pertsona edo gehiago"],
+    "perPersonYear": "pertsona eta urte bakoitzeko",
+    "otherCurrencies": "{a} edo {b}",
+    "includedTitle": "Barne hartzen du",
+    "included": [
+      "Captio AI Plus pertsona bakoitzarentzat, 12 hilabetez",
+      "Esteka bakarra birbidaltzeko: jendea minutu batean batzen da",
+      "Erabileraren guztizkoak, inoiz ez esandakoa",
+      "Abiarazteko dei bat, nahi baduzu",
+      "Posta bidezko laguntza, zuzenean sortzailearengandik",
+      "Aurrekontua, zure erosketa-agindua, faktura",
+      "Datuen tratamendu-kontratu bat",
+      "Gutxienekorik gabe, alta-kuotarik gabe, berritze automatikorik gabe"
+    ],
+    "quote": "Eskatu aurrekontua"
+  },
+  "data": {
+    "eyebrow": "Zure datuen babeserako taldearentzat",
+    "title": "Nola tratatzen diren datuak",
+    "items": [
+      { "title": "EBn gordeta", "description": "Kontuak eta gordetako transkripzioak Europar Batasunean (Frankfurten) gordetzen dira." },
+      { "title": "Audioa ez da gure zerbitzarietan gordetzen", "description": "Ahotsa denbora errealean prozesatzen da azpitituluak sortzeko. Jendeak gordetzen dituen grabazioen audioa haien telefonoan geratzen da." },
+      { "title": "Inoiz ez da AA entrenatzeko erabiltzen", "description": "Edukirik ez da saltzen, ez da publizitaterako partekatzen eta ez da AA ereduak entrenatzeko erabiltzen, ez guk, ez erabiltzen dugun inongo hornitzailek." },
+      { "title": "Tratamendu-eragile guztiak zerrendatuta daude", "description": "Gure pribatutasun-politikak datuak tratatzen dituen enpresa bakoitza eta zertarako egiten duen aipatzen ditu. Erresuma Batutik eta EEEtik kanporako transferentziak kontratu-klausula tipoek babesten dituzte." },
+      { "title": "Datuen tratamendu-kontratua", "description": "Zure erakundearekin sinatzen dugu ordainpeko lizentzietarako, sarbidea eman behar zaien pertsonen izenak edo helbide elektronikoak bidaltzen dizkiguzunean." },
+      { "title": "Ezabatzea", "description": "Edonork ezaba ditzake bere kontua eta grabazioak aplikazioan, edozein unetan." }
+    ],
+    "dpa": "Eskatu datuen tratamendu-kontratua",
+    "privacy": "Irakurri pribatutasun-politika"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Ohiko galderak",
+    "items": [
+      { "q": "Zer da Captio AI?", "a": "iPhone eta Android telefonoetarako aplikazio bat, jendeak esaten duena testu gisa erakusten duena, esaten duten unean bertan, 60+ hizkuntzatan. Pertsona gorrek eta entzumen-galera dutenek aurrez aurre erabiltzen dute, azpitituluak behar dituzten leku guztietan: ireki, mikrofonoa sakatu eta irakurri egiten dute. Itzuli ere egin dezake, hizlariak bereizi eta ezagutzen dituen pertsonak izenez aipatu, ahots bat nondik datorren erakutsi (iPhone 16 eta ondorengoetan), txirrina edo alarma bezalako soinuak azpitituluetan idatzi, eta esandakoa gorde eta laburbildu." },
+      { "q": "Norentzat da Captio AI erakundeentzat?", "a": "Pertsona gorren eta entzumen-galera dutenen izenean azpitituluak ordaintzen dituen edozein erakunderentzat. Pertsona bakoitzak Captio AI Plus du bere telefonoan urtebetez, eta erakundeak faktura bakarra ordaintzen du." },
+      { "q": "Zenbat balio du?", "a": "£89, €99 edo $109 pertsona eta urte bakoitzeko 1etik 19ra pertsona badira, eta £69, €79 edo $89 pertsona eta urte bakoitzeko 20 pertsonatik aurrera. Ez dago gutxienekorik ez alta-kuotarik. Prezioek ez dute BEZik barne, aplikatzen denean." },
+      { "q": "Nola ordaintzen dugu?", "a": "Fakturaz eta banku-transferentziaz. Lehenik aurrekontu bat bidaltzen dizugu, eta gustura egokitzen gara zure erosketa-aginduen prozesura." },
+      { "q": "Lehenik probatu dezakegu?", "a": "Bai. Doako 30 eguneko proba, gehienez 5 pertsonarentzat. Bete orrialde honetako formularioa, eta birbidaltzeko esteka posta elektronikoz iritsiko zaizu minutu batean. Ez dago ezer ordaindu edo sinatu beharrik." },
+      { "q": "Erabiltzen dutenek ordaindu edo ezer konfiguratu behar dute?", "a": "Ez. Birbidaltzen diezun esteka irekitzen dute, Apple edo Google bidez jarraitzen dute, gero Captio AI aplikazioa doan deskargatzen dute iPhone edo Android telefonoan, eta kontu berarekin hasten dute saioa. Bertsio osoa berehala dute. Zure IT taldeak ez du ezer instalatu behar." },
+      { "q": "Zer ikusten dugu erabilerari buruz?", "a": "Guztizkoak soilik: zenbat pertsona batu diren, zenbatek ireki duten Captio AI aplikazioa azken astean, eta zenbat grabazio gorde diren eta zenbat irauten duten. Inoiz ez esandakoa, ezta nork esan duen ere." },
+      { "q": "Nola gehitzen ditugu pertsonak erosi ondoren?", "a": "Esteka berarekin. Lizentziak aktibo daudenean, bidaltzen diozun edonor batu daiteke, dituzun lizentzien kopurura iritsi arte. Probako pertsonek gorde duten guztia mantentzen dute." },
+      { "q": "Zer gertatzen da 12 hilabeteren buruan?", "a": "Lizentziak amaitu baino hilabete lehenago berritze-aurrekontu bat bidaltzen dizugu. Ezer ez da automatikoki berritzen edo kobratzen." },
+      { "q": "Azpitituluak egiten dituen pertsona bat edo ohar-hartzaile bat ordezkatzen du?", "a": "Ez beti. Captio AI aplikazioak berehalako azpitituluak ematen ditu pertsona dagoen tokian, inor aldez aurretik erreserbatu gabe. Erregistro perfektu bat behar denean, zerbitzu askok giza laguntzarekin batera erabiltzen dute." },
+      { "q": "Non gordetzen dira gure datuak, eta nork tratatzen ditu?", "a": "Kontuak eta gordetako transkripzioak EBn (Frankfurten) gordetzen dira. Audioa denbora errealean prozesatzen da eta ez da gure zerbitzarietan gordetzen. Gure pribatutasun-politikak datuak tratatzen dituzten enpresa guztiak zerrendatzen ditu. Ezer ez da AA ereduak entrenatzeko erabiltzen." },
+      { "q": "Pertsona batek berak eros dezake Captio AI Plus?", "a": "Bai, aplikazioaren barruan. Erakundeentzako lizentziak erakunde batek norbaiten izenean ordaintzen duenerako dira." }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Doako proba",
+    "title": "Probatu zure jendearekin",
+    "body": "Gehienez 5 pertsona, 30 egunez doan. Esteka minutu batean iritsiko zaizu sarrera-ontzira. Lehenik galderak dituzu? Idatzi {address} helbidera."
+  },
+  "join": {
+    "metaTitle": "Captio AI, {org} erakundearen eskutik",
+    "metaDescription": "{org} erakundeak Captio AI eskaintzen dizu: jendeak esaten duenaren zuzeneko azpitituluak, zure telefonoan.",
+    "gives": "{org} erakundeak eskaintzen dizkizu",
+    "title": "Zuzeneko azpitituluak zure telefonoan",
+    "pilotOffer": "Captio AI aplikazioaren bertsio osoa, {days} egunez doan.",
+    "paidOffer": "Captio AI aplikazioaren bertsio osoa, {org} erakundeak ordainduta, data honetara arte: {date}.",
+    "about": "Jendeak esaten duenaren azpitituluak, hitz egin ahala, 60+ hizkuntzatan.",
+    "steps": ["Jarraitu behean Apple edo Google bidez", "Deskargatu Captio AI aplikazioa App Store edo Google Play dendatik", "Hasi saioa aplikazioan kontu berarekin"],
+    "continueApple": "Jarraitu Apple bidez",
+    "continueGoogle": "Jarraitu Google bidez",
+    "signingIn": "Saioa hasten…",
+    "alreadyUse": "Captio AI erabiltzen duzu dagoeneko? Jarraitu aplikazioan erabiltzen duzun kontuarekin.",
+    "nothingToPay": "Ez duzu ezer ordaindu behar. Doako egunen ondoren, besterik gabe amaitzen da.",
+    "privacyNote": "{org} erakundeak zenbat pertsona batu diren eta Captio AI guztira zenbat erabili den baino ez du ikusten, inoiz ez esandakoa.",
+    "privacyLink": "Pribatutasun-politika",
+    "joined": "Barruan zaude",
+    "alreadyJoined": "Dagoeneko barruan zaude",
+    "until": "Captio AI aplikazioaren bertsio osoa duzu data honetara arte: {date}.",
+    "getAppStore": "Deskargatu Captio AI App Store dendan",
+    "getGooglePlay": "Deskargatu Captio AI Google Play dendan",
+    "phoneApp": "Captio AI telefonorako aplikazioa da: deskargatu zure iPhone edo Android telefonoan.",
+    "thenSignIn": "Gero, hasi saioa Captio AI aplikazioan {provider} kontu berarekin. Aplikazioa baduzu dagoeneko? Itxi eta ireki berriro.",
+    "endedTitle": "Zure doako egunak amaitu dira",
+    "endedBody": "{org} erakundeak emandako Captio AI data honetan amaitu zen: {date}. Galdetu {org} erakundeari ea mantendu dezakezun.",
+    "closed": {
+      "fullTitle": "Leku guztiak beteta daude",
+      "full": "{org} erakundearen {seats} lekuak beteta daude. Galdetu {org} erakundeari leku gehiagori buruz.",
+      "stoppedTitle": "Esteka hau itxi egin da",
+      "stopped": "Eskatu berri bat {org} erakundeari.",
+      "expiredTitle": "Probako esteka hau iraungi egin da",
+      "expired": "Eskatu berri bat {org} erakundeari.",
+      "endedTitle": "{org} erakundearen lizentziak amaitu dira",
+      "ended": "Galdetu {org} erakundeari ea Captio AI berrituko duen."
+    },
+    "failures": {
+      "full": "{org} erakundearen leku guztiak beteta daude. Galdetu {org} erakundeari leku gehiagori buruz.",
+      "stopped": "Esteka hau itxi egin da. Eskatu berri bat {org} erakundeari.",
+      "linkExpired": "Probako esteka hau iraungi egin da. Eskatu berri bat {org} erakundeari.",
+      "ended": "{org} erakundearen lizentziak amaitu dira.",
+      "otherOrg": "Zure kontuak beste erakunde baten bidez du dagoeneko Captio AI.",
+      "hadPilot": "Kontu honek doako proba bat izan du dagoeneko. Galdetu {org} erakundeari ea Captio AI mantendu dezakezun.",
+      "notFound": "Esteka honek ez du funtzionatzen. Eskatu berri bat bidali dizunari.",
+      "signInFailed": "Ezin izan da saioa hasi. Saiatu berriro.",
+      "couldNotAdd": "Oraintxe ezin izan zaitugu gehitu. Saiatu berriro.",
+      "generic": "Zerbaitek huts egin du. Saiatu berriro."
+    },
+    "invalidTitle": "Esteka honek ez du funtzionatzen",
+    "invalidBody": "Egiaztatu osorik kopiatu dela, edo eskatu berri bat bidali dizunari.",
+    "errorTitle": "Ezin izan da orrialde hau kargatu",
+    "errorBody": "Saiatu berriro une batean."
+  }
+}

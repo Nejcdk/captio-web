@@ -1,4 +1,4 @@
-# Translating the home page and the feature pages
+# Translating the home page, the feature pages and /organizations
 
 `messages/en.json` is the source for `/`, `/live-captions`, `/live-translator`,
 `/audio-transcription` and `/ai-summary`. Each language in `locales.ts` has its
@@ -51,3 +51,26 @@ to one person ("you"), no hype, no exclamation marks.
   `home.eyebrow` and the arrow at the end of `footer.productHunt`. Add nothing.
 - **Punctuation.** The language's own quotation marks and punctuation. Never "·".
 - Empty strings in English (`featuresSubtitle` on three feature pages) stay empty.
+
+## /organizations and /o/<code>
+
+`organizations/en.json` is the source for `/organizations` (and its pilot form)
+and for `/o/<code>`, the page people join an organization's pilot through.
+Same rules as above, plus:
+
+- **Register.** Everything addressed to the organization (every section but
+  `join`) uses the polite address customary in business letters to
+  institutions (Sie, vous, usted…). `join` speaks to the person who will use
+  the app: the app's own register.
+- **Placeholders.** Keep every `{org}`, `{email}`, `{date}`… exactly; the
+  checker fails on a missing or extra one. `form.errors.server`: `{code}`
+  becomes " (ABC123)" with its own space, so it goes right after the word.
+- **Hero title** (`hero.title`): exactly one `[phrase]`, the equivalent of
+  "speak".
+- **Any organization**: never "students" or "staff".
+- Prices stay as written (£89, €99, $109); which one is shown big comes from
+  the language (`orgCurrency` in `src/i18n/organizations.ts`).
+
+The emails these organizations get are in the app repo
+(`supabase/functions/_shared/org-email-locales/<code>.json`, checked by its
+`check.mjs`); a copy change on the page usually needs the same change there.

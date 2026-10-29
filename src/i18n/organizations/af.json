@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "title": "Regstreekse onderskrifte vir organisasies en maatskappye",
+    "description": "Captio AI: regstreekse onderskrifte vir dowe en hardhorende mense op hul eie foon, in 60+ tale. Jaarlisensies per faktuur. Gratis proeflopie van 30 dae."
+  },
+  "header": {
+    "forOrganizations": "vir Organisasies",
+    "startPilot": "Begin ’n gratis proeflopie",
+    "chooseLanguage": "Kies ’n taal"
+  },
+  "hero": {
+    "eyebrow": "🏢 Captio AI vir Organisasies",
+    "title": "Regstreekse onderskrifte op hul foon, sodra mense [praat]",
+    "description": "Captio AI is ’n app vir dowe en hardhorende mense. Dit luister en wys wat gesê word as teks, van aangesig tot aangesig, in 60+ tale. Gee dit aan die mense in u organisasie wat dit nodig het: een jaarlisensie per persoon, betaalbaar per faktuur.",
+    "seeHow": "Sien hoe dit werk",
+    "pilotNote": "Gratis vir 30 dae, vir tot 5 mense. Niks om te betaal nie, niks om te teken nie.",
+    "facts": ["iPhone en Android", "60+ tale", "In die EU gestoor"],
+    "videoLabel": "Captio AI wat regstreekse onderskrifte wys van twee mense wat praat, met ’n etiket vir elke spreker"
+  },
+  "features": {
+    "eyebrow": "Wat Captio AI doen",
+    "title": "Regstreekse onderskrifte, vertaling en transkripsie",
+    "subtitle": "Drie hulpmiddels in een app, op hul eie foon, in 60+ tale.",
+    "items": [
+      { "label": "Regstreekse onderskrifte", "title": "Elke woord, soos dit gesê word", "description": "Maak die app oop, tik op die mikrofoon en lees saam. Elke spreker kry ’n eie etiket, so dit is duidelik wie wat gesê het." },
+      { "label": "Regstreekse vertaling", "title": "Albei tale langs mekaar", "description": "Wanneer iemand ’n ander taal praat, sien die gebruiker gelyktydig wat gesê is en die vertaling daarvan." },
+      { "label": "Transkripsie", "title": "Opnames en lêers na teks", "description": "Stoor enige gesprek, of voeg ’n oudio- of videolêer by, en kry die volledige transkripsie met ’n KI-opsomming." }
+    ]
+  },
+  "languages": {
+    "eyebrow": "60+ tale",
+    "title": "Onderskrifte in die tale wat u mense praat",
+    "subtitle": "Regstreekse onderskrifte, vertaling en transkripsie in elkeen van hulle, ook vir mense wat midde-in ’n sin van taal wissel."
+  },
+  "awareness": {
+    "eyebrow": "Gemaak vir dowe en hardhorende mense",
+    "title": "Meer as woorde op ’n skerm",
+    "subtitle": "Wie praat, waar hulle is en wat nog aan die gang is: die dinge wat saak maak wanneer ’n mens nie kan hoor wat in die vertrek aangaan nie.",
+    "items": [
+      { "title": "Weet wie praat", "description": "Stoor iemand se stem een keer, uit sowat 20 sekondes waarin hulle praat, en die onderskrifte wys hul naam in plaas van “Spreker 2”, regstreeks en in gestoorde opnames. Stemme word op die foon self gemaak en gehou.", "where": "iPhone" },
+      { "title": "Wys waar die stem vandaan kom", "description": "Golwe aan die rand van die skerm wys van watter kant ’n stem kom, in daardie spreker se kleur, sodat die gebruiker weet waarheen om te kyk in ’n besige vertrek.", "where": "iPhone 16 en nuwer" },
+      { "title": "Hoor die klanke rondom hulle", "description": "Klanke verskyn in die onderskrifte, soos in filmonderskrifte. ’n Deurklokkie, ’n alarm of ’n huilende baba laat die foon ook vibreer.", "where": "iPhone en iPad" }
+    ],
+    "drawing": {
+      "otherName": "Liezl",
+      "me": "Ek",
+      "voicesLine1": "Kan ons die vergadering na Vrydag skuif?",
+      "voicesLine2": "Vrydag pas my.",
+      "directionLine": "Ek is hier, aan jou linkerkant.",
+      "soundsBefore": "Sien jou om drie.",
+      "sound": "[deurklokkie lui]",
+      "soundsAfter": "Wie is dit?",
+      "vibrates": "Die foon vibreer"
+    }
+  },
+  "reasons": {
+    "eyebrow": "Vir u organisasie",
+    "title": "Waarom organisasies Captio AI kies",
+    "items": [
+      { "title": "Gereed sodra dit nodig is", "description": "Geen onderskrifskrywer hoef vooraf bespreek te word nie. Onderskrifte begin met een tik, waar die persoon ook al is." },
+      { "title": "Op hul eie foon", "description": "iPhone of Android. Niks vir u IT-span om te installeer nie en geen hardeware om uit te deel nie." },
+      { "title": "Privaat van die begin af", "description": "In die EU gestoor. Oudio word nie op ons bedieners gehou nie, en niks word ooit gebruik om KI op te lei nie." },
+      { "title": "Maklik om te koop", "description": "Een prys per persoon per jaar, per faktuur. Geen minimum, geen opstelfooi nie, en niks word outomaties hernu nie." }
+    ]
+  },
+  "pilot": {
+    "eyebrow": "Gratis proeflopie",
+    "title": "Probeer dit vir 30 dae met tot 5 mense",
+    "steps": [
+      { "title": "Kry u skakel vir die proeflopie", "description": "Vul die vorm hieronder in. Die skakel kom binne ’n minuut in u inkassie aan, met ’n boodskap wat gereed is om aan te stuur." },
+      { "title": "Stuur dit aan na tot 5 mense", "description": "Elke persoon maak dit op hul foon oop, gaan voort met Apple of Google, en kry Captio AI op iPhone of Android." },
+      { "title": "Hulle het 30 dae lank die volle weergawe", "description": "Ons het geen persoonlike data van u nodig nie, dus geen papierwerk nie. Teen die einde kry u ’n opsomming van hoeveel dit gebruik is, en die prys om dit te behou." }
+    ]
+  },
+  "form": {
+    "organization": "Organisasie",
+    "name": "U naam",
+    "email": "U werk-e-posadres",
+    "emailHint": "Die skakel vir die proeflopie word hierheen gestuur.",
+    "people": "Ongeveer hoeveel mense sal dit dalk gebruik?",
+    "peopleOptions": ["1 tot 5", "6 tot 19", "20 tot 50", "Meer as 50"],
+    "submit": "Stuur vir my die skakel",
+    "sending": "Stuur tans…",
+    "note": "Gratis vir 30 dae, vir tot 5 mense. Niks om te betaal nie, niks om te teken nie.",
+    "sentTitle": "Kyk in u inkassie",
+    "sentTo": "U skakel vir die proeflopie is op pad na {email}, met ’n boodskap wat u kan aanstuur aan die mense wat dit gaan gebruik.",
+    "resentTo": "Ons het u skakel vir die proeflopie weer na {email} gestuur, met ’n boodskap wat u kan aanstuur aan die mense wat dit gaan gebruik.",
+    "sentHelp": "Dit kom gewoonlik binne ’n minuut aan. Nie daar nie? Kyk in u gemorspos, of skryf aan {address}.",
+    "errors": {
+      "org": "Voeg asseblief u organisasie se naam by.",
+      "email": "Daardie e-posadres lyk nie reg nie.",
+      "tooMany": "Te veel versoeke van hier af vandag. Skryf asseblief eerder aan {address}.",
+      "domainLimit": "U organisasie het reeds proeflopies aan die gang. Skryf aan {address}, dan voeg ons meer by.",
+      "busy": "Ons het vandag baie versoeke gehad. Skryf asseblief aan {address}, dan het u u skakel binne ’n dag.",
+      "server": "Iets het skeefgeloop{code}. Probeer asseblief weer, of skryf aan {address}.",
+      "network": "Kon nie stuur nie. Gaan u verbinding na en probeer weer."
+    }
+  },
+  "pricing": {
+    "eyebrow": "Pryse",
+    "title": "Een prys per persoon, per jaar",
+    "subtitle": "Betaalbaar per faktuur en bankoorplasing. Pryse sluit BTW uit waar dit van toepassing is.",
+    "plans": ["1 tot 19 mense", "20 of meer mense"],
+    "perPersonYear": "per persoon per jaar",
+    "otherCurrencies": "{a} of {b}",
+    "includedTitle": "Ingesluit",
+    "included": [
+      "Captio AI Plus vir elke persoon, vir 12 maande",
+      "Een skakel om aan te stuur: mense sluit binne ’n minuut aan",
+      "Gebruikstotale, nooit wat gesê is nie",
+      "’n Opstelgesprek, as u een wil hê",
+      "E-posondersteuning direk van die stigter",
+      "’n Kwotasie, u bestelorder, ’n faktuur",
+      "’n Dataverwerkingsooreenkoms",
+      "Geen minimum, geen opstelfooi, geen outomatiese hernuwing nie"
+    ],
+    "quote": "Vra ’n kwotasie aan"
+  },
+  "data": {
+    "eyebrow": "Vir u databeskermingspan",
+    "title": "Hoe data hanteer word",
+    "items": [
+      { "title": "In die EU gestoor", "description": "Rekeninge en gestoorde transkripsies word in die Europese Unie (Frankfurt) gestoor." },
+      { "title": "Oudio word nie op ons bedieners gehou nie", "description": "Spraak word intyds verwerk om die onderskrifte te maak. Die oudio van opnames wat mense stoor, bly op hul eie foon." },
+      { "title": "Nooit gebruik om KI op te lei nie", "description": "Geen inhoud word verkoop, vir advertensies gedeel of gebruik om KI-modelle op te lei nie, nie deur ons nie en ook nie deur enige verskaffer wat ons gebruik nie." },
+      { "title": "Elke verwerker word gelys", "description": "Ons privaatheidsbeleid noem elke maatskappy wat data verwerk, en waarvoor. Oordragte buite die VK en die EER word gedek deur standaardkontrakbepalings (Standard Contractual Clauses)." },
+      { "title": "’n Dataverwerkingsooreenkoms", "description": "Ons onderteken een met u organisasie vir betaalde lisensies, wanneer u vir ons die name of e-posadresse stuur van die mense wat toegang moet kry." },
+      { "title": "Uitvee", "description": "Enigiemand kan hul rekening en opnames enige tyd in die app uitvee." }
+    ],
+    "dpa": "Vra die dataverwerkingsooreenkoms aan",
+    "privacy": "Lees die privaatheidsbeleid"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Algemene vrae",
+    "items": [
+      { "q": "Wat is Captio AI?", "a": "’n App vir iPhone en Android wat wys wat mense sê as teks, op die oomblik wat hulle dit sê, in 60+ tale. Dowe en hardhorende mense gebruik dit van aangesig tot aangesig, oral waar hulle onderskrifte nodig het: hulle maak dit oop, tik op die mikrofoon en lees saam. Dit kan ook vertaal, sprekers uitmekaar hou en mense wat dit ken op hul naam noem, wys waar ’n stem vandaan kom (iPhone 16 en nuwer), klanke soos ’n deurklokkie of ’n alarm in die onderskrifte skryf, en stoor en opsom wat gesê is." },
+      { "q": "Vir wie is Captio AI vir Organisasies bedoel?", "a": "Enige organisasie wat namens dowe en hardhorende mense vir onderskrifte betaal. Elke persoon kry Captio AI Plus vir ’n jaar op hul eie foon, en die organisasie betaal een faktuur." },
+      { "q": "Hoeveel kos dit?", "a": "£89, €99 of $109 per persoon per jaar vir 1 tot 19 mense, en £69, €79 of $89 per persoon per jaar vanaf 20 mense. Daar is geen minimum en geen opstelfooi nie. Pryse sluit BTW uit waar dit van toepassing is." },
+      { "q": "Hoe betaal ons?", "a": "Per faktuur en bankoorplasing. Ons stuur eers ’n kwotasie, en werk graag volgens u bestelorderproses." },
+      { "q": "Kan ons dit eers probeer?", "a": "Ja. ’n Gratis proeflopie van 30 dae vir tot 5 mense. Vul die vorm op hierdie bladsy in, en die skakel om aan te stuur kom binne ’n minuut per e-pos aan. Niks om te betaal nie en niks om te teken nie." },
+      { "q": "Moet die mense wat dit gebruik iets betaal of opstel?", "a": "Nee. Hulle maak die skakel oop wat u aanstuur, gaan voort met Apple of Google, laai dan Captio AI gratis op iPhone of Android af en meld met dieselfde rekening aan. Hulle het dadelik die volle weergawe. U IT-span hoef niks te installeer nie." },
+      { "q": "Wat sien ons van hoe dit gebruik word?", "a": "Net totale: hoeveel mense aangesluit het, hoeveel Captio AI in die afgelope week oopgemaak het, en hoeveel opnames gestoor is en hoe lank hulle is. Nooit wat gesê is nie, en nooit wie dit gesê het nie." },
+      { "q": "Hoe voeg ons mense by nadat ons gekoop het?", "a": "Met dieselfde skakel. Sodra u lisensies aktief is, kan enigiemand na wie u dit stuur aansluit, tot by die aantal lisensies wat u het. Mense van die proeflopie behou alles wat hulle gestoor het." },
+      { "q": "Wat gebeur ná 12 maande?", "a": "Ons stuur ’n hernuwingskwotasie ’n maand voordat die lisensies verval. Niks word outomaties hernu of gehef nie." },
+      { "q": "Vervang dit ’n menslike onderskrifskrywer of notulehouer?", "a": "Nie in alle gevalle nie. Captio AI gee onmiddellike onderskrifte waar die persoon ook al is, sonder om iemand vooraf te bespreek. Waar ’n volmaakte rekord vereis word, gebruik baie dienste dit saam met menslike ondersteuning." },
+      { "q": "Waar word ons data gestoor, en wie verwerk dit?", "a": "Rekeninge en gestoorde transkripsies word in die EU (Frankfurt) gestoor. Oudio word intyds verwerk en nie op ons bedieners gehou nie. Ons privaatheidsbeleid lys elke maatskappy wat data verwerk. Niks word gebruik om KI-modelle op te lei nie." },
+      { "q": "Kan een persoon self Captio AI Plus koop?", "a": "Ja, in die app. Organisasielisensies is vir wanneer ’n organisasie namens iemand betaal." }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Gratis proeflopie",
+    "title": "Sien dit saam met u eie mense",
+    "body": "Tot 5 mense, gratis vir 30 dae. Die skakel kom binne ’n minuut in u inkassie aan. Eers vrae? Skryf aan {address}."
+  },
+  "join": {
+    "metaTitle": "Captio AI van {org}",
+    "metaDescription": "{org} gee jou Captio AI: regstreekse onderskrifte van wat mense sê, op jou eie foon.",
+    "gives": "{org} gee jou",
+    "title": "Regstreekse onderskrifte op jou foon",
+    "pilotOffer": "Die volle weergawe van Captio AI, gratis vir {days} dae.",
+    "paidOffer": "Die volle weergawe van Captio AI tot {date}, betaal deur {org}.",
+    "about": "Onderskrifte van wat mense sê, terwyl hulle praat, in 60+ tale.",
+    "steps": ["Gaan hieronder voort met Apple of Google", "Kry Captio AI in die App Store of op Google Play", "Meld in die app aan met dieselfde rekening"],
+    "continueApple": "Gaan voort met Apple",
+    "continueGoogle": "Gaan voort met Google",
+    "signingIn": "Meld tans aan…",
+    "alreadyUse": "Gebruik jy reeds Captio AI? Gaan voort met die rekening wat jy in die app gebruik.",
+    "nothingToPay": "Niks om te betaal nie. Dit eindig eenvoudig ná die gratis dae.",
+    "privacyNote": "{org} sien net hoeveel mense aangesluit het en hoeveel Captio AI altesaam gebruik is, nooit wat gesê is nie.",
+    "privacyLink": "Privaatheidsbeleid",
+    "joined": "Jy het aangesluit",
+    "alreadyJoined": "Jy het reeds aangesluit",
+    "until": "Jy het die volle weergawe van Captio AI tot {date}.",
+    "getAppStore": "Kry Captio AI in die App Store",
+    "getGooglePlay": "Kry Captio AI op Google Play",
+    "phoneApp": "Captio AI is ’n foon-app: kry dit op jou iPhone of Android-foon.",
+    "thenSignIn": "Meld dan by Captio AI aan met dieselfde {provider}-rekening. Het jy reeds die app? Maak dit toe en maak dit weer oop.",
+    "endedTitle": "Jou gratis dae is verby",
+    "endedBody": "Jou Captio AI van {org} het op {date} geëindig. Vra {org} of jy dit kan behou.",
+    "closed": {
+      "fullTitle": "Alle plekke is gevul",
+      "full": "Al {seats} plekke van {org} is gevul. Vra {org} oor meer plekke.",
+      "stoppedTitle": "Hierdie skakel is gesluit",
+      "stopped": "Vra {org} vir ’n nuwe een.",
+      "expiredTitle": "Hierdie skakel vir die proeflopie het verval",
+      "expired": "Vra {org} vir ’n nuwe een.",
+      "endedTitle": "{org} se lisensies het verval",
+      "ended": "Vra {org} of hulle Captio AI gaan hernu."
+    },
+    "failures": {
+      "full": "Alle plekke van {org} is gevul. Vra {org} oor meer plekke.",
+      "stopped": "Hierdie skakel is gesluit. Vra {org} vir ’n nuwe een.",
+      "linkExpired": "Hierdie skakel vir die proeflopie het verval. Vra {org} vir ’n nuwe een.",
+      "ended": "{org} se lisensies het verval.",
+      "otherOrg": "Jou rekening kry reeds Captio AI deur ’n ander organisasie.",
+      "hadPilot": "Hierdie rekening het al ’n gratis proeflopie gehad. Vra {org} hoe jy Captio AI kan behou.",
+      "notFound": "Hierdie skakel werk nie. Vra die persoon wat dit gestuur het vir ’n nuwe een.",
+      "signInFailed": "Aanmelding het nie gewerk nie. Probeer asseblief weer.",
+      "couldNotAdd": "Kon jou nie nou byvoeg nie. Probeer asseblief weer.",
+      "generic": "Iets het skeefgeloop. Probeer asseblief weer."
+    },
+    "invalidTitle": "Hierdie skakel werk nie",
+    "invalidBody": "Maak seker dat dit volledig gekopieer is, of vra die persoon wat dit gestuur het vir ’n nuwe een.",
+    "errorTitle": "Kon nie hierdie bladsy laai nie",
+    "errorBody": "Probeer asseblief oor ’n oomblik weer."
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "title": "Élő feliratozás és beszédátírás szervezeteknek",
+    "description": "A Captio AI élő feliratot ad siketeknek és nagyothallóknak, több mint 60 nyelven. Éves licencek szervezeteknek, számlára. 30 napos ingyenes próba."
+  },
+  "header": {
+    "forOrganizations": "szervezeteknek",
+    "startPilot": "Kipróbálom ingyen",
+    "chooseLanguage": "Nyelv kiválasztása"
+  },
+  "hero": {
+    "eyebrow": "🏢 Captio AI szervezeteknek",
+    "title": "Élő felirat a telefonjukon, abban a pillanatban, ahogy valaki [megszólal]",
+    "description": "A Captio AI siketeknek és nagyothallóknak készült alkalmazás. Figyeli, ami elhangzik, és szövegként mutatja személyes helyzetekben, több mint 60 nyelven. Adja oda azoknak a szervezetében, akiknek szükségük van rá: személyenként egy éves licenc, számlára.",
+    "seeHow": "Így működik",
+    "pilotNote": "30 napig ingyenes, legfeljebb 5 főnek. Nincs mit fizetni, nincs mit aláírni.",
+    "facts": ["iPhone és Android", "Több mint 60 nyelv", "Tárolás az EU-ban"],
+    "videoLabel": "A Captio AI két beszélgető ember élő feliratát mutatja, minden beszélőnél külön címkével"
+  },
+  "features": {
+    "eyebrow": "Mire képes a Captio AI",
+    "title": "Élő felirat, fordítás és átírás",
+    "subtitle": "Három eszköz egy alkalmazásban, a saját telefonon, több mint 60 nyelven.",
+    "items": [
+      { "label": "Élő felirat", "title": "Minden szó, ahogy elhangzik", "description": "Csak meg kell nyitni az alkalmazást, koppintani a mikrofonra, és lehet is olvasni. Minden beszélő saját címkét kap, így világos, ki mit mondott." },
+      { "label": "Élő fordítás", "title": "A két nyelv egymás mellett", "description": "Ha valaki más nyelven beszél, egyszerre látszik, ami elhangzott, és a fordítása." },
+      { "label": "Átírás", "title": "Felvételekből és fájlokból szöveg", "description": "Bármilyen beszélgetés elmenthető, vagy hozzáadható egy hang- vagy videofájl, és elkészül a teljes átirat egy MI-összefoglalóval." }
+    ]
+  },
+  "languages": {
+    "eyebrow": "Több mint 60 nyelv",
+    "title": "Felirat azokon a nyelveken, amelyeken a szervezetében beszélnek",
+    "subtitle": "Élő felirat, fordítás és átírás mindegyiken, akkor is, ha valaki mondat közben vált nyelvet."
+  },
+  "awareness": {
+    "eyebrow": "Siketeknek és nagyothallóknak készült",
+    "title": "Több mint szavak a képernyőn",
+    "subtitle": "Ki beszél, hol van, és mi történik még: ezek számítanak, ha az ember nem hallja, mi zajlik körülötte.",
+    "items": [
+      { "title": "Tudja, ki beszél", "description": "Elég egyszer elmenteni valakinek a hangját, nagyjából 20 másodpercnyi beszédből, és a felirat a „2. beszélő” helyett az illető nevét mutatja, élőben és a mentett felvételekben is. A hangminták a telefonon készülnek, és ott is maradnak.", "where": "iPhone" },
+      { "title": "Megmutatja, honnan jön a hang", "description": "A képernyő szélén megjelenő hullámok a beszélő színében mutatják, melyik oldalról jön a hang, így egy zsúfolt helyiségben is tudni lehet, merre kell nézni.", "where": "iPhone 16 és újabb" },
+      { "title": "Hallja a környezet hangjait", "description": "A hangok úgy jelennek meg a feliratban, ahogy a filmfeliratokban. Csengő, riasztás vagy síró baba esetén a telefon rezeg is.", "where": "iPhone és iPad" }
+    ],
+    "drawing": {
+      "otherName": "Anna",
+      "me": "Én",
+      "voicesLine1": "Áttehetjük a megbeszélést péntekre?",
+      "voicesLine2": "Nekem jó a péntek.",
+      "directionLine": "Itt vagyok, tőled balra.",
+      "soundsBefore": "Háromkor találkozunk.",
+      "sound": "[csengetnek]",
+      "soundsAfter": "Ki az?",
+      "vibrates": "A telefon rezeg"
+    }
+  },
+  "reasons": {
+    "eyebrow": "Az Ön szervezetének",
+    "title": "Miért a Captio AI mellett döntenek a szervezetek",
+    "items": [
+      { "title": "Azonnal kéznél van, amikor kell", "description": "Nem kell előre írótolmácsot foglalni. A felirat egy koppintással indul, bárhol is van az illető." },
+      { "title": "A saját telefonon", "description": "iPhone vagy Android. Az informatikának semmit sem kell telepítenie, és eszközöket sem kell kiosztani." },
+      { "title": "Adatvédelem alapból", "description": "Tárolás az EU-ban. A hangot nem tároljuk a szervereinken, és soha semmit nem használunk MI tanítására." },
+      { "title": "Egyszerű beszerzés", "description": "Személyenként egy éves ár, számlára. Nincs minimum, nincs beállítási díj, és semmi sem újul meg magától." }
+    ]
+  },
+  "pilot": {
+    "eyebrow": "Ingyenes próbaidőszak",
+    "title": "Próbálja ki 30 napig, legfeljebb 5 fővel",
+    "steps": [
+      { "title": "Kérje a próbaidőszak linkjét", "description": "Töltse ki az alábbi űrlapot. A link egy percen belül megérkezik a postafiókjába, egy továbbküldésre kész üzenettel együtt." },
+      { "title": "Küldje tovább legfeljebb 5 embernek", "description": "Mindenki megnyitja a telefonján, Apple- vagy Google-fiókkal továbblép, és megkapja a Captio AI alkalmazást iPhone-ra vagy Androidra." },
+      { "title": "30 napig a teljes verziót használják", "description": "Öntől nem kérünk személyes adatot, így papírmunka sincs. A vége felé összesítőt kap arról, mennyit használták, és azt is megtudja, mennyibe kerül a megtartása." }
+    ]
+  },
+  "form": {
+    "organization": "Szervezet",
+    "name": "Az Ön neve",
+    "email": "Munkahelyi e-mail-címe",
+    "emailHint": "Ide küldjük a próbaidőszak linkjét.",
+    "people": "Nagyjából hányan használnák?",
+    "peopleOptions": ["1–5 fő", "6–19 fő", "20–50 fő", "Több mint 50 fő"],
+    "submit": "Kérem a próbaidőszak linkjét",
+    "sending": "Küldés…",
+    "note": "30 napig ingyenes, legfeljebb 5 főnek. Nincs mit fizetni, nincs mit aláírni.",
+    "sentTitle": "Nézze meg a postafiókját",
+    "sentTo": "A próbaidőszak linkje úton van ide: {email}, egy üzenettel együtt, amelyet továbbküldhet azoknak, akik használni fogják.",
+    "resentTo": "Újra elküldtük a próbaidőszak linkjét ide: {email}, egy üzenettel együtt, amelyet továbbküldhet azoknak, akik használni fogják.",
+    "sentHelp": "Általában egy percen belül megérkezik. Nem találja? Nézze meg a levélszemét mappát, vagy írjon ide: {address}.",
+    "errors": {
+      "org": "Kérjük, adja meg a szervezet nevét.",
+      "email": "Ez az e-mail-cím nem tűnik helyesnek.",
+      "tooMany": "Innen ma túl sok kérés érkezett. Kérjük, írjon inkább ide: {address}.",
+      "domainLimit": "A szervezetében már futnak próbaidőszakok. Írjon ide: {address}, és hozzáadunk továbbiakat.",
+      "busy": "Ma nagyon sok kérés érkezett. Kérjük, írjon ide: {address}, és egy napon belül megkapja a linket.",
+      "server": "Hiba történt{code}. Próbálja újra, vagy írjon ide: {address}.",
+      "network": "Nem sikerült elküldeni. Ellenőrizze a kapcsolatot, és próbálja újra."
+    }
+  },
+  "pricing": {
+    "eyebrow": "Árak",
+    "title": "Személyenként egy ár, évente",
+    "subtitle": "Fizetés számlára, banki átutalással. Az árak nem tartalmazzák az áfát, ha az felszámítandó.",
+    "plans": ["1–19 fő", "20 fő vagy több"],
+    "perPersonYear": "személyenként évente",
+    "otherCurrencies": "{a} vagy {b}",
+    "includedTitle": "Az ár tartalmazza",
+    "included": [
+      "Captio AI Plus mindenkinek, 12 hónapra",
+      "Egyetlen továbbküldhető link: egy perc alatt lehet csatlakozni",
+      "Használati összesítők, soha nem az, ami elhangzott",
+      "Bevezető hívás, ha igényli",
+      "E-mailes támogatás közvetlenül az alapítótól",
+      "Árajánlat, az Önök megrendelése, számla",
+      "Adatfeldolgozási szerződés",
+      "Nincs minimum, nincs beállítási díj, nincs automatikus megújítás"
+    ],
+    "quote": "Árajánlatot kérek"
+  },
+  "data": {
+    "eyebrow": "Az adatvédelmi csapatnak",
+    "title": "Hogyan kezeljük az adatokat",
+    "items": [
+      { "title": "Tárolás az EU-ban", "description": "A fiókokat és a mentett átiratokat az Európai Unióban (Frankfurt) tároljuk." },
+      { "title": "A hangot nem tároljuk a szervereinken", "description": "A beszédet valós időben dolgozzuk fel a felirat elkészítéséhez. A mentett felvételek hanganyaga a felhasználó saját telefonján marad." },
+      { "title": "Soha nem használjuk MI tanítására", "description": "Semmilyen tartalmat nem adunk el, nem osztunk meg hirdetési célra, és nem használunk MI-modellek tanítására, sem mi, sem egyetlen általunk igénybe vett szolgáltató sem." },
+      { "title": "Minden adatfeldolgozó fel van sorolva", "description": "Adatvédelmi irányelveink megneveznek minden céget, amely adatokat kezel, és azt is, milyen célból. Az Egyesült Királyságon és az EGT-n kívülre történő adattovábbításra általános szerződési feltételek (SCC) vonatkoznak." },
+      { "title": "Adatfeldolgozási szerződés", "description": "Fizetős licencek esetén kötünk ilyet a szervezetével, amikor elküldi nekünk azoknak a nevét vagy e-mail-címét, akiknek a hozzáférést meg kell nyitni." },
+      { "title": "Törlés", "description": "Bárki bármikor törölheti a fiókját és a felvételeit az alkalmazásban." }
+    ],
+    "dpa": "Adatfeldolgozási szerződést kérek",
+    "privacy": "Az adatvédelmi irányelvek elolvasása"
+  },
+  "faq": {
+    "eyebrow": "GYIK",
+    "title": "Gyakran ismételt kérdések",
+    "items": [
+      { "q": "Mi az a Captio AI?", "a": "Egy iPhone-ra és Androidra készült alkalmazás, amely szövegként mutatja, amit mások mondanak, abban a pillanatban, ahogy elhangzik, több mint 60 nyelven. Siketek és nagyothallók személyes helyzetekben használják, bárhol, ahol feliratra van szükségük: megnyitják, a mikrofonra koppintanak, és olvassák. Fordítani is tud, megkülönbözteti a beszélőket, és név szerint jelöli az ismerős embereket, megmutatja, honnan jön egy hang (iPhone 16 és újabb), beírja a feliratba az olyan hangokat, mint a csengő vagy a riasztás, valamint elmenti és összefoglalja, ami elhangzott." },
+      { "q": "Kinek szól a Captio AI szervezeteknek?", "a": "Minden olyan szervezetnek, amely siketek és nagyothallók számára fizet feliratozásért. Mindenki egy évre megkapja a Captio AI Plus előfizetést a saját telefonjára, a szervezet pedig egyetlen számlát fizet." },
+      { "q": "Mennyibe kerül?", "a": "1–19 fő esetén személyenként évente £89, €99 vagy $109, 20 főtől személyenként évente £69, €79 vagy $89. Nincs minimum és nincs beállítási díj. Az árak nem tartalmazzák az áfát, ha az felszámítandó." },
+      { "q": "Hogyan fizetünk?", "a": "Számlára, banki átutalással. Előbb árajánlatot küldünk, és szívesen igazodunk az Önök beszerzési folyamatához." },
+      { "q": "Kipróbálhatjuk előbb?", "a": "Igen. Ingyenes, 30 napos próbaidőszak legfeljebb 5 főnek. Töltse ki az űrlapot ezen az oldalon, és a továbbküldendő link egy percen belül megérkezik e-mailben. Nincs mit fizetni és nincs mit aláírni." },
+      { "q": "A felhasználóknak kell fizetniük vagy bármit beállítaniuk?", "a": "Nem. Megnyitják a továbbküldött linket, Apple- vagy Google-fiókkal továbblépnek, majd ingyen letöltik a Captio AI alkalmazást iPhone-ra vagy Androidra, és ugyanazzal a fiókkal bejelentkeznek. A teljes verzió azonnal az övék. Az informatikai csapatnak semmit sem kell telepítenie." },
+      { "q": "Mit látunk a használatból?", "a": "Csak összesítőket: hányan csatlakoztak, hányan nyitották meg a Captio AI alkalmazást az elmúlt héten, hány felvételt mentettek, és azok milyen hosszúak. Soha nem azt, ami elhangzott, és soha nem azt, hogy ki mondta." },
+      { "q": "Hogyan adhatunk hozzá embereket a vásárlás után?", "a": "Ugyanazzal a linkkel. Amint a licencek aktívak, bárki csatlakozhat, akinek elküldik, a licencek számáig. A próbaidőszak résztvevői mindent megtartanak, amit elmentettek." },
+      { "q": "Mi történik 12 hónap után?", "a": "Egy hónappal a licencek lejárta előtt megújítási ajánlatot küldünk. Semmi sem újul meg, és nem terhelünk semmit automatikusan." },
+      { "q": "Kiváltja az írótolmácsot vagy a jegyzetelőt?", "a": "Nem minden esetben. A Captio AI azonnali feliratot ad, bárhol is van az illető, előzetes foglalás nélkül. Ahol hibátlan rögzítés szükséges, sok szervezet emberi támogatás mellett használja." },
+      { "q": "Hol tárolják az adatainkat, és ki kezeli őket?", "a": "A fiókokat és a mentett átiratokat az EU-ban (Frankfurt) tároljuk. A hangot valós időben dolgozzuk fel, és nem tároljuk a szervereinken. Adatvédelmi irányelveink felsorolnak minden céget, amely adatokat kezel. Semmit sem használunk MI-modellek tanítására." },
+      { "q": "Megvásárolhatja valaki egyénileg is a Captio AI Plus előfizetést?", "a": "Igen, az alkalmazásban. A szervezeti licencek arra az esetre szólnak, amikor egy szervezet fizet valaki helyett." }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Ingyenes próbaidőszak",
+    "title": "Próbálja ki a saját embereivel",
+    "body": "Legfeljebb 5 fő, 30 napig ingyen. A link egy percen belül megérkezik a postafiókjába. Előbb kérdése van? Írjon ide: {address}."
+  },
+  "join": {
+    "metaTitle": "Captio AI, {org} jóvoltából",
+    "metaDescription": "{org} jóvoltából a Captio AI élő feliratként mutatja a saját telefonodon, amit mások mondanak.",
+    "gives": "{org} jóvoltából",
+    "title": "Élő felirat a telefonodon",
+    "pilotOffer": "A Captio AI teljes verziója {days} napig ingyen.",
+    "paidOffer": "A Captio AI teljes verziója {date} napjáig, {org} jóvoltából.",
+    "about": "Felirat arról, amit mások mondanak, már beszéd közben, több mint 60 nyelven.",
+    "steps": ["Folytasd lent Apple- vagy Google-fiókkal", "Töltsd le a Captio AI alkalmazást az App Store-ból vagy a Google Playről", "Jelentkezz be az alkalmazásba ugyanazzal a fiókkal"],
+    "continueApple": "Folytatás Apple-lel",
+    "continueGoogle": "Folytatás Google-lel",
+    "signingIn": "Bejelentkezés…",
+    "alreadyUse": "Már használod a Captio AI alkalmazást? Folytasd azzal a fiókkal, amelyet az alkalmazásban használsz.",
+    "nothingToPay": "Nincs mit fizetni. Az ingyenes napok után egyszerűen véget ér.",
+    "privacyNote": "A szervezet ({org}) csak azt látja, hányan csatlakoztak, és összesen mennyit használták a Captio AI alkalmazást, azt soha, hogy mi hangzott el.",
+    "privacyLink": "Adatvédelmi irányelvek",
+    "joined": "Bent vagy",
+    "alreadyJoined": "Már bent vagy",
+    "until": "A Captio AI teljes verziója {date} napjáig a tiéd.",
+    "getAppStore": "Captio AI letöltése az App Store-ból",
+    "getGooglePlay": "Captio AI letöltése a Google Playről",
+    "phoneApp": "A Captio AI telefonos alkalmazás: töltsd le iPhone-ra vagy androidos telefonra.",
+    "thenSignIn": "Ezután jelentkezz be a Captio AI alkalmazásba ugyanazzal a {provider}-fiókkal. Már megvan az alkalmazás? Zárd be, és nyisd meg újra.",
+    "endedTitle": "Lejártak az ingyenes napjaid",
+    "endedBody": "A Captio AI, amelyet {org} jóvoltából használtál, {date} napján lejárt. Kérdezd meg a szervezetedet ({org}), hogy megtarthatod-e.",
+    "closed": {
+      "fullTitle": "Minden hely betelt",
+      "full": "A szervezeted ({org}) összes helye betelt ({seats} fő). Érdeklődj náluk ({org}), van-e még hely.",
+      "stoppedTitle": "Ezt a linket lezárták",
+      "stopped": "Kérj újat a szervezetedtől ({org}).",
+      "expiredTitle": "A próbaidőszak linkje lejárt",
+      "expired": "Kérj újat a szervezetedtől ({org}).",
+      "endedTitle": "Lejártak a licencek ({org})",
+      "ended": "Kérdezd meg a szervezetedet ({org}), hogy megújítják-e a Captio AI előfizetést."
+    },
+    "failures": {
+      "full": "A szervezeted ({org}) összes helye betelt. Érdeklődj náluk ({org}), van-e még hely.",
+      "stopped": "Ezt a linket lezárták. Kérj újat a szervezetedtől ({org}).",
+      "linkExpired": "A próbaidőszak linkje lejárt. Kérj újat a szervezetedtől ({org}).",
+      "ended": "Lejártak a szervezeted ({org}) licencei.",
+      "otherOrg": "A fiókod már egy másik szervezeten keresztül kapja a Captio AI előfizetést.",
+      "hadPilot": "Ez a fiók már részt vett egy ingyenes próbaidőszakban. Kérdezd meg a szervezetedet ({org}), hogy megtarthatod-e a Captio AI előfizetést.",
+      "notFound": "Ez a link nem működik. Kérj újat attól, aki küldte.",
+      "signInFailed": "A bejelentkezés nem sikerült. Próbáld újra.",
+      "couldNotAdd": "Most nem sikerült hozzáadni. Próbáld újra.",
+      "generic": "Hiba történt. Próbáld újra."
+    },
+    "invalidTitle": "Ez a link nem működik",
+    "invalidBody": "Ellenőrizd, hogy a teljes linket másoltad-e ki, vagy kérj újat attól, aki küldte.",
+    "errorTitle": "Nem sikerült betölteni az oldalt",
+    "errorBody": "Próbáld újra egy kicsit később."
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "title": "Təşkilatlar üçün canlı subtitr: nitqdən mətnə",
+    "description": "Captio AI kar və zəif eşidən insanlara nitqi telefonda canlı subtitr kimi göstərir, 60+ dildə. Təşkilatlar üçün illik lisenziya. 30 gün pulsuz pilot."
+  },
+  "header": {
+    "forOrganizations": "təşkilatlar üçün",
+    "startPilot": "Pulsuz pilotu başladın",
+    "chooseLanguage": "Dili seçin"
+  },
+  "hero": {
+    "eyebrow": "🏢 Təşkilatlar üçün Captio AI",
+    "title": "İnsanların [danışdığı] anda telefonda canlı subtitrlər",
+    "description": "Captio AI kar və zəif eşidən insanlar üçün tətbiqdir. O, dinləyir və üz-üzə ünsiyyətdə deyilənləri mətn kimi göstərir, 60+ dildə. Onu təşkilatınızda ehtiyacı olan insanlara verin: hər nəfər üçün bir illik lisenziya, hesab-faktura ilə ödəniş.",
+    "seeHow": "Necə işlədiyinə baxın",
+    "pilotNote": "30 gün pulsuz, 5 nəfərə qədər. Heç nə ödəmək və imzalamaq lazım deyil.",
+    "facts": ["iPhone və Android", "60+ dil", "Məlumatlar Aİ-də saxlanılır"],
+    "videoLabel": "Captio AI iki nəfərin söhbətini canlı subtitrlərlə göstərir, hər danışan üçün ayrıca etiketlə"
+  },
+  "features": {
+    "eyebrow": "Captio AI nə edir",
+    "title": "Canlı subtitr, tərcümə və transkripsiya",
+    "subtitle": "Bir tətbiqdə üç alət, öz telefonlarında, 60+ dildə.",
+    "items": [
+      { "label": "Canlı subtitr", "title": "Hər söz deyildiyi anda", "description": "Tətbiqi açın, mikrofona toxunun və oxuyun. Hər danışanın öz etiketi olur, ona görə kimin nə dediyi aydın görünür." },
+      { "label": "Canlı tərcümə", "title": "Hər iki dil yan-yana", "description": "Kimsə başqa dildə danışanda insan deyilənləri və onların tərcüməsini eyni anda görür." },
+      { "label": "Transkripsiya", "title": "Yazılar və fayllar mətnə", "description": "İstənilən söhbəti yadda saxlayın və ya audio, yaxud video fayl əlavə edin, süni intellekt xülasəsi ilə tam transkripsiya alın." }
+    ]
+  },
+  "languages": {
+    "eyebrow": "60+ dil",
+    "title": "İnsanlarınızın danışdığı dillərdə subtitrlər",
+    "subtitle": "Onların hər birində canlı subtitr, tərcümə və transkripsiya, cümlənin ortasında dili dəyişən insanlar üçün də."
+  },
+  "awareness": {
+    "eyebrow": "Kar və zəif eşidən insanlar üçün yaradılıb",
+    "title": "Ekrandakı sözlərdən daha çox",
+    "subtitle": "Kim danışır, harada dayanıb və ətrafda daha nə baş verir: otaqdakı səsləri eşitmədikdə vacib olan şeylər.",
+    "items": [
+      { "title": "Kimin danışdığını bilir", "description": "Bir nəfərin səsini bir dəfə, təxminən 20 saniyəlik danışığından yadda saxlayın, subtitrlərdə “Danışan 2” əvəzinə onun adı görünəcək, həm canlı, həm də saxlanılmış yazılarda. Səslər telefonda yaradılır və orada saxlanılır.", "where": "iPhone" },
+      { "title": "Səsin haradan gəldiyini göstərir", "description": "Ekranın kənarındakı dalğalar səsin hansı tərəfdən gəldiyini həmin danışanın rəngində göstərir, beləcə səs-küylü otaqda hara baxmaq lazım olduğu bilinir.", "where": "iPhone 16 və daha yeniləri" },
+      { "title": "Ətrafdakı səsləri eşidir", "description": "Səslər subtitrlərdə filmlərin subtitrlərindəki kimi görünür. Qapı zəngi, siqnalizasiya və ya ağlayan körpə həm də telefonu titrədir.", "where": "iPhone və iPad" }
+    ],
+    "drawing": {
+      "otherName": "Leyla",
+      "me": "Mən",
+      "voicesLine1": "Görüşü cüməyə keçirək?",
+      "voicesLine2": "Cümə mənə uyğundur.",
+      "directionLine": "Buradayam, solunda.",
+      "soundsBefore": "Saat üçdə görüşərik.",
+      "sound": "[qapı zəngi çalır]",
+      "soundsAfter": "Bu kimdir?",
+      "vibrates": "Telefon titrəyir"
+    }
+  },
+  "reasons": {
+    "eyebrow": "Təşkilatınız üçün",
+    "title": "Təşkilatlar niyə Captio AI tətbiqini seçir",
+    "items": [
+      { "title": "Lazım olduğu an hazırdır", "description": "Subtitr mütəxəssisini əvvəlcədən sifariş etməyə ehtiyac yoxdur. İnsan harada olursa olsun, subtitrlər bir toxunuşla başlayır." },
+      { "title": "Öz telefonlarında", "description": "iPhone və ya Android. İT komandanızın heç nə quraşdırmasına və avadanlıq paylamasına ehtiyac yoxdur." },
+      { "title": "Məxfilik əvvəldən düşünülüb", "description": "Məlumatlar Aİ-də saxlanılır. Audio serverlərimizdə saxlanılmır və heç nə heç vaxt süni intellektin öyrədilməsi üçün istifadə olunmur." },
+      { "title": "Almaq asandır", "description": "Hər nəfər üçün ildə bir qiymət, hesab-faktura ilə. Minimum yoxdur, qoşulma haqqı yoxdur, heç nə avtomatik yenilənmir." }
+    ]
+  },
+  "pilot": {
+    "eyebrow": "Pulsuz pilot",
+    "title": "5 nəfərə qədər 30 gün sınayın",
+    "steps": [
+      { "title": "Pilot linkinizi alın", "description": "Aşağıdakı formu doldurun. Link bir dəqiqə ərzində poçt qutunuza gələcək, yönləndirməyə hazır mesajla birlikdə." },
+      { "title": "Onu 5 nəfərə qədər insana göndərin", "description": "Hər kəs linki telefonunda açır, Apple və ya Google ilə davam edir və Captio AI tətbiqini iPhone və ya Android-də əldə edir." },
+      { "title": "30 gün ərzində tam versiya", "description": "Sizdən heç bir şəxsi məlumat tələb olunmur, ona görə sənədləşmə yoxdur. Sonuna yaxın tətbiqdən nə qədər istifadə olunduğuna dair xülasə və onu saxlamaq üçün qiyməti alacaqsınız." }
+    ]
+  },
+  "form": {
+    "organization": "Təşkilat",
+    "name": "Adınız",
+    "email": "İş e-poçtunuz",
+    "emailHint": "Pilot linki bu ünvana göndəriləcək.",
+    "people": "Təxminən neçə nəfər istifadə edə bilər?",
+    "peopleOptions": ["1–5 nəfər", "6–19 nəfər", "20–50 nəfər", "50-dən çox"],
+    "submit": "Pilot linkini mənə göndərin",
+    "sending": "Göndərilir…",
+    "note": "30 gün pulsuz, 5 nəfərə qədər. Heç nə ödəmək və imzalamaq lazım deyil.",
+    "sentTitle": "Poçt qutunuzu yoxlayın",
+    "sentTo": "Pilot linkiniz {email} ünvanına göndərildi, istifadə edəcək insanlara yönləndirə biləcəyiniz mesajla birlikdə.",
+    "resentTo": "Pilot linkinizi {email} ünvanına yenidən göndərdik, istifadə edəcək insanlara yönləndirə biləcəyiniz mesajla birlikdə.",
+    "sentHelp": "Adətən bir dəqiqə ərzində gəlir. Gəlməyib? Spam qovluğunu yoxlayın və ya {address} ünvanına yazın.",
+    "errors": {
+      "org": "Təşkilatınızın adını daxil edin.",
+      "email": "Bu e-poçt ünvanı düzgün görünmür.",
+      "tooMany": "Bu gün buradan çox sayda sorğu göndərilib. Zəhmət olmasa, bunun əvəzinə {address} ünvanına yazın.",
+      "domainLimit": "Təşkilatınızda artıq pilotlar davam edir. {address} ünvanına yazın, daha çox əlavə edək.",
+      "busy": "Bu gün çox sorğu almışıq. Zəhmət olmasa, {address} ünvanına yazın, linkiniz bir gün ərzində sizdə olacaq.",
+      "server": "Nə isə alınmadı{code}. Yenidən cəhd edin və ya {address} ünvanına yazın.",
+      "network": "Göndərmək alınmadı. İnternet bağlantınızı yoxlayıb yenidən cəhd edin."
+    }
+  },
+  "pricing": {
+    "eyebrow": "Qiymətlər",
+    "title": "Hər nəfər üçün ildə bir qiymət",
+    "subtitle": "Hesab-faktura və bank köçürməsi ilə ödənilir. Qiymətlərə ƏDV daxil deyil (tətbiq olunduğu hallarda).",
+    "plans": ["1–19 nəfər", "20 və daha çox nəfər"],
+    "perPersonYear": "hər nəfər üçün ildə",
+    "otherCurrencies": "{a} və ya {b}",
+    "includedTitle": "Daxildir",
+    "included": [
+      "Hər nəfər üçün 12 aylıq Captio AI Plus",
+      "Yönləndirmək üçün bir link: insanlar bir dəqiqəyə qoşulur",
+      "Yalnız ümumi istifadə rəqəmləri, deyilənlər heç vaxt",
+      "İstəsəniz, quraşdırma zəngi",
+      "Birbaşa təsisçidən e-poçt dəstəyi",
+      "Kommersiya təklifi, satınalma sifarişiniz, hesab-faktura",
+      "Məlumatların emalı haqqında müqavilə",
+      "Minimum yoxdur, qoşulma haqqı yoxdur, avtomatik yenilənmə yoxdur"
+    ],
+    "quote": "Kommersiya təklifi istəyin"
+  },
+  "data": {
+    "eyebrow": "Məlumatların qorunması komandanız üçün",
+    "title": "Məlumatlar necə emal olunur",
+    "items": [
+      { "title": "Aİ-də saxlanılır", "description": "Hesablar və saxlanılmış transkripsiyalar Avropa İttifaqında (Frankfurt) saxlanılır." },
+      { "title": "Audio serverlərimizdə saxlanılmır", "description": "Subtitrlər üçün nitq real vaxtda emal olunur. İnsanların saxladığı yazıların audiosu onların öz telefonunda qalır." },
+      { "title": "Süni intellektin öyrədilməsində heç vaxt istifadə olunmur", "description": "Heç bir məzmun satılmır, reklam üçün paylaşılmır və süni intellekt modellərinin öyrədilməsi üçün istifadə olunmur: nə bizim tərəfimizdən, nə də istifadə etdiyimiz provayderlər tərəfindən." },
+      { "title": "Hər emalçı göstərilib", "description": "Məxfilik siyasətimizdə məlumatları emal edən hər şirkət və onların hansı məqsədlə emal etdiyi göstərilib. Böyük Britaniya və Avropa İqtisadi Zonasından kənara ötürmələr Standart Müqavilə Şərtləri (SCC) ilə tənzimlənir." },
+      { "title": "Məlumatların emalı haqqında müqavilə", "description": "Ödənişli lisenziyalar üçün, girişi açılacaq insanların adlarını və ya e-poçt ünvanlarını bizə göndərdiyiniz zaman təşkilatınızla belə bir müqavilə imzalayırıq." },
+      { "title": "Silinmə", "description": "Hər kəs istənilən vaxt tətbiqdə öz hesabını və yazılarını silə bilər." }
+    ],
+    "dpa": "Məlumatların emalı haqqında müqaviləni istəyin",
+    "privacy": "Məxfilik siyasətini oxuyun"
+  },
+  "faq": {
+    "eyebrow": "Suallar",
+    "title": "Tez-tez verilən suallar",
+    "items": [
+      { "q": "Captio AI nədir?", "a": "iPhone və Android üçün tətbiq: insanların dediklərini dedikləri anda mətn kimi göstərir, 60+ dildə. Kar və zəif eşidən insanlar ondan üz-üzə ünsiyyətdə, subtitrə ehtiyac duyduqları hər yerdə istifadə edirlər: açırlar, mikrofona toxunurlar və oxuyurlar. O, həmçinin tərcümə edə, danışanları ayırd edib tanıdığı insanların adını yaza, səsin haradan gəldiyini göstərə (iPhone 16 və daha yeniləri), qapı zəngi və ya siqnalizasiya kimi səsləri subtitrlərə yaza, deyilənləri saxlayıb xülasə edə bilər." },
+      { "q": "Təşkilatlar üçün Captio AI kimə uyğundur?", "a": "Kar və zəif eşidən insanlar üçün subtitr xidmətinin pulunu ödəyən istənilən təşkilata. Hər nəfər öz telefonunda bir illik Captio AI Plus alır, təşkilat isə bir hesab-faktura ödəyir." },
+      { "q": "Qiyməti nə qədərdir?", "a": "1–19 nəfər üçün hər nəfərə ildə £89, €99 və ya $109, 20 nəfərdən başlayaraq isə hər nəfərə ildə £69, €79 və ya $89. Minimum və qoşulma haqqı yoxdur. Qiymətlərə ƏDV daxil deyil (tətbiq olunduğu hallarda)." },
+      { "q": "Necə ödəyirik?", "a": "Hesab-faktura və bank köçürməsi ilə. Əvvəlcə kommersiya təklifi göndəririk və satınalma sifarişi prosedurunuza uyğun işləməyə hazırıq." },
+      { "q": "Əvvəlcə sınaya bilərikmi?", "a": "Bəli. 5 nəfərə qədər 30 günlük pulsuz pilot var. Bu səhifədəki formu doldurun, yönləndirmək üçün link bir dəqiqə ərzində e-poçtla gələcək. Heç nə ödəmək və imzalamaq lazım deyil." },
+      { "q": "İstifadəçilər pul ödəməli və ya nəyisə quraşdırmalıdırmı?", "a": "Xeyr. Onlar yönləndirdiyiniz linki açır, Apple və ya Google ilə davam edir, sonra Captio AI tətbiqini iPhone və ya Android-ə pulsuz yükləyib eyni hesabla daxil olurlar. Tam versiya dərhal açılır. İT komandanızın heç nə quraşdırmasına ehtiyac yoxdur." },
+      { "q": "İstifadə barədə nə görürük?", "a": "Yalnız ümumi rəqəmlər: neçə nəfər qoşulub, son həftədə neçə nəfər Captio AI tətbiqini açıb, neçə yazı saxlanılıb və onların uzunluğu. Deyilənlər və kimin dediyi heç vaxt göstərilmir." },
+      { "q": "Aldıqdan sonra insanları necə əlavə edirik?", "a": "Eyni linklə. Lisenziyalarınız aktiv olduqdan sonra linki göndərdiyiniz hər kəs lisenziyalarınızın sayı qədər qoşula bilər. Pilot iştirakçılarının saxladığı hər şey onlarda qalır." },
+      { "q": "12 aydan sonra nə olur?", "a": "Lisenziyalar bitməzdən bir ay əvvəl yeniləmə üçün kommersiya təklifi göndəririk. Heç nə avtomatik yenilənmir və heç bir ödəniş avtomatik tutulmur." },
+      { "q": "Bu, subtitr mütəxəssisini və ya qeyd aparan köməkçini əvəz edirmi?", "a": "Hər halda yox. Captio AI heç kimi əvvəlcədən sifariş etmədən, insan harada olursa olsun, dərhal subtitr verir. Qüsursuz qeydin tələb olunduğu yerlərdə bir çox xidmət ondan insan dəstəyi ilə yanaşı istifadə edir." },
+      { "q": "Məlumatlarımız harada saxlanılır və onları kim emal edir?", "a": "Hesablar və saxlanılmış transkripsiyalar Aİ-də (Frankfurt) saxlanılır. Audio real vaxtda emal olunur və serverlərimizdə saxlanılmır. Məxfilik siyasətimizdə məlumatları emal edən bütün şirkətlər sadalanır. Heç nə süni intellekt modellərinin öyrədilməsi üçün istifadə olunmur." },
+      { "q": "Bir nəfər Captio AI Plus abunəliyini özü ala bilərmi?", "a": "Bəli, tətbiqin içində. Təşkilat lisenziyaları təşkilat kiminsə əvəzinə ödədikdə lazımdır." }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Pulsuz pilot",
+    "title": "Öz insanlarınızla sınayın",
+    "body": "5 nəfərə qədər, 30 gün pulsuz. Link bir dəqiqə ərzində poçt qutunuza gələcək. Əvvəlcə sualınız var? {address} ünvanına yazın."
+  },
+  "join": {
+    "metaTitle": "{org} sənə Captio AI təqdim edir",
+    "metaDescription": "{org} sənə Captio AI təqdim edir: insanların dediklərini öz telefonunda canlı subtitr kimi gör.",
+    "gives": "{org} sənə təqdim edir",
+    "title": "Telefonunda canlı subtitr",
+    "pilotOffer": "Captio AI tətbiqinin tam versiyası, {days} gün pulsuz.",
+    "paidOffer": "Captio AI tətbiqinin tam versiyası {date} tarixinədək, ödənişi {org} edir.",
+    "about": "İnsanların dedikləri danışdıqları anda subtitr kimi görünür, 60+ dildə.",
+    "steps": ["Aşağıda Apple və ya Google ilə davam et", "Captio AI tətbiqini App Store və ya Google Play-dən yüklə", "Tətbiqə eyni hesabla daxil ol"],
+    "continueApple": "Apple ilə davam et",
+    "continueGoogle": "Google ilə davam et",
+    "signingIn": "Daxil olunur…",
+    "alreadyUse": "Artıq Captio AI istifadə edirsən? Tətbiqdə istifadə etdiyin hesabla davam et.",
+    "nothingToPay": "Heç nə ödəmək lazım deyil. Pulsuz günlər bitəndə sadəcə dayanır.",
+    "privacyNote": "{org} yalnız neçə nəfərin qoşulduğunu və Captio AI tətbiqindən ümumilikdə nə qədər istifadə olunduğunu görür, deyilənləri isə heç vaxt.",
+    "privacyLink": "Məxfilik siyasəti",
+    "joined": "Qoşuldun",
+    "alreadyJoined": "Sən artıq qoşulmusan",
+    "until": "Captio AI tətbiqinin tam versiyası {date} tarixinədək səndədir.",
+    "getAppStore": "Captio AI tətbiqini App Store-dan yüklə",
+    "getGooglePlay": "Captio AI tətbiqini Google Play-dən yüklə",
+    "phoneApp": "Captio AI telefon tətbiqidir: onu iPhone və ya Android telefonuna yüklə.",
+    "thenSignIn": "Sonra Captio AI tətbiqinə eyni {provider} hesabı ilə daxil ol. Tətbiq artıq var? Bağla və yenidən aç.",
+    "endedTitle": "Pulsuz günlərin bitdi",
+    "endedBody": "{org} təşkilatının verdiyi Captio AI {date} tarixində bitdi. Onu saxlamaq barədə {org} təşkilatından soruş.",
+    "closed": {
+      "fullTitle": "Bütün yerlər tutulub",
+      "full": "{org} təşkilatının bütün {seats} yeri tutulub. Əlavə yerlər barədə {org} təşkilatından soruş.",
+      "stoppedTitle": "Bu link bağlanıb",
+      "stopped": "{org} təşkilatından yenisini istə.",
+      "expiredTitle": "Bu pilot linkinin vaxtı bitib",
+      "expired": "{org} təşkilatından yenisini istə.",
+      "endedTitle": "{org} təşkilatının lisenziyaları bitib",
+      "ended": "Captio AI tətbiqini yeniləyib-yeniləməyəcəklərini {org} təşkilatından soruş."
+    },
+    "failures": {
+      "full": "{org} təşkilatının bütün yerləri tutulub. Əlavə yerlər barədə {org} təşkilatından soruş.",
+      "stopped": "Bu link bağlanıb. {org} təşkilatından yenisini istə.",
+      "linkExpired": "Bu pilot linkinin vaxtı bitib. {org} təşkilatından yenisini istə.",
+      "ended": "{org} təşkilatının lisenziyaları bitib.",
+      "otherOrg": "Hesabın Captio AI tətbiqini artıq başqa təşkilat vasitəsilə alır.",
+      "hadPilot": "Bu hesab artıq pulsuz pilotdan istifadə edib. Captio AI tətbiqini saxlamaq barədə {org} təşkilatından soruş.",
+      "notFound": "Bu link işləmir. Onu göndərəndən yenisini istə.",
+      "signInFailed": "Daxil olmaq alınmadı. Yenidən cəhd et.",
+      "couldNotAdd": "Səni indi əlavə etmək alınmadı. Yenidən cəhd et.",
+      "generic": "Nə isə alınmadı. Yenidən cəhd et."
+    },
+    "invalidTitle": "Bu link işləmir",
+    "invalidBody": "Linkin tam kopyalandığını yoxla və ya onu göndərəndən yenisini istə.",
+    "errorTitle": "Bu səhifəni yükləmək alınmadı",
+    "errorBody": "Bir azdan yenidən cəhd et."
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "title": "Tiešraides subtitri organizācijām un uzņēmumiem",
+    "description": "Captio AI rāda nedzirdīgajiem un vājdzirdīgajiem subtitrus reāllaikā viņu tālrunī, 60+ valodās. Gada licences pēc rēķina. 30 dienu izmēģinājums bez maksas."
+  },
+  "header": {
+    "forOrganizations": "Organizācijām",
+    "startPilot": "Sākt bezmaksas izmēģinājumu",
+    "chooseLanguage": "Izvēlieties valodu"
+  },
+  "hero": {
+    "eyebrow": "🏢 Captio AI organizācijām",
+    "title": "Tiešraides subtitri viņu tālrunī, tiklīdz cilvēki [runā]",
+    "description": "Captio AI ir lietotne nedzirdīgajiem un vājdzirdīgajiem. Tā klausās un parāda teikto kā tekstu klātienes sarunās, 60+ valodās. Nodrošiniet to savas organizācijas cilvēkiem, kam tā vajadzīga: katram viena gada licence, apmaksa pēc rēķina.",
+    "seeHow": "Kā tas darbojas",
+    "pilotNote": "30 dienas bez maksas, līdz 5 cilvēkiem. Nekas nav jāmaksā, nekas nav jāparaksta.",
+    "facts": ["iPhone un Android", "60+ valodas", "Dati glabājas ES"],
+    "videoLabel": "Captio AI rāda divu cilvēku sarunas subtitrus reāllaikā, katram runātājam ar savu apzīmējumu"
+  },
+  "features": {
+    "eyebrow": "Ko dara Captio AI",
+    "title": "Tiešraides subtitri, tulkošana un transkripcija",
+    "subtitle": "Trīs rīki vienā lietotnē, viņu pašu tālrunī, 60+ valodās.",
+    "items": [
+      { "label": "Tiešraides subtitri", "title": "Katrs vārds, tiklīdz tas izteikts", "description": "Atveriet lietotni, pieskarieties mikrofonam un lasiet līdzi. Katram runātājam ir savs apzīmējums, tāpēc skaidrs, kurš ko teica." },
+      { "label": "Tiešraides tulkošana", "title": "Abas valodas blakus", "description": "Kad kāds runā citā valodā, cilvēks vienlaikus redz gan teikto, gan tā tulkojumu." },
+      { "label": "Transkripcija", "title": "Ieraksti un faili tekstā", "description": "Saglabājiet jebkuru sarunu vai pievienojiet audio vai video failu un saņemiet pilnu transkripciju ar MI kopsavilkumu." }
+    ]
+  },
+  "languages": {
+    "eyebrow": "60+ valodas",
+    "title": "Subtitri valodās, kurās runā jūsu cilvēki",
+    "subtitle": "Tiešraides subtitri, tulkošana un transkripcija katrā no tām, arī tad, ja cilvēki teikuma vidū pāriet uz citu valodu."
+  },
+  "awareness": {
+    "eyebrow": "Radīts nedzirdīgajiem un vājdzirdīgajiem",
+    "title": "Vairāk nekā vārdi ekrānā",
+    "subtitle": "Kurš runā, kur viņš atrodas un kas vēl notiek apkārt: tas, kas svarīgs, ja apkārtni nevar dzirdēt.",
+    "items": [
+      { "title": "Zina, kurš runā", "description": "Vienreiz saglabājiet cilvēka balsi (pietiek ar apmēram 20 sekundēm runas), un subtitros „Runātājs 2” vietā būs redzams viņa vārds gan tiešraidē, gan saglabātos ierakstos. Balss paraugi tiek izveidoti un glabāti tālrunī.", "where": "iPhone" },
+      { "title": "Rāda, no kurienes nāk balss", "description": "Viļņi ekrāna malā runātāja krāsā rāda, no kuras puses nāk balss, lai pārpildītā telpā būtu skaidrs, kur skatīties.", "where": "iPhone 16 un jaunāki" },
+      { "title": "Dzird apkārtējās skaņas", "description": "Skaņas parādās subtitros tāpat kā filmu subtitros. Durvju zvans, signalizācija vai raudošs mazulis arī liek tālrunim novibrēt.", "where": "iPhone un iPad" }
+    ],
+    "drawing": {
+      "otherName": "Ilze",
+      "me": "Es",
+      "voicesLine1": "Varam pārcelt sapulci uz piektdienu?",
+      "voicesLine2": "Man piektdiena der.",
+      "directionLine": "Es esmu te, tev pa kreisi.",
+      "soundsBefore": "Tiekamies trijos.",
+      "sound": "[skan durvju zvans]",
+      "soundsAfter": "Kas tur ir?",
+      "vibrates": "Tālrunis vibrē"
+    }
+  },
+  "reasons": {
+    "eyebrow": "Jūsu organizācijai",
+    "title": "Kāpēc organizācijas izvēlas Captio AI",
+    "items": [
+      { "title": "Gatavs brīdī, kad vajag", "description": "Nav iepriekš jārezervē subtitrētājs. Subtitri sākas ar vienu pieskārienu, lai kur cilvēks atrastos." },
+      { "title": "Viņu pašu tālrunī", "description": "iPhone vai Android. Jūsu IT komandai nekas nav jāinstalē, un nav jāizsniedz nekāda aparatūra." },
+      { "title": "Privātums jau pēc būtības", "description": "Dati glabājas ES. Audio netiek glabāts mūsu serveros, un nekas netiek izmantots MI apmācībai." },
+      { "title": "Vienkārši iegādāties", "description": "Viena cena par cilvēku gadā, pēc rēķina. Bez minimuma, bez uzstādīšanas maksas, nekas neatjaunojas automātiski." }
+    ]
+  },
+  "pilot": {
+    "eyebrow": "Bezmaksas izmēģinājums",
+    "title": "Izmēģiniet 30 dienas ar līdz 5 cilvēkiem",
+    "steps": [
+      { "title": "Saņemiet izmēģinājuma saiti", "description": "Aizpildiet zemāk esošo veidlapu. Saite minūtes laikā pienāks jūsu e-pastā kopā ar ziņu, ko var pārsūtīt." },
+      { "title": "Pārsūtiet to līdz 5 cilvēkiem", "description": "Katrs to atver savā tālrunī, turpina ar Apple vai Google un lejupielādē lietotni Captio AI iPhone vai Android tālrunī." },
+      { "title": "30 dienas viņiem ir pilnā versija", "description": "No jums nav vajadzīgi nekādi personas dati, tātad nav arī papīru. Tuvāk beigām saņemsiet kopsavilkumu par to, cik daudz tā tika izmantota, un cenu, ja vēlaties turpināt." }
+    ]
+  },
+  "form": {
+    "organization": "Organizācija",
+    "name": "Jūsu vārds",
+    "email": "Jūsu darba e-pasts",
+    "emailHint": "Izmēģinājuma saite tiks nosūtīta uz šo adresi.",
+    "people": "Aptuveni cik cilvēku to varētu izmantot?",
+    "peopleOptions": ["No 1 līdz 5", "No 6 līdz 19", "No 20 līdz 50", "Vairāk nekā 50"],
+    "submit": "Sūtīt man izmēģinājuma saiti",
+    "sending": "Sūta…",
+    "note": "30 dienas bez maksas, līdz 5 cilvēkiem. Nekas nav jāmaksā, nekas nav jāparaksta.",
+    "sentTitle": "Pārbaudiet savu e-pastu",
+    "sentTo": "Izmēģinājuma saite jau ceļo uz {email} kopā ar ziņu, ko varat pārsūtīt cilvēkiem, kuri to izmantos.",
+    "resentTo": "Mēs vēlreiz nosūtījām izmēģinājuma saiti uz {email} kopā ar ziņu, ko varat pārsūtīt cilvēkiem, kuri to izmantos.",
+    "sentHelp": "Parasti tā pienāk minūtes laikā. Nav? Pārbaudiet surogātpasta mapi vai rakstiet uz {address}.",
+    "errors": {
+      "org": "Lūdzu, ierakstiet savas organizācijas nosaukumu.",
+      "email": "Šī e-pasta adrese neizskatās pareiza.",
+      "tooMany": "Šodien no šejienes saņemts pārāk daudz pieprasījumu. Lūdzu, rakstiet uz {address}.",
+      "domainLimit": "Jūsu organizācijā jau notiek izmēģinājumi. Rakstiet uz {address}, un mēs pievienosim vēl.",
+      "busy": "Šodien esam saņēmuši daudz pieprasījumu. Lūdzu, rakstiet uz {address}, un saiti saņemsiet dienas laikā.",
+      "server": "Kaut kas nogāja greizi{code}. Lūdzu, mēģiniet vēlreiz vai rakstiet uz {address}.",
+      "network": "Neizdevās nosūtīt. Pārbaudiet savienojumu un mēģiniet vēlreiz."
+    }
+  },
+  "pricing": {
+    "eyebrow": "Cenas",
+    "title": "Viena cena par cilvēku gadā",
+    "subtitle": "Apmaksa pēc rēķina ar bankas pārskaitījumu. Cenas norādītas bez PVN, ja tas piemērojams.",
+    "plans": ["No 1 līdz 19 cilvēkiem", "20 un vairāk cilvēku"],
+    "perPersonYear": "par cilvēku gadā",
+    "otherCurrencies": "{a} vai {b}",
+    "includedTitle": "Iekļauts",
+    "included": [
+      "Captio AI Plus katram cilvēkam uz 12 mēnešiem",
+      "Viena saite pārsūtīšanai: cilvēki pievienojas minūtes laikā",
+      "Lietojuma kopsummas, nekad ne tas, kas teikts",
+      "Ievadzvans, ja vēlaties",
+      "Atbalsts e-pastā tieši no dibinātāja",
+      "Cenu piedāvājums, jūsu pirkuma pasūtījums, rēķins",
+      "Datu apstrādes līgums",
+      "Bez minimuma, bez uzstādīšanas maksas, bez automātiskas atjaunošanas"
+    ],
+    "quote": "Pieprasīt cenu piedāvājumu"
+  },
+  "data": {
+    "eyebrow": "Jūsu datu aizsardzības komandai",
+    "title": "Kā tiek apstrādāti dati",
+    "items": [
+      { "title": "Glabājas ES", "description": "Konti un saglabātās transkripcijas tiek glabāti Eiropas Savienībā (Frankfurtē)." },
+      { "title": "Audio netiek glabāts mūsu serveros", "description": "Runa tiek apstrādāta reāllaikā, lai izveidotu subtitrus. Cilvēku saglabāto ierakstu audio paliek viņu pašu tālrunī." },
+      { "title": "Nekad netiek izmantots MI apmācībai", "description": "Nekāds saturs netiek pārdots, kopīgots reklāmas nolūkos vai izmantots MI modeļu apmācībai, ne mūsu, ne neviena mūsu pakalpojumu sniedzēja." },
+      { "title": "Visi apstrādātāji ir norādīti", "description": "Mūsu privātuma politikā ir nosaukts katrs uzņēmums, kas apstrādā datus, un kādam nolūkam. Datu nosūtīšanu ārpus Apvienotās Karalistes un EEZ sedz līguma standartklauzulas." },
+      { "title": "Datu apstrādes līgums", "description": "Mēs to noslēdzam ar jūsu organizāciju par maksas licencēm, kad atsūtāt to cilvēku vārdus vai e-pasta adreses, kuriem jāatver piekļuve." },
+      { "title": "Dzēšana", "description": "Ikviens jebkurā laikā var lietotnē dzēst savu kontu un ierakstus." }
+    ],
+    "dpa": "Pieprasīt datu apstrādes līgumu",
+    "privacy": "Lasīt privātuma politiku"
+  },
+  "faq": {
+    "eyebrow": "BUJ",
+    "title": "Biežāk uzdotie jautājumi",
+    "items": [
+      { "q": "Kas ir Captio AI?", "a": "Lietotne iPhone un Android tālruņiem, kas parāda cilvēku teikto kā tekstu tajā pašā brīdī, kad viņi runā, 60+ valodās. Nedzirdīgie un vājdzirdīgie to izmanto klātienē, visur, kur viņiem vajag subtitrus: atver, pieskaras mikrofonam un lasa līdzi. Tā var arī tulkot, atšķirt runātājus un saukt pazīstamus cilvēkus vārdā, rādīt, no kurienes nāk balss (iPhone 16 un jaunākos), ierakstīt subtitros skaņas, piemēram, durvju zvanu vai signalizāciju, kā arī saglabāt un apkopot teikto." },
+      { "q": "Kam paredzēts Captio AI organizācijām?", "a": "Jebkurai organizācijai, kas apmaksā subtitrēšanu nedzirdīgo un vājdzirdīgo cilvēku vārdā. Katrs cilvēks uz gadu saņem Captio AI Plus savā tālrunī, un organizācija apmaksā vienu rēķinu." },
+      { "q": "Cik tas maksā?", "a": "£89, €99 vai $109 par cilvēku gadā no 1 līdz 19 cilvēkiem un £69, €79 vai $89 par cilvēku gadā no 20 cilvēkiem. Nav minimuma un nav uzstādīšanas maksas. Cenas norādītas bez PVN, ja tas piemērojams." },
+      { "q": "Kā mēs maksājam?", "a": "Pēc rēķina ar bankas pārskaitījumu. Vispirms nosūtām cenu piedāvājumu, un labprāt pielāgojamies jūsu pirkuma pasūtījumu kārtībai." },
+      { "q": "Vai varam vispirms izmēģināt?", "a": "Jā. Bezmaksas 30 dienu izmēģinājums līdz 5 cilvēkiem. Aizpildiet veidlapu šajā lapā, un saite pārsūtīšanai minūtes laikā pienāks e-pastā. Nekas nav jāmaksā un nekas nav jāparaksta." },
+      { "q": "Vai lietotājiem kaut kas jāmaksā vai jāiestata?", "a": "Nē. Viņi atver jūsu pārsūtīto saiti, turpina ar Apple vai Google, tad bez maksas lejupielādē lietotni Captio AI iPhone vai Android tālrunī un pierakstās ar to pašu kontu. Pilnā versija ir pieejama uzreiz. Jūsu IT komandai nekas nav jāinstalē." },
+      { "q": "Ko mēs redzam par lietojumu?", "a": "Tikai kopsummas: cik cilvēku pievienojās, cik no viņiem pēdējā nedēļā atvēra lietotni Captio AI un cik ierakstu saglabāts un cik tie gari. Nekad ne to, kas teikts, un nekad ne to, kas to teica." },
+      { "q": "Kā pievienot cilvēkus pēc iegādes?", "a": "Ar to pašu saiti. Kad licences ir aktīvas, ikviens, kam to nosūtāt, var pievienoties, līdz sasniegts licenču skaits. Izmēģinājuma dalībnieki patur visu, ko saglabājuši." },
+      { "q": "Kas notiek pēc 12 mēnešiem?", "a": "Mēnesi pirms licenču beigām nosūtām atjaunošanas cenu piedāvājumu. Nekas neatjaunojas un netiek iekasēts automātiski." },
+      { "q": "Vai tas aizstāj cilvēku, kas subtitrē vai pieraksta?", "a": "Ne vienmēr. Captio AI nodrošina tūlītējus subtitrus, lai kur cilvēks atrastos, bez iepriekšējas rezervēšanas. Ja nepieciešams nevainojams pieraksts, daudzi dienesti to izmanto kopā ar cilvēka atbalstu." },
+      { "q": "Kur glabājas mūsu dati un kas tos apstrādā?", "a": "Konti un saglabātās transkripcijas glabājas ES (Frankfurtē). Audio tiek apstrādāts reāllaikā un netiek glabāts mūsu serveros. Mūsu privātuma politikā ir uzskaitīti visi uzņēmumi, kas apstrādā datus. Nekas netiek izmantots MI modeļu apmācībai." },
+      { "q": "Vai cilvēks pats var iegādāties Captio AI Plus?", "a": "Jā, lietotnē. Organizāciju licences ir paredzētas gadījumiem, kad organizācija maksā kāda vietā." }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Bezmaksas izmēģinājums",
+    "title": "Izmēģiniet ar saviem cilvēkiem",
+    "body": "Līdz 5 cilvēkiem, 30 dienas bez maksas. Saite minūtes laikā pienāks jūsu e-pastā. Vispirms ir jautājumi? Rakstiet uz {address}."
+  },
+  "join": {
+    "metaTitle": "Captio AI – {org}",
+    "metaDescription": "{org} tev piešķir Captio AI: subtitrus reāllaikā tam, ko saka cilvēki, tavā tālrunī.",
+    "gives": "{org} aicina",
+    "title": "Tiešraides subtitri tavā tālrunī",
+    "pilotOffer": "Captio AI pilnā versija, {days} dienas bez maksas.",
+    "paidOffer": "Captio AI pilnā versija, ko apmaksā {org}, pieejama līdz: {date}.",
+    "about": "Subtitri tam, ko cilvēki saka, tiklīdz viņi runā, 60+ valodās.",
+    "steps": ["Zemāk turpini ar Apple vai Google", "Lejupielādē lietotni Captio AI no App Store vai Google Play", "Pieraksties lietotnē ar to pašu kontu"],
+    "continueApple": "Turpināt ar Apple",
+    "continueGoogle": "Turpināt ar Google",
+    "signingIn": "Notiek pierakstīšanās…",
+    "alreadyUse": "Jau lieto Captio AI? Turpini ar kontu, ko izmanto lietotnē.",
+    "nothingToPay": "Nekas nav jāmaksā. Pēc bezmaksas dienām tā vienkārši beidzas.",
+    "privacyNote": "{org} redz tikai to, cik cilvēku pievienojās un cik daudz Captio AI tika izmantots kopumā, nekad ne to, kas tika teikts.",
+    "privacyLink": "Privātuma politika",
+    "joined": "Viss gatavs",
+    "alreadyJoined": "Tev jau ir piekļuve",
+    "until": "Captio AI pilnā versija tev pieejama līdz: {date}.",
+    "getAppStore": "Lejupielādē Captio AI no App Store",
+    "getGooglePlay": "Lejupielādē Captio AI no Google Play",
+    "phoneApp": "Captio AI ir tālruņa lietotne: lejupielādē to savā iPhone vai Android tālrunī.",
+    "thenSignIn": "Pēc tam pieraksties lietotnē Captio AI ar to pašu {provider} kontu. Lietotne jau ir? Aizver to un atver vēlreiz.",
+    "endedTitle": "Tavas bezmaksas dienas ir beigušās",
+    "endedBody": "Piekļuve Captio AI, ko piešķīra {org}, ir beigusies (pēdējā diena: {date}). Jautā organizācijai {org}, vai to var paturēt.",
+    "closed": {
+      "fullTitle": "Visas vietas ir aizņemtas",
+      "full": "Visas vietas ({seats}), ko piešķīra {org}, ir aizņemtas. Jautā organizācijai {org} par papildu vietām.",
+      "stoppedTitle": "Šī saite ir slēgta",
+      "stopped": "Palūdz jaunu saiti organizācijai {org}.",
+      "expiredTitle": "Šīs izmēģinājuma saites derīguma termiņš ir beidzies",
+      "expired": "Palūdz jaunu saiti organizācijai {org}.",
+      "endedTitle": "Organizācijas {org} licences ir beigušās",
+      "ended": "Jautā organizācijai {org}, vai tā atjaunos Captio AI licences."
+    },
+    "failures": {
+      "full": "Visas organizācijas {org} vietas ir aizņemtas. Jautā organizācijai {org} par papildu vietām.",
+      "stopped": "Šī saite ir slēgta. Palūdz jaunu saiti organizācijai {org}.",
+      "linkExpired": "Šīs izmēģinājuma saites derīguma termiņš ir beidzies. Palūdz jaunu saiti organizācijai {org}.",
+      "ended": "Organizācijas {org} licences ir beigušās.",
+      "otherOrg": "Tavs konts jau saņem Captio AI caur citu organizāciju.",
+      "hadPilot": "Šim kontam jau ir bijis bezmaksas izmēģinājums. Jautā organizācijai {org}, vai Captio AI var paturēt.",
+      "notFound": "Šī saite nedarbojas. Palūdz jaunu tam, kurš to atsūtīja.",
+      "signInFailed": "Pierakstīties neizdevās. Lūdzu, mēģini vēlreiz.",
+      "couldNotAdd": "Šobrīd neizdevās tevi pievienot. Lūdzu, mēģini vēlreiz.",
+      "generic": "Kaut kas nogāja greizi. Lūdzu, mēģini vēlreiz."
+    },
+    "invalidTitle": "Šī saite nedarbojas",
+    "invalidBody": "Pārbaudi, vai tā nokopēta pilnībā, vai palūdz jaunu tam, kurš to atsūtīja.",
+    "errorTitle": "Neizdevās ielādēt šo lapu",
+    "errorBody": "Lūdzu, mēģini vēlreiz pēc brīža."
+  }
+}
