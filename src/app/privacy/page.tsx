@@ -33,7 +33,7 @@ export default function PrivacyPage() {
         <Header />
         <div className="max-w-3xl mx-auto px-6 py-16">
       <h1 className="text-3xl font-bold mb-2">Privacy Policy</h1>
-      <p className="text-sm text-gray-500 mb-10">Last updated: October 28, 2026</p>
+      <p className="text-sm text-gray-500 mb-10">Last updated: October 30, 2026</p>
 
       <P>
         This Privacy Policy explains how Captio AI (&ldquo;Captio AI&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or
@@ -82,6 +82,13 @@ export default function PrivacyPage() {
           renewals). To connect purchases to your account, RevenueCat also receives your account identifier, your
           IP address and, on iPhone, a device identifier provided by Apple. Payment is handled by the Apple App
           Store on iPhone and by Google Play on Android — we never receive or store your card details.
+        </li>
+        <li>
+          <strong>Referral program.</strong> If you share your referral link or use someone else&rsquo;s, we process
+          who referred whom, whether the person referred bought Plus (plan, price, and date), what was earned, and what
+          was paid. To pay a reward, we send our payout provider, Tremendous, your first name and the amount, and we
+          email the reward link to you ourselves. If you open that link, Tremendous processes what you enter there
+          (such as your PayPal address) under its own privacy policy. People you refer are never shown to you by name.
         </li>
         <li>
           <strong>App usage and diagnostics.</strong> Which features and screens you use, the app version, your
@@ -205,7 +212,7 @@ export default function PrivacyPage() {
 
       <H2>6. Legal bases for processing (GDPR)</H2>
       <UL>
-        <li><strong>Performance of a contract</strong> — to provide the Service you request, including your account, syncing, and your subscription.</li>
+        <li><strong>Performance of a contract</strong> — to provide the Service you request, including your account, syncing, your subscription, and the referral program.</li>
         <li>
           <strong>Consent</strong> — for microphone access; for sending your audio to Soniox and your transcript text to
           Google (Gemini API), which the app asks before anything is sent; for advertising measurement with Meta in
@@ -236,6 +243,7 @@ export default function PrivacyPage() {
         <li><strong>RevenueCat, Inc.</strong> — subscriptions.</li>
         <li><strong>PostHog</strong> — app and website analytics, on servers in the EU.</li>
         <li><strong>Resend</strong> — email delivery.</li>
+        <li><strong>Tremendous</strong> — paying referral rewards: your first name and the amount (section 3).</li>
         <li><strong>Expo (650 Industries, Inc.)</strong> — delivery of push notifications on iPhone.</li>
         <li><strong>Vercel</strong> — website hosting and cookieless website analytics.</li>
         <li>
@@ -259,6 +267,7 @@ export default function PrivacyPage() {
         <li><strong>Transcripts and summaries</strong> — kept on your device and in our cloud (linked to your account) for as long as you keep them; deleted when you delete them or delete your account.</li>
         <li><strong>Share links</strong> — the shared copy of a recording&rsquo;s captions or summary, kept until you delete that recording or your account.</li>
         <li><strong>Account data</strong> — kept while your account is active; deleted when you delete your account.</li>
+        <li><strong>Referral records</strong> — what was earned and paid, kept as long as needed to pay rewards, handle refunds, and meet tax and accounting obligations, also after an account is deleted.</li>
         <li><strong>Subscription records</strong> — kept as long as needed to provide your subscription and to meet legal obligations.</li>
         <li><strong>Usage and diagnostic data</strong> — pseudonymous, and kept only as long as needed to run and improve the app.</li>
         <li><strong>Feedback</strong> — kept until it has been handled; deleted sooner on request.</li>

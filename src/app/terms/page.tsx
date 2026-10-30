@@ -33,7 +33,7 @@ export default function TermsPage() {
         <Header />
         <div className="max-w-3xl mx-auto px-6 py-16">
       <h1 className="text-3xl font-bold mb-2">Terms of Service</h1>
-      <p className="text-sm text-gray-500 mb-10">Last updated: October 21, 2026</p>
+      <p className="text-sm text-gray-500 mb-10">Last updated: October 30, 2026</p>
 
       <P>
         These Terms of Service (&ldquo;Terms&rdquo;) govern your access to and use of the Captio AI apps for iPhone
@@ -145,15 +145,51 @@ export default function TermsPage() {
         </li>
       </UL>
 
-      <H2>10. Invite rewards</H2>
+      <H2>10. Referral program</H2>
       <P>
-        You can invite friends with your personal invite code (Settings → Invite friends). When a friend redeems
-        your code and saves their first recording, you both get free Plus access for the period shown in the app.
-        Each account and each device can redeem only one invite, and you can&rsquo;t redeem your own code.
-        Rewards have no cash value and can&rsquo;t be transferred or exchanged. We may withhold or remove rewards
-        obtained through abuse (for example, fake accounts), and we may change or end the invite program at any
-        time; rewards already granted stay valid for their period.
+        You can refer people to Captio AI with your personal link or code (in the app, under Referral program). The
+        program is run by us; Apple and Google are not involved in it.
       </P>
+      <UL>
+        <li>
+          <strong>Free Plus.</strong> When someone redeems your link or code and saves their first recording, you
+          both get free Plus access for the period shown in the app. This free access has no cash value and
+          can&rsquo;t be transferred or exchanged.
+        </li>
+        <li>
+          <strong>Cash rewards.</strong> When someone you referred makes their first real payment for Plus, you earn
+          USD 10 for a monthly plan or USD 30 for a yearly plan. There is no limit on how many people you can refer
+          or how much you can earn. Free trials, promotional access, Family Sharing, renewals, and plan changes that
+          haven&rsquo;t been paid for don&rsquo;t count. A reward is never more than 90% of what that person paid.
+        </li>
+        <li>
+          <strong>When you get paid.</strong> Rewards are held for 30 days after the payment, in case it is refunded.
+          After that we send a link to the email address on your account, where you choose how to receive the money
+          (for example, a prepaid Visa card, PayPal, or a gift card). Rewards are paid in US dollars through our
+          payout provider, Tremendous, whose own terms apply to the reward. The options offered can differ by country.
+        </li>
+        <li>
+          <strong>Refunds.</strong> If the payment is refunded during the 30 days, there is no reward. If it is
+          refunded after you were paid, that amount is taken off your next payout.
+        </li>
+        <li>
+          <strong>Who can take part.</strong> Each account and each device counts once, and you can&rsquo;t refer
+          yourself. Cash rewards aren&rsquo;t available where the law or our payout provider doesn&rsquo;t allow
+          them, including Cuba, Iran, North Korea, Syria, Russia, and Belarus; there, the program is the free Plus
+          access only.
+        </li>
+        <li>
+          <strong>Taxes.</strong> You are responsible for any taxes on what you earn.
+        </li>
+        <li>
+          <strong>Abuse.</strong> We may withhold or cancel rewards obtained through abuse, for example fake accounts,
+          buying for yourself through someone else&rsquo;s account, spam, or misleading claims about Captio AI.
+        </li>
+        <li>
+          <strong>Changes.</strong> We may change or end the program at any time. Free Plus access already granted
+          stays valid for its period, and rewards you already earned under the rules at the time stay yours.
+        </li>
+      </UL>
 
       <H2>11. Third-party services</H2>
       <P>
