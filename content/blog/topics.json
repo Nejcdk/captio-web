@@ -2,6 +2,56 @@
   "_rules": "Queue for the daily blog job. scripts/blog-next-topic.mjs picks today's topic from the weekday slot in plan.json (priority topics first). Fields: category (format), pillar (use-case | feature | language | basics), covers (feature ids from the Feature map in CAPTIO_FACTS.md, use-case slugs, language slugs), status (queued | published + slug + published | blocked + reason | skipped + reason), priority (true = write next, set by the new-version check). Titles are working titles. When fewer than 14 are queued, add 20 new topics, filling the gaps npm run blog:coverage shows.",
   "topics": [
     {
+      "id": "how-to-get-sound-alerts-in-live-captions-doorbell-alarm-baby",
+      "category": "guides",
+      "pillar": "feature",
+      "title": "How to see a doorbell, alarm or crying baby in live captions",
+      "query": "deaf doorbell alert phone captions sounds",
+      "angle": "Recognize sounds (1.1.5): sounds written into captions like [doorbell rings], vibration for alerts. Compare with Apple Sound Recognition and Android Sound Notifications from their own pages; say where they are better (e.g. always-on in background).",
+      "links": [
+        "/live-captions",
+        "/use-cases/everyday-conversations",
+        "/use-cases/group-settings"
+      ],
+      "covers": {
+        "features": [
+          "recognize-sounds"
+        ],
+        "useCases": [
+          "everyday-conversations",
+          "group-settings",
+          "restaurants"
+        ],
+        "languages": []
+      },
+      "status": "published",
+      "slug": "how-to-see-a-doorbell-alarm-or-crying-baby-in-live-captions",
+      "published": "2026-10-30"
+    },
+    {
+      "id": "captions-with-sound-descriptions-what-are-they",
+      "category": "explainers",
+      "pillar": "basics",
+      "title": "What are sound descriptions in captions? Closed captions vs subtitles for the deaf",
+      "query": "what is SDH subtitles for the deaf and hard of hearing sound descriptions",
+      "angle": "Explain SDH/closed captioning conventions for non-speech sounds (FCC/ADA/Netflix style guide), and how live captioning apps handle it.",
+      "links": [
+        "/live-captions",
+        "/use-cases/tv-media"
+      ],
+      "covers": {
+        "features": [
+          "recognize-sounds"
+        ],
+        "useCases": [
+          "tv-media"
+        ],
+        "languages": []
+      },
+      "status": "queued",
+      "priority": true
+    },
+    {
       "id": "how-many-people-are-deaf-or-hard-of-hearing-the-2026-numbers",
       "category": "data",
       "pillar": "basics",

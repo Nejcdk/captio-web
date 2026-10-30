@@ -2,7 +2,7 @@
 
 Every sentence a blog article says about Captio AI must be backed by a line in this file. If a claim isn't here, don't make it. If something here looks out of date, don't guess: flag it in the run log so Nejc can update this file.
 
-Last checked: 2026-10-29 (App Store release notes of 1.1.4 and app source at its release commit a6d32fd of Nejcdk/captio; Google Play listing last checked 2026-10-21).
+Last checked: 2026-10-30 (App Store release notes of 1.1.5 and app source of Nejcdk/captio; Google Play listing last checked 2026-10-21).
 
 ## What it is
 - Name: always **Captio AI** (never "Captio" alone). Plan name: **Captio AI Plus**.
@@ -17,7 +17,7 @@ Last checked: 2026-10-29 (App Store release notes of 1.1.4 and app source at its
 - Needs an internet connection for live captions and translation. Without internet it can still **record**, and the recording is transcribed automatically when the phone reconnects.
 
 ## Live version
-- App Store: **1.1.4** (live 2026-10-28; 1.1.3 went live 2026-10-23). The daily run's new-version check (`scripts/blog-release-watch.mjs`) updates this line and the feature map when a new version goes live.
+- App Store: **1.1.5** (live 2026-10-29; 1.1.4 went live 2026-10-28, 1.1.3 on 2026-10-23). The daily run's new-version check (`scripts/blog-release-watch.mjs`) updates this line and the feature map when a new version goes live.
 - Only features in a live store version may be written about. Merged but unreleased work (see "Not live yet") never appears in an article.
 
 ## Feature map
@@ -50,11 +50,12 @@ Each row is one thing the app does for the reader. `id` is used in `topics.json`
 | connectors | Connectors (Claude, ChatGPT, Gemini, Perplexity) | Add Captio AI to a chat app and ask it about your recordings: your own and every recording in the shared folders you are in, with who said what and when. It finds where something was discussed by meaning, across languages, and finds exact words. Read-only. Needs a Captio AI account (sign in with Apple or Google) because it reads what is synced to your account. Settings, Connectors shows the steps for each chat app; the address to add is https://captioai.app/mcp. Each chat app has its own plan and region rules (for example Gemini's custom apps need a personal Google account, US, English) and may change its menus. | iPhone, Android (setup guide in the app; works from the chat app) | 1.1.4 | meetings, lectures, conferences, group-settings | /connectors |
 | speaker-direction | Speaker direction | While captions run, waves at the edge of the captions screen show which side the current voice comes from, in the speaker's tag colour, so you know where to look at a busy table. Works on iPhone 16 and later (iOS 26 or later) with the phone's own microphones; works best flat on the table; uses more battery; on by default and can be turned off in Settings, Captions. Not on iPad or Android. | iPhone 16 and later | 1.1.4 | group-settings, restaurants, meetings | /speaker-direction |
 | hourly-save | All-day recording in shared folders | Recording into a shared folder saves every hour and carries on in a new recording, so a long day is not one huge file. Personal recordings save only when you stop. Saved recordings take up less space on iPhone (stored compressed). | iPhone | 1.1.4 | meetings, conferences | /folders |
+| recognize-sounds | Recognize sounds | Sounds around you show in your captions, like [doorbell rings]: a doorbell, an alarm, a crying baby, a barking dog, laughter or music. Alert sounds make the phone vibrate. Change it in Settings, Recognize sounds. | iPhone | 1.1.5 | everyday-conversations, group-settings, restaurants | /live-captions |
 
 "Since" is the first live version known to have the feature; everything already in 1.1.2 is marked ≤1.1.2. New rows get the exact version from the release that brought them. Never write "new in version X" unless the release notes say so.
 
 ## Not live yet (never write about these until a live version has them)
-- Anything in the app's code that the 1.1.4 release notes do not mention (for example Recognize Sounds, which is in the code but not in the 1.1.4 notes). Android availability of the 1.1.3 features is not confirmed: write "iPhone" only.
+- Anything in the app's code that the 1.1.5 release notes do not mention (the 1.1.5 notes only name five sounds and vibration for alerts; nothing else about Recognize sounds, such as how many sounds exist, is confirmed). Android availability of the 1.1.3 features is not confirmed: write "iPhone" only.
 
 ## Price (state "as of October 2026" and the store when you mention it)
 - Free to download. Free plan: **100 free credits a day** for live captions or transcription, and 3 free AI summaries in total. Always write "100 free credits a day"; never describe the free plan in minutes (Nejc, 2026-10-28).
