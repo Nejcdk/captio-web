@@ -158,8 +158,8 @@ export default function TermsPage() {
         </li>
         <li>
           <strong>Cash rewards.</strong> When someone you referred makes their first real payment for Plus, you earn
-          USD 10 for a monthly plan or USD 30 for a yearly plan. There is no limit on how many people you can refer
-          or how much you can earn. Free trials, promotional access, Family Sharing, renewals, and plan changes that
+          USD 10 for a monthly plan or USD 30 for a yearly plan. You can refer as many people as you like and earn
+          up to USD 5,500 in total; rewards stop at that amount. Free trials, promotional access, Family Sharing, renewals, and plan changes that
           haven&rsquo;t been paid for don&rsquo;t count. A reward is never more than 90% of what that person paid.
         </li>
         <li>
