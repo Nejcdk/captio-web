@@ -58,7 +58,7 @@ Captio AI 1.1.5 shows a doorbell, an alarm, a crying baby, a barking dog, laught
 
 That is everything the release notes confirm. They do not give a full list of sounds, and they do not say the app listens when captions are off. Plan around what is stated: sounds appear in captions you are already reading.
 
-![Captio AI Live Captions screen on iPhone with live words appearing as people talk, the screen where sounds like a doorbell also show](/LC_mockup_2.png "The Live Captions screen in Captio AI, sample content. It shows speech only; no screenshot of a sound caption is available yet.")
+![Captio AI live captions on iPhone showing doorbell rings in grey brackets after one speaker's question, then another speaker asking if that was the door](/RS_mockup_1.png "A sound in Captio AI live captions: [doorbell rings] shows in grey inside the text, next to what people say. Sample content.")
 
 ## How do Apple and Android sound alerts compare?
 
