@@ -48,8 +48,9 @@
         ],
         "languages": []
       },
-      "status": "queued",
-      "priority": true
+      "status": "published",
+      "slug": "what-are-sound-descriptions-in-captions",
+      "published": "2026-10-31"
     },
     {
       "id": "how-many-people-are-deaf-or-hard-of-hearing-the-2026-numbers",
