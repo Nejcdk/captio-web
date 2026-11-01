@@ -3153,8 +3153,9 @@
         ],
         "languages": []
       },
-      "status": "queued",
-      "priority": true
+      "status": "published",
+      "slug": "how-to-ask-claude-or-chatgpt-about-your-meeting-recordings",
+      "published": "2026-11-01"
     },
     {
       "id": "how-to-tell-where-a-voice-is-coming-from-with-hearing-loss",
