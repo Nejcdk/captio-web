@@ -33,7 +33,7 @@ export default function TermsPage() {
         <Header />
         <div className="max-w-3xl mx-auto px-6 py-16">
       <h1 className="text-3xl font-bold mb-2">Terms of Service</h1>
-      <p className="text-sm text-gray-500 mb-10">Last updated: October 30, 2026</p>
+      <p className="text-sm text-gray-500 mb-10">Last updated: November 1, 2026</p>
 
       <P>
         These Terms of Service (&ldquo;Terms&rdquo;) govern your access to and use of the Captio AI apps for iPhone
@@ -158,9 +158,9 @@ export default function TermsPage() {
         </li>
         <li>
           <strong>Cash rewards.</strong> When someone you referred makes their first real payment for Plus, you earn
-          USD 10 for a monthly plan or USD 30 for a yearly plan. You can refer as many people as you like and earn
+          USD 15 for a monthly plan or USD 50 for a yearly plan. You can refer as many people as you like and earn
           up to USD 2,500 in total; rewards stop at that amount. Free trials, promotional access, Family Sharing, renewals, and plan changes that
-          haven&rsquo;t been paid for don&rsquo;t count. A reward is never more than 90% of what that person paid.
+          haven&rsquo;t been paid for don&rsquo;t count. A reward is never more than what that person paid, rounded up to a whole dollar.
         </li>
         <li>
           <strong>When you get paid.</strong> Rewards are held for 30 days after the payment, in case it is refunded.
