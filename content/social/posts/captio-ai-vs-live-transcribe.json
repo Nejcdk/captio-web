@@ -1,0 +1,28 @@
+{
+  "id": "captio-ai-vs-live-transcribe",
+  "pageType": "compare",
+  "page": "/compare/captio-ai-vs-live-transcribe",
+  "question": "Captio AI or Google Live Transcribe?",
+  "slides": [
+    "On Android? *Live Transcribe* is free.",
+    "*Captio AI* runs on iPhone and Android."
+  ],
+  "description": [
+    "Google Live Transcribe suits an Android phone, because it costs nothing, lists no daily limit and works offline in downloaded languages on Pixel and select phones.",
+    "Captio AI suits an iPhone, because Google makes Live Transcribe for Android only.",
+    "Captio AI, made for deaf and hard of hearing people, runs on iPhone and Android, so it also works when family members use different phones.",
+    "Without internet, Captio AI keeps recording and transcribes when the phone is back online, while Live Transcribe keeps captioning in downloaded languages.",
+    "Live Translator in Captio AI translates speech live, while Google's help page for Live Transcribe describes no translation between spoken languages.",
+    "Recognize voices in Captio AI on iPhone shows a saved person's name instead of Speaker 2.",
+    "Google Live Transcribe keeps optional transcription history on the phone for up to three days, while Captio AI saves recordings in a searchable library.",
+    "Ask people before you save a conversation as a recording.",
+    "Sound Notifications from Google always checks for sounds like a doorbell once it is on.",
+    "Recognize sounds in Captio AI on iPhone works only during captions or a transcribed file, and can miss some sounds.",
+    "Google Live Transcribe lists no daily limit, while the Captio AI free plan gives 100 free credits a day and Captio AI Plus removes that limit."
+  ],
+  "hashtags": [
+    "#LiveCaptions",
+    "#HardOfHearing",
+    "#Accessibility"
+  ]
+}

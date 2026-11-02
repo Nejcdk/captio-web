@@ -1,0 +1,26 @@
+{
+  "id": "german-doctor-appointments",
+  "pageType": "use-case-language",
+  "page": "/use-cases/doctor-appointments/german",
+  "question": "How do deaf patients follow a German doctor?",
+  "slides": [
+    "*11 million* adults in Germany have hearing loss.",
+    "Captions in *German*, on your phone."
+  ],
+  "description": [
+    "Deaf and hard of hearing patients can follow a German doctor with a sign language interpreter, written notes or live captions from Captio AI.",
+    "Captio AI is a live captions app made for deaf and hard of hearing people, and it shows a German doctor's words on your phone during an in-person appointment.",
+    "An estimated 11.1 million adults in Germany have hearing impairment, according to a 2017 study in the journal HNO.",
+    "A 2023 Charité study in BMC Public Health found that 57% of 383 deaf and hard of hearing adults in Germany deliberately avoided doctor visits, mainly over communication barriers.",
+    "German has two words for high blood pressure, Hypertonie and Bluthochdruck, according to the health portal gesund.bund.de.",
+    "Captio AI lets you add names and medical terms to Words and names, so captions recognize them at a German doctor's.",
+    "With your doctor's OK, Captio AI can save an appointment as a recording with a transcript to reread at home.",
+    "Captio AI captions can contain mistakes, so confirm instructions from a doctor's appointment with your doctor or pharmacist.",
+    "Captio AI does not replace a sign language interpreter at a doctor's appointment in Germany."
+  ],
+  "hashtags": [
+    "#DeafAwareness",
+    "#HardOfHearing",
+    "#LiveCaptions"
+  ]
+}

@@ -1,0 +1,3897 @@
+[
+ {
+  "page": "/",
+  "type": "home",
+  "post": "home-live-captions-app"
+ },
+ {
+  "page": "/live-captions",
+  "type": "feature",
+  "post": null
+ },
+ {
+  "page": "/live-translator",
+  "type": "feature",
+  "post": null
+ },
+ {
+  "page": "/audio-transcription",
+  "type": "feature",
+  "post": null
+ },
+ {
+  "page": "/ai-summary",
+  "type": "feature",
+  "post": null
+ },
+ {
+  "page": "/ai-actions",
+  "type": "feature",
+  "post": null
+ },
+ {
+  "page": "/export",
+  "type": "feature",
+  "post": null
+ },
+ {
+  "page": "/folders",
+  "type": "feature",
+  "post": null
+ },
+ {
+  "page": "/recognize-voices",
+  "type": "feature",
+  "post": null
+ },
+ {
+  "page": "/speaker-direction",
+  "type": "feature",
+  "post": null
+ },
+ {
+  "page": "/recognize-sounds",
+  "type": "feature",
+  "post": "recognize-sounds-doorbell"
+ },
+ {
+  "page": "/connectors",
+  "type": "feature",
+  "post": null
+ },
+ {
+  "page": "/widgets",
+  "type": "feature",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings",
+  "type": "use-case",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments",
+  "type": "use-case",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures",
+  "type": "use-case",
+  "post": "lectures-deaf-student"
+ },
+ {
+  "page": "/use-cases/everyday-conversations",
+  "type": "use-case",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews",
+  "type": "use-case",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings",
+  "type": "use-case",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants",
+  "type": "use-case",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling",
+  "type": "use-case",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences",
+  "type": "use-case",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media",
+  "type": "use-case",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication",
+  "type": "use-case",
+  "post": null
+ },
+ {
+  "page": "/organizations",
+  "type": "organizations",
+  "post": "organizations-live-captions"
+ },
+ {
+  "page": "/blog/hearing-loss-statistics-us",
+  "type": "blog",
+  "post": null
+ },
+ {
+  "page": "/blog/how-many-people-are-deaf-or-hard-of-hearing",
+  "type": "blog",
+  "post": null
+ },
+ {
+  "page": "/blog/what-is-cart-captioning",
+  "type": "blog",
+  "post": null
+ },
+ {
+  "page": "/blog/how-to-see-who-is-talking-in-live-captions",
+  "type": "blog",
+  "post": null
+ },
+ {
+  "page": "/blog/what-is-speaker-diarization-in-captions",
+  "type": "blog",
+  "post": null
+ },
+ {
+  "page": "/blog/what-is-dinner-table-syndrome",
+  "type": "blog",
+  "post": "dinner-table-syndrome"
+ },
+ {
+  "page": "/blog/how-to-organize-and-share-meeting-transcripts-in-folders",
+  "type": "blog",
+  "post": null
+ },
+ {
+  "page": "/blog/how-to-caption-a-conversation-in-two-languages",
+  "type": "blog",
+  "post": null
+ },
+ {
+  "page": "/blog/how-to-see-a-doorbell-alarm-or-crying-baby-in-live-captions",
+  "type": "blog",
+  "post": null
+ },
+ {
+  "page": "/blog/what-are-sound-descriptions-in-captions",
+  "type": "blog",
+  "post": null
+ },
+ {
+  "page": "/blog/how-to-ask-claude-or-chatgpt-about-your-meeting-recordings",
+  "type": "blog",
+  "post": null
+ },
+ {
+  "page": "/blog/how-to-tell-where-a-voice-is-coming-from-with-hearing-loss",
+  "type": "blog",
+  "post": null
+ },
+ {
+  "page": "/english",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/chinese",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/hindi",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/spanish",
+  "type": "language",
+  "post": "spanish-live-captions"
+ },
+ {
+  "page": "/arabic",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/bengali",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/portuguese",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/russian",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/urdu",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/indonesian",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/german",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/japanese",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/swahili",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/marathi",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/telugu",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/turkish",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/vietnamese",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/korean",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/french",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/italian",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/tamil",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/persian",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/punjabi",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/gujarati",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/thai",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/polish",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/ukrainian",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/malay",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/malayalam",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/kannada",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/tagalog",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/azerbaijani",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/dutch",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/romanian",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/kazakh",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/czech",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/hungarian",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/greek",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/swedish",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/hebrew",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/bulgarian",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/serbian",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/danish",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/albanian",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/afrikaans",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/belarusian",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/finnish",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/slovak",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/croatian",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/norwegian",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/catalan",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/lithuanian",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/bosnian",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/galician",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/macedonian",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/slovenian",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/latvian",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/estonian",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/welsh",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/basque",
+  "type": "language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/english",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/german",
+  "type": "use-case-language",
+  "post": "german-doctor-appointments"
+ },
+ {
+  "page": "/use-cases/lectures/polish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/spanish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/french",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/dutch",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/italian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/portuguese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/japanese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/korean",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/english",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/german",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/polish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/spanish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/french",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/dutch",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/italian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/portuguese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/japanese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/korean",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/english",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/german",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/polish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/spanish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/french",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/dutch",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/italian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/portuguese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/japanese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/korean",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/english",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/german",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/polish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/spanish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/french",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/dutch",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/italian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/portuguese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/japanese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/korean",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/english",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/german",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/polish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/spanish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/french",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/dutch",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/italian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/portuguese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/japanese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/korean",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/english",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/german",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/polish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/spanish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/french",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/dutch",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/italian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/portuguese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/japanese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/korean",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/english",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/german",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/polish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/spanish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/french",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/dutch",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/italian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/portuguese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/japanese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/korean",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/english",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/german",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/polish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/spanish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/french",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/dutch",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/italian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/portuguese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/japanese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/korean",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/english",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/german",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/polish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/spanish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/french",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/dutch",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/italian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/portuguese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/japanese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/korean",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/english",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/german",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/polish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/spanish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/french",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/dutch",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/italian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/portuguese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/japanese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/korean",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/english",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/german",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/polish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/spanish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/french",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/dutch",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/italian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/portuguese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/japanese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/korean",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/chinese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/hindi",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/arabic",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/bengali",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/russian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/urdu",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/indonesian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/swahili",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/marathi",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/telugu",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/turkish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/vietnamese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/tamil",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/persian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/punjabi",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/gujarati",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/thai",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/ukrainian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/malay",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/malayalam",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/kannada",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/tagalog",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/azerbaijani",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/romanian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/kazakh",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/czech",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/hungarian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/greek",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/swedish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/hebrew",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/bulgarian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/serbian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/danish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/albanian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/afrikaans",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/belarusian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/finnish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/slovak",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/croatian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/norwegian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/catalan",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/lithuanian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/bosnian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/galician",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/macedonian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/slovenian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/latvian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/estonian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/welsh",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/basque",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/chinese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/hindi",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/arabic",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/bengali",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/russian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/urdu",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/indonesian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/swahili",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/marathi",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/telugu",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/turkish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/vietnamese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/tamil",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/persian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/punjabi",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/gujarati",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/thai",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/ukrainian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/malay",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/malayalam",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/kannada",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/tagalog",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/azerbaijani",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/romanian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/kazakh",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/czech",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/hungarian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/greek",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/swedish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/hebrew",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/bulgarian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/serbian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/danish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/albanian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/afrikaans",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/belarusian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/finnish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/slovak",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/croatian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/norwegian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/catalan",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/lithuanian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/bosnian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/galician",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/macedonian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/slovenian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/latvian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/estonian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/welsh",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/basque",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/chinese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/hindi",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/arabic",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/bengali",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/russian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/urdu",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/indonesian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/swahili",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/marathi",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/telugu",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/turkish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/vietnamese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/tamil",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/persian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/punjabi",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/gujarati",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/thai",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/ukrainian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/malay",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/malayalam",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/kannada",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/tagalog",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/azerbaijani",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/romanian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/kazakh",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/czech",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/hungarian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/greek",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/swedish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/hebrew",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/bulgarian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/serbian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/danish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/albanian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/afrikaans",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/belarusian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/finnish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/slovak",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/croatian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/norwegian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/catalan",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/lithuanian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/bosnian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/galician",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/macedonian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/slovenian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/latvian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/estonian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/welsh",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/basque",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/chinese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/hindi",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/arabic",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/bengali",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/russian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/urdu",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/indonesian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/swahili",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/marathi",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/telugu",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/turkish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/vietnamese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/tamil",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/persian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/punjabi",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/gujarati",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/thai",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/ukrainian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/malay",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/malayalam",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/kannada",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/tagalog",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/azerbaijani",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/romanian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/kazakh",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/czech",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/hungarian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/greek",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/swedish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/hebrew",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/bulgarian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/serbian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/danish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/albanian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/afrikaans",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/belarusian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/finnish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/slovak",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/croatian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/norwegian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/catalan",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/lithuanian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/bosnian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/galician",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/macedonian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/slovenian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/latvian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/estonian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/welsh",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/basque",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/chinese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/hindi",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/arabic",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/bengali",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/russian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/urdu",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/indonesian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/swahili",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/marathi",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/telugu",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/turkish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/vietnamese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/tamil",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/persian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/punjabi",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/gujarati",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/thai",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/ukrainian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/malay",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/malayalam",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/kannada",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/tagalog",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/azerbaijani",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/romanian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/kazakh",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/czech",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/hungarian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/greek",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/swedish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/hebrew",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/bulgarian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/serbian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/danish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/albanian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/afrikaans",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/belarusian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/finnish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/slovak",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/croatian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/norwegian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/catalan",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/lithuanian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/bosnian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/galician",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/macedonian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/slovenian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/latvian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/estonian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/welsh",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/basque",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/chinese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/hindi",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/arabic",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/bengali",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/russian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/urdu",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/indonesian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/swahili",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/marathi",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/telugu",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/turkish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/vietnamese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/tamil",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/persian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/punjabi",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/gujarati",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/thai",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/ukrainian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/malay",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/malayalam",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/kannada",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/tagalog",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/azerbaijani",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/romanian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/kazakh",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/czech",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/hungarian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/greek",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/swedish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/hebrew",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/bulgarian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/serbian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/danish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/albanian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/afrikaans",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/belarusian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/finnish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/slovak",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/croatian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/norwegian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/catalan",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/lithuanian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/bosnian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/galician",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/macedonian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/slovenian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/latvian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/estonian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/welsh",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/basque",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/chinese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/hindi",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/arabic",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/bengali",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/russian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/urdu",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/indonesian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/swahili",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/marathi",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/telugu",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/turkish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/vietnamese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/tamil",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/persian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/punjabi",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/gujarati",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/thai",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/ukrainian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/malay",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/malayalam",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/kannada",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/tagalog",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/azerbaijani",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/romanian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/kazakh",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/czech",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/hungarian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/greek",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/swedish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/hebrew",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/bulgarian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/serbian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/danish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/albanian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/afrikaans",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/belarusian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/finnish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/slovak",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/croatian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/norwegian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/catalan",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/lithuanian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/bosnian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/galician",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/macedonian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/slovenian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/latvian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/estonian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/welsh",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/basque",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/chinese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/hindi",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/arabic",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/bengali",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/russian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/urdu",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/indonesian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/swahili",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/marathi",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/telugu",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/turkish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/vietnamese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/tamil",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/persian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/punjabi",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/gujarati",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/thai",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/ukrainian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/malay",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/malayalam",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/kannada",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/tagalog",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/azerbaijani",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/romanian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/kazakh",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/czech",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/hungarian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/greek",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/swedish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/hebrew",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/bulgarian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/serbian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/danish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/albanian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/afrikaans",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/belarusian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/finnish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/slovak",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/croatian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/norwegian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/catalan",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/lithuanian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/bosnian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/galician",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/macedonian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/slovenian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/latvian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/estonian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/welsh",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/basque",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/chinese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/hindi",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/arabic",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/bengali",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/russian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/urdu",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/indonesian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/swahili",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/marathi",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/telugu",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/turkish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/vietnamese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/tamil",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/persian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/punjabi",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/gujarati",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/thai",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/ukrainian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/malay",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/malayalam",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/kannada",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/tagalog",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/azerbaijani",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/romanian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/kazakh",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/czech",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/hungarian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/greek",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/swedish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/hebrew",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/bulgarian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/serbian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/danish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/albanian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/afrikaans",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/belarusian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/finnish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/slovak",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/croatian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/norwegian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/catalan",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/lithuanian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/bosnian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/galician",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/macedonian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/slovenian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/latvian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/estonian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/welsh",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/basque",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/chinese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/hindi",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/arabic",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/bengali",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/russian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/urdu",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/indonesian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/swahili",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/marathi",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/telugu",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/turkish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/vietnamese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/tamil",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/persian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/punjabi",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/gujarati",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/thai",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/ukrainian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/malay",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/malayalam",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/kannada",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/tagalog",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/azerbaijani",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/romanian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/kazakh",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/czech",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/hungarian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/greek",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/swedish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/hebrew",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/bulgarian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/serbian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/danish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/albanian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/afrikaans",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/belarusian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/finnish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/slovak",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/croatian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/norwegian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/catalan",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/lithuanian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/bosnian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/galician",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/macedonian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/slovenian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/latvian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/estonian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/welsh",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/basque",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/chinese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/hindi",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/arabic",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/bengali",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/russian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/urdu",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/indonesian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/swahili",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/marathi",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/telugu",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/turkish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/vietnamese",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/tamil",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/persian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/punjabi",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/gujarati",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/thai",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/ukrainian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/malay",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/malayalam",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/kannada",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/tagalog",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/azerbaijani",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/romanian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/kazakh",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/czech",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/hungarian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/greek",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/swedish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/hebrew",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/bulgarian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/serbian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/danish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/albanian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/afrikaans",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/belarusian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/finnish",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/slovak",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/croatian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/group-settings/norwegian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/restaurants/catalan",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/traveling/lithuanian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/conferences/bosnian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/tv-media/galician",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/deaf-hoh-communication/macedonian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/meetings/slovenian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/doctor-appointments/latvian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/lectures/estonian",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/everyday-conversations/welsh",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/use-cases/job-interviews/basque",
+  "type": "use-case-language",
+  "post": null
+ },
+ {
+  "page": "/compare/captio-ai-vs-ava",
+  "type": "compare",
+  "post": null
+ },
+ {
+  "page": "/compare/captio-ai-vs-captify",
+  "type": "compare",
+  "post": null
+ },
+ {
+  "page": "/compare/captio-ai-vs-captioncall",
+  "type": "compare",
+  "post": null
+ },
+ {
+  "page": "/compare/captio-ai-vs-captionmate",
+  "type": "compare",
+  "post": null
+ },
+ {
+  "page": "/compare/captio-ai-vs-clearcaptions",
+  "type": "compare",
+  "post": null
+ },
+ {
+  "page": "/compare/captio-ai-vs-deaf-transcribe",
+  "type": "compare",
+  "post": null
+ },
+ {
+  "page": "/compare/captio-ai-vs-google-translate",
+  "type": "compare",
+  "post": null
+ },
+ {
+  "page": "/compare/captio-ai-vs-hearing-buddy",
+  "type": "compare",
+  "post": null
+ },
+ {
+  "page": "/compare/captio-ai-vs-innocaption",
+  "type": "compare",
+  "post": null
+ },
+ {
+  "page": "/compare/captio-ai-vs-android-live-caption",
+  "type": "compare",
+  "post": null
+ },
+ {
+  "page": "/compare/captio-ai-vs-apple-live-captions",
+  "type": "compare",
+  "post": null
+ },
+ {
+  "page": "/compare/captio-ai-vs-live-transcribe",
+  "type": "compare",
+  "post": "captio-ai-vs-live-transcribe"
+ },
+ {
+  "page": "/compare/captio-ai-vs-live-transcribe-plus",
+  "type": "compare",
+  "post": null
+ },
+ {
+  "page": "/compare/captio-ai-vs-live-transcribe-mighty-fine-apps",
+  "type": "compare",
+  "post": null
+ },
+ {
+  "page": "/compare/captio-ai-vs-relay-live-transcribe",
+  "type": "compare",
+  "post": null
+ },
+ {
+  "page": "/compare/captio-ai-vs-microsoft-translator",
+  "type": "compare",
+  "post": null
+ },
+ {
+  "page": "/compare/captio-ai-vs-otter-ai",
+  "type": "compare",
+  "post": null
+ },
+ {
+  "page": "/compare/captio-ai-vs-rogervoice",
+  "type": "compare",
+  "post": null
+ },
+ {
+  "page": "/compare/captio-ai-vs-nagish",
+  "type": "compare",
+  "post": null
+ },
+ {
+  "page": "/compare/captio-ai-vs-soniox",
+  "type": "compare",
+  "post": null
+ },
+ {
+  "page": "/compare/captio-ai-vs-speaksee",
+  "type": "compare",
+  "post": null
+ },
+ {
+  "page": "/compare/captio-ai-vs-xrai-glass",
+  "type": "compare",
+  "post": null
+ }
+]

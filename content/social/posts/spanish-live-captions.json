@@ -1,0 +1,26 @@
+{
+  "id": "spanish-live-captions",
+  "pageType": "language",
+  "page": "/spanish",
+  "question": "Do live captions work in Spanish?",
+  "slides": [
+    "Over *500 million* people speak Spanish natively.",
+    "Captions in *Spanish*, as people talk."
+  ],
+  "description": [
+    "Captio AI shows live captions in Spanish, and it was made for deaf and hard of hearing people who follow spoken Spanish by reading.",
+    "The Instituto Cervantes counted about 520 million native-level Spanish speakers worldwide in 2025.",
+    "Captio AI lists support for Castilian, Mexican, River Plate, Caribbean and Andean Spanish.",
+    "Captio AI captions of very fast or heavily dialectal Caribbean Spanish can be less accurate than clearer speech.",
+    "Adding Spanish as a language hint in Captio AI tells the app to expect Spanish from the first word.",
+    "Captio AI captions speech that switches between Spanish and English mid-sentence.",
+    "Live Translator in Captio AI translates spoken Spanish and shows the translation next to the original captions.",
+    "Spain, Mexico and Argentina each recognize their own sign language in law: LSE, LSM and LSA.",
+    "Spanish live captions in Captio AI need an internet connection, and Captio AI does not do sign language."
+  ],
+  "hashtags": [
+    "#SpanishCaptions",
+    "#DeafCommunity",
+    "#LiveCaptions"
+  ]
+}

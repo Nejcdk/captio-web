@@ -1,0 +1,26 @@
+{
+  "id": "lectures-deaf-student",
+  "pageType": "use-case",
+  "page": "/use-cases/lectures",
+  "question": "How can a deaf student follow a lecture?",
+  "slides": [
+    "*22%* of deaf US adults hold a bachelor's.",
+    "Captions *as the lecturer talks.*"
+  ],
+  "description": [
+    "A deaf student can follow a lecture with a booked CART captioner or an interpreter, and the live captions app Captio AI is one more tool.",
+    "Captio AI is made for deaf and hard of hearing people and shows a lecturer's words on your phone during an in-person lecture.",
+    "According to the National Deaf Center, 22% of deaf people in the US aged 25 to 64 had a bachelor's degree or higher in 2022, 15.7 points below hearing peers.",
+    "A deaf student can read live captions in a lecture instead of lip-reading.",
+    "Captio AI on iPhone keeps recording and captioning a lecture with the screen locked, and the Lock Screen shows a timer, so unlock to read the words.",
+    "A student can add course terms and names to Words and names in Captio AI before a lecture starts.",
+    "Ask the lecturer before you record a lecture.",
+    "Captio AI turns a saved lecture into key points, detailed notes or questions and answers.",
+    "Captio AI captions can contain mistakes and do not replace a captioner, an interpreter or a college's accommodations."
+  ],
+  "hashtags": [
+    "#DeafStudents",
+    "#HardOfHearing",
+    "#LiveCaptions"
+  ]
+}

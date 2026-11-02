@@ -1,0 +1,26 @@
+{
+  "id": "organizations-live-captions",
+  "pageType": "organizations",
+  "page": "/organizations",
+  "question": "How can an organization provide live captions?",
+  "slides": [
+    "One license *per person.*",
+    "Free pilot for *up to 5 people.*"
+  ],
+  "description": [
+    "An organization can give deaf and hard of hearing people live captions on their own phone with Captio AI for Organizations.",
+    "Captio AI was made for deaf and hard of hearing people and runs on each person's own iPhone or Android phone, for in-person speech.",
+    "Captio AI for Organizations has one yearly license per person, paid by invoice, with no minimum, no setup fee and no automatic renewal.",
+    "Captio AI for Organizations costs USD 109 per person per year for 1 to 19 people and USD 89 from 20 people, excluding VAT where it applies.",
+    "Captio AI for Organizations offers a free 30-day pilot for up to 5 people, with nothing to pay and nothing to sign.",
+    "Each person in a pilot opens a forwarded link, continues with Apple or Google and gets Captio AI on iPhone or Android.",
+    "An organization using Captio AI sees usage totals only, never what was said.",
+    "Accounts and saved transcripts from Captio AI are stored in the European Union, and audio is not kept on Captio AI's servers.",
+    "Captio AI does not replace a human captioner where a perfect record is required."
+  ],
+  "hashtags": [
+    "#Accessibility",
+    "#HardOfHearing",
+    "#LiveCaptions"
+  ]
+}
