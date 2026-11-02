@@ -1,8 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useCases } from "@/lib/useCases";
-import { getAllPosts } from "@/lib/blog";
-import { getAllComparePages } from "@/lib/compare";
 import { FeaturedOnCard } from "@/components/FeaturedOn";
 import en from "@/i18n/messages/en.json";
 import { FEATURE_SLUGS, pagePath, type Messages } from "@/i18n";
@@ -11,13 +9,13 @@ import { FEATURE_SLUGS, pagePath, type Messages } from "@/i18n";
 // and the feature links go to that language's feature pages. Articles,
 // comparisons and use-case pages are English only: their links stay, and the
 // use cases are labelled from the home page's translation.
+// Articles and comparisons get one link each, not a list: the header links
+// /blog and /compare on every page, those pages link every article and
+// comparison, and the sitemap and llms.txt list them all (a list of 30+
+// comparisons made the footer longer than most pages).
 export default function Footer({ code = "en", m = en }: { code?: string; m?: Messages }) {
   const t = m.footer;
   const useCaseLabels: Record<string, { label: string }> = m.home.useCases;
-  // Newest articles on every page: readers find them, and crawlers reach a new
-  // article from ~800 pages the day it is published.
-  const latestPosts = getAllPosts().slice(0, 4);
-  const comparePages = getAllComparePages();
   return (
     <footer className="bg-brand text-white">
       <div className="max-w-6xl mx-auto px-6 pt-12 pb-0">
@@ -50,7 +48,7 @@ export default function Footer({ code = "en", m = en }: { code?: string; m?: Mes
             <FeaturedOnCard label={t.featuredOn} />
           </div>
 
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-10 text-sm md:max-w-3xl">
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-10 text-sm md:max-w-3xl">
             <div className="flex flex-col gap-2">
               <span className="font-semibold text-white/40 uppercase tracking-widest text-xs mb-1">{t.features}</span>
               {FEATURE_SLUGS.map((slug) => (
@@ -70,19 +68,11 @@ export default function Footer({ code = "en", m = en }: { code?: string; m?: Mes
             </div>
 
             <div className="flex flex-col gap-2">
-              <Link href="/compare" className="font-semibold text-white/40 hover:text-white uppercase tracking-widest text-xs mb-1 transition-colors">{t.compare}</Link>
-              {comparePages.map((page) => (
-                <Link key={page.slug} href={`/compare/${page.slug}`} className="text-white/70 hover:text-white transition-colors leading-snug">{page.title}</Link>
-              ))}
-              <Link href="/compare" className="text-white font-semibold hover:underline">{t.compareApps}</Link>
-            </div>
-
-            <div className="flex flex-col gap-2">
               <Link href="/blog" className="font-semibold text-white/40 hover:text-white uppercase tracking-widest text-xs mb-1 transition-colors">{t.blog}</Link>
-              {latestPosts.map((post) => (
-                <Link key={post.slug} href={`/blog/${post.slug}`} className="text-white/70 hover:text-white transition-colors leading-snug">{post.title}</Link>
-              ))}
-              <Link href="/blog" className="text-white font-semibold hover:underline">{t.allArticles}</Link>
+              <Link href="/blog" className="text-white/70 hover:text-white transition-colors">{t.allArticles}</Link>
+
+              <Link href="/compare" className="font-semibold text-white/40 hover:text-white uppercase tracking-widest text-xs mt-6 mb-1 transition-colors">{t.compare}</Link>
+              <Link href="/compare" className="text-white/70 hover:text-white transition-colors">{t.compareApps}</Link>
 
               <span className="font-semibold text-white/40 uppercase tracking-widest text-xs mt-6 mb-1">{t.company}</span>
               <Link href={pagePath(code, "organizations")} className="text-white/70 hover:text-white transition-colors">{t.organizations}</Link>
