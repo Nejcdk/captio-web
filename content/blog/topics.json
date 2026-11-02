@@ -3179,8 +3179,9 @@
         ],
         "languages": []
       },
-      "status": "queued",
-      "priority": true
+      "status": "published",
+      "slug": "how-to-tell-where-a-voice-is-coming-from-with-hearing-loss",
+      "published": "2026-11-02"
     },
     {
       "id": "live-captions-on-ipad-for-lectures-and-meetings",
