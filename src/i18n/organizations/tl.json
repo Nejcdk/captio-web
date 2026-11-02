@@ -6,7 +6,8 @@
   "header": {
     "forOrganizations": "para sa mga Organisasyon",
     "startPilot": "Magsimula ng libreng pilot",
-    "chooseLanguage": "Pumili ng wika"
+    "chooseLanguage": "Pumili ng wika",
+    "dataProtection": "Proteksyon ng data"
   },
   "hero": {
     "title": "App ng [live na caption] para sa mga Bingi at mahina ang pandinig"
@@ -20,8 +21,19 @@
   },
   "languages": {
     "eyebrow": "60+ wika",
-    "title": "Caption sa wikang sinasalita",
     "subtitle": "Live na caption, pagsasalin at pag-transcribe sa bawat isa sa mga wikang ito, pati para sa mga taong nagpapalit ng wika sa gitna ng pangungusap."
+  },
+  "useCases": {
+    "eyebrow": "Mga gamit",
+    "title": "Caption saanman nag-uusap ang mga tao",
+    "items": [
+      { "label": "Mga meeting", "description": "Mabilis at sabay-sabay magsalita ang mga tao. Ipinapakita ng Captio AI bilang caption ang sinasabi ng bawat isa habang nagsasalita sila, may sariling label ang bawat nagsasalita, at sine-save nito ang meeting bilang transcript." },
+      { "label": "Mga lecture at training", "description": "Mahahabang session na puno ng mga bagong termino. Lumalabas agad ang bawat salita, at puwedeng i-save ang buong session kasama ang buod gamit ang AI." },
+      { "label": "Mga appointment", "description": "Mga appointment sa doktor, abogado o tagapayo kung saan mahalaga ang bawat detalye. Nasa screen ang bawat salita sa sandaling sabihin ito, kaya walang naiintindihan nang mali." },
+      { "label": "Mga interview", "description": "Mga job interview at one-on-one na usapan. Nasa screen ang bawat tanong sa sandaling itanong ito." },
+      { "label": "Usapan sa grupo", "description": "Mga workshop, team lunch, break. Sabay-sabay na sinusundan ng Captio AI ang ilang tao at ipinapakita kung sino ang nagsabi ng ano." },
+      { "label": "Mga kumperensya at event", "description": "Isang speaker sa harap ng malaking bulwagan. Lumalabas ang caption sa phone, doon mismo sa audience, nang walang captioner na kailangang i-book." }
+    ]
   },
   "awareness": {
     "eyebrow": "Ginawa para sa mga Bingi at mahina ang pandinig",
@@ -53,6 +65,7 @@
     ]
   },
   "form": {
+    "intro": "Libre sa loob ng 30 araw, hanggang 5 tao. Pagkatapos nito, {price} bawat tao kada taon, sa pamamagitan ng invoice.",
     "organization": "Organisasyon",
     "name": "Inyong pangalan",
     "email": "Inyong work email",
@@ -61,7 +74,7 @@
     "peopleOptions": ["1 hanggang 5", "6 hanggang 19", "20 hanggang 50", "Higit sa 50"],
     "submit": "Ipadala sa akin ang pilot link",
     "sending": "Ipinapadala…",
-    "note": "Libre sa loob ng 30 araw, hanggang 5 tao. Walang babayaran, walang pipirmahan.",
+    "note": "Walang babayaran, walang pipirmahan.",
     "sentTitle": "Tingnan ang inyong inbox",
     "sentTo": "Papunta na sa {email} ang inyong pilot link, kasama ang mensaheng maaari ninyong i-forward sa mga gagamit nito.",
     "resentTo": "Ipinadala naming muli ang inyong pilot link sa {email}, kasama ang mensaheng maaari ninyong i-forward sa mga gagamit nito.",

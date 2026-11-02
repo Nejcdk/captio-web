@@ -6,7 +6,8 @@
   "header": {
     "forOrganizations": "vir Organisasies",
     "startPilot": "Begin ’n gratis proeflopie",
-    "chooseLanguage": "Kies ’n taal"
+    "chooseLanguage": "Kies ’n taal",
+    "dataProtection": "Databeskerming"
   },
   "hero": {
     "title": "[Regstreekse onderskrifte]-app vir dowe en hardhorende mense"
@@ -20,8 +21,19 @@
   },
   "languages": {
     "eyebrow": "60+ tale",
-    "title": "Onderskrifte in die taal wat gepraat word",
     "subtitle": "Regstreekse onderskrifte, vertaling en transkripsie in elkeen van hulle, ook vir mense wat midde-in ’n sin van taal wissel."
+  },
+  "useCases": {
+    "eyebrow": "Toepassings",
+    "title": "Onderskrifte oral waar mense praat",
+    "items": [
+      { "label": "Vergaderings", "description": "Mense praat vinnig en oor mekaar heen. Captio AI gee onderskrifte vir elke spreker terwyl hulle praat, met ’n etiket vir elkeen, en stoor die vergadering as ’n transkripsie." },
+      { "label": "Lesings en opleiding", "description": "Lang sessies vol nuwe terme. Elke woord verskyn regstreeks, en die hele sessie kan met ’n KI-opsomming gestoor word." },
+      { "label": "Afsprake", "description": "Mediese, regs- of adviesafsprake waar elke besonderheid saak maak. Elke woord is op die skerm sodra dit gesê word, sodat niks verkeerd gehoor word nie." },
+      { "label": "Onderhoude", "description": "Werksonderhoude en een-tot-een-gesprekke. Elke vraag is op die skerm sodra dit gevra word." },
+      { "label": "Groepsgesprekke", "description": "Werkswinkels, spanmiddagetes, pouses. Captio AI volg verskeie mense gelyktydig en wys wie wat gesê het." },
+      { "label": "Konferensies en geleenthede", "description": "’n Spreker voor in ’n groot saal. Die onderskrifte verskyn op die foon, in die gehoor, sonder ’n onderskrifskrywer wat bespreek moet word." }
+    ]
   },
   "awareness": {
     "eyebrow": "Gemaak vir dowe en hardhorende mense",
@@ -53,6 +65,7 @@
     ]
   },
   "form": {
+    "intro": "Gratis vir 30 dae, vir tot 5 mense. Daarna {price} per persoon per jaar, per faktuur.",
     "organization": "Organisasie",
     "name": "U naam",
     "email": "U werk-e-posadres",
@@ -61,7 +74,7 @@
     "peopleOptions": ["1 tot 5", "6 tot 19", "20 tot 50", "Meer as 50"],
     "submit": "Stuur vir my die skakel",
     "sending": "Stuur tans…",
-    "note": "Gratis vir 30 dae, vir tot 5 mense. Niks om te betaal nie, niks om te teken nie.",
+    "note": "Niks om te betaal nie, niks om te teken nie.",
     "sentTitle": "Kyk in u inkassie",
     "sentTo": "U skakel vir die proeflopie is op pad na {email}, met ’n boodskap wat u kan aanstuur aan die mense wat dit gaan gebruik.",
     "resentTo": "Ons het u skakel vir die proeflopie weer na {email} gestuur, met ’n boodskap wat u kan aanstuur aan die mense wat dit gaan gebruik.",

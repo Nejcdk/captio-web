@@ -6,7 +6,8 @@
   "header": {
     "forOrganizations": "Organizacijoms",
     "startPilot": "Pradėti nemokamą bandymą",
-    "chooseLanguage": "Pasirinkite kalbą"
+    "chooseLanguage": "Pasirinkite kalbą",
+    "dataProtection": "Duomenų apsauga"
   },
   "hero": {
     "title": "[Tiesioginių subtitrų] programėlė kurtiesiems ir neprigirdintiesiems"
@@ -20,8 +21,19 @@
   },
   "languages": {
     "eyebrow": "60+ kalbų",
-    "title": "Subtitrai ta kalba, kuria kalbama",
     "subtitle": "Tiesioginiai subtitrai, vertimas ir transkripcija kiekviena iš jų, net kai žmonės pakeičia kalbą sakinio viduryje."
+  },
+  "useCases": {
+    "eyebrow": "Naudojimo atvejai",
+    "title": "Subtitrai visur, kur kalbama",
+    "items": [
+      { "label": "Susitikimai", "description": "Žmonės kalba greitai ir pertraukinėja vienas kitą. Captio AI subtitruoja kiekvieną kalbėtoją jam kalbant, kiekvieną pažymi atskirai ir išsaugo susitikimą kaip transkripciją." },
+      { "label": "Paskaitos ir mokymai", "description": "Ilgi užsiėmimai, pilni naujų terminų. Kiekvienas žodis pasirodo iš karto, o visą užsiėmimą galima išsaugoti kartu su DI santrauka." },
+      { "label": "Vizitai ir konsultacijos", "description": "Pas gydytoją, teisininką ar konsultantą, kai svarbi kiekviena smulkmena. Kiekvienas žodis ekrane pasirodo vos ištartas, todėl niekas nebus suprasta klaidingai." },
+      { "label": "Interviu", "description": "Darbo pokalbiai ir susitikimai akis į akį. Kiekvienas klausimas ekrane pasirodo tą akimirką, kai užduodamas." },
+      { "label": "Grupiniai pokalbiai", "description": "Dirbtuvės, bendri komandos pietūs, pertraukos. Captio AI vienu metu seka kelis žmones ir rodo, kas ką pasakė." },
+      { "label": "Konferencijos ir renginiai", "description": "Pranešėjas didelės salės priekyje. Subtitrai rodomi telefone, tarp klausytojų, ir nereikia užsakyti subtitrų rengėjo." }
+    ]
   },
   "awareness": {
     "eyebrow": "Sukurta kurtiesiems ir neprigirdintiesiems",
@@ -53,6 +65,7 @@
     ]
   },
   "form": {
+    "intro": "Nemokamai 30 dienų, iki 5 žmonių. Vėliau {price} vienam žmogui per metus, pagal sąskaitą faktūrą.",
     "organization": "Organizacija",
     "name": "Jūsų vardas",
     "email": "Jūsų darbo el. paštas",
@@ -61,7 +74,7 @@
     "peopleOptions": ["Nuo 1 iki 5", "Nuo 6 iki 19", "Nuo 20 iki 50", "Daugiau nei 50"],
     "submit": "Atsiųsti man bandymo nuorodą",
     "sending": "Siunčiama…",
-    "note": "Nemokamai 30 dienų, iki 5 žmonių. Nereikia nei mokėti, nei ką nors pasirašyti.",
+    "note": "Nereikia nei mokėti, nei ką nors pasirašyti.",
     "sentTitle": "Patikrinkite el. paštą",
     "sentTo": "Bandymo nuoroda jau keliauja adresu {email} kartu su žinute, kurią galėsite persiųsti ja naudosiantiems žmonėms.",
     "resentTo": "Dar kartą išsiuntėme bandymo nuorodą adresu {email} kartu su žinute, kurią galėsite persiųsti ja naudosiantiems žmonėms.",

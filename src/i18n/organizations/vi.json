@@ -6,7 +6,8 @@
   "header": {
     "forOrganizations": "Dành cho tổ chức",
     "startPilot": "Dùng thử miễn phí",
-    "chooseLanguage": "Chọn ngôn ngữ"
+    "chooseLanguage": "Chọn ngôn ngữ",
+    "dataProtection": "Bảo vệ dữ liệu"
   },
   "hero": {
     "title": "Ứng dụng [phụ đề trực tiếp] cho người Điếc và người nghe kém"
@@ -20,8 +21,19 @@
   },
   "languages": {
     "eyebrow": "Hơn 60 ngôn ngữ",
-    "title": "Phụ đề bằng đúng ngôn ngữ đang được nói",
     "subtitle": "Phụ đề trực tiếp, dịch và chép lời ở mọi ngôn ngữ, kể cả khi người nói đổi ngôn ngữ giữa câu."
+  },
+  "useCases": {
+    "eyebrow": "Tình huống sử dụng",
+    "title": "Phụ đề ở bất cứ nơi nào có người nói chuyện",
+    "items": [
+      { "label": "Cuộc họp", "description": "Mọi người nói nhanh và nói chen vào nhau. Captio AI hiện phụ đề cho từng người nói ngay khi họ nói, gắn nhãn riêng cho từng người, và lưu cuộc họp thành bản chép lời." },
+      { "label": "Bài giảng và đào tạo", "description": "Những buổi kéo dài với nhiều thuật ngữ mới. Từng chữ hiện ra trực tiếp, và có thể lưu toàn bộ buổi kèm bản tóm tắt AI." },
+      { "label": "Khám bệnh và tư vấn", "description": "Các buổi khám bệnh, tư vấn pháp lý hay tư vấn khác, nơi từng chi tiết đều quan trọng. Mỗi lời hiện trên màn hình ngay khi được nói ra, nên không có gì bị nghe nhầm." },
+      { "label": "Phỏng vấn", "description": "Phỏng vấn xin việc và các cuộc trao đổi một đối một. Mỗi câu hỏi hiện trên màn hình ngay khi vừa được đặt ra." },
+      { "label": "Trò chuyện nhóm", "description": "Buổi workshop, bữa trưa cùng nhóm, giờ giải lao. Captio AI theo kịp nhiều người cùng lúc và cho thấy ai đã nói gì." },
+      { "label": "Hội nghị và sự kiện", "description": "Một diễn giả đứng phía trước hội trường lớn. Phụ đề hiện trên điện thoại, ngay giữa hàng ghế khán giả, không cần đặt người làm phụ đề." }
+    ]
   },
   "awareness": {
     "eyebrow": "Dành cho người Điếc và người nghe kém",
@@ -53,6 +65,7 @@
     ]
   },
   "form": {
+    "intro": "Miễn phí 30 ngày, tối đa 5 người. Sau đó là {price} cho mỗi người mỗi năm, thanh toán theo hóa đơn.",
     "organization": "Tổ chức",
     "name": "Họ và tên",
     "email": "Email công việc",
@@ -61,7 +74,7 @@
     "peopleOptions": ["1 đến 5", "6 đến 19", "20 đến 50", "Trên 50"],
     "submit": "Gửi liên kết dùng thử cho tôi",
     "sending": "Đang gửi…",
-    "note": "Miễn phí 30 ngày, tối đa 5 người. Không phải trả tiền, không phải ký gì.",
+    "note": "Không phải trả tiền, không phải ký gì.",
     "sentTitle": "Vui lòng kiểm tra hộp thư",
     "sentTo": "Liên kết dùng thử đang được gửi đến {email}, kèm một tin nhắn Quý vị có thể chuyển tiếp cho những người sẽ dùng.",
     "resentTo": "Chúng tôi đã gửi lại liên kết dùng thử đến {email}, kèm một tin nhắn Quý vị có thể chuyển tiếp cho những người sẽ dùng.",

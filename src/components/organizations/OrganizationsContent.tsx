@@ -5,12 +5,9 @@ import FaqAccordion from "@/components/FaqAccordion";
 import LocaleShell from "@/components/LocaleShell";
 import { PilotForm } from "./PilotForm";
 import { OrgHeader } from "./OrgHeader";
-import { languageName, languageOptions, pagePath, type Messages } from "@/i18n";
-import { ENGLISH, LOCALES } from "@/i18n/locales";
+import { languageOptions, pagePath, type Messages } from "@/i18n";
 import { fill, orgCurrency, type OrgMessages } from "@/i18n/organizations";
 import { appImage } from "@/lib/appImages";
-import { USE_CASE_CARDS } from "@/lib/useCaseCards";
-import { languages as languagePages } from "@/lib/languages";
 import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbSchema } from "@/lib/schema";
 
 // Captio AI for Organizations, in any language: /organizations (English) and
@@ -19,14 +16,14 @@ import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbS
 // Organizations", language menu, one button, no site menu), then the hero
 // (Nejc 2026-11-02): the heading, three small phones under it (live captions,
 // live translation, transcription) and the pilot form beside them. Right under
-// it the use cases (the home page's, Nejc 2026-11-02: in place of the feature
-// videos), then Recognize voices / Speaker direction / Recognize sounds, each
-// with a real picture of the app (Nejc 2026-11-02: pictures, not drawings),
-// every caption language, why organizations choose it, the pilot steps with
-// the form again, prices, data, FAQ, and a last banner with the form a third
-// time. The words present the app and what it does, never "your people
-// will…" (Nejc 2026-11-02). They come from src/i18n/organizations/<code>.json;
-// the use cases from the home page's src/i18n/messages/<code>.json.
+// it why organizations choose it (what the buyer decides on), six use cases,
+// Recognize voices / Speaker direction / Recognize sounds each with a real
+// picture of the app (pictures, not drawings) and the caption languages as one
+// line, prices, the pilot steps with the form again, data, FAQ, and a last
+// banner with the form a third time (order: Nejc 2026-11-02). The header stays
+// on screen with links to prices, data and FAQ. The words present the app and
+// what it does, never "your people will…" (Nejc 2026-11-02). All of them come
+// from src/i18n/organizations/<code>.json.
 // Yearly per-person licenses, paid by invoice, for any organization that pays
 // for captioning on someone's behalf (Nejc 2026-10-27: never "students" or
 // "staff"). Prices and the pilot: app repo tools/organizations/PLAN.md. Never
@@ -45,12 +42,10 @@ const PRICES = [
 ];
 
 const REASON_ICONS = ["⚡", "📱", "🔒", "🧾"];
+const USE_CASE_ICONS = ["💼", "🎓", "📋", "🤝", "👥", "🎤"];
 // One real app picture per feature in t.awareness.items: named speakers,
 // speaker direction, a sound written into the captions.
 const FEATURE_PICTURES = ["RV_mockup_3.png", "SD_mockup_3.png", "RS_mockup_1.png"].map(appImage);
-
-// Every language the site (and live captions) has, with its flag: shown, not linked.
-const FLAGS = new Map(languagePages.map((l) => [l.languageSlug, l.flag]));
 
 // The page's one call to action, everywhere: Start a free pilot (Nejc
 // 2026-10-29). Same shape as every other button on the site: 8px corners.
@@ -107,11 +102,6 @@ export default function OrganizationsContent({ code, t, m }: { code: string; t: 
     { image: appImage("LT_mockup_3.png"), label: t.features.items[1].label },
     { image: appImage("AS_mockup_3.png"), label: t.features.items[2].label },
   ];
-  const captionLanguages = [ENGLISH, ...LOCALES].map((l) => ({
-    code: l.code,
-    name: languageName(l.code, code),
-    flag: FLAGS.get(l.slug) ?? "🌐",
-  }));
   const schemaOrg = jsonLd(
     softwareApplicationSchema({ url: `${SITE_URL}${path}`, description: t.meta.description }),
     faqPageSchema(t.faq.items),
@@ -132,6 +122,11 @@ export default function OrganizationsContent({ code, t, m }: { code: string; t: 
           startPilot={t.header.startPilot}
           chooseLanguage={t.header.chooseLanguage}
           languages={languageOptions(code, "organizations")}
+          links={[
+            { href: "#pricing", label: t.pricing.eyebrow },
+            { href: "#data", label: t.header.dataProtection },
+            { href: "#faq", label: t.faq.eyebrow },
+          ]}
         />
 
         {/* ── Hero: the heading and the app on the left, the form on the right ── */}
@@ -161,27 +156,43 @@ export default function OrganizationsContent({ code, t, m }: { code: string; t: 
                 ))}
               </ul>
             </div>
-            <div id="start" className="w-full max-w-xl mx-auto scroll-mt-4 lg:max-w-none">
-              <PilotForm t={t.form} title={t.header.startPilot} language={code} address={ADDRESS} placement="hero" />
+            <div id="start" className="w-full max-w-xl mx-auto scroll-mt-24 lg:max-w-none">
+              <PilotForm t={t.form} title={t.header.startPilot} language={code} price={PRICES[0][currency]} address={ADDRESS} placement="hero" />
+            </div>
+          </div>
+        </section>
+
+        {/* ── Why organizations choose it: second, what the buyer decides on ── */}
+        <section className="py-12 px-6 bg-brand">
+          <div className="max-w-6xl mx-auto">
+            <SectionTitle eyebrow={t.reasons.eyebrow} title={t.reasons.title} onBlue />
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              {t.reasons.items.map((r, i) => (
+                <div key={r.title} className="bg-white/10 rounded-xl p-6 border border-white/20">
+                  <span className="text-2xl" aria-hidden>{REASON_ICONS[i]}</span>
+                  <h3 className="mt-3 font-semibold text-white">{r.title}</h3>
+                  <p className="mt-1 text-sm text-blue-100 leading-relaxed">{r.description}</p>
+                </div>
+              ))}
             </div>
           </div>
         </section>
 
         {/* ── Use cases ── */}
-        {/* Nejc 2026-11-02: the situations from the home page, in place of the
-            feature videos (the hero already shows the main features), right
-            under the hero. Cards, not links: the page's one way on is the form. */}
+        {/* Six situations an organization pays captions for, written for this
+            page (Nejc 2026-11-02: in place of the feature videos; the home
+            page's twelve spoke to the user and in the app's informal voice). */}
         <section className="py-12 px-6 bg-gray-50">
           <div className="max-w-6xl mx-auto">
-            <SectionTitle eyebrow={m.home.useCasesLabel} title={m.home.useCasesTitle} subtitle={m.home.useCasesSubtitle} />
+            <SectionTitle eyebrow={t.useCases.eyebrow} title={t.useCases.title} />
             <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-              {USE_CASE_CARDS.map((uc) => (
-                <li key={uc.slug} className="bg-white rounded-xl border border-gray-200 p-5 flex flex-col gap-3">
+              {t.useCases.items.map((uc, i) => (
+                <li key={uc.label} className="bg-white rounded-xl border border-gray-200 p-5 flex flex-col gap-3">
                   <span className="inline-flex items-center gap-2 bg-brand-light text-brand font-bold px-3.5 py-2 rounded-[8px] w-fit">
-                    <span className="text-2xl leading-none" aria-hidden>{uc.icon}</span>
-                    <span className="text-base">{m.home.useCases[uc.slug].label}</span>
+                    <span className="text-2xl leading-none" aria-hidden>{USE_CASE_ICONS[i]}</span>
+                    <span className="text-base">{uc.label}</span>
                   </span>
-                  <p className="text-sm text-gray-500 leading-relaxed">{m.home.useCases[uc.slug].description}</p>
+                  <p className="text-sm text-gray-500 leading-relaxed">{uc.description}</p>
                 </li>
               ))}
             </ul>
@@ -189,8 +200,8 @@ export default function OrganizationsContent({ code, t, m }: { code: string; t: 
         </section>
 
         {/* ── More than captions: each feature with its own app picture ── */}
-        {/* Nejc 2026-11-02: under the use cases, a real picture of the app for
-            each feature (not drawings), then the languages. */}
+        {/* Nejc 2026-11-02: a real picture of the app for each feature (not
+            drawings); the languages as one line under them. */}
         <section className="pt-12 pb-14 px-6 bg-white">
           <div className="max-w-6xl mx-auto">
             <SectionTitle eyebrow={t.awareness.eyebrow} title={t.awareness.title} subtitle={t.awareness.subtitle} />
@@ -219,65 +230,14 @@ export default function OrganizationsContent({ code, t, m }: { code: string; t: 
                 );
               })}
             </div>
-          </div>
-        </section>
-
-        {/* ── Languages ── */}
-        <section className="pb-14 px-6 bg-white">
-          <div className="max-w-5xl mx-auto">
-            <SectionTitle eyebrow={t.languages.eyebrow} title={t.languages.title} subtitle={t.languages.subtitle} />
-            <ul className="flex flex-wrap justify-center gap-2">
-              {captionLanguages.map((l) => (
-                <li key={l.code} className="flex items-center gap-1.5 rounded-[8px] border border-gray-200 bg-gray-50 px-2.5 py-1.5 text-[13px] font-medium text-gray-700">
-                  <span aria-hidden>{l.flag}</span>
-                  {l.name}
-                </li>
-              ))}
-            </ul>
-          </div>
-        </section>
-
-        {/* ── Why organizations choose it ── */}
-        <section className="py-12 px-6 bg-brand">
-          <div className="max-w-6xl mx-auto">
-            <SectionTitle eyebrow={t.reasons.eyebrow} title={t.reasons.title} onBlue />
-            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-              {t.reasons.items.map((r, i) => (
-                <div key={r.title} className="bg-white/10 rounded-xl p-6 border border-white/20">
-                  <span className="text-2xl" aria-hidden>{REASON_ICONS[i]}</span>
-                  <h3 className="mt-3 font-semibold text-white">{r.title}</h3>
-                  <p className="mt-1 text-sm text-blue-100 leading-relaxed">{r.description}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* ── Pilot: how it works, and the form again ── */}
-        <section id="pilot" className="py-12 px-6 bg-white scroll-mt-4">
-          <div className="max-w-6xl mx-auto">
-            <SectionTitle eyebrow={t.pilot.eyebrow} title={t.pilot.title} />
-            <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 lg:items-center">
-              <ol className="flex flex-col gap-4">
-                {t.pilot.steps.map((s, i) => (
-                  <li key={s.title} className="bg-white rounded-xl border border-gray-200 p-5 flex gap-4">
-                    <span className="w-9 h-9 shrink-0 rounded-[8px] bg-brand-light text-brand font-bold flex items-center justify-center">{i + 1}</span>
-                    <div>
-                      <h3 className="font-bold text-gray-900 leading-snug">{s.title}</h3>
-                      <p className="mt-1 text-sm text-gray-500 leading-relaxed">{s.description}</p>
-                    </div>
-                  </li>
-                ))}
-              </ol>
-              <div className="w-full max-w-xl mx-auto lg:max-w-none">
-                <PilotForm t={t.form} title={t.header.startPilot} language={code} address={ADDRESS} placement="middle" />
-              </div>
-            </div>
+            <p className="mt-12 max-w-3xl mx-auto text-center text-sm sm:text-base text-gray-600 leading-relaxed">
+              <span className="font-bold text-gray-900">🌐 {t.languages.eyebrow}.</span> {t.languages.subtitle}
+            </p>
           </div>
         </section>
 
         {/* ── Pricing ── */}
-        <section className="py-12 px-6 bg-gray-50">
+        <section id="pricing" className="py-12 px-6 bg-gray-50 scroll-mt-24">
           <div className="max-w-4xl mx-auto">
             <SectionTitle eyebrow={t.pricing.eyebrow} title={t.pricing.title} subtitle={t.pricing.subtitle} />
             <div className="grid sm:grid-cols-2 gap-5">
@@ -312,13 +272,36 @@ export default function OrganizationsContent({ code, t, m }: { code: string; t: 
           </div>
         </section>
 
+        {/* ── Pilot: how it works, and the form again ── */}
+        <section id="pilot" className="py-12 px-6 bg-white scroll-mt-24">
+          <div className="max-w-6xl mx-auto">
+            <SectionTitle eyebrow={t.pilot.eyebrow} title={t.pilot.title} />
+            <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 lg:items-center">
+              <ol className="flex flex-col gap-4">
+                {t.pilot.steps.map((s, i) => (
+                  <li key={s.title} className="bg-white rounded-xl border border-gray-200 p-5 flex gap-4">
+                    <span className="w-9 h-9 shrink-0 rounded-[8px] bg-brand-light text-brand font-bold flex items-center justify-center">{i + 1}</span>
+                    <div>
+                      <h3 className="font-bold text-gray-900 leading-snug">{s.title}</h3>
+                      <p className="mt-1 text-sm text-gray-500 leading-relaxed">{s.description}</p>
+                    </div>
+                  </li>
+                ))}
+              </ol>
+              <div className="w-full max-w-xl mx-auto lg:max-w-none">
+                <PilotForm t={t.form} title={t.header.startPilot} language={code} price={PRICES[0][currency]} address={ADDRESS} placement="middle" />
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* ── Data protection ── */}
-        <section id="data" className="py-12 px-6 bg-white">
+        <section id="data" className="py-12 px-6 bg-gray-50 scroll-mt-24">
           <div className="max-w-5xl mx-auto">
             <SectionTitle eyebrow={t.data.eyebrow} title={t.data.title} />
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {t.data.items.map((d) => (
-                <div key={d.title} className="bg-gray-50 rounded-xl p-6 border border-gray-100">
+                <div key={d.title} className="bg-white rounded-xl p-6 border border-gray-200">
                   <h3 className="font-semibold text-gray-900 mb-1">{d.title}</h3>
                   <p className="text-sm text-gray-500 leading-relaxed">{d.description}</p>
                 </div>
@@ -333,7 +316,7 @@ export default function OrganizationsContent({ code, t, m }: { code: string; t: 
         </section>
 
         {/* ── FAQ ── */}
-        <section className="py-12 px-6 bg-gray-50">
+        <section id="faq" className="py-12 px-6 bg-white scroll-mt-24">
           <div className="max-w-3xl mx-auto">
             <SectionTitle eyebrow={t.faq.eyebrow} title={t.faq.title} />
             <FaqAccordion faqs={t.faq.items} />
@@ -349,7 +332,7 @@ export default function OrganizationsContent({ code, t, m }: { code: string; t: 
               <p className="text-blue-100 max-w-lg">{fill(t.cta.body, { address: ADDRESS })}</p>
             </div>
             <div className="w-full max-w-xl mx-auto lg:max-w-none">
-              <PilotForm t={t.form} title={t.header.startPilot} language={code} address={ADDRESS} placement="end" />
+              <PilotForm t={t.form} title={t.header.startPilot} language={code} price={PRICES[0][currency]} address={ADDRESS} placement="end" />
             </div>
           </div>
         </section>

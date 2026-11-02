@@ -6,7 +6,8 @@
   "header": {
     "forOrganizations": "za organizacije",
     "startPilot": "Pokrenite besplatan pilot",
-    "chooseLanguage": "Izaberite jezik"
+    "chooseLanguage": "Izaberite jezik",
+    "dataProtection": "Zaštita podataka"
   },
   "hero": {
     "title": "Aplikacija sa [titlovima uživo] za gluve i nagluve osobe"
@@ -20,8 +21,19 @@
   },
   "languages": {
     "eyebrow": "Više od 60 jezika",
-    "title": "Titlovi na jeziku koji se govori",
     "subtitle": "Titlovi uživo, prevod i transkripcija na svakom od njih, i kad neko promeni jezik usred rečenice."
+  },
+  "useCases": {
+    "eyebrow": "Primeri upotrebe",
+    "title": "Titlovi svuda gde se govori",
+    "items": [
+      { "label": "Sastanci", "description": "Ljudi govore brzo i upadaju jedni drugima u reč. Captio AI prikazuje titlove za svakog govornika dok govori, sa posebnom oznakom za svakog, i sastanak čuva kao transkript." },
+      { "label": "Predavanja i obuke", "description": "Duge sesije pune novih pojmova. Svaka reč se pojavljuje uživo, a cela sesija može da se sačuva sa AI rezimeom." },
+      { "label": "Pregledi i konsultacije", "description": "Kod lekara, advokata ili savetnika, gde je važan svaki detalj. Svaka reč je na ekranu čim se izgovori, pa se ništa ne razume pogrešno." },
+      { "label": "Intervjui", "description": "Razgovori za posao i susreti u četiri oka. Svako pitanje je na ekranu u trenutku kad je postavljeno." },
+      { "label": "Razgovori u grupi", "description": "Radionice, zajednički ručkovi, pauze. Captio AI prati više osoba odjednom i pokazuje ko je šta rekao." },
+      { "label": "Konferencije i događaji", "description": "Govornik ispred velike sale. Titlovi se pojavljuju na telefonu, u publici, bez potrebe da se rezerviše titlovanje." }
+    ]
   },
   "awareness": {
     "eyebrow": "Napravljeno za gluve i nagluve osobe",
@@ -53,6 +65,7 @@
     ]
   },
   "form": {
+    "intro": "Besplatno 30 dana, za najviše 5 osoba. Nakon toga {price} po osobi godišnje, plaćanje po fakturi.",
     "organization": "Organizacija",
     "name": "Vaše ime",
     "email": "Vaša poslovna imejl adresa",
@@ -61,7 +74,7 @@
     "peopleOptions": ["Od 1 do 5", "Od 6 do 19", "Od 20 do 50", "Više od 50"],
     "submit": "Pošaljite mi link za pilot",
     "sending": "Šaljemo…",
-    "note": "Besplatno 30 dana, za najviše 5 osoba. Ništa ne plaćate, ništa ne potpisujete.",
+    "note": "Ništa ne plaćate, ništa ne potpisujete.",
     "sentTitle": "Proverite sanduče",
     "sentTo": "Link za pilot stiže na {email}, sa porukom koju možete proslediti osobama koje će je koristiti.",
     "resentTo": "Ponovo smo poslali link za pilot na {email}, sa porukom koju možete proslediti osobama koje će je koristiti.",

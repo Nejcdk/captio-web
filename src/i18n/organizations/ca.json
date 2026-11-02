@@ -6,7 +6,8 @@
   "header": {
     "forOrganizations": "per a organitzacions",
     "startPilot": "Comenceu una prova gratuïta",
-    "chooseLanguage": "Trieu l’idioma"
+    "chooseLanguage": "Trieu l’idioma",
+    "dataProtection": "Protecció de dades"
   },
   "hero": {
     "title": "Aplicació de [subtítols en directe] per a persones sordes i amb pèrdua auditiva"
@@ -20,8 +21,19 @@
   },
   "languages": {
     "eyebrow": "60+ idiomes",
-    "title": "Subtítols en l’idioma que es parla",
     "subtitle": "Subtítols en directe, traducció i transcripció en cadascun, fins i tot quan algú canvia d’idioma a mitja frase."
+  },
+  "useCases": {
+    "eyebrow": "Casos d’ús",
+    "title": "Subtítols allà on la gent parla",
+    "items": [
+      { "label": "Reunions", "description": "La gent parla de pressa i s’interromp. Captio AI subtitula cada parlant a l’instant, amb una etiqueta per a cadascun, i desa la reunió com a transcripció." },
+      { "label": "Classes i formacions", "description": "Sessions llargues plenes de termes nous. Cada paraula apareix en directe, i tota la sessió es pot desar amb un resum fet amb IA." },
+      { "label": "Visites", "description": "Visites mèdiques, legals o d’assessorament en què compta cada detall. Cada paraula és a la pantalla tan bon punt es diu, perquè res no s’entengui malament." },
+      { "label": "Entrevistes", "description": "Entrevistes de feina i converses individuals. Cada pregunta apareix a la pantalla en el moment que es fa." },
+      { "label": "Converses en grup", "description": "Tallers, dinars d’equip, pauses. Captio AI segueix diverses persones alhora i mostra qui ha dit què." },
+      { "label": "Congressos i esdeveniments", "description": "Algú parla al davant d’una sala gran. Els subtítols apareixen al mòbil, entre el públic, sense haver de reservar cap subtitulador." }
+    ]
   },
   "awareness": {
     "eyebrow": "Fet per a persones sordes i amb pèrdua auditiva",
@@ -53,6 +65,7 @@
     ]
   },
   "form": {
+    "intro": "Gratuïta durant 30 dies, fins a 5 persones. Després, {price} per persona i any, amb factura.",
     "organization": "Organització",
     "name": "El vostre nom",
     "email": "El vostre correu de la feina",
@@ -61,7 +74,7 @@
     "peopleOptions": ["D’1 a 5", "De 6 a 19", "De 20 a 50", "Més de 50"],
     "submit": "Envieu-me l’enllaç de la prova",
     "sending": "S’està enviant…",
-    "note": "Gratuïta durant 30 dies, fins a 5 persones. Res a pagar, res a signar.",
+    "note": "Res a pagar, res a signar.",
     "sentTitle": "Mireu la safata d’entrada",
     "sentTo": "L’enllaç de la prova va de camí a {email}, amb un missatge que podeu reenviar a les persones que la faran servir.",
     "resentTo": "Hem tornat a enviar l’enllaç de la prova a {email}, amb un missatge que podeu reenviar a les persones que la faran servir.",

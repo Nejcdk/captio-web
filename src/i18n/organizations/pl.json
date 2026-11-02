@@ -6,7 +6,8 @@
   "header": {
     "forOrganizations": "dla organizacji",
     "startPilot": "Bezpłatny pilotaż",
-    "chooseLanguage": "Wybór języka"
+    "chooseLanguage": "Wybór języka",
+    "dataProtection": "Ochrona danych"
   },
   "hero": {
     "title": "Aplikacja z [napisami na żywo] dla osób głuchych i słabosłyszących"
@@ -20,8 +21,19 @@
   },
   "languages": {
     "eyebrow": "60+ języków",
-    "title": "Napisy w języku, w którym się mówi",
     "subtitle": "Napisy na żywo, tłumaczenie i transkrypcja w każdym z nich, także gdy ktoś zmienia język w połowie zdania."
+  },
+  "useCases": {
+    "eyebrow": "Zastosowania",
+    "title": "Napisy wszędzie tam, gdzie ludzie rozmawiają",
+    "items": [
+      { "label": "Spotkania", "description": "Ludzie mówią szybko i jeden przez drugiego. Captio AI na bieżąco tworzy napisy dla każdego mówcy, z osobnym oznaczeniem dla każdego, i zapisuje spotkanie jako transkrypcję." },
+      { "label": "Wykłady i szkolenia", "description": "Długie sesje pełne nowych pojęć. Każde słowo pojawia się na żywo, a całą sesję można zapisać razem z podsumowaniem AI." },
+      { "label": "Wizyty i konsultacje", "description": "U lekarza, prawnika czy doradcy, gdzie liczy się każdy szczegół. Każde słowo jest na ekranie, gdy tylko padnie, więc nic nie zostanie źle usłyszane." },
+      { "label": "Rozmowy kwalifikacyjne", "description": "Rozmowy o pracę i spotkania w cztery oczy. Każde pytanie pojawia się na ekranie w chwili, gdy pada." },
+      { "label": "Rozmowy w grupie", "description": "Warsztaty, wspólne obiady, przerwy. Captio AI śledzi kilka osób naraz i pokazuje, kto co powiedział." },
+      { "label": "Konferencje i wydarzenia", "description": "Prelegent przed dużą salą. Napisy pojawiają się w telefonie, na widowni, bez zamawiania transkrypcji na żywo." }
+    ]
   },
   "awareness": {
     "eyebrow": "Stworzone dla osób głuchych i słabosłyszących",
@@ -53,6 +65,7 @@
     ]
   },
   "form": {
+    "intro": "Za darmo przez 30 dni, dla maksymalnie 5 osób. Potem {price} za osobę na rok, na fakturę.",
     "organization": "Organizacja",
     "name": "Imię i nazwisko",
     "email": "Służbowy adres e-mail",
@@ -61,7 +74,7 @@
     "peopleOptions": ["Od 1 do 5", "Od 6 do 19", "Od 20 do 50", "Ponad 50"],
     "submit": "Poproszę o link do pilotażu",
     "sending": "Wysyłanie…",
-    "note": "Za darmo przez 30 dni, dla maksymalnie 5 osób. Nic do zapłacenia, nic do podpisania.",
+    "note": "Nic do zapłacenia, nic do podpisania.",
     "sentTitle": "Prosimy sprawdzić skrzynkę",
     "sentTo": "Link do pilotażu jest już w drodze na adres {email}, razem z wiadomością, którą mogą Państwo przekazać osobom, które będą korzystać z aplikacji.",
     "resentTo": "Ponownie wysłaliśmy link do pilotażu na adres {email}, razem z wiadomością, którą mogą Państwo przekazać osobom, które będą korzystać z aplikacji.",

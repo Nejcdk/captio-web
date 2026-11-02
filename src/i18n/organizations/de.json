@@ -6,7 +6,8 @@
   "header": {
     "forOrganizations": "für Organisationen",
     "startPilot": "Kostenlos testen",
-    "chooseLanguage": "Sprache wählen"
+    "chooseLanguage": "Sprache wählen",
+    "dataProtection": "Datenschutz"
   },
   "hero": {
     "title": "Die [Live-Untertitel]-App für gehörlose und schwerhörige Menschen"
@@ -20,8 +21,19 @@
   },
   "languages": {
     "eyebrow": "60+ Sprachen",
-    "title": "Untertitel in der Sprache, die gerade gesprochen wird",
     "subtitle": "Live-Untertitel, Übersetzung und Transkription in jeder davon, auch wenn jemand mitten im Satz die Sprache wechselt."
+  },
+  "useCases": {
+    "eyebrow": "Einsatzbereiche",
+    "title": "Untertitel überall, wo gesprochen wird",
+    "items": [
+      { "label": "Besprechungen", "description": "Es wird schnell und durcheinander geredet. Captio AI untertitelt jede sprechende Person in Echtzeit, jeweils mit eigener Kennzeichnung, und speichert die Besprechung als Transkript." },
+      { "label": "Vorlesungen und Schulungen", "description": "Lange Veranstaltungen voller neuer Fachbegriffe. Jedes Wort erscheint live, und das Ganze lässt sich mit einer KI-Zusammenfassung speichern." },
+      { "label": "Termine", "description": "Arzt-, Anwalts- oder Beratungstermine, bei denen jedes Detail zählt. Jedes Wort steht auf dem Bildschirm, sobald es gesagt wird. So wird nichts falsch verstanden." },
+      { "label": "Einzelgespräche", "description": "Vorstellungsgespräche und andere Gespräche unter vier Augen. Jede Frage steht auf dem Bildschirm, sobald sie gestellt wird." },
+      { "label": "Gruppengespräche", "description": "Workshops, Mittagessen im Team, Pausen. Captio AI folgt mehreren Personen gleichzeitig und zeigt, wer was gesagt hat." },
+      { "label": "Konferenzen und Veranstaltungen", "description": "Jemand spricht vorne in einem großen Saal. Die Untertitel erscheinen auf dem Handy, mitten im Publikum, ohne dass eine Schriftdolmetschung gebucht werden muss." }
+    ]
   },
   "awareness": {
     "eyebrow": "Für gehörlose und schwerhörige Menschen gemacht",
@@ -53,6 +65,7 @@
     ]
   },
   "form": {
+    "intro": "30 Tage kostenlos, für bis zu 5 Personen. Danach {price} pro Person und Jahr, auf Rechnung.",
     "organization": "Organisation",
     "name": "Ihr Name",
     "email": "Ihre geschäftliche E-Mail-Adresse",
@@ -61,7 +74,7 @@
     "peopleOptions": ["1 bis 5", "6 bis 19", "20 bis 50", "Mehr als 50"],
     "submit": "Link zur Pilotphase anfordern",
     "sending": "Wird gesendet…",
-    "note": "30 Tage kostenlos, für bis zu 5 Personen. Nichts zu bezahlen, nichts zu unterschreiben.",
+    "note": "Nichts zu bezahlen, nichts zu unterschreiben.",
     "sentTitle": "Sehen Sie in Ihr Postfach",
     "sentTo": "Ihr Link zur Pilotphase ist unterwegs an {email}, zusammen mit einer Nachricht, die Sie an die Personen weiterleiten können, die die App nutzen werden.",
     "resentTo": "Wir haben Ihren Link zur Pilotphase noch einmal an {email} gesendet, zusammen mit einer Nachricht, die Sie an die Personen weiterleiten können, die die App nutzen werden.",

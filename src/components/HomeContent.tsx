@@ -9,7 +9,6 @@ import LocaleShell from "@/components/LocaleShell";
 import { FEATURE_SLUGS, languageName, languageOptions, pagePath, type Messages } from "@/i18n";
 import { ALL_LOCALES } from "@/i18n/locales";
 import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema } from "@/lib/schema";
-import { USE_CASE_CARDS } from "@/lib/useCaseCards";
 
 // The home page, in any language: "/" (English) and "/<code>". All of its words
 // come from src/i18n/messages/<code>.json.
@@ -50,6 +49,21 @@ const featureIcons = {
   ),
 };
 
+// Order of the cards; their words are home.useCases.<slug> in the messages.
+const useCases = [
+  { slug: "everyday-conversations", icon: "💬" },
+  { slug: "deaf-hoh-communication", icon: "🤟" },
+  { slug: "meetings", icon: "💼" },
+  { slug: "lectures", icon: "🎓" },
+  { slug: "doctor-appointments", icon: "🏥" },
+  { slug: "job-interviews", icon: "🤝" },
+  { slug: "phone-video-calls", icon: "📱" },
+  { slug: "group-settings", icon: "👥" },
+  { slug: "restaurants", icon: "🍽️" },
+  { slug: "traveling", icon: "✈️" },
+  { slug: "conferences", icon: "🎤" },
+  { slug: "tv-media", icon: "📺" },
+] as const;
 
 // The language grid links to the (English) language pages, /[slug].
 const languages = [
@@ -256,7 +270,7 @@ export default function HomeContent({ code, m }: { code: string; m: Messages }) 
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-              {USE_CASE_CARDS.map((uc) => (
+              {useCases.map((uc) => (
                 <Link
                   key={uc.slug}
                   href={`/use-cases/${uc.slug}`}

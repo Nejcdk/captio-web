@@ -6,7 +6,8 @@
   "header": {
     "forOrganizations": "for Organizations",
     "startPilot": "Start a free pilot",
-    "chooseLanguage": "Choose language"
+    "chooseLanguage": "Choose language",
+    "dataProtection": "Data protection"
   },
   "hero": {
     "title": "[Live captions] app for deaf and hard of hearing people"
@@ -20,8 +21,19 @@
   },
   "languages": {
     "eyebrow": "60+ languages",
-    "title": "Captions in the language being spoken",
     "subtitle": "Live captions, translation and transcription in every one of them, including people who switch languages mid-sentence."
+  },
+  "useCases": {
+    "eyebrow": "Use cases",
+    "title": "Captions wherever people talk",
+    "items": [
+      { "label": "Meetings", "description": "People talk fast and over each other. Captio AI captions every speaker as they talk, with a label for each one, and saves the meeting as a transcript." },
+      { "label": "Lectures and training", "description": "Long sessions full of new terms. Every word appears live, and the whole session can be saved with an AI summary." },
+      { "label": "Appointments", "description": "Medical, legal or advice appointments where every detail matters. Each word is on screen as it's said, so nothing is misheard." },
+      { "label": "Interviews", "description": "Job interviews and one-to-one conversations. Every question is on screen the moment it's asked." },
+      { "label": "Group conversations", "description": "Workshops, team lunches, breaks. Captio AI follows several people at once and shows who said what." },
+      { "label": "Conferences and events", "description": "A speaker at the front of a large room. The captions appear on the phone, in the audience, with no captioner to book." }
+    ]
   },
   "awareness": {
     "eyebrow": "Made for deaf and hard of hearing people",
@@ -53,6 +65,7 @@
     ]
   },
   "form": {
+    "intro": "Free for 30 days, up to 5 people. After that, {price} per person per year, by invoice.",
     "organization": "Organization",
     "name": "Your name",
     "email": "Your work email",
@@ -61,7 +74,7 @@
     "peopleOptions": ["1 to 5", "6 to 19", "20 to 50", "More than 50"],
     "submit": "Send me the pilot link",
     "sending": "Sending…",
-    "note": "Free for 30 days, up to 5 people. Nothing to pay, nothing to sign.",
+    "note": "Nothing to pay, nothing to sign.",
     "sentTitle": "Check your inbox",
     "sentTo": "Your pilot link is on its way to {email}, with a message you can forward to the people who'll use it.",
     "resentTo": "We've sent your pilot link again to {email}, with a message you can forward to the people who'll use it.",

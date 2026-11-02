@@ -6,7 +6,8 @@
   "header": {
     "forOrganizations": "per le organizzazioni",
     "startPilot": "Prova pilota gratuita",
-    "chooseLanguage": "Scelta della lingua"
+    "chooseLanguage": "Scelta della lingua",
+    "dataProtection": "Protezione dati"
   },
   "hero": {
     "title": "App di [sottotitoli live] per persone sorde e ipoudenti"
@@ -20,8 +21,19 @@
   },
   "languages": {
     "eyebrow": "Oltre 60 lingue",
-    "title": "Sottotitoli nella lingua parlata",
     "subtitle": "Sottotitoli live, traduzione e trascrizione in ognuna di esse, anche per chi cambia lingua a metà frase."
+  },
+  "useCases": {
+    "eyebrow": "Casi d’uso",
+    "title": "Sottotitoli ovunque si parli",
+    "items": [
+      { "label": "Riunioni", "description": "Si parla in fretta e ci si sovrappone. Captio AI sottotitola ogni persona mentre parla, con un’etichetta per ciascuna, e salva la riunione come trascrizione." },
+      { "label": "Lezioni e formazione", "description": "Sessioni lunghe, piene di termini nuovi. Ogni parola compare in tempo reale, e l’intera sessione si può salvare con un riassunto IA." },
+      { "label": "Appuntamenti", "description": "Appuntamenti medici, legali o di consulenza in cui ogni dettaglio conta. Ogni parola è sullo schermo mentre viene detta, così nulla viene frainteso." },
+      { "label": "Colloqui", "description": "Colloqui di lavoro e conversazioni a tu per tu. Ogni domanda è sullo schermo nel momento in cui viene posta." },
+      { "label": "Conversazioni di gruppo", "description": "Workshop, pranzi di lavoro, pause. Captio AI segue più persone insieme e mostra chi ha detto cosa." },
+      { "label": "Conferenze ed eventi", "description": "Un relatore sul palco di una grande sala. I sottotitoli compaiono sul telefono, in platea, senza dover prenotare un servizio di sottotitolazione." }
+    ]
   },
   "awareness": {
     "eyebrow": "Pensata per le persone sorde e ipoudenti",
@@ -53,6 +65,7 @@
     ]
   },
   "form": {
+    "intro": "Gratis per 30 giorni, fino a 5 persone. Poi {price} a persona all’anno, su fattura.",
     "organization": "Organizzazione",
     "name": "Il suo nome",
     "email": "La sua email di lavoro",
@@ -61,7 +74,7 @@
     "peopleOptions": ["Da 1 a 5", "Da 6 a 19", "Da 20 a 50", "Più di 50"],
     "submit": "Inviatemi il link della prova pilota",
     "sending": "Invio in corso…",
-    "note": "Gratis per 30 giorni, fino a 5 persone. Niente da pagare, niente da firmare.",
+    "note": "Niente da pagare, niente da firmare.",
     "sentTitle": "Controlli la sua casella di posta",
     "sentTo": "Il link della prova pilota sta arrivando a {email}, con un messaggio da inoltrare alle persone che useranno l’app.",
     "resentTo": "Le abbiamo inviato di nuovo il link della prova pilota a {email}, con un messaggio da inoltrare alle persone che useranno l’app.",

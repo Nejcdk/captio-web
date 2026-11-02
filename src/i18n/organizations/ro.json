@@ -6,7 +6,8 @@
   "header": {
     "forOrganizations": "pentru organizații",
     "startPilot": "Începeți un pilot gratuit",
-    "chooseLanguage": "Alegeți limba"
+    "chooseLanguage": "Alegeți limba",
+    "dataProtection": "Protecția datelor"
   },
   "hero": {
     "title": "Aplicație de [subtitrări live] pentru persoanele surde și hipoacuzice"
@@ -20,8 +21,19 @@
   },
   "languages": {
     "eyebrow": "Peste 60 de limbi",
-    "title": "Subtitrări în limba în care se vorbește",
     "subtitle": "Subtitrări live, traducere și transcriere în fiecare dintre ele, inclusiv pentru cei care schimbă limba în mijlocul propoziției."
+  },
+  "useCases": {
+    "eyebrow": "Situații de utilizare",
+    "title": "Subtitrări oriunde se vorbește",
+    "items": [
+      { "label": "Ședințe", "description": "Oamenii vorbesc repede și unii peste alții. Captio AI subtitrează fiecare vorbitor pe măsură ce vorbește, cu o etichetă pentru fiecare, și salvează ședința ca transcriere." },
+      { "label": "Prelegeri și cursuri", "description": "Sesiuni lungi, pline de termeni noi. Fiecare cuvânt apare live, iar întreaga sesiune poate fi salvată cu un rezumat AI." },
+      { "label": "Consultații", "description": "La medic, la avocat sau la consilier, acolo unde contează fiecare detaliu. Fiecare cuvânt apare pe ecran în clipa în care e rostit, așa că nimic nu e înțeles greșit." },
+      { "label": "Interviuri", "description": "Interviuri de angajare și discuții între patru ochi. Fiecare întrebare apare pe ecran în clipa în care e pusă." },
+      { "label": "Discuții în grup", "description": "Ateliere, prânzuri cu echipa, pauze. Captio AI urmărește mai multe persoane în același timp și arată cine ce a spus." },
+      { "label": "Conferințe și evenimente", "description": "Un vorbitor în fața unei săli mari. Subtitrările apar pe telefon, chiar în sală, fără să fie nevoie să rezervați un stenograf." }
+    ]
   },
   "awareness": {
     "eyebrow": "Gândit pentru persoanele surde și hipoacuzice",
@@ -53,6 +65,7 @@
     ]
   },
   "form": {
+    "intro": "Gratuit 30 de zile, pentru cel mult 5 persoane. Apoi {price} de persoană pe an, pe bază de factură.",
     "organization": "Organizație",
     "name": "Numele dumneavoastră",
     "email": "Adresa de e-mail de serviciu",
@@ -61,7 +74,7 @@
     "peopleOptions": ["Între 1 și 5", "Între 6 și 19", "Între 20 și 50", "Peste 50"],
     "submit": "Trimiteți-mi linkul pentru pilot",
     "sending": "Se trimite…",
-    "note": "Gratuit 30 de zile, pentru cel mult 5 persoane. Nimic de plătit, nimic de semnat.",
+    "note": "Nimic de plătit, nimic de semnat.",
     "sentTitle": "Verificați-vă căsuța de e-mail",
     "sentTo": "Linkul pentru pilot e pe drum spre {email}, împreună cu un mesaj pe care îl puteți trimite mai departe persoanelor care vor folosi aplicația.",
     "resentTo": "Am trimis din nou linkul pentru pilot la {email}, împreună cu un mesaj pe care îl puteți trimite mai departe persoanelor care vor folosi aplicația.",

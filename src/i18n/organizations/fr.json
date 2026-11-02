@@ -6,7 +6,8 @@
   "header": {
     "forOrganizations": "pour les organisations",
     "startPilot": "Lancer un pilote gratuit",
-    "chooseLanguage": "Choisir la langue"
+    "chooseLanguage": "Choisir la langue",
+    "dataProtection": "Protection des données"
   },
   "hero": {
     "title": "Application de [sous-titres en direct] pour personnes sourdes et malentendantes"
@@ -20,8 +21,19 @@
   },
   "languages": {
     "eyebrow": "Plus de 60 langues",
-    "title": "Des sous-titres dans la langue parlée",
     "subtitle": "Sous-titres en direct, traduction et transcription dans chacune d’elles, même quand quelqu’un change de langue en pleine phrase."
+  },
+  "useCases": {
+    "eyebrow": "Cas d’usage",
+    "title": "Des sous-titres partout où l’on parle",
+    "items": [
+      { "label": "Réunions", "description": "On parle vite et on se coupe la parole. Captio AI sous-titre chaque intervenant en temps réel, chacun avec son étiquette, et enregistre la réunion sous forme de transcription." },
+      { "label": "Cours et formations", "description": "De longues séances pleines de termes nouveaux. Chaque mot s’affiche en direct, et toute la séance peut être enregistrée avec un résumé IA." },
+      { "label": "Rendez-vous", "description": "Rendez-vous médicaux, juridiques ou de conseil, où chaque détail compte. Chaque mot s’affiche à l’écran dès qu’il est prononcé, pour que rien ne soit mal compris." },
+      { "label": "Entretiens", "description": "Entretiens d’embauche et échanges en tête-à-tête. Chaque question s’affiche à l’écran dès qu’elle est posée." },
+      { "label": "Conversations de groupe", "description": "Ateliers, déjeuners d’équipe, pauses. Captio AI suit plusieurs personnes à la fois et montre qui a dit quoi." },
+      { "label": "Conférences et événements", "description": "Un intervenant sur l’estrade d’une grande salle. Les sous-titres s’affichent sur le téléphone, dans le public, sans vélotypiste à réserver." }
+    ]
   },
   "awareness": {
     "eyebrow": "Conçu pour les personnes sourdes et malentendantes",
@@ -53,6 +65,7 @@
     ]
   },
   "form": {
+    "intro": "Gratuit pendant 30 jours, jusqu’à 5 personnes. Ensuite, {price} par personne et par an, sur facture.",
     "organization": "Organisation",
     "name": "Votre nom",
     "email": "Votre e-mail professionnel",
@@ -61,7 +74,7 @@
     "peopleOptions": ["1 à 5", "6 à 19", "20 à 50", "Plus de 50"],
     "submit": "Recevoir le lien du pilote",
     "sending": "Envoi en cours…",
-    "note": "Gratuit pendant 30 jours, jusqu’à 5 personnes. Rien à payer, rien à signer.",
+    "note": "Rien à payer, rien à signer.",
     "sentTitle": "Consultez votre boîte de réception",
     "sentTo": "Votre lien de pilote est en route vers {email}, avec un message à transférer aux personnes qui l’utiliseront.",
     "resentTo": "Nous avons renvoyé votre lien de pilote à {email}, avec un message à transférer aux personnes qui l’utiliseront.",

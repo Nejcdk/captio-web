@@ -6,7 +6,8 @@
   "header": {
     "forOrganizations": "szervezeteknek",
     "startPilot": "Kipróbálom ingyen",
-    "chooseLanguage": "Nyelv kiválasztása"
+    "chooseLanguage": "Nyelv kiválasztása",
+    "dataProtection": "Adatvédelem"
   },
   "hero": {
     "title": "[Élő feliratos] alkalmazás siketeknek és nagyothallóknak"
@@ -20,8 +21,19 @@
   },
   "languages": {
     "eyebrow": "Több mint 60 nyelv",
-    "title": "Felirat azon a nyelven, amelyen éppen beszélnek",
     "subtitle": "Élő felirat, fordítás és átírás mindegyiken, akkor is, ha valaki mondat közben vált nyelvet."
+  },
+  "useCases": {
+    "eyebrow": "Felhasználási területek",
+    "title": "Felirat mindenhol, ahol beszélnek",
+    "items": [
+      { "label": "Megbeszélések", "description": "Az emberek gyorsan beszélnek, és egymás szavába vágnak. A Captio AI valós időben feliratozza az összes beszélőt, mindegyiket saját jelöléssel, és a megbeszélést átiratként menti el." },
+      { "label": "Előadások és képzések", "description": "Hosszú alkalmak, tele új szakkifejezésekkel. Minden szó élőben jelenik meg, az egész alkalom pedig MI-összefoglalóval együtt elmenthető." },
+      { "label": "Konzultációk", "description": "Orvosnál, ügyvédnél vagy tanácsadónál, ahol minden részlet számít. Minden szó a képernyőn van, amint elhangzik, így semmit sem lehet félrehallani." },
+      { "label": "Interjúk", "description": "Állásinterjúk és négyszemközti beszélgetések. Minden kérdés abban a pillanatban megjelenik a képernyőn, ahogy elhangzik." },
+      { "label": "Csoportos beszélgetések", "description": "Workshopok, közös csapatebédek, szünetek. A Captio AI egyszerre több embert is követ, és megmutatja, ki mit mondott." },
+      { "label": "Konferenciák és rendezvények", "description": "Egy előadó egy nagy terem színpadán. A felirat a telefonon jelenik meg, a közönség soraiban, írótolmács foglalása nélkül." }
+    ]
   },
   "awareness": {
     "eyebrow": "Siketeknek és nagyothallóknak készült",
@@ -53,6 +65,7 @@
     ]
   },
   "form": {
+    "intro": "30 napig ingyenes, legfeljebb 5 főnek. Utána {price} személyenként évente, számlára.",
     "organization": "Szervezet",
     "name": "Az Ön neve",
     "email": "Munkahelyi e-mail-címe",
@@ -61,7 +74,7 @@
     "peopleOptions": ["1–5 fő", "6–19 fő", "20–50 fő", "Több mint 50 fő"],
     "submit": "Kérem a próbaidőszak linkjét",
     "sending": "Küldés…",
-    "note": "30 napig ingyenes, legfeljebb 5 főnek. Nincs mit fizetni, nincs mit aláírni.",
+    "note": "Nincs mit fizetni, nincs mit aláírni.",
     "sentTitle": "Nézze meg a postafiókját",
     "sentTo": "A próbaidőszak linkje úton van ide: {email}, egy üzenettel együtt, amelyet továbbküldhet azoknak, akik használni fogják.",
     "resentTo": "Újra elküldtük a próbaidőszak linkjét ide: {email}, egy üzenettel együtt, amelyet továbbküldhet azoknak, akik használni fogják.",

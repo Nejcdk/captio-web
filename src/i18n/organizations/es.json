@@ -6,7 +6,8 @@
   "header": {
     "forOrganizations": "para organizaciones",
     "startPilot": "Prueba piloto gratis",
-    "chooseLanguage": "Elegir idioma"
+    "chooseLanguage": "Elegir idioma",
+    "dataProtection": "Protección de datos"
   },
   "hero": {
     "title": "Aplicación de [subtítulos en vivo] para personas sordas y con pérdida auditiva"
@@ -20,8 +21,19 @@
   },
   "languages": {
     "eyebrow": "Más de 60 idiomas",
-    "title": "Subtítulos en el idioma que se habla",
     "subtitle": "Subtítulos en vivo, traducción y transcripción en todos ellos, también para quien cambia de idioma a mitad de frase."
+  },
+  "useCases": {
+    "eyebrow": "Casos de uso",
+    "title": "Subtítulos dondequiera que se hable",
+    "items": [
+      { "label": "Reuniones", "description": "La gente habla deprisa y a la vez. Captio AI subtitula a cada hablante al instante, con una etiqueta para cada uno, y guarda la reunión como transcripción." },
+      { "label": "Clases y formación", "description": "Sesiones largas llenas de términos nuevos. Cada palabra aparece en vivo, y toda la sesión puede guardarse con un resumen hecho con IA." },
+      { "label": "Citas", "description": "Citas médicas, legales o de asesoramiento en las que cuenta cada detalle. Cada palabra aparece en pantalla en cuanto se dice, para que nada se entienda mal." },
+      { "label": "Entrevistas", "description": "Entrevistas de trabajo y conversaciones individuales. Cada pregunta aparece en pantalla en el momento en que se hace." },
+      { "label": "Conversaciones en grupo", "description": "Talleres, comidas de equipo, pausas. Captio AI sigue a varias personas a la vez y muestra quién dijo qué." },
+      { "label": "Conferencias y eventos", "description": "Una persona habla al frente de una sala grande. Los subtítulos aparecen en el teléfono, entre el público, sin tener que reservar un servicio de subtitulado." }
+    ]
   },
   "awareness": {
     "eyebrow": "Pensado para personas sordas y con pérdida auditiva",
@@ -53,6 +65,7 @@
     ]
   },
   "form": {
+    "intro": "Gratis durante 30 días, hasta 5 personas. Después, {price} por persona y año, por factura.",
     "organization": "Organización",
     "name": "Su nombre",
     "email": "Su correo electrónico de trabajo",
@@ -61,7 +74,7 @@
     "peopleOptions": ["De 1 a 5", "De 6 a 19", "De 20 a 50", "Más de 50"],
     "submit": "Enviarme el enlace de la prueba piloto",
     "sending": "Enviando…",
-    "note": "Gratis durante 30 días, hasta 5 personas. Nada que pagar, nada que firmar.",
+    "note": "Nada que pagar, nada que firmar.",
     "sentTitle": "Revise su bandeja de entrada",
     "sentTo": "Su enlace de la prueba piloto va de camino a {email}, con un mensaje que puede reenviar a las personas que lo usarán.",
     "resentTo": "Le hemos vuelto a enviar el enlace de la prueba piloto a {email}, con un mensaje que puede reenviar a las personas que lo usarán.",

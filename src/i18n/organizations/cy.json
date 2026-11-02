@@ -6,7 +6,8 @@
   "header": {
     "forOrganizations": "i Sefydliadau",
     "startPilot": "Dechreuwch dreial am ddim",
-    "chooseLanguage": "Dewiswch iaith"
+    "chooseLanguage": "Dewiswch iaith",
+    "dataProtection": "Diogelu data"
   },
   "hero": {
     "title": "Ap [capsiynau byw] i bobl fyddar a thrwm eu clyw"
@@ -20,8 +21,19 @@
   },
   "languages": {
     "eyebrow": "60+ iaith",
-    "title": "Capsiynau yn yr iaith sy’n cael ei siarad",
     "subtitle": "Capsiynau byw, cyfieithu a thrawsgrifio ym mhob un ohonyn nhw, gan gynnwys pobl sy’n newid iaith ar ganol brawddeg."
+  },
+  "useCases": {
+    "eyebrow": "Ble i’w ddefnyddio",
+    "title": "Capsiynau lle bynnag mae pobl yn siarad",
+    "items": [
+      { "label": "Cyfarfodydd", "description": "Mae pobl yn siarad yn gyflym ac ar draws ei gilydd. Mae Captio AI yn rhoi capsiynau i bob siaradwr wrth iddyn nhw siarad, gyda label i bob un, ac yn cadw’r cyfarfod fel trawsgrifiad." },
+      { "label": "Darlithoedd a hyfforddiant", "description": "Sesiynau hir yn llawn termau newydd. Mae pob gair yn ymddangos yn fyw, a gellir cadw’r sesiwn gyfan gyda chrynodeb AI." },
+      { "label": "Apwyntiadau", "description": "Apwyntiadau meddygol, cyfreithiol neu gynghori lle mae pob manylyn yn bwysig. Mae pob gair ar y sgrin wrth iddo gael ei ddweud, felly does dim byd yn cael ei gamglywed." },
+      { "label": "Cyfweliadau", "description": "Cyfweliadau swydd a sgyrsiau un i un. Mae pob cwestiwn ar y sgrin yr eiliad mae’n cael ei ofyn." },
+      { "label": "Sgyrsiau grŵp", "description": "Gweithdai, ciniawau tîm, egwyliau. Mae Captio AI yn dilyn sawl person ar unwaith ac yn dangos pwy ddywedodd beth." },
+      { "label": "Cynadleddau a digwyddiadau", "description": "Siaradwr ym mlaen ystafell fawr. Mae’r capsiynau’n ymddangos ar y ffôn, yn y gynulleidfa, heb fod angen archebu rhywun i ddarparu capsiynau." }
+    ]
   },
   "awareness": {
     "eyebrow": "Wedi’i wneud i bobl fyddar a thrwm eu clyw",
@@ -53,6 +65,7 @@
     ]
   },
   "form": {
+    "intro": "Am ddim am 30 diwrnod, hyd at 5 o bobl. Ar ôl hynny, {price} y person y flwyddyn, drwy anfoneb.",
     "organization": "Sefydliad",
     "name": "Eich enw",
     "email": "Eich e-bost gwaith",
@@ -61,7 +74,7 @@
     "peopleOptions": ["1 i 5", "6 i 19", "20 i 50", "Mwy na 50"],
     "submit": "Anfonwch y ddolen treial ata i",
     "sending": "Wrthi’n anfon…",
-    "note": "Am ddim am 30 diwrnod, hyd at 5 o bobl. Dim byd i’w dalu, dim byd i’w lofnodi.",
+    "note": "Dim byd i’w dalu, dim byd i’w lofnodi.",
     "sentTitle": "Edrychwch yn eich mewnflwch",
     "sentTo": "Mae eich dolen treial ar ei ffordd i {email}, gyda neges y gallwch ei hanfon ymlaen at y bobl a fydd yn ei ddefnyddio.",
     "resentTo": "Rydyn ni wedi anfon eich dolen treial eto i {email}, gyda neges y gallwch ei hanfon ymlaen at y bobl a fydd yn ei ddefnyddio.",

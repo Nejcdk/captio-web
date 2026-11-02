@@ -6,7 +6,8 @@
   "header": {
     "forOrganizations": "voor organisaties",
     "startPilot": "Start een gratis pilot",
-    "chooseLanguage": "Kies een taal"
+    "chooseLanguage": "Kies een taal",
+    "dataProtection": "Privacy"
   },
   "hero": {
     "title": "App met [live ondertiteling] voor doven en slechthorenden"
@@ -20,8 +21,19 @@
   },
   "languages": {
     "eyebrow": "60+ talen",
-    "title": "Ondertiteling in de taal die gesproken wordt",
     "subtitle": "Live ondertiteling, vertaling en transcriptie in elk van die talen, ook voor wie midden in een zin van taal wisselt."
+  },
+  "useCases": {
+    "eyebrow": "Toepassingen",
+    "title": "Ondertiteling overal waar mensen praten",
+    "items": [
+      { "label": "Vergaderingen", "description": "Mensen praten snel en door elkaar. Captio AI ondertitelt elke spreker terwijl die praat, met een label per spreker, en slaat de vergadering op als transcript." },
+      { "label": "Colleges en trainingen", "description": "Lange sessies vol nieuwe termen. Elk woord verschijnt live, en de hele sessie kan worden opgeslagen met een AI-samenvatting." },
+      { "label": "Afspraken", "description": "Afspraken bij de arts, advocaat of adviseur, waar elk detail telt. Elk woord staat op het scherm zodra het gezegd wordt, zodat niets verkeerd wordt verstaan." },
+      { "label": "Sollicitatiegesprekken", "description": "Sollicitaties en één-op-ééngesprekken. Elke vraag staat op het scherm zodra die gesteld wordt." },
+      { "label": "Groepsgesprekken", "description": "Workshops, teamlunches, pauzes. Captio AI volgt meerdere mensen tegelijk en laat zien wie wat zei." },
+      { "label": "Congressen en evenementen", "description": "Een spreker voorin een grote zaal. De ondertiteling verschijnt op de telefoon, in het publiek, zonder dat er een schrijftolk geboekt hoeft te worden." }
+    ]
   },
   "awareness": {
     "eyebrow": "Gemaakt voor doven en slechthorenden",
@@ -53,6 +65,7 @@
     ]
   },
   "form": {
+    "intro": "30 dagen gratis, voor maximaal 5 personen. Daarna {price} per persoon per jaar, op factuur.",
     "organization": "Organisatie",
     "name": "Uw naam",
     "email": "Uw zakelijke e-mailadres",
@@ -61,7 +74,7 @@
     "peopleOptions": ["1 tot 5", "6 tot 19", "20 tot 50", "Meer dan 50"],
     "submit": "Stuur mij de pilotlink",
     "sending": "Versturen…",
-    "note": "30 dagen gratis, voor maximaal 5 personen. Niets te betalen, niets te tekenen.",
+    "note": "Niets te betalen, niets te tekenen.",
     "sentTitle": "Kijk in uw inbox",
     "sentTo": "Uw pilotlink is onderweg naar {email}, met een bericht dat u kunt doorsturen naar de mensen die de app gaan gebruiken.",
     "resentTo": "We hebben uw pilotlink opnieuw naar {email} gestuurd, met een bericht dat u kunt doorsturen naar de mensen die de app gaan gebruiken.",

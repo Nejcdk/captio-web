@@ -6,7 +6,8 @@
   "header": {
     "forOrganizations": "untuk Organisasi",
     "startPilot": "Mulakan percubaan percuma",
-    "chooseLanguage": "Pilih bahasa"
+    "chooseLanguage": "Pilih bahasa",
+    "dataProtection": "Perlindungan data"
   },
   "hero": {
     "title": "Aplikasi [sari kata langsung] untuk orang Pekak dan kurang pendengaran"
@@ -20,8 +21,19 @@
   },
   "languages": {
     "eyebrow": "60+ bahasa",
-    "title": "Sari kata dalam bahasa yang sedang dituturkan",
     "subtitle": "Sari kata langsung, terjemahan dan transkripsi dalam setiap bahasa itu, termasuk bagi orang yang bertukar bahasa di tengah-tengah ayat."
+  },
+  "useCases": {
+    "eyebrow": "Kegunaan",
+    "title": "Sari kata di mana sahaja orang bercakap",
+    "items": [
+      { "label": "Mesyuarat", "description": "Orang bercakap dengan pantas dan saling mencelah. Captio AI memaparkan sari kata bagi setiap penutur semasa mereka bercakap, dengan label untuk setiap seorang, dan menyimpan mesyuarat sebagai transkrip." },
+      { "label": "Kuliah dan latihan", "description": "Sesi panjang yang penuh dengan istilah baharu. Setiap perkataan dipaparkan serta-merta, dan keseluruhan sesi boleh disimpan bersama ringkasan AI." },
+      { "label": "Temu janji", "description": "Temu janji perubatan, guaman atau khidmat nasihat, yang setiap butirannya penting. Setiap perkataan terpapar di skrin sebaik sahaja ia diucapkan, jadi tiada apa-apa yang tersalah dengar." },
+      { "label": "Temu duga", "description": "Temu duga kerja dan perbualan empat mata. Setiap soalan terpapar di skrin sebaik sahaja ia ditanya." },
+      { "label": "Perbualan berkumpulan", "description": "Bengkel, makan tengah hari bersama pasukan, waktu rehat. Captio AI mengikuti beberapa orang serentak dan menunjukkan siapa berkata apa." },
+      { "label": "Persidangan dan acara", "description": "Seorang penceramah di hadapan dewan besar. Sari kata terpapar di telefon, dalam kalangan hadirin, tanpa perlu menempah penyedia sari kata." }
+    ]
   },
   "awareness": {
     "eyebrow": "Dibuat untuk orang Pekak dan kurang pendengaran",
@@ -53,6 +65,7 @@
     ]
   },
   "form": {
+    "intro": "Percuma selama 30 hari, untuk sehingga 5 orang. Selepas itu, {price} seorang setahun, melalui invois.",
     "organization": "Organisasi",
     "name": "Nama anda",
     "email": "E-mel kerja anda",
@@ -61,7 +74,7 @@
     "peopleOptions": ["1 hingga 5", "6 hingga 19", "20 hingga 50", "Lebih daripada 50"],
     "submit": "Hantar pautan percubaan kepada saya",
     "sending": "Menghantar…",
-    "note": "Percuma selama 30 hari, untuk sehingga 5 orang. Tiada bayaran, tiada apa-apa untuk ditandatangani.",
+    "note": "Tiada bayaran, tiada apa-apa untuk ditandatangani.",
     "sentTitle": "Semak peti masuk anda",
     "sentTo": "Pautan percubaan anda sedang dihantar ke {email}, bersama mesej yang boleh anda majukan kepada orang yang akan menggunakannya.",
     "resentTo": "Kami telah menghantar semula pautan percubaan anda ke {email}, bersama mesej yang boleh anda majukan kepada orang yang akan menggunakannya.",

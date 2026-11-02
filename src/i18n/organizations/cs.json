@@ -6,7 +6,8 @@
   "header": {
     "forOrganizations": "pro organizace",
     "startPilot": "Spustit pilot zdarma",
-    "chooseLanguage": "Vyberte jazyk"
+    "chooseLanguage": "Vyberte jazyk",
+    "dataProtection": "Ochrana dat"
   },
   "hero": {
     "title": "Aplikace s [živými titulky] pro neslyšící a nedoslýchavé"
@@ -20,8 +21,19 @@
   },
   "languages": {
     "eyebrow": "60+ jazyků",
-    "title": "Titulky v jazyce, kterým se právě mluví",
     "subtitle": "Živé titulky, překlad i přepis v každém z nich, i když někdo přejde do jiného jazyka uprostřed věty."
+  },
+  "useCases": {
+    "eyebrow": "Využití",
+    "title": "Titulky všude, kde se mluví",
+    "items": [
+      { "label": "Porady", "description": "Lidé mluví rychle a skáčou si do řeči. Captio AI titulkuje každého mluvčího v reálném čase, každého s vlastním označením, a poradu uloží jako přepis." },
+      { "label": "Přednášky a školení", "description": "Dlouhá setkání plná nových pojmů. Každé slovo se zobrazí živě a celé setkání lze uložit i s AI shrnutím." },
+      { "label": "Návštěvy a konzultace", "description": "U lékaře, právníka nebo v poradně, kde záleží na každém detailu. Každé slovo je na obrazovce, jakmile zazní, takže se nic nepřeslechne." },
+      { "label": "Pohovory", "description": "Pracovní pohovory a rozhovory mezi čtyřma očima. Každá otázka je na obrazovce ve chvíli, kdy zazní." },
+      { "label": "Skupinové rozhovory", "description": "Workshopy, společné obědy, přestávky. Captio AI sleduje několik lidí najednou a ukazuje, kdo co řekl." },
+      { "label": "Konference a akce", "description": "Řečník vepředu ve velkém sále. Titulky se zobrazí v telefonu, přímo v publiku, bez objednávání přepisovatele." }
+    ]
   },
   "awareness": {
     "eyebrow": "Pro neslyšící a nedoslýchavé",
@@ -53,6 +65,7 @@
     ]
   },
   "form": {
+    "intro": "Zdarma na 30 dní, až pro 5 lidí. Poté {price} na osobu a rok, na fakturu.",
     "organization": "Organizace",
     "name": "Vaše jméno",
     "email": "Váš pracovní e-mail",
@@ -61,7 +74,7 @@
     "peopleOptions": ["1 až 5", "6 až 19", "20 až 50", "Víc než 50"],
     "submit": "Pošlete mi odkaz na pilot",
     "sending": "Odesílání…",
-    "note": "Zdarma na 30 dní, až pro 5 lidí. Nic neplatíte, nic nepodepisujete.",
+    "note": "Nic neplatíte, nic nepodepisujete.",
     "sentTitle": "Podívejte se do schránky",
     "sentTo": "Odkaz na pilot je na cestě na adresu {email}, i se zprávou, kterou můžete přeposlat lidem, kteří budou aplikaci používat.",
     "resentTo": "Odkaz na pilot jsme znovu poslali na adresu {email}, i se zprávou, kterou můžete přeposlat lidem, kteří budou aplikaci používat.",

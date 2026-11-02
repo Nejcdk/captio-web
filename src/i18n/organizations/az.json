@@ -6,7 +6,8 @@
   "header": {
     "forOrganizations": "təşkilatlar üçün",
     "startPilot": "Pulsuz pilotu başladın",
-    "chooseLanguage": "Dili seçin"
+    "chooseLanguage": "Dili seçin",
+    "dataProtection": "Məlumatların qorunması"
   },
   "hero": {
     "title": "Kar və zəif eşidən insanlar üçün [canlı subtitr] tətbiqi"
@@ -20,8 +21,19 @@
   },
   "languages": {
     "eyebrow": "60+ dil",
-    "title": "Danışılan dildə subtitrlər",
     "subtitle": "Onların hər birində canlı subtitr, tərcümə və transkripsiya, cümlənin ortasında dili dəyişən insanlar üçün də."
+  },
+  "useCases": {
+    "eyebrow": "İstifadə halları",
+    "title": "İnsanların danışdığı hər yerdə subtitrlər",
+    "items": [
+      { "label": "İclaslar", "description": "İnsanlar sürətlə və bir-birinin sözünü kəsərək danışır. Captio AI hər danışanın sözlərini danışdığı anda subtitr kimi göstərir, hər birini ayrıca etiketlə qeyd edir və iclası transkripsiya kimi saxlayır." },
+      { "label": "Mühazirələr və təlimlər", "description": "Yeni terminlərlə dolu uzun məşğələlər. Hər söz dərhal görünür, bütün məşğələni isə süni intellekt xülasəsi ilə birlikdə saxlamaq olar." },
+      { "label": "Qəbullar və məsləhətlər", "description": "Hər detalın vacib olduğu tibbi, hüquqi və ya məsləhət qəbulları. Hər söz deyildiyi anda ekranda görünür, ona görə də heç nə səhv başa düşülmür." },
+      { "label": "Müsahibələr", "description": "İş müsahibələri və təkbətək söhbətlər. Hər sual verildiyi anda ekranda görünür." },
+      { "label": "Qrup söhbətləri", "description": "Seminarlar, komanda naharları, fasilələr. Captio AI eyni anda bir neçə nəfəri izləyir və kimin nə dediyini göstərir." },
+      { "label": "Konfranslar və tədbirlər", "description": "Böyük zalın səhnəsində çıxış edən məruzəçi. Subtitrlər telefonda, elə dinləyicilərin arasında görünür, subtitr mütəxəssisi sifariş etməyə ehtiyac yoxdur." }
+    ]
   },
   "awareness": {
     "eyebrow": "Kar və zəif eşidən insanlar üçün yaradılıb",
@@ -53,6 +65,7 @@
     ]
   },
   "form": {
+    "intro": "30 gün pulsuz, 5 nəfərə qədər. Sonra hər nəfər üçün ildə {price}, hesab-faktura ilə.",
     "organization": "Təşkilat",
     "name": "Adınız",
     "email": "İş e-poçtunuz",
@@ -61,7 +74,7 @@
     "peopleOptions": ["1–5 nəfər", "6–19 nəfər", "20–50 nəfər", "50-dən çox"],
     "submit": "Pilot linkini mənə göndərin",
     "sending": "Göndərilir…",
-    "note": "30 gün pulsuz, 5 nəfərə qədər. Heç nə ödəmək və imzalamaq lazım deyil.",
+    "note": "Heç nə ödəmək və imzalamaq lazım deyil.",
     "sentTitle": "Poçt qutunuzu yoxlayın",
     "sentTo": "Pilot linkiniz {email} ünvanına göndərildi, istifadə edəcək insanlara yönləndirə biləcəyiniz mesajla birlikdə.",
     "resentTo": "Pilot linkinizi {email} ünvanına yenidən göndərdik, istifadə edəcək insanlara yönləndirə biləcəyiniz mesajla birlikdə.",
