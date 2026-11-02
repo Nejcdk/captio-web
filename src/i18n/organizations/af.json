@@ -12,13 +12,10 @@
     "title": "[Regstreekse onderskrifte]-app vir dowe en hardhorende mense"
   },
   "features": {
-    "eyebrow": "Wat Captio AI doen",
-    "title": "Regstreekse onderskrifte, vertaling en transkripsie",
-    "subtitle": "Drie hulpmiddels in een app, op iPhone en Android, in 60+ tale.",
     "items": [
-      { "label": "Regstreekse onderskrifte", "title": "Elke woord, soos dit gesê word", "description": "Maak die app oop, tik op die mikrofoon en lees saam. Elke spreker kry ’n eie etiket, so dit is duidelik wie wat gesê het." },
-      { "label": "Regstreekse vertaling", "title": "Albei tale langs mekaar", "description": "Wanneer iemand ’n ander taal praat, wys die app gelyktydig wat gesê is en die vertaling daarvan." },
-      { "label": "Transkripsie", "title": "Opnames en lêers na teks", "description": "Stoor enige gesprek, of voeg ’n oudio- of videolêer by, en kry die volledige transkripsie met ’n KI-opsomming." }
+      { "label": "Regstreekse onderskrifte" },
+      { "label": "Regstreekse vertaling" },
+      { "label": "Transkripsie" }
     ]
   },
   "languages": {

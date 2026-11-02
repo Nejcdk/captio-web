@@ -12,13 +12,10 @@
     "title": "App di [sottotitoli live] per persone sorde e ipoudenti"
   },
   "features": {
-    "eyebrow": "Cosa fa Captio AI",
-    "title": "Sottotitoli live, traduzione e trascrizione",
-    "subtitle": "Tre strumenti in un’unica app, su iPhone e Android, in oltre 60 lingue.",
     "items": [
-      { "label": "Sottotitoli live", "title": "Ogni parola, mentre viene detta", "description": "Si apre l’app, si tocca il microfono e si legge. Ogni voce ha la sua etichetta, così è chiaro chi ha detto cosa." },
-      { "label": "Traduzione live", "title": "Le due lingue fianco a fianco", "description": "Quando qualcuno parla un’altra lingua, l’app mostra insieme ciò che ha detto e la traduzione." },
-      { "label": "Trascrizione", "title": "Registrazioni e file in testo", "description": "Si salva qualsiasi conversazione, o si aggiunge un file audio o video, e si ottiene la trascrizione completa con un riassunto IA." }
+      { "label": "Sottotitoli live" },
+      { "label": "Traduzione live" },
+      { "label": "Trascrizione" }
     ]
   },
   "languages": {

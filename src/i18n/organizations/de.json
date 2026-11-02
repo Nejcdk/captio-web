@@ -12,13 +12,10 @@
     "title": "Die [Live-Untertitel]-App für gehörlose und schwerhörige Menschen"
   },
   "features": {
-    "eyebrow": "Was Captio AI kann",
-    "title": "Live-Untertitel, Übersetzung und Transkription",
-    "subtitle": "Drei Funktionen in einer App, auf iPhone und Android, in 60+ Sprachen.",
     "items": [
-      { "label": "Live-Untertitel", "title": "Jedes Wort, während es gesagt wird", "description": "App öffnen, auf das Mikrofon tippen und mitlesen. Jeder Sprecher wird eigens markiert, so ist immer klar, wer was gesagt hat." },
-      { "label": "Live-Übersetzung", "title": "Beide Sprachen nebeneinander", "description": "Spricht jemand eine andere Sprache, zeigt die App das Gesagte und die Übersetzung gleichzeitig." },
-      { "label": "Transkription", "title": "Aufnahmen und Dateien als Text", "description": "Gespräche speichern oder eine Audio- oder Videodatei hinzufügen und das vollständige Transkript mit KI-Zusammenfassung erhalten." }
+      { "label": "Live-Untertitel" },
+      { "label": "Live-Übersetzung" },
+      { "label": "Transkription" }
     ]
   },
   "languages": {

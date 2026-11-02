@@ -12,13 +12,10 @@
     "title": "Aplikacija sa [titlovima uživo] za gluve i nagluve osobe"
   },
   "features": {
-    "eyebrow": "Šta radi Captio AI",
-    "title": "Titlovi uživo, prevod i transkripcija",
-    "subtitle": "Tri alata u jednoj aplikaciji, na iPhone i Android telefonima, na više od 60 jezika.",
     "items": [
-      { "label": "Titlovi uživo", "title": "Svaka reč, čim je izgovorena", "description": "Otvorite aplikaciju, dodirnite mikrofon i čitajte. Svaki govornik dobija svoju oznaku, pa je jasno ko je šta rekao." },
-      { "label": "Prevod uživo", "title": "Oba jezika jedan pored drugog", "description": "Kad neko govori drugim jezikom, aplikacija istovremeno prikazuje izgovoreno i prevod." },
-      { "label": "Transkripcija", "title": "Snimci i fajlovi u tekst", "description": "Sačuvajte bilo koji razgovor ili dodajte audio ili video fajl i dobijte ceo transkript sa AI rezimeom." }
+      { "label": "Titlovi uživo" },
+      { "label": "Prevod uživo" },
+      { "label": "Transkripcija" }
     ]
   },
   "languages": {

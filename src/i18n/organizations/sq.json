@@ -12,13 +12,10 @@
     "title": "Aplikacion me [titra live] për persona të shurdhër dhe me vështirësi në dëgjim"
   },
   "features": {
-    "eyebrow": "Çfarë bën Captio AI",
-    "title": "Titra live, përkthim dhe transkriptim",
-    "subtitle": "Tre mjete në një aplikacion, në iPhone dhe Android, në mbi 60 gjuhë.",
     "items": [
-      { "label": "Titra live", "title": "Çdo fjalë, sapo thuhet", "description": "Hapni aplikacionin, prekni mikrofonin dhe lexoni. Çdo folës merr etiketën e vet, kështu që është e qartë kush çfarë tha." },
-      { "label": "Përkthim live", "title": "Të dyja gjuhët krah për krah", "description": "Kur dikush flet në një gjuhë tjetër, aplikacioni shfaq njëkohësisht atë që tha dhe përkthimin." },
-      { "label": "Transkriptim", "title": "Regjistrime dhe skedarë në tekst", "description": "Ruani çdo bisedë ose shtoni një skedar audio a video dhe merrni transkriptin e plotë me një përmbledhje me AI." }
+      { "label": "Titra live" },
+      { "label": "Përkthim live" },
+      { "label": "Transkriptim" }
     ]
   },
   "languages": {

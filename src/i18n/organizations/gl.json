@@ -12,13 +12,10 @@
     "title": "Aplicación de [subtítulos en directo] para persoas xordas e con perda auditiva"
   },
   "features": {
-    "eyebrow": "Que fai Captio AI",
-    "title": "Subtítulos en directo, tradución e transcrición",
-    "subtitle": "Tres ferramentas nunha soa aplicación, en iPhone e Android, en 60+ idiomas.",
     "items": [
-      { "label": "Subtítulos en directo", "title": "Cada palabra, segundo se di", "description": "Abra a aplicación, toque o micrófono e lea. Cada falante ten a súa etiqueta, así que queda claro quen dixo que." },
-      { "label": "Tradución en directo", "title": "Os dous idiomas, un ao lado do outro", "description": "Cando alguén fala outro idioma, a aplicación mostra á vez o que dixo e a súa tradución." },
-      { "label": "Transcrición", "title": "Gravacións e ficheiros a texto", "description": "Garde calquera conversa ou engada un ficheiro de audio ou vídeo e obteña a transcrición completa cun resumo feito con IA." }
+      { "label": "Subtítulos en directo" },
+      { "label": "Tradución en directo" },
+      { "label": "Transcrición" }
     ]
   },
   "languages": {

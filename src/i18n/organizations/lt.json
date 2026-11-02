@@ -12,13 +12,10 @@
     "title": "[Tiesioginių subtitrų] programėlė kurtiesiems ir neprigirdintiesiems"
   },
   "features": {
-    "eyebrow": "Ką daro Captio AI",
-    "title": "Tiesioginiai subtitrai, vertimas ir transkripcija",
-    "subtitle": "Trys įrankiai vienoje programėlėje, iPhone ir Android telefonuose, 60+ kalbų.",
     "items": [
-      { "label": "Tiesioginiai subtitrai", "title": "Kiekvienas žodis, vos tik ištartas", "description": "Atidarykite programėlę, palieskite mikrofoną ir skaitykite. Kiekvienas kalbėtojas pažymimas atskirai, todėl aišku, kas ką pasakė." },
-      { "label": "Tiesioginis vertimas", "title": "Abi kalbos greta", "description": "Kai kas nors kalba kita kalba, programėlė tuo pačiu metu rodo ir tai, kas pasakyta, ir vertimą." },
-      { "label": "Transkripcija", "title": "Įrašai ir failai – tekstu", "description": "Išsaugokite bet kurį pokalbį arba įkelkite garso ar vaizdo failą ir gaukite visą transkripciją su DI santrauka." }
+      { "label": "Tiesioginiai subtitrai" },
+      { "label": "Tiesioginis vertimas" },
+      { "label": "Transkripcija" }
     ]
   },
   "languages": {

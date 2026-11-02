@@ -12,13 +12,10 @@
     "title": "[Live captions] app for deaf and hard of hearing people"
   },
   "features": {
-    "eyebrow": "What Captio AI does",
-    "title": "Live captions, translation and transcription",
-    "subtitle": "Three tools in one app, on iPhone and Android, in 60+ languages.",
     "items": [
-      { "label": "Live captions", "title": "Every word, as it's said", "description": "Open the app, tap the microphone and read along. Each speaker gets their own label, so it's clear who said what." },
-      { "label": "Live translation", "title": "Both languages side by side", "description": "When someone speaks another language, the app shows what they said and its translation at the same time." },
-      { "label": "Transcription", "title": "Recordings and files to text", "description": "Save any conversation, or add an audio or video file, and get the full transcript with an AI summary." }
+      { "label": "Live captions" },
+      { "label": "Live translation" },
+      { "label": "Transcription" }
     ]
   },
   "languages": {

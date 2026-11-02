@@ -12,13 +12,10 @@
     "title": "Aplikacija s [podnapisi v živo] za gluhe in naglušne"
   },
   "features": {
-    "eyebrow": "Kaj zna Captio AI",
-    "title": "Podnapisi v živo, prevod in prepis",
-    "subtitle": "Tri orodja v eni aplikaciji, na iPhonu in Androidu, v več kot 60 jezikih.",
     "items": [
-      { "label": "Podnapisi v živo", "title": "Vsaka beseda, takoj ko je izrečena", "description": "Odprite aplikacijo, tapnite mikrofon in berite. Vsak govorec dobi svojo oznako, zato je jasno, kdo je kaj rekel." },
-      { "label": "Prevod v živo", "title": "Oba jezika drug ob drugem", "description": "Ko nekdo govori v drugem jeziku, aplikacija hkrati pokaže povedano in prevod." },
-      { "label": "Prepis", "title": "Posnetki in datoteke v besedilo", "description": "Shranite kateri koli pogovor ali dodajte zvočno ali video datoteko in dobite celoten prepis s povzetkom z UI." }
+      { "label": "Podnapisi v živo" },
+      { "label": "Prevod v živo" },
+      { "label": "Prepis" }
     ]
   },
   "languages": {

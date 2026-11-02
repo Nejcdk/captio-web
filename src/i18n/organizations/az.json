@@ -12,13 +12,10 @@
     "title": "Kar və zəif eşidən insanlar üçün [canlı subtitr] tətbiqi"
   },
   "features": {
-    "eyebrow": "Captio AI nə edir",
-    "title": "Canlı subtitr, tərcümə və transkripsiya",
-    "subtitle": "Bir tətbiqdə üç alət, iPhone və Android-də, 60+ dildə.",
     "items": [
-      { "label": "Canlı subtitr", "title": "Hər söz deyildiyi anda", "description": "Tətbiqi açın, mikrofona toxunun və oxuyun. Hər danışanın öz etiketi olur, ona görə kimin nə dediyi aydın görünür." },
-      { "label": "Canlı tərcümə", "title": "Hər iki dil yan-yana", "description": "Kimsə başqa dildə danışanda tətbiq deyilənləri və onların tərcüməsini eyni anda göstərir." },
-      { "label": "Transkripsiya", "title": "Yazılar və fayllar mətnə", "description": "İstənilən söhbəti yadda saxlayın və ya audio, yaxud video fayl əlavə edin, süni intellekt xülasəsi ilə tam transkripsiya alın." }
+      { "label": "Canlı subtitr" },
+      { "label": "Canlı tərcümə" },
+      { "label": "Transkripsiya" }
     ]
   },
   "languages": {

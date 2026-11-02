@@ -12,13 +12,10 @@
     "title": "App de [legendas ao vivo] para pessoas surdas e com perda auditiva"
   },
   "features": {
-    "eyebrow": "O que o Captio AI faz",
-    "title": "Legendas ao vivo, tradução e transcrição",
-    "subtitle": "Três ferramentas em um só app, no iPhone e no Android, em mais de 60 idiomas.",
     "items": [
-      { "label": "Legendas ao vivo", "title": "Cada palavra, no momento em que é dita", "description": "É só abrir o app, tocar no microfone e ler. Cada falante ganha sua própria etiqueta, então fica claro quem disse o quê." },
-      { "label": "Tradução ao vivo", "title": "Os dois idiomas lado a lado", "description": "Quando alguém fala outro idioma, o app mostra ao mesmo tempo o que foi dito e a tradução." },
-      { "label": "Transcrição", "title": "Gravações e arquivos em texto", "description": "É possível salvar qualquer conversa ou adicionar um arquivo de áudio ou vídeo e receber a transcrição completa com um resumo com IA." }
+      { "label": "Legendas ao vivo" },
+      { "label": "Tradução ao vivo" },
+      { "label": "Transcrição" }
     ]
   },
   "languages": {

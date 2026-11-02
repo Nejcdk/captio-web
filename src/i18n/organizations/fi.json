@@ -12,13 +12,10 @@
     "title": "[Livetekstityssovellus] kuuroille ja huonokuuloisille"
   },
   "features": {
-    "eyebrow": "Mitä Captio AI tekee",
-    "title": "Livetekstitys, käännös ja litterointi",
-    "subtitle": "Kolme työkalua yhdessä sovelluksessa, iPhonelle ja Androidille, yli 60 kielellä.",
     "items": [
-      { "label": "Livetekstitys", "title": "Jokainen sana heti, kun se sanotaan", "description": "Avaa sovellus, napauta mikrofonia ja lue mukana. Jokainen puhuja saa oman nimilapun, joten on selvää, kuka sanoi mitä." },
-      { "label": "Livekäännös", "title": "Molemmat kielet rinnakkain", "description": "Kun joku puhuu toista kieltä, sovellus näyttää samaan aikaan sekä sen, mitä sanottiin, että sen käännöksen." },
-      { "label": "Litterointi", "title": "Tallenteet ja tiedostot tekstiksi", "description": "Tallenna mikä tahansa keskustelu tai lisää ääni- tai videotiedosto, niin saat koko litteroinnin ja tekoälyn tekemän yhteenvedon." }
+      { "label": "Livetekstitys" },
+      { "label": "Livekäännös" },
+      { "label": "Litterointi" }
     ]
   },
   "languages": {

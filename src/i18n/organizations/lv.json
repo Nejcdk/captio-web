@@ -12,13 +12,10 @@
     "title": "[Tiešraides subtitru] lietotne nedzirdīgajiem un vājdzirdīgajiem"
   },
   "features": {
-    "eyebrow": "Ko dara Captio AI",
-    "title": "Tiešraides subtitri, tulkošana un transkripcija",
-    "subtitle": "Trīs rīki vienā lietotnē, iPhone un Android tālruņos, 60+ valodās.",
     "items": [
-      { "label": "Tiešraides subtitri", "title": "Katrs vārds, tiklīdz tas izteikts", "description": "Atveriet lietotni, pieskarieties mikrofonam un lasiet līdzi. Katram runātājam ir savs apzīmējums, tāpēc skaidrs, kurš ko teica." },
-      { "label": "Tiešraides tulkošana", "title": "Abas valodas blakus", "description": "Kad kāds runā citā valodā, lietotne vienlaikus rāda gan teikto, gan tā tulkojumu." },
-      { "label": "Transkripcija", "title": "Ieraksti un faili tekstā", "description": "Saglabājiet jebkuru sarunu vai pievienojiet audio vai video failu un saņemiet pilnu transkripciju ar MI kopsavilkumu." }
+      { "label": "Tiešraides subtitri" },
+      { "label": "Tiešraides tulkošana" },
+      { "label": "Transkripcija" }
     ]
   },
   "languages": {

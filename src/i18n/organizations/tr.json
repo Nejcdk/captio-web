@@ -12,13 +12,10 @@
     "title": "Sağır ve ağır işiten kişiler için [canlı altyazı] uygulaması"
   },
   "features": {
-    "eyebrow": "Captio AI neler yapar",
-    "title": "Canlı altyazı, çeviri ve döküm",
-    "subtitle": "Tek uygulamada üç araç, iPhone ve Android'de, 60+ dilde.",
     "items": [
-      { "label": "Canlı altyazı", "title": "Her kelime, söylendiği anda", "description": "Uygulamayı açın, mikrofona dokunun ve okuyun. Her konuşmacının kendi etiketi olur, böylece kimin ne dediği açıktır." },
-      { "label": "Canlı çeviri", "title": "İki dil yan yana", "description": "Biri başka bir dilde konuştuğunda uygulama, söyleneni ve çevirisini aynı anda gösterir." },
-      { "label": "Döküm", "title": "Kayıtlar ve dosyalar metne", "description": "Herhangi bir konuşmayı kaydedin ya da bir ses veya video dosyası ekleyin; yapay zekâ özetiyle birlikte tam dökümünü alın." }
+      { "label": "Canlı altyazı" },
+      { "label": "Canlı çeviri" },
+      { "label": "Döküm" }
     ]
   },
   "languages": {

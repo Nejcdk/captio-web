@@ -12,13 +12,10 @@
     "title": "App ng [live na caption] para sa mga Bingi at mahina ang pandinig"
   },
   "features": {
-    "eyebrow": "Ano ang ginagawa ng Captio AI",
-    "title": "Live na caption, pagsasalin at pag-transcribe",
-    "subtitle": "Tatlong tool sa iisang app, sa iPhone at Android, sa 60+ wika.",
     "items": [
-      { "label": "Live na caption", "title": "Bawat salita, habang sinasabi", "description": "Buksan ang app, i-tap ang mikropono at magbasa. May sariling label ang bawat nagsasalita, kaya malinaw kung sino ang nagsabi ng ano." },
-      { "label": "Live na pagsasalin", "title": "Magkatabi ang dalawang wika", "description": "Kapag may nagsalita sa ibang wika, sabay na ipinapakita ng app ang sinabi at ang salin nito." },
-      { "label": "Pag-transcribe", "title": "Mga recording at file, ginagawang text", "description": "I-save ang kahit anong usapan, o magdagdag ng audio o video file, at makuha ang buong transcript kasama ang buod gamit ang AI." }
+      { "label": "Live na caption" },
+      { "label": "Live na pagsasalin" },
+      { "label": "Pag-transcribe" }
     ]
   },
   "languages": {

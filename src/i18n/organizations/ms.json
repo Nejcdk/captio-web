@@ -12,13 +12,10 @@
     "title": "Aplikasi [sari kata langsung] untuk orang Pekak dan kurang pendengaran"
   },
   "features": {
-    "eyebrow": "Apa yang Captio AI lakukan",
-    "title": "Sari kata langsung, terjemahan dan transkripsi",
-    "subtitle": "Tiga alat dalam satu aplikasi, di iPhone dan Android, dalam 60+ bahasa.",
     "items": [
-      { "label": "Sari kata langsung", "title": "Setiap perkataan, sebaik sahaja diucapkan", "description": "Buka aplikasi, ketik mikrofon dan baca. Setiap penutur mendapat label sendiri, jadi jelas siapa yang berkata apa." },
-      { "label": "Terjemahan langsung", "title": "Dua bahasa bersebelahan", "description": "Apabila seseorang bercakap dalam bahasa lain, aplikasi memaparkan apa yang dikatakan dan terjemahannya serentak." },
-      { "label": "Transkripsi", "title": "Rakaman dan fail menjadi teks", "description": "Simpan mana-mana perbualan, atau tambah fail audio atau video, dan dapatkan transkrip penuh beserta ringkasan AI." }
+      { "label": "Sari kata langsung" },
+      { "label": "Terjemahan langsung" },
+      { "label": "Transkripsi" }
     ]
   },
   "languages": {

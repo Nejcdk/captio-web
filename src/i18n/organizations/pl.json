@@ -12,13 +12,10 @@
     "title": "Aplikacja z [napisami na żywo] dla osób głuchych i słabosłyszących"
   },
   "features": {
-    "eyebrow": "Co potrafi Captio AI",
-    "title": "Napisy na żywo, tłumaczenie i transkrypcja",
-    "subtitle": "Trzy narzędzia w jednej aplikacji, na iPhonie i Androidzie, w ponad 60 językach.",
     "items": [
-      { "label": "Napisy na żywo", "title": "Każde słowo w chwili, gdy pada", "description": "Wystarczy otworzyć aplikację, dotknąć mikrofonu i czytać. Każdy mówca ma własną etykietę, więc wiadomo, kto co powiedział." },
-      { "label": "Tłumaczenie na żywo", "title": "Oba języki obok siebie", "description": "Gdy ktoś mówi w innym języku, aplikacja pokazuje jednocześnie to, co powiedział, i tłumaczenie." },
-      { "label": "Transkrypcja", "title": "Nagrania i pliki zamienione na tekst", "description": "Można zapisać dowolną rozmowę albo dodać plik audio lub wideo i otrzymać pełną transkrypcję z podsumowaniem AI." }
+      { "label": "Napisy na żywo" },
+      { "label": "Tłumaczenie na żywo" },
+      { "label": "Transkrypcja" }
     ]
   },
   "languages": {

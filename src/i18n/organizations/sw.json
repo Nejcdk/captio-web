@@ -12,13 +12,10 @@
     "title": "Programu ya [manukuu mubashara] kwa viziwi na wasiosikia vizuri"
   },
   "features": {
-    "eyebrow": "Kile ambacho Captio AI hufanya",
-    "title": "Manukuu mubashara, tafsiri na unukuzi",
-    "subtitle": "Zana tatu katika programu moja, kwenye iPhone na Android, kwa lugha 60+.",
     "items": [
-      { "label": "Manukuu mubashara", "title": "Kila neno, linaposemwa", "description": "Fungua programu, gusa maikrofoni na usome. Kila mzungumzaji anapata lebo yake, kwa hivyo ni wazi nani alisema nini." },
-      { "label": "Tafsiri mubashara", "title": "Lugha zote mbili kando kwa kando", "description": "Mtu anapozungumza lugha nyingine, programu huonyesha alichosema na tafsiri yake kwa wakati mmoja." },
-      { "label": "Unukuzi", "title": "Rekodi na faili kuwa maandishi", "description": "Hifadhi mazungumzo yoyote, au ongeza faili ya sauti au video, upate nakala kamili pamoja na muhtasari wa AI." }
+      { "label": "Manukuu mubashara" },
+      { "label": "Tafsiri mubashara" },
+      { "label": "Unukuzi" }
     ]
   },
   "languages": {

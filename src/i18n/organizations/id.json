@@ -12,13 +12,10 @@
     "title": "Aplikasi [teks langsung] untuk orang Tuli dan kurang dengar"
   },
   "features": {
-    "eyebrow": "Apa yang dilakukan Captio AI",
-    "title": "Teks langsung, terjemahan, dan transkripsi",
-    "subtitle": "Tiga alat dalam satu aplikasi, di iPhone dan Android, dalam 60+ bahasa.",
     "items": [
-      { "label": "Teks langsung", "title": "Setiap kata, saat diucapkan", "description": "Buka aplikasi, ketuk mikrofon, lalu baca. Setiap pembicara mendapat labelnya sendiri, jadi jelas siapa mengatakan apa." },
-      { "label": "Terjemahan langsung", "title": "Dua bahasa berdampingan", "description": "Saat seseorang berbicara dalam bahasa lain, aplikasi menampilkan ucapannya dan terjemahannya sekaligus." },
-      { "label": "Transkripsi", "title": "Rekaman dan file jadi teks", "description": "Simpan percakapan apa pun, atau tambahkan file audio atau video, lalu dapatkan transkrip lengkap beserta ringkasan AI." }
+      { "label": "Teks langsung" },
+      { "label": "Terjemahan langsung" },
+      { "label": "Transkripsi" }
     ]
   },
   "languages": {

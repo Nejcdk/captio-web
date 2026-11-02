@@ -12,13 +12,10 @@
     "title": "Ap [capsiynau byw] i bobl fyddar a thrwm eu clyw"
   },
   "features": {
-    "eyebrow": "Beth mae Captio AI yn ei wneud",
-    "title": "Capsiynau byw, cyfieithu a thrawsgrifio",
-    "subtitle": "Tri offeryn mewn un ap, ar iPhone ac Android, mewn 60+ iaith.",
     "items": [
-      { "label": "Capsiynau byw", "title": "Pob gair, wrth iddo gael ei ddweud", "description": "Agorwch yr ap, tapiwch y meicroffon a darllenwch. Mae gan bob siaradwr ei label ei hun, felly mae’n glir pwy ddywedodd beth." },
-      { "label": "Cyfieithu byw", "title": "Y ddwy iaith ochr yn ochr", "description": "Pan fydd rhywun yn siarad iaith arall, mae’r ap yn dangos yr hyn a ddywedwyd a’r cyfieithiad yr un pryd." },
-      { "label": "Trawsgrifio", "title": "Recordiadau a ffeiliau yn destun", "description": "Cadwch unrhyw sgwrs, neu ychwanegwch ffeil sain neu fideo, a chewch y trawsgrifiad llawn gyda chrynodeb AI." }
+      { "label": "Capsiynau byw" },
+      { "label": "Cyfieithu byw" },
+      { "label": "Trawsgrifio" }
     ]
   },
   "languages": {

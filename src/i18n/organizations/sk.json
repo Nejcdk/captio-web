@@ -12,13 +12,10 @@
     "title": "Aplikácia so [živými titulkami] pre nepočujúcich a nedoslýchavých"
   },
   "features": {
-    "eyebrow": "Čo Captio AI dokáže",
-    "title": "Živé titulky, preklad a prepis",
-    "subtitle": "Tri nástroje v jednej aplikácii, na iPhone aj Androide, v 60+ jazykoch.",
     "items": [
-      { "label": "Živé titulky", "title": "Každé slovo hneď, ako zaznie", "description": "Stačí otvoriť aplikáciu, ťuknúť na mikrofón a čítať. Každý hovoriaci má vlastný štítok, takže je jasné, kto čo povedal." },
-      { "label": "Živý preklad", "title": "Oba jazyky vedľa seba", "description": "Keď niekto hovorí iným jazykom, aplikácia ukáže zároveň to, čo povedal, aj preklad." },
-      { "label": "Prepis", "title": "Nahrávky a súbory prevedené na text", "description": "Uložte akýkoľvek rozhovor alebo pridajte zvukový či video súbor a získate celý prepis aj zhrnutie od AI." }
+      { "label": "Živé titulky" },
+      { "label": "Živý preklad" },
+      { "label": "Prepis" }
     ]
   },
   "languages": {

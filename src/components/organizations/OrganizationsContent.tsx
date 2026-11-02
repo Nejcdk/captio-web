@@ -4,12 +4,12 @@ import Footer from "@/components/Footer";
 import FaqAccordion from "@/components/FaqAccordion";
 import LocaleShell from "@/components/LocaleShell";
 import { PilotForm } from "./PilotForm";
-import { PhoneVideo } from "./PhoneVideo";
 import { OrgHeader } from "./OrgHeader";
 import { languageName, languageOptions, pagePath, type Messages } from "@/i18n";
 import { ENGLISH, LOCALES } from "@/i18n/locales";
 import { fill, orgCurrency, type OrgMessages } from "@/i18n/organizations";
 import { appImage } from "@/lib/appImages";
+import { USE_CASE_CARDS } from "@/lib/useCaseCards";
 import { languages as languagePages } from "@/lib/languages";
 import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbSchema } from "@/lib/schema";
 
@@ -21,11 +21,12 @@ import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbS
 // live translation, transcription) and the pilot form beside them. Right under
 // it Recognize voices / Speaker direction / Recognize sounds, each with a real
 // picture of the app (Nejc 2026-11-02: pictures, not drawings), then every
-// caption language, the three main features with their videos, why
-// organizations choose it, the pilot steps with the form again, prices, data,
-// FAQ, and a last banner with the form a third time.
-// The words present the app and what it does, never "your people will…"
-// (Nejc 2026-11-02). All words come from src/i18n/organizations/<code>.json.
+// caption language, the use cases (the home page's, Nejc 2026-11-02: in place
+// of the feature videos), why organizations choose it, the pilot steps with
+// the form again, prices, data, FAQ, and a last banner with the form a third
+// time. The words present the app and what it does, never "your people
+// will…" (Nejc 2026-11-02). They come from src/i18n/organizations/<code>.json;
+// the use cases from the home page's src/i18n/messages/<code>.json.
 // Yearly per-person licenses, paid by invoice, for any organization that pays
 // for captioning on someone's behalf (Nejc 2026-10-27: never "students" or
 // "staff"). Prices and the pilot: app repo tools/organizations/PLAN.md. Never
@@ -33,8 +34,7 @@ import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbS
 // The pilot starts from the form (PilotForm.tsx): the link to forward is
 // emailed at once in this page's language, people join at /o/<code>.
 // Phones in the hero and the features: the site's app pictures
-// (src/lib/appImages.ts). Videos: the app's onboarding loops in
-// public/organizations (PhoneVideo.tsx).
+// (src/lib/appImages.ts).
 
 const DPA_MAILTO = "mailto:hello@captioai.app?subject=Captio%20AI%20data%20processing%20agreement";
 const ADDRESS = "hello@captioai.app";
@@ -44,7 +44,6 @@ const PRICES = [
   { gbp: "£69", eur: "€79", usd: "$89" },
 ];
 
-const FEATURE_VIDEOS = ["captions", "translate", "upload"] as const;
 const REASON_ICONS = ["⚡", "📱", "🔒", "🧾"];
 // One real app picture per feature in t.awareness.items: named speakers,
 // speaker direction, a sound written into the captions.
@@ -217,25 +216,24 @@ export default function OrganizationsContent({ code, t, m }: { code: string; t: 
           </div>
         </section>
 
-        {/* ── The three main features ── */}
-        <section id="how" className="pb-14 px-6 bg-white scroll-mt-4">
+        {/* ── Use cases ── */}
+        {/* Nejc 2026-11-02: the situations from the home page, in place of the
+            feature videos (the hero already shows the main features). Cards,
+            not links: the page's one way on is the form. */}
+        <section className="py-12 px-6 bg-gray-50">
           <div className="max-w-6xl mx-auto">
-            <SectionTitle eyebrow={t.features.eyebrow} title={t.features.title} subtitle={t.features.subtitle} />
-            {/* Phones: a row to swipe through; larger screens: three columns. */}
-            <div className="-mx-6 px-6 flex gap-5 overflow-x-auto snap-x snap-mandatory pb-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:mx-0 sm:px-0 sm:grid sm:grid-cols-3 sm:gap-8 sm:overflow-visible sm:pb-0">
-              {t.features.items.map((f, i) => (
-                <div key={FEATURE_VIDEOS[i]} className="w-[68%] shrink-0 snap-center sm:w-auto flex flex-col items-center text-center gap-5">
-                  <div className="w-full max-w-[200px] sm:max-w-[220px]">
-                    <PhoneVideo name={FEATURE_VIDEOS[i]} label={`Captio AI: ${f.label}`} />
-                  </div>
-                  <div>
-                    <span className="text-xs font-bold text-cta uppercase tracking-widest">{f.label}</span>
-                    <h3 className="mt-1.5 font-bold text-gray-900 text-lg">{f.title}</h3>
-                    <p className="mt-1.5 text-sm text-gray-500 leading-relaxed max-w-xs mx-auto">{f.description}</p>
-                  </div>
-                </div>
+            <SectionTitle eyebrow={m.home.useCasesLabel} title={m.home.useCasesTitle} subtitle={m.home.useCasesSubtitle} />
+            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {USE_CASE_CARDS.map((uc) => (
+                <li key={uc.slug} className="bg-white rounded-xl border border-gray-200 p-5 flex flex-col gap-3">
+                  <span className="inline-flex items-center gap-2 bg-brand-light text-brand font-bold px-3.5 py-2 rounded-[8px] w-fit">
+                    <span className="text-2xl leading-none" aria-hidden>{uc.icon}</span>
+                    <span className="text-base">{m.home.useCases[uc.slug].label}</span>
+                  </span>
+                  <p className="text-sm text-gray-500 leading-relaxed">{m.home.useCases[uc.slug].description}</p>
+                </li>
               ))}
-            </div>
+            </ul>
           </div>
         </section>
 

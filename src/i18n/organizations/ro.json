@@ -12,13 +12,10 @@
     "title": "Aplicație de [subtitrări live] pentru persoanele surde și hipoacuzice"
   },
   "features": {
-    "eyebrow": "Ce face Captio AI",
-    "title": "Subtitrări live, traducere și transcriere",
-    "subtitle": "Trei instrumente într-o singură aplicație, pe iPhone și Android, în peste 60 de limbi.",
     "items": [
-      { "label": "Subtitrări live", "title": "Fiecare cuvânt, pe măsură ce e rostit", "description": "Deschideți aplicația, atingeți microfonul și citiți. Fiecare vorbitor primește propria etichetă, așa că e clar cine ce a spus." },
-      { "label": "Traducere live", "title": "Ambele limbi, una lângă alta", "description": "Când cineva vorbește altă limbă, aplicația arată în același timp ce a spus și traducerea." },
-      { "label": "Transcriere", "title": "Înregistrări și fișiere transformate în text", "description": "Salvați orice conversație sau adăugați un fișier audio ori video și primiți transcrierea completă, cu un rezumat AI." }
+      { "label": "Subtitrări live" },
+      { "label": "Traducere live" },
+      { "label": "Transcriere" }
     ]
   },
   "languages": {

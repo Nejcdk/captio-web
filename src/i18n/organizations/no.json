@@ -12,13 +12,10 @@
     "title": "App med [direkteteksting] for døve og hørselshemmede"
   },
   "features": {
-    "eyebrow": "Dette gjør Captio AI",
-    "title": "Direkteteksting, oversettelse og transkripsjon",
-    "subtitle": "Tre verktøy i én app, for iPhone og Android, på 60+ språk.",
     "items": [
-      { "label": "Direkteteksting", "title": "Hvert ord, idet det blir sagt", "description": "Åpne appen, trykk på mikrofonen og les med. Hver taler får sin egen merkelapp, så det er tydelig hvem som sa hva." },
-      { "label": "Direkteoversettelse", "title": "Begge språkene side om side", "description": "Når noen snakker et annet språk, viser appen det som blir sagt og oversettelsen samtidig." },
-      { "label": "Transkripsjon", "title": "Opptak og filer blir til tekst", "description": "Lagre hvilken som helst samtale, eller legg til en lyd- eller videofil, og få hele transkripsjonen med et AI-sammendrag." }
+      { "label": "Direkteteksting" },
+      { "label": "Direkteoversettelse" },
+      { "label": "Transkripsjon" }
     ]
   },
   "languages": {

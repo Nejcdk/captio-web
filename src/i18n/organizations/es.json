@@ -12,13 +12,10 @@
     "title": "Aplicación de [subtítulos en vivo] para personas sordas y con pérdida auditiva"
   },
   "features": {
-    "eyebrow": "Qué hace Captio AI",
-    "title": "Subtítulos en vivo, traducción y transcripción",
-    "subtitle": "Tres herramientas en una sola aplicación, en iPhone y Android, en más de 60 idiomas.",
     "items": [
-      { "label": "Subtítulos en vivo", "title": "Cada palabra, en el momento en que se dice", "description": "Se abre la aplicación, se toca el micrófono y se lee. Cada hablante tiene su propia etiqueta, así queda claro quién dijo qué." },
-      { "label": "Traducción en vivo", "title": "Los dos idiomas, uno al lado del otro", "description": "Cuando alguien habla otro idioma, la aplicación muestra a la vez lo que dijo y su traducción." },
-      { "label": "Transcripción", "title": "Grabaciones y archivos convertidos en texto", "description": "Se puede guardar cualquier conversación o añadir un archivo de audio o video y obtener la transcripción completa con un resumen con IA." }
+      { "label": "Subtítulos en vivo" },
+      { "label": "Traducción en vivo" },
+      { "label": "Transcripción" }
     ]
   },
   "languages": {

@@ -12,13 +12,10 @@
     "title": "[Élő feliratos] alkalmazás siketeknek és nagyothallóknak"
   },
   "features": {
-    "eyebrow": "Mire képes a Captio AI",
-    "title": "Élő felirat, fordítás és átírás",
-    "subtitle": "Három eszköz egy alkalmazásban, iPhone-on és Androidon, több mint 60 nyelven.",
     "items": [
-      { "label": "Élő felirat", "title": "Minden szó, ahogy elhangzik", "description": "Csak meg kell nyitni az alkalmazást, koppintani a mikrofonra, és lehet is olvasni. Minden beszélő saját címkét kap, így világos, ki mit mondott." },
-      { "label": "Élő fordítás", "title": "A két nyelv egymás mellett", "description": "Ha valaki más nyelven beszél, az alkalmazás egyszerre mutatja, amit mondott, és a fordítását." },
-      { "label": "Átírás", "title": "Felvételekből és fájlokból szöveg", "description": "Bármilyen beszélgetés elmenthető, vagy hozzáadható egy hang- vagy videofájl, és elkészül a teljes átirat egy MI-összefoglalóval." }
+      { "label": "Élő felirat" },
+      { "label": "Élő fordítás" },
+      { "label": "Átírás" }
     ]
   },
   "languages": {

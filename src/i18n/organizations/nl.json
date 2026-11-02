@@ -12,13 +12,10 @@
     "title": "App met [live ondertiteling] voor doven en slechthorenden"
   },
   "features": {
-    "eyebrow": "Wat Captio AI doet",
-    "title": "Live ondertiteling, vertaling en transcriptie",
-    "subtitle": "Drie hulpmiddelen in één app, op iPhone en Android, in 60+ talen.",
     "items": [
-      { "label": "Live ondertiteling", "title": "Elk woord, zodra het gezegd wordt", "description": "Open de app, tik op de microfoon en lees mee. Elke spreker krijgt een eigen label, zodat duidelijk is wie wat zei." },
-      { "label": "Live vertaling", "title": "Beide talen naast elkaar", "description": "Spreekt iemand een andere taal, dan toont de app tegelijk wat er gezegd werd en de vertaling." },
-      { "label": "Transcriptie", "title": "Opnames en bestanden als tekst", "description": "Bewaar elk gesprek of voeg een audio- of videobestand toe, en krijg het volledige transcript met een AI-samenvatting." }
+      { "label": "Live ondertiteling" },
+      { "label": "Live vertaling" },
+      { "label": "Transcriptie" }
     ]
   },
   "languages": {

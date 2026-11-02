@@ -12,13 +12,10 @@
     "title": "[Zuzeneko azpitituluen] aplikazioa pertsona gorrentzat eta entzumen-galera dutenentzat"
   },
   "features": {
-    "eyebrow": "Zer egiten du Captio AI aplikazioak",
-    "title": "Zuzeneko azpitituluak, itzulpena eta transkripzioa",
-    "subtitle": "Hiru tresna aplikazio bakarrean, iPhone eta Android telefonoetan, 60+ hizkuntzatan.",
     "items": [
-      { "label": "Zuzeneko azpitituluak", "title": "Hitz bakoitza, esan ahala", "description": "Ireki aplikazioa, sakatu mikrofonoa eta irakurri. Hizlari bakoitzak bere etiketa du, eta argi dago nork zer esan duen." },
-      { "label": "Zuzeneko itzulpena", "title": "Bi hizkuntzak elkarren ondoan", "description": "Norbaitek beste hizkuntza batean hitz egiten duenean, aplikazioak esandakoa eta haren itzulpena erakusten ditu aldi berean." },
-      { "label": "Transkripzioa", "title": "Grabazioak eta fitxategiak testura", "description": "Gorde edozein elkarrizketa, edo gehitu audio- edo bideo-fitxategi bat, eta lortu transkripzio osoa AA bidezko laburpen batekin." }
+      { "label": "Zuzeneko azpitituluak" },
+      { "label": "Zuzeneko itzulpena" },
+      { "label": "Transkripzioa" }
     ]
   },
   "languages": {

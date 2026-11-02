@@ -12,13 +12,10 @@
     "title": "Application de [sous-titres en direct] pour personnes sourdes et malentendantes"
   },
   "features": {
-    "eyebrow": "Ce que fait Captio AI",
-    "title": "Sous-titres en direct, traduction et transcription",
-    "subtitle": "Trois outils dans une seule application, sur iPhone et Android, dans plus de 60 langues.",
     "items": [
-      { "label": "Sous-titres en direct", "title": "Chaque mot, au moment où il est dit", "description": "On ouvre l’application, on touche le micro et on lit. Chaque intervenant a sa propre étiquette : on sait qui a dit quoi." },
-      { "label": "Traduction en direct", "title": "Les deux langues côte à côte", "description": "Quand quelqu’un parle une autre langue, l’application affiche en même temps ce qui a été dit et sa traduction." },
-      { "label": "Transcription audio", "title": "Enregistrements et fichiers en texte", "description": "On enregistre une conversation ou on ajoute un fichier audio ou vidéo, et on obtient la transcription complète avec un résumé IA." }
+      { "label": "Sous-titres en direct" },
+      { "label": "Traduction en direct" },
+      { "label": "Transcription audio" }
     ]
   },
   "languages": {

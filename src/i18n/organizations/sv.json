@@ -12,13 +12,10 @@
     "title": "App med [liveundertexter] för döva och hörselskadade"
   },
   "features": {
-    "eyebrow": "Det här gör Captio AI",
-    "title": "Liveundertexter, översättning och transkription",
-    "subtitle": "Tre verktyg i en app, för iPhone och Android, på 60+ språk.",
     "items": [
-      { "label": "Liveundertexter", "title": "Varje ord, medan det sägs", "description": "Öppna appen, tryck på mikrofonen och läs med. Varje talare får en egen etikett, så det syns vem som sa vad." },
-      { "label": "Liveöversättning", "title": "Båda språken sida vid sida", "description": "När någon talar ett annat språk visar appen både det som sägs och översättningen samtidigt." },
-      { "label": "Transkription", "title": "Inspelningar och filer blir text", "description": "Spara vilket samtal som helst, eller lägg till en ljud- eller videofil, och få hela transkriptionen med en AI-sammanfattning." }
+      { "label": "Liveundertexter" },
+      { "label": "Liveöversättning" },
+      { "label": "Transkription" }
     ]
   },
   "languages": {
