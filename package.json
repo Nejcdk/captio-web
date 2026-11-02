@@ -9,7 +9,11 @@
     "lint": "eslint",
     "blog:check": "node scripts/blog-check.mjs",
     "blog:coverage": "node scripts/blog-coverage.mjs",
-    "compare:check": "node scripts/compare-check.mjs"
+    "compare:check": "node scripts/compare-check.mjs",
+    "social:render": "node scripts/social-render.mjs",
+    "social:check": "node scripts/social-check.mjs",
+    "social:zernio": "node scripts/social-zernio.mjs",
+    "social:pages": "node scripts/social-pages.mjs"
   },
   "dependencies": {
     "@modelcontextprotocol/server": "^2.3.1",
@@ -29,8 +33,10 @@
     "@types/node": "^25.9.2",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@zernio/node": "^0.2.1420",
     "eslint": "^9",
     "eslint-config-next": "16.2.7",
+    "puppeteer-core": "^25.16.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

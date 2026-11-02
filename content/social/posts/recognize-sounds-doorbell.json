@@ -1,0 +1,25 @@
+{
+  "id": "recognize-sounds-doorbell",
+  "pageType": "feature",
+  "page": "/recognize-sounds",
+  "question": "Can captions show a doorbell?",
+  "slides": [
+    "*[doorbell rings]*",
+    "Your iPhone vibrates *while captions run.*"
+  ],
+  "description": [
+    "Recognize sounds in Captio AI on iPhone writes sounds around you into live captions, like [doorbell rings].",
+    "Captio AI was made for deaf and hard of hearing people, who may not hear a doorbell from the next room.",
+    "Captio AI on iPhone can show a doorbell, an alarm, a crying baby, a barking dog, laughter or music in captions.",
+    "Alert sounds make the iPhone vibrate while Captio AI is running captions.",
+    "Captio AI hears sounds only while captions run or a chosen file is transcribed, and can miss some, so it is not an always-on alarm.",
+    "Some melodic electronic door chimes sound like music to Captio AI, while a classic ding-dong doorbell is recognized.",
+    "You can change sound captions in Captio AI under Settings, Recognize sounds.",
+    "Captio AI is free to download on iPhone, with 100 free credits a day on the free plan."
+  ],
+  "hashtags": [
+    "#DeafLife",
+    "#Accessibility",
+    "#LiveCaptions"
+  ]
+}

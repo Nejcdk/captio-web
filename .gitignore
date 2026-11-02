@@ -43,3 +43,6 @@ next-env.d.ts
 # local tooling / secrets (do not commit)
 .mcp.json
 /src/app/api/soniox-key/
+
+# Rendered social posts
+/content/social/out/

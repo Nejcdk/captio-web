@@ -1,0 +1,26 @@
+{
+  "id": "home-live-captions-app",
+  "pageType": "home",
+  "page": "/",
+  "question": "Is there a live captions app for deaf people?",
+  "slides": [
+    "Your phone shows *what people say.*",
+    "*60 languages.* iPhone and Android."
+  ],
+  "description": [
+    "Captio AI is a live captions app made for deaf and hard of hearing people, on iPhone and Android.",
+    "Captio AI turns speech in the room into text on your phone, word by word, while the person is still talking.",
+    "Captio AI is for in-person speech, in any situation where you need captions.",
+    "Live Translator in Captio AI translates speech into another language and shows it next to the original captions.",
+    "Audio Transcription in Captio AI turns an audio or video file from your phone into a transcript.",
+    "AI Summary in Captio AI turns any transcript into a summary, key points, detailed notes or to-dos.",
+    "Captio AI works in 60 languages, including speech that switches languages mid-sentence.",
+    "Captio AI is free to download, and the free plan gives you 100 free credits a day for live captions or transcription.",
+    "Captio AI needs an internet connection for live captions and does not replace interpreters or hearing care."
+  ],
+  "hashtags": [
+    "#DeafCommunity",
+    "#HardOfHearing",
+    "#LiveCaptions"
+  ]
+}
