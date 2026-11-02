@@ -3,6 +3,8 @@
 // all JSON-LD on a page by @id, so page-level nodes can reference the global
 // Organization and WebSite defined in the root layout.
 
+import { SCREENSHOTS } from "./appImages";
+
 export const SITE_URL = "https://captioai.app";
 
 const ORG_ID = `${SITE_URL}/#organization`;
@@ -24,6 +26,7 @@ export const organizationSchema = {
     "@type": "ImageObject",
     url: `${SITE_URL}/logo_image_profile.png`,
   },
+  image: `${SITE_URL}/logo_image_profile.png`,
   description:
     "Captio AI is an iPhone and Android live captioning, translation, and transcription app for deaf and hard of hearing people, supporting 60+ languages.",
   // sameAs: add the organisation's own social profiles here once they exist.
@@ -75,6 +78,16 @@ export function softwareApplicationSchema(opts: {
     operatingSystem: "iOS, Android",
     description: opts.description,
     url: opts.url,
+    // The app icon and real screens, so search and AI answers show Captio AI's
+    // own pictures next to its name.
+    image: `${SITE_URL}/app_icon.png`,
+    screenshot: SCREENSHOTS.map((img) => ({
+      "@type": "ImageObject",
+      contentUrl: `${SITE_URL}${img.src}`,
+      caption: img.alt,
+      width: img.width,
+      height: img.height,
+    })),
     downloadUrl: [APP_STORE_URL, GOOGLE_PLAY_URL],
     installUrl: [APP_STORE_URL, GOOGLE_PLAY_URL],
     sameAs: [APP_STORE_URL, GOOGLE_PLAY_URL],

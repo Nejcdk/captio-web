@@ -67,20 +67,17 @@ export default function RecognizeVoicesPage() {
         {
           title: "Add a voice",
           desc: "Open Settings, then Recognize voices, and tap Add a voice. Start with your own.",
-          img: "/RV_mockup_1.png",
-          alt: "Recognize voices in Captio AI with saved voices for Me, Mum, Ana and Tom",
+          img: "RV_mockup_1.png",
         },
         {
           title: "Record 20 seconds",
           desc: "Ask them first, then let them talk about anything. It stops by itself once it has 20 seconds of speech.",
-          img: "/RV_mockup_2.png",
-          alt: "Captio AI recording Mum's voice with live captions and 12 of 20 seconds of talking",
+          img: "RV_mockup_2.png",
         },
         {
           title: "See names in captions",
           desc: "Their name and emoji show on every line they say, live and in saved recordings.",
-          img: "/RV_mockup_3.png",
-          alt: "A Sunday lunch recording with lines tagged Me, Mum and Tom",
+          img: "RV_mockup_3.png",
         },
       ]}
       featuresHeading="Built for tables with many voices"

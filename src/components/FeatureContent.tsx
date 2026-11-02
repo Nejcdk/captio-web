@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { pageImages } from "@/lib/appImages";
 import Header from "@/components/Header";
 import BackButton from "@/components/BackButton";
 import Footer from "@/components/Footer";
@@ -12,19 +13,15 @@ import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbS
 // (English) and "/<code>/live-captions". Their words come from
 // src/i18n/messages/<code>.json (featurePages.<slug>).
 
-// The app screens next to the three "How it works" steps.
-const stepImages: Record<FeatureSlug, [string, string, string]> = {
-  "live-captions": ["/LC_mockup_1.png", "/LC_mockup_4.png", "/LC_mockup_3.png"],
-  "live-translator": ["/LT_mockup_1.png", "/LT_mockup_2.png", "/LT_mockup_3.png"],
-  "audio-transcription": ["/AT_mockup_1.png", "/AT_mockup_2.png", "/AT_mockup_3.png"],
-  "ai-summary": ["/AS_mockup_1.png", "/AS_mockup_2.png", "/AS_mockup_3.png"],
-};
 
 export default function FeatureContent({ code, m, feature }: { code: string; m: Messages; feature: FeatureSlug }) {
   const p = m.featurePages[feature];
   const c = m.common;
   const name = c.featureNames[feature];
   const home = pagePath(code, "home");
+  // The app screens next to the three "How it works" steps. Their alt text is
+  // English; other languages get the step's title after the app's name.
+  const stepImages = pageImages(feature);
 
   const schemaOrg = jsonLd(
     softwareApplicationSchema({
@@ -82,10 +79,9 @@ export default function FeatureContent({ code, m, feature }: { code: string; m: 
                   </div>
                   <p className="text-xs sm:text-sm text-gray-500 leading-relaxed">{item.desc}</p>
                   <Image
-                    src={stepImages[feature][i]}
-                    alt={item.title}
-                    width={240}
-                    height={480}
+                    {...stepImages[i]}
+                    alt={code === "en" ? stepImages[i].alt : `Captio AI: ${item.title}`}
+                    unoptimized
                     className="w-full max-w-[160px] sm:max-w-[200px] h-auto drop-shadow-lg"
                   />
                 </div>

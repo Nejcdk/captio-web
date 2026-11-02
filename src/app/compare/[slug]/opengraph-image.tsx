@@ -3,19 +3,20 @@ import path from "node:path";
 import { ImageResponse } from "next/og";
 import { PAGE_KINDS, getAllComparePages, getComparePage, type CompareApp } from "@/lib/compare";
 
-// Share card per comparison: the kind, the title, the apps' icons and the
-// site, on brand blue.
+// Share card per comparison: the kind, the title, the apps and the site, on
+// brand blue. Only Captio AI shows its icon; the other apps are letter tiles,
+// because search and AI answers reuse this picture for Captio AI (ChatGPT
+// showed Ava's icon next to Captio AI).
 export const alt = "Captio AI comparison";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
 const BRAND = "#1C49F5";
 
-/** An app's icon as a data URL (the share card can't load files by path), or null for a letter tile. */
+/** Captio AI's icon as a data URL (the share card can't load files by path), or null for a letter tile. */
 function iconData(app: CompareApp): string | null {
-  const file = app.slug === "captio-ai" ? "/logo_image_profile.png" : app.icon;
-  if (!file) return null;
-  return `data:image/png;base64,${fs.readFileSync(path.join(process.cwd(), "public", file)).toString("base64")}`;
+  if (app.slug !== "captio-ai") return null;
+  return `data:image/png;base64,${fs.readFileSync(path.join(process.cwd(), "public/logo_image_profile.png")).toString("base64")}`;
 }
 
 function Icon({ app }: { app: CompareApp }) {

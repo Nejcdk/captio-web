@@ -71,20 +71,17 @@ export default function FoldersPage() {
         {
           title: "Make a folder",
           desc: "Name it and give it an icon and a colour: Lectures, Doctor, Family, Work.",
-          img: "/FO_mockup_1.png",
-          alt: "The Folders tab in Captio AI with folders for Weekly sync, Lectures, Doctor, Family and Church",
+          img: "FO_mockup_1.png",
         },
         {
           title: "Say yes to the suggestion",
           desc: "When you save a recording, Captio AI suggests the folder it fits. Nothing moves until you say yes.",
-          img: "/FO_mockup_2.png",
-          alt: "Captio AI asking “Save to Lectures?” after a biology lecture was recorded",
+          img: "FO_mockup_2.png",
         },
         {
           title: "Share it",
           desc: "Invite people with a link. Everyone sees every recording in the folder and can add their own.",
-          img: "/FO_mockup_3.png",
-          alt: "A shared Weekly sync folder with recordings added by Ana, Marko and Sara",
+          img: "FO_mockup_3.png",
         },
       ]}
       featuresHeading="Built for the way you keep things"

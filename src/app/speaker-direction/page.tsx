@@ -71,20 +71,17 @@ export default function SpeakerDirectionPage() {
         {
           title: "Lay your phone flat",
           desc: "Put your iPhone 16 or later flat on the table and start Live Captions. Speaker direction is on by default.",
-          img: "/SD_mockup_1.png",
-          alt: "Live captions starting with the Speaker direction notice: best with the phone flat on a table",
+          img: "SD_mockup_1.png",
         },
         {
           title: "Waves point to the voice",
           desc: "A wave grows at the edge of the captions on the side the voice comes from, while new words appear.",
-          img: "/SD_mockup_2.png",
-          alt: "Blue waves on the left edge of the captions while Speaker 1 talks",
+          img: "SD_mockup_2.png",
         },
         {
           title: "Each voice, its own colour",
           desc: "The wave takes the colour of the speaker's tag, so you know who is talking and where to look.",
-          img: "/SD_mockup_3.png",
-          alt: "Red waves on the right edge of the captions while Speaker 2 talks",
+          img: "SD_mockup_3.png",
         },
       ]}
       featuresHeading="Built for busy tables"

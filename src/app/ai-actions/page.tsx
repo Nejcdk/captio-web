@@ -67,20 +67,17 @@ export default function AiActionsPage() {
         {
           title: "Open the Actions tab",
           desc: "Open any recording and tap Actions. Pick Summary, Key points, Detailed notes, To-dos, Q&A or Follow-up message.",
-          img: "/AA_mockup_1.png",
-          alt: "The Actions tab in Captio AI with six tiles: Summary, Key points, Detailed notes, To-dos, Questions & answers, Follow-up message",
+          img: "AA_mockup_1.png",
         },
         {
           title: "Get your to-dos",
           desc: "Every task from the meeting, grouped by person, with the dates that were said.",
-          img: "/AA_mockup_2.png",
-          alt: "To-dos from a weekly meeting grouped by Sara, Emma, Ana and Marko, with due dates",
+          img: "AA_mockup_2.png",
         },
         {
           title: "Send the follow-up",
           desc: "A ready recap with the decisions and next steps, to export and send to everyone who was there.",
-          img: "/AA_mockup_3.png",
-          alt: "A follow-up message with key decisions and next steps from the meeting",
+          img: "AA_mockup_3.png",
         },
       ]}
       featuresHeading="From what was said to what happens next"

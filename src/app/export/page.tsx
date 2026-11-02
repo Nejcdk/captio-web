@@ -67,20 +67,17 @@ export default function ExportPage() {
         {
           title: "Tap Export",
           desc: "Open any recording and tap the blue Export button under the captions.",
-          img: "/EX_mockup_1.png",
-          alt: "A Weekly sync recording in Captio AI with named speakers and the Export button",
+          img: "EX_mockup_1.png",
         },
         {
           title: "Pick what and how",
           desc: "Captions or summary, as Text, Link, PDF, Email or a prompt for your AI chat.",
-          img: "/EX_mockup_2.png",
-          alt: "The Export sheet with Text, Link, PDF, Email and Chat for captions and for the summary",
+          img: "EX_mockup_2.png",
         },
         {
           title: "Send it",
           desc: "A designed PDF, an email, or a link anyone can open. Names, dates and to-dos come along.",
-          img: "/EX_mockup_3.png",
-          alt: "The exported PDF of the meeting summary open in Preview",
+          img: "EX_mockup_3.png",
         },
       ]}
       featuresHeading="Built for sharing what you followed"

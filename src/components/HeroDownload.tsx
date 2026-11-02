@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { appImage } from "@/lib/appImages";
 import { DownloadCard } from "@/components/StoreButtons";
 import type { Messages } from "@/i18n";
 
@@ -11,10 +12,9 @@ export default function HeroDownload({ alt, t }: { alt: string; t?: Messages["st
       <DownloadCard id="download" className="shrink-0" t={t} />
       <div className="mt-6 sm:mt-10 lg:mt-0 shrink-0">
         <Image
-          src="/mockup_app.png"
+          {...appImage("mockup_app.png")}
           alt={alt}
-          width={400}
-          height={458}
+          unoptimized
           className="w-[280px] sm:w-[400px] lg:w-[300px] h-auto mx-auto drop-shadow-2xl"
           priority
         />
