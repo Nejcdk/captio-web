@@ -1,0 +1,906 @@
+{
+  "slug": "ud-talk",
+  "name": "UDトーク (UD Talk)",
+  "shortName": "UD Talk",
+  "developer": "Shamrock Records, Inc.",
+  "developerCountry": "Japan (Nerima, Tokyo)",
+  "website": "https://udtalk.jp",
+  "appStoreUrl": "https://apps.apple.com/jp/app/id666188441",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=jp.shamrock_records.udtalk",
+  "category": "in-person-captions",
+  "oneLine": "A Japanese app, on the market since 2013, that makes conversations visible: speech recognition and translation shared live to phones, browsers and projectors at lectures, events and offices, with word registration and corporate plans.",
+  "facts": {
+    "platforms": {
+      "status": "yes",
+      "text": "iPhone, iPad, Android, Kindle; PC app for editing",
+      "detail": "Apps for iPhone and iPad, Android and Amazon Kindle. The Mac and Windows apps show and correct captions but have no speech recognition of their own. The Japanese App Store also lists Apple Watch, Apple silicon Macs and Apple Vision.",
+      "sources": [
+        "u1",
+        "u3",
+        "u12",
+        "u10"
+      ]
+    },
+    "deviceRequirements": {
+      "status": "yes",
+      "text": "iOS 15.0 or later",
+      "detail": "The Japanese App Store lists iOS 15.0 or later for iPhone and iPad. The Android version needed is not stated on the pages we opened.",
+      "sources": [
+        "u1",
+        "u2"
+      ]
+    },
+    "roomCaptions": {
+      "status": "yes",
+      "text": "Yes, tap to talk",
+      "detail": "Tap the Tap to talk button, speak, and tap again to stop; the words appear as text. UD Talk says it is built mainly for people who speak into it on purpose, such as a lecturer, and points listeners who just hold a phone to the iPhone's built-in Live Captions.",
+      "sources": [
+        "u31",
+        "u14",
+        "u5",
+        "u40"
+      ]
+    },
+    "groupConversations": {
+      "status": "yes",
+      "text": "Captions shared to phones, browsers and projectors",
+      "detail": "A talk can be published with a QR code: other phones join to speak, only to read, or to correct mistakes. Publishing on the web shows it in any browser without the app, and a projector or full-screen view puts it on a big screen. Each person can also speak into their own phone.",
+      "sources": [
+        "u1",
+        "u16",
+        "u19",
+        "u6",
+        "u5"
+      ]
+    },
+    "speakerLabels": {
+      "status": "partial",
+      "text": "Name set on each phone; file tool labels up to 10",
+      "detail": "When each person speaks into their own phone, their lines carry the name set in that phone's UD Talk. Telling voices apart on one phone is not described; the developer suggests people say their name before they speak. The separate Subtitle Editor for files can label up to 10 speakers.",
+      "sources": [
+        "u15",
+        "u23"
+      ]
+    },
+    "voiceNames": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "A 2018 post said voice identification was not adopted. A later note on the same post says identification that needs advance registration has been added, without describing how it works.",
+      "sources": [
+        "u15"
+      ]
+    },
+    "speakerDirection": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "UD Talk's pages don't describe showing which direction a voice comes from.",
+      "sources": [
+        "u5"
+      ]
+    },
+    "translation": {
+      "status": "yes",
+      "text": "Yes, live, with a re-translation check",
+      "detail": "Speech can be recognised in many languages and translated live. Re-translation back into your own language lets you check the result before relying on it. The free app uses Google Translate.",
+      "sources": [
+        "u5",
+        "u11",
+        "u1"
+      ]
+    },
+    "languages": {
+      "status": "yes",
+      "text": "Japanese + other languages (173 settings, 2020 list)",
+      "detail": "Japanese uses the AmiVoice engine. In the free version, other languages use the phone's own speech recognition (Apple on iOS, Google on Android); paid plans use Google Cloud on both. A list of recognition and translation language settings published in December 2020 has 173 language and region entries; no newer count is published.",
+      "sources": [
+        "u11",
+        "u30",
+        "u28",
+        "u29"
+      ]
+    },
+    "offline": {
+      "status": "partial",
+      "text": "iPhone only, with the Apple On Device engine",
+      "detail": "On iOS, switching to the Apple On Device engine captions without internet. Its FAQ says recognition and translation otherwise run on servers and need a connection.",
+      "sources": [
+        "u13",
+        "u10"
+      ]
+    },
+    "saveTranscripts": {
+      "status": "yes",
+      "text": "Yes, logs; audio too on iPhone",
+      "detail": "Conversation logs stay in the app and older ones can be found by date. On iPhone, the audio can be saved with the talk and played back next to the text.",
+      "sources": [
+        "u22",
+        "u5",
+        "u21",
+        "u35"
+      ]
+    },
+    "export": {
+      "status": "yes",
+      "text": "Email or share logs, as text with times",
+      "detail": "Logs are sent by email or shared from the menu, as a list of text with timing information. A separate web tool turns them into subtitles.",
+      "sources": [
+        "u22",
+        "u1",
+        "u23"
+      ]
+    },
+    "fileUpload": {
+      "status": "partial",
+      "text": "Separate web tool, pay per use",
+      "detail": "The app captions live speech. Subtitle Editor for Files, a separate web tool, transcribes audio and video files, priced per use; corporate plans include 10 hours a month of Subtitle Editor Lite.",
+      "sources": [
+        "u23",
+        "u7"
+      ]
+    },
+    "summaries": {
+      "status": "partial",
+      "text": "Separate web tool (beta)",
+      "detail": "A beta web tool summarises a UD Talk log (.csv) or a subtitle file (.srt), using ChatGPT. It is not part of the app.",
+      "sources": [
+        "u24"
+      ]
+    },
+    "customWords": {
+      "status": "yes",
+      "text": "Yes, word registration and shared dictionaries",
+      "detail": "Words can be registered in the app or on a website, and public dictionaries can be switched per conversation. Registered words only work with the AmiVoice engine.",
+      "sources": [
+        "u13",
+        "u35",
+        "u37"
+      ]
+    },
+    "display": {
+      "status": "yes",
+      "text": "UD fonts, colours, text size; kanji in hiragana",
+      "detail": "Readable UD fonts can be chosen, and the web view sets background colour, text size and whether speaker names show. Kanji a child has not learned yet can be shown in hiragana by school grade.",
+      "sources": [
+        "u33",
+        "u17",
+        "u11"
+      ]
+    },
+    "soundAlerts": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "UD Talk's pages don't describe alerts for sounds such as a doorbell or an alarm.",
+      "sources": [
+        "u5",
+        "u1"
+      ]
+    },
+    "phoneCalls": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Its pages describe conversations, events and online meetings, not phone calls.",
+      "sources": [
+        "u5"
+      ]
+    },
+    "videoCalls": {
+      "status": "partial",
+      "text": "Captions sent into Zoom",
+      "detail": "One device set up with Zoom's caption token sends the captions into the meeting, with the name of the phone that spoke. A phone next to the computer can also caption the meeting audio.",
+      "sources": [
+        "u20",
+        "u36"
+      ]
+    },
+    "mediaOnDevice": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Captioning videos or audio playing on the same phone is not described.",
+      "sources": [
+        "u5"
+      ]
+    },
+    "humanCaptioners": {
+      "status": "partial",
+      "text": "People correct live; partners staff events",
+      "detail": "Other phones and the Mac or Windows app can correct mistakes while captions run. For events, partner companies run UD Talk with editors and re-speakers, quoted individually.",
+      "sources": [
+        "u27",
+        "u19",
+        "u12"
+      ]
+    },
+    "signLanguage": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Theater Mode lays the captions over the camera picture, so the speaker or a sign language interpreter and the captions can be watched together. No sign language translation is described.",
+      "sources": [
+        "u18"
+      ]
+    },
+    "privacy": {
+      "status": "partial",
+      "text": "Cloud; the free version reuses speech data",
+      "detail": "Speech is sent to servers for recognition. In the free version, your voice and the text made from it are collected and reused to improve recognition; the Compact Plan, corporate plans and the App Introduction Program discard voice data. On iPhone, the Apple On Device engine keeps recognition on the phone.",
+      "sources": [
+        "u9",
+        "u8",
+        "u6",
+        "u13"
+      ]
+    },
+    "account": {
+      "status": "no",
+      "text": "No account for the free app",
+      "detail": "Install, agree to the licence and tap Tap to talk. Corporate plans come with an account, and a free account for registering words on the web is optional.",
+      "sources": [
+        "u31",
+        "u8",
+        "u37"
+      ]
+    },
+    "availability": {
+      "status": "yes",
+      "text": "Japan; also in the US and other App Stores",
+      "detail": "Made in Japan, with the app in Japanese and English. The App Store lookup also returns it in the US store (November 2026), and it is on Google Play.",
+      "sources": [
+        "u1",
+        "u38",
+        "u3"
+      ]
+    },
+    "freePlan": {
+      "status": "yes",
+      "text": "Free, also for business; not for schools or city halls",
+      "detail": "Individuals and companies can use the free version, also commercially. Government offices, local authorities, schools and public facilities may not use it for their work, except for disaster prevention and evacuation shelters. Its voice data is reused, and support is the online manual only.",
+      "sources": [
+        "u4",
+        "u9",
+        "u8"
+      ]
+    },
+    "price": {
+      "status": "yes",
+      "text": "Compact Plan ¥500/month or ¥300/week",
+      "detail": "In-app Compact Plan on the Japanese App Store, November 2026; Google Play lists the same. Corporate plans, per year before tax: ¥117,600 (small organisations), ¥216,000 (schools), ¥324,000 (standard, one site) or ¥888,000 (premium, no site limit), plus a setup fee.",
+      "sources": [
+        "u1",
+        "u3",
+        "u6",
+        "u7"
+      ]
+    },
+    "accessibilityFunding": {
+      "status": "partial",
+      "text": "Free accounts for public bodies and interpreters",
+      "detail": "Not a government programme. Shamrock Records lends a free corporate account to government offices, local authorities, schools and public facilities that agree to be listed as users, and to sign language interpreters and summary writers registered with a local authority's dispatch service.",
+      "sources": [
+        "u25",
+        "u26"
+      ]
+    }
+  },
+  "strengths": [
+    {
+      "text": "Captions can be shared live to other phones by QR code, to any browser without the app, to a projector and into Zoom.",
+      "sources": [
+        "u16",
+        "u6",
+        "u20"
+      ]
+    },
+    {
+      "text": "Words can be registered in the app or on the web, and other people can correct mistakes live from their own devices.",
+      "sources": [
+        "u13",
+        "u19"
+      ]
+    },
+    {
+      "text": "The free version may be used commercially, and the Compact Plan costs ¥500 a month on the Japanese App Store (November 2026).",
+      "sources": [
+        "u4",
+        "u1"
+      ]
+    },
+    {
+      "text": "Paid plans discard voice data, and public bodies and registered interpreters can get a corporate account for free.",
+      "sources": [
+        "u8",
+        "u25",
+        "u26"
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "text": "In the free version, your voice and the text made from it are collected and reused to improve recognition.",
+      "sources": [
+        "u9"
+      ]
+    },
+    {
+      "text": "Government offices, local authorities and schools may not use the free version for their work.",
+      "sources": [
+        "u9",
+        "u8"
+      ]
+    },
+    {
+      "text": "Offline recognition is iPhone only, and saving audio with the text is iOS only.",
+      "sources": [
+        "u13",
+        "u5"
+      ]
+    },
+    {
+      "text": "File transcription and summaries are separate web tools, not part of the app.",
+      "sources": [
+        "u23",
+        "u24"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "u1",
+      "title": "UDトーク (App Store, Japan)",
+      "publisher": "Apple App Store",
+      "url": "https://apps.apple.com/jp/app/id666188441",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "App Store listing (Japan)",
+      "quotes": [
+        "コミュニケーション支援・会話の見える化アプリ",
+        "また相手のブラウザやアプリに配信することでオンライン環境でもイベントや講演会でリアルタイム字幕を簡単に提供することができます。",
+        "UDトークに音声を聞かせるだけで会話が文字化し、アプリ内から出力することで時間情報まで付与されたテキストデータをリスト形式で取得することができます。",
+        "コンパクトプラン（１ヶ月） ¥500",
+        "コンパクトプラン（１週間） ¥300",
+        "１ヶ月（自動更新）：980円",
+        "iOS 15.0以降が必要です。",
+        "macOS 12.0以降とApple M1以降のチップを搭載したMacが必要です。",
+        "watchOS 9.0以降が必要です。",
+        "日本語と英語",
+        "オーディオデータ"
+      ]
+    },
+    {
+      "id": "u2",
+      "title": "UDトーク (App Store lookup data, Japan)",
+      "publisher": "Apple",
+      "url": "https://itunes.apple.com/lookup?id=666188441&country=jp",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "App Store data (Japan)",
+      "quotes": [
+        "\"releaseDate\":\"2013-08-07T10:08:33Z\"",
+        "\"sellerName\":\"Shamrock Records, Inc.\"",
+        "\"minimumOsVersion\":\"15.0\"",
+        "\"formattedPrice\":\"無料\""
+      ]
+    },
+    {
+      "id": "u3",
+      "title": "UDトーク - コミュニケーション支援アプリ (Google Play, Japan)",
+      "publisher": "Google Play",
+      "url": "https://play.google.com/store/apps/details?id=jp.shamrock_records.udtalk&hl=ja&gl=JP",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Google Play listing (Japan)",
+      "quotes": [
+        "１ヶ月（自動更新）：500円",
+        "１週間（自動更新）：300円",
+        "第三者と共有されるデータはありません"
+      ]
+    },
+    {
+      "id": "u4",
+      "title": "UDトーク | コミュニケーション支援・会話の見える化アプリ",
+      "publisher": "Shamrock Records",
+      "url": "https://udtalk.jp/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "UD Talk home page",
+      "quotes": [
+        "UDトークは商用でも無料でご利用いただけるアプリです"
+      ]
+    },
+    {
+      "id": "u5",
+      "title": "UDトークとは？",
+      "publisher": "Shamrock Records",
+      "url": "https://udtalk.jp/about/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "What is UD Talk? (UD Talk)",
+      "quotes": [
+        "「多言語音声認識＆翻訳」機能を使って多言語コミュニケーション",
+        "1対1の会話から多人数の会話や会議まで、オンラインでもオフラインでも使い方次第で幅広く様々な方とのコミュニケーションに活用することができます。",
+        "再翻訳機能で翻訳結果を確認しながら会話をすることができます。",
+        "また相手のブラウザやアプリに配信することでオンライン環境でもイベントや講演会でリアルタイム字幕を簡単に提供することができます。",
+        "記録は音声と一緒に保存できる（※iOS版のみ）ので議事録や講演録の作成など幅広く様々な業務に活用することもできます。"
+      ]
+    },
+    {
+      "id": "u6",
+      "title": "短期利用&イベント向け：コンパクトプラン",
+      "publisher": "Shamrock Records",
+      "url": "https://udtalk.jp/compact/",
+      "type": "pricing",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Compact Plan (UD Talk)",
+      "quotes": [
+        "利用料（一週間）¥480 → ¥300（自動更新登録）※2025年2月6日より",
+        "利用料（一ヶ月）¥980 → ¥500（自動更新登録）※2025年2月6日より",
+        "①法人向けプラン用の日本語音声認識サーバーに接続します。音声データの収集、再利用はしません。",
+        "④サポートは、オンラインマニュアルのみのご提供となります。メール、電話等のサポートは行いません。",
+        "例えばイベント等で字幕を配信するときは、音響機器に接続して使用する端末のみコンパクトプランを購入しておけばプロジェクタ出力と手元で閲覧することができます。"
+      ]
+    },
+    {
+      "id": "u7",
+      "title": "【法人向けプラン】",
+      "publisher": "Shamrock Records",
+      "url": "https://udtalk.jp/price/",
+      "type": "pricing",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Corporate plans (UD Talk)",
+      "quotes": [
+        "年間利用料¥324,000（税込¥356,400）",
+        "年間利用料¥888,000（税込¥976,800）",
+        "年間利用料¥216,000（税込¥237,600）",
+        "年間利用料¥117,600（税込¥129,360）",
+        "「字幕エディター Lite」で毎月10時間の音声・動画ファイルからの認識結果作成"
+      ]
+    },
+    {
+      "id": "u8",
+      "title": "法人向けプラン&アプリ導入プログラムとは？",
+      "publisher": "Shamrock Records",
+      "url": "https://udtalk.jp/biz/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Plans for organisations (UD Talk)",
+      "quotes": [
+        "ただし官公庁、地方自治体及び教育機関に関しては無料版の使用を利用規約（第５条の④）で禁止しておりますので、法人向けプランもしくはアプリ導入プログラムのご利用をよろしくおねがいします。",
+        "無料版との大きな違いは音声データの取り扱いで、法人向けプラン／アプリ導入プログラム／コンパクトプランでは音声データを全て破棄します。",
+        "A.無料版をお使いいただけます。インストールしてどんどんご活用ください。",
+        "UDトークは「無料版」「コンパクトプラン」「アプリ導入プログラム」の個別サポートは行っていません。",
+        "法人向けプランを契約することで正式なサポートを受けることができます。"
+      ]
+    },
+    {
+      "id": "u9",
+      "title": "UDトーク®利用規約（一般）",
+      "publisher": "Shamrock Records",
+      "url": "https://udtalk.jp/license_of_app/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Terms of use (UD Talk)",
+      "quotes": [
+        "本アプリは、音声をサーバに送信して認識を行います。",
+        "本アプリに入力されるお客様の音声及び音声から生成されるテキストデータ（ユーザーが編集したテキストデータは含まない）については、音声認識精度向上及び当社のサービス品質向上及び開発のために収集、分析、再利用します。",
+        "官公庁、地方自治体及び教育機関（幼稚園、小学校、中学校、高等学校、中等教育学校、特別支援学校、大学及び高等専門学校）がその業務のために本アプリを利用すること及び公共施設の管理者が、当該施設の業務のために本アプリを利用すること",
+        "（ただし、これら機関における防災に関する業務、防災に関する行事及び災害時に開設される避難拠点における利用は除く）"
+      ]
+    },
+    {
+      "id": "u10",
+      "title": "よくあるご質問",
+      "publisher": "Shamrock Records",
+      "url": "https://udtalk.jp/question/",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "FAQ (UD Talk)",
+      "quotes": [
+        "UDトークの音声認識や多言語翻訳はインターネット上のサーバーで行っております。したがって音声認識や多言語翻訳を利用するにはインターネット接続が必要です。",
+        "UDトークはスマートフォン・タブレットのアプリとして動作します。パソコン版（Windows、Mac）は誤認識の訂正用のソフトウェアとなります。音声認識機能は実装されておりません。"
+      ]
+    },
+    {
+      "id": "u11",
+      "title": "技術について",
+      "publisher": "Shamrock Records",
+      "url": "https://udtalk.jp/tech/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Technology (UD Talk)",
+      "quotes": [
+        "UDトークでは株式会社アドバンスト・メディアの高精度日本語音声認識エンジン「AmiVoice（アミボイス）」を採用しております。",
+        "無料版では日本語以外の言語はOS提供の音声認識エンジンを使用しております。つまりiOSであればApple、AndroidであればGoogleを使用しております。",
+        "無料版のアプリでは「Google翻訳」を実装しています。",
+        "初等教育のグレードに合わせて未習得漢字をひらがなに置き換える機能があります。"
+      ]
+    },
+    {
+      "id": "u12",
+      "title": "ダウンロード",
+      "publisher": "Shamrock Records",
+      "url": "https://udtalk.jp/download/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Download page (UD Talk)",
+      "quotes": [
+        "UDトーク for Amazon Kindle",
+        "また音声認識の間違えた結果もスムーズに修正してリアルタイムに字幕を作ることができます。",
+        "またプロジェクタ出力用の画面を出したり、ZoomやOBSで読み込める「UDトーク カメラ」として出力もできます。",
+        "PC版は単体では動作しません"
+      ]
+    },
+    {
+      "id": "u13",
+      "title": "【トピック】意外に知られていないこと5つ",
+      "publisher": "Shamrock Records",
+      "url": "https://udtalk.jp/post-4891/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Five things few people know (UD Talk)",
+      "quotes": [
+        "アプリ内でさっと単語登録、ウェブ経由でしっかり単語登録、と２つの方法を押さえていただければいいかと思います。",
+        "ただし単語登録できるのは音声認識エンジンをAmiVoiceで使用している時のみです。",
+        "iOS版のみですがiOSのオフライン音声認識エンジを使用できます。"
+      ]
+    },
+    {
+      "id": "u14",
+      "title": "【トピック】ライブキャプション機能とUDトークの立ち位置",
+      "publisher": "Shamrock Records",
+      "url": "https://udtalk.jp/a20250917/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Live Captions and UD Talk (UD Talk)",
+      "quotes": [
+        "UDトークは、準備ができる環境でかつ「話し手が意識して話して使う」方にフォーカスしていきます。",
+        "ぜひこれまで「聞き手が持って見て使う」用途だった方は、iOS26からのライブキャプションを積極的にお使いください。"
+      ]
+    },
+    {
+      "id": "u15",
+      "title": "【トピック】UDトークは誰が話したか判別できますか？（※実装済み）",
+      "publisher": "Shamrock Records",
+      "url": "https://udtalk.jp/post-3351/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Can UD Talk tell who spoke? (UD Talk)",
+      "quotes": [
+        "（追記）こちら事前登録が必要など機能に制限はありますが実装済みです。",
+        "でもそれはUDトークには採用をしていません。",
+        "簡単なことです、名前を登録しておいて話す前に「名乗ればいい」これだけのことです。",
+        "ちなみにそれぞれがスマホを持って話した場合はちゃんとそのUDトークに設定した「名前」で話者名が振られます。"
+      ]
+    },
+    {
+      "id": "u16",
+      "title": "【新機能】「ウェブで公開」をリリースしました！",
+      "publisher": "Shamrock Records",
+      "url": "https://udtalk.jp/post-3951/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Publish on the web (UD Talk)",
+      "quotes": [
+        "簡単にいうとUDトークインストールしなくても内容をブラウザで見れます。"
+      ]
+    },
+    {
+      "id": "u17",
+      "title": "【新機能】ウェブで公開画面にフルスクリーンモードを追加",
+      "publisher": "Shamrock Records",
+      "url": "https://udtalk.jp/post-4633/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Full-screen web view (UD Talk)",
+      "quotes": [
+        "背景色や文字の大きさ、話者名を出すかどうかなどは設定（右上のボタン）で変えれますのでそれもお試しください。"
+      ]
+    },
+    {
+      "id": "u18",
+      "title": "新機能「シアターモード」をリリースしました",
+      "publisher": "Shamrock Records",
+      "url": "https://udtalk.jp/post-3313/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Theater Mode (UD Talk)",
+      "quotes": [
+        "話者や手話通訳と一緒に字幕を見ることができます。"
+      ]
+    },
+    {
+      "id": "u19",
+      "title": "新機能、トークの公開時に「編集を許可」を追加",
+      "publisher": "Shamrock Records",
+      "url": "https://udtalk.jp/post-3267/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Shared talks with editing (UD Talk)",
+      "quotes": [
+        "今回はトークを公開するに「発言を許可」「閲覧のみ」に加え「編集を許可」のモードを追加しました。"
+      ]
+    },
+    {
+      "id": "u20",
+      "title": "【重要】ZOOMとの連携の正しい設定方法",
+      "publisher": "Shamrock Records",
+      "url": "https://udtalk.jp/post-3901/",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Zoom set-up (UD Talk)",
+      "quotes": [
+        "複数人で使うときもAPIトークンを設定するのは１台だけです。",
+        "このとき喋った端末の話者名もホストのUDトークに送られそこからZOOMに送られ表示されます。"
+      ]
+    },
+    {
+      "id": "u21",
+      "title": "【新機能】トークの内容を聞く（音声をファイルで保存する）",
+      "publisher": "Shamrock Records",
+      "url": "https://udtalk.jp/post-3217/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Saving the audio (UD Talk)",
+      "quotes": [
+        "ICレコーダーのように録音できるようになり、さらに音声プレーヤーとしては1.5倍速で再生できたり5秒戻す進むなど文字起こしに適した機能を実装しています。"
+      ]
+    },
+    {
+      "id": "u22",
+      "title": "【トピック】会話ログの画面表示について",
+      "publisher": "Shamrock Records",
+      "url": "https://udtalk.jp/a20251016/",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Conversation logs (UD Talk)",
+      "quotes": [
+        "ですが実際に会話ログが消えたわけではなく「隠している」のでメニューの「会話ログをメールで送信する」や「会話ログを共有する」で隠れている全ての会話ログを保存することができます。",
+        "この時も削除されたわけではないのでメニューの「過去の会話ログ」で日付を指定して会話ログを保存することができます。",
+        "これはUDトークが「記録をする方に特化しているアプリ」なのでこういう仕様にしています。"
+      ]
+    },
+    {
+      "id": "u23",
+      "title": "字幕エディター for YouTube & ファイル",
+      "publisher": "Shamrock Records",
+      "url": "https://udtalk.jp/jimakueditor/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Subtitle Editor (UD Talk)",
+      "quotes": [
+        "１画面で動画や音声データ（ローカル保存のファイルも対応）を聴きながらUDトークのログの修正ができるウェブアプリです。",
+        "ファイルからの音声認識をする機能も実装しています（AmiVoice Cloud Platformを利用した従量課金製）。",
+        "「字幕エディター for ファイル」では話者を10人まで識別してラベルをつけることができます。"
+      ]
+    },
+    {
+      "id": "u24",
+      "title": "会話ログまたは字幕ファイルから要約する（ベータ版）",
+      "publisher": "Shamrock Records",
+      "url": "https://udtalk.jp/youyaku/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Summary tool, beta (UD Talk)",
+      "quotes": [
+        "UDトークの会話ログ（.csv）または字幕ファイル（.srt）を読み込ませて内容を要約するアプリです。",
+        "要約にはChatGPTを使用しています。"
+      ]
+    },
+    {
+      "id": "u25",
+      "title": "【アプリ導入プログラム】",
+      "publisher": "Shamrock Records",
+      "url": "https://udtalk.jp/rfo/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "App Introduction Program (UD Talk)",
+      "quotes": [
+        "下記の条件でお申し込みいただくことで法人向けプランを無償提供を受けることができるプログラムです。",
+        "２．UDトークを導入している団体として当社ウェブサイトやUDトーク導入事例マップ、facebookページ上で公開します。",
+        "３．法人向けプラン（スタンダードプラン相当）のアカウントを1つ貸与します。"
+      ]
+    },
+    {
+      "id": "u26",
+      "title": "【意思疎通支援者向けアカウント提供プログラム】",
+      "publisher": "Shamrock Records",
+      "url": "https://udtalk.jp/ishisotsu/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Accounts for interpreters (UD Talk)",
+      "quotes": [
+        "現在自治体に「手話通訳」または「要約筆記」として自治体の派遣事業に登録している個人の方向けにUDトークの法人向けプランのアカウントを無償で提供するプログラムを開始しました。"
+      ]
+    },
+    {
+      "id": "u27",
+      "title": "イベント向け：運用を依頼する",
+      "publisher": "Shamrock Records",
+      "url": "https://udtalk.jp/partners/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Event partners (UD Talk)",
+      "quotes": [
+        "イベントでの字幕配信などのUDトークの運用を受託していただけるパートナー企業です。",
+        "リスピーカーと呼ばれる担当者が代わりに復唱入力することでUDトークで文字を出していく手法です。"
+      ]
+    },
+    {
+      "id": "u28",
+      "title": "【トピック】言語設定の日本語表記とネイティブ言語表記",
+      "publisher": "Shamrock Records",
+      "url": "https://udtalk.jp/post-4196/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Language settings list (UD Talk)",
+      "quotes": [
+        "UDトークで選択可能な音声認識と翻訳の言語設定の日本語表記とネイティブ言語表記の一覧です。"
+      ]
+    },
+    {
+      "id": "u29",
+      "title": "UDトーク language settings (spreadsheet linked from udtalk.jp, December 2020)",
+      "publisher": "Shamrock Records",
+      "url": "https://docs.google.com/spreadsheets/d/1m9vcVrUWV42iz7Gv-Vk-P4vnsh_NArXy6qFmG6XJVMs/edit?usp=sharing",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Language list, 2020 (UD Talk)",
+      "quotes": [
+        "日本(日本語)",
+        "アイルランド(英語)"
+      ]
+    },
+    {
+      "id": "u30",
+      "title": "Android版も多言語音声認識でGoogle Cloudを採用",
+      "publisher": "Shamrock Records",
+      "url": "https://udtalk.jp/a20261021/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Multilingual recognition on Android (UD Talk)",
+      "quotes": [
+        "法人向け・コンパクトプランの多言語の音声認識を従来のAndroid表中からGoogle Cloudを使ったものに実装を変更しました。",
+        "見分け方としては無料版はタップして話すボタンのラベルにAndroidとあります。"
+      ]
+    },
+    {
+      "id": "u31",
+      "title": "About UDTalk",
+      "publisher": "Shamrock Records",
+      "url": "https://udtalk.jp/en/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "About UDTalk (English)",
+      "quotes": [
+        "UDTalk is free application.",
+        "After installing and agreeing to licence, only tap “Tap to talk” button.",
+        "When you finish with speaking, you have to tap to stop speech recognition."
+      ]
+    },
+    {
+      "id": "u33",
+      "title": "【新機能】フォント「UDデジタル教科書体」を追加しました",
+      "publisher": "Shamrock Records",
+      "url": "https://udtalk.jp/post-4649/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "UD fonts (UD Talk)",
+      "quotes": [
+        "iOS版 ver.164で読みやすいと評判のフォント「UDデジタル教科書体」を選択できるようにしました。",
+        "トーク設定で以前から採用しているUDフォント「みんなの文字」も選ぶことができますのでお好みに合わせてご利用下さい。"
+      ]
+    },
+    {
+      "id": "u35",
+      "title": "【アプリ】「公開辞書の選択」と「録音のオンオフ（※iOS版のみ）」",
+      "publisher": "Shamrock Records",
+      "url": "https://udtalk.jp/post-4744/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Public dictionaries and recording (UD Talk)",
+      "quotes": [
+        "トーク画面から「公開辞書の選択」と「録音のオンオフ（※iOS版のみ）」をさっと切り替えれる機能を実装しました。"
+      ]
+    },
+    {
+      "id": "u36",
+      "title": "【トピック】まとめ！UDトークとZOOMでリアルタイム字幕",
+      "publisher": "Shamrock Records",
+      "url": "https://udtalk.jp/post-3813/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "UD Talk and Zoom (UD Talk)",
+      "quotes": [
+        "■１つ目はPCやiPadの横に置いて「自分の声とZOOMからの出音」を音声認識させます。"
+      ]
+    },
+    {
+      "id": "u37",
+      "title": "単語登録",
+      "publisher": "Shamrock Records",
+      "url": "https://udtalk.jp/registering_word/",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Word registration (UD Talk)",
+      "quotes": [
+        "UDトークはアプリ内で単語登録ができますが、ウェブからアクセスできる単語登録機能を使って単語を管理することができます。",
+        "初めてご利用になる方はまずはアカウントを作成してください（メールで認証後にアカウントが有効になります）。"
+      ]
+    },
+    {
+      "id": "u38",
+      "title": "UDTalk (App Store lookup data, US)",
+      "publisher": "Apple",
+      "url": "https://itunes.apple.com/lookup?id=666188441&country=us",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "App Store data (US)",
+      "quotes": [
+        "\"resultCount\":1",
+        "\"trackName\":\"UDTalk\""
+      ]
+    },
+    {
+      "id": "u39",
+      "title": "特定商取引法に基づく表示",
+      "publisher": "Shamrock Records",
+      "url": "https://udtalk.jp/display/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Legal notice (UD Talk)",
+      "quotes": [
+        "東京都練馬区練馬1-19-2 Nerikita bldg 202"
+      ]
+    },
+    {
+      "id": "u40",
+      "title": "【トピック】教育機関での使い方、あってますか？",
+      "publisher": "Shamrock Records",
+      "url": "https://udtalk.jp/post-3859/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Using UD Talk in schools (UD Talk)",
+      "quotes": [
+        "学校が導入してサポートをすると言うことはどういうことか？と言うと「先生が使う」ということです。",
+        "学生さんはオンラインの授業を見ながらスマホのUDトークで字幕を見ます。"
+      ]
+    }
+  ],
+  "notes": "Conflicts: (1) Price: the Japanese App Store description still says the Compact Plan is 980 yen a month or 480 yen a week with a 3-day trial, but the same listing's In-App Purchases list shows ¥500 (1 month) and ¥300 (1 week), Google Play's description says 500 and 300 yen, and the Compact Plan page says the price fell to ¥500 and ¥300 (its heading says from 6 February 2022, its price lines say from 6 February 2025). The plan comparison table on udtalk.jp/compare2/ is an image from August 2024 that still shows ¥980/¥480. The table uses the In-App Purchases list. (2) Offline: the FAQ says recognition and translation need internet; the 'five things' post says the iOS app can use Apple's offline engine. Both are reflected. (3) Speaker identification: the 2018 post says voiceprint identification was not adopted; an undated note added to it (last updated 2 February 2022) says identification needing advance registration is now implemented, without details; the Subtitle Editor for files labels up to 10 speakers. Marked not_stated for remembering voices. (4) Apple Watch: the Japanese App Store lists Apple Watch (watchOS 9.0) as compatible; a 2015 post announced a Watch version. A 2020 developer reply in App Store reviews said it was withdrawn; reviews are not used, so the Watch is only mentioned as listed. Not found: a current language count (only the December 2020 settings list, opened as CSV export, 173 rows); the Android version needed; anything about sound alerts, phone calls or sign language. The online manual (teachme.jp/r/udtalk) is a JavaScript app and could not be read with curl, so manual details come from udtalk.jp posts. Not used: download, organisation and school counts on the home page, App Store and Google Play ratings and reviews; the October 2026 outage (a ransomware attack on the data centre provider IDC Frontier; web-publish URLs had to be reissued, per udtalk.jp/a20261007/). The app also has a keyboard for dictating into other apps and text-to-speech using the phone's own voices (udtalk.jp/about/, udtalk.jp/tech/); not in the table. All pages opened 2026-11-02 with curl (udtalk.jp searched through its WordPress search API).",
+  "icon": "/compare/icons/ud-talk.png"
+}

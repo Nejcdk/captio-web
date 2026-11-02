@@ -1,0 +1,441 @@
+{
+  "slug": "mitreden",
+  "name": "Mitreden",
+  "shortName": "Mitreden",
+  "developer": "Tobias Kazek",
+  "developerCountry": "Germany (Winden)",
+  "website": "https://github.com/TobiasKazekDev/mitreden-web",
+  "appStoreUrl": "https://apps.apple.com/de/app/mitreden/id6826181167",
+  "googlePlayUrl": null,
+  "category": "in-person-captions",
+  "oneLine": "A free German iPhone and iPad app for people whose hearing is fading and the family around them: one red button, and what is said appears in large white type on black, in German or English.",
+  "facts": {
+    "platforms": {
+      "status": "yes",
+      "text": "iPhone, iPad",
+      "detail": "Made for iPhone and iPad. The App Store also lists Macs with Apple M1 or later and Apple Vision, where the iPad version runs (\"not verified for macOS\"). A Google Play search for the developer finds no app.",
+      "sources": [
+        "s1",
+        "s6"
+      ]
+    },
+    "deviceRequirements": {
+      "status": "yes",
+      "text": "iOS 17 or later",
+      "detail": "iPhone needs iOS 17.0 or later and iPad needs iPadOS 17.0 or later.",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    "roomCaptions": {
+      "status": "yes",
+      "text": "Yes, tap the red button and speak",
+      "detail": "Tap the red button to start and tap again to finish. In Live mode the words appear while the person is still speaking, word by word like subtitles.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "groupConversations": {
+      "status": "partial",
+      "text": "Made for the table; text turns 180°",
+      "detail": "Built for conversations at the table: the text can be turned 180° for the person opposite, and you can type a reply. Its pages don't describe telling several speakers apart.",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    },
+    "languages": {
+      "status": "yes",
+      "text": "German or English (the device's language)",
+      "detail": "It recognises speech in the language the iPhone or iPad is set to: German or English. You don't pick a caption language in the app.",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    },
+    "offline": {
+      "status": "no",
+      "text": "No, needs internet",
+      "detail": "Speech recognition needs an internet connection. Its help page tells you to check the connection first when the app recognises nothing.",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    },
+    "speakerLabels": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "The App Store description and help page don't mention showing who is talking.",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    },
+    "voiceNames": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "sources": []
+    },
+    "speakerDirection": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "sources": []
+    },
+    "translation": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Its pages describe captions in the device's language only, with no translation.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "saveTranscripts": {
+      "status": "partial",
+      "text": "Last 10 texts, on the device",
+      "detail": "The last 10 texts come back with one tap. They are stored only on the device and can be cleared with \"Verlauf leeren\" (clear history). The recording itself is not saved.",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    "export": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Its pages don't describe sharing or exporting texts.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "fileUpload": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Its pages describe live speech from the microphone, not audio or video files.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "summaries": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "sources": []
+    },
+    "customWords": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "sources": []
+    },
+    "display": {
+      "status": "yes",
+      "text": "Large white text on black; size adjustable",
+      "detail": "Text is shown large in white on black. In Live mode you set the size yourself; in Large mode the text fills the whole screen in the biggest possible type once the person has finished speaking. The text can be turned 180° for the person opposite.",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    "soundAlerts": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Its pages don't describe alerts for sounds like a doorbell or an alarm.",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    },
+    "phoneCalls": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Its pages describe conversations in the room, not phone calls.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "videoCalls": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "sources": []
+    },
+    "mediaOnDevice": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "sources": []
+    },
+    "humanCaptioners": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "sources": []
+    },
+    "signLanguage": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "sources": []
+    },
+    "privacy": {
+      "status": "yes",
+      "text": "Apple's speech recognition; audio goes to Apple",
+      "detail": "The app uses Apple's speech recognition, so the recording is sent to Apple and processed there. The developer receives neither the recording nor the text, the app doesn't store the recording, and texts stay on the device. The App Store privacy label says no data is collected.",
+      "sources": [
+        "s1",
+        "s3",
+        "s5"
+      ]
+    },
+    "account": {
+      "status": "no",
+      "text": "No account",
+      "detail": "No account, no ads and no analytics.",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    "availability": {
+      "status": "yes",
+      "text": "App Store: Germany, Austria, Switzerland and more",
+      "detail": "Listed on the German, Austrian and Swiss App Stores (November 2026). The app's menus are in German and English. Not on Google Play.",
+      "sources": [
+        "s2",
+        "s7",
+        "s8",
+        "s6"
+      ]
+    },
+    "freePlan": {
+      "status": "yes",
+      "text": "Free, no in-app purchases listed",
+      "detail": "Free on the German App Store (November 2026), with no in-app purchases listed and no limit described.",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    "price": {
+      "status": "no",
+      "text": "No paid plan",
+      "detail": "No subscription or in-app purchase is listed on the German App Store (November 2026).",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    "accessibilityFunding": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "sources": []
+    }
+  },
+  "strengths": [
+    {
+      "text": "Made for people who hear poorly or not at all and for those who talk with them: one red button, and what is said appears in large white type on black.",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "text": "Large mode fills the whole screen with the biggest possible type, and the text turns 180° for the person sitting opposite.",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    },
+    {
+      "text": "Free, with no account, no ads and no analytics; the developer receives neither the recording nor the text.",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "text": "You can type a text instead of speaking, when it has to be quiet or something needs correcting.",
+      "sources": [
+        "s1"
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "text": "Needs an internet connection, because it uses Apple's speech recognition and the recording is sent to Apple.",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "text": "Recognises German or English only, whichever language the device is set to.",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    },
+    {
+      "text": "Keeps only the last 10 texts on the device; sharing or exporting is not described.",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "text": "Runs on iPhone and iPad with iOS 17 or later; there is no Android app.",
+      "sources": [
+        "s1",
+        "s6"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Mitreden (App Store, Germany)",
+      "publisher": "Apple App Store",
+      "url": "https://apps.apple.com/de/app/mitreden/id6826181167",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "App Store listing (Germany)",
+      "quotes": [
+        "Gespräche mitlesen statt hören",
+        "Wenn das Hören nachlässt, ziehen sich viele aus Gesprächen zurück – am Familientisch, beim Besuch, beim Arzt.",
+        "Mitreden holt sie zurück ins Gespräch: Was gesagt wird, erscheint sofort in großer weißer Schrift auf schwarzem Grund.",
+        "Gemacht für alle, die schlecht oder gar nicht mehr hören: Großeltern, Menschen mit Hörgerät, schwerhörige und gehörlose Menschen – und alle, die mit ihnen sprechen.",
+        "Auf den roten Knopf tippen und sprechen",
+        "Noch einmal tippen – fertig",
+        "Live-Modus: Der Text erscheint schon beim Sprechen, Wort für Wort wie Untertitel. Die Schriftgröße stellen Sie selbst ein.",
+        "Groß-Modus: Nach dem Sprechen füllt der Text den ganzen Bildschirm in der größtmöglichen Schrift.",
+        "Text um 180° drehen – für die Person gegenüber",
+        "Text eintippen, wenn es leise sein muss oder etwas korrigiert werden soll",
+        "Die letzten 10 Texte mit einem Tipp wieder anzeigen",
+        "Für iPad und iPhone",
+        "Mitreden hat kein Konto, keine Werbung und keine Analyse. Ihre Texte bleiben auf Ihrem Gerät. Zur Spracherkennung nutzt die App die Spracherkennung von Apple; dafür wird die Aufnahme an Apple übertragen.",
+        "Für die Spracherkennung wird eine Internetverbindung benötigt. Erkannt wird in der Sprache des Geräts: Deutsch oder Englisch.",
+        "Kostenlos",
+        "Entwickelt für iPad. Nicht für macOS überprüft.",
+        "Erfordert iOS 17.0 oder neuer.",
+        "Erfordert iPadOS 17.0 oder neuer.",
+        "Erfordert macOS 14.0 (oder neuer) und einen Mac mit Apple M1-Chip (oder neuer).",
+        "Erfordert visionOS 1.0 oder neuer.",
+        "Keine Daten erfasst",
+        "Der Entwickler erfasst keine Daten von dieser App.",
+        "Verwendung von aktuellen Sprach-Modellen.",
+        "Tobias Kazek hat sich nicht als Händler für diese App ausgewiesen."
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Mitreden (App Store lookup data, Germany)",
+      "publisher": "Apple",
+      "url": "https://itunes.apple.com/lookup?id=6826181167&country=de",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "App Store data (Germany)",
+      "quotes": [
+        "\"minimumOsVersion\":\"17.0\"",
+        "\"formattedPrice\":\"Gratis\"",
+        "\"languageCodesISO2A\":[\"EN\", \"DE\"]",
+        "\"releaseDate\":\"2026-10-27T07:00:00Z\"",
+        "\"version\":\"1.1\"",
+        "\"sellerName\":\"Tobias Kazek\""
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Datenschutzerklärung für die App „Mitreden“",
+      "publisher": "Tobias Kazek (GitHub)",
+      "url": "https://github.com/TobiasKazekDev/mitreden-web/blob/main/Datenschutz.md",
+      "type": "privacy",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Mitreden privacy policy (German)",
+      "quotes": [
+        "Stand: 23. Oktober 2026",
+        "76872 Winden",
+        "Mitreden erhebt keine personenbezogenen Daten. Es gibt kein Benutzerkonto, keine Werbung, kein Tracking und keine Analysewerkzeuge. Die angezeigten Texte bleiben auf Ihrem Gerät.",
+        "Wenn Sie eine Aufnahme starten, nutzt Mitreden das Mikrofon Ihres Geräts und die Spracherkennung von Apple (Speech-Framework von iOS bzw. iPadOS), um das Gesprochene in Text umzuwandeln. Dafür kann die Aufnahme an Apple übertragen und dort verarbeitet werden. Wir als Anbieter der App erhalten weder die Aufnahme noch den erkannten Text.",
+        "Die Aufnahme wird von Mitreden nicht gespeichert.",
+        "die letzten 10 angezeigten Texte (Verlauf),",
+        "Ihre Einstellungen (Live-Modus, Schriftgröße, gedrehte Anzeige).",
+        "Sie können den Verlauf in der App jederzeit über „Verlauf leeren“ löschen; beim Löschen der App werden alle Daten entfernt."
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Mitreden: Hilfe & Kontakt",
+      "publisher": "Tobias Kazek (GitHub)",
+      "url": "https://github.com/TobiasKazekDev/mitreden-web/blob/main/index.md",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Mitreden help page",
+      "quotes": [
+        "Mitreden zeigt Gesprochenes in großer, klarer Schrift – damit alle, die schlecht hören, wieder am Gespräch teilhaben können.",
+        "Die Spracherkennung braucht eine Internetverbindung.",
+        "Deutsch und Englisch – je nach Sprache des Geräts.",
+        "Tippen Sie auf den Knopf mit dem Drehpfeil rechts unten.",
+        "Speech recognition requires an internet connection and works in English and German, depending on your device language."
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Privacy Policy for the App “Mitreden”",
+      "publisher": "Tobias Kazek (GitHub)",
+      "url": "https://github.com/TobiasKazekDev/mitreden-web/blob/main/privacy.md",
+      "type": "privacy",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Mitreden privacy policy (English)",
+      "quotes": [
+        "Last updated: October 23, 2026",
+        "Mitreden does not collect any personal data. There is no user account, no advertising, no tracking and no analytics. The texts shown stay on your device.",
+        "For this, the recording may be sent to and processed by Apple. We as the provider of the app receive neither the recording nor the recognized text.",
+        "Mitreden does not store the recording."
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Google Play search for \"Tobias Kazek\" (Germany)",
+      "publisher": "Google Play",
+      "url": "https://play.google.com/store/search?q=%22Tobias%20Kazek%22&c=apps&hl=de&gl=DE",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Google Play search",
+      "quotes": [
+        "Keine Ergebnisse für",
+        "\"Tobias Kazek\""
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Mitreden (App Store lookup data, Austria)",
+      "publisher": "Apple",
+      "url": "https://itunes.apple.com/lookup?id=6826181167&country=at",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "App Store data (Austria)",
+      "quotes": [
+        "\"trackName\":\"Mitreden\"",
+        "\"formattedPrice\":\"Gratis\"",
+        "\"currency\":\"EUR\""
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "Mitreden (App Store lookup data, Switzerland)",
+      "publisher": "Apple",
+      "url": "https://itunes.apple.com/lookup?id=6826181167&country=ch",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "App Store data (Switzerland)",
+      "quotes": [
+        "\"trackName\":\"Mitreden\"",
+        "\"formattedPrice\":\"Gratis\"",
+        "\"currency\":\"CHF\""
+      ]
+    }
+  ],
+  "notes": "Released 27 Oct 2026, version 1.1 on 1 Nov 2026 (release note: 'Verwendung von aktuellen Sprach-Modellen.', i.e. it now uses current speech models; the description still says an internet connection is needed, so the table keeps 'needs internet'). Website: the app has no seller URL and no live website. The App Store links its privacy policy to a GitHub repository (TobiasKazekDev/mitreden-web, created 23 Oct 2026) that holds a help page (index.md), a German and an English privacy policy; the privacy policy says the site is served through GitHub Pages, but tobiaskazekdev.github.io/mitreden-web returned 404 on 2026-11-02, so the GitHub files are cited. They were read through raw.githubusercontent.com (same content as the cited github.com URLs, which return 200). Developer: Tobias Kazek, Winden (postcode 76872), per the privacy policy; the App Store says he has not registered as a trader. Not stated anywhere: speaker labels or voice names, translation, export, file transcription, summaries, custom words, sound alerts, calls, sign language, any limit on use. Free: no in-app purchases appear on the German App Store page (hasInAppPurchases false for Mitreden in the page data). Availability: the lookup API also returned the app in the US, UK, France, Italy, the Netherlands and Slovenia (2026-11-02); only DE, AT and CH are cited. Google Play: searches for 'Mitreden' (unrelated apps only) and '\"Tobias Kazek\"' (no results) find no app; play.google.com/store/apps/details?id=com.tokadev.mitreden returns 404. Web searches found no press or other pages about the app. The App Store also shows it as an iPad app on Apple silicon Macs and Apple Vision ('Nicht für macOS überprüft'); the table lists iPhone and iPad, as the developer does. Ratings shown on the App Store were not used. Pages opened 2026-11-02 with curl.",
+  "icon": "/compare/icons/mitreden.png"
+}

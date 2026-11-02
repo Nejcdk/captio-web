@@ -1,0 +1,527 @@
+{
+  "slug": "yinshu",
+  "name": "音书 (Yinshu)",
+  "shortName": "Yinshu",
+  "developer": "Guangzhou Voibook Technology Co., Ltd. (广州音书科技有限公司)",
+  "developerCountry": "China (Guangzhou)",
+  "website": "https://www.voibook.com",
+  "appStoreUrl": "https://apps.apple.com/cn/app/id1188210983",
+  "googlePlayUrl": null,
+  "category": "in-person-captions",
+  "oneLine": "A Chinese communication app for deaf people from Guangzhou, on the App Store since 2017: speech within 4 metres to text, captioned phone and in-app video calls, captions projected onto a big screen, and AI scoring to practise Mandarin pronunciation.",
+  "facts": {
+    "platforms": {
+      "status": "yes",
+      "text": "iPhone, iPad, Android; Mac and Vision Pro",
+      "detail": "The App Store lists iPhone, iPad, Mac (Apple M1 or later) and Apple Vision. Voibook's Android download link goes to Tencent's MyApp store. A web page for showing captions on a big screen signs in by scanning a QR code with the app.",
+      "sources": [
+        "s1",
+        "s3",
+        "s10",
+        "s11"
+      ]
+    },
+    "deviceRequirements": {
+      "status": "yes",
+      "text": "iOS 15 or later",
+      "detail": "iPhone and iPad need iOS 15 or later; a Mac needs macOS 12 and an Apple M1 chip or later. Android requirements are not stated.",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    "roomCaptions": {
+      "status": "yes",
+      "text": "Yes, speech within 4 metres",
+      "detail": "Captions speech within about 4 metres, and sound from a TV, computer or speaker, in meetings, training, classes and when you are out.",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    },
+    "groupConversations": {
+      "status": "partial",
+      "text": "One phone; captions on a big screen",
+      "detail": "One phone picks up what each person within 4 metres says. For large meetings and lectures, the caption display mode (字幕速记) projects the text onto a big screen or a laptop, readable from 10 metres away. Showing who is talking is not described.",
+      "sources": [
+        "s1",
+        "s5",
+        "s11"
+      ]
+    },
+    "languages": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Voibook's pages don't list which spoken languages the captions recognise. A July 2023 update added a dialect service without naming the dialects. The app is in Simplified and Traditional Chinese, and its speech training is for Mandarin.",
+      "sources": [
+        "s1",
+        "s2",
+        "s6"
+      ]
+    },
+    "offline": {
+      "status": "yes",
+      "text": "Yes, offline recognition",
+      "detail": "The September 2023 release notes added offline speech recognition and an offline lifetime card (离线终身卡). The pages don't say what works offline or what the card costs.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "speakerLabels": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Yinshu's feature lists on the App Store and Voibook's caption services page don't say the captions show who is talking.",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    },
+    "voiceNames": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No page describes learning people's voices or showing their names.",
+      "sources": []
+    },
+    "speakerDirection": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No page describes showing where a voice comes from.",
+      "sources": []
+    },
+    "translation": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "In Yinshu's own wording, 翻译 (\"translation\") means turning speech into text. No page describes translating between languages.",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    "saveTranscripts": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Yinshu's feature lists on the App Store and Voibook's caption services page don't describe saving or reopening transcripts.",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    },
+    "export": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Yinshu's feature lists on the App Store and Voibook's caption services page don't describe exporting or sharing transcripts.",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    },
+    "fileUpload": {
+      "status": "partial",
+      "text": "Mentioned in the privacy policy",
+      "detail": "The privacy policy says you can upload videos and cached audio or video files for speech-to-text once photo access is allowed. No feature page describes file transcription.",
+      "sources": [
+        "s9"
+      ]
+    },
+    "summaries": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No page describes AI summaries.",
+      "sources": []
+    },
+    "customWords": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No page describes adding your own words or names.",
+      "sources": []
+    },
+    "display": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No page describes caption size or colour settings. A handwriting board has slider and zoom modes.",
+      "sources": [
+        "s4"
+      ]
+    },
+    "soundAlerts": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Yinshu's feature lists on the App Store and Voibook's caption services page don't mention alerts for sounds like a doorbell or an alarm.",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    },
+    "phoneCalls": {
+      "status": "yes",
+      "text": "Yes, phone call captions",
+      "detail": "Voibook lists phone call captions (\"see\" the other person's voice), and the Android listing describes a phone assistant. The privacy policy says the app can place calls without the phone's dialler. How it works on iPhone and what it costs are not stated.",
+      "sources": [
+        "s4",
+        "s10",
+        "s9"
+      ]
+    },
+    "videoCalls": {
+      "status": "partial",
+      "text": "Its own in-app video calls",
+      "detail": "Video calls inside Yinshu with family and friends: the other person's speech is shown as text, and your typed text is turned into speech for them. Captioned calls work between users who follow each other, in three modes. Captions for other apps' video calls are not described.",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    },
+    "mediaOnDevice": {
+      "status": "yes",
+      "text": "Floating captions over other apps",
+      "detail": "Floating captions are described for livestreams, Douyin and the news. The listing also covers TV, computer and speaker sound picked up by the microphone. The pages don't say whether floating captions work on iPhone.",
+      "sources": [
+        "s4",
+        "s10",
+        "s1"
+      ]
+    },
+    "humanCaptioners": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No page describes people writing the app's captions. Voibook offers sign language interpreters as a separate service.",
+      "sources": [
+        "s7"
+      ]
+    },
+    "signLanguage": {
+      "status": "partial",
+      "text": "Text to sign; interpreting services",
+      "detail": "The release notes mention a text-to-sign-language screen in the app. Voibook also offers online and in-person sign language interpreting and sign language training to institutions and individuals; prices are not stated.",
+      "sources": [
+        "s1",
+        "s7"
+      ]
+    },
+    "privacy": {
+      "status": "partial",
+      "text": "Cloud; data stored in China",
+      "detail": "The privacy policy (February 2023) says personal information collected in China is stored in China. Speech recognition and pronunciation scoring use iFlytek and AISpeech SDKs, and voice data is also used to improve the service. It lists advertising SDKs, and the App Store label lists identifiers and usage data used for tracking. Offline recognition is available.",
+      "sources": [
+        "s9",
+        "s1"
+      ]
+    },
+    "account": {
+      "status": "yes",
+      "text": "Yes, with a mobile phone number",
+      "detail": "Creating an account needs a mobile phone number and a username. A WeChat, Weibo, QQ or Apple account can be linked for sign-in.",
+      "sources": [
+        "s9"
+      ]
+    },
+    "availability": {
+      "status": "yes",
+      "text": "Made for China; App Store elsewhere too",
+      "detail": "The app and website are in Chinese, and Voibook's Android download goes to Tencent's MyApp store. The App Store also lists the app outside mainland China, for example in the US store.",
+      "sources": [
+        "s1",
+        "s3",
+        "s10",
+        "s12"
+      ]
+    },
+    "freePlan": {
+      "status": "partial",
+      "text": "Free download; paid top-ups",
+      "detail": "Free to download, with in-app top-ups. Release notes mention timed translation, extra time for watching videos and a yearly card, but no page says how much is free.",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    "price": {
+      "status": "yes",
+      "text": "Top-ups from CNY 8 to CNY 98",
+      "detail": "China App Store in-app purchases, November 2026: top-ups of CNY 8, 15, 38, 58 and 98 (labelled 3 to 98 yuan of credit). The pages don't say what each top-up buys.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "accessibilityFunding": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Voibook sells caption and sign language services to schools, government service centres, hospitals and other public services, but no page describes a public programme that pays for the app for individuals.",
+      "sources": [
+        "s3",
+        "s5"
+      ]
+    }
+  },
+  "strengths": [
+    {
+      "text": "Speech training scores your Mandarin pronunciation with AI, in pinyin, words, sentences and whole texts.",
+      "sources": [
+        "s1",
+        "s6"
+      ]
+    },
+    {
+      "text": "Phone call captions and in-app video calls where the other person's speech becomes text and your typed text is read out to them.",
+      "sources": [
+        "s4",
+        "s1",
+        "s10"
+      ]
+    },
+    {
+      "text": "The caption display mode projects live text onto a big screen or laptop for lectures and large meetings.",
+      "sources": [
+        "s1",
+        "s5"
+      ]
+    },
+    {
+      "text": "Offline speech recognition was added in 2023.",
+      "sources": [
+        "s1"
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "text": "Voibook's pages don't list which spoken languages or dialects the captions recognise, and describe no translation between languages.",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "text": "An account needs a mobile phone number.",
+      "sources": [
+        "s9"
+      ]
+    },
+    {
+      "text": "The privacy policy lists advertising SDKs, and the App Store label lists data used for tracking.",
+      "sources": [
+        "s9",
+        "s1"
+      ]
+    },
+    {
+      "text": "Its pages don't describe saving, exporting or summarising transcripts.",
+      "sources": [
+        "s4",
+        "s1"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "音书-听障人专用沟通交流工具 (App Store, China)",
+      "publisher": "Apple App Store",
+      "url": "https://apps.apple.com/cn/app/id1188210983",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "软件包含无障碍沟通及言语训练（语音训练）两个板块，采用的语音识别技术可帮助听障人获取4米内人说话信息、电视、电脑、音箱等扬声器的声音。",
+        "1.远距离翻译：可接收4米内的语音，让你在开会、培训、上课、外出交流场合轻松获取每个人说话内容！沟通神器！",
+        "2.视频通话：让你可以跟自己的亲朋好友享受视频沟通！在视频界面翻译对话者语音为文字，你再输入文字翻译成语音发送给对方。",
+        "3.语音训练：运用AI智能评测技术给你发音打分，分为拼音、单词、句子和文章四个训练板块有效提高你的普通话水平！",
+        "4.字幕速记：参与大型会议、课堂讲座，配合音书可投影文字于大屏幕或者笔记本中让你10米外也能获取讲师说话信息！",
+        "设备需装有 iOS 15.0 或更高版本。",
+        "需要 macOS 12.0 或更高版本以及装有 Apple M1 或更高版本芯片的 Mac。",
+        "设备需装有 visionOS 1.0 或更高版本。",
+        "简体中文和繁体中文",
+        "充值3元",
+        "¥8.00",
+        "充值98元",
+        "¥98.00",
+        "用于追踪你的数据",
+        "1.上线离线语音识别；",
+        "3.上线离线终身卡；",
+        "2.新增方言服务；",
+        "1.新增年卡套餐；",
+        "翻译功能计时，以及修正bug",
+        "2.新增看视频送时长",
+        "2.文字转手语界面优化",
+        "字幕视频：相互关注的人可以进行3种模式的字幕通话哦。"
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "音书 (App Store lookup data, China)",
+      "publisher": "Apple",
+      "url": "https://itunes.apple.com/lookup?id=1188210983&country=cn",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "App Store data (China)",
+      "quotes": [
+        "\"sellerName\":\"Guangzhou Voibook Technology Co., Ltd\"",
+        "\"minimumOsVersion\":\"15.0\"",
+        "\"releaseDate\":\"2017-03-17T02:50:14Z\"",
+        "\"formattedPrice\":\"免费\"",
+        "\"languageCodesISO2A\":[\"ZH\", \"ZH\"]"
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "广州音书科技有限公司 - 更美好地联结听障人与健听人",
+      "publisher": "Guangzhou Voibook Technology (音书科技)",
+      "url": "https://www.voibook.com/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Voibook website",
+      "quotes": [
+        "音书APP以及字幕系统为听障群体和机构提供多场景下的语音文字翻译服务",
+        "音书科技通过为学校、政务服务中心、医院、银行、博物馆、图书馆等公共服务机构提供无障碍沟通解决方案，帮助听障人士更好地融入社会生活。",
+        "下载音书APP >>",
+        "广州音书科技有限公司 广州市番禺区南村镇番禺大道北383号"
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "个人字幕服务",
+      "publisher": "Guangzhou Voibook Technology (音书科技)",
+      "url": "https://www.voibook.com/#/product/personal/personal",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Voibook: personal caption services",
+      "quotes": [
+        "提供开会、培训、上课、聚会、购物等多场景的字幕服务",
+        "交流不便时，可以通过手写字幕来表达自己的意思，更有滑条和缩放两种模式可以选择",
+        "一边与家人朋友聊天，一边实时翻译双方对话内容",
+        "随时随地打电话，“看见”对方的声音",
+        "看直播、刷抖音、了解新闻时事"
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "机构字幕服务",
+      "publisher": "Guangzhou Voibook Technology (音书科技)",
+      "url": "https://www.voibook.com/#/product/institution/institution",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Voibook: caption services for institutions",
+      "quotes": [
+        "可以将发言人所说的话实时转化为文字显示在屏幕上，并支持在线编辑",
+        "应用领域：特殊教育学校、会议场景、企业、政府机构",
+        "面向机构提供字幕、手语、听力服务，打造无障碍沟通环境"
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "言语康复服务",
+      "publisher": "Guangzhou Voibook Technology (音书科技)",
+      "url": "https://www.voibook.com/#/product/speech/train",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Voibook: speech training",
+      "quotes": [
+        "采用AI智能语音技术对发音水平进行测试，了解自己的发音水平，并提供专业的言语康复方案，",
+        "通过拼音、词语、句子、文章四大板块，提高言语障碍群体的普通话发音水平"
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "手语服务",
+      "publisher": "Guangzhou Voibook Technology (音书科技)",
+      "url": "https://www.voibook.com/#/product/service/translate",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Voibook: sign language services",
+      "quotes": [
+        "为医院、银行、公检法、博物馆、电影院、图书馆等机构和个人提供线上或线下手语服务",
+        "为医院、银行、地铁、公检法、博物馆、电影院、图书馆等机构和个人提供手语培训服务"
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "关于我们",
+      "publisher": "Guangzhou Voibook Technology (音书科技)",
+      "url": "https://www.voibook.com/#/aboutUs/none",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Voibook: about us",
+      "quotes": [
+        "广州音书科技有限公司注册成立",
+        "获评国家高新技术企业"
+      ]
+    },
+    {
+      "id": "s9",
+      "title": "音书隐私政策",
+      "publisher": "Guangzhou Voibook Technology (音书科技)",
+      "url": "https://pro.voibook.com/html5/privacyPolicy.html",
+      "type": "privacy",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Yinshu privacy policy",
+      "quotes": [
+        "更新时间：2023年02月27日",
+        "当您在音书创建账户时，您需要提供（1）手机号码；并创建（2）用户名，并在音书APP内自行设置密码。",
+        "当您使用第三方平台的账号（微信账号、微博账号、QQ账号、通过Apple账号）登录时，",
+        "您可在开启相册权限后上传您的照片/图片/视频以及本地缓存视音频文件，便于您进行语音转文字、头像更换、保存活动分享二维码，或与客服沟通您所遇到的问题。",
+        "我们收集的语音信息仅作语音转换文字识别实现语训功能服务以及通过所收集的语音信息优化完善用户体验。",
+        "为了避免打断您的录音进程、便于我们检测您的来电状态以及可以在不通过拨号器的情况下发起电话呼叫，我们需要您授权我们调取电话状态权限以及通话记录日志权限。",
+        "我们在中华人民共和国境内运营中收集和产生的个人信息，存储在中国境内，但以下情形除外：",
+        "科大讯飞SDK",
+        "语音识别、语音合成、语音评测",
+        "思必驰DUI SDK",
+        "使用TopOn的广告聚合服务，聚合多家广告平台进行变现"
+      ]
+    },
+    {
+      "id": "s10",
+      "title": "音书 (应用宝, Android)",
+      "publisher": "Tencent MyApp (应用宝)",
+      "url": "https://sj.qq.com/appdetail/com.voibook.voicebook",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Tencent MyApp (Android) listing",
+      "quotes": [
+        "软件包含无障碍沟通、口语训练和听力三大板块",
+        "1.悬浮翻译：可接收4米内的语音，让你在开会、培训、上课、外出交流场合轻松获取每个人说话内容！沟通神器！",
+        "2.电话助理：结合先进语音智能技术，让听力不好的人也能享受与家人电话沟通的幸福。",
+        "5.字幕速记：参与大型会议、课堂讲座，配合音书可投影文字于大屏幕获取讲师说话信息！",
+        "8.5.0",
+        "2026.9.28"
+      ]
+    },
+    {
+      "id": "s11",
+      "title": "音书字幕速记",
+      "publisher": "Guangzhou Voibook Technology (音书科技)",
+      "url": "https://pro.voibook.com/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Yinshu caption display (字幕速记) web page",
+      "quotes": [
+        "扫描二维码登录"
+      ]
+    },
+    {
+      "id": "s12",
+      "title": "音书 (App Store lookup data, US)",
+      "publisher": "Apple",
+      "url": "https://itunes.apple.com/lookup?id=1188210983&country=us",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "App Store data (US)",
+      "quotes": [
+        "\"trackName\":\"音书-听障人专用沟通交流工具\"",
+        "\"formattedPrice\":\"Free\""
+      ]
+    }
+  ],
+  "notes": "Wording: in Yinshu's pages 翻译 ('translation', as in 远距离翻译 and 悬浮翻译) means speech-to-text, not translation between languages; the table treats it that way. Versions: the App Store (China) shows 7.9.0 (3 April 2026), Tencent MyApp shows Android 8.5.0 (28 September 2026), the website footer says 7.6.5. The App Store and MyApp descriptions say it is the internet tool most deaf people in China use, and the about page gives user and institution counts; not used (no user counts). Pricing: the only prices found are the China App Store top-ups (充值3元 CNY 8, 充值6元 CNY 8, 充值12元 CNY 15, 充值30元 CNY 38, 充值50元 CNY 58, 充值98元 CNY 98); what they buy is not stated. Release notes mention timed translation (May 2023), a yearly card and a dialect service (July 2023), earning time by watching videos (September 2023), offline recognition and an offline lifetime card (September 2023). Conflict: Tencent MyApp marks the Android app '无广告' (no ads) from its own scan, while the privacy policy (27 February 2023) lists advertising SDKs (优量汇, TopOn, 穿山甲, 快手联盟, 百度联盟). Android: Voibook's download button links to Tencent MyApp; https://play.google.com/store/apps/details?id=com.voibook.voicebook returned 404 on 2026-11-02; other Chinese Android stores were not checked. App Store availability: the lookup API returned the app for China, the US, Hong Kong, Taiwan and Singapore (US cited). Not found: caption languages, saving, export, summaries, display settings, sound alerts, speaker labels, file transcription beyond the privacy policy line, any public funding for individuals. Not compared: the Yinshu watch app, the AI training app (音书AI训练) and the WeChat mini program. The video tutorial page rendered empty, and the caption display web page (pro.voibook.com) needs a QR login. How opened: voibook.com is a JavaScript app, read in a browser (the product pages each opened by URL and reload); the privacy policy, App Store page, lookup API and MyApp listing with curl. All checked 2026-11-02.",
+  "icon": "/compare/icons/yinshu.png"
+}

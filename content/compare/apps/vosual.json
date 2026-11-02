@@ -1,0 +1,397 @@
+{
+  "slug": "vosual",
+  "name": "Vosual - AI音声認識 文字起こし",
+  "shortName": "Vosual",
+  "developer": "BarrierBreak (takashima noboru)",
+  "developerCountry": "Japan",
+  "website": "https://barrierbreak.sakura.ne.jp/vosual/jp/",
+  "appStoreUrl": "https://apps.apple.com/jp/app/id1303665450",
+  "googlePlayUrl": null,
+  "category": "in-person-captions",
+  "oneLine": "A free Japanese iPhone and iPad app from BarrierBreak that turns speech into text with one button, made to replace written notes (筆談) with people who are hard of hearing.",
+  "facts": {
+    "platforms": {
+      "status": "yes",
+      "text": "iPhone, iPad; no Android",
+      "detail": "Vosual is an iPhone and iPad app. The App Store also lets it run on Apple silicon Macs and Apple Vision Pro as an iPad app, noting it is not verified for macOS. Its website lists iPhone only, and a Google Play search finds no Vosual app.",
+      "sources": [
+        "s3",
+        "s1",
+        "s6"
+      ]
+    },
+    "deviceRequirements": {
+      "status": "yes",
+      "text": "iOS 12 or later",
+      "detail": "The App Store lists iOS 12.0 or later for iPhone and iPadOS 12.0 or later for iPad. The website lists iPhone on iOS 12 to iOS 18 and iOS 26. Use without internet needs a device with an A12 Bionic chip or newer.",
+      "sources": [
+        "s1",
+        "s3",
+        "s4"
+      ]
+    },
+    "roomCaptions": {
+      "status": "yes",
+      "text": "Yes, tap one button and speak",
+      "detail": "Speech picked up by the microphone is turned into text on screen. You start it with a single button (話しかける, \"speak\"), so children and older people can use it; a setting decides whether voice input ends by itself.",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    "groupConversations": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Vosual presents itself as a replacement for written notes between two people. Group conversations are not described.",
+      "sources": []
+    },
+    "languages": {
+      "status": "yes",
+      "text": "Japanese only",
+      "detail": "The website lists Japanese as the supported language and says more languages are planned. The app's own menus are in Japanese and English.",
+      "sources": [
+        "s3",
+        "s1"
+      ]
+    },
+    "offline": {
+      "status": "partial",
+      "text": "Partly: iPhones with an A12 chip or newer",
+      "detail": "The website says Wi-Fi or mobile data is required. The terms say devices with an A12 Bionic chip or newer can also recognise speech offline, possibly less accurately, for people who don't want audio sent to a server.",
+      "sources": [
+        "s3",
+        "s4"
+      ]
+    },
+    "speakerLabels": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Vosual's pages don't describe telling speakers apart.",
+      "sources": []
+    },
+    "voiceNames": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Recognising people by their voice is not described.",
+      "sources": []
+    },
+    "speakerDirection": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Showing where a voice comes from is not described.",
+      "sources": []
+    },
+    "translation": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Vosual's pages describe Japanese speech to Japanese text; translation is not described.",
+      "sources": []
+    },
+    "saveTranscripts": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Saving conversations is not described. The terms say Vosual itself does not collect, store or reuse audio or the converted text.",
+      "sources": []
+    },
+    "export": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Sharing or exporting text is not described.",
+      "sources": []
+    },
+    "fileUpload": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Vosual's pages describe live speech from the microphone, not transcribing audio or video files.",
+      "sources": []
+    },
+    "summaries": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Summaries are not described.",
+      "sources": []
+    },
+    "customWords": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "A word list is not described. A text correction feature lets you fix words on screen.",
+      "sources": []
+    },
+    "display": {
+      "status": "yes",
+      "text": "Text zoom; text area turns around",
+      "detail": "Updates added enlarging and shrinking the text, correcting text by hand, and turning the text area around (so the person opposite can read it). Colour or contrast options are not described.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "soundAlerts": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Alerts for sounds like a doorbell or an alarm are not described.",
+      "sources": []
+    },
+    "phoneCalls": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Captioning phone calls is not described.",
+      "sources": []
+    },
+    "videoCalls": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Captioning video calls is not described.",
+      "sources": []
+    },
+    "mediaOnDevice": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Captioning audio playing on the phone is not described.",
+      "sources": []
+    },
+    "humanCaptioners": {
+      "status": "no",
+      "text": "No, automatic (Apple's speech recognition)",
+      "detail": "The terms say the text comes from Apple's speech recognition engine. No human captioners are described.",
+      "sources": [
+        "s4"
+      ]
+    },
+    "signLanguage": {
+      "status": "no",
+      "text": "No",
+      "detail": "Vosual turns speech into text. Its website recommends it to people looking for a way to communicate other than sign language or written notes.",
+      "sources": [
+        "s3"
+      ]
+    },
+    "privacy": {
+      "status": "yes",
+      "text": "Apple's servers; offline on A12 or newer",
+      "detail": "The terms say audio is sent to Apple's servers to become text and Apple may use it to improve its engine; Vosual itself does not collect, store or reuse audio or text. On A12 Bionic or newer devices it can work offline. The app shows Google AdMob ads, and its App Store privacy label lists identifiers, usage data and diagnostics that may be used to track you.",
+      "sources": [
+        "s4",
+        "s5",
+        "s1"
+      ]
+    },
+    "account": {
+      "status": "no",
+      "text": "None described",
+      "detail": "No sign-up is described. The privacy policy says the only personal information it handles is what you enter when you contact the developer.",
+      "sources": [
+        "s5"
+      ]
+    },
+    "availability": {
+      "status": "yes",
+      "text": "Japanese App Store",
+      "detail": "Listed on the Japanese App Store since November 2017. Apple's store data did not find it in the US, UK, Korean, Taiwanese, Australian or German stores (November 2026). Not on Google Play.",
+      "sources": [
+        "s1",
+        "s2",
+        "s6"
+      ]
+    },
+    "freePlan": {
+      "status": "yes",
+      "text": "Free, with ads",
+      "detail": "Free to download, with no in-app purchases on the Japanese App Store (November 2026). The listing says it contains ads, and the privacy policy names Google AdMob. Usage limits are not described.",
+      "sources": [
+        "s1",
+        "s2",
+        "s5",
+        "s3"
+      ]
+    },
+    "price": {
+      "status": "no",
+      "text": "No paid plan",
+      "detail": "The Japanese App Store lists the app as free with no in-app purchases (November 2026).",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    "accessibilityFunding": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No funding programme is described; the app is free. Its website points businesses to Japan's duty, since 1 April 2024, to provide reasonable accommodation to people with disabilities, and offers Vosual as one way to do that.",
+      "sources": []
+    }
+  },
+  "strengths": [
+    {
+      "text": "One button starts the conversation, so children and older people can use it as a replacement for written notes.",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "text": "It is free, with no in-app purchases on the Japanese App Store.",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "text": "It runs on iPhones and iPads with iOS 12 or later, and offline on devices with an A12 Bionic chip or newer.",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    },
+    {
+      "text": "The text can be enlarged, corrected by hand and turned around for the person opposite.",
+      "sources": [
+        "s1"
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "text": "It captions Japanese only and runs only on Apple devices; there is no Android app.",
+      "sources": [
+        "s3",
+        "s6"
+      ]
+    },
+    {
+      "text": "The website says Wi-Fi or mobile data is required; offline use needs an A12 Bionic chip or newer.",
+      "sources": [
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "text": "It shows Google AdMob ads, and its privacy label lists data that may be used to track you.",
+      "sources": [
+        "s5",
+        "s1"
+      ]
+    },
+    {
+      "text": "Its pages don't describe saving, sharing or translating conversations.",
+      "sources": [
+        "s3",
+        "s1"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Vosual - AI音声認識 文字起こし (App Store, Japan)",
+      "publisher": "Apple App Store",
+      "url": "https://apps.apple.com/jp/app/id1303665450",
+      "type": "store",
+      "label": "App Store listing (Japan)",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "聴覚障害者向けにAIを活用した筆談代わりの文字起こしアプリ",
+        "iPadに対応しています。macOSでは検証されていません。",
+        "しゃべった声をテキスト変換し、筆談代わりのコミュニケーションツールとしてご利用頂けます。",
+        "Vosual（ボジュアル）は、お子様、お年寄り、誰でも簡単に扱えるように、たった１つのボタン操作だけで会話が可能です。",
+        "聴覚障害者との接客対応を検討されている企業、店舗様",
+        "「話しかける」ボタン押下直後の最初の音声が文字表示されない場合がある問題を修正",
+        "A12 Bionicチップ以降搭載デバイスでの音声変換処理調整",
+        "文字表示エリア回転対応",
+        "音声入力自動終了ON/OFF切り替え",
+        "文字拡大縮小機能追加",
+        "文字訂正機能追加",
+        "iOS 12.0以降が必要です。",
+        "iPadOS 12.0以降が必要です。",
+        "macOS 11.0以降とApple M1以降のチップを搭載したMacが必要です。",
+        "visionOS 1.0以降が必要です。",
+        "日本語と英語",
+        "含む 広告",
+        "次のデータは、他社のアプリやウェブサイト間でユーザをトラッキングする目的で使用される場合があります。"
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Vosual - AI音声認識 文字起こし (App Store lookup data, Japan)",
+      "publisher": "Apple",
+      "url": "https://itunes.apple.com/lookup?id=1303665450&country=jp",
+      "type": "store",
+      "label": "App Store data (Japan)",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "\"formattedPrice\":\"無料\"",
+        "\"minimumOsVersion\":\"12.0\"",
+        "\"releaseDate\":\"2017-11-02T02:34:52Z\"",
+        "\"sellerName\":\"takashima noboru\"",
+        "\"artistName\":\"BarrierBreak\"",
+        "\"languageCodesISO2A\":[\"EN\", \"JA\"]"
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Vosual - AI音声認識 文字起こし (BarrierBreak)",
+      "publisher": "BarrierBreak",
+      "url": "https://barrierbreak.sakura.ne.jp/vosual/jp/",
+      "type": "official",
+      "label": "Vosual website",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "令和6年4月1日から事業者による障害のある方への「合理的配慮の提供」が義務化されました",
+        "筆談代わりのツールとして当アプリが聴覚障害のある方への「合理的配慮の提供」の一つとして皆様のお役にも立てますと幸いです。",
+        "Vosual（ボジュアル）は、声（Voice）を見える化（Visualize）する耳の不自由な方のための人工知能（AI）を活用した音声認識アプリです。",
+        "Vosual（ボジュアル）は、お子様、お年寄り、誰でも簡単に扱えるように、たった１つのボタン操作だけで会話が可能です。",
+        "手話、筆談以外のコミュニケーションツールをお探しの方",
+        "動作環境：iPhone(iOS12〜iOS18、iOS26)　Wi-Fiまたはモバイル通信必須",
+        "対応言語：日本語（今後、多国語展開予定）",
+        "価格：無料"
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "ご利用規約 (Vosual terms of use)",
+      "publisher": "BarrierBreak",
+      "url": "https://barrierbreak.sakura.ne.jp/vosual/jp/agreement.html",
+      "type": "official",
+      "label": "Vosual terms of use",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "本アプリの音声認識機能は、Apple社の音声認識エンジンを利用して音声データをテキストに変換し、画面上に表示するためのものとなります。",
+        "本アプリでは、音声データおよび変換後のテキストデータを収集・保存・分析・再利用などに使用することは一切ありません。",
+        "ただし、Apple社の音声認識エンジンを利用している関係上、音声データはApple社のサーバーに送信され、テキスト変換処理が行われます。そのため、Apple社においては音声認識エンジンの学習や精度向上などに活用される可能性があることはご理解ください。",
+        "なお、A12 Bionic以降のチップを搭載したiOSデバイスでは、オフライン環境でも音声認識の利用が可能です。サーバーへの音声データ送信を避けたい場合は、認識精度が低下する可能性はありますが、オフラインでのご利用もご検討ください。"
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "プライバシーポリシー (Vosual privacy policy)",
+      "publisher": "BarrierBreak",
+      "url": "https://barrierbreak.sakura.ne.jp/vosual/jp/policy.html",
+      "type": "privacy",
+      "label": "Vosual privacy policy",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "本サービスにおける個人情報とは、お客様より当方へのお問い合わせ時に入力していただく「氏名」や「メールアドレス」など特定の個人を識別することができる情報をいいます。",
+        "当方がApp Storeで公開しているiOSアプリにおいては、第三者配信の広告サービス（Google AdMob）を利用しています。"
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Google Play search for \"ボジュアル\" (Japan)",
+      "publisher": "Google Play",
+      "url": "https://play.google.com/store/search?q=%22%E3%83%9C%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB%22&c=apps&hl=ja&gl=JP",
+      "type": "store",
+      "label": "Google Play search",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "結果は見つかりませんでした: \"ボジュアル\""
+      ]
+    }
+  ],
+  "notes": "The seller URL on the App Store (http://www.barrierbreak.jp/vosual/) is a one-line page that forwards to https://barrierbreak.sakura.ne.jp/vosual/jp/, which is used here. All pages were opened on 2026-11-02 with curl (website, terms, privacy policy, contact page, Japanese App Store page, lookup API). Conflicts: (1) Offline: the website says 'Wi-Fiまたはモバイル通信必須' (Wi-Fi or mobile data required), while the terms (in force since 1 November 2017, with A12 wording added later) and the 2.5.2 update note say devices with an A12 Bionic chip or newer can recognise speech offline; the table shows 'partly'. (2) Platforms: the website lists iPhone only; the App Store lists iPhone, iPad and iPod touch, plus Apple silicon Macs and Apple Vision as an iPad app 'not verified for macOS'. (3) Sign language: the website says 'for people looking for a communication tool other than sign language and written notes', the App Store description says only 'other than written notes'. Ads: the listing's information section says it contains ads, the privacy policy names Google AdMob, and the privacy label lists identifiers, usage data and diagnostics used for tracking and third-party advertising. Not found on any page: saving or sharing conversations, translation, speaker labels, file transcription, colour options, usage limits, the developer's city. Android: a Google Play search for 'ボジュアル' returns no results, and a search for 'Vosual' (Japan) lists only unrelated apps; the website names iPhone only. The App Store lookup returned the app for Japan only (US, UK, Korea, Taiwan, Australia and Germany checked). A review on the listing asks for an Android version; reviews are not used on the page. Caption accuracy was not checked.",
+  "icon": "/compare/icons/vosual.png"
+}

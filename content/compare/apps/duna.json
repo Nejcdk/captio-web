@@ -1,0 +1,552 @@
+{
+  "slug": "duna",
+  "name": "duna: transcripción en directo",
+  "shortName": "duna",
+  "developer": "Oriol O'Callaghan",
+  "developerCountry": "Spain (Sant Cugat del Vallès, Barcelona)",
+  "website": "https://duna.uriocallaghan.com/es/",
+  "appStoreUrl": "https://apps.apple.com/es/app/duna-transcripci%C3%B3n-en-directo/id6817735494",
+  "googlePlayUrl": null,
+  "category": "in-person-captions",
+  "oneLine": "A free Spanish app for iPhone and Mac that writes speech down on the device, with no internet after a one-time download, in Spanish, Catalan, English, Galician and Basque, made so the text holds still while you read.",
+  "facts": {
+    "platforms": {
+      "status": "yes",
+      "text": "iPhone, Mac (Apple silicon)",
+      "detail": "One free download gives you the iPhone app and the Mac app. Each device transcribes on its own and nothing travels between them. A Google Play search finds no duna app.",
+      "sources": [
+        "s2",
+        "s9",
+        "s12"
+      ]
+    },
+    "deviceRequirements": {
+      "status": "yes",
+      "text": "iOS 26 or later; Mac: M1 or later, macOS 26",
+      "detail": "An iPhone on iOS 26 or later, or a Mac with Apple silicon (M1 or later) on macOS 26 or later. Each language takes 120 to 195 MB of space.",
+      "sources": [
+        "s8",
+        "s9",
+        "s10"
+      ]
+    },
+    "roomCaptions": {
+      "status": "yes",
+      "text": "Yes, from the microphone",
+      "detail": "Put the iPhone on the table between you and the speaker, tap anywhere on the screen and read. It works with the iPhone's own microphone, a wired one or Bluetooth headphones.",
+      "sources": [
+        "s3",
+        "s1"
+      ]
+    },
+    "groupConversations": {
+      "status": "partial",
+      "text": "New paragraph when the voice changes",
+      "detail": "When a different person starts speaking, duna usually begins a new paragraph. It does not say who is speaking, and it warns that several people talking at once causes more mistakes.",
+      "sources": [
+        "s4",
+        "s5",
+        "s2"
+      ]
+    },
+    "languages": {
+      "status": "yes",
+      "text": "5: Spanish, Catalan, English, Galician, Basque",
+      "detail": "You choose one language per session and download it once. Galician and Basque are marked New: they are the most recent and make more mistakes. The Catalan voice model comes from the Barcelona Supercomputing Center (Projecte Aina) and the Basque one from HiTZ (UPV/EHU).",
+      "sources": [
+        "s2",
+        "s6",
+        "s9"
+      ]
+    },
+    "offline": {
+      "status": "yes",
+      "text": "Yes, after a one-time language download",
+      "detail": "Internet is only needed to download a language. After that, listening, transcribing and making subtitles all work offline, also in airplane mode.",
+      "sources": [
+        "s2",
+        "s8",
+        "s1"
+      ]
+    },
+    "speakerLabels": {
+      "status": "partial",
+      "text": "No names or labels; new paragraph per voice",
+      "detail": "duna detects that the voice has changed only to start a new paragraph. Its privacy policy says it does not identify who is speaking.",
+      "sources": [
+        "s5",
+        "s4"
+      ]
+    },
+    "voiceNames": {
+      "status": "no",
+      "text": "No, it makes no voiceprint",
+      "detail": "The privacy policy says duna does not identify who speaks, creates no voiceprint and keeps nothing from the analysis of voice changes.",
+      "sources": [
+        "s5"
+      ]
+    },
+    "speakerDirection": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "The iPhone guide says an orb at the top moves with the voices it hears; a direction for each voice is not described.",
+      "sources": [
+        "s3"
+      ]
+    },
+    "translation": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Its pages describe transcription in the one language you choose per session, with no translation.",
+      "sources": [
+        "s2"
+      ]
+    },
+    "saveTranscripts": {
+      "status": "yes",
+      "text": "Yes, text on the device; no sync",
+      "detail": "Every session you stop is kept in duna's folder, listed by day with a search, where you can give it a title, correct the text and export it. No audio is recorded to a file, and transcripts don't sync between the iPhone and the Mac.",
+      "sources": [
+        "s3",
+        "s2",
+        "s5"
+      ]
+    },
+    "export": {
+      "status": "yes",
+      "text": "Text, Markdown, .srt; video with subtitles",
+      "detail": "Exports a transcript as plain text, Markdown or .srt subtitles timed word by word, to Notes, Files, AirDrop or any app. Video subtitles can be exported burnt into a copy of the video, which goes straight to Photos on the iPhone.",
+      "sources": [
+        "s2",
+        "s3",
+        "s4"
+      ]
+    },
+    "fileUpload": {
+      "status": "yes",
+      "text": "Video and audio files, on the device",
+      "detail": "Choose a video or audio file, say which language is spoken, and duna writes .srt subtitles on the device, then opens a line-by-line editor. A 15-minute episode takes under a minute on a recent Mac, a little longer on an iPhone.",
+      "sources": [
+        "s9",
+        "s4",
+        "s8"
+      ]
+    },
+    "summaries": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "sources": []
+    },
+    "customWords": {
+      "status": "yes",
+      "text": "Yes, up to 40 terms",
+      "detail": "Add the day's names, places, brands and acronyms. duna favours them while it listens, and a change applies at once, even mid-session.",
+      "sources": [
+        "s3",
+        "s4"
+      ]
+    },
+    "display": {
+      "status": "yes",
+      "text": "Text holds still; large type, 4 fonts, light or dark",
+      "detail": "Lines you have read never move: the newest line stays at the same height and older lines roll up. Type goes from comfortable to huge, in four typefaces, two of them (Atkinson Hyperlegible) designed for low vision, in light or dark mode. Three profiles trade steadiness for speed.",
+      "sources": [
+        "s2",
+        "s3",
+        "s4",
+        "s9"
+      ]
+    },
+    "soundAlerts": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Its pages don't describe alerts for sounds like a doorbell or an alarm.",
+      "sources": [
+        "s2",
+        "s9"
+      ]
+    },
+    "phoneCalls": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Its pages describe speech in the room and saved files, not phone calls.",
+      "sources": [
+        "s2"
+      ]
+    },
+    "videoCalls": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "sources": []
+    },
+    "mediaOnDevice": {
+      "status": "partial",
+      "text": "Saved video and audio files only",
+      "detail": "It makes subtitles for a video or audio file you already have, including one shared to it from Photos, Files or another app. Captioning sound as it plays on the device is not described.",
+      "sources": [
+        "s9",
+        "s3"
+      ]
+    },
+    "humanCaptioners": {
+      "status": "no",
+      "text": "No",
+      "detail": "duna says it is an automatic transcription that makes mistakes and does not replace professional captioning or interpreting.",
+      "sources": [
+        "s6",
+        "s2"
+      ]
+    },
+    "signLanguage": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "sources": []
+    },
+    "privacy": {
+      "status": "yes",
+      "text": "On the device; nothing is sent",
+      "detail": "Voice, text and videos are processed on the iPhone or Mac and never sent anywhere. No audio is saved to a file. Its only internet use is downloading languages, from Apple or, as a fallback, from a copy on GitHub. The App Store privacy label says no data is collected.",
+      "sources": [
+        "s5",
+        "s9",
+        "s1"
+      ]
+    },
+    "account": {
+      "status": "no",
+      "text": "No account",
+      "detail": "No accounts, no ads and no tracking.",
+      "sources": [
+        "s1",
+        "s8"
+      ]
+    },
+    "availability": {
+      "status": "yes",
+      "text": "App Store: Spain, Mexico and more",
+      "detail": "Listed on the Spanish and Mexican App Stores (November 2026). The app and the website are in Catalan, Spanish and English, and the app's menus also in Galician and Basque. Not on Google Play.",
+      "sources": [
+        "s10",
+        "s11",
+        "s9",
+        "s12"
+      ]
+    },
+    "freePlan": {
+      "status": "yes",
+      "text": "Free, every feature",
+      "detail": "Every feature is free on the iPhone and the Mac, with no limit described.",
+      "sources": [
+        "s2",
+        "s6"
+      ]
+    },
+    "price": {
+      "status": "no",
+      "text": "No paid plan",
+      "detail": "No subscription, no in-app purchases and no ads (Spanish App Store and duna's terms, November 2026).",
+      "sources": [
+        "s6",
+        "s2",
+        "s10"
+      ]
+    },
+    "accessibilityFunding": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "sources": []
+    }
+  },
+  "strengths": [
+    {
+      "text": "Free with every feature, on both the iPhone and the Mac, with no subscription, in-app purchases, ads or account.",
+      "sources": [
+        "s2",
+        "s6"
+      ]
+    },
+    {
+      "text": "Speech is turned into text on the device and nothing is sent anywhere; after a one-time language download it works in airplane mode.",
+      "sources": [
+        "s5",
+        "s8"
+      ]
+    },
+    {
+      "text": "Captions Catalan, Galician and Basque as well as Spanish and English.",
+      "sources": [
+        "s9",
+        "s2"
+      ]
+    },
+    {
+      "text": "Makes .srt subtitles for videos on the device, with a line-by-line editor and an export of the video with the subtitles burnt in.",
+      "sources": [
+        "s9",
+        "s3"
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "text": "Needs iOS 26 on iPhone or an Apple silicon Mac on macOS 26; there is no Android app.",
+      "sources": [
+        "s8",
+        "s12"
+      ]
+    },
+    {
+      "text": "One language per session, five in all; Galician and Basque make more mistakes.",
+      "sources": [
+        "s2",
+        "s9"
+      ]
+    },
+    {
+      "text": "It starts a new paragraph when the voice changes but does not say who is speaking.",
+      "sources": [
+        "s5"
+      ]
+    },
+    {
+      "text": "Transcripts stay on the device where they were made and don't sync between the iPhone and the Mac.",
+      "sources": [
+        "s2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "duna: Subtítulos en directo, dentro de tu iPhone y tu Mac",
+      "publisher": "Oriol O'Callaghan",
+      "url": "https://duna.uriocallaghan.com/es/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "duna website (Spanish)",
+      "quotes": [
+        "Subtítulos en directo, dentro de tu iPhone y tu Mac.",
+        "Cada voz nueva empieza un párrafo nuevo.",
+        "Habla catalán, castellano, inglés, gallego y euskera.",
+        "Cada idioma se descarga una sola vez; a partir de ahí, todo ocurre en el propio dispositivo y funciona sin conexión.",
+        "La voz y el texto no salen nunca de tu iPhone o de tu Mac.",
+        "duna es gratuita, sin compras, sin publicidad y sin cuentas.",
+        "Necesita iOS 26 o posterior en un iPhone, o macOS 26 o posterior en un Mac con Apple silicon."
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "duna: Live transcription on Mac and iPhone",
+      "publisher": "Oriol O'Callaghan",
+      "url": "https://duna.uriocallaghan.com/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "duna overview",
+      "quotes": [
+        "duna turns speech into text as people talk, on the device in front of you.",
+        "One download from the App Store gives you both. Each device listens and transcribes on its own: nothing travels between them, or anywhere else.",
+        "A big, calm screen for a room, a class or a meeting.",
+        "Words you have already read hold still. The newest line stays at the same height, older lines roll up, and a word only changes while it is still grey.",
+        "When someone else starts speaking, a new paragraph usually begins.",
+        "Large sizes, four typefaces, two of them designed for low vision, light and dark.",
+        "Plain text, Markdown, or .srt subtitles timed word by word.",
+        "Galician and Basque are the newest and make more mistakes.",
+        "No subscription, no in-app purchases, no ads. One download gives you duna on your iPhone and your Mac.",
+        "Only to download a language, once. After that, listening, transcribing and making subtitles all work offline.",
+        "It is an automatic transcription and it can make mistakes, above all with names, noise, music or several people talking at once.",
+        "It is not a medical device and does not replace professional captioning.",
+        "English, Spanish, Catalan, Galician and Basque. Choose one per session: duna transcribes the language you chose.",
+        "On the device where you made them, in duna's folder. They are not uploaded and they do not sync between devices."
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "duna for iPhone: Guide",
+      "publisher": "Oriol O'Callaghan",
+      "url": "https://duna.uriocallaghan.com/iphone",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "duna for iPhone guide",
+      "quotes": [
+        "Put the iPhone on the table, between you and whoever is speaking. The orb at the top moves with the voices it hears.",
+        "Tap anywhere on the screen to start listening.",
+        "When a different person starts speaking, duna usually begins a new paragraph.",
+        "The steadiest text. Words appear a moment later, once duna is sure of them. The best choice for reading.",
+        "Add the names of the day: people, places, brands, acronyms. duna favours them while it listens. Up to 40 terms, applied at once, even while listening.",
+        "Export sends it as text, Markdown or .srt subtitles, to Notes, Files, AirDrop or any app",
+        "Transcripts are listed by day with a search, like notes.",
+        "Tap the gallery at the top left and pick a video from Photos or Files, or share one to duna from any app.",
+        "Export makes a copy of the video with the captions drawn in, and saves it to Photos by itself.",
+        "Add duna's control to Control Center, the Lock Screen or the Action button to start transcribing at once.",
+        "The iPhone's own, a wired one, or Bluetooth headphones. duna keeps listening when you switch."
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "duna for Mac: Guide",
+      "publisher": "Oriol O'Callaghan",
+      "url": "https://duna.uriocallaghan.com/mac",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "duna for Mac guide",
+      "quotes": [
+        "duna turns speech into text as people talk, on the Mac itself.",
+        "When a different person starts speaking, duna usually begins a new paragraph. A long pause starts a new line.",
+        "Inter, SF Pro, and Atkinson Hyperlegible in two cuts, designed for low vision.",
+        "Reliable, Balanced or Immediate: how sure duna must be before a word settles.",
+        "Up to 40 terms, and a change applies at once, even while listening.",
+        "As plain text, Markdown with the title and date, or .srt subtitles timed word by word.",
+        "A fifteen-minute episode takes under a minute on a recent Mac.",
+        "Click Export: the video at the same size and quality with the captions drawn in, or the .srt and text files."
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Política de privacidad (duna)",
+      "publisher": "Oriol O'Callaghan",
+      "url": "https://duna.uriocallaghan.com/es/privacidad",
+      "type": "privacy",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "duna privacy policy",
+      "quotes": [
+        "duna para iPhone y Mac",
+        "en vigor desde el 20 de octubre de 2026",
+        "duna no recoge ningún dato.",
+        "La voz, el texto y los vídeos se procesan en el propio dispositivo y no se envían nunca a ningún sitio.",
+        "no se graba ningún audio en ningún archivo",
+        "Para empezar un párrafo nuevo cuando habla otra persona, duna analiza el sonido para detectar que la voz ha cambiado. No identifica quién habla, no crea ninguna huella de voz y no guarda nada de este análisis: solo decide dónde empieza cada párrafo.",
+        "Si el App Store no puede servir el paquete, la app descarga el mismo archivo de una copia publicada en GitHub y comprueba su integridad antes de instalarlo"
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Condiciones de uso (duna)",
+      "publisher": "Oriol O'Callaghan",
+      "url": "https://duna.uriocallaghan.com/es/condiciones",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "duna terms of use",
+      "quotes": [
+        "duna es gratuita. No tiene compras dentro de la app, ni suscripciones, ni publicidad, ni cuentas.",
+        "El gallego y el euskera están marcados como Nuevo, son los más recientes y todavía se equivocan más.",
+        "duna no es un producto sanitario ni un audífono, y no sustituye un servicio profesional de subtitulado o de interpretación, ni ninguna ayuda técnica prescrita.",
+        "stt_ca-es_conformer_transducer_large, de la Unidad de Tecnologías del Lenguaje del Barcelona Supercomputing Center (Projecte Aina, financiado por ILENIA).",
+        "stt_eu_conformer_transducer_large_v2, de HiTZ (UPV/EHU). Apache 2.0."
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Aviso legal (duna)",
+      "publisher": "Oriol O'Callaghan",
+      "url": "https://duna.uriocallaghan.com/es/aviso-legal",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "duna legal notice",
+      "quotes": [
+        "duna la publica una persona, no una empresa.",
+        "08172 Sant Cugat del Vallès",
+        "Barcelona, Cataluña, España"
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "Soporte (duna)",
+      "publisher": "Oriol O'Callaghan",
+      "url": "https://duna.uriocallaghan.com/es/soporte",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "duna support and FAQ",
+      "quotes": [
+        "Cada idioma ocupa entre 120 y 195 MB y se descarga de los servidores de Apple",
+        "Sí. Una vez descargado el idioma, todo funciona sin internet, también en modo avión.",
+        "No hay ninguna cuenta que recuperar ni ninguna contraseña que cambiar: duna no tiene.",
+        "Un episodio de 15 minutos tarda menos de un minuto en un Mac reciente; en un iPhone, algo más.",
+        "Sí. La app Atajos tiene acciones para empezar y detener la transcripción, obtener el texto, guardarlo en un archivo, cambiar de idioma y hacer los subtítulos de un vídeo.",
+        "No. duna es una ayuda, no un audífono ni un servicio profesional de subtitulado."
+      ]
+    },
+    {
+      "id": "s9",
+      "title": "duna: transcripción en directo (App Store, Spain)",
+      "publisher": "Apple App Store",
+      "url": "https://apps.apple.com/es/app/duna-transcripci%C3%B3n-en-directo/id6817735494",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "App Store listing (Spain)",
+      "quotes": [
+        "La voz a texto, sin conexión",
+        "El texto sube línea a línea y no baila: lo que ya has leído no cambia de sitio.",
+        "Puntos, comas, mayúsculas y cifras, puestos mientras se habla.",
+        "Letra grande que puedes ampliar y cuatro tipografías, dos pensadas para baja visión (Atkinson Hyperlegible).",
+        "Todo pasa dentro del iPhone o del Mac. No se envía audio ni texto a ningún sitio.",
+        "Haz los subtítulos de un vídeo o un audio que ya tengas: duna crea un archivo .srt en el propio dispositivo.",
+        "Corrige los subtítulos línea a línea en un editor y exporta el vídeo con los subtítulos grabados (en el iPhone va directo a Fotos).",
+        "Español, catalán, inglés, gallego y euskera. Gallego y euskera son los más nuevos y se equivocan más.",
+        "La app es ligera: eliges el idioma y lo descargas una sola vez (de 120 a 195 MB).",
+        "La app también se puede usar en estos cinco idiomas.",
+        "duna es una transcripción automática y puede tener errores. No es un audífono ni sustituye un servicio profesional de subtitulado.",
+        "No se recopilan datos",
+        "Requiere iOS 26.0 o posterior.",
+        "Requiere macOS 26.0 o posterior y un Mac con el chip M1 de Apple o posterior.",
+        "Español, Catalán, Euskera, Gallego, Inglés"
+      ]
+    },
+    {
+      "id": "s10",
+      "title": "duna: transcripción en directo (App Store lookup data, Spain)",
+      "publisher": "Apple",
+      "url": "https://itunes.apple.com/lookup?id=6817735494&country=es",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "App Store data (Spain)",
+      "quotes": [
+        "\"minimumOsVersion\":\"26.0\"",
+        "\"formattedPrice\":\"Gratis\"",
+        "\"releaseDate\":\"2026-10-12T07:00:00Z\"",
+        "\"languageCodesISO2A\":[\"EU\", \"CA\", \"EN\", \"GL\", \"ES\"]",
+        "\"sellerUrl\":\"https://duna.uriocallaghan.com/es/\""
+      ]
+    },
+    {
+      "id": "s11",
+      "title": "duna: transcripción en directo (App Store lookup data, Mexico)",
+      "publisher": "Apple",
+      "url": "https://itunes.apple.com/lookup?id=6817735494&country=mx",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "App Store data (Mexico)",
+      "quotes": [
+        "\"trackName\":\"duna: transcripción en directo\"",
+        "\"formattedPrice\":\"Gratis\"",
+        "\"currency\":\"MXN\""
+      ]
+    },
+    {
+      "id": "s12",
+      "title": "Google Play search for \"duna: transcripción en directo\" (Spain)",
+      "publisher": "Google Play",
+      "url": "https://play.google.com/store/search?q=%22duna%3A%20transcripci%C3%B3n%20en%20directo%22&c=apps&hl=es&gl=ES",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Google Play search",
+      "quotes": [
+        "No se ha encontrado ningún resultado de",
+        "\"duna: transcripción en directo\""
+      ]
+    }
+  ],
+  "notes": "Developer: Oriol O'Callaghan (signs as Uri O'Callaghan on the support page), an individual, not a company, in Sant Cugat del Vallès (Barcelona, Catalonia), per the legal notice and the App Store trader details. Released 12 Oct 2026 (App Store version history shows 1.0 on 16 Oct and 1.1 on 21 Oct 2026). Platforms: the Spanish App Store page shows 'iPhone, Mac'; the lookup's device list also includes iPads, but the listing is not marked universal and duna's own pages only name iPhone and Mac, so iPad is left out. Languages: the App Store 'languages' field (EU, CA, EN, GL, ES) is the app's own menus; the caption languages are the same five (one per session). Speech models named in the terms: Catalan from the Barcelona Supercomputing Center (Projecte Aina), Spanish and English from NVIDIA, Galician from the BSC, Basque from HiTZ (UPV/EHU); voice-change detection with pyannote. The Spanish and English overview pages say the same things; the root page (duna.uriocallaghan.com) is English, the /es/ page Spanish. The site also has Catalan and English versions of the legal pages (not cited). Free: the terms say no in-app purchases or subscriptions; the App Store page data shows hasInAppPurchases false for duna. Availability: the lookup API returned the app in Spain, Mexico, Argentina, the US, the UK, France, Germany and Slovenia, not Andorra (2026-11-02); only ES and MX are cited. Google Play: searches for the exact name, the developer and 'uriocallaghan' return no results; play.google.com/store/apps/details?id=com.uriocallaghan.duna returns 404. Not stated: translation, summaries, sound alerts, speaker direction, calls, sign language. No press found by web search. Ratings not used. All pages opened 2026-11-02 with curl.",
+  "icon": "/compare/icons/duna.png"
+}

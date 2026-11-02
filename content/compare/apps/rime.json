@@ -1,0 +1,394 @@
+{
+  "slug": "rime",
+  "name": "Rime: Live Captions",
+  "shortName": "Rime",
+  "developer": "Thorbjørn BakJensen (Bona)",
+  "developerCountry": "Denmark (Aarhus)",
+  "website": "https://rime.bona.city/",
+  "appStoreUrl": "https://apps.apple.com/dk/app/rime-live-captions/id6820241788",
+  "googlePlayUrl": null,
+  "category": "in-person-captions",
+  "oneLine": "A free iPhone app from Aarhus that calls itself a hørebrille: speech becomes large captions, with Danish and English translation, all on the phone, offline after a one-time download, with no account and nothing saved.",
+  "facts": {
+    "platforms": {
+      "status": "yes",
+      "text": "iPhone only",
+      "detail": "The website calls it a free app for iPhone, and the App Store lists it for iPhone only, not iPad. No Google Play listing was found.",
+      "sources": [
+        "r1",
+        "r3"
+      ]
+    },
+    "deviceRequirements": {
+      "status": "yes",
+      "text": "iOS 26 or later",
+      "detail": "It needs an iPhone with iOS 26 or later.",
+      "sources": [
+        "r1",
+        "r2"
+      ]
+    },
+    "roomCaptions": {
+      "status": "yes",
+      "text": "Yes, from the phone's microphone",
+      "detail": "Speech around you becomes large text on the screen as it happens, while the app is open and listening.",
+      "sources": [
+        "r1",
+        "r4"
+      ]
+    },
+    "groupConversations": {
+      "status": "partial",
+      "text": "Listening range: close, table or room",
+      "detail": "In settings you choose how far Rime listens: only the person sitting close, the whole table or everything in the room. Its pages don't describe telling speakers apart.",
+      "sources": [
+        "r1"
+      ]
+    },
+    "languages": {
+      "status": "yes",
+      "text": "Danish and English",
+      "detail": "Rime listens for Danish by default; when people speak English, you choose English under Language spoken.",
+      "sources": [
+        "r1",
+        "r3"
+      ]
+    },
+    "offline": {
+      "status": "yes",
+      "text": "Yes, after a one-time download",
+      "detail": "Captions use Apple's speech recognition on the iPhone. The first time, the iPhone downloads the language model (and the translation model if you translate); after that Rime doesn't go online.",
+      "sources": [
+        "r4",
+        "r1"
+      ]
+    },
+    "speakerLabels": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Rime's pages don't describe showing who is talking.",
+      "sources": [
+        "r1"
+      ]
+    },
+    "voiceNames": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "sources": []
+    },
+    "speakerDirection": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Rime lets you set how far it listens, but doesn't describe showing where a voice comes from.",
+      "sources": [
+        "r1"
+      ]
+    },
+    "translation": {
+      "status": "yes",
+      "text": "Danish and English, both ways, offline",
+      "detail": "Pick the language you read and Rime translates what is said in the other language, line by line. Translation runs on the iPhone and works without internet after a one-time download.",
+      "sources": [
+        "r1",
+        "r4"
+      ]
+    },
+    "saveTranscripts": {
+      "status": "no",
+      "text": "No, text is gone when you close the app",
+      "detail": "Nothing from the conversation is saved: the text disappears when you close the app. Rime only remembers settings such as text size and listening range.",
+      "sources": [
+        "r4",
+        "r1"
+      ]
+    },
+    "export": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Nothing from the conversation is saved, and Rime's pages don't describe copying or sharing captions.",
+      "sources": [
+        "r1",
+        "r4"
+      ]
+    },
+    "fileUpload": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Rime's pages describe live captions from the microphone, not transcribing files.",
+      "sources": [
+        "r1"
+      ]
+    },
+    "summaries": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "sources": []
+    },
+    "customWords": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "sources": []
+    },
+    "display": {
+      "status": "yes",
+      "text": "Large text, size in several steps",
+      "detail": "Make the text bigger or smaller with one tap, in several steps. Grey text is still being written and white text is done, and the newest line always stays at the bottom.",
+      "sources": [
+        "r1"
+      ]
+    },
+    "soundAlerts": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Rime's pages don't describe alerts for sounds like a doorbell or an alarm.",
+      "sources": [
+        "r1"
+      ]
+    },
+    "phoneCalls": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Rime's pages describe conversations with people around you, not phone calls.",
+      "sources": [
+        "r1",
+        "r3"
+      ]
+    },
+    "videoCalls": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "sources": []
+    },
+    "mediaOnDevice": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "sources": []
+    },
+    "humanCaptioners": {
+      "status": "no",
+      "text": "No, captions are automatic",
+      "detail": "Captions and translations are made automatically and can contain mistakes.",
+      "sources": [
+        "r1",
+        "r3"
+      ]
+    },
+    "signLanguage": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "sources": []
+    },
+    "privacy": {
+      "status": "yes",
+      "text": "On the phone; nothing sent or saved",
+      "detail": "Speech recognition (Apple's, on the iPhone) and translation run on the phone. Audio is not recorded, stored or sent, there is no analytics or tracking, and the App Store privacy label says no data is collected.",
+      "sources": [
+        "r4",
+        "r1"
+      ]
+    },
+    "account": {
+      "status": "no",
+      "text": "No account needed",
+      "detail": "There is no account, no ads and no tracking.",
+      "sources": [
+        "r1",
+        "r4"
+      ]
+    },
+    "availability": {
+      "status": "yes",
+      "text": "Danish App Store",
+      "detail": "Found on the Danish App Store only, not in the US, UK, German, Swedish, Norwegian, Finnish, Dutch or Icelandic stores (November 2026). The app itself is in Danish and English.",
+      "sources": [
+        "r2",
+        "r1"
+      ]
+    },
+    "freePlan": {
+      "status": "yes",
+      "text": "Free, no in-app purchases",
+      "detail": "Rime is free on the App Store with no in-app purchases and no ads.",
+      "sources": [
+        "r1",
+        "r2",
+        "r3"
+      ]
+    },
+    "price": {
+      "status": "no",
+      "text": "No paid plan",
+      "detail": "The Danish App Store lists Rime as free with no in-app purchases (November 2026).",
+      "sources": [
+        "r1",
+        "r2"
+      ]
+    },
+    "accessibilityFunding": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "No public programme is described; the app is free.",
+      "sources": [
+        "r1"
+      ]
+    }
+  },
+  "strengths": [
+    {
+      "text": "Free with no in-app purchases, no account, no ads and no tracking.",
+      "sources": [
+        "r1",
+        "r2"
+      ]
+    },
+    {
+      "text": "Speech recognition and translation run on the iPhone, so nothing said leaves the phone and nothing is saved.",
+      "sources": [
+        "r1",
+        "r4"
+      ]
+    },
+    {
+      "text": "Translates between Danish and English line by line, and keeps working without internet after a one-time download.",
+      "sources": [
+        "r1"
+      ]
+    },
+    {
+      "text": "You choose how far it listens: the person sitting close, the whole table or everything in the room.",
+      "sources": [
+        "r1"
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "text": "Needs an iPhone with iOS 26 or later; the App Store lists it for iPhone only.",
+      "sources": [
+        "r1"
+      ]
+    },
+    {
+      "text": "Captions Danish and English only, and listens for Danish unless you switch Language spoken to English.",
+      "sources": [
+        "r1"
+      ]
+    },
+    {
+      "text": "Nothing is saved: the text disappears when you close the app.",
+      "sources": [
+        "r4"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "r1",
+      "title": "Rime: Live Captions (App Store, Denmark)",
+      "publisher": "Apple App Store",
+      "url": "https://apps.apple.com/dk/app/rime-live-captions/id6820241788",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "App Store listing (Denmark)",
+      "quotes": [
+        "Rime turns conversations into large, clear live captions and translates between Danish and English as people talk. What you say never leaves the phone.",
+        "Speech becomes large text on the screen as it happens.",
+        "Make the text bigger or smaller with one tap.",
+        "Grey text is still being written. White text is done.",
+        "The newest line always stays at the bottom, so you never have to look for it.",
+        "Danish to English and English to Danish.",
+        "Pick the language you read, and Rime translates what's said in the other language, line by line.",
+        "Rime listens for Danish by default. When people speak English, choose English under Language spoken.",
+        "Translation runs entirely on your iPhone. It downloads once, then works without internet.",
+        "Meetings and workshops where some people speak Danish and others speak English.",
+        "In settings, choose how far away Rime listens: only the person sitting close, the whole table or everything in the room.",
+        "Speech recognition and translation run on your iPhone.",
+        "What you say never leaves the phone, and nothing from the conversation is saved.",
+        "No account, no ads and no tracking.",
+        "Requires iPhone with iOS 26 or later.",
+        "The first time, your iPhone downloads the language and translation models from Apple (internet needed).",
+        "Captions and translations are made automatically and can contain mistakes.",
+        "Make the text bigger or smaller in several steps.",
+        "Only for iPhone",
+        "The developer does not collect any data from this app.",
+        "English and Danish"
+      ]
+    },
+    {
+      "id": "r2",
+      "title": "Rime: Live Captions (App Store lookup data, Denmark)",
+      "publisher": "Apple",
+      "url": "https://itunes.apple.com/lookup?id=6820241788&country=dk",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "App Store data (Denmark)",
+      "quotes": [
+        "\"minimumOsVersion\":\"26.0\"",
+        "\"sellerName\":\"Thorbjørn BakJensen\"",
+        "\"formattedPrice\":\"Free\"",
+        "\"releaseDate\":\"2026-10-11T07:00:00Z\"",
+        "\"currency\":\"DKK\""
+      ]
+    },
+    {
+      "id": "r3",
+      "title": "Rime: livetekst på dansk",
+      "publisher": "Bona",
+      "url": "https://rime.bona.city/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Rime website",
+      "quotes": [
+        "Gratis app til iPhone",
+        "De taler. Du læser med. Og det hele bliver på din telefon.",
+        "Rime er en hørebrille til samtalen: det, folk omkring dig siger, bliver til stor tekst. Rime kan også oversætte mellem dansk og engelsk.",
+        "Teksten bliver lavet automatisk og kan have fejl.",
+        "Ved middagsbordet taler en hurtigt, en anden slår over i engelsk, og så er tråden væk.",
+        "Det forlader aldrig telefonen, og hverken lyd eller tekst bliver gemt. Gratis og uden konto.",
+        "Ingen konto og ingen sporing i appen.",
+        "Rime er udviklet af Bona."
+      ]
+    },
+    {
+      "id": "r4",
+      "title": "Privatlivspolitik for Rime",
+      "publisher": "Bona",
+      "url": "https://rime.bona.city/privacy",
+      "type": "privacy",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Rime privacy policy",
+      "quotes": [
+        "Opdateret 8. oktober 2026",
+        "Alt bliver på telefonen. Rime indsamler ingen data og sender intet videre, og der er ingen konto.",
+        "Rime bruger mikrofonen til at lave tale om til tekst, mens appen er åben og lytter. Lyden behandles direkte på telefonen. Den bliver ikke optaget, gemt eller sendt videre.",
+        "Tale bliver til tekst med Apples talegenkendelse, som kører på telefonen.",
+        "Første gang henter iPhone Apples danske sprogpakke fra internettet, ligesom ved andre sprog på iPhone.",
+        "Hvis du bruger oversættelse, henter Rime også én gang en oversættelsesmodel. Ellers går Rime ikke på nettet, og det, du siger, bliver aldrig sendt.",
+        "Teksten gemmes ikke. Den forsvinder, når du lukker appen.",
+        "I appen er der ingen konto, ingen reklamer, ingen analyseværktøjer og ingen sporing."
+      ]
+    },
+    {
+      "id": "r5",
+      "title": "Rime: Danish live captions (website in English)",
+      "publisher": "Bona",
+      "url": "https://rime.bona.city/?lang=en",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Rime website (English)",
+      "quotes": [
+        "They talk. You read along. Everything stays on the phone.",
+        "In Danish we call it a hørebrille: like reading glasses, but for conversations.",
+        "At dinner, someone talks fast, someone switches to English, and the thread is gone.",
+        "It never leaves the phone, and no audio or text is saved. Free, no account."
+      ]
+    }
+  ],
+  "notes": "Developer: the App Store seller is Thorbjørn BakJensen (Aarhus, per the App Store trader details); the website says Rime is made by Bona (Bona.city, part of TBJ Consult, CVR 45933156). Versions: 1.0 on 11 Oct 2026, 1.2 on 18 Oct (Danish and English translation, English interface, text size steps), 1.2.1 on 22 Oct. Conflict: the privacy policy (8 Oct 2026, before translation and English were added) mentions only Apple's Danish language pack and a translation model; the App Store listing (1.2.1) says the iPhone downloads the language and translation models from Apple the first time. Both say nothing is sent afterwards. Platforms: the App Store page says 'Only for iPhone'; its compatibility section also lists Apple silicon Macs and Apple Vision for the iPhone app ('Designed for iPhone. Not verified for macOS.'), not counted. A Google Play search for 'Rime live captions' (Denmark, November 2026) shows no app from Bona or Thorbjørn BakJensen, and the website says 'Gratis app til iPhone'. The website's waitlist text mentions glasses with captions that may come later; not counted as a feature. Not found: speaker labels, custom words, summaries, export, file transcription, sound alerts, phone or video calls, sign language. Availability: the lookup API returned the app for Denmark only among dk, se, no, de, gb, fi, nl, is and us. The website's text is filled in by its script (lang.js); the Danish and English texts were read from it. All pages opened 2026-11-02 with curl.",
+  "icon": "/compare/icons/rime.png"
+}
