@@ -152,11 +152,6 @@ export default function TermsPage() {
       </P>
       <UL>
         <li>
-          <strong>Free Plus.</strong> When someone redeems your link or code and saves their first recording, you
-          both get free Plus access for the period shown in the app. This free access has no cash value and
-          can&rsquo;t be transferred or exchanged.
-        </li>
-        <li>
           <strong>Cash rewards.</strong> When someone you referred makes their first real payment for Plus, you earn
           USD 10 for a monthly plan or USD 50 for a yearly plan. You can refer as many people as you like and earn
           up to USD 2,500 in total; rewards stop at that amount. Free trials, promotional access, Family Sharing, renewals, and plan changes that
@@ -174,8 +169,8 @@ export default function TermsPage() {
         <li>
           <strong>Who can take part.</strong> Each account and each device counts once, and you can&rsquo;t refer
           yourself. Cash rewards aren&rsquo;t available where the law or our payout provider doesn&rsquo;t allow
-          them, including Cuba, Iran, North Korea, Syria, Russia, and Belarus; there, the program is the free Plus
-          access only.
+          them, including Cuba, Iran, North Korea, Syria, Russia, and Belarus; there, the program isn&rsquo;t
+          offered.
         </li>
         <li>
           <strong>Taxes.</strong> You are responsible for any taxes on what you earn.
@@ -185,8 +180,9 @@ export default function TermsPage() {
           buying for yourself through someone else&rsquo;s account, spam, or misleading claims about Captio AI.
         </li>
         <li>
-          <strong>Changes.</strong> We may change or end the program at any time. Free Plus access already granted
-          stays valid for its period, and rewards you already earned under the rules at the time stay yours.
+          <strong>Changes.</strong> We may change or end the program at any time. Free Plus access granted under
+          earlier versions of the program stays valid for its period, and rewards you already earned under the
+          rules at the time stay yours.
         </li>
       </UL>
 
