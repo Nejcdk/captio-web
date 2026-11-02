@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Sottotitoli in tempo reale per aziende ed enti",
-    "description": "Captio AI: sottotitoli in tempo reale sul telefono per persone sorde e ipoudenti, in oltre 60 lingue. Licenze annuali su fattura, prova gratuita di 30 giorni."
+    "description": "Captio AI offre alle persone sorde e ipoudenti sottotitoli in tempo reale in ogni situazione, in oltre 60 lingue, su iPhone e Android. Licenze annuali per organizzazioni, su fattura. Prova pilota gratuita di 30 giorni."
   },
   "header": {
     "forOrganizations": "per le organizzazioni",
@@ -10,25 +10,24 @@
   },
   "hero": {
     "eyebrow": "🏢 Captio AI per le organizzazioni",
-    "title": "Sottotitoli live sul loro telefono, appena qualcuno [parla]",
-    "description": "Captio AI è un’app per persone sorde e ipoudenti. Ascolta e mostra come testo ciò che viene detto, di persona, in oltre 60 lingue. La offra alle persone della sua organizzazione che ne hanno bisogno: una licenza annuale a persona, con pagamento su fattura.",
-    "pilotNote": "Gratis per 30 giorni, fino a 5 persone. Niente da pagare, niente da firmare.",
-    "facts": ["iPhone e Android", "Oltre 60 lingue", "Dati conservati nell’UE"],
-    "videoLabel": "Captio AI che mostra i sottotitoli live di due persone che parlano, con un’etichetta per ogni voce"
+    "title": "Sottotitoli live per persone sorde e ipoudenti, in [ogni situazione]",
+    "description": "Captio AI è un’app per iPhone e Android che trasforma il parlato in testo nel momento stesso in cui viene detto, in oltre 60 lingue. Mostra chi sta parlando, traduce e salva ogni conversazione come trascrizione.",
+    "facts": ["iPhone e Android", "Oltre 60 lingue", "Dati conservati nell’UE", "Pagamento su fattura"],
+    "imageAlt": "Captio AI che mostra i sottotitoli live di due persone che parlano, con un’etichetta per ogni voce e un campanello indicato nei sottotitoli"
   },
   "features": {
     "eyebrow": "Cosa fa Captio AI",
     "title": "Sottotitoli live, traduzione e trascrizione",
-    "subtitle": "Tre strumenti in un’unica app, sul proprio telefono, in oltre 60 lingue.",
+    "subtitle": "Tre strumenti in un’unica app, su iPhone e Android, in oltre 60 lingue.",
     "items": [
       { "label": "Sottotitoli live", "title": "Ogni parola, mentre viene detta", "description": "Si apre l’app, si tocca il microfono e si legge. Ogni voce ha la sua etichetta, così è chiaro chi ha detto cosa." },
-      { "label": "Traduzione live", "title": "Le due lingue fianco a fianco", "description": "Quando qualcuno parla un’altra lingua, si vedono insieme ciò che ha detto e la traduzione." },
+      { "label": "Traduzione live", "title": "Le due lingue fianco a fianco", "description": "Quando qualcuno parla un’altra lingua, l’app mostra insieme ciò che ha detto e la traduzione." },
       { "label": "Trascrizione", "title": "Registrazioni e file in testo", "description": "Si salva qualsiasi conversazione, o si aggiunge un file audio o video, e si ottiene la trascrizione completa con un riassunto IA." }
     ]
   },
   "languages": {
     "eyebrow": "Oltre 60 lingue",
-    "title": "Sottotitoli nelle lingue parlate nella sua organizzazione",
+    "title": "Sottotitoli nella lingua parlata",
     "subtitle": "Sottotitoli live, traduzione e trascrizione in ognuna di esse, anche per chi cambia lingua a metà frase."
   },
   "awareness": {
@@ -56,8 +55,8 @@
     "eyebrow": "Per la sua organizzazione",
     "title": "Perché le organizzazioni scelgono Captio AI",
     "items": [
-      { "title": "Pronta quando serve", "description": "Nessun servizio di sottotitolazione da prenotare in anticipo. I sottotitoli partono con un tocco, ovunque si trovi la persona." },
-      { "title": "Sul telefono di ciascuno", "description": "iPhone o Android. Niente da installare per il suo reparto IT e nessun dispositivo da distribuire." },
+      { "title": "Pronta quando serve", "description": "I sottotitoli partono con un tocco, ovunque. Nessun servizio di sottotitolazione da prenotare in anticipo." },
+      { "title": "Su iPhone e Android", "description": "Basta un’app sul telefono. Niente da installare per il reparto IT e nessun dispositivo da acquistare." },
       { "title": "Privacy fin dalla progettazione", "description": "Dati conservati nell’UE. L’audio non resta sui nostri server e nulla viene mai usato per addestrare l’IA." },
       { "title": "Semplice da acquistare", "description": "Un prezzo a persona all’anno, su fattura. Nessun minimo, nessun costo di attivazione, nessun rinnovo automatico." }
     ]
@@ -66,7 +65,7 @@
     "eyebrow": "Prova pilota gratuita",
     "title": "30 giorni di prova con un massimo di 5 persone",
     "steps": [
-      { "title": "Riceva il link della prova pilota", "description": "Compili il modulo qui sotto. Il link arriva nella sua casella di posta entro un minuto, con un messaggio pronto da inoltrare." },
+      { "title": "Riceva il link della prova pilota", "description": "Compili il modulo. Il link arriva nella sua casella di posta entro un minuto, con un messaggio pronto da inoltrare." },
       { "title": "Lo inoltri a un massimo di 5 persone", "description": "Ogni persona lo apre sul telefono, continua con Apple o Google e ottiene Captio AI su iPhone o Android." },
       { "title": "Versione completa per 30 giorni", "description": "Nessun dato personale da parte sua, quindi nessuna burocrazia. Verso la fine riceve un riepilogo di quanto è stata usata l’app e il prezzo per continuare." }
     ]
@@ -76,7 +75,7 @@
     "name": "Il suo nome",
     "email": "La sua email di lavoro",
     "emailHint": "Il link della prova pilota arriva a questo indirizzo.",
-    "people": "Circa quante persone potrebbero usarla?",
+    "people": "Quante persone?",
     "peopleOptions": ["Da 1 a 5", "Da 6 a 19", "Da 20 a 50", "Più di 50"],
     "submit": "Inviatemi il link della prova pilota",
     "sending": "Invio in corso…",
@@ -148,8 +147,8 @@
   },
   "cta": {
     "eyebrow": "Prova pilota gratuita",
-    "title": "La provi con chi ne ha bisogno",
-    "body": "Fino a 5 persone, gratis per 30 giorni. Il link arriva nella sua casella di posta entro un minuto. Ha prima qualche domanda? Scriva a {address}."
+    "title": "Provi Captio AI gratis per 30 giorni",
+    "body": "Fino a 5 persone. Il link arriva nella sua casella di posta entro un minuto. Ha prima qualche domanda? Scriva a {address}."
   },
   "join": {
     "metaTitle": "Captio AI, offerto da {org}",

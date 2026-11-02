@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Zuzeneko azpitituluak erakunde eta enpresentzat",
-    "description": "Captio AI: zuzeneko azpitituluak telefonoan pertsona gorrentzat eta entzumen-galera dutenentzat, 60+ hizkuntzatan. Urteko lizentziak fakturaz. 30 egun doan."
+    "description": "Captio AI: zuzeneko azpitituluak pertsona gorrentzat eta entzumen-galera dutenentzat, edozein egoeratan, 60+ hizkuntzatan, iPhone eta Android telefonoetan. Urteko lizentziak erakundeentzat, fakturaz. 30 egun doan."
   },
   "header": {
     "forOrganizations": "Erakundeentzat",
@@ -10,25 +10,24 @@
   },
   "hero": {
     "eyebrow": "🏢 Captio AI erakundeentzat",
-    "title": "Zuzeneko azpitituluak beren telefonoan, norbaitek [hitz egin] bezain laster",
-    "description": "Captio AI pertsona gorrentzako eta entzumen-galera dutenentzako aplikazioa da. Entzun egiten du, eta esaten dena testu gisa erakusten du, aurrez aurre, 60+ hizkuntzatan. Eman iezaiezu zure erakundean behar duten pertsonei: urteko lizentzia bat bakoitzari, fakturaz ordainduta.",
-    "pilotNote": "30 egun doan, gehienez 5 pertsonarentzat. Ez dago ezer ordaindu edo sinatu beharrik.",
-    "facts": ["iPhone eta Android", "60+ hizkuntza", "Datuak EBn gordeta"],
-    "videoLabel": "Captio AI aplikazioa bi pertsonaren elkarrizketaren zuzeneko azpitituluak erakusten, hizlari bakoitza bere etiketarekin"
+    "title": "Zuzeneko azpitituluak pertsona gorrentzat eta entzumen-galera dutenentzat, [edozein egoeratan]",
+    "description": "Captio AI iPhone eta Android telefonoetarako aplikazioa da, eta hizketa testu bihurtzen du esaten den unean bertan, 60+ hizkuntzatan. Nor ari den hitz egiten erakusten du, itzuli egiten du, eta elkarrizketa bakoitza transkripzio gisa gordetzen du.",
+    "facts": ["iPhone eta Android", "60+ hizkuntza", "Datuak EBn gordeta", "Ordainketa fakturaz"],
+    "imageAlt": "Captio AI aplikazioa bi pertsonaren elkarrizketaren zuzeneko azpitituluak erakusten, hizlari bakoitza bere etiketarekin eta txirrinaren soinua azpitituluetan idatzita"
   },
   "features": {
     "eyebrow": "Zer egiten du Captio AI aplikazioak",
     "title": "Zuzeneko azpitituluak, itzulpena eta transkripzioa",
-    "subtitle": "Hiru tresna aplikazio bakarrean, beren telefonoan, 60+ hizkuntzatan.",
+    "subtitle": "Hiru tresna aplikazio bakarrean, iPhone eta Android telefonoetan, 60+ hizkuntzatan.",
     "items": [
       { "label": "Zuzeneko azpitituluak", "title": "Hitz bakoitza, esan ahala", "description": "Ireki aplikazioa, sakatu mikrofonoa eta irakurri. Hizlari bakoitzak bere etiketa du, eta argi dago nork zer esan duen." },
-      { "label": "Zuzeneko itzulpena", "title": "Bi hizkuntzak elkarren ondoan", "description": "Norbaitek beste hizkuntza batean hitz egiten duenean, esandakoa eta haren itzulpena aldi berean ikusten dira." },
+      { "label": "Zuzeneko itzulpena", "title": "Bi hizkuntzak elkarren ondoan", "description": "Norbaitek beste hizkuntza batean hitz egiten duenean, aplikazioak esandakoa eta haren itzulpena erakusten ditu aldi berean." },
       { "label": "Transkripzioa", "title": "Grabazioak eta fitxategiak testura", "description": "Gorde edozein elkarrizketa, edo gehitu audio- edo bideo-fitxategi bat, eta lortu transkripzio osoa AA bidezko laburpen batekin." }
     ]
   },
   "languages": {
     "eyebrow": "60+ hizkuntza",
-    "title": "Azpitituluak zure jendeak hitz egiten dituen hizkuntzetan",
+    "title": "Azpitituluak hitz egiten den hizkuntzan",
     "subtitle": "Zuzeneko azpitituluak, itzulpena eta transkripzioa horietako bakoitzean, baita esaldi erdian hizkuntzaz aldatzen dutenean ere."
   },
   "awareness": {
@@ -56,8 +55,8 @@
     "eyebrow": "Zure erakundearentzat",
     "title": "Zergatik aukeratzen duten erakundeek Captio AI",
     "items": [
-      { "title": "Behar den unean prest", "description": "Ez da azpitituluak egiteko inor aldez aurretik erreserbatu behar. Azpitituluak ukitu bakarrarekin hasten dira, pertsona non dagoen ere." },
-      { "title": "Beren telefonoan", "description": "iPhone edo Android. Zure IT taldeak ez du ezer instalatu behar, eta ez da gailurik banatu behar." },
+      { "title": "Behar den unean prest", "description": "Azpitituluak ukitu bakarrarekin hasten dira, edonon. Ez da azpitituluak egiteko inor aldez aurretik erreserbatu behar." },
+      { "title": "iPhone eta Android telefonoetan", "description": "Telefonoko aplikazio bat besterik ez da. IT taldeak ez du ezer instalatu behar, eta ez da gailurik erosi behar." },
       { "title": "Pribatutasuna diseinutik", "description": "Datuak EBn gordeta. Audioa ez da gure zerbitzarietan gordetzen, eta ezer ez da inoiz AA entrenatzeko erabiltzen." },
       { "title": "Erosteko erraza", "description": "Prezio bat pertsona eta urte bakoitzeko, fakturaz. Gutxienekorik gabe, alta-kuotarik gabe, ezer ez da berez berritzen." }
     ]
@@ -66,7 +65,7 @@
     "eyebrow": "Doako proba",
     "title": "Probatu 30 egunez, gehienez 5 pertsonarekin",
     "steps": [
-      { "title": "Jaso probako esteka", "description": "Bete beheko formularioa. Esteka minutu batean iritsiko zaizu sarrera-ontzira, birbidaltzeko prest dagoen mezu batekin." },
+      { "title": "Jaso probako esteka", "description": "Bete formularioa. Esteka minutu batean iritsiko zaizu sarrera-ontzira, birbidaltzeko prest dagoen mezu batekin." },
       { "title": "Birbidali gehienez 5 pertsonari", "description": "Pertsona bakoitzak bere telefonoan irekitzen du, Apple edo Google bidez jarraitzen du, eta Captio AI aplikazioa lortzen du iPhone edo Android telefonoan." },
       { "title": "30 egunez bertsio osoa dute", "description": "Ez dugu zure datu pertsonalik behar, beraz ez dago paperik. Amaiera aldera, zenbat erabili den azaltzen duen laburpen bat jasoko duzu, eta jarraitzeko prezioa." }
     ]
@@ -76,7 +75,7 @@
     "name": "Zure izena",
     "email": "Zure laneko helbide elektronikoa",
     "emailHint": "Probako esteka helbide honetara bidaliko da.",
-    "people": "Gutxi gorabehera zenbat pertsonak erabil lezakete?",
+    "people": "Zenbat pertsona?",
     "peopleOptions": ["1etik 5era", "6tik 19ra", "20tik 50era", "50 baino gehiago"],
     "submit": "Bidali probako esteka",
     "sending": "Bidaltzen…",
@@ -148,8 +147,8 @@
   },
   "cta": {
     "eyebrow": "Doako proba",
-    "title": "Probatu zure jendearekin",
-    "body": "Gehienez 5 pertsona, 30 egunez doan. Esteka minutu batean iritsiko zaizu sarrera-ontzira. Lehenik galderak dituzu? Idatzi {address} helbidera."
+    "title": "Probatu Captio AI 30 egunez doan",
+    "body": "Gehienez 5 pertsona. Esteka minutu batean iritsiko zaizu sarrera-ontzira. Lehenik galderak dituzu? Idatzi {address} helbidera."
   },
   "join": {
     "metaTitle": "Captio AI, {org} erakundearen eskutik",

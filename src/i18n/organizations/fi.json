@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Livetekstitys ja puhe tekstiksi organisaatioille",
-    "description": "Livetekstitys kuuroille ja huonokuuloisille puhelimeen, yli 60 kielellä. Captio AI -vuosilisenssit organisaatioille laskulla. Maksuton 30 päivän pilotti."
+    "description": "Captio AI tuo kuuroille ja huonokuuloisille livetekstityksen kaikkiin tilanteisiin, yli 60 kielellä, iPhonelle ja Androidille. Vuosilisenssit organisaatioille laskulla. Maksuton 30 päivän pilotti."
   },
   "header": {
     "forOrganizations": "organisaatioille",
@@ -10,25 +10,24 @@
   },
   "hero": {
     "eyebrow": "🏢 Captio AI organisaatioille",
-    "title": "Livetekstitys heidän puhelimeensa heti, kun joku [puhuu]",
-    "description": "Captio AI on sovellus kuuroille ja huonokuuloisille. Se kuuntelee ja näyttää puheen tekstinä kasvokkain käytävissä keskusteluissa, yli 60 kielellä. Anna se niille organisaatiosi ihmisille, jotka sitä tarvitsevat: yksi vuosilisenssi henkilöä kohden, laskulla.",
-    "pilotNote": "Maksuton 30 päivän ajan, enintään 5 henkilölle. Ei maksuja, ei allekirjoituksia.",
-    "facts": ["iPhone ja Android", "Yli 60 kieltä", "Tallennus EU:ssa"],
-    "videoLabel": "Captio AI näyttää kahden ihmisen keskustelun livetekstityksenä, ja jokaisella puhujalla on oma nimilappunsa"
+    "title": "Livetekstitys kuuroille ja huonokuuloisille, [kaikissa tilanteissa]",
+    "description": "Captio AI on iPhonelle ja Androidille tehty sovellus, joka muuttaa puheen tekstiksi samalla hetkellä, kun se sanotaan, yli 60 kielellä. Se kääntää, näyttää, kuka puhuu, ja tallentaa jokaisen keskustelun litterointina.",
+    "facts": ["iPhone ja Android", "Yli 60 kieltä", "Tallennus EU:ssa", "Maksu laskulla"],
+    "imageAlt": "Captio AI näyttää kahden ihmisen keskustelun livetekstityksenä: jokaisella puhujalla on oma nimilappunsa, ja tekstityksessä näkyy myös ovikellon soitto"
   },
   "features": {
     "eyebrow": "Mitä Captio AI tekee",
     "title": "Livetekstitys, käännös ja litterointi",
-    "subtitle": "Kolme työkalua yhdessä sovelluksessa, omassa puhelimessa, yli 60 kielellä.",
+    "subtitle": "Kolme työkalua yhdessä sovelluksessa, iPhonelle ja Androidille, yli 60 kielellä.",
     "items": [
       { "label": "Livetekstitys", "title": "Jokainen sana heti, kun se sanotaan", "description": "Avaa sovellus, napauta mikrofonia ja lue mukana. Jokainen puhuja saa oman nimilapun, joten on selvää, kuka sanoi mitä." },
-      { "label": "Livekäännös", "title": "Molemmat kielet rinnakkain", "description": "Kun joku puhuu toista kieltä, ruudulla näkyy samaan aikaan sekä se, mitä sanottiin, että sen käännös." },
+      { "label": "Livekäännös", "title": "Molemmat kielet rinnakkain", "description": "Kun joku puhuu toista kieltä, sovellus näyttää samaan aikaan sekä sen, mitä sanottiin, että sen käännöksen." },
       { "label": "Litterointi", "title": "Tallenteet ja tiedostot tekstiksi", "description": "Tallenna mikä tahansa keskustelu tai lisää ääni- tai videotiedosto, niin saat koko litteroinnin ja tekoälyn tekemän yhteenvedon." }
     ]
   },
   "languages": {
     "eyebrow": "Yli 60 kieltä",
-    "title": "Tekstitys kielillä, joita organisaatiossasi puhutaan",
+    "title": "Tekstitys sillä kielellä, jota puhutaan",
     "subtitle": "Livetekstitys, käännös ja litterointi jokaisella niistä, myös silloin, kun joku vaihtaa kieltä kesken lauseen."
   },
   "awareness": {
@@ -56,8 +55,8 @@
     "eyebrow": "Organisaatiollesi",
     "title": "Miksi organisaatiot valitsevat Captio AI:n",
     "items": [
-      { "title": "Valmiina heti, kun tarvitaan", "description": "Kirjoitustulkkia ei tarvitse varata etukäteen. Tekstitys alkaa yhdellä napautuksella, missä ikinä henkilö onkin." },
-      { "title": "Omassa puhelimessa", "description": "iPhone tai Android. IT-tiimin ei tarvitse asentaa mitään, eikä laitteita tarvitse jakaa." },
+      { "title": "Valmiina heti, kun tarvitaan", "description": "Tekstitys alkaa yhdellä napautuksella, missä tahansa. Kirjoitustulkkia ei tarvitse varata etukäteen." },
+      { "title": "iPhonelle ja Androidille", "description": "Pelkkä sovellus puhelimessa. IT:n ei tarvitse asentaa mitään, eikä laitteita tarvitse ostaa." },
       { "title": "Yksityisyys sisäänrakennettuna", "description": "Tallennus EU:ssa. Ääntä ei säilytetä palvelimillamme, eikä mitään käytetä koskaan tekoälyn kouluttamiseen." },
       { "title": "Helppo hankkia", "description": "Yksi hinta henkilöä kohden vuodessa, laskulla. Ei vähimmäismäärää, ei aloitusmaksua, eikä mikään uusiudu itsestään." }
     ]
@@ -66,7 +65,7 @@
     "eyebrow": "Maksuton pilotti",
     "title": "Kokeile 30 päivää enintään 5 henkilön kanssa",
     "steps": [
-      { "title": "Hae pilottilinkki", "description": "Täytä alla oleva lomake. Linkki tulee sähköpostiisi minuutin sisällä, ja mukana on valmis viesti välitettäväksi." },
+      { "title": "Hae pilottilinkki", "description": "Täytä lomake. Linkki tulee sähköpostiisi minuutin sisällä, ja mukana on valmis viesti välitettäväksi." },
       { "title": "Välitä se enintään 5 henkilölle", "description": "Jokainen avaa linkin puhelimellaan, jatkaa Applella tai Googlella ja saa Captio AI:n iPhoneen tai Androidiin." },
       { "title": "Heillä on täysi versio 30 päivän ajan", "description": "Et anna meille henkilötietoja, joten paperitöitä ei ole. Loppupuolella saat yhteenvedon käytön määrästä ja hinnan jatkokäytölle." }
     ]
@@ -76,7 +75,7 @@
     "name": "Nimesi",
     "email": "Työsähköpostisi",
     "emailHint": "Pilottilinkki lähetetään tähän osoitteeseen.",
-    "people": "Noin kuinka moni voisi käyttää sitä?",
+    "people": "Kuinka monta henkilöä?",
     "peopleOptions": ["1–5", "6–19", "20–50", "Yli 50"],
     "submit": "Lähetä minulle pilottilinkki",
     "sending": "Lähetetään…",
@@ -148,8 +147,8 @@
   },
   "cta": {
     "eyebrow": "Maksuton pilotti",
-    "title": "Kokeile omien ihmistesi kanssa",
-    "body": "Enintään 5 henkilöä, maksutta 30 päivää. Linkki tulee sähköpostiisi minuutin sisällä. Kysyttävää ensin? Kirjoita osoitteeseen {address}."
+    "title": "Kokeile Captio AI:ta maksutta 30 päivää",
+    "body": "Enintään 5 henkilöä. Linkki tulee sähköpostiisi minuutin sisällä. Kysyttävää ensin? Kirjoita osoitteeseen {address}."
   },
   "join": {
     "metaTitle": "{org} tarjoaa sinulle Captio AI:n",

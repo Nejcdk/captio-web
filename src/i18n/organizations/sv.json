@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Liveundertexter och tal till text för organisationer",
-    "description": "Captio AI ger döva och hörselskadade liveundertexter i mobilen, på plats, på 60+ språk. Årslicenser för organisationer mot faktura. Gratis pilot i 30 dagar."
+    "description": "Captio AI ger döva och hörselskadade liveundertexter i alla situationer, på 60+ språk, på iPhone och Android. Årslicenser för organisationer mot faktura. Gratis pilot i 30 dagar."
   },
   "header": {
     "forOrganizations": "för organisationer",
@@ -10,25 +10,24 @@
   },
   "hero": {
     "eyebrow": "🏢 Captio AI för organisationer",
-    "title": "Liveundertexter i mobilen, i samma stund som någon [talar]",
-    "description": "Captio AI är en app för döva och hörselskadade. Den lyssnar och visar det som sägs som text, i samtal på plats, på 60+ språk. Ge den till de personer i din organisation som behöver den: en årslicens per person, mot faktura.",
-    "pilotNote": "Gratis i 30 dagar för upp till 5 personer. Inget att betala, inget att skriva under.",
-    "facts": ["iPhone och Android", "60+ språk", "Lagras inom EU"],
-    "videoLabel": "Captio AI visar liveundertexter när två personer pratar, med en etikett för varje talare"
+    "title": "Liveundertexter för döva och hörselskadade, i [alla situationer]",
+    "description": "Captio AI är en app för iPhone och Android som gör om tal till text i samma stund som det sägs, på 60+ språk. Den översätter, visar vem som pratar, och sparar varje samtal som en transkription.",
+    "facts": ["iPhone och Android", "60+ språk", "Lagras inom EU", "Betalas mot faktura"],
+    "imageAlt": "Captio AI visar liveundertexter när två personer pratar, med en etikett för varje talare och en dörrklocka utskriven i undertexterna"
   },
   "features": {
     "eyebrow": "Det här gör Captio AI",
     "title": "Liveundertexter, översättning och transkription",
-    "subtitle": "Tre verktyg i en app, i den egna mobilen, på 60+ språk.",
+    "subtitle": "Tre verktyg i en app, för iPhone och Android, på 60+ språk.",
     "items": [
       { "label": "Liveundertexter", "title": "Varje ord, medan det sägs", "description": "Öppna appen, tryck på mikrofonen och läs med. Varje talare får en egen etikett, så det syns vem som sa vad." },
-      { "label": "Liveöversättning", "title": "Båda språken sida vid sida", "description": "När någon talar ett annat språk syns både det som sägs och översättningen samtidigt." },
+      { "label": "Liveöversättning", "title": "Båda språken sida vid sida", "description": "När någon talar ett annat språk visar appen både det som sägs och översättningen samtidigt." },
       { "label": "Transkription", "title": "Inspelningar och filer blir text", "description": "Spara vilket samtal som helst, eller lägg till en ljud- eller videofil, och få hela transkriptionen med en AI-sammanfattning." }
     ]
   },
   "languages": {
     "eyebrow": "60+ språk",
-    "title": "Undertexter på de språk som talas i din organisation",
+    "title": "Undertexter på det språk som talas",
     "subtitle": "Liveundertexter, översättning och transkription på vart och ett av dem, även när någon byter språk mitt i en mening."
   },
   "awareness": {
@@ -56,8 +55,8 @@
     "eyebrow": "För din organisation",
     "title": "Därför väljer organisationer Captio AI",
     "items": [
-      { "title": "Redo direkt när det behövs", "description": "Ingen skrivtolk att boka i förväg. Undertexterna startar med ett tryck, var personen än är." },
-      { "title": "I den egna mobilen", "description": "iPhone eller Android. Inget för IT-avdelningen att installera och ingen hårdvara att dela ut." },
+      { "title": "Redo direkt när det behövs", "description": "Undertexterna startar med ett tryck, var som helst. Ingen skrivtolk att boka i förväg." },
+      { "title": "På iPhone och Android", "description": "Bara en app i mobilen. Inget för IT att installera och ingen hårdvara att köpa." },
       { "title": "Integritet från början", "description": "Lagras inom EU. Ljud sparas inte på våra servrar, och ingenting används någonsin för att träna AI." },
       { "title": "Enkelt att köpa", "description": "Ett pris per person och år, mot faktura. Inget minimum, ingen startavgift, ingenting förnyas av sig självt." }
     ]
@@ -66,7 +65,7 @@
     "eyebrow": "Gratis pilot",
     "title": "Testa i 30 dagar med upp till 5 personer",
     "steps": [
-      { "title": "Få din pilotlänk", "description": "Fyll i formuläret nedan. Länken kommer till din inkorg inom en minut, med ett meddelande som är klart att vidarebefordra." },
+      { "title": "Få din pilotlänk", "description": "Fyll i formuläret. Länken kommer till din inkorg inom en minut, med ett meddelande som är klart att vidarebefordra." },
       { "title": "Vidarebefordra den till upp till 5 personer", "description": "Var och en öppnar länken i mobilen, fortsätter med Apple eller Google och får Captio AI på iPhone eller Android." },
       { "title": "De har fullversionen i 30 dagar", "description": "Inga personuppgifter från dig, alltså inget pappersarbete. Mot slutet får du en sammanställning av hur mycket den har använts, och priset för att behålla den." }
     ]
@@ -76,7 +75,7 @@
     "name": "Ditt namn",
     "email": "Din e-postadress på jobbet",
     "emailHint": "Pilotlänken skickas hit.",
-    "people": "Ungefär hur många personer kan komma att använda den?",
+    "people": "Hur många personer?",
     "peopleOptions": ["1 till 5", "6 till 19", "20 till 50", "Fler än 50"],
     "submit": "Skicka pilotlänken till mig",
     "sending": "Skickar…",
@@ -148,8 +147,8 @@
   },
   "cta": {
     "eyebrow": "Gratis pilot",
-    "title": "Testa med dem som ska använda den",
-    "body": "Upp till 5 personer, gratis i 30 dagar. Länken kommer till din inkorg inom en minut. Har du frågor först? Skriv till {address}."
+    "title": "Testa Captio AI gratis i 30 dagar",
+    "body": "Upp till 5 personer. Länken kommer till din inkorg inom en minut. Har du frågor först? Skriv till {address}."
   },
   "join": {
     "metaTitle": "Captio AI från {org}",

@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Teks Langsung untuk Organisasi: Ubah Suara Jadi Teks",
-    "description": "Captio AI menampilkan teks langsung di ponsel orang Tuli dan kurang dengar saat bertatap muka, dalam 60+ bahasa. Lisensi tahunan via invoice. Uji coba gratis 30 hari."
+    "description": "Captio AI memberikan teks langsung kepada orang Tuli dan kurang dengar dalam situasi apa pun, dalam 60+ bahasa, di iPhone dan Android. Lisensi tahunan untuk organisasi, dibayar via invoice. Uji coba gratis 30 hari."
   },
   "header": {
     "forOrganizations": "untuk Organisasi",
@@ -10,25 +10,24 @@
   },
   "hero": {
     "eyebrow": "🏢 Captio AI untuk Organisasi",
-    "title": "Teks langsung di ponsel mereka, begitu orang [bicara]",
-    "description": "Captio AI adalah aplikasi untuk orang Tuli dan kurang dengar. Aplikasi ini mendengarkan dan menampilkan ucapan sebagai teks saat bertatap muka, dalam 60+ bahasa. Berikan kepada orang-orang di organisasi Anda yang membutuhkannya: satu lisensi tahunan per orang, dibayar dengan invoice.",
-    "pilotNote": "Gratis 30 hari, hingga 5 orang. Tanpa biaya, tanpa tanda tangan apa pun.",
-    "facts": ["iPhone dan Android", "60+ bahasa", "Disimpan di UE"],
-    "videoLabel": "Captio AI menampilkan teks langsung percakapan dua orang, dengan label untuk setiap pembicara"
+    "title": "Teks langsung untuk orang Tuli dan kurang dengar, dalam [situasi apa pun]",
+    "description": "Captio AI adalah aplikasi untuk iPhone dan Android yang mengubah ucapan menjadi teks saat itu juga, dalam 60+ bahasa. Aplikasi ini menunjukkan siapa yang berbicara, menerjemahkan, dan menyimpan setiap percakapan sebagai transkrip.",
+    "facts": ["iPhone dan Android", "60+ bahasa", "Disimpan di UE", "Dibayar dengan invoice"],
+    "imageAlt": "Captio AI menampilkan teks langsung percakapan dua orang, dengan label untuk setiap pembicara dan bunyi bel pintu yang tertulis di dalam teks"
   },
   "features": {
     "eyebrow": "Apa yang dilakukan Captio AI",
     "title": "Teks langsung, terjemahan, dan transkripsi",
-    "subtitle": "Tiga alat dalam satu aplikasi, di ponsel mereka sendiri, dalam 60+ bahasa.",
+    "subtitle": "Tiga alat dalam satu aplikasi, di iPhone dan Android, dalam 60+ bahasa.",
     "items": [
       { "label": "Teks langsung", "title": "Setiap kata, saat diucapkan", "description": "Buka aplikasi, ketuk mikrofon, lalu baca. Setiap pembicara mendapat labelnya sendiri, jadi jelas siapa mengatakan apa." },
-      { "label": "Terjemahan langsung", "title": "Dua bahasa berdampingan", "description": "Saat seseorang berbicara dalam bahasa lain, mereka melihat ucapannya dan terjemahannya sekaligus." },
+      { "label": "Terjemahan langsung", "title": "Dua bahasa berdampingan", "description": "Saat seseorang berbicara dalam bahasa lain, aplikasi menampilkan ucapannya dan terjemahannya sekaligus." },
       { "label": "Transkripsi", "title": "Rekaman dan file jadi teks", "description": "Simpan percakapan apa pun, atau tambahkan file audio atau video, lalu dapatkan transkrip lengkap beserta ringkasan AI." }
     ]
   },
   "languages": {
     "eyebrow": "60+ bahasa",
-    "title": "Teks dalam bahasa yang dipakai orang-orang Anda",
+    "title": "Teks dalam bahasa yang sedang digunakan",
     "subtitle": "Teks langsung, terjemahan, dan transkripsi di setiap bahasa, termasuk bagi orang yang berganti bahasa di tengah kalimat."
   },
   "awareness": {
@@ -37,7 +36,7 @@
     "subtitle": "Siapa yang berbicara, di mana posisinya, dan apa lagi yang sedang terjadi: hal-hal yang penting saat tidak bisa mendengar suasana ruangan.",
     "items": [
       { "title": "Tahu siapa yang berbicara", "description": "Simpan suara seseorang sekali saja, dari sekitar 20 detik ia berbicara, dan teks akan menampilkan namanya, bukan “Pembicara 2”, baik secara langsung maupun di rekaman yang disimpan. Data suara dibuat dan disimpan di ponsel.", "where": "iPhone" },
-      { "title": "Menunjukkan arah suara", "description": "Gelombang di tepi layar menunjukkan dari sisi mana suara datang, dengan warna pembicara tersebut, sehingga mereka tahu harus melihat ke mana di ruangan yang ramai.", "where": "iPhone 16 ke atas" },
+      { "title": "Menunjukkan arah suara", "description": "Gelombang di tepi layar menunjukkan dari sisi mana suara datang, dengan warna pembicara tersebut, sehingga jelas harus melihat ke mana di ruangan yang ramai.", "where": "iPhone 16 ke atas" },
       { "title": "Mendengar suara di sekitar", "description": "Suara muncul di teks seperti pada subtitle film. Bel pintu, alarm, atau tangisan bayi juga membuat ponsel bergetar.", "where": "iPhone dan iPad" }
     ],
     "drawing": {
@@ -56,8 +55,8 @@
     "eyebrow": "Untuk organisasi Anda",
     "title": "Mengapa organisasi memilih Captio AI",
     "items": [
-      { "title": "Siap saat dibutuhkan", "description": "Tidak perlu memesan juru teks jauh hari. Teks dimulai dengan satu ketukan, di mana pun orangnya berada." },
-      { "title": "Di ponsel mereka sendiri", "description": "iPhone atau Android. Tim IT Anda tidak perlu memasang apa pun, dan tidak ada perangkat yang harus dibagikan." },
+      { "title": "Siap saat dibutuhkan", "description": "Teks dimulai dengan satu ketukan, di mana saja. Tidak perlu memesan juru teks jauh hari." },
+      { "title": "Di iPhone dan Android", "description": "Cukup aplikasi di ponsel. Tim IT tidak perlu memasang apa pun, dan tidak ada perangkat yang harus dibeli." },
       { "title": "Privasi sejak rancangan", "description": "Disimpan di UE. Audio tidak disimpan di server kami, dan tidak ada yang dipakai untuk melatih AI." },
       { "title": "Mudah dibeli", "description": "Satu harga per orang per tahun, dengan invoice. Tanpa minimum, tanpa biaya penyiapan, dan tidak ada yang diperpanjang otomatis." }
     ]
@@ -66,7 +65,7 @@
     "eyebrow": "Uji coba gratis",
     "title": "Coba selama 30 hari dengan hingga 5 orang",
     "steps": [
-      { "title": "Dapatkan tautan uji coba", "description": "Isi formulir di bawah. Tautan tiba di kotak masuk Anda dalam satu menit, beserta pesan yang siap diteruskan." },
+      { "title": "Dapatkan tautan uji coba", "description": "Isi formulir. Tautan tiba di kotak masuk Anda dalam satu menit, beserta pesan yang siap diteruskan." },
       { "title": "Teruskan ke hingga 5 orang", "description": "Setiap orang membukanya di ponsel, melanjutkan dengan Apple atau Google, lalu mengunduh Captio AI di iPhone atau Android." },
       { "title": "Versi lengkap selama 30 hari", "description": "Anda tidak perlu memberikan data pribadi, jadi tidak ada urusan dokumen. Menjelang akhir, Anda menerima ringkasan seberapa banyak aplikasi dipakai, beserta harga untuk melanjutkannya." }
     ]
@@ -76,7 +75,7 @@
     "name": "Nama Anda",
     "email": "Email kantor Anda",
     "emailHint": "Tautan uji coba dikirim ke sini.",
-    "people": "Kira-kira berapa orang yang mungkin memakainya?",
+    "people": "Berapa orang?",
     "peopleOptions": ["1 sampai 5", "6 sampai 19", "20 sampai 50", "Lebih dari 50"],
     "submit": "Kirimkan tautan uji coba",
     "sending": "Mengirim…",
@@ -148,8 +147,8 @@
   },
   "cta": {
     "eyebrow": "Uji coba gratis",
-    "title": "Coba langsung bersama orang-orang Anda",
-    "body": "Hingga 5 orang, gratis selama 30 hari. Tautan tiba di kotak masuk Anda dalam satu menit. Ada pertanyaan dulu? Kirim email ke {address}."
+    "title": "Coba Captio AI gratis selama 30 hari",
+    "body": "Hingga 5 orang. Tautan tiba di kotak masuk Anda dalam satu menit. Ada pertanyaan dulu? Kirim email ke {address}."
   },
   "join": {
     "metaTitle": "Captio AI dari {org}",

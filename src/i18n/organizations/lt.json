@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Tiesioginiai subtitrai organizacijoms ir įmonėms",
-    "description": "Captio AI rodo kurtiesiems ir neprigirdintiesiems tiesioginius subtitrus telefone, 60+ kalbų. Metinės licencijos pagal sąskaitą. Nemokamas 30 d. bandymas."
+    "description": "Captio AI rodo kurtiesiems ir neprigirdintiesiems tiesioginius subtitrus bet kokioje situacijoje, 60+ kalbų, iPhone ir Android telefonuose. Metinės licencijos organizacijoms pagal sąskaitą. Nemokamas 30 d. bandymas."
   },
   "header": {
     "forOrganizations": "Organizacijoms",
@@ -10,25 +10,24 @@
   },
   "hero": {
     "eyebrow": "🏢 Captio AI organizacijoms",
-    "title": "Tiesioginiai subtitrai jų telefone, vos tik žmonės [prabyla]",
-    "description": "Captio AI – programėlė kurtiesiems ir neprigirdintiesiems. Ji klauso ir tekstu parodo, kas sakoma pokalbyje gyvai, 60+ kalbų. Suteikite ją savo organizacijos žmonėms, kuriems jos reikia: po vieną metinę licenciją kiekvienam, apmokama pagal sąskaitą faktūrą.",
-    "pilotNote": "Nemokamai 30 dienų, iki 5 žmonių. Nereikia nei mokėti, nei ką nors pasirašyti.",
-    "facts": ["iPhone ir Android", "60+ kalbų", "Duomenys saugomi ES"],
-    "videoLabel": "Captio AI rodo tiesioginius dviejų kalbančių žmonių subtitrus, kiekvienas kalbėtojas pažymėtas atskirai"
+    "title": "Tiesioginiai subtitrai kurtiesiems ir neprigirdintiesiems [bet kokioje situacijoje]",
+    "description": "Captio AI – programėlė iPhone ir Android telefonams, kuri kalbą paverčia tekstu vos ją ištarus, 60+ kalbų. Ji rodo, kas kalba, verčia į kitas kalbas ir kiekvieną pokalbį išsaugo kaip transkripciją.",
+    "facts": ["iPhone ir Android", "60+ kalbų", "Duomenys saugomi ES", "Mokama pagal sąskaitą faktūrą"],
+    "imageAlt": "Captio AI rodo tiesioginius dviejų kalbančių žmonių subtitrus, kiekvienas kalbėtojas pažymėtas atskirai, o durų skambutis įrašytas į subtitrus"
   },
   "features": {
     "eyebrow": "Ką daro Captio AI",
     "title": "Tiesioginiai subtitrai, vertimas ir transkripcija",
-    "subtitle": "Trys įrankiai vienoje programėlėje, jų pačių telefone, 60+ kalbų.",
+    "subtitle": "Trys įrankiai vienoje programėlėje, iPhone ir Android telefonuose, 60+ kalbų.",
     "items": [
       { "label": "Tiesioginiai subtitrai", "title": "Kiekvienas žodis, vos tik ištartas", "description": "Atidarykite programėlę, palieskite mikrofoną ir skaitykite. Kiekvienas kalbėtojas pažymimas atskirai, todėl aišku, kas ką pasakė." },
-      { "label": "Tiesioginis vertimas", "title": "Abi kalbos greta", "description": "Kai kas nors kalba kita kalba, žmogus tuo pačiu metu mato ir tai, kas pasakyta, ir vertimą." },
+      { "label": "Tiesioginis vertimas", "title": "Abi kalbos greta", "description": "Kai kas nors kalba kita kalba, programėlė tuo pačiu metu rodo ir tai, kas pasakyta, ir vertimą." },
       { "label": "Transkripcija", "title": "Įrašai ir failai – tekstu", "description": "Išsaugokite bet kurį pokalbį arba įkelkite garso ar vaizdo failą ir gaukite visą transkripciją su DI santrauka." }
     ]
   },
   "languages": {
     "eyebrow": "60+ kalbų",
-    "title": "Subtitrai kalbomis, kuriomis kalba jūsų žmonės",
+    "title": "Subtitrai ta kalba, kuria kalbama",
     "subtitle": "Tiesioginiai subtitrai, vertimas ir transkripcija kiekviena iš jų, net kai žmonės pakeičia kalbą sakinio viduryje."
   },
   "awareness": {
@@ -56,8 +55,8 @@
     "eyebrow": "Jūsų organizacijai",
     "title": "Kodėl organizacijos renkasi Captio AI",
     "items": [
-      { "title": "Paruošta tą akimirką, kai reikia", "description": "Nereikia iš anksto užsakyti subtitrų rengėjo. Subtitrai įsijungia vienu palietimu, kad ir kur žmogus būtų." },
-      { "title": "Jų pačių telefone", "description": "iPhone arba Android. Jūsų IT komandai nieko nereikia diegti, nereikia dalyti jokios įrangos." },
+      { "title": "Paruošta tą akimirką, kai reikia", "description": "Subtitrai įsijungia vienu palietimu, bet kur. Nereikia iš anksto užsakyti subtitrų rengėjo." },
+      { "title": "iPhone ir Android telefonuose", "description": "Tik programėlė telefone. IT komandai nieko nereikia diegti, nereikia pirkti jokios įrangos." },
       { "title": "Privatumas – nuo pat pradžių", "description": "Duomenys saugomi ES. Garsas nelaikomas mūsų serveriuose, o jokie duomenys niekada nenaudojami DI mokyti." },
       { "title": "Paprasta įsigyti", "description": "Viena kaina vienam žmogui per metus, pagal sąskaitą faktūrą. Jokio minimumo, jokio diegimo mokesčio, niekas neatsinaujina savaime." }
     ]
@@ -66,7 +65,7 @@
     "eyebrow": "Nemokamas bandymas",
     "title": "Išbandykite 30 dienų – iki 5 žmonių",
     "steps": [
-      { "title": "Gaukite bandymo nuorodą", "description": "Užpildykite žemiau esančią formą. Per minutę nuoroda atkeliaus į jūsų el. paštą kartu su žinute, kurią galėsite persiųsti." },
+      { "title": "Gaukite bandymo nuorodą", "description": "Užpildykite formą. Per minutę nuoroda atkeliaus į jūsų el. paštą kartu su žinute, kurią galėsite persiųsti." },
       { "title": "Persiųskite ją iki 5 žmonių", "description": "Kiekvienas atsidaro ją telefone, tęsia su Apple arba Google ir atsisiunčia Captio AI programėlę į iPhone ar Android telefoną." },
       { "title": "30 dienų jie naudojasi pilna versija", "description": "Iš jūsų nereikia jokių asmens duomenų, todėl nereikia ir jokių dokumentų. Artėjant pabaigai gausite suvestinę, kiek programėle naudotasi, ir kainą, jei norėtumėte tęsti." }
     ]
@@ -76,7 +75,7 @@
     "name": "Jūsų vardas",
     "email": "Jūsų darbo el. paštas",
     "emailHint": "Bandymo nuoroda bus išsiųsta šiuo adresu.",
-    "people": "Maždaug kiek žmonių galėtų ja naudotis?",
+    "people": "Kiek žmonių?",
     "peopleOptions": ["Nuo 1 iki 5", "Nuo 6 iki 19", "Nuo 20 iki 50", "Daugiau nei 50"],
     "submit": "Atsiųsti man bandymo nuorodą",
     "sending": "Siunčiama…",
@@ -148,8 +147,8 @@
   },
   "cta": {
     "eyebrow": "Nemokamas bandymas",
-    "title": "Išbandykite su savo žmonėmis",
-    "body": "Iki 5 žmonių, nemokamai 30 dienų. Nuoroda į jūsų el. paštą ateis per minutę. Pirmiausia turite klausimų? Rašykite adresu {address}."
+    "title": "Išbandykite Captio AI programėlę nemokamai 30 dienų",
+    "body": "Iki 5 žmonių. Nuoroda į jūsų el. paštą ateis per minutę. Pirmiausia turite klausimų? Rašykite adresu {address}."
   },
   "join": {
     "metaTitle": "Captio AI – {org}",

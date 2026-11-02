@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Subtítols en directe per a organitzacions i empreses",
-    "description": "Captio AI: subtítols en directe al mòbil per a persones sordes i amb pèrdua auditiva, en 60+ idiomes. Llicències anuals per factura. Prova gratis de 30 dies."
+    "description": "Captio AI ofereix subtítols en directe a persones sordes i amb pèrdua auditiva en qualsevol situació, en 60+ idiomes, a iPhone i Android. Llicències anuals per a organitzacions, per factura. Prova gratuïta de 30 dies."
   },
   "header": {
     "forOrganizations": "per a organitzacions",
@@ -10,25 +10,24 @@
   },
   "hero": {
     "eyebrow": "🏢 Captio AI per a organitzacions",
-    "title": "Subtítols en directe al seu mòbil, tan bon punt la gent [parla]",
-    "description": "Captio AI és una aplicació per a persones sordes i amb pèrdua auditiva. Escolta i mostra en text el que es diu, presencialment, en 60+ idiomes. Doneu-la a les persones de la vostra organització que la necessitin: una llicència anual per a cadascuna, amb pagament per factura.",
-    "pilotNote": "Gratuïta durant 30 dies, fins a 5 persones. Res a pagar, res a signar.",
-    "facts": ["iPhone i Android", "60+ idiomes", "Dades a la UE"],
-    "videoLabel": "Captio AI mostrant els subtítols en directe de dues persones que parlen, amb una etiqueta per a cada parlant"
+    "title": "Subtítols en directe per a persones sordes i amb pèrdua auditiva, en [qualsevol situació]",
+    "description": "Captio AI és una aplicació per a iPhone i Android que converteix la parla en text en el mateix moment que es diu, en 60+ idiomes. Mostra qui està parlant, tradueix i desa cada conversa com a transcripció.",
+    "facts": ["iPhone i Android", "60+ idiomes", "Dades a la UE", "Pagament per factura"],
+    "imageAlt": "Captio AI mostrant els subtítols en directe de dues persones que parlen, amb una etiqueta per a cada parlant i un timbre escrit als subtítols"
   },
   "features": {
     "eyebrow": "Què fa Captio AI",
     "title": "Subtítols en directe, traducció i transcripció",
-    "subtitle": "Tres eines en una sola aplicació, al seu propi mòbil, en 60+ idiomes.",
+    "subtitle": "Tres eines en una sola aplicació, a iPhone i Android, en 60+ idiomes.",
     "items": [
       { "label": "Subtítols en directe", "title": "Cada paraula, tal com es diu", "description": "Obriu l’aplicació, toqueu el micròfon i llegiu. Cada parlant té la seva etiqueta, així queda clar qui ha dit què." },
-      { "label": "Traducció en directe", "title": "Els dos idiomes, un al costat de l’altre", "description": "Quan algú parla un altre idioma, es veu alhora el que ha dit i la traducció." },
+      { "label": "Traducció en directe", "title": "Els dos idiomes, un al costat de l’altre", "description": "Quan algú parla un altre idioma, l’aplicació mostra alhora el que ha dit i la traducció." },
       { "label": "Transcripció", "title": "Gravacions i fitxers en text", "description": "Deseu qualsevol conversa, o afegiu un fitxer d’àudio o de vídeo, i obtingueu la transcripció completa amb un resum fet amb IA." }
     ]
   },
   "languages": {
     "eyebrow": "60+ idiomes",
-    "title": "Subtítols en els idiomes que parla la vostra gent",
+    "title": "Subtítols en l’idioma que es parla",
     "subtitle": "Subtítols en directe, traducció i transcripció en cadascun, fins i tot quan algú canvia d’idioma a mitja frase."
   },
   "awareness": {
@@ -56,8 +55,8 @@
     "eyebrow": "Per a la vostra organització",
     "title": "Per què les organitzacions trien Captio AI",
     "items": [
-      { "title": "A punt quan cal", "description": "No cal reservar cap subtitulador per endavant. Els subtítols comencen amb un toc, sigui on sigui la persona." },
-      { "title": "Al seu propi mòbil", "description": "iPhone o Android. El vostre equip d’informàtica no ha d’instal·lar res i no cal repartir cap aparell." },
+      { "title": "A punt quan cal", "description": "Els subtítols comencen amb un toc, a qualsevol lloc. No cal reservar cap subtitulador per endavant." },
+      { "title": "A iPhone i Android", "description": "Només una aplicació al mòbil. L’equip d’informàtica no ha d’instal·lar res i no cal comprar cap aparell." },
       { "title": "Privadesa des del disseny", "description": "Dades a la UE. L’àudio no es guarda als nostres servidors i res no s’utilitza mai per entrenar IA." },
       { "title": "Fàcil de comprar", "description": "Un preu per persona i any, amb factura. Sense mínim, sense quota d’alta, res no es renova sol." }
     ]
@@ -66,7 +65,7 @@
     "eyebrow": "Prova gratuïta",
     "title": "Proveu-la 30 dies amb fins a 5 persones",
     "steps": [
-      { "title": "Rebeu l’enllaç de la prova", "description": "Ompliu el formulari d’aquí sota. L’enllaç us arriba al correu en un minut, amb un missatge a punt per reenviar." },
+      { "title": "Rebeu l’enllaç de la prova", "description": "Ompliu el formulari. L’enllaç us arriba al correu en un minut, amb un missatge a punt per reenviar." },
       { "title": "Reenvieu-lo a fins a 5 persones", "description": "Cada persona l’obre al mòbil, continua amb Apple o Google i baixa Captio AI a l’iPhone o a l’Android." },
       { "title": "Tenen la versió completa durant 30 dies", "description": "No us demanem dades personals, i per tant no hi ha paperassa. Cap al final rebreu un resum de quant s’ha fet servir i el preu per continuar." }
     ]
@@ -76,7 +75,7 @@
     "name": "El vostre nom",
     "email": "El vostre correu de la feina",
     "emailHint": "Us enviarem l’enllaç de la prova a aquesta adreça.",
-    "people": "Aproximadament quantes persones la podrien fer servir?",
+    "people": "Quantes persones?",
     "peopleOptions": ["D’1 a 5", "De 6 a 19", "De 20 a 50", "Més de 50"],
     "submit": "Envieu-me l’enllaç de la prova",
     "sending": "S’està enviant…",
@@ -148,8 +147,8 @@
   },
   "cta": {
     "eyebrow": "Prova gratuïta",
-    "title": "Proveu-la amb la vostra gent",
-    "body": "Fins a 5 persones, gratis durant 30 dies. L’enllaç us arriba al correu en un minut. Teniu preguntes abans? Escriviu a {address}."
+    "title": "Proveu Captio AI gratis durant 30 dies",
+    "body": "Fins a 5 persones. L’enllaç us arriba al correu en un minut. Teniu preguntes abans? Escriviu a {address}."
   },
   "join": {
     "metaTitle": "Captio AI de part de {org}",

@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Élő feliratozás és beszédátírás szervezeteknek",
-    "description": "A Captio AI élő feliratot ad siketeknek és nagyothallóknak, több mint 60 nyelven. Éves licencek szervezeteknek, számlára. 30 napos ingyenes próba."
+    "description": "A Captio AI élő feliratot ad siketeknek és nagyothallóknak bármilyen helyzetben, több mint 60 nyelven, iPhone-on és Androidon. Éves licencek szervezeteknek, számlára. 30 napos ingyenes próba."
   },
   "header": {
     "forOrganizations": "szervezeteknek",
@@ -10,25 +10,24 @@
   },
   "hero": {
     "eyebrow": "🏢 Captio AI szervezeteknek",
-    "title": "Élő felirat a telefonjukon, abban a pillanatban, ahogy valaki [megszólal]",
-    "description": "A Captio AI siketeknek és nagyothallóknak készült alkalmazás. Figyeli, ami elhangzik, és szövegként mutatja személyes helyzetekben, több mint 60 nyelven. Adja oda azoknak a szervezetében, akiknek szükségük van rá: személyenként egy éves licenc, számlára.",
-    "pilotNote": "30 napig ingyenes, legfeljebb 5 főnek. Nincs mit fizetni, nincs mit aláírni.",
-    "facts": ["iPhone és Android", "Több mint 60 nyelv", "Tárolás az EU-ban"],
-    "videoLabel": "A Captio AI két beszélgető ember élő feliratát mutatja, minden beszélőnél külön címkével"
+    "title": "Élő felirat siketeknek és nagyothallóknak, [bármilyen helyzetben]",
+    "description": "A Captio AI egy iPhone-ra és Androidra készült alkalmazás, amely a beszédet abban a pillanatban szöveggé alakítja, ahogy elhangzik, több mint 60 nyelven. Megmutatja, ki beszél, fordít, és minden beszélgetést átiratként elment.",
+    "facts": ["iPhone és Android", "Több mint 60 nyelv", "Tárolás az EU-ban", "Fizetés számlára"],
+    "imageAlt": "A Captio AI két beszélgető ember élő feliratát mutatja, minden beszélőnél külön címkével és a feliratba írt csengetéssel"
   },
   "features": {
     "eyebrow": "Mire képes a Captio AI",
     "title": "Élő felirat, fordítás és átírás",
-    "subtitle": "Három eszköz egy alkalmazásban, a saját telefonon, több mint 60 nyelven.",
+    "subtitle": "Három eszköz egy alkalmazásban, iPhone-on és Androidon, több mint 60 nyelven.",
     "items": [
       { "label": "Élő felirat", "title": "Minden szó, ahogy elhangzik", "description": "Csak meg kell nyitni az alkalmazást, koppintani a mikrofonra, és lehet is olvasni. Minden beszélő saját címkét kap, így világos, ki mit mondott." },
-      { "label": "Élő fordítás", "title": "A két nyelv egymás mellett", "description": "Ha valaki más nyelven beszél, egyszerre látszik, ami elhangzott, és a fordítása." },
+      { "label": "Élő fordítás", "title": "A két nyelv egymás mellett", "description": "Ha valaki más nyelven beszél, az alkalmazás egyszerre mutatja, amit mondott, és a fordítását." },
       { "label": "Átírás", "title": "Felvételekből és fájlokból szöveg", "description": "Bármilyen beszélgetés elmenthető, vagy hozzáadható egy hang- vagy videofájl, és elkészül a teljes átirat egy MI-összefoglalóval." }
     ]
   },
   "languages": {
     "eyebrow": "Több mint 60 nyelv",
-    "title": "Felirat azokon a nyelveken, amelyeken a szervezetében beszélnek",
+    "title": "Felirat azon a nyelven, amelyen éppen beszélnek",
     "subtitle": "Élő felirat, fordítás és átírás mindegyiken, akkor is, ha valaki mondat közben vált nyelvet."
   },
   "awareness": {
@@ -56,8 +55,8 @@
     "eyebrow": "Az Ön szervezetének",
     "title": "Miért a Captio AI mellett döntenek a szervezetek",
     "items": [
-      { "title": "Azonnal kéznél van, amikor kell", "description": "Nem kell előre írótolmácsot foglalni. A felirat egy koppintással indul, bárhol is van az illető." },
-      { "title": "A saját telefonon", "description": "iPhone vagy Android. Az informatikának semmit sem kell telepítenie, és eszközöket sem kell kiosztani." },
+      { "title": "Azonnal kéznél van, amikor kell", "description": "A felirat egy koppintással indul, bárhol. Nem kell előre írótolmácsot foglalni." },
+      { "title": "iPhone-on és Androidon", "description": "Csak egy alkalmazás a telefonon. Az informatikának semmit sem kell telepítenie, és eszközt sem kell vásárolni." },
       { "title": "Adatvédelem alapból", "description": "Tárolás az EU-ban. A hangot nem tároljuk a szervereinken, és soha semmit nem használunk MI tanítására." },
       { "title": "Egyszerű beszerzés", "description": "Személyenként egy éves ár, számlára. Nincs minimum, nincs beállítási díj, és semmi sem újul meg magától." }
     ]
@@ -66,7 +65,7 @@
     "eyebrow": "Ingyenes próbaidőszak",
     "title": "Próbálja ki 30 napig, legfeljebb 5 fővel",
     "steps": [
-      { "title": "Kérje a próbaidőszak linkjét", "description": "Töltse ki az alábbi űrlapot. A link egy percen belül megérkezik a postafiókjába, egy továbbküldésre kész üzenettel együtt." },
+      { "title": "Kérje a próbaidőszak linkjét", "description": "Töltse ki az űrlapot. A link egy percen belül megérkezik a postafiókjába, egy továbbküldésre kész üzenettel együtt." },
       { "title": "Küldje tovább legfeljebb 5 embernek", "description": "Mindenki megnyitja a telefonján, Apple- vagy Google-fiókkal továbblép, és megkapja a Captio AI alkalmazást iPhone-ra vagy Androidra." },
       { "title": "30 napig a teljes verziót használják", "description": "Öntől nem kérünk személyes adatot, így papírmunka sincs. A vége felé összesítőt kap arról, mennyit használták, és azt is megtudja, mennyibe kerül a megtartása." }
     ]
@@ -76,7 +75,7 @@
     "name": "Az Ön neve",
     "email": "Munkahelyi e-mail-címe",
     "emailHint": "Ide küldjük a próbaidőszak linkjét.",
-    "people": "Nagyjából hányan használnák?",
+    "people": "Hány fő?",
     "peopleOptions": ["1–5 fő", "6–19 fő", "20–50 fő", "Több mint 50 fő"],
     "submit": "Kérem a próbaidőszak linkjét",
     "sending": "Küldés…",
@@ -148,8 +147,8 @@
   },
   "cta": {
     "eyebrow": "Ingyenes próbaidőszak",
-    "title": "Próbálja ki a saját embereivel",
-    "body": "Legfeljebb 5 fő, 30 napig ingyen. A link egy percen belül megérkezik a postafiókjába. Előbb kérdése van? Írjon ide: {address}."
+    "title": "Próbálja ki a Captio AI alkalmazást 30 napig ingyen",
+    "body": "Legfeljebb 5 fő. A link egy percen belül megérkezik a postafiókjába. Előbb kérdése van? Írjon ide: {address}."
   },
   "join": {
     "metaTitle": "Captio AI, {org} jóvoltából",

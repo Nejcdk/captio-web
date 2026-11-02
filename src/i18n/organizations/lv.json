@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Tiešraides subtitri organizācijām un uzņēmumiem",
-    "description": "Captio AI rāda nedzirdīgajiem un vājdzirdīgajiem subtitrus reāllaikā viņu tālrunī, 60+ valodās. Gada licences pēc rēķina. 30 dienu izmēģinājums bez maksas."
+    "description": "Captio AI rāda nedzirdīgajiem un vājdzirdīgajiem subtitrus reāllaikā jebkurā situācijā, 60+ valodās, iPhone un Android tālruņos. Gada licences organizācijām pēc rēķina. 30 dienu izmēģinājums bez maksas."
   },
   "header": {
     "forOrganizations": "Organizācijām",
@@ -10,25 +10,24 @@
   },
   "hero": {
     "eyebrow": "🏢 Captio AI organizācijām",
-    "title": "Tiešraides subtitri viņu tālrunī, tiklīdz cilvēki [runā]",
-    "description": "Captio AI ir lietotne nedzirdīgajiem un vājdzirdīgajiem. Tā klausās un parāda teikto kā tekstu klātienes sarunās, 60+ valodās. Nodrošiniet to savas organizācijas cilvēkiem, kam tā vajadzīga: katram viena gada licence, apmaksa pēc rēķina.",
-    "pilotNote": "30 dienas bez maksas, līdz 5 cilvēkiem. Nekas nav jāmaksā, nekas nav jāparaksta.",
-    "facts": ["iPhone un Android", "60+ valodas", "Dati glabājas ES"],
-    "videoLabel": "Captio AI rāda divu cilvēku sarunas subtitrus reāllaikā, katram runātājam ar savu apzīmējumu"
+    "title": "Tiešraides subtitri nedzirdīgajiem un vājdzirdīgajiem [jebkurā situācijā]",
+    "description": "Captio AI ir lietotne iPhone un Android tālruņiem, kas pārvērš runu tekstā tajā pašā brīdī, kad tā izskan, 60+ valodās. Tā rāda, kurš runā, tulko un saglabā katru sarunu kā transkripciju.",
+    "facts": ["iPhone un Android", "60+ valodas", "Dati glabājas ES", "Apmaksa pēc rēķina"],
+    "imageAlt": "Captio AI rāda divu cilvēku sarunas subtitrus reāllaikā, katram runātājam ar savu apzīmējumu, un subtitros ierakstītu durvju zvanu"
   },
   "features": {
     "eyebrow": "Ko dara Captio AI",
     "title": "Tiešraides subtitri, tulkošana un transkripcija",
-    "subtitle": "Trīs rīki vienā lietotnē, viņu pašu tālrunī, 60+ valodās.",
+    "subtitle": "Trīs rīki vienā lietotnē, iPhone un Android tālruņos, 60+ valodās.",
     "items": [
       { "label": "Tiešraides subtitri", "title": "Katrs vārds, tiklīdz tas izteikts", "description": "Atveriet lietotni, pieskarieties mikrofonam un lasiet līdzi. Katram runātājam ir savs apzīmējums, tāpēc skaidrs, kurš ko teica." },
-      { "label": "Tiešraides tulkošana", "title": "Abas valodas blakus", "description": "Kad kāds runā citā valodā, cilvēks vienlaikus redz gan teikto, gan tā tulkojumu." },
+      { "label": "Tiešraides tulkošana", "title": "Abas valodas blakus", "description": "Kad kāds runā citā valodā, lietotne vienlaikus rāda gan teikto, gan tā tulkojumu." },
       { "label": "Transkripcija", "title": "Ieraksti un faili tekstā", "description": "Saglabājiet jebkuru sarunu vai pievienojiet audio vai video failu un saņemiet pilnu transkripciju ar MI kopsavilkumu." }
     ]
   },
   "languages": {
     "eyebrow": "60+ valodas",
-    "title": "Subtitri valodās, kurās runā jūsu cilvēki",
+    "title": "Subtitri valodā, kurā runā",
     "subtitle": "Tiešraides subtitri, tulkošana un transkripcija katrā no tām, arī tad, ja cilvēki teikuma vidū pāriet uz citu valodu."
   },
   "awareness": {
@@ -56,8 +55,8 @@
     "eyebrow": "Jūsu organizācijai",
     "title": "Kāpēc organizācijas izvēlas Captio AI",
     "items": [
-      { "title": "Gatavs brīdī, kad vajag", "description": "Nav iepriekš jārezervē subtitrētājs. Subtitri sākas ar vienu pieskārienu, lai kur cilvēks atrastos." },
-      { "title": "Viņu pašu tālrunī", "description": "iPhone vai Android. Jūsu IT komandai nekas nav jāinstalē, un nav jāizsniedz nekāda aparatūra." },
+      { "title": "Gatavs brīdī, kad vajag", "description": "Subtitri sākas ar vienu pieskārienu, jebkur. Subtitrētājs nav jārezervē iepriekš." },
+      { "title": "iPhone un Android tālruņos", "description": "Tikai lietotne tālrunī. IT nodaļai nekas nav jāinstalē, un nav jāpērk nekāda aparatūra." },
       { "title": "Privātums jau pēc būtības", "description": "Dati glabājas ES. Audio netiek glabāts mūsu serveros, un nekas netiek izmantots MI apmācībai." },
       { "title": "Vienkārši iegādāties", "description": "Viena cena par cilvēku gadā, pēc rēķina. Bez minimuma, bez uzstādīšanas maksas, nekas neatjaunojas automātiski." }
     ]
@@ -66,7 +65,7 @@
     "eyebrow": "Bezmaksas izmēģinājums",
     "title": "Izmēģiniet 30 dienas ar līdz 5 cilvēkiem",
     "steps": [
-      { "title": "Saņemiet izmēģinājuma saiti", "description": "Aizpildiet zemāk esošo veidlapu. Saite minūtes laikā pienāks jūsu e-pastā kopā ar ziņu, ko var pārsūtīt." },
+      { "title": "Saņemiet izmēģinājuma saiti", "description": "Aizpildiet veidlapu. Saite minūtes laikā pienāks jūsu e-pastā kopā ar ziņu, ko var pārsūtīt." },
       { "title": "Pārsūtiet to līdz 5 cilvēkiem", "description": "Katrs to atver savā tālrunī, turpina ar Apple vai Google un lejupielādē lietotni Captio AI iPhone vai Android tālrunī." },
       { "title": "30 dienas viņiem ir pilnā versija", "description": "No jums nav vajadzīgi nekādi personas dati, tātad nav arī papīru. Tuvāk beigām saņemsiet kopsavilkumu par to, cik daudz tā tika izmantota, un cenu, ja vēlaties turpināt." }
     ]
@@ -76,7 +75,7 @@
     "name": "Jūsu vārds",
     "email": "Jūsu darba e-pasts",
     "emailHint": "Izmēģinājuma saite tiks nosūtīta uz šo adresi.",
-    "people": "Aptuveni cik cilvēku to varētu izmantot?",
+    "people": "Cik cilvēku?",
     "peopleOptions": ["No 1 līdz 5", "No 6 līdz 19", "No 20 līdz 50", "Vairāk nekā 50"],
     "submit": "Sūtīt man izmēģinājuma saiti",
     "sending": "Sūta…",
@@ -148,8 +147,8 @@
   },
   "cta": {
     "eyebrow": "Bezmaksas izmēģinājums",
-    "title": "Izmēģiniet ar saviem cilvēkiem",
-    "body": "Līdz 5 cilvēkiem, 30 dienas bez maksas. Saite minūtes laikā pienāks jūsu e-pastā. Vispirms ir jautājumi? Rakstiet uz {address}."
+    "title": "Izmēģiniet lietotni Captio AI 30 dienas bez maksas",
+    "body": "Līdz 5 cilvēkiem. Saite minūtes laikā pienāks jūsu e-pastā. Vispirms ir jautājumi? Rakstiet uz {address}."
   },
   "join": {
     "metaTitle": "Captio AI – {org}",

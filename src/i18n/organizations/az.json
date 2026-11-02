@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Təşkilatlar üçün canlı subtitr: nitqdən mətnə",
-    "description": "Captio AI kar və zəif eşidən insanlara nitqi telefonda canlı subtitr kimi göstərir, 60+ dildə. Təşkilatlar üçün illik lisenziya. 30 gün pulsuz pilot."
+    "description": "Captio AI kar və zəif eşidən insanlara istənilən vəziyyətdə canlı subtitr göstərir, 60+ dildə, iPhone və Android-də. Təşkilatlar üçün illik lisenziya, hesab-faktura ilə ödəniş. 30 gün pulsuz pilot."
   },
   "header": {
     "forOrganizations": "təşkilatlar üçün",
@@ -10,25 +10,24 @@
   },
   "hero": {
     "eyebrow": "🏢 Təşkilatlar üçün Captio AI",
-    "title": "İnsanların [danışdığı] anda telefonda canlı subtitrlər",
-    "description": "Captio AI kar və zəif eşidən insanlar üçün tətbiqdir. O, dinləyir və üz-üzə ünsiyyətdə deyilənləri mətn kimi göstərir, 60+ dildə. Onu təşkilatınızda ehtiyacı olan insanlara verin: hər nəfər üçün bir illik lisenziya, hesab-faktura ilə ödəniş.",
-    "pilotNote": "30 gün pulsuz, 5 nəfərə qədər. Heç nə ödəmək və imzalamaq lazım deyil.",
-    "facts": ["iPhone və Android", "60+ dil", "Məlumatlar Aİ-də saxlanılır"],
-    "videoLabel": "Captio AI iki nəfərin söhbətini canlı subtitrlərlə göstərir, hər danışan üçün ayrıca etiketlə"
+    "title": "Kar və zəif eşidən insanlar üçün [istənilən vəziyyətdə] canlı subtitrlər",
+    "description": "Captio AI iPhone və Android üçün tətbiqdir: nitqi deyildiyi anda mətnə çevirir, 60+ dildə. Kimin danışdığını göstərir, tərcümə edir və hər söhbəti transkripsiya kimi saxlayır.",
+    "facts": ["iPhone və Android", "60+ dil", "Məlumatlar Aİ-də saxlanılır", "Hesab-faktura ilə ödəniş"],
+    "imageAlt": "Captio AI iki nəfərin söhbətini canlı subtitrlərlə göstərir, hər danışan üçün ayrıca etiketlə və subtitrlərə yazılmış qapı zəngi ilə"
   },
   "features": {
     "eyebrow": "Captio AI nə edir",
     "title": "Canlı subtitr, tərcümə və transkripsiya",
-    "subtitle": "Bir tətbiqdə üç alət, öz telefonlarında, 60+ dildə.",
+    "subtitle": "Bir tətbiqdə üç alət, iPhone və Android-də, 60+ dildə.",
     "items": [
       { "label": "Canlı subtitr", "title": "Hər söz deyildiyi anda", "description": "Tətbiqi açın, mikrofona toxunun və oxuyun. Hər danışanın öz etiketi olur, ona görə kimin nə dediyi aydın görünür." },
-      { "label": "Canlı tərcümə", "title": "Hər iki dil yan-yana", "description": "Kimsə başqa dildə danışanda insan deyilənləri və onların tərcüməsini eyni anda görür." },
+      { "label": "Canlı tərcümə", "title": "Hər iki dil yan-yana", "description": "Kimsə başqa dildə danışanda tətbiq deyilənləri və onların tərcüməsini eyni anda göstərir." },
       { "label": "Transkripsiya", "title": "Yazılar və fayllar mətnə", "description": "İstənilən söhbəti yadda saxlayın və ya audio, yaxud video fayl əlavə edin, süni intellekt xülasəsi ilə tam transkripsiya alın." }
     ]
   },
   "languages": {
     "eyebrow": "60+ dil",
-    "title": "İnsanlarınızın danışdığı dillərdə subtitrlər",
+    "title": "Danışılan dildə subtitrlər",
     "subtitle": "Onların hər birində canlı subtitr, tərcümə və transkripsiya, cümlənin ortasında dili dəyişən insanlar üçün də."
   },
   "awareness": {
@@ -56,8 +55,8 @@
     "eyebrow": "Təşkilatınız üçün",
     "title": "Təşkilatlar niyə Captio AI tətbiqini seçir",
     "items": [
-      { "title": "Lazım olduğu an hazırdır", "description": "Subtitr mütəxəssisini əvvəlcədən sifariş etməyə ehtiyac yoxdur. İnsan harada olursa olsun, subtitrlər bir toxunuşla başlayır." },
-      { "title": "Öz telefonlarında", "description": "iPhone və ya Android. İT komandanızın heç nə quraşdırmasına və avadanlıq paylamasına ehtiyac yoxdur." },
+      { "title": "Lazım olduğu an hazırdır", "description": "Subtitrlər hər yerdə bir toxunuşla başlayır. Subtitr mütəxəssisini əvvəlcədən sifariş etməyə ehtiyac yoxdur." },
+      { "title": "iPhone və Android-də", "description": "Sadəcə telefonda bir tətbiq. İT-nin heç nə quraşdırmasına ehtiyac yoxdur, avadanlıq almaq da lazım deyil." },
       { "title": "Məxfilik əvvəldən düşünülüb", "description": "Məlumatlar Aİ-də saxlanılır. Audio serverlərimizdə saxlanılmır və heç nə heç vaxt süni intellektin öyrədilməsi üçün istifadə olunmur." },
       { "title": "Almaq asandır", "description": "Hər nəfər üçün ildə bir qiymət, hesab-faktura ilə. Minimum yoxdur, qoşulma haqqı yoxdur, heç nə avtomatik yenilənmir." }
     ]
@@ -66,7 +65,7 @@
     "eyebrow": "Pulsuz pilot",
     "title": "5 nəfərə qədər 30 gün sınayın",
     "steps": [
-      { "title": "Pilot linkinizi alın", "description": "Aşağıdakı formu doldurun. Link bir dəqiqə ərzində poçt qutunuza gələcək, yönləndirməyə hazır mesajla birlikdə." },
+      { "title": "Pilot linkinizi alın", "description": "Formu doldurun. Link bir dəqiqə ərzində poçt qutunuza gələcək, yönləndirməyə hazır mesajla birlikdə." },
       { "title": "Onu 5 nəfərə qədər insana göndərin", "description": "Hər kəs linki telefonunda açır, Apple və ya Google ilə davam edir və Captio AI tətbiqini iPhone və ya Android-də əldə edir." },
       { "title": "30 gün ərzində tam versiya", "description": "Sizdən heç bir şəxsi məlumat tələb olunmur, ona görə sənədləşmə yoxdur. Sonuna yaxın tətbiqdən nə qədər istifadə olunduğuna dair xülasə və onu saxlamaq üçün qiyməti alacaqsınız." }
     ]
@@ -76,7 +75,7 @@
     "name": "Adınız",
     "email": "İş e-poçtunuz",
     "emailHint": "Pilot linki bu ünvana göndəriləcək.",
-    "people": "Təxminən neçə nəfər istifadə edə bilər?",
+    "people": "Neçə nəfər?",
     "peopleOptions": ["1–5 nəfər", "6–19 nəfər", "20–50 nəfər", "50-dən çox"],
     "submit": "Pilot linkini mənə göndərin",
     "sending": "Göndərilir…",
@@ -148,8 +147,8 @@
   },
   "cta": {
     "eyebrow": "Pulsuz pilot",
-    "title": "Öz insanlarınızla sınayın",
-    "body": "5 nəfərə qədər, 30 gün pulsuz. Link bir dəqiqə ərzində poçt qutunuza gələcək. Əvvəlcə sualınız var? {address} ünvanına yazın."
+    "title": "Captio AI tətbiqini 30 gün pulsuz sınayın",
+    "body": "5 nəfərə qədər. Link bir dəqiqə ərzində poçt qutunuza gələcək. Əvvəlcə sualınız var? {address} ünvanına yazın."
   },
   "join": {
     "metaTitle": "{org} sənə Captio AI təqdim edir",

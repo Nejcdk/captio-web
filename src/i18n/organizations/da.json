@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Liveundertekster og tale til tekst for organisationer",
-    "description": "Captio AI giver døve og hørehæmmede liveundertekster på telefonen, på 60+ sprog. Årslicenser til organisationer mod faktura. Gratis pilot i 30 dage."
+    "description": "Captio AI giver døve og hørehæmmede liveundertekster i alle situationer, på 60+ sprog, på iPhone og Android. Årslicenser til organisationer mod faktura. Gratis pilot i 30 dage."
   },
   "header": {
     "forOrganizations": "for organisationer",
@@ -10,25 +10,24 @@
   },
   "hero": {
     "eyebrow": "🏢 Captio AI for organisationer",
-    "title": "Liveundertekster på telefonen, i samme øjeblik som nogen [taler]",
-    "description": "Captio AI er en app til døve og hørehæmmede. Den lytter og viser det, der bliver sagt, som tekst, ansigt til ansigt, på 60+ sprog. Giv den til de personer i din organisation, der har brug for den: én årslicens pr. person, mod faktura.",
-    "pilotNote": "Gratis i 30 dage for op til 5 personer. Intet at betale, intet at underskrive.",
-    "facts": ["iPhone og Android", "60+ sprog", "Opbevares i EU"],
-    "videoLabel": "Captio AI viser liveundertekster af to personer, der taler sammen, med en etiket for hver taler"
+    "title": "Liveundertekster til døve og hørehæmmede, i [alle situationer]",
+    "description": "Captio AI er en app til iPhone og Android, der gør tale til tekst i samme øjeblik, den bliver sagt, på 60+ sprog. Den oversætter, viser, hvem der taler, og gemmer hver samtale som en transskription.",
+    "facts": ["iPhone og Android", "60+ sprog", "Opbevares i EU", "Betales mod faktura"],
+    "imageAlt": "Captio AI viser liveundertekster af to personer, der taler sammen, med en etiket for hver taler og en dørklokke skrevet ind i underteksterne"
   },
   "features": {
     "eyebrow": "Det kan Captio AI",
     "title": "Liveundertekster, oversættelse og transskription",
-    "subtitle": "Tre værktøjer i én app, på deres egen telefon, på 60+ sprog.",
+    "subtitle": "Tre værktøjer i én app, til iPhone og Android, på 60+ sprog.",
     "items": [
       { "label": "Liveundertekster", "title": "Hvert ord, mens det bliver sagt", "description": "Åbn appen, tryk på mikrofonen, og læs med. Hver taler får sin egen etiket, så det er tydeligt, hvem der sagde hvad." },
-      { "label": "Liveoversættelse", "title": "Begge sprog side om side", "description": "Når nogen taler et andet sprog, ser man det, der bliver sagt, og oversættelsen på samme tid." },
+      { "label": "Liveoversættelse", "title": "Begge sprog side om side", "description": "Når nogen taler et andet sprog, viser appen det, der bliver sagt, og oversættelsen på samme tid." },
       { "label": "Transskription", "title": "Optagelser og filer bliver til tekst", "description": "Gem enhver samtale, eller tilføj en lyd- eller videofil, og få hele transskriptionen med et AI-resumé." }
     ]
   },
   "languages": {
     "eyebrow": "60+ sprog",
-    "title": "Undertekster på de sprog, der tales i din organisation",
+    "title": "Undertekster på det sprog, der bliver talt",
     "subtitle": "Liveundertekster, oversættelse og transskription på hvert eneste af dem, også når nogen skifter sprog midt i en sætning."
   },
   "awareness": {
@@ -56,8 +55,8 @@
     "eyebrow": "Til din organisation",
     "title": "Derfor vælger organisationer Captio AI",
     "items": [
-      { "title": "Klar, lige når der er brug for det", "description": "Ingen skrivetolk, der skal bookes på forhånd. Underteksterne starter med ét tryk, uanset hvor personen er." },
-      { "title": "På deres egen telefon", "description": "iPhone eller Android. Intet, som IT-afdelingen skal installere, og intet udstyr, der skal deles ud." },
+      { "title": "Klar, lige når der er brug for det", "description": "Underteksterne starter med ét tryk, hvor som helst. Ingen skrivetolk, der skal bookes på forhånd." },
+      { "title": "På iPhone og Android", "description": "Bare en app på telefonen. Intet, som IT skal installere, og intet udstyr, der skal købes." },
       { "title": "Privatliv fra start", "description": "Opbevares i EU. Lyd gemmes ikke på vores servere, og intet bliver nogensinde brugt til at træne AI." },
       { "title": "Nemt at købe", "description": "Én pris pr. person pr. år, mod faktura. Intet minimum, intet oprettelsesgebyr, og intet fornyes af sig selv." }
     ]
@@ -66,7 +65,7 @@
     "eyebrow": "Gratis pilot",
     "title": "Prøv det i 30 dage med op til 5 personer",
     "steps": [
-      { "title": "Få dit pilotlink", "description": "Udfyld formularen nedenfor. Linket lander i din indbakke inden for et minut, med en besked, der er klar til at blive videresendt." },
+      { "title": "Få dit pilotlink", "description": "Udfyld formularen. Linket lander i din indbakke inden for et minut, med en besked, der er klar til at blive videresendt." },
       { "title": "Videresend det til op til 5 personer", "description": "Hver person åbner det på sin telefon, fortsætter med Apple eller Google og får Captio AI på iPhone eller Android." },
       { "title": "De har den fulde version i 30 dage", "description": "Ingen persondata fra dig, så intet papirarbejde. Mod slutningen får du en opgørelse over, hvor meget den er blevet brugt, og prisen for at beholde den." }
     ]
@@ -76,7 +75,7 @@
     "name": "Dit navn",
     "email": "Din arbejdsmail",
     "emailHint": "Pilotlinket bliver sendt hertil.",
-    "people": "Hvor mange personer kan cirka komme til at bruge den?",
+    "people": "Hvor mange personer?",
     "peopleOptions": ["1 til 5", "6 til 19", "20 til 50", "Flere end 50"],
     "submit": "Send mig pilotlinket",
     "sending": "Sender…",
@@ -148,8 +147,8 @@
   },
   "cta": {
     "eyebrow": "Gratis pilot",
-    "title": "Prøv det med dem, der skal bruge det",
-    "body": "Op til 5 personer, gratis i 30 dage. Linket lander i din indbakke inden for et minut. Har du spørgsmål først? Skriv til {address}."
+    "title": "Prøv Captio AI gratis i 30 dage",
+    "body": "Op til 5 personer. Linket lander i din indbakke inden for et minut. Har du spørgsmål først? Skriv til {address}."
   },
   "join": {
     "metaTitle": "Captio AI fra {org}",

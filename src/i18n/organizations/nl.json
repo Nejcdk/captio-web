@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Live ondertiteling voor organisaties en bedrijven",
-    "description": "Captio AI toont doven en slechthorenden live ondertiteling op hun telefoon, in 60+ talen. Jaarlicenties per persoon op factuur. Gratis pilot van 30 dagen."
+    "description": "Captio AI geeft doven en slechthorenden live ondertiteling in elke situatie, in 60+ talen, op iPhone en Android. Jaarlicenties voor organisaties op factuur. Gratis pilot van 30 dagen."
   },
   "header": {
     "forOrganizations": "voor organisaties",
@@ -10,25 +10,24 @@
   },
   "hero": {
     "eyebrow": "🏢 Captio AI voor organisaties",
-    "title": "Live ondertiteling op hun telefoon, zodra iemand [spreekt]",
-    "description": "Captio AI is een app voor doven en slechthorenden. De app luistert en toont wat er gezegd wordt als tekst, bij gesprekken in dezelfde ruimte, in 60+ talen. Stel hem beschikbaar voor de mensen in uw organisatie die hem nodig hebben: één jaarlicentie per persoon, betaald op factuur.",
-    "pilotNote": "30 dagen gratis, voor maximaal 5 personen. Niets te betalen, niets te tekenen.",
-    "facts": ["iPhone en Android", "60+ talen", "Opgeslagen in de EU"],
-    "videoLabel": "Captio AI toont live ondertiteling van twee mensen die praten, met een label per spreker"
+    "title": "Live ondertiteling voor doven en slechthorenden, in [elke situatie]",
+    "description": "Captio AI is een app voor iPhone en Android die spraak meteen omzet in tekst, op het moment dat er gesproken wordt, in 60+ talen. De app vertaalt, laat zien wie er praat, en bewaart elk gesprek als transcript.",
+    "facts": ["iPhone en Android", "60+ talen", "Opgeslagen in de EU", "Betaling op factuur"],
+    "imageAlt": "Captio AI toont live ondertiteling van twee mensen die praten, met een label per spreker en een deurbel die in de ondertiteling staat"
   },
   "features": {
     "eyebrow": "Wat Captio AI doet",
     "title": "Live ondertiteling, vertaling en transcriptie",
-    "subtitle": "Drie hulpmiddelen in één app, op de eigen telefoon, in 60+ talen.",
+    "subtitle": "Drie hulpmiddelen in één app, op iPhone en Android, in 60+ talen.",
     "items": [
       { "label": "Live ondertiteling", "title": "Elk woord, zodra het gezegd wordt", "description": "Open de app, tik op de microfoon en lees mee. Elke spreker krijgt een eigen label, zodat duidelijk is wie wat zei." },
-      { "label": "Live vertaling", "title": "Beide talen naast elkaar", "description": "Spreekt iemand een andere taal, dan staan wat er gezegd werd en de vertaling tegelijk in beeld." },
+      { "label": "Live vertaling", "title": "Beide talen naast elkaar", "description": "Spreekt iemand een andere taal, dan toont de app tegelijk wat er gezegd werd en de vertaling." },
       { "label": "Transcriptie", "title": "Opnames en bestanden als tekst", "description": "Bewaar elk gesprek of voeg een audio- of videobestand toe, en krijg het volledige transcript met een AI-samenvatting." }
     ]
   },
   "languages": {
     "eyebrow": "60+ talen",
-    "title": "Ondertiteling in de talen die in uw organisatie gesproken worden",
+    "title": "Ondertiteling in de taal die gesproken wordt",
     "subtitle": "Live ondertiteling, vertaling en transcriptie in elk van die talen, ook voor wie midden in een zin van taal wisselt."
   },
   "awareness": {
@@ -56,8 +55,8 @@
     "eyebrow": "Voor uw organisatie",
     "title": "Waarom organisaties voor Captio AI kiezen",
     "items": [
-      { "title": "Klaar zodra het nodig is", "description": "Geen schrijftolk die vooraf geboekt moet worden. De ondertiteling start met één tik, waar de persoon ook is." },
-      { "title": "Op de eigen telefoon", "description": "iPhone of Android. Niets te installeren voor uw IT-afdeling en geen apparatuur om uit te delen." },
+      { "title": "Klaar zodra het nodig is", "description": "De ondertiteling start met één tik, overal. Geen schrijftolk die vooraf geboekt moet worden." },
+      { "title": "Op iPhone en Android", "description": "Gewoon een app op een telefoon. Niets te installeren voor IT en geen apparatuur om aan te schaffen." },
       { "title": "Privacy by design", "description": "Opgeslagen in de EU. Audio wordt niet op onze servers bewaard en niets wordt ooit gebruikt om AI te trainen." },
       { "title": "Eenvoudig in te kopen", "description": "Eén prijs per persoon per jaar, op factuur. Geen minimum, geen opstartkosten, niets wordt automatisch verlengd." }
     ]
@@ -66,7 +65,7 @@
     "eyebrow": "Gratis pilot",
     "title": "Probeer het 30 dagen met maximaal 5 personen",
     "steps": [
-      { "title": "Vraag uw pilotlink aan", "description": "Vul het formulier hieronder in. De link staat binnen een minuut in uw inbox, met een bericht dat u zo kunt doorsturen." },
+      { "title": "Vraag uw pilotlink aan", "description": "Vul het formulier in. De link staat binnen een minuut in uw inbox, met een bericht dat u zo kunt doorsturen." },
       { "title": "Stuur hem door naar maximaal 5 personen", "description": "Iedereen opent hem op de eigen telefoon, gaat verder met Apple of Google en krijgt Captio AI op iPhone of Android." },
       { "title": "30 dagen de volledige versie", "description": "Geen persoonsgegevens van u nodig, dus geen papierwerk. Tegen het einde krijgt u een overzicht van hoeveel de app gebruikt is, en de prijs om hem te houden." }
     ]
@@ -76,7 +75,7 @@
     "name": "Uw naam",
     "email": "Uw zakelijke e-mailadres",
     "emailHint": "Hier sturen we de pilotlink naartoe.",
-    "people": "Hoeveel mensen gaan de app ongeveer gebruiken?",
+    "people": "Hoeveel personen?",
     "peopleOptions": ["1 tot 5", "6 tot 19", "20 tot 50", "Meer dan 50"],
     "submit": "Stuur mij de pilotlink",
     "sending": "Versturen…",
@@ -148,8 +147,8 @@
   },
   "cta": {
     "eyebrow": "Gratis pilot",
-    "title": "Ervaar het met uw eigen mensen",
-    "body": "Maximaal 5 personen, 30 dagen gratis. De link staat binnen een minuut in uw inbox. Eerst vragen? Mail naar {address}."
+    "title": "Probeer Captio AI 30 dagen gratis",
+    "body": "Maximaal 5 personen. De link staat binnen een minuut in uw inbox. Eerst vragen? Mail naar {address}."
   },
   "join": {
     "metaTitle": "Captio AI via {org}",

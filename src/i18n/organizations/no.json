@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Direkteteksting og tale til tekst for organisasjoner",
-    "description": "Captio AI gir døve og hørselshemmede direkteteksting på mobilen, på 60+ språk. Årslisenser for organisasjoner mot faktura. Gratis pilot i 30 dager."
+    "description": "Captio AI gir døve og hørselshemmede direkteteksting i alle situasjoner, på 60+ språk, på iPhone og Android. Årslisenser for organisasjoner mot faktura. Gratis pilot i 30 dager."
   },
   "header": {
     "forOrganizations": "for organisasjoner",
@@ -10,25 +10,24 @@
   },
   "hero": {
     "eyebrow": "🏢 Captio AI for organisasjoner",
-    "title": "Direkteteksting på mobilen, i det øyeblikket noen [snakker]",
-    "description": "Captio AI er en app for døve og hørselshemmede. Den lytter og viser det som blir sagt som tekst, ansikt til ansikt, på 60+ språk. Gi den til de personene i organisasjonen din som trenger den: én årslisens per person, mot faktura.",
-    "pilotNote": "Gratis i 30 dager for opptil 5 personer. Ingenting å betale, ingenting å signere.",
-    "facts": ["iPhone og Android", "60+ språk", "Lagres i EU"],
-    "videoLabel": "Captio AI viser direkteteksting av to personer som snakker, med en merkelapp for hver taler"
+    "title": "Direkteteksting for døve og hørselshemmede, i [alle situasjoner]",
+    "description": "Captio AI er en app for iPhone og Android som gjør tale om til tekst i det øyeblikket den blir sagt, på 60+ språk. Den oversetter, viser hvem som snakker, og lagrer hver samtale som en transkripsjon.",
+    "facts": ["iPhone og Android", "60+ språk", "Lagres i EU", "Betales mot faktura"],
+    "imageAlt": "Captio AI viser direkteteksting av to personer som snakker, med en merkelapp for hver taler og en dørklokke skrevet inn i tekstingen"
   },
   "features": {
     "eyebrow": "Dette gjør Captio AI",
     "title": "Direkteteksting, oversettelse og transkripsjon",
-    "subtitle": "Tre verktøy i én app, på egen mobil, på 60+ språk.",
+    "subtitle": "Tre verktøy i én app, for iPhone og Android, på 60+ språk.",
     "items": [
       { "label": "Direkteteksting", "title": "Hvert ord, idet det blir sagt", "description": "Åpne appen, trykk på mikrofonen og les med. Hver taler får sin egen merkelapp, så det er tydelig hvem som sa hva." },
-      { "label": "Direkteoversettelse", "title": "Begge språkene side om side", "description": "Når noen snakker et annet språk, ser man det som blir sagt og oversettelsen samtidig." },
+      { "label": "Direkteoversettelse", "title": "Begge språkene side om side", "description": "Når noen snakker et annet språk, viser appen det som blir sagt og oversettelsen samtidig." },
       { "label": "Transkripsjon", "title": "Opptak og filer blir til tekst", "description": "Lagre hvilken som helst samtale, eller legg til en lyd- eller videofil, og få hele transkripsjonen med et AI-sammendrag." }
     ]
   },
   "languages": {
     "eyebrow": "60+ språk",
-    "title": "Teksting på språkene som snakkes i organisasjonen din",
+    "title": "Teksting på språket som snakkes",
     "subtitle": "Direkteteksting, oversettelse og transkripsjon på hvert eneste ett av dem, også når noen bytter språk midt i en setning."
   },
   "awareness": {
@@ -56,8 +55,8 @@
     "eyebrow": "For organisasjonen din",
     "title": "Derfor velger organisasjoner Captio AI",
     "items": [
-      { "title": "Klar i det øyeblikket det trengs", "description": "Ingen skrivetolk som må bestilles på forhånd. Tekstingen starter med ett trykk, uansett hvor personen er." },
-      { "title": "På egen mobil", "description": "iPhone eller Android. Ingenting for IT-avdelingen å installere og ikke noe utstyr å dele ut." },
+      { "title": "Klar i det øyeblikket det trengs", "description": "Tekstingen starter med ett trykk, hvor som helst. Ingen skrivetolk som må bestilles på forhånd." },
+      { "title": "På iPhone og Android", "description": "Bare en app på mobilen. Ingenting for IT å installere og ikke noe utstyr å kjøpe." },
       { "title": "Personvern fra start", "description": "Lagres i EU. Lyd lagres ikke på serverne våre, og ingenting blir noen gang brukt til å trene AI." },
       { "title": "Enkelt å kjøpe", "description": "Én pris per person per år, mot faktura. Ingen minstekjøp, ingen etableringsgebyr, og ingenting fornyes av seg selv." }
     ]
@@ -66,7 +65,7 @@
     "eyebrow": "Gratis pilot",
     "title": "Prøv det i 30 dager med opptil 5 personer",
     "steps": [
-      { "title": "Få pilotlenken din", "description": "Fyll ut skjemaet nedenfor. Lenken kommer i innboksen din innen et minutt, med en melding som er klar til å videresendes." },
+      { "title": "Få pilotlenken din", "description": "Fyll ut skjemaet. Lenken kommer i innboksen din innen et minutt, med en melding som er klar til å videresendes." },
       { "title": "Videresend den til opptil 5 personer", "description": "Hver person åpner den på mobilen, fortsetter med Apple eller Google og får Captio AI på iPhone eller Android." },
       { "title": "De har fullversjonen i 30 dager", "description": "Ingen personopplysninger fra deg, og dermed ikke noe papirarbeid. Mot slutten får du en oversikt over hvor mye den ble brukt, og prisen for å beholde den." }
     ]
@@ -76,7 +75,7 @@
     "name": "Navnet ditt",
     "email": "E-postadressen din på jobb",
     "emailHint": "Pilotlenken sendes hit.",
-    "people": "Omtrent hvor mange personer kan komme til å bruke den?",
+    "people": "Hvor mange personer?",
     "peopleOptions": ["1 til 5", "6 til 19", "20 til 50", "Flere enn 50"],
     "submit": "Send meg pilotlenken",
     "sending": "Sender…",
@@ -148,8 +147,8 @@
   },
   "cta": {
     "eyebrow": "Gratis pilot",
-    "title": "Prøv det med dem som skal bruke det",
-    "body": "Opptil 5 personer, gratis i 30 dager. Lenken kommer i innboksen din innen et minutt. Har du spørsmål først? Skriv til {address}."
+    "title": "Prøv Captio AI gratis i 30 dager",
+    "body": "Opptil 5 personer. Lenken kommer i innboksen din innen et minutt. Har du spørsmål først? Skriv til {address}."
   },
   "join": {
     "metaTitle": "Captio AI fra {org}",

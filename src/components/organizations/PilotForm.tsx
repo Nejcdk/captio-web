@@ -9,10 +9,13 @@ import type { OrgMessages } from "@/i18n/organizations";
 // address typed here (POST /api/org-pilot → org_pilot_request in the app
 // repo's supabase/organizations.sql), so it's never shown on this page. The
 // page's language goes along: the pilot's emails and its /o page use it.
+// The page shows it three times (Nejc 2026-11-02: a form right in the hero,
+// and more than one): hero, the pilot steps and the final banner.
 //
 // Events (PostHog, platform "web"; never the email or the name):
 //   org_pilot_form_started  first time someone types in it
 //   org_pilot_form_sent     ok, resent, error, people, free_mail, language
+// Both carry `placement` (hero | middle | end): which of the three it was.
 
 type State =
   | { step: "idle" }
@@ -33,7 +36,21 @@ function capture(event: string, props: Record<string, unknown>) {
 const field =
   "w-full rounded-[8px] border border-gray-300 bg-white px-4 py-3 text-base text-gray-900 placeholder:text-gray-400 focus:border-brand focus:outline-none focus:ring-2 focus:ring-brand/20";
 
-export function PilotForm({ t, language, address }: { t: OrgMessages["form"]; language: string; address: string }) {
+export type FormPlacement = "hero" | "middle" | "end";
+
+export function PilotForm({
+  t,
+  title,
+  language,
+  address,
+  placement,
+}: {
+  t: OrgMessages["form"];
+  title: string;
+  language: string;
+  address: string;
+  placement: FormPlacement;
+}) {
   const [state, setState] = useState<State>({ step: "idle" });
   const shownAt = useRef(0);
   const started = useRef(false);
@@ -55,7 +72,7 @@ export function PilotForm({ t, language, address }: { t: OrgMessages["form"]; la
   const onStart = () => {
     if (started.current) return;
     started.current = true;
-    capture("org_pilot_form_started", { language });
+    capture("org_pilot_form_started", { language, placement });
   };
 
   const submit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -87,14 +104,14 @@ export function PilotForm({ t, language, address }: { t: OrgMessages["form"]; la
       });
       const answer = await res.json().catch(() => ({ ok: false, error: "server" }));
       const freeMail = /@(gmail|googlemail|outlook|hotmail|live|yahoo|icloud|me|aol|proton|gmx)\./i.test(email);
-      capture("org_pilot_form_sent", { ok: !!answer.ok, resent: !!answer.resent, error: answer.error, people, free_mail: freeMail, language });
+      capture("org_pilot_form_sent", { ok: !!answer.ok, resent: !!answer.resent, error: answer.error, people, free_mail: freeMail, language, placement });
       if (answer.ok) {
         setState({ step: "sent", email, resent: !!answer.resent });
         return;
       }
       setState({ step: "error", message: errorText(answer.error, answer.code) });
     } catch {
-      capture("org_pilot_form_sent", { ok: false, error: "network", people, language });
+      capture("org_pilot_form_sent", { ok: false, error: "network", people, language, placement });
       setState({ step: "error", message: t.errors.network });
     }
   };
@@ -125,8 +142,9 @@ export function PilotForm({ t, language, address }: { t: OrgMessages["form"]; la
 
   const busy = state.step === "sending";
   return (
-    <form onSubmit={submit} onFocus={onStart} className="rounded-xl border border-gray-200 bg-white p-6 sm:p-8 flex flex-col gap-4 text-start">
-      <div className="grid sm:grid-cols-2 gap-4">
+    <form onSubmit={submit} onFocus={onStart} className="rounded-xl border border-gray-200 bg-white p-5 sm:p-7 flex flex-col gap-4 text-start">
+      <h2 className="text-xl font-bold text-gray-900">{title}</h2>
+      <div className="grid sm:grid-cols-2 gap-4 sm:items-start">
         <label className="flex flex-col gap-1.5">
           <span className="text-sm font-semibold text-gray-700">{t.organization}</span>
           <input name="org" required minLength={2} maxLength={120} autoComplete="organization" className={field} />
@@ -135,20 +153,20 @@ export function PilotForm({ t, language, address }: { t: OrgMessages["form"]; la
           <span className="text-sm font-semibold text-gray-700">{t.name}</span>
           <input name="name" maxLength={80} autoComplete="name" className={field} />
         </label>
+        <label className="flex flex-col gap-1.5">
+          <span className="text-sm font-semibold text-gray-700">{t.email}</span>
+          <input name="email" type="email" dir="ltr" required maxLength={200} autoComplete="email" inputMode="email" className={field} />
+          <span className="text-xs text-gray-500">{t.emailHint}</span>
+        </label>
+        <label className="flex flex-col gap-1.5">
+          <span className="text-sm font-semibold text-gray-700">{t.people}</span>
+          <select name="people" defaultValue="1-5" className={field}>
+            {PEOPLE_VALUES.map((value, i) => (
+              <option key={value} value={value}>{t.peopleOptions[i]}</option>
+            ))}
+          </select>
+        </label>
       </div>
-      <label className="flex flex-col gap-1.5">
-        <span className="text-sm font-semibold text-gray-700">{t.email}</span>
-        <input name="email" type="email" dir="ltr" required maxLength={200} autoComplete="email" inputMode="email" className={field} />
-        <span className="text-xs text-gray-500">{t.emailHint}</span>
-      </label>
-      <label className="flex flex-col gap-1.5">
-        <span className="text-sm font-semibold text-gray-700">{t.people}</span>
-        <select name="people" defaultValue="1-5" className={field}>
-          {PEOPLE_VALUES.map((value, i) => (
-            <option key={value} value={value}>{t.peopleOptions[i]}</option>
-          ))}
-        </select>
-      </label>
       {/* For bots only: people never see it. */}
       <input name="website" tabIndex={-1} autoComplete="off" aria-hidden className="hidden" />
       <button

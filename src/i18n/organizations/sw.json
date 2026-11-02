@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Manukuu Mubashara kwa Mashirika na Makampuni",
-    "description": "Captio AI: manukuu mubashara kwa viziwi na wasiosikia vizuri kwenye simu zao, kwa lugha 60+. Leseni za mwaka kwa ankara. Majaribio ya bure ya siku 30."
+    "description": "Captio AI inawapa viziwi na wasiosikia vizuri manukuu mubashara katika hali yoyote, kwa lugha 60+, kwenye iPhone na Android. Leseni za mwaka kwa mashirika, malipo kwa ankara. Majaribio ya bure ya siku 30."
   },
   "header": {
     "forOrganizations": "kwa Mashirika",
@@ -10,25 +10,24 @@
   },
   "hero": {
     "eyebrow": "🏢 Captio AI kwa Mashirika",
-    "title": "Manukuu mubashara kwenye simu zao, mara tu watu [wanapozungumza]",
-    "description": "Captio AI ni programu kwa ajili ya viziwi na wasiosikia vizuri. Inasikiliza na kuonyesha kinachosemwa kama maandishi, ana kwa ana, kwa lugha 60+. Wape watu wa shirika lako wanaoihitaji: leseni moja ya mwaka kwa kila mtu, inayolipwa kwa ankara.",
-    "pilotNote": "Bure kwa siku 30, hadi watu 5. Hakuna cha kulipa, hakuna cha kusaini.",
-    "facts": ["iPhone na Android", "Lugha 60+", "Huhifadhiwa ndani ya EU"],
-    "videoLabel": "Captio AI ikionyesha manukuu mubashara ya watu wawili wanaozungumza, na lebo kwa kila mzungumzaji"
+    "title": "Manukuu mubashara kwa viziwi na wasiosikia vizuri, katika [hali yoyote]",
+    "description": "Captio AI ni programu ya iPhone na Android inayogeuza maneno kuwa maandishi papo hapo yanapotamkwa, kwa lugha 60+. Inaonyesha nani anazungumza, inatafsiri, na inahifadhi kila mazungumzo kama nakala ya maandishi.",
+    "facts": ["iPhone na Android", "Lugha 60+", "Huhifadhiwa ndani ya EU", "Malipo kwa ankara"],
+    "imageAlt": "Captio AI ikionyesha manukuu mubashara ya watu wawili wanaozungumza, na lebo kwa kila mzungumzaji na kengele ya mlango iliyoandikwa ndani ya manukuu"
   },
   "features": {
     "eyebrow": "Kile ambacho Captio AI hufanya",
     "title": "Manukuu mubashara, tafsiri na unukuzi",
-    "subtitle": "Zana tatu katika programu moja, kwenye simu zao wenyewe, kwa lugha 60+.",
+    "subtitle": "Zana tatu katika programu moja, kwenye iPhone na Android, kwa lugha 60+.",
     "items": [
       { "label": "Manukuu mubashara", "title": "Kila neno, linaposemwa", "description": "Fungua programu, gusa maikrofoni na usome. Kila mzungumzaji anapata lebo yake, kwa hivyo ni wazi nani alisema nini." },
-      { "label": "Tafsiri mubashara", "title": "Lugha zote mbili kando kwa kando", "description": "Mtu anapozungumza lugha nyingine, mtumiaji huona kilichosemwa na tafsiri yake kwa wakati mmoja." },
+      { "label": "Tafsiri mubashara", "title": "Lugha zote mbili kando kwa kando", "description": "Mtu anapozungumza lugha nyingine, programu huonyesha alichosema na tafsiri yake kwa wakati mmoja." },
       { "label": "Unukuzi", "title": "Rekodi na faili kuwa maandishi", "description": "Hifadhi mazungumzo yoyote, au ongeza faili ya sauti au video, upate nakala kamili pamoja na muhtasari wa AI." }
     ]
   },
   "languages": {
     "eyebrow": "Lugha 60+",
-    "title": "Manukuu katika lugha zinazozungumzwa na watu wa shirika lako",
+    "title": "Manukuu katika lugha inayozungumzwa",
     "subtitle": "Manukuu mubashara, tafsiri na unukuzi katika kila moja ya lugha hizo, hata kwa watu wanaobadilisha lugha katikati ya sentensi."
   },
   "awareness": {
@@ -37,7 +36,7 @@
     "subtitle": "Nani anazungumza, yuko wapi na nini kingine kinaendelea: mambo muhimu kwa mtu asiyeweza kusikia kinachoendelea chumbani.",
     "items": [
       { "title": "Inajua nani anazungumza", "description": "Hifadhi sauti ya mtu mara moja tu, kutokana na takriban sekunde 20 za mazungumzo yake, na manukuu yataonyesha jina lake badala ya “Mzungumzaji 2”, mubashara na kwenye rekodi zilizohifadhiwa. Alama za sauti hutengenezwa na kubaki kwenye simu yenyewe.", "where": "iPhone" },
-      { "title": "Inaonyesha sauti inatoka wapi", "description": "Mawimbi pembeni mwa skrini huonyesha sauti inatoka upande gani, kwa rangi ya mzungumzaji huyo, ili mtumiaji ajue aangalie wapi katika chumba chenye watu wengi.", "where": "iPhone 16 na kuendelea" },
+      { "title": "Inaonyesha sauti inatoka wapi", "description": "Mawimbi pembeni mwa skrini huonyesha sauti inatoka upande gani, kwa rangi ya mzungumzaji huyo, ili iwe wazi pa kuangalia katika chumba chenye watu wengi.", "where": "iPhone 16 na kuendelea" },
       { "title": "Inasikia sauti za mazingira", "description": "Sauti huandikwa kwenye manukuu kama inavyofanyika katika manukuu ya filamu. Kengele ya mlango, kengele ya hatari au mtoto anayelia pia hufanya simu itetemeke.", "where": "iPhone na iPad" }
     ],
     "drawing": {
@@ -56,8 +55,8 @@
     "eyebrow": "Kwa shirika lako",
     "title": "Kwa nini mashirika huchagua Captio AI",
     "items": [
-      { "title": "Iko tayari pale inapohitajika", "description": "Hakuna haja ya kuweka nafasi ya mwandishi wa manukuu mapema. Manukuu huanza kwa mguso mmoja, popote mtu alipo." },
-      { "title": "Kwenye simu zao wenyewe", "description": "iPhone au Android. Hakuna kitu cha timu yako ya IT kusakinisha na hakuna vifaa vya kugawa." },
+      { "title": "Iko tayari pale inapohitajika", "description": "Manukuu huanza kwa mguso mmoja, popote. Hakuna haja ya kuweka nafasi ya mwandishi wa manukuu mapema." },
+      { "title": "Kwenye iPhone na Android", "description": "Ni programu tu kwenye simu. Hakuna kitu cha IT kusakinisha na hakuna vifaa vya kununua." },
       { "title": "Faragha tangu mwanzo", "description": "Huhifadhiwa ndani ya EU. Sauti haihifadhiwi kwenye seva zetu, na hakuna kinachotumiwa kamwe kufunza AI." },
       { "title": "Rahisi kununua", "description": "Bei moja kwa kila mtu kwa mwaka, kwa ankara. Hakuna kiwango cha chini, hakuna ada ya kuanzisha, hakuna usasishaji wa kiotomatiki." }
     ]
@@ -66,7 +65,7 @@
     "eyebrow": "Majaribio ya bure",
     "title": "Ijaribu kwa siku 30 na hadi watu 5",
     "steps": [
-      { "title": "Pata kiungo chako cha majaribio", "description": "Jaza fomu iliyo hapa chini. Kiungo kitafika kwenye kikasha chako ndani ya dakika moja, pamoja na ujumbe ulio tayari kusambazwa." },
+      { "title": "Pata kiungo chako cha majaribio", "description": "Jaza fomu. Kiungo kitafika kwenye kikasha chako ndani ya dakika moja, pamoja na ujumbe ulio tayari kusambazwa." },
       { "title": "Kisambaze kwa hadi watu 5", "description": "Kila mtu anakifungua kwenye simu yake, anaendelea na Apple au Google, na kupata Captio AI kwenye iPhone au Android." },
       { "title": "Wanapata toleo kamili kwa siku 30", "description": "Hatuhitaji data yoyote binafsi kutoka kwako, kwa hivyo hakuna makaratasi. Kuelekea mwisho utapokea muhtasari wa matumizi, pamoja na bei ya kuendelea nayo." }
     ]
@@ -76,7 +75,7 @@
     "name": "Jina lako",
     "email": "Barua pepe yako ya kazini",
     "emailHint": "Kiungo cha majaribio kitatumwa hapa.",
-    "people": "Takriban watu wangapi wanaweza kuitumia?",
+    "people": "Watu wangapi?",
     "peopleOptions": ["1 hadi 5", "6 hadi 19", "20 hadi 50", "Zaidi ya 50"],
     "submit": "Nitumie kiungo cha majaribio",
     "sending": "Inatuma…",
@@ -148,8 +147,8 @@
   },
   "cta": {
     "eyebrow": "Majaribio ya bure",
-    "title": "Ione ikifanya kazi na watu wako",
-    "body": "Hadi watu 5, bure kwa siku 30. Kiungo kinafika kwenye kikasha chako ndani ya dakika moja. Una maswali kwanza? Tuandikie kwa {address}."
+    "title": "Jaribu Captio AI bure kwa siku 30",
+    "body": "Hadi watu 5. Kiungo kinafika kwenye kikasha chako ndani ya dakika moja. Una maswali kwanza? Tuandikie kwa {address}."
   },
   "join": {
     "metaTitle": "Captio AI kutoka {org}",
