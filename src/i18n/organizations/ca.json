@@ -9,11 +9,7 @@
     "chooseLanguage": "Trieu l’idioma"
   },
   "hero": {
-    "eyebrow": "🏢 Captio AI per a organitzacions",
-    "title": "Subtítols en directe per a persones sordes i amb pèrdua auditiva, en [qualsevol situació]",
-    "description": "Captio AI és una aplicació per a iPhone i Android que converteix la parla en text en el mateix moment que es diu, en 60+ idiomes. Mostra qui està parlant, tradueix i desa cada conversa com a transcripció.",
-    "facts": ["iPhone i Android", "60+ idiomes", "Dades a la UE", "Pagament per factura"],
-    "imageAlt": "Captio AI mostrant els subtítols en directe de dues persones que parlen, amb una etiqueta per a cada parlant i un timbre escrit als subtítols"
+    "title": "Aplicació de [subtítols en directe] per a persones sordes i amb pèrdua auditiva"
   },
   "features": {
     "eyebrow": "Què fa Captio AI",

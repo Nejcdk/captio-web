@@ -9,11 +9,7 @@
     "chooseLanguage": "Chagua lugha"
   },
   "hero": {
-    "eyebrow": "🏢 Captio AI kwa Mashirika",
-    "title": "Manukuu mubashara kwa viziwi na wasiosikia vizuri, katika [hali yoyote]",
-    "description": "Captio AI ni programu ya iPhone na Android inayogeuza maneno kuwa maandishi papo hapo yanapotamkwa, kwa lugha 60+. Inaonyesha nani anazungumza, inatafsiri, na inahifadhi kila mazungumzo kama nakala ya maandishi.",
-    "facts": ["iPhone na Android", "Lugha 60+", "Huhifadhiwa ndani ya EU", "Malipo kwa ankara"],
-    "imageAlt": "Captio AI ikionyesha manukuu mubashara ya watu wawili wanaozungumza, na lebo kwa kila mzungumzaji na kengele ya mlango iliyoandikwa ndani ya manukuu"
+    "title": "Programu ya [manukuu mubashara] kwa viziwi na wasiosikia vizuri"
   },
   "features": {
     "eyebrow": "Kile ambacho Captio AI hufanya",

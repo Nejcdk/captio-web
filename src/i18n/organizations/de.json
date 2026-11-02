@@ -9,11 +9,7 @@
     "chooseLanguage": "Sprache wählen"
   },
   "hero": {
-    "eyebrow": "🏢 Captio AI für Organisationen",
-    "title": "Live-Untertitel für gehörlose und schwerhörige Menschen, in [jeder Situation]",
-    "description": "Captio AI ist eine App für iPhone und Android, die Gesprochenes sofort in Text umwandelt, in 60+ Sprachen. Sie übersetzt, zeigt, wer gerade spricht, und speichert jedes Gespräch als Transkript.",
-    "facts": ["iPhone und Android", "60+ Sprachen", "Speicherung in der EU", "Zahlung auf Rechnung"],
-    "imageAlt": "Captio AI zeigt Live-Untertitel eines Gesprächs zwischen zwei Personen, mit einer eigenen Markierung für jeden Sprecher und einer Türklingel, die in den Untertiteln steht"
+    "title": "Die [Live-Untertitel]-App für gehörlose und schwerhörige Menschen"
   },
   "features": {
     "eyebrow": "Was Captio AI kann",

@@ -9,11 +9,7 @@
     "chooseLanguage": "Kies een taal"
   },
   "hero": {
-    "eyebrow": "🏢 Captio AI voor organisaties",
-    "title": "Live ondertiteling voor doven en slechthorenden, in [elke situatie]",
-    "description": "Captio AI is een app voor iPhone en Android die spraak meteen omzet in tekst, op het moment dat er gesproken wordt, in 60+ talen. De app vertaalt, laat zien wie er praat, en bewaart elk gesprek als transcript.",
-    "facts": ["iPhone en Android", "60+ talen", "Opgeslagen in de EU", "Betaling op factuur"],
-    "imageAlt": "Captio AI toont live ondertiteling van twee mensen die praten, met een label per spreker en een deurbel die in de ondertiteling staat"
+    "title": "App met [live ondertiteling] voor doven en slechthorenden"
   },
   "features": {
     "eyebrow": "Wat Captio AI doet",

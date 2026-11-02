@@ -9,11 +9,7 @@
     "chooseLanguage": "Vælg sprog"
   },
   "hero": {
-    "eyebrow": "🏢 Captio AI for organisationer",
-    "title": "Liveundertekster til døve og hørehæmmede, i [alle situationer]",
-    "description": "Captio AI er en app til iPhone og Android, der gør tale til tekst i samme øjeblik, den bliver sagt, på 60+ sprog. Den oversætter, viser, hvem der taler, og gemmer hver samtale som en transskription.",
-    "facts": ["iPhone og Android", "60+ sprog", "Opbevares i EU", "Betales mod faktura"],
-    "imageAlt": "Captio AI viser liveundertekster af to personer, der taler sammen, med en etiket for hver taler og en dørklokke skrevet ind i underteksterne"
+    "title": "App med [liveundertekster] til døve og hørehæmmede"
   },
   "features": {
     "eyebrow": "Det kan Captio AI",

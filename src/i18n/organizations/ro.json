@@ -9,11 +9,7 @@
     "chooseLanguage": "Alegeți limba"
   },
   "hero": {
-    "eyebrow": "🏢 Captio AI pentru organizații",
-    "title": "Subtitrări live pentru persoanele surde și hipoacuzice, în [orice situație]",
-    "description": "Captio AI este o aplicație pentru iPhone și Android care transformă vorbirea în text chiar în clipa în care este rostită, în peste 60 de limbi. Arată cine vorbește, traduce și salvează fiecare conversație ca transcriere.",
-    "facts": ["iPhone și Android", "Peste 60 de limbi", "Date stocate în UE", "Plată pe bază de factură"],
-    "imageAlt": "Captio AI afișează subtitrări live pentru doi oameni care vorbesc, cu o etichetă pentru fiecare vorbitor și cu soneria de la ușă scrisă în subtitrări"
+    "title": "Aplicație de [subtitrări live] pentru persoanele surde și hipoacuzice"
   },
   "features": {
     "eyebrow": "Ce face Captio AI",

@@ -9,11 +9,7 @@
     "chooseLanguage": "Choisir la langue"
   },
   "hero": {
-    "eyebrow": "🏢 Captio AI pour les organisations",
-    "title": "Des sous-titres en direct pour les personnes sourdes et malentendantes, en [toute situation]",
-    "description": "Captio AI est une application pour iPhone et Android qui transforme la parole en texte au moment même où elle est prononcée, dans plus de 60 langues. Elle montre qui parle, elle traduit et elle enregistre chaque conversation sous forme de transcription.",
-    "facts": ["iPhone et Android", "Plus de 60 langues", "Hébergé dans l’UE", "Paiement sur facture"],
-    "imageAlt": "Captio AI affiche les sous-titres en direct d’une conversation entre deux personnes, avec une étiquette pour chaque intervenant et une sonnette signalée dans les sous-titres"
+    "title": "Application de [sous-titres en direct] pour personnes sourdes et malentendantes"
   },
   "features": {
     "eyebrow": "Ce que fait Captio AI",

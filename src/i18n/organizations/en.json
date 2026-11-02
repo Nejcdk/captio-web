@@ -9,11 +9,7 @@
     "chooseLanguage": "Choose language"
   },
   "hero": {
-    "eyebrow": "🏢 Captio AI for Organizations",
-    "title": "Live captions for deaf and hard of hearing people, in [any situation]",
-    "description": "Captio AI is an app for iPhone and Android that turns speech into text the moment it's said, in 60+ languages. It shows who is talking, translates, and saves every conversation as a transcript.",
-    "facts": ["iPhone and Android", "60+ languages", "Stored in the EU", "Paid by invoice"],
-    "imageAlt": "Captio AI showing live captions of two people talking, with a label for each speaker and a doorbell written into the captions"
+    "title": "[Live captions] app for deaf and hard of hearing people"
   },
   "features": {
     "eyebrow": "What Captio AI does",

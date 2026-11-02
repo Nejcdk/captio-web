@@ -9,11 +9,7 @@
     "chooseLanguage": "Valige keel"
   },
   "hero": {
-    "eyebrow": "🏢 Captio AI organisatsioonidele",
-    "title": "Otsesubtiitrid kurtidele ja vaegkuuljatele [igas olukorras]",
-    "description": "Captio AI on iPhone'i ja Androidi rakendus, mis muudab kõne tekstiks samal hetkel, kui see öeldakse, 60+ keeles. See näitab, kes räägib, tõlgib ja salvestab iga vestluse transkriptsioonina.",
-    "facts": ["iPhone ja Android", "60+ keelt", "Andmed asuvad ELis", "Tasumine arve alusel"],
-    "imageAlt": "Captio AI näitab kahe inimese vestluse otsesubtiitreid, iga kõneleja oma sildiga ja subtiitritesse kirjutatud uksekellaga"
+    "title": "[Otsesubtiitrite] rakendus kurtidele ja vaegkuuljatele"
   },
   "features": {
     "eyebrow": "Mida Captio AI teeb",

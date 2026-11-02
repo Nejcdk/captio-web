@@ -9,11 +9,7 @@
     "chooseLanguage": "Izberite jezik"
   },
   "hero": {
-    "eyebrow": "🏢 Captio AI za organizacije",
-    "title": "Podnapisi v živo za gluhe in naglušne, v [vsaki situaciji]",
-    "description": "Captio AI je aplikacija za iPhone in Android, ki govor v trenutku spremeni v besedilo, v več kot 60 jezikih. Pokaže, kdo govori, prevaja in vsak pogovor shrani kot prepis.",
-    "facts": ["iPhone in Android", "Več kot 60 jezikov", "Shranjeno v EU", "Plačilo po računu"],
-    "imageAlt": "Captio AI prikazuje podnapise v živo pogovora dveh oseb, z oznako za vsakega govorca in zvoncem na vratih, zapisanim v podnapisih"
+    "title": "Aplikacija s [podnapisi v živo] za gluhe in naglušne"
   },
   "features": {
     "eyebrow": "Kaj zna Captio AI",

@@ -9,11 +9,7 @@
     "chooseLanguage": "Escolha um idioma"
   },
   "hero": {
-    "eyebrow": "🏢 Captio AI para organizações",
-    "title": "Legendas ao vivo para pessoas surdas e com perda auditiva, em [qualquer situação]",
-    "description": "O Captio AI é um app para iPhone e Android que transforma a fala em texto no momento em que ela é dita, em mais de 60 idiomas. Ele mostra quem está falando, traduz e salva cada conversa como transcrição.",
-    "facts": ["iPhone e Android", "Mais de 60 idiomas", "Dados armazenados na UE", "Pagamento por fatura"],
-    "imageAlt": "Captio AI mostrando legendas ao vivo de duas pessoas conversando, com uma etiqueta para cada falante e o som de uma campainha escrito nas legendas"
+    "title": "App de [legendas ao vivo] para pessoas surdas e com perda auditiva"
   },
   "features": {
     "eyebrow": "O que o Captio AI faz",

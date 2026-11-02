@@ -9,11 +9,7 @@
     "chooseLanguage": "Dil seçin"
   },
   "hero": {
-    "eyebrow": "🏢 Kurumlar için Captio AI",
-    "title": "Sağır ve ağır işiten kişiler için [her durumda] canlı altyazı",
-    "description": "Captio AI, konuşmayı söylendiği anda 60+ dilde yazıya çeviren bir iPhone ve Android uygulamasıdır. Kimin konuştuğunu gösterir, çeviri yapar ve her konuşmayı döküm olarak kaydeder.",
-    "facts": ["iPhone ve Android", "60+ dil", "Veriler AB'de saklanır", "Faturayla ödeme"],
-    "imageAlt": "İki kişinin konuşmasının canlı altyazısını, her konuşmacı için ayrı bir etiketle ve altyazıya yazılmış bir kapı ziliyle gösteren Captio AI"
+    "title": "Sağır ve ağır işiten kişiler için [canlı altyazı] uygulaması"
   },
   "features": {
     "eyebrow": "Captio AI neler yapar",

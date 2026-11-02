@@ -9,11 +9,7 @@
     "chooseLanguage": "Vyberte jazyk"
   },
   "hero": {
-    "eyebrow": "🏢 Captio AI pro organizace",
-    "title": "Živé titulky pro neslyšící a nedoslýchavé, v [každé situaci]",
-    "description": "Captio AI je aplikace pro iPhone a Android, která mění řeč v text ve chvíli, kdy zazní, v 60+ jazycích. Ukazuje, kdo mluví, překládá a každý rozhovor ukládá jako přepis.",
-    "facts": ["iPhone a Android", "60+ jazyků", "Data uložená v EU", "Platba na fakturu"],
-    "imageAlt": "Captio AI zobrazuje živé titulky rozhovoru dvou lidí se štítkem u každého mluvčího a se zvonkem u dveří zapsaným v titulcích"
+    "title": "Aplikace s [živými titulky] pro neslyšící a nedoslýchavé"
   },
   "features": {
     "eyebrow": "Co Captio AI umí",

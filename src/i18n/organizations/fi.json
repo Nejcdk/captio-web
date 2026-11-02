@@ -9,11 +9,7 @@
     "chooseLanguage": "Valitse kieli"
   },
   "hero": {
-    "eyebrow": "🏢 Captio AI organisaatioille",
-    "title": "Livetekstitys kuuroille ja huonokuuloisille, [kaikissa tilanteissa]",
-    "description": "Captio AI on iPhonelle ja Androidille tehty sovellus, joka muuttaa puheen tekstiksi samalla hetkellä, kun se sanotaan, yli 60 kielellä. Se kääntää, näyttää, kuka puhuu, ja tallentaa jokaisen keskustelun litterointina.",
-    "facts": ["iPhone ja Android", "Yli 60 kieltä", "Tallennus EU:ssa", "Maksu laskulla"],
-    "imageAlt": "Captio AI näyttää kahden ihmisen keskustelun livetekstityksenä: jokaisella puhujalla on oma nimilappunsa, ja tekstityksessä näkyy myös ovikellon soitto"
+    "title": "[Livetekstityssovellus] kuuroille ja huonokuuloisille"
   },
   "features": {
     "eyebrow": "Mitä Captio AI tekee",

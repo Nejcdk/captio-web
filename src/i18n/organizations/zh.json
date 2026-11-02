@@ -9,11 +9,7 @@
     "chooseLanguage": "选择语言"
   },
   "hero": {
-    "eyebrow": "🏢 Captio AI 机构版",
-    "title": "为聋人和听障人士提供实时字幕，适用于[任何场合]",
-    "description": "Captio AI 是一款适用于 iPhone 和 Android 的应用，话一出口就能转成文字，支持 60+ 种语言。它会显示谁在说话，可以翻译，还会把每一段对话保存为转写文本。",
-    "facts": ["iPhone 和 Android", "60+ 种语言", "数据存储在欧盟", "凭发票付款"],
-    "imageAlt": "Captio AI 正在显示两个人对话的实时字幕，每位说话人都有自己的标签，门铃声也写进了字幕"
+    "title": "为聋人和听障人士打造的[实时字幕]应用"
   },
   "features": {
     "eyebrow": "Captio AI 能做什么",

@@ -142,9 +142,11 @@ export function PilotForm({
 
   const busy = state.step === "sending";
   return (
-    <form onSubmit={submit} onFocus={onStart} className="rounded-xl border border-gray-200 bg-white p-5 sm:p-7 flex flex-col gap-4 text-start">
+    <form onSubmit={submit} onFocus={onStart} className="@container rounded-xl border border-gray-200 bg-white p-5 sm:p-7 flex flex-col gap-4 text-start">
       <h2 className="text-xl font-bold text-gray-900">{title}</h2>
-      <div className="grid sm:grid-cols-2 gap-4 sm:items-start">
+      {/* Two columns only when the form itself is wide enough (the hero's is
+          narrow), so long labels never push one input below the other. */}
+      <div className="grid @md:grid-cols-2 gap-4 @md:items-start">
         <label className="flex flex-col gap-1.5">
           <span className="text-sm font-semibold text-gray-700">{t.organization}</span>
           <input name="org" required minLength={2} maxLength={120} autoComplete="organization" className={field} />

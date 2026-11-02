@@ -9,11 +9,7 @@
     "chooseLanguage": "Aukeratu hizkuntza"
   },
   "hero": {
-    "eyebrow": "🏢 Captio AI erakundeentzat",
-    "title": "Zuzeneko azpitituluak pertsona gorrentzat eta entzumen-galera dutenentzat, [edozein egoeratan]",
-    "description": "Captio AI iPhone eta Android telefonoetarako aplikazioa da, eta hizketa testu bihurtzen du esaten den unean bertan, 60+ hizkuntzatan. Nor ari den hitz egiten erakusten du, itzuli egiten du, eta elkarrizketa bakoitza transkripzio gisa gordetzen du.",
-    "facts": ["iPhone eta Android", "60+ hizkuntza", "Datuak EBn gordeta", "Ordainketa fakturaz"],
-    "imageAlt": "Captio AI aplikazioa bi pertsonaren elkarrizketaren zuzeneko azpitituluak erakusten, hizlari bakoitza bere etiketarekin eta txirrinaren soinua azpitituluetan idatzita"
+    "title": "[Zuzeneko azpitituluen] aplikazioa pertsona gorrentzat eta entzumen-galera dutenentzat"
   },
   "features": {
     "eyebrow": "Zer egiten du Captio AI aplikazioak",
