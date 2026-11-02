@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Kurumlar için Canlı Altyazı ve Sesi Yazıya Çevirme",
-    "description": "Captio AI, sağır ve ağır işiten kişilere telefonlarında 60+ dilde canlı altyazı gösterir. Kurumlar için faturalı yıllık lisans. 30 gün ücretsiz deneme."
+    "description": "Captio AI, sağır ve ağır işiten kişilere her durumda, iPhone ve Android'de, 60+ dilde canlı altyazı sunar. Kurumlar için yıllık lisans, faturayla ödeme. 30 gün ücretsiz deneme."
   },
   "header": {
     "forOrganizations": "Kurumlar için",
@@ -10,25 +10,24 @@
   },
   "hero": {
     "eyebrow": "🏢 Kurumlar için Captio AI",
-    "title": "İnsanlar [konuşur konuşmaz] telefonlarında canlı altyazı",
-    "description": "Captio AI, sağır ve ağır işiten kişiler için bir uygulamadır. Dinler ve söylenenleri yüz yüze ortamlarda, 60+ dilde metin olarak gösterir. Kurumunuzda ihtiyacı olan kişilere verin: kişi başına bir yıllık lisans, faturayla ödenir.",
-    "pilotNote": "30 gün ücretsiz, en fazla 5 kişi. Ödeme yok, imza yok.",
-    "facts": ["iPhone ve Android", "60+ dil", "Veriler AB'de saklanır"],
-    "videoLabel": "İki kişinin konuşmasının canlı altyazısını, her konuşmacı için ayrı bir etiketle gösteren Captio AI"
+    "title": "Sağır ve ağır işiten kişiler için [her durumda] canlı altyazı",
+    "description": "Captio AI, konuşmayı söylendiği anda 60+ dilde yazıya çeviren bir iPhone ve Android uygulamasıdır. Kimin konuştuğunu gösterir, çeviri yapar ve her konuşmayı döküm olarak kaydeder.",
+    "facts": ["iPhone ve Android", "60+ dil", "Veriler AB'de saklanır", "Faturayla ödeme"],
+    "imageAlt": "İki kişinin konuşmasının canlı altyazısını, her konuşmacı için ayrı bir etiketle ve altyazıya yazılmış bir kapı ziliyle gösteren Captio AI"
   },
   "features": {
     "eyebrow": "Captio AI neler yapar",
     "title": "Canlı altyazı, çeviri ve döküm",
-    "subtitle": "Tek uygulamada üç araç, kendi telefonlarında, 60+ dilde.",
+    "subtitle": "Tek uygulamada üç araç, iPhone ve Android'de, 60+ dilde.",
     "items": [
       { "label": "Canlı altyazı", "title": "Her kelime, söylendiği anda", "description": "Uygulamayı açın, mikrofona dokunun ve okuyun. Her konuşmacının kendi etiketi olur, böylece kimin ne dediği açıktır." },
-      { "label": "Canlı çeviri", "title": "İki dil yan yana", "description": "Biri başka bir dilde konuştuğunda, söylenen ve çevirisi aynı anda görünür." },
+      { "label": "Canlı çeviri", "title": "İki dil yan yana", "description": "Biri başka bir dilde konuştuğunda uygulama, söyleneni ve çevirisini aynı anda gösterir." },
       { "label": "Döküm", "title": "Kayıtlar ve dosyalar metne", "description": "Herhangi bir konuşmayı kaydedin ya da bir ses veya video dosyası ekleyin; yapay zekâ özetiyle birlikte tam dökümünü alın." }
     ]
   },
   "languages": {
     "eyebrow": "60+ dil",
-    "title": "Kurumunuzdaki kişilerin konuştuğu dillerde altyazı",
+    "title": "Konuşulan dilde altyazı",
     "subtitle": "Her birinde canlı altyazı, çeviri ve döküm; cümlenin ortasında dil değiştiren kişiler dahil."
   },
   "awareness": {
@@ -37,7 +36,7 @@
     "subtitle": "Kim konuşuyor, nerede ve başka neler oluyor: ortamdaki sesleri duyamayan biri için önemli olan şeyler.",
     "items": [
       { "title": "Kimin konuştuğunu bilir", "description": "Bir kişinin sesini, yaklaşık 20 saniyelik konuşmasından bir kez kaydedin; altyazılar hem canlıda hem kayıtlarda “Konuşmacı 2” yerine onun adını gösterir. Ses izleri telefonda oluşturulur ve telefonda kalır.", "where": "iPhone" },
-      { "title": "Sesin nereden geldiğini gösterir", "description": "Ekranın kenarındaki dalgalar, sesin hangi taraftan geldiğini o konuşmacının renginde gösterir; böylece kalabalık bir odada nereye bakacakları bellidir.", "where": "iPhone 16 ve sonrası" },
+      { "title": "Sesin nereden geldiğini gösterir", "description": "Ekranın kenarındaki dalgalar, sesin hangi taraftan geldiğini o konuşmacının renginde gösterir; böylece kalabalık bir odada nereye bakılacağı bellidir.", "where": "iPhone 16 ve sonrası" },
       { "title": "Etraftaki sesleri duyar", "description": "Sesler, film altyazılarında olduğu gibi altyazının içinde görünür. Kapı zili, alarm ya da ağlayan bir bebek telefonu da titretir.", "where": "iPhone ve iPad" }
     ],
     "drawing": {
@@ -56,8 +55,8 @@
     "eyebrow": "Kurumunuz için",
     "title": "Kurumlar neden Captio AI uygulamasını seçiyor",
     "items": [
-      { "title": "İhtiyaç duyulduğu anda hazır", "description": "Önceden altyazı hizmeti ayarlamaya gerek yok. Altyazı, kişi nerede olursa olsun tek dokunuşla başlar." },
-      { "title": "Kendi telefonlarında", "description": "iPhone ya da Android. BT ekibinizin bir şey kurmasına, cihaz dağıtmanıza gerek yok." },
+      { "title": "İhtiyaç duyulduğu anda hazır", "description": "Altyazı her yerde tek dokunuşla başlar. Önceden altyazı hizmeti ayarlamaya gerek yok." },
+      { "title": "iPhone ve Android'de", "description": "Sadece telefonda bir uygulama. BT ekibinin kuracağı bir şey yok, donanım almanıza da gerek yok." },
       { "title": "Baştan gizlilik odaklı", "description": "Veriler AB'de saklanır. Ses sunucularımızda tutulmaz ve hiçbir şey yapay zekâ eğitiminde kullanılmaz." },
       { "title": "Satın alması kolay", "description": "Kişi başına yıllık tek fiyat, faturayla. Asgari tutar yok, kurulum ücreti yok, hiçbir şey kendiliğinden yenilenmez." }
     ]
@@ -66,7 +65,7 @@
     "eyebrow": "Ücretsiz deneme",
     "title": "5 kişiye kadar 30 gün deneyin",
     "steps": [
-      { "title": "Deneme bağlantınızı alın", "description": "Aşağıdaki formu doldurun. Bağlantı, iletmeye hazır bir mesajla birlikte bir dakika içinde gelen kutunuza ulaşır." },
+      { "title": "Deneme bağlantınızı alın", "description": "Formu doldurun. Bağlantı, iletmeye hazır bir mesajla birlikte bir dakika içinde gelen kutunuza ulaşır." },
       { "title": "En fazla 5 kişiye iletin", "description": "Her kişi bağlantıyı telefonunda açar, Apple ya da Google ile devam eder ve Captio AI uygulamasını iPhone ya da Android'de edinir." },
       { "title": "30 gün boyunca tam sürümü kullanırlar", "description": "Sizden kişisel veri istenmez, bu yüzden evrak işi de yoktur. Sona doğru ne kadar kullanıldığını gösteren bir özet ve devam etmek için fiyat alırsınız." }
     ]
@@ -76,7 +75,7 @@
     "name": "Adınız",
     "email": "İş e-postanız",
     "emailHint": "Deneme bağlantısı bu adrese gönderilir.",
-    "people": "Yaklaşık kaç kişi kullanabilir?",
+    "people": "Kaç kişi?",
     "peopleOptions": ["1 ile 5 arası", "6 ile 19 arası", "20 ile 50 arası", "50'den fazla"],
     "submit": "Deneme bağlantısını gönderin",
     "sending": "Gönderiliyor…",
@@ -148,8 +147,8 @@
   },
   "cta": {
     "eyebrow": "Ücretsiz deneme",
-    "title": "Kurumunuzdaki kişilerle deneyin",
-    "body": "En fazla 5 kişi, 30 gün ücretsiz. Bağlantı bir dakika içinde gelen kutunuzda olur. Önce sorularınız mı var? {address} adresine yazın."
+    "title": "Captio AI uygulamasını 30 gün ücretsiz deneyin",
+    "body": "En fazla 5 kişi. Bağlantı bir dakika içinde gelen kutunuzda olur. Önce sorularınız mı var? {address} adresine yazın."
   },
   "join": {
     "metaTitle": "{org} kurumundan Captio AI",

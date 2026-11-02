@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Phụ đề trực tiếp cho tổ chức, chuyển giọng nói thành chữ",
-    "description": "Captio AI hiện phụ đề trực tiếp trên điện thoại cho người Điếc và nghe kém, hơn 60 ngôn ngữ. Giấy phép năm cho tổ chức, trả theo hóa đơn, dùng thử 30 ngày miễn phí."
+    "description": "Captio AI mang phụ đề trực tiếp đến người Điếc và người nghe kém trong mọi tình huống, hơn 60 ngôn ngữ, trên iPhone và Android. Giấy phép năm cho tổ chức, trả theo hóa đơn, dùng thử 30 ngày miễn phí."
   },
   "header": {
     "forOrganizations": "Dành cho tổ chức",
@@ -10,25 +10,24 @@
   },
   "hero": {
     "eyebrow": "🏢 Captio AI cho tổ chức",
-    "title": "Phụ đề trực tiếp trên điện thoại của họ, ngay khi người khác [nói]",
-    "description": "Captio AI là ứng dụng dành cho người Điếc và người nghe kém. Ứng dụng lắng nghe và hiển thị lời nói thành chữ khi gặp mặt trực tiếp, bằng hơn 60 ngôn ngữ. Quý vị có thể cấp ứng dụng cho những người cần dùng trong tổ chức: mỗi người một giấy phép theo năm, thanh toán theo hóa đơn.",
-    "pilotNote": "Miễn phí 30 ngày, tối đa 5 người. Không phải trả tiền, không phải ký gì.",
-    "facts": ["iPhone và Android", "Hơn 60 ngôn ngữ", "Lưu trữ tại EU"],
-    "videoLabel": "Captio AI hiển thị phụ đề trực tiếp cuộc trò chuyện của hai người, mỗi người nói có nhãn riêng"
+    "title": "Phụ đề trực tiếp cho người Điếc và người nghe kém, trong [mọi tình huống]",
+    "description": "Captio AI là ứng dụng cho iPhone và Android, chuyển lời nói thành chữ ngay khi vừa nói ra, bằng hơn 60 ngôn ngữ. Ứng dụng cho biết ai đang nói, có thể dịch, và lưu mọi cuộc trò chuyện thành bản chép lời.",
+    "facts": ["iPhone và Android", "Hơn 60 ngôn ngữ", "Lưu trữ tại EU", "Thanh toán theo hóa đơn"],
+    "imageAlt": "Captio AI hiển thị phụ đề trực tiếp cuộc trò chuyện của hai người, mỗi người nói có nhãn riêng, và tiếng chuông cửa được ghi ngay trong phụ đề"
   },
   "features": {
     "eyebrow": "Captio AI làm được gì",
     "title": "Phụ đề trực tiếp, dịch và chép lời",
-    "subtitle": "Ba công cụ trong một ứng dụng, trên chính điện thoại của họ, bằng hơn 60 ngôn ngữ.",
+    "subtitle": "Ba công cụ trong một ứng dụng, trên iPhone và Android, bằng hơn 60 ngôn ngữ.",
     "items": [
       { "label": "Phụ đề trực tiếp", "title": "Từng lời, ngay khi được nói", "description": "Mở ứng dụng, chạm vào micrô và đọc theo. Mỗi người nói có nhãn riêng nên biết rõ ai nói gì." },
-      { "label": "Dịch trực tiếp", "title": "Hai ngôn ngữ cạnh nhau", "description": "Khi ai đó nói ngôn ngữ khác, họ thấy cùng lúc lời được nói và bản dịch." },
+      { "label": "Dịch trực tiếp", "title": "Hai ngôn ngữ cạnh nhau", "description": "Khi ai đó nói ngôn ngữ khác, ứng dụng hiển thị cùng lúc lời họ nói và bản dịch." },
       { "label": "Chép lời", "title": "Biến bản ghi và tệp thành văn bản", "description": "Lưu bất kỳ cuộc trò chuyện nào, hoặc thêm tệp âm thanh hay video, để nhận bản chép lời đầy đủ kèm tóm tắt AI." }
     ]
   },
   "languages": {
     "eyebrow": "Hơn 60 ngôn ngữ",
-    "title": "Phụ đề bằng chính ngôn ngữ mọi người đang nói",
+    "title": "Phụ đề bằng đúng ngôn ngữ đang được nói",
     "subtitle": "Phụ đề trực tiếp, dịch và chép lời ở mọi ngôn ngữ, kể cả khi người nói đổi ngôn ngữ giữa câu."
   },
   "awareness": {
@@ -56,8 +55,8 @@
     "eyebrow": "Cho tổ chức của Quý vị",
     "title": "Vì sao các tổ chức chọn Captio AI",
     "items": [
-      { "title": "Sẵn sàng ngay khi cần", "description": "Không cần đặt trước người làm phụ đề. Phụ đề bắt đầu chỉ với một chạm, dù người dùng ở đâu." },
-      { "title": "Ngay trên điện thoại của họ", "description": "iPhone hay Android đều được. Bộ phận IT không phải cài đặt gì, cũng không phải cấp phát thiết bị." },
+      { "title": "Sẵn sàng ngay khi cần", "description": "Phụ đề bắt đầu chỉ với một chạm, ở bất cứ đâu. Không cần đặt trước người làm phụ đề." },
+      { "title": "Trên iPhone và Android", "description": "Chỉ là một ứng dụng trên điện thoại. Bộ phận IT không phải cài đặt gì, cũng không cần mua thiết bị." },
       { "title": "Riêng tư ngay từ thiết kế", "description": "Lưu trữ tại EU. Âm thanh không được giữ trên máy chủ của chúng tôi, và không gì được dùng để huấn luyện AI." },
       { "title": "Mua đơn giản", "description": "Một mức giá cho mỗi người mỗi năm, thanh toán theo hóa đơn. Không số lượng tối thiểu, không phí thiết lập, không tự động gia hạn." }
     ]
@@ -66,7 +65,7 @@
     "eyebrow": "Dùng thử miễn phí",
     "title": "Dùng thử 30 ngày với tối đa 5 người",
     "steps": [
-      { "title": "Nhận liên kết dùng thử", "description": "Điền vào biểu mẫu bên dưới. Liên kết sẽ đến hộp thư của Quý vị trong vòng một phút, kèm một tin nhắn soạn sẵn để chuyển tiếp." },
+      { "title": "Nhận liên kết dùng thử", "description": "Điền vào biểu mẫu. Liên kết sẽ đến hộp thư của Quý vị trong vòng một phút, kèm một tin nhắn soạn sẵn để chuyển tiếp." },
       { "title": "Chuyển tiếp cho tối đa 5 người", "description": "Mỗi người mở liên kết trên điện thoại, tiếp tục với Apple hoặc Google, rồi tải Captio AI trên iPhone hoặc Android." },
       { "title": "Họ dùng bản đầy đủ trong 30 ngày", "description": "Quý vị không cần cung cấp dữ liệu cá nhân nào nên không có thủ tục giấy tờ. Gần cuối đợt, Quý vị sẽ nhận bản tóm tắt mức độ sử dụng và giá nếu muốn tiếp tục." }
     ]
@@ -76,7 +75,7 @@
     "name": "Họ và tên",
     "email": "Email công việc",
     "emailHint": "Liên kết dùng thử sẽ được gửi đến địa chỉ này.",
-    "people": "Khoảng bao nhiêu người có thể sẽ dùng?",
+    "people": "Số người dùng",
     "peopleOptions": ["1 đến 5", "6 đến 19", "20 đến 50", "Trên 50"],
     "submit": "Gửi liên kết dùng thử cho tôi",
     "sending": "Đang gửi…",
@@ -148,8 +147,8 @@
   },
   "cta": {
     "eyebrow": "Dùng thử miễn phí",
-    "title": "Hãy thử cùng chính những người sẽ dùng",
-    "body": "Tối đa 5 người, miễn phí 30 ngày. Liên kết đến hộp thư của Quý vị trong vòng một phút. Có câu hỏi trước? Vui lòng viết thư đến {address}."
+    "title": "Dùng thử Captio AI miễn phí 30 ngày",
+    "body": "Tối đa 5 người. Liên kết đến hộp thư của Quý vị trong vòng một phút. Có câu hỏi trước? Vui lòng viết thư đến {address}."
   },
   "join": {
     "metaTitle": "Captio AI từ {org}",

@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Sari Kata Langsung untuk Organisasi dan Syarikat",
-    "description": "Captio AI: sari kata langsung untuk orang Pekak dan kurang pendengaran di telefon, dalam 60+ bahasa. Lesen tahunan melalui invois. Cuba percuma selama 30 hari."
+    "description": "Captio AI memberikan sari kata langsung kepada orang Pekak dan kurang pendengaran dalam apa jua situasi, dalam 60+ bahasa, di iPhone dan Android. Lesen tahunan untuk organisasi, dibayar melalui invois. Cuba percuma selama 30 hari."
   },
   "header": {
     "forOrganizations": "untuk Organisasi",
@@ -10,25 +10,24 @@
   },
   "hero": {
     "eyebrow": "🏢 Captio AI untuk Organisasi",
-    "title": "Sari kata langsung di telefon mereka, sebaik sahaja orang [bercakap]",
-    "description": "Captio AI ialah aplikasi untuk orang Pekak dan kurang pendengaran. Ia mendengar dan memaparkan apa yang dikatakan sebagai teks, secara bersemuka, dalam 60+ bahasa. Berikan kepada warga organisasi anda yang memerlukannya: satu lesen tahunan bagi setiap orang, dibayar melalui invois.",
-    "pilotNote": "Percuma selama 30 hari, untuk sehingga 5 orang. Tiada bayaran, tiada apa-apa untuk ditandatangani.",
-    "facts": ["iPhone dan Android", "60+ bahasa", "Disimpan di EU"],
-    "videoLabel": "Captio AI memaparkan sari kata langsung perbualan dua orang, dengan label bagi setiap penutur"
+    "title": "Sari kata langsung untuk orang Pekak dan kurang pendengaran, dalam [apa jua situasi]",
+    "description": "Captio AI ialah aplikasi untuk iPhone dan Android yang menukar pertuturan kepada teks sebaik sahaja ia diucapkan, dalam 60+ bahasa. Ia menunjukkan siapa yang bercakap, menterjemah, dan menyimpan setiap perbualan sebagai transkrip.",
+    "facts": ["iPhone dan Android", "60+ bahasa", "Disimpan di EU", "Dibayar melalui invois"],
+    "imageAlt": "Captio AI memaparkan sari kata langsung perbualan dua orang, dengan label bagi setiap penutur dan bunyi loceng pintu yang ditulis dalam sari kata"
   },
   "features": {
     "eyebrow": "Apa yang Captio AI lakukan",
     "title": "Sari kata langsung, terjemahan dan transkripsi",
-    "subtitle": "Tiga alat dalam satu aplikasi, di telefon mereka sendiri, dalam 60+ bahasa.",
+    "subtitle": "Tiga alat dalam satu aplikasi, di iPhone dan Android, dalam 60+ bahasa.",
     "items": [
       { "label": "Sari kata langsung", "title": "Setiap perkataan, sebaik sahaja diucapkan", "description": "Buka aplikasi, ketik mikrofon dan baca. Setiap penutur mendapat label sendiri, jadi jelas siapa yang berkata apa." },
-      { "label": "Terjemahan langsung", "title": "Dua bahasa bersebelahan", "description": "Apabila seseorang bercakap dalam bahasa lain, pengguna melihat apa yang dikatakan dan terjemahannya serentak." },
+      { "label": "Terjemahan langsung", "title": "Dua bahasa bersebelahan", "description": "Apabila seseorang bercakap dalam bahasa lain, aplikasi memaparkan apa yang dikatakan dan terjemahannya serentak." },
       { "label": "Transkripsi", "title": "Rakaman dan fail menjadi teks", "description": "Simpan mana-mana perbualan, atau tambah fail audio atau video, dan dapatkan transkrip penuh beserta ringkasan AI." }
     ]
   },
   "languages": {
     "eyebrow": "60+ bahasa",
-    "title": "Sari kata dalam bahasa yang dituturkan oleh warga organisasi anda",
+    "title": "Sari kata dalam bahasa yang sedang dituturkan",
     "subtitle": "Sari kata langsung, terjemahan dan transkripsi dalam setiap bahasa itu, termasuk bagi orang yang bertukar bahasa di tengah-tengah ayat."
   },
   "awareness": {
@@ -37,7 +36,7 @@
     "subtitle": "Siapa yang bercakap, di mana mereka berada dan apa lagi yang sedang berlaku: perkara yang penting apabila seseorang tidak dapat mendengar keadaan di sekelilingnya.",
     "items": [
       { "title": "Tahu siapa yang bercakap", "description": "Simpan suara seseorang sekali sahaja, daripada kira-kira 20 saat dia bercakap, dan sari kata akan memaparkan namanya, bukan “Penutur 2”, secara langsung dan dalam rakaman yang disimpan. Data suara dibuat dan disimpan pada telefon itu sendiri.", "where": "iPhone" },
-      { "title": "Menunjukkan arah suara", "description": "Gelombang di tepi skrin menunjukkan dari arah mana suara datang, dalam warna penutur itu, supaya pengguna tahu ke mana hendak melihat dalam bilik yang sibuk.", "where": "iPhone 16 dan yang lebih baharu" },
+      { "title": "Menunjukkan arah suara", "description": "Gelombang di tepi skrin menunjukkan dari arah mana suara datang, dalam warna penutur itu, supaya jelas ke mana hendak melihat dalam bilik yang sibuk.", "where": "iPhone 16 dan yang lebih baharu" },
       { "title": "Mendengar bunyi di sekeliling", "description": "Bunyi dipaparkan dalam sari kata, sama seperti sari kata filem. Loceng pintu, penggera atau bayi menangis juga membuatkan telefon bergetar.", "where": "iPhone dan iPad" }
     ],
     "drawing": {
@@ -56,8 +55,8 @@
     "eyebrow": "Untuk organisasi anda",
     "title": "Mengapa organisasi memilih Captio AI",
     "items": [
-      { "title": "Sedia sebaik sahaja diperlukan", "description": "Tidak perlu menempah perkhidmatan sari kata lebih awal. Sari kata bermula dengan satu ketikan, di mana sahaja orang itu berada." },
-      { "title": "Di telefon mereka sendiri", "description": "iPhone atau Android. Tiada apa-apa untuk dipasang oleh pasukan IT anda dan tiada perkakasan untuk diedarkan." },
+      { "title": "Sedia sebaik sahaja diperlukan", "description": "Sari kata bermula dengan satu ketikan, di mana-mana sahaja. Tidak perlu menempah perkhidmatan sari kata lebih awal." },
+      { "title": "Di iPhone dan Android", "description": "Hanya aplikasi di telefon. Tiada apa-apa untuk dipasang oleh IT dan tiada perkakasan untuk dibeli." },
       { "title": "Privasi diutamakan", "description": "Disimpan di EU. Audio tidak disimpan pada pelayan kami, dan tiada apa-apa yang digunakan untuk melatih AI." },
       { "title": "Mudah dibeli", "description": "Satu harga bagi setiap orang setahun, melalui invois. Tiada jumlah minimum, tiada yuran persediaan, tiada pembaharuan automatik." }
     ]
@@ -66,7 +65,7 @@
     "eyebrow": "Percubaan percuma",
     "title": "Cuba selama 30 hari dengan sehingga 5 orang",
     "steps": [
-      { "title": "Dapatkan pautan percubaan anda", "description": "Isi borang di bawah. Pautan akan tiba dalam peti masuk anda dalam masa seminit, bersama mesej yang sedia untuk dimajukan." },
+      { "title": "Dapatkan pautan percubaan anda", "description": "Isi borang. Pautan akan tiba dalam peti masuk anda dalam masa seminit, bersama mesej yang sedia untuk dimajukan." },
       { "title": "Majukan kepada sehingga 5 orang", "description": "Setiap orang membukanya di telefon, meneruskan dengan Apple atau Google, dan mendapatkan Captio AI di iPhone atau Android." },
       { "title": "Mereka mendapat versi penuh selama 30 hari", "description": "Kami tidak memerlukan sebarang data peribadi daripada anda, jadi tiada urusan dokumen. Menjelang akhir tempoh, anda akan menerima ringkasan penggunaan dan harga untuk terus menggunakannya." }
     ]
@@ -76,7 +75,7 @@
     "name": "Nama anda",
     "email": "E-mel kerja anda",
     "emailHint": "Pautan percubaan akan dihantar ke sini.",
-    "people": "Kira-kira berapa ramai orang yang mungkin menggunakannya?",
+    "people": "Berapa ramai orang?",
     "peopleOptions": ["1 hingga 5", "6 hingga 19", "20 hingga 50", "Lebih daripada 50"],
     "submit": "Hantar pautan percubaan kepada saya",
     "sending": "Menghantar…",
@@ -148,8 +147,8 @@
   },
   "cta": {
     "eyebrow": "Percubaan percuma",
-    "title": "Cuba bersama warga organisasi anda sendiri",
-    "body": "Sehingga 5 orang, percuma selama 30 hari. Pautan tiba dalam peti masuk anda dalam masa seminit. Ada soalan dahulu? Tulis kepada {address}."
+    "title": "Cuba Captio AI percuma selama 30 hari",
+    "body": "Sehingga 5 orang. Pautan tiba dalam peti masuk anda dalam masa seminit. Ada soalan dahulu? Tulis kepada {address}."
   },
   "join": {
     "metaTitle": "Captio AI daripada {org}",

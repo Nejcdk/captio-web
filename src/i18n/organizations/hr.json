@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Titlovi uživo i govor u tekst za organizacije",
-    "description": "Captio AI gluhim i nagluhim osobama daje titlove uživo na mobitelu, na 60+ jezika. Godišnje licencije, plaćanje po računu. Besplatni pilot 30 dana."
+    "description": "Captio AI gluhim i nagluhim osobama daje titlove uživo u svakoj situaciji, na 60+ jezika, na iPhoneu i Androidu. Godišnje licencije za organizacije, plaćanje po računu. Besplatni pilot 30 dana."
   },
   "header": {
     "forOrganizations": "za organizacije",
@@ -10,25 +10,24 @@
   },
   "hero": {
     "eyebrow": "🏢 Captio AI za organizacije",
-    "title": "Titlovi uživo na njihovu mobitelu, čim netko [progovori]",
-    "description": "Captio AI je aplikacija za gluhe i nagluhe osobe. Sluša i prikazuje izgovoreno kao tekst, u razgovorima uživo, na više od 60 jezika. Dajte je osobama u svojoj organizaciji kojima je potrebna: jedna godišnja licencija po osobi, plaćanje po računu.",
-    "pilotNote": "Besplatno 30 dana, za najviše 5 osoba. Ništa ne plaćate, ništa ne potpisujete.",
-    "facts": ["iPhone i Android", "Više od 60 jezika", "Pohranjeno u EU-u"],
-    "videoLabel": "Captio AI prikazuje titlove uživo razgovora dviju osoba, s oznakom za svakog govornika"
+    "title": "Titlovi uživo za gluhe i nagluhe osobe, u [svakoj situaciji]",
+    "description": "Captio AI je aplikacija za iPhone i Android koja govor pretvara u tekst u trenutku kad je izgovoren, na više od 60 jezika. Pokazuje tko govori, prevodi i sprema svaki razgovor kao transkript.",
+    "facts": ["iPhone i Android", "Više od 60 jezika", "Pohranjeno u EU-u", "Plaćanje po računu"],
+    "imageAlt": "Captio AI prikazuje titlove uživo razgovora dviju osoba, s oznakom za svakog govornika i zvonom na vratima upisanim u titlove"
   },
   "features": {
     "eyebrow": "Što radi Captio AI",
     "title": "Titlovi uživo, prijevod i transkripcija",
-    "subtitle": "Tri alata u jednoj aplikaciji, na vlastitom mobitelu, na više od 60 jezika.",
+    "subtitle": "Tri alata u jednoj aplikaciji, na iPhoneu i Androidu, na više od 60 jezika.",
     "items": [
       { "label": "Titlovi uživo", "title": "Svaka riječ, čim je izgovorena", "description": "Otvorite aplikaciju, dodirnite mikrofon i čitajte. Svaki govornik dobiva svoju oznaku, pa je jasno tko je što rekao." },
-      { "label": "Prijevod uživo", "title": "Oba jezika jedan uz drugi", "description": "Kad netko govori drugim jezikom, osoba istodobno vidi izgovoreno i prijevod." },
+      { "label": "Prijevod uživo", "title": "Oba jezika jedan uz drugi", "description": "Kad netko govori drugim jezikom, aplikacija istodobno prikazuje izgovoreno i prijevod." },
       { "label": "Transkripcija", "title": "Snimke i datoteke u tekst", "description": "Spremite bilo koji razgovor ili dodajte audio ili video datoteku i dobijte cijeli transkript s AI sažetkom." }
     ]
   },
   "languages": {
     "eyebrow": "Više od 60 jezika",
-    "title": "Titlovi na jezicima kojima govore vaši ljudi",
+    "title": "Titlovi na jeziku koji se govori",
     "subtitle": "Titlovi uživo, prijevod i transkripcija na svakom od njih, i kad netko promijeni jezik usred rečenice."
   },
   "awareness": {
@@ -56,8 +55,8 @@
     "eyebrow": "Za vašu organizaciju",
     "title": "Zašto organizacije biraju Captio AI",
     "items": [
-      { "title": "Spremno čim zatreba", "description": "Ne treba unaprijed rezervirati titlovanje. Titlovi se pokreću jednim dodirom, gdje god osoba bila." },
-      { "title": "Na vlastitom mobitelu", "description": "iPhone ili Android. Vaš IT tim nema što instalirati, a ne treba dijeliti ni opremu." },
+      { "title": "Spremno čim zatreba", "description": "Titlovi se pokreću jednim dodirom, bilo gdje. Titlovanje ne treba unaprijed rezervirati." },
+      { "title": "Na iPhoneu i Androidu", "description": "Samo aplikacija na mobitelu. IT nema što instalirati, a ne treba kupovati ni opremu." },
       { "title": "Privatnost od samog početka", "description": "Pohranjeno u EU-u. Zvuk se ne čuva na našim poslužiteljima i ništa se nikad ne koristi za treniranje AI modela." },
       { "title": "Jednostavna kupnja", "description": "Jedna cijena po osobi godišnje, plaćanje po računu. Bez minimalne narudžbe, bez naknade za postavljanje i ništa se ne obnavlja samo." }
     ]
@@ -66,7 +65,7 @@
     "eyebrow": "Besplatni pilot",
     "title": "Isprobajte 30 dana s najviše 5 osoba",
     "steps": [
-      { "title": "Zatražite poveznicu za pilot", "description": "Ispunite obrazac u nastavku. Poveznica stiže u vaš sandučić u roku od minute, s porukom spremnom za prosljeđivanje." },
+      { "title": "Zatražite poveznicu za pilot", "description": "Ispunite obrazac. Poveznica stiže u vaš sandučić u roku od minute, s porukom spremnom za prosljeđivanje." },
       { "title": "Podijelite je s najviše 5 osoba", "description": "Svaka je osoba otvara na svom mobitelu, nastavlja s Appleom ili Googleom i dobiva Captio AI na iPhoneu ili Androidu." },
       { "title": "30 dana imaju punu verziju", "description": "Od vas ne trebamo nikakve osobne podatke, pa nema papirologije. Pred kraj dobivate pregled koliko se aplikacija koristila i cijenu za nastavak." }
     ]
@@ -76,7 +75,7 @@
     "name": "Vaše ime",
     "email": "Vaša poslovna adresa e-pošte",
     "emailHint": "Na nju šaljemo poveznicu za pilot.",
-    "people": "Otprilike koliko bi je osoba moglo koristiti?",
+    "people": "Koliko osoba?",
     "peopleOptions": ["Od 1 do 5", "Od 6 do 19", "Od 20 do 50", "Više od 50"],
     "submit": "Pošaljite mi poveznicu za pilot",
     "sending": "Šaljemo…",
@@ -148,8 +147,8 @@
   },
   "cta": {
     "eyebrow": "Besplatni pilot",
-    "title": "Isprobajte ga sa svojim ljudima",
-    "body": "Najviše 5 osoba, besplatno 30 dana. Poveznica stiže u vaš sandučić u roku od minute. Imate pitanja? Pišite na {address}."
+    "title": "Isprobajte Captio AI besplatno 30 dana",
+    "body": "Najviše 5 osoba. Poveznica stiže u vaš sandučić u roku od minute. Imate pitanja? Pišite na {address}."
   },
   "join": {
     "metaTitle": "Captio AI od organizacije {org}",

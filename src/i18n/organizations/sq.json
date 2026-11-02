@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Titra live dhe të folurit në tekst për organizatat",
-    "description": "Captio AI u shfaq titra live personave të shurdhër dhe me vështirësi në dëgjim në telefon, në 60+ gjuhë. Licenca vjetore me faturë. Provë pilot falas."
+    "description": "Captio AI u jep personave të shurdhër dhe me vështirësi në dëgjim titra live në çdo situatë, në 60+ gjuhë, në iPhone dhe Android. Licenca vjetore për organizata, me faturë. Provë pilot falas 30 ditë."
   },
   "header": {
     "forOrganizations": "për organizatat",
@@ -10,25 +10,24 @@
   },
   "hero": {
     "eyebrow": "🏢 Captio AI për organizatat",
-    "title": "Titra live në telefonin e tyre, sapo dikush [flet]",
-    "description": "Captio AI është një aplikacion për persona të shurdhër dhe me vështirësi në dëgjim. Dëgjon dhe shfaq si tekst atë që thuhet, në bisedat ballë për ballë, në mbi 60 gjuhë. Organizata juaj mund t'ua japë njerëzve që kanë nevojë për të: një licencë vjetore për person, me pagesë me faturë.",
-    "pilotNote": "Falas për 30 ditë, deri në 5 persona. Asgjë për të paguar, asgjë për të nënshkruar.",
-    "facts": ["iPhone dhe Android", "Mbi 60 gjuhë", "Të ruajtura në BE"],
-    "videoLabel": "Captio AI duke shfaqur titra live të një bisede mes dy personave, me një etiketë për secilin folës"
+    "title": "Titra live për persona të shurdhër dhe me vështirësi në dëgjim, në [çdo situatë]",
+    "description": "Captio AI është një aplikacion për iPhone dhe Android që e kthen të folurën në tekst në çastin që thuhet, në mbi 60 gjuhë. Tregon kush po flet, përkthen dhe e ruan çdo bisedë si transkript.",
+    "facts": ["iPhone dhe Android", "Mbi 60 gjuhë", "Të ruajtura në BE", "Pagesë me faturë"],
+    "imageAlt": "Captio AI duke shfaqur titra live të një bisede mes dy personave, me një etiketë për secilin folës dhe me ziljen e derës të shkruar në titra"
   },
   "features": {
     "eyebrow": "Çfarë bën Captio AI",
     "title": "Titra live, përkthim dhe transkriptim",
-    "subtitle": "Tre mjete në një aplikacion, në telefonin e tyre, në mbi 60 gjuhë.",
+    "subtitle": "Tre mjete në një aplikacion, në iPhone dhe Android, në mbi 60 gjuhë.",
     "items": [
       { "label": "Titra live", "title": "Çdo fjalë, sapo thuhet", "description": "Hapni aplikacionin, prekni mikrofonin dhe lexoni. Çdo folës merr etiketën e vet, kështu që është e qartë kush çfarë tha." },
-      { "label": "Përkthim live", "title": "Të dyja gjuhët krah për krah", "description": "Kur dikush flet në një gjuhë tjetër, personi sheh njëkohësisht atë që u tha dhe përkthimin." },
+      { "label": "Përkthim live", "title": "Të dyja gjuhët krah për krah", "description": "Kur dikush flet në një gjuhë tjetër, aplikacioni shfaq njëkohësisht atë që tha dhe përkthimin." },
       { "label": "Transkriptim", "title": "Regjistrime dhe skedarë në tekst", "description": "Ruani çdo bisedë ose shtoni një skedar audio a video dhe merrni transkriptin e plotë me një përmbledhje me AI." }
     ]
   },
   "languages": {
     "eyebrow": "Mbi 60 gjuhë",
-    "title": "Titra në gjuhët që flasin njerëzit tuaj",
+    "title": "Titra në gjuhën që flitet",
     "subtitle": "Titra live, përkthim dhe transkriptim në secilën prej tyre, edhe kur dikush ndërron gjuhë në mes të fjalisë."
   },
   "awareness": {
@@ -56,8 +55,8 @@
     "eyebrow": "Për organizatën tuaj",
     "title": "Pse organizatat zgjedhin Captio AI",
     "items": [
-      { "title": "Gati sa herë që duhet", "description": "Nuk ka nevojë të rezervoni paraprakisht dikë për titrimin. Titrat nisin me një prekje, kudo që të jetë personi." },
-      { "title": "Në telefonin e tyre", "description": "iPhone ose Android. Ekipi juaj i IT-së nuk ka asgjë për të instaluar dhe nuk ka pajisje për të shpërndarë." },
+      { "title": "Gati sa herë që duhet", "description": "Titrat nisin me një prekje, kudo. Nuk ka nevojë të rezervoni paraprakisht dikë për titrimin." },
+      { "title": "Në iPhone dhe Android", "description": "Vetëm një aplikacion në telefon. Ekipi i IT-së nuk ka asgjë për të instaluar dhe nuk ka pajisje për të blerë." },
       { "title": "Privatësi që në projektim", "description": "Të ruajtura në BE. Audioja nuk mbahet në serverët tanë dhe asgjë nuk përdoret kurrë për të trajnuar AI." },
       { "title": "E thjeshtë për t'u blerë", "description": "Një çmim për person në vit, me faturë. Pa minimum, pa tarifë fillestare, asgjë nuk rinovohet vetë." }
     ]
@@ -66,7 +65,7 @@
     "eyebrow": "Provë pilot falas",
     "title": "Provojeni për 30 ditë me deri në 5 persona",
     "steps": [
-      { "title": "Merrni lidhjen e provës pilot", "description": "Plotësoni formularin më poshtë. Lidhja ju vjen në email brenda një minute, bashkë me një mesazh gati për ta përcjellë." },
+      { "title": "Merrni lidhjen e provës pilot", "description": "Plotësoni formularin. Lidhja ju vjen në email brenda një minute, bashkë me një mesazh gati për ta përcjellë." },
       { "title": "Përcilleni te deri në 5 persona", "description": "Çdo person e hap në telefonin e vet, vazhdon me Apple ose Google dhe merr Captio AI në iPhone ose Android." },
       { "title": "30 ditë me versionin e plotë", "description": "Nuk ju kërkojmë të dhëna personale, ndaj nuk ka dokumente. Afër fundit merrni një përmbledhje se sa është përdorur dhe çmimin për ta mbajtur." }
     ]
@@ -76,7 +75,7 @@
     "name": "Emri juaj",
     "email": "Emaili juaj i punës",
     "emailHint": "Lidhja e provës pilot dërgohet këtu.",
-    "people": "Përafërsisht sa persona mund ta përdorin?",
+    "people": "Sa persona?",
     "peopleOptions": ["1 deri në 5", "6 deri në 19", "20 deri në 50", "Mbi 50"],
     "submit": "Më dërgoni lidhjen e provës pilot",
     "sending": "Po dërgohet…",
@@ -148,8 +147,8 @@
   },
   "cta": {
     "eyebrow": "Provë pilot falas",
-    "title": "Shiheni me njerëzit tuaj",
-    "body": "Deri në 5 persona, falas për 30 ditë. Lidhja ju vjen në email brenda një minute. Keni pyetje më parë? Shkruani në {address}."
+    "title": "Provoni Captio AI falas për 30 ditë",
+    "body": "Deri në 5 persona. Lidhja ju vjen në email brenda një minute. Keni pyetje më parë? Shkruani në {address}."
   },
   "join": {
     "metaTitle": "Captio AI nga {org}",

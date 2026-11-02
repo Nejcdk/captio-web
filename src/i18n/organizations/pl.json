@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Napisy na żywo dla firm i organizacji",
-    "description": "Captio AI wyświetla osobom głuchym i słabosłyszącym napisy na żywo w telefonie, w ponad 60 językach. Roczne licencje na fakturę. Bezpłatny 30-dniowy pilotaż."
+    "description": "Captio AI zapewnia osobom głuchym i słabosłyszącym napisy na żywo w każdej sytuacji, w ponad 60 językach, na iPhonie i Androidzie. Roczne licencje dla organizacji, płatne na fakturę. Bezpłatny 30-dniowy pilotaż."
   },
   "header": {
     "forOrganizations": "dla organizacji",
@@ -10,25 +10,24 @@
   },
   "hero": {
     "eyebrow": "🏢 Captio AI dla organizacji",
-    "title": "Napisy na żywo w telefonie w chwili, gdy ktoś [mówi]",
-    "description": "Captio AI to aplikacja dla osób głuchych i słabosłyszących. Słucha i wyświetla jako tekst to, co jest mówione, w bezpośrednich rozmowach, w ponad 60 językach. Mogą Państwo udostępnić ją osobom w swojej organizacji, które jej potrzebują: jedna roczna licencja na osobę, płatność na fakturę.",
-    "pilotNote": "Za darmo przez 30 dni, dla maksymalnie 5 osób. Nic do zapłacenia, nic do podpisania.",
-    "facts": ["iPhone i Android", "60+ języków", "Dane przechowywane w UE"],
-    "videoLabel": "Captio AI wyświetla napisy na żywo do rozmowy dwóch osób, z etykietą dla każdego mówcy"
+    "title": "Napisy na żywo dla osób głuchych i słabosłyszących, w [każdej sytuacji]",
+    "description": "Captio AI to aplikacja na iPhone i Android, która na bieżąco zamienia mowę w tekst, w ponad 60 językach. Pokazuje, kto mówi, tłumaczy i zapisuje każdą rozmowę jako transkrypcję.",
+    "facts": ["iPhone i Android", "60+ języków", "Dane przechowywane w UE", "Płatność na fakturę"],
+    "imageAlt": "Captio AI wyświetla napisy na żywo do rozmowy dwóch osób, z etykietą dla każdego mówcy i dzwonkiem do drzwi zapisanym w napisach"
   },
   "features": {
     "eyebrow": "Co potrafi Captio AI",
     "title": "Napisy na żywo, tłumaczenie i transkrypcja",
-    "subtitle": "Trzy narzędzia w jednej aplikacji, we własnym telefonie, w ponad 60 językach.",
+    "subtitle": "Trzy narzędzia w jednej aplikacji, na iPhonie i Androidzie, w ponad 60 językach.",
     "items": [
       { "label": "Napisy na żywo", "title": "Każde słowo w chwili, gdy pada", "description": "Wystarczy otworzyć aplikację, dotknąć mikrofonu i czytać. Każdy mówca ma własną etykietę, więc wiadomo, kto co powiedział." },
-      { "label": "Tłumaczenie na żywo", "title": "Oba języki obok siebie", "description": "Gdy ktoś mówi w innym języku, na ekranie widać jednocześnie to, co powiedział, i tłumaczenie." },
+      { "label": "Tłumaczenie na żywo", "title": "Oba języki obok siebie", "description": "Gdy ktoś mówi w innym języku, aplikacja pokazuje jednocześnie to, co powiedział, i tłumaczenie." },
       { "label": "Transkrypcja", "title": "Nagrania i pliki zamienione na tekst", "description": "Można zapisać dowolną rozmowę albo dodać plik audio lub wideo i otrzymać pełną transkrypcję z podsumowaniem AI." }
     ]
   },
   "languages": {
     "eyebrow": "60+ języków",
-    "title": "Napisy w językach, którymi mówi się w Państwa organizacji",
+    "title": "Napisy w języku, w którym się mówi",
     "subtitle": "Napisy na żywo, tłumaczenie i transkrypcja w każdym z nich, także gdy ktoś zmienia język w połowie zdania."
   },
   "awareness": {
@@ -56,8 +55,8 @@
     "eyebrow": "Dla Państwa organizacji",
     "title": "Dlaczego organizacje wybierają Captio AI",
     "items": [
-      { "title": "Gotowe, gdy tylko trzeba", "description": "Nie trzeba z wyprzedzeniem zamawiać transkrypcji na żywo. Napisy włączają się jednym dotknięciem, gdziekolwiek jest dana osoba." },
-      { "title": "We własnym telefonie", "description": "iPhone lub Android. Państwa dział IT nie musi niczego instalować i nie trzeba rozdawać żadnego sprzętu." },
+      { "title": "Gotowe, gdy tylko trzeba", "description": "Napisy włączają się jednym dotknięciem, w dowolnym miejscu. Nie trzeba z wyprzedzeniem zamawiać transkrypcji na żywo." },
+      { "title": "Na iPhonie i Androidzie", "description": "Wystarczy aplikacja w telefonie. Dział IT nie musi niczego instalować i nie trzeba kupować żadnego sprzętu." },
       { "title": "Prywatność od samego początku", "description": "Dane przechowywane w UE. Dźwięk nie zostaje na naszych serwerach i nic nigdy nie służy do trenowania AI." },
       { "title": "Prosty zakup", "description": "Jedna cena za osobę na rok, na fakturę. Bez minimum, bez opłaty za wdrożenie, bez automatycznego odnawiania." }
     ]
@@ -66,7 +65,7 @@
     "eyebrow": "Bezpłatny pilotaż",
     "title": "30 dni testów z maksymalnie 5 osobami",
     "steps": [
-      { "title": "Link do pilotażu", "description": "Wystarczy wypełnić formularz poniżej. Link trafi do Państwa skrzynki w ciągu minuty, razem z wiadomością gotową do przekazania dalej." },
+      { "title": "Link do pilotażu", "description": "Wystarczy wypełnić formularz. Link trafi do Państwa skrzynki w ciągu minuty, razem z wiadomością gotową do przekazania dalej." },
       { "title": "Przekazanie maksymalnie 5 osobom", "description": "Każda osoba otwiera link w telefonie, kontynuuje z Apple lub Google i pobiera Captio AI (iPhone lub Android)." },
       { "title": "30 dni pełnej wersji", "description": "Nie potrzebujemy od Państwa żadnych danych osobowych, więc nie ma papierkowej roboty. Pod koniec otrzymają Państwo podsumowanie, jak intensywnie aplikacja była używana, oraz cenę za jej zatrzymanie." }
     ]
@@ -76,7 +75,7 @@
     "name": "Imię i nazwisko",
     "email": "Służbowy adres e-mail",
     "emailHint": "Na ten adres wyślemy link do pilotażu.",
-    "people": "Ile osób mniej więcej mogłoby korzystać z aplikacji?",
+    "people": "Ile osób?",
     "peopleOptions": ["Od 1 do 5", "Od 6 do 19", "Od 20 do 50", "Ponad 50"],
     "submit": "Poproszę o link do pilotażu",
     "sending": "Wysyłanie…",
@@ -148,8 +147,8 @@
   },
   "cta": {
     "eyebrow": "Bezpłatny pilotaż",
-    "title": "Najlepiej sprawdzić to w praktyce",
-    "body": "Do 5 osób, za darmo przez 30 dni. Link trafi do Państwa skrzynki w ciągu minuty. Najpierw pytania? Prosimy pisać na {address}."
+    "title": "Captio AI za darmo przez 30 dni",
+    "body": "Do 5 osób. Link trafi do Państwa skrzynki w ciągu minuty. Najpierw pytania? Prosimy pisać na {address}."
   },
   "join": {
     "metaTitle": "Captio AI od organizacji {org}",

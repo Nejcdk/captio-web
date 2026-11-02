@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Živé titulky a prevod reči na text pre organizácie",
-    "description": "Captio AI dáva nepočujúcim a nedoslýchavým živé titulky v telefóne, v 60+ jazykoch. Ročné licencie pre organizácie na faktúru. Pilot zadarmo na 30 dní."
+    "description": "Captio AI dáva nepočujúcim a nedoslýchavým živé titulky v každej situácii, v 60+ jazykoch, na iPhone aj Androide. Ročné licencie pre organizácie na faktúru. Pilot zadarmo na 30 dní."
   },
   "header": {
     "forOrganizations": "pre organizácie",
@@ -10,25 +10,24 @@
   },
   "hero": {
     "eyebrow": "🏢 Captio AI pre organizácie",
-    "title": "Živé titulky v ich telefóne vo chvíli, keď ľudia [hovoria]",
-    "description": "Captio AI je aplikácia pre nepočujúcich a nedoslýchavých. Počúva a zobrazuje to, čo sa hovorí, ako text, pri osobných stretnutiach, v 60+ jazykoch. Dajte ju ľuďom vo vašej organizácii, ktorí ju potrebujú: jedna ročná licencia na osobu, na faktúru.",
-    "pilotNote": "Zadarmo na 30 dní, až pre 5 ľudí. Nič neplatíte, nič nepodpisujete.",
-    "facts": ["iPhone a Android", "60+ jazykov", "Dáta uložené v EÚ"],
-    "videoLabel": "Captio AI zobrazuje živé titulky rozhovoru dvoch ľudí so štítkom pri každom hovoriacom"
+    "title": "Živé titulky pre nepočujúcich a nedoslýchavých, v [každej situácii]",
+    "description": "Captio AI je aplikácia pre iPhone a Android, ktorá mení reč na text v momente, keď zaznie, v 60+ jazykoch. Ukazuje, kto hovorí, prekladá a každý rozhovor ukladá ako prepis.",
+    "facts": ["iPhone a Android", "60+ jazykov", "Dáta uložené v EÚ", "Platba na faktúru"],
+    "imageAlt": "Captio AI zobrazuje živé titulky rozhovoru dvoch ľudí so štítkom pri každom hovoriacom a so zvončekom pri dverách zapísaným v titulkoch"
   },
   "features": {
     "eyebrow": "Čo Captio AI dokáže",
     "title": "Živé titulky, preklad a prepis",
-    "subtitle": "Tri nástroje v jednej aplikácii, vo vlastnom telefóne, v 60+ jazykoch.",
+    "subtitle": "Tri nástroje v jednej aplikácii, na iPhone aj Androide, v 60+ jazykoch.",
     "items": [
       { "label": "Živé titulky", "title": "Každé slovo hneď, ako zaznie", "description": "Stačí otvoriť aplikáciu, ťuknúť na mikrofón a čítať. Každý hovoriaci má vlastný štítok, takže je jasné, kto čo povedal." },
-      { "label": "Živý preklad", "title": "Oba jazyky vedľa seba", "description": "Keď niekto hovorí iným jazykom, je vidieť zároveň to, čo povedal, aj preklad." },
+      { "label": "Živý preklad", "title": "Oba jazyky vedľa seba", "description": "Keď niekto hovorí iným jazykom, aplikácia ukáže zároveň to, čo povedal, aj preklad." },
       { "label": "Prepis", "title": "Nahrávky a súbory prevedené na text", "description": "Uložte akýkoľvek rozhovor alebo pridajte zvukový či video súbor a získate celý prepis aj zhrnutie od AI." }
     ]
   },
   "languages": {
     "eyebrow": "60+ jazykov",
-    "title": "Titulky v jazykoch, ktorými sa hovorí vo vašej organizácii",
+    "title": "Titulky v jazyku, ktorým sa práve hovorí",
     "subtitle": "Živé titulky, preklad aj prepis v každom z nich, aj keď niekto prejde na iný jazyk uprostred vety."
   },
   "awareness": {
@@ -56,8 +55,8 @@
     "eyebrow": "Pre vašu organizáciu",
     "title": "Prečo si organizácie vyberajú Captio AI",
     "items": [
-      { "title": "Pripravené, kedykoľvek treba", "description": "Žiadne objednávanie prepisovateľa vopred. Titulky sa spustia jedným ťuknutím, nech je človek kdekoľvek." },
-      { "title": "Vo vlastnom telefóne", "description": "iPhone alebo Android. Vaše IT nemusí nič inštalovať a nerozdávate žiadny hardvér." },
+      { "title": "Pripravené, kedykoľvek treba", "description": "Titulky sa spustia jedným ťuknutím, kdekoľvek. Žiadne objednávanie prepisovateľa vopred." },
+      { "title": "Na iPhone aj Androide", "description": "Stačí aplikácia v telefóne. IT nemusí nič inštalovať a netreba kupovať žiadny hardvér." },
       { "title": "Súkromie od základu", "description": "Dáta uložené v EÚ. Zvuk na našich serveroch nezostáva a nič sa nikdy nepoužíva na trénovanie AI." },
       { "title": "Jednoduchý nákup", "description": "Jedna cena na osobu a rok, na faktúru. Žiadne minimum, žiadny poplatok za zriadenie, nič sa samo neobnovuje." }
     ]
@@ -66,7 +65,7 @@
     "eyebrow": "Pilot zadarmo",
     "title": "Vyskúšajte to na 30 dní až s 5 ľuďmi",
     "steps": [
-      { "title": "Získajte odkaz na pilot", "description": "Vyplňte formulár nižšie. Odkaz vám do minúty príde e-mailom, aj so správou pripravenou na preposlanie." },
+      { "title": "Získajte odkaz na pilot", "description": "Vyplňte formulár. Odkaz vám do minúty príde e-mailom, aj so správou pripravenou na preposlanie." },
       { "title": "Prepošlite ho až 5 ľuďom", "description": "Každý ho otvorí v telefóne, pokračuje cez Apple alebo Google a získa Captio AI pre iPhone alebo Android." },
       { "title": "Majú plnú verziu na 30 dní", "description": "Nepotrebujeme od vás žiadne osobné údaje, takže žiadne papierovanie. Ku koncu dostanete prehľad, ako veľmi sa aplikácia používala, a cenu, ak si ju budete chcieť ponechať." }
     ]
@@ -76,7 +75,7 @@
     "name": "Vaše meno",
     "email": "Váš pracovný e-mail",
     "emailHint": "Sem pošleme odkaz na pilot.",
-    "people": "Koľko ľudí ju približne môže používať?",
+    "people": "Koľko ľudí?",
     "peopleOptions": ["1 až 5", "6 až 19", "20 až 50", "Viac ako 50"],
     "submit": "Pošlite mi odkaz na pilot",
     "sending": "Odosiela sa…",
@@ -148,8 +147,8 @@
   },
   "cta": {
     "eyebrow": "Pilot zadarmo",
-    "title": "Vyskúšajte to s vlastnými ľuďmi",
-    "body": "Až 5 ľudí, zadarmo na 30 dní. Odkaz vám do minúty príde e-mailom. Máte najprv otázky? Napíšte na {address}."
+    "title": "Vyskúšajte Captio AI 30 dní zadarmo",
+    "body": "Až 5 ľudí. Odkaz vám do minúty príde e-mailom. Máte najprv otázky? Napíšte na {address}."
   },
   "join": {
     "metaTitle": "Captio AI od organizácie {org}",

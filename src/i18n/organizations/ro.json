@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Subtitrări live și transcriere pentru organizații",
-    "description": "Captio AI oferă subtitrări live persoanelor surde și hipoacuzice, în peste 60 de limbi. Licențe anuale cu factură pentru organizații. Pilot gratuit 30 de zile."
+    "description": "Captio AI oferă persoanelor surde și hipoacuzice subtitrări live în orice situație, în peste 60 de limbi, pe iPhone și Android. Licențe anuale pentru organizații, plătite pe bază de factură. Pilot gratuit 30 de zile."
   },
   "header": {
     "forOrganizations": "pentru organizații",
@@ -10,25 +10,24 @@
   },
   "hero": {
     "eyebrow": "🏢 Captio AI pentru organizații",
-    "title": "Subtitrări live pe telefonul lor, chiar în clipa în care cineva [vorbește]",
-    "description": "Captio AI este o aplicație pentru persoanele surde și hipoacuzice. Ascultă și afișează ca text ce se spune, în conversații față în față, în peste 60 de limbi. Oferiți-o persoanelor din organizația dumneavoastră care au nevoie de ea: câte o licență anuală de persoană, plătită pe bază de factură.",
-    "pilotNote": "Gratuit 30 de zile, pentru cel mult 5 persoane. Nimic de plătit, nimic de semnat.",
-    "facts": ["iPhone și Android", "Peste 60 de limbi", "Date stocate în UE"],
-    "videoLabel": "Captio AI afișează subtitrări live pentru doi oameni care vorbesc, cu o etichetă pentru fiecare vorbitor"
+    "title": "Subtitrări live pentru persoanele surde și hipoacuzice, în [orice situație]",
+    "description": "Captio AI este o aplicație pentru iPhone și Android care transformă vorbirea în text chiar în clipa în care este rostită, în peste 60 de limbi. Arată cine vorbește, traduce și salvează fiecare conversație ca transcriere.",
+    "facts": ["iPhone și Android", "Peste 60 de limbi", "Date stocate în UE", "Plată pe bază de factură"],
+    "imageAlt": "Captio AI afișează subtitrări live pentru doi oameni care vorbesc, cu o etichetă pentru fiecare vorbitor și cu soneria de la ușă scrisă în subtitrări"
   },
   "features": {
     "eyebrow": "Ce face Captio AI",
     "title": "Subtitrări live, traducere și transcriere",
-    "subtitle": "Trei instrumente într-o singură aplicație, pe propriul telefon, în peste 60 de limbi.",
+    "subtitle": "Trei instrumente într-o singură aplicație, pe iPhone și Android, în peste 60 de limbi.",
     "items": [
       { "label": "Subtitrări live", "title": "Fiecare cuvânt, pe măsură ce e rostit", "description": "Deschideți aplicația, atingeți microfonul și citiți. Fiecare vorbitor primește propria etichetă, așa că e clar cine ce a spus." },
-      { "label": "Traducere live", "title": "Ambele limbi, una lângă alta", "description": "Când cineva vorbește altă limbă, pe ecran apar în același timp ce s-a spus și traducerea." },
+      { "label": "Traducere live", "title": "Ambele limbi, una lângă alta", "description": "Când cineva vorbește altă limbă, aplicația arată în același timp ce a spus și traducerea." },
       { "label": "Transcriere", "title": "Înregistrări și fișiere transformate în text", "description": "Salvați orice conversație sau adăugați un fișier audio ori video și primiți transcrierea completă, cu un rezumat AI." }
     ]
   },
   "languages": {
     "eyebrow": "Peste 60 de limbi",
-    "title": "Subtitrări în limbile vorbite în organizația dumneavoastră",
+    "title": "Subtitrări în limba în care se vorbește",
     "subtitle": "Subtitrări live, traducere și transcriere în fiecare dintre ele, inclusiv pentru cei care schimbă limba în mijlocul propoziției."
   },
   "awareness": {
@@ -56,8 +55,8 @@
     "eyebrow": "Pentru organizația dumneavoastră",
     "title": "De ce aleg organizațiile Captio AI",
     "items": [
-      { "title": "Gata în clipa în care e nevoie", "description": "Nu mai trebuie rezervat din timp un stenograf. Subtitrările pornesc cu o singură atingere, oriunde s-ar afla persoana." },
-      { "title": "Pe propriul telefon", "description": "iPhone sau Android. Echipa IT nu are nimic de instalat și nu trebuie împărțite dispozitive." },
+      { "title": "Gata în clipa în care e nevoie", "description": "Subtitrările pornesc cu o singură atingere, oriunde. Nu trebuie rezervat din timp un stenograf." },
+      { "title": "Pe iPhone și Android", "description": "Doar o aplicație pe telefon. Echipa IT nu are nimic de instalat și nu trebuie cumpărate dispozitive." },
       { "title": "Confidențialitate din start", "description": "Date stocate în UE. Sunetul nu este păstrat pe serverele noastre și nimic nu este folosit vreodată pentru antrenarea AI." },
       { "title": "Simplu de cumpărat", "description": "Un singur preț de persoană pe an, pe bază de factură. Fără minim, fără taxă de configurare, nimic nu se reînnoiește singur." }
     ]
@@ -66,7 +65,7 @@
     "eyebrow": "Pilot gratuit",
     "title": "Încercați 30 de zile cu cel mult 5 persoane",
     "steps": [
-      { "title": "Primiți linkul pentru pilot", "description": "Completați formularul de mai jos. Linkul ajunge în căsuța dumneavoastră de e-mail în cel mult un minut, împreună cu un mesaj gata de trimis mai departe." },
+      { "title": "Primiți linkul pentru pilot", "description": "Completați formularul. Linkul ajunge în căsuța dumneavoastră de e-mail în cel mult un minut, împreună cu un mesaj gata de trimis mai departe." },
       { "title": "Trimiteți-l mai departe la cel mult 5 persoane", "description": "Fiecare îl deschide pe telefon, continuă cu Apple sau Google și primește Captio AI pe iPhone sau Android." },
       { "title": "Au versiunea completă timp de 30 de zile", "description": "Nu ne dați date personale, deci nu e nevoie de acte. Spre final primiți un rezumat al utilizării și prețul pentru a păstra aplicația." }
     ]
@@ -76,7 +75,7 @@
     "name": "Numele dumneavoastră",
     "email": "Adresa de e-mail de serviciu",
     "emailHint": "Aici trimitem linkul pentru pilot.",
-    "people": "Aproximativ câte persoane ar putea să o folosească?",
+    "people": "Câte persoane?",
     "peopleOptions": ["Între 1 și 5", "Între 6 și 19", "Între 20 și 50", "Peste 50"],
     "submit": "Trimiteți-mi linkul pentru pilot",
     "sending": "Se trimite…",
@@ -148,8 +147,8 @@
   },
   "cta": {
     "eyebrow": "Pilot gratuit",
-    "title": "Încercați-l cu oamenii dumneavoastră",
-    "body": "Cel mult 5 persoane, gratuit 30 de zile. Linkul ajunge în căsuța dumneavoastră de e-mail în cel mult un minut. Aveți întrebări mai întâi? Scrieți-ne la {address}."
+    "title": "Încercați Captio AI gratuit 30 de zile",
+    "body": "Cel mult 5 persoane. Linkul ajunge în căsuța dumneavoastră de e-mail în cel mult un minut. Aveți întrebări mai întâi? Scrieți-ne la {address}."
   },
   "join": {
     "metaTitle": "Captio AI de la {org}",

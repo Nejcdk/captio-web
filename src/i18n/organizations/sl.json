@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Podnapisi v živo in govor v besedilo za organizacije",
-    "description": "Captio AI gluhim in naglušnim prikazuje podnapise v živo na telefonu, v 60+ jezikih. Letne licence, plačilo po računu. 30 dni brezplačnega preizkusa."
+    "description": "Captio AI gluhim in naglušnim prikazuje podnapise v živo v vsaki situaciji, v 60+ jezikih, na iPhonu in Androidu. Letne licence za organizacije, plačilo po računu. 30 dni brezplačnega preizkusa."
   },
   "header": {
     "forOrganizations": "za organizacije",
@@ -10,25 +10,24 @@
   },
   "hero": {
     "eyebrow": "🏢 Captio AI za organizacije",
-    "title": "Podnapisi v živo na njihovem telefonu, takoj ko kdo [spregovori]",
-    "description": "Captio AI je aplikacija za gluhe in naglušne. Posluša in povedano sproti prikaže kot besedilo, v pogovorih v živo, v več kot 60 jezikih. Dajte jo ljudem v svoji organizaciji, ki jo potrebujejo: ena letna licenca na osebo, plačilo po računu.",
-    "pilotNote": "Brezplačno 30 dni, za največ 5 oseb. Nič ne plačate, nič ne podpišete.",
-    "facts": ["iPhone in Android", "Več kot 60 jezikov", "Shranjeno v EU"],
-    "videoLabel": "Captio AI prikazuje podnapise v živo pogovora dveh oseb, z oznako za vsakega govorca"
+    "title": "Podnapisi v živo za gluhe in naglušne, v [vsaki situaciji]",
+    "description": "Captio AI je aplikacija za iPhone in Android, ki govor v trenutku spremeni v besedilo, v več kot 60 jezikih. Pokaže, kdo govori, prevaja in vsak pogovor shrani kot prepis.",
+    "facts": ["iPhone in Android", "Več kot 60 jezikov", "Shranjeno v EU", "Plačilo po računu"],
+    "imageAlt": "Captio AI prikazuje podnapise v živo pogovora dveh oseb, z oznako za vsakega govorca in zvoncem na vratih, zapisanim v podnapisih"
   },
   "features": {
     "eyebrow": "Kaj zna Captio AI",
     "title": "Podnapisi v živo, prevod in prepis",
-    "subtitle": "Tri orodja v eni aplikaciji, na lastnem telefonu, v več kot 60 jezikih.",
+    "subtitle": "Tri orodja v eni aplikaciji, na iPhonu in Androidu, v več kot 60 jezikih.",
     "items": [
       { "label": "Podnapisi v živo", "title": "Vsaka beseda, takoj ko je izrečena", "description": "Odprite aplikacijo, tapnite mikrofon in berite. Vsak govorec dobi svojo oznako, zato je jasno, kdo je kaj rekel." },
-      { "label": "Prevod v živo", "title": "Oba jezika drug ob drugem", "description": "Ko nekdo govori v drugem jeziku, oseba hkrati vidi povedano in prevod." },
+      { "label": "Prevod v živo", "title": "Oba jezika drug ob drugem", "description": "Ko nekdo govori v drugem jeziku, aplikacija hkrati pokaže povedano in prevod." },
       { "label": "Prepis", "title": "Posnetki in datoteke v besedilo", "description": "Shranite kateri koli pogovor ali dodajte zvočno ali video datoteko in dobite celoten prepis s povzetkom z UI." }
     ]
   },
   "languages": {
     "eyebrow": "Več kot 60 jezikov",
-    "title": "Podnapisi v jezikih, ki jih govorijo vaši ljudje",
+    "title": "Podnapisi v jeziku, ki se govori",
     "subtitle": "Podnapisi v živo, prevod in prepis v vsakem od njih, tudi ko kdo sredi stavka zamenja jezik."
   },
   "awareness": {
@@ -56,8 +55,8 @@
     "eyebrow": "Za vašo organizacijo",
     "title": "Zakaj organizacije izberejo Captio AI",
     "items": [
-      { "title": "Na voljo takoj, ko je treba", "description": "Podnapisovalca ni treba naročati vnaprej. Podnapisi se zaženejo z enim dotikom, kjer koli je oseba." },
-      { "title": "Na lastnem telefonu", "description": "iPhone ali Android. Vaša IT-ekipa nima česa namestiti in ni opreme, ki bi jo morali razdeliti." },
+      { "title": "Na voljo takoj, ko je treba", "description": "Podnapisi se zaženejo z enim dotikom, kjer koli. Podnapisovalca ni treba naročati vnaprej." },
+      { "title": "Na iPhonu in Androidu", "description": "Samo aplikacija na telefonu. IT nima česa namestiti, opreme ni treba kupovati." },
       { "title": "Zasebnost že v zasnovi", "description": "Shranjeno v EU. Zvok se ne hrani na naših strežnikih in nič se nikoli ne uporablja za učenje UI." },
       { "title": "Preprost nakup", "description": "Ena cena na osebo na leto, plačilo po računu. Brez najmanjšega naročila, brez stroškov uvedbe in nič se ne podaljša samo." }
     ]
@@ -66,7 +65,7 @@
     "eyebrow": "Brezplačni pilotni preizkus",
     "title": "Preizkusite 30 dni z največ 5 osebami",
     "steps": [
-      { "title": "Prejmite povezavo za preizkus", "description": "Izpolnite spodnji obrazec. Povezava v minuti prispe v vaš e-poštni predal, skupaj s sporočilom, ki ga lahko posredujete naprej." },
+      { "title": "Prejmite povezavo za preizkus", "description": "Izpolnite obrazec. Povezava v minuti prispe v vaš e-poštni predal, skupaj s sporočilom, ki ga lahko posredujete naprej." },
       { "title": "Posredujte jo največ 5 osebam", "description": "Vsaka oseba jo odpre na svojem telefonu, nadaljuje z Apple ali Google in dobi Captio AI na iPhonu ali Androidu." },
       { "title": "30 dni polne različice", "description": "Od vas ne potrebujemo osebnih podatkov, zato ni papirologije. Proti koncu prejmete povzetek, koliko so aplikacijo uporabljali, in ceno za nadaljevanje." }
     ]
@@ -76,7 +75,7 @@
     "name": "Vaše ime",
     "email": "Vaš službeni e-poštni naslov",
     "emailHint": "Sem pošljemo povezavo za preizkus.",
-    "people": "Približno koliko ljudi bi jo lahko uporabljalo?",
+    "people": "Koliko oseb?",
     "peopleOptions": ["Od 1 do 5", "Od 6 do 19", "Od 20 do 50", "Več kot 50"],
     "submit": "Pošljite mi povezavo za preizkus",
     "sending": "Pošiljanje …",
@@ -148,8 +147,8 @@
   },
   "cta": {
     "eyebrow": "Brezplačni pilotni preizkus",
-    "title": "Preizkusite ga s svojimi ljudmi",
-    "body": "Do 5 oseb, 30 dni brezplačno. Povezava v minuti prispe v vaš e-poštni predal. Imate najprej vprašanja? Pišite na {address}."
+    "title": "Preizkusite Captio AI 30 dni brezplačno",
+    "body": "Do 5 oseb. Povezava v minuti prispe v vaš e-poštni predal. Imate najprej vprašanja? Pišite na {address}."
   },
   "join": {
     "metaTitle": "Captio AI, ki ti ga omogoča {org}",

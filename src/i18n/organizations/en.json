@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Live Captions for Organizations",
-    "description": "Captio AI shows deaf and hard of hearing people live captions on their own phone, in person, in 60+ languages. Yearly licenses for your organization, paid by invoice. Free 30-day pilot."
+    "description": "Captio AI gives deaf and hard of hearing people live captions in any situation, in 60+ languages, on iPhone and Android. Yearly licenses for organizations, paid by invoice. Free 30-day pilot."
   },
   "header": {
     "forOrganizations": "for Organizations",
@@ -10,25 +10,24 @@
   },
   "hero": {
     "eyebrow": "🏢 Captio AI for Organizations",
-    "title": "Live captions on their phone, the moment people [speak]",
-    "description": "Captio AI is an app for deaf and hard of hearing people. It listens and shows what's said as text, in person, in 60+ languages. Give it to the people in your organization who need it: one yearly license each, paid by invoice.",
-    "pilotNote": "Free for 30 days, up to 5 people. Nothing to pay, nothing to sign.",
-    "facts": ["iPhone and Android", "60+ languages", "Stored in the EU"],
-    "videoLabel": "Captio AI showing live captions of two people talking, with a label for each speaker"
+    "title": "Live captions for deaf and hard of hearing people, in [any situation]",
+    "description": "Captio AI is an app for iPhone and Android that turns speech into text the moment it's said, in 60+ languages. It shows who is talking, translates, and saves every conversation as a transcript.",
+    "facts": ["iPhone and Android", "60+ languages", "Stored in the EU", "Paid by invoice"],
+    "imageAlt": "Captio AI showing live captions of two people talking, with a label for each speaker and a doorbell written into the captions"
   },
   "features": {
     "eyebrow": "What Captio AI does",
     "title": "Live captions, translation and transcription",
-    "subtitle": "Three tools in one app, on their own phone, in 60+ languages.",
+    "subtitle": "Three tools in one app, on iPhone and Android, in 60+ languages.",
     "items": [
       { "label": "Live captions", "title": "Every word, as it's said", "description": "Open the app, tap the microphone and read along. Each speaker gets their own label, so it's clear who said what." },
-      { "label": "Live translation", "title": "Both languages side by side", "description": "When someone speaks another language, they see what was said and its translation at the same time." },
+      { "label": "Live translation", "title": "Both languages side by side", "description": "When someone speaks another language, the app shows what they said and its translation at the same time." },
       { "label": "Transcription", "title": "Recordings and files to text", "description": "Save any conversation, or add an audio or video file, and get the full transcript with an AI summary." }
     ]
   },
   "languages": {
     "eyebrow": "60+ languages",
-    "title": "Captions in the languages your people speak",
+    "title": "Captions in the language being spoken",
     "subtitle": "Live captions, translation and transcription in every one of them, including people who switch languages mid-sentence."
   },
   "awareness": {
@@ -37,7 +36,7 @@
     "subtitle": "Who is talking, where they are and what else is going on: the things that matter when you can't hear the room.",
     "items": [
       { "title": "Knows who is talking", "description": "Save a person's voice once, from about 20 seconds of them talking, and captions show their name instead of \"Speaker 2\", live and in saved recordings. Voices are made and kept on the phone.", "where": "iPhone" },
-      { "title": "Shows where the voice is", "description": "Waves at the edge of the screen show which side a voice is coming from, in that speaker's colour, so they know where to look in a busy room.", "where": "iPhone 16 and later" },
+      { "title": "Shows where the voice is", "description": "Waves at the edge of the screen show which side a voice is coming from, in that speaker's colour, so it's clear where to look in a busy room.", "where": "iPhone 16 and later" },
       { "title": "Hears the sounds around them", "description": "Sounds show up in the captions the way film subtitles do it. A doorbell, an alarm or a crying baby also makes the phone vibrate.", "where": "iPhone and iPad" }
     ],
     "drawing": {
@@ -56,8 +55,8 @@
     "eyebrow": "For your organization",
     "title": "Why organizations choose Captio AI",
     "items": [
-      { "title": "Ready the moment it's needed", "description": "No booking a captioner in advance. Captions start with one tap, wherever the person is." },
-      { "title": "On their own phone", "description": "iPhone or Android. Nothing for your IT team to install and no hardware to hand out." },
+      { "title": "Ready the moment it's needed", "description": "Captions start with one tap, anywhere. No captioner to book in advance." },
+      { "title": "On iPhone and Android", "description": "Just an app on a phone. Nothing for IT to install and no hardware to buy." },
       { "title": "Private by design", "description": "Stored in the EU. Audio isn't kept on our servers, and nothing is ever used to train AI." },
       { "title": "Simple to buy", "description": "One price per person per year, by invoice. No minimum, no setup fee, nothing renews by itself." }
     ]
@@ -66,7 +65,7 @@
     "eyebrow": "Free pilot",
     "title": "Try it for 30 days with up to 5 people",
     "steps": [
-      { "title": "Get your pilot link", "description": "Fill in the form below. The link arrives in your inbox within a minute, with a message ready to forward." },
+      { "title": "Get your pilot link", "description": "Fill in the form. The link arrives in your inbox within a minute, with a message ready to forward." },
       { "title": "Forward it to up to 5 people", "description": "Each person opens it on their phone, continues with Apple or Google, and gets Captio AI on iPhone or Android." },
       { "title": "They have the full version for 30 days", "description": "No personal data from you, so no paperwork. Near the end you get a summary of how much it was used, and the price to keep it." }
     ]
@@ -76,7 +75,7 @@
     "name": "Your name",
     "email": "Your work email",
     "emailHint": "The pilot link is sent here.",
-    "people": "About how many people might use it?",
+    "people": "How many people?",
     "peopleOptions": ["1 to 5", "6 to 19", "20 to 50", "More than 50"],
     "submit": "Send me the pilot link",
     "sending": "Sending…",
@@ -148,8 +147,8 @@
   },
   "cta": {
     "eyebrow": "Free pilot",
-    "title": "See it with your own people",
-    "body": "Up to 5 people, free for 30 days. The link arrives in your inbox within a minute. Questions first? Write to {address}."
+    "title": "Try Captio AI free for 30 days",
+    "body": "Up to 5 people. The link arrives in your inbox within a minute. Questions first? Write to {address}."
   },
   "join": {
     "metaTitle": "Captio AI from {org}",

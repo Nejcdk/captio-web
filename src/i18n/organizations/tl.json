@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Live na Caption para sa mga Organisasyon at Kumpanya",
-    "description": "Captio AI: live na caption para sa mga Bingi at mahina ang pandinig sa phone nila, sa 60+ wika. Taunang lisensya, bayad sa invoice. Libreng 30-araw na pilot."
+    "description": "Nagbibigay ang Captio AI ng live na caption sa mga Bingi at mahina ang pandinig sa anumang sitwasyon, sa 60+ wika, sa iPhone at Android. Taunang lisensya para sa mga organisasyon, bayad sa invoice. Libreng 30-araw na pilot."
   },
   "header": {
     "forOrganizations": "para sa mga Organisasyon",
@@ -10,25 +10,24 @@
   },
   "hero": {
     "eyebrow": "🏢 Captio AI para sa mga Organisasyon",
-    "title": "Live na caption sa phone nila, sa sandaling [magsalita] ang mga tao",
-    "description": "Ang Captio AI ay app para sa mga Bingi at mahina ang pandinig. Nakikinig ito at ipinapakita bilang text ang sinasabi, nang harapan, sa 60+ wika. Ibigay ito sa mga tao sa inyong organisasyon na nangangailangan nito: isang taunang lisensya bawat tao, bayad sa pamamagitan ng invoice.",
-    "pilotNote": "Libre sa loob ng 30 araw, hanggang 5 tao. Walang babayaran, walang pipirmahan.",
-    "facts": ["iPhone at Android", "60+ wika", "Nakaimbak sa EU"],
-    "videoLabel": "Captio AI na nagpapakita ng live na caption ng dalawang taong nag-uusap, may label ang bawat nagsasalita"
+    "title": "Live na caption para sa mga Bingi at mahina ang pandinig, sa [anumang sitwasyon]",
+    "description": "Ang Captio AI ay app para sa iPhone at Android na ginagawang text ang pananalita sa mismong sandaling sinasabi ito, sa 60+ wika. Ipinapakita nito kung sino ang nagsasalita, nagsasalin ito, at sine-save nito ang bawat usapan bilang transcript.",
+    "facts": ["iPhone at Android", "60+ wika", "Nakaimbak sa EU", "Bayad sa invoice"],
+    "imageAlt": "Captio AI na nagpapakita ng live na caption ng dalawang taong nag-uusap, may label ang bawat nagsasalita at may doorbell na nakasulat sa caption"
   },
   "features": {
     "eyebrow": "Ano ang ginagawa ng Captio AI",
     "title": "Live na caption, pagsasalin at pag-transcribe",
-    "subtitle": "Tatlong tool sa iisang app, sa sarili nilang phone, sa 60+ wika.",
+    "subtitle": "Tatlong tool sa iisang app, sa iPhone at Android, sa 60+ wika.",
     "items": [
       { "label": "Live na caption", "title": "Bawat salita, habang sinasabi", "description": "Buksan ang app, i-tap ang mikropono at magbasa. May sariling label ang bawat nagsasalita, kaya malinaw kung sino ang nagsabi ng ano." },
-      { "label": "Live na pagsasalin", "title": "Magkatabi ang dalawang wika", "description": "Kapag may nagsalita sa ibang wika, sabay na nakikita ng gumagamit ang sinabi at ang salin nito." },
+      { "label": "Live na pagsasalin", "title": "Magkatabi ang dalawang wika", "description": "Kapag may nagsalita sa ibang wika, sabay na ipinapakita ng app ang sinabi at ang salin nito." },
       { "label": "Pag-transcribe", "title": "Mga recording at file, ginagawang text", "description": "I-save ang kahit anong usapan, o magdagdag ng audio o video file, at makuha ang buong transcript kasama ang buod gamit ang AI." }
     ]
   },
   "languages": {
     "eyebrow": "60+ wika",
-    "title": "Caption sa mga wikang ginagamit ng inyong mga tao",
+    "title": "Caption sa wikang sinasalita",
     "subtitle": "Live na caption, pagsasalin at pag-transcribe sa bawat isa sa mga wikang ito, pati para sa mga taong nagpapalit ng wika sa gitna ng pangungusap."
   },
   "awareness": {
@@ -37,7 +36,7 @@
     "subtitle": "Kung sino ang nagsasalita, nasaan sila at ano pa ang nangyayari: ang mga bagay na mahalaga kapag hindi naririnig ang nangyayari sa paligid.",
     "items": [
       { "title": "Alam kung sino ang nagsasalita", "description": "I-save nang isang beses ang boses ng isang tao, mula sa mga 20 segundo ng pagsasalita niya, at pangalan na niya ang ipapakita ng caption sa halip na “Speaker 2”, live man o sa mga naka-save na recording. Sa phone mismo ginagawa at itinatago ang mga boses.", "where": "iPhone" },
-      { "title": "Ipinapakita kung saan galing ang boses", "description": "Ipinapakita ng mga alon sa gilid ng screen kung saang panig nanggagaling ang boses, sa kulay ng nagsasalitang iyon, para alam ng gumagamit kung saan titingin sa mataong kuwarto.", "where": "iPhone 16 at mas bago" },
+      { "title": "Ipinapakita kung saan galing ang boses", "description": "Ipinapakita ng mga alon sa gilid ng screen kung saang panig nanggagaling ang boses, sa kulay ng nagsasalitang iyon, para malinaw kung saan titingin sa mataong kuwarto.", "where": "iPhone 16 at mas bago" },
       { "title": "Naririnig ang mga tunog sa paligid", "description": "Lumalabas ang mga tunog sa caption, gaya ng sa subtitle ng pelikula. Pinapa-vibrate din ng doorbell, alarm o umiiyak na sanggol ang phone.", "where": "iPhone at iPad" }
     ],
     "drawing": {
@@ -56,8 +55,8 @@
     "eyebrow": "Para sa inyong organisasyon",
     "title": "Bakit pinipili ng mga organisasyon ang Captio AI",
     "items": [
-      { "title": "Handa sa sandaling kailanganin", "description": "Hindi na kailangang mag-book ng captioner nang maaga. Nagsisimula ang caption sa isang tap, nasaan man ang tao." },
-      { "title": "Sa sarili nilang phone", "description": "iPhone o Android. Walang kailangang i-install ang inyong IT team at walang hardware na ipapamigay." },
+      { "title": "Handa sa sandaling kailanganin", "description": "Nagsisimula ang caption sa isang tap, kahit saan. Walang captioner na kailangang i-book nang maaga." },
+      { "title": "Sa iPhone at Android", "description": "App lang sa phone. Walang kailangang i-install ang IT at walang hardware na bibilhin." },
       { "title": "Pribado mula sa simula", "description": "Nakaimbak sa EU. Hindi itinatago ang audio sa aming mga server, at hindi kailanman ginagamit ang kahit ano para mag-train ng AI." },
       { "title": "Madaling bilhin", "description": "Isang presyo bawat tao kada taon, sa pamamagitan ng invoice. Walang minimum, walang setup fee, walang kusang nagre-renew." }
     ]
@@ -66,7 +65,7 @@
     "eyebrow": "Libreng pilot",
     "title": "Subukan ito nang 30 araw kasama ang hanggang 5 tao",
     "steps": [
-      { "title": "Kunin ang inyong pilot link", "description": "Sagutan ang form sa ibaba. Darating ang link sa inyong inbox sa loob ng isang minuto, kasama ang mensaheng handa nang i-forward." },
+      { "title": "Kunin ang inyong pilot link", "description": "Sagutan ang form. Darating ang link sa inyong inbox sa loob ng isang minuto, kasama ang mensaheng handa nang i-forward." },
       { "title": "I-forward ito sa hanggang 5 tao", "description": "Bubuksan ito ng bawat tao sa kanilang phone, magpapatuloy gamit ang Apple o Google, at makukuha ang Captio AI sa iPhone o Android." },
       { "title": "Nasa kanila ang buong bersyon sa loob ng 30 araw", "description": "Wala kaming kailangang personal na data mula sa inyo, kaya walang papeles. Bago ito matapos, makakatanggap kayo ng buod kung gaano ito kadalas ginamit, at ang presyo para ipagpatuloy ito." }
     ]
@@ -76,7 +75,7 @@
     "name": "Inyong pangalan",
     "email": "Inyong work email",
     "emailHint": "Dito ipapadala ang pilot link.",
-    "people": "Mga ilang tao ang maaaring gumamit nito?",
+    "people": "Ilang tao?",
     "peopleOptions": ["1 hanggang 5", "6 hanggang 19", "20 hanggang 50", "Higit sa 50"],
     "submit": "Ipadala sa akin ang pilot link",
     "sending": "Ipinapadala…",
@@ -148,8 +147,8 @@
   },
   "cta": {
     "eyebrow": "Libreng pilot",
-    "title": "Subukan ito kasama ang sarili ninyong mga tao",
-    "body": "Hanggang 5 tao, libre sa loob ng 30 araw. Darating ang link sa inyong inbox sa loob ng isang minuto. May tanong muna? Sumulat sa {address}."
+    "title": "Subukan ang Captio AI nang libre sa loob ng 30 araw",
+    "body": "Hanggang 5 tao. Darating ang link sa inyong inbox sa loob ng isang minuto. May tanong muna? Sumulat sa {address}."
   },
   "join": {
     "metaTitle": "Captio AI mula sa {org}",

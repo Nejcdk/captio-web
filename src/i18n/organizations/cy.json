@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Capsiynau byw i sefydliadau a busnesau",
-    "description": "Mae Captio AI yn dangos capsiynau byw ar y ffôn i bobl fyddar a thrwm eu clyw, mewn 60+ iaith. Trwyddedau blynyddol drwy anfoneb. Treial 30 diwrnod am ddim."
+    "description": "Mae Captio AI yn rhoi capsiynau byw i bobl fyddar a thrwm eu clyw ym mhob sefyllfa, mewn 60+ iaith, ar iPhone ac Android. Trwyddedau blynyddol i sefydliadau drwy anfoneb. Treial 30 diwrnod am ddim."
   },
   "header": {
     "forOrganizations": "i Sefydliadau",
@@ -10,25 +10,24 @@
   },
   "hero": {
     "eyebrow": "🏢 Captio AI i Sefydliadau",
-    "title": "Capsiynau byw ar eu ffôn, yr eiliad mae pobl yn [siarad]",
-    "description": "Ap i bobl fyddar a thrwm eu clyw yw Captio AI. Mae’n gwrando ac yn dangos yr hyn sy’n cael ei ddweud fel testun, wyneb yn wyneb, mewn 60+ iaith. Rhowch yr ap i’r bobl yn eich sefydliad sydd ei angen: un drwydded flynyddol yr un, wedi’i thalu drwy anfoneb.",
-    "pilotNote": "Am ddim am 30 diwrnod, hyd at 5 o bobl. Dim byd i’w dalu, dim byd i’w lofnodi.",
-    "facts": ["iPhone ac Android", "60+ iaith", "Wedi’i storio yn yr UE"],
-    "videoLabel": "Captio AI yn dangos capsiynau byw o ddau berson yn siarad, gyda label i bob siaradwr"
+    "title": "Capsiynau byw i bobl fyddar a thrwm eu clyw, [ym mhob sefyllfa]",
+    "description": "Mae Captio AI yn ap ar gyfer iPhone ac Android sy’n troi’r hyn sy’n cael ei ddweud yn destun ar unwaith, mewn 60+ iaith. Mae’n dangos pwy sy’n siarad, yn cyfieithu, ac yn cadw pob sgwrs fel trawsgrifiad.",
+    "facts": ["iPhone ac Android", "60+ iaith", "Wedi’i storio yn yr UE", "Talu drwy anfoneb"],
+    "imageAlt": "Captio AI yn dangos capsiynau byw o ddau berson yn siarad, gyda label i bob siaradwr a chloch y drws wedi’i hysgrifennu yn y capsiynau"
   },
   "features": {
     "eyebrow": "Beth mae Captio AI yn ei wneud",
     "title": "Capsiynau byw, cyfieithu a thrawsgrifio",
-    "subtitle": "Tri offeryn mewn un ap, ar eu ffôn eu hunain, mewn 60+ iaith.",
+    "subtitle": "Tri offeryn mewn un ap, ar iPhone ac Android, mewn 60+ iaith.",
     "items": [
       { "label": "Capsiynau byw", "title": "Pob gair, wrth iddo gael ei ddweud", "description": "Agorwch yr ap, tapiwch y meicroffon a darllenwch. Mae gan bob siaradwr ei label ei hun, felly mae’n glir pwy ddywedodd beth." },
-      { "label": "Cyfieithu byw", "title": "Y ddwy iaith ochr yn ochr", "description": "Pan fydd rhywun yn siarad iaith arall, maen nhw’n gweld yr hyn a ddywedwyd a’r cyfieithiad yr un pryd." },
+      { "label": "Cyfieithu byw", "title": "Y ddwy iaith ochr yn ochr", "description": "Pan fydd rhywun yn siarad iaith arall, mae’r ap yn dangos yr hyn a ddywedwyd a’r cyfieithiad yr un pryd." },
       { "label": "Trawsgrifio", "title": "Recordiadau a ffeiliau yn destun", "description": "Cadwch unrhyw sgwrs, neu ychwanegwch ffeil sain neu fideo, a chewch y trawsgrifiad llawn gyda chrynodeb AI." }
     ]
   },
   "languages": {
     "eyebrow": "60+ iaith",
-    "title": "Capsiynau yn yr ieithoedd mae’ch pobl yn eu siarad",
+    "title": "Capsiynau yn yr iaith sy’n cael ei siarad",
     "subtitle": "Capsiynau byw, cyfieithu a thrawsgrifio ym mhob un ohonyn nhw, gan gynnwys pobl sy’n newid iaith ar ganol brawddeg."
   },
   "awareness": {
@@ -37,7 +36,7 @@
     "subtitle": "Pwy sy’n siarad, ble maen nhw a beth arall sy’n digwydd: y pethau sy’n bwysig pan nad oes modd clywed yr ystafell.",
     "items": [
       { "title": "Yn gwybod pwy sy’n siarad", "description": "Cadwch lais rhywun unwaith, o tua 20 eiliad ohonyn nhw’n siarad, a bydd y capsiynau’n dangos eu henw yn lle “Siaradwr 2”, yn fyw ac mewn recordiadau sydd wedi’u cadw. Mae’r lleisiau’n cael eu creu a’u cadw ar y ffôn.", "where": "iPhone" },
-      { "title": "Yn dangos o ble mae’r llais yn dod", "description": "Mae tonnau ar ymyl y sgrin yn dangos o ba ochr mae llais yn dod, yn lliw’r siaradwr hwnnw, fel eu bod nhw’n gwybod ble i edrych mewn ystafell brysur.", "where": "iPhone 16 a mwy newydd" },
+      { "title": "Yn dangos o ble mae’r llais yn dod", "description": "Mae tonnau ar ymyl y sgrin yn dangos o ba ochr mae llais yn dod, yn lliw’r siaradwr hwnnw, fel ei bod hi’n glir ble i edrych mewn ystafell brysur.", "where": "iPhone 16 a mwy newydd" },
       { "title": "Yn clywed y synau o’u cwmpas", "description": "Mae synau’n ymddangos yn y capsiynau fel mewn isdeitlau ffilm. Mae cloch y drws, larwm neu fabi’n crio hefyd yn gwneud i’r ffôn ddirgrynu.", "where": "iPhone ac iPad" }
     ],
     "drawing": {
@@ -56,8 +55,8 @@
     "eyebrow": "I’ch sefydliad chi",
     "title": "Pam mae sefydliadau’n dewis Captio AI",
     "items": [
-      { "title": "Yn barod y funud mae ei angen", "description": "Does dim angen archebu rhywun i ddarparu capsiynau ymlaen llaw. Mae capsiynau’n dechrau gydag un tap, lle bynnag mae’r person." },
-      { "title": "Ar eu ffôn eu hunain", "description": "iPhone neu Android. Dim byd i’ch tîm TG ei osod a dim offer i’w ddosbarthu." },
+      { "title": "Yn barod y funud mae ei angen", "description": "Mae capsiynau’n dechrau gydag un tap, unrhyw le. Does dim angen archebu rhywun i ddarparu capsiynau ymlaen llaw." },
+      { "title": "Ar iPhone ac Android", "description": "Dim ond ap ar ffôn. Dim byd i’r tîm TG ei osod a dim offer i’w brynu." },
       { "title": "Preifat o’r dechrau", "description": "Wedi’i storio yn yr UE. Dydy sain ddim yn cael ei chadw ar ein gweinyddion, a does dim byd byth yn cael ei ddefnyddio i hyfforddi AI." },
       { "title": "Syml i’w brynu", "description": "Un pris y person y flwyddyn, drwy anfoneb. Dim isafswm, dim ffi sefydlu, does dim byd yn adnewyddu ohono’i hun." }
     ]
@@ -66,7 +65,7 @@
     "eyebrow": "Treial am ddim",
     "title": "Rhowch gynnig arni am 30 diwrnod gyda hyd at 5 o bobl",
     "steps": [
-      { "title": "Cael eich dolen treial", "description": "Llenwch y ffurflen isod. Bydd y ddolen yn cyrraedd eich mewnflwch o fewn munud, gyda neges yn barod i’w hanfon ymlaen." },
+      { "title": "Cael eich dolen treial", "description": "Llenwch y ffurflen. Bydd y ddolen yn cyrraedd eich mewnflwch o fewn munud, gyda neges yn barod i’w hanfon ymlaen." },
       { "title": "Ei hanfon ymlaen at hyd at 5 o bobl", "description": "Mae pob person yn ei hagor ar y ffôn, yn parhau gydag Apple neu Google, ac yn cael Captio AI ar iPhone neu Android." },
       { "title": "Mae ganddyn nhw’r fersiwn lawn am 30 diwrnod", "description": "Dim data personol gennych chi, felly dim gwaith papur. Tua’r diwedd, cewch grynodeb o faint y cafodd ei ddefnyddio, a’r pris i barhau." }
     ]
@@ -76,7 +75,7 @@
     "name": "Eich enw",
     "email": "Eich e-bost gwaith",
     "emailHint": "Bydd y ddolen treial yn cael ei hanfon yma.",
-    "people": "Tua faint o bobl allai ei ddefnyddio?",
+    "people": "Faint o bobl?",
     "peopleOptions": ["1 i 5", "6 i 19", "20 i 50", "Mwy na 50"],
     "submit": "Anfonwch y ddolen treial ata i",
     "sending": "Wrthi’n anfon…",
@@ -148,8 +147,8 @@
   },
   "cta": {
     "eyebrow": "Treial am ddim",
-    "title": "Gweld sut mae’n gweithio i’ch pobl chi",
-    "body": "Hyd at 5 o bobl, am ddim am 30 diwrnod. Bydd y ddolen yn cyrraedd eich mewnflwch o fewn munud. Cwestiynau yn gyntaf? Ysgrifennwch at {address}."
+    "title": "Rhowch gynnig ar Captio AI am ddim am 30 diwrnod",
+    "body": "Hyd at 5 o bobl. Bydd y ddolen yn cyrraedd eich mewnflwch o fewn munud. Cwestiynau yn gyntaf? Ysgrifennwch at {address}."
   },
   "join": {
     "metaTitle": "Captio AI: {org}",

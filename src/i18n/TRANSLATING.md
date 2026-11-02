@@ -66,7 +66,10 @@ Same rules as above, plus:
   checker fails on a missing or extra one. `form.errors.server`: `{code}`
   becomes " (ABC123)" with its own space, so it goes right after the word.
 - **Hero title** (`hero.title`): exactly one `[phrase]`, the equivalent of
-  "speak".
+  "any situation".
+- **The app, not their people** (Nejc 2026-11-02): say what Captio AI does
+  ("the app shows…", "on iPhone and Android"), never "your people will…",
+  "on their phone" or "the languages your people speak".
 - **Any organization**: never "students" or "staff".
 - Prices stay as written (£89, €99, $109); which one is shown big comes from
   the language (`orgCurrency` in `src/i18n/organizations.ts`).

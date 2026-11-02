@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Subtítulos en vivo para empresas y organizaciones",
-    "description": "Captio AI: subtítulos en vivo para personas sordas y con pérdida auditiva en su teléfono, en más de 60 idiomas. Licencias anuales por factura y prueba gratis."
+    "description": "Captio AI ofrece subtítulos en vivo a personas sordas y con pérdida auditiva en cualquier situación, en más de 60 idiomas, en iPhone y Android. Licencias anuales para organizaciones, con pago por factura. Prueba piloto gratis de 30 días."
   },
   "header": {
     "forOrganizations": "para organizaciones",
@@ -10,25 +10,24 @@
   },
   "hero": {
     "eyebrow": "🏢 Captio AI para organizaciones",
-    "title": "Subtítulos en vivo en el teléfono, en cuanto alguien [habla]",
-    "description": "Captio AI es una aplicación para personas sordas y con pérdida auditiva. Escucha y muestra como texto lo que se dice, en persona y en más de 60 idiomas. Ofrézcala a las personas de su organización que la necesiten: una licencia anual por persona, con pago por factura.",
-    "pilotNote": "Gratis durante 30 días, hasta 5 personas. Nada que pagar, nada que firmar.",
-    "facts": ["iPhone y Android", "Más de 60 idiomas", "Datos alojados en la UE"],
-    "videoLabel": "Captio AI mostrando subtítulos en vivo de dos personas hablando, con una etiqueta para cada hablante"
+    "title": "Subtítulos en vivo para personas sordas y con pérdida auditiva, en [cualquier situación]",
+    "description": "Captio AI es una aplicación para iPhone y Android que convierte el habla en texto en el momento en que se dice, en más de 60 idiomas. Muestra quién está hablando, traduce y guarda cada conversación como una transcripción.",
+    "facts": ["iPhone y Android", "Más de 60 idiomas", "Datos alojados en la UE", "Pago por factura"],
+    "imageAlt": "Captio AI mostrando subtítulos en vivo de dos personas hablando, con una etiqueta para cada hablante y el sonido de un timbre escrito en los subtítulos"
   },
   "features": {
     "eyebrow": "Qué hace Captio AI",
     "title": "Subtítulos en vivo, traducción y transcripción",
-    "subtitle": "Tres herramientas en una sola aplicación, en el propio teléfono, en más de 60 idiomas.",
+    "subtitle": "Tres herramientas en una sola aplicación, en iPhone y Android, en más de 60 idiomas.",
     "items": [
       { "label": "Subtítulos en vivo", "title": "Cada palabra, en el momento en que se dice", "description": "Se abre la aplicación, se toca el micrófono y se lee. Cada hablante tiene su propia etiqueta, así queda claro quién dijo qué." },
-      { "label": "Traducción en vivo", "title": "Los dos idiomas, uno al lado del otro", "description": "Cuando alguien habla otro idioma, se ve a la vez lo que dijo y su traducción." },
+      { "label": "Traducción en vivo", "title": "Los dos idiomas, uno al lado del otro", "description": "Cuando alguien habla otro idioma, la aplicación muestra a la vez lo que dijo y su traducción." },
       { "label": "Transcripción", "title": "Grabaciones y archivos convertidos en texto", "description": "Se puede guardar cualquier conversación o añadir un archivo de audio o video y obtener la transcripción completa con un resumen con IA." }
     ]
   },
   "languages": {
     "eyebrow": "Más de 60 idiomas",
-    "title": "Subtítulos en los idiomas que se hablan en su organización",
+    "title": "Subtítulos en el idioma que se habla",
     "subtitle": "Subtítulos en vivo, traducción y transcripción en todos ellos, también para quien cambia de idioma a mitad de frase."
   },
   "awareness": {
@@ -56,8 +55,8 @@
     "eyebrow": "Para su organización",
     "title": "Por qué las organizaciones eligen Captio AI",
     "items": [
-      { "title": "Listo en el momento en que se necesita", "description": "Sin reservar con antelación un servicio de subtitulado. Los subtítulos empiezan con un toque, esté donde esté la persona." },
-      { "title": "En el teléfono de cada persona", "description": "iPhone o Android. Su equipo de TI no tiene nada que instalar y no hay que repartir ningún dispositivo." },
+      { "title": "Listo en el momento en que se necesita", "description": "Los subtítulos empiezan con un toque, en cualquier lugar. Sin reservar con antelación un servicio de subtitulado." },
+      { "title": "En iPhone y Android", "description": "Solo una aplicación en el teléfono. El equipo de TI no tiene nada que instalar y no hay que comprar ningún dispositivo." },
       { "title": "Privacidad desde el diseño", "description": "Datos alojados en la UE. El audio no se guarda en nuestros servidores y nada se usa nunca para entrenar IA." },
       { "title": "Fácil de contratar", "description": "Un precio por persona y año, por factura. Sin mínimo, sin cuota de alta y sin renovación automática." }
     ]
@@ -66,7 +65,7 @@
     "eyebrow": "Prueba piloto gratis",
     "title": "Pruébelo 30 días con hasta 5 personas",
     "steps": [
-      { "title": "Reciba su enlace de la prueba piloto", "description": "Rellene el formulario de abajo. El enlace llega a su bandeja de entrada en menos de un minuto, con un mensaje listo para reenviar." },
+      { "title": "Reciba su enlace de la prueba piloto", "description": "Rellene el formulario. El enlace llega a su bandeja de entrada en menos de un minuto, con un mensaje listo para reenviar." },
       { "title": "Reenvíelo a hasta 5 personas", "description": "Cada persona lo abre en su teléfono, continúa con Apple o Google y obtiene Captio AI en iPhone o Android." },
       { "title": "La versión completa durante 30 días", "description": "No necesitamos datos personales suyos, así que no hay papeleo. Cerca del final recibirá un resumen de cuánto se ha usado y el precio para mantenerlo." }
     ]
@@ -76,7 +75,7 @@
     "name": "Su nombre",
     "email": "Su correo electrónico de trabajo",
     "emailHint": "Le enviaremos aquí el enlace de la prueba piloto.",
-    "people": "¿Cuántas personas podrían usarlo, aproximadamente?",
+    "people": "¿Cuántas personas?",
     "peopleOptions": ["De 1 a 5", "De 6 a 19", "De 20 a 50", "Más de 50"],
     "submit": "Enviarme el enlace de la prueba piloto",
     "sending": "Enviando…",
@@ -148,8 +147,8 @@
   },
   "cta": {
     "eyebrow": "Prueba piloto gratis",
-    "title": "Compruébelo con su propia gente",
-    "body": "Hasta 5 personas, gratis durante 30 días. El enlace llega a su bandeja de entrada en menos de un minuto. ¿Tiene preguntas antes? Escriba a {address}."
+    "title": "Pruebe Captio AI gratis durante 30 días",
+    "body": "Hasta 5 personas. El enlace llega a su bandeja de entrada en menos de un minuto. ¿Tiene preguntas antes? Escriba a {address}."
   },
   "join": {
     "metaTitle": "Captio AI de parte de {org}",

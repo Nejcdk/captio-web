@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Legendas ao vivo para empresas e organizações",
-    "description": "O Captio AI mostra legendas ao vivo no celular de pessoas surdas e com perda auditiva, em mais de 60 idiomas. Licenças anuais com fatura e piloto grátis."
+    "description": "O Captio AI oferece legendas ao vivo para pessoas surdas e com perda auditiva em qualquer situação, em mais de 60 idiomas, no iPhone e no Android. Licenças anuais para organizações, com pagamento por fatura. Piloto grátis de 30 dias."
   },
   "header": {
     "forOrganizations": "para organizações",
@@ -10,25 +10,24 @@
   },
   "hero": {
     "eyebrow": "🏢 Captio AI para organizações",
-    "title": "Legendas ao vivo no celular, assim que alguém [fala]",
-    "description": "O Captio AI é um app para pessoas surdas e com perda auditiva. Ele escuta e mostra em texto o que é dito, presencialmente, em mais de 60 idiomas. Ofereça o app às pessoas da sua organização que precisam dele: uma licença anual por pessoa, com pagamento por fatura.",
-    "pilotNote": "Grátis por 30 dias, para até 5 pessoas. Nada a pagar, nada a assinar.",
-    "facts": ["iPhone e Android", "Mais de 60 idiomas", "Dados armazenados na UE"],
-    "videoLabel": "Captio AI mostrando legendas ao vivo de duas pessoas conversando, com uma etiqueta para cada falante"
+    "title": "Legendas ao vivo para pessoas surdas e com perda auditiva, em [qualquer situação]",
+    "description": "O Captio AI é um app para iPhone e Android que transforma a fala em texto no momento em que ela é dita, em mais de 60 idiomas. Ele mostra quem está falando, traduz e salva cada conversa como transcrição.",
+    "facts": ["iPhone e Android", "Mais de 60 idiomas", "Dados armazenados na UE", "Pagamento por fatura"],
+    "imageAlt": "Captio AI mostrando legendas ao vivo de duas pessoas conversando, com uma etiqueta para cada falante e o som de uma campainha escrito nas legendas"
   },
   "features": {
     "eyebrow": "O que o Captio AI faz",
     "title": "Legendas ao vivo, tradução e transcrição",
-    "subtitle": "Três ferramentas em um só app, no próprio celular, em mais de 60 idiomas.",
+    "subtitle": "Três ferramentas em um só app, no iPhone e no Android, em mais de 60 idiomas.",
     "items": [
       { "label": "Legendas ao vivo", "title": "Cada palavra, no momento em que é dita", "description": "É só abrir o app, tocar no microfone e ler. Cada falante ganha sua própria etiqueta, então fica claro quem disse o quê." },
-      { "label": "Tradução ao vivo", "title": "Os dois idiomas lado a lado", "description": "Quando alguém fala outro idioma, aparecem ao mesmo tempo o que foi dito e a tradução." },
+      { "label": "Tradução ao vivo", "title": "Os dois idiomas lado a lado", "description": "Quando alguém fala outro idioma, o app mostra ao mesmo tempo o que foi dito e a tradução." },
       { "label": "Transcrição", "title": "Gravações e arquivos em texto", "description": "É possível salvar qualquer conversa ou adicionar um arquivo de áudio ou vídeo e receber a transcrição completa com um resumo com IA." }
     ]
   },
   "languages": {
     "eyebrow": "Mais de 60 idiomas",
-    "title": "Legendas nos idiomas falados na sua organização",
+    "title": "Legendas no idioma que está sendo falado",
     "subtitle": "Legendas ao vivo, tradução e transcrição em todos eles, inclusive para quem troca de idioma no meio da frase."
   },
   "awareness": {
@@ -56,8 +55,8 @@
     "eyebrow": "Para a sua organização",
     "title": "Por que as organizações escolhem o Captio AI",
     "items": [
-      { "title": "Pronto quando for preciso", "description": "Sem precisar reservar um serviço de legendagem com antecedência. As legendas começam com um toque, onde quer que a pessoa esteja." },
-      { "title": "No próprio celular", "description": "iPhone ou Android. Nada para a sua equipe de TI instalar e nenhum equipamento para distribuir." },
+      { "title": "Pronto quando for preciso", "description": "As legendas começam com um toque, em qualquer lugar. Sem precisar reservar um serviço de legendagem com antecedência." },
+      { "title": "No iPhone e no Android", "description": "É só um app no celular. Nada para a TI instalar e nenhum equipamento para comprar." },
       { "title": "Privacidade desde a concepção", "description": "Dados armazenados na UE. O áudio não fica nos nossos servidores, e nada é usado para treinar IA." },
       { "title": "Simples de contratar", "description": "Um preço por pessoa por ano, com fatura. Sem mínimo, sem taxa de implantação, sem renovação automática." }
     ]
@@ -66,7 +65,7 @@
     "eyebrow": "Piloto grátis",
     "title": "Teste por 30 dias com até 5 pessoas",
     "steps": [
-      { "title": "Receba seu link do piloto", "description": "Preencha o formulário abaixo. O link chega à sua caixa de entrada em menos de um minuto, com uma mensagem pronta para encaminhar." },
+      { "title": "Receba seu link do piloto", "description": "Preencha o formulário. O link chega à sua caixa de entrada em menos de um minuto, com uma mensagem pronta para encaminhar." },
       { "title": "Encaminhe para até 5 pessoas", "description": "Cada pessoa abre o link no celular, continua com a Apple ou o Google e recebe o Captio AI no iPhone ou Android." },
       { "title": "Versão completa por 30 dias", "description": "Nenhum dado pessoal da sua parte, então nada de papelada. Perto do fim, você recebe um resumo de quanto o app foi usado e o preço para continuar." }
     ]
@@ -76,7 +75,7 @@
     "name": "Seu nome",
     "email": "Seu e-mail corporativo",
     "emailHint": "O link do piloto será enviado para este endereço.",
-    "people": "Quantas pessoas devem usar, aproximadamente?",
+    "people": "Quantas pessoas?",
     "peopleOptions": ["De 1 a 5", "De 6 a 19", "De 20 a 50", "Mais de 50"],
     "submit": "Enviar o link do piloto",
     "sending": "Enviando…",
@@ -148,8 +147,8 @@
   },
   "cta": {
     "eyebrow": "Piloto grátis",
-    "title": "Teste com quem vai usar",
-    "body": "Até 5 pessoas, grátis por 30 dias. O link chega à sua caixa de entrada em menos de um minuto. Tem dúvidas antes? Escreva para {address}."
+    "title": "Teste o Captio AI grátis por 30 dias",
+    "body": "Até 5 pessoas. O link chega à sua caixa de entrada em menos de um minuto. Tem dúvidas antes? Escreva para {address}."
   },
   "join": {
     "metaTitle": "Captio AI por {org}",

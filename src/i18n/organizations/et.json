@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Otsesubtiitrid organisatsioonidele ja ettevõtetele",
-    "description": "Captio AI näitab kurtidele ja vaegkuuljatele otsesubtiitreid nende oma telefonis, 60+ keeles. Aastalitsentsid arve alusel. Tasuta 30-päevane katseperiood."
+    "description": "Captio AI näitab kurtidele ja vaegkuuljatele otsesubtiitreid igas olukorras, 60+ keeles, iPhone'is ja Androidis. Aastalitsentsid organisatsioonidele arve alusel. Tasuta 30-päevane katseperiood."
   },
   "header": {
     "forOrganizations": "Organisatsioonidele",
@@ -10,25 +10,24 @@
   },
   "hero": {
     "eyebrow": "🏢 Captio AI organisatsioonidele",
-    "title": "Otsesubtiitrid nende telefonis kohe, kui inimesed [räägivad]",
-    "description": "Captio AI on rakendus kurtidele ja vaegkuuljatele. See kuulab ja näitab öeldut tekstina silmast silma vestlustes, 60+ keeles. Andke see oma organisatsiooni inimestele, kes seda vajavad: igaühele üks aastalitsents, tasumine arve alusel.",
-    "pilotNote": "30 päeva tasuta, kuni 5 inimesele. Midagi ei pea maksma ega allkirjastama.",
-    "facts": ["iPhone ja Android", "60+ keelt", "Andmed asuvad ELis"],
-    "videoLabel": "Captio AI näitab kahe inimese vestluse otsesubtiitreid, iga kõneleja oma sildiga"
+    "title": "Otsesubtiitrid kurtidele ja vaegkuuljatele [igas olukorras]",
+    "description": "Captio AI on iPhone'i ja Androidi rakendus, mis muudab kõne tekstiks samal hetkel, kui see öeldakse, 60+ keeles. See näitab, kes räägib, tõlgib ja salvestab iga vestluse transkriptsioonina.",
+    "facts": ["iPhone ja Android", "60+ keelt", "Andmed asuvad ELis", "Tasumine arve alusel"],
+    "imageAlt": "Captio AI näitab kahe inimese vestluse otsesubtiitreid, iga kõneleja oma sildiga ja subtiitritesse kirjutatud uksekellaga"
   },
   "features": {
     "eyebrow": "Mida Captio AI teeb",
     "title": "Otsesubtiitrid, tõlge ja transkribeerimine",
-    "subtitle": "Kolm tööriista ühes rakenduses, nende oma telefonis, 60+ keeles.",
+    "subtitle": "Kolm tööriista ühes rakenduses, iPhone'is ja Androidis, 60+ keeles.",
     "items": [
       { "label": "Otsesubtiitrid", "title": "Iga sõna kohe, kui see öeldakse", "description": "Avage rakendus, puudutage mikrofoni ja lugege kaasa. Igal kõnelejal on oma silt, nii et on selge, kes mida ütles." },
-      { "label": "Otsetõlge", "title": "Mõlemad keeled kõrvuti", "description": "Kui keegi räägib teises keeles, on korraga näha nii öeldu kui ka selle tõlge." },
+      { "label": "Otsetõlge", "title": "Mõlemad keeled kõrvuti", "description": "Kui keegi räägib teises keeles, näitab rakendus korraga nii öeldut kui ka selle tõlget." },
       { "label": "Transkribeerimine", "title": "Salvestised ja failid tekstiks", "description": "Salvestage mis tahes vestlus või lisage heli- või videofail ja saate täieliku transkriptsiooni koos AI-kokkuvõttega." }
     ]
   },
   "languages": {
     "eyebrow": "60+ keelt",
-    "title": "Subtiitrid keeltes, mida teie inimesed räägivad",
+    "title": "Subtiitrid selles keeles, mida räägitakse",
     "subtitle": "Otsesubtiitrid, tõlge ja transkribeerimine igas neist, ka siis, kui inimesed lause keskel keelt vahetavad."
   },
   "awareness": {
@@ -56,8 +55,8 @@
     "eyebrow": "Teie organisatsioonile",
     "title": "Miks organisatsioonid eelistavad rakendust Captio AI",
     "items": [
-      { "title": "Valmis kohe, kui vaja", "description": "Subtiitrite tegijat ei pea ette broneerima. Subtiitrid käivituvad ühe puudutusega, ükskõik kus inimene on." },
-      { "title": "Nende oma telefonis", "description": "iPhone või Android. Teie IT-meeskonnal pole vaja midagi paigaldada ega seadmeid välja jagada." },
+      { "title": "Valmis kohe, kui vaja", "description": "Subtiitrid käivituvad ühe puudutusega, ükskõik kus. Subtiitrite tegijat ei pea ette broneerima." },
+      { "title": "iPhone'is ja Androidis", "description": "Lihtsalt rakendus telefonis. IT-l pole vaja midagi paigaldada ega seadmeid osta." },
       { "title": "Privaatsus on sisse ehitatud", "description": "Andmed asuvad ELis. Heli ei hoita meie serverites ja midagi ei kasutata kunagi AI treenimiseks." },
       { "title": "Lihtne osta", "description": "Üks hind inimese kohta aastas, arve alusel. Miinimumita, juurutustasuta, midagi ei pikene iseenesest." }
     ]
@@ -66,7 +65,7 @@
     "eyebrow": "Tasuta katseperiood",
     "title": "Proovige 30 päeva kuni 5 inimesega",
     "steps": [
-      { "title": "Saage katselink", "description": "Täitke allolev vorm. Link jõuab teie postkasti minuti jooksul koos edasisaatmiseks valmis sõnumiga." },
+      { "title": "Saage katselink", "description": "Täitke vorm. Link jõuab teie postkasti minuti jooksul koos edasisaatmiseks valmis sõnumiga." },
       { "title": "Saatke see edasi kuni 5 inimesele", "description": "Iga inimene avab selle oma telefonis, jätkab Apple'i või Google'iga ja saab rakenduse Captio AI iPhone'i või Androidi." },
       { "title": "30 päeva on neil täisversioon", "description": "Teilt pole vaja isikuandmeid, seega pole ka paberimajandust. Lõpu eel saate kokkuvõtte, kui palju seda kasutati, ja hinna, kui soovite jätkata." }
     ]
@@ -76,7 +75,7 @@
     "name": "Teie nimi",
     "email": "Teie tööalane e-post",
     "emailHint": "Katselink saadetakse sellele aadressile.",
-    "people": "Umbes kui paljud inimesed võiksid seda kasutada?",
+    "people": "Mitu inimest?",
     "peopleOptions": ["1 kuni 5", "6 kuni 19", "20 kuni 50", "Üle 50"],
     "submit": "Saatke mulle katselink",
     "sending": "Saatmine…",
@@ -148,8 +147,8 @@
   },
   "cta": {
     "eyebrow": "Tasuta katseperiood",
-    "title": "Proovige oma inimestega",
-    "body": "Kuni 5 inimest, 30 päeva tasuta. Link jõuab teie postkasti minuti jooksul. Kõigepealt küsimusi? Kirjutage aadressile {address}."
+    "title": "Proovige rakendust Captio AI 30 päeva tasuta",
+    "body": "Kuni 5 inimest. Link jõuab teie postkasti minuti jooksul. Kõigepealt küsimusi? Kirjutage aadressile {address}."
   },
   "join": {
     "metaTitle": "Captio AI organisatsioonilt {org}",

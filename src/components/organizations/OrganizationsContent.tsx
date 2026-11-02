@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import Footer from "@/components/Footer";
 import FaqAccordion from "@/components/FaqAccordion";
@@ -15,19 +16,23 @@ import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbS
 // Captio AI for Organizations, in any language: /organizations (English) and
 // /<code>/organizations. A landing page of its own for people who have never
 // heard of the app (Nejc 2026-10-28): its own header (logo, "for
-// Organizations", language menu, one button, no site menu), what Captio AI is
-// in one sentence with the real app playing next to it, the three main
-// features with their videos, every caption language, Recognize voices /
-// Speaker direction / Recognize sounds as small drawings, why organizations
-// choose it, the pilot form, prices, data, FAQ. All words come from
-// src/i18n/organizations/<code>.json.
+// Organizations", language menu, one button, no site menu), then the hero:
+// what the app does, a picture of it doing it, and the pilot form right there
+// (Nejc 2026-11-02). Then the three main features with their videos, every
+// caption language, Recognize voices / Speaker direction / Recognize sounds as
+// small drawings, why organizations choose it, the pilot steps with the form
+// again, prices, data, FAQ, and a last banner with the form a third time.
+// The words present the app and what it does, never "your people will…"
+// (Nejc 2026-11-02). All words come from src/i18n/organizations/<code>.json.
 // Yearly per-person licenses, paid by invoice, for any organization that pays
 // for captioning on someone's behalf (Nejc 2026-10-27: never "students" or
 // "staff"). Prices and the pilot: app repo tools/organizations/PLAN.md. Never
 // name the speech provider here (business secret); /privacy lists them.
 // The pilot starts from the form (PilotForm.tsx): the link to forward is
 // emailed at once in this page's language, people join at /o/<code>.
-// Videos: the app's onboarding loops in public/organizations (PhoneVideo.tsx).
+// Hero picture: the real live captions screen (public/RS_mockup_1.png, made as
+// in the app repo's notes on website shots). Videos: the app's onboarding
+// loops in public/organizations (PhoneVideo.tsx).
 
 const DPA_MAILTO = "mailto:hello@captioai.app?subject=Captio%20AI%20data%20processing%20agreement";
 const ADDRESS = "hello@captioai.app";
@@ -121,23 +126,20 @@ export default function OrganizationsContent({ code, t, m }: { code: string; t: 
           languages={languageOptions(code, "organizations")}
         />
 
-        {/* ── Hero: what it is, and the real app working ── */}
-        <section className="px-5 pt-8 pb-12 sm:pt-14 sm:pb-16">
-          {/* Phones: headline, then the app playing, then the words (the text
-              column is "contents" there, so its children and the video share one
-              ordered column). Desktop: text left, video right. */}
-          <div className="max-w-6xl mx-auto flex flex-col items-center text-center gap-5 lg:grid lg:grid-cols-[minmax(0,7fr)_minmax(0,5fr)] lg:gap-12 lg:text-start">
+        {/* ── Hero: what the app does, a picture of it, and the form ── */}
+        <section className="px-5 pt-8 pb-12 sm:pt-12 sm:pb-16">
+          {/* Phones: headline, words, the picture, the form, then the facts (the
+              text column is "contents" there, so its children and the picture
+              share one ordered column). Desktop: text and form left, picture
+              right. */}
+          <div className="max-w-6xl mx-auto flex flex-col items-center text-center gap-5 lg:grid lg:grid-cols-[minmax(0,7fr)_minmax(0,5fr)] lg:items-center lg:gap-12 lg:text-start">
             <div className="contents lg:flex lg:flex-col lg:items-start lg:gap-5">
               <span className="order-1 text-[11px] font-bold text-brand uppercase tracking-widest">{t.hero.eyebrow}</span>
-              <h1 className="order-2 text-[2.3rem] leading-[1.12] sm:text-[3.3rem] font-bold text-gray-900 tracking-tight">
+              <h1 className="order-2 text-[2.2rem] leading-[1.12] sm:text-[3.1rem] font-bold text-gray-900 tracking-tight">
                 <Underlined text={t.hero.title} />
               </h1>
-              <p className="order-4 text-base sm:text-lg text-gray-600 max-w-xl leading-relaxed">{t.hero.description}</p>
-              <div className="order-5 flex w-full sm:w-auto">
-                <LinkButton href="#pilot">{t.header.startPilot}</LinkButton>
-              </div>
-              <p className="order-6 text-xs text-gray-500 -mt-1">{t.hero.pilotNote}</p>
-              <ul className="order-7 flex flex-wrap justify-center lg:justify-start gap-2">
+              <p className="order-3 text-base sm:text-lg text-gray-600 max-w-xl leading-relaxed">{t.hero.description}</p>
+              <ul className="order-6 lg:order-4 flex flex-wrap justify-center lg:justify-start gap-2">
                 {t.hero.facts.map((f) => (
                   <li key={f} className="flex items-center gap-1.5 rounded-[8px] bg-brand-light px-3 py-1.5 text-xs font-semibold text-brand">
                     <Check className="text-brand" />
@@ -145,9 +147,14 @@ export default function OrganizationsContent({ code, t, m }: { code: string; t: 
                   </li>
                 ))}
               </ul>
+              <div id="start" className="order-5 w-full max-w-xl scroll-mt-4 lg:mt-2">
+                <PilotForm t={t.form} title={t.header.startPilot} language={code} address={ADDRESS} placement="hero" />
+              </div>
             </div>
-            <div className="order-3 lg:order-none mx-auto w-full max-w-[210px] sm:max-w-[250px] lg:max-w-[270px] my-2 lg:my-0">
-              <PhoneVideo name="captions" label={t.hero.videoLabel} priority />
+            {/* Below desktop only the captions part of the phone shows, fading
+                out, so the form comes up sooner. */}
+            <div className="order-4 lg:order-none mx-auto w-full max-w-[230px] sm:max-w-[270px] lg:max-w-[310px] h-[310px] sm:h-[360px] overflow-hidden [mask-image:linear-gradient(to_bottom,black_72%,transparent)] lg:h-auto lg:overflow-visible lg:[mask-image:none]">
+              <Image src="/RS_mockup_1.png" alt={t.hero.imageAlt} width={499} height={1024} priority className="h-auto w-full select-none" />
             </div>
           </div>
         </section>
@@ -229,21 +236,25 @@ export default function OrganizationsContent({ code, t, m }: { code: string; t: 
           </div>
         </section>
 
-        {/* ── Pilot ── */}
+        {/* ── Pilot: how it works, and the form again ── */}
         <section id="pilot" className="py-12 px-6 bg-white scroll-mt-4">
-          <div className="max-w-5xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <SectionTitle eyebrow={t.pilot.eyebrow} title={t.pilot.title} />
-            <div className="grid sm:grid-cols-3 gap-5">
-              {t.pilot.steps.map((s, i) => (
-                <div key={s.title} className="bg-white rounded-xl border border-gray-200 p-6 flex flex-col gap-3">
-                  <span className="w-9 h-9 rounded-[8px] bg-brand-light text-brand font-bold flex items-center justify-center">{i + 1}</span>
-                  <h3 className="font-bold text-gray-900 leading-snug">{s.title}</h3>
-                  <p className="text-sm text-gray-500 leading-relaxed">{s.description}</p>
-                </div>
-              ))}
-            </div>
-            <div className="max-w-xl mx-auto mt-8">
-              <PilotForm t={t.form} language={code} address={ADDRESS} />
+            <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 lg:items-center">
+              <ol className="flex flex-col gap-4">
+                {t.pilot.steps.map((s, i) => (
+                  <li key={s.title} className="bg-white rounded-xl border border-gray-200 p-5 flex gap-4">
+                    <span className="w-9 h-9 shrink-0 rounded-[8px] bg-brand-light text-brand font-bold flex items-center justify-center">{i + 1}</span>
+                    <div>
+                      <h3 className="font-bold text-gray-900 leading-snug">{s.title}</h3>
+                      <p className="mt-1 text-sm text-gray-500 leading-relaxed">{s.description}</p>
+                    </div>
+                  </li>
+                ))}
+              </ol>
+              <div className="w-full max-w-xl mx-auto lg:max-w-none">
+                <PilotForm t={t.form} title={t.header.startPilot} language={code} address={ADDRESS} placement="middle" />
+              </div>
             </div>
           </div>
         </section>
@@ -312,14 +323,16 @@ export default function OrganizationsContent({ code, t, m }: { code: string; t: 
           </div>
         </section>
 
-        {/* ── CTA ── */}
+        {/* ── Last banner, with the form a third time ── */}
         <section className="pt-12 pb-20 px-6 bg-white">
-          <div className="max-w-4xl mx-auto bg-brand rounded-xl px-6 py-10 sm:px-12 sm:py-12 flex flex-col items-center text-center gap-4">
-            <span className="text-xs font-bold text-cta uppercase tracking-widest">{t.cta.eyebrow}</span>
-            <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight">{t.cta.title}</h2>
-            <p className="text-blue-100 max-w-lg">{fill(t.cta.body, { address: ADDRESS })}</p>
-            <div className="flex mt-2 w-full sm:w-auto">
-              <LinkButton href="#pilot">{t.header.startPilot}</LinkButton>
+          <div className="max-w-6xl mx-auto bg-brand rounded-xl px-5 py-10 sm:px-10 sm:py-12 grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+            <div className="flex flex-col items-center text-center gap-4 lg:items-start lg:text-start">
+              <span className="text-xs font-bold text-cta uppercase tracking-widest">{t.cta.eyebrow}</span>
+              <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight">{t.cta.title}</h2>
+              <p className="text-blue-100 max-w-lg">{fill(t.cta.body, { address: ADDRESS })}</p>
+            </div>
+            <div className="w-full max-w-xl mx-auto lg:max-w-none">
+              <PilotForm t={t.form} title={t.header.startPilot} language={code} address={ADDRESS} placement="end" />
             </div>
           </div>
         </section>
