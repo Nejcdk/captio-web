@@ -181,24 +181,28 @@ function planFor(at) {
     .filter((page) => byPage.has(page) && !blocked[page])
     .map((page) => byPage.get(page))
     .filter((id) => !state[id]);
-  return slots.slice(0, ids.length).map((time, i) => ({ id: ids[i], time: time.toISOString() }));
+  const items = slots.slice(0, ids.length).map((time, i) => ({ id: ids[i], time: time.toISOString() }));
+  return { items, open: slots.length };
 }
 
 function plan(...args) {
   const i = args.indexOf("--at");
   const at = i > -1 ? new Date(args[i + 1]) : new Date();
-  for (const p of planFor(at)) console.log(p.id);
+  for (const p of planFor(at).items) console.log(p.id);
 }
 
 async function next(...args) {
   const dry = args.includes("--dry");
   const i = args.indexOf("--at");
   if (i > -1 && !dry) throw new Error("--at only works with --dry");
-  const items = planFor(i > -1 ? new Date(args[i + 1]) : new Date());
+  const { items, open } = planFor(i > -1 ? new Date(args[i + 1]) : new Date());
   if (!items.length) {
-    console.log(readJson(PACE, {}).paused ? "Paused in pace.json: nothing scheduled." : "Nothing to schedule today.");
-    return;
+    if (readJson(PACE, {}).paused) return console.log("Paused in pace.json: nothing scheduled.");
+    if (!open) return console.log("No open slots today.");
+    // Slots to fill and nothing written: the writer routine has stopped.
+    throw new Error(`${open} slot(s) today but no written posts waiting: check the writer routine and content/social/LOG.md`);
   }
+  if (items.length < open) console.log(`Only ${items.length} written post(s) for ${open} slot(s) today.`);
   const { accounts, missing } = await targets();
   if (missing.length) throw new Error(`Not connected: ${missing.join(", ")}`);
   const already = await captionsInZernio();
