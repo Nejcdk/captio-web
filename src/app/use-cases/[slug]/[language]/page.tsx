@@ -12,7 +12,14 @@ import { useCases, getUseCaseBySlug, inlineUseCaseLabel, type UseCase } from "@/
 import { languages, getLanguageBySlug, type Language } from "@/lib/languages";
 import { getUseCaseLanguageVariant, type UseCaseLanguageVariant } from "@/lib/useCaseLanguageData";
 import LanguageMetrics from "@/components/LanguageMetrics";
-import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbSchema } from "@/lib/schema";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import ShortAnswer from "@/components/ShortAnswer";
+import MoreSituations from "@/components/MoreSituations";
+import RelatedReading from "@/components/RelatedReading";
+import { getPostsForUseCase } from "@/lib/blog";
+import { getComparePagesForUseCase } from "@/lib/compare";
+import { UPDATED, formatMonth } from "@/lib/updated";
+import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbSchema, webPageSchema } from "@/lib/schema";
 
 export async function generateStaticParams() {
   const params: { slug: string; language: string }[] = [];
@@ -114,17 +121,23 @@ export default async function UseCaseLanguagePage({ params }: Props) {
   ];
 
   const path = `/use-cases/${uc.slug}/${lang.languageSlug}`;
+  const description = pageDescription(uc, lang, variant);
+  // The first words on the page, and the ones an answer engine quotes: the
+  // variant's hand-written title, then what the page is about.
+  const inShort = `${variant?.heroTitle ? `${variant.heroTitle} ` : ""}Captio AI captions ${lang.language} ${inlineUseCaseLabel(uc)} on your iPhone or Android in real time, so you read what is said while it is still being said. ${lang.dialectNote}. Built for deaf and hard of hearing people.`;
+  const crumbs = [
+    { name: "Home", path: "/" },
+    { name: "Use cases", path: "/use-cases" },
+    { name: uc.label, path: `/use-cases/${uc.slug}` },
+    { name: lang.language, path },
+  ];
+  const posts = getPostsForUseCase(uc.slug, lang.languageSlug);
+  const compares = getComparePagesForUseCase(uc.slug);
   const schemaOrg = jsonLd(
-    softwareApplicationSchema({
-      url: `${SITE_URL}${path}`,
-      description: pageDescription(uc, lang, variant),
-    }),
+    webPageSchema({ url: `${SITE_URL}${path}`, name: `${lang.language} Live Captions for ${uc.label}`, description, dateModified: UPDATED.useCases }),
+    softwareApplicationSchema({ url: `${SITE_URL}${path}`, description }),
     faqPageSchema(allFaqs),
-    breadcrumbSchema([
-      { name: "Home", path: "/" },
-      { name: uc.label, path: `/use-cases/${uc.slug}` },
-      { name: lang.language, path },
-    ]),
+    breadcrumbSchema(crumbs),
   );
 
   return (
@@ -139,6 +152,7 @@ export default async function UseCaseLanguagePage({ params }: Props) {
         {/* ── Hero ── */}
         <section className="pt-6 pb-10 sm:pt-10 sm:pb-16 px-5 bg-white">
           <div className="max-w-3xl mx-auto flex flex-col items-center text-center gap-4 sm:gap-6">
+            <Breadcrumbs items={crumbs} />
             <span className="text-[11px] font-bold text-brand uppercase tracking-widest">
               🦻 Accessibility + 💻 Productivity App
             </span>
@@ -152,6 +166,7 @@ export default async function UseCaseLanguagePage({ params }: Props) {
             <p className="text-xl sm:text-2xl font-semibold text-gray-800 max-w-xl">
               For <span className="text-brand">deaf</span> and <span className="text-brand">hard of hearing</span> people.
             </p>
+            <ShortAnswer reviewed={formatMonth(UPDATED.useCases)}>{inShort}</ShortAnswer>
             <HeroDownload alt="Captio AI app showing live captions" />
           </div>
         </section>
@@ -427,6 +442,9 @@ export default async function UseCaseLanguagePage({ params }: Props) {
               <h2 className="text-3xl font-bold text-gray-900 tracking-tight mt-3">
                 Captio AI supports 60+ languages
               </h2>
+              <p className="mt-3">
+                <Link href="/languages" className="text-sm font-semibold text-brand hover:underline">All 60 languages, with the dialects and accents each one covers</Link>
+              </p>
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
               {languages.map((l) => (
@@ -446,6 +464,9 @@ export default async function UseCaseLanguagePage({ params }: Props) {
             </div>
           </div>
         </section>
+
+        <MoreSituations lang={lang} current={uc.slug} />
+        <RelatedReading posts={posts} compares={compares} subject={inlineUseCaseLabel(uc)} />
 
         {/* ── Inline CTA ── */}
         <div className="py-8 flex flex-col items-center gap-2 bg-white">

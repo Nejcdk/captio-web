@@ -173,6 +173,47 @@ export function blogPostingSchema(opts: {
   };
 }
 
+/** Build a WebPage node: the page itself, with when it was last reviewed. */
+export function webPageSchema(opts: {
+  url: string;
+  name: string;
+  description: string;
+  /** From src/lib/updated.ts, the same date the sitemap gives the page. */
+  dateModified: string;
+  datePublished?: string;
+  inLanguage?: string;
+}) {
+  return {
+    "@type": "WebPage",
+    "@id": `${opts.url}#webpage`,
+    url: opts.url,
+    name: opts.name,
+    description: opts.description,
+    dateModified: opts.dateModified,
+    lastReviewed: opts.dateModified,
+    ...(opts.datePublished ? { datePublished: opts.datePublished } : {}),
+    inLanguage: opts.inLanguage ?? "en",
+    isPartOf: { "@id": SITE_ID },
+    publisher: { "@id": ORG_ID },
+  };
+}
+
+/** Build an ItemList node: the pages a hub page lists. */
+export function itemListSchema(opts: { id: string; name: string; items: { name: string; url: string }[] }) {
+  return {
+    "@type": "ItemList",
+    "@id": opts.id,
+    name: opts.name,
+    numberOfItems: opts.items.length,
+    itemListElement: opts.items.map((item, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: item.name,
+      url: item.url,
+    })),
+  };
+}
+
 /** Wrap one or more nodes into a single @graph document for a <script> tag. */
 export function jsonLd(...nodes: object[]) {
   return {

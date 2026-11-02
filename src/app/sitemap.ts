@@ -5,26 +5,25 @@ import { languages } from "@/lib/languages";
 import { useCases } from "@/lib/useCases";
 import { AUTHORS, CATEGORIES, getAllPosts, getPostsByAuthor, getPostsByCategory, type AuthorKey, type CategorySlug } from "@/lib/blog";
 import { getAllComparePages, getCompareHub } from "@/lib/compare";
-import { FEATURE_SLUGS, pagePath } from "@/i18n";
+import { FEATURE_SLUGS, languageAlternates, pagePath, type TranslatedPage } from "@/i18n";
 import { LOCALE_CODES } from "@/i18n/locales";
+import { UPDATED } from "@/lib/updated";
 
 // Generated from the same data that generates the pages, so it stays in sync
 // automatically. Next serves this at /sitemap.xml.
 //
-// lastModified is a fixed date per page group, NOT the build time. Search
-// engines only trust <lastmod> when it changes with the content; stamping every
-// URL with the deploy date teaches them to ignore it. When you meaningfully edit
-// a group's content, bump its date here.
-const UPDATED = {
-  core: "2026-10-29", // homepage, feature pages
-  languages: "2026-10-13", // /[language]
-  useCases: "2026-10-13", // /use-cases/[slug] and /use-cases/[slug]/[language]
-  privacy: "2026-10-07",
-  terms: "2026-10-07",
-  organizations: "2026-10-29",
-  translations: "2026-10-29", // /<code> and /<code>/<feature>
-  moreFeatures: "2026-10-28", // /ai-actions, /export, /folders, /recognize-voices, /speaker-direction, /recognize-sounds, /connectors, /widgets
-};
+// lastModified is a fixed date per page group (src/lib/updated.ts), NOT the
+// build time: search engines only trust <lastmod> when it changes with the
+// content. The pages that exist in every language carry their hreflang links
+// here too, the same links as in their <head>.
+
+type SitemapAlternates = MetadataRoute.Sitemap[number]["alternates"];
+
+function alternates(page: TranslatedPage): SitemapAlternates {
+  const languages: Record<string, string> = {};
+  for (const [code, path] of Object.entries(languageAlternates(page))) languages[code] = `${SITE_URL}${path}`;
+  return { languages: languages as NonNullable<SitemapAlternates>["languages"] };
+}
 
 // The app pictures on a page (src/lib/app-images.json), as image-sitemap
 // entries, so image search finds Captio AI's own pictures.
@@ -35,14 +34,16 @@ function images(...pages: string[]): { images?: string[] } {
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [
-    { url: `${SITE_URL}/`, lastModified: UPDATED.core, ...images("home") },
-    ...FEATURE_SLUGS.map((slug) => ({ url: `${SITE_URL}/${slug}`, lastModified: UPDATED.core, ...images(slug) })),
+    { url: `${SITE_URL}/`, lastModified: UPDATED.core, alternates: alternates("home"), ...images("home") },
+    ...FEATURE_SLUGS.map((slug) => ({ url: `${SITE_URL}/${slug}`, lastModified: UPDATED.core, alternates: alternates(slug), ...images(slug) })),
     ...["ai-actions", "export", "folders", "recognize-voices", "speaker-direction", "recognize-sounds", "connectors", "widgets"].map((slug) => ({
       url: `${SITE_URL}/${slug}`,
       lastModified: UPDATED.moreFeatures,
       ...images(slug),
     })),
-    { url: `${SITE_URL}/organizations`, lastModified: UPDATED.organizations },
+    { url: `${SITE_URL}/use-cases`, lastModified: UPDATED.hubs },
+    { url: `${SITE_URL}/languages`, lastModified: UPDATED.hubs },
+    { url: `${SITE_URL}/organizations`, lastModified: UPDATED.organizations, alternates: alternates("organizations") },
     { url: `${SITE_URL}/privacy`, lastModified: UPDATED.privacy },
     { url: `${SITE_URL}/terms`, lastModified: UPDATED.terms },
   ];
@@ -50,10 +51,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // The home page and the four feature pages in 59 more languages — /de, /de/live-captions
   for (const code of LOCALE_CODES) {
     for (const page of ["home", ...FEATURE_SLUGS] as const) {
-      entries.push({ url: `${SITE_URL}${pagePath(code, page)}`, lastModified: UPDATED.translations, ...images(page) });
+      entries.push({ url: `${SITE_URL}${pagePath(code, page)}`, lastModified: UPDATED.translations, alternates: alternates(page), ...images(page) });
     }
     // and /de/organizations
-    entries.push({ url: `${SITE_URL}${pagePath(code, "organizations")}`, lastModified: UPDATED.organizations });
+    entries.push({ url: `${SITE_URL}${pagePath(code, "organizations")}`, lastModified: UPDATED.organizations, alternates: alternates("organizations") });
   }
 
   // 60 language pages — /[language]

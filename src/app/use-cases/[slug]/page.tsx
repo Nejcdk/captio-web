@@ -10,7 +10,13 @@ import FaqAccordion from "@/components/FaqAccordion";
 import HeroDownload from "@/components/HeroDownload";
 import { useCases, getUseCaseBySlug, inlineUseCaseLabel } from "@/lib/useCases";
 import { languages } from "@/lib/languages";
-import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbSchema } from "@/lib/schema";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import ShortAnswer from "@/components/ShortAnswer";
+import RelatedReading from "@/components/RelatedReading";
+import { getPostsForUseCase } from "@/lib/blog";
+import { getComparePagesForUseCase } from "@/lib/compare";
+import { UPDATED, formatMonth } from "@/lib/updated";
+import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbSchema, webPageSchema } from "@/lib/schema";
 
 export async function generateStaticParams() {
   return useCases.map((uc) => ({ slug: uc.slug }));
@@ -88,16 +94,26 @@ export default async function UseCasePage({
   const uc = getUseCaseBySlug(slug);
   if (!uc) notFound();
 
+  const crumbs = [
+    { name: "Home", path: "/" },
+    { name: "Use cases", path: "/use-cases" },
+    { name: uc.label, path: `/use-cases/${uc.slug}` },
+  ];
+  const posts = getPostsForUseCase(uc.slug);
+  const compares = getComparePagesForUseCase(uc.slug);
   const schemaOrg = jsonLd(
+    webPageSchema({
+      url: `${SITE_URL}/use-cases/${uc.slug}`,
+      name: `${uc.label} — Live Captions for Deaf and Hard of Hearing`,
+      description: uc.description,
+      dateModified: UPDATED.useCases,
+    }),
     softwareApplicationSchema({
       url: `${SITE_URL}/use-cases/${uc.slug}`,
       description: uc.description,
     }),
     faqPageSchema(uc.faqs),
-    breadcrumbSchema([
-      { name: "Home", path: "/" },
-      { name: uc.label, path: `/use-cases/${uc.slug}` },
-    ]),
+    breadcrumbSchema(crumbs),
   );
 
   return (
@@ -112,6 +128,7 @@ export default async function UseCasePage({
         {/* ── Hero ── */}
         <section className="pt-6 pb-10 sm:pt-10 sm:pb-16 px-5 bg-white">
           <div className="max-w-3xl mx-auto flex flex-col items-center text-center gap-4 sm:gap-6">
+            <Breadcrumbs items={crumbs} />
             <span className="text-[11px] font-bold text-brand uppercase tracking-widest mt-2 sm:mt-0">
               🦻 Accessibility + 💻 Productivity App
             </span>
@@ -125,6 +142,9 @@ export default async function UseCasePage({
             <p className="text-xl sm:text-2xl font-semibold text-gray-800 max-w-xl">
               For <span className="text-brand">deaf</span> and <span className="text-brand">hard of hearing</span> people.
             </p>
+            <ShortAnswer reviewed={formatMonth(UPDATED.useCases)}>
+              {uc.description} Available in {languages.length} languages, with a page for each one.
+            </ShortAnswer>
             <HeroDownload alt="Captio AI app showing live captions and translation" />
           </div>
         </section>
@@ -346,6 +366,9 @@ export default async function UseCasePage({
               <h2 className="text-3xl font-bold text-gray-900 tracking-tight mt-3">
                 Captio AI supports 60+ languages
               </h2>
+              <p className="mt-3">
+                <Link href="/languages" className="text-sm font-semibold text-brand hover:underline">All 60 languages, with the dialects and accents each one covers</Link>
+              </p>
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
               {languages.map((lang) => (
@@ -361,6 +384,8 @@ export default async function UseCasePage({
             </div>
           </div>
         </section>
+
+        <RelatedReading posts={posts} compares={compares} subject={inlineUseCaseLabel(uc)} />
 
         {/* ── Inline CTA ── */}
         <div className="py-8 flex flex-col items-center gap-2 bg-white">
