@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { appImage } from "@/lib/appImages";
 import Link from "next/link";
 import Header from "@/components/Header";
 import BackButton from "@/components/BackButton";
@@ -13,8 +14,8 @@ import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbS
 // and the download card. Pages added after the first four pass their content
 // in; the first four still carry the same markup inline.
 
-/** `img` is a phone mockup; a step without one shows its text only (until screenshots exist). */
-export type FeatureStep = { title: string; desc: string; img?: string; alt?: string };
+/** `img` is a phone mockup's file name in src/lib/app-images.json; a step without one shows its text only (until screenshots exist). */
+export type FeatureStep = { title: string; desc: string; img?: string };
 export type FeatureCard = { title: string; description: string };
 export type FeatureFaq = { q: string; a: string };
 
@@ -93,10 +94,9 @@ export default function FeaturePage(p: FeaturePageProps) {
                   <p className="text-xs sm:text-sm text-gray-500 leading-relaxed">{item.desc}</p>
                   {item.img && (
                     <Image
-                      src={item.img}
-                      alt={item.alt ?? ""}
-                      width={240}
-                      height={480}
+                      {...appImage(item.img)}
+                      alt={appImage(item.img).alt}
+                      unoptimized
                       className="w-full max-w-[160px] sm:max-w-[200px] h-auto drop-shadow-lg"
                     />
                   )}

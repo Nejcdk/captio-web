@@ -1,4 +1,8 @@
 User-agent: *
 Allow: /
+# Other apps' icons on the compare pages are for people reading them, not for
+# image search: indexed on captioai.app they get shown as Captio AI's picture.
+Disallow: /compare/icons/
+Disallow: /_next/image?url=%2Fcompare%2Ficons%2F
 
 Sitemap: https://captioai.app/sitemap.xml

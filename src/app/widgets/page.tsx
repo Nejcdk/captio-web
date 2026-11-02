@@ -67,20 +67,17 @@ export default function WidgetsPage() {
         {
           title: "Add it to your Home Screen",
           desc: "Hold an empty spot, tap Edit, then Add Widget, and search Captio AI.",
-          img: "/WG_mockup_1.png",
-          alt: "Captio AI widgets on an iPhone Home Screen: Start with recent recordings, Live captions and Translate, Upload file",
+          img: "WG_mockup_1.png",
         },
         {
           title: "Or to your Lock Screen",
           desc: "Hold your Lock Screen, tap Customize, then Add Widgets, and pick the Captio AI mic.",
-          img: "/WG_mockup_2.png",
-          alt: "The round Captio AI mic widget under the clock on an iPhone Lock Screen",
+          img: "WG_mockup_2.png",
         },
         {
           title: "Or swap the camera button",
           desc: "Put Live captions where the camera button was at the bottom of your Lock Screen.",
-          img: "/WG_mockup_3.png",
-          alt: "The Lock Screen camera button replaced with a Live captions mic button",
+          img: "WG_mockup_3.png",
         },
       ]}
       featuresHeading="Captions before the moment passes"

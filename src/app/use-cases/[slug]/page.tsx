@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import { appImage } from "@/lib/appImages";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { DownloadCard, StoreButtons } from "@/components/StoreButtons";
@@ -213,17 +214,15 @@ export default async function UseCasePage({
         {/* ── Mockup images ── */}
         <div className="px-6 py-4 bg-white flex justify-center gap-4">
           <Image
-            src="/lifestyle_mockup.png"
-            alt="Captio AI in everyday use"
-            width={1200}
-            height={600}
+            {...appImage("lifestyle_mockup.png")}
+            alt={appImage("lifestyle_mockup.png").alt}
+            unoptimized
             className={`h-auto rounded-2xl object-cover sm:w-[520px] ${uc.mobileImage === "work" ? "hidden sm:block" : "w-full"}`}
           />
           <Image
-            src="/work_mockup.png"
-            alt="Captio AI at work"
-            width={1200}
-            height={600}
+            {...appImage("work_mockup.png")}
+            alt={appImage("work_mockup.png").alt}
+            unoptimized
             className={`h-auto rounded-2xl object-cover sm:w-[520px] ${uc.mobileImage === "work" ? "w-full sm:w-[520px]" : "hidden sm:block"}`}
           />
         </div>

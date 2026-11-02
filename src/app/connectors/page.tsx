@@ -71,20 +71,17 @@ export default function ConnectorsPage() {
         {
           title: "Copy the address",
           desc: "In Captio AI, open Settings, then Connectors, and copy https://captioai.app/mcp, or send it to your computer.",
-          img: "/CN_mockup_1.png",
-          alt: "The Connectors screen in Captio AI with the address https://captioai.app/mcp",
+          img: "CN_mockup_1.png",
         },
         {
           title: "Add it to your chat app",
           desc: "Add a custom connector in Claude, ChatGPT, Gemini or Perplexity. Captio AI shows the steps for each.",
-          img: "/CN_mockup_2.png",
-          alt: "Step guide: name the connector Captio AI, enter https://captioai.app/mcp and click Add",
+          img: "CN_mockup_2.png",
         },
         {
           title: "Sign in and ask",
           desc: "Sign in with your Captio AI account, click Allow, then ask about any recording.",
-          img: "/CN_mockup_3.png",
-          alt: "Step guide: Claude asking to read your Captio AI recordings, with the Allow button",
+          img: "CN_mockup_3.png",
         },
       ]}
       featuresHeading="Your captions, one question away"

@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/schema";
+import { pageImages } from "@/lib/appImages";
 import { languages } from "@/lib/languages";
 import { useCases } from "@/lib/useCases";
 import { AUTHORS, CATEGORIES, getAllPosts, getPostsByAuthor, getPostsByCategory, type AuthorKey, type CategorySlug } from "@/lib/blog";
@@ -25,16 +26,21 @@ const UPDATED = {
   moreFeatures: "2026-10-28", // /ai-actions, /export, /folders, /recognize-voices, /speaker-direction, /recognize-sounds, /connectors, /widgets
 };
 
+// The app pictures on a page (src/lib/app-images.json), as image-sitemap
+// entries, so image search finds Captio AI's own pictures.
+function images(...pages: string[]): { images?: string[] } {
+  const list = pages.flatMap(pageImages).map((img) => `${SITE_URL}${img.src}`);
+  return list.length > 0 ? { images: list } : {};
+}
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [
-    { url: `${SITE_URL}/`, lastModified: UPDATED.core },
-    { url: `${SITE_URL}/live-captions`, lastModified: UPDATED.core },
-    { url: `${SITE_URL}/live-translator`, lastModified: UPDATED.core },
-    { url: `${SITE_URL}/audio-transcription`, lastModified: UPDATED.core },
-    { url: `${SITE_URL}/ai-summary`, lastModified: UPDATED.core },
+    { url: `${SITE_URL}/`, lastModified: UPDATED.core, ...images("home") },
+    ...FEATURE_SLUGS.map((slug) => ({ url: `${SITE_URL}/${slug}`, lastModified: UPDATED.core, ...images(slug) })),
     ...["ai-actions", "export", "folders", "recognize-voices", "speaker-direction", "recognize-sounds", "connectors", "widgets"].map((slug) => ({
       url: `${SITE_URL}/${slug}`,
       lastModified: UPDATED.moreFeatures,
+      ...images(slug),
     })),
     { url: `${SITE_URL}/organizations`, lastModified: UPDATED.organizations },
     { url: `${SITE_URL}/privacy`, lastModified: UPDATED.privacy },
@@ -44,7 +50,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // The home page and the four feature pages in 59 more languages — /de, /de/live-captions
   for (const code of LOCALE_CODES) {
     for (const page of ["home", ...FEATURE_SLUGS] as const) {
-      entries.push({ url: `${SITE_URL}${pagePath(code, page)}`, lastModified: UPDATED.translations });
+      entries.push({ url: `${SITE_URL}${pagePath(code, page)}`, lastModified: UPDATED.translations, ...images(page) });
     }
     // and /de/organizations
     entries.push({ url: `${SITE_URL}${pagePath(code, "organizations")}`, lastModified: UPDATED.organizations });
@@ -52,12 +58,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // 60 language pages — /[language]
   for (const lang of languages) {
-    entries.push({ url: `${SITE_URL}/${lang.languageSlug}`, lastModified: UPDATED.languages });
+    entries.push({ url: `${SITE_URL}/${lang.languageSlug}`, lastModified: UPDATED.languages, ...images("home") });
   }
 
   // 12 use-case pages — /use-cases/[slug]
   for (const uc of useCases) {
-    entries.push({ url: `${SITE_URL}/use-cases/${uc.slug}`, lastModified: UPDATED.useCases });
+    entries.push({ url: `${SITE_URL}/use-cases/${uc.slug}`, lastModified: UPDATED.useCases, ...images("home", "use-case") });
   }
 
   // 720 use-case × language pages — /use-cases/[slug]/[language]
@@ -66,6 +72,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       entries.push({
         url: `${SITE_URL}/use-cases/${uc.slug}/${lang.languageSlug}`,
         lastModified: UPDATED.useCases,
+        ...images("home", "use-case"),
       });
     }
   }
