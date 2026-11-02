@@ -6,25 +6,34 @@
   "header": {
     "forOrganizations": "para organizações",
     "startPilot": "Começar um piloto grátis",
-    "chooseLanguage": "Escolha um idioma"
+    "chooseLanguage": "Escolha um idioma",
+    "dataProtection": "Proteção de dados"
   },
   "hero": {
     "title": "App de [legendas ao vivo] para pessoas surdas e com perda auditiva"
   },
   "features": {
-    "eyebrow": "O que o Captio AI faz",
-    "title": "Legendas ao vivo, tradução e transcrição",
-    "subtitle": "Três ferramentas em um só app, no iPhone e no Android, em mais de 60 idiomas.",
     "items": [
-      { "label": "Legendas ao vivo", "title": "Cada palavra, no momento em que é dita", "description": "É só abrir o app, tocar no microfone e ler. Cada falante ganha sua própria etiqueta, então fica claro quem disse o quê." },
-      { "label": "Tradução ao vivo", "title": "Os dois idiomas lado a lado", "description": "Quando alguém fala outro idioma, o app mostra ao mesmo tempo o que foi dito e a tradução." },
-      { "label": "Transcrição", "title": "Gravações e arquivos em texto", "description": "É possível salvar qualquer conversa ou adicionar um arquivo de áudio ou vídeo e receber a transcrição completa com um resumo com IA." }
+      { "label": "Legendas ao vivo" },
+      { "label": "Tradução ao vivo" },
+      { "label": "Transcrição" }
     ]
   },
   "languages": {
     "eyebrow": "Mais de 60 idiomas",
-    "title": "Legendas no idioma que está sendo falado",
     "subtitle": "Legendas ao vivo, tradução e transcrição em todos eles, inclusive para quem troca de idioma no meio da frase."
+  },
+  "useCases": {
+    "eyebrow": "Casos de uso",
+    "title": "Legendas onde quer que as pessoas falem",
+    "items": [
+      { "label": "Reuniões", "description": "As pessoas falam rápido e umas por cima das outras. O Captio AI legenda cada falante enquanto fala, com uma identificação para cada um, e salva a reunião como transcrição." },
+      { "label": "Aulas e treinamentos", "description": "Sessões longas, cheias de termos novos. Cada palavra aparece ao vivo, e a sessão inteira pode ser salva com um resumo feito por IA." },
+      { "label": "Consultas", "description": "Consultas médicas, jurídicas ou de orientação em que cada detalhe importa. Cada palavra aparece na tela assim que é dita, para que nada seja mal compreendido." },
+      { "label": "Entrevistas", "description": "Entrevistas de emprego e conversas individuais. Cada pergunta aparece na tela no momento em que é feita." },
+      { "label": "Conversas em grupo", "description": "Workshops, almoços de equipe, intervalos. O Captio AI acompanha várias pessoas ao mesmo tempo e mostra quem disse o quê." },
+      { "label": "Conferências e eventos", "description": "Alguém falando na frente de um auditório grande. As legendas aparecem no celular, na plateia, sem precisar reservar um serviço de legendagem." }
+    ]
   },
   "awareness": {
     "eyebrow": "Feito para pessoas surdas e com perda auditiva",
@@ -56,6 +65,7 @@
     ]
   },
   "form": {
+    "intro": "Grátis por 30 dias, para até 5 pessoas. Depois, {price} por pessoa por ano, com fatura.",
     "organization": "Organização",
     "name": "Seu nome",
     "email": "Seu e-mail corporativo",
@@ -64,7 +74,7 @@
     "peopleOptions": ["De 1 a 5", "De 6 a 19", "De 20 a 50", "Mais de 50"],
     "submit": "Enviar o link do piloto",
     "sending": "Enviando…",
-    "note": "Grátis por 30 dias, para até 5 pessoas. Nada a pagar, nada a assinar.",
+    "note": "Nada a pagar, nada a assinar.",
     "sentTitle": "Confira sua caixa de entrada",
     "sentTo": "Seu link do piloto está a caminho de {email}, com uma mensagem que você pode encaminhar para as pessoas que vão usar o app.",
     "resentTo": "Enviamos seu link do piloto de novo para {email}, com uma mensagem que você pode encaminhar para as pessoas que vão usar o app.",

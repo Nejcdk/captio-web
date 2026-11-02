@@ -6,25 +6,34 @@
   "header": {
     "forOrganizations": "për organizatat",
     "startPilot": "Nisni një provë pilot falas",
-    "chooseLanguage": "Zgjidhni gjuhën"
+    "chooseLanguage": "Zgjidhni gjuhën",
+    "dataProtection": "Mbrojtja e të dhënave"
   },
   "hero": {
     "title": "Aplikacion me [titra live] për persona të shurdhër dhe me vështirësi në dëgjim"
   },
   "features": {
-    "eyebrow": "Çfarë bën Captio AI",
-    "title": "Titra live, përkthim dhe transkriptim",
-    "subtitle": "Tre mjete në një aplikacion, në iPhone dhe Android, në mbi 60 gjuhë.",
     "items": [
-      { "label": "Titra live", "title": "Çdo fjalë, sapo thuhet", "description": "Hapni aplikacionin, prekni mikrofonin dhe lexoni. Çdo folës merr etiketën e vet, kështu që është e qartë kush çfarë tha." },
-      { "label": "Përkthim live", "title": "Të dyja gjuhët krah për krah", "description": "Kur dikush flet në një gjuhë tjetër, aplikacioni shfaq njëkohësisht atë që tha dhe përkthimin." },
-      { "label": "Transkriptim", "title": "Regjistrime dhe skedarë në tekst", "description": "Ruani çdo bisedë ose shtoni një skedar audio a video dhe merrni transkriptin e plotë me një përmbledhje me AI." }
+      { "label": "Titra live" },
+      { "label": "Përkthim live" },
+      { "label": "Transkriptim" }
     ]
   },
   "languages": {
     "eyebrow": "Mbi 60 gjuhë",
-    "title": "Titra në gjuhën që flitet",
     "subtitle": "Titra live, përkthim dhe transkriptim në secilën prej tyre, edhe kur dikush ndërron gjuhë në mes të fjalisë."
+  },
+  "useCases": {
+    "eyebrow": "Raste përdorimi",
+    "title": "Titra kudo ku flitet",
+    "items": [
+      { "label": "Takime", "description": "Njerëzit flasin shpejt dhe njëri mbi tjetrin. Captio AI shfaq titra për çdo folës ndërsa flet, me një etiketë për secilin, dhe e ruan takimin si transkript." },
+      { "label": "Leksione dhe trajnime", "description": "Seanca të gjata, plot terma të rinj. Çdo fjalë shfaqet live, dhe e gjithë seanca mund të ruhet me një përmbledhje me AI." },
+      { "label": "Vizita dhe konsultime", "description": "Te mjeku, avokati apo këshilltari, ku çdo detaj ka rëndësi. Çdo fjalë shfaqet në ekran sapo thuhet, kështu që asgjë nuk keqkuptohet." },
+      { "label": "Intervista", "description": "Intervista pune dhe biseda ballë për ballë. Çdo pyetje shfaqet në ekran në çastin që bëhet." },
+      { "label": "Biseda në grup", "description": "Punëtori, dreka me ekipin, pushime. Captio AI ndjek disa persona njëherësh dhe tregon kush çfarë tha." },
+      { "label": "Konferenca dhe evente", "description": "Një folës përpara një salle të madhe. Titrat shfaqen në telefon, mes publikut, pa pasur nevojë të rezervoni një titrues." }
+    ]
   },
   "awareness": {
     "eyebrow": "E krijuar për persona të shurdhër dhe me vështirësi në dëgjim",
@@ -56,6 +65,7 @@
     ]
   },
   "form": {
+    "intro": "Falas për 30 ditë, deri në 5 persona. Pas kësaj, {price} për person në vit, me faturë.",
     "organization": "Organizata",
     "name": "Emri juaj",
     "email": "Emaili juaj i punës",
@@ -64,7 +74,7 @@
     "peopleOptions": ["1 deri në 5", "6 deri në 19", "20 deri në 50", "Mbi 50"],
     "submit": "Më dërgoni lidhjen e provës pilot",
     "sending": "Po dërgohet…",
-    "note": "Falas për 30 ditë, deri në 5 persona. Asgjë për të paguar, asgjë për të nënshkruar.",
+    "note": "Asgjë për të paguar, asgjë për të nënshkruar.",
     "sentTitle": "Kontrolloni emailin",
     "sentTo": "Lidhja e provës pilot po vjen te {email}, bashkë me një mesazh që mund t'ua përcillni njerëzve që do ta përdorin.",
     "resentTo": "E dërguam sërish lidhjen e provës pilot te {email}, bashkë me një mesazh që mund t'ua përcillni njerëzve që do ta përdorin.",

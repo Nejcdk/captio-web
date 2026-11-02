@@ -6,25 +6,34 @@
   "header": {
     "forOrganizations": "for organisasjoner",
     "startPilot": "Start en gratis pilot",
-    "chooseLanguage": "Velg språk"
+    "chooseLanguage": "Velg språk",
+    "dataProtection": "Personvern"
   },
   "hero": {
     "title": "App med [direkteteksting] for døve og hørselshemmede"
   },
   "features": {
-    "eyebrow": "Dette gjør Captio AI",
-    "title": "Direkteteksting, oversettelse og transkripsjon",
-    "subtitle": "Tre verktøy i én app, for iPhone og Android, på 60+ språk.",
     "items": [
-      { "label": "Direkteteksting", "title": "Hvert ord, idet det blir sagt", "description": "Åpne appen, trykk på mikrofonen og les med. Hver taler får sin egen merkelapp, så det er tydelig hvem som sa hva." },
-      { "label": "Direkteoversettelse", "title": "Begge språkene side om side", "description": "Når noen snakker et annet språk, viser appen det som blir sagt og oversettelsen samtidig." },
-      { "label": "Transkripsjon", "title": "Opptak og filer blir til tekst", "description": "Lagre hvilken som helst samtale, eller legg til en lyd- eller videofil, og få hele transkripsjonen med et AI-sammendrag." }
+      { "label": "Direkteteksting" },
+      { "label": "Direkteoversettelse" },
+      { "label": "Transkripsjon" }
     ]
   },
   "languages": {
     "eyebrow": "60+ språk",
-    "title": "Teksting på språket som snakkes",
     "subtitle": "Direkteteksting, oversettelse og transkripsjon på hvert eneste ett av dem, også når noen bytter språk midt i en setning."
+  },
+  "useCases": {
+    "eyebrow": "Bruksområder",
+    "title": "Teksting overalt der folk snakker",
+    "items": [
+      { "label": "Møter", "description": "Folk snakker fort og i munnen på hverandre. Captio AI tekster hver taler i sanntid, med en merkelapp for hver enkelt, og lagrer møtet som en transkripsjon." },
+      { "label": "Forelesninger og kurs", "description": "Lange økter fulle av nye begreper. Hvert ord vises direkte, og hele økten kan lagres med et AI-sammendrag." },
+      { "label": "Timeavtaler", "description": "Timer hos lege, advokat eller rådgiver der hver detalj teller. Hvert ord står på skjermen idet det blir sagt, så ingenting blir hørt feil." },
+      { "label": "Intervjuer", "description": "Jobbintervjuer og samtaler på tomannshånd. Hvert spørsmål står på skjermen i det øyeblikket det blir stilt." },
+      { "label": "Gruppesamtaler", "description": "Workshoper, teamlunsjer, pauser. Captio AI følger flere personer samtidig og viser hvem som sa hva." },
+      { "label": "Konferanser og arrangementer", "description": "En taler fremst i en stor sal. Tekstingen vises på telefonen, blant publikum, uten noen skrivetolk å bestille." }
+    ]
   },
   "awareness": {
     "eyebrow": "Laget for døve og hørselshemmede",
@@ -56,6 +65,7 @@
     ]
   },
   "form": {
+    "intro": "Gratis i 30 dager for opptil 5 personer. Deretter {price} per person per år, mot faktura.",
     "organization": "Organisasjon",
     "name": "Navnet ditt",
     "email": "E-postadressen din på jobb",
@@ -64,7 +74,7 @@
     "peopleOptions": ["1 til 5", "6 til 19", "20 til 50", "Flere enn 50"],
     "submit": "Send meg pilotlenken",
     "sending": "Sender…",
-    "note": "Gratis i 30 dager for opptil 5 personer. Ingenting å betale, ingenting å signere.",
+    "note": "Ingenting å betale, ingenting å signere.",
     "sentTitle": "Sjekk innboksen din",
     "sentTo": "Pilotlenken din er på vei til {email}, med en melding du kan videresende til dem som skal bruke den.",
     "resentTo": "Vi har sendt pilotlenken din til {email} på nytt, med en melding du kan videresende til dem som skal bruke den.",

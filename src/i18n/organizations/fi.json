@@ -6,25 +6,34 @@
   "header": {
     "forOrganizations": "organisaatioille",
     "startPilot": "Aloita maksuton pilotti",
-    "chooseLanguage": "Valitse kieli"
+    "chooseLanguage": "Valitse kieli",
+    "dataProtection": "Tietosuoja"
   },
   "hero": {
     "title": "[Livetekstityssovellus] kuuroille ja huonokuuloisille"
   },
   "features": {
-    "eyebrow": "Mitä Captio AI tekee",
-    "title": "Livetekstitys, käännös ja litterointi",
-    "subtitle": "Kolme työkalua yhdessä sovelluksessa, iPhonelle ja Androidille, yli 60 kielellä.",
     "items": [
-      { "label": "Livetekstitys", "title": "Jokainen sana heti, kun se sanotaan", "description": "Avaa sovellus, napauta mikrofonia ja lue mukana. Jokainen puhuja saa oman nimilapun, joten on selvää, kuka sanoi mitä." },
-      { "label": "Livekäännös", "title": "Molemmat kielet rinnakkain", "description": "Kun joku puhuu toista kieltä, sovellus näyttää samaan aikaan sekä sen, mitä sanottiin, että sen käännöksen." },
-      { "label": "Litterointi", "title": "Tallenteet ja tiedostot tekstiksi", "description": "Tallenna mikä tahansa keskustelu tai lisää ääni- tai videotiedosto, niin saat koko litteroinnin ja tekoälyn tekemän yhteenvedon." }
+      { "label": "Livetekstitys" },
+      { "label": "Livekäännös" },
+      { "label": "Litterointi" }
     ]
   },
   "languages": {
     "eyebrow": "Yli 60 kieltä",
-    "title": "Tekstitys sillä kielellä, jota puhutaan",
     "subtitle": "Livetekstitys, käännös ja litterointi jokaisella niistä, myös silloin, kun joku vaihtaa kieltä kesken lauseen."
+  },
+  "useCases": {
+    "eyebrow": "Käyttötilanteet",
+    "title": "Tekstitys kaikkialla, missä puhutaan",
+    "items": [
+      { "label": "Kokoukset", "description": "Ihmiset puhuvat nopeasti ja toistensa päälle. Captio AI tekstittää jokaisen puhujan puheen reaaliajassa, jokaisella oma tunnisteensa, ja tallentaa kokouksen litterointina." },
+      { "label": "Luennot ja koulutukset", "description": "Pitkiä tilaisuuksia täynnä uusia termejä. Jokainen sana näkyy livenä, ja koko tilaisuuden voi tallentaa tekoälyyhteenvedon kanssa." },
+      { "label": "Vastaanotot", "description": "Lääkärin, juristin tai neuvojan vastaanotolla jokainen yksityiskohta on tärkeä. Jokainen sana näkyy ruudulla heti, kun se sanotaan, joten mitään ei kuulla väärin." },
+      { "label": "Haastattelut", "description": "Työhaastattelut ja kahdenkeskiset keskustelut. Jokainen kysymys näkyy ruudulla heti, kun se esitetään." },
+      { "label": "Ryhmäkeskustelut", "description": "Työpajat, tiimilounaat, tauot. Captio AI seuraa useaa ihmistä yhtä aikaa ja näyttää, kuka sanoi mitä." },
+      { "label": "Konferenssit ja tapahtumat", "description": "Puhuja ison salin edessä. Tekstitys näkyy puhelimessa, yleisön joukossa, eikä kirjoitustulkkia tarvitse varata." }
+    ]
   },
   "awareness": {
     "eyebrow": "Tehty kuuroille ja huonokuuloisille",
@@ -56,6 +65,7 @@
     ]
   },
   "form": {
+    "intro": "Maksuton 30 päivän ajan, enintään 5 henkilölle. Sen jälkeen {price} henkilöä kohden vuodessa, laskulla.",
     "organization": "Organisaatio",
     "name": "Nimesi",
     "email": "Työsähköpostisi",
@@ -64,7 +74,7 @@
     "peopleOptions": ["1–5", "6–19", "20–50", "Yli 50"],
     "submit": "Lähetä minulle pilottilinkki",
     "sending": "Lähetetään…",
-    "note": "Maksuton 30 päivän ajan, enintään 5 henkilölle. Ei maksuja, ei allekirjoituksia.",
+    "note": "Ei maksuja, ei allekirjoituksia.",
     "sentTitle": "Katso sähköpostisi",
     "sentTo": "Pilottilinkkisi on matkalla osoitteeseen {email}, ja mukana on viesti, jonka voit välittää sovellusta käyttäville.",
     "resentTo": "Lähetimme pilottilinkkisi uudelleen osoitteeseen {email}, ja mukana on viesti, jonka voit välittää sovellusta käyttäville.",

@@ -6,25 +6,34 @@
   "header": {
     "forOrganizations": "Kurumlar için",
     "startPilot": "Ücretsiz denemeyi başlatın",
-    "chooseLanguage": "Dil seçin"
+    "chooseLanguage": "Dil seçin",
+    "dataProtection": "Veri koruma"
   },
   "hero": {
     "title": "Sağır ve ağır işiten kişiler için [canlı altyazı] uygulaması"
   },
   "features": {
-    "eyebrow": "Captio AI neler yapar",
-    "title": "Canlı altyazı, çeviri ve döküm",
-    "subtitle": "Tek uygulamada üç araç, iPhone ve Android'de, 60+ dilde.",
     "items": [
-      { "label": "Canlı altyazı", "title": "Her kelime, söylendiği anda", "description": "Uygulamayı açın, mikrofona dokunun ve okuyun. Her konuşmacının kendi etiketi olur, böylece kimin ne dediği açıktır." },
-      { "label": "Canlı çeviri", "title": "İki dil yan yana", "description": "Biri başka bir dilde konuştuğunda uygulama, söyleneni ve çevirisini aynı anda gösterir." },
-      { "label": "Döküm", "title": "Kayıtlar ve dosyalar metne", "description": "Herhangi bir konuşmayı kaydedin ya da bir ses veya video dosyası ekleyin; yapay zekâ özetiyle birlikte tam dökümünü alın." }
+      { "label": "Canlı altyazı" },
+      { "label": "Canlı çeviri" },
+      { "label": "Döküm" }
     ]
   },
   "languages": {
     "eyebrow": "60+ dil",
-    "title": "Konuşulan dilde altyazı",
     "subtitle": "Her birinde canlı altyazı, çeviri ve döküm; cümlenin ortasında dil değiştiren kişiler dahil."
+  },
+  "useCases": {
+    "eyebrow": "Kullanım alanları",
+    "title": "İnsanların konuştuğu her yerde altyazı",
+    "items": [
+      { "label": "Toplantılar", "description": "İnsanlar hızlı ve birbirinin sözünü keserek konuşur. Captio AI her konuşmacının söylediklerini o anda altyazı olarak gösterir, her birini ayrı bir etiketle belirtir ve toplantıyı döküm olarak kaydeder." },
+      { "label": "Dersler ve eğitimler", "description": "Yeni terimlerle dolu uzun oturumlar. Her kelime anında görünür ve oturumun tamamı yapay zekâ özetiyle birlikte kaydedilebilir." },
+      { "label": "Randevular", "description": "Her ayrıntının önemli olduğu tıbbi, hukuki veya danışmanlık randevuları. Her kelime söylendiği anda ekranda belirir, böylece hiçbir şey yanlış anlaşılmaz." },
+      { "label": "Mülakatlar", "description": "İş mülakatları ve birebir görüşmeler. Her soru sorulduğu anda ekranda belirir." },
+      { "label": "Grup sohbetleri", "description": "Atölyeler, ekip yemekleri, molalar. Captio AI aynı anda birkaç kişiyi takip eder ve kimin ne söylediğini gösterir." },
+      { "label": "Konferanslar ve etkinlikler", "description": "Kürsüden büyük bir salona hitap eden bir konuşmacı. Altyazılar telefonda, dinleyicilerin arasında belirir; altyazı uzmanı ayarlamaya gerek kalmaz." }
+    ]
   },
   "awareness": {
     "eyebrow": "Sağır ve ağır işiten kişiler için tasarlandı",
@@ -56,6 +65,7 @@
     ]
   },
   "form": {
+    "intro": "30 gün ücretsiz, en fazla 5 kişi. Sonrasında kişi başına yıllık {price}, faturayla.",
     "organization": "Kurum",
     "name": "Adınız",
     "email": "İş e-postanız",
@@ -64,7 +74,7 @@
     "peopleOptions": ["1 ile 5 arası", "6 ile 19 arası", "20 ile 50 arası", "50'den fazla"],
     "submit": "Deneme bağlantısını gönderin",
     "sending": "Gönderiliyor…",
-    "note": "30 gün ücretsiz, en fazla 5 kişi. Ödeme yok, imza yok.",
+    "note": "Ödeme yok, imza yok.",
     "sentTitle": "Gelen kutunuzu kontrol edin",
     "sentTo": "Deneme bağlantınız, kullanacak kişilere iletebileceğiniz bir mesajla birlikte {email} adresine gönderiliyor.",
     "resentTo": "Deneme bağlantınızı, kullanacak kişilere iletebileceğiniz bir mesajla birlikte {email} adresine yeniden gönderdik.",

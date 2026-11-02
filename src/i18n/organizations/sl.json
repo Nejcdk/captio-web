@@ -6,25 +6,34 @@
   "header": {
     "forOrganizations": "za organizacije",
     "startPilot": "Začnite brezplačni preizkus",
-    "chooseLanguage": "Izberite jezik"
+    "chooseLanguage": "Izberite jezik",
+    "dataProtection": "Varstvo podatkov"
   },
   "hero": {
     "title": "Aplikacija s [podnapisi v živo] za gluhe in naglušne"
   },
   "features": {
-    "eyebrow": "Kaj zna Captio AI",
-    "title": "Podnapisi v živo, prevod in prepis",
-    "subtitle": "Tri orodja v eni aplikaciji, na iPhonu in Androidu, v več kot 60 jezikih.",
     "items": [
-      { "label": "Podnapisi v živo", "title": "Vsaka beseda, takoj ko je izrečena", "description": "Odprite aplikacijo, tapnite mikrofon in berite. Vsak govorec dobi svojo oznako, zato je jasno, kdo je kaj rekel." },
-      { "label": "Prevod v živo", "title": "Oba jezika drug ob drugem", "description": "Ko nekdo govori v drugem jeziku, aplikacija hkrati pokaže povedano in prevod." },
-      { "label": "Prepis", "title": "Posnetki in datoteke v besedilo", "description": "Shranite kateri koli pogovor ali dodajte zvočno ali video datoteko in dobite celoten prepis s povzetkom z UI." }
+      { "label": "Podnapisi v živo" },
+      { "label": "Prevod v živo" },
+      { "label": "Prepis" }
     ]
   },
   "languages": {
     "eyebrow": "Več kot 60 jezikov",
-    "title": "Podnapisi v jeziku, ki se govori",
     "subtitle": "Podnapisi v živo, prevod in prepis v vsakem od njih, tudi ko kdo sredi stavka zamenja jezik."
+  },
+  "useCases": {
+    "eyebrow": "Primeri uporabe",
+    "title": "Podnapisi povsod, kjer ljudje govorijo",
+    "items": [
+      { "label": "Sestanki", "description": "Ljudje govorijo hitro in drug čez drugega. Captio AI sproti podnaslavlja vsakega govorca, z oznako za vsakega, in sestanek shrani kot prepis." },
+      { "label": "Predavanja in izobraževanja", "description": "Dolga srečanja, polna novih izrazov. Vsaka beseda se prikaže sproti, celotno srečanje pa lahko shranite skupaj s povzetkom AI." },
+      { "label": "Pregledi in posveti", "description": "Zdravniški, pravni ali svetovalni pregledi, kjer šteje vsaka podrobnost. Vsaka beseda je na zaslonu, ko je izrečena, zato nič ni preslišano." },
+      { "label": "Razgovori", "description": "Zaposlitveni razgovori in pogovori na štiri oči. Vsako vprašanje je na zaslonu v trenutku, ko je postavljeno." },
+      { "label": "Pogovori v skupini", "description": "Delavnice, skupna kosila, odmori. Captio AI hkrati sledi več osebam in pokaže, kdo je kaj rekel." },
+      { "label": "Konference in dogodki", "description": "Govorec na drugem koncu velike dvorane. Podnapisi se prikažejo na telefonu, med občinstvom, brez naročanja podnapisovalca." }
+    ]
   },
   "awareness": {
     "eyebrow": "Narejeno za gluhe in naglušne",
@@ -56,6 +65,7 @@
     ]
   },
   "form": {
+    "intro": "Brezplačno 30 dni, za največ 5 oseb. Nato {price} na osebo na leto, plačilo po računu.",
     "organization": "Organizacija",
     "name": "Vaše ime",
     "email": "Vaš službeni e-poštni naslov",
@@ -64,7 +74,7 @@
     "peopleOptions": ["Od 1 do 5", "Od 6 do 19", "Od 20 do 50", "Več kot 50"],
     "submit": "Pošljite mi povezavo za preizkus",
     "sending": "Pošiljanje …",
-    "note": "Brezplačno 30 dni, za največ 5 oseb. Nič ne plačate, nič ne podpišete.",
+    "note": "Nič ne plačate, nič ne podpišete.",
     "sentTitle": "Preverite e-pošto",
     "sentTo": "Povezava za preizkus je na poti na {email}, skupaj s sporočilom, ki ga lahko posredujete ljudem, ki bodo aplikacijo uporabljali.",
     "resentTo": "Povezavo za preizkus smo znova poslali na {email}, skupaj s sporočilom, ki ga lahko posredujete ljudem, ki bodo aplikacijo uporabljali.",

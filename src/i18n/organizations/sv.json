@@ -6,25 +6,34 @@
   "header": {
     "forOrganizations": "för organisationer",
     "startPilot": "Starta en gratis pilot",
-    "chooseLanguage": "Välj språk"
+    "chooseLanguage": "Välj språk",
+    "dataProtection": "Dataskydd"
   },
   "hero": {
     "title": "App med [liveundertexter] för döva och hörselskadade"
   },
   "features": {
-    "eyebrow": "Det här gör Captio AI",
-    "title": "Liveundertexter, översättning och transkription",
-    "subtitle": "Tre verktyg i en app, för iPhone och Android, på 60+ språk.",
     "items": [
-      { "label": "Liveundertexter", "title": "Varje ord, medan det sägs", "description": "Öppna appen, tryck på mikrofonen och läs med. Varje talare får en egen etikett, så det syns vem som sa vad." },
-      { "label": "Liveöversättning", "title": "Båda språken sida vid sida", "description": "När någon talar ett annat språk visar appen både det som sägs och översättningen samtidigt." },
-      { "label": "Transkription", "title": "Inspelningar och filer blir text", "description": "Spara vilket samtal som helst, eller lägg till en ljud- eller videofil, och få hela transkriptionen med en AI-sammanfattning." }
+      { "label": "Liveundertexter" },
+      { "label": "Liveöversättning" },
+      { "label": "Transkription" }
     ]
   },
   "languages": {
     "eyebrow": "60+ språk",
-    "title": "Undertexter på det språk som talas",
     "subtitle": "Liveundertexter, översättning och transkription på vart och ett av dem, även när någon byter språk mitt i en mening."
+  },
+  "useCases": {
+    "eyebrow": "Användningsområden",
+    "title": "Undertexter överallt där människor pratar",
+    "items": [
+      { "label": "Möten", "description": "Folk pratar snabbt och i munnen på varandra. Captio AI textar varje talare i realtid, med en etikett för var och en, och sparar mötet som en transkription." },
+      { "label": "Föreläsningar och utbildningar", "description": "Långa pass fulla av nya begrepp. Varje ord visas live, och hela passet kan sparas med en AI-sammanfattning." },
+      { "label": "Besök", "description": "Besök hos läkare, jurist eller rådgivare där varje detalj spelar roll. Varje ord syns på skärmen i samma stund som det sägs, så att inget uppfattas fel." },
+      { "label": "Intervjuer", "description": "Anställningsintervjuer och enskilda samtal. Varje fråga syns på skärmen i samma stund som den ställs." },
+      { "label": "Samtal i grupp", "description": "Workshoppar, teamluncher, raster. Captio AI följer flera personer samtidigt och visar vem som sa vad." },
+      { "label": "Konferenser och evenemang", "description": "En talare längst fram i en stor sal. Undertexterna visas i mobilen, i publiken, utan någon skrivtolk att boka." }
+    ]
   },
   "awareness": {
     "eyebrow": "Gjord för döva och hörselskadade",
@@ -56,6 +65,7 @@
     ]
   },
   "form": {
+    "intro": "Gratis i 30 dagar för upp till 5 personer. Därefter {price} per person och år, mot faktura.",
     "organization": "Organisation",
     "name": "Ditt namn",
     "email": "Din e-postadress på jobbet",
@@ -64,7 +74,7 @@
     "peopleOptions": ["1 till 5", "6 till 19", "20 till 50", "Fler än 50"],
     "submit": "Skicka pilotlänken till mig",
     "sending": "Skickar…",
-    "note": "Gratis i 30 dagar för upp till 5 personer. Inget att betala, inget att skriva under.",
+    "note": "Inget att betala, inget att skriva under.",
     "sentTitle": "Titta i din inkorg",
     "sentTo": "Din pilotlänk är på väg till {email}, med ett meddelande som du kan vidarebefordra till dem som ska använda den.",
     "resentTo": "Vi har skickat din pilotlänk till {email} igen, med ett meddelande som du kan vidarebefordra till dem som ska använda den.",

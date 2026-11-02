@@ -41,12 +41,14 @@ export type FormPlacement = "hero" | "middle" | "end";
 export function PilotForm({
   t,
   title,
+  price,
   language,
   address,
   placement,
 }: {
   t: OrgMessages["form"];
   title: string;
+  price: string;
   language: string;
   address: string;
   placement: FormPlacement;
@@ -143,7 +145,11 @@ export function PilotForm({
   const busy = state.step === "sending";
   return (
     <form onSubmit={submit} onFocus={onStart} className="@container rounded-xl border border-gray-200 bg-white p-5 sm:p-7 flex flex-col gap-4 text-start">
-      <h2 className="text-xl font-bold text-gray-900">{title}</h2>
+      <div>
+        <h2 className="text-xl font-bold text-gray-900">{title}</h2>
+        {/* What the pilot is and what comes after, so nobody signs up blind. */}
+        <p className="mt-1.5 text-sm text-gray-600 leading-relaxed">{fill(t.intro, { price })}</p>
+      </div>
       {/* Two columns only when the form itself is wide enough (the hero's is
           narrow), so long labels never push one input below the other. */}
       <div className="grid @md:grid-cols-2 gap-4 @md:items-start">

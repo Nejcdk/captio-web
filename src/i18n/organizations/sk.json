@@ -6,25 +6,34 @@
   "header": {
     "forOrganizations": "pre organizácie",
     "startPilot": "Spustiť pilot zadarmo",
-    "chooseLanguage": "Vyberte jazyk"
+    "chooseLanguage": "Vyberte jazyk",
+    "dataProtection": "Ochrana údajov"
   },
   "hero": {
     "title": "Aplikácia so [živými titulkami] pre nepočujúcich a nedoslýchavých"
   },
   "features": {
-    "eyebrow": "Čo Captio AI dokáže",
-    "title": "Živé titulky, preklad a prepis",
-    "subtitle": "Tri nástroje v jednej aplikácii, na iPhone aj Androide, v 60+ jazykoch.",
     "items": [
-      { "label": "Živé titulky", "title": "Každé slovo hneď, ako zaznie", "description": "Stačí otvoriť aplikáciu, ťuknúť na mikrofón a čítať. Každý hovoriaci má vlastný štítok, takže je jasné, kto čo povedal." },
-      { "label": "Živý preklad", "title": "Oba jazyky vedľa seba", "description": "Keď niekto hovorí iným jazykom, aplikácia ukáže zároveň to, čo povedal, aj preklad." },
-      { "label": "Prepis", "title": "Nahrávky a súbory prevedené na text", "description": "Uložte akýkoľvek rozhovor alebo pridajte zvukový či video súbor a získate celý prepis aj zhrnutie od AI." }
+      { "label": "Živé titulky" },
+      { "label": "Živý preklad" },
+      { "label": "Prepis" }
     ]
   },
   "languages": {
     "eyebrow": "60+ jazykov",
-    "title": "Titulky v jazyku, ktorým sa práve hovorí",
     "subtitle": "Živé titulky, preklad aj prepis v každom z nich, aj keď niekto prejde na iný jazyk uprostred vety."
+  },
+  "useCases": {
+    "eyebrow": "Využitie",
+    "title": "Titulky všade, kde sa hovorí",
+    "items": [
+      { "label": "Porady", "description": "Ľudia hovoria rýchlo a skáču si do reči. Captio AI titulkuje každého hovoriaceho v reálnom čase, každého s vlastným označením, a poradu uloží ako prepis." },
+      { "label": "Prednášky a školenia", "description": "Dlhé stretnutia plné nových pojmov. Každé slovo sa zobrazí naživo a celé stretnutie sa dá uložiť aj s AI zhrnutím." },
+      { "label": "Návštevy a konzultácie", "description": "U lekára, právnika alebo v poradni, kde záleží na každom detaile. Každé slovo je na obrazovke hneď, ako zaznie, takže sa nič neprepočuje." },
+      { "label": "Pohovory", "description": "Pracovné pohovory a rozhovory medzi štyrmi očami. Každá otázka je na obrazovke v momente, keď zaznie." },
+      { "label": "Skupinové rozhovory", "description": "Workshopy, spoločné obedy, prestávky. Captio AI sleduje niekoľko ľudí naraz a ukazuje, kto čo povedal." },
+      { "label": "Konferencie a podujatia", "description": "Rečník vpredu vo veľkej sále. Titulky sa zobrazia v telefóne, priamo v publiku, bez objednávania prepisovateľa." }
+    ]
   },
   "awareness": {
     "eyebrow": "Pre nepočujúcich a nedoslýchavých",
@@ -56,6 +65,7 @@
     ]
   },
   "form": {
+    "intro": "Zadarmo na 30 dní, až pre 5 ľudí. Potom {price} na osobu a rok, na faktúru.",
     "organization": "Organizácia",
     "name": "Vaše meno",
     "email": "Váš pracovný e-mail",
@@ -64,7 +74,7 @@
     "peopleOptions": ["1 až 5", "6 až 19", "20 až 50", "Viac ako 50"],
     "submit": "Pošlite mi odkaz na pilot",
     "sending": "Odosiela sa…",
-    "note": "Zadarmo na 30 dní, až pre 5 ľudí. Nič neplatíte, nič nepodpisujete.",
+    "note": "Nič neplatíte, nič nepodpisujete.",
     "sentTitle": "Pozrite sa do schránky",
     "sentTo": "Odkaz na pilot je na ceste na adresu {email}, aj so správou, ktorú môžete preposlať ľuďom, ktorí budú aplikáciu používať.",
     "resentTo": "Odkaz na pilot sme znova poslali na adresu {email}, aj so správou, ktorú môžete preposlať ľuďom, ktorí budú aplikáciu používať.",

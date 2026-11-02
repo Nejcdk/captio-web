@@ -6,8 +6,10 @@ import { useEffect, useRef, useState } from "react";
 import LanguageMenu, { LanguageButton } from "@/components/LanguageMenu";
 import type { LanguageOption } from "@/i18n";
 
-// /organizations' own header: the logo, "for Organizations", the language
-// menu and one button. No site menu: the page is a product of its own.
+// /organizations' own header: the logo, "for Organizations", links to the
+// page's prices, data protection and FAQ (desktop), the language menu and one
+// button. No site menu: the page is a product of its own. It stays on screen
+// while scrolling (Nejc 2026-11-02), so the form is always one tap away.
 export function OrgHeader({
   code,
   homeHref,
@@ -15,6 +17,7 @@ export function OrgHeader({
   startPilot,
   chooseLanguage,
   languages,
+  links,
 }: {
   code: string;
   homeHref: string;
@@ -22,6 +25,7 @@ export function OrgHeader({
   startPilot: string;
   chooseLanguage: string;
   languages: LanguageOption[];
+  links: { href: string; label: string }[];
 }) {
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
@@ -44,13 +48,20 @@ export function OrgHeader({
   }, [open]);
 
   return (
-    <div ref={ref} className="relative px-4 pt-4">
+    <div ref={ref} className="sticky top-0 z-40 bg-white px-4 pt-3 pb-2 sm:pt-4">
       <header className="max-w-6xl mx-auto bg-brand rounded-xl px-4 sm:px-5 h-14 sm:h-16 flex items-center justify-between gap-2 sm:gap-3">
         <Link href={homeHref} className="flex items-center gap-2 min-w-0">
           <Image src="/logo_image_profile.png" alt="" width={40} height={40} className="rounded-full w-9 h-9 sm:w-10 sm:h-10" priority />
           <Image src="/logo_text.png" alt="Captio AI" width={110} height={30} className="hidden min-[400px]:block w-[92px] sm:w-[110px] h-auto" priority />
           <span className="hidden md:inline text-sm font-semibold text-white/80 border-l border-white/30 pl-3 ml-1 whitespace-nowrap">{forOrganizations}</span>
         </Link>
+        <nav className="hidden lg:flex items-center gap-6 ms-auto me-2">
+          {links.map((l) => (
+            <a key={l.href} href={l.href} className="text-sm font-semibold text-white/85 hover:text-white whitespace-nowrap">
+              {l.label}
+            </a>
+          ))}
+        </nav>
         <div className="flex items-center gap-1 sm:gap-2 shrink-0">
           <LanguageButton code={code} label={chooseLanguage} open={open} onToggle={() => setOpen(!open)} />
           <a

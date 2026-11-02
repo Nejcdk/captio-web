@@ -6,25 +6,34 @@
   "header": {
     "forOrganizations": "para organizacións",
     "startPilot": "Comece unha proba gratuíta",
-    "chooseLanguage": "Escolla o idioma"
+    "chooseLanguage": "Escolla o idioma",
+    "dataProtection": "Protección de datos"
   },
   "hero": {
     "title": "Aplicación de [subtítulos en directo] para persoas xordas e con perda auditiva"
   },
   "features": {
-    "eyebrow": "Que fai Captio AI",
-    "title": "Subtítulos en directo, tradución e transcrición",
-    "subtitle": "Tres ferramentas nunha soa aplicación, en iPhone e Android, en 60+ idiomas.",
     "items": [
-      { "label": "Subtítulos en directo", "title": "Cada palabra, segundo se di", "description": "Abra a aplicación, toque o micrófono e lea. Cada falante ten a súa etiqueta, así que queda claro quen dixo que." },
-      { "label": "Tradución en directo", "title": "Os dous idiomas, un ao lado do outro", "description": "Cando alguén fala outro idioma, a aplicación mostra á vez o que dixo e a súa tradución." },
-      { "label": "Transcrición", "title": "Gravacións e ficheiros a texto", "description": "Garde calquera conversa ou engada un ficheiro de audio ou vídeo e obteña a transcrición completa cun resumo feito con IA." }
+      { "label": "Subtítulos en directo" },
+      { "label": "Tradución en directo" },
+      { "label": "Transcrición" }
     ]
   },
   "languages": {
     "eyebrow": "60+ idiomas",
-    "title": "Subtítulos no idioma que se fala",
     "subtitle": "Subtítulos en directo, tradución e transcrición en todos eles, mesmo cando alguén cambia de idioma a metade dunha frase."
+  },
+  "useCases": {
+    "eyebrow": "Casos de uso",
+    "title": "Subtítulos onde queira que a xente fale",
+    "items": [
+      { "label": "Reunións", "description": "A xente fala rápido e á vez. Captio AI subtitula a cada falante ao momento, cunha etiqueta para cada un, e garda a reunión como transcrición." },
+      { "label": "Clases e formación", "description": "Sesións longas cheas de termos novos. Cada palabra aparece en directo, e a sesión enteira pode gardarse cun resumo feito con IA." },
+      { "label": "Consultas", "description": "Consultas médicas, legais ou de asesoramento nas que conta cada detalle. Cada palabra está na pantalla en canto se di, para que nada se entenda mal." },
+      { "label": "Entrevistas", "description": "Entrevistas de traballo e conversas individuais. Cada pregunta aparece na pantalla no momento en que se fai." },
+      { "label": "Conversas en grupo", "description": "Obradoiros, xantares de equipo, descansos. Captio AI segue a varias persoas á vez e amosa quen dixo que." },
+      { "label": "Congresos e eventos", "description": "Unha persoa fala diante dunha sala grande. Os subtítulos aparecen no teléfono, entre o público, sen ter que reservar ninguén que faga subtítulos." }
+    ]
   },
   "awareness": {
     "eyebrow": "Feito para persoas xordas e con perda auditiva",
@@ -56,6 +65,7 @@
     ]
   },
   "form": {
+    "intro": "Gratuíta durante 30 días, ata 5 persoas. Despois, {price} por persoa e ano, con factura.",
     "organization": "Organización",
     "name": "O seu nome",
     "email": "O seu correo do traballo",
@@ -64,7 +74,7 @@
     "peopleOptions": ["De 1 a 5", "De 6 a 19", "De 20 a 50", "Máis de 50"],
     "submit": "Quero a ligazón da proba",
     "sending": "Enviando…",
-    "note": "Gratuíta durante 30 días, ata 5 persoas. Nada que pagar, nada que asinar.",
+    "note": "Nada que pagar, nada que asinar.",
     "sentTitle": "Revise o seu correo",
     "sentTo": "A ligazón da proba vai camiño de {email}, cunha mensaxe que pode reenviar ás persoas que a van usar.",
     "resentTo": "Volvemos enviar a ligazón da proba a {email}, cunha mensaxe que pode reenviar ás persoas que a van usar.",

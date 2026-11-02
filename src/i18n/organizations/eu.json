@@ -6,25 +6,34 @@
   "header": {
     "forOrganizations": "Erakundeentzat",
     "startPilot": "Hasi doako proba",
-    "chooseLanguage": "Aukeratu hizkuntza"
+    "chooseLanguage": "Aukeratu hizkuntza",
+    "dataProtection": "Datuen babesa"
   },
   "hero": {
     "title": "[Zuzeneko azpitituluen] aplikazioa pertsona gorrentzat eta entzumen-galera dutenentzat"
   },
   "features": {
-    "eyebrow": "Zer egiten du Captio AI aplikazioak",
-    "title": "Zuzeneko azpitituluak, itzulpena eta transkripzioa",
-    "subtitle": "Hiru tresna aplikazio bakarrean, iPhone eta Android telefonoetan, 60+ hizkuntzatan.",
     "items": [
-      { "label": "Zuzeneko azpitituluak", "title": "Hitz bakoitza, esan ahala", "description": "Ireki aplikazioa, sakatu mikrofonoa eta irakurri. Hizlari bakoitzak bere etiketa du, eta argi dago nork zer esan duen." },
-      { "label": "Zuzeneko itzulpena", "title": "Bi hizkuntzak elkarren ondoan", "description": "Norbaitek beste hizkuntza batean hitz egiten duenean, aplikazioak esandakoa eta haren itzulpena erakusten ditu aldi berean." },
-      { "label": "Transkripzioa", "title": "Grabazioak eta fitxategiak testura", "description": "Gorde edozein elkarrizketa, edo gehitu audio- edo bideo-fitxategi bat, eta lortu transkripzio osoa AA bidezko laburpen batekin." }
+      { "label": "Zuzeneko azpitituluak" },
+      { "label": "Zuzeneko itzulpena" },
+      { "label": "Transkripzioa" }
     ]
   },
   "languages": {
     "eyebrow": "60+ hizkuntza",
-    "title": "Azpitituluak hitz egiten den hizkuntzan",
     "subtitle": "Zuzeneko azpitituluak, itzulpena eta transkripzioa horietako bakoitzean, baita esaldi erdian hizkuntzaz aldatzen dutenean ere."
+  },
+  "useCases": {
+    "eyebrow": "Erabilera-kasuak",
+    "title": "Azpitituluak jendeak hitz egiten duen leku guztietan",
+    "items": [
+      { "label": "Bilerak", "description": "Jendeak azkar hitz egiten du, eta batzuk besteen gainetik. Captio AI aplikazioak hizlari bakoitzaren hitzak azpitituluetan erakusten ditu hitz egin ahala, bakoitza bere etiketarekin, eta bilera transkripzio gisa gordetzen du." },
+      { "label": "Eskolak eta ikastaroak", "description": "Saio luzeak, termino berriz beteak. Hitz bakoitza zuzenean agertzen da, eta saio osoa gorde daiteke AA bidezko laburpen batekin." },
+      { "label": "Hitzorduak", "description": "Mediku, abokatu edo aholkularien hitzorduak, xehetasun bakoitzak garrantzia duenean. Hitz bakoitza pantailan agertzen da esan bezain laster, eta ez da ezer gaizki ulertzen." },
+      { "label": "Elkarrizketak", "description": "Lan-elkarrizketak eta bi pertsonaren arteko solasaldiak. Galdera bakoitza pantailan agertzen da egin bezain laster." },
+      { "label": "Taldeko solasaldiak", "description": "Tailerrak, taldeko bazkariak, atsedenaldiak. Captio AI aplikazioak hainbat pertsona jarraitzen ditu aldi berean, eta nork zer esan duen erakusten du." },
+      { "label": "Biltzarrak eta ekitaldiak", "description": "Hizlari bat areto handi baten aurrealdean. Azpitituluak telefonoan agertzen dira, entzuleen artean, azpitituluak egiteko inor erreserbatu beharrik gabe." }
+    ]
   },
   "awareness": {
     "eyebrow": "Pertsona gorrentzat eta entzumen-galera dutenentzat egina",
@@ -56,6 +65,7 @@
     ]
   },
   "form": {
+    "intro": "30 egun doan, gehienez 5 pertsonarentzat. Ondoren, {price} pertsona eta urte bakoitzeko, fakturaz.",
     "organization": "Erakundea",
     "name": "Zure izena",
     "email": "Zure laneko helbide elektronikoa",
@@ -64,7 +74,7 @@
     "peopleOptions": ["1etik 5era", "6tik 19ra", "20tik 50era", "50 baino gehiago"],
     "submit": "Bidali probako esteka",
     "sending": "Bidaltzen…",
-    "note": "30 egun doan, gehienez 5 pertsonarentzat. Ez dago ezer ordaindu edo sinatu beharrik.",
+    "note": "Ez dago ezer ordaindu edo sinatu beharrik.",
     "sentTitle": "Begiratu sarrera-ontzia",
     "sentTo": "Zure probako esteka bidean da {email} helbidera, erabiliko duten pertsonei birbidal diezaiekezun mezu batekin.",
     "resentTo": "Zure probako esteka berriro bidali dugu {email} helbidera, erabiliko duten pertsonei birbidal diezaiekezun mezu batekin.",

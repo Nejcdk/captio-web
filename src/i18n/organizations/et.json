@@ -6,25 +6,34 @@
   "header": {
     "forOrganizations": "Organisatsioonidele",
     "startPilot": "Alustage tasuta katseperioodi",
-    "chooseLanguage": "Valige keel"
+    "chooseLanguage": "Valige keel",
+    "dataProtection": "Andmekaitse"
   },
   "hero": {
     "title": "[Otsesubtiitrite] rakendus kurtidele ja vaegkuuljatele"
   },
   "features": {
-    "eyebrow": "Mida Captio AI teeb",
-    "title": "Otsesubtiitrid, tõlge ja transkribeerimine",
-    "subtitle": "Kolm tööriista ühes rakenduses, iPhone'is ja Androidis, 60+ keeles.",
     "items": [
-      { "label": "Otsesubtiitrid", "title": "Iga sõna kohe, kui see öeldakse", "description": "Avage rakendus, puudutage mikrofoni ja lugege kaasa. Igal kõnelejal on oma silt, nii et on selge, kes mida ütles." },
-      { "label": "Otsetõlge", "title": "Mõlemad keeled kõrvuti", "description": "Kui keegi räägib teises keeles, näitab rakendus korraga nii öeldut kui ka selle tõlget." },
-      { "label": "Transkribeerimine", "title": "Salvestised ja failid tekstiks", "description": "Salvestage mis tahes vestlus või lisage heli- või videofail ja saate täieliku transkriptsiooni koos AI-kokkuvõttega." }
+      { "label": "Otsesubtiitrid" },
+      { "label": "Otsetõlge" },
+      { "label": "Transkribeerimine" }
     ]
   },
   "languages": {
     "eyebrow": "60+ keelt",
-    "title": "Subtiitrid selles keeles, mida räägitakse",
     "subtitle": "Otsesubtiitrid, tõlge ja transkribeerimine igas neist, ka siis, kui inimesed lause keskel keelt vahetavad."
+  },
+  "useCases": {
+    "eyebrow": "Kasutusjuhud",
+    "title": "Subtiitrid kõikjal, kus räägitakse",
+    "items": [
+      { "label": "Koosolekud", "description": "Inimesed räägivad kiiresti ja üksteisele vahele. Captio AI subtitreerib iga kõneleja juttu samal ajal, kui ta räägib, märgib igaühe eraldi ja salvestab koosoleku transkriptsioonina." },
+      { "label": "Loengud ja koolitused", "description": "Pikad sessioonid, täis uusi mõisteid. Iga sõna ilmub otse ekraanile ja kogu sessiooni saab salvestada koos AI-kokkuvõttega." },
+      { "label": "Vastuvõtud ja nõustamised", "description": "Arsti, juristi või nõustaja juures, kus loeb iga detail. Iga sõna on ekraanil kohe, kui see öeldakse, nii et midagi ei kuulda valesti." },
+      { "label": "Intervjuud", "description": "Tööintervjuud ja vestlused nelja silma all. Iga küsimus on ekraanil samal hetkel, kui see esitatakse." },
+      { "label": "Grupivestlused", "description": "Töötoad, ühised lõunad, pausid. Captio AI jälgib korraga mitut inimest ja näitab, kes mida ütles." },
+      { "label": "Konverentsid ja üritused", "description": "Esineja suure saali ees. Subtiitrid ilmuvad telefoni ekraanile, otse publiku seas, ja subtiitrite tegijat pole vaja broneerida." }
+    ]
   },
   "awareness": {
     "eyebrow": "Loodud kurtidele ja vaegkuuljatele",
@@ -56,6 +65,7 @@
     ]
   },
   "form": {
+    "intro": "30 päeva tasuta, kuni 5 inimesele. Seejärel {price} inimese kohta aastas, arve alusel.",
     "organization": "Organisatsioon",
     "name": "Teie nimi",
     "email": "Teie tööalane e-post",
@@ -64,7 +74,7 @@
     "peopleOptions": ["1 kuni 5", "6 kuni 19", "20 kuni 50", "Üle 50"],
     "submit": "Saatke mulle katselink",
     "sending": "Saatmine…",
-    "note": "30 päeva tasuta, kuni 5 inimesele. Midagi ei pea maksma ega allkirjastama.",
+    "note": "Midagi ei pea maksma ega allkirjastama.",
     "sentTitle": "Vaadake oma postkasti",
     "sentTo": "Teie katselink on teel aadressile {email} koos sõnumiga, mille saate edasi saata inimestele, kes seda kasutama hakkavad.",
     "resentTo": "Saatsime teie katselingi uuesti aadressile {email} koos sõnumiga, mille saate edasi saata inimestele, kes seda kasutama hakkavad.",

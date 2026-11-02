@@ -6,25 +6,34 @@
   "header": {
     "forOrganizations": "untuk Organisasi",
     "startPilot": "Mulai uji coba gratis",
-    "chooseLanguage": "Pilih bahasa"
+    "chooseLanguage": "Pilih bahasa",
+    "dataProtection": "Perlindungan data"
   },
   "hero": {
     "title": "Aplikasi [teks langsung] untuk orang Tuli dan kurang dengar"
   },
   "features": {
-    "eyebrow": "Apa yang dilakukan Captio AI",
-    "title": "Teks langsung, terjemahan, dan transkripsi",
-    "subtitle": "Tiga alat dalam satu aplikasi, di iPhone dan Android, dalam 60+ bahasa.",
     "items": [
-      { "label": "Teks langsung", "title": "Setiap kata, saat diucapkan", "description": "Buka aplikasi, ketuk mikrofon, lalu baca. Setiap pembicara mendapat labelnya sendiri, jadi jelas siapa mengatakan apa." },
-      { "label": "Terjemahan langsung", "title": "Dua bahasa berdampingan", "description": "Saat seseorang berbicara dalam bahasa lain, aplikasi menampilkan ucapannya dan terjemahannya sekaligus." },
-      { "label": "Transkripsi", "title": "Rekaman dan file jadi teks", "description": "Simpan percakapan apa pun, atau tambahkan file audio atau video, lalu dapatkan transkrip lengkap beserta ringkasan AI." }
+      { "label": "Teks langsung" },
+      { "label": "Terjemahan langsung" },
+      { "label": "Transkripsi" }
     ]
   },
   "languages": {
     "eyebrow": "60+ bahasa",
-    "title": "Teks dalam bahasa yang sedang digunakan",
     "subtitle": "Teks langsung, terjemahan, dan transkripsi di setiap bahasa, termasuk bagi orang yang berganti bahasa di tengah kalimat."
+  },
+  "useCases": {
+    "eyebrow": "Contoh penggunaan",
+    "title": "Teks di mana pun orang berbicara",
+    "items": [
+      { "label": "Rapat", "description": "Orang berbicara cepat dan saling menyela. Captio AI menampilkan teks untuk setiap pembicara saat mereka berbicara, dengan label untuk masing-masing, lalu menyimpan rapat sebagai transkrip." },
+      { "label": "Kuliah dan pelatihan", "description": "Sesi panjang yang penuh istilah baru. Setiap kata muncul secara langsung, dan seluruh sesi dapat disimpan beserta ringkasan AI." },
+      { "label": "Janji temu", "description": "Janji temu medis, hukum, atau konsultasi yang setiap detailnya penting. Setiap kata tampil di layar saat diucapkan, sehingga tidak ada yang salah dengar." },
+      { "label": "Wawancara", "description": "Wawancara kerja dan percakapan empat mata. Setiap pertanyaan tampil di layar begitu diajukan." },
+      { "label": "Percakapan kelompok", "description": "Lokakarya, makan siang tim, jam istirahat. Captio AI mengikuti beberapa orang sekaligus dan menunjukkan siapa mengatakan apa." },
+      { "label": "Konferensi dan acara", "description": "Seorang pembicara di depan ruangan besar. Teks muncul di ponsel, di tengah hadirin, tanpa perlu memesan juru teks." }
+    ]
   },
   "awareness": {
     "eyebrow": "Dibuat untuk orang Tuli dan kurang dengar",
@@ -56,6 +65,7 @@
     ]
   },
   "form": {
+    "intro": "Gratis 30 hari, hingga 5 orang. Setelah itu, {price} per orang per tahun, dengan invoice.",
     "organization": "Organisasi",
     "name": "Nama Anda",
     "email": "Email kantor Anda",
@@ -64,7 +74,7 @@
     "peopleOptions": ["1 sampai 5", "6 sampai 19", "20 sampai 50", "Lebih dari 50"],
     "submit": "Kirimkan tautan uji coba",
     "sending": "Mengirim…",
-    "note": "Gratis 30 hari, hingga 5 orang. Tanpa biaya, tanpa tanda tangan apa pun.",
+    "note": "Tanpa biaya, tanpa tanda tangan apa pun.",
     "sentTitle": "Periksa kotak masuk Anda",
     "sentTo": "Tautan uji coba sedang dikirim ke {email}, beserta pesan yang dapat Anda teruskan kepada orang-orang yang akan memakainya.",
     "resentTo": "Kami sudah mengirim ulang tautan uji coba ke {email}, beserta pesan yang dapat Anda teruskan kepada orang-orang yang akan memakainya.",

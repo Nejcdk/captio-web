@@ -6,25 +6,34 @@
   "header": {
     "forOrganizations": "za organizacije",
     "startPilot": "Pokrenite besplatni pilot",
-    "chooseLanguage": "Odaberite jezik"
+    "chooseLanguage": "Odaberite jezik",
+    "dataProtection": "Zaštita podataka"
   },
   "hero": {
     "title": "Aplikacija s [titlovima uživo] za gluhe i nagluhe osobe"
   },
   "features": {
-    "eyebrow": "Što radi Captio AI",
-    "title": "Titlovi uživo, prijevod i transkripcija",
-    "subtitle": "Tri alata u jednoj aplikaciji, na iPhoneu i Androidu, na više od 60 jezika.",
     "items": [
-      { "label": "Titlovi uživo", "title": "Svaka riječ, čim je izgovorena", "description": "Otvorite aplikaciju, dodirnite mikrofon i čitajte. Svaki govornik dobiva svoju oznaku, pa je jasno tko je što rekao." },
-      { "label": "Prijevod uživo", "title": "Oba jezika jedan uz drugi", "description": "Kad netko govori drugim jezikom, aplikacija istodobno prikazuje izgovoreno i prijevod." },
-      { "label": "Transkripcija", "title": "Snimke i datoteke u tekst", "description": "Spremite bilo koji razgovor ili dodajte audio ili video datoteku i dobijte cijeli transkript s AI sažetkom." }
+      { "label": "Titlovi uživo" },
+      { "label": "Prijevod uživo" },
+      { "label": "Transkripcija" }
     ]
   },
   "languages": {
     "eyebrow": "Više od 60 jezika",
-    "title": "Titlovi na jeziku koji se govori",
     "subtitle": "Titlovi uživo, prijevod i transkripcija na svakom od njih, i kad netko promijeni jezik usred rečenice."
+  },
+  "useCases": {
+    "eyebrow": "Primjeri uporabe",
+    "title": "Titlovi svugdje gdje se govori",
+    "items": [
+      { "label": "Sastanci", "description": "Ljudi govore brzo i upadaju jedni drugima u riječ. Captio AI prikazuje titlove za svakog govornika dok govori, s posebnom oznakom za svakoga, i sastanak sprema kao transkript." },
+      { "label": "Predavanja i edukacije", "description": "Duge sesije pune novih pojmova. Svaka se riječ pojavljuje uživo, a cijela se sesija može spremiti s AI sažetkom." },
+      { "label": "Pregledi i savjetovanja", "description": "Kod liječnika, odvjetnika ili savjetnika, gdje je važan svaki detalj. Svaka je riječ na zaslonu čim se izgovori, pa se ništa ne razumije pogrešno." },
+      { "label": "Intervjui", "description": "Razgovori za posao i susreti u četiri oka. Svako je pitanje na zaslonu u trenutku kad je postavljeno." },
+      { "label": "Razgovori u skupini", "description": "Radionice, zajednički ručkovi, pauze. Captio AI prati više osoba odjednom i pokazuje tko je što rekao." },
+      { "label": "Konferencije i događanja", "description": "Govornik ispred velike dvorane. Titlovi se pojavljuju na mobitelu, u publici, bez potrebe da se rezervira titlovanje." }
+    ]
   },
   "awareness": {
     "eyebrow": "Napravljeno za gluhe i nagluhe osobe",
@@ -56,6 +65,7 @@
     ]
   },
   "form": {
+    "intro": "Besplatno 30 dana, za najviše 5 osoba. Nakon toga {price} po osobi godišnje, plaćanje po računu.",
     "organization": "Organizacija",
     "name": "Vaše ime",
     "email": "Vaša poslovna adresa e-pošte",
@@ -64,7 +74,7 @@
     "peopleOptions": ["Od 1 do 5", "Od 6 do 19", "Od 20 do 50", "Više od 50"],
     "submit": "Pošaljite mi poveznicu za pilot",
     "sending": "Šaljemo…",
-    "note": "Besplatno 30 dana, za najviše 5 osoba. Ništa ne plaćate, ništa ne potpisujete.",
+    "note": "Ništa ne plaćate, ništa ne potpisujete.",
     "sentTitle": "Provjerite sandučić",
     "sentTo": "Poveznica za pilot stiže na {email}, s porukom koju možete proslijediti osobama koje će je koristiti.",
     "resentTo": "Ponovno smo poslali poveznicu za pilot na {email}, s porukom koju možete proslijediti osobama koje će je koristiti.",
