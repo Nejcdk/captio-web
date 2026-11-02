@@ -1,0 +1,547 @@
+{
+  "slug": "augio",
+  "name": "Augio: Live undertekster",
+  "shortName": "Augio",
+  "developer": "Augio ApS",
+  "developerCountry": "Denmark (Glamsbjerg)",
+  "website": "https://augio.dk",
+  "appStoreUrl": "https://apps.apple.com/dk/app/augio-live-undertekster/id6801764864",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.augio.app&hl=da&gl=DK",
+  "category": "in-person-captions",
+  "oneLine": "A Danish caption subscription from Glamsbjerg, built for Danish speech: captions on a Windows computer next to Teams or Zoom, on Android and iPhone, and on smart glasses, with one account and a 14-day free trial.",
+  "facts": {
+    "platforms": {
+      "status": "yes",
+      "text": "Windows, Android, iPhone, smart glasses",
+      "detail": "One account works on a Windows computer, an Android phone and an iPhone, and Augio can show its text on compatible smart glasses (the models are not named). The App Store lists it for iPhone only, not iPad.",
+      "sources": [
+        "a6",
+        "a8",
+        "a5",
+        "a1"
+      ]
+    },
+    "deviceRequirements": {
+      "status": "yes",
+      "text": "iOS 16.4 or later",
+      "detail": "The iPhone app needs iOS 16.4 or later, and Google Play lists Android 7.0 and up. Which smart glasses work is not stated.",
+      "sources": [
+        "a1",
+        "a2",
+        "a3"
+      ]
+    },
+    "roomCaptions": {
+      "status": "yes",
+      "text": "Yes, phone on the table",
+      "detail": "Put the phone on the table at dinner, in a meeting or in a conversation, and what is said appears as text in real time.",
+      "sources": [
+        "a1",
+        "a5"
+      ]
+    },
+    "groupConversations": {
+      "status": "partial",
+      "text": "Works best with 2 to 3 people",
+      "detail": "Augio says it works well for conversations between two and three people in an ordinary room, and that five people talking over each other is not something it is good at yet.",
+      "sources": [
+        "a5",
+        "a3"
+      ]
+    },
+    "languages": {
+      "status": "yes",
+      "text": "Danish",
+      "detail": "Built for Danish speech from the start, with dialects, numbers and everyday language. Its pages mention no other caption language.",
+      "sources": [
+        "a1",
+        "a5",
+        "a3"
+      ]
+    },
+    "offline": {
+      "status": "no",
+      "text": "No, needs internet",
+      "detail": "Speech recognition runs on servers, so the service needs an internet connection. Augio lists use without internet among the things it is not good at yet.",
+      "sources": [
+        "a8",
+        "a5"
+      ]
+    },
+    "speakerLabels": {
+      "status": "no",
+      "text": "Not yet",
+      "detail": "Augio's Google Play listing says it can't yet tell who is speaking.",
+      "sources": [
+        "a3"
+      ]
+    },
+    "voiceNames": {
+      "status": "no",
+      "text": "No",
+      "detail": "Augio can't yet tell speakers apart, so it doesn't name people by their voice.",
+      "sources": [
+        "a3"
+      ]
+    },
+    "speakerDirection": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "sources": []
+    },
+    "translation": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Augio's pages describe Danish captions and don't mention translation.",
+      "sources": [
+        "a1",
+        "a5"
+      ]
+    },
+    "saveTranscripts": {
+      "status": "yes",
+      "text": "Yes, encrypted, on your device only",
+      "detail": "Transcripts are stored encrypted on your own device only. The terms say transcripts are only kept if you turn that on, and you can turn it off again.",
+      "sources": [
+        "a1",
+        "a8",
+        "a9"
+      ]
+    },
+    "export": {
+      "status": "partial",
+      "text": "Data export when you stop; how not stated",
+      "detail": "The terms say you can export your data when your subscription ends. How, and in which format, is not stated.",
+      "sources": [
+        "a8"
+      ]
+    },
+    "fileUpload": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Augio's pages describe live captions, not transcribing audio or video files.",
+      "sources": [
+        "a5",
+        "a1"
+      ]
+    },
+    "summaries": {
+      "status": "yes",
+      "text": "Short summary after a conversation",
+      "detail": "The Google Play listing says you can get a short summary of the conversation afterwards, included in the one subscription. Where the summary is made is not stated.",
+      "sources": [
+        "a3",
+        "a6"
+      ]
+    },
+    "customWords": {
+      "status": "yes",
+      "text": "Yes, your own words (dictionary)",
+      "detail": "Add your own words, such as the names of family, colleagues and places, and specialist terms, so they are spelled right.",
+      "sources": [
+        "a1",
+        "a9"
+      ]
+    },
+    "display": {
+      "status": "yes",
+      "text": "Large text; pause and scroll back",
+      "detail": "Make the text large enough to read at a glance, and pause it to scroll back if you missed something.",
+      "sources": [
+        "a3"
+      ]
+    },
+    "soundAlerts": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Augio's pages don't describe alerts for sounds like a doorbell or an alarm.",
+      "sources": [
+        "a5",
+        "a1"
+      ]
+    },
+    "phoneCalls": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Augio's pages describe conversations in the room and online meetings on a computer, not phone calls.",
+      "sources": [
+        "a5"
+      ]
+    },
+    "videoCalls": {
+      "status": "yes",
+      "text": "On Windows, next to Teams or Zoom",
+      "detail": "On a Windows computer the captions run in a window next to Teams or Zoom, so you don't depend on someone turning on the meeting's own captions.",
+      "sources": [
+        "a5",
+        "a3",
+        "a10"
+      ]
+    },
+    "mediaOnDevice": {
+      "status": "partial",
+      "text": "On the computer: online meetings and video",
+      "detail": "On the computer, Augio captions online meetings, teaching and anything else that happens on a screen. Captioning audio playing on the phone is not described.",
+      "sources": [
+        "a5",
+        "a1"
+      ]
+    },
+    "humanCaptioners": {
+      "status": "no",
+      "text": "No; not a replacement for a writing interpreter",
+      "detail": "Captions are automatic. Augio says it is a supplement and doesn't replace a hearing aid, a cochlear implant or a writing interpreter (skrivetolk). In Denmark, writing and sign-language interpretation are public services you apply for (borger.dk).",
+      "sources": [
+        "a5",
+        "a8",
+        "a11"
+      ]
+    },
+    "signLanguage": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Augio's pages don't describe sign language features.",
+      "sources": [
+        "a5"
+      ]
+    },
+    "privacy": {
+      "status": "yes",
+      "text": "Cloud; audio not stored",
+      "detail": "Audio is sent encrypted to speech recognition on servers and is not stored. Transcripts stay encrypted on your device. If you agree, words you send to improve its speech recognition are kept under a code that can't be traced back to you. Google Play's data safety section lists email, user ID and purchase history, with no data shared with third parties.",
+      "sources": [
+        "a1",
+        "a8",
+        "a9",
+        "a4"
+      ]
+    },
+    "account": {
+      "status": "yes",
+      "text": "Yes, email and a one-time code",
+      "detail": "You sign in with your email address and a one-time code, with no password. The same account works on all your own devices.",
+      "sources": [
+        "a7",
+        "a5",
+        "a10"
+      ]
+    },
+    "availability": {
+      "status": "yes",
+      "text": "Denmark: Danish App Store, Google Play",
+      "detail": "Found on the Danish App Store only, not in the US, UK, German, Swedish, Norwegian, Finnish, Dutch or Icelandic stores (November 2026). Prices are in Danish kroner with Danish VAT.",
+      "sources": [
+        "a2",
+        "a1",
+        "a3",
+        "a6"
+      ]
+    },
+    "freePlan": {
+      "status": "no",
+      "text": "No; 14-day free trial",
+      "detail": "A 14-day free trial, once per customer. On augio.dk you register a payment card when you start, and nothing is charged during the trial. After that a subscription is needed.",
+      "sources": [
+        "a6",
+        "a1"
+      ]
+    },
+    "price": {
+      "status": "yes",
+      "text": "DKK 149/month or DKK 1,500/year",
+      "detail": "Danish App Store In-App Purchases, November 2026, and the same on augio.dk (card or MobilePay), VAT included. Launch price for subscriptions started before 1 January 2027: DKK 99/month or DKK 999/year, kept as long as the subscription runs.",
+      "sources": [
+        "a1",
+        "a6",
+        "a8"
+      ]
+    },
+    "accessibilityFunding": {
+      "status": "partial",
+      "text": "Licences for municipalities and job centres",
+      "detail": "Augio sells municipalities, job centres and other public bodies a 12-month licence for a named person (DKK 1,200 excl. VAT, by invoice) and offers a named citizen a time-limited trial before a grant. Its pages don't say who qualifies.",
+      "sources": [
+        "a8",
+        "a7",
+        "a10"
+      ]
+    }
+  },
+  "strengths": [
+    {
+      "text": "Built for Danish speech from the start, with dialects, numbers and everyday language, plus your own words such as family names, places and specialist terms.",
+      "sources": [
+        "a1",
+        "a5"
+      ]
+    },
+    {
+      "text": "One account covers a Windows computer, where captions run next to Teams or Zoom, an Android phone, an iPhone and compatible smart glasses.",
+      "sources": [
+        "a5",
+        "a6",
+        "a8"
+      ]
+    },
+    {
+      "text": "Municipalities, job centres and other public bodies can buy a 12-month licence for a named person, with a trial for the citizen before a grant.",
+      "sources": [
+        "a8",
+        "a10"
+      ]
+    },
+    {
+      "text": "Transcripts are stored encrypted on your own device only, and the audio sent for speech recognition is not stored.",
+      "sources": [
+        "a1"
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "text": "Its pages describe Danish captions only, with no other language or translation.",
+      "sources": [
+        "a1",
+        "a5"
+      ]
+    },
+    {
+      "text": "Needs an internet connection: speech recognition runs on servers.",
+      "sources": [
+        "a8",
+        "a5"
+      ]
+    },
+    {
+      "text": "It can't yet tell who is speaking, and five people talking over each other is a weak spot by its own account.",
+      "sources": [
+        "a3",
+        "a5"
+      ]
+    },
+    {
+      "text": "No free plan: a 14-day trial, then DKK 149 a month or DKK 1,500 a year (DKK 99 or DKK 999 at the launch price before 1 January 2027).",
+      "sources": [
+        "a6",
+        "a1"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "a1",
+      "title": "Augio: Live undertekster (App Store, Denmark)",
+      "publisher": "Apple App Store",
+      "url": "https://apps.apple.com/dk/app/augio-live-undertekster/id6801764864",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "App Store listing (Denmark)",
+      "quotes": [
+        "Augio viser det, der bliver sagt, som tekst på skærmen i realtid.",
+        "Lavet til danske samtaler og til dig, der gerne vil kunne følge med, også når lyden er svær at høre.",
+        "Middagsbordet, mødet eller samtalen: læg telefonen på bordet, og følg med på skærmen",
+        "På computeren til onlinemøder og video",
+        "På smartbriller, så teksten står foran dig, mens du ser på den, der taler",
+        "Augio er lavet til dansk tale, med dialekter, tal og hverdagssprog.",
+        "Du kan tilføje dine egne ord, fx navne på familie, kolleger, steder og fagudtryk, så de bliver stavet rigtigt.",
+        "Dine transskriptioner gemmes krypteret kun på din egen enhed.",
+        "Lyden sendes krypteret til talegenkendelse og gemmes ikke.",
+        "Prøv gratis i 14 dage. Derefter 149 kr. om måneden eller 1.500 kr. om året.",
+        "Augio er udviklet i Danmark af Augio ApS.",
+        "Only for iPhone",
+        "Requires iOS 16.4 or later.",
+        "Augio Pro (lanceringspris)",
+        "Augio årlig",
+        "1.500,00 kr",
+        "Augio månedlig",
+        "149,00 kr"
+      ]
+    },
+    {
+      "id": "a2",
+      "title": "Augio: Live undertekster (App Store lookup data, Denmark)",
+      "publisher": "Apple",
+      "url": "https://itunes.apple.com/lookup?id=6801764864&country=dk",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "App Store data (Denmark)",
+      "quotes": [
+        "\"minimumOsVersion\":\"16.4\"",
+        "\"sellerName\":\"Augio ApS\"",
+        "\"releaseDate\":\"2026-10-23T07:00:00Z\"",
+        "\"currency\":\"DKK\""
+      ]
+    },
+    {
+      "id": "a3",
+      "title": "Augio (Google Play, Denmark)",
+      "publisher": "Google Play",
+      "url": "https://play.google.com/store/apps/details?id=com.augio.app&hl=da&gl=DK",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Google Play listing",
+      "quotes": [
+        "Augio viser live undertekster på dansk, mens folk taler.",
+        "Så kan du følge med i Teams-mødet, i frokostpausen og ved middagsbordet, også når flere taler på én gang.",
+        "Augio er lavet i Danmark til dansk samtale, ikke oplæst tekst, og er udviklet sammen med en testgruppe af brugere med høretab.",
+        "Computeren til Teams- og videomøder",
+        "Sæt teksten på pause og scroll tilbage, hvis du missede noget",
+        "Få et kort resumé af samtalen bagefter",
+        "Gør teksten så stor, at du kan læse den med et hurtigt blik",
+        "Udskrifter af dine samtaler gemmes kun på din egen enhed og er krypteret. Vi gemmer ikke, hvad der bliver sagt.",
+        "Den har sværest ved meget støj, lav stemmeføring og mange, der taler i munden på hinanden, og den kan endnu ikke skelne mellem, hvem der taler.",
+        "Introduktionspris: 99 kr. om måneden indtil 31. december, og prisen beholder du, så længe du er med. De første 14 dage er gratis."
+      ]
+    },
+    {
+      "id": "a4",
+      "title": "Augio: Data safety (Google Play, Denmark)",
+      "publisher": "Google Play",
+      "url": "https://play.google.com/store/apps/datasafety?id=com.augio.app&hl=en&gl=DK",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Google Play data safety",
+      "quotes": [
+        "No data shared with third parties",
+        "Email address and User IDs",
+        "Data is encrypted in transit"
+      ]
+    },
+    {
+      "id": "a5",
+      "title": "Augio: Læs med, mens der bliver talt",
+      "publisher": "Augio ApS",
+      "url": "https://augio.dk/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Augio website",
+      "quotes": [
+        "Augio omsætter dansk tale til tekst i realtid. På din computer, din telefon eller dine smart glasses.",
+        "Bygget til dig der har et høretab og gerne vil følge med i samtalen uden at spørge igen.",
+        "Én konto. Vælg selv hvordan du bruger den.",
+        "Til onlinemøder, undervisning og alt det der foregår gennem en skærm.",
+        "Teksten kører i et vindue ved siden af Teams eller Zoom, så du kan følge med uden at være afhængig af at nogen husker at slå undertekster til.",
+        "Teksten vises i dit synsfelt, så du kan holde blikket på den du taler med i stedet for at kigge ned.",
+        "Dansk fra bunden, ikke et engelsk system med dansk sat udenpå",
+        "Samtaler mellem to og tre personer i et almindeligt lokale",
+        "Fem mennesker der taler i munden på hinanden",
+        "At erstatte høreapparat, CI eller skrivetolk. Augio er et supplement",
+        "Brug uden internetforbindelse",
+        "Høretab fylder i vores familie."
+      ]
+    },
+    {
+      "id": "a6",
+      "title": "Priser | Augio",
+      "publisher": "Augio ApS",
+      "url": "https://augio.dk/priser",
+      "type": "pricing",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Augio prices",
+      "quotes": [
+        "Ét abonnement med alle funktioner på både computer og telefon. Prøv det gratis i 14 dage.",
+        "Køber du inden 1. januar 2027, betaler du 99 kr. om måneden eller 999 kr. om året.",
+        "Prisen følger dit abonnement, så længe det består.",
+        "Betalingen sker hos Stripe med kort eller MobilePay.",
+        "Du registrerer dit betalingskort, når du starter. Der trækkes ingen penge i de 14 dage.",
+        "Prøveperioden gælder én gang pr. kunde.",
+        "Augio virker på Windows-computere, Android-telefoner og iPhone.",
+        "Ja. Abonnementet er personligt, men du kan bruge det på alle dine egne enheder, for eksempel både din computer og din telefon."
+      ]
+    },
+    {
+      "id": "a7",
+      "title": "Privatlivspolitik | Augio",
+      "publisher": "Augio ApS",
+      "url": "https://augio.dk/privatlivspolitik",
+      "type": "privacy",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Augio privacy policy",
+      "quotes": [
+        "Senest opdateret 20. oktober 2026",
+        "Selve Augio-appen har sin egen privatlivspolitik, som du finder i appen.",
+        "Der er ingen adgangskode. Du skriver din mailadresse, og så sender vi dig en engangskode, som du skriver på siden.",
+        "Er din licens givet af en institution, for eksempel en kommune, står det også her."
+      ]
+    },
+    {
+      "id": "a8",
+      "title": "Handelsbetingelser | Augio",
+      "publisher": "Augio ApS",
+      "url": "https://augio.dk/handelsbetingelser",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Augio terms of sale",
+      "quotes": [
+        "Senest opdateret 21. september 2026",
+        "Tjenesten fungerer på Windows-computer, på iPhone og Android, og sammen med kompatible smart glasses.",
+        "Augio er ikke medicinsk udstyr, stiller ingen diagnose, og erstatter ikke høreapparater, tolkning eller anden behandling.",
+        "Brug af tjenesten forudsætter en internetforbindelse, da talegenkendelsen sker på servere.",
+        "Månedsabonnement: 149 kr. inkl. moms, der betales hver måned.",
+        "Årsabonnement: 1500 kr. inkl. moms, der betales en gang årligt.",
+        "Opbevaring af transskriptioner sker kun hvis kunden selv slår funktionen til, og kan slås fra igen når som helst.",
+        "Ved ophør af abonnementet kan kunden eksportere sine data.",
+        "Dette afsnit gælder når køber er en virksomhed, en kommune, et jobcenter eller en anden offentlig myndighed.",
+        "Til disse kunder sælges Augio som en årslicens til en navngiven bruger.",
+        "Pris pr. årslicens: 1200 kr. ekskl. moms",
+        "Augio stiller en tidsbegrænset prøveadgang til rådighed for en navngiven borger, så en afprøvning kan gennemføres inden bevilling."
+      ]
+    },
+    {
+      "id": "a9",
+      "title": "Slet din konto | Augio",
+      "publisher": "Augio ApS",
+      "url": "https://augio.dk/slet-konto",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Delete your Augio account",
+      "quotes": [
+        "Din ordbog.",
+        "Ord, du har indsendt til Augios talegenkendelse, hvis du har sagt ja til det. De ligger under en kode, der ikke kan føres tilbage til dig, og vi sletter dem også.",
+        "Gemte samtaler ligger kun på din egen enhed."
+      ]
+    },
+    {
+      "id": "a10",
+      "title": "Din konto | Augio",
+      "publisher": "Augio ApS",
+      "url": "https://augio.dk/konto",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Augio account page",
+      "quotes": [
+        "Din licens er oprettet af en institution. Den administreres af dem, ikke her.",
+        "Hent til Windows",
+        "Du kan bruge den samme konto på alle dine egne enheder."
+      ]
+    },
+    {
+      "id": "a11",
+      "title": "Tolkning for personer med hørehandicap",
+      "publisher": "borger.dk (Socialministeriet)",
+      "url": "https://www.borger.dk/handicap/hjaelp-i-hverdagen/tolkning-for-personer-med-hoerehandicap",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Interpreting for people with hearing loss (borger.dk)",
+      "quotes": [
+        "Der er mulighed for at få forskellige former for tolkning tilpasset dit hørehandicap, fx:",
+        "Hvis du er fuldtidsansat, har du ret til op til 20 timers tolkebistand pr. uge til fx:",
+        "Du kan få tolkebistand til læge- og tandlægebesøg.",
+        "Hvis du har et hørehandicap, kan du søge om tolkebistand i sociale sammenhænge, fx til familiefester, sociale arrangementer i forbindelse med forenings- og fritidsaktiviteter samt begravelser."
+      ]
+    }
+  ],
+  "notes": "Conflicts: (1) Transcripts: the App Store listing and Google Play say transcripts are stored encrypted on your own device only, while the terms (21 Sep 2026) say transcripts are only kept if the customer turns that on, that customers can export their data when a subscription ends, and that data is deleted 90 days after it ends; the table follows the store listings and mentions the terms' opt-in. (2) Price: the App Store description and the terms list DKK 149/month and DKK 1,500/year; the pricing page, the App Store In-App Purchases (Augio Pro (lanceringspris) DKK 99 and DKK 999) and Google Play give the launch price DKK 99/month or DKK 999/year for subscriptions started before 1 January 2027. Both are in the table detail. (3) Language metadata: the App Store page and lookup list the app's language as English only (languageCodesISO2A EN), although the listing, website and app are about Danish; the interface language was not checked. (4) Google Play's Danish listing was first published 13 Oct 2026; the App Store release date is 23 Oct 2026. Not found: the app's own privacy policy (augio.dk says it is only inside the app), which smart glasses are compatible, where summaries are made, the Windows system requirements, and any page about translation, other languages, sound alerts, phone calls or sign language. The Android 7.0 minimum comes from the Google Play page's app details data. Testimonials on the homepage were not used. Availability: the lookup API returned the app for Denmark only among dk, se, no, de, gb, fi, nl, is and us; Google Play availability outside Denmark was not checked. borger.dk is used only to describe Denmark's public interpreting. All pages opened 2026-11-02 with curl.",
+  "icon": "/compare/icons/augio.png"
+}

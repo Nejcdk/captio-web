@@ -1,0 +1,516 @@
+{
+  "slug": "nalscribe",
+  "name": "NALscribe: live captions",
+  "shortName": "NALscribe",
+  "developer": "National Acoustic Laboratories (NAL), the research division of Hearing Australia",
+  "developerCountry": "Australia (Sydney, Macquarie University)",
+  "website": "https://www.nal.gov.au/nal_products/nalscribe/",
+  "appStoreUrl": "https://apps.apple.com/au/app/nalscribe-live-captions/id1578207797",
+  "googlePlayUrl": null,
+  "category": "in-person-captions",
+  "oneLine": "A free live-captioning app for iPhone and iPad from Australia's government-funded hearing research lab, built for clinic and service counters: unlimited captions, an offline mode and a screen that clears itself after 20 seconds.",
+  "facts": {
+    "platforms": {
+      "status": "yes",
+      "text": "iPhone, iPad, Mac with M1; no Android",
+      "detail": "NAL's FAQ lists iPhone, iPad, iPod touch and Macs with an M1 chip; the App Store also lists Apple Vision, and calls it an iPad app not verified for macOS. NAL says it can't offer NALscribe on Android or Windows because Google and Microsoft charge ongoing fees for their speech-to-text. Google Play has no NALscribe app.",
+      "sources": [
+        "s3",
+        "s1",
+        "s12"
+      ]
+    },
+    "deviceRequirements": {
+      "status": "yes",
+      "text": "iOS 26.6 or later",
+      "detail": "The App Store lists iOS 26.6 or later for iPhone and iPad, and macOS 26.6 on an M1 Mac or newer (version of 1 November 2026). NAL's older FAQ still names iOS 12.1 as the minimum, iOS 13 for offline mode and iOS 15 for translation.",
+      "sources": [
+        "s1",
+        "s2",
+        "s3"
+      ]
+    },
+    "roomCaptions": {
+      "status": "yes",
+      "text": "Yes, continuous, no time limit",
+      "detail": "Speech from the microphone becomes text as the person speaks, with no timeout and unlimited minutes. You can pick which microphone to use, connect a Bluetooth or desk microphone, and turn the screen upside down so the iPhone's bottom microphone points at the talker.",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    "groupConversations": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "The iPhone and iPad app is described for counters, appointments and personal use. NAL's NALscribe AR prototype for Apple Vision Pro used each speaker's phone as a microphone and showed each speaker's captions separately; NAL calls it a finished proof of concept, and it is not among NAL's App Store apps.",
+      "sources": []
+    },
+    "languages": {
+      "status": "yes",
+      "text": "13 languages, including 4 kinds of English",
+      "detail": "English (Australia, US, UK and Canada), French, Spanish, Arabic, German, Italian, Japanese, Mandarin Chinese, Korean, Portuguese, Danish, Dutch and Russian, online and offline. NAL's FAQ leaves out Dutch, which the App Store lists and which was added in an update.",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    "offline": {
+      "status": "yes",
+      "text": "Yes, after a one-time language download",
+      "detail": "Offline mode recognises speech on the device with nothing sent over the internet. The first time, each language's model has to download over the internet (about 10 minutes). NAL says online mode is slightly more accurate. Translation languages can also be downloaded for offline use.",
+      "sources": [
+        "s3",
+        "s1"
+      ]
+    },
+    "speakerLabels": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "The iPhone and iPad app does not describe telling speakers apart. NAL's Vision Pro prototype, NALscribe AR, separated speakers by using each person's phone as a microphone.",
+      "sources": []
+    },
+    "voiceNames": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Recognising people by their voice is not described.",
+      "sources": []
+    },
+    "speakerDirection": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Not described for the iPhone and iPad app. In NAL's NALscribe AR prototype on Apple Vision Pro, captions were placed in 3D space next to each speaker; it is a finished research project, not a released app.",
+      "sources": []
+    },
+    "translation": {
+      "status": "partial",
+      "text": "Selected words and phrases, 12 languages",
+      "detail": "Select words or phrases in the transcript and tap Translate for a written and spoken translation, between 12 languages, offline once downloaded. It does not translate everything said as it is spoken.",
+      "sources": [
+        "s3",
+        "s1"
+      ]
+    },
+    "saveTranscripts": {
+      "status": "yes",
+      "text": "Yes, on the device, when auto-erase is off",
+      "detail": "With auto-erase off, you choose Save or Clear when you stop. Saved transcripts stay on the device only, and you can open one later, edit it and keep adding to it. Nothing is saved automatically, and the 20- and 60-second privacy modes offer no Save.",
+      "sources": [
+        "s3",
+        "s1"
+      ]
+    },
+    "export": {
+      "status": "yes",
+      "text": "Edit, then share by email or message",
+      "detail": "Transcripts can be edited on screen and then shared by email or text message from the app.",
+      "sources": [
+        "s1",
+        "s5"
+      ]
+    },
+    "fileUpload": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "NAL's pages describe live speech from the microphone, not transcribing audio or video files.",
+      "sources": []
+    },
+    "summaries": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Summaries are not described.",
+      "sources": []
+    },
+    "customWords": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "A word list is not described. You can say punctuation aloud (\"comma\", \"question mark\") and tap the text to fix a word.",
+      "sources": []
+    },
+    "display": {
+      "status": "yes",
+      "text": "Very large text, dark background",
+      "detail": "Caption size goes up to very large for a shared iPad, other text follows the device's text size, there is a dark background option, paragraphs are formatted automatically, and VoiceOver is supported. An English profanity filter keeps offensive words off the screen.",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    "soundAlerts": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Alerts for sounds like a doorbell or an alarm are not described.",
+      "sources": []
+    },
+    "phoneCalls": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Captioning phone calls is not described.",
+      "sources": []
+    },
+    "videoCalls": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Captioning video calls is not described.",
+      "sources": []
+    },
+    "mediaOnDevice": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Captioning audio playing on the device is not described.",
+      "sources": []
+    },
+    "humanCaptioners": {
+      "status": "no",
+      "text": "No, automatic (Apple's speech recognition)",
+      "detail": "Online, audio goes to Apple's speech recognition server; offline, recognition runs on the device. No human captioners are described.",
+      "sources": [
+        "s3"
+      ]
+    },
+    "signLanguage": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Sign language is not described.",
+      "sources": []
+    },
+    "privacy": {
+      "status": "yes",
+      "text": "Online: Apple's server; offline: on device",
+      "detail": "In online mode audio goes to Apple's speech recognition server and text comes back; in offline mode nothing is transmitted. Audio is never stored and is discarded when recording stops. NAL collects no data from the app (App Store: Data Not Collected). Auto-erase can clear the screen 20 or 60 seconds after speech stops.",
+      "sources": [
+        "s3",
+        "s1"
+      ]
+    },
+    "account": {
+      "status": "no",
+      "text": "None described; NAL collects no data",
+      "detail": "No sign-up is described, and the App Store privacy section says the developer collects no data from the app.",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    "availability": {
+      "status": "yes",
+      "text": "App Store, worldwide",
+      "detail": "NAL says the app is free and available worldwide. Apple's store data found it in Australia, the US, the UK, New Zealand and Japan (November 2026). Not on Google Play.",
+      "sources": [
+        "s5",
+        "s2",
+        "s12"
+      ]
+    },
+    "freePlan": {
+      "status": "yes",
+      "text": "Everything free, unlimited minutes",
+      "detail": "Every feature is free to install and run, with unlimited minutes, offline languages and translation at no extra cost, and no in-app purchases on the Australian App Store (November 2026). The terms say NAL may charge or add advertising in the future.",
+      "sources": [
+        "s1",
+        "s2",
+        "s7"
+      ]
+    },
+    "price": {
+      "status": "no",
+      "text": "No paid plan",
+      "detail": "The Australian App Store lists NALscribe as free with no in-app purchases (November 2026).",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    "accessibilityFunding": {
+      "status": "yes",
+      "text": "Free to all; made with Australian Government funding",
+      "detail": "NAL is the research division of Hearing Australia and is funded by the Australian Government Department of Health; NAL says the NALscribe research was funded through the Department of Health, Disability and Ageing. Nobody has to qualify: the app is free for everyone.",
+      "sources": [
+        "s6",
+        "s10",
+        "s5"
+      ]
+    }
+  },
+  "strengths": [
+    {
+      "text": "Every feature is free, with unlimited minutes, no timeout and no in-app purchases.",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "text": "Offline mode recognises speech on the device, with nothing sent over the internet, once a language is downloaded.",
+      "sources": [
+        "s3"
+      ]
+    },
+    {
+      "text": "Auto-erase clears the screen 20 seconds after speech stops, made for reception and enquiry desks; the app was trialled in hearing clinics across Australia.",
+      "sources": [
+        "s1",
+        "s3",
+        "s5"
+      ]
+    },
+    {
+      "text": "Made by NAL, the research division of Hearing Australia, with Australian Government funding; NAL collects no data from the app.",
+      "sources": [
+        "s5",
+        "s6",
+        "s1"
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "text": "Apple devices only: NAL says it can't offer an Android version because of Google's and Microsoft's speech-to-text fees.",
+      "sources": [
+        "s3"
+      ]
+    },
+    {
+      "text": "The current version needs iOS 26.6 or later.",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "text": "Translation works on words and phrases you select, not on everything said as it is spoken.",
+      "sources": [
+        "s3",
+        "s1"
+      ]
+    },
+    {
+      "text": "NAL's terms license the app for non-commercial use and ask you not to use it where accurate and secure transcription is important.",
+      "sources": [
+        "s7"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "NALscribe: live captions (App Store, Australia)",
+      "publisher": "Apple App Store",
+      "url": "https://apps.apple.com/au/app/nalscribe-live-captions/id1578207797",
+      "type": "store",
+      "label": "App Store listing (Australia)",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Designed for iPad. Not verified for macOS.",
+        "Full functionality is available to anyone to download and use - at no cost to install or run.",
+        "Designed for business use with iPad (e.g. customer service, health appointments) and iPhone/iPad personal use to support people with hearing difficulties, NALscribe provides continuous speech captioning with no timeout and unlimited minutes.",
+        "NALscribe is designed to be used on- or off-line. While slightly higher recognition accuracy is available online, offline mode provides enhanced speech data security / privacy or where no reliable internet connection is available.",
+        "Enhanced Privacy: text is cleared after 20 seconds of speech inactivity - most useful in public settings such as reception or enquiry desks",
+        "Off: text remains on the screen and the entire conversation can be saved to review later - most useful during private conversations and for personal use",
+        "Caption size can be adjusted to be very large to ensure ease of reading.",
+        "NALscribe has an option to switch to dark background and includes automatic paragraph formatting of text to improve readability.",
+        "NALscribe includes transcription for spoken languages including English (Australia, US, UK and Canada), French, Spanish, Arabic, German, Italian, Japanese, Chinese (Mandarin), Korean, Portuguese, Danish, Dutch and Russian.",
+        "Transcripts can be edited on screen or prior to sharing to ensure accuracy, then shared by email or text message through NALscribe, so all participants of the conversation have access.",
+        "NALscribe’s profanity filter stops offensive or derogatory language from inadvertently appearing on the screen (English).",
+        "Transcribed words and phrases can be selected on screen and a written and audio translation is available.",
+        "Optimised compatibility with iOS 27 and the latest Apple devices.",
+        "Choose which microphone to use for transcription.",
+        "Supports portrait-upside down captions for when you want to point the default bottom mic, or mic accessory, towards the talker for better audio capture.",
+        "Dutch language added. Minor improvements.",
+        "The developer does not collect any data from this app.",
+        "Requires iOS 26.6 or later.",
+        "Requires macOS 26.6 or later and a Mac with Apple M1 chip or later.",
+        "Requires visionOS 26.6 or later."
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "NALscribe: live captions (App Store lookup data, Australia)",
+      "publisher": "Apple",
+      "url": "https://itunes.apple.com/lookup?id=1578207797&country=au",
+      "type": "store",
+      "label": "App Store data (Australia)",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "\"formattedPrice\":\"Free\"",
+        "\"version\":\"2.0.0\"",
+        "\"currentVersionReleaseDate\":\"2026-11-01T23:12:33Z\"",
+        "\"minimumOsVersion\":\"26.6\"",
+        "\"sellerName\":\"National Acoustic Laboratories\"",
+        "\"releaseDate\":\"2021-10-20T07:00:00Z\""
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "NALscribe FAQ",
+      "publisher": "National Acoustic Laboratories",
+      "url": "https://www.nal.gov.au/nalscribe-faq/",
+      "type": "help",
+      "label": "NALscribe FAQ (NAL)",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Use an external microphone for best audio capture, such as a Bluetooth headset or desktop microphone, especially for larger distances or if there is a plexiglass barrier.",
+        "If you are in Offline mode, the first time that you initiate offline speech recognition for a particular language, it will request the language model to be downloaded. This set-up step may take around 10 minutes and requires an internet connection.",
+        "NALscribe adds automatic paragraph formatting to the transcription after short pauses, however, you can add punctuation like question marks, commas, and full stops by saying the name of the symbol.",
+        "The transcription can be edited by tapping the text on the screen and an on-screen keyboard will appear.",
+        "The following languages are supported for transcription both online and offline: English (Australia), English (UK), English (US), English (Canada), French, Spanish, Arabic, German, Italian, Danish, Japanese, Chinese (Mandarin), Korean, Portuguese, Russian.",
+        "Saved transcriptions are stored locally on the device only. There is no automatic saving of transcriptions.",
+        "When the “Auto erase text for privacy” setting is 20s or 60s, no Save option is presented when the recording is stopped as these modes are designed for enhanced privacy.",
+        "To view a saved transcription, tap the item to open. You can press the microphone button to continue and add to the transcription.",
+        "To translate words or phrases from the transcription, tap and select the text you would like to translate and choose Translate from the selection options shown. You can change the translation language, and play the audio translation.",
+        "Translation is currently supported between English (US), English (UK), Chinese (Mandarin), French, German, Italian, Japanese, Korean, Portuguese, Russian, Spanish, and Arabic.",
+        "In public spaces, we recommend selecting Clear screen for privacy = 20 seconds (Enhanced Privacy mode).",
+        "No audio information is stored on the device or collected by the developer (NAL). The audio recorded from the microphone is used to perform real-time speech recognition and is discarded when recording is stopped.",
+        "In online mode, the audio is transmitted over the internet to Apple’s speech recognition server and the text result is returned.",
+        "In offline mode, no data is transmitted and speech recognition is carried out on the device for maximum privacy and security. The developer (NAL) does not collect any data from this app.",
+        "An iPad running iOS 12.1 or later is required as a minimum requirement. For Offline mode: iOS 13+ is required*; for translation: iOS 15+ is required.",
+        "However, using online speech recognition will give the highest speech recognition accuracy.",
+        "To help individuals have access to free live captioning wherever they are, with no on-going costs, we have launched NALscribe on the Apple App Store. This is compatible with iPhone, iPad, iPod touch and Mac with M1 chip.",
+        "As Microsoft and Google charge on-going usage fees to use their speech-to-text technology in other apps, we are unfortunately unable to provide NALscribe on these platforms."
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "NALscribe (NAL products)",
+      "publisher": "National Acoustic Laboratories",
+      "url": "https://www.nal.gov.au/nal_products/nalscribe/",
+      "type": "official",
+      "label": "NALscribe product page (NAL)",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "NALscribe is a free, easy-to-use live speech captioning tool to help people with hearing difficulties understand speech and conversations.",
+        "Winner of the Hearing Health and Technology Matters Hearing Technology Innovator award 2023 in the category Assistive Technology & Software – Captioning Technology: Mobile Apps"
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "NALscribe: live captions (project outcomes)",
+      "publisher": "National Acoustic Laboratories",
+      "url": "https://www.nal.gov.au/nalscribeapp/",
+      "type": "official",
+      "label": "NALscribe project outcomes (NAL)",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Transcriptions can be saved, edited and easily shared via other platforms",
+        "Offline speech recognition mode for increased data privacy and can be used anywhere",
+        "The NALscribe app created by NAL, the research division of Hearing Australia, quickly and continuously transcribes speech into large, easy-to-read text on an iPad screen in real-time.",
+        "It was developed through NAL’s design thinking process, with both clinic and patient needs explored and the technology tested in functioning hearing healthcare clinics.",
+        "It’s free and available worldwide so that people across the globe who are living with hearing loss can benefit from this solution",
+        "The app has been trialled in hearing clinics across Australia, at service counters and during appointments, and the feedback from clients has been positive."
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Speech to text app (NAL project)",
+      "publisher": "National Acoustic Laboratories",
+      "url": "https://www.nal.gov.au/projects/speech-to-text-app/",
+      "type": "official",
+      "label": "Speech to text app project (NAL)",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "NAL has tackled this problem by developing the NALscribe iPad app that hearing clinics can use to make communication easier for clients who often struggle to hear.",
+        "This research is funded by the Australian Government through the Department of Health, Disability and Ageing"
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Terms and Conditions of use: NALscribe Application",
+      "publisher": "National Acoustic Laboratories",
+      "url": "https://www.nal.gov.au/nalscribe-terms/",
+      "type": "official",
+      "label": "NALscribe terms (NAL)",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "These Terms form an agreement between Australian Hearing Services ABN 80 308 797 003 through its research division, the National Acoustic Laboratories",
+        "Subject to these Terms, NAL grants you a non-exclusive, non-transferable revocable licence to use the App for non-commercial purposes for transcription and captioning from audio input through a Device owned or controlled by you.",
+        "You agree not to use the App in situations where accurate and secure transcription is important.",
+        "The App is currently made available to you free of charge.",
+        "We may also implement an in-app advertising model at any time in the future."
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "NALscribe AR: Spatially Positioned Live Captions for Clear Communication with Apple Vision Pro",
+      "publisher": "National Acoustic Laboratories",
+      "url": "https://www.nal.gov.au/nalscribe-ar-spatially-aware-live-captions-for-clear-communication-with-apple-vision-pro/",
+      "type": "official",
+      "label": "NALscribe AR announcement (NAL)",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "We have created a live captioning app for Vision Pro with multiple connected devices, with unique features not found in other smartphone or AR captioning apps, including:",
+        "Enhanced voice pickup and accuracy",
+        "Spatial positioning of captions",
+        "Attention-grabbing features"
+      ]
+    },
+    {
+      "id": "s9",
+      "title": "NALscribe AR (NAL project)",
+      "publisher": "National Acoustic Laboratories",
+      "url": "https://www.nal.gov.au/projects/nalscribe-ar/",
+      "type": "official",
+      "label": "NALscribe AR project (NAL)",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Published: May 2026",
+        "The project delivered a working proof of concept, NALscribe AR, demonstrating that live captions can be displayed within a user’s field of view using augmented reality, rather than on a smartphone screen.",
+        "By using nearby smartphones as microphones, speech was captured more reliably, making it possible to present captions from different speakers separately.",
+        "Captions could also be positioned in 3D space near each speaker, helping users identify who was speaking and follow the flow of conversation.",
+        "While the Apple Vision Pro is currently a high-cost and relatively heavy device, the project highlights what may be possible as wearable technology continues to evolve."
+      ]
+    },
+    {
+      "id": "s10",
+      "title": "About us (NAL)",
+      "publisher": "National Acoustic Laboratories",
+      "url": "https://www.nal.gov.au/about-us/",
+      "type": "official",
+      "label": "About NAL",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Funded by the Australian Government Department of Health, our mission is to lead the world in hearing research and evidence-based innovation to improve hearing health and transform the lives of people with hearing difficulties."
+      ]
+    },
+    {
+      "id": "s11",
+      "title": "Apps by National Acoustic Laboratories (App Store lookup data, Australia)",
+      "publisher": "Apple",
+      "url": "https://itunes.apple.com/lookup?id=1578207799&entity=software&country=au",
+      "type": "store",
+      "label": "NAL's apps on the App Store (Australia)",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "\"trackName\":\"NALscribe: live captions\"",
+        "\"trackName\":\"Chatterbugs\"",
+        "\"trackName\":\"HearWB\"",
+        "\"trackName\":\"NAL Study\"",
+        "\"trackName\":\"NEMAplus Go\""
+      ]
+    },
+    {
+      "id": "s12",
+      "title": "Google Play search for \"NALscribe\" (Australia)",
+      "publisher": "Google Play",
+      "url": "https://play.google.com/store/search?q=%22NALscribe%22&c=apps&hl=en_AU&gl=AU",
+      "type": "store",
+      "label": "Google Play search",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "No results for \"NALscribe\""
+      ]
+    }
+  ],
+  "notes": "https://www.nal.gov.au/nalscribe/ (the App Store's seller URL) returns NAL's 404 page, so NAL's product page, project pages and FAQ are used. The terms page and the About page return HTTP 500 but their full text loads (a WordPress error is printed below it); both were read. The Hearing Australia news story about the app returned HTTP 500 with no text and was not used. All pages opened 2026-11-02 with curl. Version 2.0.0 (1 November 2026) only says 'Optimised compatibility with iOS 27 and the latest Apple devices' plus performance and bug fixes; its minimum is now iOS 26.6. Earlier 2026 updates added choosing the microphone (1.9), better offline reliability, punctuation and screen-mirroring stability (1.9.03) and an easier offline setup guide. Conflicts: (1) Minimum system: App Store iOS 26.6 vs the FAQ's iOS 12.1 (iOS 13 offline, iOS 15 translation); the table uses the App Store. (2) Languages: the App Store lists 13 incl. Dutch; the FAQ lists 12 without Dutch; NAL's May 2023 outcomes page says '11 language options'. (3) Use: the App Store says 'Designed for business use with iPad (e.g. customer service, health appointments)', while the terms license the app 'for non-commercial purposes'. (4) Platforms: the FAQ says iPhone, iPad, iPod touch and M1 Mac; the App Store also lists Apple Vision (visionOS 26.6) and says 'Designed for iPad. Not verified for macOS.' Ads: the listing shows no ads or in-app purchases; the terms reserve the right to charge or add advertising later. NALscribe AR: NAL's announcement (July 2024) and project page (May 2026, status Finished) describe a Vision Pro proof of concept with captions placed near each speaker and each speaker's phone as a microphone; it is not in NAL's App Store app list (NALscribe, Chatterbugs, HearWB, NAL Study, NEMAplus Go), so it is treated as unreleased. NAL's pages also mention the 2023 Hearing Technology Innovator award and quote users; testimonials are not used. Not found: speaker labels, voice names, file transcription, summaries, a custom word list, sound alerts, an account. Google Play search for NALscribe (Australia) returns no results. Caption accuracy was not checked.",
+  "icon": "/compare/icons/nalscribe.png"
+}

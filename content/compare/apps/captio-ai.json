@@ -475,6 +475,160 @@
         "Sounds are recognized on your iPhone or iPad. No audio is sent anywhere to do it.",
         "Yes, free for everyone, on the free plan and on Plus. It works on iPhone and iPad. It is not on Android yet."
       ]
+    },
+    {
+      "id": "s14",
+      "title": "Danish Live Captions & Transcription",
+      "publisher": "Captio AI",
+      "url": "https://captioai.app/danish",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Captio AI in Danish",
+      "quotes": [
+        "Danish live captions and productivity tool for deaf and HoH people.",
+        "Captio AI handles Standard Danish most reliably; very heavy Bornholmsk features may reduce accuracy."
+      ]
+    },
+    {
+      "id": "s15",
+      "title": "German Live Captions & Transcription",
+      "publisher": "Captio AI",
+      "url": "https://captioai.app/german",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Captio AI in German",
+      "quotes": [
+        "German live captions and productivity tool for deaf and HoH people.",
+        "Captio AI handles Standard German most reliably; heavy Plattdeutsch may reduce accuracy."
+      ]
+    },
+    {
+      "id": "s16",
+      "title": "Spanish Live Captions & Transcription",
+      "publisher": "Captio AI",
+      "url": "https://captioai.app/spanish",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Captio AI in Spanish",
+      "quotes": [
+        "Spanish live captions and productivity tool for deaf and HoH people.",
+        "Captio AI handles Castilian Spanish with full accuracy."
+      ]
+    },
+    {
+      "id": "s17",
+      "title": "Italian Live Captions & Transcription",
+      "publisher": "Captio AI",
+      "url": "https://captioai.app/italian",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Captio AI in Italian",
+      "quotes": [
+        "Italian live captions and productivity tool for deaf and HoH people.",
+        "Captio AI handles Standard Italian with full accuracy."
+      ]
+    },
+    {
+      "id": "s18",
+      "title": "Dutch Live Captions & Transcription",
+      "publisher": "Captio AI",
+      "url": "https://captioai.app/dutch",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Captio AI in Dutch",
+      "quotes": [
+        "Dutch live captions and productivity tool for deaf and HoH people.",
+        "Does Captio AI work with Belgian Dutch (Flemish)?"
+      ]
+    },
+    {
+      "id": "s19",
+      "title": "Japanese Live Captions & Transcription",
+      "publisher": "Captio AI",
+      "url": "https://captioai.app/japanese",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Captio AI in Japanese",
+      "quotes": [
+        "Japanese live captions and productivity tool for deaf and HoH people.",
+        "Captio AI handles Hyōjungo with full accuracy, displaying captions in native Japanese script (kanji, hiragana, and katakana)."
+      ]
+    },
+    {
+      "id": "s20",
+      "title": "Korean Live Captions & Transcription",
+      "publisher": "Captio AI",
+      "url": "https://captioai.app/korean",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Captio AI in Korean",
+      "quotes": [
+        "Korean live captions and productivity tool for deaf and HoH people.",
+        "Captio AI captions spoken Korean in real time for these situations."
+      ]
+    },
+    {
+      "id": "s21",
+      "title": "Chinese Live Captions & Transcription",
+      "publisher": "Captio AI",
+      "url": "https://captioai.app/chinese",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Captio AI in Chinese",
+      "quotes": [
+        "Chinese live captions and productivity tool for deaf and HoH people.",
+        "Captio AI supports Cantonese with Traditional Chinese characters."
+      ]
+    },
+    {
+      "id": "s22",
+      "title": "Catalan Live Captions & Transcription",
+      "publisher": "Captio AI",
+      "url": "https://captioai.app/catalan",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Captio AI in Catalan",
+      "quotes": [
+        "Catalan live captions and productivity tool for deaf and HoH people.",
+        "Captio AI provides real-time Catalan captions and handles Catalan-Spanish code-switching naturally in the same caption stream."
+      ]
+    },
+    {
+      "id": "s23",
+      "title": "Galician Live Captions & Transcription",
+      "publisher": "Captio AI",
+      "url": "https://captioai.app/galician",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Captio AI in Galician",
+      "quotes": [
+        "Galician live captions and productivity tool for deaf and HoH people.",
+        "For hard of hearing Galician speakers today, Captio AI provides real-time Galician captions and handles Galician-Spanish code-switching naturally in the same caption stream."
+      ]
+    },
+    {
+      "id": "s24",
+      "title": "Basque Live Captions & Transcription",
+      "publisher": "Captio AI",
+      "url": "https://captioai.app/basque",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Captio AI in Basque",
+      "quotes": [
+        "Basque live captions and productivity tool for deaf and HoH people.",
+        "Captio AI handles Basque-Spanish code-switching naturally, displaying both Basque and Spanish correctly in the same caption stream, and supports Batua (Standard Basque) alongside the major regional dialects."
+      ]
     }
   ],
   "notes": "Built from content/blog/CAPTIO_FACTS.md (the only source for claims about Captio AI). Update both together."

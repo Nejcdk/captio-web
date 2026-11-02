@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // App icons for the Compare section, from each app's own store listing:
-// the App Store (Apple's lookup API, US store) or, for Android-only apps,
+// the App Store (Apple's lookup API, US store, else the store country in the
+// app's App Store link) or, for Android-only apps,
 // Google Play. Saved as 192px PNGs in public/compare/icons/<slug>.png and
 // named in the app file as "icon". Apps without a store listing (features
 // built into the phone) keep the letter tile.
@@ -25,7 +26,9 @@ const only = new Set(args.filter((a) => !a.startsWith("--")));
 async function appStoreIcon(url) {
   const id = url.match(/id(\d+)/)?.[1];
   if (!id) return null;
-  for (const country of ["us", ""]) {
+  // Apps sold in one country only (apps.apple.com/dk/...) are missing from the US store.
+  const home = url.match(/apps\.apple\.com\/([a-z]{2})\//)?.[1];
+  for (const country of ["us", ...(home && home !== "us" ? [home] : []), ""]) {
     const res = await fetch(`https://itunes.apple.com/lookup?id=${id}${country ? `&country=${country}` : ""}`);
     const art = (await res.json()).results?.[0]?.artworkUrl512;
     if (art) return art.replace(/\/\d+x\d+bb\.\w+$/, "/512x512bb.png");

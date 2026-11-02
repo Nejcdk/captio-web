@@ -1,0 +1,668 @@
+{
+  "slug": "tolkcontact",
+  "name": "Tolkcontact",
+  "shortName": "Tolkcontact",
+  "developer": "Tolkcontact (Berengroep); app by nWise AB",
+  "developerCountry": "Netherlands (Bilthoven); app built by nWise AB, Uppsala, Sweden",
+  "website": "https://www.tolkcontact.nl/app",
+  "appStoreUrl": "https://apps.apple.com/nl/app/tolkcontact/id834821106",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=se.nwise.mymmx.mobile.signcall",
+  "category": "phone-call-captions",
+  "oneLine": "Dutch app from the national interpreting service: a sign language interpreter by video, phone calls through KPN Teletolk and 112, paid by health insurance.",
+  "facts": {
+    "platforms": {
+      "status": "yes",
+      "text": "iPhone, iPad, Android, Windows",
+      "detail": "Tolkcontact says the app runs on Android phones and tablets, iPhones and iPads, and Windows computers, laptops and tablets.",
+      "sources": [
+        "t9",
+        "t1",
+        "t2"
+      ]
+    },
+    "deviceRequirements": {
+      "status": "yes",
+      "text": "iOS 15+; Wi-Fi or mobile data",
+      "detail": "The Dutch App Store lists iOS 15.0 or later. The app needs Wi-Fi or mobile internet, and Tolkcontact says it has limited support on Xiaomi, BlackBerry and Unihertz phones.",
+      "sources": [
+        "t1",
+        "t6",
+        "t9"
+      ]
+    },
+    "roomCaptions": {
+      "status": "partial",
+      "text": "Through interpreters: NGT by video, or a booked schrijftolk",
+      "detail": "With Tolk op afstand, a Sign Language of the Netherlands (NGT) interpreter joins by video when you're with a hearing person, in sign language, not text. For live text you book a writing interpreter (schrijftolk) through mijn.tolkcontact.nl, who types everything said onto a tablet, in person or by video. Writing interpreters can't be called on the spot through the app.",
+      "sources": [
+        "t6",
+        "t13",
+        "t7"
+      ]
+    },
+    "groupConversations": {
+      "status": "partial",
+      "text": "Schrijftolk writes who says what; video interpreting less suited",
+      "detail": "A writing interpreter's text shows what is said and by whom. Tolkcontact says remote interpreting suits meetings with many people less well, because the interpreter can't see who is talking.",
+      "sources": [
+        "t14",
+        "t7"
+      ]
+    },
+    "languages": {
+      "status": "partial",
+      "text": "NGT, NmG and Dutch",
+      "detail": "Interpreters work in Sign Language of the Netherlands (NGT), Sign Supported Dutch (NmG) and spoken Dutch; for another language the interpreter decides. The app is in Dutch only.",
+      "sources": [
+        "t7",
+        "t3",
+        "t1"
+      ]
+    },
+    "offline": {
+      "status": "no",
+      "text": "No, needs Wi-Fi or mobile internet",
+      "detail": "Every service in the app is a live connection to a person, and Tolkcontact says the app needs Wi-Fi or mobile internet.",
+      "sources": [
+        "t6"
+      ]
+    },
+    "speakerLabels": {
+      "status": "partial",
+      "text": "A schrijftolk writes who says what",
+      "detail": "Writing interpreters write who said each thing. The app itself shows no speaker labels; it connects you to people.",
+      "sources": [
+        "t14"
+      ]
+    },
+    "voiceNames": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Not on Tolkcontact's pages.",
+      "sources": []
+    },
+    "speakerDirection": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Not on Tolkcontact's pages.",
+      "sources": []
+    },
+    "translation": {
+      "status": "partial",
+      "text": "NGT and Dutch; other languages if the interpreter agrees",
+      "detail": "Interpreters translate between sign language and spoken Dutch. For a conversation in another language, the interpreter decides whether they can do it.",
+      "sources": [
+        "t7"
+      ]
+    },
+    "saveTranscripts": {
+      "status": "no",
+      "text": "No, sessions may not be recorded",
+      "detail": "Interpreters have a professional code and a duty of confidentiality, and you may not record a Tolk op afstand session without Tolkcontact's explicit permission.",
+      "sources": [
+        "t7"
+      ]
+    },
+    "export": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Not on Tolkcontact's pages.",
+      "sources": []
+    },
+    "fileUpload": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Not on Tolkcontact's pages for deaf users.",
+      "sources": []
+    },
+    "summaries": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Not on Tolkcontact's pages.",
+      "sources": []
+    },
+    "customWords": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Not on Tolkcontact's pages.",
+      "sources": []
+    },
+    "display": {
+      "status": "yes",
+      "text": "Text size (5 steps) and colours in text calls",
+      "detail": "In text calls you set your own and the interpreter's text size (extra small to extra large) and text and background colours.",
+      "sources": [
+        "t10"
+      ]
+    },
+    "soundAlerts": {
+      "status": "partial",
+      "text": "A schrijftolk describes sounds in the text",
+      "detail": "Writing interpreters type what can be heard around you, such as a phone beeping or someone sneezing. Tolkcontact's pages mention no sound alerts in the app.",
+      "sources": [
+        "t13",
+        "t14"
+      ]
+    },
+    "phoneCalls": {
+      "status": "yes",
+      "text": "Yes, KPN Teletolk relay; own 085 number",
+      "detail": "Through KPN Teletolk you call and get called in text (24 hours a day) or Sign Language of the Netherlands (7:00 to 22:00), and can also speak yourself; an operator voices what you type or sign and turns the reply into text or sign language. You get a personal 085 number. 112 can be called by voice or text, answered in text.",
+      "sources": [
+        "t5",
+        "t1",
+        "t8"
+      ]
+    },
+    "videoCalls": {
+      "status": "yes",
+      "text": "Video calls with app users; relay in sign language",
+      "detail": "You can video call other people who have the app, and KPN Teletolk relays calls in sign language by video.",
+      "sources": [
+        "t18",
+        "t5"
+      ]
+    },
+    "mediaOnDevice": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Not on Tolkcontact's pages.",
+      "sources": []
+    },
+    "humanCaptioners": {
+      "status": "yes",
+      "text": "Yes: interpreters and relay operators",
+      "detail": "Every service is done by people: KPN Teletolk operators on calls, NGT interpreters by video, and booked writing interpreters who type live text.",
+      "sources": [
+        "t5",
+        "t6",
+        "t13"
+      ]
+    },
+    "signLanguage": {
+      "status": "yes",
+      "text": "Yes, NGT interpreters, 7:00 to 22:00 daily",
+      "detail": "Tolk op afstand connects you with a Sign Language of the Netherlands interpreter by video, without an appointment, seven days a week from 7:00 to 22:00, for up to 20 minutes per conversation. Sign language calls through KPN Teletolk run at the same hours.",
+      "sources": [
+        "t6",
+        "t7",
+        "t5"
+      ]
+    },
+    "privacy": {
+      "status": "yes",
+      "text": "Human interpreters with a duty of confidentiality",
+      "detail": "Interpreters have a professional code and a duty of confidentiality, and sessions are not recorded. The App Store label says the developer collects no data; Tolkcontact's privacy statement lists your BSN for the insurer claim and your live location when you call 112.",
+      "sources": [
+        "t7",
+        "t1",
+        "t20"
+      ]
+    },
+    "account": {
+      "status": "yes",
+      "text": "Yes, requested; BSN and proof of deafness",
+      "detail": "You request an account at tolkcontact.nl/app, or activate it with one click if you have mijn.tolkcontact.nl through UWV interpreting hours. The application asks for name, address, date of birth and citizen service number (BSN), and the insurer needs proof of deafness such as an audiogram or a GP's letter.",
+      "sources": [
+        "t11",
+        "t4",
+        "t20",
+        "t21"
+      ]
+    },
+    "availability": {
+      "status": "yes",
+      "text": "Netherlands (Dutch interpreters)",
+      "detail": "The app is for deaf and hard of hearing people in the Netherlands, with Dutch interpreters only. Tolk op afstand works anywhere in Europe, Tolkcontact says, and may not work outside it.",
+      "sources": [
+        "t3",
+        "t7",
+        "t1"
+      ]
+    },
+    "freePlan": {
+      "status": "partial",
+      "text": "Calls free; app paid by health insurance",
+      "detail": "Calls through KPN Teletolk, to 112 and to Tolkcontact's customer service are free. The app subscription is paid by your health insurer or employer, and remote interpreting uses your interpreting hours.",
+      "sources": [
+        "t4",
+        "t5",
+        "t8"
+      ]
+    },
+    "price": {
+      "status": "yes",
+      "text": "Insurer pays; employer €250/year excl. VAT",
+      "detail": "Every Dutch health insurer covers the app for deaf and hard of hearing people, with no eigen risico, most from 35 dB of hearing loss. Through an employer it costs €250 a year excl. VAT (the employer page says €20.66 a month per employee). Without interpreting hours a remote interpreter is billed at 130% of the normal rate; booking through Tolkcontact costs €82 per booking plus €81.61 an hour (excl. VAT, 2026).",
+      "sources": [
+        "t4",
+        "t18",
+        "t7",
+        "t17"
+      ]
+    },
+    "accessibilityFunding": {
+      "status": "yes",
+      "text": "Insurer pays app; UWV interpreting hours",
+      "detail": "Health insurers pay for the app. Interpreters are paid from interpreting hours granted by UWV: 30 a year for private situations (168 if deafblind), 15% of working time for employees, and 1,000 a year at school or in higher education (1,600 in MBO), funded by three ministries. In private situations the first 15 hours of remote interpreting cost one hour per three.",
+      "sources": [
+        "t4",
+        "t12",
+        "t21",
+        "t22",
+        "t19"
+      ]
+    }
+  },
+  "strengths": [
+    {
+      "text": "A Sign Language of the Netherlands interpreter by video, without an appointment, every day from 7:00 to 22:00, for conversations of up to 20 minutes.",
+      "sources": [
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "text": "Free phone calls through KPN Teletolk, by text 24 hours a day or in sign language from 7:00 to 22:00, with a personal 085 number for incoming calls.",
+      "sources": [
+        "t5",
+        "t4"
+      ]
+    },
+    {
+      "text": "Paid by public money: health insurers cover the app, and UWV grants interpreting hours (30 a year for private situations).",
+      "sources": [
+        "t4",
+        "t12",
+        "t22"
+      ]
+    },
+    {
+      "text": "Direct 112 calls by voice or text, answered in text, with your live location shared.",
+      "sources": [
+        "t8",
+        "t23",
+        "t20"
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "text": "For the Netherlands only, with Dutch interpreters (NGT and Dutch writing interpreters).",
+      "sources": [
+        "t3"
+      ]
+    },
+    {
+      "text": "Writing interpreters can't be called on the spot through the app; they are booked in advance.",
+      "sources": [
+        "t7",
+        "t13"
+      ]
+    },
+    {
+      "text": "Remote interpreting is for short conversations of at most 20 minutes, from 7:00 to 22:00.",
+      "sources": [
+        "t6",
+        "t7"
+      ]
+    },
+    {
+      "text": "An account needs an application with your BSN and proof of deafness, and the app is in Dutch only.",
+      "sources": [
+        "t20",
+        "t4",
+        "t1"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "t1",
+      "title": "Tolkcontact (App Store, Netherlands)",
+      "label": "Dutch App Store listing",
+      "publisher": "Apple App Store",
+      "url": "https://apps.apple.com/nl/app/tolkcontact/id834821106",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "In spoedsituaties kun je direct in contact komen met alarmnummer 112. Je kunt zelf spreken of typen; de medewerker van 112 typt terug.",
+        "Ook kun je met de app snel en eenvoudig bellen met wie je maar wilt via KPN Teletolk. Je kunt bellen en gebeld worden.",
+        "Je kunt de app ook gebruiken om een tolk op afstand in te zetten. Handig als je onverwachts een gebarentolk nodig hebt.",
+        "Ben je doof of slechthorend? Een account voor de Tolkcontact-app wordt vergoed door je zorgverzekering.",
+        "Vereist iOS 15.0 of nieuwer.",
+        "Nederlands",
+        "De ontwikkelaar verzamelt geen gegevens van deze app."
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Tolkcontact - Apps op Google Play",
+      "label": "Google Play listing",
+      "publisher": "Google Play",
+      "url": "https://play.google.com/store/apps/details?id=se.nwise.mymmx.mobile.signcall&hl=nl&gl=NL",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Bellen met tekst, spraak én beeld. Speciaal voor slechthorende en dove mensen.",
+        "Met deze app kun je bellen en een tolk op afstand inzetten. Al je andere tolkzaken kun je regelen via mijn.tolkcontact.nl."
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Wat kun je met de app",
+      "label": "What you can do with the Tolkcontact app",
+      "publisher": "Tolkcontact",
+      "url": "https://www.tolkcontact.nl/tolkcontact-app/wat-kun-je-met-de-app/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Let op: de Tolkcontact-app is voor Nederlandse dove en slechthorende mensen. Er zijn alleen tolken Nederlandse Gebarentaal en Nederlandse schrijftolken.",
+        "Zonder afspraak een tolk op afstand inzetten, bijvoorbeeld bij de huisarts, in een winkel of op het schoolplein.",
+        "De kosten voor de Tolkcontact-app hoef je in de meeste gevallen niet zelf te betalen. Dat doet je zorgverzekering of je werkgever."
+      ]
+    },
+    {
+      "id": "t4",
+      "title": "Kosten en vergoeding",
+      "label": "Tolkcontact app: costs and reimbursement",
+      "publisher": "Tolkcontact",
+      "url": "https://www.tolkcontact.nl/tolkcontact-app/kosten-en-vergoeding/",
+      "type": "pricing",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Bellen en gebeld worden via KPN Teletolk is gratis. Bellen met de Tolkcontact-klantenservice en alarmnummer 112 is ook gratis. Het gebruik van Tolkcontact tolk op afstand wordt afgeschreven van je tolkuren.",
+        "Alle zorgverzekeraars vergoeden de Tolkcontact-app.",
+        "Je betaalt ook geen eigen risico voor de Tolkcontact-app.",
+        "Zorgverzekeraars noemen dit: bewijs van doofheid. Dat kan een audiogram zijn of een brief van je huisarts.",
+        "De meeste zorgverzekeraars vergoeden de Tolkcontact-app vanaf een gehoorverlies van 35dB.",
+        "Dan ontvangt je werkgever een factuur van 250 euro per jaar (exclusief btw)."
+      ]
+    },
+    {
+      "id": "t5",
+      "title": "KPN Teletolk",
+      "label": "KPN Teletolk in the Tolkcontact app",
+      "publisher": "Tolkcontact",
+      "url": "https://www.tolkcontact.nl/tolkcontact-app/kpnteletolk/",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Je kiest zelf of je wil bellen in Nederlandse Gebarentaal of met tekst. Een medewerker van KPN Teletolk zet de spraak van de horende persoon voor jou om in tekst of Nederlandse Gebarentaal. En andersom.",
+        "Bellen via tekst kan 24 uur per dag. Bellen in gebarentaal kan elke dag tussen 7.00 en 22.00 uur. Bellen en gebeld worden via KPN Teletolk is gratis.",
+        "Je ontvangt een persoonlijk 085-nummer bij je aanmelding bij KPN Teletolk."
+      ]
+    },
+    {
+      "id": "t6",
+      "title": "Tolk op afstand",
+      "label": "Tolk op afstand (remote interpreter) in the app",
+      "publisher": "Tolkcontact",
+      "url": "https://www.tolkcontact.nl/tolkcontact-app/tolkcontact-tolk-op-afstand/",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Via je telefoon, tablet of computer kun je zonder afspraak direct een tolk Nederlandse Gebarentaal op afstand inzetten. Bijvoorbeeld bij de huisarts, op het schoolplein of in de winkel. Zeven dagen per week tussen 7.00 en 22.00 uur.",
+        "Om de app te gebruiken heb je wifi of mobiel internet nodig.",
+        "Heb je geen tolkuren, dan kun je de tolkinzet ook zelf betalen. Je ontvangt dan een factuur."
+      ]
+    },
+    {
+      "id": "t7",
+      "title": "Veelgestelde vragen Tolkcontact-app",
+      "label": "Tolkcontact app FAQ",
+      "publisher": "Tolkcontact",
+      "url": "https://www.tolkcontact.nl/tolkcontact-app/veelgestelde-vragen/",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Sommige situaties zijn minder geschikt. Bijvoorbeeld als er veel mensen aanwezig zijn bij een gesprek (zoals in een vergadering). De tolk kan via de beeldverbinding dan niet goed zien wie er aan het woord is.",
+        "Tolkcontact tolk op afstand is bedoeld voor korte gesprekken van maximaal 20 minuten.",
+        "Ja, dat mag. Elk gesprek mag maximaal 20 minuten duren.",
+        "Onze tolken communiceren in de Nederlandse Gebarentaal (NGT), Nederlands ondersteund met Gebaren (NmG) en gesproken Nederlands.",
+        "De tolk bepaalt of hij/zij het gesprek ook in een andere taal kan tolken.",
+        "De kosten voor het inzetten van een gebarentolk op afstand via Tolkcontact tolk op afstand zijn 130% van de reguliere tolkkosten.",
+        "Je kunt Tolkcontact tolk op afstand overal in Europa gebruiken. We weten niet zeker of tolk op afstand ook buiten Europa werkt.",
+        "Nee, op dit moment kun je alleen een gebarentolk inzetten via Tolkcontact tolk op afstand.",
+        "Nee. Alle tolken hebben een beroepscode en zwijgplicht.",
+        "Ook jijzelf mag de gesprekken niet opslaan zonder nadrukkelijke toestemming van Tolkcontact."
+      ]
+    },
+    {
+      "id": "t8",
+      "title": "Alarmnummer 112",
+      "label": "Calling 112 with the Tolkcontact app",
+      "publisher": "Tolkcontact",
+      "url": "https://www.tolkcontact.nl/tolkcontact-app/alarmnummer-112/",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Let op: geen beeld! Je kunt spreken of typen. De alarmcentrale van 112 antwoordt altijd in tekst.",
+        "Bellen naar het alarmnummer 112 is gratis."
+      ]
+    },
+    {
+      "id": "t9",
+      "title": "Installeren en instellingen",
+      "label": "Installing the Tolkcontact app",
+      "publisher": "Tolkcontact",
+      "url": "https://www.tolkcontact.nl/tolkcontact-app/installeren-en-instellingen/",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Android-telefoons en -tablets",
+        "Computers, laptops en tablets met Windows",
+        "Let op: op Xiaomi, Blackberry- en Unihertz-telefoons wordt de Tolkcontact-app beperkt ondersteund."
+      ]
+    },
+    {
+      "id": "t10",
+      "title": "Instellingen voor tekstbellen",
+      "label": "Text call settings",
+      "publisher": "Tolkcontact",
+      "url": "https://www.tolkcontact.nl/tolkcontact-app/hoe-werkt-de-app/instellingen-voor-tekstbellen/",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Je kunt kiezen uit: extra klein, klein, gemiddeld, groot of extra groot."
+      ]
+    },
+    {
+      "id": "t11",
+      "title": "Tolkcontact-app aanvragen",
+      "label": "Requesting the Tolkcontact app",
+      "publisher": "Tolkcontact",
+      "url": "https://www.tolkcontact.nl/tolkcontact-app/aanvragen/",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Via mijn.tolkcontact.nl kun je de Tolkcontact-app met één klik activeren. Daarna kan je de app meteen gebruiken."
+      ]
+    },
+    {
+      "id": "t12",
+      "title": "Vergoeding en tarieven",
+      "label": "Interpreting hours: who pays",
+      "publisher": "Tolkcontact",
+      "url": "https://www.tolkcontact.nl/vergoeding-en-tarieven/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Ben je doof of slechthorend? Dan heb je recht op 30 tolkuren per jaar voor privésituaties. Ben je doofblind? Dan heb je recht op 168 tolkuren per jaar voor privésituaties. Deze tolkuren worden betaald door het ministerie van Volksgezondheid, Welzijn en Sport.",
+        "Als je in loondienst bent, krijg je voor 15% van je werktijd tolkuren toegekend.",
+        "Per jaar krijg je daarvoor standaard 1.000 tolkuren. Volg je middelbaar beroepsonderwijs (mbo)? Dan krijg je standaard 1.600 tolkuren."
+      ]
+    },
+    {
+      "id": "t13",
+      "title": "Een schrijftolk inzetten",
+      "label": "Booking a writing interpreter (schrijftolk)",
+      "publisher": "Tolkcontact",
+      "url": "https://www.tolkcontact.nl/wat-doet-een-gebarentolk-of-schrijftolk/schrijftolk/",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Een schrijftolk typt alles wat er gezegd wordt én wat er in de omgeving te horen is. Zo heb je live ondertiteling en kun je ontspannen deelnemen aan een gesprek.",
+        "Vraag een schrijftolk aan via mijn.tolkcontact.nl.",
+        "De schrijftolk geeft je tijdens de afspraak een tablet waar je de tekst op kunt lezen.",
+        "Sterker nog: de tolk kan zelfs op afstand via een videoverbinding voor je tolken."
+      ]
+    },
+    {
+      "id": "t14",
+      "title": "Wat doet een gebarentolk of schrijftolk?",
+      "label": "What sign language and writing interpreters do",
+      "publisher": "Tolkcontact",
+      "url": "https://www.tolkcontact.nl/wat-doet-een-gebarentolk-of-schrijftolk/",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Een dove of slechthorende persoon kan op het scherm alles lezen wat er gezegd wordt, en ook door wie het gezegd wordt. Ook geluiden worden door de schrijftolk omschreven, bijvoorbeeld als er ergens een telefoon piept of iemand niest."
+      ]
+    },
+    {
+      "id": "t15",
+      "title": "Wanneer een tolk regelen?",
+      "label": "When to arrange an interpreter",
+      "publisher": "Tolkcontact",
+      "url": "https://www.tolkcontact.nl/wanneer-een-tolk-regelen/",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "een sollicitatiegesprek",
+        "De tolkuren worden betaald door de overheid."
+      ]
+    },
+    {
+      "id": "t16",
+      "title": "Spoedsituaties",
+      "label": "Urgent interpreter requests",
+      "publisher": "Tolkcontact",
+      "url": "https://www.tolkcontact.nl/wanneer-een-tolk-regelen/spoedsituaties/",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Bij een spoedsituatie zijn wij dag en nacht bereikbaar op ons spoednummer.",
+        "sollicitatiegesprek"
+      ]
+    },
+    {
+      "id": "t17",
+      "title": "Een tolk inzetten zonder tolkuren",
+      "label": "Interpreters without interpreting hours",
+      "publisher": "Tolkcontact",
+      "url": "https://www.tolkcontact.nl/vergoeding-en-tarieven/een-tolk-inzetten-zonder-tolkuren/",
+      "type": "pricing",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Bemiddelingskosten per opdracht: € 82,-",
+        "Uurtarief van de tolk: € 81,61"
+      ]
+    },
+    {
+      "id": "t18",
+      "title": "Tolkcontact-app zakelijk",
+      "label": "Tolkcontact app for employers",
+      "publisher": "Tolkcontact",
+      "url": "https://www.tolkcontact.nl/de-diensten-van-tolkcontact/tolkcontact-app-zakelijk/",
+      "type": "pricing",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Ten slotte kan je via de app beeldbellen met andere mensen die ook de app hebben, zoals Facetime.",
+        "Maandelijkse kosten voor het gebruik van de app per medewerker: € 20,66"
+      ]
+    },
+    {
+      "id": "t19",
+      "title": "Wat doet Tolkcontact?",
+      "label": "What Tolkcontact does",
+      "publisher": "Tolkcontact",
+      "url": "https://www.tolkcontact.nl/ik-ben-een-tolk/wat-doet-tolkcontact/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "UWV bepaalt of iemand recht heeft op tolkuren, hoeveel tolkuren iemand krijgt en voor welke periode."
+      ]
+    },
+    {
+      "id": "t20",
+      "title": "Privacy- en cookieverklaring",
+      "label": "Berengroep privacy statement (Tolkcontact)",
+      "publisher": "Berengroep",
+      "url": "https://www.berengroep.nl/privacyverklaring/",
+      "type": "privacy",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Live locatie delen als je 112 belt, zodat de hulpdiensten weten waar je bent",
+        "BSN-nummer",
+        "Deze privacy- en cookieverklaring is voor het laatst gewijzigd op 19 februari 2025."
+      ]
+    },
+    {
+      "id": "t21",
+      "title": "Schrijf- of gebarentolk",
+      "label": "UWV: writing or sign language interpreter",
+      "publisher": "UWV",
+      "url": "https://www.uwv.nl/nl/schrijf-gebarentolk",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Met de tolkuren die u krijgt, kunt u een tolk regelen via Tolkcontact.",
+        "De eerste keer dat u tolkuren krijgt, maken wij een Tolkcontact-account voor u aan.",
+        "In privésituaties kosten de eerste 15 uur tolken op afstand u minder tolkuren: 1 tolkuur voor elke 3 uur tolken op afstand."
+      ]
+    },
+    {
+      "id": "t22",
+      "title": "Tolkuren voor privésituaties",
+      "label": "UWV: interpreting hours for private situations",
+      "publisher": "UWV",
+      "url": "https://www.uwv.nl/nl/schrijf-gebarentolk/tolkuren-prive",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Bent u doof of slechthorend? Dan vergoeden wij 30 tolkuren per jaar.",
+        "Vraagt u voor het eerst tolkuren aan bij UWV? Dan hebben wij voor het beoordelen van uw aanvraag ook een audiogram nodig.",
+        "U hoeft de tolkuren voor privésituaties maar 1 keer aan te vragen."
+      ]
+    },
+    {
+      "id": "t23",
+      "title": "Bellen met 112",
+      "label": "How to call 112 in the app",
+      "publisher": "Tolkcontact",
+      "url": "https://www.tolkcontact.nl/tolkcontact-app/hoe-werkt-de-app/bellen-met-112/",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Je kunt antwoorden door zelf te spreken of door te typen.",
+        "(Let op bellen met tolk kan alleen tussen 7.00 en 22.00 uur. Buiten deze tijden is alleen tekstbellen beschikbaar)"
+      ]
+    }
+  ],
+  "notes": "Tolkcontact is the national interpreter-booking service run by Berengroep (Bilthoven) on behalf of UWV; the app is built by nWise AB (Uppsala, Sweden), the App Store seller. The brief's www.tolkcontact.nl/app redirects to /tolkcontact-app/aanvragen/. Funding: the app is paid by health insurers (zorgverzekering), not by UWV or the gemeente; UWV pays the interpreters through interpreting hours. No page mentions the gemeente or the Wlz for the app or interpreters, so neither is used. Conflicts: (1) Employer price: the app's cost page says €250 a year excl. VAT; the employer page says €20.66 a month per employee (€247.92 a year). The table uses €250. (2) Privacy: the App Store label says 'no data collected', while Berengroep's privacy statement (19 Feb 2025) lists IP or MAC address, contact data, the application form (name, address, date of birth, BSN, email) and live location for 112. KPN Teletolk's own site (teletolk.nl) was not opened; Teletolk facts come from Tolkcontact's pages. Not found: speech-to-text, voice names, speaker direction, export, file upload, summaries, custom words. The app is not in the US App Store (lookup API returned no result), so appStoreUrl is the Dutch store. The App Store and Google Play listings were read but no star ratings are used. All pages opened with curl on 2026-11-02 and read as text.",
+  "icon": "/compare/icons/tolkcontact.png"
+}

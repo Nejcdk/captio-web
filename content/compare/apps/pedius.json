@@ -1,0 +1,604 @@
+{
+  "slug": "pedius",
+  "name": "Pedius",
+  "shortName": "Pedius",
+  "developer": "Pedius srl",
+  "developerCountry": "Italy (Rome)",
+  "website": "https://www.pedius.org/",
+  "appStoreUrl": "https://apps.apple.com/app/pedius/id827706039",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.client.pedius",
+  "category": "phone-call-captions",
+  "oneLine": "Italian app, since 2014, that lets deaf people make phone calls: you type and a synthetic voice speaks, and the other person's words appear as text.",
+  "facts": {
+    "platforms": {
+      "status": "yes",
+      "text": "iPhone, iPad, Android, web browser",
+      "detail": "Pedius is on the App Store and Google Play; the App Store also lists Apple silicon Macs and Apple Vision. Its privacy policy describes a web version at web.pedius.org that makes captioned calls with the same contacts.",
+      "sources": [
+        "p1",
+        "p6",
+        "p4",
+        "p14"
+      ]
+    },
+    "deviceRequirements": {
+      "status": "yes",
+      "text": "iOS 15+; Android 4.0.3+ (help page)",
+      "detail": "The Italian App Store lists iOS 15.0 or later. Pedius's help page says Android 4.0.3 and up (and iOS 9, an older figure than the store's). Calls run over 3G, 4G or Wi-Fi.",
+      "sources": [
+        "p1",
+        "p4"
+      ]
+    },
+    "roomCaptions": {
+      "status": "partial",
+      "text": "Not in the call app; Pedius Education for classes",
+      "detail": "The Pedius app is for phone calls. A separate service, Pedius Education, captions lessons in universities and schools: the student gets a tablet and a Bluetooth microphone for the teacher, arranged through a demo request. Companies can add live captions for training courses.",
+      "sources": [
+        "p10",
+        "p9",
+        "p2"
+      ]
+    },
+    "groupConversations": {
+      "status": "partial",
+      "text": "Captioned conference calls for companies",
+      "detail": "For companies, Pedius adds conference calls through Skype for Business, with captions in real time on the web and in the mobile app. Its pages don't say how the call app handles several people in one room.",
+      "sources": [
+        "p9",
+        "p3"
+      ]
+    },
+    "languages": {
+      "status": "partial",
+      "text": "Call language selectable; list not stated",
+      "detail": "You pick the language of each call in Settings or on the call screen, but Pedius doesn't list which languages it captions. The app is in Italian, Arabic, Simplified and Traditional Chinese, English, French, German, Portuguese and Spanish.",
+      "sources": [
+        "p4",
+        "p5",
+        "p1"
+      ]
+    },
+    "offline": {
+      "status": "no",
+      "text": "No, calls use 3G, 4G or Wi-Fi",
+      "detail": "Pedius says it runs on 3G, 4G and Wi-Fi networks; its pages describe no offline mode.",
+      "sources": [
+        "p4"
+      ]
+    },
+    "speakerLabels": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "A call has one other person; Pedius's pages don't say whether conference calls or Pedius Education show who is talking.",
+      "sources": []
+    },
+    "voiceNames": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Not on Pedius's pages.",
+      "sources": []
+    },
+    "speakerDirection": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Not on Pedius's pages.",
+      "sources": []
+    },
+    "translation": {
+      "status": "partial",
+      "text": "Only in Pedius Education (lessons)",
+      "detail": "In Pedius Education, foreign students can read a lesson's transcript in their own language through automatic translation. The call app's pages don't mention translation.",
+      "sources": [
+        "p10"
+      ]
+    },
+    "saveTranscripts": {
+      "status": "no",
+      "text": "No, calls aren't saved",
+      "detail": "For privacy, Pedius says conversations can't be saved; you can select and copy single messages. Pedius Education does keep lessons, in folders per course.",
+      "sources": [
+        "p4",
+        "p5",
+        "p10"
+      ]
+    },
+    "export": {
+      "status": "partial",
+      "text": "Copy single messages",
+      "detail": "You can select and copy messages from a call; there is no saved transcript to export.",
+      "sources": [
+        "p4"
+      ]
+    },
+    "fileUpload": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Not on Pedius's pages.",
+      "sources": []
+    },
+    "summaries": {
+      "status": "partial",
+      "text": "Concept maps in Pedius Education only",
+      "detail": "For lessons, Pedius Education draws concept maps and keywords from the transcript with AI and lets teachers add notes. The call app's pages mention no summaries.",
+      "sources": [
+        "p10"
+      ]
+    },
+    "customWords": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Pedius's pages don't mention adding your own words or names.",
+      "sources": []
+    },
+    "display": {
+      "status": "partial",
+      "text": "Pedius Education: font, text size, contrast",
+      "detail": "Pedius Education offers a high-readability font, text size and screen contrast. The call app's display settings are not described.",
+      "sources": [
+        "p10"
+      ]
+    },
+    "soundAlerts": {
+      "status": "partial",
+      "text": "Workplace alarm alerts (business add-on)",
+      "detail": "For companies, Pedius can send visual alarm notifications to a deaf employee's phone in an emergency, and business numbers make phones vibrate and flash on an incoming call. Recognising sounds such as a doorbell isn't mentioned.",
+      "sources": [
+        "p9"
+      ]
+    },
+    "phoneCalls": {
+      "status": "yes",
+      "text": "Yes, outgoing; incoming with a paid number",
+      "detail": "You type (read out by a synthetic voice) or speak, and the other person's words appear as text in real time; if a sentence is unclear the app shows alternatives, and an R button asks them to repeat. The basic app only makes calls; a personal number for incoming calls costs extra, and otherwise the person sees Pedius's switchboard number.",
+      "sources": [
+        "p2",
+        "p6",
+        "p4",
+        "p1"
+      ]
+    },
+    "videoCalls": {
+      "status": "partial",
+      "text": "Conference calls for companies (Skype for Business)",
+      "detail": "Companies can add captioned conference calls through Skype for Business, on request. No video calls for individual users are described.",
+      "sources": [
+        "p9",
+        "p3"
+      ]
+    },
+    "mediaOnDevice": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Not on Pedius's pages.",
+      "sources": []
+    },
+    "humanCaptioners": {
+      "status": "no",
+      "text": "No, automatic and without intermediaries",
+      "detail": "Pedius turns typed text into a synthetic voice and the reply into text with speech recognition. It describes this as calling without intermediaries: no operator joins the call.",
+      "sources": [
+        "p2",
+        "p6",
+        "p16"
+      ]
+    },
+    "signLanguage": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Pedius's pages describe calls by typing or by your own voice; they don't mention Italian Sign Language (LIS).",
+      "sources": []
+    },
+    "privacy": {
+      "status": "yes",
+      "text": "Calls run through Pedius's servers; not saved",
+      "detail": "The app sends the number you call to Pedius's servers (app.pedius.org) to set up the call, and Pedius says conversations can't be saved, for privacy. Where speech recognition runs is not stated.",
+      "sources": [
+        "p14",
+        "p4"
+      ]
+    },
+    "account": {
+      "status": "yes",
+      "text": "Yes: Google, Facebook, Apple or email",
+      "detail": "You register with Google, Facebook or an email address; Sign in with Apple was added in 2020, according to the App Store version history.",
+      "sources": [
+        "p4",
+        "p7",
+        "p1"
+      ]
+    },
+    "availability": {
+      "status": "yes",
+      "text": "Calls to 12 countries, made in Italy",
+      "detail": "Pedius's help pages list calls to Italy, the UK, Ireland, France, Spain, Austria, the US, Canada, Australia, New Zealand, Hong Kong and Brazil (the offer page leaves out Hong Kong). Emergency numbers aren't supported, except where a town made its local police control room reachable through Pedius.",
+      "sources": [
+        "p4",
+        "p5",
+        "p3"
+      ]
+    },
+    "freePlan": {
+      "status": "yes",
+      "text": "20 free minutes a month; partner services free",
+      "detail": "Every user gets 20 free minutes a month to any landline or mobile, added on the 1st and not carried over. Calls to the partner services listed in the app are free.",
+      "sources": [
+        "p3",
+        "p6",
+        "p5",
+        "p2"
+      ]
+    },
+    "price": {
+      "status": "yes",
+      "text": "€5.99 per 100 min, €29.99/year unlimited",
+      "detail": "Italian App Store, November 2026: 100 Premium minutes €5.99, Pedius Unlimited annual €29.99 (the list also shows other variants). pedius.org lists €5 per 100 minutes (valid a year) and €30 a year, by PayPal or card; TIM customers can pay €0.50 a week from phone credit. A business number for incoming calls starts at €30 a month.",
+      "sources": [
+        "p1",
+        "p3"
+      ]
+    },
+    "accessibilityFunding": {
+      "status": "partial",
+      "text": "Free calls to partner services, e.g. Civil Protection",
+      "detail": "Pedius's pages describe no public scheme that pays users' minutes. Instead, public bodies and companies pay to be reachable for free: the Civil Protection Department's contact centre (800 840 840) since October 2020, the Bank of Italy's toll-free number, AXA Assistance roadside help, BNL card blocking and TIM's 119 and 187 lines.",
+      "sources": [
+        "p15",
+        "p16",
+        "p17",
+        "p11",
+        "p12",
+        "p13",
+        "p3"
+      ]
+    }
+  },
+  "strengths": [
+    {
+      "text": "Lets deaf people phone any landline or mobile by typing (read out by a synthetic voice) or speaking, with the reply shown as text in real time.",
+      "sources": [
+        "p2",
+        "p6"
+      ]
+    },
+    {
+      "text": "20 free minutes every month, and free calls to partner services such as the Civil Protection contact centre, the Bank of Italy and AXA roadside assistance.",
+      "sources": [
+        "p3",
+        "p15",
+        "p17",
+        "p11"
+      ]
+    },
+    {
+      "text": "Unlimited calls cost €29.99 a year on the Italian App Store (November 2026).",
+      "sources": [
+        "p1"
+      ]
+    },
+    {
+      "text": "A separate service, Pedius Education, captions university and school lessons on a tablet with a Bluetooth microphone.",
+      "sources": [
+        "p10"
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "text": "The basic app can't receive calls; a personal number costs extra.",
+      "sources": [
+        "p4"
+      ]
+    },
+    {
+      "text": "Calls can't be saved, for privacy; you can only copy messages.",
+      "sources": [
+        "p4",
+        "p5"
+      ]
+    },
+    {
+      "text": "No emergency calls, except where a town has connected its local police control room to Pedius.",
+      "sources": [
+        "p4",
+        "p5"
+      ]
+    },
+    {
+      "text": "Calls go to 12 countries only.",
+      "sources": [
+        "p5",
+        "p4"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "p1",
+      "title": "Pedius (App Store, Italy)",
+      "label": "Italian App Store listing",
+      "publisher": "Apple App Store",
+      "url": "https://apps.apple.com/it/app/pedius/id827706039",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Con Pedius puoi comunicare durante una telefonata usando la tua voce oppure scrivendo: il testo che digiti viene trasformato in voce artificiale, mentre sullo schermo puoi leggere in tempo reale ciò che dice il tuo interlocutore.",
+        "Richiede iOS 15.0 o versioni successive.",
+        "Italiano, Arabo, Cinese Semplificato, Cinese Tradizionale, Francese, Inglese, Portoghese, Spagnolo, Tedesco",
+        "100 Minuti Premium 5,99 €",
+        "Pedius Unlimited Annuale 29,99 €",
+        "Aggiunta la possibilità di fare login con Apple ID",
+        "© 2014 Pedius srl"
+      ]
+    },
+    {
+      "id": "p2",
+      "title": "Home - Pedius",
+      "label": "Pedius website (Italy)",
+      "publisher": "Pedius",
+      "url": "https://www.pedius.org/it/comunicazione-accessibile-per-tutti/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Il telefono per le persone sorde",
+        "Scarica l’app e chiama tutti senza intermediari",
+        "Scrivi il tuo messaggio e Pedius lo leggerà al contatto che hai selezionato usando una voce artificiale, oppure utilizza la tua voce durante la chiamata",
+        "Grazie alla tecnologia di riconoscimento vocale di Pedius, potrai leggere in tempo reale le risposte del tuo interlocutore",
+        "Con Pedius potrai chiamare gratuitamente molti servizi di prima necessità"
+      ]
+    },
+    {
+      "id": "p3",
+      "title": "Offerta – IT",
+      "label": "Pedius plans and prices",
+      "publisher": "Pedius",
+      "url": "https://www.pedius.org/it/offerta/",
+      "type": "pricing",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "20 minuti gratis al mese",
+        "5,00€ / 100 minuti",
+        "30€ / anno",
+        "a partire da 30€ / Mese",
+        "Integrazione con Skype for Business",
+        "E’ possibile acquistare minuti aggiuntivi o il piano Unlimited utilizzando PayPal o direttamente tramite Carta di Credito.",
+        "Al momento è possibile per i clienti TIM acquistare l’abbonamento “Pedius Unlimited Settimanale”. Il costo dell’offerta è di 0,50€ a settimana e verranno addebitati direttamente sul credito residuo TIM.",
+        "L’utente Pedius potrà contattare tutti i servizi gratuitamente.",
+        "Con Pedius è possibile al momento effettuare telefonate verso Italia, Gran Bretagna, Irlanda, Francia, Spagna, Stati Uniti, Canada, Australia, Nuova Zelanda, Brasile e Austria."
+      ]
+    },
+    {
+      "id": "p4",
+      "title": "Assistenza",
+      "label": "Pedius help (Italian)",
+      "publisher": "Pedius",
+      "url": "https://www.pedius.org/it/assistenza/",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Con Pedius è possibile al momento effettuare telefonate verso Italia, Gran Bretagna, Irlanda, Francia, Spagna, Austria, Stati Uniti, Canada, Australia, Nuova Zelanda, Hong Kong e Brasile.",
+        "No, tranne per i comuni che hanno scelto di rendere accessibile la centrale operativa della propria polizia locale con Pedius.",
+        "Con la versione base di Pedius non è possibile ricevere telefonate. E’ però possibile acquistare un numero di telefono personale sul quale poter usare l’app sia per le chiamate in uscita che per quelle in entrata.",
+        "Per motivi di privacy non è possibile salvare le conversazioni. E’ possibile però selezionare e copiare i messaggi desiderati.",
+        "La persona che riceve chiamate da Pedius visualizzerà il numero del nostro centralino o, in alternativa, quello che ti è stato assegnato al momento dell’acquisto.",
+        "Apri l’app di Pedius e clicca su “Registrati”. Potrai registrarti con Google, Facebook o con la tua mail.",
+        "Dal menu Impostazioni, vai su “Lingua della chiamata” e seleziona la lingua che vuoi utilizzare durante la telefonata.",
+        "Gli utenti Pedius avranno a disposizione 20 minuti gratuiti ogni mese verso tutti numeri fissi e mobili.",
+        "E’ attualmente possibile utilizzare Pedius su tutti i dispositivi Android (versione 4.0.3 in poi) e iPhone iPad (versione iOS 9 in poi).",
+        "Sì, puoi usare Pedius su reti 3G, 4G e WiFi.",
+        "Pedius è disponibile sul Google Play Store e sull’App Store, basterà cercarlo sul tuo cellulare o sul tuo tablet per poi avviare il download."
+      ]
+    },
+    {
+      "id": "p5",
+      "title": "Help – UK",
+      "label": "Pedius help (English)",
+      "publisher": "Pedius",
+      "url": "https://www.pedius.org/en/help/",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Currently with Pedius it is possible to make calls in and to the following countries: Italy, United Kingdom, Ireland, France, Spain, the United States, Canada, Hong Kong, Australia, New Zealand, Brazil, and Austria.",
+        "We currently do not support emergency calls.",
+        "For privacy reasons it is not possible to save conversations. However, it is possible to select and copy desired messages.",
+        "All Pedius users can call all services for free.",
+        "From the Settings menu, go to “Call Language” and select the language you wish to use during the call."
+      ]
+    },
+    {
+      "id": "p6",
+      "title": "Pedius - App su Google Play",
+      "label": "Google Play listing",
+      "publisher": "Google Play",
+      "url": "https://play.google.com/store/apps/details?id=com.client.pedius&hl=it&gl=IT",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Pedius è un’applicazione mobile che consente alle persone sorde di effettuare normali telefonate verso numeri di rete fissa e cellulari.",
+        "Durante la chiamata una voce leggerà ciò che l'utente scrive e in tempo reale tutto ciò che viene detto dall' interlocutore sarà convertito in testo.",
+        "In caso la trascrizione del messaggio non risultasse sufficientemente curata, Pedius mostrerà automaticamente alcune alternative e se ciò non dovesse bastare, è possibile chiedere all’interlocutore di ripetere, premendo il pulsante “R”.",
+        "Al momento dell'installazione l'utente riceverà 20 minuti gratuiti* al mese per chiamare qualsiasi numero, fisso o mobile.",
+        "*I minuti gratuiti non sono cumulabili di mese in mese e saranno accreditati il 1 di ogni mese."
+      ]
+    },
+    {
+      "id": "p7",
+      "title": "Guida IOS – IT",
+      "label": "Pedius iPhone and iPad guide",
+      "publisher": "Pedius",
+      "url": "https://www.pedius.org/it/guida-iphone-ipad/",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Tutto quello che dovrai fare è scaricare Pedius dall’AppStore ed effettuare l’accesso con Facebook, Google o con la tua email.",
+        "Con Pedius puoi chiamare gratuitamente i servizi partner",
+        "Quando il tuo interlocutore parlerà, la sua risposta si comporrà in tempo reale sullo schermo del tuo dispositivo."
+      ]
+    },
+    {
+      "id": "p8",
+      "title": "Business",
+      "label": "Pedius for companies",
+      "publisher": "Pedius",
+      "url": "https://www.pedius.org/it/business/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Pedius aiuta le aziende a rendere accessibili alle persone sorde i servizi di assistenza clienti e abilita dei servizi specifici destinati all’inclusione lavorativa per i dipendenti non udenti.",
+        "La prima banca in Italia ad avviare una collaborazione con Pedius per consentire alle persone sorde di accedere ai servizi bancari telefonici",
+        "Consentire ai clienti non udenti di comunicare con il mondo e favorire la piena integrazione dei dipendenti nell’ambiente di lavoro"
+      ]
+    },
+    {
+      "id": "p9",
+      "title": "Inclusione lavorativa",
+      "label": "Pedius workplace inclusion",
+      "publisher": "Pedius",
+      "url": "https://www.pedius.org/it/inclusione-al-lavoro-per-dipendenti-sordi/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Supporto e integrazione con Skype for Business. Tramite l’interfaccia web e l’app mobile sarà possibile partecipare alle conferenze ricevendo in tempo reale la trascrizione dei sottotitoli.",
+        "Attivazione di un numero telefonico per ogni dipendente con chiamate in entrata e in uscita illimitate accessibili anche da web. Durante la ricezione delle chiamate, i dispositivi mobili vibreranno e attiveranno il flash della fotocamera mentre sullo schermo del pc apparirà una notifica.",
+        "Il servizio di allarme attiva una serie di notifiche visive sui dispositivi mobili del dipendente sordo, che sarà così sempre a conoscenza di eventuali situazioni di emergenza; mentre il servizio di sottotitoli live permette agli impiegati sordi di partecipare in autonomia a corsi di formazione leggendo in tempo reale la trascrizione della voce dell’insegnante."
+      ]
+    },
+    {
+      "id": "p10",
+      "title": "Education",
+      "label": "Pedius Education",
+      "publisher": "Pedius",
+      "url": "https://www.pedius.org/it/education/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Lezioni sottotitolate in tempo reale per una piena accessibilità nelle università e nelle scuole.",
+        "Lo studente verrà dotato di un tablet e di un microfono bluetooth.",
+        "Ogni lezione può essere salvata all’interno di un Corso, può essere rinominata e spostata all’interno di altre cartelle per una gestione più ordinata di tutte le lezioni.",
+        "Gli studenti stranieri possono scegliere se leggere le trascrizioni nella loro lingua madre, grazie alle traduzioni automatiche, o se avere un supporto visivo nella lingua del paese ospitante con l’ausilio dei sottotitoli.",
+        "Grazie all’AI, dai testi delle lezioni è possibile estrarre automaticamente mappe concettuali e parole chiave, nonché aggiungere a margine note e osservazioni che possono essere poi riutilizzate per futuri impieghi, come slide o dispense.",
+        "Inoltre, è possibile usare il font ad alta leggibilità leggimi © e scegliere le dimensioni del carattere o il contrasto dello schermo."
+      ]
+    },
+    {
+      "id": "p11",
+      "title": "AXA",
+      "label": "Pedius and AXA Assistance (roadside help)",
+      "publisher": "Pedius",
+      "url": "https://www.pedius.org/it/axa/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "“I servizi telefonicamente accessibili di AXA Assistance Italia riguardano il soccorso stradale ordinario e autostradale”",
+        "Attraverso l’assistenza telefonica diretta, è possibile segnalare un guasto o effettuare una richiesta di recupero del proprio veicolo."
+      ]
+    },
+    {
+      "id": "p12",
+      "title": "BNL",
+      "label": "Pedius and BNL (banking)",
+      "publisher": "Pedius",
+      "url": "https://www.pedius.org/it/bnl/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Così, tramite l’Osservatorio Tecnologico IT di BNL, è potuto entrare in contatto con Pedius per l’attivazione dei servizi di blocco e sblocco carte di credito e bancomat, informazioni commerciali e sui conti correnti."
+      ]
+    },
+    {
+      "id": "p13",
+      "title": "TIM",
+      "label": "Pedius and TIM (customer service)",
+      "publisher": "Pedius",
+      "url": "https://www.pedius.org/it/tim/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Dopo poche ore di formazione degli operatori su come rispondere a una telefonata effettuata tramite Pedius, oggi i centralini TIM ricevono richieste di informazioni su ADSL, tariffe telefoniche e guasti alle numerazioni del 119 e del 187."
+      ]
+    },
+    {
+      "id": "p14",
+      "title": "Privacy Policy di Pedius",
+      "label": "Pedius privacy policy",
+      "publisher": "Pedius",
+      "url": "https://www.iubenda.com/privacy-policy/983787/full-legal",
+      "type": "privacy",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Tramite un browser sarà possible effettuare chiamate sottottitolate utilizzando gli stessi contatti presenti nell'applicazione. Il webclient è accessibile agli utenti all'indirizzo web.pedius.org",
+        "Al fine di effettuare telefonate con Pedius l'applicazione invierà il numero telefonico selezionato all'infrastruttura Pedius (app.pedius.org).",
+        "Ultima modifica: 7 marzo 2024"
+      ]
+    },
+    {
+      "id": "p15",
+      "title": "Service Features (Contact Center)",
+      "label": "Civil Protection Department: contact centre",
+      "publisher": "Dipartimento della Protezione Civile",
+      "url": "https://www.protezionecivile.gov.it/en/department/contact-center/service-features/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Deaf people can also contact the toll-free number 800840840 autonomously. Since October 2020, by downloading the Pedius App, from Google Play and App store. The user can access for free the Contact Center service of the Department of Civil Protection and ask information to a telephone operator.",
+        "The Contact Center is an information service for citizens and does not substitute traditional emergency numbers (e.g.. 115, 112, 113, 118, etc)."
+      ]
+    },
+    {
+      "id": "p16",
+      "title": "Contact Center: available from today a service dedicated to deaf people",
+      "label": "Civil Protection Department news, 26 October 2020",
+      "publisher": "Dipartimento della Protezione Civile",
+      "url": "https://www.protezionecivile.gov.it/en/notizia/contact-center--available-from-today-a-service-dedicated-to-deaf-people/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Since October 2020, the Civil Protection Department's Contact Center, available on the toll-free number 800 840 840, can be reached - without intermediaries by deaf people through the Pedius Mobile App."
+      ]
+    },
+    {
+      "id": "p17",
+      "title": "Strumenti per migliorare la comunicazione dei cittadini sordi",
+      "label": "Bank of Italy: tools for deaf citizens",
+      "publisher": "Banca d'Italia",
+      "url": "https://www.bancaditalia.it/media/notizia/strumenti-per-migliorare-la-comunicazione-dei-cittadini-sordi/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "Per rendere più accessibile il numero verde 800 19 69 69 a disposizione della cittadinanza, la Banca d'Italia offre servizi destinati alle persone sorde attraverso una personalizzazione dell'App gratuita \"Pedius\" per smartphone e tablet."
+      ]
+    },
+    {
+      "id": "p18",
+      "title": "Call center accessibile",
+      "label": "Pedius accessible call centre",
+      "publisher": "Pedius",
+      "url": "https://www.pedius.org/it/call-center-accessibile-alle-persone-sorde/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "quotes": [
+        "All’interno dell’applicazione è presente una lista di servizi partner raggiungibili telefonicamente dall’utente."
+      ]
+    }
+  ],
+  "notes": "Conflicts: (1) Prices: the Italian App Store (version 6.1.2, July 2026) lists 100 Minuti Premium €5.99 and Pedius Unlimited Annuale €29.99, plus other in-app variants no page explains (100 Minuti Premium €39.99, Pedius Unlimited Annual €69.99, €229.99 and €39.99, 100 Premium Minutes €7.99, Spanish-named €5.99 and €34.99); pedius.org/it/offerta lists €5.00 per 100 minutes and €30 a year. The table uses the store's Italian-named products. (2) Countries: the Italian and English help pages list 12 (with Hong Kong), the offer page's FAQ lists 11 (without). (3) Emergency calls: the English help says they aren't supported; the Italian help adds 'except for municipalities that made their local police control room accessible with Pedius'. (4) Device requirements: help page says Android 4.0.3+ and iOS 9+; the App Store says iOS 15.0+. (5) Addresses: App Store and privacy-policy controller section give Via Costanza Baudana Vaccolini 14, 00153 Rome; the policy's header and Google Play give Circonvallazione Clodia 163/167, 00195 Rome. Not found: the list of partner services in the app (pedius.org shows it as images only), so Civil Protection and the Bank of Italy are sourced from their own government pages; which call languages are supported; where speech recognition runs; sign language. The App Store lists 'ALO call' by the same developer, but pedius.org doesn't mention it, so it is left out. Pedius is also in the US App Store (lookup API), so appStoreUrl is the generic link; the Italian store is the source for prices. Pedius Education (lessons) and the business services (conference calls, incoming numbers, alarm notifications) are separate offers by request, kept in the details as partial. All pages opened with curl on 2026-11-02 and read as text.",
+  "icon": "/compare/icons/pedius.png"
+}

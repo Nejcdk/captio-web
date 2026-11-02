@@ -1,0 +1,658 @@
+{
+  "slug": "koetora",
+  "name": "こえとら (Koetora)",
+  "shortName": "Koetora",
+  "developer": "FEAT Limited",
+  "developerCountry": "Japan (Minato, Tokyo)",
+  "website": "https://www.koetra.jp",
+  "appStoreUrl": "https://apps.apple.com/jp/app/id653293704",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=jp.go.nict.koetra",
+  "category": "in-person-captions",
+  "oneLine": "A free Japanese two-way conversation aid built on speech research from NICT, a government research institute: speech becomes text one turn at a time, typed text and saved phrases are read aloud, and it works offline on supported phones.",
+  "facts": {
+    "platforms": {
+      "status": "yes",
+      "text": "iPhone, iPad, Android",
+      "detail": "On the App Store for iPhone and iPad, and on Google Play for Android. An English version, KoeTra, is a separate iPhone app.",
+      "sources": [
+        "k1",
+        "k4",
+        "k7",
+        "k20"
+      ]
+    },
+    "deviceRequirements": {
+      "status": "yes",
+      "text": "iOS 13.0+ or Android 10+",
+      "detail": "Speech recognition without internet needs the same versions, and on Android at least 1 GB of memory.",
+      "sources": [
+        "k7",
+        "k1",
+        "k5"
+      ]
+    },
+    "roomCaptions": {
+      "status": "partial",
+      "text": "One turn at a time, about 20 seconds each",
+      "detail": "Tap Answer by voice and speak; recording stops by itself after about 20 seconds, or when you stop talking if that setting is on. Each spoken turn becomes one message on the screen.",
+      "sources": [
+        "k9",
+        "k13",
+        "k5",
+        "k6"
+      ]
+    },
+    "groupConversations": {
+      "status": "partial",
+      "text": "Each person on their own phone: nearby or online chat",
+      "detail": "Several phones can connect so each person speaks or types on their own device, and every phone keeps the history. Nearby chat over Bluetooth is iPhone only; internet chat between registered users takes up to 10 people a room.",
+      "sources": [
+        "k1",
+        "k11",
+        "k12"
+      ]
+    },
+    "languages": {
+      "status": "partial",
+      "text": "Japanese; English in a separate app (KoeTra)",
+      "detail": "Koetora is the Japanese app. KoeTra, the English version, is a separate iPhone app. Other spoken languages are not described.",
+      "sources": [
+        "k5",
+        "k19",
+        "k20"
+      ]
+    },
+    "offline": {
+      "status": "yes",
+      "text": "Yes, on iOS 13+ and Android 10+ (1 GB)",
+      "detail": "Speech recognition and the synthesized voice work without internet on these phones, and everything except the map works offline. When connected, a setting uses the higher-performance online recognition. After the 2024 Noto earthquake, FEAT pointed out that a downloaded app works without internet.",
+      "sources": [
+        "k7",
+        "k13",
+        "k5"
+      ]
+    },
+    "speakerLabels": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Telling speakers apart on one phone is not described. In a chat, each person uses their own phone.",
+      "sources": [
+        "k1",
+        "k12"
+      ]
+    },
+    "voiceNames": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Remembering people by their voice is not described.",
+      "sources": [
+        "k6"
+      ]
+    },
+    "speakerDirection": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Showing which direction a voice comes from is not described.",
+      "sources": [
+        "k6"
+      ]
+    },
+    "translation": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Translation between languages is not described.",
+      "sources": [
+        "k6"
+      ]
+    },
+    "saveTranscripts": {
+      "status": "yes",
+      "text": "History on the phone",
+      "detail": "Every conversation is kept in a history you can browse by calendar or as a list, and each connected phone keeps its own.",
+      "sources": [
+        "k10",
+        "k1"
+      ]
+    },
+    "export": {
+      "status": "partial",
+      "text": "History emailed as text",
+      "detail": "The history can be attached to an email as text.",
+      "sources": [
+        "k10"
+      ]
+    },
+    "fileUpload": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Transcribing audio or video files is not described.",
+      "sources": [
+        "k6"
+      ]
+    },
+    "summaries": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Summaries are not described.",
+      "sources": [
+        "k6"
+      ]
+    },
+    "customWords": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Saved phrases (定型文) are sentences to send, with swappable words; adding words for speech recognition is not described.",
+      "sources": [
+        "k6",
+        "k16"
+      ]
+    },
+    "display": {
+      "status": "partial",
+      "text": "Hiragana-only option, drawings, emoji",
+      "detail": "A setting shows recognised speech in hiragana and katakana only. You can also draw, show a place on a map, or add emoji. Text size settings are not described.",
+      "sources": [
+        "k13",
+        "k6"
+      ]
+    },
+    "soundAlerts": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "A vibration can mark when your text is being read aloud; alerts for sounds like a doorbell are not described.",
+      "sources": [
+        "k13"
+      ]
+    },
+    "phoneCalls": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Its remote feature is a chat between registered users, not a phone call.",
+      "sources": [
+        "k12"
+      ]
+    },
+    "videoCalls": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Captioning video calls is not described.",
+      "sources": [
+        "k6"
+      ]
+    },
+    "mediaOnDevice": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Captioning audio playing on the phone is not described.",
+      "sources": [
+        "k6"
+      ]
+    },
+    "humanCaptioners": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "Human captioners are not described; text comes from speech recognition, typing and saved phrases.",
+      "sources": [
+        "k6"
+      ]
+    },
+    "signLanguage": {
+      "status": "not_stated",
+      "text": "Not stated",
+      "detail": "It is meant for talking with people who don't sign; no sign language feature is described.",
+      "sources": [
+        "k1"
+      ]
+    },
+    "privacy": {
+      "status": "partial",
+      "text": "Cloud or on the phone; input not stored, per policy",
+      "detail": "Speech recognition and synthesis run in the cloud when online, and on the phone when offline. The privacy policy says only usage history, device information (with an ID) and chat account details are stored; spoken words, text, drawings and locations are not. The App Store privacy label lists audio data and precise location as collected.",
+      "sources": [
+        "k7",
+        "k8",
+        "k1"
+      ]
+    },
+    "account": {
+      "status": "partial",
+      "text": "Not needed; internet chat needs registration",
+      "detail": "Conversations on one phone need no account. Internet chat needs a user ID, an email address and a display name.",
+      "sources": [
+        "k10",
+        "k12"
+      ]
+    },
+    "availability": {
+      "status": "partial",
+      "text": "Japan: Japanese App Store and Google Play",
+      "detail": "The App Store lookup finds Koetora in the Japanese store but not in the US store (November 2026). Its support site is in Japanese.",
+      "sources": [
+        "k2",
+        "k3",
+        "k4"
+      ]
+    },
+    "freePlan": {
+      "status": "yes",
+      "text": "Free, with no paid features",
+      "detail": "Free for individuals; you pay only your own mobile data. Using it as an organisation needs FEAT's permission.",
+      "sources": [
+        "k7",
+        "k8",
+        "k17",
+        "k2"
+      ]
+    },
+    "price": {
+      "status": "no",
+      "text": "None",
+      "detail": "No paid plan or in-app purchase is listed on the Japanese App Store (November 2026).",
+      "sources": [
+        "k1",
+        "k2"
+      ]
+    },
+    "accessibilityFunding": {
+      "status": "partial",
+      "text": "Free; sponsored by telecoms, built on NICT research",
+      "detail": "Built on speech research from NICT, a Japanese government research institute, which released it in June 2013 and transferred it to FEAT in January 2015, as announced by the Ministry of Internal Affairs and Communications. Telecom companies sponsor it so individuals use it for free, and FEAT added standing donations in August 2026.",
+      "sources": [
+        "k18",
+        "k15",
+        "k17"
+      ]
+    }
+  },
+  "strengths": [
+    {
+      "text": "Free for individuals, with no paid plan; telecom companies sponsor it.",
+      "sources": [
+        "k15",
+        "k17",
+        "k2"
+      ]
+    },
+    {
+      "text": "Speech recognition and the synthesized voice work without internet on supported phones.",
+      "sources": [
+        "k7"
+      ]
+    },
+    {
+      "text": "Two-way: typed text and saved phrases are read aloud in a male or female voice, and the other person can answer by voice, text, drawing, map or a ready-made choice.",
+      "sources": [
+        "k6",
+        "k13",
+        "k14"
+      ]
+    },
+    {
+      "text": "Built on NICT speech research, and its expansion was announced by the Ministry of Internal Affairs and Communications.",
+      "sources": [
+        "k18"
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "text": "Speech becomes text one turn at a time, up to about 20 seconds per turn.",
+      "sources": [
+        "k9",
+        "k5"
+      ]
+    },
+    {
+      "text": "The app is Japanese; the English version is a separate iPhone app.",
+      "sources": [
+        "k19",
+        "k20",
+        "k5"
+      ]
+    },
+    {
+      "text": "Organisations need FEAT's permission to use it.",
+      "sources": [
+        "k8"
+      ]
+    },
+    {
+      "text": "Nearby chat over Bluetooth works on iPhone only.",
+      "sources": [
+        "k11"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "k1",
+      "title": "こえとら (App Store, Japan)",
+      "publisher": "Apple App Store",
+      "url": "https://apps.apple.com/jp/app/id653293704",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "App Store listing (Japan)",
+      "quotes": [
+        "聴障者と健聴者のコミュニケーションをサポートするアプリです。",
+        "聴障者が健聴者とコミュニケーションする方法としては筆談が一般的ですが、時間がかかる、面倒などの理由で、聴障者が必要な情報を得られないことがあります。",
+        "・手話ができない人と簡単に会話できます",
+        "複数台の端末をお互い接続し合うことで各端末で会話が出来ます。",
+        "・それぞれの端末に会話の履歴が残ります",
+        "iOS 13.0以降が必要です。",
+        "日本語と英語",
+        "オーディオデータ",
+        "詳細な位置情報"
+      ]
+    },
+    {
+      "id": "k2",
+      "title": "こえとら (App Store lookup data, Japan)",
+      "publisher": "Apple",
+      "url": "https://itunes.apple.com/lookup?id=653293704&country=jp",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "App Store data (Japan)",
+      "quotes": [
+        "\"releaseDate\":\"2013-06-11T07:00:00Z\"",
+        "\"sellerName\":\"FEAT Limited\"",
+        "\"formattedPrice\":\"無料\"",
+        "\"minimumOsVersion\":\"13.0\""
+      ]
+    },
+    {
+      "id": "k3",
+      "title": "こえとら (App Store lookup data, US)",
+      "publisher": "Apple",
+      "url": "https://itunes.apple.com/lookup?id=653293704&country=us",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "App Store data (US)",
+      "quotes": [
+        "\"resultCount\":0"
+      ]
+    },
+    {
+      "id": "k4",
+      "title": "こえとら (Google Play, Japan)",
+      "publisher": "Google Play",
+      "url": "https://play.google.com/store/apps/details?id=jp.go.nict.koetra&hl=ja&gl=JP",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Google Play listing (Japan)",
+      "quotes": [
+        "聴障者と健聴者のコミュニケーションをサポートするアプリです。",
+        "第三者と共有されるデータはありません",
+        "位置情報、個人情報、他 5 件"
+      ]
+    },
+    {
+      "id": "k5",
+      "title": "こえとらアプリサポートページ",
+      "publisher": "FEAT Limited",
+      "url": "https://www.koetra.jp/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Koetora support site",
+      "quotes": [
+        "【変更内容】アプリの対応OSバージョンを Android 10 以降に変更しました。軽微な修正を行いました。",
+        "【新機能】①音声入力できる時間の上限が「20秒（旧10秒）」に。②テキスト入力できる文字数の上限が「250文字（旧100文字）」に。",
+        "iOS版バージョン6.6.0、英語版（iOS版のみ）5.2.0、及び、Android版バージョン2.4.0を公開しました。",
+        "このたび、石川県能登地方で発生した、令和６年能登半島地震で被災された皆さまに心よりお見舞い申し上げます。",
+        "「こえとら」アプリは、スマートホンに事前にダウンロードしておいていただくと、インターネットに接続できない状況においてもご利用可能です。",
+        "窓口での対応などで便利な聴障者とのコミュニケーション支援アプリ"
+      ]
+    },
+    {
+      "id": "k6",
+      "title": "こえとらの特長",
+      "publisher": "FEAT Limited",
+      "url": "https://www.koetra.jp/characteristic.htm",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Koetora features",
+      "quotes": [
+        "キーボードで文を打たなくても音声で入力することができます。",
+        "相手の人が文字を読まなくても伝わります。",
+        "・絵や地図で示して情報を伝えることができます",
+        "よく使う文を定型文として登録しておけば、すばやく呼び出して使うことができます。",
+        "絵文字を使うことで感情なども相手に伝えることができます。",
+        "複数台の端末をお互い接続し合うことで各端末で会話ができます。"
+      ]
+    },
+    {
+      "id": "k7",
+      "title": "よくある質問",
+      "publisher": "FEAT Limited",
+      "url": "https://www.koetra.jp/FAQ.htm",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Koetora FAQ",
+      "quotes": [
+        "インターネットに繋がっていなくても音声認識は使えますか？",
+        "・iOS : iOS 13.0、iPad OS 13 以降の iPhone、または iPad",
+        "・Android : Android 10.0 以降、及び、搭載メモリ1GB以上のAndroid端末",
+        "iOS 13.0以上、及び、Android 10.0以上の端末に対応しています。",
+        "音声認識、音声合成をクラウドで処理するためデータ通信料がかかります。",
+        "音声認識、音声合成、地図表示以外の機能は全て使えます。",
+        "なお、端末の機種によっては、ネットワークに繋がっていなくても音声認識と音声合成の機能が使えます。"
+      ]
+    },
+    {
+      "id": "k8",
+      "title": "利用規約・プライバシーポリシー",
+      "publisher": "FEAT Limited",
+      "url": "https://www.koetra.jp/attention.htm",
+      "type": "privacy",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Koetora terms and privacy policy",
+      "quotes": [
+        "本利用規約に同意した者（以下「利用者」といいます）は、個人利用目的のために本アプリを利用できます。法人等が組織的に利用する場合は別途当社の許諾が必要です。",
+        "本アプリの操作履歴（使用した機能の記録）、端末情報（固有ID含む）、および、遠隔チャットのアカウント情報（メールアドレス、ユーザID、表示名、写真）のみが当社が運用するサーバに記録されます。",
+        "その他の入力された音声や文、図形、写真、単語、定型文、地図、位置情報は、一切サーバに記録されません。",
+        "本アプリで取得したデータを第三者に提供したり公開することは一切ありません。",
+        "本アプリ・本サービスの利用のための通信料は、利用者の負担となります。"
+      ]
+    },
+    {
+      "id": "k9",
+      "title": "音声で会話しよう (iOS manual)",
+      "publisher": "FEAT Limited",
+      "url": "https://www.koetra.jp/manual/manual05.htm",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Manual: talking by voice (Koetora)",
+      "quotes": [
+        "『音声で答える』を押すと、録音モードに切り替わります。",
+        "録音は約20秒間です。20秒たつと自動的に録音が終了します。"
+      ]
+    },
+    {
+      "id": "k10",
+      "title": "画面の説明 (iOS manual)",
+      "publisher": "FEAT Limited",
+      "url": "https://www.koetra.jp/manual/manual01.htm",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Manual: the screens (Koetora)",
+      "quotes": [
+        "今までの会話した文章などのすべての履歴が見られます。",
+        "履歴の表示方法はカレンダー表示とリスト表示があります。",
+        "履歴はテキストとしてメールに添付して送信することができます。",
+        "インターネットを利用して、登録したユーザ同士でチャットができます。"
+      ]
+    },
+    {
+      "id": "k11",
+      "title": "近くの人とチャットをしてみよう(iOSのみ)",
+      "publisher": "FEAT Limited",
+      "url": "https://www.koetra.jp/manual/manual12.htm",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Manual: nearby chat (Koetora)",
+      "quotes": [
+        "近くの人とチャットをしてみよう(iOSのみ)",
+        "ここでは１台のiPhone を中心にして複数のiPhone をつないでチャットを行う方法を説明します。",
+        "あらかじめ端末のBluetooth機能を『ON』にします。"
+      ]
+    },
+    {
+      "id": "k12",
+      "title": "インターネットで友達とチャットしてみよう",
+      "publisher": "FEAT Limited",
+      "url": "https://www.koetra.jp/manual/manual20.htm",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Manual: internet chat (Koetora)",
+      "quotes": [
+        "ユーザID(*1)・メールアドレス・表示名を入力し登録を押します。",
+        "1つのチャットルームの参加人数は10人までです。",
+        "タスクバーにある項目『音声入力・文字入力・定型文・その他』を利用して自分に合った方法で会話をしてください"
+      ]
+    },
+    {
+      "id": "k13",
+      "title": "会話の設定をしてみよう",
+      "publisher": "FEAT Limited",
+      "url": "https://www.koetra.jp/manual/manual19.htm",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Manual: conversation settings (Koetora)",
+      "quotes": [
+        "オンの場合、入力した文章がすぐに読み上げられます。",
+        "会話を読み上げるときに端末がブルッとします。",
+        "男性の声・女性の声が選べます。(*1)",
+        "オンの場合、話し終わると自動的に録音が終了します。(*3)",
+        "オンの場合、ネットにつながっているときは高性能な音声認識が使用されます。(*4)",
+        "オンの場合、音声認識結果がひらがなとカタカナのみで表示されます。"
+      ]
+    },
+    {
+      "id": "k14",
+      "title": "返事をしてもらおう",
+      "publisher": "FEAT Limited",
+      "url": "https://www.koetra.jp/manual/manual08.htm",
+      "type": "help",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Manual: getting a reply (Koetora)",
+      "quotes": [
+        "返事の方法は音声・文字・絵や字・地図といった色々な方法がありますので相手に選んでもらいましょう。",
+        "オレンジ色の『＞』のボタンをタップすると登録された選択肢もでてきますので相手に好きな返事を選んでもらうことも可能です。"
+      ]
+    },
+    {
+      "id": "k15",
+      "title": "協賛・関係機関",
+      "publisher": "FEAT Limited",
+      "url": "https://www.koetra.jp/support.htm",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Koetora sponsors",
+      "quotes": [
+        "このアプリは、電気通信分野における障がい者支援の普及を目的として開始され、以下の電気通信事業者のみなさまのご協賛によって提供されています。"
+      ]
+    },
+    {
+      "id": "k16",
+      "title": "定型文ダウンロード",
+      "publisher": "FEAT Limited",
+      "url": "https://www.koetra.jp/download.htm",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Phrasebook downloads (Koetora)",
+      "quotes": [
+        "こえとらのver4.0から「定型文ダウンロード機能」がつきました。",
+        "交通系_電車・バス",
+        "交通系_タクシー",
+        "職場のオアシス",
+        "置き換えられる文字列: \"郵便局\", 候補: [\"トイレ\", \"銀行\", \"交番\"]"
+      ]
+    },
+    {
+      "id": "k17",
+      "title": "こえとらアプリお知らせページ",
+      "publisher": "FEAT Limited",
+      "url": "https://www.koetra.jp/oshirase.html",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Koetora announcements",
+      "quotes": [
+        "「こえとら」は 2015年2月の運営開始から10年以上にわたり、電気通信事業者様等のご協賛により個人の利用者の皆さまに無料でご提供してまいりました。",
+        "これからも「こえとら」を必要とする全ての方へ無料で届け続けるため、より多くの皆さまに支えていただける仕組みづくりの第一歩として、クラウドファンディング（常設寄付）を開始いたしました。"
+      ]
+    },
+    {
+      "id": "k18",
+      "title": "聴覚障害者支援アプリ「こえとら」を機能拡充 (報道資料, 2015年2月25日)",
+      "publisher": "Ministry of Internal Affairs and Communications (総務省)",
+      "url": "https://www.soumu.go.jp/menu_news/s-news/01kiban05_02000088.html",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "Ministry of Internal Affairs and Communications press release",
+      "quotes": [
+        "「こえとら」は、NICTの高精度音声認識技術及び高品質音声合成技術を用いて開発されたもので、聴覚障害者が健聴者等との間で、文字と音声を互いに変換し合うことで円滑なコミュニケーションができるよう支援するアプリです。",
+        "平成25年6月からNICTによりiOSアプリとして提供が開始され、その後も利用者からの意見をもとに改良が行われてきました。",
+        "また、本年1月にNICTから株式会社フィートに技術移転され、各OSのアプリストア（App Store又はGoogle Play）において無償で提供されています。"
+      ]
+    },
+    {
+      "id": "k19",
+      "title": "KoeTra (English support page)",
+      "publisher": "FEAT Limited",
+      "url": "https://www.koetra.jp/en/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "KoeTra English page",
+      "quotes": [
+        "\"KoeTra\" supports smooth communication by utilizing both speech recognition and speech synthesis technology."
+      ]
+    },
+    {
+      "id": "k20",
+      "title": "KoeTra (App Store lookup data, US)",
+      "publisher": "Apple",
+      "url": "https://itunes.apple.com/lookup?id=887773763&country=us",
+      "type": "store",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "KoeTra App Store data (US)",
+      "quotes": [
+        "\"trackName\":\"KoeTra\"",
+        "\"sellerName\":\"FEAT Limited\""
+      ]
+    },
+    {
+      "id": "k21",
+      "title": "会社概要",
+      "publisher": "FEAT Limited",
+      "url": "https://www.feat-ltd.jp/company/",
+      "type": "official",
+      "opened": true,
+      "checked": "2026-11-02",
+      "label": "FEAT company profile",
+      "quotes": [
+        "〒105‐0012 東京都港区芝大門１丁目２番８号 NOVEL WORK Shibadaimon ８階"
+      ]
+    }
+  ],
+  "notes": "Conflicts: (1) Privacy: the privacy policy (1 April 2026) says spoken words, text, drawings, maps and locations entered in the app are never recorded on its servers, while the Japanese App Store privacy label lists audio data, precise location, usage data and a user ID as collected and linked to the user; the table quotes both. (2) App Store language codes list English and Japanese for the Japanese app, but FEAT's site presents English as a separate iPhone app, KoeTra (version 5.3.2, July 2025); spoken languages beyond Japanese are not described for Koetora. (3) The 2015 Ministry press release lists KDDI among the sponsors; the current sponsors page lists NTT docomo, SoftBank, Rakuten Mobile, NTT East and NTT West (and the site added Daito Trust in 2025); the table says telecom companies. Not found: text size settings, translation, file transcription, summaries, any paid feature. FEAT is researching a feature that shows a speaker's emotion (survey July to August 2026); not in the table because it is not released. FEAT also makes SpeechCanvas for counters, a separate app not compared here. Not used: download counts on the support site, store ratings and reviews. The App Store page lists Apple Vision as compatible; the table uses iPhone, iPad and Android. All pages opened 2026-11-02 with curl (the Ministry page converted from Shift_JIS); the Android manual pages were not opened separately.",
+  "icon": "/compare/icons/koetora.png"
+}
