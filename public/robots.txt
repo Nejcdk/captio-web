@@ -1,8 +1,11 @@
 User-agent: *
 Allow: /
+# The image optimizer's addresses carry a deploy id, so every deploy makes new
+# ones: crawlers spent their visits on them instead of our pages (Bing: "limited
+# crawl capacity"). Pictures worth indexing have fixed addresses (/app/, /*.png).
+Disallow: /_next/image
 # Other apps' icons on the compare pages are for people reading them, not for
 # image search: indexed on captioai.app they get shown as Captio AI's picture.
 Disallow: /compare/icons/
-Disallow: /_next/image?url=%2Fcompare%2Ficons%2F
 
 Sitemap: https://captioai.app/sitemap.xml
