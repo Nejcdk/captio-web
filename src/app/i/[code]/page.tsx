@@ -23,7 +23,7 @@ const normalize = (code: string) => code.toUpperCase().replace(/[^A-Z0-9]/g, "")
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const code = normalize((await params).code);
   const title = "You've been invited to Captio AI";
-  const description = "Get 1 week of Plus, free. Live captions for any conversation, on your phone.";
+  const description = "Live captions for any conversation, on your phone.";
   return {
     title: { absolute: title },
     description,
@@ -54,7 +54,7 @@ export default async function ReferralPage({ params }: Props) {
             <Image src="/owl-gift.png" alt="" width={168} height={168} priority />
           </div>
           <p className="mt-4 text-[15px] font-medium text-gray-500">You&apos;ve been invited</p>
-          <h1 className="mt-1 text-[32px] font-bold leading-tight text-gray-900">1 week of Plus, free</h1>
+          <h1 className="mt-1 text-[32px] font-bold leading-tight text-gray-900">See every word</h1>
           <p className="mx-auto mt-3 max-w-sm text-[16px] leading-snug text-gray-600">
             Captio AI turns any conversation into live captions on your phone.
           </p>
