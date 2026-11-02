@@ -2,8 +2,9 @@
 // The automatic gate for social posts. A post that fails here is never sent to
 // Zernio. Rules and why they exist: content/social/README.md.
 //
-//   node scripts/social-check.mjs            every post
-//   node scripts/social-check.mjs --online   also opens each post's page
+//   node scripts/social-check.mjs                 every post
+//   node scripts/social-check.mjs <id> [<id>]     only these (still compared with every post)
+//   node scripts/social-check.mjs --online [...]  also opens each checked post's page
 import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -111,9 +112,16 @@ async function checkPages(posts) {
   return errors;
 }
 
-const posts = loadPosts();
+const all = loadPosts();
+const ids = process.argv.slice(2).filter((a) => !a.startsWith("--"));
+const posts = ids.length ? all.filter((p) => ids.includes(p.id)) : all;
+const missing = ids.filter((id) => !all.some((p) => p.id === id));
+if (missing.length) {
+  console.log(`No post file for: ${missing.join(", ")}`);
+  process.exit(1);
+}
 let failed = 0;
-const sets = posts.map((p) => [p.id, phrases(p)]);
+const sets = all.map((p) => [p.id, phrases(p)]);
 for (const post of posts) {
   const errors = checkPost(post);
   const mine = sets.find(([id]) => id === post.id)[1];

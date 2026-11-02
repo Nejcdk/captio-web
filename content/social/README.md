@@ -40,6 +40,12 @@ The renderer adds the end card, the alt text and the page link.
 
 Order: home, features, use cases and Organizations, then the blog, the 60 language pages, the YouTube series' 10 languages across all use cases, the other 50 languages, and the comparisons last. Use case x language pages are interleaved so two posts in a row never share a use case or a language. A page that appears later, like a new blog article, goes to the front.
 
+## Every day
+1. 03:00 UTC, the cloud routine "Captio AI daily social posts" follows `DAILY.md`: writes the next posts from `pages.json` (keeping about 10 waiting), has a separate reviewer check them, and pushes the ones that pass to `main`.
+2. 06:15 UTC, the GitHub Action `social-publish` refreshes `pages.json` from the sitemap, records what earlier posts did (`sync`: published with links, or failed), then renders, checks and schedules today's posts in Zernio and commits `pages.json` and `scheduled.json`.
+
+`pace.json` sets the slots (UTC): 2 a day for 14 days from 3 November 2026, then 3 a day for 14 days, then 5. `"paused": true` stops all scheduling; posts already scheduled stay in Zernio until deleted. Before scheduling, the Action asks Zernio for every caption it holds, so a post is never sent twice even if `scheduled.json` were lost. A failed post is never resent automatically, because Instagram often publishes one that reported a failure: the run fails, GitHub emails the owner, and a person decides. `LOG.md` has one line per writer run; `blocked.json` lists pages the writer gave up on after three review rounds.
+
 ## Publishing
 Zernio publishes to Instagram and the Facebook Page. `scripts/social-zernio.mjs` uploads a rendered post's images with their alt text and sets its caption. It has no "publish now": a post is either a draft or scheduled at least 10 minutes ahead, and `scheduled.json` stops one being scheduled twice. Zernio's validator checks every post against each platform's rules before it is sent. The same post sent twice within 24 hours returns the first one. The key is `ZERNIO_API_KEY`, in `.env.local` on a Mac, which git ignores.
 
@@ -49,6 +55,9 @@ npm run social:render
 npm run social:check
 npm run social:zernio -- accounts
 npm run social:zernio -- validate
+npm run social:zernio -- plan
+npm run social:zernio -- next --dry
+npm run social:zernio -- sync
 npm run social:zernio -- draft spanish-live-captions
 npm run social:zernio -- schedule spanish-live-captions 2026-11-05T09:00:00Z
 npm run social:zernio -- status <zernio id>

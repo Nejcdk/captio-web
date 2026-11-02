@@ -5,7 +5,8 @@
 // goes to the front.
 //
 //   node scripts/social-pages.mjs           refresh the list, print coverage
-//   node scripts/social-pages.mjs --next 5  the next 5 pages without a post
+//   node scripts/social-pages.mjs --next 5  the next 5 pages without a post (reads
+//                                           the list only, works offline)
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -13,6 +14,8 @@ import { loadPosts } from "./social-render.mjs";
 
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const LIST = path.join(ROOT, "content/social/pages.json");
+// Pages the writer gave up on after three review rounds, with the reason.
+const BLOCKED = path.join(ROOT, "content/social/blocked.json");
 const SITEMAP = "https://captioai.app/sitemap.xml";
 
 // Captio AI is for in-person speech, so the calls use case gets no posts.
@@ -107,12 +110,16 @@ async function build() {
   return pages;
 }
 
-const pages = await build();
 const n = process.argv.indexOf("--next");
 if (n > -1) {
   const count = Number(process.argv[n + 1]) || 1;
-  for (const p of pages.filter((x) => !x.post).slice(0, count)) console.log(`${p.type} ${p.page}`);
+  const written = new Set(loadPosts().map((p) => p.page));
+  const blocked = existsSync(BLOCKED) ? JSON.parse(readFileSync(BLOCKED, "utf8")) : {};
+  const list = JSON.parse(readFileSync(LIST, "utf8"));
+  const next = list.filter((p) => !written.has(p.page) && !blocked[p.page]).slice(0, count);
+  for (const p of next) console.log(`${p.type} ${p.page}`);
 } else {
+  const pages = await build();
   const done = pages.filter((p) => p.post).length;
   const types = {};
   for (const p of pages) types[p.type] = (types[p.type] ?? 0) + 1;

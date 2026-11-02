@@ -1,0 +1,74 @@
+# Every morning: refresh the page list from the live sitemap, record what the
+# earlier posts did, then render, check and schedule today's posts in Zernio.
+# The writing happens earlier in the cloud routine (content/social/DAILY.md);
+# this only publishes posts that are written and reviewed. Pause it with
+# "paused": true in content/social/pace.json. A failed run emails the owner.
+name: Social publish
+
+on:
+  schedule:
+    - cron: "15 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: social-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
+      CHROME_PATH: /usr/bin/google-chrome
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      - name: Refresh the page list
+        run: node scripts/social-pages.mjs
+
+      - name: Record what earlier posts did
+        id: sync
+        continue-on-error: true
+        run: node scripts/social-zernio.mjs sync
+
+      - name: Pick today's posts
+        id: plan
+        run: echo "ids=$(node scripts/social-zernio.mjs plan | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
+
+      - name: Render and check them
+        if: steps.plan.outputs.ids != ' ' && steps.plan.outputs.ids != ''
+        run: |
+          node scripts/social-render.mjs ${{ steps.plan.outputs.ids }}
+          node scripts/social-check.mjs --online ${{ steps.plan.outputs.ids }}
+
+      - name: Schedule them in Zernio
+        if: steps.plan.outputs.ids != ' ' && steps.plan.outputs.ids != ''
+        run: node scripts/social-zernio.mjs next
+
+      - name: Save the record
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/social/pages.json content/social/scheduled.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Social: schedule and status"
+          git pull --rebase
+          git push
+
+      - name: Fail if an earlier post failed
+        if: steps.sync.outcome == 'failure'
+        run: |
+          echo "::error::A post failed or an account is disconnected. See the 'Record what earlier posts did' step."
+          exit 1
