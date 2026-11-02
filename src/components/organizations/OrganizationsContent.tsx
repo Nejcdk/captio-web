@@ -5,7 +5,6 @@ import FaqAccordion from "@/components/FaqAccordion";
 import LocaleShell from "@/components/LocaleShell";
 import { PilotForm } from "./PilotForm";
 import { PhoneVideo } from "./PhoneVideo";
-import { DirectionMock, SoundsMock, VoicesMock } from "./FeatureMocks";
 import { OrgHeader } from "./OrgHeader";
 import { languageName, languageOptions, pagePath, type Messages } from "@/i18n";
 import { ENGLISH, LOCALES } from "@/i18n/locales";
@@ -19,10 +18,12 @@ import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbS
 // heard of the app (Nejc 2026-10-28): its own header (logo, "for
 // Organizations", language menu, one button, no site menu), then the hero
 // (Nejc 2026-11-02): the heading, three small phones under it (live captions,
-// live translation, named speakers) and the pilot form beside them. Then the three main features with their videos, every
-// caption language, Recognize voices / Speaker direction / Recognize sounds as
-// small drawings, why organizations choose it, the pilot steps with the form
-// again, prices, data, FAQ, and a last banner with the form a third time.
+// live translation, transcription) and the pilot form beside them. Right under
+// it Recognize voices / Speaker direction / Recognize sounds, each with a real
+// picture of the app (Nejc 2026-11-02: pictures, not drawings), then every
+// caption language, the three main features with their videos, why
+// organizations choose it, the pilot steps with the form again, prices, data,
+// FAQ, and a last banner with the form a third time.
 // The words present the app and what it does, never "your people will…"
 // (Nejc 2026-11-02). All words come from src/i18n/organizations/<code>.json.
 // Yearly per-person licenses, paid by invoice, for any organization that pays
@@ -31,8 +32,9 @@ import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbS
 // name the speech provider here (business secret); /privacy lists them.
 // The pilot starts from the form (PilotForm.tsx): the link to forward is
 // emailed at once in this page's language, people join at /o/<code>.
-// Hero phones: the site's app pictures (src/lib/appImages.ts). Videos: the
-// app's onboarding loops in public/organizations (PhoneVideo.tsx).
+// Phones in the hero and the features: the site's app pictures
+// (src/lib/appImages.ts). Videos: the app's onboarding loops in
+// public/organizations (PhoneVideo.tsx).
 
 const DPA_MAILTO = "mailto:hello@captioai.app?subject=Captio%20AI%20data%20processing%20agreement";
 const ADDRESS = "hello@captioai.app";
@@ -44,7 +46,9 @@ const PRICES = [
 
 const FEATURE_VIDEOS = ["captions", "translate", "upload"] as const;
 const REASON_ICONS = ["⚡", "📱", "🔒", "🧾"];
-const MOCKS = [VoicesMock, DirectionMock, SoundsMock];
+// One real app picture per feature in t.awareness.items: named speakers,
+// speaker direction, a sound written into the captions.
+const FEATURE_PICTURES = ["RV_mockup_3.png", "SD_mockup_3.png", "RS_mockup_1.png"].map(appImage);
 
 // Every language the site (and live captions) has, with its flag: shown, not linked.
 const FLAGS = new Map(languagePages.map((l) => [l.languageSlug, l.flag]));
@@ -100,9 +104,9 @@ export default function OrganizationsContent({ code, t, m }: { code: string; t: 
   const currency = orgCurrency(code);
   const others = (["gbp", "eur", "usd"] as const).filter((c) => c !== currency);
   const heroPhones = [
-    { image: appImage("RS_mockup_1.png"), label: t.features.items[0].label },
+    { image: appImage("LC_mockup_4.png"), label: t.features.items[0].label },
     { image: appImage("LT_mockup_3.png"), label: t.features.items[1].label },
-    { image: appImage("RV_mockup_3.png"), label: t.awareness.items[0].title },
+    { image: appImage("AS_mockup_3.png"), label: t.features.items[2].label },
   ];
   const captionLanguages = [ENGLISH, ...LOCALES].map((l) => ({
     code: l.code,
@@ -164,24 +168,36 @@ export default function OrganizationsContent({ code, t, m }: { code: string; t: 
           </div>
         </section>
 
-        {/* ── The three main features ── */}
-        <section id="how" className="pt-4 pb-14 px-6 bg-white scroll-mt-4">
+        {/* ── More than captions: each feature with its own app picture ── */}
+        {/* Nejc 2026-11-02: right under the hero, a real picture of the app for
+            each feature (not drawings), then the languages. */}
+        <section className="pt-4 pb-14 px-6 bg-white">
           <div className="max-w-6xl mx-auto">
-            <SectionTitle eyebrow={t.features.eyebrow} title={t.features.title} subtitle={t.features.subtitle} />
+            <SectionTitle eyebrow={t.awareness.eyebrow} title={t.awareness.title} subtitle={t.awareness.subtitle} />
             {/* Phones: a row to swipe through; larger screens: three columns. */}
             <div className="-mx-6 px-6 flex gap-5 overflow-x-auto snap-x snap-mandatory pb-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:mx-0 sm:px-0 sm:grid sm:grid-cols-3 sm:gap-8 sm:overflow-visible sm:pb-0">
-              {t.features.items.map((f, i) => (
-                <div key={FEATURE_VIDEOS[i]} className="w-[68%] shrink-0 snap-center sm:w-auto flex flex-col items-center text-center gap-5">
-                  <div className="w-full max-w-[200px] sm:max-w-[220px]">
-                    <PhoneVideo name={FEATURE_VIDEOS[i]} label={`Captio AI: ${f.label}`} />
+              {t.awareness.items.map((item, i) => {
+                const image = FEATURE_PICTURES[i];
+                return (
+                  <div key={item.title} className="w-[68%] shrink-0 snap-center sm:w-auto flex flex-col items-center text-center gap-5">
+                    <div className="w-full max-w-[200px] sm:max-w-[230px]">
+                      <Image
+                        src={image.src}
+                        alt={`Captio AI: ${item.title}`}
+                        width={image.width}
+                        height={image.height}
+                        unoptimized
+                        className="h-auto w-full select-none"
+                      />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-gray-900 text-lg">{item.title}</h3>
+                      <p className="mt-1.5 text-sm text-gray-500 leading-relaxed max-w-xs mx-auto">{item.description}</p>
+                      <p className="mt-2 text-xs font-semibold text-brand">{item.where}</p>
+                    </div>
                   </div>
-                  <div>
-                    <span className="text-xs font-bold text-cta uppercase tracking-widest">{f.label}</span>
-                    <h3 className="mt-1.5 font-bold text-gray-900 text-lg">{f.title}</h3>
-                    <p className="mt-1.5 text-sm text-gray-500 leading-relaxed max-w-xs mx-auto">{f.description}</p>
-                  </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
           </div>
         </section>
@@ -201,26 +217,24 @@ export default function OrganizationsContent({ code, t, m }: { code: string; t: 
           </div>
         </section>
 
-        {/* ── Made for people who can't hear the room ── */}
-        <section className="pb-14 px-6 bg-white">
+        {/* ── The three main features ── */}
+        <section id="how" className="pb-14 px-6 bg-white scroll-mt-4">
           <div className="max-w-6xl mx-auto">
-            <SectionTitle eyebrow={t.awareness.eyebrow} title={t.awareness.title} subtitle={t.awareness.subtitle} />
-            <div className="grid sm:grid-cols-3 gap-5">
-              {t.awareness.items.map((item, i) => {
-                const Mock = MOCKS[i];
-                return (
-                  <div key={item.title} className="rounded-xl border border-gray-200 bg-white p-5 flex flex-col gap-4">
-                    <div className="rounded-[10px] bg-gray-50 p-4 min-h-[150px] flex flex-col justify-center">
-                      <Mock d={t.awareness.drawing} />
-                    </div>
-                    <div>
-                      <h3 className="font-bold text-gray-900 text-lg">{item.title}</h3>
-                      <p className="mt-1.5 text-sm text-gray-500 leading-relaxed">{item.description}</p>
-                      <p className="mt-2 text-xs font-semibold text-brand">{item.where}</p>
-                    </div>
+            <SectionTitle eyebrow={t.features.eyebrow} title={t.features.title} subtitle={t.features.subtitle} />
+            {/* Phones: a row to swipe through; larger screens: three columns. */}
+            <div className="-mx-6 px-6 flex gap-5 overflow-x-auto snap-x snap-mandatory pb-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:mx-0 sm:px-0 sm:grid sm:grid-cols-3 sm:gap-8 sm:overflow-visible sm:pb-0">
+              {t.features.items.map((f, i) => (
+                <div key={FEATURE_VIDEOS[i]} className="w-[68%] shrink-0 snap-center sm:w-auto flex flex-col items-center text-center gap-5">
+                  <div className="w-full max-w-[200px] sm:max-w-[220px]">
+                    <PhoneVideo name={FEATURE_VIDEOS[i]} label={`Captio AI: ${f.label}`} />
                   </div>
-                );
-              })}
+                  <div>
+                    <span className="text-xs font-bold text-cta uppercase tracking-widest">{f.label}</span>
+                    <h3 className="mt-1.5 font-bold text-gray-900 text-lg">{f.title}</h3>
+                    <p className="mt-1.5 text-sm text-gray-500 leading-relaxed max-w-xs mx-auto">{f.description}</p>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </section>

@@ -34,18 +34,7 @@
       { "title": "Sabe quem está falando", "description": "Basta salvar uma vez a voz de uma pessoa, com cerca de 20 segundos de fala, para que as legendas mostrem o nome dela em vez de “Falante 2”, ao vivo e nas gravações salvas. As vozes são criadas e ficam no celular.", "where": "iPhone" },
       { "title": "Mostra de onde vem a voz", "description": "Ondas na borda da tela mostram de que lado vem uma voz, na cor de quem está falando, para saber para onde olhar em um ambiente movimentado.", "where": "iPhone 16 e posteriores" },
       { "title": "Ouve os sons ao redor", "description": "Os sons aparecem nas legendas, como nas legendas de filmes. Uma campainha, um alarme ou um bebê chorando também fazem o celular vibrar.", "where": "iPhone e iPad" }
-    ],
-    "drawing": {
-      "otherName": "Ana",
-      "me": "Eu",
-      "voicesLine1": "Podemos passar a reunião para sexta?",
-      "voicesLine2": "Pode ser na sexta.",
-      "directionLine": "Estou aqui, à sua esquerda.",
-      "soundsBefore": "Nos vemos às três.",
-      "sound": "[campainha tocando]",
-      "soundsAfter": "Quem será?",
-      "vibrates": "O celular vibra"
-    }
+    ]
   },
   "reasons": {
     "eyebrow": "Para a sua organização",

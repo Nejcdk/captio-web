@@ -34,18 +34,7 @@
       { "title": "Žino, kas kalba", "description": "Vieną kartą išsaugokite žmogaus balsą (užtenka maždaug 20 sekundžių jo kalbos), ir subtitruose vietoj „Kalbėtojas 2“ bus rodomas jo vardas, tiek gyvai, tiek išsaugotuose įrašuose. Balso atspaudai sukuriami ir saugomi pačiame telefone.", "where": "iPhone" },
       { "title": "Rodo, iš kur sklinda balsas", "description": "Bangos ekrano pakraštyje to kalbėtojo spalva rodo, iš kurios pusės sklinda balsas, todėl triukšmingoje patalpoje aišku, kur žiūrėti.", "where": "iPhone 16 ir naujesni" },
       { "title": "Girdi aplinkos garsus", "description": "Garsai subtitruose rodomi taip, kaip filmų subtitruose. Durų skambutis, signalizacija ar verkiantis kūdikis dar ir suvirpina telefoną.", "where": "iPhone ir iPad" }
-    ],
-    "drawing": {
-      "otherName": "Rūta",
-      "me": "Aš",
-      "voicesLine1": "Gal perkeliam susitikimą į penktadienį?",
-      "voicesLine2": "Man penktadienis tinka.",
-      "directionLine": "Aš čia, tavo kairėje.",
-      "soundsBefore": "Iki trečios.",
-      "sound": "[skamba durų skambutis]",
-      "soundsAfter": "Kas ten?",
-      "vibrates": "Telefonas suvirpa"
-    }
+    ]
   },
   "reasons": {
     "eyebrow": "Jūsų organizacijai",

@@ -34,18 +34,7 @@
       { "title": "知道谁在说话", "description": "只需保存一次某个人约 20 秒的说话声音，字幕就会显示这个人的名字，而不是“说话人 2”，实时字幕和保存的录音都是如此。声音特征在手机上生成，也只保存在手机上。", "where": "iPhone" },
       { "title": "显示声音来自哪里", "description": "屏幕边缘的波形会用说话人的颜色，显示声音来自哪一侧，在人多嘈杂的房间里，该看向哪里也一目了然。", "where": "iPhone 16 及更新机型" },
       { "title": "听见周围的声音", "description": "声音会像电影字幕那样出现在字幕中。门铃、警报或婴儿哭声还会让手机振动。", "where": "iPhone 和 iPad" }
-    ],
-    "drawing": {
-      "otherName": "小雨",
-      "me": "我",
-      "voicesLine1": "会议能改到周五吗？",
-      "voicesLine2": "周五我可以。",
-      "directionLine": "我在这儿，你左边。",
-      "soundsBefore": "三点见。",
-      "sound": "[门铃响]",
-      "soundsAfter": "谁啊？",
-      "vibrates": "手机振动"
-    }
+    ]
   },
   "reasons": {
     "eyebrow": "为您的机构",

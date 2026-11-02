@@ -34,18 +34,7 @@
       { "title": "Biết ai đang nói", "description": "Lưu giọng của một người một lần, từ khoảng 20 giây họ nói, và phụ đề sẽ hiện tên người đó thay vì “Người nói 2”, cả khi trực tiếp lẫn trong bản ghi đã lưu. Giọng nói được tạo và lưu ngay trên điện thoại.", "where": "iPhone" },
       { "title": "Cho thấy giọng nói ở đâu", "description": "Những làn sóng ở mép màn hình cho thấy giọng nói đến từ phía nào, bằng màu của người nói đó, để biết nên nhìn về đâu trong căn phòng đông người.", "where": "iPhone 16 trở lên" },
       { "title": "Nghe được âm thanh xung quanh", "description": "Âm thanh hiện trong phụ đề giống như phụ đề phim. Chuông cửa, chuông báo động hay tiếng em bé khóc còn làm điện thoại rung.", "where": "iPhone và iPad" }
-    ],
-    "drawing": {
-      "otherName": "Lan",
-      "me": "Tôi",
-      "voicesLine1": "Mình dời cuộc họp sang thứ Sáu nhé?",
-      "voicesLine2": "Thứ Sáu thì được.",
-      "directionLine": "Mình ở đây, bên trái bạn.",
-      "soundsBefore": "Hẹn gặp lúc ba giờ.",
-      "sound": "[chuông cửa reo]",
-      "soundsAfter": "Ai vậy nhỉ?",
-      "vibrates": "Điện thoại rung"
-    }
+    ]
   },
   "reasons": {
     "eyebrow": "Cho tổ chức của Quý vị",

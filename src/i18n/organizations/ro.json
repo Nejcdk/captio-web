@@ -34,18 +34,7 @@
       { "title": "Știe cine vorbește", "description": "Salvați o singură dată vocea unei persoane, din aproximativ 20 de secunde de vorbire, iar subtitrările îi arată numele în loc de „Vorbitor 2”, live și în înregistrările salvate. Vocile sunt create și păstrate pe telefon.", "where": "iPhone" },
       { "title": "Arată de unde vine vocea", "description": "Undele de pe marginea ecranului arată din ce parte vine o voce, în culoarea vorbitorului respectiv, ca să fie clar încotro trebuie privit într-o încăpere aglomerată.", "where": "iPhone 16 și modelele mai noi" },
       { "title": "Aude sunetele din jur", "description": "Sunetele apar în subtitrări așa cum apar în subtitrările filmelor. O sonerie, o alarmă sau un bebeluș care plânge fac și telefonul să vibreze.", "where": "iPhone și iPad" }
-    ],
-    "drawing": {
-      "otherName": "Ana",
-      "me": "Eu",
-      "voicesLine1": "Putem muta ședința vineri?",
-      "voicesLine2": "Vineri îmi convine.",
-      "directionLine": "Sunt aici, în stânga ta.",
-      "soundsBefore": "Ne vedem la trei.",
-      "sound": "[sună soneria]",
-      "soundsAfter": "Cine e?",
-      "vibrates": "Telefonul vibrează"
-    }
+    ]
   },
   "reasons": {
     "eyebrow": "Pentru organizația dumneavoastră",

@@ -34,18 +34,7 @@
       { "title": "Weet wie praat", "description": "Stoor iemand se stem een keer, uit sowat 20 sekondes waarin hulle praat, en die onderskrifte wys hul naam in plaas van “Spreker 2”, regstreeks en in gestoorde opnames. Stemme word op die foon self gemaak en gehou.", "where": "iPhone" },
       { "title": "Wys waar die stem vandaan kom", "description": "Golwe aan die rand van die skerm wys van watter kant ’n stem kom, in daardie spreker se kleur, sodat dit duidelik is waarheen om te kyk in ’n besige vertrek.", "where": "iPhone 16 en nuwer" },
       { "title": "Hoor die klanke rondom hulle", "description": "Klanke verskyn in die onderskrifte, soos in filmonderskrifte. ’n Deurklokkie, ’n alarm of ’n huilende baba laat die foon ook vibreer.", "where": "iPhone en iPad" }
-    ],
-    "drawing": {
-      "otherName": "Liezl",
-      "me": "Ek",
-      "voicesLine1": "Kan ons die vergadering na Vrydag skuif?",
-      "voicesLine2": "Vrydag pas my.",
-      "directionLine": "Ek is hier, aan jou linkerkant.",
-      "soundsBefore": "Sien jou om drie.",
-      "sound": "[deurklokkie lui]",
-      "soundsAfter": "Wie is dit?",
-      "vibrates": "Die foon vibreer"
-    }
+    ]
   },
   "reasons": {
     "eyebrow": "Vir u organisasie",

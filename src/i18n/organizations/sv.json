@@ -34,18 +34,7 @@
       { "title": "Vet vem som talar", "description": "Spara en persons röst en gång, från ungefär 20 sekunders tal, så visar undertexterna personens namn i stället för ”Talare 2”, både live och i sparade inspelningar. Rösterna skapas och sparas i mobilen.", "where": "iPhone" },
       { "title": "Visar var rösten kommer ifrån", "description": "Vågor i skärmens kant visar från vilket håll en röst kommer, i den talarens färg, så att man vet vart man ska titta i ett rum fullt av folk.", "where": "iPhone 16 och senare" },
       { "title": "Hör ljuden runt omkring", "description": "Ljud visas i undertexterna på samma sätt som i textade filmer. En dörrklocka, ett larm eller ett gråtande barn får också mobilen att vibrera.", "where": "iPhone och iPad" }
-    ],
-    "drawing": {
-      "otherName": "Elin",
-      "me": "Jag",
-      "voicesLine1": "Kan vi flytta mötet till fredag?",
-      "voicesLine2": "Fredag passar mig.",
-      "directionLine": "Jag är här, till vänster om dig.",
-      "soundsBefore": "Vi ses klockan tre.",
-      "sound": "[dörrklockan ringer]",
-      "soundsAfter": "Vem är det?",
-      "vibrates": "Mobilen vibrerar"
-    }
+    ]
   },
   "reasons": {
     "eyebrow": "För din organisation",

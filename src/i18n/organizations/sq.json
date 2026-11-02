@@ -34,18 +34,7 @@
       { "title": "E di kush po flet", "description": "Ruani një herë zërin e dikujt, nga rreth 20 sekonda të folur, dhe titrat shfaqin emrin e personit në vend të «Folësi 2», live dhe në regjistrimet e ruajtura. Zërat krijohen dhe ruhen në telefon.", "where": "iPhone" },
       { "title": "Tregon nga vjen zëri", "description": "Valët në skajin e ekranit tregojnë nga cila anë vjen zëri, me ngjyrën e atij folësi, që në një dhomë plot njerëz të dihet ku duhet parë.", "where": "iPhone 16 e më të rinj" },
       { "title": "Dëgjon tingujt përreth", "description": "Tingujt shkruhen në titra, si në titrat e filmave. Zilja e derës, një alarm ose një foshnjë që qan e bëjnë edhe telefonin të dridhet.", "where": "iPhone dhe iPad" }
-    ],
-    "drawing": {
-      "otherName": "Ana",
-      "me": "Unë",
-      "voicesLine1": "E kalojmë takimin të premten?",
-      "voicesLine2": "E premtja më shkon mirë.",
-      "directionLine": "Jam këtu, në të majtën tënde.",
-      "soundsBefore": "Shihemi në tre.",
-      "sound": "[bie zilja e derës]",
-      "soundsAfter": "Kush është?",
-      "vibrates": "Telefoni dridhet"
-    }
+    ]
   },
   "reasons": {
     "eyebrow": "Për organizatën tuaj",

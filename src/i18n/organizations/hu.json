@@ -34,18 +34,7 @@
       { "title": "Tudja, ki beszél", "description": "Elég egyszer elmenteni valakinek a hangját, nagyjából 20 másodpercnyi beszédből, és a felirat a „2. beszélő” helyett az illető nevét mutatja, élőben és a mentett felvételekben is. A hangminták a telefonon készülnek, és ott is maradnak.", "where": "iPhone" },
       { "title": "Megmutatja, honnan jön a hang", "description": "A képernyő szélén megjelenő hullámok a beszélő színében mutatják, melyik oldalról jön a hang, így egy zsúfolt helyiségben is tudni lehet, merre kell nézni.", "where": "iPhone 16 és újabb" },
       { "title": "Hallja a környezet hangjait", "description": "A hangok úgy jelennek meg a feliratban, ahogy a filmfeliratokban. Csengő, riasztás vagy síró baba esetén a telefon rezeg is.", "where": "iPhone és iPad" }
-    ],
-    "drawing": {
-      "otherName": "Anna",
-      "me": "Én",
-      "voicesLine1": "Áttehetjük a megbeszélést péntekre?",
-      "voicesLine2": "Nekem jó a péntek.",
-      "directionLine": "Itt vagyok, tőled balra.",
-      "soundsBefore": "Háromkor találkozunk.",
-      "sound": "[csengetnek]",
-      "soundsAfter": "Ki az?",
-      "vibrates": "A telefon rezeg"
-    }
+    ]
   },
   "reasons": {
     "eyebrow": "Az Ön szervezetének",

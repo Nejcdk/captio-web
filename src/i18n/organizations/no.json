@@ -34,18 +34,7 @@
       { "title": "Vet hvem som snakker", "description": "Lagre stemmen til en person én gang, fra rundt 20 sekunder med tale, så viser tekstingen navnet i stedet for «Taler 2», både direkte og i lagrede opptak. Stemmene lages og lagres på telefonen.", "where": "iPhone" },
       { "title": "Viser hvor stemmen kommer fra", "description": "Bølger i kanten av skjermen viser fra hvilken side en stemme kommer, i fargen til den som snakker, så man vet hvor man skal se i et travelt rom.", "where": "iPhone 16 og nyere" },
       { "title": "Hører lydene rundt dem", "description": "Lyder vises i tekstingen slik filmteksting gjør det. En dørklokke, en alarm eller en baby som gråter, får også telefonen til å vibrere.", "where": "iPhone og iPad" }
-    ],
-    "drawing": {
-      "otherName": "Nora",
-      "me": "Meg",
-      "voicesLine1": "Kan vi flytte møtet til fredag?",
-      "voicesLine2": "Fredag passer for meg.",
-      "directionLine": "Jeg er her borte, til venstre for deg.",
-      "soundsBefore": "Vi ses klokka tre.",
-      "sound": "[dørklokken ringer]",
-      "soundsAfter": "Hvem er det?",
-      "vibrates": "Telefonen vibrerer"
-    }
+    ]
   },
   "reasons": {
     "eyebrow": "For organisasjonen din",

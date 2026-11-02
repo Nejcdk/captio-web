@@ -34,18 +34,7 @@
       { "title": "Sabe quién habla", "description": "Basta con guardar una vez la voz de una persona, con unos 20 segundos hablando, para que los subtítulos muestren su nombre en lugar de “Hablante 2”, en vivo y en las grabaciones guardadas. Las voces se crean y se guardan en el teléfono.", "where": "iPhone" },
       { "title": "Muestra de dónde viene la voz", "description": "Unas ondas en el borde de la pantalla indican de qué lado viene una voz, con el color de ese hablante, para saber adónde mirar en una sala concurrida.", "where": "iPhone 16 y posteriores" },
       { "title": "Oye los sonidos de alrededor", "description": "Los sonidos aparecen en los subtítulos, como en los subtítulos de las películas. Un timbre, una alarma o un bebé llorando también hacen vibrar el teléfono.", "where": "iPhone y iPad" }
-    ],
-    "drawing": {
-      "otherName": "Ana",
-      "me": "Yo",
-      "voicesLine1": "¿Pasamos la reunión al viernes?",
-      "voicesLine2": "El viernes me va bien.",
-      "directionLine": "Estoy aquí, a tu izquierda.",
-      "soundsBefore": "Nos vemos a las tres.",
-      "sound": "[suena el timbre]",
-      "soundsAfter": "¿Quién será?",
-      "vibrates": "El teléfono vibra"
-    }
+    ]
   },
   "reasons": {
     "eyebrow": "Para su organización",

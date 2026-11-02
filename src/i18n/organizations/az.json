@@ -34,18 +34,7 @@
       { "title": "Kimin danışdığını bilir", "description": "Bir nəfərin səsini bir dəfə, təxminən 20 saniyəlik danışığından yadda saxlayın, subtitrlərdə “Danışan 2” əvəzinə onun adı görünəcək, həm canlı, həm də saxlanılmış yazılarda. Səslər telefonda yaradılır və orada saxlanılır.", "where": "iPhone" },
       { "title": "Səsin haradan gəldiyini göstərir", "description": "Ekranın kənarındakı dalğalar səsin hansı tərəfdən gəldiyini həmin danışanın rəngində göstərir, beləcə səs-küylü otaqda hara baxmaq lazım olduğu bilinir.", "where": "iPhone 16 və daha yeniləri" },
       { "title": "Ətrafdakı səsləri eşidir", "description": "Səslər subtitrlərdə filmlərin subtitrlərindəki kimi görünür. Qapı zəngi, siqnalizasiya və ya ağlayan körpə həm də telefonu titrədir.", "where": "iPhone və iPad" }
-    ],
-    "drawing": {
-      "otherName": "Leyla",
-      "me": "Mən",
-      "voicesLine1": "Görüşü cüməyə keçirək?",
-      "voicesLine2": "Cümə mənə uyğundur.",
-      "directionLine": "Buradayam, solunda.",
-      "soundsBefore": "Saat üçdə görüşərik.",
-      "sound": "[qapı zəngi çalır]",
-      "soundsAfter": "Bu kimdir?",
-      "vibrates": "Telefon titrəyir"
-    }
+    ]
   },
   "reasons": {
     "eyebrow": "Təşkilatınız üçün",

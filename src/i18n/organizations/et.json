@@ -34,18 +34,7 @@
       { "title": "Teab, kes räägib", "description": "Salvestage inimese hääl üks kord (piisab umbes 20 sekundist tema kõnest) ja subtiitrites on „Kõneleja 2“ asemel tema nimi, nii otse kui ka salvestistes. Hääled luuakse ja hoitakse telefonis.", "where": "iPhone" },
       { "title": "Näitab, kust hääl tuleb", "description": "Lained ekraani serval näitavad selle kõneleja värvis, kummalt poolt hääl tuleb, nii et rahvarohkes ruumis on selge, kuhu vaadata.", "where": "iPhone 16 ja uuemad" },
       { "title": "Kuuleb ümbritsevaid helisid", "description": "Helid ilmuvad subtiitritesse nagu filmisubtiitrites. Uksekell, häire või nutv beebi paneb ka telefoni värisema.", "where": "iPhone ja iPad" }
-    ],
-    "drawing": {
-      "otherName": "Mari",
-      "me": "Mina",
-      "voicesLine1": "Kas saame koosoleku reedele tõsta?",
-      "voicesLine2": "Reede sobib mulle.",
-      "directionLine": "Ma olen siin, sinust vasakul.",
-      "soundsBefore": "Kohtume kell kolm.",
-      "sound": "[uksekell heliseb]",
-      "soundsAfter": "Kes see on?",
-      "vibrates": "Telefon väriseb"
-    }
+    ]
   },
   "reasons": {
     "eyebrow": "Teie organisatsioonile",

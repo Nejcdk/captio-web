@@ -34,18 +34,7 @@
       { "title": "Zna ko govori", "description": "Sačuvajte nečiji glas jednom, iz otprilike 20 sekundi govora, i titlovi umjesto „Govornik 2“ prikazuju ime te osobe, uživo i u sačuvanim snimcima. Glasovi se prave i čuvaju na mobitelu.", "where": "iPhone" },
       { "title": "Pokazuje odakle dolazi glas", "description": "Valovi na rubu ekrana pokazuju s koje strane dolazi glas, u boji tog govornika, pa se u prostoriji punoj ljudi zna gdje pogledati.", "where": "iPhone 16 i noviji" },
       { "title": "Čuje zvukove iz okoline", "description": "Zvukovi se upisuju u titlove, kao u filmskim titlovima. Zvono na vratima, alarm ili plač bebe uz to pokreću i vibraciju mobitela.", "where": "iPhone i iPad" }
-    ],
-    "drawing": {
-      "otherName": "Ana",
-      "me": "Ja",
-      "voicesLine1": "Može li sastanak u petak?",
-      "voicesLine2": "Petak mi odgovara.",
-      "directionLine": "Tu sam, s tvoje lijeve strane.",
-      "soundsBefore": "Vidimo se u tri.",
-      "sound": "[zvoni na vratima]",
-      "soundsAfter": "Ko je to?",
-      "vibrates": "Mobitel vibrira"
-    }
+    ]
   },
   "reasons": {
     "eyebrow": "Za vašu organizaciju",

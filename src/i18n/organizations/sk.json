@@ -34,18 +34,7 @@
       { "title": "Vie, kto hovorí", "description": "Hlas človeka stačí uložiť raz, z približne 20 sekúnd jeho reči, a titulky potom namiesto „Hovoriaci 2“ ukazujú jeho meno, naživo aj v uložených nahrávkach. Hlasy vznikajú a zostávajú v telefóne.", "where": "iPhone" },
       { "title": "Ukazuje, odkiaľ hlas prichádza", "description": "Vlny na okraji obrazovky ukazujú vo farbe daného hovoriaceho, z ktorej strany hlas prichádza, takže je jasné, kam sa v rušnej miestnosti pozrieť.", "where": "iPhone 16 a novší" },
       { "title": "Počuje zvuky naokolo", "description": "Zvuky sa objavujú v titulkoch tak, ako to robia titulky vo filmoch. Zvonček, alarm alebo plačúce bábätko navyše rozvibrujú telefón.", "where": "iPhone a iPad" }
-    ],
-    "drawing": {
-      "otherName": "Jana",
-      "me": "Ja",
-      "voicesLine1": "Môžeme poradu presunúť na piatok?",
-      "voicesLine2": "Piatok mi vyhovuje.",
-      "directionLine": "Som tu, po tvojej ľavici.",
-      "soundsBefore": "Uvidíme sa o tretej.",
-      "sound": "[zvoní zvonček]",
-      "soundsAfter": "Kto to je?",
-      "vibrates": "Telefón vibruje"
-    }
+    ]
   },
   "reasons": {
     "eyebrow": "Pre vašu organizáciu",

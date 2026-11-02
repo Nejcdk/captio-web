@@ -34,18 +34,7 @@
       { "title": "Sap qui parla", "description": "Deseu la veu d’una persona un sol cop, amb uns 20 segons d’ella parlant, i els subtítols mostraran el seu nom en lloc de «Parlant 2», en directe i a les gravacions desades. Les veus es creen i es guarden al mòbil.", "where": "iPhone" },
       { "title": "Mostra d’on ve la veu", "description": "Unes ones a la vora de la pantalla indiquen de quin costat ve una veu, amb el color d’aquell parlant, perquè se sàpiga on mirar en una sala plena de gent.", "where": "iPhone 16 i posteriors" },
       { "title": "Sent els sons del voltant", "description": "Els sons apareixen als subtítols com als subtítols de les pel·lícules. Un timbre, una alarma o un nadó que plora també fan vibrar el mòbil.", "where": "iPhone i iPad" }
-    ],
-    "drawing": {
-      "otherName": "Laia",
-      "me": "Jo",
-      "voicesLine1": "Podem passar la reunió a divendres?",
-      "voicesLine2": "Divendres em va bé.",
-      "directionLine": "Soc aquí, a la teva esquerra.",
-      "soundsBefore": "Ens veiem a les tres.",
-      "sound": "[sona el timbre]",
-      "soundsAfter": "Qui deu ser?",
-      "vibrates": "El mòbil vibra"
-    }
+    ]
   },
   "reasons": {
     "eyebrow": "Per a la vostra organització",
