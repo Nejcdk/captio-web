@@ -33,7 +33,7 @@ export default function TermsPage() {
         <Header />
         <div className="max-w-3xl mx-auto px-6 py-16">
       <h1 className="text-3xl font-bold mb-2">Terms of Service</h1>
-      <p className="text-sm text-gray-500 mb-10">Last updated: November 1, 2026</p>
+      <p className="text-sm text-gray-500 mb-10">Last updated: November 2, 2026</p>
 
       <P>
         These Terms of Service (&ldquo;Terms&rdquo;) govern your access to and use of the Captio AI apps for iPhone
@@ -163,14 +163,13 @@ export default function TermsPage() {
           haven&rsquo;t been paid for don&rsquo;t count. A reward is never more than 90% of what that person paid.
         </li>
         <li>
-          <strong>When you get paid.</strong> Rewards are held for 30 days after the payment, in case it is refunded.
-          After that we send a link to the email address on your account, where you choose how to receive the money
-          (for example, a prepaid Visa card, PayPal, or a gift card). Rewards are paid in US dollars through our
-          payout provider, Tremendous, whose own terms apply to the reward. The options offered can differ by country.
+          <strong>How you get paid.</strong> As soon as the person you referred pays, we email you at the address on
+          your account and send the reward in US dollars by PayPal, to the PayPal address you give us. If you can&rsquo;t
+          receive PayPal payments, reply to that email and we&rsquo;ll find another way to pay you.
         </li>
         <li>
-          <strong>Refunds.</strong> If the payment is refunded during the 30 days, there is no reward. If it is
-          refunded after you were paid, that amount is taken off your next payout.
+          <strong>Refunds.</strong> If the payment is refunded before you are paid, there is no reward. If it is
+          refunded after you were paid, that amount is taken off your next reward.
         </li>
         <li>
           <strong>Who can take part.</strong> Each account and each device counts once, and you can&rsquo;t refer
