@@ -34,18 +34,7 @@
       { "title": "Zina, kurš runā", "description": "Vienreiz saglabājiet cilvēka balsi (pietiek ar apmēram 20 sekundēm runas), un subtitros „Runātājs 2” vietā būs redzams viņa vārds gan tiešraidē, gan saglabātos ierakstos. Balss paraugi tiek izveidoti un glabāti tālrunī.", "where": "iPhone" },
       { "title": "Rāda, no kurienes nāk balss", "description": "Viļņi ekrāna malā runātāja krāsā rāda, no kuras puses nāk balss, lai pārpildītā telpā būtu skaidrs, kur skatīties.", "where": "iPhone 16 un jaunāki" },
       { "title": "Dzird apkārtējās skaņas", "description": "Skaņas parādās subtitros tāpat kā filmu subtitros. Durvju zvans, signalizācija vai raudošs mazulis arī liek tālrunim novibrēt.", "where": "iPhone un iPad" }
-    ],
-    "drawing": {
-      "otherName": "Ilze",
-      "me": "Es",
-      "voicesLine1": "Varam pārcelt sapulci uz piektdienu?",
-      "voicesLine2": "Man piektdiena der.",
-      "directionLine": "Es esmu te, tev pa kreisi.",
-      "soundsBefore": "Tiekamies trijos.",
-      "sound": "[skan durvju zvans]",
-      "soundsAfter": "Kas tur ir?",
-      "vibrates": "Tālrunis vibrē"
-    }
+    ]
   },
   "reasons": {
     "eyebrow": "Jūsu organizācijai",

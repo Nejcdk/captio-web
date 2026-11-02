@@ -34,18 +34,7 @@
       { "title": "Ve, kdo govori", "description": "Glas osebe enkrat shranite, iz približno 20 sekund govora, in podnapisi namesto »Govorec 2« pokažejo njeno ime, v živo in v shranjenih posnetkih. Glasovi nastanejo in ostanejo na telefonu.", "where": "iPhone" },
       { "title": "Pokaže, od kod prihaja glas", "description": "Valovi na robu zaslona pokažejo, s katere strani prihaja glas, v barvi tega govorca, zato je v polnem prostoru jasno, kam pogledati.", "where": "iPhone 16 in novejši" },
       { "title": "Sliši zvoke v okolici", "description": "Zvoki se pojavijo v podnapisih tako, kot jih zapisujejo filmski podnapisi. Ob zvoncu na vratih, alarmu ali joku dojenčka telefon tudi zavibrira.", "where": "iPhone in iPad" }
-    ],
-    "drawing": {
-      "otherName": "Ana",
-      "me": "Jaz",
-      "voicesLine1": "Lahko sestanek prestavimo na petek?",
-      "voicesLine2": "Petek mi ustreza.",
-      "directionLine": "Tu sem, na tvoji levi.",
-      "soundsBefore": "Se vidimo ob treh.",
-      "sound": "[zvonec zvoni]",
-      "soundsAfter": "Kdo je to?",
-      "vibrates": "Telefon zavibrira"
-    }
+    ]
   },
   "reasons": {
     "eyebrow": "Za vašo organizacijo",

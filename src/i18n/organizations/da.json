@@ -34,18 +34,7 @@
       { "title": "Ved, hvem der taler", "description": "Gem en persons stemme én gang, ud fra cirka 20 sekunders tale, så viser underteksterne personens navn i stedet for “Taler 2”, både live og i gemte optagelser. Stemmerne bliver lavet og gemt på telefonen.", "where": "iPhone" },
       { "title": "Viser, hvor stemmen kommer fra", "description": "Bølger i kanten af skærmen viser, fra hvilken side en stemme kommer, i den talers farve, så man ved, hvor man skal kigge i et travlt rum.", "where": "iPhone 16 og nyere" },
       { "title": "Hører lydene omkring dem", "description": "Lyde vises i underteksterne, sådan som filmundertekster gør det. En dørklokke, en alarm eller en grædende baby får også telefonen til at vibrere.", "where": "iPhone og iPad" }
-    ],
-    "drawing": {
-      "otherName": "Ida",
-      "me": "Mig",
-      "voicesLine1": "Kan vi flytte mødet til fredag?",
-      "voicesLine2": "Fredag passer mig fint.",
-      "directionLine": "Jeg er herovre, til venstre for dig.",
-      "soundsBefore": "Vi ses klokken tre.",
-      "sound": "[dørklokken ringer]",
-      "soundsAfter": "Hvem er det?",
-      "vibrates": "Telefonen vibrerer"
-    }
+    ]
   },
   "reasons": {
     "eyebrow": "Til din organisation",

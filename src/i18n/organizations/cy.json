@@ -34,18 +34,7 @@
       { "title": "Yn gwybod pwy sy’n siarad", "description": "Cadwch lais rhywun unwaith, o tua 20 eiliad ohonyn nhw’n siarad, a bydd y capsiynau’n dangos eu henw yn lle “Siaradwr 2”, yn fyw ac mewn recordiadau sydd wedi’u cadw. Mae’r lleisiau’n cael eu creu a’u cadw ar y ffôn.", "where": "iPhone" },
       { "title": "Yn dangos o ble mae’r llais yn dod", "description": "Mae tonnau ar ymyl y sgrin yn dangos o ba ochr mae llais yn dod, yn lliw’r siaradwr hwnnw, fel ei bod hi’n glir ble i edrych mewn ystafell brysur.", "where": "iPhone 16 a mwy newydd" },
       { "title": "Yn clywed y synau o’u cwmpas", "description": "Mae synau’n ymddangos yn y capsiynau fel mewn isdeitlau ffilm. Mae cloch y drws, larwm neu fabi’n crio hefyd yn gwneud i’r ffôn ddirgrynu.", "where": "iPhone ac iPad" }
-    ],
-    "drawing": {
-      "otherName": "Elin",
-      "me": "Fi",
-      "voicesLine1": "Gawn ni symud y cyfarfod i ddydd Gwener?",
-      "voicesLine2": "Mae dydd Gwener yn iawn i fi.",
-      "directionLine": "Dw i fan hyn, ar dy chwith.",
-      "soundsBefore": "Wela i di am dri.",
-      "sound": "[cloch y drws yn canu]",
-      "soundsAfter": "Pwy sy ’na?",
-      "vibrates": "Mae’r ffôn yn dirgrynu"
-    }
+    ]
   },
   "reasons": {
     "eyebrow": "I’ch sefydliad chi",

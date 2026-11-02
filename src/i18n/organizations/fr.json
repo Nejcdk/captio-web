@@ -34,18 +34,7 @@
       { "title": "Sait qui parle", "description": "Il suffit d’enregistrer une fois la voix d’une personne, environ 20 secondes de parole, pour que les sous-titres affichent son nom au lieu de « Intervenant 2 », en direct et dans les enregistrements. Les voix sont créées et conservées sur le téléphone.", "where": "iPhone" },
       { "title": "Montre d’où vient la voix", "description": "Des ondes au bord de l’écran indiquent de quel côté vient une voix, dans la couleur de l’intervenant, pour savoir où regarder dans une salle animée.", "where": "iPhone 16 et plus récents" },
       { "title": "Entend les sons autour", "description": "Les sons apparaissent dans les sous-titres, comme dans les sous-titres de films. Une sonnette, une alarme ou un bébé qui pleure font aussi vibrer le téléphone.", "where": "iPhone et iPad" }
-    ],
-    "drawing": {
-      "otherName": "Léa",
-      "me": "Moi",
-      "voicesLine1": "On décale la réunion à vendredi ?",
-      "voicesLine2": "Vendredi, ça me va.",
-      "directionLine": "Je suis là, à ta gauche.",
-      "soundsBefore": "Rendez-vous à 15 h.",
-      "sound": "[on sonne]",
-      "soundsAfter": "Qui est-ce ?",
-      "vibrates": "Le téléphone vibre"
-    }
+    ]
   },
   "reasons": {
     "eyebrow": "Pour votre organisation",

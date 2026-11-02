@@ -34,18 +34,7 @@
       { "title": "Sa chi sta parlando", "description": "Basta salvare una volta la voce di una persona, da circa 20 secondi di parlato, e i sottotitoli mostrano il suo nome invece di “Voce 2”, dal vivo e nelle registrazioni salvate. Le voci vengono create e conservate sul telefono.", "where": "iPhone" },
       { "title": "Mostra da dove arriva la voce", "description": "Onde sul bordo dello schermo indicano da che lato arriva una voce, nel colore di chi parla, così si sa dove guardare in una stanza affollata.", "where": "iPhone 16 e successivi" },
       { "title": "Sente i suoni intorno", "description": "I suoni compaiono nei sottotitoli come nei sottotitoli dei film. Un campanello, un allarme o un bambino che piange fanno anche vibrare il telefono.", "where": "iPhone e iPad" }
-    ],
-    "drawing": {
-      "otherName": "Sara",
-      "me": "Io",
-      "voicesLine1": "Spostiamo la riunione a venerdì?",
-      "voicesLine2": "Venerdì per me va bene.",
-      "directionLine": "Sono qui, alla tua sinistra.",
-      "soundsBefore": "Ci vediamo alle tre.",
-      "sound": "[suona il campanello]",
-      "soundsAfter": "Chi sarà?",
-      "vibrates": "Il telefono vibra"
-    }
+    ]
   },
   "reasons": {
     "eyebrow": "Per la sua organizzazione",

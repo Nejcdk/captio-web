@@ -34,18 +34,7 @@
       { "title": "Badaki nor ari den hitz egiten", "description": "Gorde pertsona baten ahotsa behin, 20 bat segundoz hitz egiten entzunda, eta azpitituluek haren izena erakutsiko dute «Hizlari 2» beharrean, zuzenean eta gordetako grabazioetan. Ahotsak telefonoan bertan sortu eta gordetzen dira.", "where": "iPhone" },
       { "title": "Ahotsa nondik datorren erakusten du", "description": "Pantailaren ertzeko uhinek ahots bat zein aldetatik datorren erakusten dute, hizlari horren kolorean, jendez betetako gela batean nora begiratu jakiteko.", "where": "iPhone 16 eta ondorengoak" },
       { "title": "Inguruko soinuak entzuten ditu", "description": "Soinuak azpitituluetan agertzen dira, filmetako azpitituluetan bezala. Txirrin batek, alarma batek edo negarrez dagoen haur batek ere dardaraka jartzen du telefonoa.", "where": "iPhone eta iPad" }
-    ],
-    "drawing": {
-      "otherName": "Ane",
-      "me": "Ni",
-      "voicesLine1": "Bilera ostiralera pasa dezakegu?",
-      "voicesLine2": "Ostirala ondo datorkit.",
-      "directionLine": "Hemen nago, zure ezkerrean.",
-      "soundsBefore": "Hiruretan ikusiko gara.",
-      "sound": "[txirrina jo dute]",
-      "soundsAfter": "Nor da?",
-      "vibrates": "Telefonoak dardara egiten du"
-    }
+    ]
   },
   "reasons": {
     "eyebrow": "Zure erakundearentzat",

@@ -34,18 +34,7 @@
       { "title": "Inajua nani anazungumza", "description": "Hifadhi sauti ya mtu mara moja tu, kutokana na takriban sekunde 20 za mazungumzo yake, na manukuu yataonyesha jina lake badala ya “Mzungumzaji 2”, mubashara na kwenye rekodi zilizohifadhiwa. Alama za sauti hutengenezwa na kubaki kwenye simu yenyewe.", "where": "iPhone" },
       { "title": "Inaonyesha sauti inatoka wapi", "description": "Mawimbi pembeni mwa skrini huonyesha sauti inatoka upande gani, kwa rangi ya mzungumzaji huyo, ili iwe wazi pa kuangalia katika chumba chenye watu wengi.", "where": "iPhone 16 na kuendelea" },
       { "title": "Inasikia sauti za mazingira", "description": "Sauti huandikwa kwenye manukuu kama inavyofanyika katika manukuu ya filamu. Kengele ya mlango, kengele ya hatari au mtoto anayelia pia hufanya simu itetemeke.", "where": "iPhone na iPad" }
-    ],
-    "drawing": {
-      "otherName": "Amina",
-      "me": "Mimi",
-      "voicesLine1": "Tuhamishe mkutano hadi Ijumaa?",
-      "voicesLine2": "Ijumaa inanifaa.",
-      "directionLine": "Niko hapa, kushoto kwako.",
-      "soundsBefore": "Tuonane saa tisa.",
-      "sound": "[kengele ya mlango inalia]",
-      "soundsAfter": "Nani huyo?",
-      "vibrates": "Simu inatetemeka"
-    }
+    ]
   },
   "reasons": {
     "eyebrow": "Kwa shirika lako",

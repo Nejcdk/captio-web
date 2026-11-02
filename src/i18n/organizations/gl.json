@@ -34,18 +34,7 @@
       { "title": "Sabe quen fala", "description": "Garde unha vez a voz dunha persoa, con uns 20 segundos dela falando, e os subtítulos amosarán o seu nome en vez de «Falante 2», en directo e nas gravacións gardadas. As voces créanse e gárdanse no teléfono.", "where": "iPhone" },
       { "title": "Amosa de onde vén a voz", "description": "Unhas ondas no bordo da pantalla indican de que lado vén unha voz, na cor dese falante, para saber onde mirar nunha sala chea de xente.", "where": "iPhone 16 e posteriores" },
       { "title": "Oe os sons do arredor", "description": "Os sons aparecen nos subtítulos como nos subtítulos das películas. Un timbre, unha alarma ou un bebé chorando tamén fan vibrar o teléfono.", "where": "iPhone e iPad" }
-    ],
-    "drawing": {
-      "otherName": "Ana",
-      "me": "Eu",
-      "voicesLine1": "Podemos pasar a reunión ao venres?",
-      "voicesLine2": "O venres vaime ben.",
-      "directionLine": "Estou aquí, á túa esquerda.",
-      "soundsBefore": "Vémonos ás tres.",
-      "sound": "[soa o timbre]",
-      "soundsAfter": "Quen será?",
-      "vibrates": "O teléfono vibra"
-    }
+    ]
   },
   "reasons": {
     "eyebrow": "Para a súa organización",

@@ -34,18 +34,7 @@
       { "title": "Knows who is talking", "description": "Save a person's voice once, from about 20 seconds of them talking, and captions show their name instead of \"Speaker 2\", live and in saved recordings. Voices are made and kept on the phone.", "where": "iPhone" },
       { "title": "Shows where the voice is", "description": "Waves at the edge of the screen show which side a voice is coming from, in that speaker's colour, so it's clear where to look in a busy room.", "where": "iPhone 16 and later" },
       { "title": "Hears the sounds around them", "description": "Sounds show up in the captions the way film subtitles do it. A doorbell, an alarm or a crying baby also makes the phone vibrate.", "where": "iPhone and iPad" }
-    ],
-    "drawing": {
-      "otherName": "Ana",
-      "me": "Me",
-      "voicesLine1": "Can we move the meeting to Friday?",
-      "voicesLine2": "Friday works for me.",
-      "directionLine": "I'm over here, on your left.",
-      "soundsBefore": "See you at three.",
-      "sound": "[doorbell rings]",
-      "soundsAfter": "Who's that?",
-      "vibrates": "The phone vibrates"
-    }
+    ]
   },
   "reasons": {
     "eyebrow": "For your organization",

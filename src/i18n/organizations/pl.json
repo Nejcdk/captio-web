@@ -34,18 +34,7 @@
       { "title": "Wie, kto mówi", "description": "Wystarczy raz zapisać głos danej osoby, z około 20 sekund mówienia, a napisy pokazują jej imię zamiast „Mówca 2”, na żywo i w zapisanych nagraniach. Głosy powstają i zostają w telefonie.", "where": "iPhone" },
       { "title": "Pokazuje, skąd dochodzi głos", "description": "Fale na krawędzi ekranu pokazują w kolorze danego mówcy, z której strony dochodzi głos, więc nawet w gwarnym pomieszczeniu wiadomo, gdzie patrzeć.", "where": "iPhone 16 i nowsze" },
       { "title": "Słyszy dźwięki dookoła", "description": "Dźwięki pojawiają się w napisach tak jak w napisach do filmów. Dzwonek do drzwi, alarm albo płacz dziecka dodatkowo wywołują wibracje telefonu.", "where": "iPhone i iPad" }
-    ],
-    "drawing": {
-      "otherName": "Ania",
-      "me": "Ja",
-      "voicesLine1": "Przełożymy spotkanie na piątek?",
-      "voicesLine2": "Piątek mi pasuje.",
-      "directionLine": "Jestem tutaj, po twojej lewej.",
-      "soundsBefore": "Do zobaczenia o trzeciej.",
-      "sound": "[dzwonek do drzwi]",
-      "soundsAfter": "Kto to?",
-      "vibrates": "Telefon wibruje"
-    }
+    ]
   },
   "reasons": {
     "eyebrow": "Dla Państwa organizacji",

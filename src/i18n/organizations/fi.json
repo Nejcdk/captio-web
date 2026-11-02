@@ -34,18 +34,7 @@
       { "title": "Tietää, kuka puhuu", "description": "Tallenna ihmisen ääni kerran noin 20 sekunnin puheesta, niin tekstityksessä näkyy hänen nimensä eikä ”Puhuja 2”, sekä livenä että tallenteissa. Äänet tehdään ja säilytetään puhelimessa.", "where": "iPhone" },
       { "title": "Näyttää, mistä ääni tulee", "description": "Aallot ruudun reunassa näyttävät puhujan omalla värillä, mistä suunnasta ääni tulee, joten tietää, mihin katsoa täydessä huoneessa.", "where": "iPhone 16 ja uudemmat" },
       { "title": "Kuulee ympäristön äänet", "description": "Äänet näkyvät tekstityksessä samaan tapaan kuin elokuvien tekstityksissä. Ovikello, hälytys tai itkevä vauva saa myös puhelimen värisemään.", "where": "iPhone ja iPad" }
-    ],
-    "drawing": {
-      "otherName": "Aino",
-      "me": "Minä",
-      "voicesLine1": "Voidaanko palaveri siirtää perjantaille?",
-      "voicesLine2": "Perjantai sopii minulle.",
-      "directionLine": "Olen täällä, vasemmalla puolellasi.",
-      "soundsBefore": "Nähdään kolmelta.",
-      "sound": "[ovikello soi]",
-      "soundsAfter": "Kuka siellä?",
-      "vibrates": "Puhelin värisee"
-    }
+    ]
   },
   "reasons": {
     "eyebrow": "Organisaatiollesi",

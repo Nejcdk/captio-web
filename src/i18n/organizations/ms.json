@@ -34,18 +34,7 @@
       { "title": "Tahu siapa yang bercakap", "description": "Simpan suara seseorang sekali sahaja, daripada kira-kira 20 saat dia bercakap, dan sari kata akan memaparkan namanya, bukan “Penutur 2”, secara langsung dan dalam rakaman yang disimpan. Data suara dibuat dan disimpan pada telefon itu sendiri.", "where": "iPhone" },
       { "title": "Menunjukkan arah suara", "description": "Gelombang di tepi skrin menunjukkan dari arah mana suara datang, dalam warna penutur itu, supaya jelas ke mana hendak melihat dalam bilik yang sibuk.", "where": "iPhone 16 dan yang lebih baharu" },
       { "title": "Mendengar bunyi di sekeliling", "description": "Bunyi dipaparkan dalam sari kata, sama seperti sari kata filem. Loceng pintu, penggera atau bayi menangis juga membuatkan telefon bergetar.", "where": "iPhone dan iPad" }
-    ],
-    "drawing": {
-      "otherName": "Aisyah",
-      "me": "Saya",
-      "voicesLine1": "Boleh kita alihkan mesyuarat ke Jumaat?",
-      "voicesLine2": "Jumaat sesuai untuk saya.",
-      "directionLine": "Saya di sini, di sebelah kiri anda.",
-      "soundsBefore": "Jumpa pukul tiga.",
-      "sound": "[loceng pintu berbunyi]",
-      "soundsAfter": "Siapa tu?",
-      "vibrates": "Telefon bergetar"
-    }
+    ]
   },
   "reasons": {
     "eyebrow": "Untuk organisasi anda",

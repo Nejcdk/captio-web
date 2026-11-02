@@ -34,18 +34,7 @@
       { "title": "Kimin konuştuğunu bilir", "description": "Bir kişinin sesini, yaklaşık 20 saniyelik konuşmasından bir kez kaydedin; altyazılar hem canlıda hem kayıtlarda “Konuşmacı 2” yerine onun adını gösterir. Ses izleri telefonda oluşturulur ve telefonda kalır.", "where": "iPhone" },
       { "title": "Sesin nereden geldiğini gösterir", "description": "Ekranın kenarındaki dalgalar, sesin hangi taraftan geldiğini o konuşmacının renginde gösterir; böylece kalabalık bir odada nereye bakılacağı bellidir.", "where": "iPhone 16 ve sonrası" },
       { "title": "Etraftaki sesleri duyar", "description": "Sesler, film altyazılarında olduğu gibi altyazının içinde görünür. Kapı zili, alarm ya da ağlayan bir bebek telefonu da titretir.", "where": "iPhone ve iPad" }
-    ],
-    "drawing": {
-      "otherName": "Ayşe",
-      "me": "Ben",
-      "voicesLine1": "Toplantıyı cumaya alabilir miyiz?",
-      "voicesLine2": "Cuma bana uyar.",
-      "directionLine": "Buradayım, solundayım.",
-      "soundsBefore": "Saat üçte görüşürüz.",
-      "sound": "[kapı zili çalıyor]",
-      "soundsAfter": "Kim o?",
-      "vibrates": "Telefon titrer"
-    }
+    ]
   },
   "reasons": {
     "eyebrow": "Kurumunuz için",

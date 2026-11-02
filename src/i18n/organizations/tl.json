@@ -34,18 +34,7 @@
       { "title": "Alam kung sino ang nagsasalita", "description": "I-save nang isang beses ang boses ng isang tao, mula sa mga 20 segundo ng pagsasalita niya, at pangalan na niya ang ipapakita ng caption sa halip na “Speaker 2”, live man o sa mga naka-save na recording. Sa phone mismo ginagawa at itinatago ang mga boses.", "where": "iPhone" },
       { "title": "Ipinapakita kung saan galing ang boses", "description": "Ipinapakita ng mga alon sa gilid ng screen kung saang panig nanggagaling ang boses, sa kulay ng nagsasalitang iyon, para malinaw kung saan titingin sa mataong kuwarto.", "where": "iPhone 16 at mas bago" },
       { "title": "Naririnig ang mga tunog sa paligid", "description": "Lumalabas ang mga tunog sa caption, gaya ng sa subtitle ng pelikula. Pinapa-vibrate din ng doorbell, alarm o umiiyak na sanggol ang phone.", "where": "iPhone at iPad" }
-    ],
-    "drawing": {
-      "otherName": "Ana",
-      "me": "Ako",
-      "voicesLine1": "Puwede bang ilipat ang meeting sa Biyernes?",
-      "voicesLine2": "Okay sa akin ang Biyernes.",
-      "directionLine": "Nandito ako, sa kaliwa mo.",
-      "soundsBefore": "Kita tayo nang alas-tres.",
-      "sound": "[tumutunog ang doorbell]",
-      "soundsAfter": "Sino 'yan?",
-      "vibrates": "Nagva-vibrate ang phone"
-    }
+    ]
   },
   "reasons": {
     "eyebrow": "Para sa inyong organisasyon",

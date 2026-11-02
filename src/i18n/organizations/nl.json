@@ -34,18 +34,7 @@
       { "title": "Weet wie er praat", "description": "Sla één keer iemands stem op, uit zo’n 20 seconden praten, en de ondertiteling toont de naam in plaats van ‘Spreker 2’, live en in opgeslagen opnames. Stemmen worden op de telefoon gemaakt en blijven daar.", "where": "iPhone" },
       { "title": "Laat zien waar de stem vandaan komt", "description": "Golven aan de rand van het scherm laten in de kleur van die spreker zien van welke kant een stem komt, zodat ook in een drukke ruimte duidelijk is waar te kijken.", "where": "iPhone 16 en nieuwer" },
       { "title": "Hoort de geluiden eromheen", "description": "Geluiden verschijnen in de ondertiteling, zoals bij ondertiteling van films. Bij een deurbel, een alarm of een huilende baby trilt de telefoon ook.", "where": "iPhone en iPad" }
-    ],
-    "drawing": {
-      "otherName": "Emma",
-      "me": "Ik",
-      "voicesLine1": "Kan het overleg naar vrijdag?",
-      "voicesLine2": "Vrijdag is prima.",
-      "directionLine": "Ik ben hier, links van je.",
-      "soundsBefore": "Tot drie uur dan.",
-      "sound": "[deurbel gaat]",
-      "soundsAfter": "Wie is dat?",
-      "vibrates": "De telefoon trilt"
-    }
+    ]
   },
   "reasons": {
     "eyebrow": "Voor uw organisatie",

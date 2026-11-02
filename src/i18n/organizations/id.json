@@ -34,18 +34,7 @@
       { "title": "Tahu siapa yang berbicara", "description": "Simpan suara seseorang sekali saja, dari sekitar 20 detik ia berbicara, dan teks akan menampilkan namanya, bukan “Pembicara 2”, baik secara langsung maupun di rekaman yang disimpan. Data suara dibuat dan disimpan di ponsel.", "where": "iPhone" },
       { "title": "Menunjukkan arah suara", "description": "Gelombang di tepi layar menunjukkan dari sisi mana suara datang, dengan warna pembicara tersebut, sehingga jelas harus melihat ke mana di ruangan yang ramai.", "where": "iPhone 16 ke atas" },
       { "title": "Mendengar suara di sekitar", "description": "Suara muncul di teks seperti pada subtitle film. Bel pintu, alarm, atau tangisan bayi juga membuat ponsel bergetar.", "where": "iPhone dan iPad" }
-    ],
-    "drawing": {
-      "otherName": "Sari",
-      "me": "Aku",
-      "voicesLine1": "Rapatnya bisa dipindah ke Jumat?",
-      "voicesLine2": "Jumat aku bisa.",
-      "directionLine": "Aku di sini, di kirimu.",
-      "soundsBefore": "Sampai ketemu jam tiga.",
-      "sound": "[bel pintu berbunyi]",
-      "soundsAfter": "Siapa itu?",
-      "vibrates": "Ponsel bergetar"
-    }
+    ]
   },
   "reasons": {
     "eyebrow": "Untuk organisasi Anda",

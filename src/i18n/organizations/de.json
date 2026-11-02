@@ -34,18 +34,7 @@
       { "title": "Weiß, wer spricht", "description": "Einmal etwa 20 Sekunden lang die Stimme einer Person aufnehmen, und die Untertitel zeigen ihren Namen statt „Sprecher 2“, live und in gespeicherten Aufnahmen. Stimmprofile entstehen auf dem Handy und bleiben dort.", "where": "iPhone" },
       { "title": "Zeigt, woher die Stimme kommt", "description": "Wellen am Bildschirmrand zeigen in der Farbe der sprechenden Person, aus welcher Richtung eine Stimme kommt. So weiß man auch in einem vollen Raum, wohin man schauen muss.", "where": "iPhone 16 und neuer" },
       { "title": "Hört die Geräusche ringsum", "description": "Geräusche erscheinen in den Untertiteln, so wie bei Filmuntertiteln. Bei einer Türklingel, einem Alarm oder einem weinenden Baby vibriert zusätzlich das Handy.", "where": "iPhone und iPad" }
-    ],
-    "drawing": {
-      "otherName": "Anna",
-      "me": "Ich",
-      "voicesLine1": "Können wir das Meeting auf Freitag legen?",
-      "voicesLine2": "Freitag passt mir.",
-      "directionLine": "Ich bin hier, links von dir.",
-      "soundsBefore": "Bis um drei.",
-      "sound": "[es klingelt]",
-      "soundsAfter": "Wer ist das?",
-      "vibrates": "Das Handy vibriert"
-    }
+    ]
   },
   "reasons": {
     "eyebrow": "Für Ihre Organisation",
