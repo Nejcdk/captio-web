@@ -19,10 +19,10 @@ import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbS
 // Organizations", language menu, one button, no site menu), then the hero
 // (Nejc 2026-11-02): the heading, three small phones under it (live captions,
 // live translation, transcription) and the pilot form beside them. Right under
-// it Recognize voices / Speaker direction / Recognize sounds, each with a real
-// picture of the app (Nejc 2026-11-02: pictures, not drawings), then every
-// caption language, the use cases (the home page's, Nejc 2026-11-02: in place
-// of the feature videos), why organizations choose it, the pilot steps with
+// it the use cases (the home page's, Nejc 2026-11-02: in place of the feature
+// videos), then Recognize voices / Speaker direction / Recognize sounds, each
+// with a real picture of the app (Nejc 2026-11-02: pictures, not drawings),
+// every caption language, why organizations choose it, the pilot steps with
 // the form again, prices, data, FAQ, and a last banner with the form a third
 // time. The words present the app and what it does, never "your people
 // will…" (Nejc 2026-11-02). They come from src/i18n/organizations/<code>.json;
@@ -167,10 +167,31 @@ export default function OrganizationsContent({ code, t, m }: { code: string; t: 
           </div>
         </section>
 
+        {/* ── Use cases ── */}
+        {/* Nejc 2026-11-02: the situations from the home page, in place of the
+            feature videos (the hero already shows the main features), right
+            under the hero. Cards, not links: the page's one way on is the form. */}
+        <section className="py-12 px-6 bg-gray-50">
+          <div className="max-w-6xl mx-auto">
+            <SectionTitle eyebrow={m.home.useCasesLabel} title={m.home.useCasesTitle} subtitle={m.home.useCasesSubtitle} />
+            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {USE_CASE_CARDS.map((uc) => (
+                <li key={uc.slug} className="bg-white rounded-xl border border-gray-200 p-5 flex flex-col gap-3">
+                  <span className="inline-flex items-center gap-2 bg-brand-light text-brand font-bold px-3.5 py-2 rounded-[8px] w-fit">
+                    <span className="text-2xl leading-none" aria-hidden>{uc.icon}</span>
+                    <span className="text-base">{m.home.useCases[uc.slug].label}</span>
+                  </span>
+                  <p className="text-sm text-gray-500 leading-relaxed">{m.home.useCases[uc.slug].description}</p>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+
         {/* ── More than captions: each feature with its own app picture ── */}
-        {/* Nejc 2026-11-02: right under the hero, a real picture of the app for
+        {/* Nejc 2026-11-02: under the use cases, a real picture of the app for
             each feature (not drawings), then the languages. */}
-        <section className="pt-4 pb-14 px-6 bg-white">
+        <section className="pt-12 pb-14 px-6 bg-white">
           <div className="max-w-6xl mx-auto">
             <SectionTitle eyebrow={t.awareness.eyebrow} title={t.awareness.title} subtitle={t.awareness.subtitle} />
             {/* Phones: a row to swipe through; larger screens: three columns. */}
@@ -210,27 +231,6 @@ export default function OrganizationsContent({ code, t, m }: { code: string; t: 
                 <li key={l.code} className="flex items-center gap-1.5 rounded-[8px] border border-gray-200 bg-gray-50 px-2.5 py-1.5 text-[13px] font-medium text-gray-700">
                   <span aria-hidden>{l.flag}</span>
                   {l.name}
-                </li>
-              ))}
-            </ul>
-          </div>
-        </section>
-
-        {/* ── Use cases ── */}
-        {/* Nejc 2026-11-02: the situations from the home page, in place of the
-            feature videos (the hero already shows the main features). Cards,
-            not links: the page's one way on is the form. */}
-        <section className="py-12 px-6 bg-gray-50">
-          <div className="max-w-6xl mx-auto">
-            <SectionTitle eyebrow={m.home.useCasesLabel} title={m.home.useCasesTitle} subtitle={m.home.useCasesSubtitle} />
-            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-              {USE_CASE_CARDS.map((uc) => (
-                <li key={uc.slug} className="bg-white rounded-xl border border-gray-200 p-5 flex flex-col gap-3">
-                  <span className="inline-flex items-center gap-2 bg-brand-light text-brand font-bold px-3.5 py-2 rounded-[8px] w-fit">
-                    <span className="text-2xl leading-none" aria-hidden>{uc.icon}</span>
-                    <span className="text-base">{m.home.useCases[uc.slug].label}</span>
-                  </span>
-                  <p className="text-sm text-gray-500 leading-relaxed">{m.home.useCases[uc.slug].description}</p>
                 </li>
               ))}
             </ul>
