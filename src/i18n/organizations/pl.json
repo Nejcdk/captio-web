@@ -9,11 +9,7 @@
     "chooseLanguage": "Wybór języka"
   },
   "hero": {
-    "eyebrow": "🏢 Captio AI dla organizacji",
-    "title": "Napisy na żywo dla osób głuchych i słabosłyszących, w [każdej sytuacji]",
-    "description": "Captio AI to aplikacja na iPhone i Android, która na bieżąco zamienia mowę w tekst, w ponad 60 językach. Pokazuje, kto mówi, tłumaczy i zapisuje każdą rozmowę jako transkrypcję.",
-    "facts": ["iPhone i Android", "60+ języków", "Dane przechowywane w UE", "Płatność na fakturę"],
-    "imageAlt": "Captio AI wyświetla napisy na żywo do rozmowy dwóch osób, z etykietą dla każdego mówcy i dzwonkiem do drzwi zapisanym w napisach"
+    "title": "Aplikacja z [napisami na żywo] dla osób głuchych i słabosłyszących"
   },
   "features": {
     "eyebrow": "Co potrafi Captio AI",

@@ -9,11 +9,7 @@
     "chooseLanguage": "Pilih bahasa"
   },
   "hero": {
-    "eyebrow": "🏢 Captio AI untuk Organisasi",
-    "title": "Sari kata langsung untuk orang Pekak dan kurang pendengaran, dalam [apa jua situasi]",
-    "description": "Captio AI ialah aplikasi untuk iPhone dan Android yang menukar pertuturan kepada teks sebaik sahaja ia diucapkan, dalam 60+ bahasa. Ia menunjukkan siapa yang bercakap, menterjemah, dan menyimpan setiap perbualan sebagai transkrip.",
-    "facts": ["iPhone dan Android", "60+ bahasa", "Disimpan di EU", "Dibayar melalui invois"],
-    "imageAlt": "Captio AI memaparkan sari kata langsung perbualan dua orang, dengan label bagi setiap penutur dan bunyi loceng pintu yang ditulis dalam sari kata"
+    "title": "Aplikasi [sari kata langsung] untuk orang Pekak dan kurang pendengaran"
   },
   "features": {
     "eyebrow": "Apa yang Captio AI lakukan",

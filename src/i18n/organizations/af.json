@@ -9,11 +9,7 @@
     "chooseLanguage": "Kies ’n taal"
   },
   "hero": {
-    "eyebrow": "🏢 Captio AI vir Organisasies",
-    "title": "Regstreekse onderskrifte vir dowe en hardhorende mense, in [enige situasie]",
-    "description": "Captio AI is ’n app vir iPhone en Android wat spraak in teks omskakel op die oomblik dat dit gesê word, in 60+ tale. Dit vertaal, wys wie praat, en stoor elke gesprek as ’n transkripsie.",
-    "facts": ["iPhone en Android", "60+ tale", "In die EU gestoor", "Betaalbaar per faktuur"],
-    "imageAlt": "Captio AI wat regstreekse onderskrifte wys van twee mense wat praat, met ’n etiket vir elke spreker en ’n deurklokkie wat in die onderskrifte geskryf is"
+    "title": "[Regstreekse onderskrifte]-app vir dowe en hardhorende mense"
   },
   "features": {
     "eyebrow": "Wat Captio AI doen",

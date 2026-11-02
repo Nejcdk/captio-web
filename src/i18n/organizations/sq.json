@@ -9,11 +9,7 @@
     "chooseLanguage": "Zgjidhni gjuhën"
   },
   "hero": {
-    "eyebrow": "🏢 Captio AI për organizatat",
-    "title": "Titra live për persona të shurdhër dhe me vështirësi në dëgjim, në [çdo situatë]",
-    "description": "Captio AI është një aplikacion për iPhone dhe Android që e kthen të folurën në tekst në çastin që thuhet, në mbi 60 gjuhë. Tregon kush po flet, përkthen dhe e ruan çdo bisedë si transkript.",
-    "facts": ["iPhone dhe Android", "Mbi 60 gjuhë", "Të ruajtura në BE", "Pagesë me faturë"],
-    "imageAlt": "Captio AI duke shfaqur titra live të një bisede mes dy personave, me një etiketë për secilin folës dhe me ziljen e derës të shkruar në titra"
+    "title": "Aplikacion me [titra live] për persona të shurdhër dhe me vështirësi në dëgjim"
   },
   "features": {
     "eyebrow": "Çfarë bën Captio AI",

@@ -10,15 +10,16 @@ import { OrgHeader } from "./OrgHeader";
 import { languageName, languageOptions, pagePath, type Messages } from "@/i18n";
 import { ENGLISH, LOCALES } from "@/i18n/locales";
 import { fill, orgCurrency, type OrgMessages } from "@/i18n/organizations";
+import { appImage } from "@/lib/appImages";
 import { languages as languagePages } from "@/lib/languages";
 import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbSchema } from "@/lib/schema";
 
 // Captio AI for Organizations, in any language: /organizations (English) and
 // /<code>/organizations. A landing page of its own for people who have never
 // heard of the app (Nejc 2026-10-28): its own header (logo, "for
-// Organizations", language menu, one button, no site menu), then the hero:
-// what the app does, a picture of it doing it, and the pilot form right there
-// (Nejc 2026-11-02). Then the three main features with their videos, every
+// Organizations", language menu, one button, no site menu), then the hero
+// (Nejc 2026-11-02): the heading, three small phones under it (live captions,
+// live translation, named speakers) and the pilot form beside them. Then the three main features with their videos, every
 // caption language, Recognize voices / Speaker direction / Recognize sounds as
 // small drawings, why organizations choose it, the pilot steps with the form
 // again, prices, data, FAQ, and a last banner with the form a third time.
@@ -30,9 +31,8 @@ import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbS
 // name the speech provider here (business secret); /privacy lists them.
 // The pilot starts from the form (PilotForm.tsx): the link to forward is
 // emailed at once in this page's language, people join at /o/<code>.
-// Hero picture: the real live captions screen (public/RS_mockup_1.png, made as
-// in the app repo's notes on website shots). Videos: the app's onboarding
-// loops in public/organizations (PhoneVideo.tsx).
+// Hero phones: the site's app pictures (src/lib/appImages.ts). Videos: the
+// app's onboarding loops in public/organizations (PhoneVideo.tsx).
 
 const DPA_MAILTO = "mailto:hello@captioai.app?subject=Captio%20AI%20data%20processing%20agreement";
 const ADDRESS = "hello@captioai.app";
@@ -99,6 +99,11 @@ export default function OrganizationsContent({ code, t, m }: { code: string; t: 
   const path = pagePath(code, "organizations");
   const currency = orgCurrency(code);
   const others = (["gbp", "eur", "usd"] as const).filter((c) => c !== currency);
+  const heroPhones = [
+    { image: appImage("RS_mockup_1.png"), label: t.features.items[0].label },
+    { image: appImage("LT_mockup_3.png"), label: t.features.items[1].label },
+    { image: appImage("RV_mockup_3.png"), label: t.awareness.items[0].title },
+  ];
   const captionLanguages = [ENGLISH, ...LOCALES].map((l) => ({
     code: l.code,
     name: languageName(l.code, code),
@@ -126,35 +131,35 @@ export default function OrganizationsContent({ code, t, m }: { code: string; t: 
           languages={languageOptions(code, "organizations")}
         />
 
-        {/* ── Hero: what the app does, a picture of it, and the form ── */}
+        {/* ── Hero: the heading and the app on the left, the form on the right ── */}
         <section className="px-5 pt-8 pb-12 sm:pt-12 sm:pb-16">
-          {/* Phones: headline, words, the picture, the form, then the facts (the
-              text column is "contents" there, so its children and the picture
-              share one ordered column). Desktop: text and form left, picture
-              right. */}
-          <div className="max-w-6xl mx-auto flex flex-col items-center text-center gap-5 lg:grid lg:grid-cols-[minmax(0,7fr)_minmax(0,5fr)] lg:items-center lg:gap-12 lg:text-start">
-            <div className="contents lg:flex lg:flex-col lg:items-start lg:gap-5">
-              <span className="order-1 text-[11px] font-bold text-brand uppercase tracking-widest">{t.hero.eyebrow}</span>
-              <h1 className="order-2 text-[2.2rem] leading-[1.12] sm:text-[3.1rem] font-bold text-gray-900 tracking-tight">
+          {/* Nejc 2026-11-02: just the heading, a few small phones under it
+              showing what the app does, and the pilot form beside them. Phones:
+              heading, the three phones in a row, the form. */}
+          <div className="max-w-6xl mx-auto grid gap-8 lg:grid-cols-[minmax(0,7fr)_minmax(0,5fr)] lg:gap-12 lg:items-start">
+            <div className="flex flex-col gap-8 text-center lg:text-start">
+              <h1 className="text-[2.2rem] leading-[1.12] sm:text-[3.1rem] font-bold text-gray-900 tracking-tight">
                 <Underlined text={t.hero.title} />
               </h1>
-              <p className="order-3 text-base sm:text-lg text-gray-600 max-w-xl leading-relaxed">{t.hero.description}</p>
-              <ul className="order-6 lg:order-4 flex flex-wrap justify-center lg:justify-start gap-2">
-                {t.hero.facts.map((f) => (
-                  <li key={f} className="flex items-center gap-1.5 rounded-[8px] bg-brand-light px-3 py-1.5 text-xs font-semibold text-brand">
-                    <Check className="text-brand" />
-                    {f}
+              <ul className="grid grid-cols-3 gap-3 sm:gap-5 w-full max-w-[640px] mx-auto lg:mx-0">
+                {heroPhones.map((p) => (
+                  <li key={p.image.src} className="flex flex-col items-center gap-2">
+                    <Image
+                      src={p.image.src}
+                      alt={`Captio AI: ${p.label}`}
+                      width={p.image.width}
+                      height={p.image.height}
+                      unoptimized
+                      priority
+                      className="h-auto w-full select-none"
+                    />
+                    <span className="text-xs sm:text-sm font-semibold text-gray-700 leading-snug">{p.label}</span>
                   </li>
                 ))}
               </ul>
-              <div id="start" className="order-5 w-full max-w-xl scroll-mt-4 lg:mt-2">
-                <PilotForm t={t.form} title={t.header.startPilot} language={code} address={ADDRESS} placement="hero" />
-              </div>
             </div>
-            {/* Below desktop only the captions part of the phone shows, fading
-                out, so the form comes up sooner. */}
-            <div className="order-4 lg:order-none mx-auto w-full max-w-[230px] sm:max-w-[270px] lg:max-w-[310px] h-[310px] sm:h-[360px] overflow-hidden [mask-image:linear-gradient(to_bottom,black_72%,transparent)] lg:h-auto lg:overflow-visible lg:[mask-image:none]">
-              <Image src="/RS_mockup_1.png" alt={t.hero.imageAlt} width={499} height={1024} priority className="h-auto w-full select-none" />
+            <div id="start" className="w-full max-w-xl mx-auto scroll-mt-4 lg:max-w-none">
+              <PilotForm t={t.form} title={t.header.startPilot} language={code} address={ADDRESS} placement="hero" />
             </div>
           </div>
         </section>

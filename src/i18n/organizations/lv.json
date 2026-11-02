@@ -9,11 +9,7 @@
     "chooseLanguage": "Izvēlieties valodu"
   },
   "hero": {
-    "eyebrow": "🏢 Captio AI organizācijām",
-    "title": "Tiešraides subtitri nedzirdīgajiem un vājdzirdīgajiem [jebkurā situācijā]",
-    "description": "Captio AI ir lietotne iPhone un Android tālruņiem, kas pārvērš runu tekstā tajā pašā brīdī, kad tā izskan, 60+ valodās. Tā rāda, kurš runā, tulko un saglabā katru sarunu kā transkripciju.",
-    "facts": ["iPhone un Android", "60+ valodas", "Dati glabājas ES", "Apmaksa pēc rēķina"],
-    "imageAlt": "Captio AI rāda divu cilvēku sarunas subtitrus reāllaikā, katram runātājam ar savu apzīmējumu, un subtitros ierakstītu durvju zvanu"
+    "title": "[Tiešraides subtitru] lietotne nedzirdīgajiem un vājdzirdīgajiem"
   },
   "features": {
     "eyebrow": "Ko dara Captio AI",

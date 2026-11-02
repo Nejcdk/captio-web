@@ -9,11 +9,7 @@
     "chooseLanguage": "Velg språk"
   },
   "hero": {
-    "eyebrow": "🏢 Captio AI for organisasjoner",
-    "title": "Direkteteksting for døve og hørselshemmede, i [alle situasjoner]",
-    "description": "Captio AI er en app for iPhone og Android som gjør tale om til tekst i det øyeblikket den blir sagt, på 60+ språk. Den oversetter, viser hvem som snakker, og lagrer hver samtale som en transkripsjon.",
-    "facts": ["iPhone og Android", "60+ språk", "Lagres i EU", "Betales mot faktura"],
-    "imageAlt": "Captio AI viser direkteteksting av to personer som snakker, med en merkelapp for hver taler og en dørklokke skrevet inn i tekstingen"
+    "title": "App med [direkteteksting] for døve og hørselshemmede"
   },
   "features": {
     "eyebrow": "Dette gjør Captio AI",

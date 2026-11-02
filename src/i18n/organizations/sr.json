@@ -9,11 +9,7 @@
     "chooseLanguage": "Izaberite jezik"
   },
   "hero": {
-    "eyebrow": "🏢 Captio AI za organizacije",
-    "title": "Titlovi uživo za gluve i nagluve osobe, u [svakoj situaciji]",
-    "description": "Captio AI je aplikacija za iPhone i Android koja govor pretvara u tekst u trenutku kada je izgovoren, na više od 60 jezika. Pokazuje ko govori, prevodi i čuva svaki razgovor kao transkript.",
-    "facts": ["iPhone i Android", "Više od 60 jezika", "Podaci u EU", "Plaćanje po fakturi"],
-    "imageAlt": "Captio AI prikazuje titlove uživo razgovora dve osobe, sa oznakom za svakog govornika i zvonom na vratima upisanim u titlove"
+    "title": "Aplikacija sa [titlovima uživo] za gluve i nagluve osobe"
   },
   "features": {
     "eyebrow": "Šta radi Captio AI",

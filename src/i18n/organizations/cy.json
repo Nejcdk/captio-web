@@ -9,11 +9,7 @@
     "chooseLanguage": "Dewiswch iaith"
   },
   "hero": {
-    "eyebrow": "🏢 Captio AI i Sefydliadau",
-    "title": "Capsiynau byw i bobl fyddar a thrwm eu clyw, [ym mhob sefyllfa]",
-    "description": "Mae Captio AI yn ap ar gyfer iPhone ac Android sy’n troi’r hyn sy’n cael ei ddweud yn destun ar unwaith, mewn 60+ iaith. Mae’n dangos pwy sy’n siarad, yn cyfieithu, ac yn cadw pob sgwrs fel trawsgrifiad.",
-    "facts": ["iPhone ac Android", "60+ iaith", "Wedi’i storio yn yr UE", "Talu drwy anfoneb"],
-    "imageAlt": "Captio AI yn dangos capsiynau byw o ddau berson yn siarad, gyda label i bob siaradwr a chloch y drws wedi’i hysgrifennu yn y capsiynau"
+    "title": "Ap [capsiynau byw] i bobl fyddar a thrwm eu clyw"
   },
   "features": {
     "eyebrow": "Beth mae Captio AI yn ei wneud",

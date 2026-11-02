@@ -9,11 +9,7 @@
     "chooseLanguage": "言語を選択"
   },
   "hero": {
-    "eyebrow": "🏢 法人向けCaptio AI",
-    "title": "ろう者と難聴者のためのライブ字幕を、[あらゆる場面]で",
-    "description": "Captio AIは、話した言葉をその場で文字にする、iPhoneとAndroid向けのアプリです。60以上の言語に対応。誰が話しているかを表示し、翻訳もでき、すべての会話を文字起こしとして保存します。",
-    "facts": ["iPhoneとAndroid", "60以上の言語", "データはEU内に保存", "請求書払い"],
-    "imageAlt": "2人の会話をライブ字幕で表示し、話者ごとにラベルを付け、ドアチャイムの音も字幕の中に書き込んでいるCaptio AI"
+    "title": "ろう者と難聴者のための[ライブ字幕]アプリ"
   },
   "features": {
     "eyebrow": "Captio AIでできること",

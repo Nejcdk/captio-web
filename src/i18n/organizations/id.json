@@ -9,11 +9,7 @@
     "chooseLanguage": "Pilih bahasa"
   },
   "hero": {
-    "eyebrow": "🏢 Captio AI untuk Organisasi",
-    "title": "Teks langsung untuk orang Tuli dan kurang dengar, dalam [situasi apa pun]",
-    "description": "Captio AI adalah aplikasi untuk iPhone dan Android yang mengubah ucapan menjadi teks saat itu juga, dalam 60+ bahasa. Aplikasi ini menunjukkan siapa yang berbicara, menerjemahkan, dan menyimpan setiap percakapan sebagai transkrip.",
-    "facts": ["iPhone dan Android", "60+ bahasa", "Disimpan di UE", "Dibayar dengan invoice"],
-    "imageAlt": "Captio AI menampilkan teks langsung percakapan dua orang, dengan label untuk setiap pembicara dan bunyi bel pintu yang tertulis di dalam teks"
+    "title": "Aplikasi [teks langsung] untuk orang Tuli dan kurang dengar"
   },
   "features": {
     "eyebrow": "Apa yang dilakukan Captio AI",

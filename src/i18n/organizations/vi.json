@@ -9,11 +9,7 @@
     "chooseLanguage": "Chọn ngôn ngữ"
   },
   "hero": {
-    "eyebrow": "🏢 Captio AI cho tổ chức",
-    "title": "Phụ đề trực tiếp cho người Điếc và người nghe kém, trong [mọi tình huống]",
-    "description": "Captio AI là ứng dụng cho iPhone và Android, chuyển lời nói thành chữ ngay khi vừa nói ra, bằng hơn 60 ngôn ngữ. Ứng dụng cho biết ai đang nói, có thể dịch, và lưu mọi cuộc trò chuyện thành bản chép lời.",
-    "facts": ["iPhone và Android", "Hơn 60 ngôn ngữ", "Lưu trữ tại EU", "Thanh toán theo hóa đơn"],
-    "imageAlt": "Captio AI hiển thị phụ đề trực tiếp cuộc trò chuyện của hai người, mỗi người nói có nhãn riêng, và tiếng chuông cửa được ghi ngay trong phụ đề"
+    "title": "Ứng dụng [phụ đề trực tiếp] cho người Điếc và người nghe kém"
   },
   "features": {
     "eyebrow": "Captio AI làm được gì",

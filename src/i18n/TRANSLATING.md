@@ -66,7 +66,7 @@ Same rules as above, plus:
   checker fails on a missing or extra one. `form.errors.server`: `{code}`
   becomes " (ABC123)" with its own space, so it goes right after the word.
 - **Hero title** (`hero.title`): exactly one `[phrase]`, the equivalent of
-  "any situation".
+  "live captions" ("[Live captions] app for deaf and hard of hearing people").
 - **The app, not their people** (Nejc 2026-11-02): say what Captio AI does
   ("the app shows…", "on iPhone and Android"), never "your people will…",
   "on their phone" or "the languages your people speak".

@@ -9,11 +9,7 @@
     "chooseLanguage": "Scelta della lingua"
   },
   "hero": {
-    "eyebrow": "🏢 Captio AI per le organizzazioni",
-    "title": "Sottotitoli live per persone sorde e ipoudenti, in [ogni situazione]",
-    "description": "Captio AI è un’app per iPhone e Android che trasforma il parlato in testo nel momento stesso in cui viene detto, in oltre 60 lingue. Mostra chi sta parlando, traduce e salva ogni conversazione come trascrizione.",
-    "facts": ["iPhone e Android", "Oltre 60 lingue", "Dati conservati nell’UE", "Pagamento su fattura"],
-    "imageAlt": "Captio AI che mostra i sottotitoli live di due persone che parlano, con un’etichetta per ogni voce e un campanello indicato nei sottotitoli"
+    "title": "App di [sottotitoli live] per persone sorde e ipoudenti"
   },
   "features": {
     "eyebrow": "Cosa fa Captio AI",

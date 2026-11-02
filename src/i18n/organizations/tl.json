@@ -9,11 +9,7 @@
     "chooseLanguage": "Pumili ng wika"
   },
   "hero": {
-    "eyebrow": "🏢 Captio AI para sa mga Organisasyon",
-    "title": "Live na caption para sa mga Bingi at mahina ang pandinig, sa [anumang sitwasyon]",
-    "description": "Ang Captio AI ay app para sa iPhone at Android na ginagawang text ang pananalita sa mismong sandaling sinasabi ito, sa 60+ wika. Ipinapakita nito kung sino ang nagsasalita, nagsasalin ito, at sine-save nito ang bawat usapan bilang transcript.",
-    "facts": ["iPhone at Android", "60+ wika", "Nakaimbak sa EU", "Bayad sa invoice"],
-    "imageAlt": "Captio AI na nagpapakita ng live na caption ng dalawang taong nag-uusap, may label ang bawat nagsasalita at may doorbell na nakasulat sa caption"
+    "title": "App ng [live na caption] para sa mga Bingi at mahina ang pandinig"
   },
   "features": {
     "eyebrow": "Ano ang ginagawa ng Captio AI",

@@ -9,11 +9,7 @@
     "chooseLanguage": "Nyelv kiválasztása"
   },
   "hero": {
-    "eyebrow": "🏢 Captio AI szervezeteknek",
-    "title": "Élő felirat siketeknek és nagyothallóknak, [bármilyen helyzetben]",
-    "description": "A Captio AI egy iPhone-ra és Androidra készült alkalmazás, amely a beszédet abban a pillanatban szöveggé alakítja, ahogy elhangzik, több mint 60 nyelven. Megmutatja, ki beszél, fordít, és minden beszélgetést átiratként elment.",
-    "facts": ["iPhone és Android", "Több mint 60 nyelv", "Tárolás az EU-ban", "Fizetés számlára"],
-    "imageAlt": "A Captio AI két beszélgető ember élő feliratát mutatja, minden beszélőnél külön címkével és a feliratba írt csengetéssel"
+    "title": "[Élő feliratos] alkalmazás siketeknek és nagyothallóknak"
   },
   "features": {
     "eyebrow": "Mire képes a Captio AI",

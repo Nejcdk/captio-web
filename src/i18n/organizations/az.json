@@ -9,11 +9,7 @@
     "chooseLanguage": "Dili seçin"
   },
   "hero": {
-    "eyebrow": "🏢 Təşkilatlar üçün Captio AI",
-    "title": "Kar və zəif eşidən insanlar üçün [istənilən vəziyyətdə] canlı subtitrlər",
-    "description": "Captio AI iPhone və Android üçün tətbiqdir: nitqi deyildiyi anda mətnə çevirir, 60+ dildə. Kimin danışdığını göstərir, tərcümə edir və hər söhbəti transkripsiya kimi saxlayır.",
-    "facts": ["iPhone və Android", "60+ dil", "Məlumatlar Aİ-də saxlanılır", "Hesab-faktura ilə ödəniş"],
-    "imageAlt": "Captio AI iki nəfərin söhbətini canlı subtitrlərlə göstərir, hər danışan üçün ayrıca etiketlə və subtitrlərə yazılmış qapı zəngi ilə"
+    "title": "Kar və zəif eşidən insanlar üçün [canlı subtitr] tətbiqi"
   },
   "features": {
     "eyebrow": "Captio AI nə edir",
