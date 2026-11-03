@@ -142,10 +142,10 @@ export default async function UseCasePage({
             <p className="text-xl sm:text-2xl font-semibold text-gray-800 max-w-xl">
               For <span className="text-brand">deaf</span> and <span className="text-brand">hard of hearing</span> people.
             </p>
+            <HeroDownload alt="Captio AI app showing live captions and translation" />
             <ShortAnswer reviewed={formatMonth(UPDATED.useCases)}>
               {uc.description} Available in {languages.length} languages, with a page for each one.
             </ShortAnswer>
-            <HeroDownload alt="Captio AI app showing live captions and translation" />
           </div>
         </section>
 

@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import ShortAnswer from "@/components/ShortAnswer";
 import FaqAccordion from "@/components/FaqAccordion";
+import HeroDownload from "@/components/HeroDownload";
 import { DownloadCard } from "@/components/StoreButtons";
 import { languages } from "@/lib/languages";
 import { useCases } from "@/lib/useCases";
@@ -90,6 +91,7 @@ export default function LanguagesHubPage() {
             <p className="text-xl sm:text-2xl font-semibold text-gray-800 max-w-xl">
               For <span className="text-brand">deaf</span> and <span className="text-brand">hard of hearing</span> people.
             </p>
+            <HeroDownload alt="Captio AI app showing live captions in 60 languages" />
             <ShortAnswer reviewed={formatMonth(UPDATED.hubs)}>
               Captio AI captions, translates and transcribes speech in {COUNT} languages on iPhone and Android, for deaf and hard of hearing people. Each language below has its own page with the regional accents and dialects it covers, and one page for each of {useCases.length} situations, from meetings to doctor appointments. This website itself is in all {COUNT} languages.
             </ShortAnswer>

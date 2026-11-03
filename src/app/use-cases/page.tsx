@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import ShortAnswer from "@/components/ShortAnswer";
+import HeroDownload from "@/components/HeroDownload";
 import { DownloadCard } from "@/components/StoreButtons";
 import { useCases } from "@/lib/useCases";
 import { languages } from "@/lib/languages";
@@ -68,6 +69,7 @@ export default function UseCasesHubPage() {
             <p className="text-xl sm:text-2xl font-semibold text-gray-800 max-w-xl">
               For <span className="text-brand">deaf</span> and <span className="text-brand">hard of hearing</span> people.
             </p>
+            <HeroDownload alt="Captio AI app showing live captions and translation" />
             <ShortAnswer reviewed={formatMonth(UPDATED.hubs)}>
               Captio AI shows what the people around you say as text on your iPhone or Android while they are still speaking. These twelve pages cover the situations deaf and hard of hearing people ask about most, from a team meeting to a doctor&apos;s appointment, and each one comes in {languages.length} languages.
             </ShortAnswer>
