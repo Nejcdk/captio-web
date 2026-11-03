@@ -166,8 +166,8 @@ export default async function UseCaseLanguagePage({ params }: Props) {
             <p className="text-xl sm:text-2xl font-semibold text-gray-800 max-w-xl">
               For <span className="text-brand">deaf</span> and <span className="text-brand">hard of hearing</span> people.
             </p>
-            <ShortAnswer reviewed={formatMonth(UPDATED.useCases)}>{inShort}</ShortAnswer>
             <HeroDownload alt="Captio AI app showing live captions" />
+            <ShortAnswer reviewed={formatMonth(UPDATED.useCases)}>{inShort}</ShortAnswer>
           </div>
         </section>
 

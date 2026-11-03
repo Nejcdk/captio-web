@@ -234,6 +234,7 @@ export default async function LanguagePage({ params }: Props) {
             <p className="text-base sm:text-lg text-gray-500 max-w-xl leading-relaxed">
               Follow any {lang.language} conversation, meeting or lecture.
             </p>
+            <HeroDownload alt={`Captio AI app showing live captions in ${lang.language}`} />
             <ShortAnswer
               reviewed={formatMonth(UPDATED.languages)}
               footer={
@@ -246,7 +247,6 @@ export default async function LanguagePage({ params }: Props) {
             >
               {inShort}
             </ShortAnswer>
-            <HeroDownload alt={`Captio AI app showing live captions in ${lang.language}`} />
           </div>
         </section>
 
