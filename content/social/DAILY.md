@@ -1,6 +1,6 @@
 # The daily social writer
 
-The cloud routine "Captio AI daily social posts" follows this file every morning. It writes the next Instagram and Facebook posts, has each one checked by a separate reviewer, and pushes the ones that pass to `main`. It never publishes: the GitHub Action `.github/workflows/social-publish.yml` renders, checks and schedules posts in Zernio later in the morning. To change what the writer does, change this file, not the routine.
+The cloud routine "Captio AI daily social posts" follows this file every morning. It writes the next Instagram and Facebook posts, has each one checked by a separate reviewer, and pushes the ones that pass to `main`. It never publishes: the GitHub Action `.github/workflows/social-publish.yml` renders, checks and schedules one post a day in Zernio. To change what the writer does, change this file, not the routine.
 
 **Network in the cloud sandbox:** the shell can reach npm and GitHub, but not other websites (captioai.app, sources). Open sources with WebFetch and WebSearch. `social-check` runs without `--online` here; the Action opens the pages later.
 

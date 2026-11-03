@@ -1,4 +1,4 @@
-# Every morning: refresh the page list from the live sitemap, record what the
+# Five times a day: refresh the page list from the live sitemap, record what the
 # earlier posts did, then render, check and schedule today's posts in Zernio.
 # The writing happens earlier in the cloud routine (content/social/DAILY.md);
 # this only publishes posts that are written and reviewed. Pause it with
@@ -7,7 +7,9 @@ name: Social publish
 
 on:
   schedule:
-    - cron: "15 6 * * *"
+    # GitHub starts scheduled runs late or drops them, so one run a day isn't
+    # enough. Runs after the day's post is scheduled find nothing to do.
+    - cron: "15 6,10,14,18,22 * * *"
   workflow_dispatch:
 
 permissions:

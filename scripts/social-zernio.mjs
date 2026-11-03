@@ -149,7 +149,7 @@ async function captionsInZernio() {
   return seen;
 }
 
-// Today's slot times (UTC) from pace.json: 2 a day for 14 days, then 3, then 5.
+// Today's slot times (UTC) from pace.json: one a day.
 function slotsFor(day) {
   const pace = readJson(PACE, null);
   if (!pace || pace.paused) return [];
@@ -170,10 +170,18 @@ function planFor(at) {
   const state = readState();
   const taken = new Set(Object.values(state).map((s) => s.scheduledFor));
   const usedToday = Object.values(state).filter((s) => Date.parse(s.scheduledFor) >= day && Date.parse(s.scheduledFor) < day + DAY_MS).length;
-  const slots = slotsFor(day)
+  const unused = slotsFor(day)
     .slice(usedToday)
     .map((hm) => new Date(`${new Date(day).toISOString().slice(0, 10)}T${hm}:00Z`))
-    .filter((t) => t.getTime() - at.getTime() >= SLOT_LEAD_MS && !taken.has(t.toISOString()));
+    .filter((t) => !taken.has(t.toISOString()));
+  let slots = unused.filter((t) => t.getTime() - at.getTime() >= SLOT_LEAD_MS);
+  // GitHub can start a scheduled run hours late (3 Nov 2026: 06:15 ran at 14:24).
+  // A day whose slots have all passed with nothing sent still gets its post,
+  // as soon as Zernio allows, rounded to 5 minutes.
+  if (!slots.length && unused.length) {
+    const soon = new Date(Math.ceil((at.getTime() + SLOT_LEAD_MS) / 300000) * 300000);
+    if (soon.getTime() < day + DAY_MS) slots = [soon];
+  }
   const blocked = readJson(BLOCKED, {});
   const byPage = new Map(loadPosts().map((p) => [p.page, p.id]));
   const order = readJson(PAGES, []).map((p) => p.page);
@@ -233,7 +241,8 @@ async function sync() {
   const state = readState();
   const problems = [];
   for (const [id, s] of Object.entries(state)) {
-    if (!s.zernioId || s.status === "published") continue;
+    // A failed post is reported once: the job runs several times a day.
+    if (!s.zernioId || ["published", "failed", "partial"].includes(s.status)) continue;
     if (Date.parse(s.scheduledFor) > Date.now()) continue;
     const { data } = await patient(() => zernio().posts.getPost({ path: { postId: s.zernioId } }));
     const post = data.post ?? data;
