@@ -3206,8 +3206,9 @@
         ],
         "languages": []
       },
-      "status": "queued",
-      "priority": true
+      "status": "published",
+      "slug": "live-captions-on-ipad-for-lectures-and-meetings",
+      "published": "2026-11-03"
     }
   ]
 }
