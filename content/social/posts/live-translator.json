@@ -1,0 +1,26 @@
+{
+  "id": "live-translator",
+  "pageType": "feature",
+  "page": "/live-translator",
+  "question": "Can an app translate speech live for deaf people?",
+  "slides": [
+    "They speak theirs. *You read yours.*",
+    "Live translation, *60 languages.*"
+  ],
+  "description": [
+    "Yes, Live Translator in Captio AI translates speech into another language as it is spoken and shows it on your phone.",
+    "Captio AI is made for deaf and hard of hearing people, so a conversation in a language you do not share becomes text instead of sound.",
+    "Live Translator in Captio AI shows the translation next to the original captions, so you see both while the person talks.",
+    "Live Translator in Captio AI translates speech in 60 languages, on iPhone and Android.",
+    "A language hint tells Captio AI which language to expect, so it starts tuned in from the first word.",
+    "Captio AI also handles speech that switches languages mid-sentence.",
+    "Live Translator in Captio AI helps while travelling, at a doctor's appointment or in an in-person meeting between people with different languages; confirm medical instructions with the doctor or pharmacist.",
+    "The free plan of Captio AI gives you 100 free credits a day, and the app is free to download.",
+    "Live Translator in Captio AI needs an internet connection, translations can contain mistakes, and it does not replace a professional interpreter."
+  ],
+  "hashtags": [
+    "#LiveTranslation",
+    "#DeafAwareness",
+    "#Accessibility"
+  ]
+}

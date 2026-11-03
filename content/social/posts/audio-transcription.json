@@ -1,0 +1,26 @@
+{
+  "id": "audio-transcription",
+  "pageType": "feature",
+  "page": "/audio-transcription",
+  "question": "How can I turn a recording into text?",
+  "slides": [
+    "Upload a recording. *Read it.*",
+    "Audio and video *to text.*"
+  ],
+  "description": [
+    "Audio Transcription in Captio AI turns an audio or video file into a written transcript you can read on your phone.",
+    "Captio AI is made for deaf and hard of hearing people, who can read a lecture or meeting recording that would otherwise be only sound.",
+    "Audio Transcription in Captio AI takes a file from Files, or a video from Photos, on iPhone and Android.",
+    "When you pick a video in Captio AI on iPhone, only its sound is taken out on the phone and sent, and the picture never leaves the device.",
+    "Sixty languages are covered by Captio AI, and speakers are separated in the transcript.",
+    "Re-transcribe in Captio AI runs a saved recording through again for a cleaner transcript.",
+    "Without internet, Captio AI still records, and the recording is transcribed automatically when the phone reconnects.",
+    "A Captio AI transcript can be shared as plain text, a link, a PDF or an email.",
+    "Download Captio AI for free with 100 free credits a day. Transcripts can contain mistakes, and you should ask first before recording a lecture or meeting."
+  ],
+  "hashtags": [
+    "#Transcription",
+    "#DeafAwareness",
+    "#Accessibility"
+  ]
+}
