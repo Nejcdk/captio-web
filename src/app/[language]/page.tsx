@@ -9,9 +9,14 @@ import FaqAccordion from "@/components/FaqAccordion";
 import HomeContent from "@/components/HomeContent";
 import HeroDownload from "@/components/HeroDownload";
 import { languages, getLanguageBySlug } from "@/lib/languages";
-import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbSchema } from "@/lib/schema";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import ShortAnswer from "@/components/ShortAnswer";
+import RelatedReading from "@/components/RelatedReading";
+import { getPostsForLanguage } from "@/lib/blog";
+import { UPDATED, formatMonth } from "@/lib/updated";
+import { SITE_URL, jsonLd, softwareApplicationSchema, faqPageSchema, breadcrumbSchema, webPageSchema } from "@/lib/schema";
 import { getMessages } from "@/i18n";
-import { LOCALE_CODES, isLocale } from "@/i18n/locales";
+import { LOCALES, LOCALE_CODES, isLocale } from "@/i18n/locales";
 import { homeMetadata } from "@/i18n/metadata";
 
 // Two kinds of page share this segment: the English language pages
@@ -106,16 +111,21 @@ export default async function LanguagePage({ params }: Props) {
     { label: "TV & Media", slug: "tv-media", icon: "📺", description: `Built-in subtitles on ${lang.language} TV, films, and videos are often wrong, delayed, or missing. Captio AI captions whatever is playing in real time, so you are not dependent on what the content provides.` },
   ];
 
+  // The site in this language (/de), when there is one.
+  const locale = LOCALES.find((l) => l.slug === lang.languageSlug);
+  const posts = getPostsForLanguage(lang.languageSlug);
+  const crumbs = [
+    { name: "Home", path: "/" },
+    { name: "Languages", path: "/languages" },
+    { name: lang.language, path: `/${lang.languageSlug}` },
+  ];
+  const description = `Real-time live captions, live translation, audio transcription, and AI summaries for ${lang.language} speakers. ${lang.dialectNote}.`;
+  const inShort = `Captio AI gives deaf and hard of hearing ${lang.language} speakers real-time live captions, live translation, audio transcription and AI summaries on iPhone and Android. ${lang.dialectNote}. Below: the regional varieties it covers, and one page for each situation, from meetings to doctor appointments.`;
   const schemaOrg = jsonLd(
-    softwareApplicationSchema({
-      url: `${SITE_URL}/${lang.languageSlug}`,
-      description: `Real-time live captions, live translation, audio transcription, and AI summaries for ${lang.language} speakers. ${lang.dialectNote}.`,
-    }),
+    webPageSchema({ url: `${SITE_URL}/${lang.languageSlug}`, name: `${lang.language} Live Captions & Transcription`, description, dateModified: UPDATED.languages }),
+    softwareApplicationSchema({ url: `${SITE_URL}/${lang.languageSlug}`, description }),
     faqPageSchema(allFaqs),
-    breadcrumbSchema([
-      { name: "Home", path: "/" },
-      { name: `${lang.language} Captions`, path: `/${lang.languageSlug}` },
-    ]),
+    breadcrumbSchema(crumbs),
   );
 
   const features = [
@@ -210,6 +220,7 @@ export default async function LanguagePage({ params }: Props) {
         {/* ── Hero ── */}
         <section className="pt-6 pb-4 sm:pt-10 sm:pb-10 px-5">
           <div className="max-w-3xl mx-auto flex flex-col items-center text-center gap-4 sm:gap-6">
+            <Breadcrumbs items={crumbs} />
             <span className="text-[11px] font-bold text-brand uppercase tracking-widest mt-2 sm:mt-0">
               🦻 Accessibility + 💻 Productivity App
             </span>
@@ -221,8 +232,20 @@ export default async function LanguagePage({ params }: Props) {
               for deaf and HoH people.
             </h1>
             <p className="text-base sm:text-lg text-gray-500 max-w-xl leading-relaxed">
-              Follow any {lang.language} conversation, meeting or lecture. {lang.dialectNote}.
+              Follow any {lang.language} conversation, meeting or lecture.
             </p>
+            <ShortAnswer
+              reviewed={formatMonth(UPDATED.languages)}
+              footer={
+                locale && (
+                  <Link href={`/${locale.code}`} className="text-brand hover:underline">
+                    This website in {lang.language}: <span lang={locale.code}>{locale.native}</span>
+                  </Link>
+                )
+              }
+            >
+              {inShort}
+            </ShortAnswer>
             <HeroDownload alt={`Captio AI app showing live captions in ${lang.language}`} />
           </div>
         </section>
@@ -344,6 +367,9 @@ export default async function LanguagePage({ params }: Props) {
               <h2 className="text-3xl font-bold text-gray-900 tracking-tight mt-3">
                 Captio AI supports 60+ languages
               </h2>
+              <p className="mt-3">
+                <Link href="/languages" className="text-sm font-semibold text-brand hover:underline">All 60 languages, with the dialects and accents each one covers</Link>
+              </p>
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
               {languages.map((l) => (
@@ -438,6 +464,8 @@ export default async function LanguagePage({ params }: Props) {
             </div>
           </section>
         )}
+
+        <RelatedReading posts={posts} compares={[]} subject={`hearing loss and captions for ${lang.language} speakers`} />
 
         {/* ── Inline CTA ── */}
         <div className="py-8 flex flex-col items-center gap-2 bg-white">

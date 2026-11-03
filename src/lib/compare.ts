@@ -508,3 +508,11 @@ export function getCompareHub(): CompareHub {
     factsChecked: all.map((a) => a.checked).sort()[0],
   };
 }
+
+/** The comparisons whose "which one for this situation" cards point at a use case. */
+export function getComparePagesForUseCase(useCase: string, count = 3): ComparePage[] {
+  const prefix = `/use-cases/${useCase}`;
+  return getAllComparePages()
+    .filter((p) => p.situations.some((s) => s.link === prefix || s.link?.startsWith(`${prefix}/`)))
+    .slice(0, count);
+}

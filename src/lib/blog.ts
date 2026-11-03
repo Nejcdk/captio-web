@@ -279,6 +279,40 @@ export function getRelatedPosts(post: BlogPost, count = 3): BlogPost[] {
   return [...same, ...rest].slice(0, count);
 }
 
+// ── Coverage (content/blog/topics.json) ──────────────────────────────────
+// Each topic in the queue says which use cases and languages its article
+// covers; the landing pages use that to show the articles about them.
+
+type Coverage = { slug: string; useCases: string[]; languages: string[] };
+let coverage: Coverage[] | null = null;
+
+function getCoverage(): Coverage[] {
+  if (!coverage || process.env.NODE_ENV === "development") {
+    const file = path.join(process.cwd(), "content/blog/topics.json");
+    const topics: unknown[] = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, "utf8")).topics ?? [] : [];
+    coverage = topics.flatMap((t) => {
+      const topic = t as { status?: string; slug?: string; covers?: { useCases?: string[]; languages?: string[] } };
+      if (topic.status !== "published" || !topic.slug) return [];
+      return [{ slug: topic.slug, useCases: topic.covers?.useCases ?? [], languages: topic.covers?.languages ?? [] }];
+    });
+  }
+  return coverage;
+}
+
+/** Articles about a use case, newest first; those also about the language first. */
+export function getPostsForUseCase(useCase: string, language?: string, count = 3): BlogPost[] {
+  const covers = new Map(getCoverage().map((c) => [c.slug, c]));
+  const posts = getAllPosts().filter((p) => covers.get(p.slug)?.useCases.includes(useCase));
+  const withLanguage = language ? posts.filter((p) => covers.get(p.slug)?.languages.includes(language)) : [];
+  return [...withLanguage, ...posts.filter((p) => !withLanguage.includes(p))].slice(0, count);
+}
+
+/** Articles about a language (its countries' numbers, its particular problems), newest first. */
+export function getPostsForLanguage(language: string, count = 3): BlogPost[] {
+  const slugs = new Set(getCoverage().filter((c) => c.languages.includes(language)).map((c) => c.slug));
+  return getAllPosts().filter((p) => slugs.has(p.slug)).slice(0, count);
+}
+
 /** "21 October 2026" */
 export function formatDay(day: string): string {
   return new Date(`${day}T12:00:00Z`).toLocaleDateString("en-GB", {
