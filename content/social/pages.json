@@ -1,5 +1,75 @@
 [
  {
+  "page": "/languages",
+  "type": "feature",
+  "post": null
+ },
+ {
+  "page": "/blog/live-captions-on-ipad-for-lectures-and-meetings",
+  "type": "blog",
+  "post": null
+ },
+ {
+  "page": "/compare/captio-ai-vs-augio",
+  "type": "compare",
+  "post": null
+ },
+ {
+  "page": "/compare/captio-ai-vs-duna",
+  "type": "compare",
+  "post": null
+ },
+ {
+  "page": "/compare/captio-ai-vs-mitreden",
+  "type": "compare",
+  "post": null
+ },
+ {
+  "page": "/compare/captio-ai-vs-nalscribe",
+  "type": "compare",
+  "post": null
+ },
+ {
+  "page": "/compare/captio-ai-vs-pedius",
+  "type": "compare",
+  "post": null
+ },
+ {
+  "page": "/compare/captio-ai-vs-rime",
+  "type": "compare",
+  "post": null
+ },
+ {
+  "page": "/compare/captio-ai-vs-tolkcontact",
+  "type": "compare",
+  "post": null
+ },
+ {
+  "page": "/compare/captio-ai-vs-ud-talk",
+  "type": "compare",
+  "post": null
+ },
+ {
+  "page": "/compare/captio-ai-vs-vosual",
+  "type": "compare",
+  "post": null
+ },
+ {
+  "page": "/compare/captio-ai-vs-sovoro",
+  "type": "compare",
+  "post": null
+ },
+ {
+  "page": "/compare/captio-ai-vs-koetora",
+  "type": "compare",
+  "post": null
+ },
+ {
+  "page": "/compare/captio-ai-vs-yinshu",
+  "type": "compare",
+  "post": null
+ },
+ {
   "page": "/",
   "type": "home",
   "post": "home-live-captions-app"
@@ -7,17 +77,17 @@
  {
   "page": "/live-captions",
   "type": "feature",
-  "post": null
+  "post": "live-captions"
  },
  {
   "page": "/live-translator",
   "type": "feature",
-  "post": null
+  "post": "live-translator"
  },
  {
   "page": "/audio-transcription",
   "type": "feature",
-  "post": null
+  "post": "audio-transcription"
  },
  {
   "page": "/ai-summary",
