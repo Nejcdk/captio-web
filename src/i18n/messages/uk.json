@@ -7,6 +7,7 @@
     "blog": "Блог",
     "organizations": "Для організацій",
     "download": "Завантажити",
+    "webApp": "Веб-версія",
     "toggleMenu": "Відкрити або закрити меню",
     "chooseLanguage": "Вибери мову"
   },
@@ -31,7 +32,8 @@
     "googleOverline": "Доступно в",
     "appleQrAlt": "QR-код для завантаження Captio AI з App Store на iPhone",
     "googleQrAlt": "QR-код для завантаження Captio AI з Google Play на Android",
-    "downloadForFree": "Завантажити безкоштовно"
+    "downloadForFree": "Завантажити безкоштовно",
+    "alsoInBrowser": "Captio AI працює і в браузері"
   },
   "common": {
     "home": "Головна",

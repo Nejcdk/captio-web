@@ -7,6 +7,7 @@
     "blog": "المدونة",
     "organizations": "للمؤسسات",
     "download": "تنزيل",
+    "webApp": "تطبيق الويب",
     "toggleMenu": "فتح القائمة أو إغلاقها",
     "chooseLanguage": "اختر لغة"
   },
@@ -31,7 +32,8 @@
     "googleOverline": "احصل عليه من",
     "appleQrAlt": "رمز QR لتنزيل Captio AI من App Store على iPhone",
     "googleQrAlt": "رمز QR لتنزيل Captio AI من Google Play على Android",
-    "downloadForFree": "نزّله مجانًا"
+    "downloadForFree": "نزّله مجانًا",
+    "alsoInBrowser": "يعمل Captio AI أيضًا في المتصفح"
   },
   "common": {
     "home": "الرئيسية",

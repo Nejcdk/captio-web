@@ -1,0 +1,162 @@
+/* The referral program (InviteChip.tsx, InvitePage.tsx; app: InviteChip,
+   InviteScreen, EarnedAmount, InviteMeter, DESIGN.md §5 and §7 Invite page). */
+
+/* ── Home's chip: PLUS's size and font, reward red, a breathing white glow ── */
+.invite-chip-wrap { position: relative; display: inline-flex; margin-right: 10px; }
+.invite-chip-glow {
+  position: absolute; inset: 0;
+  border-radius: 10px; background: #FFFFFF;
+  box-shadow: 0 0 12px 1px #FFFFFF;
+  opacity: 0.3;
+  animation: invite-breath 3200ms ease-in-out infinite;
+  pointer-events: none;
+}
+@keyframes invite-breath { 0%, 100% { opacity: 0.3; } 50% { opacity: 1; } }
+.invite-chip {
+  position: relative;
+  display: inline-flex; align-items: center; gap: 5px;
+  padding: 7px 12px;
+  border: 0; border-radius: 10px; background: #FFFFFF;
+  font-family: inherit; cursor: pointer;
+  transition: opacity 120ms;
+}
+.invite-chip:hover { opacity: 0.9; }
+.invite-chip.compact { padding: 7px 8px; }
+.invite-gift { display: inline-block; font-size: 15px; line-height: 17px; animation: invite-wiggle 4s infinite; }
+.invite-gift.still { animation: none; }
+/* The attention wiggle: ±22° with a little growth, once every 4 s. */
+@keyframes invite-wiggle {
+  0%, 87.5%, 100% { transform: rotate(0) scale(1); }
+  89.25% { transform: rotate(-22deg) scale(1.18); }
+  92.25% { transform: rotate(22deg) scale(1.18); }
+  95% { transform: rotate(-14deg) scale(1.1); }
+  97.5% { transform: rotate(8deg) scale(1.05); }
+}
+.invite-chip-amount { font-size: 14px; line-height: 17px; font-weight: 700; letter-spacing: 1px; color: #FF3B30; }
+@media (prefers-reduced-motion: reduce) {
+  .invite-chip-glow { animation: none; opacity: 0.6; }
+  .invite-gift { animation: none; }
+}
+
+/* ── Settings' note under the plan card ─────────────────────────────────── */
+.invite-settings-note {
+  display: block; width: 100%; margin-top: 10px; padding: 8px 14px;
+  border: 1.5px solid #FFC400; border-radius: 16px; background: transparent;
+  font-family: inherit; font-size: 14px; font-weight: 600; color: var(--ink, #1C1C1E); text-align: center;
+  cursor: pointer; transition: background-color 120ms;
+}
+.invite-settings-note:hover { background: rgba(255, 196, 0, 0.08); }
+
+/* ── The page: white, full window, a 560 column like a modal screen on iPad ── */
+.invite-page {
+  position: fixed; inset: 0; z-index: 40;
+  overflow-y: auto;
+  background: var(--bg, #FFFFFF);
+  color: var(--ink, #1C1C1E);
+  font-family: var(--font-app), system-ui, sans-serif;
+  animation: ui-fade 250ms ease-out;
+}
+.invite-inner {
+  position: relative;
+  width: 100%; max-width: 560px; min-height: 100%;
+  margin: 0 auto;
+  display: flex; flex-direction: column;
+  padding: 24px 24px 28px;
+}
+.invite-title { margin-top: 40px; padding: 0 28px; text-align: center; font-size: 30px; line-height: 36px; font-weight: 700; letter-spacing: -0.5px; }
+.invite-limited { margin-top: 4px; text-align: center; font-size: 16px; font-weight: 600; color: #FF3B30; }
+
+/* You've earned: takes the height that's left, never under 104. */
+.invite-earned {
+  position: relative; overflow: hidden;
+  flex: 1; min-height: 104px; margin-top: 14px; padding: 14px 18px;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  border: 0; border-radius: 16px; background: var(--surface, #FAFAFA);
+  font-family: inherit; cursor: pointer;
+}
+.invite-earned-label { position: relative; z-index: 1; font-size: 13px; font-weight: 600; letter-spacing: 1.1px; color: var(--ink-muted, #6F7280); }
+.invite-earned-amount { position: relative; z-index: 1; display: inline-block; font-size: 54px; line-height: 62px; font-weight: 700; letter-spacing: -1.5px; color: var(--ink, #1C1C1E); }
+.invite-confetti { position: absolute; left: 50%; top: 50%; border-radius: 2px; pointer-events: none; z-index: 0; }
+
+.invite-tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 12px; }
+.invite-tile {
+  min-height: 124px; padding: 12px 10px;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  border: 0; border-radius: 16px;
+  font-family: inherit; cursor: pointer; text-align: center;
+  transition: opacity 120ms, transform 140ms;
+}
+.invite-tile:hover { opacity: 0.92; }
+.invite-tile:active { transform: scale(0.98); }
+.invite-tile.monthly { background: linear-gradient(135deg, #4B6FFF, #1C49F5); color: #FFFFFF; }
+.invite-tile.yearly { background: linear-gradient(135deg, #FFE066, #FFB800 55%, #E08800); color: #1C1C1E; }
+.invite-tile .amount { font-size: 52px; line-height: 60px; font-weight: 700; letter-spacing: -1.5px; }
+.invite-tile .label { margin-top: 2px; font-size: 14px; line-height: 19px; font-weight: 600; }
+
+.invite-meter { margin-top: 12px; padding: 14px 18px; border-radius: 16px; background: var(--surface, #FAFAFA); }
+.invite-meter-numbers { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.invite-meter-numbers .total { font-size: 28px; line-height: 34px; font-weight: 700; letter-spacing: -0.5px; color: #28A745; font-variant-numeric: tabular-nums; }
+.invite-meter-numbers .sum { font-size: 16px; font-weight: 600; color: var(--ink-muted, #6F7280); }
+.invite-meter-bar { display: flex; align-items: center; gap: 10px; margin-top: 8px; }
+.invite-meter-bar .track { position: relative; flex: 1; height: 18px; border-radius: 9px; overflow: hidden; background: var(--hairline, #E5E5EA); }
+.invite-meter-bar .fill {
+  position: absolute; inset: 0;
+  background: linear-gradient(90deg, #4B6FFF, #1C49F5);
+  transition: transform 520ms cubic-bezier(0.33, 1, 0.68, 1);
+}
+.invite-meter-bar .max { font-size: 16px; font-weight: 700; color: #28A745; }
+
+.invite-footer { display: flex; flex-direction: column; gap: 10px; margin-top: 20px; }
+.invite-link-label { text-align: center; font-size: 11px; font-weight: 600; letter-spacing: 1.1px; color: var(--ink-faint, #A0A0A8); }
+.invite-link {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  padding: 15px 16px;
+  border: 1.5px dashed var(--outline, #D1D1D6); border-radius: 16px; background: var(--surface, #FAFAFA);
+  font-family: inherit; font-size: 16px; font-weight: 600; color: var(--ink, #1C1C1E);
+  cursor: pointer;
+}
+.invite-link:hover { border-color: var(--brand, #1C49F5); }
+.invite-link span { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.invite-link .placeholder { color: #C7C7CC; }
+.invite-share {
+  height: 58px;
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+  border: 0; border-radius: 16px;
+  background: linear-gradient(135deg, #4B6FFF, #1C49F5);
+  font-family: inherit; font-size: 17px; font-weight: 700; letter-spacing: -0.2px; color: #FFFFFF;
+  cursor: pointer; transition: opacity 120ms;
+}
+.invite-share:hover { opacity: 0.88; }
+.invite-share:disabled, .invite-tile:disabled, .invite-link:disabled { opacity: 0.4; cursor: default; }
+.invite-spinner { width: 18px; height: 18px; border-radius: 50%; border: 2.5px solid rgba(255, 255, 255, 0.35); border-top-color: #FFFFFF; animation: invite-spin 800ms linear infinite; }
+@keyframes invite-spin { to { transform: rotate(360deg); } }
+.invite-quiet-row { display: flex; justify-content: center; gap: 24px; }
+.invite-quiet-row .ui-quiet { margin: 0; }
+.invite-paid {
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+  font-size: 11px; font-weight: 600; letter-spacing: 1.1px; color: var(--ink-faint, #A0A0A8);
+}
+.invite-paypal {
+  width: 44px; height: 28px;
+  display: flex; align-items: center; justify-content: center;
+  border: 1px solid var(--hairline, #E5E5EA); border-radius: 8px; background: #FFFFFF;
+}
+.invite-code-input { text-align: center; letter-spacing: 2px; font-weight: 600; text-transform: uppercase; }
+
+/* ── How does it work? (a StepGuide) ────────────────────────────────────── */
+.invite-guide-bars { display: flex; gap: 6px; padding: 4px 52px 0 0; }
+.invite-guide-bars span { flex: 1; height: 4px; border-radius: 2px; background: var(--hairline, #E5E5EA); transition: background-color 200ms; }
+.invite-guide-bars span.on { background: var(--brand, #1C49F5); }
+.invite-guide-text { margin: 56px 0 0; font-size: 24px; line-height: 32px; font-weight: 500; color: var(--ink-muted, #6F7280); }
+.invite-guide-text b { font-weight: 700; color: var(--ink, #1C1C1E); }
+.invite-guide-visual { position: relative; flex: 1; min-height: 260px; display: flex; align-items: center; justify-content: center; margin: 24px 0; }
+.invite-guide-visual img { width: 80%; max-width: 300px; height: auto; }
+.invite-guide-visual .half { position: absolute; top: 0; bottom: 0; width: 50%; border: 0; background: none; cursor: pointer; }
+.invite-guide-visual .half.left { left: 0; }
+.invite-guide-visual .half.right { right: 0; }
+
+@media (max-width: 760px) {
+  .invite-inner { padding: 16px 20px 24px; }
+  .invite-title { margin-top: 32px; }
+  .invite-tile .amount { font-size: 40px; line-height: 48px; }
+}

@@ -1,0 +1,111 @@
+/* The Actions tab (ActionsTab.tsx), from the app's ActionGrid.tsx and
+   ActionResult.tsx styles: white tiles with a 2pt border in the action's
+   colour, a big duotone icon, the name under it; results drawn for reading. */
+
+/* Six tiles: two by two on a phone, three across when the page is wide. */
+.act-grid-wrap { container-type: inline-size; }
+.act-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+@container (min-width: 560px) {
+  .act-grid { grid-template-columns: repeat(3, 1fr); }
+}
+.act-tile {
+  position: relative;
+  aspect-ratio: 1 / 0.9;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px;
+  padding: 12px;
+  border: 2px solid; border-radius: 16px; background: #FFFFFF;
+  transition: opacity 120ms, transform 140ms cubic-bezier(0.3, 1.4, 0.5, 1);
+}
+.act-tile:hover { opacity: 0.75; }
+.act-tile:active { transform: scale(0.97); }
+.act-tile-label { font-size: 16px; line-height: 21px; font-weight: 600; color: #1C1C1E; text-align: center; }
+
+.act-spinner {
+  width: 36px; height: 36px; flex: none;
+  border-radius: 50%;
+  border: 3px solid rgba(142, 142, 147, 0.25);
+  border-top-color: #1C49F5;
+  animation: act-spin 800ms linear infinite;
+}
+.act-spinner.small { position: absolute; top: 10px; right: 10px; width: 18px; height: 18px; border-width: 2px; }
+@keyframes act-spin { to { transform: rotate(360deg); } }
+
+/* The row above a result: back to the tiles. */
+.act-title {
+  display: inline-flex; align-items: center; gap: 8px;
+  margin-bottom: 18px; padding: 4px 0;
+  border: 0; background: none;
+  font-size: 17px; font-weight: 600; color: #1C1C1E;
+}
+.act-title:hover { opacity: 0.6; }
+.act-loading { display: flex; flex-direction: column; align-items: center; gap: 16px; padding-top: 60px; font-size: 15px; color: #8E8E93; }
+.act-insufficient { display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 60px 16px 0; text-align: center; }
+.act-insufficient .emoji { font-size: 36px; line-height: 1.1; }
+.act-insufficient b { font-size: 17px; font-weight: 600; color: #1C1C1E; }
+.act-insufficient p { font-size: 14px; line-height: 20px; color: #8E8E93; }
+.act-regen {
+  display: flex; align-items: center; gap: 5px;
+  margin: 28px auto 0; padding: 4px 6px;
+  border: 0; background: none;
+  font-size: 12px; color: #B0B0B8;
+}
+.act-regen:hover { color: #6F7280; }
+
+/* A result. */
+.act-result { color: #3C3C43; }
+.act-header { display: flex; gap: 8px; margin: 26px 0 10px; font-size: 19px; line-height: 25px; font-weight: 700; color: #1C1C1E; }
+.act-header.first { margin-top: 0; margin-bottom: 16px; font-size: 22px; line-height: 28px; }
+.act-subheader { margin: 14px 0 8px; font-size: 15px; line-height: 20px; font-weight: 600; color: #1C49F5; }
+.act-paragraph { margin: 0 0 12px; font-size: 16px; line-height: 24px; color: #3C3C43; }
+.act-row { display: flex; align-items: flex-start; gap: 11px; margin-bottom: 9px; }
+.act-body { font-size: 16px; line-height: 24px; color: #3C3C43; }
+.act-body b { font-weight: 600; color: #1C1C1E; }
+.act-body.done { text-decoration: line-through; color: #A0A0A8; }
+.act-dot { width: 6px; height: 6px; flex: none; margin: 9px 0 0 4px; border-radius: 3px; background: #1C49F5; }
+.act-num {
+  width: 24px; height: 24px; flex: none;
+  display: flex; align-items: center; justify-content: center;
+  border-radius: 8px; background: rgba(28, 73, 245, 0.1);
+  font-size: 13px; font-weight: 700; color: #1C49F5;
+}
+.act-todo {
+  width: 100%;
+  display: flex; align-items: flex-start; gap: 12px;
+  margin-bottom: 12px; padding: 0;
+  border: 0; background: none; text-align: left;
+}
+.act-todo:disabled { opacity: 1; cursor: default; }
+.act-todo:not(:disabled):hover .act-box { border-color: #1C49F5; }
+.act-box {
+  width: 22px; height: 22px; flex: none; margin-top: 1px;
+  display: flex; align-items: center; justify-content: center;
+  border: 2px solid #C7C7CC; border-radius: 7px;
+  font-size: 13px; font-weight: 700; line-height: 15px; color: #FFFFFF;
+  transition: background-color 120ms, border-color 120ms;
+}
+.act-box.done { background: #1C49F5; border-color: #1C49F5; }
+.act-todo-text { flex: 1; min-width: 0; }
+.act-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+.act-chips span { padding: 3px 7px; border-radius: 6px; background: #F2F2F7; font-size: 12px; font-weight: 500; color: #5A5A64; }
+.act-quote { margin: 10px 0; padding: 4px 0 4px 14px; border-left: 3px solid rgba(28, 73, 245, 0.3); }
+.act-quote > span:first-child { display: block; font-size: 16px; line-height: 24px; font-style: italic; color: #3A3A44; }
+.act-quote .who { display: block; margin-top: 4px; font-size: 13px; color: #8E8E93; }
+.act-callout { margin: 8px 0; padding: 14px; border: 1px solid; border-radius: 16px; }
+.act-callout-title { display: flex; align-items: center; gap: 6px; margin-bottom: 4px; font-size: 16px; }
+.act-callout-title b { font-size: 15px; font-weight: 700; }
+.act-callout p { font-size: 16px; line-height: 24px; color: #1C1C1E; }
+.act-facts { margin: 8px 0; padding: 0 14px; border-radius: 16px; background: #FAFAFA; }
+.act-fact { display: flex; gap: 12px; padding: 11px 0; }
+.act-fact + .act-fact { border-top: 1px solid #E0E0E5; }
+.act-fact span { width: 38%; flex: none; font-size: 14px; line-height: 21px; color: #8E8E93; }
+.act-fact b { flex: 1; font-size: 15px; line-height: 21px; font-weight: 600; color: #1C1C1E; }
+.act-qa { margin-bottom: 10px; padding: 14px; border: 1.5px solid #E5E5EA; border-radius: 16px; }
+.act-qa b { display: block; font-size: 16px; line-height: 22px; font-weight: 600; color: #1C1C1E; }
+.act-qa p { margin-top: 6px; font-size: 15px; line-height: 22px; color: #3C3C43; }
+.act-qa p.open { color: #8E8E93; font-style: italic; }
+
+/* A recording that's still being transcribed (app: TranscribingState). */
+.act-transcribing { display: flex; flex-direction: column; align-items: center; padding: 28px 12px 0; text-align: center; }
+.act-transcribing .loading-bar { align-self: stretch; margin-bottom: 18px; }
+.act-transcribing b { margin-bottom: 6px; font-size: 17px; font-weight: 600; color: #1C1C1E; }
+.act-transcribing p { font-size: 15px; line-height: 21px; color: #8E8E93; }

@@ -7,6 +7,7 @@
     "blog": "博客",
     "organizations": "机构版",
     "download": "下载",
+    "webApp": "网页版",
     "toggleMenu": "打开或关闭菜单",
     "chooseLanguage": "选择语言"
   },
@@ -31,7 +32,8 @@
     "googleOverline": "下载应用，请到",
     "appleQrAlt": "扫描二维码，在 App Store 下载 iPhone 版 Captio AI",
     "googleQrAlt": "扫描二维码，在 Google Play 下载 Android 版 Captio AI",
-    "downloadForFree": "免费下载"
+    "downloadForFree": "免费下载",
+    "alsoInBrowser": "Captio AI 也可以在浏览器中使用"
   },
   "common": {
     "home": "首页",

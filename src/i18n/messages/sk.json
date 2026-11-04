@@ -7,6 +7,7 @@
     "blog": "Blog",
     "organizations": "Pre organizácie",
     "download": "Stiahnuť",
+    "webApp": "Webová aplikácia",
     "toggleMenu": "Otvoriť alebo zavrieť menu",
     "chooseLanguage": "Vyber jazyk"
   },
@@ -31,7 +32,8 @@
     "googleOverline": "Dostupné na",
     "appleQrAlt": "QR kód na stiahnutie Captio AI z App Store pre iPhone",
     "googleQrAlt": "QR kód na stiahnutie Captio AI z Google Play pre Android",
-    "downloadForFree": "Stiahnuť zadarmo"
+    "downloadForFree": "Stiahnuť zadarmo",
+    "alsoInBrowser": "Captio AI funguje aj v prehliadači"
   },
   "common": {
     "home": "Domov",

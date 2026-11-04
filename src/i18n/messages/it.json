@@ -7,6 +7,7 @@
     "blog": "Blog",
     "organizations": "Per le organizzazioni",
     "download": "Scarica",
+    "webApp": "Versione web",
     "toggleMenu": "Apri o chiudi il menu",
     "chooseLanguage": "Scegli una lingua"
   },
@@ -31,7 +32,8 @@
     "googleOverline": "Disponibile su",
     "appleQrAlt": "Codice QR per scaricare Captio AI dall’App Store per iPhone",
     "googleQrAlt": "Codice QR per scaricare Captio AI da Google Play per Android",
-    "downloadForFree": "Scarica gratis"
+    "downloadForFree": "Scarica gratis",
+    "alsoInBrowser": "Captio AI funziona anche nel browser"
   },
   "common": {
     "home": "Home",

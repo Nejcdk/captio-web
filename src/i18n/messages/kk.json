@@ -7,6 +7,7 @@
     "blog": "Блог",
     "organizations": "Ұйымдарға арналған",
     "download": "Жүктеп алу",
+    "webApp": "Веб-қолданба",
     "toggleMenu": "Мәзірді ашу не жабу",
     "chooseLanguage": "Тілді таңдаңыз"
   },
@@ -31,7 +32,8 @@
     "googleOverline": "Қолжетімді",
     "appleQrAlt": "iPhone үшін Captio AI қолданбасын App Store-дан жүктеп алуға арналған QR коды",
     "googleQrAlt": "Android үшін Captio AI қолданбасын Google Play-ден жүктеп алуға арналған QR коды",
-    "downloadForFree": "Тегін жүктеп алу"
+    "downloadForFree": "Тегін жүктеп алу",
+    "alsoInBrowser": "Captio AI браузерде де жұмыс істейді"
   },
   "common": {
     "home": "Басты бет",

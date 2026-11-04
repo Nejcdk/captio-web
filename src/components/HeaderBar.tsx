@@ -133,6 +133,10 @@ export default function HeaderBar({
             />
           )}
 
+          {/* The web app (captioai.app/app): start in the browser, no install. */}
+          <Link href="/app?from=header" className="hidden xl:block whitespace-nowrap border border-white/70 text-white text-sm font-semibold px-5 py-2.5 rounded-[8px] hover:bg-white/10 transition-colors">
+            {t.webApp}
+          </Link>
           <a href="#download" className="hidden xl:block whitespace-nowrap bg-white text-brand text-sm font-semibold px-5 py-2.5 rounded-[8px] hover:bg-white/90 transition-colors">
             {t.download}
           </a>
@@ -179,6 +183,13 @@ export default function HeaderBar({
               >
                 {t.download}
               </a>
+              <Link
+                href="/app?from=menu"
+                onClick={close}
+                className="mt-2 block text-center border border-gray-200 text-gray-800 font-semibold py-3.5 rounded-[8px] hover:bg-gray-50 transition-colors text-sm"
+              >
+                {t.webApp}
+              </Link>
             </div>
           </nav>
         </div>

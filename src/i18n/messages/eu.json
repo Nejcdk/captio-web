@@ -7,6 +7,7 @@
     "blog": "Bloga",
     "organizations": "Erakundeentzat",
     "download": "Deskargatu",
+    "webApp": "Web aplikazioa",
     "toggleMenu": "Ireki edo itxi menua",
     "chooseLanguage": "Aukeratu hizkuntza"
   },
@@ -31,7 +32,8 @@
     "googleOverline": "Eskuratu hemen:",
     "appleQrAlt": "Captio AI App Store-tik iPhone gailuetarako deskargatzeko QR kodea",
     "googleQrAlt": "Captio AI Google Play-tik Android gailuetarako deskargatzeko QR kodea",
-    "downloadForFree": "Deskargatu doan"
+    "downloadForFree": "Deskargatu doan",
+    "alsoInBrowser": "Captio AI nabigatzailean ere badabil"
   },
   "common": {
     "home": "Hasiera",

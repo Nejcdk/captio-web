@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import en from "@/i18n/messages/en.json";
 import type { Messages } from "@/i18n";
 
@@ -109,6 +110,10 @@ export function DownloadCard({ id, className = "", t = en.store }: { id?: string
     >
       <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">{t.downloadForFree}</p>
       <StoreQrButtons t={t} />
+      {/* No phone at hand: the same app in the browser (captioai.app/app). */}
+      <Link href="/app?from=download_card" className="text-sm font-semibold text-brand hover:underline underline-offset-4">
+        {t.alsoInBrowser} <span aria-hidden className="inline-block rtl:rotate-180">→</span>
+      </Link>
     </div>
   );
 }

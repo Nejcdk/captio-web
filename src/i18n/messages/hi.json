@@ -7,6 +7,7 @@
     "blog": "ब्लॉग",
     "organizations": "संस्थाओं के लिए",
     "download": "डाउनलोड",
+    "webApp": "वेब ऐप",
     "toggleMenu": "मेन्यू खोलें या बंद करें",
     "chooseLanguage": "भाषा चुनें"
   },
@@ -31,7 +32,8 @@
     "googleOverline": "इस पर पाएँ",
     "appleQrAlt": "iPhone के लिए App Store से Captio AI डाउनलोड करने का QR कोड",
     "googleQrAlt": "Android के लिए Google Play से Captio AI डाउनलोड करने का QR कोड",
-    "downloadForFree": "मुफ़्त डाउनलोड करें"
+    "downloadForFree": "मुफ़्त डाउनलोड करें",
+    "alsoInBrowser": "Captio AI ब्राउज़र में भी चलता है"
   },
   "common": {
     "home": "होम",

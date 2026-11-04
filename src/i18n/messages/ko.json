@@ -7,6 +7,7 @@
     "blog": "블로그",
     "organizations": "기관용",
     "download": "다운로드",
+    "webApp": "웹 버전",
     "toggleMenu": "메뉴 열고 닫기",
     "chooseLanguage": "언어 선택"
   },
@@ -31,7 +32,8 @@
     "googleOverline": "지금 받기",
     "appleQrAlt": "iPhone용 Captio AI를 App Store에서 다운로드하는 QR 코드",
     "googleQrAlt": "Android용 Captio AI를 Google Play에서 다운로드하는 QR 코드",
-    "downloadForFree": "무료 다운로드"
+    "downloadForFree": "무료 다운로드",
+    "alsoInBrowser": "Captio AI는 브라우저에서도 쓸 수 있어요"
   },
   "common": {
     "home": "홈",

@@ -7,6 +7,7 @@
     "blog": "Blog",
     "organizations": "Za organizacije",
     "download": "Preuzmi",
+    "webApp": "Veb aplikacija",
     "toggleMenu": "Otvori ili zatvori meni",
     "chooseLanguage": "Izaberi jezik"
   },
@@ -31,7 +32,8 @@
     "googleOverline": "Nabavi na",
     "appleQrAlt": "QR kod za preuzimanje aplikacije Captio AI za iPhone iz prodavnice App Store",
     "googleQrAlt": "QR kod za preuzimanje aplikacije Captio AI za Android iz prodavnice Google Play",
-    "downloadForFree": "Preuzmi besplatno"
+    "downloadForFree": "Preuzmi besplatno",
+    "alsoInBrowser": "Captio AI radi i u pregledaču"
   },
   "common": {
     "home": "Početna",

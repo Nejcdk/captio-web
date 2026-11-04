@@ -7,6 +7,7 @@
     "blog": "Blog",
     "organizations": "Dành cho tổ chức",
     "download": "Tải về",
+    "webApp": "Bản web",
     "toggleMenu": "Mở hoặc đóng menu",
     "chooseLanguage": "Chọn ngôn ngữ"
   },
@@ -31,7 +32,8 @@
     "googleOverline": "Tải nội dung trên",
     "appleQrAlt": "Mã QR để tải Captio AI trên App Store cho iPhone",
     "googleQrAlt": "Mã QR để tải Captio AI trên Google Play cho Android",
-    "downloadForFree": "Tải miễn phí"
+    "downloadForFree": "Tải miễn phí",
+    "alsoInBrowser": "Captio AI cũng dùng được trên trình duyệt"
   },
   "common": {
     "home": "Trang chủ",
