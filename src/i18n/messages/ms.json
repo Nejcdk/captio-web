@@ -7,6 +7,7 @@
     "blog": "Blog",
     "organizations": "Untuk Organisasi",
     "download": "Muat turun",
+    "webApp": "Versi web",
     "toggleMenu": "Buka atau tutup menu",
     "chooseLanguage": "Pilih bahasa"
   },
@@ -31,7 +32,8 @@
     "googleOverline": "Dapatkannya di",
     "appleQrAlt": "Kod QR untuk memuat turun Captio AI dari App Store untuk iPhone",
     "googleQrAlt": "Kod QR untuk memuat turun Captio AI dari Google Play untuk Android",
-    "downloadForFree": "Muat turun percuma"
+    "downloadForFree": "Muat turun percuma",
+    "alsoInBrowser": "Captio AI juga berfungsi dalam pelayar"
   },
   "common": {
     "home": "Laman utama",

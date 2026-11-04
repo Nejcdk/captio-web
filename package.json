@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@modelcontextprotocol/server": "^2.3.1",
+    "@revenuecat/purchases-js": "1.71.0",
     "@supabase/supabase-js": "^2.118.0",
     "@vercel/analytics": "^2.0.1",
     "gray-matter": "^4.0.3",

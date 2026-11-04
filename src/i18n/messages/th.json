@@ -7,6 +7,7 @@
     "blog": "บล็อก",
     "organizations": "สำหรับองค์กร",
     "download": "ดาวน์โหลด",
+    "webApp": "เวอร์ชันเว็บ",
     "toggleMenu": "เปิดหรือปิดเมนู",
     "chooseLanguage": "เลือกภาษา"
   },
@@ -31,7 +32,8 @@
     "googleOverline": "ดาวน์โหลดได้ที่",
     "appleQrAlt": "คิวอาร์โค้ดสำหรับดาวน์โหลด Captio AI จาก App Store บน iPhone",
     "googleQrAlt": "คิวอาร์โค้ดสำหรับดาวน์โหลด Captio AI จาก Google Play บน Android",
-    "downloadForFree": "ดาวน์โหลดฟรี"
+    "downloadForFree": "ดาวน์โหลดฟรี",
+    "alsoInBrowser": "Captio AI ใช้งานบนเบราว์เซอร์ได้ด้วย"
   },
   "common": {
     "home": "หน้าแรก",

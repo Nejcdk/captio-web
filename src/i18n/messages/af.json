@@ -7,6 +7,7 @@
     "blog": "Blog",
     "organizations": "Vir Organisasies",
     "download": "Laai af",
+    "webApp": "Webtoep",
     "toggleMenu": "Maak die kieslys oop of toe",
     "chooseLanguage": "Kies ’n taal"
   },
@@ -31,7 +32,8 @@
     "googleOverline": "Kry dit op",
     "appleQrAlt": "QR-kode om Captio AI vir iPhone van die App Store af te laai",
     "googleQrAlt": "QR-kode om Captio AI vir Android van Google Play af te laai",
-    "downloadForFree": "Laai gratis af"
+    "downloadForFree": "Laai gratis af",
+    "alsoInBrowser": "Captio AI werk ook in die blaaier"
   },
   "common": {
     "home": "Tuis",

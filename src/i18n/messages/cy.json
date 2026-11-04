@@ -7,6 +7,7 @@
     "blog": "Blog",
     "organizations": "I Sefydliadau",
     "download": "Lawrlwytho",
+    "webApp": "Ap gwe",
     "toggleMenu": "Agor neu gau’r ddewislen",
     "chooseLanguage": "Dewisa iaith"
   },
@@ -31,7 +32,8 @@
     "googleOverline": "Ar gael ar",
     "appleQrAlt": "Cod QR i lawrlwytho Captio AI o’r App Store ar gyfer iPhone",
     "googleQrAlt": "Cod QR i lawrlwytho Captio AI o Google Play ar gyfer Android",
-    "downloadForFree": "Lawrlwytha am ddim"
+    "downloadForFree": "Lawrlwytha am ddim",
+    "alsoInBrowser": "Mae Captio AI hefyd yn gweithio yn y porwr"
   },
   "common": {
     "home": "Hafan",

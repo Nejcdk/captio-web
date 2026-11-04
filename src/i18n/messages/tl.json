@@ -7,6 +7,7 @@
     "blog": "Blog",
     "organizations": "Para sa mga Organisasyon",
     "download": "I-download",
+    "webApp": "Web app",
     "toggleMenu": "Buksan o isara ang menu",
     "chooseLanguage": "Pumili ng wika"
   },
@@ -31,7 +32,8 @@
     "googleOverline": "Kunin ito sa",
     "appleQrAlt": "QR code para i-download ang Captio AI sa App Store para sa iPhone",
     "googleQrAlt": "QR code para i-download ang Captio AI sa Google Play para sa Android",
-    "downloadForFree": "I-download nang libre"
+    "downloadForFree": "I-download nang libre",
+    "alsoInBrowser": "Gumagana rin ang Captio AI sa browser"
   },
   "common": {
     "home": "Simula",

@@ -7,6 +7,7 @@
     "blog": "Blog",
     "organizations": "Për organizatat",
     "download": "Shkarko",
+    "webApp": "Aplikacioni web",
     "toggleMenu": "Hap ose mbyll menunë",
     "chooseLanguage": "Zgjidh gjuhën"
   },
@@ -31,7 +32,8 @@
     "googleOverline": "Merre në",
     "appleQrAlt": "Kodi QR për të shkarkuar Captio AI nga App Store për iPhone",
     "googleQrAlt": "Kodi QR për të shkarkuar Captio AI nga Google Play për Android",
-    "downloadForFree": "Shkarko falas"
+    "downloadForFree": "Shkarko falas",
+    "alsoInBrowser": "Captio AI funksionon edhe në shfletues"
   },
   "common": {
     "home": "Kryefaqja",

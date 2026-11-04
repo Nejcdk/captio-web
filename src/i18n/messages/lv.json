@@ -7,6 +7,7 @@
     "blog": "Blogs",
     "organizations": "Organizācijām",
     "download": "Lejupielādēt",
+    "webApp": "Tīmekļa lietotne",
     "toggleMenu": "Atvērt vai aizvērt izvēlni",
     "chooseLanguage": "Izvēlies valodu"
   },
@@ -31,7 +32,8 @@
     "googleOverline": "Iegūsti no",
     "appleQrAlt": "QR kods, lai lejupielādētu Captio AI no App Store iPhone tālrunim",
     "googleQrAlt": "QR kods, lai lejupielādētu Captio AI no Google Play Android ierīcei",
-    "downloadForFree": "Lejupielādē bez maksas"
+    "downloadForFree": "Lejupielādē bez maksas",
+    "alsoInBrowser": "Captio AI darbojas arī pārlūkā"
   },
   "common": {
     "home": "Sākums",

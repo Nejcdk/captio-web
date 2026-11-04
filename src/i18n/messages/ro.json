@@ -7,6 +7,7 @@
     "blog": "Blog",
     "organizations": "Pentru organizații",
     "download": "Descarcă",
+    "webApp": "Versiunea web",
     "toggleMenu": "Deschide sau închide meniul",
     "chooseLanguage": "Alege limba"
   },
@@ -31,7 +32,8 @@
     "googleOverline": "Disponibil pe",
     "appleQrAlt": "Cod QR pentru a descărca Captio AI din App Store pe iPhone",
     "googleQrAlt": "Cod QR pentru a descărca Captio AI din Google Play pe Android",
-    "downloadForFree": "Descarcă gratuit"
+    "downloadForFree": "Descarcă gratuit",
+    "alsoInBrowser": "Captio AI funcționează și în browser"
   },
   "common": {
     "home": "Acasă",

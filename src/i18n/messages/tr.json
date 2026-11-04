@@ -7,6 +7,7 @@
     "blog": "Blog",
     "organizations": "Kurumlar için",
     "download": "İndir",
+    "webApp": "Web uygulaması",
     "toggleMenu": "Menüyü aç veya kapat",
     "chooseLanguage": "Dil seç"
   },
@@ -31,7 +32,8 @@
     "googleOverline": "Şimdi edin",
     "appleQrAlt": "iPhone için Captio AI uygulamasını App Store'dan indirmek için QR kodu",
     "googleQrAlt": "Android için Captio AI uygulamasını Google Play'den indirmek için QR kodu",
-    "downloadForFree": "Ücretsiz indir"
+    "downloadForFree": "Ücretsiz indir",
+    "alsoInBrowser": "Captio AI tarayıcıda da çalışır"
   },
   "common": {
     "home": "Ana sayfa",

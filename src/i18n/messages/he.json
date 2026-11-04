@@ -7,6 +7,7 @@
     "blog": "בלוג",
     "organizations": "לארגונים",
     "download": "הורדה",
+    "webApp": "אפליקציית ווב",
     "toggleMenu": "פתיחה וסגירה של התפריט",
     "chooseLanguage": "בחירת שפה"
   },
@@ -31,7 +32,8 @@
     "googleOverline": "קבלו ב-",
     "appleQrAlt": "קוד QR להורדת Captio AI מה-App Store ל-iPhone",
     "googleQrAlt": "קוד QR להורדת Captio AI מ-Google Play ל-Android",
-    "downloadForFree": "הורדה בחינם"
+    "downloadForFree": "הורדה בחינם",
+    "alsoInBrowser": "Captio AI עובדת גם בדפדפן"
   },
   "common": {
     "home": "דף הבית",

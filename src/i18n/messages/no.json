@@ -7,6 +7,7 @@
     "blog": "Blogg",
     "organizations": "For organisasjoner",
     "download": "Last ned",
+    "webApp": "Nettapp",
     "toggleMenu": "Åpne eller lukk menyen",
     "chooseLanguage": "Velg språk"
   },
@@ -31,7 +32,8 @@
     "googleOverline": "Tilgjengelig på",
     "appleQrAlt": "QR-kode for å laste ned Captio AI fra App Store til iPhone",
     "googleQrAlt": "QR-kode for å laste ned Captio AI fra Google Play til Android",
-    "downloadForFree": "Last ned gratis"
+    "downloadForFree": "Last ned gratis",
+    "alsoInBrowser": "Captio AI fungerer også i nettleseren"
   },
   "common": {
     "home": "Hjem",

@@ -7,6 +7,7 @@
     "blog": "Blogi",
     "organizations": "Organisatsioonidele",
     "download": "Laadi alla",
+    "webApp": "Veebirakendus",
     "toggleMenu": "Ava või sulge menüü",
     "chooseLanguage": "Vali keel"
   },
@@ -31,7 +32,8 @@
     "googleOverline": "Saadaval poes",
     "appleQrAlt": "QR-kood Captio AI allalaadimiseks App Store'ist iPhone'i jaoks",
     "googleQrAlt": "QR-kood Captio AI allalaadimiseks Google Playst Androidi jaoks",
-    "downloadForFree": "Laadi alla tasuta"
+    "downloadForFree": "Laadi alla tasuta",
+    "alsoInBrowser": "Captio AI töötab ka brauseris"
   },
   "common": {
     "home": "Avaleht",

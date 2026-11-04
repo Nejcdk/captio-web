@@ -7,6 +7,7 @@
     "blog": "ബ്ലോഗ്",
     "organizations": "സ്ഥാപനങ്ങൾക്ക്",
     "download": "ഡൗൺലോഡ് ചെയ്യൂ",
+    "webApp": "വെബ് ആപ്പ്",
     "toggleMenu": "മെനു തുറക്കുക അല്ലെങ്കിൽ അടയ്ക്കുക",
     "chooseLanguage": "ഭാഷ തിരഞ്ഞെടുക്കൂ"
   },
@@ -31,7 +32,8 @@
     "googleOverline": "ഇവിടെ നേടൂ",
     "appleQrAlt": "iPhone-നുള്ള Captio AI, App Store-ൽ നിന്ന് ഡൗൺലോഡ് ചെയ്യാനുള്ള QR കോഡ്",
     "googleQrAlt": "Android-നുള്ള Captio AI, Google Play-ൽ നിന്ന് ഡൗൺലോഡ് ചെയ്യാനുള്ള QR കോഡ്",
-    "downloadForFree": "സൗജന്യമായി ഡൗൺലോഡ് ചെയ്യൂ"
+    "downloadForFree": "സൗജന്യമായി ഡൗൺലോഡ് ചെയ്യൂ",
+    "alsoInBrowser": "Captio AI ബ്രൗസറിലും പ്രവർത്തിക്കും"
   },
   "common": {
     "home": "ഹോം",

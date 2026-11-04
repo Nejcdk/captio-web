@@ -1,0 +1,98 @@
+/* A recording's page extras (RecordingView, TranscriptVote, RatingPrompt,
+   WordFix, Player; app: DetailScreen styles, TranscriptVote, WordFixPrompt). */
+
+/* "Everything good?": the search bar's surface, the thumbs on the right. */
+.rv-vote {
+  display: flex; align-items: center; gap: 6px;
+  margin-top: 28px; padding: 10px 10px 10px 18px;
+  border-radius: 16px; background: #FAFAFA;
+}
+.rv-vote > span { flex: 1; font-size: 16px; font-weight: 500; color: var(--ink); }
+.rv-thumb {
+  width: 42px; height: 42px;
+  display: flex; align-items: center; justify-content: center;
+  border: 0; border-radius: 12px; background: none;
+  transition: background-color 120ms;
+}
+.rv-thumb:hover { background: var(--fill); }
+.rv-thumb.pop svg { animation: rv-pop 380ms cubic-bezier(0.3, 1.6, 0.5, 1); }
+@keyframes rv-pop { from { transform: scale(0.7); } to { transform: scale(1); } }
+
+/* Options with a checkbox (feedback reasons, Add to context). */
+.rv-options { margin: 4px 0 2px; text-align: left; }
+.rv-option {
+  width: 100%; display: flex; align-items: center; gap: 12px;
+  padding: 9px 0; border: 0; background: none; text-align: left;
+  font-size: 16px; font-weight: 500; color: var(--ink);
+}
+.rv-check {
+  width: 22px; height: 22px; flex: none;
+  display: flex; align-items: center; justify-content: center;
+  border: 2px solid var(--outline); border-radius: 7px; background: var(--bg);
+}
+.rv-check.on { border-color: var(--brand); background: var(--brand); }
+.rv-feedback-input { margin-top: 12px; min-height: 84px !important; max-height: 140px; text-align: left; }
+.rv-fix-input { margin: 14px 0 6px; height: 52px; font-size: 17px; text-align: left; }
+
+/* Stars */
+.rv-stars { display: flex; justify-content: center; gap: 6px; margin: 4px 0 6px; }
+.rv-star { border: 0; background: none; padding: 2px; display: flex; transition: transform 120ms; }
+.rv-star:hover { transform: scale(1.08); }
+
+/* Words: the shaky ones get the thin light-red wave; any can be fixed. */
+.rv-word.shaky {
+  text-decoration: underline wavy #E8766B;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 4px;
+  text-decoration-skip-ink: none;
+}
+.rv-word.fixable { cursor: text; border-radius: 4px; -webkit-touch-callout: none; }
+.rv-word.fixable:hover { background: rgba(28, 73, 245, 0.06); }
+.rv-word { position: relative; }
+/* The first-time hint: a small record-red bubble hanging under the word. */
+.rv-hint {
+  position: absolute; left: 50%; top: calc(100% + 9px); z-index: 2;
+  transform: translateX(-50%);
+  padding: 6px 10px; border-radius: 10px;
+  background: #E03426; color: #FFFFFF;
+  font-size: 13px; line-height: 17px; font-weight: 600; font-style: normal; white-space: nowrap;
+  opacity: 0; transition: opacity 250ms;
+  pointer-events: none;
+}
+.rv-hint.shown { opacity: 1; pointer-events: auto; cursor: pointer; }
+.rv-hint::before {
+  content: ""; position: absolute; left: 50%; top: -6px; margin-left: -6px;
+  border-left: 6px solid transparent; border-right: 6px solid transparent; border-bottom: 6px solid #E03426;
+}
+
+/* The folder chip opens the folder. */
+.rv-folder-chip { border: 0; background: none; padding: 2px 6px; margin: -2px -6px; border-radius: 8px; font: inherit; color: inherit; }
+.rv-folder-chip:hover { background: var(--fill); color: var(--ink); }
+
+/* The player card (the Welcome demo): white, radius 24, the app's shadow, floating at the bottom. */
+.rv-player {
+  position: sticky; bottom: 16px; z-index: 3;
+  margin-top: 28px; padding: 8px 18px 10px;
+  border-radius: 24px; background: var(--bg);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.09);
+}
+.rv-track-row { display: flex; align-items: center; gap: 10px; margin-bottom: 2px; }
+.rv-time { min-width: 34px; text-align: center; font-size: 12px; color: var(--ink-meta); font-variant-numeric: tabular-nums; }
+.rv-track {
+  flex: 1; height: 5px; border-radius: 3px;
+  -webkit-appearance: none; appearance: none; outline: none; cursor: pointer;
+}
+.rv-track::-webkit-slider-thumb {
+  -webkit-appearance: none; width: 18px; height: 18px; border-radius: 50%;
+  background: var(--brand); box-shadow: 0 2px 4px rgba(28, 73, 245, 0.35);
+}
+.rv-track::-moz-range-thumb { width: 18px; height: 18px; border: 0; border-radius: 50%; background: var(--brand); }
+.rv-controls { display: flex; align-items: center; justify-content: space-between; padding-top: 4px; }
+.rv-speed {
+  width: 48px; height: 32px;
+  display: flex; align-items: center; justify-content: center;
+  border: 0; border-radius: 10px; background: var(--fill);
+  font-size: 14px; font-weight: 600; color: var(--ink); text-decoration: none;
+}
+.rv-skip { border: 0; background: none; padding: 6px; display: flex; border-radius: 10px; }
+.rv-skip:hover { background: var(--fill); }

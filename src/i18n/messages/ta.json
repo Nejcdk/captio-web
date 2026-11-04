@@ -7,6 +7,7 @@
     "blog": "வலைப்பதிவு",
     "organizations": "நிறுவனங்களுக்கு",
     "download": "பதிவிறக்குங்கள்",
+    "webApp": "இணையப் பதிப்பு",
     "toggleMenu": "மெனுவைத் திறந்துகொள்ளுங்கள் அல்லது மூடுங்கள்",
     "chooseLanguage": "மொழியைத் தேர்ந்தெடுங்கள்"
   },
@@ -31,7 +32,8 @@
     "googleOverline": "பெறுங்கள்",
     "appleQrAlt": "iPhone-க்கான Captio AI-ஐ App Store-இல் பதிவிறக்க QR குறியீடு",
     "googleQrAlt": "Android-க்கான Captio AI-ஐ Google Play-இல் பதிவிறக்க QR குறியீடு",
-    "downloadForFree": "இலவசமாகப் பதிவிறக்குங்கள்"
+    "downloadForFree": "இலவசமாகப் பதிவிறக்குங்கள்",
+    "alsoInBrowser": "Captio AI உலாவியிலும் இயங்கும்"
   },
   "common": {
     "home": "முகப்பு",
