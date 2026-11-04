@@ -18,6 +18,8 @@
     "featuredOn": "ಇಲ್ಲಿ ಕಾಣಿಸಿಕೊಂಡಿದೆ",
     "features": "ವೈಶಿಷ್ಟ್ಯಗಳು",
     "useCases": "ಬಳಕೆಗಳು",
+    "apps": "ಆ್ಯಪ್‌ಗಳು",
+    "iphone": "iPhone ಮತ್ತು iPad",
     "blog": "ಬ್ಲಾಗ್",
     "allArticles": "ಎಲ್ಲಾ ಲೇಖನಗಳು",
     "compare": "ಹೋಲಿಕೆ",
@@ -32,8 +34,9 @@
     "googleOverline": "ಇಲ್ಲಿ ಪಡೆಯಿರಿ",
     "appleQrAlt": "iPhone ಗಾಗಿ App Store ನಿಂದ Captio AI ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು QR ಕೋಡ್",
     "googleQrAlt": "Android ಗಾಗಿ Google Play ನಿಂದ Captio AI ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು QR ಕೋಡ್",
-    "downloadForFree": "ಉಚಿತವಾಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
-    "alsoInBrowser": "Captio AI ಬ್ರೌಸರ್‌ನಲ್ಲೂ ಕೆಲಸ ಮಾಡುತ್ತದೆ"
+    "webOverline": "ತೆರೆಯಿರಿ",
+    "webApp": "ವೆಬ್ ಆ್ಯಪ್",
+    "freeEverywhere": "iPhone, Android ಮತ್ತು ವೆಬ್‌ನಲ್ಲಿ ಉಚಿತ"
   },
   "common": {
     "home": "ಹೋಮ್",

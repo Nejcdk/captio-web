@@ -18,6 +18,8 @@
     "featuredOn": "ظهر على",
     "features": "الميزات",
     "useCases": "حالات الاستخدام",
+    "apps": "التطبيقات",
+    "iphone": "iPhone وiPad",
     "blog": "المدونة",
     "allArticles": "جميع المقالات",
     "compare": "مقارنة",
@@ -32,8 +34,9 @@
     "googleOverline": "احصل عليه من",
     "appleQrAlt": "رمز QR لتنزيل Captio AI من App Store على iPhone",
     "googleQrAlt": "رمز QR لتنزيل Captio AI من Google Play على Android",
-    "downloadForFree": "نزّله مجانًا",
-    "alsoInBrowser": "يعمل Captio AI أيضًا في المتصفح"
+    "webOverline": "افتح",
+    "webApp": "تطبيق الويب",
+    "freeEverywhere": "مجاني على iPhone وAndroid والويب"
   },
   "common": {
     "home": "الرئيسية",

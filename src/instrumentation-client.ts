@@ -24,6 +24,8 @@ if (process.env.NODE_ENV === "production") {
   //   app_store_click       — any link to the App Store (the real outbound click)
   //   google_play_click     — any link to Google Play (same, for Android)
   //   download_button_click — header "Download" buttons that jump to #download
+  //   web_app_click         — any link to the web app (captioai.app/app), whose
+  //                           `from` says which button it was
   // sendBeacon + send_instantly: on a phone the store app takes over the page
   // immediately, and a normally queued event would be lost.
   document.addEventListener(
@@ -33,14 +35,17 @@ if (process.env.NODE_ENV === "production") {
       if (!link) return;
       const href = link.getAttribute("href") ?? "";
       const store = ["apps.apple.com", "play.google.com"].find((host) => href.includes(host));
+      const webApp = href === "/app" || href.startsWith("/app?");
       const event_name =
         store === "apps.apple.com"
           ? "app_store_click"
           : store
             ? "google_play_click"
-            : href.endsWith("#download")
-              ? "download_button_click"
-              : null;
+            : webApp
+              ? "web_app_click"
+              : href.endsWith("#download")
+                ? "download_button_click"
+                : null;
       if (!event_name) return;
 
       posthog.capture(
@@ -49,7 +54,12 @@ if (process.env.NODE_ENV === "production") {
           page: window.location.pathname,
           location: linkLocation(link),
           // 1-based order among this store's links on the page (1 = first/top one)
-          position: store ? [...document.querySelectorAll(`a[href*='${store}']`)].indexOf(link) + 1 : undefined,
+          position: store
+            ? [...document.querySelectorAll(`a[href*='${store}']`)].indexOf(link) + 1
+            : webApp
+              ? [...document.querySelectorAll("a[href^='/app']")].indexOf(link) + 1
+              : undefined,
+          from: webApp ? new URL(href, window.location.origin).searchParams.get("from") ?? undefined : undefined,
           link_text: (link as HTMLElement).innerText?.replace(/\s+/g, " ").trim().slice(0, 80) || undefined,
         },
         { transport: "sendBeacon", send_instantly: true },

@@ -18,6 +18,8 @@
     "featuredOn": "精选于",
     "features": "功能",
     "useCases": "使用场景",
+    "apps": "应用",
+    "iphone": "iPhone 和 iPad",
     "blog": "博客",
     "allArticles": "全部文章",
     "compare": "对比",
@@ -32,8 +34,9 @@
     "googleOverline": "下载应用，请到",
     "appleQrAlt": "扫描二维码，在 App Store 下载 iPhone 版 Captio AI",
     "googleQrAlt": "扫描二维码，在 Google Play 下载 Android 版 Captio AI",
-    "downloadForFree": "免费下载",
-    "alsoInBrowser": "Captio AI 也可以在浏览器中使用"
+    "webOverline": "打开",
+    "webApp": "网页版",
+    "freeEverywhere": "iPhone、Android 和网页版均可免费使用"
   },
   "common": {
     "home": "首页",

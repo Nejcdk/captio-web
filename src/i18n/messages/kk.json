@@ -18,6 +18,8 @@
     "featuredOn": "Біз туралы жазды",
     "features": "Мүмкіндіктер",
     "useCases": "Қолдану жағдайлары",
+    "apps": "Қолданбалар",
+    "iphone": "iPhone және iPad",
     "blog": "Блог",
     "allArticles": "Барлық мақалалар",
     "compare": "Салыстыру",
@@ -32,8 +34,9 @@
     "googleOverline": "Қолжетімді",
     "appleQrAlt": "iPhone үшін Captio AI қолданбасын App Store-дан жүктеп алуға арналған QR коды",
     "googleQrAlt": "Android үшін Captio AI қолданбасын Google Play-ден жүктеп алуға арналған QR коды",
-    "downloadForFree": "Тегін жүктеп алу",
-    "alsoInBrowser": "Captio AI браузерде де жұмыс істейді"
+    "webOverline": "Ашу",
+    "webApp": "Веб-қолданба",
+    "freeEverywhere": "iPhone, Android және браузерде тегін"
   },
   "common": {
     "home": "Басты бет",

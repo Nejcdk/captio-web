@@ -18,6 +18,8 @@
     "featuredOn": "Pristatyta",
     "features": "Funkcijos",
     "useCases": "Naudojimo atvejai",
+    "apps": "Programėlės",
+    "iphone": "iPhone ir iPad",
     "blog": "Tinklaraštis",
     "allArticles": "Visi straipsniai",
     "compare": "Palyginti",
@@ -32,8 +34,9 @@
     "googleOverline": "Gauk iš",
     "appleQrAlt": "QR kodas, skirtas atsisiųsti Captio AI iš App Store į iPhone",
     "googleQrAlt": "QR kodas, skirtas atsisiųsti Captio AI iš Google Play į Android įrenginį",
-    "downloadForFree": "Atsisiųsk nemokamai",
-    "alsoInBrowser": "Captio AI veikia ir naršyklėje"
+    "webOverline": "Atidaryk",
+    "webApp": "Žiniatinklio programa",
+    "freeEverywhere": "Nemokamai iPhone, Android ir naršyklėje"
   },
   "common": {
     "home": "Pradžia",

@@ -289,7 +289,7 @@ export default function HomeContent({ code, m }: { code: string; m: Messages }) 
 
         {/* ── Inline CTA ── */}
         <div className="py-8 flex flex-col items-center gap-2 bg-gray-50">
-          <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">{m.store.downloadForFree}</p>
+          <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">{m.store.freeEverywhere}</p>
           <StoreButtons t={m.store} />
         </div>
 
@@ -320,7 +320,7 @@ export default function HomeContent({ code, m }: { code: string; m: Messages }) 
 
         {/* ── Inline CTA: after languages ── */}
         <div className="py-8 flex flex-col items-center gap-2 bg-white">
-          <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">{m.store.downloadForFree}</p>
+          <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">{m.store.freeEverywhere}</p>
           <StoreButtons t={m.store} />
         </div>
 
@@ -357,7 +357,7 @@ export default function HomeContent({ code, m }: { code: string; m: Messages }) 
 
         {/* ── Inline CTA ── */}
         <div className="py-8 flex flex-col items-center gap-2 bg-white">
-          <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">{m.store.downloadForFree}</p>
+          <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">{m.store.freeEverywhere}</p>
           <StoreButtons t={m.store} />
         </div>
 

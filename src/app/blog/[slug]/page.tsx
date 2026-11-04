@@ -255,6 +255,7 @@ export default async function BlogPostPage({ params }: Props) {
                   <div className="mt-4 flex flex-col gap-2">
                     <StoreButton store="apple" size="sm" fill />
                     <StoreButton store="google" size="sm" fill />
+                    <StoreButton store="web" size="sm" fill from="blog_sidebar" />
                   </div>
                 </div>
               </div>

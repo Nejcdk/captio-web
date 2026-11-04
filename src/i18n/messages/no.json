@@ -18,6 +18,8 @@
     "featuredOn": "Omtalt på",
     "features": "Funksjoner",
     "useCases": "Bruksområder",
+    "apps": "Apper",
+    "iphone": "iPhone og iPad",
     "blog": "Blogg",
     "allArticles": "Alle artikler",
     "compare": "Sammenlign",
@@ -32,8 +34,9 @@
     "googleOverline": "Tilgjengelig på",
     "appleQrAlt": "QR-kode for å laste ned Captio AI fra App Store til iPhone",
     "googleQrAlt": "QR-kode for å laste ned Captio AI fra Google Play til Android",
-    "downloadForFree": "Last ned gratis",
-    "alsoInBrowser": "Captio AI fungerer også i nettleseren"
+    "webOverline": "Åpne",
+    "webApp": "Nettapp",
+    "freeEverywhere": "Gratis på iPhone, Android og nettet"
   },
   "common": {
     "home": "Hjem",

@@ -18,6 +18,8 @@
     "featuredOn": "소개된 곳",
     "features": "기능",
     "useCases": "활용 사례",
+    "apps": "앱",
+    "iphone": "iPhone 및 iPad",
     "blog": "블로그",
     "allArticles": "모든 글",
     "compare": "비교",
@@ -32,8 +34,9 @@
     "googleOverline": "지금 받기",
     "appleQrAlt": "iPhone용 Captio AI를 App Store에서 다운로드하는 QR 코드",
     "googleQrAlt": "Android용 Captio AI를 Google Play에서 다운로드하는 QR 코드",
-    "downloadForFree": "무료 다운로드",
-    "alsoInBrowser": "Captio AI는 브라우저에서도 쓸 수 있어요"
+    "webOverline": "바로 열기",
+    "webApp": "웹 버전",
+    "freeEverywhere": "iPhone, Android, 웹에서 무료"
   },
   "common": {
     "home": "홈",

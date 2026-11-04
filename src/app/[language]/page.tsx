@@ -328,7 +328,7 @@ export default async function LanguagePage({ params }: Props) {
 
         {/* ── Inline CTA ── */}
         <div className="py-8 flex flex-col items-center gap-2 bg-gray-50">
-          <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">Download for free</p>
+          <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">Free on iPhone, Android and the web</p>
           <StoreButtons />
         </div>
 
@@ -392,7 +392,7 @@ export default async function LanguagePage({ params }: Props) {
 
         {/* ── Inline CTA ── */}
         <div className="py-8 flex flex-col items-center gap-2 bg-white">
-          <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">Download for free</p>
+          <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">Free on iPhone, Android and the web</p>
           <StoreButtons />
         </div>
 
@@ -469,7 +469,7 @@ export default async function LanguagePage({ params }: Props) {
 
         {/* ── Inline CTA ── */}
         <div className="py-8 flex flex-col items-center gap-2 bg-white">
-          <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">Download for free</p>
+          <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">Free on iPhone, Android and the web</p>
           <StoreButtons />
         </div>
 

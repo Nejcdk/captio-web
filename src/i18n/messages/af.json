@@ -18,6 +18,8 @@
     "featuredOn": "Uitgelig op",
     "features": "Funksies",
     "useCases": "Gebruike",
+    "apps": "Toepassings",
+    "iphone": "iPhone en iPad",
     "blog": "Blog",
     "allArticles": "Alle artikels",
     "compare": "Vergelyk",
@@ -32,8 +34,9 @@
     "googleOverline": "Kry dit op",
     "appleQrAlt": "QR-kode om Captio AI vir iPhone van die App Store af te laai",
     "googleQrAlt": "QR-kode om Captio AI vir Android van Google Play af te laai",
-    "downloadForFree": "Laai gratis af",
-    "alsoInBrowser": "Captio AI werk ook in die blaaier"
+    "webOverline": "Maak oop",
+    "webApp": "Webtoep",
+    "freeEverywhere": "Gratis op iPhone, Android en die web"
   },
   "common": {
     "home": "Tuis",

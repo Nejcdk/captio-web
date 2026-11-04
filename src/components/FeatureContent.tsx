@@ -92,7 +92,7 @@ export default function FeatureContent({ code, m, feature }: { code: string; m: 
 
         {/* ── Inline CTA (post how-it-works) ── */}
         <div className="py-6 flex flex-col items-center gap-2 bg-white">
-          <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">{m.store.downloadForFree}</p>
+          <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">{m.store.freeEverywhere}</p>
           <StoreButtons t={m.store} />
         </div>
 
@@ -124,7 +124,7 @@ export default function FeatureContent({ code, m, feature }: { code: string; m: 
 
         {/* ── Inline CTA ── */}
         <div className="py-8 flex flex-col items-center gap-2 bg-white">
-          <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">{m.store.downloadForFree}</p>
+          <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">{m.store.freeEverywhere}</p>
           <StoreButtons t={m.store} />
         </div>
 
@@ -157,7 +157,7 @@ export default function FeatureContent({ code, m, feature }: { code: string; m: 
 
         {/* ── Inline CTA ── */}
         <div className="py-8 flex flex-col items-center gap-2 bg-white">
-          <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">{m.store.downloadForFree}</p>
+          <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">{m.store.freeEverywhere}</p>
           <StoreButtons t={m.store} />
         </div>
 

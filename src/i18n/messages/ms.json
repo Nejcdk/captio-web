@@ -18,6 +18,8 @@
     "featuredOn": "Dipaparkan di",
     "features": "Ciri-ciri",
     "useCases": "Kegunaan",
+    "apps": "Aplikasi",
+    "iphone": "iPhone dan iPad",
     "blog": "Blog",
     "allArticles": "Semua artikel",
     "compare": "Bandingkan",
@@ -32,8 +34,9 @@
     "googleOverline": "Dapatkannya di",
     "appleQrAlt": "Kod QR untuk memuat turun Captio AI dari App Store untuk iPhone",
     "googleQrAlt": "Kod QR untuk memuat turun Captio AI dari Google Play untuk Android",
-    "downloadForFree": "Muat turun percuma",
-    "alsoInBrowser": "Captio AI juga berfungsi dalam pelayar"
+    "webOverline": "Buka",
+    "webApp": "Versi web",
+    "freeEverywhere": "Percuma di iPhone, Android dan web"
   },
   "common": {
     "home": "Laman utama",

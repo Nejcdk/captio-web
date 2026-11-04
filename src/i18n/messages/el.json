@@ -18,6 +18,8 @@
     "featuredOn": "Παρουσιάστηκε στο",
     "features": "Λειτουργίες",
     "useCases": "Χρήσεις",
+    "apps": "Εφαρμογές",
+    "iphone": "iPhone και iPad",
     "blog": "Blog",
     "allArticles": "Όλα τα άρθρα",
     "compare": "Σύγκριση",
@@ -32,8 +34,9 @@
     "googleOverline": "Διαθέσιμο στο",
     "appleQrAlt": "Κωδικός QR για λήψη του Captio AI από το App Store για iPhone",
     "googleQrAlt": "Κωδικός QR για λήψη του Captio AI από το Google Play για Android",
-    "downloadForFree": "Κατέβασέ το δωρεάν",
-    "alsoInBrowser": "Το Captio AI λειτουργεί και στο πρόγραμμα περιήγησης"
+    "webOverline": "Άνοιξε την",
+    "webApp": "Εφαρμογή web",
+    "freeEverywhere": "Δωρεάν σε iPhone, Android και στο web"
   },
   "common": {
     "home": "Αρχική",

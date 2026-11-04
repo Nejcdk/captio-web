@@ -18,6 +18,8 @@
     "featuredOn": "Seçildiyimiz yer",
     "features": "Funksiyalar",
     "useCases": "İstifadə sahələri",
+    "apps": "Tətbiqlər",
+    "iphone": "iPhone və iPad",
     "blog": "Bloq",
     "allArticles": "Bütün məqalələr",
     "compare": "Müqayisə",
@@ -32,8 +34,9 @@
     "googleOverline": "İndi əldə et",
     "appleQrAlt": "iPhone üçün Captio AI tətbiqini App Store-dan yükləmək üçün QR kod",
     "googleQrAlt": "Android üçün Captio AI tətbiqini Google Play-dən yükləmək üçün QR kod",
-    "downloadForFree": "Pulsuz yüklə",
-    "alsoInBrowser": "Captio AI brauzerdə də işləyir"
+    "webOverline": "Aç",
+    "webApp": "Veb tətbiq",
+    "freeEverywhere": "iPhone, Android və vebdə pulsuz"
   },
   "common": {
     "home": "Ana səhifə",

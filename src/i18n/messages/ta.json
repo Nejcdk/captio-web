@@ -18,6 +18,8 @@
     "featuredOn": "இதில் இடம்பெற்றுள்ளது",
     "features": "அம்சங்கள்",
     "useCases": "பயன்பாட்டுச் சூழல்கள்",
+    "apps": "செயலிகள்",
+    "iphone": "iPhone, iPad",
     "blog": "வலைப்பதிவு",
     "allArticles": "எல்லாக் கட்டுரைகளும்",
     "compare": "ஒப்பீடு",
@@ -32,8 +34,9 @@
     "googleOverline": "பெறுங்கள்",
     "appleQrAlt": "iPhone-க்கான Captio AI-ஐ App Store-இல் பதிவிறக்க QR குறியீடு",
     "googleQrAlt": "Android-க்கான Captio AI-ஐ Google Play-இல் பதிவிறக்க QR குறியீடு",
-    "downloadForFree": "இலவசமாகப் பதிவிறக்குங்கள்",
-    "alsoInBrowser": "Captio AI உலாவியிலும் இயங்கும்"
+    "webOverline": "திறங்கள்",
+    "webApp": "இணையப் பதிப்பு",
+    "freeEverywhere": "iPhone, Android, இணையத்தில் இலவசம்"
   },
   "common": {
     "home": "முகப்பு",

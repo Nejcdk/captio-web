@@ -18,6 +18,8 @@
     "featuredOn": "Prezentat pe",
     "features": "Funcții",
     "useCases": "Situații",
+    "apps": "Aplicații",
+    "iphone": "iPhone și iPad",
     "blog": "Blog",
     "allArticles": "Toate articolele",
     "compare": "Comparație",
@@ -32,8 +34,9 @@
     "googleOverline": "Disponibil pe",
     "appleQrAlt": "Cod QR pentru a descărca Captio AI din App Store pe iPhone",
     "googleQrAlt": "Cod QR pentru a descărca Captio AI din Google Play pe Android",
-    "downloadForFree": "Descarcă gratuit",
-    "alsoInBrowser": "Captio AI funcționează și în browser"
+    "webOverline": "Deschide",
+    "webApp": "Versiunea web",
+    "freeEverywhere": "Gratuit pe iPhone, Android și web"
   },
   "common": {
     "home": "Acasă",

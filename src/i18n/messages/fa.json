@@ -18,6 +18,8 @@
     "featuredOn": "معرفی‌شده در",
     "features": "ویژگی‌ها",
     "useCases": "کاربردها",
+    "apps": "برنامه‌ها",
+    "iphone": "iPhone و iPad",
     "blog": "وبلاگ",
     "allArticles": "همهٔ مقاله‌ها",
     "compare": "مقایسه",
@@ -32,8 +34,9 @@
     "googleOverline": "دریافت از",
     "appleQrAlt": "کد QR برای دانلود Captio AI از App Store برای iPhone",
     "googleQrAlt": "کد QR برای دانلود Captio AI از Google Play برای Android",
-    "downloadForFree": "دانلود رایگان",
-    "alsoInBrowser": "Captio AI در مرورگر هم کار می‌کند"
+    "webOverline": "باز کنید",
+    "webApp": "نسخهٔ وب",
+    "freeEverywhere": "رایگان روی iPhone، Android و وب"
   },
   "common": {
     "home": "خانه",
