@@ -59,16 +59,21 @@ const BrowserLogo = ({ className }: { className: string }) => (
 const webAppHref = (from: string) => `/app?from=${from}`;
 
 /**
- * The orange button's look, shared by the store links and the web app. The two
- * stores share a fixed width so they read as a pair; the web app's is the same
- * at least, and grows where its translated name is longer.
+ * The buttons' look: the stores black like their own badges, the web app in
+ * Captio blue (white on a blue card). The two stores share a fixed width so
+ * they read as a pair; the web app's is the same at least, and grows where its
+ * translated name is longer.
  */
-function badgeClass(store: Store, size: Size, fill: boolean) {
+function badgeClass(store: Store, size: Size, fill: boolean, onBrand = false) {
   const fixed = size === "sm" ? "w-[152px]" : "w-[156px] sm:w-[200px]";
   const atLeast = size === "sm" ? "min-w-[152px]" : "min-w-[156px] sm:min-w-[200px]";
   const width = fill ? "w-full" : store === "web" ? atLeast : fixed;
   const box = size === "sm" ? "px-3 py-3 gap-2.5" : "px-3 py-3 gap-2.5 sm:px-5 sm:py-4 sm:gap-3";
-  return `inline-flex items-center justify-center bg-cta text-white font-semibold rounded-[8px] hover:bg-cta-dark transition-colors ${width} ${box}`;
+  const color =
+    store !== "web" ? "bg-black text-white hover:bg-gray-800"
+    : onBrand ? "bg-white text-brand hover:bg-white/90"
+    : "bg-brand text-white hover:bg-brand-dark";
+  return `inline-flex items-center justify-center font-semibold rounded-[8px] transition-colors ${color} ${width} ${box}`;
 }
 
 function BadgeContent({ store, size, t }: { store: Store; size: Size; t: StoreLabels }) {
@@ -88,11 +93,11 @@ function BadgeContent({ store, size, t }: { store: Store; size: Size; t: StoreLa
   );
 }
 
-/** One orange button: a store (opens in a new tab) or the web app (same tab). */
-export function StoreButton({ store, size = "md", fill = false, from = "store_buttons", t = en.store }: { store: Store; size?: Size; fill?: boolean; from?: string; t?: StoreLabels }) {
+/** One button: a store (opens in a new tab) or the web app (same tab). `onBrand` = it sits on a blue card. */
+export function StoreButton({ store, size = "md", fill = false, from = "store_buttons", onBrand = false, t = en.store }: { store: Store; size?: Size; fill?: boolean; from?: string; onBrand?: boolean; t?: StoreLabels }) {
   if (store === "web") {
     return (
-      <Link href={webAppHref(from)} className={badgeClass(store, size, fill)}>
+      <Link href={webAppHref(from)} className={badgeClass(store, size, fill, onBrand)}>
         <BadgeContent store={store} size={size} t={t} />
       </Link>
     );
@@ -139,7 +144,7 @@ export function StoreQrButtons({ from = "download_card", t = en.store }: { from?
             <span className="text-[11px] font-semibold">captioai.app</span>
           </span>
         </span>
-        <span className={`${badgeClass("web", "md", false)} group-hover:bg-cta-dark`}>
+        <span className={`${badgeClass("web", "md", false)} group-hover:bg-brand-dark`}>
           <BadgeContent store="web" size="md" t={t} />
         </span>
       </Link>
