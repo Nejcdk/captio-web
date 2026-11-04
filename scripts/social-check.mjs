@@ -12,9 +12,11 @@ import { captionFor, loadPosts } from "./social-render.mjs";
 
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const OUT = path.join(ROOT, "content/social/out");
+const STATE = path.join(ROOT, "content/social/scheduled.json");
 
 const PAGE_TYPES = ["home", "feature", "use-case", "language", "use-case-language", "blog", "compare", "organizations"];
 const MAX_SHARED = 0.1; // of a post's five-word phrases, shared with any other post
+const SAME_QUESTION = 0.8; // of the words in two questions, shared
 const CAPTION_MIN = 700;
 const CAPTION_MAX = 2200;
 const ALT_MAX = 1000;
@@ -54,6 +56,19 @@ function phrases(post) {
   const set = new Set();
   for (let i = 0; i + 5 <= list.length; i++) set.add(list.slice(i, i + 5).join(" "));
   return set;
+}
+
+// The question is the first slide, so two posts with the same one look like the
+// same post twice on Instagram (live-captions repeated the home post's, 3 Nov 2026).
+function questionWords(question) {
+  return new Set(words(question.toLowerCase().replace(/[^\p{L}\p{N}\s]/gu, " ")).map((w) => w.replace(/s$/, "")));
+}
+
+function sameQuestion(a, b) {
+  const x = questionWords(a);
+  const y = questionWords(b);
+  const both = [...x].filter((w) => y.has(w)).length;
+  return both / new Set([...x, ...y]).size >= SAME_QUESTION;
 }
 
 function checkPost(post) {
@@ -122,8 +137,15 @@ if (missing.length) {
 }
 let failed = 0;
 const sets = all.map((p) => [p.id, phrases(p)]);
+// Posts already sent can't change, so only the ones still waiting are held to a new question.
+const sent = existsSync(STATE) ? JSON.parse(readFileSync(STATE, "utf8")) : {};
 for (const post of posts) {
   const errors = checkPost(post);
+  if (!sent[post.id]) {
+    for (const other of all) {
+      if (other.id !== post.id && sameQuestion(post.question, other.question)) errors.push(`same question as ${other.id}: "${other.question}"`);
+    }
+  }
   const mine = sets.find(([id]) => id === post.id)[1];
   for (const [id, other] of sets) {
     if (id === post.id || !mine.size) continue;
