@@ -849,7 +849,9 @@
           "english"
         ]
       },
-      "status": "queued"
+      "status": "published",
+      "slug": "hearing-loss-statistics-in-the-uk",
+      "published": "2026-11-04"
     },
     {
       "id": "hearing-loss-in-germany-the-numbers-2026",

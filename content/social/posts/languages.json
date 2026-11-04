@@ -1,0 +1,26 @@
+{
+  "id": "languages",
+  "pageType": "feature",
+  "page": "/languages",
+  "question": "Which languages do live caption apps for deaf people support?",
+  "slides": [
+    "Captions in *60 languages,* on your phone.",
+    "Switch languages mid-sentence. *Captions follow.*"
+  ],
+  "description": [
+    "Captio AI, a live captions app for deaf and hard of hearing people, captions and translates speech in 60 languages, from English, Spanish and Chinese to Welsh and Basque.",
+    "Captio AI is made for deaf and hard of hearing people, so the language someone speaks does not decide whether you can follow the conversation.",
+    "The World Health Organization says over 430 million people need rehabilitation for disabling hearing loss, and projects nearly 2.5 billion will have some hearing loss by 2050.",
+    "Captio AI has a page for each of its 60 languages that lists the regional varieties it supports, for example British, American and Australian English.",
+    "Captio AI keeps captioning when a speaker changes language in the middle of a sentence, and a language hint lets you name the language you expect.",
+    "Live Translator in Captio AI puts the translation beside the original captions, so you read both as the person talks.",
+    "The home page, the four feature pages and the organizations page of the Captio AI website exist in all 60 languages, through the language menu.",
+    "The free plan of Captio AI includes 100 free credits a day, and the app costs nothing to download on iPhone and Android.",
+    "Captio AI needs internet for live captions and translation, its output can contain mistakes, and it does not replace a sign language interpreter."
+  ],
+  "hashtags": [
+    "#LiveCaptions",
+    "#DeafAwareness",
+    "#HardOfHearing"
+  ]
+}

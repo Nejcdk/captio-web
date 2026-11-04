@@ -33,7 +33,7 @@ The renderer adds the end card, the alt text and the page link.
 - Captions can be wrong: a health post says to confirm instructions with the doctor or pharmacist, a post about recording says to ask first (the check enforces it), and a post about alert sounds says they can be missed.
 - Comparison posts say where the other app is the better choice, and their facts come from that app's own pages (`content/compare/apps`).
 - Design: white, Google Sans (`assets/fonts`, Open Font License), one idea per slide, one blue highlight (`#1C49F5`), a small wordmark. No owl, numbers, labels or decoration.
-- No two posts alike: under 10% of a post's five-word phrases may appear in any other post.
+- No two posts alike: under 10% of a post's five-word phrases may appear in any other post, and no two posts share a question (it is the first slide, so the grid would show the same post twice). The check enforces both.
 
 ## Pages
 `pages.json` lists every English page that gets a post (779 when it was made), in posting order, with the post that covers it. `npm run social:pages` refreshes it from the live sitemap and prints what's left; `-- --next 5` names the next pages to write. Left out: the phone and video calls use case (Captio AI is for in-person speech), translated pages (posts are English only), legal pages and hubs.
