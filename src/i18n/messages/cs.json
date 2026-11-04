@@ -18,6 +18,8 @@
     "featuredOn": "Představeno na",
     "features": "Funkce",
     "useCases": "Využití",
+    "apps": "Aplikace",
+    "iphone": "iPhone a iPad",
     "blog": "Blog",
     "allArticles": "Všechny články",
     "compare": "Srovnání",
@@ -32,8 +34,9 @@
     "googleOverline": "Nyní na",
     "appleQrAlt": "QR kód ke stažení Captio AI z App Store pro iPhone",
     "googleQrAlt": "QR kód ke stažení Captio AI z Google Play pro Android",
-    "downloadForFree": "Stáhnout zdarma",
-    "alsoInBrowser": "Captio AI funguje i v prohlížeči"
+    "webOverline": "Otevřít",
+    "webApp": "Webová aplikace",
+    "freeEverywhere": "Zdarma na iPhonu, Androidu i na webu"
   },
   "common": {
     "home": "Domů",

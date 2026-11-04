@@ -18,6 +18,8 @@
     "featuredOn": "Destacada en",
     "features": "Funcións",
     "useCases": "Casos de uso",
+    "apps": "Aplicacións",
+    "iphone": "iPhone e iPad",
     "blog": "Blog",
     "allArticles": "Todos os artigos",
     "compare": "Comparar",
@@ -32,8 +34,9 @@
     "googleOverline": "Dispoñible en",
     "appleQrAlt": "Código QR para descargar Captio AI da App Store para iPhone",
     "googleQrAlt": "Código QR para descargar Captio AI de Google Play para Android",
-    "downloadForFree": "Descárgaa gratis",
-    "alsoInBrowser": "Captio AI tamén funciona no navegador"
+    "webOverline": "Abre a",
+    "webApp": "Versión web",
+    "freeEverywhere": "Gratis en iPhone, Android e na web"
   },
   "common": {
     "home": "Inicio",

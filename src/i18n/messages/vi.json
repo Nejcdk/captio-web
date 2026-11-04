@@ -18,6 +18,8 @@
     "featuredOn": "Đã xuất hiện trên",
     "features": "Tính năng",
     "useCases": "Tình huống sử dụng",
+    "apps": "Ứng dụng",
+    "iphone": "iPhone và iPad",
     "blog": "Blog",
     "allArticles": "Tất cả bài viết",
     "compare": "So sánh",
@@ -32,8 +34,9 @@
     "googleOverline": "Tải nội dung trên",
     "appleQrAlt": "Mã QR để tải Captio AI trên App Store cho iPhone",
     "googleQrAlt": "Mã QR để tải Captio AI trên Google Play cho Android",
-    "downloadForFree": "Tải miễn phí",
-    "alsoInBrowser": "Captio AI cũng dùng được trên trình duyệt"
+    "webOverline": "Mở",
+    "webApp": "Bản web",
+    "freeEverywhere": "Miễn phí trên iPhone, Android và web"
   },
   "common": {
     "home": "Trang chủ",

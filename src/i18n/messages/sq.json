@@ -18,6 +18,8 @@
     "featuredOn": "Paraqitur në",
     "features": "Veçoritë",
     "useCases": "Përdorimet",
+    "apps": "Aplikacionet",
+    "iphone": "iPhone dhe iPad",
     "blog": "Blog",
     "allArticles": "Të gjithë artikujt",
     "compare": "Krahaso",
@@ -32,8 +34,9 @@
     "googleOverline": "Merre në",
     "appleQrAlt": "Kodi QR për të shkarkuar Captio AI nga App Store për iPhone",
     "googleQrAlt": "Kodi QR për të shkarkuar Captio AI nga Google Play për Android",
-    "downloadForFree": "Shkarko falas",
-    "alsoInBrowser": "Captio AI funksionon edhe në shfletues"
+    "webOverline": "Hap",
+    "webApp": "Aplikacioni web",
+    "freeEverywhere": "Falas në iPhone, Android dhe në web"
   },
   "common": {
     "home": "Kryefaqja",

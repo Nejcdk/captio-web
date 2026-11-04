@@ -18,6 +18,8 @@
     "featuredOn": "掲載先",
     "features": "機能",
     "useCases": "活用シーン",
+    "apps": "アプリ",
+    "iphone": "iPhone と iPad",
     "blog": "ブログ",
     "allArticles": "すべての記事",
     "compare": "比較",
@@ -32,8 +34,9 @@
     "googleOverline": "入手は",
     "appleQrAlt": "iPhone用Captio AIをApp StoreでダウンロードするためのQRコード",
     "googleQrAlt": "Android用Captio AIをGoogle PlayでダウンロードするためのQRコード",
-    "downloadForFree": "無料でダウンロード",
-    "alsoInBrowser": "Captio AI はブラウザでも使えます"
+    "webOverline": "ブラウザで開く",
+    "webApp": "ウェブ版",
+    "freeEverywhere": "iPhone、Android、ウェブで無料"
   },
   "common": {
     "home": "ホーム",

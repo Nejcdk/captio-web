@@ -18,6 +18,8 @@
     "featuredOn": "Esile tõstetud lehel",
     "features": "Funktsioonid",
     "useCases": "Kasutusjuhud",
+    "apps": "Rakendused",
+    "iphone": "iPhone ja iPad",
     "blog": "Blogi",
     "allArticles": "Kõik artiklid",
     "compare": "Võrdle",
@@ -32,8 +34,9 @@
     "googleOverline": "Saadaval poes",
     "appleQrAlt": "QR-kood Captio AI allalaadimiseks App Store'ist iPhone'i jaoks",
     "googleQrAlt": "QR-kood Captio AI allalaadimiseks Google Playst Androidi jaoks",
-    "downloadForFree": "Laadi alla tasuta",
-    "alsoInBrowser": "Captio AI töötab ka brauseris"
+    "webOverline": "Ava",
+    "webApp": "Veebirakendus",
+    "freeEverywhere": "Tasuta iPhone’is, Androidis ja veebis"
   },
   "common": {
     "home": "Avaleht",

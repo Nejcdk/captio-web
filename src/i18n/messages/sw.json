@@ -18,6 +18,8 @@
     "featuredOn": "Imeangaziwa kwenye",
     "features": "Vipengele",
     "useCases": "Matumizi",
+    "apps": "Programu",
+    "iphone": "iPhone na iPad",
     "blog": "Blogu",
     "allArticles": "Makala zote",
     "compare": "Linganisha",
@@ -32,8 +34,9 @@
     "googleOverline": "Ipate kwenye",
     "appleQrAlt": "Msimbo wa QR wa kupakua Captio AI kwenye App Store kwa iPhone",
     "googleQrAlt": "Msimbo wa QR wa kupakua Captio AI kwenye Google Play kwa Android",
-    "downloadForFree": "Pakua bila malipo",
-    "alsoInBrowser": "Captio AI inafanya kazi pia kwenye kivinjari"
+    "webOverline": "Fungua",
+    "webApp": "Programu ya wavuti",
+    "freeEverywhere": "Bure kwenye iPhone, Android na wavuti"
   },
   "common": {
     "home": "Mwanzo",

@@ -18,6 +18,8 @@
     "featuredOn": "Itinampok sa",
     "features": "Mga Feature",
     "useCases": "Saan Magagamit",
+    "apps": "Mga app",
+    "iphone": "iPhone at iPad",
     "blog": "Blog",
     "allArticles": "Lahat ng artikulo",
     "compare": "Ikumpara",
@@ -32,8 +34,9 @@
     "googleOverline": "Kunin ito sa",
     "appleQrAlt": "QR code para i-download ang Captio AI sa App Store para sa iPhone",
     "googleQrAlt": "QR code para i-download ang Captio AI sa Google Play para sa Android",
-    "downloadForFree": "I-download nang libre",
-    "alsoInBrowser": "Gumagana rin ang Captio AI sa browser"
+    "webOverline": "Buksan ang",
+    "webApp": "Web app",
+    "freeEverywhere": "Libre sa iPhone, Android at web"
   },
   "common": {
     "home": "Simula",

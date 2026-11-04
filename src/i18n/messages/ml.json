@@ -18,6 +18,8 @@
     "featuredOn": "ഫീച്ചർ ചെയ്തത്",
     "features": "ഫീച്ചറുകൾ",
     "useCases": "ഉപയോഗങ്ങൾ",
+    "apps": "ആപ്പുകൾ",
+    "iphone": "iPhone, iPad",
     "blog": "ബ്ലോഗ്",
     "allArticles": "എല്ലാ ലേഖനങ്ങളും",
     "compare": "താരതമ്യം",
@@ -32,8 +34,9 @@
     "googleOverline": "ഇവിടെ നേടൂ",
     "appleQrAlt": "iPhone-നുള്ള Captio AI, App Store-ൽ നിന്ന് ഡൗൺലോഡ് ചെയ്യാനുള്ള QR കോഡ്",
     "googleQrAlt": "Android-നുള്ള Captio AI, Google Play-ൽ നിന്ന് ഡൗൺലോഡ് ചെയ്യാനുള്ള QR കോഡ്",
-    "downloadForFree": "സൗജന്യമായി ഡൗൺലോഡ് ചെയ്യൂ",
-    "alsoInBrowser": "Captio AI ബ്രൗസറിലും പ്രവർത്തിക്കും"
+    "webOverline": "തുറക്കൂ",
+    "webApp": "വെബ് ആപ്പ്",
+    "freeEverywhere": "iPhone, Android, വെബ് എന്നിവയിൽ സൗജന്യം"
   },
   "common": {
     "home": "ഹോം",

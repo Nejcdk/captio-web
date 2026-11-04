@@ -3,7 +3,8 @@ import Link from "next/link";
 import en from "@/i18n/messages/en.json";
 import type { Messages } from "@/i18n";
 
-// Store links behind every download button and QR code on the site.
+// Store links behind every download button and QR code on the site, and the
+// web app (captioai.app/app) offered next to them everywhere they show.
 // (Canonical listings for schema/llms.txt live in src/lib/schema.ts.)
 export const APP_STORE_LINK = "https://apps.apple.com/si/app/captio-ai/id6796617180";
 export const GOOGLE_PLAY_LINK = "https://play.google.com/store/apps/details?id=com.captio.app&hl=en";
@@ -44,49 +45,90 @@ const STORES = {
   },
 } as const;
 
-type Store = keyof typeof STORES;
+type AppStore = keyof typeof STORES;
+type Store = AppStore | "web";
 
-/** One orange store button. Both stores share a fixed width so they read as a pair. */
-export function StoreButton({ store, size = "md", fill = false, t = en.store }: { store: Store; size?: Size; fill?: boolean; t?: StoreLabels }) {
-  const s = STORES[store];
-  const width = fill ? "w-full" : size === "sm" ? "w-[152px]" : "w-[156px] sm:w-[200px]";
+const BrowserLogo = ({ className }: { className: string }) => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" aria-hidden className={className}>
+    <rect x="2.5" y="4" width="19" height="13" rx="2" />
+    <path d="M2.5 8h19M8 21h8M12 17v4" />
+  </svg>
+);
+
+/** `from` tells the web app's analytics which button brought the visitor. */
+const webAppHref = (from: string) => `/app?from=${from}`;
+
+/**
+ * The buttons' look: the stores black like their own badges, the web app in
+ * Captio blue (white on a blue card). The two stores share a fixed width so
+ * they read as a pair; the web app's is the same at least, and grows where its
+ * translated name is longer.
+ */
+function badgeClass(store: Store, size: Size, fill: boolean, onBrand = false) {
+  const fixed = size === "sm" ? "w-[152px]" : "w-[156px] sm:w-[200px]";
+  const atLeast = size === "sm" ? "min-w-[152px]" : "min-w-[156px] sm:min-w-[200px]";
+  const width = fill ? "w-full" : store === "web" ? atLeast : fixed;
   const box = size === "sm" ? "px-3 py-3 gap-2.5" : "px-3 py-3 gap-2.5 sm:px-5 sm:py-4 sm:gap-3";
+  const color =
+    store !== "web" ? "bg-black text-white hover:bg-gray-800"
+    : onBrand ? "bg-white text-brand hover:bg-white/90"
+    : "bg-brand text-white hover:bg-brand-dark";
+  return `inline-flex items-center justify-center font-semibold rounded-[8px] transition-colors ${color} ${width} ${box}`;
+}
+
+function BadgeContent({ store, size, t }: { store: Store; size: Size; t: StoreLabels }) {
+  const Logo = store === "web" ? BrowserLogo : STORES[store].Logo;
+  const overline = store === "web" ? t.webOverline : t[STORES[store].overline];
+  const name = store === "web" ? t.webApp : STORES[store].name;
   return (
-    <a
-      href={s.href}
-      target="_blank"
-      rel="noopener noreferrer"
-      className={`inline-flex items-center justify-center bg-cta text-white font-semibold rounded-[8px] hover:bg-cta-dark transition-colors ${width} ${box}`}
-    >
-      <s.Logo className={size === "sm" ? "w-5 h-5 shrink-0" : "w-5 h-5 sm:w-6 sm:h-6 shrink-0"} />
+    <>
+      <Logo className={size === "sm" ? "w-5 h-5 shrink-0" : "w-5 h-5 sm:w-6 sm:h-6 shrink-0"} />
       <span className="text-start whitespace-nowrap">
         <span className={`block font-normal opacity-75 leading-none mb-1 ${size === "sm" ? "text-[10px]" : "text-[10px] sm:text-xs"}`}>
-          {t[s.overline]}
+          {overline}
         </span>
-        <span className={`block font-bold leading-none ${size === "sm" ? "text-[15px]" : "text-[15px] sm:text-lg"}`}>{s.name}</span>
+        <span className={`block font-bold leading-none ${size === "sm" ? "text-[15px]" : "text-[15px] sm:text-lg"}`}>{name}</span>
       </span>
+    </>
+  );
+}
+
+/** One button: a store (opens in a new tab) or the web app (same tab). `onBrand` = it sits on a blue card. */
+export function StoreButton({ store, size = "md", fill = false, from = "store_buttons", onBrand = false, t = en.store }: { store: Store; size?: Size; fill?: boolean; from?: string; onBrand?: boolean; t?: StoreLabels }) {
+  if (store === "web") {
+    return (
+      <Link href={webAppHref(from)} className={badgeClass(store, size, fill, onBrand)}>
+        <BadgeContent store={store} size={size} t={t} />
+      </Link>
+    );
+  }
+  return (
+    <a href={STORES[store].href} target="_blank" rel="noopener noreferrer" className={badgeClass(store, size, fill)}>
+      <BadgeContent store={store} size={size} t={t} />
     </a>
   );
 }
 
-/** App Store + Google Play side by side; wraps to two rows on very narrow screens. */
-export function StoreButtons({ size = "md", stacked = false, t }: { size?: Size; stacked?: boolean; t?: StoreLabels }) {
+/** App Store, Google Play and the web app side by side; wraps on narrow screens. */
+export function StoreButtons({ size = "md", stacked = false, from, t }: { size?: Size; stacked?: boolean; from?: string; t?: StoreLabels }) {
   return (
     <div className={stacked ? "flex flex-col gap-2" : "flex flex-wrap justify-center gap-2 sm:gap-3"}>
       <StoreButton store="apple" size={size} t={t} />
       <StoreButton store="google" size={size} t={t} />
+      <StoreButton store="web" size={size} from={from} t={t} />
     </div>
   );
 }
 
 /**
- * Buttons with a QR code above each one from `sm` up (a computer visitor scans
- * with their phone); on a phone the QR codes are hidden and only the buttons show.
+ * Buttons with a QR code above each store's from `sm` up (a computer visitor
+ * scans with their phone) and, above the web app's, a tile the same size (it's
+ * one click away, no phone needed); on a phone only the buttons show.
  */
-export function StoreQrButtons({ t = en.store }: { t?: StoreLabels }) {
+export function StoreQrButtons({ from = "download_card", t = en.store }: { from?: string; t?: StoreLabels }) {
   return (
     <div className="flex flex-wrap justify-center gap-2 sm:gap-8">
-      {(Object.keys(STORES) as Store[]).map((store) => (
+      {(Object.keys(STORES) as AppStore[]).map((store) => (
         <div key={store} className="flex flex-col items-center gap-4">
           <div className="hidden sm:block p-3 bg-white border border-gray-200 rounded-xl">
             <Image src={STORES[store].qr} alt={t[STORES[store].qrAlt]} width={112} height={112} className="w-28 h-28 rounded-lg" />
@@ -94,13 +136,26 @@ export function StoreQrButtons({ t = en.store }: { t?: StoreLabels }) {
           <StoreButton store={store} t={t} />
         </div>
       ))}
+      {/* One link for the tile and the button, so a click on either counts once. */}
+      <Link href={webAppHref(from)} className="group flex flex-col items-center gap-4">
+        <span className="hidden sm:block p-3 bg-white border border-gray-200 rounded-xl group-hover:border-brand transition-colors">
+          <span className="w-28 h-28 rounded-lg bg-brand-light text-brand flex flex-col items-center justify-center gap-2">
+            <BrowserLogo className="w-12 h-12" />
+            <span className="text-[11px] font-semibold">captioai.app</span>
+          </span>
+        </span>
+        <span className={`${badgeClass("web", "md", false)} group-hover:bg-brand-dark`}>
+          <BadgeContent store="web" size="md" t={t} />
+        </span>
+      </Link>
     </div>
   );
 }
 
 /**
  * The download card used in heroes and at the bottom of pages. A white card on
- * computers with both QR codes; on phones just the label and the two buttons.
+ * computers with both QR codes and the web app's tile; on phones just the label
+ * and the three buttons.
  */
 export function DownloadCard({ id, className = "", t = en.store }: { id?: string; className?: string; t?: StoreLabels }) {
   return (
@@ -108,12 +163,8 @@ export function DownloadCard({ id, className = "", t = en.store }: { id?: string
       id={id}
       className={`flex flex-col items-center gap-3 sm:gap-5 sm:bg-white sm:rounded-xl sm:border sm:border-gray-100 sm:shadow-sm sm:px-10 sm:py-7 ${className}`}
     >
-      <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">{t.downloadForFree}</p>
+      <p className="text-xs text-gray-400 font-medium tracking-wide uppercase text-center">{t.freeEverywhere}</p>
       <StoreQrButtons t={t} />
-      {/* No phone at hand: the same app in the browser (captioai.app/app). */}
-      <Link href="/app?from=download_card" className="text-sm font-semibold text-brand hover:underline underline-offset-4">
-        {t.alsoInBrowser} <span aria-hidden className="inline-block rtl:rotate-180">→</span>
-      </Link>
     </div>
   );
 }
@@ -123,7 +174,7 @@ export function StoreQrPair({ onDark = false }: { onDark?: boolean }) {
   const t = en.store;
   return (
     <div className="flex gap-3">
-      {(Object.keys(STORES) as Store[]).map((store) => (
+      {(Object.keys(STORES) as AppStore[]).map((store) => (
         <div key={store} className="flex flex-col items-center gap-2">
           <div className="p-2 bg-white rounded-xl">
             <Image src={STORES[store].qr} alt={t[STORES[store].qrAlt]} width={80} height={80} className="w-20 h-20 rounded-md" />

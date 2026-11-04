@@ -18,6 +18,8 @@
     "featuredOn": "הוצגנו ב",
     "features": "תכונות",
     "useCases": "שימושים",
+    "apps": "אפליקציות",
+    "iphone": "iPhone ו-iPad",
     "blog": "בלוג",
     "allArticles": "כל המאמרים",
     "compare": "השוואה",
@@ -32,8 +34,9 @@
     "googleOverline": "קבלו ב-",
     "appleQrAlt": "קוד QR להורדת Captio AI מה-App Store ל-iPhone",
     "googleQrAlt": "קוד QR להורדת Captio AI מ-Google Play ל-Android",
-    "downloadForFree": "הורדה בחינם",
-    "alsoInBrowser": "Captio AI עובדת גם בדפדפן"
+    "webOverline": "פתחו את",
+    "webApp": "אפליקציית ווב",
+    "freeEverywhere": "חינם ב-iPhone, ב-Android ובווב"
   },
   "common": {
     "home": "דף הבית",

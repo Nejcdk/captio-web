@@ -18,6 +18,8 @@
     "featuredOn": "Izcelts vietnē",
     "features": "Funkcijas",
     "useCases": "Lietojuma gadījumi",
+    "apps": "Lietotnes",
+    "iphone": "iPhone un iPad",
     "blog": "Blogs",
     "allArticles": "Visi raksti",
     "compare": "Salīdzināt",
@@ -32,8 +34,9 @@
     "googleOverline": "Iegūsti no",
     "appleQrAlt": "QR kods, lai lejupielādētu Captio AI no App Store iPhone tālrunim",
     "googleQrAlt": "QR kods, lai lejupielādētu Captio AI no Google Play Android ierīcei",
-    "downloadForFree": "Lejupielādē bez maksas",
-    "alsoInBrowser": "Captio AI darbojas arī pārlūkā"
+    "webOverline": "Atver",
+    "webApp": "Tīmekļa lietotne",
+    "freeEverywhere": "Bez maksas iPhone, Android un pārlūkā"
   },
   "common": {
     "home": "Sākums",

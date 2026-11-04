@@ -18,6 +18,8 @@
     "featuredOn": "Szerepel itt:",
     "features": "Funkciók",
     "useCases": "Felhasználás",
+    "apps": "Alkalmazások",
+    "iphone": "iPhone és iPad",
     "blog": "Blog",
     "allArticles": "Összes cikk",
     "compare": "Összehasonlítás",
@@ -32,8 +34,9 @@
     "googleOverline": "Szerezd meg:",
     "appleQrAlt": "QR-kód a Captio AI letöltéséhez iPhone-ra az App Store-ból",
     "googleQrAlt": "QR-kód a Captio AI letöltéséhez Androidra a Google Playről",
-    "downloadForFree": "Töltsd le ingyen",
-    "alsoInBrowser": "A Captio AI böngészőben is működik"
+    "webOverline": "Megnyitás:",
+    "webApp": "Webes változat",
+    "freeEverywhere": "Ingyenes iPhone-on, Androidon és a weben"
   },
   "common": {
     "home": "Kezdőlap",

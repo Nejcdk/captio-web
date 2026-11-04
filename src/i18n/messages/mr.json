@@ -18,6 +18,8 @@
     "featuredOn": "यावर झळकले",
     "features": "वैशिष्ट्ये",
     "useCases": "उपयोग",
+    "apps": "ॲप्स",
+    "iphone": "iPhone आणि iPad",
     "blog": "ब्लॉग",
     "allArticles": "सर्व लेख",
     "compare": "तुलना",
@@ -32,8 +34,9 @@
     "googleOverline": "मिळवा",
     "appleQrAlt": "iPhone साठी App Store वरून Captio AI डाउनलोड करण्याचा QR कोड",
     "googleQrAlt": "Android साठी Google Play वरून Captio AI डाउनलोड करण्याचा QR कोड",
-    "downloadForFree": "मोफत डाउनलोड करा",
-    "alsoInBrowser": "Captio AI ब्राउझरमध्येही चालते"
+    "webOverline": "उघडा",
+    "webApp": "वेब ॲप",
+    "freeEverywhere": "iPhone, Android आणि वेबवर मोफत"
   },
   "common": {
     "home": "मुख्यपृष्ठ",

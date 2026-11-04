@@ -18,6 +18,8 @@
     "featuredOn": "Представлено на",
     "features": "Можливості",
     "useCases": "Застосування",
+    "apps": "Застосунки",
+    "iphone": "iPhone і iPad",
     "blog": "Блог",
     "allArticles": "Усі статті",
     "compare": "Порівняння",
@@ -32,8 +34,9 @@
     "googleOverline": "Доступно в",
     "appleQrAlt": "QR-код для завантаження Captio AI з App Store на iPhone",
     "googleQrAlt": "QR-код для завантаження Captio AI з Google Play на Android",
-    "downloadForFree": "Завантажити безкоштовно",
-    "alsoInBrowser": "Captio AI працює і в браузері"
+    "webOverline": "Відкрий",
+    "webApp": "Веб-версія",
+    "freeEverywhere": "Безкоштовно на iPhone, Android і в браузері"
   },
   "common": {
     "home": "Головна",

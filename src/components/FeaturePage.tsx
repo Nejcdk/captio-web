@@ -36,7 +36,7 @@ export type FeaturePageProps = {
 function InlineCta({ className = "py-8" }: { className?: string }) {
   return (
     <div className={`${className} flex flex-col items-center gap-2 bg-white`}>
-      <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">Download for free</p>
+      <p className="text-xs text-gray-400 font-medium tracking-wide uppercase">Free on iPhone, Android and the web</p>
       <StoreButtons />
     </div>
   );

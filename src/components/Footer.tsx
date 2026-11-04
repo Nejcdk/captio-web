@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useCases } from "@/lib/useCases";
 import { FeaturedOnCard } from "@/components/FeaturedOn";
+import { APP_STORE_LINK, GOOGLE_PLAY_LINK } from "@/components/StoreButtons";
 import en from "@/i18n/messages/en.json";
 import { FEATURE_SLUGS, pagePath, type Messages } from "@/i18n";
 
@@ -68,7 +69,13 @@ export default function Footer({ code = "en", m = en }: { code?: string; m?: Mes
             </div>
 
             <div className="flex flex-col gap-2">
-              <Link href="/blog" className="font-semibold text-white/40 hover:text-white uppercase tracking-widest text-xs mb-1 transition-colors">{t.blog}</Link>
+              {/* Every way to get Captio AI, on every page: the two stores and the web app. */}
+              <span className="font-semibold text-white/40 uppercase tracking-widest text-xs mb-1">{t.apps}</span>
+              <a href={APP_STORE_LINK} target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-white transition-colors">{t.iphone}</a>
+              <a href={GOOGLE_PLAY_LINK} target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-white transition-colors">Android</a>
+              <Link href="/app?from=footer" className="text-white/70 hover:text-white transition-colors">{m.header.webApp}</Link>
+
+              <Link href="/blog" className="font-semibold text-white/40 hover:text-white uppercase tracking-widest text-xs mt-6 mb-1 transition-colors">{t.blog}</Link>
               <Link href="/blog" className="text-white/70 hover:text-white transition-colors">{t.allArticles}</Link>
 
               <Link href="/compare" className="font-semibold text-white/40 hover:text-white uppercase tracking-widest text-xs mt-6 mb-1 transition-colors">{t.compare}</Link>

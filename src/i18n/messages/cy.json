@@ -18,6 +18,8 @@
     "featuredOn": "Fel y gwelwyd ar",
     "features": "Nodweddion",
     "useCases": "Defnyddiau",
+    "apps": "Apiau",
+    "iphone": "iPhone ac iPad",
     "blog": "Blog",
     "allArticles": "Pob erthygl",
     "compare": "Cymharu",
@@ -32,8 +34,9 @@
     "googleOverline": "Ar gael ar",
     "appleQrAlt": "Cod QR i lawrlwytho Captio AI o’r App Store ar gyfer iPhone",
     "googleQrAlt": "Cod QR i lawrlwytho Captio AI o Google Play ar gyfer Android",
-    "downloadForFree": "Lawrlwytha am ddim",
-    "alsoInBrowser": "Mae Captio AI hefyd yn gweithio yn y porwr"
+    "webOverline": "Agor",
+    "webApp": "Ap gwe",
+    "freeEverywhere": "Am ddim ar iPhone, Android a’r we"
   },
   "common": {
     "home": "Hafan",

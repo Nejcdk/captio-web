@@ -18,6 +18,8 @@
     "featuredOn": "Uppmärksammad på",
     "features": "Funktioner",
     "useCases": "Användningsområden",
+    "apps": "Appar",
+    "iphone": "iPhone och iPad",
     "blog": "Blogg",
     "allArticles": "Alla artiklar",
     "compare": "Jämför",
@@ -32,8 +34,9 @@
     "googleOverline": "Tillgänglig på",
     "appleQrAlt": "QR-kod för att ladda ned Captio AI från App Store till iPhone",
     "googleQrAlt": "QR-kod för att ladda ned Captio AI från Google Play till Android",
-    "downloadForFree": "Ladda ned gratis",
-    "alsoInBrowser": "Captio AI fungerar även i webbläsaren"
+    "webOverline": "Öppna",
+    "webApp": "Webbapp",
+    "freeEverywhere": "Gratis på iPhone, Android och webben"
   },
   "common": {
     "home": "Startsida",

@@ -107,7 +107,7 @@ export function InArticleCta() {
         </p>
       </div>
       <div className="shrink-0">
-        <StoreButtons size="sm" stacked />
+        <StoreButtons size="sm" stacked from="blog_inline" />
       </div>
     </section>
   );
@@ -125,7 +125,7 @@ export function BlogDownloadBlock() {
             Live captions on your phone for the doctor, the classroom and the dinner table. Built for deaf and hard of hearing people. Free to start.
           </p>
         </div>
-        <StoreQrButtons />
+        <StoreQrButtons from="blog_bottom" />
       </div>
     </section>
   );

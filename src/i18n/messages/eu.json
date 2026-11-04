@@ -18,6 +18,8 @@
     "featuredOn": "Nabarmendua hemen:",
     "features": "Funtzioak",
     "useCases": "Erabilerak",
+    "apps": "Aplikazioak",
+    "iphone": "iPhone eta iPad",
     "blog": "Bloga",
     "allArticles": "Artikulu guztiak",
     "compare": "Konparatu",
@@ -32,8 +34,9 @@
     "googleOverline": "Eskuratu hemen:",
     "appleQrAlt": "Captio AI App Store-tik iPhone gailuetarako deskargatzeko QR kodea",
     "googleQrAlt": "Captio AI Google Play-tik Android gailuetarako deskargatzeko QR kodea",
-    "downloadForFree": "Deskargatu doan",
-    "alsoInBrowser": "Captio AI nabigatzailean ere badabil"
+    "webOverline": "Ireki",
+    "webApp": "Web aplikazioa",
+    "freeEverywhere": "Doan iPhonen, Androiden eta weben"
   },
   "common": {
     "home": "Hasiera",
