@@ -30,7 +30,7 @@ The cloud routine "Captio AI daily social posts" follows this file every morning
 ## 3. Write each post
 File `content/social/posts/<id>.json`, with the fields in the README. The id: `home` for `/`, `<use case>-<language>` for use case x language pages, otherwise the page's last path segment.
 
-- **question:** what a deaf or hard of hearing person, or someone helping them, would type into Google or ask an AI about this page, at most 10 words. It is also the first slide.
+- **question:** what a deaf or hard of hearing person, or someone helping them, would type into Google or ask an AI about this page, at most 10 words. It is also the first slide, so it must be new: list every post's question first (`grep -h '"question"' content/social/posts/*.json`) and ask what THIS page answers that none of them does. `/live-captions` repeated the home post's "Is there a live captions app for deaf people?" on 3 Nov 2026, and Instagram showed the same post twice.
 - **slides:** 2 slides, one idea each, at most 8 words, one `*highlight*`. Every slide must be true and fair when read alone in big type: "Your iPhone vibrates *while captions run.*", not "Your iPhone vibrates."
 - **description:** 7 to 10 sentences, one per paragraph, 8 to 30 words each, every one standing alone when quoted (it names Captio AI or its subject and the situation, language or country; never opens with It, This, They, So, And, But or Then).
   - Sentence 1 or 2 answers the question directly.
