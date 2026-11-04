@@ -22,6 +22,12 @@
   },
   "languages": {
     "zernioId": "6aeb42ab064a8f03b9c3da60",
-    "scheduledFor": "2026-11-04T16:00:00.000Z"
+    "scheduledFor": "2026-11-04T16:00:00.000Z",
+    "status": "published",
+    "links": {
+      "instagram": "https://www.instagram.com/p/DfU131aCN9-/",
+      "facebook": "https://www.facebook.com/1440848572436552_122118683457497570"
+    },
+    "checkedAt": "2026-11-04T23:41:38.120Z"
   }
 }
