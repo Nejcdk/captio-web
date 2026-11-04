@@ -59,8 +59,8 @@ const BrowserLogo = ({ className }: { className: string }) => (
 const webAppHref = (from: string) => `/app?from=${from}`;
 
 /**
- * The buttons' look: the stores black like their own badges, the web app in
- * Captio blue (white on a blue card). The two stores share a fixed width so
+ * The buttons' look: the stores orange like every download button on the site,
+ * the web app in Captio blue (white on a blue card). The two stores share a fixed width so
  * they read as a pair; the web app's is the same at least, and grows where its
  * translated name is longer.
  */
@@ -70,7 +70,7 @@ function badgeClass(store: Store, size: Size, fill: boolean, onBrand = false) {
   const width = fill ? "w-full" : store === "web" ? atLeast : fixed;
   const box = size === "sm" ? "px-3 py-3 gap-2.5" : "px-3 py-3 gap-2.5 sm:px-5 sm:py-4 sm:gap-3";
   const color =
-    store !== "web" ? "bg-black text-white hover:bg-gray-800"
+    store !== "web" ? "bg-cta text-white hover:bg-cta-dark"
     : onBrand ? "bg-white text-brand hover:bg-white/90"
     : "bg-brand text-white hover:bg-brand-dark";
   return `inline-flex items-center justify-center font-semibold rounded-[8px] transition-colors ${color} ${width} ${box}`;
@@ -139,9 +139,8 @@ export function StoreQrButtons({ from = "download_card", t = en.store }: { from?
       {/* One link for the tile and the button, so a click on either counts once. */}
       <Link href={webAppHref(from)} className="group flex flex-col items-center gap-4">
         <span className="hidden sm:block p-3 bg-white border border-gray-200 rounded-xl group-hover:border-brand transition-colors">
-          <span className="w-28 h-28 rounded-lg bg-brand-light text-brand flex flex-col items-center justify-center gap-2">
-            <BrowserLogo className="w-12 h-12" />
-            <span className="text-[11px] font-semibold">captioai.app</span>
+          <span className="w-28 h-28 rounded-lg bg-brand-light text-brand flex items-center justify-center">
+            <BrowserLogo className="w-14 h-14" />
           </span>
         </span>
         <span className={`${badgeClass("web", "md", false)} group-hover:bg-brand-dark`}>
