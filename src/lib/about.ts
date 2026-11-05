@@ -9,7 +9,7 @@
 //   content/about.md                      the short answer, which facts go in
 //                                         which group, the other apps for the
 //                                         jobs Captio AI doesn't do, apps with
-//                                         similar names, who makes it, the FAQ
+//                                         similar names, the FAQ
 //
 // A file that breaks the shape below fails the build on purpose (like the
 // blog and the compare pages).
@@ -52,7 +52,6 @@ export type AboutPage = {
   limits: SourcedText[];
   otherApps: OtherApp[];
   similarNames: SimilarName[];
-  maker: SourcedText;
   faqs: Faq[];
   /** Every source the page cites, grouped by app, Captio AI first. */
   sources: { app: CompareApp; sources: Src[] }[];
@@ -129,9 +128,6 @@ export function getAboutPage(): AboutPage {
     },
   );
 
-  const m = data.maker ?? {};
-  const maker = { text: str(m.text, "maker.text"), sources: refs(m.sources, "maker") };
-
   const faqs: Faq[] = Array.isArray(data.faqs) ? data.faqs : [];
   if (faqs.length === 0) fail("needs faqs");
   faqs.forEach((f, i) => {
@@ -151,7 +147,6 @@ export function getAboutPage(): AboutPage {
     limits: claims(app.limits),
     otherApps,
     similarNames,
-    maker,
     faqs,
     sources: collect.grouped([app, ...others]),
     factsChecked: app.checked,

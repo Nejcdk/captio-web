@@ -8,7 +8,7 @@
 title: "About Captio AI"
 description: "What Captio AI is, what it costs, what it doesn't do, who makes it, and when another app is the better choice. Every fact links to its source."
 updated: 2026-11-04
-answer: "Captio AI is a live captioning app for deaf and hard of hearing people, on iPhone, iPad and Android. It shows what people around you say as text while they are still talking, translates conversations live in 60+ languages, transcribes audio and video files, and turns transcripts into summaries. It is free to download with 100 free credits a day; Captio AI Plus costs US$14.99 a month or US$79.99 a year on the US App Store (October 2026). It doesn't caption phone or video calls. It is made in Slovenia by Nejc Dovžan Kukič."
+answer: "Captio AI is a live captioning app for deaf and hard of hearing people, on iPhone, iPad and Android. It shows what people around you say as text while they are still talking, translates conversations live in 60+ languages, transcribes audio and video files, and turns transcripts into summaries. It is free to download with 100 free credits a day; Captio AI Plus costs US$14.99 a month or US$79.99 a year on the US App Store (October 2026). It doesn't caption phone or video calls. It is made in Slovenia."
 
 # Every fact in captio-ai.json, each in one group (the build fails if one is left out).
 groups:
@@ -83,10 +83,6 @@ similarNames:
     quote: "Emburse Captio offers you an app and web platform to request and automate your trips and expenses"
     checked: 2026-11-04
 
-maker:
-  text: "Captio AI is made in Slovenia by Nejc Dovžan Kukič, a sole proprietor, who is also the data controller named in its privacy policy. Accounts and saved transcripts are stored in the EU, in Frankfurt; audio is processed in real time and not kept on Captio AI's servers."
-  sources: [captio-ai:s3, captio-ai:s9]
-
 faqs:
   - q: "What is Captio AI?"
     a: "Captio AI is a live captioning app for deaf and hard of hearing people, on iPhone, iPad and Android. It shows what people around you say as text while they are still talking, translates conversations live, transcribes audio and video files, and turns transcripts into summaries, key points and to-dos, in 60+ languages."
@@ -95,7 +91,7 @@ faqs:
   - q: "How much does Captio AI Plus cost?"
     a: "On the US App Store, as of October 2026, Captio AI Plus costs US$14.99 a month or US$79.99 a year. There is no free trial, and prices differ by country. An organization can buy yearly licenses per person by invoice: US$109, €99 or £89 per person per year for 1 to 19 people, less from 20 people, with a free 30-day pilot for up to 5 people."
   - q: "Who makes Captio AI?"
-    a: "Captio AI is made in Slovenia by Nejc Dovžan Kukič, a sole proprietor, who is also the data controller named in its privacy policy. You can write to hello@captioai.app."
+    a: "Captio AI is made in Slovenia. You can write to hello@captioai.app."
   - q: "Is Captio AI the same app as Captions, Captio or captions.ai?"
     a: "No. Captio AI is a live captioning app for deaf and hard of hearing people. It is not related to Captions (captions.ai), an AI video editor; to the apps Captio: AI Captions, Subtitles and captions.ai: caption generator, which make captions for social media videos and photos; or to Emburse Captio, travel and expense software."
   - q: "Does Captio AI caption phone calls?"
