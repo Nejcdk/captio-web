@@ -1,8 +1,13 @@
 [
  {
+  "page": "/about",
+  "type": "feature",
+  "post": null
+ },
+ {
   "page": "/blog/hearing-loss-statistics-in-the-uk",
   "type": "blog",
-  "post": null
+  "post": "hearing-loss-statistics-in-the-uk"
  },
  {
   "page": "/languages",
