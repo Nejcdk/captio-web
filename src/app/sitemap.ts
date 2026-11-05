@@ -5,6 +5,7 @@ import { languages } from "@/lib/languages";
 import { useCases } from "@/lib/useCases";
 import { AUTHORS, CATEGORIES, getAllPosts, getPostsByAuthor, getPostsByCategory, type AuthorKey, type CategorySlug } from "@/lib/blog";
 import { getAllComparePages, getCompareHub } from "@/lib/compare";
+import { getAboutPage } from "@/lib/about";
 import { FEATURE_SLUGS, languageAlternates, pagePath, type TranslatedPage } from "@/i18n";
 import { LOCALE_CODES } from "@/i18n/locales";
 import { UPDATED } from "@/lib/updated";
@@ -43,6 +44,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
     { url: `${SITE_URL}/use-cases`, lastModified: UPDATED.hubs },
     { url: `${SITE_URL}/languages`, lastModified: UPDATED.hubs },
+    { url: `${SITE_URL}/about`, lastModified: getAboutPage().updated, ...images("home") },
     { url: `${SITE_URL}/organizations`, lastModified: UPDATED.organizations, alternates: alternates("organizations") },
     { url: `${SITE_URL}/privacy`, lastModified: UPDATED.privacy },
     { url: `${SITE_URL}/terms`, lastModified: UPDATED.terms },
