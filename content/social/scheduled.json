@@ -32,6 +32,12 @@
   },
   "hearing-loss-statistics-in-the-uk": {
     "zernioId": "6aec95b64c32c5e82ce78b74",
-    "scheduledFor": "2026-11-05T16:00:00.000Z"
+    "scheduledFor": "2026-11-05T16:00:00.000Z",
+    "status": "published",
+    "links": {
+      "instagram": "https://www.instagram.com/p/DfXamgRCHab/",
+      "facebook": "https://www.facebook.com/1440848572436552_122119012125497570"
+    },
+    "checkedAt": "2026-11-05T23:40:14.058Z"
   }
 }
