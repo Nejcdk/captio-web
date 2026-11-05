@@ -11,12 +11,11 @@ import { ClaimColumn, FactSheet, OtherAppCard, SimilarNameCard } from "@/compone
 import { getAboutPage } from "@/lib/about";
 import { appImage } from "@/lib/appImages";
 import { formatDay } from "@/lib/blog";
-import { FEATURED_ON } from "@/lib/press";
 import { SITE_URL, breadcrumbSchema, faqPageSchema, jsonLd, softwareApplicationSchema } from "@/lib/schema";
 
 // Captio AI on its own, in facts with sources: what it is, what it costs, what
-// it doesn't do, who makes it, which apps only share its name, and when
-// another app is the better choice. Data: src/lib/about.ts.
+// it doesn't do, which apps only share its name, and when another app is the
+// better choice. Data: src/lib/about.ts.
 
 const page = getAboutPage();
 const crumbs = [
@@ -164,37 +163,6 @@ export default function AboutPageView() {
               {page.similarNames.map((s) => (
                 <SimilarNameCard key={s.name} item={s} />
               ))}
-            </div>
-          </div>
-        </section>
-
-        {/* ── Who makes it ── */}
-        <section aria-labelledby="maker" className="py-14 sm:py-16 px-5 sm:px-6 bg-brand">
-          <div className="max-w-3xl mx-auto text-center">
-            <SectionHeading id="maker" eyebrow="Who makes it" title="Made in Slovenia" onDark />
-            <p className="text-lg text-white leading-relaxed">{page.maker.text}</p>
-            <p className="mt-4 text-xs text-blue-100 leading-relaxed">
-              {page.maker.sources.length > 1 ? "Sources: " : "Source: "}
-              {page.maker.sources.map((s, i) => (
-                <span key={s.url}>
-                  {i > 0 && ", "}
-                  <a href={s.url} className="text-white underline underline-offset-2">{s.label}</a>
-                </span>
-              ))}
-            </p>
-            <div className="mt-8 grid sm:grid-cols-3 gap-3 text-sm">
-              <a href="mailto:hello@captioai.app" className="bg-white/10 border border-white/20 rounded-xl px-4 py-4 text-white hover:bg-white/20 transition-colors">
-                <span className="block text-xs font-bold uppercase tracking-widest text-blue-100">Write to us</span>
-                <span className="mt-1 block font-semibold">hello@captioai.app</span>
-              </a>
-              <a href={FEATURED_ON.url} target="_blank" rel="noopener" className="bg-white/10 border border-white/20 rounded-xl px-4 py-4 text-white hover:bg-white/20 transition-colors">
-                <span className="block text-xs font-bold uppercase tracking-widest text-blue-100">Written about by</span>
-                <span className="mt-1 block font-semibold">{FEATURED_ON.name}</span>
-              </a>
-              <Link href="/organizations" className="bg-white/10 border border-white/20 rounded-xl px-4 py-4 text-white hover:bg-white/20 transition-colors">
-                <span className="block text-xs font-bold uppercase tracking-widest text-blue-100">For organizations</span>
-                <span className="mt-1 block font-semibold">Licenses and a free pilot</span>
-              </Link>
             </div>
           </div>
         </section>
