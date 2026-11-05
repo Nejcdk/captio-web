@@ -285,7 +285,7 @@
       ]
     },
     {
-      "text": "It does not caption phone or video calls, and has no sound alerts or sign language.",
+      "text": "It does not caption phone or video calls, and does not do sign language.",
       "sources": [
         "s4"
       ]
@@ -330,10 +330,11 @@
       "url": "https://captioai.app/privacy",
       "type": "privacy",
       "opened": true,
-      "checked": "2026-10-28",
+      "checked": "2026-11-04",
       "quotes": [
         "Your audio is processed in real time and is not stored on our servers.",
-        "Your content is never used to train AI models, and it is never shared for advertising."
+        "Your content is never used to train AI models, and it is never shared for advertising.",
+        "The data controller responsible for your personal data is Nejc Dovžan Kukič, a sole proprietor established in Slovenia."
       ]
     },
     {
@@ -404,9 +405,10 @@
       "url": "https://captioai.app/organizations",
       "type": "official",
       "opened": true,
-      "checked": "2026-10-28",
+      "checked": "2026-11-04",
       "quotes": [
-        "licenses for the deaf and hard of hearing people in your organization, paid by invoice."
+        "licenses for the deaf and hard of hearing people in your organization, paid by invoice.",
+        "Accounts and saved transcripts are stored in the EU (Frankfurt)."
       ]
     },
     {

@@ -75,6 +75,7 @@ export default function Footer({ code = "en", m = en }: { code?: string; m?: Mes
               <Link href="/compare" className="text-white/70 hover:text-white transition-colors">{t.compareApps}</Link>
 
               <span className="font-semibold text-white/40 uppercase tracking-widest text-xs mt-6 mb-1">{t.company}</span>
+              <Link href="/about" className="text-white/70 hover:text-white transition-colors">{t.about}</Link>
               <Link href={pagePath(code, "organizations")} className="text-white/70 hover:text-white transition-colors">{t.organizations}</Link>
               <Link href="/privacy" className="text-white/70 hover:text-white transition-colors">{t.privacy}</Link>
               <Link href="/terms" className="text-white/70 hover:text-white transition-colors">{t.terms}</Link>

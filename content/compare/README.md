@@ -25,7 +25,7 @@ Every app has every row in `ROWS` (`src/lib/compare.ts`). Each fact:
 - `sources` are ids from the app's `sources` list. Every fact except `not_stated` needs one.
 - `strengths` and `limits`: 2–4 each, one sentence, sourced. Limits are facts ("Android only"), not opinions.
 - `sources[]`: `title`, `publisher`, `url`, `type` (official, help, pricing, privacy, store, press), `opened` (did we read it ourselves), `checked` (date we read it), `quotes` (the exact supporting sentence, kept so anyone can re-check; not shown on the page).
-- `captio-ai.json` is written from `content/blog/CAPTIO_FACTS.md`, with the same rules and its limits included. Update both together.
+- `captio-ai.json` is written from `content/blog/CAPTIO_FACTS.md`, with the same rules and its limits included. Update both together. Its facts, strengths and limits are also the /about page (`content/about.md`), so a change here shows there too.
 - `icon`: the app's own icon from its store listing (App Store, or Google Play for Android-only apps), saved as a 192px PNG in `public/compare/icons/<slug>.png` by `node scripts/compare-icons.mjs` (new apps only; `--all` fetches every icon again, e.g. after an app changes its icon). Features built into the phone have no listing and keep a letter tile. The icon shows on the hero cards, both tables, the comparison cards and the share image.
 
 ### A page (`pages/<slug>.md`)

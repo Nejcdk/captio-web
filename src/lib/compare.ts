@@ -289,7 +289,7 @@ export function resolve(app: CompareApp, ids: string[]): Src[] {
 }
 
 /** Collects every source a page shows, per app, without repeats. */
-class Collector {
+export class Collector {
   private seen = new Map<string, Map<string, Src>>();
   add(app: CompareApp, srcs: Src[]): Src[] {
     const mine = this.seen.get(app.slug) ?? new Map<string, Src>();
@@ -317,7 +317,7 @@ export function buildTable(apps: CompareApp[], rows: FactKey[], collect?: Collec
 
 // "live-transcribe:offline" = every source behind that fact,
 // "live-transcribe:s3" = that one source.
-function resolveRefs(refs: unknown, apps: CompareApp[], collect: Collector, file: string, where: string): Src[] {
+export function resolveRefs(refs: unknown, apps: CompareApp[], collect: Collector, file: string, where: string): Src[] {
   if (!Array.isArray(refs) || refs.length === 0) fail(file, `${where} needs sources (like live-transcribe:offline)`);
   const out = new Map<string, Src>();
   for (const ref of refs) {
