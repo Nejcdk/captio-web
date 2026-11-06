@@ -1,8 +1,13 @@
 [
  {
+  "page": "/blog/how-to-choose-the-microphone-for-live-captions-on-iphone",
+  "type": "blog",
+  "post": null
+ },
+ {
   "page": "/about",
   "type": "feature",
-  "post": null
+  "post": "about"
  },
  {
   "page": "/blog/hearing-loss-statistics-in-the-uk",
