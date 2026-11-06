@@ -1,0 +1,25 @@
+{
+  "id": "about",
+  "pageType": "feature",
+  "page": "/about",
+  "question": "What is Captio AI and who is it for?",
+  "slides": [
+    "For people who *miss words* in the room.",
+    "Captions *in person*, on your phone."
+  ],
+  "description": [
+    "Captio AI is an app for deaf and hard of hearing people that turns what the people around you say into reading on your phone.",
+    "Captio AI is made for deaf and hard of hearing people, so reading what is said in the room comes first, not as an add-on to a transcription tool.",
+    "According to the World Health Organization, over 5% of the world's population, or 430 million people, require rehabilitation for disabling hearing loss.",
+    "The World Health Organization's March 2026 fact sheet projects that by 2050 nearly 2.5 billion people will have some degree of hearing loss.",
+    "Captio AI listens through the phone's microphone to people in the same room, for example at a doctor's appointment, a lecture, a shop counter or a dinner table.",
+    "Captio AI supports 60 languages on iPhone and Android, and text shows up before the speaker has finished the sentence.",
+    "You can download Captio AI free and use the 100 free credits a day on its free plan.",
+    "Captio AI needs internet for live use and can make mistakes, so confirm medical instructions with your doctor or pharmacist, and it does not replace an interpreter."
+  ],
+  "hashtags": [
+    "#DeafAwareness",
+    "#HardOfHearing",
+    "#Accessibility"
+  ]
+}
