@@ -2,7 +2,7 @@
 
 Every sentence a blog article says about Captio AI must be backed by a line in this file. If a claim isn't here, don't make it. If something here looks out of date, don't guess: flag it in the run log so Nejc can update this file.
 
-Last checked: 2026-10-30 (App Store release notes of 1.1.5 and app source of Nejcdk/captio; Google Play listing last checked 2026-10-21).
+Last checked: 2026-11-06 (App Store release notes of 1.1.6 and app source of Nejcdk/captio; Google Play listing last checked 2026-10-21).
 
 ## What it is
 - Name: always **Captio AI** (never "Captio" alone). Plan name: **Captio AI Plus**.
@@ -17,7 +17,7 @@ Last checked: 2026-10-30 (App Store release notes of 1.1.5 and app source of Nej
 - Needs an internet connection for live captions and translation. Without internet it can still **record**, and the recording is transcribed automatically when the phone reconnects.
 
 ## Live version
-- App Store: **1.1.5** (live 2026-10-29; 1.1.4 went live 2026-10-28, 1.1.3 on 2026-10-23). The daily run's new-version check (`scripts/blog-release-watch.mjs`) updates this line and the feature map when a new version goes live.
+- App Store: **1.1.6** (live 2026-11-05; 1.1.5 went live 2026-10-29; 1.1.4 went live 2026-10-28, 1.1.3 on 2026-10-23). The daily run's new-version check (`scripts/blog-release-watch.mjs`) updates this line and the feature map when a new version goes live.
 - Only features in a live store version may be written about. Merged but unreleased work (see "Not live yet") never appears in an article.
 
 ## Feature map
@@ -51,6 +51,11 @@ Each row is one thing the app does for the reader. `id` is used in `topics.json`
 | speaker-direction | Speaker direction | While captions run, waves at the edge of the captions screen show which side the current voice comes from, in the speaker's tag colour, so you know where to look at a busy table. Works on iPhone 16 and later (iOS 26 or later) with the phone's own microphones; works best flat on the table; uses more battery; on by default and can be turned off in Settings, Captions. Not on iPad or Android. | iPhone 16 and later | 1.1.4 | group-settings, restaurants, meetings | /speaker-direction |
 | hourly-save | All-day recording in shared folders | Recording into a shared folder saves every hour and carries on in a new recording, so a long day is not one huge file. Personal recordings save only when you stop. Saved recordings take up less space on iPhone (stored compressed). | iPhone | 1.1.4 | meetings, conferences | /folders |
 | recognize-sounds | Recognize sounds | Sounds around you show in your captions, like [doorbell rings]: a doorbell, an alarm, a crying baby, a barking dog, laughter or music. Alert sounds make the phone vibrate. It listens only while captions run or a chosen file is transcribed, can miss sounds (some melodic electronic door chimes sound like music to it; a classic ding-dong doorbell is recognized), and is not an always-on alarm. Change it in Settings, Recognize sounds. | iPhone | 1.1.5 | everyday-conversations, group-settings, restaurants | /live-captions |
+| no-account | Use without an account | Live captions, translation and file uploads work without signing in. Recordings then stay on the phone; an account is needed for the Connectors and shared folders (account needed for those two features is stated in their rows). | iPhone | 1.1.6 | all | /live-captions |
+| credits-keep-recording | Recording continues when free credits run out | When the free credits run out during a session, the recording keeps going instead of stopping. | iPhone | 1.1.6 | lectures, meetings, conferences | /live-captions |
+| recording-recovery | Long recordings are safer | If the phone closes Captio AI during a session, the recording is saved the next time the app opens, with all its audio and words. | iPhone | 1.1.6 | lectures, conferences, meetings | /audio-transcription |
+| choose-microphone | Choose your microphone | When AirPods or another microphone is connected, Captio AI asks which one captions should use and remembers the choice. | iPhone | 1.1.6 | meetings, lectures, conferences, group-settings | /live-captions |
+| referral | Refer a friend | Share your personal link from Settings. You get US$50 when a friend buys Plus yearly and US$10 when they buy monthly, paid to your PayPal. | iPhone | 1.1.6 | none (not for articles about use cases) | / |
 
 "Since" is the first live version known to have the feature; everything already in 1.1.2 is marked ≤1.1.2. New rows get the exact version from the release that brought them. Never write "new in version X" unless the release notes say so.
 

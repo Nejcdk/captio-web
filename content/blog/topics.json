@@ -3211,6 +3211,59 @@
       "status": "published",
       "slug": "live-captions-on-ipad-for-lectures-and-meetings",
       "published": "2026-11-03"
+    },
+    {
+      "id": "how-to-choose-the-microphone-for-live-captions-on-iphone",
+      "category": "guides",
+      "pillar": "feature",
+      "title": "How to choose the microphone for live captions on iPhone",
+      "query": "iphone live captions which microphone airpods",
+      "angle": "Why the microphone changes caption quality, how iPhone picks a microphone (Apple's own pages: AirPods, Bluetooth, external mics), and how Captio AI 1.1.6 asks which connected microphone captions should use and remembers it. Use only sources opened in the run.",
+      "links": [
+        "/live-captions",
+        "/use-cases/lectures",
+        "/use-cases/meetings"
+      ],
+      "covers": {
+        "features": [
+          "choose-microphone",
+          "live-captions"
+        ],
+        "useCases": [
+          "lectures",
+          "meetings",
+          "conferences"
+        ],
+        "languages": []
+      },
+      "status": "published",
+      "slug": "how-to-choose-the-microphone-for-live-captions-on-iphone",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "can-you-use-live-captions-without-an-account",
+      "category": "guides",
+      "pillar": "feature",
+      "title": "Can you use live captions without creating an account?",
+      "query": "live captions app no account sign up",
+      "angle": "Which live caption options on iPhone and Android need an account and which do not, with Captio AI 1.1.6 working without sign-in (recordings stay on the phone; Connectors and shared folders need an account). Compare with Apple and Google built-ins from their own pages.",
+      "links": [
+        "/live-captions",
+        "/privacy"
+      ],
+      "covers": {
+        "features": [
+          "no-account",
+          "live-captions"
+        ],
+        "useCases": [
+          "everyday-conversations",
+          "doctor-appointments"
+        ],
+        "languages": []
+      },
+      "status": "queued",
+      "priority": true
     }
   ]
 }
