@@ -2,6 +2,31 @@
   "_rules": "Queue for the daily blog job. scripts/blog-next-topic.mjs picks today's topic from the weekday slot in plan.json (priority topics first). Fields: category (format), pillar (use-case | feature | language | basics), covers (feature ids from the Feature map in CAPTIO_FACTS.md, use-case slugs, language slugs), status (queued | published + slug + published | blocked + reason | skipped + reason), priority (true = write next, set by the new-version check). Titles are working titles. When fewer than 14 are queued, add 20 new topics, filling the gaps npm run blog:coverage shows.",
   "topics": [
     {
+      "id": "live-captions-on-a-computer-in-your-browser",
+      "category": "guides",
+      "pillar": "feature",
+      "title": "How to get live captions on a computer without installing anything",
+      "query": "live captions in browser on computer for deaf",
+      "angle": "Options for live captions of in-room speech on a laptop or desktop (built-in OS captions, browser tools, Captio AI on the web, opened at captioai.app/app with the same account). Only the 1.1.7 facts about the web version; other details from its own pages when opened.",
+      "links": [
+        "/live-captions",
+        "/blog/how-to-choose-the-microphone-for-live-captions-on-iphone"
+      ],
+      "covers": {
+        "features": [
+          "web-app",
+          "live-captions"
+        ],
+        "useCases": [
+          "meetings",
+          "lectures"
+        ],
+        "languages": []
+      },
+      "status": "queued",
+      "priority": true
+    },
+    {
       "id": "how-to-get-sound-alerts-in-live-captions-doorbell-alarm-baby",
       "category": "guides",
       "pillar": "feature",
@@ -3262,8 +3287,8 @@
         ],
         "languages": []
       },
-      "status": "queued",
-      "priority": true
+      "status": "blocked",
+      "reason": "Failed review 3 times (2026-11-07). Last round: competitor listing details (Languages field) overstated, Captio AI internet claim uncited, 'six options' wording. Apple's iPhone Live Captions guide never loads in WebFetch, so Apple's account requirement stays 'not stated'. Fixes are small text edits (see reviews/2026-11-07 report) if retried."
     }
   ]
 }

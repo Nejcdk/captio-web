@@ -2,7 +2,7 @@
 
 Every sentence a blog article says about Captio AI must be backed by a line in this file. If a claim isn't here, don't make it. If something here looks out of date, don't guess: flag it in the run log so Nejc can update this file.
 
-Last checked: 2026-11-06 (App Store release notes of 1.1.6 and app source of Nejcdk/captio; Google Play listing last checked 2026-10-21).
+Last checked: 2026-11-07 (App Store release notes of 1.1.7 and app source of Nejcdk/captio; Google Play listing last checked 2026-10-21).
 
 ## What it is
 - Name: always **Captio AI** (never "Captio" alone). Plan name: **Captio AI Plus**.
@@ -17,7 +17,7 @@ Last checked: 2026-11-06 (App Store release notes of 1.1.6 and app source of Nej
 - Needs an internet connection for live captions and translation. Without internet it can still **record**, and the recording is transcribed automatically when the phone reconnects.
 
 ## Live version
-- App Store: **1.1.6** (live 2026-11-05; 1.1.5 went live 2026-10-29; 1.1.4 went live 2026-10-28, 1.1.3 on 2026-10-23). The daily run's new-version check (`scripts/blog-release-watch.mjs`) updates this line and the feature map when a new version goes live.
+- App Store: **1.1.7** (live 2026-11-07; 1.1.6 went live 2026-11-05; 1.1.5 went live 2026-10-29; 1.1.4 went live 2026-10-28, 1.1.3 on 2026-10-23). The daily run's new-version check (`scripts/blog-release-watch.mjs`) updates this line and the feature map when a new version goes live.
 - Only features in a live store version may be written about. Merged but unreleased work (see "Not live yet") never appears in an article.
 
 ## Feature map
@@ -56,6 +56,8 @@ Each row is one thing the app does for the reader. `id` is used in `topics.json`
 | recording-recovery | Long recordings are safer | If the phone closes Captio AI during a session, the recording is saved the next time the app opens, with all its audio and words. | iPhone | 1.1.6 | lectures, conferences, meetings | /audio-transcription |
 | choose-microphone | Choose your microphone | When AirPods or another microphone is connected, Captio AI asks which one captions should use and remembers the choice. | iPhone | 1.1.6 | meetings, lectures, conferences, group-settings | /live-captions |
 | referral | Refer a friend | Share your personal link from Settings. You get US$50 when a friend buys Plus yearly and US$10 when they buy monthly, paid to your PayPal. | iPhone | 1.1.6 | none (not for articles about use cases) | / |
+| web-app | Captio AI on the web | Open captioai.app/app in a browser on any computer and sign in with the same account as in the app. It is linked from Settings in the app. Only what the 1.1.7 notes say is confirmed; which features the web version has is not stated, so do not list any. | Web (any computer), linked from the iPhone app | 1.1.7 | none stated | / |
+| accuracy-1-1-7 | More accurate captions | The 1.1.7 notes say captions are better at telling who is talking, switching languages and translating. No accuracy numbers. | iPhone | 1.1.7 | group-settings, meetings, traveling | /live-captions |
 
 "Since" is the first live version known to have the feature; everything already in 1.1.2 is marked ≤1.1.2. New rows get the exact version from the release that brought them. Never write "new in version X" unless the release notes say so.
 
