@@ -1,0 +1,26 @@
+{
+  "id": "how-to-choose-the-microphone-for-live-captions-on-iphone",
+  "pageType": "blog",
+  "page": "/blog/how-to-choose-the-microphone-for-live-captions-on-iphone",
+  "question": "Which microphone should live captions use on iPhone?",
+  "slides": [
+    "Captions only work with *the sound they hear.*",
+    "iPhone: with AirPods, Captio AI asks *which microphone.*"
+  ],
+  "description": [
+    "For live captions on iPhone, connect the microphone you want and pick it when Captio AI asks which one captions should use.",
+    "Captio AI is made for deaf and hard of hearing people who follow talk in the same room, so the microphone choice sits inside the app.",
+    "A 2021 Frontiers in Neuroscience study of 23 adults with hearing loss in China found a remote microphone improved signal-to-noise ratio by 11 to 19.5 dB over directional hearing aids.",
+    "The same 2021 study compared hearing aid microphones with a wireless microphone, not phones or AirPods, so it shows only that sound picked up near the talker is clearer.",
+    "Apple Support says AirPods use either AirPod as the microphone by default, and you can fix it to the left or right AirPod in Settings.",
+    "Captio AI, on iPhone, asks which connected microphone captions should use when AirPods or another microphone is connected, and remembers your choice, according to its version 1.1.6 release notes.",
+    "For live captions at a lecture or a meeting, sitting nearer the speaker, or putting your phone close to the people talking, is our suggestion, not a tested result.",
+    "Captio AI is free to download on the App Store, and the free plan includes 100 free credits a day, as of October 2026.",
+    "Captions need an internet connection and may contain mistakes, so check medical instructions with your doctor or pharmacist, and Captio AI is no substitute for an interpreter."
+  ],
+  "hashtags": [
+    "#LiveCaptions",
+    "#DeafAwareness",
+    "#iPhone"
+  ]
+}
