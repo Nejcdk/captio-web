@@ -23,8 +23,9 @@
         ],
         "languages": []
       },
-      "status": "queued",
-      "priority": true
+      "status": "published",
+      "slug": "how-to-get-live-captions-on-a-computer-in-your-browser",
+      "published": "2026-11-08"
     },
     {
       "id": "how-to-get-sound-alerts-in-live-captions-doorbell-alarm-baby",
