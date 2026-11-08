@@ -1,5 +1,10 @@
 [
  {
+  "page": "/blog/how-to-get-live-captions-on-a-computer-in-your-browser",
+  "type": "blog",
+  "post": null
+ },
+ {
   "page": "/blog/how-to-choose-the-microphone-for-live-captions-on-iphone",
   "type": "blog",
   "post": "how-to-choose-the-microphone-for-live-captions-on-iphone"
@@ -22,12 +27,12 @@
  {
   "page": "/blog/live-captions-on-ipad-for-lectures-and-meetings",
   "type": "blog",
-  "post": null
+  "post": "live-captions-on-ipad-for-lectures-and-meetings"
  },
  {
   "page": "/compare/captio-ai-vs-augio",
   "type": "compare",
-  "post": null
+  "post": "captio-ai-vs-augio"
  },
  {
   "page": "/compare/captio-ai-vs-duna",
