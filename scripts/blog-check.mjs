@@ -55,7 +55,9 @@ const USE_CASES = [...read("src/lib/useCases.ts").matchAll(/^    slug: "([a-z-]+
 
 const ROUTES = new Set([
   "/", "/live-captions", "/live-translator", "/audio-transcription", "/ai-summary", "/privacy", "/terms",
-  "/blog", "/blog/rss.xml", "/llms.txt",
+  "/blog", "/blog/rss.xml", "/llms.txt", "/compare", "/about", "/organizations",
+  "/recognize-voices", "/recognize-sounds", "/speaker-direction", "/folders", "/export", "/ai-actions", "/connectors", "/widgets",
+  ...fs.readdirSync("content/compare/pages").filter((f) => f.endsWith(".md")).map((f) => `/compare/${f.replace(/\.md$/, "")}`),
   ...CATEGORIES.map((c) => `/blog/category/${c}`),
   ...AUTHORS.map((a) => `/blog/author/${a}`),
   ...LANGS.map((l) => `/${l}`),

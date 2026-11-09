@@ -125,7 +125,9 @@
         ],
         "languages": []
       },
-      "status": "queued"
+      "status": "published",
+      "slug": "captio-ai-vs-google-live-transcribe",
+      "published": "2026-11-09"
     },
     {
       "id": "captio-ai-vs-apple-live-captions-on-iphone",
