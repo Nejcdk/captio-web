@@ -1,0 +1,27 @@
+{
+  "id": "how-to-get-live-captions-on-a-computer-in-your-browser",
+  "pageType": "blog",
+  "page": "/blog/how-to-get-live-captions-on-a-computer-in-your-browser",
+  "question": "Can a computer caption speech from its microphone?",
+  "slides": [
+    "Windows captions *microphone audio* only if switched on.",
+    "Your Mac needs *Apple silicon* for Live Captions."
+  ],
+  "description": [
+    "A computer can caption speech from its microphone: Windows 11 Live captions can, and so can a Mac with Apple silicon, according to Microsoft and Apple.",
+    "Captio AI, an app made for deaf and hard of hearing users, sits beside a computer's built-in captions as one more option.",
+    "Microsoft Support says Live captions is available in Windows 11, version 22H2 and later, and that microphone audio is off by default when you turn it on.",
+    "Microsoft Support also says sound audio is prioritized over microphone audio, so while the computer plays sound, the captions follow the computer's audio first.",
+    "Apple Support says Live Captions on a Mac is available only on Macs with Apple silicon, and you can switch between the Mac's audio output and its microphone input.",
+    "Apple Support says the accuracy of Live Captions may vary and should not be relied upon in high-risk or emergency situations.",
+    "Captio AI can be opened on any computer at captioai.app/app with the iPhone app's account, according to the App Store notes for version 1.1.7, which list no web features.",
+    "Captio AI on iPhone and Android captions in-person speech through the phone's microphone, in 60 languages.",
+    "Live captions in Captio AI need internet and can contain mistakes, so a human captioner or interpreter stays the right choice where you are entitled to one.",
+    "Free on the App Store: Captio AI's free plan includes 100 free credits a day, as of October 2026."
+  ],
+  "hashtags": [
+    "#LiveCaptions",
+    "#Accessibility",
+    "#DeafAwareness"
+  ]
+}
