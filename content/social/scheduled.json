@@ -72,6 +72,12 @@
   },
   "live-captions-on-ipad-for-lectures-and-meetings": {
     "zernioId": "6af125bc7b275904590cd00b",
-    "scheduledFor": "2026-11-09T16:00:00.000Z"
+    "scheduledFor": "2026-11-09T16:00:00.000Z",
+    "status": "published",
+    "links": {
+      "instagram": "https://www.instagram.com/p/Dfht718Dkge/",
+      "facebook": "https://www.facebook.com/1440848572436552_122120488947497570"
+    },
+    "checkedAt": "2026-11-09T16:23:08.790Z"
   }
 }
