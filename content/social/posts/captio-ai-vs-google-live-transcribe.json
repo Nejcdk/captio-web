@@ -1,0 +1,27 @@
+{
+  "id": "captio-ai-vs-google-live-transcribe",
+  "pageType": "blog",
+  "page": "/blog/captio-ai-vs-google-live-transcribe",
+  "question": "Can an iPhone run Google Live Transcribe?",
+  "slides": [
+    "Google's Live Transcribe is an *Android feature.*",
+    "On iPhone, *Captio AI* captions speech."
+  ],
+  "description": [
+    "An iPhone owner who searches for Google Live Transcribe will not find a Google app by that name, because Google documents it as a feature of Android phones.",
+    "Google's Android Accessibility Help describes Live Transcribe as preinstalled on Pixel phones and some other Android phones.",
+    "In November 2026 a search of Apple's US App Store for live transcribe listed an app of that name made by Mighty Fine Apps LLC, not by Google.",
+    "Captio AI is made for deaf and hard of hearing people and runs on iPhone and Android, so a family with both phones can share one app.",
+    "Google's help page for Live Transcribe says an internet connection is needed unless you pick one of the offline languages.",
+    "Without a connection, Captio AI can still record and transcribes the recording once the phone is online again, but live captions need internet.",
+    "Google says you can find Live Transcribe's transcription history for up to three days, while Captio AI keeps recordings and their audio in a searchable library.",
+    "Ask people before you save a conversation as a recording.",
+    "On an Android phone, Live Transcribe is the better pick when you want captions in downloaded offline languages, according to Google's help page.",
+    "Captions in Captio AI can contain mistakes, and the app does not replace an interpreter or a human captioner."
+  ],
+  "hashtags": [
+    "#LiveCaptions",
+    "#HardOfHearing",
+    "#iPhone"
+  ]
+}
