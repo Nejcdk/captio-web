@@ -485,7 +485,9 @@
         ],
         "languages": []
       },
-      "status": "queued"
+      "status": "published",
+      "slug": "how-to-follow-a-doctor-s-appointment-when-you-are-hard-of-hearing",
+      "published": "2026-11-10"
     },
     {
       "id": "how-to-keep-up-in-university-lectures-with-hearing-loss",
