@@ -35,6 +35,7 @@ import { confidenceStats, contextText, recordingShapeStats, translationTranscrip
 import { WELCOME_FOLDER, isStarterRecording, seedWelcome } from "./welcome";
 import { openFailedUpload, openUpload, resumeUploads } from "./upload";
 import { isInstalled, startInstallSupport } from "./install";
+import { currentLanguage, isRtl, loadLanguage, pickLanguage } from "./i18n";
 
 // Captio AI on the computer, laid out like the iPad app: Home's blue band
 // with the wordmark and the gear, the white card under it, and in the card
@@ -73,6 +74,11 @@ export default function DesktopApp({ supabaseUrl, anonKey, allowPreview }: {
   // Using it without an account, and a guest who asked to sign in.
   const [guest, setGuestState] = useState(false);
   const [signingIn, setSigningIn] = useState(false);
+  // The browser's language, loaded before anything is drawn (i18n.ts).
+  const [langReady, setLangReady] = useState(false);
+  useEffect(() => {
+    void loadLanguage(pickLanguage()).then(() => setLangReady(true));
+  }, []);
 
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect -- the choice is only known in the browser
@@ -122,7 +128,7 @@ export default function DesktopApp({ supabaseUrl, anonKey, allowPreview }: {
   useEffect(() => {
     // `from`: the website button that brought them (header, menu, download_card,
     // the app's Settings), read before the address is tidied up.
-    if (account !== "loading") capture("web_app_viewed", { signed_in: !!account, guest: !account && guest, from: ENTRY_FROM, installed: isInstalled() });
+    if (account !== "loading") capture("web_app_viewed", { signed_in: !!account, guest: !account && guest, from: ENTRY_FROM, installed: isInstalled(), ui_language: pickLanguage() });
   }, [account === "loading", !!account]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const tryFree = () => {
@@ -183,14 +189,14 @@ export default function DesktopApp({ supabaseUrl, anonKey, allowPreview }: {
     return () => { window.removeEventListener("error", onError); window.removeEventListener("unhandledrejection", onRejection); };
   }, []);
 
-  if (account === "loading") return <div className="capp" />;
+  if (account === "loading" || !langReady) return <div className="capp" />;
   if (!account && guest && !signingIn) {
     setGuest(true);
     return <Shell key="guest" account={GUEST} onSignOut={signOut} supabaseUrl={supabaseUrl} />;
   }
   if (!account) {
     return (
-      <div className="capp">
+      <div className="capp" dir={isRtl() ? "rtl" : "ltr"} lang={currentLanguage()}>
         <SignIn
           onSignIn={signIn}
           error={signInError}
@@ -760,7 +766,7 @@ function Shell({ account, onSignOut, supabaseUrl }: { account: Account; onSignOu
   const narrowBand = typeof window !== "undefined" && window.innerWidth < 360 && !plus.isPlus && plusForSale();
 
   return (
-    <div className="capp" data-pane={pane}>
+    <div className="capp" data-pane={pane} dir={isRtl() ? "rtl" : "ltr"} lang={currentLanguage()}>
       {/* Home's band: the wordmark, and the gear on the right. */}
       <header className="band">
         <button type="button" className="logo" onClick={() => { go({ settings: null }); setPane("list"); }} aria-label="Captio AI">

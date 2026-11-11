@@ -14,7 +14,8 @@
     "social:render": "node scripts/social-render.mjs",
     "social:check": "node scripts/social-check.mjs",
     "social:zernio": "node scripts/social-zernio.mjs",
-    "social:pages": "node scripts/social-pages.mjs"
+    "social:pages": "node scripts/social-pages.mjs",
+    "app:i18n-check": "node scripts/webapp-i18n.mjs check"
   },
   "dependencies": {
     "@breezystack/lamejs": "^1.2.7",
