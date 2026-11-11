@@ -79,10 +79,14 @@ export default function DesktopApp({ supabaseUrl, anonKey, allowPreview }: {
       recordError("sign_in", params.get("error_description") ?? params.get("error"));
       setSignInError("Signing in didn't work. Please try again.");
     }
+    // Supabase says SIGNED_IN again whenever the tab comes back into view:
+    // the sign-in is counted once, on the way back from Apple or Google.
+    let counted = false;
     const { data: sub } = sb.auth.onAuthStateChange((event, session) => {
       setAccount(session?.user ? accountOf(session.user) : null);
       // Back from Apple or Google (not a session restored from storage).
-      if (event === "SIGNED_IN" && returning && session?.user) {
+      if (event === "SIGNED_IN" && returning && !counted && session?.user) {
+        counted = true;
         capture("sign_in", { provider: (session.user.app_metadata as { provider?: string })?.provider });
       }
     });
@@ -204,7 +208,11 @@ function Shell({ account, onSignOut, supabaseUrl }: { account: Account; onSignOu
   const [pane, setPane] = useState<"list" | "recording">("list");
   const [online, setOnline] = useState(() => navigator.onLine);
   const [live, setLive] = useState<Live | null>(null);
-  const [translate, setTranslate] = useState<TranslateNames>(() => store.get<TranslateNames>(TRANSLATE_KEY, { target: "English", source: null }));
+  const [translate, setTranslate] = useState<TranslateNames>(() => {
+    const t = store.get<TranslateNames>(TRANSLATE_KEY, { target: "English", source: null });
+    // An older choice with the same language on both sides: one way.
+    return t.source && t.source === t.target ? { ...t, source: null } : t;
+  });
   const [startedHere, setStartedHere] = useState(() => store.get<boolean>(STARTED_KEY, false));
   const local = useLocalRecordings();
   const settings = useSettings();

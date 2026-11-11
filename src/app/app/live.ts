@@ -610,7 +610,8 @@ export class LiveSession {
       config.enable_language_identification = true;
       const t = opts.translate;
       if (opts.mode === "translation" && t) {
-        config.translation = t.source
+        // Both sides the same language (an older saved choice): one way.
+        config.translation = t.source && t.source !== t.target
           ? { type: "two_way", language_a: t.source, language_b: t.target }
           : { type: "one_way", target_language: t.target };
       }

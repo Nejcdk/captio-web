@@ -161,7 +161,15 @@ export function CaptionsSheet({ session, translate, onTranslate, onSave, onDelet
         current={which === "source" ? translate.source : translate.target}
         onPick={name => {
           close();
-          const next = which === "source" ? { ...translate, source: name } : { ...translate, target: name ?? translate.target };
+          let next = which === "source" ? { ...translate, source: name } : { ...translate, target: name ?? translate.target };
+          // The two sides of a conversation are never the same language (the
+          // speech service refuses it): picking the other side's language swaps them.
+          if (next.source && next.source === next.target) {
+            next = which === "source"
+              ? { source: name, target: translate.source ?? translate.target }
+              : { source: translate.target, target: next.target };
+            if (next.source === next.target) next = { ...next, source: null };
+          }
           capture("translate_language_changed", { target: next.target, source: next.source ?? "auto" });
           onTranslate(next);
         }}
@@ -386,7 +394,7 @@ function Pane({ label, lines, placeholder, dark, text, font, muted }: {
                     {flag && <span className="cs-flag" style={{ background: dark ? "rgba(255,255,255,0.14)" : "rgba(0,0,0,0.05)" }}>{flag}</span>}
                   </div>
                 )}
-                <p style={{ color: l.grey ? "var(--cs-grey)" : text }}>
+                <p dir="auto" style={{ color: l.grey ? "var(--cs-grey)" : text }}>
                   {l.grey ? l.text.trimStart() : l.text}
                   {greyRunOn && <span style={{ color: "var(--cs-grey)" }}>{greyRunOn}</span>}
                 </p>
