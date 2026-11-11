@@ -19,6 +19,7 @@ import { WordText, applyWordFix, askWordFix, firstShaky, useWordFixHint, type Wo
 import { DemoCaptions, PlayerCard, useDemoPlayer } from "./Player";
 import { SHAKY_CONFIDENCE } from "./transcript";
 import { updateSettings, useSettings } from "./settings";
+import { t, isRtl } from "./i18n";
 
 // The recording on the right, like the app's Detail: emoji, title, date and
 // length (the folder chip opens the folder), then 📝 Captions | ✨ Actions.
@@ -112,8 +113,8 @@ export function RecordingView({ recording, library, me, preview, supabase, empty
           <div className="empty">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src="/web-app/owl-start.png" alt="" />
-            <h2>No recordings yet</h2>
-            <p>Your recordings show up here as soon as they&rsquo;re saved.</p>
+            <h2>{t("widgets.noRecordingsTitle")}</h2>
+            <p>{t("web.recording.emptyBody")}</p>
           </div>
         )}
       </main>
@@ -152,7 +153,7 @@ export function RecordingView({ recording, library, me, preview, supabase, empty
         await updateRecording(supabase(), recording.id, { segments });
       }
     } catch (e) {
-      showErrorAlert({ where: "word_fix_save", error: e, title: "Could not make this", body: "Something went wrong. Please check your connection and try again." });
+      showErrorAlert({ where: "word_fix_save", error: e, title: t("actions.failed"), body: t("common.genericError") });
       return;
     }
     if (!recording.local) {
@@ -193,14 +194,14 @@ export function RecordingView({ recording, library, me, preview, supabase, empty
   return (
     <main className="pane">
       <div className="pane-bar">
-        <button type="button" className="icon-btn back-btn" onClick={onBack} aria-label="Back">
+        <button type="button" className="icon-btn back-btn" onClick={onBack} aria-label={t("common.back")}>
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M15 6l-6 6l6 6" /></svg>
         </button>
-        <button type="button" className="icon-btn" onClick={copy} disabled={!copyText()} aria-label="Copy" title="Copy">
+        <button type="button" className="icon-btn" onClick={copy} disabled={!copyText()} aria-label={t("web.recording.copy")} title={t("web.recording.copy")}>
           {copied ? <CopyCheckIcon size={20} color="var(--brand)" /> : <CopyIcon size={20} />}
         </button>
         {!transcribing && (
-          <button type="button" className="icon-btn" onClick={() => openEditSheet(recording, "detail")} aria-label="More options" title="More options">
+          <button type="button" className="icon-btn" onClick={() => openEditSheet(recording, "detail")} aria-label={t("common.moreOptions")} title={t("common.moreOptions")}>
             <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden><circle cx="5" cy="12" r="1.8" fill="currentColor" /><circle cx="12" cy="12" r="1.8" fill="currentColor" /><circle cx="19" cy="12" r="1.8" fill="currentColor" /></svg>
           </button>
         )}
@@ -208,7 +209,7 @@ export function RecordingView({ recording, library, me, preview, supabase, empty
       <div className="pane-scroll">
         <article className="column">
           <div className="rec-emoji">{transcribing ? "🎙️" : recording.emoji}</div>
-          <h1 className="rec-title" dir="auto">{transcribing ? "Transcribing..." : recording.title || "Untitled"}</h1>
+          <h1 className="rec-title" dir="auto">{transcribing ? t("recording.transcribing") : recording.title || t("recording.untitled")}</h1>
           <div className="rec-meta">
             <span>{formatDateTime(recording.createdAt)}</span>
             {recording.durationSeconds > 0 && <span>{formatDuration(recording.durationSeconds)}</span>}
@@ -224,19 +225,19 @@ export function RecordingView({ recording, library, me, preview, supabase, empty
                 <FolderArt color={folder.color} icon={folder.icon} width={18} filled />{folder.name}
               </button>
             )}
-            {by && <span>Added by {by}</span>}
+            {by && <span>{t("folders.addedBy", { name: by })}</span>}
           </div>
           <div className="segmented" role="tablist">
-            <span className="pill" style={{ transform: tab === "actions" ? "translateX(100%)" : undefined }} />
-            <button type="button" role="tab" aria-selected={tab === "captions"} onClick={() => switchTab("captions")}><span>📝</span>Captions</button>
-            <button type="button" role="tab" aria-selected={tab === "actions"} onClick={() => switchTab("actions")}><span>✨</span>Actions</button>
+            <span className="pill" style={{ transform: tab === "actions" ? `translateX(${isRtl() ? -100 : 100}%)` : undefined }} />
+            <button type="button" role="tab" aria-selected={tab === "captions"} onClick={() => switchTab("captions")}><span>📝</span>{t("detail.tabCaptions")}</button>
+            <button type="button" role="tab" aria-selected={tab === "actions"} onClick={() => switchTab("actions")}><span>✨</span>{t("detail.tabActions")}</button>
           </div>
           {failed && (
             <Banner
               tone="error"
               text={unsupported
-                ? "This file can't be transcribed. It may be damaged, in a format we don't support, or longer than 5 hours. Try a different file."
-                : "Couldn't transcribe this file. Something went wrong on our end. You can try again or delete the file."}
+                ? t("web.recording.unsupported")
+                : t("web.recording.failed")}
               style={{ marginBottom: 20 }}
             />
           )}
@@ -244,8 +245,8 @@ export function RecordingView({ recording, library, me, preview, supabase, empty
           {!recording.local && state.status === "loading" && <div className="loading-bar" style={{ maxWidth: 240 }} />}
           {!recording.local && state.status === "error" && (
             <div className="banner" role="alert" style={{ margin: 0 }}>
-              <span>Couldn&rsquo;t open this recording. Check your connection.</span>
-              <button type="button" onClick={() => setState({ status: "loading" })}>Try again</button>
+              <span>{t("web.recording.loadFailed")}</span>
+              <button type="button" onClick={() => setState({ status: "loading" })}>{t("common.tryAgain")}</button>
             </div>
           )}
           {body && !failed && tab === "captions" && (
@@ -284,8 +285,8 @@ function TranscribingState({ actions }: { actions: boolean }) {
   return (
     <div className="act-transcribing">
       <div className="loading-bar" />
-      <b>Transcribing...</b>
-      <p>{actions ? "You can make a summary once it's transcribed." : "Your text will appear here in a moment."}</p>
+      <b>{t("recording.transcribing")}</b>
+      <p>{actions ? t("detail.summaryAfterTranscribing") : t("detail.transcribingBody")}</p>
     </div>
   );
 }
@@ -314,7 +315,7 @@ function Captions({ body, tags, onWord, hint }: {
   hint: { seg: number; word: number; onSeen: () => void; onDismiss: () => void } | null;
 }) {
   if (!body.segments.length) {
-    return <Empty title="No captions" text="Nothing was said in this recording." />;
+    return <Empty title={t("web.recording.noCaptionsTitle")} text={t("web.recording.noCaptionsBody")} />;
   }
   return (
     <div>

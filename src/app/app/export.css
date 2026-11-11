@@ -20,7 +20,7 @@
 .exp-btn:active { transform: scale(0.99); }
 
 /* The sheet: CAPTIONS | SUMMARY, five ways each. */
-.exp-sheet { text-align: left; }
+.exp-sheet { text-align: start; }
 .exp-top { display: flex; justify-content: flex-end; margin: -8px -8px 4px 0; }
 .exp-halves { display: flex; }
 .exp-halves.single { justify-content: center; }
@@ -34,7 +34,7 @@
   display: flex; align-items: center; gap: 10px;
   padding: 0 14px;
   border: 2px solid var(--outline); border-radius: 16px; background: var(--bg); color: var(--ink);
-  font-size: 16px; font-weight: 600; text-align: left;
+  font-size: 16px; font-weight: 600; text-align: start;
   transition: border-color 120ms, opacity 120ms;
 }
 .exp-tile:hover:not(:disabled) { border-color: #B8B8BE; }
@@ -45,10 +45,10 @@
 @keyframes exp-spin { to { transform: rotate(360deg); } }
 
 /* A way's second step (the link, the mail app, the chat app). */
-.exp-sub { text-align: left; }
+.exp-sub { text-align: start; }
 .exp-sub-head { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
 .exp-back { display: inline-flex; align-items: center; gap: 2px; padding: 4px 2px; border: 0; background: none; font-size: 15px; font-weight: 500; color: var(--brand); }
-.exp-sub-title { flex: 1; text-align: center; margin-right: 52px; font-size: 17px; font-weight: 700; color: var(--brand); }
+.exp-sub-title { flex: 1; text-align: center; margin-inline-end: 52px; font-size: 17px; font-weight: 700; color: var(--brand); }
 .exp-sub-body { margin: 0 0 14px; font-size: 15px; line-height: 21px; color: var(--ink-muted); text-align: center; }
 .exp-address {
   width: 100%; height: 56px;

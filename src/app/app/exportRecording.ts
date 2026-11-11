@@ -2,16 +2,18 @@ import { getSupabase, isPreview } from "./client";
 import type { Recording, RecordingBody, SummaryBlock } from "./data";
 import { formatDateTime, type SpeakerTag } from "./format";
 import { LANGUAGES } from "./settings";
-import { ACTION_LABEL, type ActionKind } from "./actionPrompts";
+import type { ActionKind } from "./actionPrompts";
+import { isRtl, locale, t, type TKey } from "./i18n";
 
 // Sends a recording out (app repo: src/lib/exportRecording.ts): its captions
 // or one of its actions, as plain text (just the content), a share link
 // (captioai.app/r/<id>), the designed PDF, an email or a ready-made AI prompt.
 // The same texts, words and facts as the app; only the last step is the
 // browser's own (share sheet or clipboard, Save as PDF, the mail app, the chat
-// app). Everything but Text ends with the "get Captio AI" line. English only,
-// like the rest of the web app (the app writes the frame in the recording's
-// language).
+// app). Everything but Text ends with the "get Captio AI" line. The frame
+// (labels, headings, the "made with Captio AI" lines) is in the web app's
+// language, with the app's export.* words; the recording's own words never
+// change (the app writes the frame in the recording's language).
 
 export type ExportWhat = "captions" | ActionKind;
 export type ExportTarget = "pdf" | "text" | "email" | "chat" | "link";
@@ -36,9 +38,28 @@ const TONE_EMOJI = { blue: "💡", green: "✅", orange: "⚠️", red: "🚨", 
 const TONE_HEX = { blue: "#1C49F5", green: "#1E8E3E", orange: "#E37400", red: "#D93025", purple: "#8430CE" } as const;
 const THEME = "#1C49F5";
 
-const quoted = (text: string) => `"${text}"`;
+const quoted = (text: string) => t("common.quoted", { text });
 
-export const kindName = (what: ExportWhat) => (what === "captions" ? "Captions" : ACTION_LABEL[what]);
+// The six actions' names (the app's ACTION_LABEL_KEY), also the Actions tab's.
+const ACTION_LABEL_KEY = {
+  summary: "actions.summary",
+  key_points: "actions.key_points",
+  notes: "actions.notes",
+  todos: "actions.todos",
+  qa: "actions.qa",
+  follow_up: "actions.follow_up",
+} as const satisfies Record<ActionKind, string>;
+
+export const actionLabel = (kind: ActionKind) => t(ACTION_LABEL_KEY[kind]);
+
+export const kindName = (what: ExportWhat) => (what === "captions" ? t("detail.tabCaptions") : actionLabel(what));
+
+// A language's name in the web app's language (the app's languages.* words).
+function languageName(code: string, name: string): string {
+  const key = `languages.${code}`;
+  const s = t(key as TKey);
+  return s === key ? name : s;
+}
 
 type Block = { speaker: string; color: string | null; text: string; original?: string };
 
@@ -134,7 +155,10 @@ function facts(src: ExportSource): Facts {
     if (tag?.key && !people.has(tag.key)) people.set(tag.key, tag.label);
   });
   const codes = [...new Set(body.segments.flatMap(s => [s.language, s.original?.language]).filter((c): c is string => !!c))];
-  const languages = codes.map(c => LANGUAGES.find(l => l.code === c.split("-")[0])?.name).filter(Boolean);
+  const languages = codes.map(c => {
+    const l = LANGUAGES.find(l => l.code === c.split("-")[0]);
+    return l ? languageName(l.code, l.name) : undefined;
+  }).filter(Boolean);
   const transcript = body.segments.map(s => s.text).join(" ");
   // Word counts mean little in scripts without spaces.
   const spaced = !/[぀-ヿ㐀-鿿가-힯฀-๿]/.test(transcript);
@@ -174,28 +198,28 @@ export const exportBody = (src: ExportSource, what: ExportWhat) =>
   (what === "captions" ? captionsText(src) : summaryText(src.content(what)));
 
 function emailIntro(rec: Recording, what: ExportWhat): string {
-  if (what === "captions") return `Please find the transcript of “${rec.title}” below.`;
-  if (what === "summary") return `Please find a summary of “${rec.title}” below.`;
-  return `${kindName(what)} from “${rec.title}”:`;
+  if (what === "captions") return t("export.emailIntroCaptions", { title: rec.title });
+  if (what === "summary") return t("export.emailIntroSummary", { title: rec.title });
+  return t("export.emailIntroAction", { kind: kindName(what), title: rec.title });
 }
 
 export function emailSubject(rec: Recording, what: ExportWhat): string {
-  if (what === "captions") return `Transcript: ${rec.title}`;
-  if (what === "summary") return `Summary: ${rec.title}`;
-  return `${kindName(what)}: ${rec.title}`;
+  if (what === "captions") return t("export.emailSubjectCaptions", { title: rec.title });
+  if (what === "summary") return t("export.emailSubjectSummary", { title: rec.title });
+  return t("export.emailSubjectAction", { kind: kindName(what), title: rec.title });
 }
 
 // Professional, for email: greeting, the facts, the content, regards.
 export function emailText(src: ExportSource, what: ExportWhat, userName: string): string {
   const f = facts(src);
   const factLines = [
-    `Recorded: ${f.date}`,
-    f.length && `Length: ${f.length}`,
-    f.speakers && `Speakers: ${f.speakers}`,
+    t("export.factDate", { value: f.date }),
+    f.length && t("export.factLength", { value: f.length }),
+    f.speakers && t("export.factSpeakers", { value: f.speakers }),
   ].filter(Boolean).join("\n");
   const rule = "────────────────────";
-  const regards = `Best regards,${userName.trim() ? `\n${userName.trim()}` : ""}`;
-  return `Hey,\n\n${emailIntro(src.rec, what)}\n\n${factLines}\n\n${rule}\n\n${exportBody(src, what)}\n\n${rule}\n\n${regards}\n\nTranscribed with Captio AI: ${STORE_URL}`;
+  const regards = `${t("export.emailRegards")}${userName.trim() ? `\n${userName.trim()}` : ""}`;
+  return `${t("export.emailHello")}\n\n${emailIntro(src.rec, what)}\n\n${factLines}\n\n${rule}\n\n${exportBody(src, what)}\n\n${rule}\n\n${regards}\n\n${t("export.emailFooter", { url: STORE_URL })}`;
 }
 
 // For an AI chat: what to do, everything known about the recording, then the
@@ -204,25 +228,25 @@ export function chatPrompt(src: ExportSource, what: ExportWhat): string {
   const { rec } = src;
   const f = facts(src);
   const about = [
-    `Title: ${rec.emoji} ${rec.title}`,
-    `Recorded: ${f.date}`,
-    f.length && `Length: ${f.length}`,
-    f.languages && `Languages: ${f.languages}`,
-    f.speakers && `Speakers: ${f.speakers}`,
-    f.words && `Words: ${f.words.toLocaleString("en")}`,
+    t("export.factTitle", { value: `${rec.emoji} ${rec.title}` }),
+    t("export.factDate", { value: f.date }),
+    f.length && t("export.factLength", { value: f.length }),
+    f.languages && t("export.factLanguages", { value: f.languages }),
+    f.speakers && t("export.factSpeakers", { value: f.speakers }),
+    f.words && t("export.factWords", { value: f.words.toLocaleString(locale()) }),
   ].filter(Boolean).map(l => `- ${l}`).join("\n");
   const content = what !== "captions"
     ? summaryText(src.content(what))
     // One line per turn, "Speaker: words" (the AI reads that best), and a
     // translation's original in brackets under it.
     : blocks(src).map(b => `${b.speaker ? `${b.speaker}: ` : ""}${b.text}${b.original ? `\n(${b.original})` : ""}`).join("\n\n");
-  const heading = what === "captions" ? "Transcript:" : what === "summary" ? "Summary:" : `${kindName(what)}:`;
+  const heading = what === "captions" ? t("export.chatTranscript") : what === "summary" ? t("export.chatSummary") : `${kindName(what)}:`;
   const ask = what === "captions"
-    ? "Use the transcript below as context for our conversation. Read it carefully, then answer my questions about it and help me with any follow-up tasks. If something isn't in the transcript, say so instead of guessing."
+    ? t("export.chatPromptCaptions")
     : what === "summary"
-      ? "Use the summary below as context for our conversation. Read it carefully, then answer my questions about it and help me with any follow-up tasks. If something isn't in the summary, say so instead of guessing."
-      : "Use the notes below, made from a recording, as context for our conversation. Read them carefully, then answer my questions about them and help me with any follow-up tasks. If something isn't in the notes, say so instead of guessing.";
-  return `${ask}\n\nAbout the recording:\n${about}\n\n${heading}\n"""\n${content}\n"""`;
+      ? t("export.chatPromptSummary")
+      : t("export.chatPromptAction");
+  return `${ask}\n\n${t("export.chatAbout")}\n${about}\n\n${heading}\n"""\n${content}\n"""`;
 }
 
 // ─── Where an email or a prompt goes ──────────────────────────────────────────
@@ -302,7 +326,7 @@ export function pdfHtml(src: ExportSource, what: ExportWhat, origin: string): st
   const { rec } = src;
   const chips = factChips(facts(src)).map(c => `<span class="chip">${esc(c)}</span>`).join("");
   const link = storeLink("export_pdf");
-  return `<!doctype html><html><head><meta charset="utf-8"><title>${esc(fileName(rec))}</title><style>
+  return `<!doctype html><html lang="${locale()}" dir="${isRtl() ? "rtl" : "ltr"}"><head><meta charset="utf-8"><title>${esc(fileName(rec))}</title><style>
     @page { margin: 54pt; }
     body { font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; color: #1C1C1E; margin: 0; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
     .brand { display: flex; align-items: center; justify-content: space-between; margin-bottom: 26pt; }
@@ -343,7 +367,7 @@ export function pdfHtml(src: ExportSource, what: ExportWhat, origin: string): st
   </style></head><body>
     <div class="brand">
       <span class="name"><img src="${origin}/icon.png" alt="">Captio AI</span>
-      <span class="kind">${esc(kindName(what).toLocaleUpperCase())}</span>
+      <span class="kind">${esc(kindName(what).toLocaleUpperCase(locale()))}</span>
     </div>
     <h1 dir="auto">${esc(`${rec.emoji} ${rec.title}`)}</h1>
     <div class="chips">${chips}</div>
@@ -352,8 +376,8 @@ export function pdfHtml(src: ExportSource, what: ExportWhat, origin: string): st
     <div class="cta">
       <img class="qr" src="${origin}/qr-appstore.png" alt="">
       <div>
-        <div class="title">Scan to get Captio AI</div>
-        <a href="${link}">Made with Captio AI</a>
+        <div class="title">${esc(t("export.pdfScan"))}</div>
+        <a href="${link}">${esc(t("export.madeWith"))}</a>
       </div>
     </div>
   </body></html>`;
@@ -416,18 +440,18 @@ export async function shareLink(src: ExportSource, what: ExportWhat): Promise<st
     ? { blocks: plainBlocks(src.content(what)), exports }
     : { blocks: blocks(src), exports };
   const labels = {
-    kind: kindName(what).toLocaleUpperCase(),
+    kind: kindName(what).toLocaleUpperCase(locale()),
     chips: factChips(f),
-    getApp: "Get Captio AI",
-    madeWith: "Made with Captio AI",
-    scan: "Scan to get Captio AI",
-    exportButton: "Export",
-    text: "Text",
-    pdf: "PDF",
-    email: "Email",
-    chat: "Chat",
-    copied: "Copied",
-    dir: "ltr",
+    getApp: t("export.getApp"),
+    madeWith: t("export.madeWith"),
+    scan: t("export.pdfScan"),
+    exportButton: t("export.button"),
+    text: t("export.text"),
+    pdf: t("export.pdf"),
+    email: t("export.email"),
+    chat: t("export.chat"),
+    copied: t("export.copied"),
+    dir: isRtl() ? "rtl" : "ltr",
   };
   const sb = getSupabase();
   const { data: session } = await sb.auth.getSession();
@@ -437,7 +461,7 @@ export async function shareLink(src: ExportSource, what: ExportWhat): Promise<st
     .upsert(
       // The table and the page know captions and summary only: every action
       // shares the summary's link, labelled with its own name.
-      { recording_id: rec.id, what: what === "captions" ? "captions" : "summary", lang: "en", title: rec.title, emoji: rec.emoji, content, labels, updated_at: new Date().toISOString() },
+      { recording_id: rec.id, what: what === "captions" ? "captions" : "summary", lang: locale(), title: rec.title, emoji: rec.emoji, content, labels, updated_at: new Date().toISOString() },
       { onConflict: "user_id,recording_id,what" },
     )
     .select("id")

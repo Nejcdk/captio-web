@@ -1,13 +1,13 @@
 // A new recording's title and emoji, the app's prompt and model (app repo:
 // shared.ts generateTitleAndEmoji).
 
-import { errorResponse, gemini, requireUser } from "@/lib/webapp/server";
+import { errorResponse, gemini, requireCaller } from "@/lib/webapp/server";
 
 export const dynamic = "force-dynamic";
 
 export async function POST(req: Request) {
   try {
-    await requireUser(req);
+    await requireCaller(req, "title");
     const { transcript, titleLanguage } = (await req.json()) as { transcript?: string; titleLanguage?: string };
     if (!transcript?.trim()) return Response.json({ title: "", emoji: "🎙️" });
     const langInstruction = titleLanguage

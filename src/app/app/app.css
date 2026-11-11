@@ -77,7 +77,7 @@
   display: flex;
   flex-direction: column;
   min-height: 0;
-  border-right: 1px solid var(--hairline);
+  border-inline-end: 1px solid var(--hairline);
   padding-top: 20px;
 }
 /* The app's SegmentedControl: fill track, a white pill that glides. */
@@ -139,11 +139,11 @@
   padding: 13px 20px;
   border: 0;
   background: var(--bg);
-  text-align: left;
+  text-align: start;
   position: relative;
   transition: background-color 120ms;
 }
-.row::after { content: ""; position: absolute; bottom: 0; left: 76px; right: 0; height: 1px; background: var(--hairline); }
+.row::after { content: ""; position: absolute; bottom: 0; inset-inline-start: 76px; inset-inline-end: 0; height: 1px; background: var(--hairline); }
 .row:hover { background: var(--surface); }
 .row[aria-current="true"] { background: var(--brand-soft); }
 .row[aria-current="true"]::after { opacity: 0; }
@@ -276,7 +276,7 @@
 .sum .done-text { text-decoration: line-through; color: var(--ink-faint); }
 .sum .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
 .sum .chips span { font-size: 12px; font-weight: 500; color: #5A5A64; background: var(--fill); border-radius: 6px; padding: 3px 7px; }
-.sum blockquote { margin: 12px 0; padding: 4px 0 4px 14px; border-left: 3px solid rgba(28, 73, 245, 0.3); font-size: 16.5px; line-height: 1.55; font-style: italic; color: #3A3A44; }
+.sum blockquote { margin: 12px 0; padding-block: 4px; padding-inline: 14px 0; border-inline-start: 3px solid rgba(28, 73, 245, 0.3); font-size: 16.5px; line-height: 1.55; font-style: italic; color: #3A3A44; }
 .sum blockquote span { display: block; margin-top: 4px; font-size: 13px; font-style: normal; color: var(--ink-meta); }
 .sum .callout { margin: 10px 0; padding: 14px 16px; border-radius: 16px; border: 1px solid; }
 .sum .callout-title { display: flex; align-items: center; gap: 6px; margin-bottom: 4px; font-size: 15px; font-weight: 700; }
@@ -311,7 +311,7 @@
 /* ── Settings (app: SettingsScreen, ModalScreen) ─────────────────────────── */
 .settings { flex: 1; overflow-y: auto; }
 .settings .inner { max-width: 720px; margin: 0 auto; padding: 20px 40px 80px; }
-.settings-head { display: flex; align-items: center; gap: 4px; margin: 0 0 6px -8px; }
+.settings-head { display: flex; align-items: center; gap: 4px; margin-block: 0 6px; margin-inline: -8px 0; }
 .settings-head h1 { font-size: 20px; line-height: 26px; font-weight: 700; }
 .group-label { margin: 22px 0 8px 4px; font-size: 11px; font-weight: 600; letter-spacing: 1.1px; color: var(--ink-faint); }
 .group { background: var(--surface); border-radius: 16px; overflow: hidden; }
@@ -321,13 +321,13 @@
   display: flex; align-items: center; gap: 12px;
   padding: 14px 16px;
   border: 0; background: none;
-  text-align: left; text-decoration: none;
+  text-align: start; text-decoration: none;
   font-size: 16px; font-weight: 500; color: var(--ink);
   position: relative;
   transition: background-color 120ms;
 }
 a.group-row:hover, button.group-row:hover { background: var(--hover); }
-.group-row + .group-row::before { content: ""; position: absolute; top: 0; left: 56px; right: 0; height: 1px; background: #EBEBEB; }
+.group-row + .group-row::before { content: ""; position: absolute; top: 0; inset-inline-start: 56px; inset-inline-end: 0; height: 1px; background: #EBEBEB; }
 .group-row .icon { width: 28px; display: flex; justify-content: center; color: var(--brand); flex: none; }
 .group-row .label { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
 .group-row .label small { display: block; margin-top: 3px; font-size: 13px; line-height: 18px; font-weight: 400; color: var(--ink-meta); white-space: normal; }
@@ -357,7 +357,7 @@ a.group-row:hover, button.group-row:hover { background: var(--hover); }
 .settings .inner.page { max-width: 560px; padding-top: 20px; }
 .back-link {
   display: inline-flex; align-items: center; gap: 2px;
-  margin-left: -4px; padding: 6px 4px;
+  margin-inline-start: -4px; padding: 6px 4px;
   border: 0; background: none;
   font-size: 15px; font-weight: 500; color: var(--brand) !important;
 }
@@ -449,7 +449,7 @@ textarea.input { min-height: 160px; line-height: 1.45; }
   .band { height: 56px; padding: 0 12px 0 20px; }
   .band .logo img { width: 100px; }
   .search kbd { display: none; }
-  .home-col { width: 100%; border-right: 0; }
+  .home-col { width: 100%; border-inline-end: 0; }
   .capp[data-pane="recording"] .home-col { display: none; }
   .capp[data-pane="list"] .pane { display: none; }
   /* The phone app has no selected row. */
@@ -460,7 +460,7 @@ textarea.input { min-height: 160px; line-height: 1.45; }
 }
 .back-btn { display: none; }
 @media (max-width: 760px) {
-  .back-btn { display: flex; margin-right: auto; }
+  .back-btn { display: flex; margin-inline-end: auto; }
 }
 
 /* ── Shared building blocks (ui.tsx; app: src/components/ui) ─────────────── */
@@ -622,4 +622,19 @@ textarea.input { min-height: 160px; line-height: 1.45; }
 .row-spinner { width: 20px; height: 20px; flex: none; border-radius: 50%; border: 2.5px solid var(--brand-soft); border-top-color: var(--brand); animation: cs-spin 800ms linear infinite; }
 @keyframes cs-spin { to { transform: rotate(360deg); } }
 /* Home's PLUS badge, left of the gear (app: ProButton). */
-.band-plus { margin-right: 10px; }
+.band-plus { margin-inline-end: 10px; }
+
+/* Guests (no account): "Try it without an account" / "Not now" under the
+   sign-in buttons, and the "only saved in this browser" note above the list. */
+.signin .signin-skip { margin-top: 14px; border: 0; background: none; color: var(--brand); font: inherit; font-size: 15px; font-weight: 600; cursor: pointer; padding: 8px 12px; border-radius: 12px; }
+.signin .signin-skip:hover { background: var(--brand-soft); }
+.home-guest { margin: 10px 20px 0; }
+
+/* Right to left (ar, fa, he, ur; i18n.ts sets dir): what logical properties
+   can't do. The tab pills start on the right and slide left (HomeColumn,
+   RecordingView flip their transform), bars fill from the right, and
+   chevrons point the other way. */
+[dir="rtl"] .home-tabs .pill, [dir="rtl"] .segmented .pill { left: auto; right: 3px; }
+[dir="rtl"] .track { transform: scaleX(-1); }
+[dir="rtl"] .rtl-flip { transform: scaleX(-1); }
+[dir="rtl"] .switch[aria-checked="true"] span { transform: translateX(-20px); }

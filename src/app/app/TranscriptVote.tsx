@@ -4,6 +4,7 @@ import { useState } from "react";
 import { capture, store } from "./client";
 import { isPlusNow } from "./plus";
 import { Button, ModalCard, QuietButton, showCard } from "./ui";
+import { t } from "./i18n";
 
 // "Everything good?" under a recording's captions (app repo:
 // components/TranscriptVote.tsx): thumbs up or down, remembered per recording
@@ -32,7 +33,7 @@ export function TranscriptVote({ recordingId, kind, durationSeconds }: {
 
   return (
     <div className="rv-vote">
-      <span>{vote ? "Thanks for letting us know" : "Everything good?"}</span>
+      <span>{vote ? t("detail.voteThanks") : t("detail.everythingGood")}</span>
       <Thumb dir="up" selected={vote === "up"} pop={popped === "up"} onPress={() => pick("up")} />
       <Thumb dir="down" selected={vote === "down"} pop={popped === "down"} onPress={() => pick("down")} />
     </div>
@@ -50,7 +51,7 @@ function Thumb({ dir, selected, pop, onPress }: { dir: Vote; selected: boolean; 
       type="button"
       className={`rv-thumb${pop ? " pop" : ""}`}
       onClick={onPress}
-      aria-label={dir === "up" ? "Good" : "Not good"}
+      aria-label={dir === "up" ? t("detail.voteUp") : t("detail.voteDown")}
       aria-pressed={selected}
     >
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
@@ -66,15 +67,8 @@ function Thumb({ dir, selected, pop, onPress }: { dir: Vote; selected: boolean; 
 // ─── What went wrong? (app: TranscriptFeedbackPrompt) ─────────────────────────
 
 type Reason = "wrongWords" | "missing" | "speakers" | "language" | "translation" | "slow" | "other";
-const REASON_LABEL: Record<Reason, string> = {
-  wrongWords: "Wrong words",
-  missing: "Parts are missing",
-  speakers: "Speakers mixed up",
-  language: "Wrong language",
-  translation: "Bad translation",
-  slow: "Captions were slow",
-  other: "Something else",
-};
+// The app's keys are the reasons themselves (voteFeedback.<reason>).
+const reasonLabel = (r: Reason): string => t(`voteFeedback.${r}`);
 
 // Only the problems that can happen to this kind of recording.
 function reasonsFor(kind: string): Reason[] {
@@ -108,7 +102,7 @@ function FeedbackCard({ kind, durationSeconds, close }: { kind: string; duration
     close();
   };
   return (
-    <ModalCard title="⚠️ What went wrong?" body="Pick everything that applies." onClose={close}>
+    <ModalCard title={`⚠️ ${t("rating.feedbackTitle")}`} body={t("voteFeedback.sub")} onClose={close}>
       <div className="rv-options">
         {reasonsFor(kind).map(r => {
           const on = picked.includes(r);
@@ -117,7 +111,7 @@ function FeedbackCard({ kind, durationSeconds, close }: { kind: string; duration
               <span className={`rv-check${on ? " on" : ""}`} aria-hidden>
                 {on && <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth={3} strokeLinecap="round" strokeLinejoin="round"><path d="M5 12l5 5l10 -10" /></svg>}
               </span>
-              <span>{REASON_LABEL[r]}</span>
+              <span>{reasonLabel(r)}</span>
             </button>
           );
         })}
@@ -128,11 +122,11 @@ function FeedbackCard({ kind, durationSeconds, close }: { kind: string; duration
         maxLength={1000}
         value={message}
         onChange={e => setMessage(e.target.value)}
-        placeholder="Type your feedback…"
-        aria-label="Your feedback"
+        placeholder={t("rating.feedbackPlaceholder")}
+        aria-label={t("web.vote.feedbackLabel")}
       />
-      <Button label="Send feedback" size="compact" disabled={!canSend} onPress={send} style={{ marginTop: 14 }} />
-      <QuietButton label="Not now" onPress={close} />
+      <Button label={t("rating.send")} size="compact" disabled={!canSend} onPress={send} style={{ marginTop: 14 }} />
+      <QuietButton label={t("common.notNow")} onPress={close} />
     </ModalCard>
   );
 }

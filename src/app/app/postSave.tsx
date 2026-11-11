@@ -1,13 +1,14 @@
 "use client";
 
-import { api, capture, getSupabase, isPreview, recordError, recordErrorOnce, store } from "./client";
+import { api, capture, getSupabase, isPreview, recordError, recordErrorOnce, store, isGuest } from "./client";
 import { loadLibrary, updateRecording, type Folder, type Library, type Recording } from "./data";
 import { notifyLibraryChanged } from "./events";
 import { FolderArt } from "./FolderArt";
 import { getLocal, patchLocal } from "./local";
+import { t } from "./i18n";
 import { openEditSheet } from "./editSheet";
 import { openPaywall } from "./paywallStore";
-import { isPlusNow } from "./plus";
+import { isPlusNow, plusForSale } from "./plus";
 import { PREVIEW_LIBRARY, PREVIEW_USER } from "./preview";
 import { shouldAskForRating, showRatingPrompt } from "./RatingPrompt";
 import { Button, isCardOpen, ModalCard, QuietButton, showCard } from "./ui";
@@ -63,6 +64,8 @@ async function library(): Promise<Library> {
 }
 
 export function afterSave(saved: SavedRecording): void {
+  // A guest has no folders, ratings table or plans to buy without an account.
+  if (isGuest()) return;
   void run(saved);
 }
 
@@ -144,13 +147,13 @@ async function askFolder(saved: SavedRecording, rec: Recording, lib: Library, my
     return (
       <ModalCard
         art={<FolderArt color={folder.color} icon={folder.icon} width={110} filled />}
-        title={`Save to ${folder.name}?`}
-        body={`Captio AI thinks “${rec.title}” belongs in this folder.`}
+        title={t("folders.suggestTitle", { folder: folder.name })}
+        body={t("folders.suggestBody", { title: rec.title })}
         onClose={() => void answer("no")}
       >
-        <Button label="Save to folder" size="compact" onPress={() => void answer("yes")} style={{ marginTop: 6 }} />
-        <Button label="Choose another folder" variant="secondary" size="compact" onPress={() => void answer("other")} />
-        <QuietButton label="No thanks" onPress={() => void answer("no")} />
+        <Button label={t("folders.suggestYes")} size="compact" onPress={() => void answer("yes")} style={{ marginTop: 6 }} />
+        <Button label={t("folders.suggestOther")} variant="secondary" size="compact" onPress={() => void answer("other")} />
+        <QuietButton label={t("common.noThanks")} onPress={() => void answer("no")} />
       </ModalCard>
     );
   });
@@ -161,7 +164,7 @@ async function askFolder(saved: SavedRecording, rec: Recording, lib: Library, my
 async function maybeFirstSavePlus(saved: SavedRecording, lib: Library, user: { id: string; createdAt: number | null }) {
   if (store.get<string | null>(FIRST_SAVE_KEY, null)) return;
   const own = ownCount(lib, user.id);
-  const due = !isPlusNow() && !saved.limitStop && !!user.createdAt && Date.now() - user.createdAt < DAY_MS && own <= 1;
+  const due = !isPlusNow() && plusForSale() && !saved.limitStop && !!user.createdAt && Date.now() - user.createdAt < DAY_MS && own <= 1;
   // Decided once, on the first save this browser sees.
   store.set(FIRST_SAVE_KEY, "done");
   if (!due || screenBusy()) return;
@@ -170,12 +173,12 @@ async function maybeFirstSavePlus(saved: SavedRecording, lib: Library, user: { i
   await cardDone(done => (
     <ModalCard
       owl="owl-plus"
-      title="Your first transcript is saved!"
-      body={`You get ${FREE_DAILY_CREDITS} free credits a day. With Plus, live captions, translation and AI actions have no daily limit.`}
+      title={t("firstSavePlus.title")}
+      body={t("firstSavePlus.body", { credits: FREE_DAILY_CREDITS })}
       onClose={() => { capture("first_save_plus_prompt_dismissed"); done(); }}
     >
       <Button
-        label="Get unlimited with Plus"
+        label={t("limit.cta")}
         variant="gold"
         size="compact"
         onPress={() => {
@@ -185,7 +188,7 @@ async function maybeFirstSavePlus(saved: SavedRecording, lib: Library, user: { i
           openPaywall("first_save");
         }}
       />
-      <QuietButton label="No thanks" onPress={() => { capture("first_save_plus_prompt_dismissed"); done(); }} />
+      <QuietButton label={t("common.noThanks")} onPress={() => { capture("first_save_plus_prompt_dismissed"); done(); }} />
     </ModalCard>
   ));
 }

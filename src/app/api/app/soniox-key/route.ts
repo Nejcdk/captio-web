@@ -2,13 +2,13 @@
 // (and Add a voice later). The long-lived key never leaves the server; the
 // browser sends this one with the connection (Sec-WebSocket-Protocol).
 
-import { env, errorResponse, requireUser } from "@/lib/webapp/server";
+import { env, errorResponse, requireCaller } from "@/lib/webapp/server";
 
 export const dynamic = "force-dynamic";
 
 export async function POST(req: Request) {
   try {
-    const user = await requireUser(req);
+    const user = await requireCaller(req, "soniox_key");
     const res = await fetch("https://api.soniox.com/v1/auth/temporary-api-key", {
       method: "POST",
       headers: { Authorization: `Bearer ${env("SONIOX_API_KEY")}`, "Content-Type": "application/json" },
@@ -16,8 +16,9 @@ export async function POST(req: Request) {
         usage_type: "transcribe_websocket",
         expires_in_seconds: 60,
         single_use: true,
-        // Soniox closes every stream at 300 minutes anyway.
-        max_session_duration_seconds: 5 * 3600,
+        // Soniox closes every stream at 300 minutes anyway; a guest's stream
+        // can't outlast the free day (5 minutes, plus a little).
+        max_session_duration_seconds: user.guest ? 330 : 5 * 3600,
         client_reference_id: `web_${user.id}`.slice(0, 120),
       }),
       cache: "no-store",

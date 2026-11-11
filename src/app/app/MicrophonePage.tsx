@@ -7,6 +7,7 @@ import { listMics, type Mic } from "./audio";
 import { answerMic, forgetMic, kindOf, micEmoji, micName, rememberedMics, setSuggestionsOn, suggestionsOn, type RememberedMic } from "./mics";
 import { updateSettings, useSettings } from "./settings";
 import { CheckIcon, ChevronLeftIcon } from "./Icons";
+import { t } from "./i18n";
 
 // Settings → Captions → Pick a microphone (app repo: MicrophoneScreen): a
 // Suggest microphones switch, the microphones connected now (a tap = captions
@@ -70,20 +71,20 @@ export function MicrophonePage({ onBack }: { onBack: () => void }) {
   return (
     <main className="settings">
       <div className="inner page">
-        <button type="button" className="back-link" onClick={onBack}><ChevronLeftIcon size={16} />Settings</button>
-        <h1 className="page-title">Pick a microphone</h1>
-        <p className="page-lede">Which microphone captions listen to.</p>
+        <button type="button" className="back-link" onClick={onBack}><ChevronLeftIcon size={16} />{t("settings.title")}</button>
+        <h1 className="page-title">{t("mic.settings.title")}</h1>
+        <p className="page-lede">{t("mic.settings.lede")}</p>
         <div className="page-body">
           <div className="group">
             <div className="group-row">
-              <span className="label">Suggest microphones</span>
-              <button type="button" role="switch" aria-checked={suggest} aria-label="Suggest microphones" className="switch" onClick={toggle}>
+              <span className="label">{t("mic.settings.suggest")}</span>
+              <button type="button" role="switch" aria-checked={suggest} aria-label={t("mic.settings.suggest")} className="switch" onClick={toggle}>
                 <span />
               </button>
             </div>
           </div>
 
-          <div className="group-label">CONNECTED NOW</div>
+          <div className="group-label">{t("mic.settings.connectedLabel")}</div>
           {named ? (
             <div className="group">
               {mics!.map(m => (
@@ -97,27 +98,27 @@ export function MicrophonePage({ onBack }: { onBack: () => void }) {
           ) : mics && (
             <div className="info-card" style={{ marginTop: 0 }}>
               <p>{blocked
-                ? "Your browser has blocked the microphone for captioai.app. Allow it in the browser's site settings, then come back."
-                : "Allow the microphone once, and your browser shows every microphone here by name."}</p>
-              {!blocked && <button type="button" className="primary-btn compact" onClick={allow}>Allow microphone</button>}
+                ? t("web.mic.settingsBlocked")
+                : t("web.mic.settingsAllowOnce")}</p>
+              {!blocked && <button type="button" className="primary-btn compact" onClick={allow}>{t("web.mic.settingsAllow")}</button>}
             </div>
           )}
           {named && mics!.every(m => m.builtIn) && (
-            <p className="mic-note">Connect AirPods, a headset or another microphone to choose it here.</p>
+            <p className="mic-note">{t("mic.settings.onlyPhone")}</p>
           )}
 
           {remembered.length > 0 && (
             <>
-              <div className="group-label">REMEMBERED</div>
+              <div className="group-label">{t("mic.settings.rememberedLabel")}</div>
               <div className="group">
                 {remembered.map(m => (
                   <div key={m.id} className="group-row">
                     <span className="icon" style={{ fontSize: 20 }}>{micEmoji(m.kind)}</span>
                     <span className="label">
-                      {m.name || "Microphone"}
-                      <small>{m.answer === "use" ? "Captions use it whenever it's connected" : "Captions keep the built-in microphone while it's connected"}</small>
+                      {m.name || t("mic.external")}
+                      <small>{m.answer === "use" ? t("mic.settings.usesIt") : t("web.mic.settingsKeepsBuiltIn")}</small>
                     </span>
-                    <button type="button" className="mic-forget" onClick={() => forget(m)}>Forget</button>
+                    <button type="button" className="mic-forget" onClick={() => forget(m)}>{t("mic.settings.forget")}</button>
                   </div>
                 ))}
               </div>

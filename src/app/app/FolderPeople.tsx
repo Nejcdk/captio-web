@@ -2,13 +2,14 @@
 
 import { useState } from "react";
 import "./folders.css";
-import { capture } from "./client";
+import { capture, isGuest, needsAccount } from "./client";
 import type { Folder } from "./data";
 import { CopyCheckIcon, CopyIcon, LogOutIcon, TrashIcon, XIcon } from "./Icons";
 import { PencilIcon } from "./editIcons";
 import { OptionTile, SheetCard } from "./sheet";
 import { Button, CloseButton, ModalCard, QuietButton, confirmCard, showCard, showErrorAlert } from "./ui";
 import { openFolderEditor } from "./FolderEditor";
+import { t } from "./i18n";
 import {
   createInvite, deleteFolder, editContext, inviteLink, isSharedFolder, joinFolder, leaveFolder, normalizeCode, ownsFolder,
   removeMember,
@@ -35,35 +36,35 @@ function FolderPeople({ folder, close }: { folder: Folder; close: () => void }) 
     : [{ folderId: folder.id, userId: me, name: "" }];
 
   const remove = async (userId: string, name: string) => {
-    const ok = await confirmCard({ title: `Remove ${name}?`, body: "Their recordings leave the folder with them.", confirm: "Remove", destructive: true });
+    const ok = await confirmCard({ title: t("folders.removeTitle", { name }), body: t("folders.removeBody"), confirm: t("folders.removeConfirm"), destructive: true });
     if (!ok) return;
     setBusy(userId);
     const done = await removeMember(folder, userId);
     setBusy(null);
-    if (!done) showErrorAlert({ where: "folder_remove_member", error: "failed", title: "Couldn't remove them", body: "Check your connection and try again." });
+    if (!done) showErrorAlert({ where: "folder_remove_member", error: "failed", title: t("folders.removeFailed"), body: t("folders.inviteFailedBody") });
   };
 
   const leave = async () => {
     const ok = await confirmCard({
-      title: `Leave ${folder.name}?`,
-      body: "Your recordings in it go back to All transcripts, and you won't see the others' anymore.",
-      confirm: "Leave",
+      title: t("folders.leaveTitle", { folder: folder.name }),
+      body: t("folders.leaveBody"),
+      confirm: t("folders.leaveConfirm"),
       destructive: true,
     });
     if (!ok) return;
     setBusy("leave");
     const done = await leaveFolder(folder);
     setBusy(null);
-    if (!done) { showErrorAlert({ where: "folder_leave", error: "failed", title: "Couldn't leave the folder", body: "Check your connection and try again." }); return; }
+    if (!done) { showErrorAlert({ where: "folder_leave", error: "failed", title: t("folders.leaveFailed"), body: t("folders.inviteFailedBody") }); return; }
     close();
     editContext().openFolder(null);
   };
 
   const remove_folder = async () => {
     const ok = await confirmCard({
-      title: "Delete folder?",
-      body: isSharedFolder(library, folder.id) ? "Everyone in it loses it. Recordings stay with whoever made them." : "Its recordings stay in All transcripts.",
-      confirm: "Delete",
+      title: t("folders.deleteTitle"),
+      body: isSharedFolder(library, folder.id) ? t("folders.deleteSharedBody") : t("folders.deleteBody"),
+      confirm: t("common.delete"),
       destructive: true,
     });
     if (!ok) return;
@@ -72,7 +73,7 @@ function FolderPeople({ folder, close }: { folder: Folder; close: () => void }) 
       close();
       editContext().openFolder(null);
     } catch (e) {
-      showErrorAlert({ where: "folder_delete", error: e, body: "Check your connection and try again." });
+      showErrorAlert({ where: "folder_delete", error: e, body: t("folders.inviteFailedBody") });
     }
   };
 
@@ -82,18 +83,18 @@ function FolderPeople({ folder, close }: { folder: Folder; close: () => void }) 
         <span className="es-title fp-name">{folder.name}</span>
         <CloseButton onPress={close} />
       </div>
-      <div className="es-section" style={{ marginTop: 4 }}>PEOPLE</div>
+      <div className="es-section" style={{ marginTop: 4 }}>{t("folders.people")}</div>
       <div className="fp-group">
         {list.map(p => {
           const isMe = p.userId === me;
-          const name = isMe ? "You" : p.name || "Someone";
+          const name = isMe ? t("folders.you") : p.name || t("folders.someone");
           const isOwner = p.userId === folder.ownerId || (!folder.ownerId && isMe);
           return (
             <div key={p.userId} className="fp-person">
               <span className="fp-person-name">{name}</span>
-              {isOwner && <span className="fp-role">Owner</span>}
+              {isOwner && <span className="fp-role">{t("folders.owner")}</span>}
               {mine && !isMe && !isOwner && (
-                <button type="button" className="es-icon-btn" onClick={() => void remove(p.userId, name)} disabled={!!busy} aria-label={`Remove ${name}?`}>
+                <button type="button" className="es-icon-btn" onClick={() => void remove(p.userId, name)} disabled={!!busy} aria-label={t("folders.removeTitle", { name })}>
                   <XIcon size={18} color="var(--ink-meta)" />
                 </button>
               )}
@@ -104,7 +105,7 @@ function FolderPeople({ folder, close }: { folder: Folder; close: () => void }) 
       <div className="es-options" style={{ marginTop: 20 }}>
         <OptionTile
           icon={<span style={{ fontSize: 20 }}>👋</span>}
-          label={busy === "invite" ? "Please wait…" : "Add members"}
+          label={busy === "invite" ? t("common.pleaseWait") : t("folders.invite")}
           disabled={!!busy}
           onPress={async () => {
             setBusy("invite");
@@ -115,16 +116,16 @@ function FolderPeople({ folder, close }: { folder: Folder; close: () => void }) 
         {mine && (
           <OptionTile
             icon={<PencilIcon size={22} color="#8430CE" />}
-            label="Edit folder"
+            label={t("folders.editFolder")}
             onPress={() => { close(); setTimeout(() => openFolderEditor({ folder }), 0); }}
           />
         )}
         {mine ? (
-          <OptionTile icon={<TrashIcon size={22} color="var(--destructive)" />} label="Delete folder" color="var(--destructive)" onPress={() => void remove_folder()} />
+          <OptionTile icon={<TrashIcon size={22} color="var(--destructive)" />} label={t("folders.delete")} color="var(--destructive)" onPress={() => void remove_folder()} />
         ) : (
           <OptionTile
             icon={<LogOutIcon size={22} color="var(--destructive)" />}
-            label={busy === "leave" ? "Please wait…" : "Leave folder"}
+            label={busy === "leave" ? t("common.pleaseWait") : t("folders.leave")}
             color="var(--destructive)"
             disabled={!!busy}
             onPress={() => void leave()}
@@ -138,14 +139,15 @@ function FolderPeople({ folder, close }: { folder: Folder; close: () => void }) 
 // ─── Inviting ─────────────────────────────────────────────────────────────────
 
 const inviteMessage = (folder: string, code: string) =>
-  `Join my folder “${folder}” on Captio AI, so we see each other's recordings: ${inviteLink(code)}\n\nInvite code: ${code}`;
+  t("folders.inviteMessage", { folder, link: inviteLink(code), code });
 
 // The app's invite: makes this account's code for the folder, then the share
 // sheet where the browser has one, else a card with the link to copy.
 export async function inviteToFolder(folder: Folder, from: "folder" | "people"): Promise<void> {
+  if (isGuest()) { needsAccount("share_folder"); return; }
   const result = await createInvite(folder, from);
   if (!result.ok) {
-    showErrorAlert({ where: "folder_invite", error: "failed", title: "Couldn't make an invite", body: "Check your connection and try again." });
+    showErrorAlert({ where: "folder_invite", error: "failed", title: t("folders.inviteFailed"), body: t("folders.inviteFailedBody") });
     return;
   }
   const text = inviteMessage(folder.name, result.code);
@@ -167,6 +169,7 @@ export async function inviteToFolder(folder: Folder, from: "folder" | "people"):
 
 function InviteCard({ folder, code, text, from, close }: { folder: Folder; code: string; text: string; from: string; close: () => void }) {
   const [copied, setCopied] = useState(false);
+  const [codeBefore = "", codeAfter = ""] = t("web.folders.inviteCode").split(/\{\{\s*code\s*\}\}/);
   const copy = async () => {
     try {
       await navigator.clipboard.writeText(text);
@@ -177,14 +180,15 @@ function InviteCard({ folder, code, text, from, close }: { folder: Folder; code:
     }
   };
   return (
-    <ModalCard title="Add members" body={`Send this to the people you want in “${folder.name}”.`} onClose={() => { if (!copied) capture("folder_invite_shared", { from, shared: false }); close(); }}>
+    <ModalCard title={t("folders.invite")} body={t("web.folders.inviteCardBody", { folder: folder.name })} onClose={() => { if (!copied) capture("folder_invite_shared", { from, shared: false }); close(); }}>
       <button type="button" className="fp-link" onClick={() => void copy()}>
         <span>{inviteLink(code)}</span>
         {copied ? <CopyCheckIcon size={20} color="var(--brand)" /> : <CopyIcon size={20} color="var(--brand)" />}
       </button>
-      <div className="fp-code">Invite code: <b>{code}</b></div>
-      <Button label={copied ? "Copied" : "Copy invite"} size="compact" onPress={() => void copy()} />
-      <QuietButton label="Done" onPress={close} />
+      {/* The code in bold, wherever the language puts it in the line. */}
+      <div className="fp-code">{codeBefore}<b>{code}</b>{codeAfter}</div>
+      <Button label={copied ? t("export.copied") : t("web.folders.copyInvite")} size="compact" onPress={() => void copy()} />
+      <QuietButton label={t("voices.done")} onPress={close} />
     </ModalCard>
   );
 }
@@ -192,6 +196,7 @@ function InviteCard({ folder, code, text, from, close }: { folder: Folder; code:
 // ─── Joining ("Got an invite code?") ──────────────────────────────────────────
 
 export function openJoinFolder() {
+  if (isGuest()) { needsAccount("join_folder"); return; }
   capture("folder_join_code_opened");
   showCard(close => <JoinCard close={close} />);
 }
@@ -210,8 +215,12 @@ function JoinCard({ close }: { close: () => void }) {
       if (!result.already) {
         capture("folder_joined_card_shown");
         showCard(done => (
-          <ModalCard title={`You joined ${result.name || "the folder"}`} body="Recordings anyone saves here show up for everyone in it." onClose={done}>
-            <Button label="Got it" size="compact" onPress={done} />
+          <ModalCard
+            title={result.name ? t("folders.joinedTitle", { folder: result.name }) : t("web.folders.joinedTitleNoName")}
+            body={t("folders.joinedBody")}
+            onClose={done}
+          >
+            <Button label={t("folders.sortedOk")} size="compact" onPress={done} />
           </ModalCard>
         ));
       }
@@ -221,19 +230,19 @@ function JoinCard({ close }: { close: () => void }) {
       const invalid = result.error === "invalid_code";
       showCard(done => (
         <ModalCard
-          title={invalid ? "This invite doesn't work" : "This folder is full"}
-          body={invalid ? "It may have been removed. Ask for a new one." : "A folder can have up to 30 people."}
+          title={invalid ? t("folders.joinInvalidTitle") : t("folders.joinFullTitle")}
+          body={invalid ? t("folders.joinInvalidBody") : t("folders.joinFullBody")}
           onClose={done}
         >
-          <Button label="Close" size="compact" onPress={done} />
+          <Button label={t("common.close")} size="compact" onPress={done} />
         </ModalCard>
       ));
       return;
     }
-    showErrorAlert({ where: "folder_join", error: "failed", title: "Couldn't join the folder", body: "Check your connection and try again." });
+    showErrorAlert({ where: "folder_join", error: "failed", title: t("folders.joinFailed"), body: t("folders.inviteFailedBody") });
   };
   return (
-    <ModalCard title="Join a folder" body="Enter the code from your invite." onClose={close}>
+    <ModalCard title={t("folders.joinTitle")} body={t("folders.joinBody")} onClose={close}>
       <input
         className="es-input fp-join-input"
         value={code}
@@ -242,10 +251,10 @@ function JoinCard({ close }: { close: () => void }) {
         autoCapitalize="characters"
         onChange={e => setCode(e.target.value.toUpperCase())}
         onKeyDown={e => { if (e.key === "Enter") void join(); }}
-        aria-label="Invite code"
+        aria-label={t("web.folders.inviteCodeLabel")}
       />
-      <Button label="Join" size="compact" loading={busy} disabled={!normalizeCode(code)} onPress={() => void join()} style={{ marginTop: 12 }} />
-      <QuietButton label="Cancel" onPress={close} />
+      <Button label={t("folders.joinConfirm")} size="compact" loading={busy} disabled={!normalizeCode(code)} onPress={() => void join()} style={{ marginTop: 12 }} />
+      <QuietButton label={t("common.cancel")} onPress={close} />
     </ModalCard>
   );
 }

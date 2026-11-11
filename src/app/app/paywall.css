@@ -38,7 +38,7 @@
   font-size: 15px; font-weight: 600;
 }
 .paywall-label + .paywall-label { border-top: 1px solid rgba(255, 255, 255, 0.07); }
-.paywall-label u { text-decoration-color: #FFB800; text-underline-offset: 3px; margin-right: 0.28em; }
+.paywall-label u { text-decoration-color: #FFB800; text-underline-offset: 3px; margin-inline-end: 0.28em; }
 .paywall-col { border-radius: 14px; overflow: hidden; }
 .paywall-col.free { background: rgba(255, 255, 255, 0.07); }
 .paywall-col.plus { background: linear-gradient(180deg, #4B6FFF, #1C49F5); }
@@ -49,7 +49,7 @@
 .paywall-plans { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 14px; }
 .plan-wrap { position: relative; padding-top: 10px; display: flex; }
 .plan-badge {
-  position: absolute; top: 0; left: 10px; z-index: 2;
+  position: absolute; top: 0; inset-inline-start: 10px; z-index: 2;
   padding: 3px 8px; border-radius: 6px;
   background: #FFB800; color: #0A1628;
   font-size: 10px; font-weight: 700; letter-spacing: 0.3px;
@@ -60,7 +60,7 @@
   padding: 16px;
   border-radius: 16px; border: 2px solid rgba(255, 255, 255, 0.12);
   background: rgba(255, 255, 255, 0.05);
-  color: #FFFFFF; text-align: left;
+  color: #FFFFFF; text-align: start;
   transition: border-color 150ms, background-color 150ms;
 }
 .plan-card:hover { border-color: rgba(255, 255, 255, 0.24); }
@@ -97,7 +97,7 @@
 /* ── Settings: the plan card and the PLUS badge (app: SettingsScreen) ────── */
 .plus-badge {
   position: relative; overflow: hidden;
-  margin-left: auto;
+  margin-inline-start: auto;
   display: inline-flex; align-items: center; gap: 6px;
   padding: 7px 14px;
   border: 0; border-radius: 10px;

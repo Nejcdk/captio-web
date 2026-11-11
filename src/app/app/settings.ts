@@ -1,4 +1,5 @@
 import { useSyncExternalStore } from "react";
+import { t } from "./i18n";
 
 // The app's caption settings (app repo: src/contexts/SettingsContext.tsx), kept
 // in this browser like the phone keeps them on the phone: language hints,
@@ -15,6 +16,22 @@ export type Settings = {
 };
 
 const KEY = "captio_app_settings";
+
+// A language's name in the app's language (the app's languages.<code>, which
+// covers every language below). The stored value stays the English name.
+export function languageLabel(name: string | null | undefined): string {
+  if (!name) return "";
+  const code = LANGUAGES.find(l => l.name === name)?.code;
+  const key = `languages.${code}`;
+  const label = code ? t(key) : key;
+  return label === key ? name : label;
+}
+
+// A search in a language list finds the English name and the shown one.
+export function languageMatches(name: string, query: string): boolean {
+  const q = query.trim().toLocaleLowerCase();
+  return !q || name.toLowerCase().includes(q) || languageLabel(name).toLocaleLowerCase().includes(q);
+}
 
 export const LANGUAGES = [
   { name: "Afrikaans", code: "af", flag: "🇿🇦" }, { name: "Albanian", code: "sq", flag: "🇦🇱" },

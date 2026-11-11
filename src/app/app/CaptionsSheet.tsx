@@ -5,13 +5,14 @@ import "./captions.css";
 import { capture, recordError, store } from "./client";
 import { listMics, type Mic } from "./audio";
 import type { LiveSession, Line } from "./live";
-import { LANGUAGES, updateSettings, useSettings } from "./settings";
+import { LANGUAGES, languageLabel, languageMatches, updateSettings, useSettings } from "./settings";
 import { SPEAKER_COLORS, languageFlag, tagInk, tint } from "./format";
 import { CheckIcon, SearchIcon, TrashIcon, XIcon } from "./Icons";
 import { Banner, CloseButton, DockButton, IslandButton, ModalCard, PlusCard, showCard } from "./ui";
 import { openPaywall } from "./paywallStore";
 import { answerMic, dismissMic, kindLabel, kindOf, micName, micToAskAbout } from "./mics";
 import { contextText } from "./transcript";
+import { locale, t } from "./i18n";
 
 // The captions sheet (app repo: HomeScreen's sheet, CaptionSettingsPanel,
 // MicSuggestion): full window, the reading theme the user picked, red dot and
@@ -93,12 +94,12 @@ export function CaptionsSheet({ session, translate, onTranslate, onSave, onDelet
   // Let go by: 'later' (asked again next session, never after the second time).
   useEffect(() => {
     if (!ask) return;
-    const t = setTimeout(() => {
+    const timer = setTimeout(() => {
       capture("mic_suggestion_answered", { answer: "timeout", kind: kindOf(ask.mic), mode });
       dismissMic(ask.mic);
       setAsk(null);
     }, ASK_MS);
-    return () => clearTimeout(t);
+    return () => clearTimeout(timer);
   }, [ask, mode]);
 
   // Out of credits, the paywall over the sheet; bought = captions come back.
@@ -143,7 +144,7 @@ export function CaptionsSheet({ session, translate, onTranslate, onSave, onDelet
   const openMicPicker = () => {
     capture("mic_picker_opened", { mics: mics.length });
     showCard(close => (
-      <ModalCard title="Which microphone should captions use?" onClose={close}>
+      <ModalCard title={t("mic.pickerTitle")} onClose={close}>
         <MicOptions mics={mics} currentId={snap.micId} onPick={m => { close(); void pickMic(m, "picker"); }} />
       </ModalCard>
     ));
@@ -156,12 +157,20 @@ export function CaptionsSheet({ session, translate, onTranslate, onSave, onDelet
   const pickLanguage = (which: "source" | "target") => {
     showCard(close => (
       <LanguageCard
-        title={which === "source" ? "Spoken language" : "Translate into"}
+        title={which === "source" ? t("langFix.title") : t("web.captions.translateInto")}
         allowAuto={which === "source"}
         current={which === "source" ? translate.source : translate.target}
         onPick={name => {
           close();
-          const next = which === "source" ? { ...translate, source: name } : { ...translate, target: name ?? translate.target };
+          let next = which === "source" ? { ...translate, source: name } : { ...translate, target: name ?? translate.target };
+          // The two sides of a conversation are never the same language (the
+          // speech service refuses it): picking the other side's language swaps them.
+          if (next.source && next.source === next.target) {
+            next = which === "source"
+              ? { source: name, target: translate.source ?? translate.target }
+              : { source: translate.target, target: next.target };
+            if (next.source === next.target) next = { ...next, source: null };
+          }
           capture("translate_language_changed", { target: next.target, source: next.source ?? "auto" });
           onTranslate(next);
         }}
@@ -191,15 +200,15 @@ export function CaptionsSheet({ session, translate, onTranslate, onSave, onDelet
         <div className="cs-title">
           {recording && <span className={`cs-dot${snap.phase === "lost" ? " lost" : ""}${paused ? " paused" : ""}`} aria-hidden />}
           <span className={recording ? "cs-timer" : "cs-label"}>
-            {recording ? `${hh}${hh ? mm.padStart(2, "0") : mm}:${ss}` : isTranslation ? "TRANSLATION" : "LIVE CAPTIONS"}
+            {recording ? `${hh}${hh ? mm.padStart(2, "0") : mm}:${ss}` : isTranslation ? t("home.titleTranslation") : t("home.titleLiveCaptions")}
           </span>
         </div>
         {mics.length > 1 && (
-          <button type="button" className="cs-mic-chip" onClick={openMicPicker} aria-label={`Microphone: ${snap.micLabel || "Default"}. Change microphone`}>
+          <button type="button" className="cs-mic-chip" onClick={openMicPicker} aria-label={t("mic.chipLabel", { name: snap.micLabel || t("web.captions.defaultMic") })}>
             {shortMic(snap.micLabel)}
           </button>
         )}
-        <button type="button" className="cs-icon" onClick={openSettings} aria-label="Caption settings" title="Caption settings">
+        <button type="button" className="cs-icon" onClick={openSettings} aria-label={t("web.captions.settings")} title={t("web.captions.settings")}>
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
             <path d="M4 6h8" /><path d="M16 6h4" /><path d="M14 4v4" /><path d="M4 12h2" /><path d="M10 12h10" /><path d="M8 10v4" /><path d="M4 18h12" /><path d="M20 18h0" /><path d="M18 16v4" />
           </svg>
@@ -207,57 +216,57 @@ export function CaptionsSheet({ session, translate, onTranslate, onSave, onDelet
       </header>
 
       <div className="cs-notices">
-        {snap.lastMinute && <Banner tone="warn" text="1 minute of free captions left today" />}
+        {snap.lastMinute && <Banner tone="warn" text={t("limit.warning")} />}
         {snap.phase === "lost" && !snap.reconnectFailed && (
-          <Banner tone="error" text="Captions paused while we reconnect. Recording continues, and you'll get the full transcript when you save." />
+          <Banner tone="error" text={t("home.reconnectingBanner")} />
         )}
         {snap.reconnectFailed && snap.phase === "lost" && (
-          <Banner tone="error" text="Live captions can't reconnect. Your recording is safe and keeps going. Save it when you're done." />
+          <Banner tone="error" text={t("web.captions.reconnectFailed")} />
         )}
-        {snap.silent && !paused && <Banner tone="warn" text="We can't hear you yet. Check that your microphone is on and not muted." />}
+        {snap.silent && !paused && <Banner tone="warn" text={t("web.captions.silent")} />}
       </div>
 
       {isTranslation ? (
         <div className="cs-panes">
           <Pane
-            label={twoWay ? (source?.name ?? "").toUpperCase() : "CAPTIONS"}
+            label={twoWay ? languageLabel(source?.name).toLocaleUpperCase(locale()) : t("home.paneCaptions")}
             lines={snap.top}
-            placeholder={twoWay ? `${source?.name} will appear here...` : "Speech will appear here..."}
+            placeholder={twoWay ? t("home.languagePlaceholder", { language: languageLabel(source?.name) }) : t("home.speechPlaceholder")}
             dark={preset.dark} text={preset.text} font={fontFamily} muted={muted}
           />
           <div className="cs-divider" style={{ background: preset.dark ? "rgba(255,255,255,0.12)" : "#E5E5EA" }} />
           <Pane
-            label={twoWay ? (target?.name ?? "").toUpperCase() : `${(target?.name ?? "").toUpperCase()} TRANSLATION`}
+            label={twoWay ? languageLabel(target?.name).toLocaleUpperCase(locale()) : t("home.paneTranslation", { language: languageLabel(target?.name) }).toLocaleUpperCase(locale())}
             lines={snap.bottom}
-            placeholder={twoWay ? `${target?.name} will appear here...` : `${target?.name} translation will appear here...`}
+            placeholder={twoWay ? t("home.languagePlaceholder", { language: languageLabel(target?.name) }) : t("home.translationPlaceholder", { language: languageLabel(target?.name) })}
             dark={preset.dark} text={preset.text} font={fontFamily} muted={muted}
           />
         </div>
       ) : (
         <div className="cs-panes single">
-          <Pane lines={snap.lines} placeholder="Live captions will appear here..." dark={preset.dark} text={preset.text} font={fontFamily} muted={muted} />
+          <Pane lines={snap.lines} placeholder={t("home.captionsPlaceholder")} dark={preset.dark} text={preset.text} font={fontFamily} muted={muted} />
         </div>
       )}
 
       <div className="cs-bottom">
         {snap.creditsOut === "out" && (
           <PlusCard
-            title="Captions paused, still recording"
-            body="You've used today's free credits. Get Plus to see the rest of this conversation."
-            cta="Get Plus"
+            title={t("home.captionsPausedTitle")}
+            body={t("home.captionsPausedBody")}
+            cta={t("home.captionsPausedCta")}
             onPress={() => { capture("captions_paused_upgrade_tapped"); capture("plus_button_tapped", { where: "captions_paused", style: "gold" }); openPaywall("captions_cut"); }}
             style={{ marginBottom: 12 }}
           />
         )}
         {snap.creditsOut === "unlocked" && (
-          <PlusCard title="Plus is on" body="Captions are back." style={{ marginBottom: 12 }} />
+          <PlusCard title={t("home.captionsUnlockedTitle")} body={t("web.captions.unlockedBody")} style={{ marginBottom: 12 }} />
         )}
         {ask && !snap.creditsOut && (
           <div className="ui-plus-card cs-mic-card">
             <div className="cs-mic-card-head">
               <div>
-                <div className="title">{micName(ask.mic.label)} is connected</div>
-                <div className="cs-meta">Which microphone should captions use?</div>
+                <div className="title">{t("mic.askTitle", { name: micName(ask.mic.label) })}</div>
+                <div className="cs-meta">{t("mic.askBody")}</div>
               </div>
               <CloseButton onPress={closeAsk} />
             </div>
@@ -272,25 +281,25 @@ export function CaptionsSheet({ session, translate, onTranslate, onSave, onDelet
           <div className="cs-langbar">
             <button type="button" className="cs-lang" onClick={() => pickLanguage("source")}>
               {source && <span>{source.flag}</span>}
-              <span style={{ color: translate.source ? preset.text : muted }}>{source?.name ?? "Auto-detect"}</span>
+              <span style={{ color: translate.source ? preset.text : muted }}>{source ? languageLabel(source.name) : t("home.autoDetect")}</span>
             </button>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke={muted} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
               <path d="M7 4l-3 3l3 3" /><path d="M4 7h16" /><path d="M17 14l3 3l-3 3" /><path d="M20 17h-16" />
             </svg>
             <button type="button" className="cs-lang" onClick={() => pickLanguage("target")}>
               <span>{target?.flag}</span>
-              <span style={{ color: preset.text }}>{target?.name}</span>
+              <span style={{ color: preset.text }}>{languageLabel(target?.name)}</span>
             </button>
           </div>
         )}
         <div className="cs-controls">
-          <DockButton size="control" label="Delete" onPress={onDelete} disabled={saving}>
+          <DockButton size="control" label={t("common.delete")} onPress={onDelete} disabled={saving}>
             <TrashIcon size={28} color="var(--brand)" />
           </DockButton>
           <IslandButton
             size="stop"
             color="#E03426"
-            label={paused ? "Resume" : "Pause"}
+            label={paused ? t("web.captions.resume") : t("web.captions.pause")}
             disabled={saving}
             onPress={() => (paused ? session.resume() : session.pause())}
           >
@@ -300,7 +309,7 @@ export function CaptionsSheet({ session, translate, onTranslate, onSave, onDelet
               <svg width="34" height="34" viewBox="0 0 24 24" aria-hidden><rect x="6" y="5" width="4" height="14" rx="1.2" fill="#fff" /><rect x="14" y="5" width="4" height="14" rx="1.2" fill="#fff" /></svg>
             )}
           </IslandButton>
-          <DockButton size="control" label="Save" onPress={onSave} disabled={saving}>
+          <DockButton size="control" label={t("common.save")} onPress={onSave} disabled={saving}>
             {saving ? <span className="cs-spinner" aria-hidden /> : <CheckIcon size={30} color="#28A745" />}
           </DockButton>
         </div>
@@ -335,7 +344,7 @@ function MicOptions({ mics, currentId, onPick }: { mics: Mic[]; currentId: strin
         const inUse = m.id === currentId;
         return (
           <button key={m.id} type="button" className={`cs-mic-option${inUse ? " in-use" : ""}`} onClick={() => onPick(m)}>
-            {inUse && <span className="cs-in-use">In use</span>}
+            {inUse && <span className="cs-in-use">{t("mic.inUse")}</span>}
             <span className="name">{shortMic(m.label)}</span>
             <span className="kind">{kindLabel(kindOf(m))}</span>
           </button>
@@ -381,12 +390,12 @@ function Pane({ label, lines, placeholder, dark, text, font, muted }: {
                 {showTags && (
                   <div className="cs-tags">
                     {color && (
-                      <span className="cs-tag" style={{ background: tint(color, 0.13), color: dark ? color : tagInk(color) }}>Speaker {l.speaker}</span>
+                      <span className="cs-tag" style={{ background: tint(color, 0.13), color: dark ? color : tagInk(color) }}>{t("common.speaker", { n: l.speaker })}</span>
                     )}
                     {flag && <span className="cs-flag" style={{ background: dark ? "rgba(255,255,255,0.14)" : "rgba(0,0,0,0.05)" }}>{flag}</span>}
                   </div>
                 )}
-                <p style={{ color: l.grey ? "var(--cs-grey)" : text }}>
+                <p dir="auto" style={{ color: l.grey ? "var(--cs-grey)" : text }}>
                   {l.grey ? l.text.trimStart() : l.text}
                   {greyRunOn && <span style={{ color: "var(--cs-grey)" }}>{greyRunOn}</span>}
                 </p>
@@ -442,12 +451,12 @@ function CaptionSettingsCard({ style, onStyle, session, onClose }: {
   };
 
   if (picking) {
-    const list = LANGUAGES.filter(l => !settings.settingsLangHints.includes(l.name) && (!q.trim() || l.name.toLowerCase().includes(q.trim().toLowerCase())));
+    const list = LANGUAGES.filter(l => !settings.settingsLangHints.includes(l.name) && languageMatches(l.name, q));
     return (
-      <ModalCard title="Add a language" onClose={() => { setPicking(false); setQ(""); }} wide>
+      <ModalCard title={t("common.addLanguage")} onClose={() => { setPicking(false); setQ(""); }} wide>
         <label className="search" style={{ margin: "12px 0" }}>
           <SearchIcon size={20} />
-          <input autoFocus value={q} onChange={e => setQ(e.target.value)} placeholder="Search language" aria-label="Search language" />
+          <input autoFocus value={q} onChange={e => setQ(e.target.value)} placeholder={t("common.searchLanguage")} aria-label={t("common.searchLanguage")} />
         </label>
         <div className="cs-lang-list">
           {list.map(l => (
@@ -457,46 +466,46 @@ function CaptionSettingsCard({ style, onStyle, session, onClose }: {
               setPicking(false);
               setQ("");
             }}>
-              <span>{l.flag}</span><span>{l.name}</span>
+              <span>{l.flag}</span><span>{languageLabel(l.name)}</span>
             </button>
           ))}
         </div>
-        <button type="button" className="ui-quiet" onClick={() => { setPicking(false); setQ(""); }}>Back</button>
+        <button type="button" className="ui-quiet" onClick={() => { setPicking(false); setQ(""); }}>{t("common.back")}</button>
       </ModalCard>
     );
   }
 
   return (
-    <ModalCard title="Caption settings" onClose={close} wide>
+    <ModalCard title={t("web.captions.settings")} onClose={close} wide>
       <div className="cs-style">
-        <div className="field-label">SIZE</div>
+        <div className="field-label">{t("home.size")}</div>
         <div className="cs-size">
           <span style={{ fontSize: 14 }}>A</span>
-          <input type="range" min={MIN_FONT} max={MAX_FONT} step={1} value={s.size} onChange={e => set({ size: Number(e.target.value) })} aria-label="Size" />
+          <input type="range" min={MIN_FONT} max={MAX_FONT} step={1} value={s.size} onChange={e => set({ size: Number(e.target.value) })} aria-label={t("web.captions.sizeLabel")} />
           <span style={{ fontSize: 24 }}>A</span>
         </div>
-        <div className="field-label">COLOR</div>
+        <div className="field-label">{t("home.color")}</div>
         <div className="cs-presets">
           {CAPTION_PRESETS.map(p => (
-            <button key={p.id} type="button" aria-label={p.id} aria-pressed={s.preset === p.id} className="cs-preset" style={{ background: p.bg, color: p.text }} onClick={() => set({ preset: p.id })}>
+            <button key={p.id} type="button" aria-label={t(`presets.${p.id}`)} aria-pressed={s.preset === p.id} className="cs-preset" style={{ background: p.bg, color: p.text }} onClick={() => set({ preset: p.id })}>
               Aa
             </button>
           ))}
         </div>
-        <div className="field-label">WEIGHT</div>
+        <div className="field-label">{t("home.weight")}</div>
         <div className="app-tabs" style={{ gridTemplateColumns: "repeat(3, 1fr)" }}>
           {(["regular", "bold", "heavy"] as Weight[]).map(w => (
             <button key={w} type="button" aria-pressed={s.weight === w} onClick={() => set({ weight: w })} style={{ fontWeight: WEIGHTS[w] }}>
-              {w === "regular" ? "Regular" : w === "bold" ? "Bold" : "Heavy"}
+              {w === "regular" ? t("home.weightRegular") : w === "bold" ? t("home.weightBold") : t("home.weightHeavy")}
             </button>
           ))}
         </div>
 
         <div className="group cs-settings-group">
           <div className="group-row">
-            <span className="label">Separate Speakers</span>
+            <span className="label">{t("captionSettings.separateSpeakers")}</span>
             <button
-              type="button" role="switch" aria-checked={settings.separateSpeakers} aria-label="Separate Speakers" className="switch"
+              type="button" role="switch" aria-checked={settings.separateSpeakers} aria-label={t("captionSettings.separateSpeakers")} className="switch"
               onClick={() => { capture("settings_speakers_toggled", { on: !settings.separateSpeakers, from: "captions" }); updateSettings({ separateSpeakers: !settings.separateSpeakers }); }}
             >
               <span />
@@ -504,35 +513,35 @@ function CaptionSettingsCard({ style, onStyle, session, onClose }: {
           </div>
         </div>
 
-        <div className="field-label">LANGUAGES</div>
+        <div className="field-label">{t("settings.languagesTitle").toLocaleUpperCase(locale())}</div>
         <div className="word-chips" style={{ marginTop: 0 }}>
           {settings.settingsLangHints.map(name => (
-            <button key={name} type="button" className="word-chip" aria-label={`${name}, Delete`} onClick={() => {
+            <button key={name} type="button" className="word-chip" aria-label={t("web.captions.chipDelete", { name })} onClick={() => {
               updateSettings({ settingsLangHints: settings.settingsLangHints.filter(l => l !== name) });
               capture("settings_language_removed", { language: name, from: "captions" });
             }}>
-              {LANGUAGES.find(l => l.name === name)?.flag} {name}<XIcon size={12} color="var(--ink-meta)" />
+              {LANGUAGES.find(l => l.name === name)?.flag} {languageLabel(name)}<XIcon size={12} color="var(--ink-meta)" />
             </button>
           ))}
-          <button type="button" className="word-chip cs-add-chip" onClick={() => setPicking(true)}>+ Add a language</button>
+          <button type="button" className="word-chip cs-add-chip" onClick={() => setPicking(true)}>+ {t("common.addLanguage")}</button>
         </div>
 
-        <div className="field-label">WORDS &amp; NAMES</div>
+        <div className="field-label">{t("captionSettings.wordsLabel")}</div>
         <div className="add-row">
           <input
             className="input"
             value={word}
             onChange={e => setWord(e.target.value)}
             onKeyDown={e => { if (e.key === "Enter") addWords(); }}
-            placeholder="e.g. Alex, London, WhatsApp..."
-            aria-label="Words and names"
+            placeholder={t("captionSettings.wordsPlaceholder", { name: t("captionSettings.defaultName") })}
+            aria-label={t("web.captions.wordsLabel")}
           />
-          <button type="button" className="add-btn" onClick={addWords} disabled={!word.trim()}>Add</button>
+          <button type="button" className="add-btn" onClick={addWords} disabled={!word.trim()}>{t("common.add")}</button>
         </div>
         {settings.contextWords.length > 0 && (
           <div className="word-chips">
             {settings.contextWords.map(w => (
-              <button key={w} type="button" className="word-chip" aria-label={`${w}, Delete`} onClick={() => {
+              <button key={w} type="button" className="word-chip" aria-label={t("web.captions.chipDelete", { name: w })} onClick={() => {
                 updateSettings({ contextWords: settings.contextWords.filter(x => x !== w) });
                 capture("settings_vocabulary_removed", { from: "captions" });
               }}>
@@ -542,7 +551,7 @@ function CaptionSettingsCard({ style, onStyle, session, onClose }: {
           </div>
         )}
       </div>
-      <button type="button" className="ui-quiet" onClick={close}>Done</button>
+      <button type="button" className="ui-quiet" onClick={close}>{t("voices.done")}</button>
     </ModalCard>
   );
 }
@@ -551,22 +560,22 @@ function LanguageCard({ title, allowAuto, current, onPick, onClose }: {
   title: string; allowAuto: boolean; current: string | null; onPick: (name: string | null) => void; onClose: () => void;
 }) {
   const [q, setQ] = useState("");
-  const list = LANGUAGES.filter(l => !q.trim() || l.name.toLowerCase().includes(q.trim().toLowerCase()));
+  const list = LANGUAGES.filter(l => languageMatches(l.name, q));
   return (
     <ModalCard title={title} onClose={onClose} wide>
       <label className="search" style={{ margin: "12px 0" }}>
         <SearchIcon size={20} />
-        <input autoFocus value={q} onChange={e => setQ(e.target.value)} placeholder="Search language" aria-label="Search language" />
+        <input autoFocus value={q} onChange={e => setQ(e.target.value)} placeholder={t("common.searchLanguage")} aria-label={t("common.searchLanguage")} />
       </label>
       <div className="cs-lang-list">
         {allowAuto && !q && (
           <button type="button" className="cs-lang-row" aria-current={current === null} onClick={() => onPick(null)}>
-            <span>🌐</span><span>Auto-detect</span>
+            <span>🌐</span><span>{t("home.autoDetect")}</span>
           </button>
         )}
         {list.map(l => (
           <button key={l.name} type="button" className="cs-lang-row" aria-current={current === l.name} onClick={() => onPick(l.name)}>
-            <span>{l.flag}</span><span>{l.name}</span>
+            <span>{l.flag}</span><span>{languageLabel(l.name)}</span>
           </button>
         ))}
       </div>

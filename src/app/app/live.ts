@@ -50,7 +50,16 @@ export type LiveOptions = {
   deviceId: string;
   isPlus: () => boolean;
   folderId: string | null;
+  // The free credits ran out (STOP_AT_CREDITS_LIMIT): the owner stops and saves.
+  onCreditsOut?: () => void;
 };
+
+// Free credits run out mid-session: the session stops, is saved and the
+// out-of-credits card shows, as the app does again since 2026-11-09 (the pause
+// flow sold 0 of 13 people who ran out, the stop 4 of 36). false = captions
+// pause and the recording goes on (pauseForCredits, "Captions paused, still
+// recording").
+export const STOP_AT_CREDITS_LIMIT = true;
 
 // A part to save: the lines, how long, where captions stopped for credits,
 // and what the live captions never covered (on this part's timeline).
@@ -163,6 +172,7 @@ export class LiveSession {
   private connecting = false;
   // Session timeline (ms): where captions stopped for credits, and unlocked.
   private creditsCutMs: number | null = null;
+  private creditsStopped = false;
   private unlockedMs: number | null = null;
   private gaps: { from: number; to: number; kind: Gap["kind"] }[] = [];
   private audio: SessionAudio;
@@ -462,7 +472,13 @@ export class LiveSession {
     this.usageAcc -= 1000;
     addUsage(1);
     const left = freeSecondsLeft();
-    if (left <= 0) this.pauseForCredits();
+    if (left <= 0 && STOP_AT_CREDITS_LIMIT && this.opts.onCreditsOut) {
+      if (this.creditsStopped) return;
+      this.creditsStopped = true;
+      capture("captions_out_of_credits", { mode: this.opts.mode, seconds: Math.round(this.recordedMs / 1000), how: "stop" });
+      this.emit({ lastMinute: false });
+      this.opts.onCreditsOut();
+    } else if (left <= 0) this.pauseForCredits();
     else if (left <= 60 && !this.snap.lastMinute) {
       capture("daily_limit_warning", { mode: this.opts.mode });
       this.emit({ lastMinute: true });
@@ -477,7 +493,7 @@ export class LiveSession {
     this.dropSocket(true);
     this.queue = [];
     this.creditsCutMs = this.recordedMs;
-    capture("captions_out_of_credits", { mode: this.opts.mode, seconds: Math.round(this.recordedMs / 1000) });
+    capture("captions_out_of_credits", { mode: this.opts.mode, seconds: Math.round(this.recordedMs / 1000), how: "pause" });
     capture("plus_button_shown", { where: "captions_paused", style: "gold" });
     this.emit({ creditsOut: "out", lastMinute: false, phase: "live" });
   }
@@ -610,7 +626,8 @@ export class LiveSession {
       config.enable_language_identification = true;
       const t = opts.translate;
       if (opts.mode === "translation" && t) {
-        config.translation = t.source
+        // Both sides the same language (an older saved choice): one way.
+        config.translation = t.source && t.source !== t.target
           ? { type: "two_way", language_a: t.source, language_b: t.target }
           : { type: "one_way", target_language: t.target };
       }

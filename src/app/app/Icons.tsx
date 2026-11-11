@@ -4,10 +4,11 @@ import type { CSSProperties } from "react";
 
 type IconProps = { color?: string; size?: number; style?: CSSProperties };
 
-function Tabler({ paths, color = "currentColor", size = 20, weight = 2, style }: IconProps & { paths: string[]; weight?: number }) {
+// `flip`: a direction (chevrons) that points the other way right to left (app.css).
+function Tabler({ paths, color = "currentColor", size = 20, weight = 2, style, flip }: IconProps & { paths: string[]; weight?: number; flip?: boolean }) {
   return (
     <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={weight}
-      strokeLinecap="round" strokeLinejoin="round" style={style} aria-hidden>
+      strokeLinecap="round" strokeLinejoin="round" style={style} className={flip ? "rtl-flip" : undefined} aria-hidden>
       {paths.map(d => <path key={d} d={d} />)}
     </svg>
   );
@@ -18,14 +19,15 @@ export const SettingsIcon = (p: IconProps) => <Tabler {...p} paths={["M10.325 4.
 export const CopyIcon = (p: IconProps) => <Tabler {...p} paths={["M10 8h10s2 0 2 2v10s0 2 -2 2H10s-2 0 -2 -2V10s0 -2 2 -2", "M4 16c-1.1 0 -2 -0.9 -2 -2V4c0 -1.1 0.9 -2 2 -2h10c1.1 0 2 0.9 2 2"]} />;
 export const CopyCheckIcon = (p: IconProps) => <Tabler {...p} paths={["m12 15 2 2 4 -4", "M10 8h10s2 0 2 2v10s0 2 -2 2H10s-2 0 -2 -2V10s0 -2 2 -2", "M4 16c-1.1 0 -2 -0.9 -2 -2V4c0 -1.1 0.9 -2 2 -2h10c1.1 0 2 0.9 2 2"]} />;
 export const CircleXIcon = (p: IconProps) => <Tabler {...p} paths={["M2 12a10 10 0 1 0 20 0 10 10 0 1 0 -20 0", "m15 9 -6 6", "m9 9 6 6"]} />;
-export const ChevronRightIcon = (p: IconProps) => <Tabler {...p} weight={2.5} paths={["M9 6l6 6l-6 6"]} />;
+export const ChevronRightIcon = (p: IconProps) => <Tabler {...p} flip weight={2.5} paths={["M9 6l6 6l-6 6"]} />;
 export const LogOutIcon = (p: IconProps) => <Tabler {...p} paths={["M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2", "M9 12h12l-3 -3", "M18 15l3 -3"]} />;
 export const FileTextIcon = (p: IconProps) => <Tabler {...p} paths={["M9 2h6s1 0 1 1v2s0 1 -1 1H9S8 6 8 5V3s0 -1 1 -1", "M10.4 12.6a2 2 0 0 1 3 3L8 21l-4 1 1 -4Z", "M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-5.5", "M4 13.5V6a2 2 0 0 1 2 -2h2"]} />;
 export const ShieldIcon = (p: IconProps) => <Tabler {...p} paths={["M20 13c0 5 -3.5 7.5 -7.66 8.95a1 1 0 0 1 -0.67 -0.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1 -1c2 0 4.5 -1.2 6.24 -2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"]} />;
 export const UsersIcon = (p: IconProps) => <Tabler {...p} paths={["M9 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0", "M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2", "M16 3.13a4 4 0 0 1 0 7.75", "M21 21v-2a4 4 0 0 0 -3 -3.85"]} />;
+export const DesktopIcon = (p: IconProps) => <Tabler {...p} paths={["M3 5a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1v-10z", "M7 20h10", "M9 16v4", "M15 16v4"]} />;
 export const PhoneIcon = (p: IconProps) => <Tabler {...p} paths={["M6 5a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2v-14z", "M11 4h2", "M12 17v.01"]} />;
 
-export const ChevronLeftIcon = (p: IconProps) => <Tabler {...p} weight={2.5} paths={["M15 6l-6 6l6 6"]} />;
+export const ChevronLeftIcon = (p: IconProps) => <Tabler {...p} flip weight={2.5} paths={["M15 6l-6 6l6 6"]} />;
 export const XIcon = (p: IconProps) => <Tabler {...p} paths={["M18 6 6 18", "m6 6 12 12"]} />;
 export const MailIcon = (p: IconProps) => <Tabler {...p} paths={["M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2H5a2 2 0 0 1 -2 -2V7z", "M3 7l9 6l9 -6"]} />;
 export const BugIcon = (p: IconProps) => <Tabler {...p} paths={["M9 9v-1a3 3 0 0 1 6 0v1", "M8 9h8a6 6 0 0 1 1 3v3a5 5 0 0 1 -10 0v-3a6 6 0 0 1 1 -3", "M3 13l4 0", "M17 13l4 0", "M12 20l0 -6", "M4 19l3.35 -2", "M20 19l-3.35 -2"]} />;

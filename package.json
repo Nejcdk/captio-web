@@ -14,9 +14,11 @@
     "social:render": "node scripts/social-render.mjs",
     "social:check": "node scripts/social-check.mjs",
     "social:zernio": "node scripts/social-zernio.mjs",
-    "social:pages": "node scripts/social-pages.mjs"
+    "social:pages": "node scripts/social-pages.mjs",
+    "app:i18n-check": "node scripts/webapp-i18n.mjs check"
   },
   "dependencies": {
+    "@breezystack/lamejs": "^1.2.7",
     "@modelcontextprotocol/server": "^2.3.1",
     "@revenuecat/purchases-js": "1.71.0",
     "@supabase/supabase-js": "^2.118.0",
@@ -24,6 +26,7 @@
     "gray-matter": "^4.0.3",
     "marked": "^18.1.1",
     "mcp-handler": "^2.3.0",
+    "mp4box": "^2.5.0",
     "next": "16.2.7",
     "posthog-js": "^1.434.12",
     "react": "19.2.4",

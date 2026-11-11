@@ -2,7 +2,7 @@
 
 import { useRef, useState, type ReactNode } from "react";
 import "./upload.css";
-import { api, apiRaw, ApiError, capture, generateId, getSupabase, isPreview, recordErrorOnce, store } from "./client";
+import { api, apiRaw, ApiError, capture, generateId, getSupabase, isGuest, isLocalOnly, isPreview, needsAccount, recordErrorOnce, store } from "./client";
 import { insertRecording, updateRecording, type TranscriptSegment } from "./data";
 import { notifyLibraryChanged } from "./events";
 import { MicrophoneIcon } from "./Icons";
@@ -13,7 +13,9 @@ import { isPlusNow } from "./plus";
 import { buildTimedSegments, confidenceStats, cutSegmentsAt, recordingShapeStats, type SonioxToken } from "./transcript";
 import { Button, CloseButton, ModalCard, QuietButton, ensureAiConsent, isCardOpen, showCard, showErrorAlert } from "./ui";
 import { afterSave } from "./postSave";
+import { DIRECT_MAX_BYTES, STORAGE_MAX_BYTES, STORAGE_TARGET_BYTES, TooLongError, prepareUpload, shrinkAudio } from "./fileAudio";
 import { addUsage, freeSecondsLeft } from "./usage";
+import { t } from "./i18n";
 
 // Uploading a file, the app's way (app repo: screens/UploadSheetScreen.tsx,
 // HomeScreen openUploadModal / processUploadedFile / onPendingJobDone,
@@ -22,8 +24,9 @@ import { addUsage, freeSecondsLeft } from "./usage";
 //   a "Transcribing..." row at once → the file through the speech service's
 //   async transcription (via /api/app/transcribe) → lines, title and emoji →
 //   saved to the account, where the phone picks it up on its next sync.
-// Videos lose their picture first (16 kHz mono WAV, decoded here): the speech
-// service refuses QuickTime and files with two audio streams. The job and the
+// Files are made small first (fileAudio.ts: a video's AAC track, then a 16 kHz
+// mono MP3): the speech service refuses QuickTime and files with two audio
+// streams, and Storage takes files of up to 50 MB. The job and the
 // file are kept in this browser until it's done (localStorage + IndexedDB),
 // so a reload or a lost connection picks it up again (resumeUploads) instead
 // of losing it. On the free plan the whole file is sent but only the part
@@ -31,12 +34,11 @@ import { addUsage, freeSecondsLeft } from "./usage";
 // the paywall; the recording then says "Only the start of this file is
 // transcribed." with Transcribe all (RecordingNotes).
 
-const TRANSCRIBING_TITLE = "Transcribing...";
-// The website's server takes request bodies up to ~4.5 MB; bigger files wait
-// in Storage (app repo: supabase/web_uploads.sql) for the speech service.
-const DIRECT_MAX_BYTES = 4 * 1024 * 1024;
-// Decoding a video's sound happens in memory: past this, the file goes as is.
-const DECODE_MAX_BYTES = 1024 * 1024 * 1024;
+// The row's title while it transcribes (a function: t() never runs at import time).
+const transcribingTitle = () => t("recording.transcribing");
+// The website's server takes request bodies up to ~4.5 MB (DIRECT_MAX_BYTES);
+// bigger files wait in Storage (app repo: supabase/web_uploads.sql) for the
+// speech service, up to STORAGE_MAX_BYTES.
 const VIDEO_EXTENSIONS = new Set(["mp4", "mov", "m4v", "avi", "mkv", "webm", "3gp", "mts", "wmv"]);
 const MAX_ATTEMPTS = 5;
 const POLL_MS = 30 * 60_000;
@@ -118,11 +120,11 @@ function showNoConnection() {
   capture("action_blocked", { action: "upload", reason: "offline" });
   showCard(close => (
     <ModalCard
-      title="No connection"
-      body="Transcribing a file needs an internet connection. Try again once you're back online."
+      title={t("home.noConnection")}
+      body={t("home.noConnectionBody")}
       onClose={close}
     >
-      <Button label="Close" size="compact" onPress={close} />
+      <Button label={t("common.close")} size="compact" onPress={close} />
     </ModalCard>
   ));
 }
@@ -194,12 +196,12 @@ function UploadSheet({ onClose, onPick }: { onClose: () => void; onPick: (file: 
         }}
       >
         <div className="upload-title-row">
-          <h2>Upload file</h2>
+          <h2>{t("upload.title")}</h2>
           <CloseButton onPress={onClose} />
         </div>
         <div className="upload-options">
-          <OptionTile icon={<MicrophoneIcon color="#1C49F5" size={22} />} label="Audio file" onPress={() => { capture("upload_picked", { kind: "audio" }); pickerOpenedAt.current = Date.now(); audioRef.current?.click(); }} />
-          <OptionTile icon={<VideoIcon color="#E37400" />} label="Video from files" onPress={() => { capture("upload_picked", { kind: "video" }); pickerOpenedAt.current = Date.now(); videoRef.current?.click(); }} />
+          <OptionTile icon={<MicrophoneIcon color="#1C49F5" size={22} />} label={t("upload.audioFile")} onPress={() => { capture("upload_picked", { kind: "audio" }); pickerOpenedAt.current = Date.now(); audioRef.current?.click(); }} />
+          <OptionTile icon={<VideoIcon color="#E37400" />} label={t("upload.videoFromFiles")} onPress={() => { capture("upload_picked", { kind: "video" }); pickerOpenedAt.current = Date.now(); videoRef.current?.click(); }} />
         </div>
         <input ref={audioRef} type="file" accept="audio/*,.m4a,.mp3,.wav,.aac,.flac,.ogg,.opus" hidden onChange={picked("audio")} />
         <input ref={videoRef} type="file" accept="video/*,.mov,.mp4,.m4v,.mkv,.avi" hidden onChange={picked("video")} />
@@ -218,50 +220,9 @@ function isVideo(file: File): boolean {
 
 // ─── Preparing the file ───────────────────────────────────────────────────────
 
-// A video's sound as 16 kHz mono WAV, or null (the video goes as is).
-async function videoSound(file: File): Promise<Blob | null> {
-  if (file.size > DECODE_MAX_BYTES || typeof OfflineAudioContext === "undefined") return null;
-  try {
-    const ctx = new OfflineAudioContext(1, 16000, 16000);
-    const audio = await ctx.decodeAudioData(await file.arrayBuffer());
-    if (!audio.length) return null;
-    const n = audio.length;
-    const channels = Array.from({ length: audio.numberOfChannels }, (_, c) => audio.getChannelData(c));
-    const pcm = new Int16Array(n);
-    for (let i = 0; i < n; i++) {
-      let v = 0;
-      for (const ch of channels) v += ch[i];
-      v /= channels.length;
-      pcm[i] = Math.max(-32768, Math.min(32767, Math.round(v * 32767)));
-    }
-    return wav(pcm, audio.sampleRate);
-  } catch (e) {
-    capture("app_error", { where: "upload_extract_audio", message: String((e as Error)?.message ?? e).slice(0, 200) });
-    return null;
-  }
-}
-
-function wav(pcm: Int16Array, rate: number): Blob {
-  const header = new DataView(new ArrayBuffer(44));
-  const text = (o: number, s: string) => { for (let i = 0; i < s.length; i++) header.setUint8(o + i, s.charCodeAt(i)); };
-  text(0, "RIFF");
-  header.setUint32(4, 36 + pcm.byteLength, true);
-  text(8, "WAVE");
-  text(12, "fmt ");
-  header.setUint32(16, 16, true);
-  header.setUint16(20, 1, true);
-  header.setUint16(22, 1, true);
-  header.setUint32(24, rate, true);
-  header.setUint32(28, rate * 2, true);
-  header.setUint16(32, 2, true);
-  header.setUint16(34, 16, true);
-  text(36, "data");
-  header.setUint32(40, pcm.byteLength, true);
-  return new Blob([header.buffer, pcm.buffer as ArrayBuffer], { type: "audio/wav" });
-}
-
 async function currentUserId(): Promise<string> {
   if (isPreview()) return "preview-me";
+  if (isGuest()) return "guest";
   const { data } = await getSupabase().auth.getSession();
   if (!data.session) throw new ApiError(401, "not signed in");
   return data.session.user.id;
@@ -272,36 +233,90 @@ function separateSpeakers(): boolean {
   return store.get<{ separateSpeakers?: boolean }>("captio_app_settings", {}).separateSpeakers ?? true;
 }
 
+// Whether this browser has an account to keep big files in Storage with.
+async function canUseStorage(): Promise<boolean> {
+  if (isLocalOnly()) return false;
+  const { data } = await getSupabase().auth.getSession();
+  return !!data.session;
+}
+
+function showTooLong(seconds: number) {
+  showCard(close => (
+    <ModalCard
+      owl="owl-confused"
+      title={t("web.upload.tooLongTitle")}
+      body={t("web.upload.tooLongBody", { count: Math.round(seconds / 60) })}
+      onClose={close}
+    >
+      <Button label={t("common.close")} size="compact" onPress={close} />
+    </ModalCard>
+  ));
+}
+
+function showTooBig() {
+  showCard(close => (
+    <ModalCard
+      owl="owl-confused"
+      title={t("web.upload.tooBigTitle")}
+      body={t("web.upload.tooBigBody")}
+      onClose={close}
+    >
+      <Button label={t("common.close")} size="compact" onPress={close} />
+    </ModalCard>
+  ));
+}
+
 async function startUpload(file: File, kind: "audio" | "video", folderId: string | null) {
   const id = generateId();
   const createdAt = Date.now();
   let userId = "preview-me";
   try { userId = await currentUserId(); } catch { /* the save says so later */ }
+  const storage = await canUseStorage().catch(() => false);
   // The row shows at once ("Transcribing..."), and its page opens.
-  putLocal({ id, userId, title: TRANSCRIBING_TITLE, emoji: "🎙️", durationSeconds: 0, createdAt, folderId, status: "transcribing" });
+  putLocal({ id, userId, title: transcribingTitle(), emoji: "🎙️", durationSeconds: 0, createdAt, folderId, status: "transcribing" });
   window.dispatchEvent(new CustomEvent("captio-open-recording", { detail: { id } }));
+  const video = kind === "video" || isVideo(file);
   try {
-    let blob: Blob = file;
-    let name = file.name || (kind === "audio" ? "audio" : "video");
-    if (kind === "video" || isVideo(file)) {
-      const sound = await videoSound(file);
-      if (sound) { blob = sound; name = `${id}.wav`; }
+    const prepared = await prepareUpload(file, {
+      video,
+      targetBytes: storage ? STORAGE_TARGET_BYTES : DIRECT_MAX_BYTES,
+      onFail: (step, e) => capture("app_error", {
+        where: step === "aac" ? "upload_aac_track" : "upload_extract_audio",
+        message: String((e as Error)?.message ?? e).slice(0, 200), bytes: file.size, kind,
+      }),
+    });
+    const limit = storage ? STORAGE_MAX_BYTES : DIRECT_MAX_BYTES;
+    if (prepared.blob.size > limit) {
+      // Stopped here, never retried: the same file is too big every time.
+      removeLocal(id);
+      capture("upload_too_big", { kind, bytes: prepared.blob.size, original_bytes: file.size, prepared: prepared.how, seconds: prepared.seconds, signed_in: storage });
+      if (storage) showTooBig();
+      else needsAccount("big_upload");
+      return;
     }
     const job: UploadJob = {
-      id, createdAt, folderId, name, type: blob.type || file.type || "application/octet-stream",
+      id, createdAt, folderId, name: prepared.name, type: prepared.type,
       diarize: separateSpeakers(),
       // The app sends uploads without language hints or context: a file can
       // be in any language.
       ...(isPlusNow() ? {} : { freeSeconds: Math.max(1, Math.floor(freeSecondsLeft())) }),
       attempts: 0,
     };
-    await keepFile(id, blob);
+    await keepFile(id, prepared.blob);
     saveJob(job);
-    capture("upload_started", { kind, bytes: blob.size, converted: blob !== file });
+    capture("upload_started", {
+      kind, bytes: prepared.blob.size, original_bytes: file.size, converted: prepared.how !== "original",
+      prepared: prepared.how, kbps: prepared.kbps, seconds: prepared.seconds ? Math.round(prepared.seconds) : undefined, prep_ms: prepared.ms,
+    });
     void run(job);
   } catch (e) {
     removeLocal(id);
-    showErrorAlert({ where: "upload_prepare", error: e, title: "Upload failed", body: "We couldn't read this file. Please try a different one." });
+    if (e instanceof TooLongError) {
+      capture("upload_too_long", { kind, seconds: Math.round(e.seconds), bytes: file.size });
+      showTooLong(e.seconds);
+      return;
+    }
+    showErrorAlert({ where: "upload_prepare", error: e, title: t("home.uploadFailed"), body: t("home.uploadFailedBody") });
   }
 }
 
@@ -392,13 +407,13 @@ async function tokensFor(job: UploadJob): Promise<SonioxToken[]> {
 
 async function titleFor(transcript: string): Promise<{ title: string; emoji: string }> {
   const words = transcript.trim().split(/\s+/).slice(0, 6).join(" ");
-  if (!transcript.trim()) return { title: "Untitled", emoji: "🎙️" };
+  if (!transcript.trim()) return { title: t("recording.untitled"), emoji: "🎙️" };
   try {
     const r = await api<{ title: string; emoji: string }>("/api/app/title", { transcript });
-    return { title: r.title || words || "Untitled", emoji: r.emoji || "🎙️" };
+    return { title: r.title || words || t("recording.untitled"), emoji: r.emoji || "🎙️" };
   } catch (e) {
     recordErrorOnce("title_generate", e);
-    return { title: words || "Untitled", emoji: "🎙️" };
+    return { title: words || t("recording.untitled"), emoji: "🎙️" };
   }
 }
 
@@ -436,7 +451,7 @@ async function run(job: UploadJob): Promise<void> {
     capture("app_error", { where: "upload_transcription", error_code: code, message: msg.slice(0, 200), attempt: job.attempts + 1 });
     const networkError = e instanceof TypeError || !navigator.onLine || /network|failed to fetch|load failed/i.test(msg);
     // The file itself was refused: the same bytes fail every time.
-    const terminal = /^invalid_audio_file|^transcription_output_too_long|^model_not_available|^missing_file/.test(msg);
+    const terminal = /^invalid_audio_file|^transcription_output_too_long|^model_not_available|^missing_file|maximum allowed size|^file_too_long/.test(msg);
     const attempts = terminal ? MAX_ATTEMPTS : job.attempts + (networkError ? 0 : 1);
     const giveUp = attempts >= MAX_ATTEMPTS;
     job.attempts = attempts;
@@ -458,10 +473,10 @@ async function run(job: UploadJob): Promise<void> {
       showErrorAlert({
         where: "upload_transcription",
         error: e,
-        title: unsupported ? "This file can't be transcribed" : "Couldn't transcribe this file",
+        title: unsupported ? t("recording.unsupportedTitle") : t("recording.failedTitle"),
         body: unsupported
-          ? "It may be damaged, in a format we don't support, or longer than 5 hours. Try a different file."
-          : "Something went wrong on our end. You can try again or delete the file.",
+          ? t("recording.unsupportedBody")
+          : t("recording.failedBody"),
         retry: unsupported ? undefined : () => retryUpload(job.id),
       });
     } else {
@@ -491,8 +506,10 @@ async function finishUpload(job: UploadJob, segments: TranscriptSegment[], trans
   setExtras(job.id, "transcribedUntil", transcribedSeconds ?? null);
   // Its page fills in right away.
   patchLocal(job.id, { title, emoji, durationSeconds, status: undefined, failure: undefined, body });
-  if (!isPreview()) {
-    await insertRecording(getSupabase(), row.userId, {
+  if (!isLocalOnly()) {
+    // Picked as a guest and finished after signing in: the account's now.
+    const owner = row.userId === "guest" ? await currentUserId() : row.userId;
+    await insertRecording(getSupabase(), owner, {
       id: job.id, title, emoji, durationSeconds, createdAt: job.createdAt, folderId: job.folderId, segments,
     });
     notifyLibraryChanged();
@@ -519,7 +536,7 @@ async function finishUpload(job: UploadJob, segments: TranscriptSegment[], trans
 async function finishRest(job: UploadJob, segments: TranscriptSegment[]) {
   const local = getLocal(job.id);
   if (local) patchLocal(job.id, { body: { ...(local.body ?? { speakerNames: {}, labels: null, people: {}, summary: [] }), segments } });
-  else if (!isPreview()) await updateRecording(getSupabase(), job.id, { segments });
+  else if (!isLocalOnly()) await updateRecording(getSupabase(), job.id, { segments });
   setExtras(job.id, "transcribedUntil", null);
   notifyLibraryChanged();
   window.dispatchEvent(new CustomEvent("captio-recording-changed", { detail: { id: job.id } }));
@@ -539,6 +556,14 @@ export type TranscribeOptions = {
 // small ones straight through the server, bigger ones through Storage; the
 // tokens, timed from the start of the blob. Throws on failure.
 export async function transcribeBlob(blob: Blob, opts: TranscribeOptions, name = "audio.wav"): Promise<SonioxToken[]> {
+  // A session's kept audio is plain WAV (2 MB a minute): an MP3 is a tenth of that.
+  if (blob.size > DIRECT_MAX_BYTES) {
+    const small = await shrinkAudio(blob, (await canUseStorage().catch(() => false)) ? STORAGE_TARGET_BYTES : DIRECT_MAX_BYTES);
+    if (small) {
+      blob = small;
+      name = name.replace(/\.wav$/i, "") + ".mp3";
+    }
+  }
   let remote: Remote = { createdAt: Date.now() };
   const job: UploadJob = { id: generateId(), createdAt: Date.now(), folderId: null, name, type: blob.type || "audio/wav", diarize: opts.diarize, attempts: 0 };
   remote = await upload(job, blob);
@@ -583,7 +608,7 @@ export function resumeUploads() {
   const go = () => {
     for (const job of jobs()) {
       if (!job.rest && !getLocal(job.id)) {
-        putLocal({ id: job.id, userId: "", title: TRANSCRIBING_TITLE, emoji: "🎙️", durationSeconds: 0, createdAt: job.createdAt, folderId: job.folderId, status: "transcribing" });
+        putLocal({ id: job.id, userId: "", title: transcribingTitle(), emoji: "🎙️", durationSeconds: 0, createdAt: job.createdAt, folderId: job.folderId, status: "transcribing" });
         void currentUserId().then(uid => patchLocal(job.id, { userId: uid }), () => {});
       }
       if (getLocal(job.id)?.status === "failed") continue;
@@ -634,33 +659,33 @@ function FailedUploadCard({ id, unsupported, code, close }: { id: string; unsupp
   const [text, setText] = useState("");
   if (reporting) {
     return (
-      <ModalCard title="What happened?" body="Tell us what you were doing when it went wrong. We read every report and use it to fix things." onClose={close}>
-        <textarea className="input" rows={4} autoFocus value={text} onChange={e => setText(e.target.value)} aria-label="What happened?" />
+      <ModalCard title={t("errorReport.promptTitle")} body={t("errorReport.promptBody")} onClose={close}>
+        <textarea className="input" rows={4} autoFocus value={text} onChange={e => setText(e.target.value)} aria-label={t("errorReport.promptTitle")} />
         <Button
-          label="Send"
+          label={t("common.send")}
           size="compact"
           disabled={!text.trim()}
           style={{ marginTop: 12 }}
           onPress={() => { capture("error_report", { where: "upload_transcription", error_code: code, error_message: "", report: text.trim().slice(0, 1000) }); close(); }}
         />
-        <QuietButton label="Cancel" onPress={close} />
+        <QuietButton label={t("common.cancel")} onPress={close} />
       </ModalCard>
     );
   }
   return (
     <ModalCard
-      title={unsupported ? "This file can't be transcribed" : "Couldn't transcribe this file"}
+      title={unsupported ? t("recording.unsupportedTitle") : t("recording.failedTitle")}
       body={<>
         {unsupported
-          ? "It may be damaged, in a format we don't support, or longer than 5 hours. Try a different file."
-          : "Something went wrong on our end. You can try again or delete the file."}
-        {code && <span className="ui-code">Error code: {code}</span>}
+          ? t("recording.unsupportedBody")
+          : t("recording.failedBody")}
+        {code && <span className="ui-code">{t("common.errorCode", { code })}</span>}
       </>}
       onClose={close}
     >
-      {!unsupported && <Button label="Try again" size="compact" onPress={() => { close(); retryUpload(id); }} />}
-      <Button label="Delete" variant="secondary" size="compact" style={{ color: "var(--destructive)" }} onPress={() => { close(); deleteUpload(id); }} />
-      <QuietButton label="Report problem" onPress={() => { capture("error_report_opened", { where: "upload_transcription", error_code: code }); setReporting(true); }} />
+      {!unsupported && <Button label={t("common.tryAgain")} size="compact" onPress={() => { close(); retryUpload(id); }} />}
+      <Button label={t("common.delete")} variant="secondary" size="compact" style={{ color: "var(--destructive)" }} onPress={() => { close(); deleteUpload(id); }} />
+      <QuietButton label={t("errorReport.reportButton")} onPress={() => { capture("error_report_opened", { where: "upload_transcription", error_code: code }); setReporting(true); }} />
     </ModalCard>
   );
 }
@@ -676,9 +701,21 @@ export async function transcribeRest(id: string, folderId: string | null) {
   const job: UploadJob = { id, createdAt: Date.now(), folderId, name: "audio", type: "", diarize: separateSpeakers(), attempts: 0, rest: true };
   const blob = await fileFor(id);
   const go = async (file: Blob, name: string) => {
-    const sound = file instanceof File && isVideo(file) ? await videoSound(file) : null;
-    const use = sound ?? file;
-    job.name = sound ? `${id}.wav` : name;
+    // A file picked again is made small as on the first upload (this
+    // browser's own copy already was).
+    let use: Blob = file;
+    let useName = name;
+    if (file instanceof File) {
+      try {
+        const p = await prepareUpload(file, { video: isVideo(file), targetBytes: (await canUseStorage()) ? STORAGE_TARGET_BYTES : DIRECT_MAX_BYTES });
+        use = p.blob;
+        useName = p.name;
+      } catch (e) {
+        if (e instanceof TooLongError) { showTooLong(e.seconds); return; }
+      }
+    }
+    if (use.size > STORAGE_MAX_BYTES) { showTooBig(); return; }
+    job.name = useName;
     job.type = use.type || "application/octet-stream";
     await keepFile(id, use);
     saveJob(job);
@@ -688,12 +725,12 @@ export async function transcribeRest(id: string, folderId: string | null) {
   // Uploaded in another browser or on the phone: choose the same file again.
   showCard(close => (
     <ModalCard
-      title="Choose the file again"
-      body="The file isn't on this computer. Choose the same file and Captio AI transcribes all of it."
+      title={t("web.upload.chooseAgainTitle")}
+      body={t("web.upload.chooseAgainBody")}
       onClose={close}
     >
       <label className="ui-btn primary compact upload-pick-again">
-        <span>Choose file</span>
+        <span>{t("web.upload.chooseFile")}</span>
         <input
           type="file"
           accept="audio/*,video/*"
@@ -705,7 +742,7 @@ export async function transcribeRest(id: string, folderId: string | null) {
           }}
         />
       </label>
-      <QuietButton label="Not now" onPress={close} />
+      <QuietButton label={t("common.notNow")} onPress={close} />
     </ModalCard>
   ));
 }

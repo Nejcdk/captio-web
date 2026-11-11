@@ -2,18 +2,20 @@ import { useEffect, useState, type ReactNode } from "react";
 import type { SupabaseClient } from "@supabase/supabase-js";
 import "./paywall.css";
 import type { Account } from "./DesktopApp";
-import { capture, recordError } from "./client";
+import { capture, needsAccount, recordError } from "./client";
 import { manageSubscriptionUrl } from "./Paywall";
 import { openPaywall } from "./paywallStore";
 import { InviteSettingsNote } from "./InviteChip";
 import { MicrophonePage } from "./MicrophonePage";
-import { isPlusNow, usePlus } from "./plus";
+import { isPlusNow, plusForSale, usePlus } from "./plus";
+import { promptInstall, useCanInstall } from "./install";
 import { Button, confirmCard, showErrorAlert } from "./ui";
 import { FREE_DAILY_CREDITS, creditsRemaining } from "./usage";
-import { LANGUAGES, updateSettings, useSettings } from "./settings";
+import { LANGUAGES, languageLabel, languageMatches, updateSettings, useSettings } from "./settings";
+import { t } from "./i18n";
 import {
   BugIcon, ChevronLeftIcon, ChevronRightIcon, CopyCheckIcon, CopyIcon, DiscordLogo, FileTextIcon, LanguagesIcon,
-  LightbulbIcon, LogOutIcon, MailIcon, MicrophoneIcon, PhoneIcon, PuzzleIcon, SearchIcon, ShareIcon, ShieldIcon, StarIcon, TrashIcon,
+  DesktopIcon, LightbulbIcon, LogOutIcon, MailIcon, MicrophoneIcon, PhoneIcon, PuzzleIcon, SearchIcon, ShareIcon, ShieldIcon, StarIcon, TrashIcon,
   UsersIcon, XIcon,
 } from "./Icons";
 
@@ -67,7 +69,7 @@ export function SettingsView({ account, page, onPage, onBack, onSignOut, supabas
 }) {
   const { isPlus } = usePlus();
   useEffect(() => {
-    if (page === "main") capture("settings_opened", { is_plus: isPlus, signed_in: true });
+    if (page === "main") capture("settings_opened", { is_plus: isPlus, signed_in: !account.guest });
     else if (page === "microphone") capture("mic_settings_opened");
     else if (page === "connectors") capture("connect_chats_viewed", { signed_in: true });
   }, [page]); // eslint-disable-line react-hooks/exhaustive-deps
@@ -90,10 +92,11 @@ function SettingsMain({ account, onPage, onBack, onSignOut, supabase }: {
   const { separateSpeakers } = useSettings();
   const { isPlus, known: plusKnown } = usePlus();
   const [shared, setShared] = useState(false);
+  const canInstall = useCanInstall();
   const [deleting, setDeleting] = useState<"no" | "busy">("no");
 
   const shareApp = async () => {
-    const text = `Captio AI: live captions, transcription and translation. ${STORE_URL}`;
+    const text = t("settings.shareAppMessage", { url: STORE_URL });
     try {
       if (navigator.share) await navigator.share({ text });
       else {
@@ -110,9 +113,9 @@ function SettingsMain({ account, onPage, onBack, onSignOut, supabase }: {
 
   const deleteAccount = async () => {
     if (!(await confirmCard({
-      title: "Delete account?",
-      body: "This permanently deletes your account, along with all your recordings and data. This cannot be undone.",
-      confirm: "Delete",
+      title: t("settings.deleteAccountTitle"),
+      body: t("settings.deleteAccountBody"),
+      confirm: t("common.delete"),
       destructive: true,
     }))) return;
     setDeleting("busy");
@@ -120,7 +123,7 @@ function SettingsMain({ account, onPage, onBack, onSignOut, supabase }: {
     const { error } = await supabase().rpc("delete_user");
     if (error) {
       setDeleting("no");
-      showErrorAlert({ where: "account_delete", error, title: "Could not delete account", body: "Something went wrong. Please check your connection and try again." });
+      showErrorAlert({ where: "account_delete", error, title: t("settings.deleteAccountFailed"), body: t("common.genericError") });
       return;
     }
     capture("account_deleted", { is_plus: isPlus });
@@ -131,9 +134,9 @@ function SettingsMain({ account, onPage, onBack, onSignOut, supabase }: {
     <main className="settings">
       <div className="inner">
         <div className="settings-head">
-          <button type="button" className="icon-btn" onClick={onBack} aria-label="Back"><ChevronLeftIcon size={22} /></button>
-          <h1>Settings</h1>
-          {plusKnown && !isPlus && (
+          <button type="button" className="icon-btn" onClick={onBack} aria-label={t("common.back")}><ChevronLeftIcon size={22} /></button>
+          <h1>{t("settings.title")}</h1>
+          {plusKnown && !isPlus && plusForSale() && (
             <button type="button" className="plus-badge" onClick={() => openPaywall("settings_pro_button")}>
               <span className="ui-sheen" aria-hidden />
               <svg width="15" height="15" viewBox="0 0 24 24" aria-hidden><path fill="#000" d="M12 2l3.09 6.26L22 9.27l-5 4.87l1.18 6.88L12 17.77l-6.18 3.25L7 14.14L2 9.27l6.91-1.01L12 2z" /></svg>
@@ -145,76 +148,85 @@ function SettingsMain({ account, onPage, onBack, onSignOut, supabase }: {
         <PlanCard isPlus={isPlus} />
         <InviteSettingsNote />
 
-        <div className="group-label">CAPTIONS</div>
+        <div className="group-label">{t("settings.sectionCaptions")}</div>
         <div className="group">
-          <Row icon={<LanguagesIcon size={20} />} label="Language hints" onClick={() => onPage("language-hints")} />
-          <Row icon={<FileTextIcon size={20} />} label="Context Window" onClick={() => onPage("context")} />
+          <Row icon={<LanguagesIcon size={20} />} label={t("settings.languageHints")} onClick={() => onPage("language-hints")} />
+          <Row icon={<FileTextIcon size={20} />} label={t("settings.contextWindow")} onClick={() => onPage("context")} />
           <Row
             icon={<UsersIcon size={20} />}
-            label="Separate Speakers"
-            trailing={<Switch on={separateSpeakers} label="Separate Speakers" onChange={on => { capture("settings_speakers_toggled", { on }); updateSettings({ separateSpeakers: on }); }} />}
+            label={t("captionSettings.separateSpeakers")}
+            trailing={<Switch on={separateSpeakers} label={t("captionSettings.separateSpeakers")} onChange={on => { capture("settings_speakers_toggled", { on }); updateSettings({ separateSpeakers: on }); }} />}
           />
-          <Row icon={<MicrophoneIcon size={20} />} label="Pick a microphone" onClick={() => { capture("settings_microphone_tapped"); onPage("microphone"); }} />
+          <Row icon={<MicrophoneIcon size={20} />} label={t("mic.settings.row")} onClick={() => { capture("settings_microphone_tapped"); onPage("microphone"); }} />
         </div>
 
-        <div className="group-label">ADD-ONS</div>
+        <div className="group-label">{t("settings.sectionAddons")}</div>
         <div className="group">
-          <Row icon={<PuzzleIcon size={20} />} label="Connectors" onClick={() => { capture("settings_connect_chats_tapped", { signed_in: true }); onPage("connectors"); }} />
+          <Row icon={<PuzzleIcon size={20} />} label={t("settings.connectChats")} onClick={() => { capture("settings_connect_chats_tapped", { signed_in: !account.guest }); if (account.guest) needsAccount("connectors"); else onPage("connectors"); }} />
         </div>
 
         {/* Captio AI's other products (the app shows this web app here; the
             Apple Watch app joins later). */}
-        <div className="group-label">MORE FROM CAPTIO AI</div>
+        <div className="group-label">{t("settings.sectionMore")}</div>
         <div className="group">
-          <Row icon={<PhoneIcon size={20} />} label="Captio AI for iPhone and iPad" href="https://apps.apple.com/app/apple-store/id6796617180?pt=129242349&ct=web_app_settings&mt=8" onOpen={() => capture("settings_product_tapped", { product: "ios" })} />
-          <Row icon={<PhoneIcon size={20} />} label="Captio AI for Android" href="https://play.google.com/store/apps/details?id=com.captio.app" onOpen={() => capture("settings_product_tapped", { product: "android" })} />
+          {canInstall && (
+            <Row icon={<DesktopIcon size={20} />} label={t("web.settings.installApp")} onClick={() => { void promptInstall(); }} />
+          )}
+          <Row icon={<PhoneIcon size={20} />} label={t("web.settings.iosApp")} href="https://apps.apple.com/app/apple-store/id6796617180?pt=129242349&ct=web_app_settings&mt=8" onOpen={() => capture("settings_product_tapped", { product: "ios" })} />
+          <Row icon={<PhoneIcon size={20} />} label={t("web.settings.androidApp")} href="https://play.google.com/store/apps/details?id=com.captio.app" onOpen={() => capture("settings_product_tapped", { product: "android" })} />
         </div>
 
-        <div className="group-label">SUPPORT</div>
+        <div className="group-label">{t("settings.sectionSupport")}</div>
         <div className="group">
-          <Row icon={<MailIcon size={20} />} label="Contact Us" href={`mailto:${SUPPORT_EMAIL}?subject=${encodeURIComponent(`Support - ${account.name || "User"}`)}`} onOpen={() => capture("settings_contact_tapped")} />
+          <Row icon={<MailIcon size={20} />} label={t("settings.contactUs")} href={`mailto:${SUPPORT_EMAIL}?subject=${encodeURIComponent(`Support - ${account.name || "User"}`)}`} onOpen={() => capture("settings_contact_tapped")} />
         </div>
 
-        <div className="group-label">FEEDBACK</div>
+        <div className="group-label">{t("settings.sectionFeedback")}</div>
         <div className="group">
-          <Row icon={<DiscordLogo size={20} />} label="Join our Discord" href={DISCORD_URL} onOpen={() => capture("settings_discord_tapped")} />
-          <Row icon={<BugIcon size={20} />} label="Report a Bug" onClick={() => onPage("bug")} />
-          <Row icon={<LightbulbIcon size={20} />} label="Request a Feature" onClick={() => onPage("feature")} />
+          <Row icon={<DiscordLogo size={20} />} label={t("settings.joinDiscord")} href={DISCORD_URL} onOpen={() => capture("settings_discord_tapped")} />
+          <Row icon={<BugIcon size={20} />} label={t("settings.reportBug")} onClick={() => onPage("bug")} />
+          <Row icon={<LightbulbIcon size={20} />} label={t("settings.requestFeature")} onClick={() => onPage("feature")} />
         </div>
 
-        <div className="group-label">APP</div>
+        <div className="group-label">{t("settings.sectionApp")}</div>
         <div className="group">
-          <Row icon={<StarIcon size={20} />} label="Rate App" href={RATE_APP_URL} onOpen={() => capture("settings_rate_app_tapped")} />
-          <Row icon={<ShareIcon size={20} />} label={shared ? "Copied" : "Share App"} onClick={shareApp} />
+          <Row icon={<StarIcon size={20} />} label={t("settings.rateApp")} href={RATE_APP_URL} onOpen={() => capture("settings_rate_app_tapped")} />
+          <Row icon={<ShareIcon size={20} />} label={shared ? t("export.copied") : t("settings.shareApp")} onClick={shareApp} />
         </div>
 
-        <div className="group-label">ACCOUNT</div>
+        <div className="group-label">{t("settings.sectionAccount")}</div>
+        {account.guest ? (
+          <div className="group">
+            <Row icon={<LogOutIcon size={20} style={{ transform: "scaleX(-1)" }} />} label={t("settings.signIn")} onClick={() => { capture("settings_sign_in_tapped"); window.dispatchEvent(new CustomEvent("captio-sign-in", { detail: { source: "settings" } })); }} />
+          </div>
+        ) : (
         <div className="group">
           <Row icon={<MailIcon size={20} />} label={account.email || account.name} />
           {isPlus && (
             <Row
               icon={<StarIcon size={20} />}
-              label="Manage Subscription"
+              label={t("settings.manageSubscription")}
               onClick={async () => {
                 capture("settings_manage_subscription_tapped");
                 window.open(await manageSubscriptionUrl(), "_blank", "noopener");
               }}
             />
           )}
-          <Row icon={<LogOutIcon size={20} />} label="Sign Out" onClick={onSignOut} chevron={false} />
+          <Row icon={<LogOutIcon size={20} />} label={t("settings.signOut")} onClick={onSignOut} chevron={false} />
           <Row
             icon={<TrashIcon size={20} />}
-            label={deleting === "busy" ? "Deleting…" : "Delete Account"}
+            label={deleting === "busy" ? t("settings.deleting") : t("settings.deleteAccount")}
             onClick={deleting === "busy" ? undefined : deleteAccount}
             destructive
             chevron={false}
           />
         </div>
+        )}
 
-        <div className="group-label">LEGAL</div>
+        <div className="group-label">{t("settings.sectionLegal")}</div>
         <div className="group">
-          <Row icon={<ShieldIcon size={20} />} label="Privacy Policy" href="/privacy" />
-          <Row icon={<ShieldIcon size={20} />} label="Terms of Service" href="/terms" />
+          <Row icon={<ShieldIcon size={20} />} label={t("settings.privacyPolicy")} href="/privacy" />
+          <Row icon={<ShieldIcon size={20} />} label={t("settings.terms")} href="/terms" />
         </div>
       </div>
     </main>
@@ -226,13 +238,14 @@ function SettingsMain({ account, onPage, onBack, onSignOut, supabase }: {
 // PLUS logo.
 function PlanCard({ isPlus }: { isPlus: boolean }) {
   const left = creditsRemaining();
+  const sale = plusForSale();
   useEffect(() => {
-    if (!isPlus) capture("plus_button_shown", { where: "settings_upgrade", style: "gold" });
-  }, [isPlus]);
+    if (!isPlus && sale) capture("plus_button_shown", { where: "settings_upgrade", style: "gold" });
+  }, [isPlus, sale]);
   if (isPlus) {
     return (
       <div className="plan-usage">
-        <span className="label">YOUR PLAN</span>
+        <span className="label">{t("settings.yourPlan")}</span>
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img className="plus-logo" src="/web-app/logo-plus-only.png" alt="Plus" />
       </div>
@@ -240,14 +253,14 @@ function PlanCard({ isPlus }: { isPlus: boolean }) {
   }
   return (
     <div className="plan-usage">
-      <span className="label">FREE USAGE</span>
+      <span className="label">{t("settings.freeUsage")}</span>
       <span className="big">{left}</span>
-      <span className="sub">of {FREE_DAILY_CREDITS} credits left today</span>
+      <span className="sub">{t("settings.creditsLeft", { total: FREE_DAILY_CREDITS })}</span>
       <div className="track"><div className="fill" style={{ width: `${Math.max(0, Math.min(100, (100 * left) / FREE_DAILY_CREDITS))}%` }} /></div>
-      <span className="reset">Resets every day at midnight</span>
-      <div style={{ alignSelf: "stretch" }}>
+      <span className="reset">{t("settings.resetsDaily")}</span>
+      {sale && <div style={{ alignSelf: "stretch" }}>
         <Button
-          label="Upgrade to Plus"
+          label={t("settings.upgrade")}
           variant="gold"
           style={{ marginTop: 16 }}
           onPress={() => {
@@ -255,7 +268,7 @@ function PlanCard({ isPlus }: { isPlus: boolean }) {
             openPaywall("settings_upgrade_card");
           }}
         />
-      </div>
+      </div>}
     </div>
   );
 }
@@ -268,7 +281,7 @@ function Page({ title, lede, onBack, children, footer }: {
   return (
     <main className="settings">
       <div className="inner page">
-        <button type="button" className="back-link" onClick={onBack}><ChevronLeftIcon size={16} />Settings</button>
+        <button type="button" className="back-link" onClick={onBack}><ChevronLeftIcon size={16} />{t("settings.title")}</button>
         <h1 className="page-title">{title}</h1>
         {lede && <p className="page-lede">{lede}</p>}
         <div className="page-body">{children}</div>
@@ -285,19 +298,19 @@ function LanguageHints({ onBack }: { onBack: () => void }) {
 
   if (picking) {
     const q = query.trim().toLowerCase();
-    const options = LANGUAGES.filter(l => !settingsLangHints.includes(l.name) && (!q || l.name.toLowerCase().includes(q)));
+    const options = LANGUAGES.filter(l => !settingsLangHints.includes(l.name) && languageMatches(l.name, q));
     return (
-      <Page title="Add a language" onBack={() => { setPicking(false); setQuery(""); }}>
+      <Page title={t("common.addLanguage")} onBack={() => { setPicking(false); setQuery(""); }}>
         <label className="search" style={{ margin: "0 0 12px" }}>
           <SearchIcon size={20} />
-          <input autoFocus value={query} onChange={e => setQuery(e.target.value)} placeholder="Search language" aria-label="Search language" />
+          <input autoFocus value={query} onChange={e => setQuery(e.target.value)} placeholder={t("common.searchLanguage")} aria-label={t("common.searchLanguage")} />
         </label>
         <div className="group">
           {options.map(l => (
             <Row
               key={l.name}
               icon={<span style={{ fontSize: 22 }}>{l.flag}</span>}
-              label={l.name}
+              label={languageLabel(l.name)}
               chevron={false}
               onClick={() => {
                 capture("settings_language_added", { language: l.name });
@@ -314,10 +327,10 @@ function LanguageHints({ onBack }: { onBack: () => void }) {
 
   return (
     <Page
-      title="Language hints"
-      lede="Language hints will help increase transcription accuracy. The model will still transcribe in any language."
+      title={t("settings.languageHints")}
+      lede={t("captionSettings.hintsDesc")}
       onBack={onBack}
-      footer={<button type="button" className="primary-btn" onClick={() => setPicking(true)}>Add a language</button>}
+      footer={<button type="button" className="primary-btn" onClick={() => setPicking(true)}>{t("common.addLanguage")}</button>}
     >
       {settingsLangHints.length > 0 && (
         <div className="group">
@@ -327,10 +340,10 @@ function LanguageHints({ onBack }: { onBack: () => void }) {
               <Row
                 key={name}
                 icon={<span style={{ fontSize: 22 }}>{lang?.flag}</span>}
-                label={name}
+                label={languageLabel(name)}
                 trailing={
                   <button
-                    type="button" className="icon-btn" style={{ color: "var(--ink-meta)" }} aria-label={`${name}, Delete`}
+                    type="button" className="icon-btn" style={{ color: "var(--ink-meta)" }} aria-label={t("web.settings.deleteItem", { name })}
                     onClick={() => { capture("settings_language_removed", { language: name }); updateSettings({ settingsLangHints: settingsLangHints.filter(l => l !== name) }); }}
                   >
                     <XIcon size={18} />
@@ -357,77 +370,76 @@ function ContextWindow({ onBack, account }: { onBack: () => void; account: Accou
     capture("settings_vocabulary_added", { count: fresh.length });
     setInput("");
   };
-  const firstName = account.name.trim().split(/\s+/)[0] || "Alex";
+  const firstName = account.name.trim().split(/\s+/)[0] || t("captionSettings.defaultName");
   return (
-    <Page title="Context Window" lede="Names and words to spell right, and anything that helps understand the topic." onBack={onBack}>
-      <div className="field-label">✏️ WORDS &amp; NAMES</div>
+    <Page title={t("settings.contextWindow")} lede={t("settings.contextDesc")} onBack={onBack}>
+      <div className="field-label">{t("settings.wordsLabel")}</div>
       <div className="add-row">
         <input
           className="input"
           value={input}
           onChange={e => setInput(e.target.value)}
           onKeyDown={e => { if (e.key === "Enter") add(); }}
-          placeholder={`e.g. ${firstName}, London, WhatsApp...`}
-          aria-label="Words and names"
+          placeholder={t("captionSettings.wordsPlaceholder", { name: firstName })}
+          aria-label={t("web.settings.wordsAria")}
         />
-        <button type="button" className="add-btn" onClick={add} disabled={!input.trim()}>Add</button>
+        <button type="button" className="add-btn" onClick={add} disabled={!input.trim()}>{t("common.add")}</button>
       </div>
       {contextWords.length > 0 && (
         <div className="word-chips">
           {contextWords.map(w => (
-            <button key={w} type="button" className="word-chip" aria-label={`${w}, Delete`} onClick={() => { capture("settings_vocabulary_removed"); updateSettings({ contextWords: contextWords.filter(x => x !== w) }); }}>
+            <button key={w} type="button" className="word-chip" aria-label={t("web.settings.deleteItem", { name: w })} onClick={() => { capture("settings_vocabulary_removed"); updateSettings({ contextWords: contextWords.filter(x => x !== w) }); }}>
               {w}<XIcon size={12} color="var(--ink-meta)" />
             </button>
           ))}
         </div>
       )}
-      <div className="field-label" style={{ marginTop: 28 }}>📄 BACKGROUND INFO</div>
+      <div className="field-label" style={{ marginTop: 28 }}>{t("settings.backgroundLabel")}</div>
       <textarea
         className="input"
         rows={7}
         value={contextWindowText}
         onChange={e => updateSettings({ contextWindowText: e.target.value })}
-        placeholder="Paste text here..."
-        aria-label="Background info"
+        placeholder={t("settings.backgroundPlaceholder")}
+        aria-label={t("web.settings.backgroundAria")}
       />
     </Page>
   );
 }
 
 type ChatApp = "claude" | "chatgpt" | "gemini" | "perplexity";
-const CHAT_APPS: { key: ChatApp; name: string; steps: string[] }[] = [
-  { key: "claude", name: "Claude", steps: [
-    "On <b>claude.ai</b>, open <b>Customize</b> → <b>Connectors</b>",
-    "Click <b>+</b> → <b>Add custom connector</b>",
-    `Name it <b>Captio AI</b>, enter <b>${CONNECTOR_URL}</b>, click <b>Add</b>`,
-    "Click <b>Connect</b>, sign in with your Captio AI account, click <b>Allow</b>",
-    "Ask about any recording, <b>on your phone too</b>",
-  ] },
-  { key: "chatgpt", name: "ChatGPT", steps: [
-    "On <b>chatgpt.com</b>, open <b>Plugins</b>, click <b>+</b>",
-    "Click <b>Add custom MCP server</b>",
-    `Name it <b>Captio AI</b>, enter <b>${CONNECTOR_URL}</b>, pick <b>OAuth</b>`,
-    "Tick <b>I understand and want to continue</b>, click <b>Create as a plugin</b>",
-    "Sign in with your Captio AI account, click <b>Allow</b>",
-    "In <b>Plugins</b>, click <b>+</b> next to <b>Captio AI</b> to install it",
-    "In a chat, type <b>@</b>, pick <b>Captio AI</b> and ask",
-  ] },
-  { key: "gemini", name: "Gemini", steps: [
-    "On <b>gemini.google.com</b>, open <b>Settings</b> → <b>Connected Apps</b>",
-    "Under <b>Custom apps</b>, click <b>Add a custom app</b>",
-    `Enter <b>${CONNECTOR_URL}</b>, click <b>Next</b>`,
-    "Sign in with your Captio AI account, click <b>Allow</b>",
-    "In a chat, type <b>@</b>, pick <b>Captio AI</b> and ask, <b>on your phone too</b>",
-  ] },
-  { key: "perplexity", name: "Perplexity", steps: [
-    "On <b>perplexity.ai</b>, open <b>Plugins</b> in the sidebar",
-    "Click <b>Add custom</b> → <b>Connector</b> → <b>Add MCP connector</b>",
-    `Pick <b>Remote</b>, name it <b>Captio AI</b>, enter <b>${CONNECTOR_URL}</b>`,
-    "Pick <b>OAuth</b>, tick the box, click <b>Add</b>",
-    "Click the <b>Captio AI</b> card, sign in, click <b>Allow</b>",
-    "Ask about any recording",
-  ] },
+// Each app's steps are the app's keys connectChats.<app>1…N (the same words
+// as the phone's Show me how).
+const CHAT_APPS: { key: ChatApp; name: string; steps: number }[] = [
+  { key: "claude", name: "Claude", steps: 5 },
+  { key: "chatgpt", name: "ChatGPT", steps: 7 },
+  { key: "gemini", name: "Gemini", steps: 5 },
+  { key: "perplexity", name: "Perplexity", steps: 6 },
 ];
+
+// The chat apps' menu names, filled into the steps (app: ConnectChatsScreen ui()).
+const chatUi = () => ({
+  customize: t("connectChats.ui.customize"),
+  connectors: t("connectChats.ui.connectors"),
+  addCustom: t("connectChats.ui.addCustom"),
+  add: t("connectChats.ui.add"),
+  connect: t("connectChats.ui.connect"),
+  plugins: t("connectChats.ui.plugins"),
+  addMcp: t("connectChats.ui.addMcp"),
+  understand: t("connectChats.ui.understand"),
+  createPlugin: t("connectChats.ui.createPlugin"),
+  settings: t("connectChats.ui.settings"),
+  connectedApps: t("connectChats.ui.connectedApps"),
+  customApps: t("connectChats.ui.customApps"),
+  addCustomApp: t("connectChats.ui.addCustomApp"),
+  next: t("connectChats.ui.next"),
+  addCustomMenu: t("connectChats.ui.addCustomMenu"),
+  connector: t("connectChats.ui.connector"),
+  addMcpConnector: t("connectChats.ui.addMcpConnector"),
+  remote: t("connectChats.ui.remote"),
+  allow: t("connectChats.ui.allow"),
+  url: CONNECTOR_URL,
+});
 
 // "Click <b>Add</b>" → Click **Add**, without HTML from strings.
 function Bold({ text }: { text: string }) {
@@ -438,6 +450,7 @@ function Connectors({ onBack }: { onBack: () => void }) {
   const [app, setApp] = useState<ChatApp>("claude");
   const [copied, setCopied] = useState(false);
   const current = CHAT_APPS.find(a => a.key === app)!;
+  const ui = chatUi();
   const copy = async () => {
     try {
       await navigator.clipboard.writeText(CONNECTOR_URL);
@@ -449,7 +462,7 @@ function Connectors({ onBack }: { onBack: () => void }) {
     }
   };
   return (
-    <Page title="Connectors" onBack={onBack}>
+    <Page title={t("connectChats.title")} onBack={onBack}>
       <div className="app-tabs" role="tablist">
         {CHAT_APPS.map(a => (
           <button key={a.key} type="button" role="tab" aria-selected={a.key === app} onClick={() => { setApp(a.key); capture("connect_chats_app_switched", { app: a.key }); }}>
@@ -458,9 +471,12 @@ function Connectors({ onBack }: { onBack: () => void }) {
         ))}
       </div>
       <ol className="steps">
-        {current.steps.map((s, i) => <li key={i}><span className="num">{i + 1}</span><span><Bold text={s} /></span></li>)}
+        {Array.from({ length: current.steps }, (_, i) => {
+          const s = t(`connectChats.${current.key}${i + 1}`, ui);
+          return <li key={i}><span className="num">{i + 1}</span><span><Bold text={s} /></span></li>;
+        })}
       </ol>
-      <div className="field-label" style={{ marginTop: 28 }}>ADDRESS</div>
+      <div className="field-label" style={{ marginTop: 28 }}>{t("connectChats.address")}</div>
       <button type="button" className="address" onClick={copy}>
         <span>{CONNECTOR_URL}</span>
         {copied ? <CopyCheckIcon size={20} color="var(--brand)" /> : <CopyIcon size={20} color="var(--brand)" />}
@@ -482,18 +498,18 @@ function Report({ kind, onBack }: { kind: "bug" | "feature"; onBack: () => void 
   if (sent) {
     return (
       <Page
-        title={bug ? "Thanks for telling us" : "Thanks for the idea"}
-        lede={bug ? "Your report went straight to the team. We'll look into it." : "It went straight to the team. We read every request when planning what to build next."}
+        title={bug ? t("errorReport.thanksTitle") : t("settings.requestThanksTitle")}
+        lede={bug ? t("errorReport.thanksBody") : t("settings.requestThanksBody")}
         onBack={onBack}
       >
-        <button type="button" className="primary-btn" onClick={onBack}>Done</button>
+        <button type="button" className="primary-btn" onClick={onBack}>{t("voices.done")}</button>
       </Page>
     );
   }
   return (
     <Page
-      title={bug ? "Report a Bug" : "Request a Feature"}
-      lede={bug ? "Describe what happened and how to reproduce it." : "Tell us what you'd like to see in Captio AI."}
+      title={bug ? t("settings.reportBug") : t("settings.requestFeature")}
+      lede={bug ? t("settings.reportDesc") : t("settings.requestDesc")}
       onBack={onBack}
     >
       <textarea
@@ -503,10 +519,10 @@ function Report({ kind, onBack }: { kind: "bug" | "feature"; onBack: () => void 
         maxLength={2000}
         value={text}
         onChange={e => setText(e.target.value)}
-        placeholder={bug ? "Describe the bug..." : "Describe your idea..."}
-        aria-label={bug ? "Report a Bug" : "Request a Feature"}
+        placeholder={bug ? t("settings.reportPlaceholder") : t("settings.requestPlaceholder")}
+        aria-label={bug ? t("settings.reportBug") : t("settings.requestFeature")}
       />
-      <button type="button" className="primary-btn" style={{ marginTop: 16 }} onClick={send} disabled={!text.trim()}>Send</button>
+      <button type="button" className="primary-btn" style={{ marginTop: 16 }} onClick={send} disabled={!text.trim()}>{t("common.send")}</button>
     </Page>
   );
 }

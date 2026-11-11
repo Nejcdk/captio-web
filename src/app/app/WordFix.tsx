@@ -5,6 +5,7 @@ import { capture, store } from "./client";
 import type { TranscriptSegment, TranscriptWord } from "./data";
 import { SHAKY_CONFIDENCE } from "./transcript";
 import { Button, ModalCard, showCard } from "./ui";
+import { t } from "./i18n";
 
 // Shaky words and the word fix (app repo: DetailScreen SegmentLine,
 // components/WordFixPrompt.tsx, lib/wordFixHint.ts): a word the speech service
@@ -72,7 +73,7 @@ function HintBubble({ onSeen, onDismiss }: { onSeen: () => void; onDismiss: () =
       tabIndex={-1}
       onClick={e => { e.stopPropagation(); onDismiss(); }}
     >
-      {touch ? "Long-press to fix and save the right word" : "Double-click to fix and save the right word"}
+      {touch ? t("wordFix.hint") : t("web.wordFix.hintDoubleClick")}
     </span>
   );
 }
@@ -192,7 +193,7 @@ function WordFixCard({ word, done }: { word: string; done: (a: { corrected: stri
   const canSave = corrected.length > 0 && corrected !== word;
   const save = () => { if (canSave) done({ corrected, addToVocabulary: add }); };
   return (
-    <ModalCard title="✏️ Fix this word" onClose={() => done(null)}>
+    <ModalCard title={`✏️ ${t("wordFix.title")}`} onClose={() => done(null)}>
       <input
         className="input rv-fix-input"
         value={value}
@@ -200,9 +201,9 @@ function WordFixCard({ word, done }: { word: string; done: (a: { corrected: stri
         onFocus={e => e.currentTarget.select()}
         onChange={e => setValue(e.target.value)}
         onKeyDown={e => { if (e.key === "Enter") save(); }}
-        placeholder="The right word"
+        placeholder={t("wordFix.placeholder")}
         maxLength={80}
-        aria-label="The right word"
+        aria-label={t("wordFix.placeholder")}
         autoCapitalize="none"
         autoCorrect="off"
         spellCheck={false}
@@ -211,11 +212,11 @@ function WordFixCard({ word, done }: { word: string; done: (a: { corrected: stri
         <span className={`rv-check${add ? " on" : ""}`} aria-hidden>
           {add && <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth={3} strokeLinecap="round" strokeLinejoin="round"><path d="M5 12l5 5l10 -10" /></svg>}
         </span>
-        <span>Add to context</span>
+        <span>{t("wordFix.addToWords")}</span>
       </button>
       <div className="ui-card-actions" style={{ marginTop: 12 }}>
-        <Button label="Cancel" variant="secondary" size="compact" onPress={() => done(null)} />
-        <Button label="Save" size="compact" disabled={!canSave} onPress={save} />
+        <Button label={t("common.cancel")} variant="secondary" size="compact" onPress={() => done(null)} />
+        <Button label={t("common.save")} size="compact" disabled={!canSave} onPress={save} />
       </div>
     </ModalCard>
   );

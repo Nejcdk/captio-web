@@ -1,4 +1,5 @@
 import type { FolderPerson, Recording, RecordingBody, TranscriptSegment } from "./data";
+import { locale, t } from "./i18n";
 
 // The app's own rules for dates, colours and speaker tags (app repo:
 // src/lib/shared.ts, color.ts, voiceprint.ts, voiceNaming.ts), so a recording
@@ -6,20 +7,28 @@ import type { FolderPerson, Recording, RecordingBody, TranscriptSegment } from "
 
 export const SPEAKER_COLORS = ["#1060D0", "#D93025", "#1E8E3E", "#E37400", "#8430CE", "#007B83", "#C2185B", "#0288D1"];
 
-// "25 September, 14:05" (the year only when it isn't this year).
+// "25 September, 14:05" (the year only when it isn't this year): day and
+// month in the UI language, 24-hour time (app: formatDateTime).
 export function formatDateTime(ms: number): string {
   const d = new Date(ms);
   const opts: Intl.DateTimeFormatOptions = { day: "numeric", month: "long" };
   if (d.getFullYear() !== new Date().getFullYear()) opts.year = "numeric";
   const time = `${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`;
-  return `${d.toLocaleDateString("en-GB", opts)}, ${time}`;
+  const lang = locale();
+  let date: string;
+  try {
+    date = d.toLocaleDateString(lang === "en" ? "en-GB" : lang, opts);
+  } catch {
+    date = d.toLocaleDateString("en-GB", opts);
+  }
+  return t("datetime.dateTime", { date, time });
 }
 
 export function formatDuration(seconds: number): string {
-  if (seconds < 60) return `${Math.max(1, Math.round(seconds))} s`;
+  if (seconds < 60) return t("web.format.seconds", { s: Math.max(1, Math.round(seconds)) });
   const h = Math.floor(seconds / 3600);
   const m = Math.round((seconds % 3600) / 60);
-  return h ? `${h} h ${m} min` : `${m} min`;
+  return h ? t("widgets.hoursMinutes", { h, m }) : t("widgets.minutes", { m });
 }
 
 // ─── Colour maths (app: src/lib/color.ts) ─────────────────────────────────────
@@ -110,7 +119,7 @@ export function speakerTag(
   const n = parseInt(seg.speaker, 10);
   return {
     key: `s:${seg.speaker}`,
-    label: body.speakerNames[seg.speaker]?.trim() || `Speaker ${seg.speaker}`,
+    label: body.speakerNames[seg.speaker]?.trim() || t("common.speaker", { n: seg.speaker }),
     color: n > 0 ? SPEAKER_COLORS[(n - 1) % SPEAKER_COLORS.length] : null,
   };
 }

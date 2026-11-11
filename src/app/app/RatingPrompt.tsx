@@ -1,9 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import { capture, getSupabase, isPreview, recordErrorOnce, store } from "./client";
+import { capture, getSupabase, isLocalOnly, recordErrorOnce, store } from "./client";
 import { markInviteDue } from "./invite";
 import { Button, ModalCard, QuietButton, showCard } from "./ui";
+import { t } from "./i18n";
 
 // "How accurate was this transcript?" (app repo: TranscriptRatingPrompt.tsx,
 // lib/transcriptRating.ts): after saving a live recording longer than a
@@ -29,7 +30,7 @@ export function shouldAskForRating(durationSeconds: number): boolean {
 
 async function submitRating(rating: number, kind: RatingKind, durationSeconds: number, message?: string) {
   capture("transcript_rated", { rating, has_message: !!message?.trim(), duration_seconds: durationSeconds, kind });
-  if (isPreview()) return;
+  if (isLocalOnly()) return;
   try {
     const sb = getSupabase();
     const { data } = await sb.auth.getSession();
@@ -98,7 +99,7 @@ function RatingCard({ kind, durationSeconds, ownRecordings, close }: {
 
   if (step === "feedback") {
     return (
-      <ModalCard title="What went wrong?" body="Tell us what we should improve." onClose={dismiss}>
+      <ModalCard title={t("rating.feedbackTitle")} body={t("rating.feedbackSub")} onClose={dismiss}>
         <textarea
           className="input rv-feedback-input"
           rows={3}
@@ -106,24 +107,24 @@ function RatingCard({ kind, durationSeconds, ownRecordings, close }: {
           maxLength={1000}
           value={message}
           onChange={e => setMessage(e.target.value)}
-          placeholder="Type your feedback…"
-          aria-label="What went wrong?"
+          placeholder={t("rating.feedbackPlaceholder")}
+          aria-label={t("rating.feedbackTitle")}
         />
-        <Button label="Send feedback" size="compact" disabled={!message.trim()} onPress={() => finish(true)} style={{ marginTop: 14 }} />
-        <QuietButton label="Not now" onPress={() => finish(false)} />
+        <Button label={t("rating.send")} size="compact" disabled={!message.trim()} onPress={() => finish(true)} style={{ marginTop: 14 }} />
+        <QuietButton label={t("common.notNow")} onPress={() => finish(false)} />
       </ModalCard>
     );
   }
   const shown = rating || hover;
   return (
-    <ModalCard title="How accurate was this transcript?" body="Your rating helps us improve Captio AI." onClose={dismiss}>
+    <ModalCard title={t("rating.title")} body={t("rating.sub")} onClose={dismiss}>
       <div className="rv-stars" onMouseLeave={() => setHover(0)}>
         {[1, 2, 3, 4, 5].map(n => (
           <button
             key={n}
             type="button"
             className="rv-star"
-            aria-label={`${n} ${n === 1 ? "star" : "stars"}`}
+            aria-label={t("web.rating.stars", { count: n })}
             onMouseEnter={() => !rating && setHover(n)}
             onClick={() => pick(n)}
           >
@@ -139,7 +140,7 @@ function RatingCard({ kind, durationSeconds, ownRecordings, close }: {
           </button>
         ))}
       </div>
-      <QuietButton label="Not now" onPress={dismiss} />
+      <QuietButton label={t("common.notNow")} onPress={dismiss} />
     </ModalCard>
   );
 }

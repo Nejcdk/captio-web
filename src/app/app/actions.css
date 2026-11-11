@@ -27,7 +27,7 @@
   border-top-color: #1C49F5;
   animation: act-spin 800ms linear infinite;
 }
-.act-spinner.small { position: absolute; top: 10px; right: 10px; width: 18px; height: 18px; border-width: 2px; }
+.act-spinner.small { position: absolute; top: 10px; inset-inline-end: 10px; width: 18px; height: 18px; border-width: 2px; }
 @keyframes act-spin { to { transform: rotate(360deg); } }
 
 /* The row above a result: back to the tiles. */
@@ -72,7 +72,7 @@
   width: 100%;
   display: flex; align-items: flex-start; gap: 12px;
   margin-bottom: 12px; padding: 0;
-  border: 0; background: none; text-align: left;
+  border: 0; background: none; text-align: start;
 }
 .act-todo:disabled { opacity: 1; cursor: default; }
 .act-todo:not(:disabled):hover .act-box { border-color: #1C49F5; }
@@ -87,7 +87,7 @@
 .act-todo-text { flex: 1; min-width: 0; }
 .act-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
 .act-chips span { padding: 3px 7px; border-radius: 6px; background: #F2F2F7; font-size: 12px; font-weight: 500; color: #5A5A64; }
-.act-quote { margin: 10px 0; padding: 4px 0 4px 14px; border-left: 3px solid rgba(28, 73, 245, 0.3); }
+.act-quote { margin: 10px 0; padding-block: 4px; padding-inline: 14px 0; border-inline-start: 3px solid rgba(28, 73, 245, 0.3); }
 .act-quote > span:first-child { display: block; font-size: 16px; line-height: 24px; font-style: italic; color: #3A3A44; }
 .act-quote .who { display: block; margin-top: 4px; font-size: 13px; color: #8E8E93; }
 .act-callout { margin: 8px 0; padding: 14px; border: 1px solid; border-radius: 16px; }

@@ -4,7 +4,7 @@
    FolderPeopleScreen, FolderGrid, RecordingRow; DESIGN.md §5). */
 
 /* ── A sheet as a card ───────────────────────────────────────────────────── */
-.ui-card.es-sheet { max-width: 440px; padding: 22px 24px 24px; text-align: left; }
+.ui-card.es-sheet { max-width: 440px; padding: 22px 24px 24px; text-align: start; }
 .ui-card.es-sheet.wide { max-width: 520px; }
 .es-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 18px; }
 .es-top.end { justify-content: flex-end; margin: -6px -6px 6px 0; }
@@ -20,7 +20,7 @@
   display: flex; align-items: center; gap: 12px;
   padding: 0 16px;
   border: 2px solid var(--outline); border-radius: 16px; background: var(--bg);
-  text-align: left;
+  text-align: start;
   transition: border-color 120ms, background-color 120ms;
 }
 .es-tile:hover { border-color: #B8B8BE; }
@@ -134,9 +134,9 @@
 
 /* ── Home: rows' ⋯, the grid's New folder tile, Add members ──────────────── */
 .fo-row-wrap { position: relative; }
-.fo-row-wrap .row { padding-right: 52px; }
+.fo-row-wrap .row { padding-inline-end: 52px; }
 .fo-more {
-  position: absolute; top: 50%; right: 10px; transform: translateY(-50%);
+  position: absolute; top: 50%; inset-inline-end: 10px; transform: translateY(-50%);
   width: 36px; height: 36px; display: flex; align-items: center; justify-content: center;
   border: 0; background: none; border-radius: 10px;
 }
