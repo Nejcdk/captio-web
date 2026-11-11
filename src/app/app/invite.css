@@ -2,7 +2,7 @@
    InviteScreen, EarnedAmount, InviteMeter, DESIGN.md §5 and §7 Invite page). */
 
 /* ── Home's chip: PLUS's size and font, reward red, a breathing white glow ── */
-.invite-chip-wrap { position: relative; display: inline-flex; margin-right: 10px; }
+.invite-chip-wrap { position: relative; display: inline-flex; margin-inline-end: 10px; }
 .invite-chip-glow {
   position: absolute; inset: 0;
   border-radius: 10px; background: #FFFFFF;

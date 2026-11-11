@@ -371,6 +371,9 @@ function Shell({ account, onSignOut, supabaseUrl }: { account: Account; onSignOu
     const parts: string[] = p.has("preview") ? ["preview=1"] : [];
     // Dev flags stay in the address.
     for (const flag of ["plus", "fakemic"]) if (p.get(flag) === "1") parts.push(`${flag}=1`);
+    // A language picked in the address stays for the visit (i18n.ts).
+    const lang = p.get("lang");
+    if (lang && /^[a-zA-Z-]{2,10}$/.test(lang)) parts.push(`lang=${lang}`);
     if (route.settings) {
       parts.push("view=settings");
       if (route.settings !== "main") parts.push(`page=${route.settings}`);

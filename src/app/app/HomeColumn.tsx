@@ -9,7 +9,7 @@ import { openEditSheet } from "./editSheet";
 import { openFolderEditor } from "./FolderEditor";
 import { inviteToFolder, openFolderPeople, openJoinFolder } from "./FolderPeople";
 import { applyChanges, membersOf, reorderFolders, setEditContext, useFolderChanges } from "./folders";
-import { t } from "./i18n";
+import { t, isRtl } from "./i18n";
 
 // The left column is the phone's Home: "All transcripts | Folders" (the
 // segmented control), the search and the list, or the folders two to a row
@@ -73,7 +73,7 @@ export function HomeColumn({
   return (
     <section className="home-col" aria-label={t("web.home.recordingsColumnLabel")}>
       <div className="home-tabs" role="tablist">
-        <span className="pill" style={{ transform: tab === "folders" ? "translateX(calc(100% + 2px))" : undefined }} />
+        <span className="pill" style={{ transform: tab === "folders" ? `translateX(calc(${isRtl() ? -1 : 1} * (100% + 2px)))` : undefined }} />
         <button type="button" role="tab" aria-selected={tab === "all"} onClick={() => onTab("all")}>
           <span>🎙️</span>{t("folders.tabAll")}
         </button>

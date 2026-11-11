@@ -19,7 +19,7 @@ import { WordText, applyWordFix, askWordFix, firstShaky, useWordFixHint, type Wo
 import { DemoCaptions, PlayerCard, useDemoPlayer } from "./Player";
 import { SHAKY_CONFIDENCE } from "./transcript";
 import { updateSettings, useSettings } from "./settings";
-import { t } from "./i18n";
+import { t, isRtl } from "./i18n";
 
 // The recording on the right, like the app's Detail: emoji, title, date and
 // length (the folder chip opens the folder), then 📝 Captions | ✨ Actions.
@@ -228,7 +228,7 @@ export function RecordingView({ recording, library, me, preview, supabase, empty
             {by && <span>{t("folders.addedBy", { name: by })}</span>}
           </div>
           <div className="segmented" role="tablist">
-            <span className="pill" style={{ transform: tab === "actions" ? "translateX(100%)" : undefined }} />
+            <span className="pill" style={{ transform: tab === "actions" ? `translateX(${isRtl() ? -100 : 100}%)` : undefined }} />
             <button type="button" role="tab" aria-selected={tab === "captions"} onClick={() => switchTab("captions")}><span>📝</span>{t("detail.tabCaptions")}</button>
             <button type="button" role="tab" aria-selected={tab === "actions"} onClick={() => switchTab("actions")}><span>✨</span>{t("detail.tabActions")}</button>
           </div>

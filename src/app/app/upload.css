@@ -1,6 +1,6 @@
 /* The upload sheet (upload.tsx; app: UploadSheetScreen): "Upload file" in
    the sheet title's blue, ✕ on its row, the option tiles stacked. */
-.upload-sheet { margin: -6px -6px 6px; padding: 2px 4px 10px; text-align: left; border-radius: 18px; transition: background-color 120ms; }
+.upload-sheet { margin: -6px -6px 6px; padding: 2px 4px 10px; text-align: start; border-radius: 18px; transition: background-color 120ms; }
 .upload-sheet.dragging { background: var(--brand-soft); }
 .upload-title-row { display: flex; align-items: center; justify-content: space-between; margin: 0 -8px 18px 0; }
 .upload-title-row h2 { font-size: 17px; font-weight: 700; color: var(--brand); }
@@ -11,7 +11,7 @@
   display: flex; align-items: center; gap: 12px;
   padding: 0 16px;
   border: 2px solid var(--outline); border-radius: 16px; background: var(--bg);
-  font-size: 16px; font-weight: 600; color: var(--ink); text-align: left;
+  font-size: 16px; font-weight: 600; color: var(--ink); text-align: start;
   transition: background-color 120ms, border-color 120ms;
 }
 .upload-tile:hover { background: var(--surface); border-color: #B8B8BE; }
