@@ -34,6 +34,7 @@ import { LANGUAGES, useSettings } from "./settings";
 import { confidenceStats, contextText, recordingShapeStats, translationTranscript } from "./transcript";
 import { WELCOME_FOLDER, isStarterRecording, seedWelcome } from "./welcome";
 import { openFailedUpload, openUpload, resumeUploads } from "./upload";
+import { isInstalled, startInstallSupport } from "./install";
 
 // Captio AI on the computer, laid out like the iPad app: Home's blue band
 // with the wordmark and the gear, the white card under it, and in the card
@@ -64,6 +65,10 @@ export default function DesktopApp({ supabaseUrl, anonKey, allowPreview }: {
 }) {
   const [account, setAccount] = useState<Account | null | "loading">("loading");
   const [signInError, setSignInError] = useState<string | null>(null);
+
+  useEffect(() => {
+    startInstallSupport();
+  }, []);
 
   useEffect(() => {
     const sb = initClient(supabaseUrl, anonKey);
@@ -101,7 +106,7 @@ export default function DesktopApp({ supabaseUrl, anonKey, allowPreview }: {
   useEffect(() => {
     // `from`: the website button that brought them (header, menu, download_card,
     // the app's Settings), read before the address is tidied up.
-    if (account !== "loading") capture("web_app_viewed", { signed_in: !!account, from: ENTRY_FROM });
+    if (account !== "loading") capture("web_app_viewed", { signed_in: !!account, from: ENTRY_FROM, installed: isInstalled() });
   }, [account === "loading", !!account]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const signIn = async (provider: Provider) => {

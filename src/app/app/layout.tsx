@@ -20,6 +20,10 @@ export const metadata: Metadata = {
   title: { absolute: "Captio AI" },
   description: "Your Captio AI recordings on your computer: captions, summaries and folders.",
   robots: { index: false, follow: false },
+  // Installable as a desktop app (install.ts).
+  manifest: "/web-app/manifest.webmanifest",
+  appleWebApp: { capable: true, title: "Captio AI", statusBarStyle: "default" },
+  icons: { apple: "/web-app/apple-touch-icon.png" },
 };
 
 export const viewport: Viewport = { themeColor: "#FFFFFF" };

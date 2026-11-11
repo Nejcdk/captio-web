@@ -8,12 +8,13 @@ import { openPaywall } from "./paywallStore";
 import { InviteSettingsNote } from "./InviteChip";
 import { MicrophonePage } from "./MicrophonePage";
 import { isPlusNow, plusForSale, usePlus } from "./plus";
+import { promptInstall, useCanInstall } from "./install";
 import { Button, confirmCard, showErrorAlert } from "./ui";
 import { FREE_DAILY_CREDITS, creditsRemaining } from "./usage";
 import { LANGUAGES, updateSettings, useSettings } from "./settings";
 import {
   BugIcon, ChevronLeftIcon, ChevronRightIcon, CopyCheckIcon, CopyIcon, DiscordLogo, FileTextIcon, LanguagesIcon,
-  LightbulbIcon, LogOutIcon, MailIcon, MicrophoneIcon, PhoneIcon, PuzzleIcon, SearchIcon, ShareIcon, ShieldIcon, StarIcon, TrashIcon,
+  DesktopIcon, LightbulbIcon, LogOutIcon, MailIcon, MicrophoneIcon, PhoneIcon, PuzzleIcon, SearchIcon, ShareIcon, ShieldIcon, StarIcon, TrashIcon,
   UsersIcon, XIcon,
 } from "./Icons";
 
@@ -90,6 +91,7 @@ function SettingsMain({ account, onPage, onBack, onSignOut, supabase }: {
   const { separateSpeakers } = useSettings();
   const { isPlus, known: plusKnown } = usePlus();
   const [shared, setShared] = useState(false);
+  const canInstall = useCanInstall();
   const [deleting, setDeleting] = useState<"no" | "busy">("no");
 
   const shareApp = async () => {
@@ -166,6 +168,9 @@ function SettingsMain({ account, onPage, onBack, onSignOut, supabase }: {
             Apple Watch app joins later). */}
         <div className="group-label">MORE FROM CAPTIO AI</div>
         <div className="group">
+          {canInstall && (
+            <Row icon={<DesktopIcon size={20} />} label="Install Captio AI on this computer" onClick={() => { void promptInstall(); }} />
+          )}
           <Row icon={<PhoneIcon size={20} />} label="Captio AI for iPhone and iPad" href="https://apps.apple.com/app/apple-store/id6796617180?pt=129242349&ct=web_app_settings&mt=8" onOpen={() => capture("settings_product_tapped", { product: "ios" })} />
           <Row icon={<PhoneIcon size={20} />} label="Captio AI for Android" href="https://play.google.com/store/apps/details?id=com.captio.app" onOpen={() => capture("settings_product_tapped", { product: "android" })} />
         </div>

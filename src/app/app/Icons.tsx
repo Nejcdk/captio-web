@@ -23,6 +23,7 @@ export const LogOutIcon = (p: IconProps) => <Tabler {...p} paths={["M14 8v-2a2 2
 export const FileTextIcon = (p: IconProps) => <Tabler {...p} paths={["M9 2h6s1 0 1 1v2s0 1 -1 1H9S8 6 8 5V3s0 -1 1 -1", "M10.4 12.6a2 2 0 0 1 3 3L8 21l-4 1 1 -4Z", "M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-5.5", "M4 13.5V6a2 2 0 0 1 2 -2h2"]} />;
 export const ShieldIcon = (p: IconProps) => <Tabler {...p} paths={["M20 13c0 5 -3.5 7.5 -7.66 8.95a1 1 0 0 1 -0.67 -0.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1 -1c2 0 4.5 -1.2 6.24 -2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"]} />;
 export const UsersIcon = (p: IconProps) => <Tabler {...p} paths={["M9 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0", "M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2", "M16 3.13a4 4 0 0 1 0 7.75", "M21 21v-2a4 4 0 0 0 -3 -3.85"]} />;
+export const DesktopIcon = (p: IconProps) => <Tabler {...p} paths={["M3 5a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1v-10z", "M7 20h10", "M9 16v4", "M15 16v4"]} />;
 export const PhoneIcon = (p: IconProps) => <Tabler {...p} paths={["M6 5a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2v-14z", "M11 4h2", "M12 17v.01"]} />;
 
 export const ChevronLeftIcon = (p: IconProps) => <Tabler {...p} weight={2.5} paths={["M15 6l-6 6l6 6"]} />;
