@@ -29,11 +29,11 @@ Inputs the reviewer gets: the article file path, the topic entry from `topics.js
    - HTTP 200, the title is the `<h1>`, the Short answer, FAQ answers and sources are in the HTML.
    - The JSON-LD parses and contains `BlogPosting`, `FAQPage` and `BreadcrumbList`.
    - `/blog`, `/blog/rss.xml`, `/llms.txt` and `/sitemap.xml` list the new article.
-   - `/blog/<slug>/opengraph-image` returns a PNG.
+   - `/blog/<slug>/opengraph-image` returns a PNG (the article's `share.png`), and `/sitemap.xml` lists the article's pictures under it.
    - Every internal link in the article returns 200 on the local server.
 4. If a browser is available: open the article at 375 px wide and 1280 px wide; no horizontal scroll, tables scroll inside their box, nothing overlaps.
 
-5. **Images and alt text:** at least 1 image, aim for 3. Open each image file (Read it): it is a real image (product screenshot or a chart from cited data), it matches the topic, the alt text says what it actually shows, and demo data is captioned as sample content. FAIL on stock people photos, invented UI, or alt text that is empty, generic ("image of app") or wrong.
+5. **Pictures and alt text:** at least 2 pictures made for this article (`/blog-images/<slug>/`), the first picture in the article being one of them (PLAYBOOK section 12). Open each picture file (Read it) and the scene `content/blog/scenes/<slug>.json`: the screen shows this article's topic (a doctor's guide shows a check-up, not a team meeting), it only shows things the app really does (CAPTIO_FACTS.md), the names are made up, nothing is cut off where it matters, the alt text says what the picture actually shows and names Captio AI, and the caption says "Sample content." A site picture (`*_mockup_*.png`, `/app/`) is fine only for an iPhone-only feature. FAIL on a picture that doesn't fit the topic, a picture borrowed from another article, stock people photos, drawn or invented UI, or alt text that is empty, generic ("image of app") or wrong.
 6. **Plagiarism check:** take 5 distinctive sentences from the body and search each in quotation marks (WebSearch). Any near-verbatim match on another page is a FAIL (quotes under 25 words with attribution and citation are fine). Record the 5 sentences and the result in the report.
 7. **Search checklist (PLAYBOOK section 12):** answer-first, at least 4 cited sources and 4 external links, 3 to 10 internal links, tags appear in the text, meta tags in range, JSON-LD parses (BlogPosting, FAQPage, BreadcrumbList).
 

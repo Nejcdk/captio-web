@@ -51,6 +51,10 @@ export type KeyFact = { value: string; label: string; source?: number };
 export type Faq = { q: string; a: string };
 export type Source = { title: string; publisher: string; url: string; year?: string };
 export type TocItem = { id: string; text: string };
+// A picture in the article body: its address on this site, alt text and caption.
+// Pictures made for the article (scripts/blog-shots.mjs) live under
+// /blog-images/<slug>/ and are the ones image search should learn from.
+export type PostImage = { src: string; alt: string; caption?: string };
 
 export type BlogPost = {
   slug: string;
@@ -68,6 +72,9 @@ export type BlogPost = {
   draft: boolean;
   html: string;
   toc: TocItem[];
+  images: PostImage[];
+  /** The share card made with the article's pictures, if there is one. */
+  shareImage: string | null;
   words: number;
   readingMinutes: number;
 };
@@ -178,8 +185,13 @@ function renderBody(markdown: string, sourceCount: number, slug: string) {
     }
   }
 
+  const images: PostImage[] = [];
+  marked.walkTokens(tokens, (t) => {
+    if (t.type === "image" && t.href.startsWith("/")) images.push({ src: t.href, alt: t.text, ...(t.title ? { caption: t.title } : {}) });
+  });
+
   const html = marked.parser(tokens);
-  return { html, toc };
+  return { html, toc, images };
 }
 
 function parsePost(file: string): BlogPost {
@@ -217,7 +229,11 @@ function parsePost(file: string): BlogPost {
     }
   });
 
-  const { html, toc } = renderBody(content, sources.length, slug);
+  const { html, toc, images } = renderBody(content, sources.length, slug);
+  for (const img of images) {
+    if (!fs.existsSync(path.join(process.cwd(), "public", decodeURI(img.src)))) fail(slug, `image ${img.src} is not in public/`);
+  }
+  const share = `/blog-images/${slug}/share.png`;
   const words = content.split(/\s+/).filter(Boolean).length;
 
   return {
@@ -236,6 +252,8 @@ function parsePost(file: string): BlogPost {
     draft: data.draft === true,
     html,
     toc,
+    images,
+    shareImage: fs.existsSync(path.join(process.cwd(), "public", share)) ? share : null,
     words,
     readingMinutes: Math.max(1, Math.round(words / 230)),
   };

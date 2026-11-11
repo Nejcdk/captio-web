@@ -1,7 +1,11 @@
+import fs from "node:fs";
+import path from "node:path";
 import { ImageResponse } from "next/og";
 import { CATEGORIES, getAllPosts, getPost } from "@/lib/blog";
 
-// Share card per article: category, title and the site, on brand blue.
+// Share card per article: the card made with the article's own app pictures
+// (public/blog-images/<slug>/share.png, scripts/blog-shots.mjs) when there is
+// one; else category, title and the site, on brand blue.
 export const alt = "Captio AI blog article";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
@@ -15,6 +19,10 @@ export function generateStaticParams() {
 export default async function Image({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const post = getPost(slug);
+  if (post?.shareImage) {
+    const file = fs.readFileSync(path.join(process.cwd(), "public", post.shareImage));
+    return new Response(new Uint8Array(file), { headers: { "Content-Type": "image/png" } });
+  }
   const title = post?.title ?? "Captio AI blog";
   const fontSize = title.length > 80 ? 60 : title.length > 55 ? 70 : 80;
 

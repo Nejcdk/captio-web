@@ -3,7 +3,7 @@ title: "How to follow a conversation that switches between languages"
 description: "In the US, 78.3% of people speak only English at home [1]. How to caption a talk that mixes English and Spanish, with flags, language hints and fixes."
 category: guides
 published: 2026-10-29
-updated: 2026-10-29
+updated: 2026-11-11
 author: nate
 tags: [live captions two languages, bilingual conversation captions, code-switching captions, spanish english captions, deaf bilingual family]
 answer: "To caption a conversation that switches between two languages, use a captioning app that handles mixed speech and tell it which languages to expect. Captio AI, a live captioning app for deaf and hard of hearing people, supports speech that switches languages mid-sentence. On iPhone it adds a flag to each speaker tag and lets you fix a recording's language afterwards [5]. Google Live Transcribe offers one primary and one secondary language [2]."
@@ -95,7 +95,7 @@ For a family dinner in English and Spanish, put the phone on the table, add both
 4. Start Live Captions. On iPhone from version 1.1.3, each speaker tag also shows the flag of the language being spoken, so you can see when a cousin moves from English to Spanish.
 5. Afterwards, give the speakers names. See [how to see who is talking in live captions](/blog/how-to-see-who-is-talking-in-live-captions) for how names and tags work.
 
-![Captio AI Live Captions on iPhone showing two speaker tags and live words appearing as people talk](/LC_mockup_2.png "Live Captions in Captio AI, sample content")
+![Captio AI captions of a family dinner in Spanish and English, each line tagged with the speaker's name and a Spanish or British flag](/blog-images/how-to-caption-a-conversation-in-two-languages/captio-ai-spanish-english-dinner-captions.webp "A Spanish and English dinner captioned in Captio AI: names and language flags on every line. Sample content.")
 
 This works for [group settings](/use-cases/group-settings) of any size. If the family speaks Spanish, the [Spanish page](/spanish) lists the dialects Captio AI covers, and [group settings in Spanish](/use-cases/group-settings/spanish) answers questions specific to a Spanish-speaking table.
 
@@ -105,7 +105,7 @@ In everyday conversations, such as a shop counter, a neighbour at the door or a 
 
 If you also need the other person's words in your own language, switch on Live Translator. It shows the translation next to the original captions. Captio AI's App Store listing describes a two-way mode in which "each person sees the other side in their own language" [5].
 
-![Captio AI Live Translator screen on iPhone with a Translate switch turned on and English selected](/LT_mockup_1.png "Live Translator in Captio AI, sample content")
+![Captio AI translation of directions asked at a market in Spain: the English translation on top, the Spanish that was said in grey under it](/blog-images/how-to-caption-a-conversation-in-two-languages/captio-ai-spanish-to-english-translation.webp "A translation in Captio AI: what was said in Spanish under each English line. Sample content.")
 
 ## What about travelling to a country where you do not speak the language?
 

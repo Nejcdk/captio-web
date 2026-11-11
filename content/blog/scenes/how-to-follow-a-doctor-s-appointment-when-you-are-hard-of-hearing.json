@@ -1,0 +1,96 @@
+{
+  "slug": "how-to-follow-a-doctor-s-appointment-when-you-are-hard-of-hearing",
+  "me": "Maria",
+  "folders": [
+    { "id": "health", "name": "Health", "icon": "heart", "color": "#FF6FAE" }
+  ],
+  "recordings": [
+    {
+      "id": "cardio",
+      "title": "Cardiology check-up with Dr. Patel",
+      "emoji": "🩺",
+      "minutes": 18,
+      "ago": "40m",
+      "folder": "health",
+      "speakerNames": { "1": "Dr. Patel", "2": "Maria" },
+      "segments": [
+        { "speaker": "1", "text": "Before we start, is it okay if I talk a little slower and face you the whole time?" },
+        { "speaker": "2", "text": "Yes, thank you. I'm also using captions on my phone, so I can read everything you say." },
+        { "speaker": "1", "text": "Perfect. Your blood pressure is better than in March, but still a bit high. I'd like to add one tablet in the morning, with breakfast." },
+        { "speaker": "2", "text": "Can that make my tinnitus or my balance worse? I get dizzy sometimes." },
+        { "speaker": "1", "text": "Good question. Some people feel light-headed in the first week. Stand up slowly, and if the dizziness gets worse, call the practice the same day." },
+        { "speaker": "2", "text": "Okay. Could I have the name of the tablet and the dose in writing?" },
+        { "speaker": "1", "text": "Of course, it'll be on the printout. And let's do a blood test in two weeks and see each other again in three months." }
+      ],
+      "summary": [
+        { "type": "header", "emoji": "🩺", "text": "Cardiology check-up" },
+        { "type": "callout", "tone": "blue", "title": "In short", "text": "Blood pressure is better than in March but still a bit high. Dr. Patel adds one tablet in the morning, with a blood test in two weeks and a follow-up in three months." },
+        { "type": "subheader", "text": "What changes" },
+        { "type": "bullet", "label": "New tablet", "text": "One in the morning, with breakfast. Name and dose come on the printout." },
+        { "type": "bullet", "label": "Side effects", "text": "Some people feel light-headed in the first week. Stand up slowly." },
+        { "type": "callout", "tone": "orange", "title": "Call the practice", "text": "The same day if the dizziness gets worse." },
+        { "type": "fact", "label": "Blood test", "text": "In two weeks" },
+        { "type": "fact", "label": "Next visit", "text": "In three months" }
+      ],
+      "actions": {
+        "todos": [
+          { "type": "header", "emoji": "✅", "text": "To-dos after the check-up" },
+          { "type": "todo", "text": "Ask at the desk for the printout with the tablet's name and dose", "done": true, "owner": "Maria", "due": "Today" },
+          { "type": "todo", "text": "Take the new tablet every morning with breakfast", "done": false, "owner": "Maria" },
+          { "type": "todo", "text": "Book the blood test", "done": false, "owner": "Maria", "due": "In two weeks" },
+          { "type": "todo", "text": "Call the practice if the dizziness gets worse", "done": false, "owner": "Maria" },
+          { "type": "todo", "text": "Book the follow-up visit", "done": false, "owner": "Maria", "due": "In three months" }
+        ]
+      }
+    },
+    {
+      "id": "physio",
+      "title": "Physio: knee exercises",
+      "emoji": "🦵",
+      "minutes": 26,
+      "ago": "3d",
+      "folder": "health",
+      "speakerNames": { "1": "Tom", "2": "Maria" },
+      "segments": [
+        { "speaker": "1", "text": "Ten of these every evening, slowly, and stop if it hurts." }
+      ]
+    },
+    {
+      "id": "pharmacy",
+      "title": "Pharmacy: picking up the new tablets",
+      "emoji": "💊",
+      "minutes": 4,
+      "ago": "20m",
+      "folder": "health",
+      "segments": [
+        { "speaker": "1", "text": "Here you go. Take one every morning with breakfast, it's on the label too." }
+      ]
+    },
+    {
+      "id": "team",
+      "title": "Team meeting: spring schedule",
+      "emoji": "📅",
+      "minutes": 34,
+      "ago": "1d",
+      "segments": [
+        { "speaker": "1", "text": "Let's go through the spring schedule week by week." }
+      ]
+    },
+    {
+      "id": "dinner",
+      "title": "Sunday lunch at Grandma's",
+      "emoji": "🍲",
+      "minutes": 52,
+      "ago": "4d",
+      "segments": [
+        { "speaker": "1", "text": "Who wants more soup?" }
+      ]
+    }
+  ],
+  "shots": [
+    { "name": "doctor-appointment-captions", "screen": "captions", "recording": "cardio" },
+    { "name": "doctor-appointment-to-dos", "screen": "action", "action": "todos", "recording": "cardio" },
+    { "name": "doctor-appointment-summary", "screen": "summary", "recording": "cardio" },
+    { "name": "health-folder", "screen": "folder", "folder": "health" }
+  ]
+}

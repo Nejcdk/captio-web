@@ -104,7 +104,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
       });
     }
     for (const post of posts) {
-      entries.push({ url: `${SITE_URL}/blog/${post.slug}`, lastModified: post.updated });
+      const pictures = post.images.map((img) => `${SITE_URL}${img.src}`);
+      entries.push({ url: `${SITE_URL}/blog/${post.slug}`, lastModified: post.updated, ...(pictures.length ? { images: pictures } : {}) });
     }
   }
 

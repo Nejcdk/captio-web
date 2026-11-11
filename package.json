@@ -9,6 +9,7 @@
     "lint": "eslint",
     "blog:check": "node scripts/blog-check.mjs",
     "blog:coverage": "node scripts/blog-coverage.mjs",
+    "blog:shots": "node scripts/blog-shots.mjs",
     "compare:check": "node scripts/compare-check.mjs",
     "social:render": "node scripts/social-render.mjs",
     "social:check": "node scripts/social-check.mjs",

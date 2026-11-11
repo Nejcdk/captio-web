@@ -1,0 +1,71 @@
+{
+  "slug": "how-to-caption-a-conversation-in-two-languages",
+  "me": "Sam",
+  "folders": [
+    { "id": "family", "name": "Family", "icon": "heart", "color": "#FF6FAE" },
+    { "id": "trip", "name": "Trip to Seville", "icon": "", "color": "#F5A623" }
+  ],
+  "recordings": [
+    {
+      "id": "dinner",
+      "title": "Dinner with Lucía's parents",
+      "emoji": "🥘",
+      "minutes": 47,
+      "ago": "1h",
+      "folder": "family",
+      "speakerNames": { "1": "Carmen", "2": "Lucía", "3": "Sam" },
+      "segments": [
+        { "speaker": "1", "language": "es", "text": "¿Quién quiere más paella? Hay muchísima." },
+        { "speaker": "3", "language": "en", "text": "Me, please! This is the best paella I've had all year." },
+        { "speaker": "2", "language": "en", "text": "Mum, Sam says it's the best paella of the year." },
+        { "speaker": "1", "language": "es", "text": "¡Qué majo! Entonces el domingo os enseño a hacerla." },
+        { "speaker": "2", "language": "es", "text": "Vale, pero que Papá no ponga chorizo esta vez." },
+        { "speaker": "3", "language": "en", "text": "Sunday works for me. What time should we come?" }
+      ]
+    },
+    {
+      "id": "market",
+      "title": "Asking for directions at the market",
+      "emoji": "🧭",
+      "minutes": 3,
+      "ago": "2d",
+      "folder": "trip",
+      "segments": [
+        { "speaker": "1", "language": "en", "text": "Go straight on and turn left after the church. It's five minutes on foot.", "original": { "language": "es", "text": "Siga recto y gire a la izquierda después de la iglesia. Está a cinco minutos andando." } },
+        { "speaker": "2", "language": "en", "text": "Thank you! Is it open on Sundays?" },
+        { "speaker": "1", "language": "en", "text": "Yes, until two in the afternoon.", "original": { "language": "es", "text": "Sí, hasta las dos de la tarde." } }
+      ]
+    },
+    {
+      "id": "abuela",
+      "title": "Video call with Abuela",
+      "emoji": "👵",
+      "minutes": 22,
+      "ago": "3d",
+      "folder": "family",
+      "segments": [ { "speaker": "1", "language": "es", "text": "¡Hola, cariño! ¿Cómo estáis?" } ]
+    },
+    {
+      "id": "standup",
+      "title": "Monday stand-up",
+      "emoji": "☕",
+      "minutes": 15,
+      "ago": "4d",
+      "segments": [ { "speaker": "1", "text": "Quick round, what's everyone on this week?" } ]
+    },
+    {
+      "id": "school",
+      "title": "Parents' evening with Mr. Ortega",
+      "emoji": "🏫",
+      "minutes": 12,
+      "ago": "6d",
+      "folder": "family",
+      "segments": [ { "speaker": "1", "language": "es", "text": "Mateo lee muy bien para su edad." } ]
+    }
+  ],
+  "shots": [
+    { "name": "spanish-english-dinner-captions", "screen": "captions", "recording": "dinner" },
+    { "name": "spanish-to-english-translation", "screen": "captions", "recording": "market" },
+    { "name": "family-folder-two-languages", "screen": "folder", "folder": "family" }
+  ]
+}
