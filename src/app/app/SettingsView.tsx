@@ -2,7 +2,7 @@ import { useEffect, useState, type ReactNode } from "react";
 import type { SupabaseClient } from "@supabase/supabase-js";
 import "./paywall.css";
 import type { Account } from "./DesktopApp";
-import { capture, recordError } from "./client";
+import { capture, needsAccount, recordError } from "./client";
 import { manageSubscriptionUrl } from "./Paywall";
 import { openPaywall } from "./paywallStore";
 import { InviteSettingsNote } from "./InviteChip";
@@ -68,7 +68,7 @@ export function SettingsView({ account, page, onPage, onBack, onSignOut, supabas
 }) {
   const { isPlus } = usePlus();
   useEffect(() => {
-    if (page === "main") capture("settings_opened", { is_plus: isPlus, signed_in: true });
+    if (page === "main") capture("settings_opened", { is_plus: isPlus, signed_in: !account.guest });
     else if (page === "microphone") capture("mic_settings_opened");
     else if (page === "connectors") capture("connect_chats_viewed", { signed_in: true });
   }, [page]); // eslint-disable-line react-hooks/exhaustive-deps
@@ -161,7 +161,7 @@ function SettingsMain({ account, onPage, onBack, onSignOut, supabase }: {
 
         <div className="group-label">ADD-ONS</div>
         <div className="group">
-          <Row icon={<PuzzleIcon size={20} />} label="Connectors" onClick={() => { capture("settings_connect_chats_tapped", { signed_in: true }); onPage("connectors"); }} />
+          <Row icon={<PuzzleIcon size={20} />} label="Connectors" onClick={() => { capture("settings_connect_chats_tapped", { signed_in: !account.guest }); if (account.guest) needsAccount("connectors"); else onPage("connectors"); }} />
         </div>
 
         {/* Captio AI's other products (the app shows this web app here; the
@@ -194,6 +194,11 @@ function SettingsMain({ account, onPage, onBack, onSignOut, supabase }: {
         </div>
 
         <div className="group-label">ACCOUNT</div>
+        {account.guest ? (
+          <div className="group">
+            <Row icon={<LogOutIcon size={20} style={{ transform: "scaleX(-1)" }} />} label="Sign In" onClick={() => { capture("settings_sign_in_tapped"); window.dispatchEvent(new CustomEvent("captio-sign-in", { detail: { source: "settings" } })); }} />
+          </div>
+        ) : (
         <div className="group">
           <Row icon={<MailIcon size={20} />} label={account.email || account.name} />
           {isPlus && (
@@ -215,6 +220,7 @@ function SettingsMain({ account, onPage, onBack, onSignOut, supabase }: {
             chevron={false}
           />
         </div>
+        )}
 
         <div className="group-label">LEGAL</div>
         <div className="group">

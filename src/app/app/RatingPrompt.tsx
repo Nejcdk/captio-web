@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { capture, getSupabase, isPreview, recordErrorOnce, store } from "./client";
+import { capture, getSupabase, isLocalOnly, recordErrorOnce, store } from "./client";
 import { markInviteDue } from "./invite";
 import { Button, ModalCard, QuietButton, showCard } from "./ui";
 
@@ -29,7 +29,7 @@ export function shouldAskForRating(durationSeconds: number): boolean {
 
 async function submitRating(rating: number, kind: RatingKind, durationSeconds: number, message?: string) {
   capture("transcript_rated", { rating, has_message: !!message?.trim(), duration_seconds: durationSeconds, kind });
-  if (isPreview()) return;
+  if (isLocalOnly()) return;
   try {
     const sb = getSupabase();
     const { data } = await sb.auth.getSession();

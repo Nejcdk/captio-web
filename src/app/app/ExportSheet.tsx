@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import "./export.css";
-import { capture, getSupabase, isPreview } from "./client";
+import { capture, getSupabase, isPreview, isGuest, needsAccount } from "./client";
 import type { Recording, RecordingBody } from "./data";
 import type { SpeakerTag } from "./format";
 import { plusForSale, usePlus } from "./plus";
@@ -143,6 +143,11 @@ function ExportSheet({ rec, body, tags, action, from, onClose }: {
       return;
     }
     // A link is saved to the account.
+    if (way === "link" && isGuest()) {
+      onClose();
+      needsAccount("export_link");
+      return;
+    }
     if (way === "link" && isPreview()) {
       capture("action_blocked", { action: "export_link", reason: "signed_out" });
       showErrorAlert({ where: "export_link", title: "Couldn't export", body: "Sign in to make a link." });

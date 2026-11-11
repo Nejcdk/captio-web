@@ -10,7 +10,7 @@
 // URL made with the caller's own session. Every job carries the caller's id
 // (client_reference_id) and only that caller can read it.
 
-import { env, errorResponse, HttpError, requireUser } from "@/lib/webapp/server";
+import { env, errorResponse, HttpError, requireCaller } from "@/lib/webapp/server";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 60;
@@ -72,14 +72,15 @@ async function signedUrl(req: Request, uid: string, path: string): Promise<strin
 
 export async function POST(req: Request) {
   try {
-    const user = await requireUser(req);
-    const ref = `web_${user.id}`.slice(0, 120);
     const b = (await req.json()) as Body;
+    const user = await requireCaller(req, b.action === "start" ? "transcribe_start" : "transcribe_poll");
+    const ref = `web_${user.id}`.slice(0, 120);
 
     if (b.action === "start") {
       const body: Record<string, unknown> = { model: SONIOX_ASYNC_MODEL, enable_language_identification: true, client_reference_id: ref };
       if (isId(b.fileId)) body.file_id = b.fileId;
-      else if (typeof b.storagePath === "string") body.audio_url = await signedUrl(req, user.id, b.storagePath);
+      // Storage is per account: a guest's files go directly (up to 4 MB).
+      else if (typeof b.storagePath === "string" && !user.guest) body.audio_url = await signedUrl(req, user.id, b.storagePath);
       else throw new HttpError(400, "no file");
       if (b.diarize) body.enable_speaker_diarization = true;
       if (Array.isArray(b.languageHints) && b.languageHints.length) body.language_hints = b.languageHints.filter(h => typeof h === "string").slice(0, 20);

@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import "./folders.css";
-import { capture } from "./client";
+import { capture, isGuest, needsAccount } from "./client";
 import type { Folder } from "./data";
 import { CopyCheckIcon, CopyIcon, LogOutIcon, TrashIcon, XIcon } from "./Icons";
 import { PencilIcon } from "./editIcons";
@@ -143,6 +143,7 @@ const inviteMessage = (folder: string, code: string) =>
 // The app's invite: makes this account's code for the folder, then the share
 // sheet where the browser has one, else a card with the link to copy.
 export async function inviteToFolder(folder: Folder, from: "folder" | "people"): Promise<void> {
+  if (isGuest()) { needsAccount("share_folder"); return; }
   const result = await createInvite(folder, from);
   if (!result.ok) {
     showErrorAlert({ where: "folder_invite", error: "failed", title: "Couldn't make an invite", body: "Check your connection and try again." });
@@ -192,6 +193,7 @@ function InviteCard({ folder, code, text, from, close }: { folder: Folder; code:
 // ─── Joining ("Got an invite code?") ──────────────────────────────────────────
 
 export function openJoinFolder() {
+  if (isGuest()) { needsAccount("join_folder"); return; }
   capture("folder_join_code_opened");
   showCard(close => <JoinCard close={close} />);
 }

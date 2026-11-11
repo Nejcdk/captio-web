@@ -11,7 +11,11 @@ export type Provider = "apple" | "google";
 
 const APP_STORE_LINK = "https://apps.apple.com/app/apple-store/id6796617180?pt=129242349&ct=web_app&mt=8";
 
-export function SignIn({ onSignIn, error }: { onSignIn: (p: Provider) => Promise<void>; error: string | null }) {
+// `onTryFree`: use it without an account (app: "Skip for now"); `onBack`: a
+// guest who came here to sign in goes back to their recordings.
+export function SignIn({ onSignIn, error, onTryFree, onBack }: {
+  onSignIn: (p: Provider) => Promise<void>; error: string | null; onTryFree?: () => void; onBack?: () => void;
+}) {
   const [busy, setBusy] = useState<Provider | null>(null);
   const start = async (p: Provider) => {
     setBusy(p);
@@ -44,6 +48,12 @@ export function SignIn({ onSignIn, error }: { onSignIn: (p: Provider) => Promise
           </button>
         </div>
         {error && <div className="error" role="alert">{error}</div>}
+        {onTryFree && (
+          <button type="button" className="signin-skip" onClick={onTryFree}>Try it without an account</button>
+        )}
+        {onBack && (
+          <button type="button" className="signin-skip" onClick={onBack}>Not now</button>
+        )}
         <p className="quiet">Already use the app? Sign in with the same account and your recordings are here.</p>
         <p className="quiet" style={{ marginTop: 8 }}>Prefer your phone? <a href={APP_STORE_LINK} target="_blank" rel="noopener">Get the app</a></p>
         <div className="legal">

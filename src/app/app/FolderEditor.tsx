@@ -8,6 +8,7 @@ import { luminance } from "./format";
 import { CheckIcon, FOLDER_ICONS, TrashIcon } from "./Icons";
 import { OptionTile, SheetCard } from "./sheet";
 import { CloseButton, confirmCard, showCard, showErrorAlert } from "./ui";
+import { isGuest, needsAccount } from "./client";
 import {
   FOLDER_COLORS, FOLDER_DEFAULT_COLOR, FOLDER_NAME_MAX, createFolder, deleteFolder, editContext, hslToHex,
   isSharedFolder, moveRecording, updateFolder,
@@ -27,6 +28,8 @@ const spotColor = (x: number, y: number) => hslToHex(x * 360, 0.9, 0.92 - y * 0.
 export function openFolderEditor({ folder, source = "home", moveRecording: rec }: {
   folder?: Folder; source?: "home" | "move_sheet"; moveRecording?: Recording;
 } = {}) {
+  // Folders live on the account.
+  if (!folder && isGuest()) { needsAccount("folders"); return; }
   showCard(close => <FolderEditor folder={folder} source={source} rec={rec} close={close} />);
 }
 

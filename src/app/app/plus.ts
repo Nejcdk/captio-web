@@ -1,5 +1,5 @@
 import { useSyncExternalStore } from "react";
-import { api, capture, isPreview, recordErrorOnce, store } from "./client";
+import { api, capture, isGuest, isPreview, recordErrorOnce, store } from "./client";
 
 // Whether this account has Plus (RevenueCat, same customer as the app), read
 // once per visit and remembered so a reload doesn't flash the free plan.
@@ -19,6 +19,11 @@ export function refreshPlus(): Promise<void> {
   loading = (async () => {
     if (isPreview()) {
       set({ isPlus: new URLSearchParams(window.location.search).get("plus") === "1", known: true });
+      return;
+    }
+    // Plus belongs to an account.
+    if (isGuest()) {
+      set({ isPlus: false, known: true });
       return;
     }
     const cached = store.get<boolean | null>("captio_plus", null);

@@ -5,7 +5,7 @@
 // { error: <ActionErrorCode> } so the browser can say why.
 
 import { BRIEF, MODEL, SCHEMA, TIMEOUT_MS, buildPrompt, clean, tooShort, type ActionErrorCode, type ActionKind, ACTION_KINDS } from "@/app/app/actionPrompts";
-import { HttpError, errorResponse, gemini, requireUser } from "@/lib/webapp/server";
+import { HttpError, errorResponse, gemini, requireCaller } from "@/lib/webapp/server";
 
 export const dynamic = "force-dynamic";
 // Long notes of a long recording take a while.
@@ -31,7 +31,7 @@ type GeminiReply = {
 
 export async function POST(req: Request) {
   try {
-    await requireUser(req);
+    await requireCaller(req, "action");
     const body = (await req.json()) as Body;
     const kind = body.kind;
     if (!kind || !ACTION_KINDS.includes(kind)) return fail("request", 400);

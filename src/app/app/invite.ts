@@ -1,5 +1,5 @@
 import { useSyncExternalStore } from "react";
-import { capture, getSupabase, isPreview, recordErrorOnce, store } from "./client";
+import { capture, getSupabase, isGuest, isPreview, recordErrorOnce, store } from "./client";
 import { RUSSIA_ZONES } from "./plus";
 
 // The referral program on the web (app repo: src/lib/referrals.ts,
@@ -68,6 +68,9 @@ const NO_CASH_ZONES = new Set(["America/Havana", "Asia/Tehran", "Asia/Pyongyang"
 
 export function cashAvailable(): boolean {
   if (typeof navigator === "undefined") return true;
+  // The program needs an account (app: Invite friends asks to sign in): a
+  // guest sees none of it until they sign in.
+  if (isGuest()) return false;
   try {
     const region = new Intl.Locale(navigator.language).maximize().region?.toUpperCase();
     if (region && NO_CASH_REGIONS.has(region)) return false;

@@ -1,6 +1,6 @@
 "use client";
 
-import { api, capture, getSupabase, isPreview, recordError, recordErrorOnce, store } from "./client";
+import { api, capture, getSupabase, isPreview, recordError, recordErrorOnce, store, isGuest } from "./client";
 import { loadLibrary, updateRecording, type Folder, type Library, type Recording } from "./data";
 import { notifyLibraryChanged } from "./events";
 import { FolderArt } from "./FolderArt";
@@ -63,6 +63,8 @@ async function library(): Promise<Library> {
 }
 
 export function afterSave(saved: SavedRecording): void {
+  // A guest has no folders, ratings table or plans to buy without an account.
+  if (isGuest()) return;
   void run(saved);
 }
 

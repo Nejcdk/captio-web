@@ -623,3 +623,9 @@ textarea.input { min-height: 160px; line-height: 1.45; }
 @keyframes cs-spin { to { transform: rotate(360deg); } }
 /* Home's PLUS badge, left of the gear (app: ProButton). */
 .band-plus { margin-right: 10px; }
+
+/* Guests (no account): "Try it without an account" / "Not now" under the
+   sign-in buttons, and the "only saved in this browser" note above the list. */
+.signin .signin-skip { margin-top: 14px; border: 0; background: none; color: var(--brand); font: inherit; font-size: 15px; font-weight: 600; cursor: pointer; padding: 8px 12px; border-radius: 12px; }
+.signin .signin-skip:hover { background: var(--brand-soft); }
+.home-guest { margin: 10px 20px 0; }

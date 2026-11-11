@@ -26,6 +26,34 @@ export function getSupabase(): SupabaseClient {
 export function setPreview(on: boolean) { preview = on; }
 export function isPreview() { return preview; }
 
+// A guest: using the app without an account (app: "Skip for now"). Their
+// recordings live in this browser; the server lets them through within a
+// daily ceiling (src/lib/webapp/server.ts requireCaller).
+let guest = false;
+export function setGuest(on: boolean) { guest = on; }
+export function isGuest() { return guest; }
+// No account: recordings are kept in this browser (the dev preview or a guest).
+export function isLocalOnly() { return preview || guest; }
+
+// A guest's own random id, which ties their speech jobs to them.
+function guestId(): string {
+  let id = "";
+  try { id = localStorage.getItem("captio_guest_id") ?? ""; } catch { /* storage blocked */ }
+  if (id.length < 16) {
+    const a = "abcdefghijklmnopqrstuvwxyz0123456789";
+    id = Array.from(crypto.getRandomValues(new Uint8Array(24)), b => a[b % a.length]).join("");
+    try { localStorage.setItem("captio_guest_id", id); } catch { /* this visit only */ }
+  }
+  return id;
+}
+
+// Something only an account can do (folders, invites, links, Plus, big
+// files): Shell shows the sign-in card.
+export function needsAccount(reason: string) {
+  capture("action_blocked", { action: reason, reason: "signed_out" });
+  window.dispatchEvent(new CustomEvent("captio-needs-account", { detail: { reason } }));
+}
+
 export class ApiError extends Error {
   constructor(public status: number, message: string) {
     super(message);
@@ -35,7 +63,7 @@ export class ApiError extends Error {
 async function authHeaders(): Promise<Record<string, string>> {
   if (preview) return { "x-preview": "1" };
   const { data } = await getSupabase().auth.getSession();
-  return data.session ? { Authorization: `Bearer ${data.session.access_token}` } : {};
+  return data.session ? { Authorization: `Bearer ${data.session.access_token}` } : { "x-guest-id": guestId() };
 }
 
 // JSON in, JSON out, or an ApiError with the server's message.

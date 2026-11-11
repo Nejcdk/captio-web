@@ -2,7 +2,7 @@
 // files API (bigger ones go through Storage, see ../route.ts). The body is
 // the file itself; its name comes in x-file-name.
 
-import { env, errorResponse, HttpError, requireUser } from "@/lib/webapp/server";
+import { env, errorResponse, HttpError, requireCaller } from "@/lib/webapp/server";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 60;
@@ -11,7 +11,7 @@ const MAX_BYTES = 4.4 * 1024 * 1024;
 
 export async function POST(req: Request) {
   try {
-    const user = await requireUser(req);
+    const user = await requireCaller(req, "transcribe_file");
     const body = await req.arrayBuffer();
     if (!body.byteLength) throw new HttpError(400, "empty file");
     if (body.byteLength > MAX_BYTES) throw new HttpError(413, "file too large for a direct upload");

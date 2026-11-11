@@ -24,7 +24,7 @@ export type HomeTab = "all" | "folders";
 const FOLDER_BACK = "M0 12C0 6.5 4.5 2 10 2H39C43 2 45.6 3.3 48.2 5.8L52 9.4C53.9 11.2 55.9 12 58.5 12H110C115.5 12 120 16.5 120 22V92C120 97.5 115.5 102 110 102H10C4.5 102 0 97.5 0 92Z";
 
 export function HomeColumn({
-  tab, onTab, folder, onFolder, library: loaded, recordings: listed, selectedId, query, onQuery, onOpen, error, onRetry, me, dock, offline,
+  tab, onTab, folder, onFolder, library: loaded, recordings: listed, selectedId, query, onQuery, onOpen, error, onRetry, me, dock, offline, notice,
 }: {
   tab: HomeTab;
   onTab: (tab: HomeTab) => void;
@@ -41,6 +41,8 @@ export function HomeColumn({
   me: string;
   dock: ReactNode;
   offline: boolean;
+  // Above the list (a guest's "only saved in this browser").
+  notice?: ReactNode;
 }) {
   // Changes made here that the list hasn't read back yet (the dev preview,
   // the Welcome folder's settings, this browser's folder order).
@@ -84,6 +86,7 @@ export function HomeColumn({
           <span>You&rsquo;re offline. You can still record audio, and it will be transcribed when you reconnect.</span>
         </div>
       )}
+      {notice}
       {error && (
         <div className="banner" role="alert">
           <span>Couldn&rsquo;t load your recordings. Check your connection.</span>

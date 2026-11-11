@@ -1,5 +1,5 @@
 import { useSyncExternalStore } from "react";
-import { capture } from "./client";
+import { capture, isGuest, needsAccount } from "./client";
 import { plusForSale } from "./plus";
 
 // Opening the paywall from anywhere (out of credits, Get Plus buttons, the
@@ -15,6 +15,12 @@ export function openPaywall(source: string) {
   // Where Plus can't be bought the plans never open (plus.ts plusForSale).
   if (!plusForSale()) {
     capture("paywall_skipped", { source, reason: "store_unavailable" });
+    return;
+  }
+  // Plus belongs to an account: a guest signs in first.
+  if (isGuest()) {
+    capture("paywall_skipped", { source, reason: "signed_out" });
+    needsAccount("plus");
     return;
   }
   state = { open: true, source };

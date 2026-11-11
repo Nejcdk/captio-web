@@ -2,7 +2,7 @@
 
 import { useRef, useState, type ReactNode } from "react";
 import "./upload.css";
-import { api, apiRaw, ApiError, capture, generateId, getSupabase, isPreview, recordErrorOnce, store } from "./client";
+import { api, apiRaw, ApiError, capture, generateId, getSupabase, isGuest, isLocalOnly, isPreview, needsAccount, recordErrorOnce, store } from "./client";
 import { insertRecording, updateRecording, type TranscriptSegment } from "./data";
 import { notifyLibraryChanged } from "./events";
 import { MicrophoneIcon } from "./Icons";
@@ -220,6 +220,7 @@ function isVideo(file: File): boolean {
 
 async function currentUserId(): Promise<string> {
   if (isPreview()) return "preview-me";
+  if (isGuest()) return "guest";
   const { data } = await getSupabase().auth.getSession();
   if (!data.session) throw new ApiError(401, "not signed in");
   return data.session.user.id;
@@ -232,7 +233,7 @@ function separateSpeakers(): boolean {
 
 // Whether this browser has an account to keep big files in Storage with.
 async function canUseStorage(): Promise<boolean> {
-  if (isPreview()) return false;
+  if (isLocalOnly()) return false;
   const { data } = await getSupabase().auth.getSession();
   return !!data.session;
 }
@@ -288,7 +289,7 @@ async function startUpload(file: File, kind: "audio" | "video", folderId: string
       removeLocal(id);
       capture("upload_too_big", { kind, bytes: prepared.blob.size, original_bytes: file.size, prepared: prepared.how, seconds: prepared.seconds, signed_in: storage });
       if (storage) showTooBig();
-      else window.dispatchEvent(new CustomEvent("captio-needs-account", { detail: { reason: "big_upload" } }));
+      else needsAccount("big_upload");
       return;
     }
     const job: UploadJob = {
@@ -503,8 +504,10 @@ async function finishUpload(job: UploadJob, segments: TranscriptSegment[], trans
   setExtras(job.id, "transcribedUntil", transcribedSeconds ?? null);
   // Its page fills in right away.
   patchLocal(job.id, { title, emoji, durationSeconds, status: undefined, failure: undefined, body });
-  if (!isPreview()) {
-    await insertRecording(getSupabase(), row.userId, {
+  if (!isLocalOnly()) {
+    // Picked as a guest and finished after signing in: the account's now.
+    const owner = row.userId === "guest" ? await currentUserId() : row.userId;
+    await insertRecording(getSupabase(), owner, {
       id: job.id, title, emoji, durationSeconds, createdAt: job.createdAt, folderId: job.folderId, segments,
     });
     notifyLibraryChanged();
@@ -531,7 +534,7 @@ async function finishUpload(job: UploadJob, segments: TranscriptSegment[], trans
 async function finishRest(job: UploadJob, segments: TranscriptSegment[]) {
   const local = getLocal(job.id);
   if (local) patchLocal(job.id, { body: { ...(local.body ?? { speakerNames: {}, labels: null, people: {}, summary: [] }), segments } });
-  else if (!isPreview()) await updateRecording(getSupabase(), job.id, { segments });
+  else if (!isLocalOnly()) await updateRecording(getSupabase(), job.id, { segments });
   setExtras(job.id, "transcribedUntil", null);
   notifyLibraryChanged();
   window.dispatchEvent(new CustomEvent("captio-recording-changed", { detail: { id: job.id } }));

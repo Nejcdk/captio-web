@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { User } from "@supabase/supabase-js";
-import { capture, generateId, getSupabase, initClient, isPreview, recordError, recordErrorOnce, setPreview, store, api } from "./client";
+import { capture, generateId, getSupabase, initClient, isLocalOnly, recordError, recordErrorOnce, setGuest, setPreview, store, api } from "./client";
 import { insertRecording, loadLibrary, type Library, type Recording, type TranscriptSegment } from "./data";
 import { PREVIEW_LIBRARY, PREVIEW_USER } from "./preview";
 import { SignIn, type Provider } from "./SignIn";
@@ -10,10 +10,10 @@ import { HomeColumn, type HomeTab } from "./HomeColumn";
 import { RecordingView } from "./RecordingView";
 import { SettingsView, type SettingsPage } from "./SettingsView";
 import { SettingsIcon } from "./Icons";
-import { CardHost, confirmCard, ensureAiConsent, ModalCard, Button, showCard, showErrorAlert } from "./ui";
+import { Banner, CardHost, confirmCard, ensureAiConsent, ModalCard, Button, QuietButton, showCard, showErrorAlert } from "./ui";
 import { Paywall } from "./Paywall";
 import { usePaywall, openPaywall } from "./paywallStore";
-import { useLocalRecordings, putLocal } from "./local";
+import { useLocalRecordings, putLocal, removeLocal } from "./local";
 import { onLibraryChanged, notifyLibraryChanged } from "./events";
 import { refreshPlus, usePlus, isPlusNow, plusForSale } from "./plus";
 import { freeSecondsLeft } from "./usage";
@@ -46,7 +46,8 @@ import { isInstalled, startInstallSupport } from "./install";
 
 const ENTRY_FROM = typeof window !== "undefined" ? new URLSearchParams(window.location.search).get("from") : null;
 
-export type Account = { userId: string; name: string; email: string; preview?: boolean };
+// `guest`: using the app without an account (app: "Skip for now").
+export type Account = { userId: string; name: string; email: string; preview?: boolean; guest?: boolean };
 export { capture };
 
 function accountOf(user: User): Account {
@@ -60,11 +61,26 @@ type LibraryState = { status: "loading" } | { status: "error" } | { status: "rea
 // recordings from the phone show up without a reload).
 const REFRESH_AFTER_MS = 30_000;
 
+// A guest (no account, app: "Skip for now") is remembered in this browser.
+const GUEST_KEY = "captio_guest";
+const GUEST: Account = { userId: "guest", name: "", email: "", guest: true };
+
 export default function DesktopApp({ supabaseUrl, anonKey, allowPreview }: {
   supabaseUrl: string; anonKey: string; allowPreview: boolean;
 }) {
   const [account, setAccount] = useState<Account | null | "loading">("loading");
   const [signInError, setSignInError] = useState<string | null>(null);
+  // Using it without an account, and a guest who asked to sign in.
+  const [guest, setGuestState] = useState(false);
+  const [signingIn, setSigningIn] = useState(false);
+
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- the choice is only known in the browser
+    setGuestState(store.get<boolean>(GUEST_KEY, false));
+    const onSignInWanted = () => setSigningIn(true);
+    window.addEventListener("captio-sign-in", onSignInWanted);
+    return () => window.removeEventListener("captio-sign-in", onSignInWanted);
+  }, []);
 
   useEffect(() => {
     startInstallSupport();
@@ -106,8 +122,15 @@ export default function DesktopApp({ supabaseUrl, anonKey, allowPreview }: {
   useEffect(() => {
     // `from`: the website button that brought them (header, menu, download_card,
     // the app's Settings), read before the address is tidied up.
-    if (account !== "loading") capture("web_app_viewed", { signed_in: !!account, from: ENTRY_FROM, installed: isInstalled() });
+    if (account !== "loading") capture("web_app_viewed", { signed_in: !!account, guest: !account && guest, from: ENTRY_FROM, installed: isInstalled() });
   }, [account === "loading", !!account]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  const tryFree = () => {
+    capture("web_app_guest_started", { from: ENTRY_FROM });
+    store.set(GUEST_KEY, true);
+    setGuest(true);
+    setGuestState(true);
+  };
 
   const signIn = async (provider: Provider) => {
     capture("web_app_signin_tapped", { provider });
@@ -133,6 +156,9 @@ export default function DesktopApp({ supabaseUrl, anonKey, allowPreview }: {
     }
     await getSupabase().auth.signOut({ scope: "local" }).catch(e => recordError("sign_out", e));
     clearAccountData();
+    store.set(GUEST_KEY, false);
+    setGuestState(false);
+    setSigningIn(false);
     setAccount(null);
   };
 
@@ -158,8 +184,24 @@ export default function DesktopApp({ supabaseUrl, anonKey, allowPreview }: {
   }, []);
 
   if (account === "loading") return <div className="capp" />;
-  if (!account) return <div className="capp"><SignIn onSignIn={signIn} error={signInError} /></div>;
-  return <Shell account={account} onSignOut={signOut} supabaseUrl={supabaseUrl} />;
+  if (!account && guest && !signingIn) {
+    setGuest(true);
+    return <Shell key="guest" account={GUEST} onSignOut={signOut} supabaseUrl={supabaseUrl} />;
+  }
+  if (!account) {
+    return (
+      <div className="capp">
+        <SignIn
+          onSignIn={signIn}
+          error={signInError}
+          onTryFree={guest ? undefined : tryFree}
+          onBack={guest ? () => setSigningIn(false) : undefined}
+        />
+      </div>
+    );
+  }
+  setGuest(false);
+  return <Shell key={account.userId} account={account} onSignOut={signOut} supabaseUrl={supabaseUrl} />;
 }
 
 // What this browser keeps for the signed-in account (app: sign-out wipes the
@@ -206,7 +248,12 @@ const STARTED_KEY = "captio_started_from_home";
 function Shell({ account, onSignOut, supabaseUrl }: { account: Account; onSignOut: () => void; supabaseUrl: string }) {
   // Shell only renders in the browser (after the session is known), so the
   // address can be read straight away.
-  const [state, setState] = useState<LibraryState>(() => (account.preview ? { status: "ready", library: PREVIEW_LIBRARY } : { status: "loading" }));
+  // A guest's recordings are all in this browser (local.ts): nothing to read.
+  const [state, setState] = useState<LibraryState>(() => (
+    account.preview ? { status: "ready", library: PREVIEW_LIBRARY }
+      : account.guest ? { status: "ready", library: { recordings: [], folders: [], people: [] } }
+        : { status: "loading" }
+  ));
   const [route, setRoute] = useState<Route>(readLocation);
   const [query, setQuery] = useState("");
   // Narrow windows show one side at a time.
@@ -227,7 +274,7 @@ function Shell({ account, onSignOut, supabaseUrl }: { account: Account; onSignOu
 
   const load = useCallback(async () => {
     loadedAt.current = Date.now();
-    if (account.preview) return;
+    if (account.preview || account.guest) return;
     try {
       const library = await loadLibrary(getSupabase());
       setState({ status: "ready", library });
@@ -235,7 +282,7 @@ function Shell({ account, onSignOut, supabaseUrl }: { account: Account; onSignOu
       recordError("load_library", e);
       setState(s => (s.status === "ready" ? s : { status: "error" }));
     }
-  }, [account.preview]);
+  }, [account.preview, account.guest]);
 
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect -- load() sets state only after its fetch
@@ -401,7 +448,7 @@ function Shell({ account, onSignOut, supabaseUrl }: { account: Account; onSignOu
     }
     if (!title) title = text.trim().split(/\s+/).slice(0, 6).join(" ") || "Untitled";
     const rec = { id, title, emoji, durationSeconds: opts.seconds, createdAt: opts.createdAt, folderId: opts.folderId, segments: opts.segments };
-    if (isPreview()) {
+    if (isLocalOnly()) {
       putLocal({ id, userId: account.userId, title, emoji, durationSeconds: opts.seconds, createdAt: opts.createdAt, folderId: opts.folderId,
         body: { segments: opts.segments, speakerNames: {}, labels: null, people: {}, summary: [] } });
     } else {
@@ -431,6 +478,64 @@ function Shell({ account, onSignOut, supabaseUrl }: { account: Account; onSignOu
         recordError("capture_recover", e);
       });
   }, [saveRecording]);
+
+  // ─── Guests ───────────────────────────────────────────────────────────────
+
+  // Something only an account can do: a card that says why, with Sign in.
+  useEffect(() => {
+    const onNeedsAccount = (e: Event) => {
+      const reason = (e as CustomEvent<{ reason: string }>).detail?.reason ?? "";
+      const why: Record<string, string> = {
+        big_upload: "Without an account, files can be up to about 30 minutes. Sign in to upload longer ones.",
+        folders: "Folders are kept on your account, so they're on every device.",
+        share_folder: "Shared folders are kept on your account.",
+        join_folder: "Sign in to join a shared folder.",
+        export_link: "A link is kept on your account.",
+        connectors: "Chat apps read your recordings from your account.",
+        plus: "Plus belongs to your account, so it works on every device.",
+      };
+      capture("sign_in_card_shown", { reason });
+      showCard(close => (
+        <ModalCard owl="owl-wave" title="Sign in to continue" body={why[reason] ?? "Sign in to continue."} onClose={close}>
+          <Button label="Sign In" size="compact" onPress={() => { capture("sign_in_card_tapped", { reason }); close(); window.dispatchEvent(new CustomEvent("captio-sign-in", { detail: { source: reason } })); }} />
+          <QuietButton label="Not now" onPress={close} />
+        </ModalCard>
+      ));
+    };
+    window.addEventListener("captio-needs-account", onNeedsAccount);
+    return () => window.removeEventListener("captio-needs-account", onNeedsAccount);
+  }, []);
+
+  // Signed in after using it as a guest: their recordings move to the account
+  // (app: claimLocalRecordings), so they're on every device from now on.
+  const claimed = useRef(false);
+  useEffect(() => {
+    if (account.guest || account.preview || claimed.current) return;
+    claimed.current = true;
+    const theirs = local.filter(r => r.userId === "guest" && !r.status && r.body && !isStarterRecording(r.id));
+    if (!theirs.length) return;
+    void (async () => {
+      let moved = 0;
+      for (const r of theirs) {
+        try {
+          await insertRecording(getSupabase(), account.userId, {
+            id: r.id, title: r.title, emoji: r.emoji, durationSeconds: r.durationSeconds, createdAt: r.createdAt, folderId: null,
+            segments: r.body!.segments, speakerNames: r.body!.speakerNames, summary: r.body!.summary,
+          });
+          removeLocal(r.id);
+          moved++;
+        } catch (e) {
+          // Kept here and tried again on the next visit.
+          recordErrorOnce("guest_claim", e);
+          claimed.current = false;
+        }
+      }
+      if (moved) {
+        capture("guest_recordings_claimed", { count: moved });
+        notifyLibraryChanged();
+      }
+    })();
+  }, [account.guest, account.preview, account.userId, local]);
 
   // ─── Live captions and translation ────────────────────────────────────────
 
@@ -649,6 +754,8 @@ function Shell({ account, onSignOut, supabaseUrl }: { account: Account; onSignOu
   // and whenever the list has nothing of theirs (app: StartHint).
   const ownRecordings = (library?.recordings ?? []).filter(r => !isStarterRecording(r.id) && r.status !== "transcribing");
   const showHint = !!library && route.tab === "all" && !query && ownRecordings.length === 0;
+  const showBackup = !!account.guest && ownRecordings.length > 0;
+  useEffect(() => { if (showBackup) capture("backup_banner_shown"); }, [showBackup]);
   // A phone-wide window: the chip shows just the 🎁 next to PLUS.
   const narrowBand = typeof window !== "undefined" && window.innerWidth < 360 && !plus.isPlus && plusForSale();
 
@@ -703,6 +810,14 @@ function Shell({ account, onSignOut, supabaseUrl }: { account: Account; onSignOu
               onRetry={load}
               me={account.userId}
               offline={!online}
+              notice={showBackup ? (
+                <Banner
+                  tone="info"
+                  style={{ margin: "10px 20px 0" }}
+                  text="Your recordings are only saved in this browser."
+                  action={{ label: "Sign In", onPress: () => { capture("backup_banner_tapped"); window.dispatchEvent(new CustomEvent("captio-sign-in", { detail: { source: "backup" } })); } }}
+                />
+              ) : undefined}
               dock={
                 <Dock
                   onRecord={() => startLive("captions")}
