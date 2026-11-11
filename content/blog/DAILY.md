@@ -38,7 +38,11 @@ It returns a priority topic if there is one, otherwise the first queued topic th
 - If fewer than 14 topics are queued, run `npm run blog:coverage`, then add 20 topics (PLAYBOOK section 10), gaps first.
 
 ## 3. Research and write
-Follow PLAYBOOK sections 3 to 9 and the search checklist in section 12 (images with alt text, 4+ external links, semantic keywords, plagiarism-safe wording). Write `content/blog/posts/<slug>.md` with `published` and `updated` set to today. Keep your research notes (each claim with its source quote) so you can fix review findings quickly, but don't give them to the reviewer.
+Follow PLAYBOOK sections 3 to 9 and the search checklist in section 12 (4+ external links, semantic keywords, plagiarism-safe wording). Write `content/blog/posts/<slug>.md` with `published` and `updated` set to today.
+
+**Pictures (PLAYBOOK section 12):** write the article's scene `content/blog/scenes/<slug>.json`, run `npm run blog:shots -- <slug>` (it starts the site in dev mode and takes a minute or two; Chrome is in the sandbox), open every picture with Read, and put at least 2 of them in the article, the first picture first. Commit `content/blog/scenes/<slug>.json` and `public/blog-images/<slug>/` with the article. Keep your research notes (each claim with its source quote) so you can fix review findings quickly, but don't give them to the reviewer.
+
+**Every day: give one older article its own pictures.** Until every article has a scene: take the oldest article without `content/blog/scenes/<slug>.json`, write its scene, render it, and replace its site pictures (`*_mockup_*.png`, `/app/*.webp`) with its own (keep a site picture only for an iPhone-only feature, PLAYBOOK section 12), the first picture being one of its own; bump `updated`, run `npm run blog:check -- <slug>`, and list it in the log and the email. Change only pictures, alt text and captions in it. It needs no review round; if the check fails and can't be fixed, leave that article as it was.
 
 **Sundays:** also refresh one older article. Pick the one with the oldest `updated` date (at least 60 days old), recheck its numbers, prices and links, fix what changed and bump `updated`. It goes through step 4 and the review like a new article.
 
@@ -60,7 +64,7 @@ Start a fresh subagent as the reviewer. Give it only: the article path, the topi
 2. Add the row to `LOG.md` (step 9).
 3. Commit everything and push to main; Vercel deploys main automatically:
 ```bash
-git add content/blog
+git add content/blog public/blog-images
 git commit -m "Blog: <title>"
 git push origin HEAD:main || (git pull --rebase origin main && npm run build && git push origin HEAD:main)
 ```
@@ -86,6 +90,7 @@ Send one email with the Gmail connector to the address given in the routine's pr
   - the link to the article (`https://captioai.app/blog/<slug>`) and the link to the blog (`https://captioai.app/blog`)
   - one sentence: what the article answers and its information gain
   - review rounds and the verdict
+  - the article's pictures: one line per picture, its full link (`https://captioai.app/blog-images/<slug>/captio-ai-<name>.webp`) and what it shows; the older article that got its own pictures today, with its link
   - articles updated, a new app version handled, or anything that needs Nejc (or "Nothing needs you today.")
 No "·" in the email. If the Gmail connector isn't available, say so in the log and in the run's final message.
 

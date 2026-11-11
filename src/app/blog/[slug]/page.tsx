@@ -73,6 +73,7 @@ export default async function BlogPostPage({ params }: Props) {
       keywords: post.tags,
       wordCount: post.words,
       image: `${url}/opengraph-image`,
+      images: post.images,
       citations: post.sources,
     }),
     ...(post.faqs.length > 0 ? [faqPageSchema(post.faqs)] : []),

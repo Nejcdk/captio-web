@@ -12,6 +12,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { execSync } from "node:child_process";
 import matter from "gray-matter";
+import { checkScene } from "./blog-shots.mjs";
 
 const ROOT = process.cwd();
 const POSTS_DIR = path.join(ROOT, "content/blog/posts");
@@ -270,6 +271,44 @@ async function checkPost(slug) {
     if (/^(image|picture|photo|screenshot)\b/i.test(im.alt)) warnings.push(`alt text starts with "${im.alt.split(" ")[0]}": say what it shows`);
     if (/^https?:\/\//.test(im.src)) errors.push(`image ${im.src} must be a file in /public, not a hotlink`);
     else if (!fs.existsSync(path.join(ROOT, "public", im.src))) errors.push(`image ${im.src} is not in /public`);
+  }
+
+  // Pictures made for this article (2026-11-11, Nejc: the same screenshot in
+  // every article is not ok; image search and AI answers should learn what
+  // Captio AI looks like from screens that fit each topic). Articles from
+  // 2026-11-12 on, and any article with a scene, need their own scene
+  // (content/blog/scenes/<slug>.json) and the pictures it makes
+  // (npm run blog:shots -- <slug>), the first picture being one of them.
+  const sceneFile = path.join(ROOT, "content/blog/scenes", `${slug}.json`);
+  const hasScene = fs.existsSync(sceneFile);
+  if (pubDay >= "2026-11-12" || hasScene) {
+    const own = images.filter((im) => im.src.startsWith(`/blog-images/${slug}/`));
+    if (!hasScene) errors.push(`no scene content/blog/scenes/${slug}.json: write one that fits the article, then npm run blog:shots -- ${slug} (PLAYBOOK section 12)`);
+    else {
+      let scene = null;
+      try { scene = JSON.parse(fs.readFileSync(sceneFile, "utf8")); } catch (e) { errors.push(`scene is not valid JSON: ${e.message}`); }
+      if (scene) {
+        for (const prob of checkScene(scene, slug)) errors.push(`scene: ${prob}`);
+        for (const shot of scene.shots ?? []) {
+          if (!fs.existsSync(path.join(ROOT, "public/blog-images", slug, `captio-ai-${shot.name}.webp`))) errors.push(`shot ${shot.name} isn't rendered: npm run blog:shots -- ${slug}`);
+        }
+      }
+      if (!fs.existsSync(path.join(ROOT, "public/blog-images", slug, "share.png"))) errors.push(`no share card public/blog-images/${slug}/share.png: npm run blog:shots -- ${slug}`);
+    }
+    if (own.length < 2) errors.push(`${own.length} pictures made for this article (at least 2 from /blog-images/${slug}/)`);
+    if (images.length && !images[0].src.startsWith(`/blog-images/${slug}/`)) errors.push(`the first picture must be one made for this article (/blog-images/${slug}/…), not ${images[0].src}`);
+    for (const im of own) {
+      if (!/Captio AI/.test(im.alt)) errors.push(`alt text of ${im.src} must name Captio AI`);
+    }
+    for (const im of images) {
+      const other = /^\/blog-images\/([^/]+)\//.exec(im.src);
+      if (other && other[1] !== slug) errors.push(`${im.src} was made for another article: make this article's own`);
+      if (!im.src.startsWith("/blog-images/")) {
+        const usedBy = allSlugs.filter((s) => s !== slug && fs.readFileSync(path.join(POSTS_DIR, `${s}.md`), "utf8").includes(`](${im.src}`));
+        if (usedBy.length >= 2) errors.push(`${im.src} is already in ${usedBy.length} other articles: show this topic with the article's own pictures instead`);
+        else warnings.push(`${im.src} is a site picture, not one made for this article: fine only for what the web app can't show (iPhone-only features)`);
+      }
+    }
   }
 
   // Semantic keywords: the tags are the search phrases; each should appear in the text

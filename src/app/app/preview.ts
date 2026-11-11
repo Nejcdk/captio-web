@@ -2,13 +2,24 @@ import type { Library, RecordingBody } from "./data";
 
 // Dev only (`npm run dev`, then /app?preview=1): made-up recordings, so the
 // layout can be checked without signing in. Never in a production build.
+//
+// The blog's pictures (scripts/blog-shots.mjs) put a scene of their own on the
+// page before it loads (window.__CAPTIO_SCENE__, from content/blog/scenes/):
+// the recordings, folders and transcripts that fit the article, shown by the
+// real app instead of the made-up ones below.
+
+type Scene = { library: Library; bodies: Record<string, RecordingBody> };
+const scene: Scene | null =
+  process.env.NODE_ENV === "development" && typeof window !== "undefined"
+    ? (window as { __CAPTIO_SCENE__?: Scene }).__CAPTIO_SCENE__ ?? null
+    : null;
 
 const HOUR = 3600_000;
 const now = Date.now();
 
 export const PREVIEW_USER = "preview-me";
 
-export const PREVIEW_LIBRARY: Library = {
+const MADE_UP_LIBRARY: Library = {
   recordings: [
     { id: "p1", userId: PREVIEW_USER, title: "Weekly product sync", emoji: "📊", durationSeconds: 2460, createdAt: now - 2 * HOUR, folderId: "f-work" },
     { id: "p2", userId: "preview-ana", title: "Dinner plans for Saturday", emoji: "🍝", durationSeconds: 380, createdAt: now - 26 * HOUR, folderId: "f-family" },
@@ -91,10 +102,13 @@ const lisbon: RecordingBody = {
   summary: [],
 };
 
-export const PREVIEW_BODIES: Record<string, RecordingBody> = {
+const MADE_UP_BODIES: Record<string, RecordingBody> = {
   p1: sync, p2: dinner, p3: doctor, p5: sync, p6: lisbon,
   p4: {
     segments: [{ speaker: "", language: "en", text: "Last week we left Rome as a small city of farmers on seven hills. Today we follow how it became a republic, and why the Romans hated the word king so much that they kept that fear for five hundred years." }],
     speakerNames: {}, labels: null, people: {}, summary: [],
   },
 };
+
+export const PREVIEW_LIBRARY: Library = scene?.library ?? MADE_UP_LIBRARY;
+export const PREVIEW_BODIES: Record<string, RecordingBody> = scene?.bodies ?? MADE_UP_BODIES;

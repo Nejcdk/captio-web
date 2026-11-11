@@ -3,7 +3,7 @@ title: "How to follow a doctor's appointment when you are hard of hearing"
 description: "Tell the practice when you book, ask for written instructions and repeat back what you heard. A step-by-step plan, with US and UK rights explained."
 category: guides
 published: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-11
 author: nate
 tags: [hard of hearing doctor appointment, understand my doctor with hearing loss, communication access plan, captions at doctor's appointment, deaf patient rights ADA]
 answer: "To follow a doctor's appointment when you are hard of hearing, tell the practice what you need when you book, give staff a written communication plan, ask for treatment details in writing and repeat back what you heard [2]. In the US, the ADA aims for communication that is equally effective [1]; in England, NHS services must follow the Accessible Information Standard [3]. Phone captions can add a second way to read what is said, as our suggestion."
@@ -117,7 +117,7 @@ Three things from HLAA's list are easy to forget under stress:
 
 For the conversation itself, a second channel helps. Captio AI, a live captioning app for deaf and hard of hearing people, turns speech into text as people talk [5]. At a [doctor's appointment](/use-cases/doctor-appointments), our suggestion is to ask the doctor if you may use it, then lay the phone on the desk between you. The captions label each speaker separately, so you know who said what [5].
 
-![Captio AI Live Captions on iPhone with two speakers labelled Speaker 1 and Speaker 2 and the words appearing as they are spoken](/LC_mockup_2.png "Live Captions in Captio AI with two speakers. Sample content.")
+![Captio AI transcript of a cardiology check-up, with Dr. Patel and Maria tagged above each line as the doctor explains a new tablet](/blog-images/how-to-follow-a-doctor-s-appointment-when-you-are-hard-of-hearing/captio-ai-doctor-appointment-captions.webp "A check-up captioned in Captio AI, each speaker tagged by name. Sample content.")
 
 Two limits are worth knowing. Live captions need an internet connection, and offline captioning is not currently supported [5]. And captions can contain mistakes, so for drug names and doses, ask for the written version. If you know a long or unusual term is coming, you can add it to Words and names beforehand. Learn more on the [Live Captions page](/live-captions).
 
@@ -129,7 +129,9 @@ For a specialist appointment, add the terms you expect to hear before you go, an
 
 After the appointment, rely on writing, not memory. HLAA recommends getting information about your treatment plan and medicines in writing [2]. If you used captions, you can save the recording as a transcript. Captio AI can also create a Summary, Key points, Detailed notes, To-dos, Q&A or a Follow-up message from a transcript, and the free plan includes 3 AI results in total [6]. Read the [AI Summary page](/ai-summary) for what each one does.
 
-![Captio AI saved transcript on iPhone with Captions and Summary tabs above a speaker's words](/AS_mockup_1.png "A saved transcript with Captions and Summary tabs in Captio AI. Sample content from a lecture, not a medical visit.")
+![Captio AI To-dos made from a doctor's appointment transcript: get the printout with the tablet's name and dose, take it with breakfast, book the blood test](/blog-images/how-to-follow-a-doctor-s-appointment-when-you-are-hard-of-hearing/captio-ai-doctor-appointment-to-dos.webp "To-dos made from the check-up transcript in Captio AI. Sample content.")
+
+![Captio AI summary of a cardiology check-up with an In short box, what changes, when to call the practice and the next visit](/blog-images/how-to-follow-a-doctor-s-appointment-when-you-are-hard-of-hearing/captio-ai-doctor-appointment-summary.webp "A summary of the same check-up in Captio AI, to compare with the clinic's printout. Sample content.")
 
 A summary is a memory aid, not a medical record. Compare it with what the clinic gives you in writing, and phone the practice if the two differ. If you want to share the notes with a family member, Captio AI can export a result as text, a link, a PDF or an email [7].
 

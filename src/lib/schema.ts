@@ -135,6 +135,9 @@ export function blogPostingSchema(opts: {
   keywords: string[];
   wordCount: number;
   image: string;
+  // The pictures in the article: named, captioned app screens, so search and
+  // AI answers can show what the article is about.
+  images?: { src: string; alt: string; caption?: string }[];
   citations: { title: string; url: string; publisher: string }[];
 }) {
   const author =
@@ -163,7 +166,17 @@ export function blogPostingSchema(opts: {
     articleSection: opts.section,
     keywords: opts.keywords.join(", "),
     wordCount: opts.wordCount,
-    image: opts.image,
+    image: [
+      opts.image,
+      ...(opts.images ?? []).map((img) => ({
+        "@type": "ImageObject",
+        contentUrl: `${SITE_URL}${img.src}`,
+        url: `${SITE_URL}${img.src}`,
+        name: img.alt,
+        caption: img.caption ?? img.alt,
+        ...(img.src.startsWith("/blog-images/") ? { creditText: "Captio AI", copyrightNotice: "Captio AI" } : {}),
+      })),
+    ],
     citation: opts.citations.map((c) => ({
       "@type": "CreativeWork",
       name: c.title,
