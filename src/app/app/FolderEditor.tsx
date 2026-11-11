@@ -9,6 +9,7 @@ import { CheckIcon, FOLDER_ICONS, TrashIcon } from "./Icons";
 import { OptionTile, SheetCard } from "./sheet";
 import { CloseButton, confirmCard, showCard, showErrorAlert } from "./ui";
 import { isGuest, needsAccount } from "./client";
+import { t } from "./i18n";
 import {
   FOLDER_COLORS, FOLDER_DEFAULT_COLOR, FOLDER_NAME_MAX, createFolder, deleteFolder, editContext, hslToHex,
   isSharedFolder, moveRecording, updateFolder,
@@ -68,7 +69,7 @@ function FolderEditor({ folder, source, rec, close }: { folder?: Folder; source:
       close();
     } catch (e) {
       setBusy(false);
-      showErrorAlert({ where: folder ? "folder_update" : "folder_create", error: e, body: "Check your connection and try again." });
+      showErrorAlert({ where: folder ? "folder_update" : "folder_create", error: e, body: t("folders.inviteFailedBody") });
     }
   };
 
@@ -76,9 +77,9 @@ function FolderEditor({ folder, source, rec, close }: { folder?: Folder; source:
     if (!folder) return;
     const shared = isSharedFolder(editContext().library, folder.id);
     const ok = await confirmCard({
-      title: "Delete folder?",
-      body: shared ? "Everyone in it loses it. Recordings stay with whoever made them." : "Its recordings stay in All transcripts.",
-      confirm: "Delete",
+      title: t("folders.deleteTitle"),
+      body: shared ? t("folders.deleteSharedBody") : t("folders.deleteBody"),
+      confirm: t("common.delete"),
       destructive: true,
     });
     if (!ok) return;
@@ -89,7 +90,7 @@ function FolderEditor({ folder, source, rec, close }: { folder?: Folder; source:
       close();
     } catch (e) {
       setBusy(false);
-      showErrorAlert({ where: "folder_delete", error: e, body: "Check your connection and try again." });
+      showErrorAlert({ where: "folder_delete", error: e, body: t("folders.inviteFailedBody") });
     }
   };
 
@@ -97,8 +98,8 @@ function FolderEditor({ folder, source, rec, close }: { folder?: Folder; source:
     <SheetCard onClose={close} wide>
       <div className="fe-head">
         <CloseButton onPress={close} />
-        <span className="fe-title">{folder ? "Edit folder" : "New folder"}</span>
-        <button type="button" className="fe-done" onClick={() => void save()} disabled={!canSave} aria-label={folder ? "Save" : "Create folder"}>
+        <span className="fe-title">{folder ? t("folders.editTitle") : t("folders.newTitle")}</span>
+        <button type="button" className="fe-done" onClick={() => void save()} disabled={!canSave} aria-label={folder ? t("common.save") : t("folders.create")}>
           <CheckIcon size={24} color="#FFFFFF" />
         </button>
       </div>
@@ -114,12 +115,12 @@ function FolderEditor({ folder, source, rec, close }: { folder?: Folder; source:
           autoFocus={!folder}
           onChange={e => setName(e.target.value)}
           onKeyDown={e => { if (e.key === "Enter") void save(); }}
-          placeholder="Folder name"
-          aria-label="Folder name"
+          placeholder={t("folders.namePlaceholder")}
+          aria-label={t("folders.namePlaceholder")}
         />
         <div className="app-tabs fe-tabs" role="tablist" style={{ gridTemplateColumns: "1fr 1fr" }}>
-          <button type="button" role="tab" aria-selected={tab === "color"} onClick={() => setTab("color")}>Color</button>
-          <button type="button" role="tab" aria-selected={tab === "icon"} onClick={() => setTab("icon")}>Icon</button>
+          <button type="button" role="tab" aria-selected={tab === "color"} onClick={() => setTab("color")}>{t("folders.colorTab")}</button>
+          <button type="button" role="tab" aria-selected={tab === "icon"} onClick={() => setTab("icon")}>{t("folders.iconTab")}</button>
         </div>
         {tab === "color" ? (
           <>
@@ -139,7 +140,7 @@ function FolderEditor({ folder, source, rec, close }: { folder?: Folder; source:
               })}
               {/* Any colour: opens the spectrum under the palette. */}
               <button
-                type="button" className={`fe-cell${isCustom || pickerOpen ? " on" : ""}`} aria-label="Any color"
+                type="button" className={`fe-cell${isCustom || pickerOpen ? " on" : ""}`} aria-label={t("folders.anyColor")}
                 onClick={() => { setPickerOpen(true); if (!isCustom) setColor(spotColor(spot.x, spot.y)); }}
               >
                 <span className="fe-swatch" style={{ background: RAINBOW }}>
@@ -168,14 +169,14 @@ function FolderEditor({ folder, source, rec, close }: { folder?: Folder; source:
               </button>
             ))}
             {/* No icon: a plain folder. */}
-            <button type="button" className={`fe-icon${!icon ? " on" : ""}`} aria-label="No icon" aria-pressed={!icon} onClick={() => setIcon("")}>
+            <button type="button" className={`fe-icon${!icon ? " on" : ""}`} aria-label={t("folders.noIcon")} aria-pressed={!icon} onClick={() => setIcon("")}>
               <svg width="26" height="26" viewBox="0 0 24 24" aria-hidden><path d="M19 5L5 19" stroke="var(--destructive)" strokeWidth={1.8} strokeLinecap="round" /></svg>
             </button>
           </div>
         )}
         {!!folder && (
           <div style={{ marginTop: 28 }}>
-            <OptionTile icon={<TrashIcon size={22} color="var(--destructive)" />} label="Delete folder" color="var(--destructive)" onPress={() => void remove()} disabled={busy} />
+            <OptionTile icon={<TrashIcon size={22} color="var(--destructive)" />} label={t("folders.delete")} color="var(--destructive)" onPress={() => void remove()} disabled={busy} />
           </div>
         )}
       </div>

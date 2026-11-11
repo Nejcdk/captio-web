@@ -16,6 +16,7 @@ import { personName } from "./format";
 import { openExport } from "./ExportSheet";
 import { openFolderEditor } from "./FolderEditor";
 import { OptionTile, SheetCard } from "./sheet";
+import { locale, t } from "./i18n";
 
 // The app's edit sheet (app repo: EditSheetScreen.tsx) as a card: no title,
 // just ✕, then one option per tile: Export, Rename, Change emoji, Move to
@@ -34,13 +35,14 @@ export function openEditSheet(recording: Recording, from: "row" | "detail", opts
   showCard(close => <EditSheet rec={recording} from={from} scope={opts.scope ?? "all"} startMode={opts.mode} close={close} />);
 }
 
-const EMOJI_SECTIONS: { label: string; emojis: string[] }[] = [
-  { label: "CONVERSATION", emojis: ["🎙️", "💬", "🗣️", "🎧", "📞", "👂", "🦻", "📢", "🔊", "🎤", "📻", "🎥"] },
-  { label: "WORK & SCHOOL", emojis: ["📚", "🎓", "🏫", "📝", "💼", "💻", "📊", "📈", "🧪", "⚖️", "🗂️", "🧑‍🏫"] },
-  { label: "HEALTH", emojis: ["🧑‍⚕️", "🏥", "💊", "🩺", "🧠", "❤️‍🩹"] },
-  { label: "DAILY LIFE", emojis: ["🏠", "👨‍👩‍👧", "🍽️", "☕", "🛒", "🎂", "🐕", "🌱", "🚗", "✈️", "🌍", "⛰️"] },
-  { label: "FUN", emojis: ["🎉", "😂", "🎵", "🎮", "⚽", "🎬", "🎨", "📸", "🎭", "🎳", "🎪", "🎯"] },
-  { label: "SYMBOLS", emojis: ["⭐", "🔥", "💡", "✅", "❤️", "⚡", "📌", "🔔", "❓", "❗", "💯", "✨"] },
+// Section names: the app's edit.emojiSections.<key>, upper-cased as the app does.
+const EMOJI_SECTIONS: { key: string; emojis: string[] }[] = [
+  { key: "conversation", emojis: ["🎙️", "💬", "🗣️", "🎧", "📞", "👂", "🦻", "📢", "🔊", "🎤", "📻", "🎥"] },
+  { key: "work", emojis: ["📚", "🎓", "🏫", "📝", "💼", "💻", "📊", "📈", "🧪", "⚖️", "🗂️", "🧑‍🏫"] },
+  { key: "health", emojis: ["🧑‍⚕️", "🏥", "💊", "🩺", "🧠", "❤️‍🩹"] },
+  { key: "daily", emojis: ["🏠", "👨‍👩‍👧", "🍽️", "☕", "🛒", "🎂", "🐕", "🌱", "🚗", "✈️", "🌍", "⛰️"] },
+  { key: "fun", emojis: ["🎉", "😂", "🎵", "🎮", "⚽", "🎬", "🎨", "📸", "🎭", "🎳", "🎪", "🎯"] },
+  { key: "symbols", emojis: ["⭐", "🔥", "💡", "✅", "❤️", "⚡", "📌", "🔔", "❓", "❗", "💯", "✨"] },
 ];
 
 async function bodyOf(rec: Recording): Promise<RecordingBody> {
@@ -64,7 +66,7 @@ export function EditSheet({ rec, from, scope, startMode, close }: {
   const current = rec.folderId ? folders.find(f => f.id === rec.folderId) : undefined;
   // A friend's recording in a shared folder: theirs to change.
   const theirs = !!rec.userId && rec.userId !== me && !rec.local;
-  const owner = theirs ? personName(library?.people ?? [], rec.folderId, rec.userId) ?? "Someone" : "";
+  const owner = theirs ? personName(library?.people ?? [], rec.folderId, rec.userId) ?? t("folders.someone") : "";
   const ready = !rec.status;
 
   // What the speakers and Export need: the recording's lines.
@@ -78,14 +80,14 @@ export function EditSheet({ rec, from, scope, startMode, close }: {
   const speakers = body ? [...new Set(body.segments.map(s => s.speaker).filter(Boolean))].sort((a, b) => parseInt(a, 10) - parseInt(b, 10)) : [];
   const hasText = !!body?.segments.some(s => s.text.trim());
 
-  const run = async (where: string, work: () => Promise<void>, title = "Something went wrong") => {
+  const run = async (where: string, work: () => Promise<void>, title = t("errorReport.title")) => {
     setBusy(true);
     try {
       await work();
       close();
     } catch (e) {
       setBusy(false);
-      showErrorAlert({ where, error: e, title, body: "Check your connection and try again." });
+      showErrorAlert({ where, error: e, title, body: t("folders.inviteFailedBody") });
     }
   };
 
@@ -104,9 +106,9 @@ export function EditSheet({ rec, from, scope, startMode, close }: {
     if (target && isSharedFolder(library, target.id)) {
       const others = membersOf(library, target.id) - 1;
       const ok = await confirmCard({
-        title: `Share with ${others} ${others === 1 ? "person" : "people"}?`,
-        body: `Everyone in ${target.name} will see this recording.`,
-        confirm: "Move",
+        title: t("folders.shareMoveTitle", { people: t("folders.peopleCount", { count: others }) }),
+        body: t("folders.shareMoveBody", { folder: target.name }),
+        confirm: t("folders.shareMoveConfirm"),
       });
       if (!ok) return;
     }
@@ -114,7 +116,7 @@ export function EditSheet({ rec, from, scope, startMode, close }: {
   };
 
   const remove = async () => {
-    const ok = await confirmCard({ title: "Delete recording?", body: "This cannot be undone.", confirm: "Delete", destructive: true });
+    const ok = await confirmCard({ title: t("recording.deleteTitle"), body: t("recording.deleteBody"), confirm: t("common.delete"), destructive: true });
     if (!ok) return;
     void run("recording_delete", () => deleteRecording(rec, scope));
   };
@@ -136,8 +138,8 @@ export function EditSheet({ rec, from, scope, startMode, close }: {
     return (
       <SheetCard onClose={close}>
         <div className="es-top">
-          <span className="es-title">Rename</span>
-          <button type="button" className="es-icon-btn" onClick={submitRename} disabled={!title.trim() || busy} aria-label="Save">
+          <span className="es-title">{t("edit.rename")}</span>
+          <button type="button" className="es-icon-btn" onClick={submitRename} disabled={!title.trim() || busy} aria-label={t("common.save")}>
             <CheckIcon size={24} color="var(--brand)" />
           </button>
         </div>
@@ -147,8 +149,8 @@ export function EditSheet({ rec, from, scope, startMode, close }: {
           autoFocus
           onChange={e => setTitle(e.target.value)}
           onKeyDown={e => { if (e.key === "Enter") submitRename(); }}
-          placeholder="Enter title…"
-          aria-label="Title"
+          placeholder={t("edit.titlePlaceholder")}
+          aria-label={t("web.edit.renameTitleLabel")}
         />
       </SheetCard>
     );
@@ -158,13 +160,13 @@ export function EditSheet({ rec, from, scope, startMode, close }: {
     return (
       <SheetCard onClose={close}>
         <div className="es-top">
-          <span className="es-title">Change Emoji</span>
+          <span className="es-title">{t("edit.changeEmoji")}</span>
           <CloseButton onPress={close} />
         </div>
         <div className="es-emoji-scroll">
           {EMOJI_SECTIONS.map(section => (
-            <div key={section.label}>
-              <div className="es-section">{section.label}</div>
+            <div key={section.key}>
+              <div className="es-section">{t(`edit.emojiSections.${section.key}`).toLocaleUpperCase(locale())}</div>
               <div className="es-emoji-grid">
                 {section.emojis.map(e => (
                   <button
@@ -189,10 +191,10 @@ export function EditSheet({ rec, from, scope, startMode, close }: {
     return (
       <SheetCard onClose={close}>
         <div className="es-top">
-          <span className="es-title">Move to folder</span>
+          <span className="es-title">{t("edit.moveToFolder")}</span>
           {startMode === "folder"
             ? <CloseButton onPress={close} />
-            : <button type="button" className="es-back" onClick={() => setMode("main")}>Back</button>}
+            : <button type="button" className="es-back" onClick={() => setMode("main")}>{t("common.back")}</button>}
         </div>
         <div className="es-options es-scroll">
           {choices.map(f => {
@@ -212,12 +214,12 @@ export function EditSheet({ rec, from, scope, startMode, close }: {
           })}
           <OptionTile
             icon={<PlusLineIcon size={22} color="var(--brand)" />}
-            label="New folder"
+            label={t("folders.new")}
             color="var(--brand)"
             onPress={() => { close(); setTimeout(() => openFolderEditor({ source: "move_sheet", moveRecording: rec }), 0); }}
           />
           {!!current && (
-            <OptionTile icon={<FolderOffIcon size={22} color="var(--ink-meta)" />} label="Remove from folder" onPress={() => void moveTo(null)} disabled={busy} />
+            <OptionTile icon={<FolderOffIcon size={22} color="var(--ink-meta)" />} label={t("folders.removeFromFolder")} onPress={() => void moveTo(null)} disabled={busy} />
           )}
         </div>
       </SheetCard>
@@ -228,8 +230,8 @@ export function EditSheet({ rec, from, scope, startMode, close }: {
     return (
       <SheetCard onClose={close}>
         <div className="es-top">
-          <span className="es-title">Speaker names</span>
-          <button type="button" className="es-back" onClick={() => setMode("main")}>Back</button>
+          <span className="es-title">{t("edit.speakerNames")}</span>
+          <button type="button" className="es-back" onClick={() => setMode("main")}>{t("common.back")}</button>
         </div>
         <div className="es-speakers">
           {speakers.map(spk => {
@@ -240,8 +242,8 @@ export function EditSheet({ rec, from, scope, startMode, close }: {
                 <input
                   value={names[spk] ?? ""}
                   onChange={e => setNames(prev => ({ ...prev, [spk]: e.target.value }))}
-                  placeholder={`Speaker ${spk}`}
-                  aria-label={`Speaker ${spk}`}
+                  placeholder={t("common.speaker", { n: spk })}
+                  aria-label={t("common.speaker", { n: spk })}
                   autoComplete="off"
                 />
               </label>
@@ -249,7 +251,7 @@ export function EditSheet({ rec, from, scope, startMode, close }: {
           })}
         </div>
         <Button
-          label="Save"
+          label={t("common.save")}
           size="compact"
           loading={busy}
           onPress={() => void run("speaker_names", () => changeRecording(rec, { speakerNames: names }))}
@@ -263,27 +265,27 @@ export function EditSheet({ rec, from, scope, startMode, close }: {
       <div className="es-top end"><CloseButton onPress={close} /></div>
       <div className="es-options">
         {hasText && ready && (
-          <OptionTile icon={<ShareIcon size={22} color="var(--brand)" />} label="Export" onPress={openTheExport} />
+          <OptionTile icon={<ShareIcon size={22} color="var(--brand)" />} label={t("export.button")} onPress={openTheExport} />
         )}
         {theirs ? (
-          <p className="es-readonly">Only {owner} can change this recording.</p>
+          <p className="es-readonly">{t("folders.readOnly", { name: owner })}</p>
         ) : (
           <>
-            {ready && <OptionTile icon={<PencilIcon size={22} color="var(--brand)" />} label="Rename" onPress={() => setMode("rename")} />}
-            {ready && <OptionTile icon={<SmileIcon size={22} color="#F9A825" />} label="Change Emoji" onPress={() => setMode("emoji")} />}
+            {ready && <OptionTile icon={<PencilIcon size={22} color="var(--brand)" />} label={t("edit.rename")} onPress={() => setMode("rename")} />}
+            {ready && <OptionTile icon={<SmileIcon size={22} color="#F9A825" />} label={t("edit.changeEmoji")} onPress={() => setMode("emoji")} />}
             {ready && (
               <OptionTile
                 icon={<FolderLineIcon size={22} color="#8430CE" />}
-                label="Move to folder"
+                label={t("edit.moveToFolder")}
                 onPress={() => setMode("folder")}
                 trailing={current ? <span className="es-trailing">{current.name}</span> : undefined}
               />
             )}
-            {ready && hasText && <OptionTile icon={<TextLinesIcon size={22} color="#1E8E3E" />} label="Edit transcription" onPress={editTranscript} />}
+            {ready && hasText && <OptionTile icon={<TextLinesIcon size={22} color="#1E8E3E" />} label={t("edit.editTranscription")} onPress={editTranscript} />}
             {ready && speakers.length > 0 && (
-              <OptionTile icon={<UserPlusIcon size={22} color="#E37400" />} label="Add speaker names" onPress={() => setMode("speakers")} />
+              <OptionTile icon={<UserPlusIcon size={22} color="#E37400" />} label={t("edit.addSpeakerNames")} onPress={() => setMode("speakers")} />
             )}
-            <OptionTile icon={<TrashIcon size={22} color="var(--destructive)" />} label="Delete" color="var(--destructive)" onPress={() => void remove()} disabled={busy} />
+            <OptionTile icon={<TrashIcon size={22} color="var(--destructive)" />} label={t("common.delete")} color="var(--destructive)" onPress={() => void remove()} disabled={busy} />
           </>
         )}
       </div>
@@ -303,7 +305,7 @@ function TranscriptEditor({ rec, body, close }: { rec: Recording; body: Recordin
       close();
     } catch (e) {
       setBusy(false);
-      showErrorAlert({ where: "transcript_edit", error: e, title: "Something went wrong", body: "Check your connection and try again." });
+      showErrorAlert({ where: "transcript_edit", error: e, title: t("errorReport.title"), body: t("folders.inviteFailedBody") });
     }
   };
   useEffect(() => {
@@ -312,18 +314,18 @@ function TranscriptEditor({ rec, body, close }: { rec: Recording; body: Recordin
     return () => window.removeEventListener("keydown", onKey);
   }, [close]);
   return (
-    <div className="es-transcript" role="dialog" aria-modal="true" aria-label="Edit transcription">
+    <div className="es-transcript" role="dialog" aria-modal="true" aria-label={t("edit.editTranscription")}>
       <div className="es-transcript-head">
-        <button type="button" className="es-transcript-cancel" onClick={close}>Cancel</button>
-        <span className="es-transcript-title">Edit transcription</span>
-        <button type="button" className="es-transcript-save" onClick={() => void save()} disabled={busy}>{busy ? "Saving…" : "Save"}</button>
+        <button type="button" className="es-transcript-cancel" onClick={close}>{t("common.cancel")}</button>
+        <span className="es-transcript-title">{t("edit.editTranscription")}</span>
+        <button type="button" className="es-transcript-save" onClick={() => void save()} disabled={busy}>{busy ? t("web.edit.transcriptSaving") : t("common.save")}</button>
       </div>
       <div className="es-transcript-scroll">
         <div className="es-transcript-col">
           {segments.map((seg, i) => {
             const n = parseInt(seg.speaker, 10);
             const color = n > 0 ? SPEAKER_COLORS[(n - 1) % SPEAKER_COLORS.length] : "var(--brand)";
-            const label = seg.speaker ? (body.speakerNames[seg.speaker]?.trim() || `Speaker ${seg.speaker}`) : "";
+            const label = seg.speaker ? (body.speakerNames[seg.speaker]?.trim() || t("common.speaker", { n: seg.speaker })) : "";
             return (
               <div key={i} className="es-transcript-seg">
                 {label && <span className="es-tag" style={{ background: `${color}22`, color }}>{label}</span>}

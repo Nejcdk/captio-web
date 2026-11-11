@@ -4,6 +4,7 @@ import { capture } from "./client";
 import { openPaywall } from "./paywallStore";
 import { plusForSale } from "./plus";
 import { Button, ModalCard, QuietButton, showCard } from "./ui";
+import { t } from "./i18n";
 
 // The app's out-of-credits card (app repo: components/DailyLimitPrompt.tsx):
 // the sleeping owl, "You've used today's free credits", Get unlimited with Plus
@@ -17,22 +18,22 @@ export function showDailyLimit(kind: "start" | "saved", where: string) {
   showCard(close => (
     <ModalCard
       owl="owl-sleeping"
-      title="You've used today's free credits"
+      title={t("limit.title")}
       body={!sale
-        ? kind === "saved" ? "Your recording is saved. Free credits are back tomorrow." : "Free credits are back tomorrow."
+        ? kind === "saved" ? t("web.limit.bodySavedNoPlus") : t("web.limit.bodyStartNoPlus")
         : kind === "saved"
-          ? "Your recording is saved. Free credits are back tomorrow, or keep going now with unlimited captions in Plus."
-          : "Free credits are back tomorrow, or keep going now with unlimited captions in Plus."}
+          ? t("limit.bodySaved")
+          : t("limit.bodyStart")}
       onClose={() => { capture("daily_limit_prompt_dismissed", { saved }); close(); }}
     >
-      {!sale && <Button label="Close" size="compact" onPress={() => { capture("daily_limit_prompt_dismissed", { saved }); close(); }} />}
+      {!sale && <Button label={t("common.close")} size="compact" onPress={() => { capture("daily_limit_prompt_dismissed", { saved }); close(); }} />}
       {sale && <Button
-        label="Get unlimited with Plus"
+        label={t("limit.cta")}
         variant="gold"
         size="compact"
         onPress={() => { capture("daily_limit_prompt_upgrade", { saved }); capture("plus_button_tapped", { where: "limit", style: "gold" }); close(); openPaywall("daily_limit"); }}
       />}
-      {sale && <QuietButton label="Not now" onPress={() => { capture("daily_limit_prompt_dismissed", { saved }); close(); }} />}
+      {sale && <QuietButton label={t("common.notNow")} onPress={() => { capture("daily_limit_prompt_dismissed", { saved }); close(); }} />}
     </ModalCard>
   ));
 }
@@ -42,8 +43,8 @@ export function showDailyLimit(kind: "start" | "saved", where: string) {
 export function showFreeUsedUp(title: string, where: string) {
   capture("free_used_up_shown", { where });
   showCard(close => (
-    <ModalCard owl="owl-sleeping" title={title} body="Captio AI Plus isn't available in your country yet." onClose={close}>
-      <Button label="Close" size="compact" onPress={close} />
+    <ModalCard owl="owl-sleeping" title={title} body={t("web.limit.plusUnavailable")} onClose={close}>
+      <Button label={t("common.close")} size="compact" onPress={close} />
     </ModalCard>
   ));
 }

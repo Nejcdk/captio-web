@@ -11,10 +11,11 @@ import { showFreeUsedUp } from "./limitCard";
 import { Button, ModalCard, showCard, showErrorAlert } from "./ui";
 import { CheckIcon, ChevronLeftIcon, CopyIcon, MailIcon, ShareIcon } from "./Icons";
 import { actionBlocks, actionContent, makeActionForExport } from "./ActionsTab";
-import { ACTION_LABEL, type ActionKind } from "./actionPrompts";
+import type { ActionKind } from "./actionPrompts";
+import { locale, t } from "./i18n";
 import { FREE_SUMMARY_EXPORT_LIMIT, getFreeSummaryExportsUsed, incrementFreeSummaryExportsUsed } from "./usage";
 import {
-  chatPrompt, chatUrl, emailSubject, emailText, exportBody, gmailUrl, hasExportable, mailtoUrl, outlookUrl,
+  actionLabel, chatPrompt, chatUrl, emailSubject, emailText, exportBody, gmailUrl, hasExportable, mailtoUrl, outlookUrl,
   pdfHtml, printPdf, shareLink, type ExportSource, type ExportTarget, type ExportWhat,
 } from "./exportRecording";
 
@@ -27,12 +28,13 @@ import {
 // or the clipboard (with a visible Copied), Save as PDF, the mail app, the
 // chat app; the sheet closes once something went out.
 
+// Labels are keys, read while drawing (t() never runs at import time).
 const WAYS: { way: ExportTarget; label: string; color: string; icon: (c: string) => ReactNode }[] = [
-  { way: "text", label: "Text", color: "#1C49F5", icon: c => <Tabler color={c} paths={["M4 6h16", "M4 12h16", "M4 18h10"]} /> },
-  { way: "link", label: "Link", color: "#007B83", icon: c => <Tabler color={c} paths={["M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71", "M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"]} /> },
-  { way: "pdf", label: "PDF", color: "#D93025", icon: c => <Tabler color={c} paths={["M9 2h6s1 0 1 1v2s0 1 -1 1H9S8 6 8 5V3s0 -1 1 -1", "M10.4 12.6a2 2 0 0 1 3 3L8 21l-4 1 1 -4Z", "M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-5.5", "M4 13.5V6a2 2 0 0 1 2 -2h2"]} /> },
-  { way: "email", label: "Email", color: "#E37400", icon: c => <MailIcon size={22} color={c} /> },
-  { way: "chat", label: "Chat", color: "#8430CE", icon: c => <Tabler color={c} paths={["M12 8V4H8", "M6 8h12a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2H6a2 2 0 0 1 -2 -2v-8a2 2 0 0 1 2 -2z", "M2 14h2", "M20 14h2", "M15 13v2", "M9 13v2"]} /> },
+  { way: "text", label: "export.text", color: "#1C49F5", icon: c => <Tabler color={c} paths={["M4 6h16", "M4 12h16", "M4 18h10"]} /> },
+  { way: "link", label: "export.link", color: "#007B83", icon: c => <Tabler color={c} paths={["M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71", "M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"]} /> },
+  { way: "pdf", label: "export.pdf", color: "#D93025", icon: c => <Tabler color={c} paths={["M9 2h6s1 0 1 1v2s0 1 -1 1H9S8 6 8 5V3s0 -1 1 -1", "M10.4 12.6a2 2 0 0 1 3 3L8 21l-4 1 1 -4Z", "M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-5.5", "M4 13.5V6a2 2 0 0 1 2 -2h2"]} /> },
+  { way: "email", label: "export.email", color: "#E37400", icon: c => <MailIcon size={22} color={c} /> },
+  { way: "chat", label: "export.chat", color: "#8430CE", icon: c => <Tabler color={c} paths={["M12 8V4H8", "M6 8h12a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2H6a2 2 0 0 1 -2 -2v-8a2 2 0 0 1 2 -2z", "M2 14h2", "M20 14h2", "M15 13v2", "M9 13v2"]} /> },
 ];
 
 function Tabler({ color, paths }: { color: string; paths: string[] }) {
@@ -50,7 +52,7 @@ export function ExportButton({ onPress }: { onPress: () => void }) {
     <div className="exp-dock">
       <button type="button" className="exp-btn" onClick={onPress}>
         <ShareIcon size={24} color="#FFFFFF" />
-        <span>Export</span>
+        <span>{t("export.button")}</span>
       </button>
     </div>
   );
@@ -122,7 +124,7 @@ function ExportSheet({ rec, body, tags, action, from, onClose }: {
 
   const fail = (as: ExportTarget, what: ExportWhat, e: unknown) => {
     capture("export_failed", { as, what, kind: "unknown", from });
-    showErrorAlert({ where: `export_${as}`, error: e, title: "Couldn't export" });
+    showErrorAlert({ where: `export_${as}`, error: e, title: t("export.failedTitle") });
   };
 
   // "Copied" on the tile for a moment, then the sheet goes.
@@ -138,7 +140,7 @@ function ExportSheet({ rec, body, tags, action, from, onClose }: {
     if (what !== "captions" && !isPlus && getFreeSummaryExportsUsed() >= FREE_SUMMARY_EXPORT_LIMIT) {
       capture("summary_export_gated", { as: way, what });
       onClose();
-      if (!plusForSale()) showFreeUsedUp("You've used your free summary exports", "summary_export_gate");
+      if (!plusForSale()) showFreeUsedUp(t("web.export.freeExportsUsed"), "summary_export_gate");
       else openPaywall("summary_export_gate");
       return;
     }
@@ -150,7 +152,7 @@ function ExportSheet({ rec, body, tags, action, from, onClose }: {
     }
     if (way === "link" && isPreview()) {
       capture("action_blocked", { action: "export_link", reason: "signed_out" });
-      showErrorAlert({ where: "export_link", title: "Couldn't export", body: "Sign in to make a link." });
+      showErrorAlert({ where: "export_link", title: t("export.failedTitle"), body: t("web.export.signInForLink") });
       return;
     }
     const key = `${what}:${way}`;
@@ -164,8 +166,8 @@ function ExportSheet({ rec, body, tags, action, from, onClose }: {
         setBusy(null);
         if (actionBlocks(rec, body, what)[0]?.type === "insufficient_context") {
           showCard(close => (
-            <ModalCard title="Not enough context" body="The recording is too short or doesn't contain enough content to summarize." onClose={close}>
-              <Button label="Close" size="compact" onPress={close} />
+            <ModalCard title={t("detail.notEnoughContext")} body={t("detail.notEnoughContextBody")} onClose={close}>
+              <Button label={t("common.close")} size="compact" onPress={close} />
             </ModalCard>
           ));
         }
@@ -226,14 +228,14 @@ function ExportSheet({ rec, body, tags, action, from, onClose }: {
     }
   };
 
-  const back = <button type="button" className="exp-back" onClick={() => setView({ kind: "main" })}><ChevronLeftIcon size={16} />Back</button>;
+  const back = <button type="button" className="exp-back" onClick={() => setView({ kind: "main" })}><ChevronLeftIcon size={16} />{t("common.back")}</button>;
 
   if (view.kind === "link") {
     return (
       <ModalCard onClose={onClose} wide>
         <div className="exp-sub">
-          <div className="exp-sub-head">{back}<span className="exp-sub-title">{view.copied ? "Link copied" : "Your link"}</span></div>
-          <p className="exp-sub-body">Anyone with the link can read it. It works until the recording is deleted.</p>
+          <div className="exp-sub-head">{back}<span className="exp-sub-title">{view.copied ? t("web.export.linkCopied") : t("web.export.yourLink")}</span></div>
+          <p className="exp-sub-body">{t("web.export.linkBody")}</p>
           <button
             type="button"
             className="exp-address"
@@ -248,7 +250,7 @@ function ExportSheet({ rec, body, tags, action, from, onClose }: {
           <div className="exp-sub-actions">
             {typeof navigator !== "undefined" && "share" in navigator && (
               <Button
-                label="Share…"
+                label={t("web.export.share")}
                 variant="secondary"
                 size="compact"
                 onPress={async () => {
@@ -256,7 +258,7 @@ function ExportSheet({ rec, body, tags, action, from, onClose }: {
                 }}
               />
             )}
-            <Button label="Open link" size="compact" onPress={() => { window.open(view.url, "_blank", "noopener"); onClose(); }} />
+            <Button label={t("web.export.openLink")} size="compact" onPress={() => { window.open(view.url, "_blank", "noopener"); onClose(); }} />
           </div>
         </div>
       </ModalCard>
@@ -275,11 +277,11 @@ function ExportSheet({ rec, body, tags, action, from, onClose }: {
     return (
       <ModalCard onClose={onClose} wide>
         <div className="exp-sub">
-          <div className="exp-sub-head">{back}<span className="exp-sub-title">Send by email</span></div>
+          <div className="exp-sub-head">{back}<span className="exp-sub-title">{t("web.export.sendByEmail")}</span></div>
           <p className="exp-sub-body">{view.subject}</p>
           <div className="exp-options">
             <button type="button" className="exp-tile" onClick={() => go("mail_app")}>
-              <MailIcon size={22} color="#E37400" /><span>Mail app</span>
+              <MailIcon size={22} color="#E37400" /><span>{t("web.export.mailApp")}</span>
             </button>
             <button type="button" className="exp-tile" onClick={() => go("gmail")}>
               <GmailMark /><span>Gmail</span>
@@ -288,7 +290,7 @@ function ExportSheet({ rec, body, tags, action, from, onClose }: {
               <OutlookMark /><span>Outlook</span>
             </button>
           </div>
-          <p className="exp-note">The email is copied too, in case your mail app cuts it short.</p>
+          <p className="exp-note">{t("web.export.emailCopiedNote")}</p>
         </div>
       </ModalCard>
     );
@@ -305,18 +307,18 @@ function ExportSheet({ rec, body, tags, action, from, onClose }: {
     return (
       <ModalCard onClose={onClose} wide>
         <div className="exp-sub">
-          <div className="exp-sub-head">{back}<span className="exp-sub-title">{view.copied ? "Prompt copied" : "Ask an AI chat"}</span></div>
+          <div className="exp-sub-head">{back}<span className="exp-sub-title">{view.copied ? t("web.export.promptCopied") : t("web.export.askChat")}</span></div>
           <p className="exp-sub-body">
             {view.prompt.length > 6000
-              ? "It's long, so paste it into the chat (⌘V or Ctrl+V) once it opens."
-              : "It's ready in the chat when it opens. Or paste it into any AI chat."}
+              ? t("web.export.chatPaste")
+              : t("web.export.chatReady")}
           </p>
           <div className="exp-options">
             <button type="button" className="exp-tile" onClick={() => openIn("chatgpt")}>
-              <ChatGPTMark /><span>Open in ChatGPT</span>
+              <ChatGPTMark /><span>{t("web.export.openInChatGPT")}</span>
             </button>
             <button type="button" className="exp-tile" onClick={() => openIn("claude")}>
-              <ClaudeMark /><span>Open in Claude</span>
+              <ClaudeMark /><span>{t("web.export.openInClaude")}</span>
             </button>
             <button
               type="button"
@@ -327,7 +329,7 @@ function ExportSheet({ rec, body, tags, action, from, onClose }: {
               }}
             >
               {view.copied ? <CheckIcon size={22} color="#8430CE" /> : <CopyIcon size={22} color="#8430CE" />}
-              <span>{view.copied ? "Copied" : "Copy prompt"}</span>
+              <span>{view.copied ? t("export.copied") : t("web.export.copyPrompt")}</span>
             </button>
           </div>
         </div>
@@ -339,14 +341,14 @@ function ExportSheet({ rec, body, tags, action, from, onClose }: {
     <ModalCard onClose={onClose} wide>
       <div className="exp-sheet">
         <div className="exp-top">
-          <button type="button" className="ui-close" onClick={onClose} aria-label="Close">
+          <button type="button" className="ui-close" onClick={onClose} aria-label={t("common.close")}>
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1C2A5E" strokeWidth={2} strokeLinecap="round" aria-hidden><path d="M18 6 6 18" /><path d="m6 6 12 12" /></svg>
           </button>
         </div>
         <div className={`exp-halves${action ? " single" : ""}`}>
-          {!action && <Half what="captions" title="Captions" busy={busy} done={done} summarizing={summarizing} onSend={send} />}
+          {!action && <Half what="captions" title={t("detail.tabCaptions")} busy={busy} done={done} summarizing={summarizing} onSend={send} />}
           {!action && <div className="exp-split" />}
-          <Half what={second} title={ACTION_LABEL[second]} busy={busy} done={done} summarizing={summarizing} onSend={send} />
+          <Half what={second} title={actionLabel(second)} busy={busy} done={done} summarizing={summarizing} onSend={send} />
         </div>
       </div>
     </ModalCard>
@@ -360,7 +362,7 @@ function Half({ what, title, busy, done, summarizing, onSend }: {
 }) {
   return (
     <div className="exp-half">
-      <div className="exp-half-title">{title.toLocaleUpperCase()}</div>
+      <div className="exp-half-title">{title.toLocaleUpperCase(locale())}</div>
       {/* Making the action: a bar under the title, in the gap above the buttons. */}
       {what !== "captions" && summarizing && <div className="loading-bar exp-bar" />}
       {WAYS.map(({ way, label, color, icon }) => {
@@ -370,9 +372,9 @@ function Half({ what, title, busy, done, summarizing, onSend }: {
         return (
           <button key={way} type="button" className="exp-tile" disabled={!!busy && !working} onClick={() => onSend(what, way)}>
             {working
-              ? <span className="exp-spinner" style={{ borderTopColor: color }} aria-label="Working" />
+              ? <span className="exp-spinner" style={{ borderTopColor: color }} aria-label={t("web.actions.working")} />
               : isDone ? <CheckIcon size={22} color={color} /> : icon(color)}
-            <span>{isDone ? "Copied" : label}</span>
+            <span>{isDone ? t("export.copied") : t(label)}</span>
           </button>
         );
       })}

@@ -1,5 +1,6 @@
 import { store } from "./client";
 import { listMics, type Mic } from "./audio";
+import { t } from "./i18n";
 
 // Which microphone captions use, the app's rules (app repo: lib/microphones.ts):
 // every microphone that isn't the computer's own is asked about once ("Which
@@ -27,14 +28,14 @@ export function kindOf(m: Mic): MicKind {
 }
 
 export function kindLabel(kind: MicKind): string {
-  return { phone: "Built in", bluetooth: "Bluetooth", wired: "Wired", usb: "USB", other: "External" }[kind];
+  return t(`mic.kind.${kind}`);
 }
 
 export const micEmoji = (kind: MicKind) => (kind === "phone" ? "💻" : kind === "bluetooth" || kind === "wired" ? "🎧" : "🎙️");
 
 // "MacBook Pro Microphone (Built-in)" → "MacBook Pro Microphone".
 export function micName(label: string): string {
-  return label.replace(/\s*\([0-9a-f]{4}:[0-9a-f]{4}\)\s*$/i, "").replace(/^Default - /, "").replace(/\s*\(Built-in\)$/i, "") || "Microphone";
+  return label.replace(/\s*\([0-9a-f]{4}:[0-9a-f]{4}\)\s*$/i, "").replace(/^Default - /, "").replace(/\s*\(Built-in\)$/i, "") || t("mic.external");
 }
 
 function readChoices(): Record<string, Choice> {

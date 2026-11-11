@@ -4,13 +4,14 @@ import { useCallback, useEffect, useRef, useState, type ReactNode } from "react"
 import "./invite.css";
 import { capture, getSupabase, isPreview, recordErrorOnce } from "./client";
 import {
-  REDEEM_ERRORS, applyReferralLink, cashAvailable, closeInvite, formatUsd, getReferralStats, markInviteDue, markInviteSeen,
-  markInviteShared, onInviteDue, openInvite as open, redeemReferralCode, referralLink, shareMessage, takeDueInvite,
+  applyReferralLink, cashAvailable, closeInvite, formatUsd, getReferralStats, markInviteDue, markInviteSeen,
+  markInviteShared, onInviteDue, openInvite as open, redeemErrorText, redeemReferralCode, referralLink, shareMessage, takeDueInvite,
   takeInviteFromUrl, useCashAmounts, useInviteOpen, type ReferralStats,
 } from "./invite";
 import { isPlusNow } from "./plus";
 import { CopyCheckIcon, CopyIcon, ShareIcon } from "./Icons";
 import { Button, CloseButton, ModalCard, QuietButton, isCardOpen, showCard } from "./ui";
+import { locale, t } from "./i18n";
 
 // The referral page (app: InviteScreen, Nejc 2026-10-30): "Referral program",
 // what you've earned (from $0 on; a tap is only confetti), $10 for each friend
@@ -160,11 +161,11 @@ function InviteScreen({ source }: { source: string }) {
           close();
           showCard(done => (
             <ModalCard
-              title={res.ok ? "🦉 Nice!" : "Hmm"}
-              body={res.ok ? "Your friend's code is saved." : REDEEM_ERRORS[res.error]}
+              title={res.ok ? t("invite.redeemedTitle") : t("invite.redeemFailedTitle")}
+              body={res.ok ? t("invite.redeemedBody") : redeemErrorText(res.error)}
               onClose={done}
             >
-              <Button label="Close" size="compact" onPress={done} />
+              <Button label={t("common.close")} size="compact" onPress={done} />
             </ModalCard>
           ));
           if (res.ok) void load();
@@ -184,11 +185,11 @@ function InviteScreen({ source }: { source: string }) {
   }
 
   return (
-    <div className="invite-page" role="dialog" aria-modal="true" aria-label="Referral program">
+    <div className="invite-page" role="dialog" aria-modal="true" aria-label={t("invite.page.title")}>
       <div className="invite-inner">
         <CloseButton onPress={closeInvite} style={{ position: "absolute", top: 16, right: 16 }} />
-        <h1 className="invite-title">Referral program</h1>
-        <div className="invite-limited">Limited time offer</div>
+        <h1 className="invite-title">{t("invite.page.title")}</h1>
+        <div className="invite-limited">{t("invite.page.limitedTime")}</div>
 
         <EarnedCard text={formatUsd(earned)} onTap={() => tapped("earned")} />
 
@@ -196,36 +197,36 @@ function InviteScreen({ source }: { source: string }) {
         <div className="invite-tiles">
           <button type="button" className="invite-tile monthly" disabled={!stats} onClick={() => onShare("monthly_tile")}>
             <span className="amount">{formatUsd(monthlyUsd)}</span>
-            <span className="label">for each friend who buys monthly</span>
+            <span className="label">{t("invite.page.monthly")}</span>
           </button>
           <button type="button" className="invite-tile yearly" disabled={!stats} onClick={() => onShare("yearly_tile")}>
             <span className="amount">{formatUsd(yearlyUsd)}</span>
-            <span className="label">for each friend who buys yearly</span>
+            <span className="label">{t("invite.page.yearly")}</span>
           </button>
         </div>
         <InviteMeter perFriendUsd={monthlyUsd} maxUsd={maxUsd} />
 
         <div className="invite-footer">
-          <div className="invite-link-label">SHARE THIS LINK WITH EVERYONE</div>
-          <button type="button" className="invite-link" disabled={!link} onClick={onCopy} aria-label="Copy link">
+          <div className="invite-link-label">{t("invite.page.linkLabel")}</div>
+          <button type="button" className="invite-link" disabled={!link} onClick={onCopy} aria-label={t("invite.page.copyLink")}>
             <span className={link ? undefined : "placeholder"}>{link ? link.replace("https://", "") : "captioai.app/i/••••••"}</span>
             {copied ? <CopyCheckIcon size={20} color="#28A745" /> : <CopyIcon size={20} color={link ? "var(--brand)" : "#C7C7CC"} />}
           </button>
           <button type="button" className="invite-share" disabled={!stats} onClick={() => onShare("button")}>
             {stats ? <ShareIcon size={20} color="#FFFFFF" /> : <span className="invite-spinner" aria-hidden />}
-            <span>{shareCopied ? "Copied" : "Share your link"}</span>
+            <span>{shareCopied ? t("export.copied") : t("invite.page.share")}</span>
           </button>
           <div className="invite-quiet-row">
             <button type="button" className="ui-quiet" onClick={() => { tapped("how_it_works"); capture("invite_guide_opened"); setGuide(true); }}>
-              How does it work?
+              {t("invite.cash.howItWorks")}
             </button>
             <button type="button" className="ui-quiet" disabled={redeeming || !stats} onClick={onRedeem}>
-              {redeeming ? "Checking…" : "Got a code from a friend?"}
+              {redeeming ? t("invite.checking") : t("invite.gotCode")}
             </button>
           </div>
           {/* How the money comes: by PayPal. */}
-          <div className="invite-paid" aria-label="Get paid with PayPal">
-            <span>GET PAID WITH</span>
+          <div className="invite-paid" aria-label={t("web.invite.paidWithPayPal")}>
+            <span>{t("invite.page.paidWith")}</span>
             <span className="invite-paypal"><PayPalLogo /></span>
           </div>
         </div>
@@ -237,7 +238,7 @@ function InviteScreen({ source }: { source: string }) {
 function RedeemCard({ close, onRedeem }: { close: () => void; onRedeem: (code: string) => void }) {
   const [code, setCode] = useState("");
   return (
-    <ModalCard title="Got an invite code?" body="Enter the code your friend sent you." onClose={close}>
+    <ModalCard title={t("invite.redeemTitle")} body={t("invite.redeemBody")} onClose={close}>
       <input
         className="input invite-code-input"
         autoFocus
@@ -245,12 +246,12 @@ function RedeemCard({ close, onRedeem }: { close: () => void; onRedeem: (code: s
         value={code}
         onChange={e => setCode(e.target.value.toUpperCase())}
         onKeyDown={e => { if (e.key === "Enter" && code.trim()) onRedeem(code); }}
-        aria-label="Invite code"
+        aria-label={t("web.invite.codeLabel")}
         autoCapitalize="characters"
         autoComplete="off"
       />
-      <Button label="Redeem" size="compact" disabled={!code.trim()} style={{ marginTop: 12 }} onPress={() => onRedeem(code)} />
-      <QuietButton label="Cancel" onPress={close} />
+      <Button label={t("invite.redeem")} size="compact" disabled={!code.trim()} style={{ marginTop: 12 }} onPress={() => onRedeem(code)} />
+      <QuietButton label={t("common.cancel")} onPress={close} />
     </ModalCard>
   );
 }
@@ -321,7 +322,7 @@ function EarnedCard({ text, onTap }: { text: string; onTap: () => void }) {
       className="invite-earned"
       onClick={() => { onTap(); if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) burst(); }}
     >
-      <span className="invite-earned-label">YOU&rsquo;VE EARNED</span>
+      <span className="invite-earned-label">{t("invite.cash.earnedLabel")}</span>
       <span className="invite-earned-amount" ref={number}>{text}</span>
     </button>
   );
@@ -358,7 +359,7 @@ function InviteMeter({ perFriendUsd, maxUsd }: { perFriendUsd: number; maxUsd: n
     <div className="invite-meter">
       <div className="invite-meter-numbers">
         <span className="total">{formatUsd(Math.min(friends * perFriendUsd, maxUsd))}</span>
-        <span className="sum">👥 {friends.toLocaleString()} × {formatUsd(perFriendUsd)}</span>
+        <span className="sum">👥 {friends.toLocaleString(locale())} × {formatUsd(perFriendUsd)}</span>
       </div>
       <div className="invite-meter-bar">
         <span className="track"><span className="fill" style={{ transform: `translateX(${(fill - 1) * 100}%)` }} /></span>
@@ -380,9 +381,9 @@ function InviteGuide({ monthly, yearly, max, onClose, onFinish }: {
   monthly: string; yearly: string; max: string; onClose: () => void; onFinish: () => void;
 }) {
   const steps: { text: string; owl: string }[] = [
-    { text: "<b>Share your link</b> with as many people as you like.", owl: "owl-gift" },
-    { text: `When they <b>get Plus</b>, you earn <b>${monthly}</b>, or <b>${yearly}</b> if they choose yearly, up to <b>${max}</b> in total.`, owl: "owl-plus" },
-    { text: "As soon as they pay, we <b>email you</b> and send your money by <b>PayPal</b>.", owl: "owl-opening-gift" },
+    { text: t("invite.guide.step1"), owl: "owl-gift" },
+    { text: t("invite.guide.step3", { monthly, yearly, max }), owl: "owl-plus" },
+    { text: t("invite.guide.step4"), owl: "owl-opening-gift" },
   ];
   const [i, setI] = useState(0);
   const last = i === steps.length - 1;
@@ -397,7 +398,7 @@ function InviteGuide({ monthly, yearly, max, onClose, onFinish }: {
     return () => window.removeEventListener("keydown", onKey);
   });
   return (
-    <div className="invite-page invite-guide" role="dialog" aria-modal="true" aria-label="How does it work?">
+    <div className="invite-page invite-guide" role="dialog" aria-modal="true" aria-label={t("invite.cash.howItWorks")}>
       <div className="invite-inner">
         <div className="invite-guide-bars">
           {steps.map((_, k) => <span key={k} className={k <= i ? "on" : undefined} />)}
@@ -407,10 +408,10 @@ function InviteGuide({ monthly, yearly, max, onClose, onFinish }: {
         <div className="invite-guide-visual">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src={`/web-app/${steps[i].owl}.png`} alt="" />
-          <button type="button" className="half left" aria-label="Back" onClick={() => setI(Math.max(0, i - 1))} />
-          <button type="button" className="half right" aria-label="Next" onClick={next} />
+          <button type="button" className="half left" aria-label={t("common.back")} onClick={() => setI(Math.max(0, i - 1))} />
+          <button type="button" className="half right" aria-label={t("widgetGuide.next")} onClick={next} />
         </div>
-        <Button label={last ? "Done" : "Next"} onPress={next} />
+        <Button label={last ? t("widgetGuide.done") : t("widgetGuide.next")} onPress={next} />
       </div>
     </div>
   );

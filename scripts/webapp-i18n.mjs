@@ -89,6 +89,19 @@ if (cmd === "find") {
 } else if (cmd === "check") {
   const en = read(join(LOCALES, "en.json"));
   let problems = 0;
+  // Every key the code names exists in English (keys built from a variable,
+  // like `mic.kind.${kind}`, are checked by their prefix).
+  const SRC = join(ROOT, "src/app/app");
+  for (const f of readdirSync(SRC).filter(f => /\.tsx?$/.test(f))) {
+    const code = readFileSync(join(SRC, f), "utf8");
+    for (const m of code.matchAll(/\bt\(\s*"([^"]+)"/g)) {
+      const k = m[1];
+      if (!(k in en) && !(`${k}_one` in en) && !(`${k}_other` in en)) { console.log(`${f}: t("${k}") isn't in en.json`); problems++; }
+    }
+    for (const m of code.matchAll(/\bt\(\s*`([^`$]+)\$\{/g)) {
+      if (!Object.keys(en).some(k => k.startsWith(m[1]))) { console.log(`${f}: no keys start with ${m[1]}`); problems++; }
+    }
+  }
   for (const f of readdirSync(LOCALES).filter(f => f.endsWith(".json") && f !== "en.json")) {
     const loc = read(join(LOCALES, f));
     for (const [k, v] of Object.entries(en)) {
@@ -109,6 +122,32 @@ if (cmd === "find") {
   }
   console.log(problems ? `${problems} problems` : "all languages complete");
   process.exit(problems ? 1 : 0);
+} else if (cmd === "verify-web") {
+  // One language's own words (locales/web/<code>.json) against English.
+  const code = args[1];
+  const en = read(join(LOCALES, "en.json"));
+  const web = read(join(LOCALES, "web", `${code}.json`));
+  const plural = new Intl.PluralRules(code);
+  const need = plural.resolvedOptions().pluralCategories;
+  let problems = 0;
+  const bases = new Set();
+  for (const [k, v] of Object.entries(en).filter(([k]) => k.startsWith("web."))) {
+    const base = pluralBase(k);
+    if (base) {
+      if (bases.has(base)) continue;
+      bases.add(base);
+      for (const c of need) if (!(`${base}_${c}` in web)) { console.log(`missing ${base}_${c} (${code} needs ${need.join(", ")})`); problems++; }
+      continue;
+    }
+    if (!(k in web)) { console.log(`missing ${k}`); problems++; continue; }
+    if (placeholders(v) !== placeholders(web[k])) { console.log(`${k}: placeholders ${placeholders(web[k]) || "-"} ≠ ${placeholders(v) || "-"}`); problems++; }
+  }
+  for (const k of Object.keys(web)) {
+    const base = pluralBase(k);
+    if (!(k in en) && !(base && (`${base}_other` in en))) { console.log(`extra ${k}`); problems++; }
+  }
+  console.log(problems ? `${code}: ${problems} problems` : `${code}: ok`);
+  process.exit(problems ? 1 : 0);
 } else {
-  console.log("usage: find <text> | merge [--clean] | build [--app <path>] | check");
+  console.log("usage: find <text> | merge [--clean] | build [--app <path>] | check | verify-web <code>");
 }

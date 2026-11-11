@@ -5,6 +5,7 @@ import { capture, getSupabase, recordErrorOnce } from "./client";
 import type { RecordingBody } from "./data";
 import { languageFlag, tagInk, tint, type SpeakerTag } from "./format";
 import { IslandButton } from "./ui";
+import { t } from "./i18n";
 
 // The Welcome demo on a recording's page (app repo: DetailScreen's player
 // card and its simulated live captioning): the words appear at the moment
@@ -139,7 +140,7 @@ export function DemoCaptions({ body, tags, player }: { body: RecordingBody; tags
   useEffect(() => {
     if (player.playing) lastRef.current?.scrollIntoView({ block: "nearest", behavior: "smooth" });
   }, [count, player.playing]);
-  if (!count) return <p className="seg-text" style={{ color: "rgba(0,0,0,0.3)" }}>Live captions will appear here...</p>;
+  if (!count) return <p className="seg-text" style={{ color: "rgba(0,0,0,0.3)" }}>{t("home.captionsPlaceholder")}</p>;
   return <div>{blocks}<div ref={lastRef} /></div>;
 }
 
@@ -160,26 +161,26 @@ export function PlayerCard({ player }: { player: DemoPlayer }) {
           value={Math.round(position)}
           onChange={e => player.seek(Number(e.target.value))}
           style={{ background: `linear-gradient(to right, var(--brand) ${pct}%, #E5E5EA ${pct}%)` }}
-          aria-label="Position"
+          aria-label={t("web.player.position")}
         />
         <span className="rv-time">{fmt(duration)}</span>
       </div>
       <div className="rv-controls">
-        <button type="button" className="rv-speed" onClick={player.cycleSpeed} aria-label="Playback speed">{speed}×</button>
-        <button type="button" className="rv-skip" onClick={() => player.seek(position - 5000)} aria-label="Back 5 seconds">
+        <button type="button" className="rv-speed" onClick={player.cycleSpeed} aria-label={t("web.player.speed")}>{speed}×</button>
+        <button type="button" className="rv-skip" onClick={() => player.seek(position - 5000)} aria-label={t("web.player.back5")}>
           <SkipIcon back />
         </button>
-        <IslandButton size="play" label={playing ? "Pause" : "Play"} onPress={player.toggle}>
+        <IslandButton size="play" label={playing ? t("web.player.pause") : t("web.player.play")} onPress={player.toggle}>
           {playing ? (
             <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden><rect x="6" y="5" width="4" height="14" rx="1.2" fill="#fff" /><rect x="14" y="5" width="4" height="14" rx="1.2" fill="#fff" /></svg>
           ) : (
             <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden><path fill="#fff" d="M7 4.5v15l12.5-7.5z" /></svg>
           )}
         </IslandButton>
-        <button type="button" className="rv-skip" onClick={() => player.seek(position + 5000)} aria-label="Forward 5 seconds">
+        <button type="button" className="rv-skip" onClick={() => player.seek(position + 5000)} aria-label={t("web.player.forward5")}>
           <SkipIcon />
         </button>
-        <a className="rv-speed" href={player.src()} download="Welcome to Captio AI.m4a" aria-label="Save the audio" onClick={() => capture("audio_shared", { from: "welcome" })}>
+        <a className="rv-speed" href={player.src()} download="Welcome to Captio AI.m4a" aria-label={t("web.player.saveAudio")} onClick={() => capture("audio_shared", { from: "welcome" })}>
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1C1C1E" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
             <path d="M21 15v4a2 2 0 0 1 -2 2H5a2 2 0 0 1 -2 -2v-4" /><path d="m17 8 -5 -5 -5 5" /><path d="m12 3 0 12" />
           </svg>

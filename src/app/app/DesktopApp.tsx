@@ -35,7 +35,7 @@ import { confidenceStats, contextText, recordingShapeStats, translationTranscrip
 import { WELCOME_FOLDER, isStarterRecording, seedWelcome } from "./welcome";
 import { openFailedUpload, openUpload, resumeUploads } from "./upload";
 import { isInstalled, startInstallSupport } from "./install";
-import { currentLanguage, isRtl, loadLanguage, pickLanguage } from "./i18n";
+import { currentLanguage, isRtl, loadLanguage, pickLanguage, t } from "./i18n";
 
 // Captio AI on the computer, laid out like the iPad app: Home's blue band
 // with the wordmark and the gear, the white card under it, and in the card
@@ -70,7 +70,8 @@ export default function DesktopApp({ supabaseUrl, anonKey, allowPreview }: {
   supabaseUrl: string; anonKey: string; allowPreview: boolean;
 }) {
   const [account, setAccount] = useState<Account | null | "loading">("loading");
-  const [signInError, setSignInError] = useState<string | null>(null);
+  // Signing in didn't work (the card's words are drawn once the language is in).
+  const [signInFailed, setSignInFailed] = useState(false);
   // Using it without an account, and a guest who asked to sign in.
   const [guest, setGuestState] = useState(false);
   const [signingIn, setSigningIn] = useState(false);
@@ -104,7 +105,7 @@ export default function DesktopApp({ supabaseUrl, anonKey, allowPreview }: {
     const returning = params.has("code");
     if (params.get("error_description") || params.get("error")) {
       recordError("sign_in", params.get("error_description") ?? params.get("error"));
-      setSignInError("Signing in didn't work. Please try again.");
+      setSignInFailed(true);
     }
     // Supabase says SIGNED_IN again whenever the tab comes back into view:
     // the sign-in is counted once, on the way back from Apple or Google.
@@ -140,21 +141,21 @@ export default function DesktopApp({ supabaseUrl, anonKey, allowPreview }: {
 
   const signIn = async (provider: Provider) => {
     capture("web_app_signin_tapped", { provider });
-    setSignInError(null);
+    setSignInFailed(false);
     const { error } = await getSupabase().auth.signInWithOAuth({
       provider,
       options: { redirectTo: `${window.location.origin}/app` },
     });
     if (error) {
       recordError("sign_in", error, { provider });
-      setSignInError("Signing in didn't work. Please try again.");
+      setSignInFailed(true);
     }
   };
 
   // The app asks first; then this browser forgets the account's local things
   // (the app clears its local recordings the same way).
   const signOut = async () => {
-    if (!(await confirmCard({ title: "Sign out?", body: "You can sign back in anytime.", confirm: "Sign Out", destructive: true }))) return;
+    if (!(await confirmCard({ title: t("settings.signOutTitle"), body: t("settings.signOutBody"), confirm: t("settings.signOut"), destructive: true }))) return;
     capture("signed_out", { is_plus: isPlusNow() });
     if (account && account !== "loading" && account.preview) {
       window.location.href = "/app";
@@ -199,7 +200,7 @@ export default function DesktopApp({ supabaseUrl, anonKey, allowPreview }: {
       <div className="capp" dir={isRtl() ? "rtl" : "ltr"} lang={currentLanguage()}>
         <SignIn
           onSignIn={signIn}
-          error={signInError}
+          error={signInFailed ? t("web.signIn.failed") : null}
           onTryFree={guest ? undefined : tryFree}
           onBack={guest ? () => setSigningIn(false) : undefined}
         />
@@ -452,7 +453,7 @@ function Shell({ account, onSignOut, supabaseUrl }: { account: Account; onSignOu
       // Falls back to the first words, as the app does; reported once.
       recordErrorOnce("title_generate", e);
     }
-    if (!title) title = text.trim().split(/\s+/).slice(0, 6).join(" ") || "Untitled";
+    if (!title) title = text.trim().split(/\s+/).slice(0, 6).join(" ") || t("recording.untitled");
     const rec = { id, title, emoji, durationSeconds: opts.seconds, createdAt: opts.createdAt, folderId: opts.folderId, segments: opts.segments };
     if (isLocalOnly()) {
       putLocal({ id, userId: account.userId, title, emoji, durationSeconds: opts.seconds, createdAt: opts.createdAt, folderId: opts.folderId,
@@ -492,19 +493,19 @@ function Shell({ account, onSignOut, supabaseUrl }: { account: Account; onSignOu
     const onNeedsAccount = (e: Event) => {
       const reason = (e as CustomEvent<{ reason: string }>).detail?.reason ?? "";
       const why: Record<string, string> = {
-        big_upload: "Without an account, files can be up to about 30 minutes. Sign in to upload longer ones.",
-        folders: "Folders are kept on your account, so they're on every device.",
-        share_folder: "Shared folders are kept on your account.",
-        join_folder: "Sign in to join a shared folder.",
-        export_link: "A link is kept on your account.",
-        connectors: "Chat apps read your recordings from your account.",
-        plus: "Plus belongs to your account, so it works on every device.",
+        big_upload: t("web.guest.bigUpload"),
+        folders: t("web.guest.folders"),
+        share_folder: t("web.guest.shareFolder"),
+        join_folder: t("web.guest.joinFolder"),
+        export_link: t("web.guest.exportLink"),
+        connectors: t("web.guest.connectors"),
+        plus: t("web.guest.plus"),
       };
       capture("sign_in_card_shown", { reason });
       showCard(close => (
-        <ModalCard owl="owl-wave" title="Sign in to continue" body={why[reason] ?? "Sign in to continue."} onClose={close}>
-          <Button label="Sign In" size="compact" onPress={() => { capture("sign_in_card_tapped", { reason }); close(); window.dispatchEvent(new CustomEvent("captio-sign-in", { detail: { source: reason } })); }} />
-          <QuietButton label="Not now" onPress={close} />
+        <ModalCard owl="owl-wave" title={t("auth.titleGate")} body={why[reason] ?? t("web.guest.signInToContinue")} onClose={close}>
+          <Button label={t("settings.signIn")} size="compact" onPress={() => { capture("sign_in_card_tapped", { reason }); close(); window.dispatchEvent(new CustomEvent("captio-sign-in", { detail: { source: reason } })); }} />
+          <QuietButton label={t("common.notNow")} onPress={close} />
         </ModalCard>
       ));
     };
@@ -583,14 +584,14 @@ function Shell({ account, onSignOut, supabaseUrl }: { account: Account; onSignOu
       if (e instanceof MicError && e.kind === "denied") {
         capture("action_blocked", { action: mode, reason: "mic_denied" });
         showCard(close => (
-          <ModalCard owl="owl-confused" title="Microphone access needed" body="Captio AI needs the microphone to create live captions. Allow it for captioai.app in your browser's site settings, then try again." onClose={close}>
-            <Button label="Close" size="compact" onPress={close} />
+          <ModalCard owl="owl-confused" title={t("home.micNeeded")} body={t("web.shell.micNeededBody")} onClose={close}>
+            <Button label={t("common.close")} size="compact" onPress={close} />
           </ModalCard>
         ));
       } else if (e instanceof MicError && e.kind === "unsupported") {
-        showErrorAlert({ where: "captions_start_unsupported", error: e, title: "Could not start recording", body: "This browser can't record audio. Use a recent Chrome, Edge, Safari or Firefox." });
+        showErrorAlert({ where: "captions_start_unsupported", error: e, title: t("home.startFailed"), body: t("web.shell.browserCantRecord") });
       } else {
-        showErrorAlert({ where: "captions_start", error: e, title: "Could not start recording", body: "The microphone may be in use. End any call or other recording app, then try again." });
+        showErrorAlert({ where: "captions_start", error: e, title: t("home.startFailed"), body: t("home.startFailedBody") });
       }
     }
   };
@@ -697,7 +698,7 @@ function Shell({ account, onSignOut, supabaseUrl }: { account: Account; onSignOu
       } catch (e) {
         // Nothing lost: the finished lines are the next visit's to save too.
         session.keepDraft(result);
-        showErrorAlert({ where: "live_save", error: e, title: "Recording not saved yet", body: "Check your connection and try again. Nothing is lost while this page stays open.", retry: save });
+        showErrorAlert({ where: "live_save", error: e, title: t("home.saveFailedTitle"), body: t("web.shell.saveFailedBody"), retry: save });
       }
     };
     await save();
@@ -706,7 +707,7 @@ function Shell({ account, onSignOut, supabaseUrl }: { account: Account; onSignOu
   const deleteLive = async () => {
     if (!live) return;
     const snap = live.session.snap;
-    if (snap.hasText && !(await confirmCard({ title: "Delete recording?", body: "This cannot be undone.", confirm: "Delete", destructive: true }))) return;
+    if (snap.hasText && !(await confirmCard({ title: t("recording.deleteTitle"), body: t("recording.deleteBody"), confirm: t("common.delete"), destructive: true }))) return;
     capture("caption_session_ended", live.session.stats("deleted"));
     live.session.discard();
     void removeSessionAudio(live.session.audioId);
@@ -783,7 +784,7 @@ function Shell({ account, onSignOut, supabaseUrl }: { account: Account; onSignOu
           </button>
         )}
         <button
-          type="button" className="band-btn" aria-label="Settings" aria-pressed={!!route.settings}
+          type="button" className="band-btn" aria-label={t("settings.title")} aria-pressed={!!route.settings}
           onClick={() => go({ settings: route.settings ? null : "main" })}
         >
           <SettingsIcon size={24} color="#FFFFFF" />
@@ -820,8 +821,8 @@ function Shell({ account, onSignOut, supabaseUrl }: { account: Account; onSignOu
                 <Banner
                   tone="info"
                   style={{ margin: "10px 20px 0" }}
-                  text="Your recordings are only saved in this browser."
-                  action={{ label: "Sign In", onPress: () => { capture("backup_banner_tapped"); window.dispatchEvent(new CustomEvent("captio-sign-in", { detail: { source: "backup" } })); } }}
+                  text={t("web.shell.backupBanner")}
+                  action={{ label: t("settings.signIn"), onPress: () => { capture("backup_banner_tapped"); window.dispatchEvent(new CustomEvent("captio-sign-in", { detail: { source: "backup" } })); } }}
                 />
               ) : undefined}
               dock={

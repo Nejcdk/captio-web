@@ -1,6 +1,7 @@
 import { useSyncExternalStore } from "react";
 import { capture, getSupabase, isGuest, isPreview, recordErrorOnce, store } from "./client";
 import { RUSSIA_ZONES } from "./plus";
+import { locale, t } from "./i18n";
 
 // The referral program on the web (app repo: src/lib/referrals.ts,
 // inviteNudges.ts, CLAUDE.md "Cash for invites"): an invited friend's first
@@ -49,8 +50,9 @@ export function formatUsd(amount: number): string {
   const whole = Math.round(amount * 100) % 100 === 0;
   const digits = whole ? 0 : 2;
   try {
-    // The web app is in English: "$2,500", never "US$2,500" (a browser set to en-GB).
-    return new Intl.NumberFormat("en-US", {
+    // In the web app's language, like the app ("en" is "$2,500", never
+    // "US$2,500" as a browser set to en-GB would write it).
+    return new Intl.NumberFormat(locale(), {
       style: "currency", currency: "USD", minimumFractionDigits: digits, maximumFractionDigits: digits,
     }).format(amount);
   } catch {
@@ -86,7 +88,7 @@ export function cashAvailable(): boolean {
 export const referralLink = (code: string) => `https://captioai.app/i/${code}`;
 
 export function shareMessage(code: string): string {
-  return `🦉 Captio AI is an app for deaf and hard of hearing people. It turns what people say into live captions on your phone.\n\n👉 ${referralLink(code)}`;
+  return t("referral.shareLink", { url: referralLink(code) });
 }
 
 // Dev preview (/app?preview=1): made-up earnings, like the app's
@@ -118,14 +120,17 @@ export async function getReferralStats(): Promise<ReferralStats | null> {
 export type RedeemError = "invalid_code" | "self_referral" | "already_referred" | "device_already_used" | "not_authenticated" | "network";
 export type RedeemResult = { ok: true } | { ok: false; error: RedeemError };
 
-export const REDEEM_ERRORS: Record<RedeemError, string> = {
-  invalid_code: "That code doesn't exist. Check the letters and try again.",
-  self_referral: "That's your own code! Share it with a friend instead.",
-  already_referred: "You've already used an invite code.",
-  device_already_used: "This device has already claimed an invite.",
-  not_authenticated: "Sign in first, then enter the code.",
-  network: "Couldn't reach the server. Check your connection and try again.",
-};
+// What a failed code says (the app's referral.errors.*), read while drawing.
+const REDEEM_ERROR_KEY = {
+  invalid_code: "referral.errors.invalid_code",
+  self_referral: "referral.errors.self_referral",
+  already_referred: "referral.errors.already_referred",
+  device_already_used: "referral.errors.device_already_used",
+  not_authenticated: "referral.errors.not_authenticated",
+  network: "referral.errors.network",
+} as const satisfies Record<RedeemError, string>;
+
+export const redeemErrorText = (error: RedeemError) => t(REDEEM_ERROR_KEY[error]);
 
 // One per browser, so one computer can't farm invites by making accounts
 // (the server also allows one referral per account). Null in `next dev`.

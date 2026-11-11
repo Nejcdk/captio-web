@@ -8,6 +8,7 @@ import { capture, getSupabase, isPreview, recordError, recordErrorOnce } from ".
 import { closePaywall, usePaywall } from "./paywallStore";
 import { isPlusNow, refreshPlus } from "./plus";
 import { Button, ModalCard, showCard, showErrorAlert } from "./ui";
+import { locale, t } from "./i18n";
 
 // The app's paywall (app repo: OnboardingScreen.tsx StepPaywall, standalone),
 // the one dark screen: the PLUS wordmark, Free ✕ / Plus ✓ for the standard
@@ -23,7 +24,8 @@ import { Button, ModalCard, showCard, showErrorAlert } from "./ui";
 const WEB_KEY = process.env.NEXT_PUBLIC_REVENUECAT_WEB_KEY ?? "";
 const APP_STORE_LINK = "https://apps.apple.com/app/apple-store/id6796617180?pt=129242349&ct=web_app&mt=8";
 const DEFAULT_PLAN: Plan = "annual";
-const ROWS = ["live captions", "translations", "file uploads", "AI actions", "recognized voices"];
+// The standard rows: the app's keys, "<u>Unlimited</u> live captions" etc.
+const ROWS = ["paywall.features.captions", "paywall.features.translations", "paywall.features.uploads", "paywall.features.actions", "paywall.features.voices"];
 
 type Plan = "annual" | "monthly";
 type Plans = { annual: Package | null; monthly: Package | null };
@@ -52,7 +54,7 @@ async function loadPlans(): Promise<Plans> {
 function perMonth(pkg: Package): string {
   const price = pkg.product.currentPrice;
   try {
-    return new Intl.NumberFormat(undefined, { style: "currency", currency: price.currency }).format(price.amountMicros / 1e6 / 12);
+    return new Intl.NumberFormat(locale(), { style: "currency", currency: price.currency }).format(price.amountMicros / 1e6 / 12);
   } catch {
     return `${(price.amountMicros / 1e6 / 12).toFixed(2)}`;
   }
@@ -111,8 +113,8 @@ function PaywallScreen({ source }: { source: string }) {
         showErrorAlert({
           where: "paywall_no_offering",
           error: "no package to sell",
-          title: "Products unavailable",
-          body: "Could not load subscription options. Please check your connection and try again.",
+          title: t("paywall.productsUnavailable"),
+          body: t("paywall.productsUnavailableBody"),
           retry: subscribe,
         });
         return;
@@ -129,7 +131,7 @@ function PaywallScreen({ source }: { source: string }) {
         capture("purchase_cancelled", { plan: selected, source });
         return;
       }
-      showErrorAlert({ where: "paywall_purchase", error: e, title: "Purchase failed", body: "Something went wrong. Please try again." });
+      showErrorAlert({ where: "paywall_purchase", error: e, title: t("paywall.purchaseFailed"), body: t("paywall.purchaseFailedBody") });
     }
   };
 
@@ -141,8 +143,8 @@ function PaywallScreen({ source }: { source: string }) {
     setBusy(null);
     if (isPlusNow()) { closePaywall(); return; }
     showCard(done => (
-      <ModalCard title="No purchases found" body="We could not find any previous purchases linked to this account." onClose={done}>
-        <Button label="Close" size="compact" onPress={done} />
+      <ModalCard title={t("paywall.noPurchases")} body={t("web.paywall.noPurchasesBody")} onClose={done}>
+        <Button label={t("common.close")} size="compact" onPress={done} />
       </ModalCard>
     ));
   };
@@ -152,9 +154,9 @@ function PaywallScreen({ source }: { source: string }) {
       <div className="paywall-inner">
         <div className="paywall-corners">
           <button type="button" className="paywall-restore" onClick={restore} disabled={!!busy}>
-            {busy === "restore" ? "Please wait…" : "Restore"}
+            {busy === "restore" ? t("common.pleaseWait") : t("paywall.restore")}
           </button>
-          <button type="button" className="paywall-x" onClick={close} aria-label="Close">
+          <button type="button" className="paywall-x" onClick={close} aria-label={t("common.close")}>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden><path d="M18 6L6 18M6 6l12 12" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" /></svg>
           </button>
         </div>
@@ -165,24 +167,24 @@ function PaywallScreen({ source }: { source: string }) {
         <div className="paywall-table">
           <div className="paywall-head">
             <span />
-            <span className="free">Free</span>
+            <span className="free">{t("paywall.free")}</span>
             <span className="plus">Plus</span>
           </div>
           <div className="paywall-grid">
             <div className="paywall-labels">
-              {ROWS.map(r => <div key={r} className="paywall-label"><u>Unlimited</u> {r}</div>)}
+              {ROWS.map(r => <div key={r} className="paywall-label"><Underlined text={t(r)} /></div>)}
             </div>
             <div className="paywall-col free">
               {ROWS.map(r => (
                 <div key={r} className="cell">
-                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" aria-label="No"><path d="M18 6L6 18M6 6l12 12" stroke="rgba(255,255,255,0.28)" strokeWidth="2.5" strokeLinecap="round" /></svg>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" aria-label={t("web.paywall.no")}><path d="M18 6L6 18M6 6l12 12" stroke="rgba(255,255,255,0.28)" strokeWidth="2.5" strokeLinecap="round" /></svg>
                 </div>
               ))}
             </div>
             <div className="paywall-col plus">
               {ROWS.map(r => (
                 <div key={r} className="cell">
-                  <span className="tick"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" aria-label="Yes"><path d="M5 12.5l4.5 4.5L19 7" stroke="#fff" strokeWidth="2.8" strokeLinecap="round" strokeLinejoin="round" /></svg></span>
+                  <span className="tick"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" aria-label={t("web.paywall.yes")}><path d="M5 12.5l4.5 4.5L19 7" stroke="#fff" strokeWidth="2.8" strokeLinecap="round" strokeLinejoin="round" /></svg></span>
                 </div>
               ))}
             </div>
@@ -191,41 +193,46 @@ function PaywallScreen({ source }: { source: string }) {
 
         <div className="paywall-plans">
           <div className="plan-wrap">
-            {savingsPct !== null && <span className="plan-badge">SAVE {savingsPct}%</span>}
+            {savingsPct !== null && <span className="plan-badge">{t("paywall.save", { pct: savingsPct })}</span>}
             <button type="button" className={`plan-card annual${selected === "annual" ? " on" : ""}`} onClick={() => setSelected("annual")} aria-pressed={selected === "annual"}>
-              <span className="plan-head"><span className="plan-check">{selected === "annual" && <Tick />}</span>Yearly</span>
-              {annual && <span className="plan-price">{annual.product.currentPrice.formattedPrice}/year</span>}
-              {annual && <span className="plan-sub">≈ {perMonth(annual)}/month</span>}
-              <span className="plan-sub">Cancel anytime.</span>
+              <span className="plan-head"><span className="plan-check">{selected === "annual" && <Tick />}</span>{t("paywall.yearly")}</span>
+              {annual && <span className="plan-price">{t("paywall.perYear", { price: annual.product.currentPrice.formattedPrice })}</span>}
+              {annual && <span className="plan-sub">≈ {t("paywall.perMonth", { price: perMonth(annual) })}</span>}
+              <span className="plan-sub">{t("paywall.cancelAnytime")}</span>
             </button>
           </div>
           <div className="plan-wrap">
             <button type="button" className={`plan-card monthly${selected === "monthly" ? " on" : ""}`} onClick={() => setSelected("monthly")} aria-pressed={selected === "monthly"}>
-              <span className="plan-head"><span className="plan-check">{selected === "monthly" && <Tick />}</span>Monthly</span>
-              {monthly && <span className="plan-price">{monthly.product.currentPrice.formattedPrice}/month</span>}
-              <span className="plan-sub">Billed every month</span>
-              <span className="plan-sub">Cancel anytime.</span>
+              <span className="plan-head"><span className="plan-check">{selected === "monthly" && <Tick />}</span>{t("paywall.monthly")}</span>
+              {monthly && <span className="plan-price">{t("paywall.perMonth", { price: monthly.product.currentPrice.formattedPrice })}</span>}
+              <span className="plan-sub">{t("paywall.billedMonthly")}</span>
+              <span className="plan-sub">{t("paywall.cancelAnytime")}</span>
             </button>
           </div>
         </div>
         {!hasPrices && WEB_KEY && <div className="paywall-loading" aria-hidden />}
 
         <button type="button" className="paywall-cta" onClick={subscribe} disabled={busy === "buy"}>
-          {busy === "buy" ? "Please wait…" : (
+          {busy === "buy" ? t("common.pleaseWait") : (
             <>
-              Continue
+              {t("common.continue")}
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden><path d="M5 12h14M13 6l6 6-6 6" stroke="#0A1628" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" /></svg>
             </>
           )}
         </button>
 
         <div className="paywall-legal">
-          <Link href="/terms" target="_blank">Terms of Use</Link>
-          <Link href="/privacy" target="_blank">Privacy Policy</Link>
+          <Link href="/terms" target="_blank">{t("common.termsOfUse")}</Link>
+          <Link href="/privacy" target="_blank">{t("common.privacyPolicy")}</Link>
         </div>
       </div>
     </div>
   );
+}
+
+// "<u>Unlimited</u> live captions" → the underlined word, without HTML from strings.
+function Underlined({ text }: { text: string }) {
+  return <>{text.split(/<u>(.*?)<\/u>/g).map((part, i) => (i % 2 ? <u key={i}>{part}</u> : part))}</>;
 }
 
 function Tick() {

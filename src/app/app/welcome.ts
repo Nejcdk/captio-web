@@ -1,6 +1,7 @@
 import { recordError, store } from "./client";
 import type { Folder, SummaryBlock, TranscriptSegment } from "./data";
 import { getLocal, putLocal } from "./local";
+import { t } from "./i18n";
 
 // The welcome recording (app repo: src/lib/welcome.ts, folders.ts): the
 // two-host intro to Captio AI, in a Welcome folder that exists only here,
@@ -12,8 +13,12 @@ export const WELCOME_FOLDER_ID = "welcome-folder";
 export const ONBOARDING_DEMO_PREFIX = "onboarding-demo-";
 export const isStarterRecording = (id: string) => id.startsWith("welcome-v") || id.startsWith(ONBOARDING_DEMO_PREFIX);
 
+// Its name in the app's language (app: folders.welcomeName), read when it's
+// shown, never at import time; code knows the folder by WELCOME_FOLDER_ID. A
+// name the user gave it here replaces it (folders.ts, applyChanges).
 export const WELCOME_FOLDER: Folder = {
-  id: WELCOME_FOLDER_ID, ownerId: "", name: "Welcome", icon: "mood-smile", color: "#4DA8F7", position: -1,
+  id: WELCOME_FOLDER_ID, ownerId: "", icon: "mood-smile", color: "#4DA8F7", position: -1,
+  get name() { return t("folders.welcomeName"); },
 };
 
 type WelcomeContent = {

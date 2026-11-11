@@ -3,6 +3,7 @@
 import { useEffect, useState, useSyncExternalStore, type CSSProperties, type ReactNode } from "react";
 import { capture, errorCode, store } from "./client";
 import { XIcon } from "./Icons";
+import { t } from "./i18n";
 
 // The app's shared building blocks (app repo: src/components/ui/, DESIGN.md
 // §5) for the web: Button (primary, gold, secondary), QuietButton, Banner,
@@ -33,7 +34,7 @@ export function Button({ label, onPress, variant = "primary", size = "large", di
       {variant === "gold" && <span className="ui-sheen" aria-hidden />}
       {variant === "gold" && !icon && <StarGlyph />}
       {icon}
-      <span>{loading ? "Please wait…" : label}</span>
+      <span>{loading ? t("common.pleaseWait") : label}</span>
     </button>
   );
 }
@@ -50,7 +51,7 @@ export function QuietButton({ label, onPress }: { label: string; onPress: () => 
   return <button type="button" className="ui-quiet" onClick={onPress}>{label}</button>;
 }
 
-export function CloseButton({ onPress, label = "Close", style }: { onPress: () => void; label?: string; style?: CSSProperties }) {
+export function CloseButton({ onPress, label = t("common.close"), style }: { onPress: () => void; label?: string; style?: CSSProperties }) {
   return (
     <button type="button" className="ui-close" onClick={onPress} aria-label={label} style={style}>
       <XIcon size={22} color="#1C2A5E" />
@@ -115,7 +116,7 @@ export function Banner({ tone, text, action, style }: {
 
 // What the free credits stopped + Plus: white card, 2pt outline, a gold Get
 // Plus (a plain primary for someone with Plus).
-export function PlusCard({ title, body, cta = "Get Plus", onPress, upgrade = true, style }: {
+export function PlusCard({ title, body, cta = t("home.captionsPausedCta"), onPress, upgrade = true, style }: {
   title?: string; body: string; cta?: string; onPress?: () => void; upgrade?: boolean; style?: CSSProperties;
 }) {
   return (
@@ -195,7 +196,7 @@ export function confirmCard({ title, body, confirm, destructive }: {
     showCard(close => (
       <ModalCard title={title} body={body} onClose={() => { close(); resolve(false); }}>
         <div className="ui-card-actions">
-          <Button label="Cancel" variant="secondary" size="compact" onPress={() => { close(); resolve(false); }} />
+          <Button label={t("common.cancel")} variant="secondary" size="compact" onPress={() => { close(); resolve(false); }} />
           <Button
             label={confirm}
             size="compact"
@@ -224,12 +225,12 @@ export function ensureAiConsent(where?: string): Promise<boolean> {
   return new Promise(resolve => {
     showCard(close => (
       <ModalCard
-        title="Allow AI processing?"
-        body="To make captions and translations, your audio is sent to a third-party speech-recognition provider (Soniox). To make titles, summaries and notes, the transcript text is sent to a third-party AI provider (Google Gemini). Your content is never used to train AI models."
+        title={t("consent.title")}
+        body={t("consent.body")}
         onClose={() => { close(); capture("ai_consent", { result: "declined", where }); resolve(false); }}
       >
         <Button
-          label="Agree & Continue"
+          label={t("consent.agree")}
           size="compact"
           onPress={() => {
             store.set(CONSENT_KEY, true);
@@ -239,8 +240,8 @@ export function ensureAiConsent(where?: string): Promise<boolean> {
           }}
         />
         <div className="ui-card-row">
-          <QuietButton label="Not now" onPress={() => { close(); capture("ai_consent", { result: "declined", where }); resolve(false); }} />
-          <a className="ui-quiet" href="/privacy" target="_blank" rel="noopener" onClick={() => capture("ai_consent", { result: "privacy_policy", where })}>Privacy Policy</a>
+          <QuietButton label={t("consent.notNow")} onPress={() => { close(); capture("ai_consent", { result: "declined", where }); resolve(false); }} />
+          <a className="ui-quiet" href="/privacy" target="_blank" rel="noopener" onClick={() => capture("ai_consent", { result: "privacy_policy", where })}>{t("common.privacyPolicy")}</a>
         </div>
       </ModalCard>
     ));
@@ -251,7 +252,7 @@ export function ensureAiConsent(where?: string): Promise<boolean> {
 
 // Records app_error with a 6-character code, shows the code, and offers
 // Report problem (the user's words go out as error_report).
-export function showErrorAlert({ where, error, title = "Something went wrong", body = "Sorry about that. Please try again in a moment.", retry }: {
+export function showErrorAlert({ where, error, title = t("errorReport.title"), body = t("errorReport.body"), retry }: {
   where: string; error?: unknown; title?: string; body?: string; retry?: () => void;
 }) {
   const code = errorCode();
@@ -268,36 +269,36 @@ function ErrorCard({ code, where, message, title, body, retry, close }: {
   const [sent, setSent] = useState(false);
   if (sent) {
     return (
-      <ModalCard title="Thanks for telling us" body="Your report went straight to the team. We'll look into it." onClose={close}>
-        <Button label="Close" size="compact" onPress={close} />
+      <ModalCard title={t("errorReport.thanksTitle")} body={t("errorReport.thanksBody")} onClose={close}>
+        <Button label={t("common.close")} size="compact" onPress={close} />
       </ModalCard>
     );
   }
   if (reporting) {
     return (
       <ModalCard
-        title="What happened?"
-        body="Tell us what you were doing when it went wrong. We read every report and use it to fix things."
+        title={t("errorReport.promptTitle")}
+        body={t("errorReport.promptBody")}
         onClose={close}
       >
-        <textarea className="input" rows={4} autoFocus value={text} onChange={e => setText(e.target.value)} aria-label="What happened?" />
+        <textarea className="input" rows={4} autoFocus value={text} onChange={e => setText(e.target.value)} aria-label={t("errorReport.promptTitle")} />
         <Button
-          label="Send"
+          label={t("errorReport.send")}
           size="compact"
           disabled={!text.trim()}
           style={{ marginTop: 12 }}
           onPress={() => { capture("error_report", { where, error_code: code, error_message: message, report: text.trim().slice(0, 1000) }); setSent(true); }}
         />
-        <QuietButton label="Cancel" onPress={close} />
+        <QuietButton label={t("common.cancel")} onPress={close} />
       </ModalCard>
     );
   }
   return (
-    <ModalCard title={title} body={<>{body}<span className="ui-code">Error code: {code}</span></>} onClose={close}>
+    <ModalCard title={title} body={<>{body}<span className="ui-code">{t("common.errorCode", { code })}</span></>} onClose={close}>
       {retry
-        ? <Button label="Try again" size="compact" onPress={() => { close(); retry(); }} />
-        : <Button label="Close" size="compact" onPress={close} />}
-      <QuietButton label="Report problem" onPress={() => { capture("error_report_opened", { where, error_code: code }); setReporting(true); }} />
+        ? <Button label={t("common.tryAgain")} size="compact" onPress={() => { close(); retry(); }} />
+        : <Button label={t("common.close")} size="compact" onPress={close} />}
+      <QuietButton label={t("errorReport.reportButton")} onPress={() => { capture("error_report_opened", { where, error_code: code }); setReporting(true); }} />
     </ModalCard>
   );
 }

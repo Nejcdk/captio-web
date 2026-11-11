@@ -9,6 +9,7 @@ import { openPaywall } from "./paywallStore";
 import { plusForSale, usePlus } from "./plus";
 import { isTranscribingRest, transcribeRest } from "./upload";
 import { PlusCard, showErrorAlert } from "./ui";
+import { t } from "./i18n";
 
 // Notes under a recording's captions about what wasn't transcribed (app:
 // DetailScreen's PlusCard notes):
@@ -78,8 +79,8 @@ export function RecordingNotes({ recording }: { recording: Recording }) {
     return (
       <PlusCard
         style={{ marginTop: 24 }}
-        body="Only the start of this file is transcribed."
-        cta={busy ? "Transcribing..." : "Transcribe all"}
+        body={t("detail.partialNote")}
+        cta={busy ? t("recording.transcribing") : t("detail.transcribeRest")}
         upgrade={!isPlus}
         onPress={!canUnlock ? undefined : () => {
           if (busy) return;
@@ -97,8 +98,8 @@ export function RecordingNotes({ recording }: { recording: Recording }) {
     return (
       <PlusCard
         style={{ marginTop: 24 }}
-        body={`Captions stopped at ${clock(rest.cutAt ?? creditsGap[0].from)}, when today's free credits ran out. ${minutes} more ${minutes === 1 ? "minute is" : "minutes are"} recorded.`}
-        cta={busy ? "Transcribing..." : isPlus ? "Show the rest" : "Unlock with Plus"}
+        body={t("detail.captionsCutNote", { time: clock(rest.cutAt ?? creditsGap[0].from), count: minutes })}
+        cta={busy ? t("recording.transcribing") : isPlus ? t("detail.showRest") : t("detail.unlockRest")}
         upgrade={!isPlus}
         onPress={!canUnlock ? undefined : () => {
           if (busy) return;
@@ -118,8 +119,8 @@ export function RecordingNotes({ recording }: { recording: Recording }) {
     return (
       <PlusCard
         style={{ marginTop: 24 }}
-        body="Part of this recording was made without a connection and isn't transcribed yet."
-        cta="Try again"
+        body={t("web.recording.connectionGapNote")}
+        cta={t("common.tryAgain")}
         upgrade={false}
         onPress={addRest}
       />

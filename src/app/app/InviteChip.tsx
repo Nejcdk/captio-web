@@ -3,6 +3,7 @@
 import "./invite.css";
 import { capture } from "./client";
 import { cashAvailable, formatUsd, openInvite, useCashAmounts } from "./invite";
+import { t } from "./i18n";
 
 // Home's 🎁 chip on the blue band (app: components/InviteChip.tsx): the most
 // anyone can earn, in reward red, on a white rounded rectangle the size of
@@ -19,7 +20,7 @@ export function InviteChip({ still = false, compact = false }: { still?: boolean
       <button
         type="button"
         className={`invite-chip${compact ? " compact" : ""}`}
-        aria-label={`Invite friends, get ${formatUsd(amounts.monthlyUsd)}–${formatUsd(amounts.yearlyUsd)} each`}
+        aria-label={t("web.invite.chipLabel", { monthly: formatUsd(amounts.monthlyUsd), yearly: formatUsd(amounts.yearlyUsd) })}
         onClick={() => {
           capture("invite_chip_tapped", { cash: true, compact });
           openInvite("home_chip");
@@ -39,7 +40,7 @@ export function InviteSettingsNote() {
   if (!cashAvailable()) return null;
   return (
     <button type="button" className="invite-settings-note" onClick={() => openInvite("settings")}>
-      🎁 Get {formatUsd(amounts.yearlyUsd)} for every friend
+      {t("settings.inviteTitleCash", { amount: formatUsd(amounts.yearlyUsd) })}
     </button>
   );
 }

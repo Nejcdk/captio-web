@@ -11,9 +11,11 @@ import { showFreeUsedUp } from "./limitCard";
 import { plusForSale, usePlus } from "./plus";
 import { ensureAiConsent, showErrorAlert } from "./ui";
 import { ExportButton, openExport } from "./ExportSheet";
+import { actionLabel } from "./exportRecording";
+import { t } from "./i18n";
 import { FREE_SUMMARY_LIMIT, getFreeSummariesUsed, incrementFreeSummariesUsed } from "./usage";
 import {
-  ACTION_KINDS, ACTION_LABEL, RETRYABLE, actionErrorBody, tooShort,
+  ACTION_KINDS, RETRYABLE, tooShort,
   type ActionErrorCode, type ActionKind,
 } from "./actionPrompts";
 
@@ -154,6 +156,15 @@ function transcriptForModel(segments: TranscriptSegment[], tags: SpeakerTag[]): 
   return { text: turns.map(t => (t.speaker ? `${t.speaker}: ${t.text}` : t.text)).join("\n"), speakers };
 }
 
+// The failed card's words (actionPrompts.ts actionErrorBody, in the web
+// app's language with the app's words).
+function actionErrorBody(code: string): string {
+  if (code === "offline") return t("actions.errorOffline");
+  if (code === "timeout") return t("actions.errorTimeout");
+  if (code === "blocked") return t("actions.errorBlocked");
+  return t("common.genericError");
+}
+
 class ActionFailure extends Error {
   constructor(readonly code: ActionErrorCode | "unknown") {
     super(code);
@@ -204,7 +215,7 @@ async function makeAction(
   if (!isPlus && getFreeSummariesUsed() >= FREE_SUMMARY_LIMIT) {
     capture("action_gated", about);
     if (!regenerate) onAction(null);
-    if (!plusForSale()) showFreeUsedUp("You've used your free summaries", "summary_gate");
+    if (!plusForSale()) showFreeUsedUp(t("web.actions.freeSummariesUsed"), "summary_gate");
     else openPaywall("summary_gate");
     return;
   }
@@ -239,7 +250,7 @@ async function makeAction(
     showErrorAlert({
       where: `${kind}_generate`,
       error: e,
-      title: "Could not make this",
+      title: t("actions.failed"),
       body: actionErrorBody(code),
       retry: () => { onAction(kind); makeAction(rec, body, tags, kind, isPlus, onAction); },
     });
@@ -293,7 +304,7 @@ export function ActionsTab({ recording, body, tags, action, onAction }: {
       capture("action_todo_toggled", { kind: action, done: block.done });
     } catch (e) {
       // The tick didn't stick: say so rather than show it ticked.
-      showErrorAlert({ where: "action_todo_toggle", error: e, title: "Could not make this", body: "Something went wrong. Please check your connection and try again." });
+      showErrorAlert({ where: "action_todo_toggle", error: e, title: t("actions.failed"), body: t("common.genericError") });
     }
   };
 
@@ -306,9 +317,9 @@ export function ActionsTab({ recording, body, tags, action, onAction }: {
             return (
               <button key={kind} type="button" className="act-tile" style={{ borderColor: color }} onClick={() => openAction(kind)}>
                 {/* Still being made (the user went back to the tiles): a small spinner. */}
-                {isMaking(rec.id, kind) && <span className="act-spinner small" style={{ borderTopColor: color }} aria-label="Working" />}
+                {isMaking(rec.id, kind) && <span className="act-spinner small" style={{ borderTopColor: color }} aria-label={t("web.actions.working")} />}
                 <Icon color={color} size={48} />
-                <span className="act-tile-label">{ACTION_LABEL[kind]}</span>
+                <span className="act-tile-label">{actionLabel(kind)}</span>
               </button>
             );
           })}
@@ -324,7 +335,7 @@ export function ActionsTab({ recording, body, tags, action, onAction }: {
         {title}
         <div className="act-loading">
           <span className="act-spinner" aria-hidden />
-          <span>Captio AI is working on it…</span>
+          <span>{t("actions.working")}</span>
         </div>
       </div>
     );
@@ -333,7 +344,7 @@ export function ActionsTab({ recording, body, tags, action, onAction }: {
   if (!blocks.length) return title;
   const regen = (
     <button type="button" className="act-regen" onClick={() => runAction(action)}>
-      <RefreshIcon />Re-generate
+      <RefreshIcon />{t("detail.regenerate")}
     </button>
   );
   if (blocks[0].type === "insufficient_context") {
@@ -342,8 +353,8 @@ export function ActionsTab({ recording, body, tags, action, onAction }: {
         {title}
         <div className="act-insufficient">
           <span className="emoji">🔍</span>
-          <b>Not enough context</b>
-          <p>The recording is too short or doesn&rsquo;t contain enough content to summarize.</p>
+          <b>{t("detail.notEnoughContext")}</b>
+          <p>{t("detail.notEnoughContextBody")}</p>
           {regen}
         </div>
       </div>
@@ -368,7 +379,7 @@ function ActionTitle({ kind, onBack }: { kind: ActionKind; onBack: () => void })
         <path d="M15 6l-6 6l6 6" />
       </svg>
       <Icon color={color} size={20} />
-      <span>{ACTION_LABEL[kind]}</span>
+      <span>{actionLabel(kind)}</span>
     </button>
   );
 }

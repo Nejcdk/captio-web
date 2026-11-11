@@ -4,6 +4,7 @@ import { capture } from "./client";
 import { FREE_DAILY_CREDITS } from "./usage";
 import { MicrophoneIcon, TranslatorIcon, UploadIcon } from "./Icons";
 import { DockButton, IslandButton } from "./ui";
+import { t } from "./i18n";
 
 // Home's bottom dock (app repo: HomeScreen dock, components/StartHint.tsx):
 // the record button between translate and upload, over a white fade; and,
@@ -26,8 +27,8 @@ export function Dock({ onRecord, onTranslate, onUpload, showHint, isPlus, attrac
             <span className="edge" aria-hidden />
             <span className="face">
               <span className="tail" aria-hidden />
-              <span className="title">{isPlus ? "Start captioning" : "Start captioning for FREE"}</span>
-              {!isPlus && <span className="credits">{FREE_DAILY_CREDITS} credits / day</span>}
+              <span className="title">{isPlus ? t("home.startHint.titlePlus") : t("home.startHint.title")}</span>
+              {!isPlus && <span className="credits">{t("home.startHint.credits", { credits: FREE_DAILY_CREDITS })}</span>}
             </span>
           </button>
           {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -35,11 +36,11 @@ export function Dock({ onRecord, onTranslate, onUpload, showHint, isPlus, attrac
         </div>
       )}
       <div className="dock">
-        <DockButton label="Translate" onPress={onTranslate}><TranslatorIcon size={30} color="var(--brand)" /></DockButton>
-        <IslandButton label="Live captions" onPress={onRecord} sheen attract={attract}>
+        <DockButton label={t("widgets.translate")} onPress={onTranslate}><TranslatorIcon size={30} color="var(--brand)" /></DockButton>
+        <IslandButton label={t("widgets.liveCaptions")} onPress={onRecord} sheen attract={attract}>
           <MicrophoneIcon size={34} color="#FFFFFF" />
         </IslandButton>
-        <DockButton label="Upload" onPress={onUpload}><UploadIcon size={30} color="var(--brand)" /></DockButton>
+        <DockButton label={t("web.dock.upload")} onPress={onUpload}><UploadIcon size={30} color="var(--brand)" /></DockButton>
       </div>
     </div>
   );
