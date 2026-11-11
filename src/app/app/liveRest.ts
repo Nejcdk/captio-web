@@ -74,7 +74,7 @@ async function tokensFor(rest: LiveRest, gap: Gap) {
     languageHints: rest.languageHints,
     context: rest.context || undefined,
     translation: rest.mode === "translation" && rest.translate
-      ? rest.translate.source
+      ? rest.translate.source && rest.translate.source !== rest.translate.target
         ? { type: "two_way", language_a: rest.translate.source, language_b: rest.translate.target }
         : { type: "one_way", target_language: rest.translate.target }
       : undefined,

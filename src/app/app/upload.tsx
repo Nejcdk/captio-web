@@ -13,6 +13,7 @@ import { isPlusNow } from "./plus";
 import { buildTimedSegments, confidenceStats, cutSegmentsAt, recordingShapeStats, type SonioxToken } from "./transcript";
 import { Button, CloseButton, ModalCard, QuietButton, ensureAiConsent, isCardOpen, showCard, showErrorAlert } from "./ui";
 import { afterSave } from "./postSave";
+import { DIRECT_MAX_BYTES, STORAGE_MAX_BYTES, STORAGE_TARGET_BYTES, TooLongError, prepareUpload, shrinkAudio } from "./fileAudio";
 import { addUsage, freeSecondsLeft } from "./usage";
 
 // Uploading a file, the app's way (app repo: screens/UploadSheetScreen.tsx,
@@ -22,8 +23,9 @@ import { addUsage, freeSecondsLeft } from "./usage";
 //   a "Transcribing..." row at once → the file through the speech service's
 //   async transcription (via /api/app/transcribe) → lines, title and emoji →
 //   saved to the account, where the phone picks it up on its next sync.
-// Videos lose their picture first (16 kHz mono WAV, decoded here): the speech
-// service refuses QuickTime and files with two audio streams. The job and the
+// Files are made small first (fileAudio.ts: a video's AAC track, then a 16 kHz
+// mono MP3): the speech service refuses QuickTime and files with two audio
+// streams, and Storage takes files of up to 50 MB. The job and the
 // file are kept in this browser until it's done (localStorage + IndexedDB),
 // so a reload or a lost connection picks it up again (resumeUploads) instead
 // of losing it. On the free plan the whole file is sent but only the part
@@ -32,11 +34,9 @@ import { addUsage, freeSecondsLeft } from "./usage";
 // transcribed." with Transcribe all (RecordingNotes).
 
 const TRANSCRIBING_TITLE = "Transcribing...";
-// The website's server takes request bodies up to ~4.5 MB; bigger files wait
-// in Storage (app repo: supabase/web_uploads.sql) for the speech service.
-const DIRECT_MAX_BYTES = 4 * 1024 * 1024;
-// Decoding a video's sound happens in memory: past this, the file goes as is.
-const DECODE_MAX_BYTES = 1024 * 1024 * 1024;
+// The website's server takes request bodies up to ~4.5 MB (DIRECT_MAX_BYTES);
+// bigger files wait in Storage (app repo: supabase/web_uploads.sql) for the
+// speech service, up to STORAGE_MAX_BYTES.
 const VIDEO_EXTENSIONS = new Set(["mp4", "mov", "m4v", "avi", "mkv", "webm", "3gp", "mts", "wmv"]);
 const MAX_ATTEMPTS = 5;
 const POLL_MS = 30 * 60_000;
@@ -218,48 +218,6 @@ function isVideo(file: File): boolean {
 
 // ─── Preparing the file ───────────────────────────────────────────────────────
 
-// A video's sound as 16 kHz mono WAV, or null (the video goes as is).
-async function videoSound(file: File): Promise<Blob | null> {
-  if (file.size > DECODE_MAX_BYTES || typeof OfflineAudioContext === "undefined") return null;
-  try {
-    const ctx = new OfflineAudioContext(1, 16000, 16000);
-    const audio = await ctx.decodeAudioData(await file.arrayBuffer());
-    if (!audio.length) return null;
-    const n = audio.length;
-    const channels = Array.from({ length: audio.numberOfChannels }, (_, c) => audio.getChannelData(c));
-    const pcm = new Int16Array(n);
-    for (let i = 0; i < n; i++) {
-      let v = 0;
-      for (const ch of channels) v += ch[i];
-      v /= channels.length;
-      pcm[i] = Math.max(-32768, Math.min(32767, Math.round(v * 32767)));
-    }
-    return wav(pcm, audio.sampleRate);
-  } catch (e) {
-    capture("app_error", { where: "upload_extract_audio", message: String((e as Error)?.message ?? e).slice(0, 200) });
-    return null;
-  }
-}
-
-function wav(pcm: Int16Array, rate: number): Blob {
-  const header = new DataView(new ArrayBuffer(44));
-  const text = (o: number, s: string) => { for (let i = 0; i < s.length; i++) header.setUint8(o + i, s.charCodeAt(i)); };
-  text(0, "RIFF");
-  header.setUint32(4, 36 + pcm.byteLength, true);
-  text(8, "WAVE");
-  text(12, "fmt ");
-  header.setUint32(16, 16, true);
-  header.setUint16(20, 1, true);
-  header.setUint16(22, 1, true);
-  header.setUint32(24, rate, true);
-  header.setUint32(28, rate * 2, true);
-  header.setUint16(32, 2, true);
-  header.setUint16(34, 16, true);
-  text(36, "data");
-  header.setUint32(40, pcm.byteLength, true);
-  return new Blob([header.buffer, pcm.buffer as ArrayBuffer], { type: "audio/wav" });
-}
-
 async function currentUserId(): Promise<string> {
   if (isPreview()) return "preview-me";
   const { data } = await getSupabase().auth.getSession();
@@ -272,35 +230,89 @@ function separateSpeakers(): boolean {
   return store.get<{ separateSpeakers?: boolean }>("captio_app_settings", {}).separateSpeakers ?? true;
 }
 
+// Whether this browser has an account to keep big files in Storage with.
+async function canUseStorage(): Promise<boolean> {
+  if (isPreview()) return false;
+  const { data } = await getSupabase().auth.getSession();
+  return !!data.session;
+}
+
+function showTooLong(seconds: number) {
+  showCard(close => (
+    <ModalCard
+      owl="owl-confused"
+      title="This file is too long"
+      body={`It's ${Math.round(seconds / 60)} minutes long. Files can be up to 5 hours. Try a shorter part of it.`}
+      onClose={close}
+    >
+      <Button label="Close" size="compact" onPress={close} />
+    </ModalCard>
+  ));
+}
+
+function showTooBig() {
+  showCard(close => (
+    <ModalCard
+      owl="owl-confused"
+      title="This file is too big"
+      body="It's still over 50 MB after we made it smaller. Try a shorter file, or the sound on its own (an audio file instead of the video)."
+      onClose={close}
+    >
+      <Button label="Close" size="compact" onPress={close} />
+    </ModalCard>
+  ));
+}
+
 async function startUpload(file: File, kind: "audio" | "video", folderId: string | null) {
   const id = generateId();
   const createdAt = Date.now();
   let userId = "preview-me";
   try { userId = await currentUserId(); } catch { /* the save says so later */ }
+  const storage = await canUseStorage().catch(() => false);
   // The row shows at once ("Transcribing..."), and its page opens.
   putLocal({ id, userId, title: TRANSCRIBING_TITLE, emoji: "🎙️", durationSeconds: 0, createdAt, folderId, status: "transcribing" });
   window.dispatchEvent(new CustomEvent("captio-open-recording", { detail: { id } }));
+  const video = kind === "video" || isVideo(file);
   try {
-    let blob: Blob = file;
-    let name = file.name || (kind === "audio" ? "audio" : "video");
-    if (kind === "video" || isVideo(file)) {
-      const sound = await videoSound(file);
-      if (sound) { blob = sound; name = `${id}.wav`; }
+    const prepared = await prepareUpload(file, {
+      video,
+      targetBytes: storage ? STORAGE_TARGET_BYTES : DIRECT_MAX_BYTES,
+      onFail: (step, e) => capture("app_error", {
+        where: step === "aac" ? "upload_aac_track" : "upload_extract_audio",
+        message: String((e as Error)?.message ?? e).slice(0, 200), bytes: file.size, kind,
+      }),
+    });
+    const limit = storage ? STORAGE_MAX_BYTES : DIRECT_MAX_BYTES;
+    if (prepared.blob.size > limit) {
+      // Stopped here, never retried: the same file is too big every time.
+      removeLocal(id);
+      capture("upload_too_big", { kind, bytes: prepared.blob.size, original_bytes: file.size, prepared: prepared.how, seconds: prepared.seconds, signed_in: storage });
+      if (storage) showTooBig();
+      else window.dispatchEvent(new CustomEvent("captio-needs-account", { detail: { reason: "big_upload" } }));
+      return;
     }
     const job: UploadJob = {
-      id, createdAt, folderId, name, type: blob.type || file.type || "application/octet-stream",
+      id, createdAt, folderId, name: prepared.name, type: prepared.type,
       diarize: separateSpeakers(),
       // The app sends uploads without language hints or context: a file can
       // be in any language.
       ...(isPlusNow() ? {} : { freeSeconds: Math.max(1, Math.floor(freeSecondsLeft())) }),
       attempts: 0,
     };
-    await keepFile(id, blob);
+    await keepFile(id, prepared.blob);
     saveJob(job);
-    capture("upload_started", { kind, bytes: blob.size, converted: blob !== file });
+    capture("upload_started", {
+      kind, bytes: prepared.blob.size, original_bytes: file.size, converted: prepared.how !== "original",
+      prepared: prepared.how, kbps: prepared.kbps, seconds: prepared.seconds ? Math.round(prepared.seconds) : undefined, prep_ms: prepared.ms,
+    });
     void run(job);
   } catch (e) {
     removeLocal(id);
+    if (e instanceof TooLongError) {
+      capture("upload_too_long", { kind, seconds: Math.round(e.seconds), bytes: file.size });
+      showTooLong(e.seconds);
+      return;
+    }
     showErrorAlert({ where: "upload_prepare", error: e, title: "Upload failed", body: "We couldn't read this file. Please try a different one." });
   }
 }
@@ -436,7 +448,7 @@ async function run(job: UploadJob): Promise<void> {
     capture("app_error", { where: "upload_transcription", error_code: code, message: msg.slice(0, 200), attempt: job.attempts + 1 });
     const networkError = e instanceof TypeError || !navigator.onLine || /network|failed to fetch|load failed/i.test(msg);
     // The file itself was refused: the same bytes fail every time.
-    const terminal = /^invalid_audio_file|^transcription_output_too_long|^model_not_available|^missing_file/.test(msg);
+    const terminal = /^invalid_audio_file|^transcription_output_too_long|^model_not_available|^missing_file|maximum allowed size|^file_too_long/.test(msg);
     const attempts = terminal ? MAX_ATTEMPTS : job.attempts + (networkError ? 0 : 1);
     const giveUp = attempts >= MAX_ATTEMPTS;
     job.attempts = attempts;
@@ -539,6 +551,14 @@ export type TranscribeOptions = {
 // small ones straight through the server, bigger ones through Storage; the
 // tokens, timed from the start of the blob. Throws on failure.
 export async function transcribeBlob(blob: Blob, opts: TranscribeOptions, name = "audio.wav"): Promise<SonioxToken[]> {
+  // A session's kept audio is plain WAV (2 MB a minute): an MP3 is a tenth of that.
+  if (blob.size > DIRECT_MAX_BYTES) {
+    const small = await shrinkAudio(blob, (await canUseStorage().catch(() => false)) ? STORAGE_TARGET_BYTES : DIRECT_MAX_BYTES);
+    if (small) {
+      blob = small;
+      name = name.replace(/\.wav$/i, "") + ".mp3";
+    }
+  }
   let remote: Remote = { createdAt: Date.now() };
   const job: UploadJob = { id: generateId(), createdAt: Date.now(), folderId: null, name, type: blob.type || "audio/wav", diarize: opts.diarize, attempts: 0 };
   remote = await upload(job, blob);
@@ -676,9 +696,21 @@ export async function transcribeRest(id: string, folderId: string | null) {
   const job: UploadJob = { id, createdAt: Date.now(), folderId, name: "audio", type: "", diarize: separateSpeakers(), attempts: 0, rest: true };
   const blob = await fileFor(id);
   const go = async (file: Blob, name: string) => {
-    const sound = file instanceof File && isVideo(file) ? await videoSound(file) : null;
-    const use = sound ?? file;
-    job.name = sound ? `${id}.wav` : name;
+    // A file picked again is made small as on the first upload (this
+    // browser's own copy already was).
+    let use: Blob = file;
+    let useName = name;
+    if (file instanceof File) {
+      try {
+        const p = await prepareUpload(file, { video: isVideo(file), targetBytes: (await canUseStorage()) ? STORAGE_TARGET_BYTES : DIRECT_MAX_BYTES });
+        use = p.blob;
+        useName = p.name;
+      } catch (e) {
+        if (e instanceof TooLongError) { showTooLong(e.seconds); return; }
+      }
+    }
+    if (use.size > STORAGE_MAX_BYTES) { showTooBig(); return; }
+    job.name = useName;
     job.type = use.type || "application/octet-stream";
     await keepFile(id, use);
     saveJob(job);
