@@ -903,7 +903,9 @@
           "german"
         ]
       },
-      "status": "queued"
+      "status": "published",
+      "slug": "hearing-loss-statistics-in-germany",
+      "published": "2026-11-11"
     },
     {
       "id": "hearing-loss-statistics-in-spain",
