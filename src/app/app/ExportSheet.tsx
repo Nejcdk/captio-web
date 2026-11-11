@@ -5,8 +5,9 @@ import "./export.css";
 import { capture, getSupabase, isPreview } from "./client";
 import type { Recording, RecordingBody } from "./data";
 import type { SpeakerTag } from "./format";
-import { usePlus } from "./plus";
+import { plusForSale, usePlus } from "./plus";
 import { openPaywall } from "./paywallStore";
+import { showFreeUsedUp } from "./limitCard";
 import { Button, ModalCard, showCard, showErrorAlert } from "./ui";
 import { CheckIcon, ChevronLeftIcon, CopyIcon, MailIcon, ShareIcon } from "./Icons";
 import { actionBlocks, actionContent, makeActionForExport } from "./ActionsTab";
@@ -137,7 +138,8 @@ function ExportSheet({ rec, body, tags, action, from, onClose }: {
     if (what !== "captions" && !isPlus && getFreeSummaryExportsUsed() >= FREE_SUMMARY_EXPORT_LIMIT) {
       capture("summary_export_gated", { as: way, what });
       onClose();
-      openPaywall("summary_export_gate");
+      if (!plusForSale()) showFreeUsedUp("You've used your free summary exports", "summary_export_gate");
+      else openPaywall("summary_export_gate");
       return;
     }
     // A link is saved to the account.

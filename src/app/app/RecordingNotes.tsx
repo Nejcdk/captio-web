@@ -6,7 +6,7 @@ import type { Recording } from "./data";
 import { getExtras } from "./local";
 import { addRestToRecording, getLiveRest, isAddingRest } from "./liveRest";
 import { openPaywall } from "./paywallStore";
-import { usePlus } from "./plus";
+import { plusForSale, usePlus } from "./plus";
 import { isTranscribingRest, transcribeRest } from "./upload";
 import { PlusCard, showErrorAlert } from "./ui";
 
@@ -42,9 +42,11 @@ export function RecordingNotes({ recording }: { recording: Recording }) {
   const where = liveCut ? "captions_cut_note" : "upload_cut_note";
   const style = isPlus ? "primary" : "gold";
 
+  // Where Plus can't be bought the notes stay, without a way to the plans.
+  const canUnlock = isPlus || plusForSale();
   useEffect(() => {
-    if (uploadCut || liveCut) capture("plus_button_shown", { where, style });
-  }, [uploadCut, liveCut, where, style]);
+    if ((uploadCut || liveCut) && canUnlock) capture("plus_button_shown", { where, style });
+  }, [uploadCut, liveCut, where, style, canUnlock]);
 
   // The missing part came in: the note goes.
   useEffect(() => {
@@ -79,7 +81,7 @@ export function RecordingNotes({ recording }: { recording: Recording }) {
         body="Only the start of this file is transcribed."
         cta={busy ? "Transcribing..." : "Transcribe all"}
         upgrade={!isPlus}
-        onPress={() => {
+        onPress={!canUnlock ? undefined : () => {
           if (busy) return;
           capture("plus_button_tapped", { where: "upload_cut_note", style });
           if (isPlus) setBusy(true);
@@ -98,7 +100,7 @@ export function RecordingNotes({ recording }: { recording: Recording }) {
         body={`Captions stopped at ${clock(rest.cutAt ?? creditsGap[0].from)}, when today's free credits ran out. ${minutes} more ${minutes === 1 ? "minute is" : "minutes are"} recorded.`}
         cta={busy ? "Transcribing..." : isPlus ? "Show the rest" : "Unlock with Plus"}
         upgrade={!isPlus}
-        onPress={() => {
+        onPress={!canUnlock ? undefined : () => {
           if (busy) return;
           capture("plus_button_tapped", { where: "captions_cut_note", style });
           capture("transcribe_rest_tapped", { live: true, is_plus: isPlus });

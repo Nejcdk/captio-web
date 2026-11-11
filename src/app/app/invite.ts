@@ -1,5 +1,6 @@
 import { useSyncExternalStore } from "react";
 import { capture, getSupabase, isPreview, recordErrorOnce, store } from "./client";
+import { RUSSIA_ZONES } from "./plus";
 
 // The referral program on the web (app repo: src/lib/referrals.ts,
 // inviteNudges.ts, CLAUDE.md "Cash for invites"): an invited friend's first
@@ -63,14 +64,7 @@ export function formatUsd(amount: number): string {
 // and its time zone, and either one in those countries is enough.
 
 const NO_CASH_REGIONS = new Set(["CU", "IR", "KP", "SY", "RU", "BY"]);
-const NO_CASH_ZONES = new Set([
-  "America/Havana", "Asia/Tehran", "Asia/Pyongyang", "Asia/Damascus", "Europe/Minsk",
-  "Europe/Moscow", "Europe/Kaliningrad", "Europe/Samara", "Europe/Volgograd", "Europe/Kirov", "Europe/Astrakhan",
-  "Europe/Saratov", "Europe/Ulyanovsk", "Asia/Yekaterinburg", "Asia/Omsk", "Asia/Novosibirsk", "Asia/Barnaul",
-  "Asia/Tomsk", "Asia/Novokuznetsk", "Asia/Krasnoyarsk", "Asia/Irkutsk", "Asia/Chita", "Asia/Yakutsk",
-  "Asia/Khandyga", "Asia/Vladivostok", "Asia/Ust-Nera", "Asia/Magadan", "Asia/Sakhalin", "Asia/Srednekolymsk",
-  "Asia/Kamchatka", "Asia/Anadyr",
-]);
+const NO_CASH_ZONES = new Set(["America/Havana", "Asia/Tehran", "Asia/Pyongyang", "Asia/Damascus", "Europe/Minsk", ...RUSSIA_ZONES]);
 
 export function cashAvailable(): boolean {
   if (typeof navigator === "undefined") return true;

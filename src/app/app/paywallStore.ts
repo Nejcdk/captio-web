@@ -1,4 +1,6 @@
 import { useSyncExternalStore } from "react";
+import { capture } from "./client";
+import { plusForSale } from "./plus";
 
 // Opening the paywall from anywhere (out of credits, Get Plus buttons, the
 // Actions limit, Settings): the app's navigation.navigate('Paywall', { source }).
@@ -10,6 +12,11 @@ const listeners = new Set<() => void>();
 const emit = () => listeners.forEach(l => l());
 
 export function openPaywall(source: string) {
+  // Where Plus can't be bought the plans never open (plus.ts plusForSale).
+  if (!plusForSale()) {
+    capture("paywall_skipped", { source, reason: "store_unavailable" });
+    return;
+  }
   state = { open: true, source };
   emit();
 }

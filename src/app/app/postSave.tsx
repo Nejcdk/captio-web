@@ -7,7 +7,7 @@ import { FolderArt } from "./FolderArt";
 import { getLocal, patchLocal } from "./local";
 import { openEditSheet } from "./editSheet";
 import { openPaywall } from "./paywallStore";
-import { isPlusNow } from "./plus";
+import { isPlusNow, plusForSale } from "./plus";
 import { PREVIEW_LIBRARY, PREVIEW_USER } from "./preview";
 import { shouldAskForRating, showRatingPrompt } from "./RatingPrompt";
 import { Button, isCardOpen, ModalCard, QuietButton, showCard } from "./ui";
@@ -161,7 +161,7 @@ async function askFolder(saved: SavedRecording, rec: Recording, lib: Library, my
 async function maybeFirstSavePlus(saved: SavedRecording, lib: Library, user: { id: string; createdAt: number | null }) {
   if (store.get<string | null>(FIRST_SAVE_KEY, null)) return;
   const own = ownCount(lib, user.id);
-  const due = !isPlusNow() && !saved.limitStop && !!user.createdAt && Date.now() - user.createdAt < DAY_MS && own <= 1;
+  const due = !isPlusNow() && plusForSale() && !saved.limitStop && !!user.createdAt && Date.now() - user.createdAt < DAY_MS && own <= 1;
   // Decided once, on the first save this browser sees.
   store.set(FIRST_SAVE_KEY, "done");
   if (!due || screenBusy()) return;

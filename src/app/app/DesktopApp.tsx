@@ -15,7 +15,7 @@ import { Paywall } from "./Paywall";
 import { usePaywall, openPaywall } from "./paywallStore";
 import { useLocalRecordings, putLocal } from "./local";
 import { onLibraryChanged, notifyLibraryChanged } from "./events";
-import { refreshPlus, usePlus, isPlusNow } from "./plus";
+import { refreshPlus, usePlus, isPlusNow, plusForSale } from "./plus";
 import { freeSecondsLeft } from "./usage";
 import posthog from "posthog-js";
 import { showDailyLimit } from "./limitCard";
@@ -526,7 +526,7 @@ function Shell({ account, onSignOut, supabaseUrl }: { account: Account; onSignOu
   };
   const finishing = useRef(false);
   const finishLiveRef = useRef(finishLive);
-  finishLiveRef.current = finishLive;
+  useEffect(() => { finishLiveRef.current = finishLive; });
 
   const finishLiveNow = async (current: Live, limit: boolean) => {
     const { session, mode, folderId } = current;
@@ -645,7 +645,7 @@ function Shell({ account, onSignOut, supabaseUrl }: { account: Account; onSignOu
   const ownRecordings = (library?.recordings ?? []).filter(r => !isStarterRecording(r.id) && r.status !== "transcribing");
   const showHint = !!library && route.tab === "all" && !query && ownRecordings.length === 0;
   // A phone-wide window: the chip shows just the 🎁 next to PLUS.
-  const narrowBand = typeof window !== "undefined" && window.innerWidth < 360 && !plus.isPlus;
+  const narrowBand = typeof window !== "undefined" && window.innerWidth < 360 && !plus.isPlus && plusForSale();
 
   return (
     <div className="capp" data-pane={pane}>
@@ -657,7 +657,7 @@ function Shell({ account, onSignOut, supabaseUrl }: { account: Account; onSignOu
         </button>
         <span style={{ flex: 1 }} />
         <InviteChip still={showHint} compact={narrowBand} />
-        {plus.known && !plus.isPlus && (
+        {plus.known && !plus.isPlus && plusForSale() && (
           <button type="button" className="plus-badge band-plus" onClick={() => openPaywall("home_pro_button")}>
             <span className="ui-sheen" aria-hidden />
             <svg width="15" height="15" viewBox="0 0 24 24" aria-hidden><path fill="#000" d="M12 2l3.09 6.26L22 9.27l-5 4.87l1.18 6.88L12 17.77l-6.18 3.25L7 14.14L2 9.27l6.91-1.01L12 2z" /></svg>

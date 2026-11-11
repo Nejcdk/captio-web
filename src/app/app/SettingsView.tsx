@@ -7,7 +7,7 @@ import { manageSubscriptionUrl } from "./Paywall";
 import { openPaywall } from "./paywallStore";
 import { InviteSettingsNote } from "./InviteChip";
 import { MicrophonePage } from "./MicrophonePage";
-import { isPlusNow, usePlus } from "./plus";
+import { isPlusNow, plusForSale, usePlus } from "./plus";
 import { Button, confirmCard, showErrorAlert } from "./ui";
 import { FREE_DAILY_CREDITS, creditsRemaining } from "./usage";
 import { LANGUAGES, updateSettings, useSettings } from "./settings";
@@ -133,7 +133,7 @@ function SettingsMain({ account, onPage, onBack, onSignOut, supabase }: {
         <div className="settings-head">
           <button type="button" className="icon-btn" onClick={onBack} aria-label="Back"><ChevronLeftIcon size={22} /></button>
           <h1>Settings</h1>
-          {plusKnown && !isPlus && (
+          {plusKnown && !isPlus && plusForSale() && (
             <button type="button" className="plus-badge" onClick={() => openPaywall("settings_pro_button")}>
               <span className="ui-sheen" aria-hidden />
               <svg width="15" height="15" viewBox="0 0 24 24" aria-hidden><path fill="#000" d="M12 2l3.09 6.26L22 9.27l-5 4.87l1.18 6.88L12 17.77l-6.18 3.25L7 14.14L2 9.27l6.91-1.01L12 2z" /></svg>
@@ -226,9 +226,10 @@ function SettingsMain({ account, onPage, onBack, onSignOut, supabase }: {
 // PLUS logo.
 function PlanCard({ isPlus }: { isPlus: boolean }) {
   const left = creditsRemaining();
+  const sale = plusForSale();
   useEffect(() => {
-    if (!isPlus) capture("plus_button_shown", { where: "settings_upgrade", style: "gold" });
-  }, [isPlus]);
+    if (!isPlus && sale) capture("plus_button_shown", { where: "settings_upgrade", style: "gold" });
+  }, [isPlus, sale]);
   if (isPlus) {
     return (
       <div className="plan-usage">
@@ -245,7 +246,7 @@ function PlanCard({ isPlus }: { isPlus: boolean }) {
       <span className="sub">of {FREE_DAILY_CREDITS} credits left today</span>
       <div className="track"><div className="fill" style={{ width: `${Math.max(0, Math.min(100, (100 * left) / FREE_DAILY_CREDITS))}%` }} /></div>
       <span className="reset">Resets every day at midnight</span>
-      <div style={{ alignSelf: "stretch" }}>
+      {sale && <div style={{ alignSelf: "stretch" }}>
         <Button
           label="Upgrade to Plus"
           variant="gold"
@@ -255,7 +256,7 @@ function PlanCard({ isPlus }: { isPlus: boolean }) {
             openPaywall("settings_upgrade_card");
           }}
         />
-      </div>
+      </div>}
     </div>
   );
 }

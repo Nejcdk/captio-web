@@ -7,7 +7,8 @@ import { updateRecording, type Recording, type RecordingBody, type SummaryBlock,
 import type { SpeakerTag } from "./format";
 import { getExtras, getLocal, patchLocal, setExtras } from "./local";
 import { openPaywall } from "./paywallStore";
-import { usePlus } from "./plus";
+import { showFreeUsedUp } from "./limitCard";
+import { plusForSale, usePlus } from "./plus";
 import { ensureAiConsent, showErrorAlert } from "./ui";
 import { ExportButton, openExport } from "./ExportSheet";
 import { FREE_SUMMARY_LIMIT, getFreeSummariesUsed, incrementFreeSummariesUsed } from "./usage";
@@ -203,7 +204,8 @@ async function makeAction(
   if (!isPlus && getFreeSummariesUsed() >= FREE_SUMMARY_LIMIT) {
     capture("action_gated", about);
     if (!regenerate) onAction(null);
-    openPaywall("summary_gate");
+    if (!plusForSale()) showFreeUsedUp("You've used your free summaries", "summary_gate");
+    else openPaywall("summary_gate");
     return;
   }
   // The transcript goes to the AI provider: asked once, like the app.
