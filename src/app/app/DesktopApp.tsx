@@ -454,6 +454,7 @@ function Shell({ account, onSignOut, supabaseUrl }: { account: Account; onSignOu
       deviceId: await preferredMicId(settings.microphoneId),
       isPlus: isPlusNow,
       folderId,
+      onCreditsOut: () => { void finishLiveRef.current({ limit: true }); },
     });
     setLive({ session, mode, folderId });
     if (!startedHere) { store.set(STARTED_KEY, true); setStartedHere(true); }
@@ -511,9 +512,24 @@ function Shell({ account, onSignOut, supabaseUrl }: { account: Account; onSignOu
     markInviteDue("saved_recording", own);
   };
 
-  const finishLive = async () => {
+  // `limit`: the free credits ran out (live.ts STOP_AT_CREDITS_LIMIT): saved,
+  // then the out-of-credits card over it (app: limitStopRef).
+  const finishLive = async (opts: { limit?: boolean } = {}) => {
     if (!live) return;
-    const { session, mode, folderId } = live;
+    if (finishing.current) return;
+    finishing.current = true;
+    try {
+      await finishLiveNow(live, !!opts.limit);
+    } finally {
+      finishing.current = false;
+    }
+  };
+  const finishing = useRef(false);
+  const finishLiveRef = useRef(finishLive);
+  finishLiveRef.current = finishLive;
+
+  const finishLiveNow = async (current: Live, limit: boolean) => {
+    const { session, mode, folderId } = current;
     let result: LiveResult;
     try {
       result = await session.stop();
@@ -527,6 +543,7 @@ function Shell({ account, onSignOut, supabaseUrl }: { account: Account; onSignOu
       session.clearDraft();
       void removeSessionAudio(session.audioId);
       setLive(null);
+      if (limit) setTimeout(() => showDailyLimit("start", mode), 400);
       return;
     }
     const save = async () => {
@@ -534,6 +551,7 @@ function Shell({ account, onSignOut, supabaseUrl }: { account: Account; onSignOu
         const id = await saveRecording({
           segments: result.segments, seconds: result.seconds, mode, folderId,
           targetCode: codeOf(translate.target) ?? undefined, createdAt: session.startedAt,
+          how: limit ? "limit" : undefined,
           extra: result.creditsCutAt !== null
             ? { captions_paused_seconds: result.seconds - result.creditsCutAt, captions_unlocked: result.unlocked }
             : undefined,
@@ -545,6 +563,13 @@ function Shell({ account, onSignOut, supabaseUrl }: { account: Account; onSignOu
         setRoute(r => ({ ...r, recordingId: id, settings: null, ...(folderId ? {} : { tab: "all" as HomeTab, folderId: null }) }));
         setPane("recording");
         const cut = result.creditsCutAt !== null && !isPlusNow();
+        if (limit) {
+          // Stopped by the free credits: the card over the saved recording,
+          // no folder question or rating.
+          setTimeout(() => showDailyLimit("saved", mode), 400);
+          markInviteDue("saved_recording", (library?.recordings ?? []).filter(r => !isStarterRecording(r.id)).length + 1);
+          return;
+        }
         if (!isPlusNow()) {
           // Captions stopped at the free credits: the plans right away (unless
           // just seen over the sheet); used up otherwise: the card.
@@ -702,7 +727,7 @@ function Shell({ account, onSignOut, supabaseUrl }: { account: Account; onSignOu
           session={live.session}
           translate={translate}
           onTranslate={changeTranslate}
-          onSave={finishLive}
+          onSave={() => { void finishLive(); }}
           onDelete={deleteLive}
           isPlus={plus.isPlus}
         />
