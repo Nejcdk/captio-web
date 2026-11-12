@@ -1,4 +1,5 @@
 {
+  "settings.sectionMore": "ผลิตภัณฑ์อื่นจาก Captio AI",
   "web.actions.freeSummariesUsed": "คุณใช้สรุปฟรีหมดแล้ว",
   "web.actions.working": "กำลังดำเนินการ",
   "web.captions.chipDelete": "ลบ {{name}}",

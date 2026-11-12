@@ -1,4 +1,5 @@
 {
+  "settings.sectionMore": "Captio AI のほかの製品",
   "web.actions.freeSummariesUsed": "無料の要約を使い切りました",
   "web.actions.working": "作成中",
   "web.captions.chipDelete": "{{name}}を削除",

@@ -5,7 +5,7 @@ import { locale, t } from "./i18n";
 
 // The referral program on the web (app repo: src/lib/referrals.ts,
 // inviteNudges.ts, CLAUDE.md "Cash for invites"): an invited friend's first
-// payment earns the inviter $10 (monthly) or $50 (yearly), up to $2,500 in
+// payment earns the inviter up to $10 (monthly) or $50 (yearly), never more than we receive from it, up to $2,500 in
 // all, paid by PayPal. Every rule lives in Supabase (referral_stats,
 // redeem_referral_code); this only reads the stats and shares the one link.
 
