@@ -1,0 +1,214 @@
+{
+ "slug": "how-to-fix-wrong-words-in-a-transcript",
+ "me": "Priya",
+ "folders": [
+  {
+   "id": "lectures",
+   "name": "Lectures",
+   "icon": "",
+   "color": "#1C49F5"
+  },
+  {
+   "id": "work",
+   "name": "Work",
+   "icon": "",
+   "color": "#F5A623"
+  }
+ ],
+ "recordings": [
+  {
+   "id": "bio",
+   "title": "Biology lecture: how enzymes work",
+   "emoji": "🧬",
+   "minutes": 52,
+   "ago": "2h",
+   "folder": "lectures",
+   "speakerNames": {
+    "1": "Prof. Okafor",
+    "2": "Priya"
+   },
+   "segments": [
+    {
+     "speaker": "1",
+     "text": "Today we look at enzymes, and why a small change in temperature can stop one working."
+    },
+    {
+     "speaker": "1",
+     "text": "Take amylase, the enzyme in your saliva that starts breaking starch down into sugar."
+    },
+    {
+     "speaker": "2",
+     "text": "Does that mean amylase stops working if the mouth is very cold?"
+    },
+    {
+     "speaker": "1",
+     "text": "It slows down a lot. Cold does not break the enzyme, but heat above about 45 degrees can."
+    },
+    {
+     "speaker": "1",
+     "text": "For next week, read chapter 4 and write down three questions about the lock and key model."
+    }
+   ],
+   "summary": [
+    {
+     "type": "header",
+     "emoji": "🧬",
+     "text": "How enzymes work"
+    },
+    {
+     "type": "callout",
+     "tone": "blue",
+     "title": "In short",
+     "text": "Enzymes speed up reactions in the body. Temperature changes how well they work, and strong heat can damage them for good."
+    },
+    {
+     "type": "subheader",
+     "text": "Key ideas"
+    },
+    {
+     "type": "bullet",
+     "label": "Amylase",
+     "text": "Starts breaking starch into sugar in saliva."
+    },
+    {
+     "type": "bullet",
+     "label": "Cold",
+     "text": "Slows an enzyme down but does not break it."
+    },
+    {
+     "type": "bullet",
+     "label": "Heat",
+     "text": "Above about 45 degrees an enzyme can lose its shape."
+    },
+    {
+     "type": "fact",
+     "label": "Reading",
+     "text": "Chapter 4"
+    }
+   ],
+   "actions": {
+    "key_points": [
+     {
+      "type": "header",
+      "emoji": "🔑",
+      "text": "Key points from the lecture"
+     },
+     {
+      "type": "bullet",
+      "label": "Enzymes",
+      "text": "Speed up reactions in the body."
+     },
+     {
+      "type": "bullet",
+      "label": "Amylase",
+      "text": "Breaks starch down into sugar in saliva."
+     },
+     {
+      "type": "bullet",
+      "label": "Temperature",
+      "text": "Cold slows an enzyme, strong heat can damage it."
+     },
+     {
+      "type": "bullet",
+      "label": "Lock and key",
+      "text": "The model for how an enzyme fits its target. Read chapter 4."
+     }
+    ],
+    "todos": [
+     {
+      "type": "header",
+      "emoji": "✅",
+      "text": "To-dos after the lecture"
+     },
+     {
+      "type": "todo",
+      "text": "Read chapter 4",
+      "done": false,
+      "owner": "Priya",
+      "due": "Next week"
+     },
+     {
+      "type": "todo",
+      "text": "Write down three questions about the lock and key model",
+      "done": false,
+      "owner": "Priya",
+      "due": "Next week"
+     }
+    ]
+   }
+  },
+  {
+   "id": "standup",
+   "title": "Project meeting with the lab team",
+   "emoji": "🧪",
+   "minutes": 34,
+   "ago": "1d",
+   "folder": "work",
+   "segments": [
+    {
+     "speaker": "1",
+     "text": "Let's go through the samples first, then the schedule."
+    }
+   ]
+  },
+  {
+   "id": "seminar",
+   "title": "Seminar: reading research papers",
+   "emoji": "📚",
+   "minutes": 61,
+   "ago": "3d",
+   "folder": "lectures",
+   "segments": [
+    {
+     "speaker": "1",
+     "text": "A good abstract tells you the question, the method and the result."
+    }
+   ]
+  },
+  {
+   "id": "tutor",
+   "title": "Tutorial with Dr. Lindqvist",
+   "emoji": "🎓",
+   "minutes": 28,
+   "ago": "5d",
+   "folder": "lectures",
+   "segments": [
+    {
+     "speaker": "1",
+     "text": "Bring your lab notes and we will go through them together."
+    }
+   ]
+  },
+  {
+   "id": "bus",
+   "title": "Chat on the bus",
+   "emoji": "🚌",
+   "minutes": 6,
+   "ago": "6d",
+   "segments": [
+    {
+     "speaker": "1",
+     "text": "This is my stop, see you tomorrow."
+    }
+   ]
+  }
+ ],
+ "shots": [
+  {
+   "name": "biology-lecture-captions",
+   "screen": "captions",
+   "recording": "bio"
+  },
+  {
+   "name": "biology-lecture-key-points",
+   "screen": "action",
+   "action": "key_points",
+   "recording": "bio"
+  },
+  {
+   "name": "lectures-folder",
+   "screen": "folder",
+   "folder": "lectures"
+  }
+ ]
+}

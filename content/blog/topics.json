@@ -1584,7 +1584,9 @@
         ],
         "languages": []
       },
-      "status": "queued"
+      "status": "published",
+      "slug": "how-to-fix-wrong-words-in-a-transcript",
+      "published": "2026-11-12"
     },
     {
       "id": "how-to-record-a-lecture-or-talk-without-internet-and-transcribe-it-lat",
