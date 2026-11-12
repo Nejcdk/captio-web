@@ -102,6 +102,12 @@
   },
   "captio-ai-vs-augio": {
     "zernioId": "6af50c755928f19e2f276ff9",
-    "scheduledFor": "2026-11-12T16:00:00.000Z"
+    "scheduledFor": "2026-11-12T16:00:00.000Z",
+    "status": "published",
+    "links": {
+      "instagram": "https://www.instagram.com/p/DfpcJMMijN4/",
+      "facebook": "https://www.facebook.com/1440848572436552_122121347469497570"
+    },
+    "checkedAt": "2026-11-12T23:39:55.538Z"
   }
 }
