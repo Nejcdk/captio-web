@@ -1,13 +1,18 @@
 [
  {
-  "page": "/blog/hearing-loss-statistics-in-germany",
+  "page": "/blog/how-to-fix-wrong-words-in-a-transcript",
   "type": "blog",
   "post": null
  },
  {
+  "page": "/blog/hearing-loss-statistics-in-germany",
+  "type": "blog",
+  "post": "hearing-loss-statistics-in-germany"
+ },
+ {
   "page": "/blog/how-to-follow-a-doctor-s-appointment-when-you-are-hard-of-hearing",
   "type": "blog",
-  "post": null
+  "post": "how-to-follow-a-doctor-s-appointment-when-you-are-hard-of-hearing"
  },
  {
   "page": "/blog/captio-ai-vs-google-live-transcribe",
