@@ -3,7 +3,7 @@ title: "How many people in the US have hearing loss? 2026 statistics"
 description: "Between 30 and 72.9 million Americans have hearing loss, depending on how you count. The main US figures from NIH, CDC, Census and Johns Hopkins, explained."
 category: data
 published: 2026-10-21
-updated: 2026-10-21
+updated: 2026-11-12
 author: nate
 tags: [hearing loss statistics us, how many americans have hearing loss, deaf population us, hearing aid use]
 answer: "About 1 in 5 Americans has hearing loss. Hearing tests in 2001 to 2008 found 48.1 million people aged 12 and over with hearing loss in at least one ear, 30 million in both ears. In 2012, 37.5 million adults reported some trouble hearing, and in 2024, 3.7% of Americans said they are deaf or have serious difficulty hearing. In 2021, nearly two in three adults aged 71 and over had hearing loss."
@@ -137,4 +137,8 @@ Roughly 10% of US adults, about 25 million people, have had tinnitus lasting at 
 
 Most of the tens of millions of Americans with hearing loss are not deaf. Most US hearing loss is mild, which the Global Burden of Disease study describes as great difficulty hearing and understanding another person talking in a noisy place [3], and most adults who could benefit from hearing aids have never used them [1]. The places where that matters most are ordinary ones: a [doctor's appointment](/use-cases/doctor-appointments), a pharmacy counter, a classroom, a family dinner.
 
+![Captio AI captions of a pharmacy counter pickup in the US: the pharmacist explains taking a prescription with breakfast](/blog-images/hearing-loss-statistics-us/captio-ai-us-pharmacy-counter-captions.webp "Live captions of a pharmacy counter conversation. Sample content.")
+
 Captio AI, a live captioning app for deaf and hard of hearing people, is one of the tools for those moments. Its [Live Captions](/live-captions) show what people around you say as text on your phone while they are still talking, in 60+ languages including [English](/english), on iPhone and Android.
+
+![Captio AI captions of a town council meeting in the US, with the council chair and a resident speaking](/blog-images/hearing-loss-statistics-us/captio-ai-us-town-council-meeting-captions.webp "A town council meeting saved as a transcript. Sample content.")

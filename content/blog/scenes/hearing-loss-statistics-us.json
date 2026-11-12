@@ -1,0 +1,122 @@
+{
+ "slug": "hearing-loss-statistics-us",
+ "me": "Dana",
+ "folders": [
+  {
+   "id": "errands",
+   "name": "Errands",
+   "icon": "",
+   "color": "#1C49F5"
+  }
+ ],
+ "recordings": [
+  {
+   "id": "pharmacy",
+   "title": "Pharmacy counter pickup",
+   "emoji": "💊",
+   "minutes": 4,
+   "ago": "1h",
+   "folder": "errands",
+   "speakerNames": {
+    "1": "Pharmacist",
+    "2": "Dana"
+   },
+   "segments": [
+    {
+     "speaker": "1",
+     "text": "Hi Dana, your prescription is ready. Do you have any questions about it?"
+    },
+    {
+     "speaker": "2",
+     "text": "Yes, should I take it with food?"
+    },
+    {
+     "speaker": "1",
+     "text": "With breakfast is best. The label on the bag says the same, and my number is on it if you want to call."
+    },
+    {
+     "speaker": "2",
+     "text": "Thank you. Can you write the pickup time for the next refill on the bag?"
+    }
+   ]
+  },
+  {
+   "id": "council",
+   "title": "Town council meeting",
+   "emoji": "🏛️",
+   "minutes": 74,
+   "ago": "2d",
+   "folder": "errands",
+   "speakerNames": {
+    "1": "Council chair",
+    "2": "Resident"
+   },
+   "segments": [
+    {
+     "speaker": "1",
+     "text": "We move on to item four, the proposed change to the library's opening hours."
+    },
+    {
+     "speaker": "2",
+     "text": "Could the library stay open until eight on Thursdays? Many of us work late."
+    },
+    {
+     "speaker": "1",
+     "text": "We will note that request and take a vote at the next meeting."
+    }
+   ]
+  },
+  {
+   "id": "dmv",
+   "title": "Renewing my license",
+   "emoji": "🪪",
+   "minutes": 9,
+   "ago": "4d",
+   "folder": "errands",
+   "segments": [
+    {
+     "speaker": "1",
+     "text": "Please step up to window three."
+    }
+   ]
+  },
+  {
+   "id": "church",
+   "title": "Sunday service",
+   "emoji": "⛪",
+   "minutes": 58,
+   "ago": "5d",
+   "segments": [
+    {
+     "speaker": "1",
+     "text": "Welcome, everyone. Please open your books to page twelve."
+    }
+   ]
+  },
+  {
+   "id": "dinner",
+   "title": "Dinner with the neighbours",
+   "emoji": "🍝",
+   "minutes": 80,
+   "ago": "6d",
+   "segments": [
+    {
+     "speaker": "1",
+     "text": "Who wants more pasta? There is plenty."
+    }
+   ]
+  }
+ ],
+ "shots": [
+  {
+   "name": "us-pharmacy-counter-captions",
+   "screen": "captions",
+   "recording": "pharmacy"
+  },
+  {
+   "name": "us-town-council-meeting-captions",
+   "screen": "captions",
+   "recording": "council"
+  }
+ ]
+}
