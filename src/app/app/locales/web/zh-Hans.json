@@ -1,4 +1,5 @@
 {
+  "settings.sectionMore": "Captio AI 的更多产品",
   "web.actions.freeSummariesUsed": "免费摘要已用完",
   "web.actions.working": "正在处理",
   "web.captions.chipDelete": "删除 {{name}}",

@@ -1,4 +1,5 @@
 {
+  "settings.sectionMore": "עוד מ-Captio AI",
   "web.actions.freeSummariesUsed": "ניצלתם את הסיכומים החינמיים",
   "web.actions.working": "בתהליך",
   "web.captions.chipDelete": "{{name}}, מחיקה",
@@ -73,8 +74,8 @@
   "web.player.saveAudio": "שמירת האודיו",
   "web.player.speed": "מהירות ההפעלה",
   "web.rating.stars_one": "כוכב אחד",
-  "web.rating.stars_two": "שני כוכבים",
   "web.rating.stars_other": "{{count}} כוכבים",
+  "web.rating.stars_two": "שני כוכבים",
   "web.recording.connectionGapNote": "חלק מההקלטה הזו נעשה בלי חיבור ועדיין לא תומלל.",
   "web.recording.copy": "העתקה",
   "web.recording.emptyBody": "ההקלטות שלכם יופיעו כאן ברגע שהן נשמרות.",
@@ -107,8 +108,8 @@
   "web.upload.tooBigBody": "הוא עדיין מעל 50MB גם אחרי שהקטנו אותו. נסו קובץ קצר יותר, או רק את הקול (קובץ אודיו במקום הווידאו).",
   "web.upload.tooBigTitle": "הקובץ גדול מדי",
   "web.upload.tooLongBody_one": "הוא באורך דקה אחת. אפשר להעלות קבצים של עד 5 שעות. נסו חלק קצר יותר ממנו.",
-  "web.upload.tooLongBody_two": "הוא באורך שתי דקות. אפשר להעלות קבצים של עד 5 שעות. נסו חלק קצר יותר ממנו.",
   "web.upload.tooLongBody_other": "הוא באורך {{count}} דקות. אפשר להעלות קבצים של עד 5 שעות. נסו חלק קצר יותר ממנו.",
+  "web.upload.tooLongBody_two": "הוא באורך שתי דקות. אפשר להעלות קבצים של עד 5 שעות. נסו חלק קצר יותר ממנו.",
   "web.upload.tooLongTitle": "הקובץ ארוך מדי",
   "web.vote.feedbackLabel": "המשוב שלכם",
   "web.wordFix.hintDoubleClick": "לחיצה כפולה לתיקון ושמירה של המילה הנכונה"

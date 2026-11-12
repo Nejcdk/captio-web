@@ -14,8 +14,8 @@ import { Button, CloseButton, ModalCard, QuietButton, isCardOpen, showCard } fro
 import { locale, t } from "./i18n";
 
 // The referral page (app: InviteScreen, Nejc 2026-10-30): "Referral program",
-// what you've earned (from $0 on; a tap is only confetti), $10 for each friend
-// who buys monthly and $50 for yearly (both tiles share the link), the meter
+// what you've earned (from $0 on; a tap is only confetti), up to $10 for each friend
+// who buys monthly and up to $50 for yearly (both tiles share the link), the meter
 // up to the most anyone can earn, and the one link with Share. Under it "How
 // does it work?" and "Got a code from a friend?". A full-window page over the
 // app, like the paywall. Nothing at all where the cash can't be paid.
@@ -196,10 +196,12 @@ function InviteScreen({ source }: { source: string }) {
         {/* The paywall's two colours. People tap what looks like money, so both share. */}
         <div className="invite-tiles">
           <button type="button" className="invite-tile monthly" disabled={!stats} onClick={() => onShare("monthly_tile")}>
+            <span className="label">{t("invite.page.upTo")}</span>
             <span className="amount">{formatUsd(monthlyUsd)}</span>
             <span className="label">{t("invite.page.monthly")}</span>
           </button>
           <button type="button" className="invite-tile yearly" disabled={!stats} onClick={() => onShare("yearly_tile")}>
+            <span className="label">{t("invite.page.upTo")}</span>
             <span className="amount">{formatUsd(yearlyUsd)}</span>
             <span className="label">{t("invite.page.yearly")}</span>
           </button>
