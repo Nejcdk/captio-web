@@ -112,6 +112,12 @@
   },
   "hearing-loss-statistics-in-germany": {
     "zernioId": "6af7209fa13044440b1dba72",
-    "scheduledFor": "2026-11-13T16:00:00.000Z"
+    "scheduledFor": "2026-11-13T16:00:00.000Z",
+    "status": "published",
+    "links": {
+      "instagram": "https://www.instagram.com/p/DfsA4tlDIfu/",
+      "facebook": "https://www.facebook.com/1440848572436552_122121856515497570"
+    },
+    "checkedAt": "2026-11-13T23:36:03.455Z"
   }
 }
