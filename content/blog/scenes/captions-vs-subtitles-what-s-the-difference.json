@@ -1,0 +1,59 @@
+{
+  "slug": "captions-vs-subtitles-what-s-the-difference",
+  "me": "Ellis",
+  "folders": [
+    { "id": "family", "name": "Family", "icon": "heart", "color": "#FF6FAE" },
+    { "id": "trip", "name": "Trip to Rome", "icon": "", "color": "#F5A623" }
+  ],
+  "recordings": [
+    {
+      "id": "film",
+      "title": "Film night with Grandad",
+      "emoji": "🎬",
+      "minutes": 38,
+      "ago": "1h",
+      "folder": "family",
+      "speakerNames": { "1": "Grandad", "2": "Ellis", "3": "Nora" },
+      "segments": [
+        { "speaker": "1", "language": "en", "text": "Shall we put the film on, or do you want tea first?" },
+        { "speaker": "3", "language": "en", "text": "Tea first. Ellis, can you read this out? The captions are on." },
+        { "speaker": "2", "language": "en", "text": "I can read it on the phone. It shows who is talking, which helps." },
+        { "speaker": "1", "language": "en", "text": "Good. Then nobody has to repeat the jokes." },
+        { "speaker": "3", "language": "en", "text": "Nobody repeats them in this house. They are too bad." }
+      ]
+    },
+    {
+      "id": "station",
+      "title": "Asking at the station in Rome",
+      "emoji": "🚆",
+      "minutes": 4,
+      "ago": "2d",
+      "folder": "trip",
+      "segments": [
+        { "speaker": "1", "language": "en", "text": "The train to Florence leaves from platform 7, in about ten minutes.", "original": { "language": "it", "text": "Il treno per Firenze parte dal binario 7, tra circa dieci minuti." } },
+        { "speaker": "2", "language": "en", "text": "Thank you. Do I need to stamp the ticket?" },
+        { "speaker": "1", "language": "en", "text": "No, it is already valid. Have a good trip.", "original": { "language": "it", "text": "No, è già valido. Buon viaggio." } }
+      ]
+    },
+    {
+      "id": "lecture",
+      "title": "History lecture: the printing press",
+      "emoji": "📜",
+      "minutes": 50,
+      "ago": "3d",
+      "segments": [ { "speaker": "1", "text": "Today we look at how the printing press changed who could read." } ]
+    },
+    {
+      "id": "pharmacy",
+      "title": "Pharmacy counter",
+      "emoji": "💊",
+      "minutes": 3,
+      "ago": "5d",
+      "segments": [ { "speaker": "1", "text": "Take one tablet with food, twice a day." } ]
+    }
+  ],
+  "shots": [
+    { "name": "film-night-captions-with-speaker-names", "screen": "captions", "recording": "film" },
+    { "name": "italian-to-english-station-translation", "screen": "captions", "recording": "station" }
+  ]
+}
