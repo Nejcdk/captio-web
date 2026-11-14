@@ -1,0 +1,56 @@
+{
+  "slug": "best-live-caption-apps-for-deaf-people",
+  "me": "Jo",
+  "folders": [
+    { "id": "family", "name": "Family", "icon": "heart", "color": "#FF6FAE" },
+    { "id": "uni", "name": "University", "icon": "", "color": "#1C49F5" }
+  ],
+  "recordings": [
+    {
+      "id": "cafe",
+      "title": "Coffee with Priya",
+      "emoji": "☕",
+      "minutes": 22,
+      "ago": "40m",
+      "folder": "family",
+      "speakerNames": { "1": "Priya", "2": "Jo" },
+      "segments": [
+        { "speaker": "1", "language": "en", "text": "Have you tried the new caption app your sister told you about?" },
+        { "speaker": "2", "language": "en", "text": "Yes. I put the phone on the table, and it follows you word by word." },
+        { "speaker": "1", "language": "en", "text": "Does it know who is talking when Dan joins us?" },
+        { "speaker": "2", "language": "en", "text": "It marks each speaker, so I can tell your lines from his." },
+        { "speaker": "1", "language": "en", "text": "Good. Then I will stop repeating myself." }
+      ]
+    },
+    {
+      "id": "seminar",
+      "title": "Seminar: climate and cities",
+      "emoji": "🌍",
+      "minutes": 55,
+      "ago": "1d",
+      "folder": "uni",
+      "segments": [ { "speaker": "1", "text": "Today we compare how three cities plan for heat." } ]
+    },
+    {
+      "id": "gp",
+      "title": "Check-up at the GP",
+      "emoji": "🩺",
+      "minutes": 12,
+      "ago": "3d",
+      "segments": [ { "speaker": "1", "text": "Your blood pressure is fine. Come back in six months." } ]
+    },
+    {
+      "id": "dinner",
+      "title": "Sunday dinner",
+      "emoji": "🍝",
+      "minutes": 48,
+      "ago": "5d",
+      "folder": "family",
+      "segments": [ { "speaker": "1", "text": "Who wants more pasta?" } ]
+    }
+  ],
+  "shots": [
+    { "name": "coffee-with-a-friend-live-captions-with-names", "screen": "captions", "recording": "cafe" },
+    { "name": "saved-caption-recordings-in-a-list", "screen": "home" }
+  ]
+}
