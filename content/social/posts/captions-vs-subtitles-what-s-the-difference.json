@@ -1,0 +1,26 @@
+{
+  "id": "captions-vs-subtitles-what-s-the-difference",
+  "pageType": "blog",
+  "page": "/blog/captions-vs-subtitles-what-s-the-difference",
+  "question": "Are captions and subtitles the same thing?",
+  "slides": [
+    "Captions carry *sounds too.*",
+    "Plain subtitles are *for hearing viewers.*"
+  ],
+  "description": [
+    "Captions and subtitles differ in the US and Canada: captions are made for people who cannot hear, subtitles for people who can hear but do not know the language.",
+    "The W3C says the terms captions and subtitles are used for the same thing in different regions of the world.",
+    "The W3C also says captions are needed for accessibility, whereas subtitles in other languages are not directly an accessibility accommodation.",
+    "According to 3Play Media, closed captions communicate all audio information, including sound effects and speaker IDs.",
+    "SDH stands for subtitles for the deaf and hard of hearing, and 3Play Media says it adds music, sound effects and speaker identification to subtitles.",
+    "US television captions must be accurate, synchronous, complete and appropriately placed, according to the FCC rule at 47 CFR 79.1.",
+    "The FCC caption rule at 47 CFR 79.1 sets standards for television programming, not for phone apps.",
+    "Captio AI is a live captions app made for deaf and hard of hearing people, and it turns speech in the room into text while people are still talking.",
+    "Captions made live by Captio AI can contain mistakes, and Captio AI is one tool among others, not a replacement for a human captioner."
+  ],
+  "hashtags": [
+    "#Captions",
+    "#HardOfHearing",
+    "#Accessibility"
+  ]
+}

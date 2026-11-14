@@ -14,3 +14,4 @@ One line per run of the daily writer (DAILY.md).
 - 2026-11-11: written none; buffer full (10 waiting). Nothing for Nejc.
 - 2026-11-12: written hearing-loss-statistics-in-germany, how-to-follow-a-doctor-s-appointment-when-you-are-hard-of-hearing; blocked none; 2 review rounds (round 1 fixed an 'almost one third' slide shown as '1 in 3', an ambiguous 'plan' slide and two HLAA paraphrases; round 2 PASS); buffer was 8 waiting, so 2 written. HLAA PDF read via text extraction of the fetched file. Nothing for Nejc.
 - 2026-11-13: written none; buffer full (10 waiting). Nothing for Nejc.
+- 2026-11-14: written captions-vs-subtitles-what-s-the-difference; blocked none; 3 review rounds (round 1 fixed slide 'Subtitles usually translate speech' and an own legal conclusion about phone apps; round 2 fixed a slide contradicting SDH; round 3 PASS); buffer was 9 waiting, so 1 written. Nothing for Nejc.
