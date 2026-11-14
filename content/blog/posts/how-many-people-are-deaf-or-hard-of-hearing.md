@@ -3,7 +3,7 @@ title: "How many people are deaf or hard of hearing? The 2026 numbers"
 description: "1.57 billion people live with some hearing loss and 430 million need care for it. Global, US and UK figures from the WHO, The Lancet and national surveys."
 category: data
 published: 2026-10-21
-updated: 2026-10-21
+updated: 2026-11-14
 author: nate
 tags: [hearing loss statistics, deaf population, hard of hearing, WHO]
 answer: "About 1.57 billion people, one in five worldwide, had some degree of hearing loss in 2019, according to the Global Burden of Disease study that the WHO's figures use. Around 430 million of them have disabling hearing loss that needs care, including 34 million children, and more than 70 million people are deaf. As the world's population grows and ages, nearly 2.5 billion people, one in four, are expected to have hearing loss by 2050."
@@ -131,4 +131,8 @@ Care is affordable at scale. The WHO estimates that less than US$1.40 extra per 
 
 Most of the 1.57 billion people with hearing loss are not deaf. They hear some speech, rely on spoken language, and lose words when people talk fast, turn away, speak over each other or sit in a noisy room. For them, the WHO lists captioning alongside hearing aids and cochlear implants as a way to follow spoken language [2], and its 2021 report names captioning and sign language interpretation as services that improve access to communication and education [6].
 
-Captioning used to mean a trained captioner or a TV with subtitles. Today a phone can do it in the moment. Captio AI, a live captioning app for deaf and hard of hearing people, is one of these tools: its [Live Captions](/live-captions) show what people say as text on your phone while they are still talking, in more than 60 languages, so you can follow a [doctor's appointment](/use-cases/doctor-appointments), a [lecture](/use-cases/lectures) or a [dinner with friends](/use-cases/group-settings) without asking everyone to repeat themselves. More ways to make conversations work between deaf and hearing people are on our page about [communicating with deaf and hard of hearing people](/use-cases/deaf-hoh-communication).
+Captioning used to mean a trained captioner or a TV with subtitles. Today a phone can do it in the moment. Captio AI, a live captioning app for deaf and hard of hearing people, is one of these tools: its [Live Captions](/live-captions) show what people say as text on your phone while they are still talking, in more than 60 languages, so you can follow a [doctor's appointment](/use-cases/doctor-appointments), a [lecture](/use-cases/lectures) or a [dinner with friends](/use-cases/group-settings) without asking everyone to repeat themselves.
+
+![Captio AI Live Captions at a Sunday lunch, with Tom, Rosa and Ella named above their lines, for someone who lost words at a busy table](/blog-images/how-many-people-are-deaf-or-hard-of-hearing/captio-ai-sunday-lunch-live-captions-with-names.webp "Captio AI Live Captions at a family lunch, with speaker names. Sample content.")
+
+![Captio AI recordings list with a family lunch, a hearing check at the clinic and a book club, kept in the app for later](/blog-images/how-many-people-are-deaf-or-hard-of-hearing/captio-ai-saved-recordings-for-family-and-health.webp "Captio AI keeps each conversation in a searchable list. Sample content.") More ways to make conversations work between deaf and hearing people are on our page about [communicating with deaf and hard of hearing people](/use-cases/deaf-hoh-communication).

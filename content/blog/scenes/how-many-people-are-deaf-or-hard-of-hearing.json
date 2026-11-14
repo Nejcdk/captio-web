@@ -1,0 +1,46 @@
+{
+  "slug": "how-many-people-are-deaf-or-hard-of-hearing",
+  "me": "Rosa",
+  "folders": [
+    { "id": "family", "name": "Family", "icon": "heart", "color": "#FF6FAE" },
+    { "id": "health", "name": "Health", "icon": "", "color": "#2BB673" }
+  ],
+  "recordings": [
+    {
+      "id": "lunch",
+      "title": "Sunday lunch with the grandchildren",
+      "emoji": "🍲",
+      "minutes": 41,
+      "ago": "2h",
+      "folder": "family",
+      "speakerNames": { "1": "Tom", "2": "Rosa", "3": "Ella" },
+      "segments": [
+        { "speaker": "1", "language": "en", "text": "Grandma, Ella got the top mark in her spelling test." },
+        { "speaker": "2", "language": "en", "text": "I read it on the screen. Well done, Ella." },
+        { "speaker": "3", "language": "en", "text": "Thank you. Can I have more potatoes, please?" },
+        { "speaker": "1", "language": "en", "text": "Pass them down. Rosa, do you want some too?" }
+      ]
+    },
+    {
+      "id": "clinic",
+      "title": "Hearing check at the clinic",
+      "emoji": "👂",
+      "minutes": 18,
+      "ago": "4d",
+      "folder": "health",
+      "segments": [ { "speaker": "1", "text": "We will play a series of beeps. Raise your hand when you hear one." } ]
+    },
+    {
+      "id": "club",
+      "title": "Book club",
+      "emoji": "📚",
+      "minutes": 63,
+      "ago": "6d",
+      "segments": [ { "speaker": "1", "text": "Let us start with the ending. Did it surprise you?" } ]
+    }
+  ],
+  "shots": [
+    { "name": "sunday-lunch-live-captions-with-names", "screen": "captions", "recording": "lunch" },
+    { "name": "saved-recordings-for-family-and-health", "screen": "home" }
+  ]
+}
